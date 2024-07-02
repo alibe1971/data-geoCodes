@@ -1,0 +1,1528 @@
+{
+    "AD": {
+        "demonyms": [
+            "Andorrans"
+        ],
+        "NOTES": []
+    },
+    "AE": {
+        "demonyms": [
+            "Emiratis",
+            "Emaratians"
+        ],
+        "NOTES": []
+    },
+    "AF": {
+        "demonyms": [
+            "Afghans"
+        ],
+        "NOTES": []
+    },
+    "AG": {
+        "demonyms": [
+            "Antiguans",
+            "Barbudans"
+        ],
+        "NOTES": []
+    },
+    "AI": {
+        "demonyms": [
+            "Anguillans"
+        ],
+        "NOTES": []
+    },
+    "AL": {
+        "demonyms": [
+            "Albanians"
+        ],
+        "NOTES": []
+    },
+    "AM": {
+        "demonyms": [
+            "Armenians"
+        ],
+        "NOTES": []
+    },
+    "AO": {
+        "demonyms": [
+            "Angolans"
+        ],
+        "NOTES": []
+    },
+    "AQ": {
+        "demonyms": [],
+        "NOTES": []
+    },
+    "AR": {
+        "demonyms": [
+            "Argentinians"
+        ],
+        "NOTES": []
+    },
+    "AS": {
+        "demonyms": [
+            "Samoans"
+        ],
+        "NOTES": []
+    },
+    "AT": {
+        "demonyms": [
+            "Austrians"
+        ],
+        "NOTES": []
+    },
+    "AU": {
+        "demonyms": [
+            "Australians"
+        ],
+        "NOTES": []
+    },
+    "AW": {
+        "demonyms": [
+            "Arubans"
+        ],
+        "NOTES": []
+    },
+    "AX": {
+        "demonyms": [
+            "Åland Islanders"
+        ],
+        "NOTES": []
+    },
+    "AZ": {
+        "demonyms": [
+            "Azerbaijanis"
+        ],
+        "NOTES": []
+    },
+    "BA": {
+        "demonyms": [
+            "Bosnians",
+            "Herzegovinians"
+        ],
+        "NOTES": []
+    },
+    "BB": {
+        "demonyms": [
+            "Barbadians"
+        ],
+        "NOTES": []
+    },
+    "BD": {
+        "demonyms": [
+            "Bangladeshis"
+        ],
+        "NOTES": []
+    },
+    "BE": {
+        "demonyms": [
+            "Belgians"
+        ],
+        "NOTES": []
+    },
+    "BF": {
+        "demonyms": [
+            "Burkinabés"
+        ],
+        "NOTES": []
+    },
+    "BG": {
+        "demonyms": [
+            "Bulgarians"
+        ],
+        "NOTES": []
+    },
+    "BH": {
+        "demonyms": [
+            "Bahrainis"
+        ],
+        "NOTES": []
+    },
+    "BI": {
+        "demonyms": [
+            "Burundians"
+        ],
+        "NOTES": []
+    },
+    "BJ": {
+        "demonyms": [
+            "Beninese"
+        ],
+        "NOTES": []
+    },
+    "BL": {
+        "demonyms": [
+            "Barthélemois",
+            "Saint Barthélemy Islanders"
+        ],
+        "NOTES": []
+    },
+    "BM": {
+        "demonyms": [
+            "Bermudians"
+        ],
+        "NOTES": []
+    },
+    "BN": {
+        "demonyms": [
+            "Bruneians"
+        ],
+        "NOTES": []
+    },
+    "BO": {
+        "demonyms": [
+            "Bolivians"
+        ],
+        "NOTES": []
+    },
+    "BQ": {
+        "demonyms": [
+            "Bonaireans",
+            "Saba Islanders",
+            "Sabans",
+            "Sint Eustatians"
+        ],
+        "NOTES": []
+    },
+    "BR": {
+        "demonyms": [
+            "Brazilians"
+        ],
+        "NOTES": []
+    },
+    "BS": {
+        "demonyms": [
+            "Bahamians"
+        ],
+        "NOTES": []
+    },
+    "BT": {
+        "demonyms": [
+            "Bhutanese"
+        ],
+        "NOTES": []
+    },
+    "BV": {
+        "demonyms": [
+            "Bouvet Islanders"
+        ],
+        "NOTES": []
+    },
+    "BW": {
+        "demonyms": [
+            "Batswana"
+        ],
+        "NOTES": []
+    },
+    "BY": {
+        "demonyms": [
+            "Belarusians"
+        ],
+        "NOTES": []
+    },
+    "BZ": {
+        "demonyms": [
+            "Belizeans"
+        ],
+        "NOTES": []
+    },
+    "CA": {
+        "demonyms": [
+            "Canadians"
+        ],
+        "NOTES": []
+    },
+    "CC": {
+        "demonyms": [
+            "Cocosian",
+            "Cocos Islanders"
+        ],
+        "NOTES": []
+    },
+    "CD": {
+        "demonyms": [
+            "Congolese"
+        ],
+        "NOTES": []
+    },
+    "CF": {
+        "demonyms": [
+            "Central Africans"
+        ],
+        "NOTES": []
+    },
+    "CG": {
+        "demonyms": [
+            "Congolese"
+        ],
+        "NOTES": []
+    },
+    "CH": {
+        "demonyms": [
+            "Swiss"
+        ],
+        "NOTES": []
+    },
+    "CI": {
+        "demonyms": [
+            "Ivorians"
+        ],
+        "NOTES": []
+    },
+    "CK": {
+        "demonyms": [
+            "Cook Islanders"
+        ],
+        "NOTES": []
+    },
+    "CL": {
+        "demonyms": [
+            "Chileans"
+        ],
+        "NOTES": []
+    },
+    "CM": {
+        "demonyms": [
+            "Cameroonians"
+        ],
+        "NOTES": []
+    },
+    "CN": {
+        "demonyms": [
+            "Chinese"
+        ],
+        "NOTES": []
+    },
+    "CO": {
+        "demonyms": [
+            "Colombians"
+        ],
+        "NOTES": []
+    },
+    "CR": {
+        "demonyms": [
+            "Costa Ricans"
+        ],
+        "NOTES": []
+    },
+    "CU": {
+        "demonyms": [
+            "Cubans"
+        ],
+        "NOTES": []
+    },
+    "CV": {
+        "demonyms": [
+            "Cape Verdeans"
+        ],
+        "NOTES": []
+    },
+    "CW": {
+        "demonyms": [
+            "Curaçaoans"
+        ],
+        "NOTES": []
+    },
+    "CX": {
+        "demonyms": [
+            "Christmas Islanders"
+        ],
+        "NOTES": []
+    },
+    "CY": {
+        "demonyms": [
+            "Cypriots"
+        ],
+        "NOTES": []
+    },
+    "CZ": {
+        "demonyms": [
+            "Czechs"
+        ],
+        "NOTES": []
+    },
+    "DE": {
+        "demonyms": [
+            "Germans"
+        ],
+        "NOTES": []
+    },
+    "DJ": {
+        "demonyms": [
+            "Djiboutians"
+        ],
+        "NOTES": []
+    },
+    "DK": {
+        "demonyms": [
+            "Danes"
+        ],
+        "NOTES": []
+    },
+    "DM": {
+        "demonyms": [
+            "Dominicans"
+        ],
+        "NOTES": []
+    },
+    "DO": {
+        "demonyms": [
+            "Dominicans"
+        ],
+        "NOTES": []
+    },
+    "DZ": {
+        "demonyms": [
+            "Algerians"
+        ],
+        "NOTES": []
+    },
+    "EC": {
+        "demonyms": [
+            "Ecuadorians"
+        ],
+        "NOTES": []
+    },
+    "EE": {
+        "demonyms": [
+            "Estonians"
+        ],
+        "NOTES": []
+    },
+    "EG": {
+        "demonyms": [
+            "Egyptians"
+        ],
+        "NOTES": []
+    },
+    "EH": {
+        "demonyms": [
+            "Sahrawis",
+            "Western Saharans"
+        ],
+        "NOTES": []
+    },
+    "ER": {
+        "demonyms": [
+            "Eritreans"
+        ],
+        "NOTES": []
+    },
+    "ES": {
+        "demonyms": [
+            "Spaniards"
+        ],
+        "NOTES": []
+    },
+    "ET": {
+        "demonyms": [
+            "Ethiopians"
+        ],
+        "NOTES": []
+    },
+    "FI": {
+        "demonyms": [
+            "Finns"
+        ],
+        "NOTES": []
+    },
+    "FJ": {
+        "demonyms": [
+            "Fijians"
+        ],
+        "NOTES": []
+    },
+    "FK": {
+        "demonyms": [
+            "Falkland Islanders"
+        ],
+        "NOTES": []
+    },
+    "FM": {
+        "demonyms": [
+            "Micronesians"
+        ],
+        "NOTES": []
+    },
+    "FO": {
+        "demonyms": [
+            "Faroese"
+        ],
+        "NOTES": []
+    },
+    "FR": {
+        "demonyms": [
+            "French"
+        ],
+        "NOTES": []
+    },
+    "GA": {
+        "demonyms": [
+            "Gabonese"
+        ],
+        "NOTES": []
+    },
+    "GB": {
+        "demonyms": [
+            "British",
+            "English",
+            "Scottish",
+            "Welsh",
+            "Irish",
+            "Northern Irish"
+        ],
+        "NOTES": []
+    },
+    "GD": {
+        "demonyms": [
+            "Grenadians"
+        ],
+        "NOTES": []
+    },
+    "GE": {
+        "demonyms": [
+            "Georgians"
+        ],
+        "NOTES": []
+    },
+    "GF": {
+        "demonyms": [
+            "French Guianese"
+        ],
+        "NOTES": []
+    },
+    "GG": {
+        "demonyms": [
+            "Channel Islanders",
+            "Guernsey Islanders"
+        ],
+        "NOTES": []
+    },
+    "GH": {
+        "demonyms": [
+            "Ghanaians"
+        ],
+        "NOTES": []
+    },
+    "GI": {
+        "demonyms": [
+            "Gibraltarians"
+        ],
+        "NOTES": []
+    },
+    "GL": {
+        "demonyms": [
+            "Greenlanders"
+        ],
+        "NOTES": []
+    },
+    "GM": {
+        "demonyms": [
+            "Gambians"
+        ],
+        "NOTES": []
+    },
+    "GN": {
+        "demonyms": [
+            "Guineans"
+        ],
+        "NOTES": []
+    },
+    "GP": {
+        "demonyms": [
+            "Guadeloupeans"
+        ],
+        "NOTES": []
+    },
+    "GQ": {
+        "demonyms": [
+            "Equatorial Guineans"
+        ],
+        "NOTES": []
+    },
+    "GR": {
+        "demonyms": [
+            "Greeks"
+        ],
+        "NOTES": []
+    },
+    "GS": {
+        "demonyms": [
+            "South Georgians",
+            "South Sandwich Islanders"
+        ],
+        "NOTES": []
+    },
+    "GT": {
+        "demonyms": [
+            "Guatemalans"
+        ],
+        "NOTES": []
+    },
+    "GU": {
+        "demonyms": [
+            "Guamanians"
+        ],
+        "NOTES": []
+    },
+    "GW": {
+        "demonyms": [
+            "Bissau-Guineans"
+        ],
+        "NOTES": []
+    },
+    "GY": {
+        "demonyms": [
+            "Guyanese"
+        ],
+        "NOTES": []
+    },
+    "HK": {
+        "demonyms": [
+            "Hong Kongers",
+            "Hongkongers"
+        ],
+        "NOTES": []
+    },
+    "HM": {
+        "demonyms": [
+        ],
+        "NOTES": []
+    },
+    "HN": {
+        "demonyms": [
+            "Hondurans"
+        ],
+        "NOTES": []
+    },
+    "HR": {
+        "demonyms": [
+            "Croatians"
+        ],
+        "NOTES": []
+    },
+    "HT": {
+        "demonyms": [
+            "Haitians"
+        ],
+        "NOTES": []
+    },
+    "HU": {
+        "demonyms": [
+            "Hungarians"
+        ],
+        "NOTES": []
+    },
+    "ID": {
+        "demonyms": [
+            "Indonesians"
+        ],
+        "NOTES": []
+    },
+    "IE": {
+        "demonyms": [
+            "Irish"
+        ],
+        "NOTES": []
+    },
+    "IL": {
+        "demonyms": [
+            "Israelis"
+        ],
+        "NOTES": []
+    },
+    "IM": {
+        "demonyms": [
+            "Manx"
+        ],
+        "NOTES": []
+    },
+    "IN": {
+        "demonyms": [
+            "Indians"
+        ],
+        "NOTES": []
+    },
+    "IO": {
+        "demonyms": [
+            "British Indians"
+        ],
+        "NOTES": []
+    },
+    "IQ": {
+        "demonyms": [
+            "Iraqis"
+        ],
+        "NOTES": []
+    },
+    "IR": {
+        "demonyms": [
+            "Iranians"
+        ],
+        "NOTES": []
+    },
+    "IS": {
+        "demonyms": [
+            "Icelanders"
+        ],
+        "NOTES": []
+    },
+    "IT": {
+        "demonyms": [
+            "Italians"
+        ],
+        "NOTES": []
+    },
+    "JE": {
+        "demonyms": [
+            "Channel Islanders",
+            "Jersey Islanders"
+        ],
+        "NOTES": []
+    },
+    "JM": {
+        "demonyms": [
+            "Jamaicans"
+        ],
+        "NOTES": []
+    },
+    "JO": {
+        "demonyms": [
+            "Jordanians"
+        ],
+        "NOTES": []
+    },
+    "JP": {
+        "demonyms": [
+            "Japanese"
+        ],
+        "NOTES": []
+    },
+    "KE": {
+        "demonyms": [
+            "Kenyans"
+        ],
+        "NOTES": []
+    },
+    "KG": {
+        "demonyms": [
+            "Kyrgyz"
+        ],
+        "NOTES": []
+    },
+    "KH": {
+        "demonyms": [
+            "Cambodians"
+        ],
+        "NOTES": []
+    },
+    "KI": {
+        "demonyms": [
+            "I-Kiribati"
+        ],
+        "NOTES": []
+    },
+    "KM": {
+        "demonyms": [
+            "Comorians"
+        ],
+        "NOTES": []
+    },
+    "KN": {
+        "demonyms": [
+            "Kittitians",
+            "Nevisians"
+        ],
+        "NOTES": []
+    },
+    "KP": {
+        "demonyms": [
+            "North Koreans"
+        ],
+        "NOTES": []
+    },
+    "KR": {
+        "demonyms": [
+            "South Koreans"
+        ],
+        "NOTES": []
+    },
+    "KW": {
+        "demonyms": [
+            "Kuwaitis"
+        ],
+        "NOTES": []
+    },
+    "KY": {
+        "demonyms": [
+            "Caymanians"
+        ],
+        "NOTES": []
+    },
+    "KZ": {
+        "demonyms": [
+            "Kazakhs"
+        ],
+        "NOTES": []
+    },
+    "LA": {
+        "demonyms": [
+            "Laotians"
+        ],
+        "NOTES": []
+    },
+    "LB": {
+        "demonyms": [
+            "Lebanese"
+        ],
+        "NOTES": []
+    },
+    "LC": {
+        "demonyms": [
+            "Saint Lucians"
+        ],
+        "NOTES": []
+    },
+    "LI": {
+        "demonyms": [
+            "Liechtensteiners"
+        ],
+        "NOTES": []
+    },
+    "LK": {
+        "demonyms": [
+            "Sri Lankans"
+        ],
+        "NOTES": []
+    },
+    "LR": {
+        "demonyms": [
+            "Liberians"
+        ],
+        "NOTES": []
+    },
+    "LS": {
+        "demonyms": [
+            "Basotho"
+        ],
+        "NOTES": []
+    },
+    "LT": {
+        "demonyms": [
+            "Lithuanians"
+        ],
+        "NOTES": []
+    },
+    "LU": {
+        "demonyms": [
+            "Luxembourgers"
+        ],
+        "NOTES": []
+    },
+    "LV": {
+        "demonyms": [
+            "Latvians"
+        ],
+        "NOTES": []
+    },
+    "LY": {
+        "demonyms": [
+            "Libyans"
+        ],
+        "NOTES": []
+    },
+    "MA": {
+        "demonyms": [
+            "Moroccans"
+        ],
+        "NOTES": []
+    },
+    "MC": {
+        "demonyms": [
+            "Monégasque"
+        ],
+        "NOTES": []
+    },
+    "MD": {
+        "demonyms": [
+            "Moldovans"
+        ],
+        "NOTES": []
+    },
+    "ME": {
+        "demonyms": [
+            "Montenegrins"
+        ],
+        "NOTES": []
+    },
+    "MF": {
+        "demonyms": [
+            "Saint-Martinois"
+        ],
+        "NOTES": []
+    },
+    "MG": {
+        "demonyms": [
+            "Malagasy"
+        ],
+        "NOTES": []
+    },
+    "MH": {
+        "demonyms": [
+            "Marshallese"
+        ],
+        "NOTES": []
+    },
+    "MK": {
+        "demonyms": [
+            "Macedonians"
+        ],
+        "NOTES": []
+    },
+    "ML": {
+        "demonyms": [
+            "Malians"
+        ],
+        "NOTES": []
+    },
+    "MM": {
+        "demonyms": [
+            "Burmese"
+        ],
+        "NOTES": []
+    },
+    "MN": {
+        "demonyms": [
+            "Mongolians"
+        ],
+        "NOTES": []
+    },
+    "MO": {
+        "demonyms": [
+            "Macanese"
+        ],
+        "NOTES": []
+    },
+    "MP": {
+        "demonyms": [
+            "Northern Mariana Islanders"
+        ],
+        "NOTES": []
+    },
+    "MQ": {
+        "demonyms": [
+            "Martiniquais"
+        ],
+        "NOTES": []
+    },
+    "MR": {
+        "demonyms": [
+            "Mauritanians"
+        ],
+        "NOTES": []
+    },
+    "MS": {
+        "demonyms": [
+            "Montserratians"
+        ],
+        "NOTES": []
+    },
+    "MT": {
+        "demonyms": [
+            "Maltese"
+        ],
+        "NOTES": []
+    },
+    "MU": {
+        "demonyms": [
+            "Mauritians"
+        ],
+        "NOTES": []
+    },
+    "MV": {
+        "demonyms": [
+            "Maldivians"
+        ],
+        "NOTES": []
+    },
+    "MW": {
+        "demonyms": [
+            "Malawians"
+        ],
+        "NOTES": []
+    },
+    "MX": {
+        "demonyms": [
+            "Mexicans"
+        ],
+        "NOTES": []
+    },
+    "MY": {
+        "demonyms": [
+            "Malaysians"
+        ],
+        "NOTES": []
+    },
+    "MZ": {
+        "demonyms": [
+            "Mozambicans"
+        ],
+        "NOTES": []
+    },
+    "NA": {
+        "demonyms": [
+            "Namibians"
+        ],
+        "NOTES": []
+    },
+    "NC": {
+        "demonyms": [
+            "New Caledonians"
+        ],
+        "NOTES": []
+    },
+    "NE": {
+        "demonyms": [
+            "Nigeriens"
+        ],
+        "NOTES": []
+    },
+    "NF": {
+        "demonyms": [
+            "Norfolk Islanders"
+        ],
+        "NOTES": []
+    },
+    "NG": {
+        "demonyms": [
+            "Nigerians"
+        ],
+        "NOTES": []
+    },
+    "NI": {
+        "demonyms": [
+            "Nicaraguans"
+        ],
+        "NOTES": []
+    },
+    "NL": {
+        "demonyms": [
+            "Dutch"
+        ],
+        "NOTES": []
+    },
+    "NO": {
+        "demonyms": [
+            "Norwegians"
+        ],
+        "NOTES": []
+    },
+    "NP": {
+        "demonyms": [
+            "Nepalis"
+        ],
+        "NOTES": []
+    },
+    "NR": {
+        "demonyms": [
+            "Nauruans"
+        ],
+        "NOTES": []
+    },
+    "NU": {
+        "demonyms": [
+            "Niueans"
+        ],
+        "NOTES": []
+    },
+    "NZ": {
+        "demonyms": [
+            "New Zealanders"
+        ],
+        "NOTES": []
+    },
+    "OM": {
+        "demonyms": [
+            "Omanis"
+        ],
+        "NOTES": []
+    },
+    "PA": {
+        "demonyms": [
+            "Panamanians"
+        ],
+        "NOTES": []
+    },
+    "PE": {
+        "demonyms": [
+            "Peruvians"
+        ],
+        "NOTES": []
+    },
+    "PF": {
+        "demonyms": [
+            "French Polynesians"
+        ],
+        "NOTES": []
+    },
+    "PG": {
+        "demonyms": [
+            "Papua New Guineans"
+        ],
+        "NOTES": []
+    },
+    "PH": {
+        "demonyms": [
+            "Filipinos"
+        ],
+        "NOTES": []
+    },
+    "PK": {
+        "demonyms": [
+            "Pakistanis"
+        ],
+        "NOTES": []
+    },
+    "PL": {
+        "demonyms": [
+            "Poles"
+        ],
+        "NOTES": []
+    },
+    "PM": {
+        "demonyms": [
+            "Saint-Pierrais",
+            "Miquelonnais"
+        ],
+        "NOTES": []
+    },
+    "PN": {
+        "demonyms": [
+            "Pitcairn Islanders"
+        ],
+        "NOTES": []
+    },
+    "PR": {
+        "demonyms": [
+            "Puerto Ricans"
+        ],
+        "NOTES": []
+    },
+    "PS": {
+        "demonyms": [
+            "Palestinians"
+        ],
+        "NOTES": []
+    },
+    "PT": {
+        "demonyms": [
+            "Portuguese"
+        ],
+        "NOTES": []
+    },
+    "PW": {
+        "demonyms": [
+            "Palauans"
+        ],
+        "NOTES": []
+    },
+    "PY": {
+        "demonyms": [
+            "Paraguayans"
+        ],
+        "NOTES": []
+    },
+    "QA": {
+        "demonyms": [
+            "Qataris"
+        ],
+        "NOTES": []
+    },
+    "RE": {
+        "demonyms": [
+            "Réunionnais"
+        ],
+        "NOTES": []
+    },
+    "RO": {
+        "demonyms": [
+            "Romanians"
+        ],
+        "NOTES": []
+    },
+    "RS": {
+        "demonyms": [
+            "Serbians"
+        ],
+        "NOTES": []
+    },
+    "RU": {
+        "demonyms": [
+            "Russians"
+        ],
+        "NOTES": []
+    },
+    "RW": {
+        "demonyms": [
+            "Rwandans"
+        ],
+        "NOTES": []
+    },
+    "SA": {
+        "demonyms": [
+            "Saudi Arabians"
+        ],
+        "NOTES": []
+    },
+    "SB": {
+        "demonyms": [
+            "Solomon Islanders"
+        ],
+        "NOTES": []
+    },
+    "SC": {
+        "demonyms": [
+            "Seychellois"
+        ],
+        "NOTES": []
+    },
+    "SD": {
+        "demonyms": [
+            "Sudanese"
+        ],
+        "NOTES": []
+    },
+    "SE": {
+        "demonyms": [
+            "Swedes"
+        ],
+        "NOTES": []
+    },
+    "SG": {
+        "demonyms": [
+            "Singaporeans"
+        ],
+        "NOTES": []
+    },
+    "SH": {
+        "demonyms": [
+            "Saint Helenians"
+        ],
+        "NOTES": []
+    },
+    "SI": {
+        "demonyms": [
+            "Slovenes"
+        ],
+        "NOTES": []
+    },
+    "SJ": {
+        "demonyms": [
+            "Svalbard and Jan Mayen Islanders"
+        ],
+        "NOTES": []
+    },
+    "SK": {
+        "demonyms": [
+            "Slovaks"
+        ],
+        "NOTES": []
+    },
+    "SL": {
+        "demonyms": [
+            "Sierra Leoneans"
+        ],
+        "NOTES": []
+    },
+    "SM": {
+        "demonyms": [
+            "Sammarinese"
+        ],
+        "NOTES": []
+    },
+    "SN": {
+        "demonyms": [
+            "Senegalese"
+        ],
+        "NOTES": []
+    },
+    "SO": {
+        "demonyms": [
+            "Somalis"
+        ],
+        "NOTES": []
+    },
+    "SR": {
+        "demonyms": [
+            "Surinamese"
+        ],
+        "NOTES": []
+    },
+    "SS": {
+        "demonyms": [
+            "South Sudanese"
+        ],
+        "NOTES": []
+    },
+    "ST": {
+        "demonyms": [
+            "São Toméans"
+        ],
+        "NOTES": []
+    },
+    "SV": {
+        "demonyms": [
+            "Salvadorans"
+        ],
+        "NOTES": []
+    },
+    "SX": {
+        "demonyms": [
+            "Sint Maarteners"
+        ],
+        "NOTES": []
+    },
+    "SY": {
+        "demonyms": [
+            "Syrians"
+        ],
+        "NOTES": []
+    },
+    "SZ": {
+        "demonyms": [
+            "Swazis"
+        ],
+        "NOTES": []
+    },
+    "TC": {
+        "demonyms": [
+            "Turks and Caicos Islanders"
+        ],
+        "NOTES": []
+    },
+    "TD": {
+        "demonyms": [
+            "Chadians"
+        ],
+        "NOTES": []
+    },
+    "TF": {
+        "demonyms": [
+            "French Southern and Antarctic Lands"
+        ],
+        "NOTES": []
+    },
+    "TG": {
+        "demonyms": [
+            "Togolese"
+        ],
+        "NOTES": []
+    },
+    "TH": {
+        "demonyms": [
+            "Thais"
+        ],
+        "NOTES": []
+    },
+    "TJ": {
+        "demonyms": [
+            "Tajiks"
+        ],
+        "NOTES": []
+    },
+    "TK": {
+        "demonyms": [
+            "Tokelauans"
+        ],
+        "NOTES": []
+    },
+    "TL": {
+        "demonyms": [
+            "East Timorese"
+        ],
+        "NOTES": []
+    },
+    "TM": {
+        "demonyms": [
+            "Turkmen"
+        ],
+        "NOTES": []
+    },
+    "TN": {
+        "demonyms": [
+            "Tunisians"
+        ],
+        "NOTES": []
+    },
+    "TO": {
+        "demonyms": [
+            "Tongans"
+        ],
+        "NOTES": []
+    },
+    "TR": {
+        "demonyms": [
+            "Turks"
+        ],
+        "NOTES": []
+    },
+    "TT": {
+        "demonyms": [
+            "Trinidadians",
+            "Tobagonians"
+        ],
+        "NOTES": []
+    },
+    "TV": {
+        "demonyms": [
+            "Tuvaluans"
+        ],
+        "NOTES": []
+    },
+    "TW": {
+        "demonyms": [
+            "Taiwanese"
+        ],
+        "NOTES": []
+    },
+    "TZ": {
+        "demonyms": [
+            "Tanzanians"
+        ],
+        "NOTES": []
+    },
+    "UA": {
+        "demonyms": [
+            "Ukrainians"
+        ],
+        "NOTES": []
+    },
+    "UG": {
+        "demonyms": [
+            "Ugandans"
+        ],
+        "NOTES": []
+    },
+    "UM": {
+        "demonyms": [
+        ],
+        "NOTES": []
+    },
+    "US": {
+        "demonyms": [
+            "Americans"
+        ],
+        "NOTES": []
+    },
+    "UY": {
+        "demonyms": [
+            "Uruguayans"
+        ],
+        "NOTES": []
+    },
+    "UZ": {
+        "demonyms": [
+            "Uzbeks"
+        ],
+        "NOTES": []
+    },
+    "VA": {
+        "demonyms": [
+            "Vatican Citizens"
+        ],
+        "NOTES": []
+    },
+    "VC": {
+        "demonyms": [
+            "Saint Vincentians",
+            "Grenadines"
+        ],
+        "NOTES": []
+    },
+    "VE": {
+        "demonyms": [
+            "Venezuelans"
+        ],
+        "NOTES": []
+    },
+    "VG": {
+        "demonyms": [
+            "British Virgin Islanders"
+        ],
+        "NOTES": []
+    },
+    "VI": {
+        "demonyms": [
+            "United States Virgin Islanders"
+        ],
+        "NOTES": []
+    },
+    "VN": {
+        "demonyms": [
+            "Vietnamese"
+        ],
+        "NOTES": []
+    },
+    "VU": {
+        "demonyms": [
+            "Ni-Vanuatu"
+        ],
+        "NOTES": []
+    },
+    "WF": {
+        "demonyms": [
+            "Wallis and Futuna Islanders",
+            "Wallisian-Futunan"
+        ],
+        "NOTES": []
+    },
+    "WS": {
+        "demonyms": [
+            "Samoans"
+        ],
+        "NOTES": []
+    },
+    "XK": {
+        "demonyms": [
+            "Kosovars",
+            "Kosovans"
+        ],
+        "NOTES": []
+    },
+    "XK": {
+        "demonyms": [
+            "Yemenis"
+        ],
+        "NOTES": []
+    },
+    "YE": {
+        "demonyms": [
+            "Yemenis"
+        ],
+        "NOTES": []
+    },
+    "YT": {
+        "demonyms": [
+            "Mahorais"
+        ],
+        "NOTES": []
+    },
+    "ZA": {
+        "demonyms": [
+            "South Africans"
+        ],
+        "NOTES": []
+    },
+    "ZM": {
+        "demonyms": [
+            "Zambians"
+        ],
+        "NOTES": []
+    },
+    "ZW": {
+        "demonyms": [
+            "Zimbabweans"
+        ],
+        "NOTES": []
+    }
+}

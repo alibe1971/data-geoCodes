@@ -1,0 +1,1695 @@
+{
+    "AD": {
+        "adjectives": [
+            "Andorran",
+            "Andorrans"
+        ],
+        "NOTES": []
+    },
+    "AE": {
+        "adjectives": [
+            "Emirati",
+            "Emiratis"
+        ],
+        "NOTES": []
+    },
+    "AF": {
+        "adjectives": [
+            "Afghan",
+            "Afghans"
+        ],
+        "NOTES": []
+    },
+    "AG": {
+        "adjectives": [
+            "Antiguan and Barbudan",
+            "Antiguan and Barbudans",
+            "Antiguan",
+            "Antiguans"
+        ],
+        "NOTES": []
+    },
+    "AI": {
+        "adjectives": [
+            "Anguillan",
+            "Anguillans"
+        ],
+        "NOTES": []
+    },
+    "AL": {
+        "adjectives": [
+            "Albanian",
+            "Albanians"
+        ],
+        "NOTES": []
+    },
+    "AM": {
+        "adjectives": [
+            "Armenian",
+            "Armenians"
+        ],
+        "NOTES": []
+    },
+    "AO": {
+        "adjectives": [
+            "Angolan",
+            "Angolans"
+        ],
+        "NOTES": []
+    },
+    "AQ": {
+        "adjectives": [
+            "Antarctics",
+            "Antarctic"
+        ],
+        "NOTES": []
+    },
+    "AR": {
+        "adjectives": [
+            "Argentine",
+            "Argentines"
+        ],
+        "NOTES": []
+    },
+    "AS": {
+        "adjectives": [
+            "Samoan",
+            "Samoans"
+        ],
+        "NOTES": []
+    },
+    "AT": {
+        "adjectives": [
+            "Austrian",
+            "Austrians"
+        ],
+        "NOTES": []
+    },
+    "AU": {
+        "adjectives": [
+            "Australian",
+            "Australians"
+        ],
+        "NOTES": []
+    },
+    "AW": {
+        "adjectives": [
+            "Aruban",
+            "Arubans"
+        ],
+        "NOTES": []
+    },
+    "AX": {
+        "adjectives": [
+            "Ålandic",
+            "Ålandics"
+        ],
+        "NOTES": []
+    },
+    "AZ": {
+        "adjectives": [
+            "Azerbaijani",
+            "Azerbaijanis"
+        ],
+        "NOTES": []
+    },
+    "BA": {
+        "adjectives": [
+            "Bosnian",
+            "Bosnians",
+            "Herzegovinian",
+            "Herzegovinians",
+            "Bosnian-Herzegovinian",
+            "Bosnian-Herzegovinians"
+        ],
+        "NOTES": []
+    },
+    "BB": {
+        "adjectives": [
+            "Barbadian",
+            "Barbadians"
+        ],
+        "NOTES": []
+    },
+    "BD": {
+        "adjectives": [
+            "Bangladeshi",
+            "Bangladeshis"
+        ],
+        "NOTES": []
+    },
+    "BE": {
+        "adjectives": [
+            "Belgian",
+            "Belgians"
+        ],
+        "NOTES": []
+    },
+    "BF": {
+        "adjectives": [
+            "Burkinabe",
+            "Burkinabes"
+        ],
+        "NOTES": []
+    },
+    "BG": {
+        "adjectives": [
+            "Bulgarian",
+            "Bulgarians"
+        ],
+        "NOTES": []
+    },
+    "BH": {
+        "adjectives": [
+            "Bahraini",
+            "Bahrainis"
+        ],
+        "NOTES": []
+    },
+    "BI": {
+        "adjectives": [
+            "Burundian",
+            "Burundians"
+        ],
+        "NOTES": []
+    },
+    "BJ": {
+        "adjectives": [
+            "Beninese"
+        ],
+        "NOTES": []
+    },
+    "BL": {
+        "adjectives": [
+            "Barthélemois"
+        ],
+        "NOTES": []
+    },
+    "BM": {
+        "adjectives": [
+            "Bermudian",
+            "Bermudians"
+        ],
+        "NOTES": []
+    },
+    "BN": {
+        "adjectives": [
+            "Bruneian",
+            "Bruneians"
+        ],
+        "NOTES": []
+    },
+    "BO": {
+        "adjectives": [
+            "Bolivian",
+            "Bolivians"
+        ],
+        "NOTES": []
+    },
+    "BQ": {
+        "adjectives": [
+            "Bonairian",
+            "Bonairians",
+            "Sint Eustatian",
+            "Sint Eustatians",
+            "Saban",
+            "Sabans"
+        ],
+        "NOTES": []
+    },
+    "BR": {
+        "adjectives": [
+            "Brazilian",
+            "Brazilians"
+        ],
+        "NOTES": []
+    },
+    "BS": {
+        "adjectives": [
+            "Bahamian",
+            "Bahamians"
+        ],
+        "NOTES": []
+    },
+    "BT": {
+        "adjectives": [
+            "Bhutanese"
+        ],
+        "NOTES": []
+    },
+    "BV": {
+        "adjectives": [
+            "Bouvet Island"
+        ],
+        "NOTES": []
+    },
+    "BW": {
+        "adjectives": [
+            "Botswanan",
+            "Batswana"
+        ],
+        "NOTES": []
+    },
+    "BY": {
+        "adjectives": [
+            "Belarusian",
+            "Belarusians"
+        ],
+        "NOTES": []
+    },
+    "BZ": {
+        "adjectives": [
+            "Belizean",
+            "Belizeans"
+        ],
+        "NOTES": []
+    },
+    "CA": {
+        "adjectives": [
+            "Canadian",
+            "Canadians"
+        ],
+        "NOTES": []
+    },
+    "CC": {
+        "adjectives": [
+            "Cocosian"
+        ],
+        "NOTES": []
+    },
+    "CD": {
+        "adjectives": [
+            "Congolese"
+        ],
+        "NOTES": []
+    },
+    "CF": {
+        "adjectives": [
+            "Central African",
+            "Central Africans"
+        ],
+        "NOTES": []
+    },
+    "CG": {
+        "adjectives": [
+            "Congolese"
+        ],
+        "NOTES": []
+    },
+    "CH": {
+        "adjectives": [
+            "Swiss"
+        ],
+        "NOTES": []
+    },
+    "CI": {
+        "adjectives": [
+            "Ivorian",
+            "Ivorians"
+        ],
+        "NOTES": []
+    },
+    "CK": {
+        "adjectives": [
+            "Cook Island"
+        ],
+        "NOTES": []
+    },
+    "CL": {
+        "adjectives": [
+            "Chilean",
+            "Chileans"
+        ],
+        "NOTES": []
+    },
+    "CM": {
+        "adjectives": [
+            "Cameroonian",
+            "Cameroonians"
+        ],
+        "NOTES": []
+    },
+    "CN": {
+        "adjectives": [
+            "Chinese"
+        ],
+        "NOTES": []
+    },
+    "CO": {
+        "adjectives": [
+            "Colombian",
+            "Colombians"
+        ],
+        "NOTES": []
+    },
+    "CR": {
+        "adjectives": [
+            "Costa Rican",
+            "Costa Ricans"
+        ],
+        "NOTES": []
+    },
+    "CU": {
+        "adjectives": [
+            "Cuban",
+            "Cubans"
+        ],
+        "NOTES": []
+    },
+    "CV": {
+        "adjectives": [
+            "Cape Verdean",
+            "Cape Verdeans"
+        ],
+        "NOTES": []
+    },
+    "CW": {
+        "adjectives": [
+            "Curaçaoan",
+            "Curaçaoans"
+        ],
+        "NOTES": []
+    },
+    "CX": {
+        "adjectives": [
+            "Christmas Island"
+        ],
+        "NOTES": []
+    },
+    "CY": {
+        "adjectives": [
+            "Cypriot",
+            "Cypriots"
+        ],
+        "NOTES": []
+    },
+    "CZ": {
+        "adjectives": [
+            "Czech",
+            "Czechs"
+        ],
+        "NOTES": []
+    },
+    "DE": {
+        "adjectives": [
+            "German",
+            "Germans"
+        ],
+        "NOTES": []
+    },
+    "DJ": {
+        "adjectives": [
+            "Djiboutian",
+            "Djiboutians"
+        ],
+        "NOTES": []
+    },
+    "DK": {
+        "adjectives": [
+            "Danish",
+            "Danes"
+        ],
+        "NOTES": []
+    },
+    "DM": {
+        "adjectives": [
+            "Dominican",
+            "Dominicans"
+        ],
+        "NOTES": []
+    },
+    "DO": {
+        "adjectives": [
+            "Dominican",
+            "Dominicans"
+        ],
+        "NOTES": []
+    },
+    "DZ": {
+        "adjectives": [
+            "Algerian",
+            "Algerians"
+        ],
+        "NOTES": []
+    },
+    "EC": {
+        "adjectives": [
+            "Ecuadorian",
+            "Ecuadorians"
+        ],
+        "NOTES": []
+    },
+    "EE": {
+        "adjectives": [
+            "Estonian",
+            "Estonians"
+        ],
+        "NOTES": []
+    },
+    "EG": {
+        "adjectives": [
+            "Egyptian",
+            "Egyptians"
+        ],
+        "NOTES": []
+    },
+    "EH": {
+        "adjectives": [
+            "Sahrawi",
+            "Sahrawis"
+        ],
+        "NOTES": []
+    },
+    "ER": {
+        "adjectives": [
+            "Eritrean",
+            "Eritreans"
+        ],
+        "NOTES": []
+    },
+    "ES": {
+        "adjectives": [
+            "Spanish",
+            "Spaniards"
+        ],
+        "NOTES": []
+    },
+    "ET": {
+        "adjectives": [
+            "Ethiopian",
+            "Ethiopians"
+        ],
+        "NOTES": []
+    },
+    "FI": {
+        "adjectives": [
+            "Finnish",
+            "Finns"
+        ],
+        "NOTES": []
+    },
+    "FJ": {
+        "adjectives": [
+            "Fijian",
+            "Fijians"
+        ],
+        "NOTES": []
+    },
+    "FK": {
+        "adjectives": [
+            "Falklandian",
+            "Falklandic",
+            "Falklander",
+            "Falklandish"
+        ],
+        "NOTES": []
+    },
+    "FM": {
+        "adjectives": [
+            "Micronesian",
+            "Micronesians"
+        ],
+        "NOTES": []
+    },
+    "FO": {
+        "adjectives": [
+            "Faroese"
+        ],
+        "NOTES": []
+    },
+    "FR": {
+        "adjectives": [
+            "French"
+        ],
+        "NOTES": []
+    },
+    "GA": {
+        "adjectives": [
+            "Gabonese"
+        ],
+        "NOTES": []
+    },
+    "GB": {
+        "adjectives": [
+            "British",
+            "Britons"
+        ],
+        "NOTES": []
+    },
+    "GD": {
+        "adjectives": [
+            "Grenadian",
+            "Grenadians"
+        ],
+        "NOTES": []
+    },
+    "GE": {
+        "adjectives": [
+            "Georgian",
+            "Georgians"
+        ],
+        "NOTES": []
+    },
+    "GF": {
+        "adjectives": [
+            "French Guianese"
+        ],
+        "NOTES": []
+    },
+    "GG": {
+        "adjectives": [],
+        "NOTES": []
+    },
+    "GH": {
+        "adjectives": [
+            "Ghanaian",
+            "Ghanaians"
+        ],
+        "NOTES": []
+    },
+    "GI": {
+        "adjectives": [
+            "Gibraltar"
+        ],
+        "NOTES": []
+    },
+    "GL": {
+        "adjectives": [
+            "Greenlandic",
+            "Greenlanders"
+        ],
+        "NOTES": []
+    },
+    "GM": {
+        "adjectives": [
+            "Gambian",
+            "Gambians"
+        ],
+        "NOTES": []
+    },
+    "GN": {
+        "adjectives": [
+            "Guinean",
+            "Guineans"
+        ],
+        "NOTES": []
+    },
+    "GP": {
+        "adjectives": [
+            "Guadeloupe"
+        ],
+        "NOTES": []
+    },
+    "GQ": {
+        "adjectives": [
+            "Equatorial Guinean",
+            "Equatorial Guineans"
+        ],
+        "NOTES": []
+    },
+    "GR": {
+        "adjectives": [
+            "Greek",
+            "Greeks"
+        ],
+        "NOTES": []
+    },
+    "GS": {
+        "adjectives": [
+            "South Georgian",
+            "South Georgians"
+        ],
+        "NOTES": []
+    },
+    "GT": {
+        "adjectives": [
+            "Guatemalan",
+            "Guatemalans"
+        ],
+        "NOTES": []
+    },
+    "GU": {
+        "adjectives": [
+            "Guamanian",
+            "Guamanians"
+        ],
+        "NOTES": []
+    },
+    "GW": {
+        "adjectives": [
+            "Guinea-Bissauan",
+            "Guinea-Bissauans"
+        ],
+        "NOTES": []
+    },
+    "GY": {
+        "adjectives": [
+            "Guyanese"
+        ],
+        "NOTES": []
+    },
+    "HK": {
+        "adjectives": [
+            "Hong Kongese",
+            "Hongkongish"
+        ],
+        "NOTES": []
+    },
+    "HM": {
+        "adjectives": [
+            "Heardian",
+            "Heardians"
+        ],
+        "NOTES": []
+    },
+    "HN": {
+        "adjectives": [
+            "Honduran",
+            "Hondurans"
+        ],
+        "NOTES": []
+    },
+    "HR": {
+        "adjectives": [
+            "Croatian",
+            "Croatians"
+        ],
+        "NOTES": []
+    },
+    "HT": {
+        "adjectives": [
+            "Haitian",
+            "Haitians"
+        ],
+        "NOTES": []
+    },
+    "HU": {
+        "adjectives": [
+            "Hungarian",
+            "Hungarians"
+        ],
+        "NOTES": []
+    },
+    "ID": {
+        "adjectives": [
+            "Indonesian",
+            "Indonesians"
+        ],
+        "NOTES": []
+    },
+    "IE": {
+        "adjectives": [
+            "Irish"
+        ],
+        "NOTES": []
+    },
+    "IL": {
+        "adjectives": [
+            "Israeli",
+            "Israelis"
+        ],
+        "NOTES": []
+    },
+    "IM": {
+        "adjectives": [
+            "Manx"
+        ],
+        "NOTES": []
+    },
+    "IN": {
+        "adjectives": [
+            "Indian",
+            "Indians"
+        ],
+        "NOTES": []
+    },
+    "IO": {
+        "adjectives": [
+            "British Indian Oceanic"
+        ],
+        "NOTES": []
+    },
+    "IQ": {
+        "adjectives": [
+            "Iraqi",
+            "Iraqis"
+        ],
+        "NOTES": []
+    },
+    "IR": {
+        "adjectives": [
+            "Iranian",
+            "Iranians"
+        ],
+        "NOTES": []
+    },
+    "IS": {
+        "adjectives": [
+            "Icelandic",
+            "Icelanders"
+        ],
+        "NOTES": []
+    },
+    "IT": {
+        "adjectives": [
+            "Italian",
+            "Italians"
+        ],
+        "NOTES": []
+    },
+    "JE": {
+        "adjectives": [],
+        "NOTES": []
+    },
+    "JM": {
+        "adjectives": [
+            "Jamaican",
+            "Jamaicans"
+        ],
+        "NOTES": []
+    },
+    "JO": {
+        "adjectives": [
+            "Jordanian",
+            "Jordanians"
+        ],
+        "NOTES": []
+    },
+    "JP": {
+        "adjectives": [
+            "Japanese"
+        ],
+        "NOTES": []
+    },
+    "KE": {
+        "adjectives": [
+            "Kenyan",
+            "Kenyans"
+        ],
+        "NOTES": []
+    },
+    "KG": {
+        "adjectives": [
+            "Kyrgyzstani",
+            "Kyrgyzstanis"
+        ],
+        "NOTES": []
+    },
+    "KH": {
+        "adjectives": [
+            "Cambodian",
+            "Cambodians"
+        ],
+        "NOTES": []
+    },
+    "KI": {
+        "adjectives": [
+            "Kiribati",
+            "I-Kiribati"
+        ],
+        "NOTES": []
+    },
+    "KM": {
+        "adjectives": [
+            "Comoran",
+            "Comorians"
+        ],
+        "NOTES": []
+    },
+    "KN": {
+        "adjectives": [
+            "Kittitian",
+            "Kittitians",
+            "Nevisian",
+            "Nevisians"
+        ],
+        "NOTES": []
+    },
+    "KP": {
+        "adjectives": [
+            "North Korean",
+            "North Koreans"
+        ],
+        "NOTES": []
+    },
+    "KR": {
+        "adjectives": [
+            "South Korean",
+            "South Koreans"
+        ],
+        "NOTES": []
+    },
+    "KW": {
+        "adjectives": [
+            "Kuwaiti",
+            "Kuwaitis"
+        ],
+        "NOTES": []
+    },
+    "KY": {
+        "adjectives": [
+            "Caymanian",
+            "Caymanians"
+        ],
+        "NOTES": []
+    },
+    "KZ": {
+        "adjectives": [
+            "Kazakhstani",
+            "Kazakhs"
+        ],
+        "NOTES": []
+    },
+    "LA": {
+        "adjectives": [
+            "Laotian",
+            "Laotians"
+        ],
+        "NOTES": []
+    },
+    "LB": {
+        "adjectives": [
+            "Lebanese"
+        ],
+        "NOTES": []
+    },
+    "LC": {
+        "adjectives": [
+            "Saint Lucian",
+            "Saint Lucians"
+        ],
+        "NOTES": []
+    },
+    "LI": {
+        "adjectives": [
+            "Liechtenstein"
+        ],
+        "NOTES": []
+    },
+    "LK": {
+        "adjectives": [
+            "Sri Lankan",
+            "Sri Lankans"
+        ],
+        "NOTES": []
+    },
+    "LR": {
+        "adjectives": [
+            "Liberian",
+            "Liberians"
+        ],
+        "NOTES": []
+    },
+    "LS": {
+        "adjectives": [
+            "Basotho"
+        ],
+        "NOTES": []
+    },
+    "LT": {
+        "adjectives": [
+            "Lithuanian",
+            "Lithuanians"
+        ],
+        "NOTES": []
+    },
+    "LU": {
+        "adjectives": [
+            "Luxembourg"
+        ],
+        "NOTES": []
+    },
+    "LV": {
+        "adjectives": [
+            "Latvian",
+            "Latvians"
+        ],
+        "NOTES": []
+    },
+    "LY": {
+        "adjectives": [
+            "Libyan",
+            "Libyans"
+        ],
+        "NOTES": []
+    },
+    "MA": {
+        "adjectives": [
+            "Moroccan",
+            "Moroccans"
+        ],
+        "NOTES": []
+    },
+    "MC": {
+        "adjectives": [
+            "Monégasque",
+            "Monégasques"
+        ],
+        "NOTES": []
+    },
+    "MD": {
+        "adjectives": [
+            "Moldovan",
+            "Moldovans"
+        ],
+        "NOTES": []
+    },
+    "ME": {
+        "adjectives": [
+            "Montenegrin",
+            "Montenegrins"
+        ],
+        "NOTES": []
+    },
+    "MF": {
+        "adjectives": [
+            "Saint-Martinoise",
+            "Saint-Martinois"
+        ],
+        "NOTES": []
+    },
+    "MG": {
+        "adjectives": [
+            "Malagasy"
+        ],
+        "NOTES": []
+    },
+    "MH": {
+        "adjectives": [
+            "Marshallese"
+        ],
+        "NOTES": []
+    },
+    "MK": {
+        "adjectives": [
+            "Macedonian",
+            "Macedonians"
+        ],
+        "NOTES": []
+    },
+    "ML": {
+        "adjectives": [
+            "Malian",
+            "Malians"
+        ],
+        "NOTES": []
+    },
+    "MM": {
+        "adjectives": [
+            "Burmese"
+        ],
+        "NOTES": []
+    },
+    "MN": {
+        "adjectives": [
+            "Mongolian",
+            "Mongolians"
+        ],
+        "NOTES": []
+    },
+    "MO": {
+        "adjectives": [
+            "Macanese"
+        ],
+        "NOTES": []
+    },
+    "MP": {
+        "adjectives": [
+            "Northern Marianan",
+            "Northern Mariana Islanders"
+        ],
+        "NOTES": []
+    },
+    "MQ": {
+        "adjectives": [
+            "Martiniquais"
+        ],
+        "NOTES": []
+    },
+    "MR": {
+        "adjectives": [
+            "Mauritanian",
+            "Mauritanians"
+        ],
+        "NOTES": []
+    },
+    "MS": {
+        "adjectives": [
+            "Montserratian",
+            "Montserratians"
+        ],
+        "NOTES": []
+    },
+    "MT": {
+        "adjectives": [
+            "Maltese"
+        ],
+        "NOTES": []
+    },
+    "MU": {
+        "adjectives": [
+            "Mauritian",
+            "Mauritians"
+        ],
+        "NOTES": []
+    },
+    "MV": {
+        "adjectives": [
+            "Maldivian",
+            "Maldivians"
+        ],
+        "NOTES": []
+    },
+    "MW": {
+        "adjectives": [
+            "Malawian",
+            "Malawians"
+        ],
+        "NOTES": []
+    },
+    "MX": {
+        "adjectives": [
+            "Mexican",
+            "Mexicans"
+        ],
+        "NOTES": []
+    },
+    "MY": {
+        "adjectives": [
+            "Malaysian",
+            "Malaysians"
+        ],
+        "NOTES": []
+    },
+    "MZ": {
+        "adjectives": [
+            "Mozambican",
+            "Mozambicans"
+        ],
+        "NOTES": []
+    },
+    "NA": {
+        "adjectives": [
+            "Namibian",
+            "Namibians"
+        ],
+        "NOTES": []
+    },
+    "NC": {
+        "adjectives": [
+            "New Caledonian",
+            "New Caledonians"
+        ],
+        "NOTES": []
+    },
+    "NE": {
+        "adjectives": [
+            "Nigerien",
+            "Nigeriens"
+        ],
+        "NOTES": []
+    },
+    "NF": {
+        "adjectives": [],
+        "NOTES": []
+    },
+    "NG": {
+        "adjectives": [
+            "Nigerian",
+            "Nigerians"
+        ],
+        "NOTES": []
+    },
+    "NI": {
+        "adjectives": [
+            "Nicaraguan",
+            "Nicaraguans"
+        ],
+        "NOTES": []
+    },
+    "NL": {
+        "adjectives": [
+            "Dutch"
+        ],
+        "NOTES": []
+    },
+    "NO": {
+        "adjectives": [
+            "Norwegian",
+            "Norwegians"
+        ],
+        "NOTES": []
+    },
+    "NP": {
+        "adjectives": [
+            "Nepali",
+            "Nepalis"
+        ],
+        "NOTES": []
+    },
+    "NR": {
+        "adjectives": [
+            "Nauruan",
+            "Nauruans"
+        ],
+        "NOTES": []
+    },
+    "NU": {
+        "adjectives": [
+            "Niuean",
+            "Niueans"
+        ],
+        "NOTES": []
+    },
+    "NZ": {
+        "adjectives": [
+            "New Zealandish",
+            "New Zealander",
+            "Kiwi"
+        ],
+        "NOTES": []
+    },
+    "OM": {
+        "adjectives": [
+            "Omani",
+            "Omanis"
+        ],
+        "NOTES": []
+    },
+    "PA": {
+        "adjectives": [
+            "Panamanian",
+            "Panamanians"
+        ],
+        "NOTES": []
+    },
+    "PE": {
+        "adjectives": [
+            "Peruvian",
+            "Peruvians"
+        ],
+        "NOTES": []
+    },
+    "PF": {
+        "adjectives": [
+            "French Polynesian",
+            "French Polynesians"
+        ],
+        "NOTES": []
+    },
+    "PG": {
+        "adjectives": [
+            "Papua New Guinean",
+            "Papua New Guineans"
+        ],
+        "NOTES": []
+    },
+    "PH": {
+        "adjectives": [
+            "Filipino",
+            "Filipinos"
+        ],
+        "NOTES": []
+    },
+    "PK": {
+        "adjectives": [
+            "Pakistani",
+            "Pakistanis"
+        ],
+        "NOTES": []
+    },
+    "PL": {
+        "adjectives": [
+            "Polish",
+            "Poles"
+        ],
+        "NOTES": []
+    },
+    "PM": {
+        "adjectives": [
+            "Saint-Pierrais or Miquelonnais"
+        ],
+        "NOTES": []
+    },
+    "PN": {
+        "adjectives": [
+            "Pitcairn Island"
+        ],
+        "NOTES": []
+    },
+    "PR": {
+        "adjectives": [
+            "Puerto Rican",
+            "Puerto Ricans"
+        ],
+        "NOTES": []
+    },
+    "PS": {
+        "adjectives": [
+            "Palestinian",
+            "Palestinians"
+        ],
+        "NOTES": []
+    },
+    "PT": {
+        "adjectives": [
+            "Portuguese"
+        ],
+        "NOTES": []
+    },
+    "PW": {
+        "adjectives": [
+            "Palauan",
+            "Palauans"
+        ],
+        "NOTES": []
+    },
+    "PY": {
+        "adjectives": [
+            "Paraguayan",
+            "Paraguayans"
+        ],
+        "NOTES": []
+    },
+    "QA": {
+        "adjectives": [
+            "Qatari",
+            "Qataris"
+        ],
+        "NOTES": []
+    },
+    "RE": {
+        "adjectives": [
+            "Réunionese"
+        ],
+        "NOTES": []
+    },
+    "RO": {
+        "adjectives": [
+            "Romanian",
+            "Romanians"
+        ],
+        "NOTES": []
+    },
+    "RS": {
+        "adjectives": [
+            "Serbian",
+            "Serbs"
+        ],
+        "NOTES": []
+    },
+    "RU": {
+        "adjectives": [
+            "Russian",
+            "Russians"
+        ],
+        "NOTES": []
+    },
+    "RW": {
+        "adjectives": [
+            "Rwandan",
+            "Rwandans"
+        ],
+        "NOTES": []
+    },
+    "SA": {
+        "adjectives": [
+            "Saudi Arabian",
+            "Saudi Arabians"
+        ],
+        "NOTES": []
+    },
+    "SB": {
+        "adjectives": [],
+        "NOTES": []
+    },
+    "SC": {
+        "adjectives": [
+            "Seychellois"
+        ],
+        "NOTES": []
+    },
+    "SD": {
+        "adjectives": [
+            "Sudanese"
+        ],
+        "NOTES": []
+    },
+    "SE": {
+        "adjectives": [
+            "Swedish",
+            "Swedes"
+        ],
+        "NOTES": []
+    },
+    "SG": {
+        "adjectives": [
+            "Singaporean",
+            "Singaporeans"
+        ],
+        "NOTES": []
+    },
+    "SH": {
+        "adjectives": [
+            "Saint Helenian",
+            "Saint Helenians"
+        ],
+        "NOTES": []
+    },
+    "SI": {
+        "adjectives": [
+            "Slovenian",
+            "Slovenians"
+        ],
+        "NOTES": []
+    },
+    "SJ": {
+        "adjectives": [
+            "Svalbard"
+        ],
+        "NOTES": []
+    },
+    "SK": {
+        "adjectives": [
+            "Slovak",
+            "Slovaks"
+        ],
+        "NOTES": []
+    },
+    "SL": {
+        "adjectives": [
+            "Sierra Leonean",
+            "Sierra Leoneans"
+        ],
+        "NOTES": []
+    },
+    "SM": {
+        "adjectives": [
+            "Sanmarinese"
+        ],
+        "NOTES": []
+    },
+    "SN": {
+        "adjectives": [
+            "Senegalese"
+        ],
+        "NOTES": []
+    },
+    "SO": {
+        "adjectives": [
+            "Somali",
+            "Somalis"
+        ],
+        "NOTES": []
+    },
+    "SR": {
+        "adjectives": [
+            "Surinamese"
+        ],
+        "NOTES": []
+    },
+    "SS": {
+        "adjectives": [
+            "South Sudanese"
+        ],
+        "NOTES": []
+    },
+    "ST": {
+        "adjectives": [
+            "São Toméan",
+            "São Toméans"
+        ],
+        "NOTES": []
+    },
+    "SV": {
+        "adjectives": [
+            "Salvadoran",
+            "Salvadorans"
+        ],
+        "NOTES": []
+    },
+    "SX": {
+        "adjectives": [
+            "Sint Maarten"
+        ],
+        "NOTES": []
+    },
+    "SY": {
+        "adjectives": [
+            "Syrian",
+            "Syrians"
+        ],
+        "NOTES": []
+    },
+    "SZ": {
+        "adjectives": [
+            "Swazi",
+            "Swazis"
+        ],
+        "NOTES": []
+    },
+    "TC": {
+        "adjectives": [
+            "Turks and Caicos Island"
+        ],
+        "NOTES": []
+    },
+    "TD": {
+        "adjectives": [
+            "Chadian",
+            "Chadians"
+        ],
+        "NOTES": []
+    },
+    "TF": {
+        "adjectives": [
+            "French Southern and Antarctic"
+        ],
+        "NOTES": []
+    },
+    "TG": {
+        "adjectives": [
+            "Togolese"
+        ],
+        "NOTES": []
+    },
+    "TH": {
+        "adjectives": [
+            "Thai",
+            "Thais"
+        ],
+        "NOTES": []
+    },
+    "TJ": {
+        "adjectives": [
+            "Tajikistani",
+            "Tajiks"
+        ],
+        "NOTES": []
+    },
+    "TK": {
+        "adjectives": [
+            "Tokelauan",
+            "Tokelauans"
+        ],
+        "NOTES": []
+    },
+    "TL": {
+        "adjectives": [
+            "East Timorese"
+        ],
+        "NOTES": []
+    },
+    "TM": {
+        "adjectives": [
+            "Turkmen",
+            "Turkmens"
+        ],
+        "NOTES": []
+    },
+    "TN": {
+        "adjectives": [
+            "Tunisian",
+            "Tunisians"
+        ],
+        "NOTES": []
+    },
+    "TO": {
+        "adjectives": [
+            "Tongan",
+            "Tongans"
+        ],
+        "NOTES": []
+    },
+    "TR": {
+        "adjectives": [
+            "Turkish",
+            "Turks"
+        ],
+        "NOTES": []
+    },
+    "TT": {
+        "adjectives": [
+            "Trinidadian",
+            "Trinidadians"
+        ],
+        "NOTES": []
+    },
+    "TV": {
+        "adjectives": [
+            "Tuvaluan",
+            "Tuvaluans"
+        ],
+        "NOTES": []
+    },
+    "TW": {
+        "adjectives": [
+            "Taiwanese"
+        ],
+        "NOTES": []
+    },
+    "TZ": {
+        "adjectives": [
+            "Tanzanian",
+            "Tanzanians"
+        ],
+        "NOTES": []
+    },
+    "UA": {
+        "adjectives": [
+            "Ukrainian",
+            "Ukrainians"
+        ],
+        "NOTES": []
+    },
+    "UG": {
+        "adjectives": [
+            "Ugandan",
+            "Ugandans"
+        ],
+        "NOTES": []
+    },
+    "UM": {
+        "adjectives": [],
+        "NOTES": []
+    },
+    "US": {
+        "adjectives": [
+            "American",
+            "Americans"
+        ],
+        "NOTES": []
+    },
+    "UY": {
+        "adjectives": [
+            "Uruguayan",
+            "Uruguayans"
+        ],
+        "NOTES": []
+    },
+    "UZ": {
+        "adjectives": [
+            "Uzbekistani",
+            "Uzbeks"
+        ],
+        "NOTES": []
+    },
+    "VA": {
+        "adjectives": [
+            "Vatican"
+        ],
+        "NOTES": []
+    },
+    "VC": {
+        "adjectives": [
+            "Saint Vincentian",
+            "Saint Vincentians"
+        ],
+        "NOTES": []
+    },
+    "VE": {
+        "adjectives": [
+            "Venezuelan",
+            "Venezuelans"
+        ],
+        "NOTES": []
+    },
+    "VG": {
+        "adjectives": [],
+        "NOTES": []
+    },
+    "VI": {
+        "adjectives": [],
+        "NOTES": []
+    },
+    "VN": {
+        "adjectives": [
+            "Vietnamese"
+        ],
+        "NOTES": []
+    },
+    "VU": {
+        "adjectives": [
+            "Vanuatuan",
+            "Vanuatuans"
+        ],
+        "NOTES": []
+    },
+    "WF": {
+        "adjectives": [
+            "Wallisian-Futunan"
+        ],
+        "NOTES": []
+    },
+    "WS": {
+        "adjectives": [
+            "Samoan",
+            "Samoans"
+        ],
+        "NOTES": []
+    },
+    "XK": {
+        "adjectives": [
+            "Kosovar",
+            "Kosovars",
+            "Kosovan",
+            "Kosovans"
+        ],
+        "NOTES": []
+    },
+    "YE": {
+        "adjectives": [
+            "Yemeni",
+            "Yemenis"
+        ],
+        "NOTES": []
+    },
+    "YT": {
+        "adjectives": [
+            "Mahoran",
+            "Mahorans"
+        ],
+        "NOTES": []
+    },
+    "ZA": {
+        "adjectives": [
+            "South African",
+            "South Africans"
+        ],
+        "NOTES": []
+    },
+    "ZM": {
+        "adjectives": [
+            "Zambian",
+            "Zambians"
+        ],
+        "NOTES": []
+    },
+    "ZW": {
+        "adjectives": [
+            "Zimbabwean",
+            "Zimbabweans"
+        ],
+        "NOTES": []
+    }
+}

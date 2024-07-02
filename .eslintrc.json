@@ -1,0 +1,30 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "ignorePatterns": [
+    "node_modules/",
+    "Tests/"
+  ],
+  "rules": {
+    "indent": ["warn", 4],
+    "linebreak-style": ["error", "unix"],
+    "semi": ["warn", "always"],
+    "max-len": ["error", {
+      "code": 120,
+      "tabWidth": 2,
+      "ignoreUrls": true,
+      "ignoreComments": false,
+      "ignoreTrailingComments": false,
+      "ignoreRegExpLiterals": false,
+      "ignoreStrings": false,
+      "ignoreTemplateLiterals": false
+    }]
+  }
+}
