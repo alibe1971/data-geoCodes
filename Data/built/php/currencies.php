@@ -29,13 +29,13 @@ return [
     [
         "isoAlpha" => "AFN",
         "isoNumber" => "971",
-        "symbol" => null,
+        "symbol" => "؋",
         "decimal" => 2
     ],
     [
         "isoAlpha" => "ALL",
         "isoNumber" => "008",
-        "symbol" => null,
+        "symbol" => "Lek",
         "decimal" => 2
     ],
     [
@@ -71,25 +71,25 @@ return [
     [
         "isoAlpha" => "AWG",
         "isoNumber" => "533",
-        "symbol" => null,
+        "symbol" => "ƒ",
         "decimal" => 2
     ],
     [
         "isoAlpha" => "AZN",
         "isoNumber" => "944",
-        "symbol" => null,
+        "symbol" => "₼",
         "decimal" => 2
     ],
     [
         "isoAlpha" => "BAM",
         "isoNumber" => "977",
-        "symbol" => null,
+        "symbol" => "KM",
         "decimal" => 2
     ],
     [
         "isoAlpha" => "BBD",
         "isoNumber" => "052",
-        "symbol" => null,
+        "symbol" => "$",
         "decimal" => 2
     ],
     [
@@ -125,13 +125,13 @@ return [
     [
         "isoAlpha" => "BND",
         "isoNumber" => "096",
-        "symbol" => null,
+        "symbol" => "$",
         "decimal" => 2
     ],
     [
         "isoAlpha" => "BOB",
         "isoNumber" => "068",
-        "symbol" => "Bs.",
+        "symbol" => "$b",
         "decimal" => 2
     ],
     [
@@ -161,19 +161,19 @@ return [
     [
         "isoAlpha" => "BWP",
         "isoNumber" => "072",
-        "symbol" => null,
+        "symbol" => "P",
         "decimal" => 2
     ],
     [
         "isoAlpha" => "BYN",
         "isoNumber" => "933",
-        "symbol" => null,
+        "symbol" => "Br",
         "decimal" => 2
     ],
     [
         "isoAlpha" => "BZD",
         "isoNumber" => "084",
-        "symbol" => null,
+        "symbol" => "BZ$",
         "decimal" => 2
     ],
     [
@@ -251,7 +251,7 @@ return [
     [
         "isoAlpha" => "CUP",
         "isoNumber" => "192",
-        "symbol" => null,
+        "symbol" => "₱",
         "decimal" => 2
     ],
     [
@@ -341,7 +341,7 @@ return [
     [
         "isoAlpha" => "GHS",
         "isoNumber" => "936",
-        "symbol" => null,
+        "symbol" => "¢",
         "decimal" => 2
     ],
     [
@@ -371,7 +371,7 @@ return [
     [
         "isoAlpha" => "GYD",
         "isoNumber" => "328",
-        "symbol" => null,
+        "symbol" => "$",
         "decimal" => 2
     ],
     [
@@ -395,13 +395,13 @@ return [
     [
         "isoAlpha" => "HUF",
         "isoNumber" => "348",
-        "symbol" => null,
+        "symbol" => "Ft",
         "decimal" => 2
     ],
     [
         "isoAlpha" => "IDR",
         "isoNumber" => "360",
-        "symbol" => null,
+        "symbol" => "Rp",
         "decimal" => 2
     ],
     [
@@ -425,7 +425,7 @@ return [
     [
         "isoAlpha" => "IRR",
         "isoNumber" => "364",
-        "symbol" => null,
+        "symbol" => "﷼",
         "decimal" => 2
     ],
     [
@@ -461,13 +461,13 @@ return [
     [
         "isoAlpha" => "KGS",
         "isoNumber" => "417",
-        "symbol" => null,
+        "symbol" => "лв",
         "decimal" => 2
     ],
     [
         "isoAlpha" => "KHR",
         "isoNumber" => "116",
-        "symbol" => null,
+        "symbol" => "៛",
         "decimal" => 2
     ],
     [
@@ -503,13 +503,13 @@ return [
     [
         "isoAlpha" => "KZT",
         "isoNumber" => "398",
-        "symbol" => null,
+        "symbol" => "лв",
         "decimal" => 2
     ],
     [
         "isoAlpha" => "LAK",
         "isoNumber" => "418",
-        "symbol" => null,
+        "symbol" => "LAK",
         "decimal" => 2
     ],
     [
@@ -527,7 +527,7 @@ return [
     [
         "isoAlpha" => "LRD",
         "isoNumber" => "430",
-        "symbol" => null,
+        "symbol" => "$",
         "decimal" => 2
     ],
     [
@@ -563,7 +563,7 @@ return [
     [
         "isoAlpha" => "MKD",
         "isoNumber" => "807",
-        "symbol" => null,
+        "symbol" => "ден",
         "decimal" => 2
     ],
     [
@@ -575,7 +575,7 @@ return [
     [
         "isoAlpha" => "MNT",
         "isoNumber" => "496",
-        "symbol" => null,
+        "symbol" => "₮",
         "decimal" => 2
     ],
     [
@@ -593,7 +593,7 @@ return [
     [
         "isoAlpha" => "MUR",
         "isoNumber" => "480",
-        "symbol" => null,
+        "symbol" => "₨",
         "decimal" => 2
     ],
     [
@@ -629,13 +629,13 @@ return [
     [
         "isoAlpha" => "MZN",
         "isoNumber" => "943",
-        "symbol" => null,
+        "symbol" => "MT",
         "decimal" => 2
     ],
     [
         "isoAlpha" => "NAD",
         "isoNumber" => "516",
-        "symbol" => "N$",
+        "symbol" => "$",
         "decimal" => 2
     ],
     [
@@ -659,7 +659,7 @@ return [
     [
         "isoAlpha" => "NPR",
         "isoNumber" => "524",
-        "symbol" => null,
+        "symbol" => "₨",
         "decimal" => 2
     ],
     [
@@ -671,7 +671,7 @@ return [
     [
         "isoAlpha" => "OMR",
         "isoNumber" => "512",
-        "symbol" => null,
+        "symbol" => "﷼",
         "decimal" => 3
     ],
     [
@@ -719,7 +719,7 @@ return [
     [
         "isoAlpha" => "QAR",
         "isoNumber" => "634",
-        "symbol" => "ر.ق",
+        "symbol" => "﷼",
         "decimal" => 2
     ],
     [
@@ -731,7 +731,7 @@ return [
     [
         "isoAlpha" => "RSD",
         "isoNumber" => "941",
-        "symbol" => "дин",
+        "symbol" => "дин.",
         "decimal" => 2
     ],
     [
@@ -749,7 +749,7 @@ return [
     [
         "isoAlpha" => "SAR",
         "isoNumber" => "682",
-        "symbol" => "ر.س",
+        "symbol" => "﷼",
         "decimal" => 2
     ],
     [
@@ -761,7 +761,7 @@ return [
     [
         "isoAlpha" => "SCR",
         "isoNumber" => "690",
-        "symbol" => "SR",
+        "symbol" => "₨",
         "decimal" => 2
     ],
     [
@@ -827,7 +827,7 @@ return [
     [
         "isoAlpha" => "SVC",
         "isoNumber" => "222",
-        "symbol" => null,
+        "symbol" => "$",
         "decimal" => 2
     ],
     [
@@ -929,7 +929,7 @@ return [
     [
         "isoAlpha" => "UYU",
         "isoNumber" => "858",
-        "symbol" => "$",
+        "symbol" => "$U",
         "decimal" => 2
     ],
     [
@@ -941,7 +941,7 @@ return [
     [
         "isoAlpha" => "UZS",
         "isoNumber" => "860",
-        "symbol" => null,
+        "symbol" => "лв",
         "decimal" => 2
     ],
     [
@@ -1019,7 +1019,7 @@ return [
     [
         "isoAlpha" => "XCD",
         "isoNumber" => "951",
-        "symbol" => "EC$",
+        "symbol" => "$",
         "decimal" => 2
     ],
     [
@@ -1079,7 +1079,7 @@ return [
     [
         "isoAlpha" => "YER",
         "isoNumber" => "886",
-        "symbol" => null,
+        "symbol" => "﷼",
         "decimal" => 2
     ],
     [

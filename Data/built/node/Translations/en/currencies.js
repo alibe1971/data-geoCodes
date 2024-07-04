@@ -45,7 +45,7 @@ export const currencies = {
         name: "Australian Dollar"
     },
     AWG: {
-        name: "Aruban Florin"
+        name: "Aruban Guilder"
     },
     AZN: {
         name: "Azerbaijan Manat"

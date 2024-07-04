@@ -961,7 +961,8 @@ export const countries = {
         keywords: [
             "hellenic",
             "republic",
-            "greek"
+            "greek",
+            "el"
         ]
     },
     GS: {

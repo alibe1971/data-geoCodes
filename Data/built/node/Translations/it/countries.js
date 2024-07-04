@@ -1556,7 +1556,8 @@ export const countries = {
             "greca",
             "greche",
             "ellenico",
-            "elleniche"
+            "elleniche",
+            "el"
         ]
     },
     GS: {

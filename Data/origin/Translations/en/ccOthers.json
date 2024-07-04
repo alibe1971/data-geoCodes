@@ -304,7 +304,9 @@
         "NOTES": []
     },
     "GB": {
-        "others": [],
+        "others": [
+            "UK"
+        ],
         "NOTES": []
     },
     "GD": {
@@ -352,7 +354,9 @@
         "NOTES": []
     },
     "GR": {
-        "others": [],
+        "others": [
+            "EL"
+        ],
         "NOTES": []
     },
     "GS": {

@@ -961,7 +961,8 @@ return [
         "keywords" => [
             "hellenic",
             "republic",
-            "greek"
+            "greek",
+            "el"
         ]
     ],
     "GS" => [
