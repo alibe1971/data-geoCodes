@@ -78,7 +78,9 @@
       ]
     ],
     "maxWorkers": 2,
-    "transformIgnorePatterns": [],
+    "transformIgnorePatterns": [
+      "/node_modules/(?!(chalk)/)"
+    ],
     "transform": {
       "^.+\\.js$": "babel-jest"
     }
