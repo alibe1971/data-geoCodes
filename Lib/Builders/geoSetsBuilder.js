@@ -9,7 +9,9 @@ let Translations = {};
 
 
 export const geoSetsFunctions = {
-    DataParse: async (data) => {
+    DataParse: async (data, dataDir) => {
+        // eslint-disable-next-line no-unused-vars
+        const unused = dataDir;
         for (const item of Object.values(data)) {
             if (!Object.prototype.hasOwnProperty.call(item, mainKey)) {
                 throw new Error('The property `' + mainKey + '` is required in every items.');

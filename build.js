@@ -15,7 +15,10 @@ let APP = {
         console.log(chalk.yellow('   - DATA PARSING'));
         for (const [key, functions] of Object.entries(configBuild.appData)) {
             console.log(chalk.magenta('      - Begin to parse `' + key + '` data'));
-            APP.data[key] = await functions.DataParse(await readJsonFile(configBuild.readPaths.origin + key + '.json'));
+            APP.data[key] = await functions.DataParse(
+                await readJsonFile(configBuild.readPaths.origin + key + '.json'),
+                configBuild.readPaths.origin
+            );
             let translationData = {};
             for (const lang of Object.keys(APP['config'].settings.languages.inPackage)) {
                 translationData[lang] = {};

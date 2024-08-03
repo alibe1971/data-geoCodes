@@ -1,6 +1,8 @@
 import chalk from 'chalk';
 import fs from 'fs';
 import path from 'path';
+import { parseString } from 'xml2js';
+import {optimize} from "svgo";
 
 
 export function readJsonFile(filePath) {
@@ -103,3 +105,39 @@ export function checkForTranslationString(mainKey, currentObj, lang, defaultLang
     return true;
 }
 
+export function getMinimizedSvg(filePath) {
+    return new Promise((resolve, reject) => {
+        fs.readFile(path.resolve(filePath), 'utf-8', (err, data) => {
+            if (err) {
+                reject(chalk.red(`Error reading file ${filePath}: ${err}`));
+                return;
+            }
+
+            parseSvg(data)
+                .then(() => {
+                    const optimizationResult = optimize(data, { path: filePath });
+                    if (optimizationResult.error) {
+                        reject(chalk.red(`Error optimizing SVG file ${filePath}: ${optimizationResult.error}`));
+                    } else {
+                        // console.log(chalk.green(`Successfully optimized SVG file ${filePath}`));
+                        resolve(optimizationResult.data);
+                    }
+                })
+                .catch(error => {
+                    reject(chalk.red(`Error parsing SVG: ${error}`));
+                });
+        });
+    });
+}
+
+export function parseSvg(data) {
+    return new Promise((resolve, reject) => {
+        parseString(data, (err, result) => {
+            if (err) {
+                reject(err);
+            } else {
+                resolve(result);
+            }
+        });
+    });
+}

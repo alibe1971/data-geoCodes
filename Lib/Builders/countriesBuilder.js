@@ -1,5 +1,5 @@
 import chalk from 'chalk';
-import { sortList, checkForTranslationString } from '../utils.js';
+import {sortList, checkForTranslationString, getMinimizedSvg} from '../utils.js';
 import slugify from 'slugify';
 
 const mainKey = 'alpha2';
@@ -8,7 +8,7 @@ let Countries = [];
 let Translations = {};
 
 export const countriesFunctions = {
-    DataParse: async (data) => {
+    DataParse: async (data, dataDir) => {
         for (const item of Object.values(data)) {
             if(!Object.prototype.hasOwnProperty.call(item, mainKey)) {
                 throw new Error('The property `' + mainKey + '` is required in every items.');
@@ -56,6 +56,28 @@ export const countriesFunctions = {
                 );
             }
             country.unM49 = item.unM49;
+
+            /** flags: must be an object */
+            if(!Object.prototype.hasOwnProperty.call(item, 'flags')) {
+                item.flags = {
+                    svg: null
+                };
+            } else if(
+                typeof item.flags != 'object' || item.flags === null || Array.isArray(item.flags)
+            ) {
+                throw new Error('Item: `' + item[mainKey] + '`. The property `flags` must be an object');
+            }
+            if(Object.keys(item.flags).length !== 0) {
+                /** svg */
+                try {
+                    item.flags.svg = await getMinimizedSvg(
+                        dataDir + 'Flags/Countries/' + item[mainKey].toLowerCase() + '/flag_10x7.svg'
+                    );
+                } catch (error) {
+                    throw new Error('Item: `' + item[mainKey] + '`. Error while minimizing SVG');
+                }
+            }
+            country.flags = item.flags;
 
             /** dependency: can be null or 2 chars length string */
             if(!Object.prototype.hasOwnProperty.call(item, 'dependency')) {
@@ -175,6 +197,23 @@ export const countriesFunctions = {
                 exceptions: item.dialCodes.exceptions
             };
 
+            /** ccTld: can be null or 2 chars length string other the beginning of `.` (3 chars total) */
+            if(!Object.prototype.hasOwnProperty.call(item, 'ccTld')) {
+                item.ccTld = null;
+            }
+            if(item.ccTld !== null) {
+                if(
+                    typeof item.ccTld != 'string' ||
+                    !/^\.[a-z]{2}$/.test(item.ccTld)
+                ) {
+                    throw new Error(
+                        'Item: `' + item[mainKey] + '`. The property `ccTld` must be null or a 3 chars length ' +
+                        '(beginning with `.` and 2 length alphabetical string'
+                    );
+                }
+            }
+            country.ccTld = item.ccTld;
+
             /** timeZones: must be present and must be a not empty array */
             if(!Object.prototype.hasOwnProperty.call(item, 'timeZones')) {
                 throw new Error('Item: `'+ item[mainKey] +'`. The property `timeZones` is required');
@@ -217,6 +256,33 @@ export const countriesFunctions = {
                 }
             }
             country.locales = item.locales;
+
+            /** otherAppsIds: must be an object */
+            if(!Object.prototype.hasOwnProperty.call(item, 'otherAppsIds')) {
+                item.otherAppsIds = {
+                    geoNamesOrg: null
+                };
+            } else if(
+                typeof item.otherAppsIds != 'object' || item.otherAppsIds === null || Array.isArray(item.otherAppsIds)
+            ) {
+                throw new Error('Item: `' + item[mainKey] + '`. The property `otherAppsIds` must be an object');
+            }
+            if(Object.keys(item.otherAppsIds).length !== 0) {
+                if(!Object.prototype.hasOwnProperty.call(item.otherAppsIds, 'geoNamesOrg')) {
+                    item.otherAppsIds.geoNamesOrg = null;
+                } else if(
+                    (!Number.isInteger(item.otherAppsIds.geoNamesOrg) || item.otherAppsIds.geoNamesOrg == 0) &&
+                    item.otherAppsIds.geoNamesOrg !== null
+                ) {
+                    throw new Error(
+                        'Item: `'+ item[mainKey] + '`. The property `otherAppsIds.geoNamesOrg` must be an integer' +
+                        ' or null'
+                    );
+                }
+            }
+            country.otherAppsIds = {
+                geoNamesOrg: item.otherAppsIds.geoNamesOrg
+            };
 
             /** ---- **/
             Countries.push(country);
