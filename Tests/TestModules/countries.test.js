@@ -84,6 +84,21 @@ for (const country of Object.values(countries)) {
             uniqueKeysControl.add(country.unM49);
         });
 
+        /** flags **/
+        test(`Test that the country '${country.alpha2}' has the property 'flags' as not empty object`, () => {
+            expect(
+                country.hasOwnProperty('flags') &&
+                typeof country.flags === 'object' && country.flags !== null &&
+                country.flags.length !== 0
+            ).toBe(true);
+        });
+        test(`Test that for the country '${country.alpha2}', 'flags' has property 'svg' as string`, async () => {
+            expect(
+                country.flags.hasOwnProperty('svg') &&
+                typeof country.flags.svg == 'string'
+            ).toBe(true);
+        });
+
         /** officialName **/
         test(`Test that the country '${country.alpha2}' has the property 'officialName' as not empty object`, () => {
             expect(
@@ -182,6 +197,14 @@ for (const country of Object.values(countries)) {
             ).toBe(true);
         });
 
+        /** ccTld **/
+        test(`Test that the country '${country.alpha2}' has the property 'ccTld' as null or '.' plus 2 character string`, () => {
+            expect(
+                country.hasOwnProperty('ccTld') &&
+                country.ccTld === null ||
+                ( typeof country.ccTld === 'string' && /^\.[a-z]{2}$/.test(country.ccTld) )
+            ).toBe(true);
+        });
 
         /** timeZones **/
         test(`Test that the country '${country.alpha2}' has the property 'timeZones' as not empty array`, () => {
@@ -201,6 +224,24 @@ for (const country of Object.values(countries)) {
                 country.hasOwnProperty('locales') &&
                 typeof country.locales === 'object' && country.locales !== null &&
                 Array.isArray(country.locales) && country.locales.length !== 0
+            ).toBe(true);
+        });
+
+        /** otherAppsIds **/
+        test(`Test that the country '${country.alpha2}' has the property 'otherAppsIds' as not empty object`, () => {
+            expect(
+                country.hasOwnProperty('otherAppsIds') &&
+                typeof country.otherAppsIds === 'object' && country.otherAppsIds !== null &&
+                country.otherAppsIds.length !== 0
+            ).toBe(true);
+        });
+        test(`Test that for the country '${country.alpha2}', 'otherAppsIds' has property 'geoNamesOrg' as null or integer`, () => {
+            expect(
+                country.otherAppsIds.hasOwnProperty('geoNamesOrg') &&
+                (
+                    (Number.isInteger(country.otherAppsIds.geoNamesOrg) && country.otherAppsIds.geoNamesOrg != 0) ||
+                    country.otherAppsIds.geoNamesOrg === null
+                )
             ).toBe(true);
         });
 
