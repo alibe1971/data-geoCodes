@@ -132,3 +132,7 @@ dist
 
 # JUNIT
 junit.xml
+
+
+# App Files
+exportConfig.json
