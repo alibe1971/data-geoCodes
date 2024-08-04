@@ -58,6 +58,7 @@ export const saveDataForPhp = {
         buildData += 'return ' + JSON.stringify(data, null, 4)
             .replace(/:/g, ' =>')
             .replace(/\{/g, '[')
+            .replace(/\"/g, "'")
             .replace(/\}/g, ']') + ';';
 
         return buildData;
