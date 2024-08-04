@@ -1,5 +1,6 @@
 import chalk from 'chalk';
 import fs from 'fs';
+import fsExtra from 'fs-extra';
 import path from 'path';
 import { parseString } from 'xml2js';
 import {optimize} from "svgo";
@@ -40,6 +41,17 @@ export function sortList(list, key) {
     return list;
 }
 
+export function checkDir(directoryPath) {
+    return new Promise((resolve, reject) => {
+        fs.access(directoryPath, fs.constants.F_OK, (err) => {
+            if (err) {
+                resolve(false);
+            } else {
+                resolve(true);
+            }
+        });
+    });
+}
 
 export async function cleanDir(directoryPath, translationsDir, languages) {
     await deleteDir(directoryPath);
@@ -48,6 +60,13 @@ export async function cleanDir(directoryPath, translationsDir, languages) {
     for (let i = 0; i < languages.length; i++) {
         await createDir(directoryPath + translationsDir + languages[i]);
     }
+    return;
+}
+
+
+export async function cloneDir(source, destination) {
+    await deleteDir(destination);
+    await fsExtra.copy(source, destination);
     return;
 }
 
@@ -140,4 +159,9 @@ export function parseSvg(data) {
             }
         });
     });
+}
+
+
+export async function exportData(path) {
+    // await fsExtra.copy(srcDir, destDir);
 }
