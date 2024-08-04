@@ -1,10 +1,12 @@
 import { countriesFunctions } from './Builders/countriesBuilder.js';
 import { geoSetsFunctions } from './Builders/geoSetsBuilder.js';
 import { currenciesFunctions } from './Builders/currenciesBuilder.js';
+import {languagesFunctions} from "./Builders/languagesBuilder.js";
 
 import { saveDataForJson } from './Writers/appJson.js';
 import { saveDataForNode } from './Writers/appNode.js';
 import { saveDataForPhp } from './Writers/appPhp.js';
+
 
 export const configBuild = {
     readPaths: {
@@ -32,12 +34,16 @@ export const configBuild = {
         },
         currencies: {
             name: 'currencies'
+        },
+        languages: {
+            name: 'languages'
         }
     },
     appConfig: 'Config.json',
     appData: {
         countries: countriesFunctions,
         currencies: currenciesFunctions,
-        geoSets: geoSetsFunctions
+        geoSets: geoSetsFunctions,
+        languages: languagesFunctions
     }
 };
