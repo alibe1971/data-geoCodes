@@ -334,10 +334,10 @@ export const countriesFunctions = {
                     (checkForTranslationString(cc, langObjs.name, lang, defaultLanguage, 'name')) ?
                         langObjs.name[cc] : '';
 
-                /** `completeName`: the source must be a string (required for the default language) **/
-                Translations[lang][cc].nameComplete =
-                    (checkForTranslationString(cc, langObjs.nameComplete, lang, defaultLanguage, 'name')) ?
-                        langObjs.nameComplete[cc] : '';
+                /** `fullName`: the source must be a string (required for the default language) **/
+                Translations[lang][cc].fullName =
+                    (checkForTranslationString(cc, langObjs.fullName, lang, defaultLanguage, 'name')) ?
+                        langObjs.fullName[cc] : '';
 
                 /** `demonyms`: the source (if present) must be an array **/
                 currentObj = langObjs.demonyms;

@@ -1,10 +1,14 @@
 {
     "json":[
+        "/Users/aliberati/Desktop/STIEKATE/json"
     ],
 
     "node":[
+
     ],
 
     "php":[
+        "/Users/aliberati/ALIBE/php-geoCodes/src/Data",
+        "/Users/aliberati/Desktop/STIEKATE/php"
     ]
 }

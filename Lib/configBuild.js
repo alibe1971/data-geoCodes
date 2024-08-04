@@ -20,7 +20,7 @@ export const configBuild = {
     TranslationData: {
         countries: {
             name: 'ccNameCommon',
-            nameComplete: 'ccNameComplete',
+            fullName: 'ccNameFull',
             demonyms: 'ccDemonyms',
             acronymsAliasFormer: 'ccAcronymsAliasFormer',
             adjectives: 'ccAdjectives',

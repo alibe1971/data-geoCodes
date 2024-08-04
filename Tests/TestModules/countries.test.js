@@ -271,11 +271,11 @@ for (const country of Object.values(countries)) {
             uniqueKeysControl.add(defTranslation[country.alpha2].name);
         });
 
-        /** nameComplete **/
-        test(`Test that the country '${country.alpha2}' default translation has property 'nameComplete' as not empty string`, () => {
+        /** fullName **/
+        test(`Test that the country '${country.alpha2}' default translation has property 'fullName' as not empty string`, () => {
             expect(
-                defTranslation[country.alpha2].hasOwnProperty('nameComplete') &&
-                typeof defTranslation[country.alpha2].nameComplete === 'string' && defTranslation[country.alpha2].nameComplete !== ''
+                defTranslation[country.alpha2].hasOwnProperty('fullName') &&
+                typeof defTranslation[country.alpha2].fullName === 'string' && defTranslation[country.alpha2].fullName !== ''
             ).toBe(true);
         });
 
