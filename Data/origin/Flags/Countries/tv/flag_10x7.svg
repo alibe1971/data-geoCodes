@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1000"
+   height="700"
+   viewBox="0 0 1200 600"
+   version="1.1"
+   id="svg39"
+   sodipodi:docname="tv.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata43">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1376"
+     id="namedview41"
+     showgrid="false"
+     inkscape:zoom="1.3485714"
+     inkscape:cx="729.04516"
+     inkscape:cy="387.13862"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg39" />
+  <defs
+     id="defs7">
+    <clipPath
+       id="c">
+      <path
+         d="M0,0V150H700V300H600zM0,300V400H300V0H600z"
+         id="path2" />
+    </clipPath>
+    <path
+       id="star"
+       fill="#ffce00"
+       d="M0,-50.0808 29.4368,40.5162 -47.6297,-15.4758H47.6297L-29.4368,40.5172z" />
+    <use
+       id="rats"
+       xlink:href="#star"
+       transform="rotate(36)" />
+  </defs>
+  <rect
+     width="1200"
+     height="600"
+     id="rect9"
+     x="0"
+     y="-120.00004"
+     style="fill:#00247d" />
+  <path
+     d="M 0,-120 600,180 M 0,180 600,-120"
+     id="path11"
+     inkscape:connector-curvature="0"
+     style="stroke:#ffffff;stroke-width:60" />
+  <path
+     d="M 0,0 600,300 M 0,300 600,0"
+     clip-path="url(#c)"
+     id="path13"
+     inkscape:connector-curvature="0"
+     transform="translate(0,-120)"
+     style="stroke:#cf142b;stroke-width:40" />
+  <path
+     d="M 300,-120 V 280 M 0,30 h 700"
+     id="path15"
+     inkscape:connector-curvature="0"
+     style="stroke:#ffffff;stroke-width:100" />
+  <path
+     d="M 300,-120 V 280 M 0,30 h 700"
+     id="path17"
+     inkscape:connector-curvature="0"
+     style="stroke:#cf142b;stroke-width:60" />
+  <path
+     d="m 0,180 h 600 v -300 h 600 V 480 H 0 Z"
+     id="path19"
+     inkscape:connector-curvature="0"
+     style="fill:#5b97b1;fill-opacity:1" />
+  <rect
+     style="fill:#5b97b1;fill-opacity:1;stroke-width:1.20855832"
+     id="rect45"
+     width="1203.0509"
+     height="255.38135"
+     x="-0.65090132"
+     y="468.00003" />
+  <use
+     xlink:href="#star"
+     x="645.3396"
+     y="540.99359"
+     id="use21"
+     width="100%"
+     height="100%"
+     transform="translate(-39.426814,-26.364776)" />
+  <use
+     xlink:href="#rats"
+     x="788.02557"
+     y="504.51599"
+     id="use23"
+     width="100%"
+     height="100%"
+     transform="translate(-39.426814,-26.364776)" />
+  <use
+     xlink:href="#rats"
+     x="788.02557"
+     y="382.53241"
+     id="use25"
+     width="100%"
+     height="100%"
+     transform="translate(-39.426814,-26.364776)" />
+  <use
+     xlink:href="#rats"
+     x="914.0304"
+     y="473.68439"
+     id="use27"
+     width="100%"
+     height="100%"
+     transform="translate(-39.426814,-26.364776)" />
+  <use
+     xlink:href="#rats"
+     x="914.0304"
+     y="208.2708"
+     id="use29"
+     width="100%"
+     height="100%"
+     transform="translate(-39.426814,-26.364776)" />
+  <use
+     xlink:href="#star"
+     x="996.44159"
+     y="390.04559"
+     id="use31"
+     width="100%"
+     height="100%"
+     transform="translate(-39.426814,-26.364776)" />
+  <use
+     xlink:href="#rats"
+     x="1019.928"
+     y="172.07761"
+     id="use33"
+     width="100%"
+     height="100%"
+     transform="translate(-39.426814,-26.364776)" />
+  <use
+     xlink:href="#star"
+     x="1102.8361"
+     y="321.55441"
+     id="use35"
+     width="100%"
+     height="100%"
+     transform="translate(-39.426814,-26.364776)" />
+  <use
+     xlink:href="#star"
+     x="1102.8361"
+     y="87.486"
+     id="use37"
+     width="100%"
+     height="100%"
+     transform="translate(-39.426814,-26.364776)" />
+</svg>

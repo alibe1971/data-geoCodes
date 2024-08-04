@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1000"
+   height="700"
+   viewBox="-36 -24 72 48"
+   version="1.1"
+   id="svg24"
+   sodipodi:docname="kr.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata30">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs28" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1376"
+     id="namedview26"
+     showgrid="false"
+     inkscape:zoom="1.3485714"
+     inkscape:cx="367.34126"
+     inkscape:cy="370.6922"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg24" />
+  <title
+     id="title2">Flag of South Korea</title>
+  <rect
+     x="-36"
+     y="-25.227966"
+     width="72"
+     height="50.98983"
+     id="rect4"
+     style="fill:#ffffff;stroke-width:1.03067362" />
+  <g
+     transform="rotate(-56.3099325)"
+     id="g16">
+    <g
+       id="b2">
+      <path
+         id="b"
+         d="M-6-25H6M-6-22H6M-6-19H6"
+         stroke="#000"
+         stroke-width="2" />
+      <use
+         xlink:href="#b"
+         y="44"
+         id="use7" />
+    </g>
+    <path
+       stroke="#fff"
+       stroke-width="1"
+       d="M0,17v10"
+       id="path10" />
+    <circle
+       fill="#c60c30"
+       r="12"
+       id="circle12" />
+    <path
+       fill="#003478"
+       d="M0-12A6,6 0 0 0 0,0A6,6 0 0 1 0,12A12,12 0 0,1 0-12Z"
+       id="path14" />
+  </g>
+  <g
+     transform="rotate(-123.6900675)"
+     id="g22">
+    <use
+       xlink:href="#b2"
+       id="use18" />
+    <path
+       stroke="#fff"
+       stroke-width="1"
+       d="M0-23.5v3M0,17v3.5M0,23.5v3"
+       id="path20" />
+  </g>
+</svg>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1000"
+   height="700"
+   viewBox="-18 -12 36 24"
+   version="1.1"
+   id="svg13"
+   sodipodi:docname="gg.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata19">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs17" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1376"
+     id="namedview15"
+     showgrid="false"
+     inkscape:zoom="1.3485714"
+     inkscape:cx="379.80144"
+     inkscape:cy="639.7321"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg13" />
+  <rect
+     x="-18"
+     y="-12.652356"
+     width="36"
+     height="25.319731"
+     id="rect2"
+     style="fill:#ffffff;stroke-width:1.02712643" />
+  <path
+     d="M 0,-12.641039 V 12.651926 M -18,0.00544352 h 36"
+     id="path4"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#e8112d;stroke-width:6.1595006" />
+  <path
+     id="arm"
+     d="m -9,1.9725156 1,-1.0025765 h 9 v -2.005153 h -9 l -1,-1.0025765 z"
+     inkscape:connector-curvature="0"
+     style="fill:#f9dd16;stroke-width:1.00128746" />
+  <use
+     xlink:href="#arm"
+     transform="matrix(0,1.0025765,-0.99743013,0,-0.03255352,-0.03263739)"
+     id="use7"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%" />
+  <use
+     xlink:href="#arm"
+     transform="matrix(0,-1.0025765,0.99743013,0,0.03255352,-0.03263739)"
+     id="use9"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%" />
+  <use
+     xlink:href="#arm"
+     transform="rotate(180,0,-0.03263739)"
+     id="use11"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%" />
+</svg>

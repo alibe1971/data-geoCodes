@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1000"
+   height="700"
+   viewBox="0 0 81 54"
+   version="1.1"
+   id="svg673"
+   sodipodi:docname="so.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata679">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs677" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1376"
+     id="namedview675"
+     showgrid="false"
+     inkscape:zoom="0.953584"
+     inkscape:cx="520.36774"
+     inkscape:cy="546.39108"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg673" />
+  <rect
+     width="81"
+     height="57.652534"
+     id="rect657"
+     x="0"
+     y="-1.5289686"
+     style="fill:#4189dd;stroke-width:1.03326654" />
+  <g
+     transform="translate(40.5 27) scale(13)"
+     id="g671">
+    <g
+       id="t">
+      <polygon
+         id="w"
+         fill="#FFF"
+         points="0,0 0,1 .5,1"
+         transform="translate(0 -1) rotate(18)" />
+      <use
+         xlink:href="#w"
+         transform="scale(-1 1)"
+         id="use660" />
+    </g>
+    <use
+       xlink:href="#t"
+       transform="rotate(72)"
+       id="use663" />
+    <use
+       xlink:href="#t"
+       transform="rotate(-72)"
+       id="use665" />
+    <use
+       xlink:href="#t"
+       transform="rotate(144)"
+       id="use667" />
+    <use
+       xlink:href="#t"
+       transform="rotate(-144)"
+       id="use669" />
+  </g>
+</svg>

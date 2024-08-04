@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1000"
+   height="700"
+   viewBox="-3 -6 24 12"
+   version="1.1"
+   id="svg1557"
+   sodipodi:docname="tl.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata1563">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs1561" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1376"
+     id="namedview1559"
+     showgrid="false"
+     inkscape:zoom="1.3485714"
+     inkscape:cx="429.69269"
+     inkscape:cy="224.62758"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1557" />
+  <path
+     d="M 21,8.4559322 V -8.4025424 H -3 V 8.4559322 Z"
+     id="path1538"
+     inkscape:connector-curvature="0"
+     style="fill:#dc241f;stroke-width:1.18527341" />
+  <path
+     d="M -3,-8.4025424 V 8.4559322 L 9.9788136,0.0266949 Z"
+     id="path1540"
+     inkscape:connector-curvature="0"
+     style="fill:#ffc726;stroke-width:1.23266602" />
+  <path
+     d="M -3,-8.4025424 V 8.4559322 L 6.9754238,0.0266949 Z"
+     id="path1542"
+     inkscape:connector-curvature="0"
+     style="stroke-width:1.32354653" />
+  <g
+     transform="rotate(-26.565051)"
+     id="g1555">
+    <g
+       id="f">
+      <g
+         id="t">
+        <path
+           d="M0,-2.1V0H1z"
+           fill="#fff"
+           transform="rotate(18,0,-2.1)"
+           id="o" />
+        <use
+           xlink:href="#o"
+           transform="scale(-1,1)"
+           id="use1545" />
+      </g>
+      <use
+         xlink:href="#t"
+         transform="rotate(72)"
+         id="use1548" />
+    </g>
+    <use
+       xlink:href="#t"
+       transform="rotate(-72)"
+       id="use1551" />
+    <use
+       xlink:href="#f"
+       transform="rotate(144)"
+       id="use1553" />
+  </g>
+</svg>

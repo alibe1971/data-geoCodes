@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1000"
+   height="700"
+   viewBox="0 0 36 24"
+   version="1.1"
+   id="svg473"
+   sodipodi:docname="pa.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata479">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs477" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1376"
+     id="namedview475"
+     showgrid="false"
+     inkscape:zoom="1.3485714"
+     inkscape:cx="578.96753"
+     inkscape:cy="371.61365"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg473" />
+  <rect
+     width="36"
+     height="25.281355"
+     id="rect448"
+     x="0"
+     y="-0.66737288"
+     style="fill:#ffffff;stroke-width:1.02634776" />
+  <g
+     id="g465"
+     transform="matrix(1,0,0,1.0533898,0,-0.66737289)"
+     style="fill:#005293">
+    <g
+       id="star"
+       transform="translate(9,6)">
+      <g
+         id="c">
+        <path
+           id="t"
+           d="M 0,-3 V 0 H 1.5 Z"
+           transform="rotate(18,0,-3)"
+           inkscape:connector-curvature="0" />
+        <use
+           xlink:href="#t"
+           transform="scale(-1,1)"
+           id="use451"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+      </g>
+      <use
+         xlink:href="#c"
+         transform="rotate(72)"
+         id="use454"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         xlink:href="#c"
+         transform="rotate(144)"
+         id="use456"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         xlink:href="#c"
+         transform="rotate(-144)"
+         id="use458"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         xlink:href="#c"
+         transform="rotate(-72)"
+         id="use460"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </g>
+    <rect
+       y="12"
+       width="18"
+       height="12"
+       id="rect463"
+       x="0" />
+  </g>
+  <g
+     id="g471"
+     transform="matrix(1,0,0,1.0533898,0,-0.66737289)"
+     style="fill:#d21034">
+    <rect
+       x="18"
+       width="18"
+       height="12"
+       id="rect467"
+       y="0" />
+    <use
+       xlink:href="#star"
+       x="18"
+       y="12"
+       id="use469"
+       width="100%"
+       height="100%" />
+  </g>
+</svg>

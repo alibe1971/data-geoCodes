@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1000"
+   height="700"
+   viewBox="0 0 510 300"
+   version="1.1"
+   id="svg34"
+   sodipodi:docname="cv.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata40">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs38" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1376"
+     id="namedview36"
+     showgrid="false"
+     inkscape:zoom="0.953584"
+     inkscape:cx="612.02098"
+     inkscape:cy="270.56262"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg34" />
+  <rect
+     width="510"
+     height="359.36551"
+     id="rect2"
+     x="0"
+     y="-29.950167"
+     style="fill:#003893;stroke-width:1.09447932" />
+  <rect
+     width="510"
+     height="75"
+     y="150"
+     id="rect4"
+     fill="#fff" />
+  <rect
+     width="510"
+     height="25"
+     y="175"
+     id="rect6"
+     fill="#cf2027" />
+  <g
+     fill="#f7d116"
+     transform="translate(191.25,187.5)"
+     id="g32">
+    <g
+       id="s2">
+      <g
+         id="s"
+         transform="translate(0,-75)">
+        <g
+           id="c">
+          <path
+             id="t"
+             d="M0,-15V0H7.5"
+             transform="rotate(18,0,-15)" />
+          <use
+             xlink:href="#t"
+             transform="scale(-1,1)"
+             id="use9" />
+        </g>
+        <use
+           xlink:href="#c"
+           transform="rotate(72)"
+           id="use12" />
+        <use
+           xlink:href="#c"
+           transform="rotate(144)"
+           id="use14" />
+        <use
+           xlink:href="#c"
+           transform="rotate(216)"
+           id="use16" />
+        <use
+           xlink:href="#c"
+           transform="rotate(288)"
+           id="use18" />
+      </g>
+      <use
+         xlink:href="#s"
+         y="150"
+         id="use21" />
+    </g>
+    <use
+       xlink:href="#s2"
+       transform="rotate(72)"
+       id="use24" />
+    <use
+       xlink:href="#s2"
+       transform="rotate(144)"
+       id="use26" />
+    <use
+       xlink:href="#s2"
+       transform="rotate(216)"
+       id="use28" />
+    <use
+       xlink:href="#s2"
+       transform="rotate(288)"
+       id="use30" />
+  </g>
+</svg>

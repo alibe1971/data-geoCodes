@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1000"
+   height="700"
+   viewBox="0 0 120 60"
+   version="1.1"
+   id="svg36"
+   sodipodi:docname="nu.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata42">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs40" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1376"
+     id="namedview38"
+     showgrid="false"
+     inkscape:zoom="1.3485714"
+     inkscape:cx="506.48016"
+     inkscape:cy="360.88486"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg36" />
+  <clipPath
+     id="t">
+    <path
+       d="M0,0V15H70V30H60zM0,30V40H30V0H60z"
+       id="path2" />
+  </clipPath>
+  <title
+     id="title5">Flag of Niue</title>
+  <rect
+     width="120"
+     height="60"
+     id="rect7"
+     x="0"
+     y="-11.999993"
+     style="fill:#002868" />
+  <g
+     id="g17"
+     transform="translate(0,-12)"
+     style="stroke:#cf142b;stroke-width:6">
+    <path
+       d="M 0,0 60,30 M 60,0 0,30"
+       id="path9"
+       inkscape:connector-curvature="0"
+       style="stroke:#ffffff" />
+    <path
+       d="M 0,0 60,30 M 60,0 0,30"
+       clip-path="url(#t)"
+       id="path11"
+       inkscape:connector-curvature="0"
+       style="stroke-width:4" />
+    <path
+       d="M 30,0 V 40 M 0,15 h 70"
+       id="path13"
+       inkscape:connector-curvature="0"
+       style="stroke:#ffffff;stroke-width:10" />
+    <path
+       d="M 30,0 V 40 M 0,15 h 70"
+       id="path15"
+       inkscape:connector-curvature="0" />
+  </g>
+  <path
+     d="m 60,-12 h 60 V 48 H 0 V 18 h 60 z"
+     id="path19"
+     inkscape:connector-curvature="0"
+     style="fill:#fcd116" />
+  <g
+     transform="translate(30,3)"
+     id="g34">
+    <g
+       transform="scale(5.1039048)"
+       id="g24">
+      <circle
+         r="1"
+         id="circle21"
+         cx="0"
+         cy="0"
+         style="fill:#002868" />
+      <path
+         id="s"
+         d="M 0,-513674 301930,415571 -488533,-158734 H 488533 L -301930,415571"
+         transform="matrix(1.94676e-6,0,0,1.94676e-6,0,0)"
+         inkscape:connector-curvature="0"
+         style="fill:#fcd116" />
+    </g>
+    <use
+       xlink:href="#s"
+       transform="matrix(3,0,0,3,-17.5,0.29)"
+       id="use26"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
+    <use
+       xlink:href="#s"
+       transform="matrix(3,0,0,3,17.5,0.29)"
+       id="use28"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
+    <use
+       xlink:href="#s"
+       transform="matrix(3,0,0,3,0,10.29)"
+       id="use30"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
+    <use
+       xlink:href="#s"
+       transform="matrix(3,0,0,3,0,-9.71)"
+       id="use32"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
+  </g>
+  <rect
+     style="fill:#fcd116;fill-opacity:1;stroke-width:0.12"
+     id="rect53"
+     width="121.19491"
+     height="26.605932"
+     x="-0.44491524"
+     y="46.817799" />
+</svg>

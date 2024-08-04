@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1000"
+   height="700"
+   viewBox="0 0 12 6"
+   version="1.1"
+   id="svg73"
+   sodipodi:docname="sd.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata79">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs77" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1376"
+     id="namedview75"
+     showgrid="false"
+     inkscape:zoom="0.953584"
+     inkscape:cx="953.96603"
+     inkscape:cy="225.27356"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg73" />
+  <rect
+     width="12"
+     height="8.4035931"
+     id="rect65"
+     x="0"
+     y="-1.204957"
+     style="stroke-width:1.18346894" />
+  <rect
+     width="12"
+     height="5.6023955"
+     id="rect67"
+     x="0"
+     y="-1.204957"
+     style="fill:#ffffff;stroke-width:1.18346894" />
+  <rect
+     width="12"
+     height="2.8011978"
+     id="rect69"
+     x="0"
+     y="-1.204957"
+     style="fill:#d21034;stroke-width:1.18346894" />
+  <polygon
+     points="0,6 0,0 4,3 "
+     id="polygon71"
+     transform="matrix(1.2359519,0,0,1.4005988,0,-1.204957)"
+     style="fill:#007229" />
+</svg>

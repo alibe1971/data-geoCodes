@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1000"
+   height="700"
+   viewBox="0 0 1800 900"
+   version="1.1"
+   id="svg1532"
+   sodipodi:docname="tk.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata1536">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1376"
+     id="namedview1534"
+     showgrid="false"
+     inkscape:zoom="0.953584"
+     inkscape:cx="690.64295"
+     inkscape:cy="376.11587"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1532" />
+  <defs
+     id="defs1512">
+    <g
+       id="star">
+      <g
+         id="arm"
+         transform="translate(0,-0.324925)">
+        <path
+           d="M1,0H0V0.5z"
+           id="path1498" />
+        <path
+           d="M1,0H0V-0.5z"
+           transform="rotate(-36,1,0)"
+           id="path1500" />
+      </g>
+      <use
+         xlink:href="#arm"
+         transform="rotate(72)"
+         id="use1503" />
+      <use
+         xlink:href="#arm"
+         transform="rotate(144)"
+         id="use1505" />
+      <use
+         xlink:href="#arm"
+         transform="rotate(216)"
+         id="use1507" />
+      <use
+         xlink:href="#arm"
+         transform="rotate(288)"
+         id="use1509" />
+    </g>
+  </defs>
+  <rect
+     width="1800"
+     height="1269.9727"
+     id="rect1514"
+     x="0"
+     y="-183.09871"
+     style="fill:#00247d;stroke-width:1.18788922" />
+  <g
+     fill="#fed100"
+     id="g1520">
+    <path
+       d="M329.37609,777.2654C311.44173,777.11556 497.99952,677.83404 654.14523,550.66563C858.78891,383.99945 1299.541,117.15633 1429.1161,73.7954c13.5433,-4.53215 -27.7761,23.07308 -33.14,32.01541c-138.3415,163.74043 -27.925,472.72379 144.9726,628.04829c51.99,39.7632 49.3274,41.85082 145.7074,45.7463v9l-1357.28001,-11.34z"
+       id="path1516" />
+    <path
+       d="m318.12503,795.3246c0,0 -13.16343,9.4029 -13.12495,16.4061c0.043,7.7725 14.76557,18.0468 14.76557,18.0468l1338.74505,14.7656 24.6093,-16.4062 -34.453,-21.328 -1330.54197,-11.4843z"
+       id="path1518" />
+  </g>
+  <g
+     fill="#fff"
+     id="g1530">
+    <use
+       xlink:href="#star"
+       transform="translate(342.9565,112.5812) scale(45)"
+       id="use1522" />
+    <use
+       xlink:href="#star"
+       transform="translate(521.20459,267.53) scale(37.5)"
+       id="use1524" />
+    <use
+       xlink:href="#star"
+       transform="translate(135,321.8075) scale(45)"
+       id="use1526" />
+    <use
+       xlink:href="#star"
+       transform=" translate(342.9565,652.5812) scale(52.5)"
+       id="use1528" />
+  </g>
+</svg>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1000"
+   height="700"
+   viewBox="-120 -80 240 160"
+   version="1.1"
+   id="svg64"
+   sodipodi:docname="ke.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata68">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1376"
+     id="namedview66"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="1.907168"
+     inkscape:cx="660.8953"
+     inkscape:cy="397.17121"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg64">
+    <sodipodi:guide
+       position="140.18692,159.99789"
+       orientation="0,1"
+       id="guide569"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="126.21856,79.699324"
+       orientation="0,1"
+       id="guide571"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="149.49915,79.699324"
+       orientation="0,1"
+       id="guide573"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="119.92651,129.79604"
+       orientation="1,0"
+       id="guide575"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs33">
+    <path
+       id="spearshape"
+       d="M -1,55.4256258422040733928782829281879157421699 h 2 V -38 C 3,-40 3,-43 3,-46 C 3,-48 3,-56 0,-64.6632301492380856250246634162192350325315 C -3,-56 -3,-48 -3,-46 C -3,-43 -3,-40 -1,-38 z"
+       stroke-miterlimit="10"
+       transform="rotate(30)" />
+  </defs>
+  <rect
+     x="-120"
+     y="-83.997787"
+     width="240"
+     height="168.15053"
+     id="rect35"
+     style="fill:#ffffff;stroke-width:1.02515411" />
+  <rect
+     x="-120"
+     y="-83.997787"
+     width="240"
+     height="50.445164"
+     id="rect37"
+     style="stroke-width:1.02515411" />
+  <rect
+     x="-120"
+     y="33.707592"
+     width="240"
+     height="50.445164"
+     id="rect39"
+     style="fill:#006600;stroke-width:1.02515411" />
+  <g
+     id="spear">
+    <use
+       xlink:href="#spearshape"
+       id="use41"
+       stroke="#000" />
+    <use
+       xlink:href="#spearshape"
+       id="use43"
+       fill="#fff" />
+  </g>
+  <use
+     xlink:href="#spear"
+     transform="scale(-1,1)"
+     id="use46" />
+  <path
+     d="m -120,-25.145095 v 50.44516 h 101 c 3,8.407528 13,25.222582 19,25.222582 6,0 16,-16.815054 19,-25.222582 h 101 v -50.44516 H 19 C 16,-33.552623 6,-50.367676 0,-50.367676 c -6,0 -16,16.815053 -19,25.222581 z"
+     id="path48"
+     inkscape:connector-curvature="0"
+     style="fill:#bb0000;stroke-width:1.02515411" />
+  <path
+     id="deco_r"
+     d="M 19,24 c 3,-8 5,-16 5,-24 s -2,-16 -5,-24 c -3,8 -5,16 -5,24 s 2,16 5,24" />
+  <use
+     xlink:href="#deco_r"
+     transform="scale(-1,1)"
+     id="use51" />
+  <g
+     id="g62"
+     fill="#fff">
+    <ellipse
+       rx="4"
+       ry="6"
+       id="ellipse53" />
+    <path
+       id="deco_br"
+       d="M 1,5.85 c 0,0 4,8 4,21 s -4,21 -4,21 z" />
+    <use
+       xlink:href="#deco_br"
+       transform="scale(-1)"
+       id="use56" />
+    <use
+       xlink:href="#deco_br"
+       transform="scale(-1,1)"
+       id="use58" />
+    <use
+       xlink:href="#deco_br"
+       transform="scale(1,-1)"
+       id="use60" />
+  </g>
+</svg>
