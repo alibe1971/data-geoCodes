@@ -22,7 +22,7 @@
 export const countries = {
     AD: {
         name: "Andorra",
-        nameComplete: "Principato di Andorra",
+        fullName: "Principato di Andorra",
         demonyms: [
             "Andorrani"
         ],
@@ -34,7 +34,7 @@ export const countries = {
     },
     AE: {
         name: "Emirati Arabi Uniti",
-        nameComplete: "Stato degli Emirati Arabi Uniti",
+        fullName: "Stato degli Emirati Arabi Uniti",
         demonyms: [
             "Emiratènsi",
             "Imaratènsi"
@@ -56,7 +56,7 @@ export const countries = {
     },
     AF: {
         name: "Afghanistan",
-        nameComplete: "Emirato Islamico d'Afghanistan",
+        fullName: "Emirato Islamico d'Afghanistan",
         demonyms: [
             "Afgani",
             "Afghani",
@@ -75,7 +75,7 @@ export const countries = {
     },
     AG: {
         name: "Antigua e Barbuda",
-        nameComplete: "Antigua and Barbuda",
+        fullName: "Antigua and Barbuda",
         demonyms: [
             "Antìguo-barbudani",
             "Antiguani",
@@ -111,7 +111,7 @@ export const countries = {
     },
     AI: {
         name: "Anguilla",
-        nameComplete: "Anguilla",
+        fullName: "Anguilla",
         demonyms: [
             "Anguillani"
         ],
@@ -139,7 +139,7 @@ export const countries = {
     },
     AL: {
         name: "Albania",
-        nameComplete: "Repubblica di Albania",
+        fullName: "Repubblica di Albania",
         demonyms: [
             "Albanési"
         ],
@@ -154,7 +154,7 @@ export const countries = {
     },
     AM: {
         name: "Armenia",
-        nameComplete: "Repubblica di Armenia",
+        fullName: "Repubblica di Armenia",
         demonyms: [
             "Armèni"
         ],
@@ -166,7 +166,7 @@ export const countries = {
     },
     AO: {
         name: "Angola",
-        nameComplete: "Repubblica di Angola",
+        fullName: "Repubblica di Angola",
         demonyms: [
             "Angolani"
         ],
@@ -180,7 +180,7 @@ export const countries = {
     },
     AQ: {
         name: "Antartide",
-        nameComplete: "Antartide",
+        fullName: "Antartide",
         demonyms: [],
         keywords: [
             "polo",
@@ -197,7 +197,7 @@ export const countries = {
     },
     AR: {
         name: "Argentina",
-        nameComplete: "Repubblica Argentina",
+        fullName: "Repubblica Argentina",
         demonyms: [
             "Argentini"
         ],
@@ -208,7 +208,7 @@ export const countries = {
     },
     AS: {
         name: "Samoa Americane",
-        nameComplete: "Samoa Americane",
+        fullName: "Samoa Americane",
         demonyms: [
             "Samoani"
         ],
@@ -223,7 +223,7 @@ export const countries = {
     },
     AT: {
         name: "Austria",
-        nameComplete: "Repubblica d'Austria",
+        fullName: "Repubblica d'Austria",
         demonyms: [
             "Austrìaci"
         ],
@@ -235,7 +235,7 @@ export const countries = {
     },
     AU: {
         name: "Australia",
-        nameComplete: "Commonwealth d'Australia",
+        fullName: "Commonwealth d'Australia",
         demonyms: [
             "Australiani"
         ],
@@ -253,7 +253,7 @@ export const countries = {
     },
     AW: {
         name: "Aruba",
-        nameComplete: "Paese di Aruba",
+        fullName: "Paese di Aruba",
         demonyms: [
             "Arubani"
         ],
@@ -280,7 +280,7 @@ export const countries = {
     },
     AX: {
         name: "Isole Åland",
-        nameComplete: "Provincia delle Åland",
+        fullName: "Provincia delle Åland",
         demonyms: [
             "Alandési"
         ],
@@ -290,7 +290,7 @@ export const countries = {
     },
     AZ: {
         name: "Azerbaigian",
-        nameComplete: "Repubblica d'Azerbaigian",
+        fullName: "Repubblica d'Azerbaigian",
         demonyms: [
             "Ażèri"
         ],
@@ -304,7 +304,7 @@ export const countries = {
     },
     BA: {
         name: "Bosnia-Erzegovina",
-        nameComplete: "Bosnia ed Erzegovina",
+        fullName: "Bosnia ed Erzegovina",
         demonyms: [
             "Bosnìaci",
             "Erzegovési",
@@ -335,7 +335,7 @@ export const countries = {
     },
     BB: {
         name: "Barbados",
-        nameComplete: "Barbados",
+        fullName: "Barbados",
         demonyms: [
             "Barbadiani",
             "Barbadoregni"
@@ -351,7 +351,7 @@ export const countries = {
     },
     BD: {
         name: "Bangladesh",
-        nameComplete: "Repubblica Popolare del Bangladesh",
+        fullName: "Repubblica Popolare del Bangladesh",
         demonyms: [
             "Bangladési",
             "Bengalési",
@@ -367,7 +367,7 @@ export const countries = {
     },
     BE: {
         name: "Belgio",
-        nameComplete: "Regno del Belgio",
+        fullName: "Regno del Belgio",
         demonyms: [
             "Bèlgi"
         ],
@@ -378,7 +378,7 @@ export const countries = {
     },
     BF: {
         name: "Burkina Faso",
-        nameComplete: "Burkina Faso",
+        fullName: "Burkina Faso",
         demonyms: [
             "Burkinabé"
         ],
@@ -391,7 +391,7 @@ export const countries = {
     },
     BG: {
         name: "Bulgaria",
-        nameComplete: "Repubblica di Bulgaria",
+        fullName: "Repubblica di Bulgaria",
         demonyms: [
             "Bùlgari"
         ],
@@ -408,7 +408,7 @@ export const countries = {
     },
     BH: {
         name: "Bahrein",
-        nameComplete: "Regno del Bahrein",
+        fullName: "Regno del Bahrein",
         demonyms: [
             "Bahreiniti",
             "Bahrainiti"
@@ -422,7 +422,7 @@ export const countries = {
     },
     BI: {
         name: "Burundi",
-        nameComplete: "Repubblica del Burundi",
+        fullName: "Repubblica del Burundi",
         demonyms: [
             "Burundési"
         ],
@@ -432,7 +432,7 @@ export const countries = {
     },
     BJ: {
         name: "Benin",
-        nameComplete: "Repubblica del Benin",
+        fullName: "Repubblica del Benin",
         demonyms: [
             "Beninési",
             "Beniniani"
@@ -447,7 +447,7 @@ export const countries = {
     },
     BL: {
         name: "Saint Barthélemy",
-        nameComplete: "Collettività d'oltremare di Saint Barthélemy",
+        fullName: "Collettività d'oltremare di Saint Barthélemy",
         demonyms: [
             "Barthélemesi",
             "Santabarthesi"
@@ -471,7 +471,7 @@ export const countries = {
     },
     BM: {
         name: "Bermuda",
-        nameComplete: "Bermuda (o Bermude)",
+        fullName: "Bermuda (o Bermude)",
         demonyms: [
             "Bermudiani"
         ],
@@ -484,7 +484,7 @@ export const countries = {
     },
     BN: {
         name: "Brunei",
-        nameComplete: "Stato del Brunei, Dimora della Pace",
+        fullName: "Stato del Brunei, Dimora della Pace",
         demonyms: [
             "Bruneiani"
         ],
@@ -497,7 +497,7 @@ export const countries = {
     },
     BO: {
         name: "Bolivia",
-        nameComplete: "Stato plurinazionale del Bolivia",
+        fullName: "Stato plurinazionale del Bolivia",
         demonyms: [
             "Boliviani"
         ],
@@ -510,7 +510,7 @@ export const countries = {
     },
     BQ: {
         name: "Bonaire, Sint Eustatius e Saba",
-        nameComplete: "Paesi Bassi caraibici",
+        fullName: "Paesi Bassi caraibici",
         demonyms: [
             "Boneriani",
             "Statianesi",
@@ -549,7 +549,7 @@ export const countries = {
     },
     BR: {
         name: "Brasile",
-        nameComplete: "Repubblica Federale del Brasile",
+        fullName: "Repubblica Federale del Brasile",
         demonyms: [
             "Braṡiliani"
         ],
@@ -562,7 +562,7 @@ export const countries = {
     },
     BS: {
         name: "Bahamas",
-        nameComplete: "Commonwealth delle Bahamas",
+        fullName: "Commonwealth delle Bahamas",
         demonyms: [
             "Bahamènsi"
         ],
@@ -572,7 +572,7 @@ export const countries = {
     },
     BT: {
         name: "Bhutan",
-        nameComplete: "Regno del Bhutan",
+        fullName: "Regno del Bhutan",
         demonyms: [
             "Bhutanési"
         ],
@@ -591,7 +591,7 @@ export const countries = {
     },
     BV: {
         name: "Isola di Bouvet",
-        nameComplete: "Isola di Bouvet",
+        fullName: "Isola di Bouvet",
         demonyms: [],
         keywords: [
             "buvet",
@@ -604,7 +604,7 @@ export const countries = {
     },
     BW: {
         name: "Botswana",
-        nameComplete: "Republic of Botswana",
+        fullName: "Republic of Botswana",
         demonyms: [
             "Botswani",
             "Bozzu̯àni"
@@ -623,7 +623,7 @@ export const countries = {
     },
     BY: {
         name: "Bielorussia",
-        nameComplete: "Repubblica di Bielorussia",
+        fullName: "Repubblica di Bielorussia",
         demonyms: [
             "Bielorussi",
             "Belorussi"
@@ -642,7 +642,7 @@ export const countries = {
     },
     BZ: {
         name: "Belize",
-        nameComplete: "Belize",
+        fullName: "Belize",
         demonyms: [
             "Beliżiani"
         ],
@@ -656,7 +656,7 @@ export const countries = {
     },
     CA: {
         name: "Canada",
-        nameComplete: "Canada (o Canadà)",
+        fullName: "Canada (o Canadà)",
         demonyms: [
             "Canadési"
         ],
@@ -666,7 +666,7 @@ export const countries = {
     },
     CC: {
         name: "Isole Cocos (Keeling)",
-        nameComplete: "Territorio delle Isole Cocos (Keeling)",
+        fullName: "Territorio delle Isole Cocos (Keeling)",
         demonyms: [
             "Cocosi",
             "Cocosiani"
@@ -682,7 +682,7 @@ export const countries = {
     },
     CD: {
         name: "Congo (Rep. Dem.)",
-        nameComplete: "Repubblica Democratica del Congo",
+        fullName: "Repubblica Democratica del Congo",
         demonyms: [
             "Congolési"
         ],
@@ -698,7 +698,7 @@ export const countries = {
     },
     CF: {
         name: "Repubblica Centrafricana",
-        nameComplete: "Repubblica Centrafricana",
+        fullName: "Repubblica Centrafricana",
         demonyms: [
             "Centrafricani",
             "Centroafricani"
@@ -714,7 +714,7 @@ export const countries = {
     },
     CG: {
         name: "Congo",
-        nameComplete: "Repubblica del Congo",
+        fullName: "Repubblica del Congo",
         demonyms: [
             "Congolési"
         ],
@@ -728,7 +728,7 @@ export const countries = {
     },
     CH: {
         name: "Svizzera",
-        nameComplete: "Confederazione svizzera",
+        fullName: "Confederazione svizzera",
         demonyms: [
             "Svìzzeri",
             "Elvètici"
@@ -743,7 +743,7 @@ export const countries = {
     },
     CI: {
         name: "Costa d'Avorio",
-        nameComplete: "Repubblica della Costa d'Avorio",
+        fullName: "Repubblica della Costa d'Avorio",
         demonyms: [
             "Ivoriani",
             "Avoriano"
@@ -760,7 +760,7 @@ export const countries = {
     },
     CK: {
         name: "Isole Cook",
-        nameComplete: "Isole Cook",
+        fullName: "Isole Cook",
         demonyms: [
             "Cookiani"
         ],
@@ -774,7 +774,7 @@ export const countries = {
     },
     CL: {
         name: "Cile",
-        nameComplete: "Repubblica del Cile",
+        fullName: "Repubblica del Cile",
         demonyms: [
             "Cilèni"
         ],
@@ -786,7 +786,7 @@ export const countries = {
     },
     CM: {
         name: "Camerun",
-        nameComplete: "Repubblica del Camerun",
+        fullName: "Repubblica del Camerun",
         demonyms: [
             "Camerunési"
         ],
@@ -798,7 +798,7 @@ export const countries = {
     },
     CN: {
         name: "Cina",
-        nameComplete: "Repubblica Popolare Cinese",
+        fullName: "Repubblica Popolare Cinese",
         demonyms: [
             "Cinési"
         ],
@@ -808,7 +808,7 @@ export const countries = {
     },
     CO: {
         name: "Colombia",
-        nameComplete: "Repubblica della Colombia",
+        fullName: "Repubblica della Colombia",
         demonyms: [
             "Colombiani",
             "Columbiani"
@@ -825,7 +825,7 @@ export const countries = {
     },
     CR: {
         name: "Costa Rica",
-        nameComplete: "Repubblica di Costa Rica",
+        fullName: "Repubblica di Costa Rica",
         demonyms: [
             "Costaricani",
             "Costaricènsi"
@@ -839,7 +839,7 @@ export const countries = {
     },
     CU: {
         name: "Cuba",
-        nameComplete: "Repubblica di Cuba",
+        fullName: "Repubblica di Cuba",
         demonyms: [
             "Cubani"
         ],
@@ -862,7 +862,7 @@ export const countries = {
     },
     CV: {
         name: "Capo Verde",
-        nameComplete: "Repubblica di Capo Verde",
+        fullName: "Repubblica di Capo Verde",
         demonyms: [
             "Capoverdiani"
         ],
@@ -874,7 +874,7 @@ export const countries = {
     },
     CW: {
         name: "Curaçao",
-        nameComplete: "Paese di Curaçao",
+        fullName: "Paese di Curaçao",
         demonyms: [
             "Curasanesi",
             "Curaçanesi"
@@ -911,7 +911,7 @@ export const countries = {
     },
     CX: {
         name: "Isola di Natale",
-        nameComplete: "Isola di Natale",
+        fullName: "Isola di Natale",
         demonyms: [
             "Natalensi",
             "Natalini"
@@ -926,7 +926,7 @@ export const countries = {
     },
     CY: {
         name: "Cipro",
-        nameComplete: "Repubblica di Cipro",
+        fullName: "Repubblica di Cipro",
         demonyms: [
             "Ciprïòti"
         ],
@@ -937,7 +937,7 @@ export const countries = {
     },
     CZ: {
         name: "Repubblica Ceca",
-        nameComplete: "Repubblica Ceca",
+        fullName: "Repubblica Ceca",
         demonyms: [
             "Cèchi",
             "Cèki",
@@ -957,7 +957,7 @@ export const countries = {
     },
     DE: {
         name: "Germania",
-        nameComplete: "Repubblica Federale di Germania",
+        fullName: "Repubblica Federale di Germania",
         demonyms: [
             "Tedéschi"
         ],
@@ -980,7 +980,7 @@ export const countries = {
     },
     DJ: {
         name: "Gibuti",
-        nameComplete: "Repubblica di Gibuti",
+        fullName: "Repubblica di Gibuti",
         demonyms: [
             "Gibutiani"
         ],
@@ -992,7 +992,7 @@ export const countries = {
     },
     DK: {
         name: "Danimarca",
-        nameComplete: "Regno di Danimarca",
+        fullName: "Regno di Danimarca",
         demonyms: [
             "Danési"
         ],
@@ -1002,7 +1002,7 @@ export const countries = {
     },
     DM: {
         name: "Dominica",
-        nameComplete: "Commonwealth della Dominica",
+        fullName: "Commonwealth della Dominica",
         demonyms: [
             "Dominicani"
         ],
@@ -1028,7 +1028,7 @@ export const countries = {
     },
     DO: {
         name: "Repubblica Dominicana",
-        nameComplete: "Repubblica Dominicana",
+        fullName: "Repubblica Dominicana",
         demonyms: [
             "Dominicani"
         ],
@@ -1053,7 +1053,7 @@ export const countries = {
     },
     DZ: {
         name: "Algeria",
-        nameComplete: "Repubblica Democratica Popolare di Algeria",
+        fullName: "Repubblica Democratica Popolare di Algeria",
         demonyms: [
             "Algerini"
         ],
@@ -1066,7 +1066,7 @@ export const countries = {
     },
     EC: {
         name: "Ecuador",
-        nameComplete: "Repubblica dell'Ecuador",
+        fullName: "Repubblica dell'Ecuador",
         demonyms: [
             "Ecuadoriani"
         ],
@@ -1085,7 +1085,7 @@ export const countries = {
     },
     EE: {
         name: "Estonia",
-        nameComplete: "Repubblica d'Estonia",
+        fullName: "Repubblica d'Estonia",
         demonyms: [
             "Èstoni",
             "Estóni"
@@ -1097,7 +1097,7 @@ export const countries = {
     },
     EG: {
         name: "Egitto",
-        nameComplete: "Repubblica Araba d'Egitto",
+        fullName: "Repubblica Araba d'Egitto",
         demonyms: [
             "Egiziani"
         ],
@@ -1111,7 +1111,7 @@ export const countries = {
     },
     EH: {
         name: "Sahara Occidentale",
-        nameComplete: "Repubblica Democratica Araba Sahrawi",
+        fullName: "Repubblica Democratica Araba Sahrawi",
         demonyms: [
             "Sahariani",
             "Sahariani occidentali"
@@ -1126,7 +1126,7 @@ export const countries = {
     },
     ER: {
         name: "Eritrea",
-        nameComplete: "Stato di Eritrea",
+        fullName: "Stato di Eritrea",
         demonyms: [
             "Eritrèi"
         ],
@@ -1137,7 +1137,7 @@ export const countries = {
     },
     ES: {
         name: "Spagna",
-        nameComplete: "Regno di Spagna",
+        fullName: "Regno di Spagna",
         demonyms: [
             "Spagnòli",
             "Ispànici",
@@ -1167,7 +1167,7 @@ export const countries = {
     },
     ET: {
         name: "Etiopia",
-        nameComplete: "Repubblica Federale Democratica d'Etiopia",
+        fullName: "Repubblica Federale Democratica d'Etiopia",
         demonyms: [
             "Etìopi",
             "Etìopi",
@@ -1186,7 +1186,7 @@ export const countries = {
     },
     FI: {
         name: "Finlandia",
-        nameComplete: "Repubblica di Finlandia",
+        fullName: "Repubblica di Finlandia",
         demonyms: [
             "Finlandési",
             "Fìnnici"
@@ -1200,7 +1200,7 @@ export const countries = {
     },
     FJ: {
         name: "Figi",
-        nameComplete: "Repubblica di Figi",
+        fullName: "Repubblica di Figi",
         demonyms: [
             "Figiani"
         ],
@@ -1215,7 +1215,7 @@ export const countries = {
     },
     FK: {
         name: "Isole Falkland",
-        nameComplete: "Isole Falkland",
+        fullName: "Isole Falkland",
         demonyms: [
             "Falklandési"
         ],
@@ -1228,7 +1228,7 @@ export const countries = {
     },
     FM: {
         name: "Micronesia",
-        nameComplete: "Stati Federati di Micronesia",
+        fullName: "Stati Federati di Micronesia",
         demonyms: [
             "Microneṡiani"
         ],
@@ -1244,7 +1244,7 @@ export const countries = {
     },
     FO: {
         name: "Isole Fær Øer",
-        nameComplete: "Isole Faroe (Feringie)",
+        fullName: "Isole Faroe (Feringie)",
         demonyms: [
             "Farìngi",
             "Feroesi",
@@ -1264,7 +1264,7 @@ export const countries = {
     },
     FR: {
         name: "Francia",
-        nameComplete: "Repubblica francese",
+        fullName: "Repubblica francese",
         demonyms: [
             "Francéṡi"
         ],
@@ -1279,7 +1279,7 @@ export const countries = {
     },
     GA: {
         name: "Gabon",
-        nameComplete: "Repubblica Gabonese",
+        fullName: "Repubblica Gabonese",
         demonyms: [
             "Gabonési"
         ],
@@ -1289,7 +1289,7 @@ export const countries = {
     },
     GB: {
         name: "Regno Unito",
-        nameComplete: "Regno Unito di Gran Bretagna ed Irlanda del Nord",
+        fullName: "Regno Unito di Gran Bretagna ed Irlanda del Nord",
         demonyms: [
             "Britànnici",
             "Inglési",
@@ -1356,7 +1356,7 @@ export const countries = {
     },
     GD: {
         name: "Grenada",
-        nameComplete: "Grenada",
+        fullName: "Grenada",
         demonyms: [
             "Grenadini",
             "Grenadiani"
@@ -1385,7 +1385,7 @@ export const countries = {
     },
     GE: {
         name: "Georgia",
-        nameComplete: "Repubblica della Georgia",
+        fullName: "Repubblica della Georgia",
         demonyms: [
             "Georgiani"
         ],
@@ -1397,7 +1397,7 @@ export const countries = {
     },
     GF: {
         name: "Guyana Francese",
-        nameComplete: "Dipartimento della Guyana francese",
+        fullName: "Dipartimento della Guyana francese",
         demonyms: [
             "Guianési",
             "Guyanési"
@@ -1412,7 +1412,7 @@ export const countries = {
     },
     GG: {
         name: "Guernsey",
-        nameComplete: "Baliato di Guernsey",
+        fullName: "Baliato di Guernsey",
         demonyms: [
             "Guernesiani",
             "Guernesi"
@@ -1432,7 +1432,7 @@ export const countries = {
     },
     GH: {
         name: "Ghana",
-        nameComplete: "Repubblica del Ghana",
+        fullName: "Repubblica del Ghana",
         demonyms: [
             "Ghanési",
             "Ghanaési",
@@ -1451,7 +1451,7 @@ export const countries = {
     },
     GI: {
         name: "Gibilterra",
-        nameComplete: "Gibilterra",
+        fullName: "Gibilterra",
         demonyms: [
             "Gibilterriani"
         ],
@@ -1465,7 +1465,7 @@ export const countries = {
     },
     GL: {
         name: "Groenlandia",
-        nameComplete: "Groenlandia",
+        fullName: "Groenlandia",
         demonyms: [
             "Groenlandési"
         ],
@@ -1476,7 +1476,7 @@ export const countries = {
     },
     GM: {
         name: "Gambia",
-        nameComplete: "Repubblica del Gambia (o della Gambia)",
+        fullName: "Repubblica del Gambia (o della Gambia)",
         demonyms: [
             "Gambiani"
         ],
@@ -1488,7 +1488,7 @@ export const countries = {
     },
     GN: {
         name: "Guinea",
-        nameComplete: "Repubblica di Guinea",
+        fullName: "Repubblica di Guinea",
         demonyms: [
             "Guineani"
         ],
@@ -1501,7 +1501,7 @@ export const countries = {
     },
     GP: {
         name: "Guadalupa",
-        nameComplete: "Dipartimento di Guadalupa",
+        fullName: "Dipartimento di Guadalupa",
         demonyms: [
             "Guadalupensi",
             "Guadalupiani"
@@ -1531,7 +1531,7 @@ export const countries = {
     },
     GQ: {
         name: "Guinea Equatoriale",
-        nameComplete: "Repubblica della Guinea Equatoriale",
+        fullName: "Repubblica della Guinea Equatoriale",
         demonyms: [
             "Guineani"
         ],
@@ -1544,7 +1544,7 @@ export const countries = {
     },
     GR: {
         name: "Grecia",
-        nameComplete: "Repubblica ellenica",
+        fullName: "Repubblica ellenica",
         demonyms: [
             "Grèci",
             "Ellènici"
@@ -1562,7 +1562,7 @@ export const countries = {
     },
     GS: {
         name: "Georgia del Sud e Isole Sandwich Meridionali",
-        nameComplete: "Georgia del Sud e Isole Sandwich Australi",
+        fullName: "Georgia del Sud e Isole Sandwich Australi",
         demonyms: [
             "Sudgeorgiani"
         ],
@@ -1574,7 +1574,7 @@ export const countries = {
     },
     GT: {
         name: "Guatemala",
-        nameComplete: "Repubblica del Guatemala",
+        fullName: "Repubblica del Guatemala",
         demonyms: [
             "Guatemaltèchi"
         ],
@@ -1588,7 +1588,7 @@ export const countries = {
     },
     GU: {
         name: "Guam",
-        nameComplete: "Guam",
+        fullName: "Guam",
         demonyms: [
             "Mariannènsi"
         ],
@@ -1600,7 +1600,7 @@ export const countries = {
     },
     GW: {
         name: "Guinea-Bissau",
-        nameComplete: "Repubblica della Guinea-Bissau",
+        fullName: "Repubblica della Guinea-Bissau",
         demonyms: [
             "Guineani"
         ],
@@ -1619,7 +1619,7 @@ export const countries = {
     },
     GY: {
         name: "Guyana",
-        nameComplete: "Repubblica Cooperativa di Guyana",
+        fullName: "Repubblica Cooperativa di Guyana",
         demonyms: [
             "Guianési",
             "Guyanési"
@@ -1634,7 +1634,7 @@ export const countries = {
     },
     HK: {
         name: "Hong Kong",
-        nameComplete: "Regione amministrativa speciale di Hong Kong della Repubblica Popolare Cinese",
+        fullName: "Regione amministrativa speciale di Hong Kong della Repubblica Popolare Cinese",
         demonyms: [
             "Hongkonghesi"
         ],
@@ -1644,13 +1644,13 @@ export const countries = {
     },
     HM: {
         name: "Isole Heard e McDonald",
-        nameComplete: "Territorio delle Isole Heard e McDonald",
+        fullName: "Territorio delle Isole Heard e McDonald",
         demonyms: [],
         keywords: []
     },
     HN: {
         name: "Honduras",
-        nameComplete: "Repubblica dell'Honduras",
+        fullName: "Repubblica dell'Honduras",
         demonyms: [
             "Hondurégni",
             "Ondurégni"
@@ -1666,7 +1666,7 @@ export const countries = {
     },
     HR: {
         name: "Croazia",
-        nameComplete: "Repubblica di Croazia",
+        fullName: "Repubblica di Croazia",
         demonyms: [
             "Croati"
         ],
@@ -1683,7 +1683,7 @@ export const countries = {
     },
     HT: {
         name: "Haiti",
-        nameComplete: "Repubblica di Haiti",
+        fullName: "Repubblica di Haiti",
         demonyms: [
             "Haitiani"
         ],
@@ -1706,7 +1706,7 @@ export const countries = {
     },
     HU: {
         name: "Ungheria",
-        nameComplete: "Ungheria",
+        fullName: "Ungheria",
         demonyms: [
             "Ungherési",
             "Magiàri",
@@ -1729,7 +1729,7 @@ export const countries = {
     },
     ID: {
         name: "Indonesia",
-        nameComplete: "Repubblica d'Indonesia",
+        fullName: "Repubblica d'Indonesia",
         demonyms: [
             "Indonesiani"
         ],
@@ -1744,7 +1744,7 @@ export const countries = {
     },
     IE: {
         name: "Irlanda",
-        nameComplete: "Repubblica d'Irlanda",
+        fullName: "Repubblica d'Irlanda",
         demonyms: [
             "Irlandési"
         ],
@@ -1755,7 +1755,7 @@ export const countries = {
     },
     IL: {
         name: "Israele",
-        nameComplete: "Stato d'Israele",
+        fullName: "Stato d'Israele",
         demonyms: [
             "Israeliani"
         ],
@@ -1770,7 +1770,7 @@ export const countries = {
     },
     IM: {
         name: "Isola di Man",
-        nameComplete: "Isola di Man",
+        fullName: "Isola di Man",
         demonyms: [
             "Mannési"
         ],
@@ -1781,7 +1781,7 @@ export const countries = {
     },
     IN: {
         name: "India",
-        nameComplete: "Repubblica dell'India",
+        fullName: "Repubblica dell'India",
         demonyms: [
             "Indiani"
         ],
@@ -1793,7 +1793,7 @@ export const countries = {
     },
     IO: {
         name: "Territorio britannico dell'oceano Indiano",
-        nameComplete: "Territorio britannico dell'oceano Indiano",
+        fullName: "Territorio britannico dell'oceano Indiano",
         demonyms: [],
         keywords: [
             "chagos",
@@ -1802,7 +1802,7 @@ export const countries = {
     },
     IQ: {
         name: "Iraq",
-        nameComplete: "Repubblica d'Iraq",
+        fullName: "Repubblica d'Iraq",
         demonyms: [
             "Irachèni",
             "Irakèni"
@@ -1819,7 +1819,7 @@ export const countries = {
     },
     IR: {
         name: "Iran",
-        nameComplete: "Repubblica Islamica dell'Iran",
+        fullName: "Repubblica Islamica dell'Iran",
         demonyms: [
             "Iraniani"
         ],
@@ -1836,7 +1836,7 @@ export const countries = {
     },
     IS: {
         name: "Islanda",
-        nameComplete: "Repubblica d'Islanda",
+        fullName: "Repubblica d'Islanda",
         demonyms: [
             "Islandési"
         ],
@@ -1846,7 +1846,7 @@ export const countries = {
     },
     IT: {
         name: "Italia",
-        nameComplete: "Repubblica Italiana",
+        fullName: "Repubblica Italiana",
         demonyms: [
             "Italiani"
         ],
@@ -1859,7 +1859,7 @@ export const countries = {
     },
     JE: {
         name: "Jersey",
-        nameComplete: "Baliato di Jersey",
+        fullName: "Baliato di Jersey",
         demonyms: [
             "Jersesi"
         ],
@@ -1871,7 +1871,7 @@ export const countries = {
     },
     JM: {
         name: "Giamaica",
-        nameComplete: "Giamaica",
+        fullName: "Giamaica",
         demonyms: [
             "Giamaicani"
         ],
@@ -1894,7 +1894,7 @@ export const countries = {
     },
     JO: {
         name: "Giordania",
-        nameComplete: "Regno Hascemita di Giordania",
+        fullName: "Regno Hascemita di Giordania",
         demonyms: [
             "Giordani",
             "Giordaniani"
@@ -1913,7 +1913,7 @@ export const countries = {
     },
     JP: {
         name: "Giappone",
-        nameComplete: "Stato del Giappone",
+        fullName: "Stato del Giappone",
         demonyms: [
             "Giapponési",
             "Nippònici"
@@ -1928,7 +1928,7 @@ export const countries = {
     },
     KE: {
         name: "Kenya",
-        nameComplete: "Repubblica del Kenya",
+        fullName: "Repubblica del Kenya",
         demonyms: [
             "Keniani",
             "Kenioti"
@@ -1942,7 +1942,7 @@ export const countries = {
     },
     KG: {
         name: "Kirghizistan",
-        nameComplete: "Repubblica del Kirghizistan",
+        fullName: "Repubblica del Kirghizistan",
         demonyms: [
             "Kirghiṡi",
             "Kirghiżi",
@@ -1962,7 +1962,7 @@ export const countries = {
     },
     KH: {
         name: "Cambogia",
-        nameComplete: "Regno di Cambogia",
+        fullName: "Regno di Cambogia",
         demonyms: [
             "Cambogiani"
         ],
@@ -1974,7 +1974,7 @@ export const countries = {
     },
     KI: {
         name: "Kiribati",
-        nameComplete: "Repubblica delle Kiribati",
+        fullName: "Repubblica delle Kiribati",
         demonyms: [
             "Kiribatési"
         ],
@@ -1984,7 +1984,7 @@ export const countries = {
     },
     KM: {
         name: "Comore",
-        nameComplete: "Unione delle Comore",
+        fullName: "Unione delle Comore",
         demonyms: [
             "Comoriani"
         ],
@@ -1996,7 +1996,7 @@ export const countries = {
     },
     KN: {
         name: "Saint Kitts e Nevis",
-        nameComplete: "Federazione di Saint Kitts e Nevis",
+        fullName: "Federazione di Saint Kitts e Nevis",
         demonyms: [
             "Nevisiani",
             "Cristoforiani",
@@ -2032,7 +2032,7 @@ export const countries = {
     },
     KP: {
         name: "Corea del Nord",
-        nameComplete: "Repubblica Popolare Democratica di Corea",
+        fullName: "Repubblica Popolare Democratica di Corea",
         demonyms: [
             "Coreani",
             "Nordcoreani",
@@ -2050,7 +2050,7 @@ export const countries = {
     },
     KR: {
         name: "Corea del Sud",
-        nameComplete: "Repubblica di Corea",
+        fullName: "Repubblica di Corea",
         demonyms: [
             "Coreani",
             "Sudcoreani",
@@ -2068,7 +2068,7 @@ export const countries = {
     },
     KW: {
         name: "Kuwait",
-        nameComplete: "Stato del Kuwait",
+        fullName: "Stato del Kuwait",
         demonyms: [
             "Kuwaitiani"
         ],
@@ -2080,7 +2080,7 @@ export const countries = {
     },
     KY: {
         name: "Isole Cayman",
-        nameComplete: "Isole Cayman",
+        fullName: "Isole Cayman",
         demonyms: [
             "Caymaniani",
             "Caymanesi"
@@ -2102,7 +2102,7 @@ export const countries = {
     },
     KZ: {
         name: "Kazakistan",
-        nameComplete: "Repubblica del Kazakistan",
+        fullName: "Repubblica del Kazakistan",
         demonyms: [
             "Każachi",
             "Każaki"
@@ -2118,7 +2118,7 @@ export const countries = {
     },
     LA: {
         name: "Laos",
-        nameComplete: "Repubblica Popolare Democratica del Laos",
+        fullName: "Repubblica Popolare Democratica del Laos",
         demonyms: [
             "Laotiani",
             "Laosiani"
@@ -2134,7 +2134,7 @@ export const countries = {
     },
     LB: {
         name: "Libano",
-        nameComplete: "Repubblica Libanese",
+        fullName: "Repubblica Libanese",
         demonyms: [
             "Libanési"
         ],
@@ -2145,7 +2145,7 @@ export const countries = {
     },
     LC: {
         name: "Santa Lucia",
-        nameComplete: "Saint Lucia",
+        fullName: "Saint Lucia",
         demonyms: [
             "Santaluciani"
         ],
@@ -2168,7 +2168,7 @@ export const countries = {
     },
     LI: {
         name: "Liechtenstein",
-        nameComplete: "Principato del Liechtenstein",
+        fullName: "Principato del Liechtenstein",
         demonyms: [
             "Liechtensteiniani"
         ],
@@ -2184,7 +2184,7 @@ export const countries = {
     },
     LK: {
         name: "Sri Lanka",
-        nameComplete: "Repubblica Democratica Socialista dello Sri Lanka",
+        fullName: "Repubblica Democratica Socialista dello Sri Lanka",
         demonyms: [
             "Srilankési",
             "Singalési",
@@ -2199,7 +2199,7 @@ export const countries = {
     },
     LR: {
         name: "Liberia",
-        nameComplete: "Repubblica della Liberia",
+        fullName: "Repubblica della Liberia",
         demonyms: [
             "Liberiani"
         ],
@@ -2211,7 +2211,7 @@ export const countries = {
     },
     LS: {
         name: "Lesotho",
-        nameComplete: "Regno del Lesotho",
+        fullName: "Regno del Lesotho",
         demonyms: [
             "Lesothiani"
         ],
@@ -2230,7 +2230,7 @@ export const countries = {
     },
     LT: {
         name: "Lituania",
-        nameComplete: "Repubblica di Lituania",
+        fullName: "Repubblica di Lituania",
         demonyms: [
             "Litüani"
         ],
@@ -2242,7 +2242,7 @@ export const countries = {
     },
     LU: {
         name: "Lussemburgo",
-        nameComplete: "Granducato di Lussemburgo",
+        fullName: "Granducato di Lussemburgo",
         demonyms: [
             "Lussemburghési"
         ],
@@ -2252,7 +2252,7 @@ export const countries = {
     },
     LV: {
         name: "Lettonia",
-        nameComplete: "Repubblica di Lettonia",
+        fullName: "Repubblica di Lettonia",
         demonyms: [
             "Lèttoni",
             "Lettóni"
@@ -2263,7 +2263,7 @@ export const countries = {
     },
     LY: {
         name: "Libia",
-        nameComplete: "Stato della Libia",
+        fullName: "Stato della Libia",
         demonyms: [
             "Lìbici"
         ],
@@ -2275,7 +2275,7 @@ export const countries = {
     },
     MA: {
         name: "Marocco",
-        nameComplete: "Regno del Marocco",
+        fullName: "Regno del Marocco",
         demonyms: [
             "Marocchini",
             "Marrocchini"
@@ -2291,7 +2291,7 @@ export const countries = {
     },
     MC: {
         name: "Monaco",
-        nameComplete: "Principato di Monaco",
+        fullName: "Principato di Monaco",
         demonyms: [
             "Monegaschi"
         ],
@@ -2303,7 +2303,7 @@ export const countries = {
     },
     MD: {
         name: "Moldavia",
-        nameComplete: "Repubblica di Moldavia",
+        fullName: "Repubblica di Moldavia",
         demonyms: [
             "Moldavi"
         ],
@@ -2315,7 +2315,7 @@ export const countries = {
     },
     ME: {
         name: "Montenegro",
-        nameComplete: "Montenegro",
+        fullName: "Montenegro",
         demonyms: [
             "Montenegrini"
         ],
@@ -2334,7 +2334,7 @@ export const countries = {
     },
     MF: {
         name: "Saint Martin",
-        nameComplete: "Collettività d'oltremare di Saint Martin",
+        fullName: "Collettività d'oltremare di Saint Martin",
         demonyms: [
             "Sanmartinesi",
             "Sammartinesi"
@@ -2358,7 +2358,7 @@ export const countries = {
     },
     MG: {
         name: "Madagascar",
-        nameComplete: "Repubblica del Madagascar",
+        fullName: "Repubblica del Madagascar",
         demonyms: [
             "Malgasci"
         ],
@@ -2371,7 +2371,7 @@ export const countries = {
     },
     MH: {
         name: "Isole Marshall",
-        nameComplete: "Repubblica delle Isole Marshall",
+        fullName: "Repubblica delle Isole Marshall",
         demonyms: [
             "Marshallési"
         ],
@@ -2384,7 +2384,7 @@ export const countries = {
     },
     MK: {
         name: "Macedonia del Nord",
-        nameComplete: "Repubblica della Macedonia del Nord",
+        fullName: "Repubblica della Macedonia del Nord",
         demonyms: [
             "Macèdoni",
             "Macèdoni del Nord"
@@ -2400,7 +2400,7 @@ export const countries = {
     },
     ML: {
         name: "Mali",
-        nameComplete: "Repubblica del Mali",
+        fullName: "Repubblica del Mali",
         demonyms: [
             "Maliani"
         ],
@@ -2412,7 +2412,7 @@ export const countries = {
     },
     MM: {
         name: "Myanmar",
-        nameComplete: "Repubblica dell'Unione del Myanmar",
+        fullName: "Repubblica dell'Unione del Myanmar",
         demonyms: [
             "Birmani"
         ],
@@ -2428,7 +2428,7 @@ export const countries = {
     },
     MN: {
         name: "Mongolia",
-        nameComplete: "Mongolia",
+        fullName: "Mongolia",
         demonyms: [
             "Mòngoli"
         ],
@@ -2442,7 +2442,7 @@ export const countries = {
     },
     MO: {
         name: "Macao",
-        nameComplete: "Regione Amministrativa Speciale di Macao della Repubblica Popolare Cinese",
+        fullName: "Regione Amministrativa Speciale di Macao della Repubblica Popolare Cinese",
         demonyms: [
             "Macaensi"
         ],
@@ -2455,7 +2455,7 @@ export const countries = {
     },
     MP: {
         name: "Isole Marianne Settentrionali",
-        nameComplete: "Commonwealth delle Isole Marianne Settentrionali",
+        fullName: "Commonwealth delle Isole Marianne Settentrionali",
         demonyms: [
             "Mariannènsi"
         ],
@@ -2466,7 +2466,7 @@ export const countries = {
     },
     MQ: {
         name: "Martinica",
-        nameComplete: "Collettività territoriale della Martinica",
+        fullName: "Collettività territoriale della Martinica",
         demonyms: [
             "Martinicani"
         ],
@@ -2490,7 +2490,7 @@ export const countries = {
     },
     MR: {
         name: "Mauritania",
-        nameComplete: "Repubblica Islamica della Mauritania",
+        fullName: "Repubblica Islamica della Mauritania",
         demonyms: [
             "Mauritaniani",
             "Mauritani"
@@ -2508,7 +2508,7 @@ export const countries = {
     },
     MS: {
         name: "Montserrat",
-        nameComplete: "Colonia di Montserrat",
+        fullName: "Colonia di Montserrat",
         demonyms: [
             "Montserratiani"
         ],
@@ -2531,7 +2531,7 @@ export const countries = {
     },
     MT: {
         name: "Malta",
-        nameComplete: "Repubblica di Malta",
+        fullName: "Repubblica di Malta",
         demonyms: [
             "Maltési"
         ],
@@ -2541,7 +2541,7 @@ export const countries = {
     },
     MU: {
         name: "Mauritius",
-        nameComplete: "Repubblica di Mauritius",
+        fullName: "Repubblica di Mauritius",
         demonyms: [
             "Mauriziani"
         ],
@@ -2553,7 +2553,7 @@ export const countries = {
     },
     MV: {
         name: "Maldive",
-        nameComplete: "Repubblica delle Maldive",
+        fullName: "Repubblica delle Maldive",
         demonyms: [
             "Maldiviani"
         ],
@@ -2569,7 +2569,7 @@ export const countries = {
     },
     MW: {
         name: "Malawi",
-        nameComplete: "Repubblica di Malawi",
+        fullName: "Repubblica di Malawi",
         demonyms: [
             "Malawènsi",
             "Malau̯ènsi",
@@ -2592,7 +2592,7 @@ export const countries = {
     },
     MX: {
         name: "Messico",
-        nameComplete: "Stati Uniti Messicani",
+        fullName: "Stati Uniti Messicani",
         demonyms: [
             "Messicani"
         ],
@@ -2605,7 +2605,7 @@ export const countries = {
     },
     MY: {
         name: "Malesia",
-        nameComplete: "Malaysia",
+        fullName: "Malaysia",
         demonyms: [
             "Malayṡiani",
             "Malési"
@@ -2627,7 +2627,7 @@ export const countries = {
     },
     MZ: {
         name: "Mozambico",
-        nameComplete: "Repubblica del Mozambico",
+        fullName: "Repubblica del Mozambico",
         demonyms: [
             "Możambicani"
         ],
@@ -2639,7 +2639,7 @@ export const countries = {
     },
     NA: {
         name: "Namibia",
-        nameComplete: "Repubblica della Namibia",
+        fullName: "Repubblica della Namibia",
         demonyms: [
             "Namibiani"
         ],
@@ -2652,7 +2652,7 @@ export const countries = {
     },
     NC: {
         name: "Nuova Caledonia",
-        nameComplete: "Governo della Nuova Caledonia",
+        fullName: "Governo della Nuova Caledonia",
         demonyms: [
             "Neocaledoni",
             "Neocaledoniani"
@@ -2668,7 +2668,7 @@ export const countries = {
     },
     NE: {
         name: "Niger",
-        nameComplete: "Repubblica del Niger",
+        fullName: "Repubblica del Niger",
         demonyms: [
             "Nigerini"
         ],
@@ -2680,7 +2680,7 @@ export const countries = {
     },
     NF: {
         name: "Isola Norfolk",
-        nameComplete: "Territorio dell'isola Norfolk",
+        fullName: "Territorio dell'isola Norfolk",
         demonyms: [
             "Norfolcani",
             "Norfolkiani"
@@ -2696,7 +2696,7 @@ export const countries = {
     },
     NG: {
         name: "Nigeria",
-        nameComplete: "Repubblica Federale della Nigeria",
+        fullName: "Repubblica Federale della Nigeria",
         demonyms: [
             "Nigeriani"
         ],
@@ -2708,7 +2708,7 @@ export const countries = {
     },
     NI: {
         name: "Nicaragua",
-        nameComplete: "Repubblica del Nicaragua",
+        fullName: "Repubblica del Nicaragua",
         demonyms: [
             "Nicaraguènsi",
             "Nicaraguési",
@@ -2724,7 +2724,7 @@ export const countries = {
     },
     NL: {
         name: "Paesi Bassi",
-        nameComplete: "Regno dei Paesi Bassi",
+        fullName: "Regno dei Paesi Bassi",
         demonyms: [
             "Olandési",
             "Neerlandési",
@@ -2739,7 +2739,7 @@ export const countries = {
     },
     NO: {
         name: "Norvegia",
-        nameComplete: "Regno di Norvegia",
+        fullName: "Regno di Norvegia",
         demonyms: [
             "Norvegési"
         ],
@@ -2749,7 +2749,7 @@ export const countries = {
     },
     NP: {
         name: "Nepal",
-        nameComplete: "Repubblica Federale Democratica del Nepal",
+        fullName: "Repubblica Federale Democratica del Nepal",
         demonyms: [
             "Nepalési"
         ],
@@ -2763,7 +2763,7 @@ export const countries = {
     },
     NR: {
         name: "Nauru",
-        nameComplete: "Repubblica di Nauru",
+        fullName: "Repubblica di Nauru",
         demonyms: [
             "Nauruani"
         ],
@@ -2783,7 +2783,7 @@ export const countries = {
     },
     NU: {
         name: "Niue",
-        nameComplete: "Niue",
+        fullName: "Niue",
         demonyms: [
             "Niueani"
         ],
@@ -2801,7 +2801,7 @@ export const countries = {
     },
     NZ: {
         name: "Nuova Zelanda",
-        nameComplete: "Nuova Zelanda",
+        fullName: "Nuova Zelanda",
         demonyms: [
             "Neożelandési"
         ],
@@ -2812,7 +2812,7 @@ export const countries = {
     },
     OM: {
         name: "Oman",
-        nameComplete: "Sultanato dell'Oman",
+        fullName: "Sultanato dell'Oman",
         demonyms: [
             "Omaniti"
         ],
@@ -2826,7 +2826,7 @@ export const countries = {
     },
     PA: {
         name: "Panama",
-        nameComplete: "Repubblica di Panama",
+        fullName: "Repubblica di Panama",
         demonyms: [
             "Panamènsi"
         ],
@@ -2838,7 +2838,7 @@ export const countries = {
     },
     PE: {
         name: "Perù",
-        nameComplete: "Repubblica del Perù",
+        fullName: "Repubblica del Perù",
         demonyms: [
             "Peruviani"
         ],
@@ -2854,7 +2854,7 @@ export const countries = {
     },
     PF: {
         name: "Polinesia Francese",
-        nameComplete: "Collettività d'oltremare della Polinesia Francese",
+        fullName: "Collettività d'oltremare della Polinesia Francese",
         demonyms: [
             "Polineṡiani"
         ],
@@ -2867,7 +2867,7 @@ export const countries = {
     },
     PG: {
         name: "Papua Nuova Guinea",
-        nameComplete: "Stato Indipendente della Papua Nuova Guinea",
+        fullName: "Stato Indipendente della Papua Nuova Guinea",
         demonyms: [
             "Papüani"
         ],
@@ -2879,7 +2879,7 @@ export const countries = {
     },
     PH: {
         name: "Filippine",
-        nameComplete: "Repubblica delle Filippine",
+        fullName: "Repubblica delle Filippine",
         demonyms: [
             "Filippini"
         ],
@@ -2890,7 +2890,7 @@ export const countries = {
     },
     PK: {
         name: "Pakistan",
-        nameComplete: "Repubblica Islamica del Pakistan",
+        fullName: "Repubblica Islamica del Pakistan",
         demonyms: [
             "Pachistani"
         ],
@@ -2907,7 +2907,7 @@ export const countries = {
     },
     PL: {
         name: "Polonia",
-        nameComplete: "Repubblica di Polonia",
+        fullName: "Repubblica di Polonia",
         demonyms: [
             "Polacchi",
             "Pollacchi"
@@ -2923,7 +2923,7 @@ export const countries = {
     },
     PM: {
         name: "Saint Pierre e Miquelon",
-        nameComplete: "Collettività d'oltremare di Saint-Pierre and Miquelon",
+        fullName: "Collettività d'oltremare di Saint-Pierre and Miquelon",
         demonyms: [
             "Miqueloniani",
             "Miquelonesi",
@@ -2940,7 +2940,7 @@ export const countries = {
     },
     PN: {
         name: "Pitcairn",
-        nameComplete: "Isole Pitcairn, Henderson, Ducie e Oeno",
+        fullName: "Isole Pitcairn, Henderson, Ducie e Oeno",
         demonyms: [
             "Pitcairnesi"
         ],
@@ -2950,7 +2950,7 @@ export const countries = {
     },
     PR: {
         name: "Portorico",
-        nameComplete: "Stato libero associato di Porto Rico",
+        fullName: "Stato libero associato di Porto Rico",
         demonyms: [
             "Portoricani"
         ],
@@ -2984,7 +2984,7 @@ export const countries = {
     },
     PS: {
         name: "Palestina",
-        nameComplete: "Stato di Palestina",
+        fullName: "Stato di Palestina",
         demonyms: [
             "Palestinési"
         ],
@@ -2998,7 +2998,7 @@ export const countries = {
     },
     PT: {
         name: "Portogallo",
-        nameComplete: "Repubblica Portoghese",
+        fullName: "Repubblica Portoghese",
         demonyms: [
             "Portoghési",
             "Lusitani"
@@ -3012,7 +3012,7 @@ export const countries = {
     },
     PW: {
         name: "Palau",
-        nameComplete: "Repubblica di Palau",
+        fullName: "Repubblica di Palau",
         demonyms: [
             "Palaulani"
         ],
@@ -3024,7 +3024,7 @@ export const countries = {
     },
     PY: {
         name: "Paraguay",
-        nameComplete: "Repubblica del Paraguay",
+        fullName: "Repubblica del Paraguay",
         demonyms: [
             "Paraguaiani",
             "Paraguayani"
@@ -3044,7 +3044,7 @@ export const countries = {
     },
     QA: {
         name: "Qatar",
-        nameComplete: "Stato del Qatar",
+        fullName: "Stato del Qatar",
         demonyms: [
             "Qatariani"
         ],
@@ -3082,7 +3082,7 @@ export const countries = {
     },
     RE: {
         name: "La Riunione",
-        nameComplete: "Dipartimento della Réunion",
+        fullName: "Dipartimento della Réunion",
         demonyms: [
             "Reunionési"
         ],
@@ -3093,7 +3093,7 @@ export const countries = {
     },
     RO: {
         name: "Romania",
-        nameComplete: "Romania",
+        fullName: "Romania",
         demonyms: [
             "Romèni",
             "Rumèni"
@@ -3109,7 +3109,7 @@ export const countries = {
     },
     RS: {
         name: "Serbia",
-        nameComplete: "Repubblica di Serbia",
+        fullName: "Repubblica di Serbia",
         demonyms: [
             "Sèrbi"
         ],
@@ -3126,7 +3126,7 @@ export const countries = {
     },
     RU: {
         name: "Russia",
-        nameComplete: "Federazione Russa",
+        fullName: "Federazione Russa",
         demonyms: [
             "Russi"
         ],
@@ -3138,7 +3138,7 @@ export const countries = {
     },
     RW: {
         name: "Ruanda",
-        nameComplete: "Repubblica del Ruanda",
+        fullName: "Repubblica del Ruanda",
         demonyms: [
             "Ruandési"
         ],
@@ -3148,7 +3148,7 @@ export const countries = {
     },
     SA: {
         name: "Arabia Saudita",
-        nameComplete: "Regno dell'Arabia Saudita",
+        fullName: "Regno dell'Arabia Saudita",
         demonyms: [
             "Sauditi"
         ],
@@ -3161,7 +3161,7 @@ export const countries = {
     },
     SB: {
         name: "Isole Salomone",
-        nameComplete: "Isole Salomone",
+        fullName: "Isole Salomone",
         demonyms: [
             "Salomonesi"
         ],
@@ -3171,7 +3171,7 @@ export const countries = {
     },
     SC: {
         name: "Seychelles",
-        nameComplete: "Repubblica delle Seychelles",
+        fullName: "Repubblica delle Seychelles",
         demonyms: [
             "Seychellesi",
             "Seicellesi"
@@ -3183,7 +3183,7 @@ export const countries = {
     },
     SD: {
         name: "Sudan",
-        nameComplete: "Repubblica del Sudan",
+        fullName: "Repubblica del Sudan",
         demonyms: [
             "Sudanési"
         ],
@@ -3193,7 +3193,7 @@ export const countries = {
     },
     SE: {
         name: "Svezia",
-        nameComplete: "Regno di Svezia",
+        fullName: "Regno di Svezia",
         demonyms: [
             "Svedési",
             "Svezzési"
@@ -3205,7 +3205,7 @@ export const countries = {
     },
     SG: {
         name: "Singapore",
-        nameComplete: "Repubblica di Singapore",
+        fullName: "Repubblica di Singapore",
         demonyms: [
             "Singaporiani"
         ],
@@ -3217,7 +3217,7 @@ export const countries = {
     },
     SH: {
         name: "Sant'Elena",
-        nameComplete: "Isole di Sant'Elena, Ascensione e Tristan da Cunha",
+        fullName: "Isole di Sant'Elena, Ascensione e Tristan da Cunha",
         demonyms: [
             "Tristaniani",
             "Ascensionesi",
@@ -3235,7 +3235,7 @@ export const countries = {
     },
     SI: {
         name: "Slovenia",
-        nameComplete: "Repubblica di Slovenia",
+        fullName: "Repubblica di Slovenia",
         demonyms: [
             "Slovèni"
         ],
@@ -3252,7 +3252,7 @@ export const countries = {
     },
     SJ: {
         name: "Svalbard e Jan Mayen",
-        nameComplete: "Isole Svalbard e Jan Mayen",
+        fullName: "Isole Svalbard e Jan Mayen",
         demonyms: [
             "Svalbardesi"
         ],
@@ -3262,7 +3262,7 @@ export const countries = {
     },
     SK: {
         name: "Slovacchia",
-        nameComplete: "Repubblica Slovacca",
+        fullName: "Repubblica Slovacca",
         demonyms: [
             "Slovàcchi"
         ],
@@ -3274,7 +3274,7 @@ export const countries = {
     },
     SL: {
         name: "Sierra Leone",
-        nameComplete: "Repubblica della Sierra Leone",
+        fullName: "Repubblica della Sierra Leone",
         demonyms: [
             "Sierraleonési"
         ],
@@ -3284,7 +3284,7 @@ export const countries = {
     },
     SM: {
         name: "San Marino",
-        nameComplete: "Repubblica di San Marino",
+        fullName: "Repubblica di San Marino",
         demonyms: [
             "Sammarinési",
             "Sanmarinési"
@@ -3299,7 +3299,7 @@ export const countries = {
     },
     SN: {
         name: "Senegal",
-        nameComplete: "Repubblica del Senegal",
+        fullName: "Repubblica del Senegal",
         demonyms: [
             "Senegalési"
         ],
@@ -3309,7 +3309,7 @@ export const countries = {
     },
     SO: {
         name: "Somalia",
-        nameComplete: "Repubblica Federale di Somalia",
+        fullName: "Repubblica Federale di Somalia",
         demonyms: [
             "Sòmali",
             "Somàli"
@@ -3322,7 +3322,7 @@ export const countries = {
     },
     SR: {
         name: "Suriname",
-        nameComplete: "Repubblica del Suriname",
+        fullName: "Repubblica del Suriname",
         demonyms: [
             "Surinamensi"
         ],
@@ -3334,7 +3334,7 @@ export const countries = {
     },
     SS: {
         name: "Sud Sudan",
-        nameComplete: "Repubblica del Sudan del Sud",
+        fullName: "Repubblica del Sudan del Sud",
         demonyms: [
             "Sudanési del sud",
             "Sudsudanési"
@@ -3346,7 +3346,7 @@ export const countries = {
     },
     ST: {
         name: "São Tomé e Príncipe",
-        nameComplete: "Repubblica Democratica di São Tomé e Príncipe",
+        fullName: "Repubblica Democratica di São Tomé e Príncipe",
         demonyms: [
             "Saotomensi"
         ],
@@ -3360,7 +3360,7 @@ export const countries = {
     },
     SV: {
         name: "El Salvador",
-        nameComplete: "Repubblica di El Salvador",
+        fullName: "Repubblica di El Salvador",
         demonyms: [
             "Salvadorégni"
         ],
@@ -3376,7 +3376,7 @@ export const countries = {
     },
     SX: {
         name: "Sint Maarten",
-        nameComplete: "Sint Maarten",
+        fullName: "Sint Maarten",
         demonyms: [
             "Sanmartinesi",
             "Sammartinesi"
@@ -3402,7 +3402,7 @@ export const countries = {
     },
     SY: {
         name: "Siria",
-        nameComplete: "Repubblica Araba di Siria",
+        fullName: "Repubblica Araba di Siria",
         demonyms: [
             "Siriani"
         ],
@@ -3418,7 +3418,7 @@ export const countries = {
     },
     SZ: {
         name: "eSwatini",
-        nameComplete: "Regno di eSwatini",
+        fullName: "Regno di eSwatini",
         demonyms: [
             "Swati",
             "Swazi"
@@ -3435,7 +3435,7 @@ export const countries = {
     },
     TC: {
         name: "Isole Turks e Caicos",
-        nameComplete: "Isole di Turks and Caicos",
+        fullName: "Isole di Turks and Caicos",
         demonyms: [
             "Turks",
             "Caicosiani"
@@ -3452,7 +3452,7 @@ export const countries = {
     },
     TD: {
         name: "Ciad",
-        nameComplete: "Repubblica del Ciad",
+        fullName: "Repubblica del Ciad",
         demonyms: [
             "Ciadiani"
         ],
@@ -3464,7 +3464,7 @@ export const countries = {
     },
     TF: {
         name: "Terre Australi e Antartiche Francesi",
-        nameComplete: "Territorio delle Terre Australi e Antartiche Francesi",
+        fullName: "Territorio delle Terre Australi e Antartiche Francesi",
         demonyms: [],
         keywords: [
             "taaf",
@@ -3473,7 +3473,7 @@ export const countries = {
     },
     TG: {
         name: "Togo",
-        nameComplete: "Repubblica togolese",
+        fullName: "Repubblica togolese",
         demonyms: [
             "Togolési"
         ],
@@ -3483,7 +3483,7 @@ export const countries = {
     },
     TH: {
         name: "Tailandia",
-        nameComplete: "Regno di Thailandia",
+        fullName: "Regno di Thailandia",
         demonyms: [
             "Thailandési",
             "Tailandési"
@@ -3495,7 +3495,7 @@ export const countries = {
     },
     TJ: {
         name: "Tagikistan",
-        nameComplete: "Repubblica del Tagikistan",
+        fullName: "Repubblica del Tagikistan",
         demonyms: [
             "Tagiki",
             "Tagichi",
@@ -3515,7 +3515,7 @@ export const countries = {
     },
     TK: {
         name: "Tokelau",
-        nameComplete: "Isole Tokelau",
+        fullName: "Isole Tokelau",
         demonyms: [
             "Tokelauani"
         ],
@@ -3529,7 +3529,7 @@ export const countries = {
     },
     TL: {
         name: "Timor Est",
-        nameComplete: "Repubblica Democratica di Timor Est",
+        fullName: "Repubblica Democratica di Timor Est",
         demonyms: [
             "Timorési"
         ],
@@ -3539,7 +3539,7 @@ export const countries = {
     },
     TM: {
         name: "Turkmenistan",
-        nameComplete: "Repubblica del Turkmenistan",
+        fullName: "Repubblica del Turkmenistan",
         demonyms: [
             "Turkmèni"
         ],
@@ -3555,7 +3555,7 @@ export const countries = {
     },
     TN: {
         name: "Tunisia",
-        nameComplete: "Repubblica di Tunisia",
+        fullName: "Repubblica di Tunisia",
         demonyms: [
             "Tuniṡini"
         ],
@@ -3567,7 +3567,7 @@ export const countries = {
     },
     TO: {
         name: "Tonga",
-        nameComplete: "Regno di Tonga",
+        fullName: "Regno di Tonga",
         demonyms: [
             "Tongani"
         ],
@@ -3579,7 +3579,7 @@ export const countries = {
     },
     TR: {
         name: "Turchia",
-        nameComplete: "Repubblica di Turchia",
+        fullName: "Repubblica di Turchia",
         demonyms: [
             "Turchi"
         ],
@@ -3591,7 +3591,7 @@ export const countries = {
     },
     TT: {
         name: "Trinidad e Tobago",
-        nameComplete: "Repubblica di Trinidad e Tobago",
+        fullName: "Repubblica di Trinidad e Tobago",
         demonyms: [
             "Trinidadiani",
             "Tobagani"
@@ -3607,7 +3607,7 @@ export const countries = {
     },
     TV: {
         name: "Tuvalu",
-        nameComplete: "Tuvalu",
+        fullName: "Tuvalu",
         demonyms: [
             "Tuvalüani"
         ],
@@ -3619,7 +3619,7 @@ export const countries = {
     },
     TW: {
         name: "Taiwan",
-        nameComplete: "Repubblica di Cina",
+        fullName: "Repubblica di Cina",
         demonyms: [
             "Taiwanési"
         ],
@@ -3632,7 +3632,7 @@ export const countries = {
     },
     TZ: {
         name: "Tanzania",
-        nameComplete: "Repubblica Unita di Tanzania",
+        fullName: "Repubblica Unita di Tanzania",
         demonyms: [
             "Tanżaniani"
         ],
@@ -3644,7 +3644,7 @@ export const countries = {
     },
     UA: {
         name: "Ucraina",
-        nameComplete: "Ucraina",
+        fullName: "Ucraina",
         demonyms: [
             "Ucràini"
         ],
@@ -3659,7 +3659,7 @@ export const countries = {
     },
     UG: {
         name: "Uganda",
-        nameComplete: "Repubblica dell'Uganda",
+        fullName: "Repubblica dell'Uganda",
         demonyms: [
             "Ugandési"
         ],
@@ -3669,7 +3669,7 @@ export const countries = {
     },
     UM: {
         name: "Isole minori esterne degli Stati Uniti",
-        nameComplete: "Isole minori esterne degli Stati Uniti",
+        fullName: "Isole minori esterne degli Stati Uniti",
         demonyms: [
             "Statunitènsi"
         ],
@@ -3699,7 +3699,7 @@ export const countries = {
     },
     US: {
         name: "Stati Uniti",
-        nameComplete: "Stati Uniti d'America",
+        fullName: "Stati Uniti d'America",
         demonyms: [
             "Statunitènsi",
             "Americani",
@@ -3720,7 +3720,7 @@ export const countries = {
     },
     UY: {
         name: "Uruguay",
-        nameComplete: "Repubblica Orientale dell'Uruguay",
+        fullName: "Repubblica Orientale dell'Uruguay",
         demonyms: [
             "Uruguaiani",
             "Uruguayani"
@@ -3740,7 +3740,7 @@ export const countries = {
     },
     UZ: {
         name: "Uzbekistan",
-        nameComplete: "Repubblica dell'Uzbekistan",
+        fullName: "Repubblica dell'Uzbekistan",
         demonyms: [
             "Użbèki",
             "Usbèki",
@@ -3768,7 +3768,7 @@ export const countries = {
     },
     VA: {
         name: "Città del Vaticano",
-        nameComplete: "Vatican City State",
+        fullName: "Vatican City State",
         demonyms: [
             "Vaticani"
         ],
@@ -3788,7 +3788,7 @@ export const countries = {
     },
     VC: {
         name: "Saint Vincent e Grenadine",
-        nameComplete: "Saint Vincent e Grenadine",
+        fullName: "Saint Vincent e Grenadine",
         demonyms: [
             "Sanvincentini"
         ],
@@ -3811,7 +3811,7 @@ export const countries = {
     },
     VE: {
         name: "Venezuela",
-        nameComplete: "Repubblica Bolivariana del Venezuela",
+        fullName: "Repubblica Bolivariana del Venezuela",
         demonyms: [
             "Venezuelani",
             "Veneżuelani",
@@ -3829,7 +3829,7 @@ export const countries = {
     },
     VG: {
         name: "Isole Vergini Britanniche",
-        nameComplete: "Isole Vergini Britanniche",
+        fullName: "Isole Vergini Britanniche",
         demonyms: [
             "Verginiani"
         ],
@@ -3853,7 +3853,7 @@ export const countries = {
     },
     VI: {
         name: "Isole Vergini Americane",
-        nameComplete: "Isole Vergini degli Stati Uniti",
+        fullName: "Isole Vergini degli Stati Uniti",
         demonyms: [
             "Verginiani"
         ],
@@ -3877,7 +3877,7 @@ export const countries = {
     },
     VN: {
         name: "Vietnam",
-        nameComplete: "Repubblica Socialista del Vietnam",
+        fullName: "Repubblica Socialista del Vietnam",
         demonyms: [
             "Vietnamiti"
         ],
@@ -3890,7 +3890,7 @@ export const countries = {
     },
     VU: {
         name: "Vanuatu",
-        nameComplete: "Repubblica di Vanuatu",
+        fullName: "Repubblica di Vanuatu",
         demonyms: [
             "Vanuatiani"
         ],
@@ -3905,7 +3905,7 @@ export const countries = {
     },
     WF: {
         name: "Wallis e Futuna",
-        nameComplete: "Collettività d'oltremare delle isole Wallis e Futuna",
+        fullName: "Collettività d'oltremare delle isole Wallis e Futuna",
         demonyms: [
             "Wallisiani",
             "Futuniani",
@@ -3929,7 +3929,7 @@ export const countries = {
     },
     WS: {
         name: "Samoa",
-        nameComplete: "Stato indipendente di Samoa",
+        fullName: "Stato indipendente di Samoa",
         demonyms: [
             "Samoani"
         ],
@@ -3941,7 +3941,7 @@ export const countries = {
     },
     XK: {
         name: "Kosovo",
-        nameComplete: "Repubblica del Kosovo",
+        fullName: "Repubblica del Kosovo",
         demonyms: [
             "Kosovari",
             "Kossovari",
@@ -3955,7 +3955,7 @@ export const countries = {
     },
     YE: {
         name: "Yemen",
-        nameComplete: "Repubblica dello Yemen",
+        fullName: "Repubblica dello Yemen",
         demonyms: [
             "Yemeniti"
         ],
@@ -3967,7 +3967,7 @@ export const countries = {
     },
     YT: {
         name: "Mayotte",
-        nameComplete: "Collettività dipartimentale di Mayotte",
+        fullName: "Collettività dipartimentale di Mayotte",
         demonyms: [
             "Maoresi"
         ],
@@ -3988,7 +3988,7 @@ export const countries = {
     },
     ZA: {
         name: "Sud Africa",
-        nameComplete: "Repubblica del Sudafrica",
+        fullName: "Repubblica del Sudafrica",
         demonyms: [
             "Sud-Africani",
             "Sudafricani"
@@ -4001,7 +4001,7 @@ export const countries = {
     },
     ZM: {
         name: "Zambia",
-        nameComplete: "Repubblica dello Zambia",
+        fullName: "Repubblica dello Zambia",
         demonyms: [
             "Zambiano"
         ],
@@ -4014,7 +4014,7 @@ export const countries = {
     },
     ZW: {
         name: "Zimbabwe",
-        nameComplete: "Repubblica dello Zimbabwe",
+        fullName: "Repubblica dello Zimbabwe",
         demonyms: [
             "Zimbabwesi"
         ],

@@ -20,2550 +20,2550 @@
  
  
 return [
-    "AD" => [
-        "name" => "Andorra",
-        "nameComplete" => "Principality of Andorra",
-        "demonyms" => [
-            "Andorrans"
+    'AD' => [
+        'name' => 'Andorra',
+        'fullName' => 'Principality of Andorra',
+        'demonyms' => [
+            'Andorrans'
         ],
-        "keywords" => [
-            "andorran"
+        'keywords' => [
+            'andorran'
         ]
     ],
-    "AE" => [
-        "name" => "United Arab Emirates",
-        "nameComplete" => "United Arab Emirates",
-        "demonyms" => [
-            "Emiratis",
-            "Emaratians"
+    'AE' => [
+        'name' => 'United Arab Emirates',
+        'fullName' => 'United Arab Emirates',
+        'demonyms' => [
+            'Emiratis',
+            'Emaratians'
         ],
-        "keywords" => [
-            "uae",
-            "emirati"
+        'keywords' => [
+            'uae',
+            'emirati'
         ]
     ],
-    "AF" => [
-        "name" => "Afghanistan",
-        "nameComplete" => "Islamic Emirate of Afghanistan",
-        "demonyms" => [
-            "Afghans"
+    'AF' => [
+        'name' => 'Afghanistan',
+        'fullName' => 'Islamic Emirate of Afghanistan',
+        'demonyms' => [
+            'Afghans'
         ],
-        "keywords" => [
-            "afghan"
+        'keywords' => [
+            'afghan'
         ]
     ],
-    "AG" => [
-        "name" => "Antigua and Barbuda",
-        "nameComplete" => "Antigua and Barbuda",
-        "demonyms" => [
-            "Antiguans",
-            "Barbudans"
+    'AG' => [
+        'name' => 'Antigua and Barbuda',
+        'fullName' => 'Antigua and Barbuda',
+        'demonyms' => [
+            'Antiguans',
+            'Barbudans'
         ],
-        "keywords" => [
-            "antiguan",
-            "barbudan"
+        'keywords' => [
+            'antiguan',
+            'barbudan'
         ]
     ],
-    "AI" => [
-        "name" => "Anguilla",
-        "nameComplete" => "Anguilla",
-        "demonyms" => [
-            "Anguillans"
+    'AI' => [
+        'name' => 'Anguilla',
+        'fullName' => 'Anguilla',
+        'demonyms' => [
+            'Anguillans'
         ],
-        "keywords" => [
-            "anguillan"
+        'keywords' => [
+            'anguillan'
         ]
     ],
-    "AL" => [
-        "name" => "Albania",
-        "nameComplete" => "Republic of Albania",
-        "demonyms" => [
-            "Albanians"
+    'AL' => [
+        'name' => 'Albania',
+        'fullName' => 'Republic of Albania',
+        'demonyms' => [
+            'Albanians'
         ],
-        "keywords" => [
-            "albanian"
+        'keywords' => [
+            'albanian'
         ]
     ],
-    "AM" => [
-        "name" => "Armenia",
-        "nameComplete" => "Republic of Armenia",
-        "demonyms" => [
-            "Armenians"
+    'AM' => [
+        'name' => 'Armenia',
+        'fullName' => 'Republic of Armenia',
+        'demonyms' => [
+            'Armenians'
         ],
-        "keywords" => [
-            "armenian"
+        'keywords' => [
+            'armenian'
         ]
     ],
-    "AO" => [
-        "name" => "Angola",
-        "nameComplete" => "Republic of Angola",
-        "demonyms" => [
-            "Angolans"
+    'AO' => [
+        'name' => 'Angola',
+        'fullName' => 'Republic of Angola',
+        'demonyms' => [
+            'Angolans'
         ],
-        "keywords" => [
-            "angolan"
+        'keywords' => [
+            'angolan'
         ]
     ],
-    "AQ" => [
-        "name" => "Antartica",
-        "nameComplete" => "Antartica",
-        "demonyms" => [],
-        "keywords" => [
-            "antarctics",
-            "antarctic"
+    'AQ' => [
+        'name' => 'Antartica',
+        'fullName' => 'Antartica',
+        'demonyms' => [],
+        'keywords' => [
+            'antarctics',
+            'antarctic'
         ]
     ],
-    "AR" => [
-        "name" => "Argentina",
-        "nameComplete" => "Argentine Republic",
-        "demonyms" => [
-            "Argentinians"
+    'AR' => [
+        'name' => 'Argentina',
+        'fullName' => 'Argentine Republic',
+        'demonyms' => [
+            'Argentinians'
         ],
-        "keywords" => [
-            "argentine",
-            "argentines"
+        'keywords' => [
+            'argentine',
+            'argentines'
         ]
     ],
-    "AS" => [
-        "name" => "American Samoa",
-        "nameComplete" => "American Samoa",
-        "demonyms" => [
-            "Samoans"
+    'AS' => [
+        'name' => 'American Samoa',
+        'fullName' => 'American Samoa',
+        'demonyms' => [
+            'Samoans'
         ],
-        "keywords" => [
-            "samoan"
+        'keywords' => [
+            'samoan'
         ]
     ],
-    "AT" => [
-        "name" => "Austria",
-        "nameComplete" => "Republic of Austria",
-        "demonyms" => [
-            "Austrians"
+    'AT' => [
+        'name' => 'Austria',
+        'fullName' => 'Republic of Austria',
+        'demonyms' => [
+            'Austrians'
         ],
-        "keywords" => [
-            "austrian"
+        'keywords' => [
+            'austrian'
         ]
     ],
-    "AU" => [
-        "name" => "Australia",
-        "nameComplete" => "Commonwealth of Australia",
-        "demonyms" => [
-            "Australians"
+    'AU' => [
+        'name' => 'Australia',
+        'fullName' => 'Commonwealth of Australia',
+        'demonyms' => [
+            'Australians'
         ],
-        "keywords" => [
-            "aussie",
-            "australian"
+        'keywords' => [
+            'aussie',
+            'australian'
         ]
     ],
-    "AW" => [
-        "name" => "Aruba",
-        "nameComplete" => "Country of Aruba",
-        "demonyms" => [
-            "Arubans"
+    'AW' => [
+        'name' => 'Aruba',
+        'fullName' => 'Country of Aruba',
+        'demonyms' => [
+            'Arubans'
         ],
-        "keywords" => [
-            "abc",
-            "islands",
-            "aruban"
+        'keywords' => [
+            'abc',
+            'islands',
+            'aruban'
         ]
     ],
-    "AX" => [
-        "name" => "Åland Islands",
-        "nameComplete" => "Region of Åland",
-        "demonyms" => [
-            "Åland Islanders"
+    'AX' => [
+        'name' => 'Åland Islands',
+        'fullName' => 'Region of Åland',
+        'demonyms' => [
+            'Åland Islanders'
         ],
-        "keywords" => [
-            "alandic",
-            "alandics"
+        'keywords' => [
+            'alandic',
+            'alandics'
         ]
     ],
-    "AZ" => [
-        "name" => "Azerbaijan",
-        "nameComplete" => "Republic of Azerbaijan",
-        "demonyms" => [
-            "Azerbaijanis"
+    'AZ' => [
+        'name' => 'Azerbaijan',
+        'fullName' => 'Republic of Azerbaijan',
+        'demonyms' => [
+            'Azerbaijanis'
         ],
-        "keywords" => [
-            "azerbaijani"
+        'keywords' => [
+            'azerbaijani'
         ]
     ],
-    "BA" => [
-        "name" => "Bosnia and Herzegovina",
-        "nameComplete" => "Bosnia and Herzegovina",
-        "demonyms" => [
-            "Bosnians",
-            "Herzegovinians"
+    'BA' => [
+        'name' => 'Bosnia and Herzegovina',
+        'fullName' => 'Bosnia and Herzegovina',
+        'demonyms' => [
+            'Bosnians',
+            'Herzegovinians'
         ],
-        "keywords" => [
-            "bosnian",
-            "herzegovinian",
-            "bosnianherzegovinian",
-            "bosnianherzegovinians"
+        'keywords' => [
+            'bosnian',
+            'herzegovinian',
+            'bosnianherzegovinian',
+            'bosnianherzegovinians'
         ]
     ],
-    "BB" => [
-        "name" => "Barbados",
-        "nameComplete" => "Barbados",
-        "demonyms" => [
-            "Barbadians"
+    'BB' => [
+        'name' => 'Barbados',
+        'fullName' => 'Barbados',
+        'demonyms' => [
+            'Barbadians'
         ],
-        "keywords" => [
-            "barbadian"
+        'keywords' => [
+            'barbadian'
         ]
     ],
-    "BD" => [
-        "name" => "Bangladesh",
-        "nameComplete" => "People's Republic of Bangladesh",
-        "demonyms" => [
-            "Bangladeshis"
+    'BD' => [
+        'name' => 'Bangladesh',
+        'fullName' => 'People\'s Republic of Bangladesh',
+        'demonyms' => [
+            'Bangladeshis'
         ],
-        "keywords" => [
-            "bangladeshi"
+        'keywords' => [
+            'bangladeshi'
         ]
     ],
-    "BE" => [
-        "name" => "Belgium",
-        "nameComplete" => "Kingdom of Belgium",
-        "demonyms" => [
-            "Belgians"
+    'BE' => [
+        'name' => 'Belgium',
+        'fullName' => 'Kingdom of Belgium',
+        'demonyms' => [
+            'Belgians'
         ],
-        "keywords" => [
-            "belgian"
+        'keywords' => [
+            'belgian'
         ]
     ],
-    "BF" => [
-        "name" => "Burkina Faso",
-        "nameComplete" => "Burkina Faso",
-        "demonyms" => [
-            "Burkinabés"
+    'BF' => [
+        'name' => 'Burkina Faso',
+        'fullName' => 'Burkina Faso',
+        'demonyms' => [
+            'Burkinabés'
         ],
-        "keywords" => [
-            "burkinabe"
+        'keywords' => [
+            'burkinabe'
         ]
     ],
-    "BG" => [
-        "name" => "Bulgaria",
-        "nameComplete" => "Republic of Bulgaria",
-        "demonyms" => [
-            "Bulgarians"
+    'BG' => [
+        'name' => 'Bulgaria',
+        'fullName' => 'Republic of Bulgaria',
+        'demonyms' => [
+            'Bulgarians'
         ],
-        "keywords" => [
-            "bulgarian"
+        'keywords' => [
+            'bulgarian'
         ]
     ],
-    "BH" => [
-        "name" => "Bahrain",
-        "nameComplete" => "Kingdom of Bahrain",
-        "demonyms" => [
-            "Bahrainis"
+    'BH' => [
+        'name' => 'Bahrain',
+        'fullName' => 'Kingdom of Bahrain',
+        'demonyms' => [
+            'Bahrainis'
         ],
-        "keywords" => [
-            "bahraini"
+        'keywords' => [
+            'bahraini'
         ]
     ],
-    "BI" => [
-        "name" => "Burundi",
-        "nameComplete" => "Republic of Burundi",
-        "demonyms" => [
-            "Burundians"
+    'BI' => [
+        'name' => 'Burundi',
+        'fullName' => 'Republic of Burundi',
+        'demonyms' => [
+            'Burundians'
         ],
-        "keywords" => [
-            "burundian"
+        'keywords' => [
+            'burundian'
         ]
     ],
-    "BJ" => [
-        "name" => "Benin",
-        "nameComplete" => "Republic of Benin",
-        "demonyms" => [
-            "Beninese"
+    'BJ' => [
+        'name' => 'Benin',
+        'fullName' => 'Republic of Benin',
+        'demonyms' => [
+            'Beninese'
         ],
-        "keywords" => [
-            "dahomey"
+        'keywords' => [
+            'dahomey'
         ]
     ],
-    "BL" => [
-        "name" => "Saint Barthélemy",
-        "nameComplete" => "Overseas Collectivity of Saint Barthélemy",
-        "demonyms" => [
-            "Barthélemois",
-            "Saint Barthélemy Islanders"
+    'BL' => [
+        'name' => 'Saint Barthélemy',
+        'fullName' => 'Overseas Collectivity of Saint Barthélemy',
+        'demonyms' => [
+            'Barthélemois',
+            'Saint Barthélemy Islanders'
         ],
-        "keywords" => [
-            "com"
+        'keywords' => [
+            'com'
         ]
     ],
-    "BM" => [
-        "name" => "Bermuda",
-        "nameComplete" => "Bermuda",
-        "demonyms" => [
-            "Bermudians"
+    'BM' => [
+        'name' => 'Bermuda',
+        'fullName' => 'Bermuda',
+        'demonyms' => [
+            'Bermudians'
         ],
-        "keywords" => [
-            "bermudian"
+        'keywords' => [
+            'bermudian'
         ]
     ],
-    "BN" => [
-        "name" => "Brunei",
-        "nameComplete" => "Brunei Darussalam",
-        "demonyms" => [
-            "Bruneians"
+    'BN' => [
+        'name' => 'Brunei',
+        'fullName' => 'Brunei Darussalam',
+        'demonyms' => [
+            'Bruneians'
         ],
-        "keywords" => [
-            "bruneian"
+        'keywords' => [
+            'bruneian'
         ]
     ],
-    "BO" => [
-        "name" => "Bolivia",
-        "nameComplete" => "Plurinational State of Bolivia",
-        "demonyms" => [
-            "Bolivians"
+    'BO' => [
+        'name' => 'Bolivia',
+        'fullName' => 'Plurinational State of Bolivia',
+        'demonyms' => [
+            'Bolivians'
         ],
-        "keywords" => [
-            "bolivian"
+        'keywords' => [
+            'bolivian'
         ]
     ],
-    "BQ" => [
-        "name" => "Bonaire, Sint Eustatius and Saba",
-        "nameComplete" => "Caribbean Netherlands",
-        "demonyms" => [
-            "Bonaireans",
-            "Saba Islanders",
-            "Sabans",
-            "Sint Eustatians"
+    'BQ' => [
+        'name' => 'Bonaire, Sint Eustatius and Saba',
+        'fullName' => 'Caribbean Netherlands',
+        'demonyms' => [
+            'Bonaireans',
+            'Saba Islanders',
+            'Sabans',
+            'Sint Eustatians'
         ],
-        "keywords" => [
-            "abc",
-            "islands",
-            "sss",
-            "bes",
-            "bonairian",
-            "bonairians",
-            "eustatian",
-            "saban"
+        'keywords' => [
+            'abc',
+            'islands',
+            'sss',
+            'bes',
+            'bonairian',
+            'bonairians',
+            'eustatian',
+            'saban'
         ]
     ],
-    "BR" => [
-        "name" => "Brazil",
-        "nameComplete" => "Federative Republic of Brazil",
-        "demonyms" => [
-            "Brazilians"
+    'BR' => [
+        'name' => 'Brazil',
+        'fullName' => 'Federative Republic of Brazil',
+        'demonyms' => [
+            'Brazilians'
         ],
-        "keywords" => [
-            "brazilian"
+        'keywords' => [
+            'brazilian'
         ]
     ],
-    "BS" => [
-        "name" => "Bahamas",
-        "nameComplete" => "Commonwealth of The Bahamas",
-        "demonyms" => [
-            "Bahamians"
+    'BS' => [
+        'name' => 'Bahamas',
+        'fullName' => 'Commonwealth of The Bahamas',
+        'demonyms' => [
+            'Bahamians'
         ],
-        "keywords" => [
-            "bahamian"
+        'keywords' => [
+            'bahamian'
         ]
     ],
-    "BT" => [
-        "name" => "Bhutan",
-        "nameComplete" => "Kingdom of Bhutan",
-        "demonyms" => [
-            "Bhutanese"
+    'BT' => [
+        'name' => 'Bhutan',
+        'fullName' => 'Kingdom of Bhutan',
+        'demonyms' => [
+            'Bhutanese'
         ],
-        "keywords" => [
-            "thunder",
-            "dragon",
-            "kingdom",
-            "druk",
-            "yul"
+        'keywords' => [
+            'thunder',
+            'dragon',
+            'kingdom',
+            'druk',
+            'yul'
         ]
     ],
-    "BV" => [
-        "name" => "Bouvet Island",
-        "nameComplete" => "Bouvet Island",
-        "demonyms" => [
-            "Bouvet Islanders"
+    'BV' => [
+        'name' => 'Bouvet Island',
+        'fullName' => 'Bouvet Island',
+        'demonyms' => [
+            'Bouvet Islanders'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "BW" => [
-        "name" => "Botswana",
-        "nameComplete" => "Republic of Botswana",
-        "demonyms" => [
-            "Batswana"
+    'BW' => [
+        'name' => 'Botswana',
+        'fullName' => 'Republic of Botswana',
+        'demonyms' => [
+            'Batswana'
         ],
-        "keywords" => [
-            "botswanan"
+        'keywords' => [
+            'botswanan'
         ]
     ],
-    "BY" => [
-        "name" => "Belarus",
-        "nameComplete" => "Republic of Belarus",
-        "demonyms" => [
-            "Belarusians"
+    'BY' => [
+        'name' => 'Belarus',
+        'fullName' => 'Republic of Belarus',
+        'demonyms' => [
+            'Belarusians'
         ],
-        "keywords" => [
-            "white",
-            "russia",
-            "belarusian"
+        'keywords' => [
+            'white',
+            'russia',
+            'belarusian'
         ]
     ],
-    "BZ" => [
-        "name" => "Belize",
-        "nameComplete" => "Belize",
-        "demonyms" => [
-            "Belizeans"
+    'BZ' => [
+        'name' => 'Belize',
+        'fullName' => 'Belize',
+        'demonyms' => [
+            'Belizeans'
         ],
-        "keywords" => [
-            "british",
-            "honduras",
-            "belizean"
+        'keywords' => [
+            'british',
+            'honduras',
+            'belizean'
         ]
     ],
-    "CA" => [
-        "name" => "Canada",
-        "nameComplete" => "Canada",
-        "demonyms" => [
-            "Canadians"
+    'CA' => [
+        'name' => 'Canada',
+        'fullName' => 'Canada',
+        'demonyms' => [
+            'Canadians'
         ],
-        "keywords" => [
-            "canadian"
+        'keywords' => [
+            'canadian'
         ]
     ],
-    "CC" => [
-        "name" => "Cocos (Keeling) Islands",
-        "nameComplete" => "Cocos (Keeling) Islands",
-        "demonyms" => [
-            "Cocosian",
-            "Cocos Islanders"
+    'CC' => [
+        'name' => 'Cocos (Keeling) Islands',
+        'fullName' => 'Cocos (Keeling) Islands',
+        'demonyms' => [
+            'Cocosian',
+            'Cocos Islanders'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "CD" => [
-        "name" => "Congo (Democratic Republic of the)",
-        "nameComplete" => "Democratic Republic of the Congo",
-        "demonyms" => [
-            "Congolese"
+    'CD' => [
+        'name' => 'Congo (Democratic Republic of the)',
+        'fullName' => 'Democratic Republic of the Congo',
+        'demonyms' => [
+            'Congolese'
         ],
-        "keywords" => [
-            "kinshasa",
-            "rdc",
-            "belgian",
-            "zaire"
+        'keywords' => [
+            'kinshasa',
+            'rdc',
+            'belgian',
+            'zaire'
         ]
     ],
-    "CF" => [
-        "name" => "Central African Republic",
-        "nameComplete" => "Central African Republic",
-        "demonyms" => [
-            "Central Africans"
+    'CF' => [
+        'name' => 'Central African Republic',
+        'fullName' => 'Central African Republic',
+        'demonyms' => [
+            'Central Africans'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "CG" => [
-        "name" => "Congo",
-        "nameComplete" => "Republic of the Congo",
-        "demonyms" => [
-            "Congolese"
+    'CG' => [
+        'name' => 'Congo',
+        'fullName' => 'Republic of the Congo',
+        'demonyms' => [
+            'Congolese'
         ],
-        "keywords" => [
-            "brazzaville",
-            "french"
+        'keywords' => [
+            'brazzaville',
+            'french'
         ]
     ],
-    "CH" => [
-        "name" => "Switzerland",
-        "nameComplete" => "Swiss Confederation",
-        "demonyms" => [
-            "Swiss"
+    'CH' => [
+        'name' => 'Switzerland',
+        'fullName' => 'Swiss Confederation',
+        'demonyms' => [
+            'Swiss'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "CI" => [
-        "name" => "Côte d'Ivoire",
-        "nameComplete" => "Republic of Côte d'Ivoire",
-        "demonyms" => [
-            "Ivorians"
+    'CI' => [
+        'name' => 'Côte d\'Ivoire',
+        'fullName' => 'Republic of Côte d\'Ivoire',
+        'demonyms' => [
+            'Ivorians'
         ],
-        "keywords" => [
-            "ivorian"
+        'keywords' => [
+            'ivorian'
         ]
     ],
-    "CK" => [
-        "name" => "Cook Islands",
-        "nameComplete" => "Cook Islands",
-        "demonyms" => [
-            "Cook Islanders"
+    'CK' => [
+        'name' => 'Cook Islands',
+        'fullName' => 'Cook Islands',
+        'demonyms' => [
+            'Cook Islanders'
         ],
-        "keywords" => [
-            "island"
+        'keywords' => [
+            'island'
         ]
     ],
-    "CL" => [
-        "name" => "Chile",
-        "nameComplete" => "Republic of Chile",
-        "demonyms" => [
-            "Chileans"
+    'CL' => [
+        'name' => 'Chile',
+        'fullName' => 'Republic of Chile',
+        'demonyms' => [
+            'Chileans'
         ],
-        "keywords" => [
-            "chilean"
+        'keywords' => [
+            'chilean'
         ]
     ],
-    "CM" => [
-        "name" => "Cameroon",
-        "nameComplete" => "Republic of Cameroon",
-        "demonyms" => [
-            "Cameroonians"
+    'CM' => [
+        'name' => 'Cameroon',
+        'fullName' => 'Republic of Cameroon',
+        'demonyms' => [
+            'Cameroonians'
         ],
-        "keywords" => [
-            "cameroonian"
+        'keywords' => [
+            'cameroonian'
         ]
     ],
-    "CN" => [
-        "name" => "China",
-        "nameComplete" => "People's Republic of China",
-        "demonyms" => [
-            "Chinese"
+    'CN' => [
+        'name' => 'China',
+        'fullName' => 'People\'s Republic of China',
+        'demonyms' => [
+            'Chinese'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "CO" => [
-        "name" => "Colombia",
-        "nameComplete" => "Republic of Colombia",
-        "demonyms" => [
-            "Colombians"
+    'CO' => [
+        'name' => 'Colombia',
+        'fullName' => 'Republic of Colombia',
+        'demonyms' => [
+            'Colombians'
         ],
-        "keywords" => [
-            "colombian"
+        'keywords' => [
+            'colombian'
         ]
     ],
-    "CR" => [
-        "name" => "Costa Rica",
-        "nameComplete" => "Republic of Costa Rica",
-        "demonyms" => [
-            "Costa Ricans"
+    'CR' => [
+        'name' => 'Costa Rica',
+        'fullName' => 'Republic of Costa Rica',
+        'demonyms' => [
+            'Costa Ricans'
         ],
-        "keywords" => [
-            "rican"
+        'keywords' => [
+            'rican'
         ]
     ],
-    "CU" => [
-        "name" => "Cuba",
-        "nameComplete" => "Republic of Cuba",
-        "demonyms" => [
-            "Cubans"
+    'CU' => [
+        'name' => 'Cuba',
+        'fullName' => 'Republic of Cuba',
+        'demonyms' => [
+            'Cubans'
         ],
-        "keywords" => [
-            "cuban"
+        'keywords' => [
+            'cuban'
         ]
     ],
-    "CV" => [
-        "name" => "Cabo Verde",
-        "nameComplete" => "Republic of Cabo Verde",
-        "demonyms" => [
-            "Cape Verdeans"
+    'CV' => [
+        'name' => 'Cabo Verde',
+        'fullName' => 'Republic of Cabo Verde',
+        'demonyms' => [
+            'Cape Verdeans'
         ],
-        "keywords" => [
-            "verdean"
+        'keywords' => [
+            'verdean'
         ]
     ],
-    "CW" => [
-        "name" => "Curaçao",
-        "nameComplete" => "Country of Curaçao",
-        "demonyms" => [
-            "Curaçaoans"
+    'CW' => [
+        'name' => 'Curaçao',
+        'fullName' => 'Country of Curaçao',
+        'demonyms' => [
+            'Curaçaoans'
         ],
-        "keywords" => [
-            "abc",
-            "islands",
-            "curacaoan"
+        'keywords' => [
+            'abc',
+            'islands',
+            'curacaoan'
         ]
     ],
-    "CX" => [
-        "name" => "Christmas Island",
-        "nameComplete" => "Christmas Island",
-        "demonyms" => [
-            "Christmas Islanders"
+    'CX' => [
+        'name' => 'Christmas Island',
+        'fullName' => 'Christmas Island',
+        'demonyms' => [
+            'Christmas Islanders'
         ],
-        "keywords" => [
-            "kiritimati"
+        'keywords' => [
+            'kiritimati'
         ]
     ],
-    "CY" => [
-        "name" => "Cyprus",
-        "nameComplete" => "Republic of Cyprus",
-        "demonyms" => [
-            "Cypriots"
+    'CY' => [
+        'name' => 'Cyprus',
+        'fullName' => 'Republic of Cyprus',
+        'demonyms' => [
+            'Cypriots'
         ],
-        "keywords" => [
-            "cypriot"
+        'keywords' => [
+            'cypriot'
         ]
     ],
-    "CZ" => [
-        "name" => "Czech Republic",
-        "nameComplete" => "Czech Republic",
-        "demonyms" => [
-            "Czechs"
+    'CZ' => [
+        'name' => 'Czech Republic',
+        'fullName' => 'Czech Republic',
+        'demonyms' => [
+            'Czechs'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "DE" => [
-        "name" => "Germany",
-        "nameComplete" => "Federal Republic of Germany",
-        "demonyms" => [
-            "Germans"
+    'DE' => [
+        'name' => 'Germany',
+        'fullName' => 'Federal Republic of Germany',
+        'demonyms' => [
+            'Germans'
         ],
-        "keywords" => [
-            "german"
+        'keywords' => [
+            'german'
         ]
     ],
-    "DJ" => [
-        "name" => "Djibouti",
-        "nameComplete" => "Republic of Djibouti",
-        "demonyms" => [
-            "Djiboutians"
+    'DJ' => [
+        'name' => 'Djibouti',
+        'fullName' => 'Republic of Djibouti',
+        'demonyms' => [
+            'Djiboutians'
         ],
-        "keywords" => [
-            "djiboutian"
+        'keywords' => [
+            'djiboutian'
         ]
     ],
-    "DK" => [
-        "name" => "Denmark",
-        "nameComplete" => "Kingdom of Denmark",
-        "demonyms" => [
-            "Danes"
+    'DK' => [
+        'name' => 'Denmark',
+        'fullName' => 'Kingdom of Denmark',
+        'demonyms' => [
+            'Danes'
         ],
-        "keywords" => [
-            "danish"
+        'keywords' => [
+            'danish'
         ]
     ],
-    "DM" => [
-        "name" => "Dominica",
-        "nameComplete" => "Commonwealth of Dominica",
-        "demonyms" => [
-            "Dominicans"
+    'DM' => [
+        'name' => 'Dominica',
+        'fullName' => 'Commonwealth of Dominica',
+        'demonyms' => [
+            'Dominicans'
         ],
-        "keywords" => [
-            "dominican"
+        'keywords' => [
+            'dominican'
         ]
     ],
-    "DO" => [
-        "name" => "Dominican Republic",
-        "nameComplete" => "Dominican Republic",
-        "demonyms" => [
-            "Dominicans"
+    'DO' => [
+        'name' => 'Dominican Republic',
+        'fullName' => 'Dominican Republic',
+        'demonyms' => [
+            'Dominicans'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "DZ" => [
-        "name" => "Algeria",
-        "nameComplete" => "People's Democratic Republic of Algeria",
-        "demonyms" => [
-            "Algerians"
+    'DZ' => [
+        'name' => 'Algeria',
+        'fullName' => 'People\'s Democratic Republic of Algeria',
+        'demonyms' => [
+            'Algerians'
         ],
-        "keywords" => [
-            "algerian"
+        'keywords' => [
+            'algerian'
         ]
     ],
-    "EC" => [
-        "name" => "Ecuador",
-        "nameComplete" => "Republic of Ecuador",
-        "demonyms" => [
-            "Ecuadorians"
+    'EC' => [
+        'name' => 'Ecuador',
+        'fullName' => 'Republic of Ecuador',
+        'demonyms' => [
+            'Ecuadorians'
         ],
-        "keywords" => [
-            "ecuadorian"
+        'keywords' => [
+            'ecuadorian'
         ]
     ],
-    "EE" => [
-        "name" => "Estonia",
-        "nameComplete" => "Republic of Estonia",
-        "demonyms" => [
-            "Estonians"
+    'EE' => [
+        'name' => 'Estonia',
+        'fullName' => 'Republic of Estonia',
+        'demonyms' => [
+            'Estonians'
         ],
-        "keywords" => [
-            "estonian"
+        'keywords' => [
+            'estonian'
         ]
     ],
-    "EG" => [
-        "name" => "Egypt",
-        "nameComplete" => "Arab Republic of Egypt",
-        "demonyms" => [
-            "Egyptians"
+    'EG' => [
+        'name' => 'Egypt',
+        'fullName' => 'Arab Republic of Egypt',
+        'demonyms' => [
+            'Egyptians'
         ],
-        "keywords" => [
-            "egyptian"
+        'keywords' => [
+            'egyptian'
         ]
     ],
-    "EH" => [
-        "name" => "Western Sahara",
-        "nameComplete" => "Sahrawi Arab Democratic Republic",
-        "demonyms" => [
-            "Sahrawis",
-            "Western Saharans"
+    'EH' => [
+        'name' => 'Western Sahara',
+        'fullName' => 'Sahrawi Arab Democratic Republic',
+        'demonyms' => [
+            'Sahrawis',
+            'Western Saharans'
         ],
-        "keywords" => [
-            "sahrawi"
+        'keywords' => [
+            'sahrawi'
         ]
     ],
-    "ER" => [
-        "name" => "Eritrea",
-        "nameComplete" => "State of Eritrea",
-        "demonyms" => [
-            "Eritreans"
+    'ER' => [
+        'name' => 'Eritrea',
+        'fullName' => 'State of Eritrea',
+        'demonyms' => [
+            'Eritreans'
         ],
-        "keywords" => [
-            "eritrean"
+        'keywords' => [
+            'eritrean'
         ]
     ],
-    "ES" => [
-        "name" => "Spain",
-        "nameComplete" => "Kingdom of Spain",
-        "demonyms" => [
-            "Spaniards"
+    'ES' => [
+        'name' => 'Spain',
+        'fullName' => 'Kingdom of Spain',
+        'demonyms' => [
+            'Spaniards'
         ],
-        "keywords" => [
-            "iberia",
-            "iberian",
-            "peninsula",
-            "spanish"
+        'keywords' => [
+            'iberia',
+            'iberian',
+            'peninsula',
+            'spanish'
         ]
     ],
-    "ET" => [
-        "name" => "Ethiopia",
-        "nameComplete" => "Federal Democratic Republic of Ethiopia",
-        "demonyms" => [
-            "Ethiopians"
+    'ET' => [
+        'name' => 'Ethiopia',
+        'fullName' => 'Federal Democratic Republic of Ethiopia',
+        'demonyms' => [
+            'Ethiopians'
         ],
-        "keywords" => [
-            "ethiopian"
+        'keywords' => [
+            'ethiopian'
         ]
     ],
-    "FI" => [
-        "name" => "Finland",
-        "nameComplete" => "Republic of Finland",
-        "demonyms" => [
-            "Finns"
+    'FI' => [
+        'name' => 'Finland',
+        'fullName' => 'Republic of Finland',
+        'demonyms' => [
+            'Finns'
         ],
-        "keywords" => [
-            "finnish"
+        'keywords' => [
+            'finnish'
         ]
     ],
-    "FJ" => [
-        "name" => "Fiji",
-        "nameComplete" => "Republic of Fiji",
-        "demonyms" => [
-            "Fijians"
+    'FJ' => [
+        'name' => 'Fiji',
+        'fullName' => 'Republic of Fiji',
+        'demonyms' => [
+            'Fijians'
         ],
-        "keywords" => [
-            "fijian"
+        'keywords' => [
+            'fijian'
         ]
     ],
-    "FK" => [
-        "name" => "Falkland Islands",
-        "nameComplete" => "Falkland Islands",
-        "demonyms" => [
-            "Falkland Islanders"
+    'FK' => [
+        'name' => 'Falkland Islands',
+        'fullName' => 'Falkland Islands',
+        'demonyms' => [
+            'Falkland Islanders'
         ],
-        "keywords" => [
-            "falklandian",
-            "falklandic",
-            "falklander",
-            "falklandish"
+        'keywords' => [
+            'falklandian',
+            'falklandic',
+            'falklander',
+            'falklandish'
         ]
     ],
-    "FM" => [
-        "name" => "Micronesia (Federated States of)",
-        "nameComplete" => "Federated States of Micronesia",
-        "demonyms" => [
-            "Micronesians"
+    'FM' => [
+        'name' => 'Micronesia (Federated States of)',
+        'fullName' => 'Federated States of Micronesia',
+        'demonyms' => [
+            'Micronesians'
         ],
-        "keywords" => [
-            "com",
-            "micronesian"
+        'keywords' => [
+            'com',
+            'micronesian'
         ]
     ],
-    "FO" => [
-        "name" => "Faroe Islands",
-        "nameComplete" => "Fær Øer",
-        "demonyms" => [
-            "Faroese"
+    'FO' => [
+        'name' => 'Faroe Islands',
+        'fullName' => 'Fær Øer',
+        'demonyms' => [
+            'Faroese'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "FR" => [
-        "name" => "France",
-        "nameComplete" => "French Republic",
-        "demonyms" => [
-            "French"
+    'FR' => [
+        'name' => 'France',
+        'fullName' => 'French Republic',
+        'demonyms' => [
+            'French'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "GA" => [
-        "name" => "Gabon",
-        "nameComplete" => "Gabonese Republic",
-        "demonyms" => [
-            "Gabonese"
+    'GA' => [
+        'name' => 'Gabon',
+        'fullName' => 'Gabonese Republic',
+        'demonyms' => [
+            'Gabonese'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "GB" => [
-        "name" => "United Kingdom",
-        "nameComplete" => "United Kingdom of Great Britain and Northern Ireland",
-        "demonyms" => [
-            "British",
-            "English",
-            "Scottish",
-            "Welsh",
-            "Irish",
-            "Northern Irish"
+    'GB' => [
+        'name' => 'United Kingdom',
+        'fullName' => 'United Kingdom of Great Britain and Northern Ireland',
+        'demonyms' => [
+            'British',
+            'English',
+            'Scottish',
+            'Welsh',
+            'Irish',
+            'Northern Irish'
         ],
-        "keywords" => [
-            "uk",
-            "ukgb",
-            "gbeng",
-            "gbnir",
-            "gbsct",
-            "gbwls",
-            "gbcym",
-            "gbeaw",
-            "gbgbn",
-            "gbukm",
-            "isles",
-            "caledonia",
-            "england",
-            "britannia",
-            "albion",
-            "scotland",
-            "wales",
-            "ireland",
-            "alba",
-            "cymru",
-            "ulster",
-            "britons"
+        'keywords' => [
+            'uk',
+            'ukgb',
+            'gbeng',
+            'gbnir',
+            'gbsct',
+            'gbwls',
+            'gbcym',
+            'gbeaw',
+            'gbgbn',
+            'gbukm',
+            'isles',
+            'caledonia',
+            'england',
+            'britannia',
+            'albion',
+            'scotland',
+            'wales',
+            'ireland',
+            'alba',
+            'cymru',
+            'ulster',
+            'britons'
         ]
     ],
-    "GD" => [
-        "name" => "Grenada",
-        "nameComplete" => "Grenada",
-        "demonyms" => [
-            "Grenadians"
+    'GD' => [
+        'name' => 'Grenada',
+        'fullName' => 'Grenada',
+        'demonyms' => [
+            'Grenadians'
         ],
-        "keywords" => [
-            "grenadian"
+        'keywords' => [
+            'grenadian'
         ]
     ],
-    "GE" => [
-        "name" => "Georgia",
-        "nameComplete" => "Republic of Georgia",
-        "demonyms" => [
-            "Georgians"
+    'GE' => [
+        'name' => 'Georgia',
+        'fullName' => 'Republic of Georgia',
+        'demonyms' => [
+            'Georgians'
         ],
-        "keywords" => [
-            "georgian"
+        'keywords' => [
+            'georgian'
         ]
     ],
-    "GF" => [
-        "name" => "French Guiana",
-        "nameComplete" => "Department of French Guiana",
-        "demonyms" => [
-            "French Guianese"
+    'GF' => [
+        'name' => 'French Guiana',
+        'fullName' => 'Department of French Guiana',
+        'demonyms' => [
+            'French Guianese'
         ],
-        "keywords" => [
-            "guyana",
-            "dom"
+        'keywords' => [
+            'guyana',
+            'dom'
         ]
     ],
-    "GG" => [
-        "name" => "Guernsey",
-        "nameComplete" => "Bailiwick of Guernsey",
-        "demonyms" => [
-            "Channel Islanders",
-            "Guernsey Islanders"
+    'GG' => [
+        'name' => 'Guernsey',
+        'fullName' => 'Bailiwick of Guernsey',
+        'demonyms' => [
+            'Channel Islanders',
+            'Guernsey Islanders'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "GH" => [
-        "name" => "Ghana",
-        "nameComplete" => "Republic of Ghana",
-        "demonyms" => [
-            "Ghanaians"
+    'GH' => [
+        'name' => 'Ghana',
+        'fullName' => 'Republic of Ghana',
+        'demonyms' => [
+            'Ghanaians'
         ],
-        "keywords" => [
-            "ghanaian"
+        'keywords' => [
+            'ghanaian'
         ]
     ],
-    "GI" => [
-        "name" => "Gibraltar",
-        "nameComplete" => "Gibraltar",
-        "demonyms" => [
-            "Gibraltarians"
+    'GI' => [
+        'name' => 'Gibraltar',
+        'fullName' => 'Gibraltar',
+        'demonyms' => [
+            'Gibraltarians'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "GL" => [
-        "name" => "Greenland",
-        "nameComplete" => "Greenland",
-        "demonyms" => [
-            "Greenlanders"
+    'GL' => [
+        'name' => 'Greenland',
+        'fullName' => 'Greenland',
+        'demonyms' => [
+            'Greenlanders'
         ],
-        "keywords" => [
-            "inuit",
-            "greenlandic"
+        'keywords' => [
+            'inuit',
+            'greenlandic'
         ]
     ],
-    "GM" => [
-        "name" => "Gambia",
-        "nameComplete" => "Republic of The Gambia",
-        "demonyms" => [
-            "Gambians"
+    'GM' => [
+        'name' => 'Gambia',
+        'fullName' => 'Republic of The Gambia',
+        'demonyms' => [
+            'Gambians'
         ],
-        "keywords" => [
-            "gambian"
+        'keywords' => [
+            'gambian'
         ]
     ],
-    "GN" => [
-        "name" => "Guinea",
-        "nameComplete" => "Republic of Guinea",
-        "demonyms" => [
-            "Guineans"
+    'GN' => [
+        'name' => 'Guinea',
+        'fullName' => 'Republic of Guinea',
+        'demonyms' => [
+            'Guineans'
         ],
-        "keywords" => [
-            "conakry",
-            "guinean"
+        'keywords' => [
+            'conakry',
+            'guinean'
         ]
     ],
-    "GP" => [
-        "name" => "Guadeloupe",
-        "nameComplete" => "Department of Guadeloupe",
-        "demonyms" => [
-            "Guadeloupeans"
+    'GP' => [
+        'name' => 'Guadeloupe',
+        'fullName' => 'Department of Guadeloupe',
+        'demonyms' => [
+            'Guadeloupeans'
         ],
-        "keywords" => [
-            "dom"
+        'keywords' => [
+            'dom'
         ]
     ],
-    "GQ" => [
-        "name" => "Equatorial Guinea",
-        "nameComplete" => "Republic of Equatorial Guinea",
-        "demonyms" => [
-            "Equatorial Guineans"
+    'GQ' => [
+        'name' => 'Equatorial Guinea',
+        'fullName' => 'Republic of Equatorial Guinea',
+        'demonyms' => [
+            'Equatorial Guineans'
         ],
-        "keywords" => [
-            "guinean"
+        'keywords' => [
+            'guinean'
         ]
     ],
-    "GR" => [
-        "name" => "Greece",
-        "nameComplete" => "Hellenic Republic",
-        "demonyms" => [
-            "Greeks"
+    'GR' => [
+        'name' => 'Greece',
+        'fullName' => 'Hellenic Republic',
+        'demonyms' => [
+            'Greeks'
         ],
-        "keywords" => [
-            "hellenic",
-            "republic",
-            "greek",
-            "el"
+        'keywords' => [
+            'hellenic',
+            'republic',
+            'greek',
+            'el'
         ]
     ],
-    "GS" => [
-        "name" => "South Georgia and the South Sandwich Islands",
-        "nameComplete" => "South Georgia and the South Sandwich Islands",
-        "demonyms" => [
-            "South Georgians",
-            "South Sandwich Islanders"
+    'GS' => [
+        'name' => 'South Georgia and the South Sandwich Islands',
+        'fullName' => 'South Georgia and the South Sandwich Islands',
+        'demonyms' => [
+            'South Georgians',
+            'South Sandwich Islanders'
         ],
-        "keywords" => [
-            "georgian"
+        'keywords' => [
+            'georgian'
         ]
     ],
-    "GT" => [
-        "name" => "Guatemala",
-        "nameComplete" => "Republic of Guatemala",
-        "demonyms" => [
-            "Guatemalans"
+    'GT' => [
+        'name' => 'Guatemala',
+        'fullName' => 'Republic of Guatemala',
+        'demonyms' => [
+            'Guatemalans'
         ],
-        "keywords" => [
-            "guatemalan"
+        'keywords' => [
+            'guatemalan'
         ]
     ],
-    "GU" => [
-        "name" => "Guam",
-        "nameComplete" => "Guam",
-        "demonyms" => [
-            "Guamanians"
+    'GU' => [
+        'name' => 'Guam',
+        'fullName' => 'Guam',
+        'demonyms' => [
+            'Guamanians'
         ],
-        "keywords" => [
-            "guamanian"
+        'keywords' => [
+            'guamanian'
         ]
     ],
-    "GW" => [
-        "name" => "Guinea-Bissau",
-        "nameComplete" => "Republic of Guinea-Bissau",
-        "demonyms" => [
-            "Bissau-Guineans"
+    'GW' => [
+        'name' => 'Guinea-Bissau',
+        'fullName' => 'Republic of Guinea-Bissau',
+        'demonyms' => [
+            'Bissau-Guineans'
         ],
-        "keywords" => [
-            "portuguese",
-            "guinea",
-            "guineabissauan",
-            "guineabissauans"
+        'keywords' => [
+            'portuguese',
+            'guinea',
+            'guineabissauan',
+            'guineabissauans'
         ]
     ],
-    "GY" => [
-        "name" => "Guyana",
-        "nameComplete" => "Co-operative Republic of Guyana",
-        "demonyms" => [
-            "Guyanese"
+    'GY' => [
+        'name' => 'Guyana',
+        'fullName' => 'Co-operative Republic of Guyana',
+        'demonyms' => [
+            'Guyanese'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "HK" => [
-        "name" => "Hong Kong",
-        "nameComplete" => "Hong Kong Special Administrative Region of the People's Republic of China",
-        "demonyms" => [
-            "Hong Kongers",
-            "Hongkongers"
+    'HK' => [
+        'name' => 'Hong Kong',
+        'fullName' => 'Hong Kong Special Administrative Region of the People\'s Republic of China',
+        'demonyms' => [
+            'Hong Kongers',
+            'Hongkongers'
         ],
-        "keywords" => [
-            "kongese",
-            "hongkongish"
+        'keywords' => [
+            'kongese',
+            'hongkongish'
         ]
     ],
-    "HM" => [
-        "name" => "Heard Island and McDonald Islands",
-        "nameComplete" => "Territory of Heard Island and McDonald Islands",
-        "demonyms" => [],
-        "keywords" => [
-            "heardian",
-            "heardians"
+    'HM' => [
+        'name' => 'Heard Island and McDonald Islands',
+        'fullName' => 'Territory of Heard Island and McDonald Islands',
+        'demonyms' => [],
+        'keywords' => [
+            'heardian',
+            'heardians'
         ]
     ],
-    "HN" => [
-        "name" => "Honduras",
-        "nameComplete" => "Republic of Honduras",
-        "demonyms" => [
-            "Hondurans"
+    'HN' => [
+        'name' => 'Honduras',
+        'fullName' => 'Republic of Honduras',
+        'demonyms' => [
+            'Hondurans'
         ],
-        "keywords" => [
-            "honduran"
+        'keywords' => [
+            'honduran'
         ]
     ],
-    "HR" => [
-        "name" => "Croatia",
-        "nameComplete" => "Republic of Croatia",
-        "demonyms" => [
-            "Croatians"
+    'HR' => [
+        'name' => 'Croatia',
+        'fullName' => 'Republic of Croatia',
+        'demonyms' => [
+            'Croatians'
         ],
-        "keywords" => [
-            "croatian"
+        'keywords' => [
+            'croatian'
         ]
     ],
-    "HT" => [
-        "name" => "Haiti",
-        "nameComplete" => "Republic of Haiti",
-        "demonyms" => [
-            "Haitians"
+    'HT' => [
+        'name' => 'Haiti',
+        'fullName' => 'Republic of Haiti',
+        'demonyms' => [
+            'Haitians'
         ],
-        "keywords" => [
-            "haitian"
+        'keywords' => [
+            'haitian'
         ]
     ],
-    "HU" => [
-        "name" => "Hungary",
-        "nameComplete" => "Hungary",
-        "demonyms" => [
-            "Hungarians"
+    'HU' => [
+        'name' => 'Hungary',
+        'fullName' => 'Hungary',
+        'demonyms' => [
+            'Hungarians'
         ],
-        "keywords" => [
-            "hungarian"
+        'keywords' => [
+            'hungarian'
         ]
     ],
-    "ID" => [
-        "name" => "Indonesia",
-        "nameComplete" => "Republic of Indonesia",
-        "demonyms" => [
-            "Indonesians"
+    'ID' => [
+        'name' => 'Indonesia',
+        'fullName' => 'Republic of Indonesia',
+        'demonyms' => [
+            'Indonesians'
         ],
-        "keywords" => [
-            "portuguese",
-            "timor",
-            "indonesian"
+        'keywords' => [
+            'portuguese',
+            'timor',
+            'indonesian'
         ]
     ],
-    "IE" => [
-        "name" => "Ireland",
-        "nameComplete" => "Republic of Ireland",
-        "demonyms" => [
-            "Irish"
+    'IE' => [
+        'name' => 'Ireland',
+        'fullName' => 'Republic of Ireland',
+        'demonyms' => [
+            'Irish'
         ],
-        "keywords" => [
-            "eire"
+        'keywords' => [
+            'eire'
         ]
     ],
-    "IL" => [
-        "name" => "Israel",
-        "nameComplete" => "State of Israel",
-        "demonyms" => [
-            "Israelis"
+    'IL' => [
+        'name' => 'Israel',
+        'fullName' => 'State of Israel',
+        'demonyms' => [
+            'Israelis'
         ],
-        "keywords" => [
-            "israeli"
+        'keywords' => [
+            'israeli'
         ]
     ],
-    "IM" => [
-        "name" => "Isle of Man",
-        "nameComplete" => "British islands Isle of Man",
-        "demonyms" => [
-            "Manx"
+    'IM' => [
+        'name' => 'Isle of Man',
+        'fullName' => 'British islands Isle of Man',
+        'demonyms' => [
+            'Manx'
         ],
-        "keywords" => [
-            "mann"
+        'keywords' => [
+            'mann'
         ]
     ],
-    "IN" => [
-        "name" => "India",
-        "nameComplete" => "Republic of India",
-        "demonyms" => [
-            "Indians"
+    'IN' => [
+        'name' => 'India',
+        'fullName' => 'Republic of India',
+        'demonyms' => [
+            'Indians'
         ],
-        "keywords" => [
-            "indian"
+        'keywords' => [
+            'indian'
         ]
     ],
-    "IO" => [
-        "name" => "British Indian Ocean Territory",
-        "nameComplete" => "British Indian Ocean Territory",
-        "demonyms" => [
-            "British Indians"
+    'IO' => [
+        'name' => 'British Indian Ocean Territory',
+        'fullName' => 'British Indian Ocean Territory',
+        'demonyms' => [
+            'British Indians'
         ],
-        "keywords" => [
-            "chagos",
-            "biot",
-            "oceanic"
+        'keywords' => [
+            'chagos',
+            'biot',
+            'oceanic'
         ]
     ],
-    "IQ" => [
-        "name" => "Iraq",
-        "nameComplete" => "Republic of Iraq",
-        "demonyms" => [
-            "Iraqis"
+    'IQ' => [
+        'name' => 'Iraq',
+        'fullName' => 'Republic of Iraq',
+        'demonyms' => [
+            'Iraqis'
         ],
-        "keywords" => [
-            "mesopotamia",
-            "iraqi"
+        'keywords' => [
+            'mesopotamia',
+            'iraqi'
         ]
     ],
-    "IR" => [
-        "name" => "Iran",
-        "nameComplete" => "Islamic Republic of Iran",
-        "demonyms" => [
-            "Iranians"
+    'IR' => [
+        'name' => 'Iran',
+        'fullName' => 'Islamic Republic of Iran',
+        'demonyms' => [
+            'Iranians'
         ],
-        "keywords" => [
-            "persia",
-            "persian",
-            "persians",
-            "iranian"
+        'keywords' => [
+            'persia',
+            'persian',
+            'persians',
+            'iranian'
         ]
     ],
-    "IS" => [
-        "name" => "Iceland",
-        "nameComplete" => "Republic of Iceland",
-        "demonyms" => [
-            "Icelanders"
+    'IS' => [
+        'name' => 'Iceland',
+        'fullName' => 'Republic of Iceland',
+        'demonyms' => [
+            'Icelanders'
         ],
-        "keywords" => [
-            "icelandic"
+        'keywords' => [
+            'icelandic'
         ]
     ],
-    "IT" => [
-        "name" => "Italy",
-        "nameComplete" => "Italian Republic",
-        "demonyms" => [
-            "Italians"
+    'IT' => [
+        'name' => 'Italy',
+        'fullName' => 'Italian Republic',
+        'demonyms' => [
+            'Italians'
         ],
-        "keywords" => [
-            "italian"
+        'keywords' => [
+            'italian'
         ]
     ],
-    "JE" => [
-        "name" => "Jersey",
-        "nameComplete" => "Bailiwick of Jersey",
-        "demonyms" => [
-            "Channel Islanders",
-            "Jersey Islanders"
+    'JE' => [
+        'name' => 'Jersey',
+        'fullName' => 'Bailiwick of Jersey',
+        'demonyms' => [
+            'Channel Islanders',
+            'Jersey Islanders'
         ],
-        "keywords" => [
-            "norman",
-            "islands"
+        'keywords' => [
+            'norman',
+            'islands'
         ]
     ],
-    "JM" => [
-        "name" => "Jamaica",
-        "nameComplete" => "Jamaica",
-        "demonyms" => [
-            "Jamaicans"
+    'JM' => [
+        'name' => 'Jamaica',
+        'fullName' => 'Jamaica',
+        'demonyms' => [
+            'Jamaicans'
         ],
-        "keywords" => [
-            "jamaican"
+        'keywords' => [
+            'jamaican'
         ]
     ],
-    "JO" => [
-        "name" => "Jordan",
-        "nameComplete" => "Hashemite Kingdom of Jordan",
-        "demonyms" => [
-            "Jordanians"
+    'JO' => [
+        'name' => 'Jordan',
+        'fullName' => 'Hashemite Kingdom of Jordan',
+        'demonyms' => [
+            'Jordanians'
         ],
-        "keywords" => [
-            "jordanian"
+        'keywords' => [
+            'jordanian'
         ]
     ],
-    "JP" => [
-        "name" => "Japan",
-        "nameComplete" => "Japan",
-        "demonyms" => [
-            "Japanese"
+    'JP' => [
+        'name' => 'Japan',
+        'fullName' => 'Japan',
+        'demonyms' => [
+            'Japanese'
         ],
-        "keywords" => [
-            "nippon"
+        'keywords' => [
+            'nippon'
         ]
     ],
-    "KE" => [
-        "name" => "Kenya",
-        "nameComplete" => "Republic of Kenya",
-        "demonyms" => [
-            "Kenyans"
+    'KE' => [
+        'name' => 'Kenya',
+        'fullName' => 'Republic of Kenya',
+        'demonyms' => [
+            'Kenyans'
         ],
-        "keywords" => [
-            "kenyan"
+        'keywords' => [
+            'kenyan'
         ]
     ],
-    "KG" => [
-        "name" => "Kyrgyzstan",
-        "nameComplete" => "Kyrgyz Republic",
-        "demonyms" => [
-            "Kyrgyz"
+    'KG' => [
+        'name' => 'Kyrgyzstan',
+        'fullName' => 'Kyrgyz Republic',
+        'demonyms' => [
+            'Kyrgyz'
         ],
-        "keywords" => [
-            "kyrgyzstani",
-            "kyrgyzstanis"
+        'keywords' => [
+            'kyrgyzstani',
+            'kyrgyzstanis'
         ]
     ],
-    "KH" => [
-        "name" => "Cambodia",
-        "nameComplete" => "Kingdom of Cambodia",
-        "demonyms" => [
-            "Cambodians"
+    'KH' => [
+        'name' => 'Cambodia',
+        'fullName' => 'Kingdom of Cambodia',
+        'demonyms' => [
+            'Cambodians'
         ],
-        "keywords" => [
-            "cambodian"
+        'keywords' => [
+            'cambodian'
         ]
     ],
-    "KI" => [
-        "name" => "Kiribati",
-        "nameComplete" => "Republic of Kiribati",
-        "demonyms" => [
-            "I-Kiribati"
+    'KI' => [
+        'name' => 'Kiribati',
+        'fullName' => 'Republic of Kiribati',
+        'demonyms' => [
+            'I-Kiribati'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "KM" => [
-        "name" => "Comoros",
-        "nameComplete" => "Union of the Comoros",
-        "demonyms" => [
-            "Comorians"
+    'KM' => [
+        'name' => 'Comoros',
+        'fullName' => 'Union of the Comoros',
+        'demonyms' => [
+            'Comorians'
         ],
-        "keywords" => [
-            "comoran"
+        'keywords' => [
+            'comoran'
         ]
     ],
-    "KN" => [
-        "name" => "Saint Kitts and Nevis",
-        "nameComplete" => "Federation of Saint Kitts and Nevis",
-        "demonyms" => [
-            "Kittitians",
-            "Nevisians"
+    'KN' => [
+        'name' => 'Saint Kitts and Nevis',
+        'fullName' => 'Federation of Saint Kitts and Nevis',
+        'demonyms' => [
+            'Kittitians',
+            'Nevisians'
         ],
-        "keywords" => [
-            "kittitian",
-            "nevisian"
+        'keywords' => [
+            'kittitian',
+            'nevisian'
         ]
     ],
-    "KP" => [
-        "name" => "Korea (Democratic People's Republic of)",
-        "nameComplete" => "Democratic People's Republic of Korea",
-        "demonyms" => [
-            "North Koreans"
+    'KP' => [
+        'name' => 'Korea (Democratic People\'s Republic of)',
+        'fullName' => 'Democratic People\'s Republic of Korea',
+        'demonyms' => [
+            'North Koreans'
         ],
-        "keywords" => [
-            "korean"
+        'keywords' => [
+            'korean'
         ]
     ],
-    "KR" => [
-        "name" => "Korea (Republic of)",
-        "nameComplete" => "Republic of Korea",
-        "demonyms" => [
-            "South Koreans"
+    'KR' => [
+        'name' => 'Korea (Republic of)',
+        'fullName' => 'Republic of Korea',
+        'demonyms' => [
+            'South Koreans'
         ],
-        "keywords" => [
-            "korean"
+        'keywords' => [
+            'korean'
         ]
     ],
-    "KW" => [
-        "name" => "Kuwait",
-        "nameComplete" => "State of Kuwait",
-        "demonyms" => [
-            "Kuwaitis"
+    'KW' => [
+        'name' => 'Kuwait',
+        'fullName' => 'State of Kuwait',
+        'demonyms' => [
+            'Kuwaitis'
         ],
-        "keywords" => [
-            "kuwaiti"
+        'keywords' => [
+            'kuwaiti'
         ]
     ],
-    "KY" => [
-        "name" => "Cayman Islands",
-        "nameComplete" => "Cayman Islands",
-        "demonyms" => [
-            "Caymanians"
+    'KY' => [
+        'name' => 'Cayman Islands',
+        'fullName' => 'Cayman Islands',
+        'demonyms' => [
+            'Caymanians'
         ],
-        "keywords" => [
-            "caymanian"
+        'keywords' => [
+            'caymanian'
         ]
     ],
-    "KZ" => [
-        "name" => "Kazakhstan",
-        "nameComplete" => "Republic of Kazakhstan",
-        "demonyms" => [
-            "Kazakhs"
+    'KZ' => [
+        'name' => 'Kazakhstan',
+        'fullName' => 'Republic of Kazakhstan',
+        'demonyms' => [
+            'Kazakhs'
         ],
-        "keywords" => [
-            "kazakhstani"
+        'keywords' => [
+            'kazakhstani'
         ]
     ],
-    "LA" => [
-        "name" => "Lao People's Democratic Republic",
-        "nameComplete" => "Lao People's Democratic Republic",
-        "demonyms" => [
-            "Laotians"
+    'LA' => [
+        'name' => 'Lao People\'s Democratic Republic',
+        'fullName' => 'Lao People\'s Democratic Republic',
+        'demonyms' => [
+            'Laotians'
         ],
-        "keywords" => [
-            "laotian"
+        'keywords' => [
+            'laotian'
         ]
     ],
-    "LB" => [
-        "name" => "Lebanon",
-        "nameComplete" => "Lebanese Republic",
-        "demonyms" => [
-            "Lebanese"
+    'LB' => [
+        'name' => 'Lebanon',
+        'fullName' => 'Lebanese Republic',
+        'demonyms' => [
+            'Lebanese'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "LC" => [
-        "name" => "Saint Lucia",
-        "nameComplete" => "Saint Lucia",
-        "demonyms" => [
-            "Saint Lucians"
+    'LC' => [
+        'name' => 'Saint Lucia',
+        'fullName' => 'Saint Lucia',
+        'demonyms' => [
+            'Saint Lucians'
         ],
-        "keywords" => [
-            "lucian"
+        'keywords' => [
+            'lucian'
         ]
     ],
-    "LI" => [
-        "name" => "Liechtenstein",
-        "nameComplete" => "Principality of Liechtenstein",
-        "demonyms" => [
-            "Liechtensteiners"
+    'LI' => [
+        'name' => 'Liechtenstein',
+        'fullName' => 'Principality of Liechtenstein',
+        'demonyms' => [
+            'Liechtensteiners'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "LK" => [
-        "name" => "Sri Lanka",
-        "nameComplete" => "Democratic Socialist Republic of Sri Lanka",
-        "demonyms" => [
-            "Sri Lankans"
+    'LK' => [
+        'name' => 'Sri Lanka',
+        'fullName' => 'Democratic Socialist Republic of Sri Lanka',
+        'demonyms' => [
+            'Sri Lankans'
         ],
-        "keywords" => [
-            "ceylon",
-            "lankan"
+        'keywords' => [
+            'ceylon',
+            'lankan'
         ]
     ],
-    "LR" => [
-        "name" => "Liberia",
-        "nameComplete" => "Republic of Liberia",
-        "demonyms" => [
-            "Liberians"
+    'LR' => [
+        'name' => 'Liberia',
+        'fullName' => 'Republic of Liberia',
+        'demonyms' => [
+            'Liberians'
         ],
-        "keywords" => [
-            "liberian"
+        'keywords' => [
+            'liberian'
         ]
     ],
-    "LS" => [
-        "name" => "Lesotho",
-        "nameComplete" => "Kingdom of Lesotho",
-        "demonyms" => [
-            "Basotho"
+    'LS' => [
+        'name' => 'Lesotho',
+        'fullName' => 'Kingdom of Lesotho',
+        'demonyms' => [
+            'Basotho'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "LT" => [
-        "name" => "Lithuania",
-        "nameComplete" => "Republic of Lithuania",
-        "demonyms" => [
-            "Lithuanians"
+    'LT' => [
+        'name' => 'Lithuania',
+        'fullName' => 'Republic of Lithuania',
+        'demonyms' => [
+            'Lithuanians'
         ],
-        "keywords" => [
-            "lithuanian"
+        'keywords' => [
+            'lithuanian'
         ]
     ],
-    "LU" => [
-        "name" => "Luxembourg",
-        "nameComplete" => "Grand Duchy of Luxembourg",
-        "demonyms" => [
-            "Luxembourgers"
+    'LU' => [
+        'name' => 'Luxembourg',
+        'fullName' => 'Grand Duchy of Luxembourg',
+        'demonyms' => [
+            'Luxembourgers'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "LV" => [
-        "name" => "Latvia",
-        "nameComplete" => "Republic of Latvia",
-        "demonyms" => [
-            "Latvians"
+    'LV' => [
+        'name' => 'Latvia',
+        'fullName' => 'Republic of Latvia',
+        'demonyms' => [
+            'Latvians'
         ],
-        "keywords" => [
-            "latvian"
+        'keywords' => [
+            'latvian'
         ]
     ],
-    "LY" => [
-        "name" => "Libya",
-        "nameComplete" => "State of Libya",
-        "demonyms" => [
-            "Libyans"
+    'LY' => [
+        'name' => 'Libya',
+        'fullName' => 'State of Libya',
+        'demonyms' => [
+            'Libyans'
         ],
-        "keywords" => [
-            "libyan"
+        'keywords' => [
+            'libyan'
         ]
     ],
-    "MA" => [
-        "name" => "Morocco",
-        "nameComplete" => "Kingdom of Morocco",
-        "demonyms" => [
-            "Moroccans"
+    'MA' => [
+        'name' => 'Morocco',
+        'fullName' => 'Kingdom of Morocco',
+        'demonyms' => [
+            'Moroccans'
         ],
-        "keywords" => [
-            "moroccan"
+        'keywords' => [
+            'moroccan'
         ]
     ],
-    "MC" => [
-        "name" => "Monaco",
-        "nameComplete" => "Principality of Monaco",
-        "demonyms" => [
-            "Monégasque"
+    'MC' => [
+        'name' => 'Monaco',
+        'fullName' => 'Principality of Monaco',
+        'demonyms' => [
+            'Monégasque'
         ],
-        "keywords" => [
-            "monegasques"
+        'keywords' => [
+            'monegasques'
         ]
     ],
-    "MD" => [
-        "name" => "Moldova",
-        "nameComplete" => "Republic of Moldova",
-        "demonyms" => [
-            "Moldovans"
+    'MD' => [
+        'name' => 'Moldova',
+        'fullName' => 'Republic of Moldova',
+        'demonyms' => [
+            'Moldovans'
         ],
-        "keywords" => [
-            "moldovan"
+        'keywords' => [
+            'moldovan'
         ]
     ],
-    "ME" => [
-        "name" => "Montenegro",
-        "nameComplete" => "Montenegro",
-        "demonyms" => [
-            "Montenegrins"
+    'ME' => [
+        'name' => 'Montenegro',
+        'fullName' => 'Montenegro',
+        'demonyms' => [
+            'Montenegrins'
         ],
-        "keywords" => [
-            "montenegrin"
+        'keywords' => [
+            'montenegrin'
         ]
     ],
-    "MF" => [
-        "name" => "Saint Martin (French part)",
-        "nameComplete" => "Overseas Collectivity of Saint Martin",
-        "demonyms" => [
-            "Saint-Martinois"
+    'MF' => [
+        'name' => 'Saint Martin (French part)',
+        'fullName' => 'Overseas Collectivity of Saint Martin',
+        'demonyms' => [
+            'Saint-Martinois'
         ],
-        "keywords" => [
-            "com",
-            "saintmartinoise"
+        'keywords' => [
+            'com',
+            'saintmartinoise'
         ]
     ],
-    "MG" => [
-        "name" => "Madagascar",
-        "nameComplete" => "Republic of Madagascar",
-        "demonyms" => [
-            "Malagasy"
+    'MG' => [
+        'name' => 'Madagascar',
+        'fullName' => 'Republic of Madagascar',
+        'demonyms' => [
+            'Malagasy'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "MH" => [
-        "name" => "Marshall Islands",
-        "nameComplete" => "Republic of the Marshall Islands",
-        "demonyms" => [
-            "Marshallese"
+    'MH' => [
+        'name' => 'Marshall Islands',
+        'fullName' => 'Republic of the Marshall Islands',
+        'demonyms' => [
+            'Marshallese'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "MK" => [
-        "name" => "North Macedonia",
-        "nameComplete" => "Republic of North Macedonia",
-        "demonyms" => [
-            "Macedonians"
+    'MK' => [
+        'name' => 'North Macedonia',
+        'fullName' => 'Republic of North Macedonia',
+        'demonyms' => [
+            'Macedonians'
         ],
-        "keywords" => [
-            "macedonian"
+        'keywords' => [
+            'macedonian'
         ]
     ],
-    "ML" => [
-        "name" => "Mali",
-        "nameComplete" => "Republic of Mali",
-        "demonyms" => [
-            "Malians"
+    'ML' => [
+        'name' => 'Mali',
+        'fullName' => 'Republic of Mali',
+        'demonyms' => [
+            'Malians'
         ],
-        "keywords" => [
-            "malian"
+        'keywords' => [
+            'malian'
         ]
     ],
-    "MM" => [
-        "name" => "Myanmar",
-        "nameComplete" => "Republic of the Union of Myanmar",
-        "demonyms" => [
-            "Burmese"
+    'MM' => [
+        'name' => 'Myanmar',
+        'fullName' => 'Republic of the Union of Myanmar',
+        'demonyms' => [
+            'Burmese'
         ],
-        "keywords" => [
-            "burma"
+        'keywords' => [
+            'burma'
         ]
     ],
-    "MN" => [
-        "name" => "Mongolia",
-        "nameComplete" => "Mongolia",
-        "demonyms" => [
-            "Mongolians"
+    'MN' => [
+        'name' => 'Mongolia',
+        'fullName' => 'Mongolia',
+        'demonyms' => [
+            'Mongolians'
         ],
-        "keywords" => [
-            "mongolian"
+        'keywords' => [
+            'mongolian'
         ]
     ],
-    "MO" => [
-        "name" => "Macau",
-        "nameComplete" => "Macau Special Administrative Region of the People's Republic of China",
-        "demonyms" => [
-            "Macanese"
+    'MO' => [
+        'name' => 'Macau',
+        'fullName' => 'Macau Special Administrative Region of the People\'s Republic of China',
+        'demonyms' => [
+            'Macanese'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "MP" => [
-        "name" => "Northern Mariana Islands",
-        "nameComplete" => "Commonwealth of the Northern Mariana Islands",
-        "demonyms" => [
-            "Northern Mariana Islanders"
+    'MP' => [
+        'name' => 'Northern Mariana Islands',
+        'fullName' => 'Commonwealth of the Northern Mariana Islands',
+        'demonyms' => [
+            'Northern Mariana Islanders'
         ],
-        "keywords" => [
-            "marianan"
+        'keywords' => [
+            'marianan'
         ]
     ],
-    "MQ" => [
-        "name" => "Martinique",
-        "nameComplete" => "Territorial Collectivity of Martinique",
-        "demonyms" => [
-            "Martiniquais"
+    'MQ' => [
+        'name' => 'Martinique',
+        'fullName' => 'Territorial Collectivity of Martinique',
+        'demonyms' => [
+            'Martiniquais'
         ],
-        "keywords" => [
-            "dom"
+        'keywords' => [
+            'dom'
         ]
     ],
-    "MR" => [
-        "name" => "Mauritania",
-        "nameComplete" => "Islamic Republic of Mauritania",
-        "demonyms" => [
-            "Mauritanians"
+    'MR' => [
+        'name' => 'Mauritania',
+        'fullName' => 'Islamic Republic of Mauritania',
+        'demonyms' => [
+            'Mauritanians'
         ],
-        "keywords" => [
-            "mauritanian"
+        'keywords' => [
+            'mauritanian'
         ]
     ],
-    "MS" => [
-        "name" => "Montserrat",
-        "nameComplete" => "Colony of Montserrat",
-        "demonyms" => [
-            "Montserratians"
+    'MS' => [
+        'name' => 'Montserrat',
+        'fullName' => 'Colony of Montserrat',
+        'demonyms' => [
+            'Montserratians'
         ],
-        "keywords" => [
-            "montserratian"
+        'keywords' => [
+            'montserratian'
         ]
     ],
-    "MT" => [
-        "name" => "Malta",
-        "nameComplete" => "Republic of Malta",
-        "demonyms" => [
-            "Maltese"
+    'MT' => [
+        'name' => 'Malta',
+        'fullName' => 'Republic of Malta',
+        'demonyms' => [
+            'Maltese'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "MU" => [
-        "name" => "Mauritius",
-        "nameComplete" => "Republic of Mauritius",
-        "demonyms" => [
-            "Mauritians"
+    'MU' => [
+        'name' => 'Mauritius',
+        'fullName' => 'Republic of Mauritius',
+        'demonyms' => [
+            'Mauritians'
         ],
-        "keywords" => [
-            "mauritian"
+        'keywords' => [
+            'mauritian'
         ]
     ],
-    "MV" => [
-        "name" => "Maldives",
-        "nameComplete" => "Republic of Maldives",
-        "demonyms" => [
-            "Maldivians"
+    'MV' => [
+        'name' => 'Maldives',
+        'fullName' => 'Republic of Maldives',
+        'demonyms' => [
+            'Maldivians'
         ],
-        "keywords" => [
-            "maldivian"
+        'keywords' => [
+            'maldivian'
         ]
     ],
-    "MW" => [
-        "name" => "Malawi",
-        "nameComplete" => "Republic of Malawi",
-        "demonyms" => [
-            "Malawians"
+    'MW' => [
+        'name' => 'Malawi',
+        'fullName' => 'Republic of Malawi',
+        'demonyms' => [
+            'Malawians'
         ],
-        "keywords" => [
-            "malawian"
+        'keywords' => [
+            'malawian'
         ]
     ],
-    "MX" => [
-        "name" => "Mexico",
-        "nameComplete" => "United Mexican States",
-        "demonyms" => [
-            "Mexicans"
+    'MX' => [
+        'name' => 'Mexico',
+        'fullName' => 'United Mexican States',
+        'demonyms' => [
+            'Mexicans'
         ],
-        "keywords" => [
-            "mexican"
+        'keywords' => [
+            'mexican'
         ]
     ],
-    "MY" => [
-        "name" => "Malaysia",
-        "nameComplete" => "Malaysia",
-        "demonyms" => [
-            "Malaysians"
+    'MY' => [
+        'name' => 'Malaysia',
+        'fullName' => 'Malaysia',
+        'demonyms' => [
+            'Malaysians'
         ],
-        "keywords" => [
-            "malaysian"
+        'keywords' => [
+            'malaysian'
         ]
     ],
-    "MZ" => [
-        "name" => "Mozambique",
-        "nameComplete" => "Republic of Mozambique",
-        "demonyms" => [
-            "Mozambicans"
+    'MZ' => [
+        'name' => 'Mozambique',
+        'fullName' => 'Republic of Mozambique',
+        'demonyms' => [
+            'Mozambicans'
         ],
-        "keywords" => [
-            "mozambican"
+        'keywords' => [
+            'mozambican'
         ]
     ],
-    "NA" => [
-        "name" => "Namibia",
-        "nameComplete" => "Republic of Namibia",
-        "demonyms" => [
-            "Namibians"
+    'NA' => [
+        'name' => 'Namibia',
+        'fullName' => 'Republic of Namibia',
+        'demonyms' => [
+            'Namibians'
         ],
-        "keywords" => [
-            "namibian"
+        'keywords' => [
+            'namibian'
         ]
     ],
-    "NC" => [
-        "name" => "New Caledonia",
-        "nameComplete" => "Government of New Caledonia",
-        "demonyms" => [
-            "New Caledonians"
+    'NC' => [
+        'name' => 'New Caledonia',
+        'fullName' => 'Government of New Caledonia',
+        'demonyms' => [
+            'New Caledonians'
         ],
-        "keywords" => [
-            "com",
-            "caledonian"
+        'keywords' => [
+            'com',
+            'caledonian'
         ]
     ],
-    "NE" => [
-        "name" => "Niger",
-        "nameComplete" => "Republic of Niger",
-        "demonyms" => [
-            "Nigeriens"
+    'NE' => [
+        'name' => 'Niger',
+        'fullName' => 'Republic of Niger',
+        'demonyms' => [
+            'Nigeriens'
         ],
-        "keywords" => [
-            "nigerien"
+        'keywords' => [
+            'nigerien'
         ]
     ],
-    "NF" => [
-        "name" => "Norfolk Island",
-        "nameComplete" => "Territory of Norfolk Island",
-        "demonyms" => [
-            "Norfolk Islanders"
+    'NF' => [
+        'name' => 'Norfolk Island',
+        'fullName' => 'Territory of Norfolk Island',
+        'demonyms' => [
+            'Norfolk Islanders'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "NG" => [
-        "name" => "Nigeria",
-        "nameComplete" => "Federal Republic of Nigeria",
-        "demonyms" => [
-            "Nigerians"
+    'NG' => [
+        'name' => 'Nigeria',
+        'fullName' => 'Federal Republic of Nigeria',
+        'demonyms' => [
+            'Nigerians'
         ],
-        "keywords" => [
-            "nigerian"
+        'keywords' => [
+            'nigerian'
         ]
     ],
-    "NI" => [
-        "name" => "Nicaragua",
-        "nameComplete" => "Republic of Nicaragua",
-        "demonyms" => [
-            "Nicaraguans"
+    'NI' => [
+        'name' => 'Nicaragua',
+        'fullName' => 'Republic of Nicaragua',
+        'demonyms' => [
+            'Nicaraguans'
         ],
-        "keywords" => [
-            "nicaraguan"
+        'keywords' => [
+            'nicaraguan'
         ]
     ],
-    "NL" => [
-        "name" => "Netherlands",
-        "nameComplete" => "Kingdom of the Netherlands",
-        "demonyms" => [
-            "Dutch"
+    'NL' => [
+        'name' => 'Netherlands',
+        'fullName' => 'Kingdom of the Netherlands',
+        'demonyms' => [
+            'Dutch'
         ],
-        "keywords" => [
-            "holland"
+        'keywords' => [
+            'holland'
         ]
     ],
-    "NO" => [
-        "name" => "Norway",
-        "nameComplete" => "Kingdom of Norway",
-        "demonyms" => [
-            "Norwegians"
+    'NO' => [
+        'name' => 'Norway',
+        'fullName' => 'Kingdom of Norway',
+        'demonyms' => [
+            'Norwegians'
         ],
-        "keywords" => [
-            "norwegian"
+        'keywords' => [
+            'norwegian'
         ]
     ],
-    "NP" => [
-        "name" => "Nepal",
-        "nameComplete" => "Federal Democratic Republic of Nepal",
-        "demonyms" => [
-            "Nepalis"
+    'NP' => [
+        'name' => 'Nepal',
+        'fullName' => 'Federal Democratic Republic of Nepal',
+        'demonyms' => [
+            'Nepalis'
         ],
-        "keywords" => [
-            "nepali"
+        'keywords' => [
+            'nepali'
         ]
     ],
-    "NR" => [
-        "name" => "Nauru",
-        "nameComplete" => "Republic of Nauru",
-        "demonyms" => [
-            "Nauruans"
+    'NR' => [
+        'name' => 'Nauru',
+        'fullName' => 'Republic of Nauru',
+        'demonyms' => [
+            'Nauruans'
         ],
-        "keywords" => [
-            "nauruan"
+        'keywords' => [
+            'nauruan'
         ]
     ],
-    "NU" => [
-        "name" => "Niue",
-        "nameComplete" => "Niue",
-        "demonyms" => [
-            "Niueans"
+    'NU' => [
+        'name' => 'Niue',
+        'fullName' => 'Niue',
+        'demonyms' => [
+            'Niueans'
         ],
-        "keywords" => [
-            "niuean"
+        'keywords' => [
+            'niuean'
         ]
     ],
-    "NZ" => [
-        "name" => "New Zealand",
-        "nameComplete" => "New Zealand",
-        "demonyms" => [
-            "New Zealanders"
+    'NZ' => [
+        'name' => 'New Zealand',
+        'fullName' => 'New Zealand',
+        'demonyms' => [
+            'New Zealanders'
         ],
-        "keywords" => [
-            "zealandish",
-            "zealander",
-            "kiwi"
+        'keywords' => [
+            'zealandish',
+            'zealander',
+            'kiwi'
         ]
     ],
-    "OM" => [
-        "name" => "Oman",
-        "nameComplete" => "Sultanate of Oman",
-        "demonyms" => [
-            "Omanis"
+    'OM' => [
+        'name' => 'Oman',
+        'fullName' => 'Sultanate of Oman',
+        'demonyms' => [
+            'Omanis'
         ],
-        "keywords" => [
-            "omani"
+        'keywords' => [
+            'omani'
         ]
     ],
-    "PA" => [
-        "name" => "Panama",
-        "nameComplete" => "Republic of Panama",
-        "demonyms" => [
-            "Panamanians"
+    'PA' => [
+        'name' => 'Panama',
+        'fullName' => 'Republic of Panama',
+        'demonyms' => [
+            'Panamanians'
         ],
-        "keywords" => [
-            "panamanian"
+        'keywords' => [
+            'panamanian'
         ]
     ],
-    "PE" => [
-        "name" => "Peru",
-        "nameComplete" => "Republic of Peru",
-        "demonyms" => [
-            "Peruvians"
+    'PE' => [
+        'name' => 'Peru',
+        'fullName' => 'Republic of Peru',
+        'demonyms' => [
+            'Peruvians'
         ],
-        "keywords" => [
-            "peruvian"
+        'keywords' => [
+            'peruvian'
         ]
     ],
-    "PF" => [
-        "name" => "French Polynesia",
-        "nameComplete" => "Overseas Collectivity of French Polynesia",
-        "demonyms" => [
-            "French Polynesians"
+    'PF' => [
+        'name' => 'French Polynesia',
+        'fullName' => 'Overseas Collectivity of French Polynesia',
+        'demonyms' => [
+            'French Polynesians'
         ],
-        "keywords" => [
-            "com",
-            "polynesian"
+        'keywords' => [
+            'com',
+            'polynesian'
         ]
     ],
-    "PG" => [
-        "name" => "Papua New Guinea",
-        "nameComplete" => "Independent State of Papua New Guinea",
-        "demonyms" => [
-            "Papua New Guineans"
+    'PG' => [
+        'name' => 'Papua New Guinea',
+        'fullName' => 'Independent State of Papua New Guinea',
+        'demonyms' => [
+            'Papua New Guineans'
         ],
-        "keywords" => [
-            "guinean"
+        'keywords' => [
+            'guinean'
         ]
     ],
-    "PH" => [
-        "name" => "Philippines",
-        "nameComplete" => "Republic of the Philippines",
-        "demonyms" => [
-            "Filipinos"
+    'PH' => [
+        'name' => 'Philippines',
+        'fullName' => 'Republic of the Philippines',
+        'demonyms' => [
+            'Filipinos'
         ],
-        "keywords" => [
-            "filipino"
+        'keywords' => [
+            'filipino'
         ]
     ],
-    "PK" => [
-        "name" => "Pakistan",
-        "nameComplete" => "Islamic Republic of Pakistan",
-        "demonyms" => [
-            "Pakistanis"
+    'PK' => [
+        'name' => 'Pakistan',
+        'fullName' => 'Islamic Republic of Pakistan',
+        'demonyms' => [
+            'Pakistanis'
         ],
-        "keywords" => [
-            "pakistani"
+        'keywords' => [
+            'pakistani'
         ]
     ],
-    "PL" => [
-        "name" => "Poland",
-        "nameComplete" => "Republic of Poland",
-        "demonyms" => [
-            "Poles"
+    'PL' => [
+        'name' => 'Poland',
+        'fullName' => 'Republic of Poland',
+        'demonyms' => [
+            'Poles'
         ],
-        "keywords" => [
-            "polish"
+        'keywords' => [
+            'polish'
         ]
     ],
-    "PM" => [
-        "name" => "Saint Pierre and Miquelon",
-        "nameComplete" => "Overseas Collectivity of Saint-Pierre and Miquelon",
-        "demonyms" => [
-            "Saint-Pierrais",
-            "Miquelonnais"
+    'PM' => [
+        'name' => 'Saint Pierre and Miquelon',
+        'fullName' => 'Overseas Collectivity of Saint-Pierre and Miquelon',
+        'demonyms' => [
+            'Saint-Pierrais',
+            'Miquelonnais'
         ],
-        "keywords" => [
-            "com",
-            "or"
+        'keywords' => [
+            'com',
+            'or'
         ]
     ],
-    "PN" => [
-        "name" => "Pitcairn",
-        "nameComplete" => "Pitcairn, Henderson, Ducie and Oeno Islands",
-        "demonyms" => [
-            "Pitcairn Islanders"
+    'PN' => [
+        'name' => 'Pitcairn',
+        'fullName' => 'Pitcairn, Henderson, Ducie and Oeno Islands',
+        'demonyms' => [
+            'Pitcairn Islanders'
         ],
-        "keywords" => [
-            "island"
+        'keywords' => [
+            'island'
         ]
     ],
-    "PR" => [
-        "name" => "Puerto Rico",
-        "nameComplete" => "Commonwealth of Puerto Rico",
-        "demonyms" => [
-            "Puerto Ricans"
+    'PR' => [
+        'name' => 'Puerto Rico',
+        'fullName' => 'Commonwealth of Puerto Rico',
+        'demonyms' => [
+            'Puerto Ricans'
         ],
-        "keywords" => [
-            "rican"
+        'keywords' => [
+            'rican'
         ]
     ],
-    "PS" => [
-        "name" => "Palestine",
-        "nameComplete" => "State of Palestine",
-        "demonyms" => [
-            "Palestinians"
+    'PS' => [
+        'name' => 'Palestine',
+        'fullName' => 'State of Palestine',
+        'demonyms' => [
+            'Palestinians'
         ],
-        "keywords" => [
-            "palestinian"
+        'keywords' => [
+            'palestinian'
         ]
     ],
-    "PT" => [
-        "name" => "Portugal",
-        "nameComplete" => "Portuguese Republic",
-        "demonyms" => [
-            "Portuguese"
+    'PT' => [
+        'name' => 'Portugal',
+        'fullName' => 'Portuguese Republic',
+        'demonyms' => [
+            'Portuguese'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "PW" => [
-        "name" => "Palau",
-        "nameComplete" => "Republic of Palau",
-        "demonyms" => [
-            "Palauans"
+    'PW' => [
+        'name' => 'Palau',
+        'fullName' => 'Republic of Palau',
+        'demonyms' => [
+            'Palauans'
         ],
-        "keywords" => [
-            "palauan"
+        'keywords' => [
+            'palauan'
         ]
     ],
-    "PY" => [
-        "name" => "Paraguay",
-        "nameComplete" => "Republic of Paraguay",
-        "demonyms" => [
-            "Paraguayans"
+    'PY' => [
+        'name' => 'Paraguay',
+        'fullName' => 'Republic of Paraguay',
+        'demonyms' => [
+            'Paraguayans'
         ],
-        "keywords" => [
-            "paraguayan"
+        'keywords' => [
+            'paraguayan'
         ]
     ],
-    "QA" => [
-        "name" => "Qatar",
-        "nameComplete" => "State of Qatar",
-        "demonyms" => [
-            "Qataris"
+    'QA' => [
+        'name' => 'Qatar',
+        'fullName' => 'State of Qatar',
+        'demonyms' => [
+            'Qataris'
         ],
-        "keywords" => [
-            "qatari"
+        'keywords' => [
+            'qatari'
         ]
     ],
-    "RE" => [
-        "name" => "The Réunion",
-        "nameComplete" => "Department of Réunion",
-        "demonyms" => [
-            "Réunionnais"
+    'RE' => [
+        'name' => 'The Réunion',
+        'fullName' => 'Department of Réunion',
+        'demonyms' => [
+            'Réunionnais'
         ],
-        "keywords" => [
-            "dom",
-            "reunionese"
+        'keywords' => [
+            'dom',
+            'reunionese'
         ]
     ],
-    "RO" => [
-        "name" => "Romania",
-        "nameComplete" => "Romania",
-        "demonyms" => [
-            "Romanians"
+    'RO' => [
+        'name' => 'Romania',
+        'fullName' => 'Romania',
+        'demonyms' => [
+            'Romanians'
         ],
-        "keywords" => [
-            "romanian"
+        'keywords' => [
+            'romanian'
         ]
     ],
-    "RS" => [
-        "name" => "Serbia",
-        "nameComplete" => "Republic of Serbia",
-        "demonyms" => [
-            "Serbians"
+    'RS' => [
+        'name' => 'Serbia',
+        'fullName' => 'Republic of Serbia',
+        'demonyms' => [
+            'Serbians'
         ],
-        "keywords" => [
-            "serbian",
-            "serbs"
+        'keywords' => [
+            'serbian',
+            'serbs'
         ]
     ],
-    "RU" => [
-        "name" => "Russian Federation",
-        "nameComplete" => "Russian Federation",
-        "demonyms" => [
-            "Russians"
+    'RU' => [
+        'name' => 'Russian Federation',
+        'fullName' => 'Russian Federation',
+        'demonyms' => [
+            'Russians'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "RW" => [
-        "name" => "Rwanda",
-        "nameComplete" => "Republic of Rwanda",
-        "demonyms" => [
-            "Rwandans"
+    'RW' => [
+        'name' => 'Rwanda',
+        'fullName' => 'Republic of Rwanda',
+        'demonyms' => [
+            'Rwandans'
         ],
-        "keywords" => [
-            "rwandan"
+        'keywords' => [
+            'rwandan'
         ]
     ],
-    "SA" => [
-        "name" => "Saudi Arabia",
-        "nameComplete" => "Kingdom of Saudi Arabia",
-        "demonyms" => [
-            "Saudi Arabians"
+    'SA' => [
+        'name' => 'Saudi Arabia',
+        'fullName' => 'Kingdom of Saudi Arabia',
+        'demonyms' => [
+            'Saudi Arabians'
         ],
-        "keywords" => [
-            "arabian"
+        'keywords' => [
+            'arabian'
         ]
     ],
-    "SB" => [
-        "name" => "Solomon Islands",
-        "nameComplete" => "Solomon Islands",
-        "demonyms" => [
-            "Solomon Islanders"
+    'SB' => [
+        'name' => 'Solomon Islands',
+        'fullName' => 'Solomon Islands',
+        'demonyms' => [
+            'Solomon Islanders'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "SC" => [
-        "name" => "Seychelles",
-        "nameComplete" => "Republic of Seychelles",
-        "demonyms" => [
-            "Seychellois"
+    'SC' => [
+        'name' => 'Seychelles',
+        'fullName' => 'Republic of Seychelles',
+        'demonyms' => [
+            'Seychellois'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "SD" => [
-        "name" => "Sudan",
-        "nameComplete" => "Republic of the Sudan",
-        "demonyms" => [
-            "Sudanese"
+    'SD' => [
+        'name' => 'Sudan',
+        'fullName' => 'Republic of the Sudan',
+        'demonyms' => [
+            'Sudanese'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "SE" => [
-        "name" => "Sweden",
-        "nameComplete" => "Kingdom of Sweden",
-        "demonyms" => [
-            "Swedes"
+    'SE' => [
+        'name' => 'Sweden',
+        'fullName' => 'Kingdom of Sweden',
+        'demonyms' => [
+            'Swedes'
         ],
-        "keywords" => [
-            "swedish"
+        'keywords' => [
+            'swedish'
         ]
     ],
-    "SG" => [
-        "name" => "Singapore",
-        "nameComplete" => "Republic of Singapore",
-        "demonyms" => [
-            "Singaporeans"
+    'SG' => [
+        'name' => 'Singapore',
+        'fullName' => 'Republic of Singapore',
+        'demonyms' => [
+            'Singaporeans'
         ],
-        "keywords" => [
-            "singaporean"
+        'keywords' => [
+            'singaporean'
         ]
     ],
-    "SH" => [
-        "name" => "Saint Helena, Ascension and Tristan da Cunha",
-        "nameComplete" => "Saint Helena, Ascension and Tristan da Cunha",
-        "demonyms" => [
-            "Saint Helenians"
+    'SH' => [
+        'name' => 'Saint Helena, Ascension and Tristan da Cunha',
+        'fullName' => 'Saint Helena, Ascension and Tristan da Cunha',
+        'demonyms' => [
+            'Saint Helenians'
         ],
-        "keywords" => [
-            "helenian"
+        'keywords' => [
+            'helenian'
         ]
     ],
-    "SI" => [
-        "name" => "Slovenia",
-        "nameComplete" => "Republic of Slovenia",
-        "demonyms" => [
-            "Slovenes"
+    'SI' => [
+        'name' => 'Slovenia',
+        'fullName' => 'Republic of Slovenia',
+        'demonyms' => [
+            'Slovenes'
         ],
-        "keywords" => [
-            "slovenian",
-            "slovenians"
+        'keywords' => [
+            'slovenian',
+            'slovenians'
         ]
     ],
-    "SJ" => [
-        "name" => "Svalbard and Jan Mayen",
-        "nameComplete" => "Svalbard and Jan Mayen Islands",
-        "demonyms" => [
-            "Svalbard and Jan Mayen Islanders"
+    'SJ' => [
+        'name' => 'Svalbard and Jan Mayen',
+        'fullName' => 'Svalbard and Jan Mayen Islands',
+        'demonyms' => [
+            'Svalbard and Jan Mayen Islanders'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "SK" => [
-        "name" => "Slovakia",
-        "nameComplete" => "Slovak Republic",
-        "demonyms" => [
-            "Slovaks"
+    'SK' => [
+        'name' => 'Slovakia',
+        'fullName' => 'Slovak Republic',
+        'demonyms' => [
+            'Slovaks'
         ],
-        "keywords" => [
-            "slovak"
+        'keywords' => [
+            'slovak'
         ]
     ],
-    "SL" => [
-        "name" => "Sierra Leone",
-        "nameComplete" => "Republic of Sierra Leone",
-        "demonyms" => [
-            "Sierra Leoneans"
+    'SL' => [
+        'name' => 'Sierra Leone',
+        'fullName' => 'Republic of Sierra Leone',
+        'demonyms' => [
+            'Sierra Leoneans'
         ],
-        "keywords" => [
-            "leonean"
+        'keywords' => [
+            'leonean'
         ]
     ],
-    "SM" => [
-        "name" => "San Marino",
-        "nameComplete" => "Republic of San Marino",
-        "demonyms" => [
-            "Sammarinese"
+    'SM' => [
+        'name' => 'San Marino',
+        'fullName' => 'Republic of San Marino',
+        'demonyms' => [
+            'Sammarinese'
         ],
-        "keywords" => [
-            "sanmarinese"
+        'keywords' => [
+            'sanmarinese'
         ]
     ],
-    "SN" => [
-        "name" => "Senegal",
-        "nameComplete" => "Republic of Senegal",
-        "demonyms" => [
-            "Senegalese"
+    'SN' => [
+        'name' => 'Senegal',
+        'fullName' => 'Republic of Senegal',
+        'demonyms' => [
+            'Senegalese'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "SO" => [
-        "name" => "Somalia",
-        "nameComplete" => "Federal Republic of Somalia",
-        "demonyms" => [
-            "Somalis"
+    'SO' => [
+        'name' => 'Somalia',
+        'fullName' => 'Federal Republic of Somalia',
+        'demonyms' => [
+            'Somalis'
         ],
-        "keywords" => [
-            "somali"
+        'keywords' => [
+            'somali'
         ]
     ],
-    "SR" => [
-        "name" => "Suriname",
-        "nameComplete" => "Republic of Suriname",
-        "demonyms" => [
-            "Surinamese"
+    'SR' => [
+        'name' => 'Suriname',
+        'fullName' => 'Republic of Suriname',
+        'demonyms' => [
+            'Surinamese'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "SS" => [
-        "name" => "South Sudan",
-        "nameComplete" => "Republic of South Sudan",
-        "demonyms" => [
-            "South Sudanese"
+    'SS' => [
+        'name' => 'South Sudan',
+        'fullName' => 'Republic of South Sudan',
+        'demonyms' => [
+            'South Sudanese'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "ST" => [
-        "name" => "Sao Tome and Principe",
-        "nameComplete" => "Democratic Republic of São Tomé and Príncipe",
-        "demonyms" => [
-            "São Toméans"
+    'ST' => [
+        'name' => 'Sao Tome and Principe',
+        'fullName' => 'Democratic Republic of São Tomé and Príncipe',
+        'demonyms' => [
+            'São Toméans'
         ],
-        "keywords" => [
-            "tomean"
+        'keywords' => [
+            'tomean'
         ]
     ],
-    "SV" => [
-        "name" => "El Salvador",
-        "nameComplete" => "Republic of El Salvador",
-        "demonyms" => [
-            "Salvadorans"
+    'SV' => [
+        'name' => 'El Salvador',
+        'fullName' => 'Republic of El Salvador',
+        'demonyms' => [
+            'Salvadorans'
         ],
-        "keywords" => [
-            "salvadoran"
+        'keywords' => [
+            'salvadoran'
         ]
     ],
-    "SX" => [
-        "name" => "Sint Maarten",
-        "nameComplete" => "Sint Maarten",
-        "demonyms" => [
-            "Sint Maarteners"
+    'SX' => [
+        'name' => 'Sint Maarten',
+        'fullName' => 'Sint Maarten',
+        'demonyms' => [
+            'Sint Maarteners'
         ],
-        "keywords" => [
-            "sss",
-            "islands"
+        'keywords' => [
+            'sss',
+            'islands'
         ]
     ],
-    "SY" => [
-        "name" => "Syrian Arab Republic",
-        "nameComplete" => "Syrian Arab Republic",
-        "demonyms" => [
-            "Syrians"
+    'SY' => [
+        'name' => 'Syrian Arab Republic',
+        'fullName' => 'Syrian Arab Republic',
+        'demonyms' => [
+            'Syrians'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "SZ" => [
-        "name" => "Eswatini",
-        "nameComplete" => "Kingdom of Eswatini",
-        "demonyms" => [
-            "Swazis"
+    'SZ' => [
+        'name' => 'Eswatini',
+        'fullName' => 'Kingdom of Eswatini',
+        'demonyms' => [
+            'Swazis'
         ],
-        "keywords" => [
-            "swazi"
+        'keywords' => [
+            'swazi'
         ]
     ],
-    "TC" => [
-        "name" => "Turks and Caicos Islands",
-        "nameComplete" => "Turks and Caicos Islands",
-        "demonyms" => [
-            "Turks and Caicos Islanders"
+    'TC' => [
+        'name' => 'Turks and Caicos Islands',
+        'fullName' => 'Turks and Caicos Islands',
+        'demonyms' => [
+            'Turks and Caicos Islanders'
         ],
-        "keywords" => [
-            "island"
+        'keywords' => [
+            'island'
         ]
     ],
-    "TD" => [
-        "name" => "Chad",
-        "nameComplete" => "Republic of Chad",
-        "demonyms" => [
-            "Chadians"
+    'TD' => [
+        'name' => 'Chad',
+        'fullName' => 'Republic of Chad',
+        'demonyms' => [
+            'Chadians'
         ],
-        "keywords" => [
-            "chadian"
+        'keywords' => [
+            'chadian'
         ]
     ],
-    "TF" => [
-        "name" => "French Southern Territories",
-        "nameComplete" => "French Southern and Antarctic Lands",
-        "demonyms" => [
-            "French Southern and Antarctic Lands"
+    'TF' => [
+        'name' => 'French Southern Territories',
+        'fullName' => 'French Southern and Antarctic Lands',
+        'demonyms' => [
+            'French Southern and Antarctic Lands'
         ],
-        "keywords" => [
-            "taaf"
+        'keywords' => [
+            'taaf'
         ]
     ],
-    "TG" => [
-        "name" => "Togo",
-        "nameComplete" => "Togolese Republic",
-        "demonyms" => [
-            "Togolese"
+    'TG' => [
+        'name' => 'Togo',
+        'fullName' => 'Togolese Republic',
+        'demonyms' => [
+            'Togolese'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "TH" => [
-        "name" => "Thailand",
-        "nameComplete" => "Kingdom of Thailand",
-        "demonyms" => [
-            "Thais"
+    'TH' => [
+        'name' => 'Thailand',
+        'fullName' => 'Kingdom of Thailand',
+        'demonyms' => [
+            'Thais'
         ],
-        "keywords" => [
-            "thai"
+        'keywords' => [
+            'thai'
         ]
     ],
-    "TJ" => [
-        "name" => "Tajikistan",
-        "nameComplete" => "Republic of Tajikistan",
-        "demonyms" => [
-            "Tajiks"
+    'TJ' => [
+        'name' => 'Tajikistan',
+        'fullName' => 'Republic of Tajikistan',
+        'demonyms' => [
+            'Tajiks'
         ],
-        "keywords" => [
-            "tajikistani"
+        'keywords' => [
+            'tajikistani'
         ]
     ],
-    "TK" => [
-        "name" => "Tokelau",
-        "nameComplete" => "Tokelau Islands",
-        "demonyms" => [
-            "Tokelauans"
+    'TK' => [
+        'name' => 'Tokelau',
+        'fullName' => 'Tokelau Islands',
+        'demonyms' => [
+            'Tokelauans'
         ],
-        "keywords" => [
-            "union",
-            "islands",
-            "tokelauan"
+        'keywords' => [
+            'union',
+            'islands',
+            'tokelauan'
         ]
     ],
-    "TL" => [
-        "name" => "East Timor",
-        "nameComplete" => "Democratic Republic of Timor-Leste",
-        "demonyms" => [
-            "East Timorese"
+    'TL' => [
+        'name' => 'East Timor',
+        'fullName' => 'Democratic Republic of Timor-Leste',
+        'demonyms' => [
+            'East Timorese'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "TM" => [
-        "name" => "Turkmenistan",
-        "nameComplete" => "Turkmenistan",
-        "demonyms" => [
-            "Turkmen"
+    'TM' => [
+        'name' => 'Turkmenistan',
+        'fullName' => 'Turkmenistan',
+        'demonyms' => [
+            'Turkmen'
         ],
-        "keywords" => [
-            "turkmens"
+        'keywords' => [
+            'turkmens'
         ]
     ],
-    "TN" => [
-        "name" => "Tunisia",
-        "nameComplete" => "Republic of Tunisia",
-        "demonyms" => [
-            "Tunisians"
+    'TN' => [
+        'name' => 'Tunisia',
+        'fullName' => 'Republic of Tunisia',
+        'demonyms' => [
+            'Tunisians'
         ],
-        "keywords" => [
-            "tunisian"
+        'keywords' => [
+            'tunisian'
         ]
     ],
-    "TO" => [
-        "name" => "Tonga",
-        "nameComplete" => "Kingdom of Tonga",
-        "demonyms" => [
-            "Tongans"
+    'TO' => [
+        'name' => 'Tonga',
+        'fullName' => 'Kingdom of Tonga',
+        'demonyms' => [
+            'Tongans'
         ],
-        "keywords" => [
-            "tongan"
+        'keywords' => [
+            'tongan'
         ]
     ],
-    "TR" => [
-        "name" => "Turkey",
-        "nameComplete" => "Republic of Turkey",
-        "demonyms" => [
-            "Turks"
+    'TR' => [
+        'name' => 'Turkey',
+        'fullName' => 'Republic of Turkey',
+        'demonyms' => [
+            'Turks'
         ],
-        "keywords" => [
-            "turkish"
+        'keywords' => [
+            'turkish'
         ]
     ],
-    "TT" => [
-        "name" => "Trinidad and Tobago",
-        "nameComplete" => "Republic of Trinidad and Tobago",
-        "demonyms" => [
-            "Trinidadians",
-            "Tobagonians"
+    'TT' => [
+        'name' => 'Trinidad and Tobago',
+        'fullName' => 'Republic of Trinidad and Tobago',
+        'demonyms' => [
+            'Trinidadians',
+            'Tobagonians'
         ],
-        "keywords" => [
-            "trinidadian"
+        'keywords' => [
+            'trinidadian'
         ]
     ],
-    "TV" => [
-        "name" => "Tuvalu",
-        "nameComplete" => "Tuvalu",
-        "demonyms" => [
-            "Tuvaluans"
+    'TV' => [
+        'name' => 'Tuvalu',
+        'fullName' => 'Tuvalu',
+        'demonyms' => [
+            'Tuvaluans'
         ],
-        "keywords" => [
-            "tuvaluan"
+        'keywords' => [
+            'tuvaluan'
         ]
     ],
-    "TW" => [
-        "name" => "Taiwan",
-        "nameComplete" => "Republic of China",
-        "demonyms" => [
-            "Taiwanese"
+    'TW' => [
+        'name' => 'Taiwan',
+        'fullName' => 'Republic of China',
+        'demonyms' => [
+            'Taiwanese'
         ],
-        "keywords" => [
-            "formosa"
+        'keywords' => [
+            'formosa'
         ]
     ],
-    "TZ" => [
-        "name" => "Tanzania, United Republic of",
-        "nameComplete" => "United Republic of Tanzania",
-        "demonyms" => [
-            "Tanzanians"
+    'TZ' => [
+        'name' => 'Tanzania, United Republic of',
+        'fullName' => 'United Republic of Tanzania',
+        'demonyms' => [
+            'Tanzanians'
         ],
-        "keywords" => [
-            "tanzanian"
+        'keywords' => [
+            'tanzanian'
         ]
     ],
-    "UA" => [
-        "name" => "Ukraine",
-        "nameComplete" => "Ukraine",
-        "demonyms" => [
-            "Ukrainians"
+    'UA' => [
+        'name' => 'Ukraine',
+        'fullName' => 'Ukraine',
+        'demonyms' => [
+            'Ukrainians'
         ],
-        "keywords" => [
-            "little",
-            "russia",
-            "ukrainian"
+        'keywords' => [
+            'little',
+            'russia',
+            'ukrainian'
         ]
     ],
-    "UG" => [
-        "name" => "Uganda",
-        "nameComplete" => "Republic of Uganda",
-        "demonyms" => [
-            "Ugandans"
+    'UG' => [
+        'name' => 'Uganda',
+        'fullName' => 'Republic of Uganda',
+        'demonyms' => [
+            'Ugandans'
         ],
-        "keywords" => [
-            "ugandan"
+        'keywords' => [
+            'ugandan'
         ]
     ],
-    "UM" => [
-        "name" => "United States Minor Outlying Islands",
-        "nameComplete" => "United States Minor Outlying Islands",
-        "demonyms" => [],
-        "keywords" => [
-            "usmoi"
+    'UM' => [
+        'name' => 'United States Minor Outlying Islands',
+        'fullName' => 'United States Minor Outlying Islands',
+        'demonyms' => [],
+        'keywords' => [
+            'usmoi'
         ]
     ],
-    "US" => [
-        "name" => "United States",
-        "nameComplete" => "United States of America",
-        "demonyms" => [
-            "Americans"
+    'US' => [
+        'name' => 'United States',
+        'fullName' => 'United States of America',
+        'demonyms' => [
+            'Americans'
         ],
-        "keywords" => [
-            "usa",
-            "us",
-            "america",
-            "american"
+        'keywords' => [
+            'usa',
+            'us',
+            'america',
+            'american'
         ]
     ],
-    "UY" => [
-        "name" => "Uruguay",
-        "nameComplete" => "Oriental Republic of Uruguay",
-        "demonyms" => [
-            "Uruguayans"
+    'UY' => [
+        'name' => 'Uruguay',
+        'fullName' => 'Oriental Republic of Uruguay',
+        'demonyms' => [
+            'Uruguayans'
         ],
-        "keywords" => [
-            "uruguayan"
+        'keywords' => [
+            'uruguayan'
         ]
     ],
-    "UZ" => [
-        "name" => "Uzbekistan",
-        "nameComplete" => "Republic of Uzbekistan",
-        "demonyms" => [
-            "Uzbeks"
+    'UZ' => [
+        'name' => 'Uzbekistan',
+        'fullName' => 'Republic of Uzbekistan',
+        'demonyms' => [
+            'Uzbeks'
         ],
-        "keywords" => [
-            "uzbekistani"
+        'keywords' => [
+            'uzbekistani'
         ]
     ],
-    "VA" => [
-        "name" => "Holy See",
-        "nameComplete" => "Vatican City State",
-        "demonyms" => [
-            "Vatican Citizens"
+    'VA' => [
+        'name' => 'Holy See',
+        'fullName' => 'Vatican City State',
+        'demonyms' => [
+            'Vatican Citizens'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "VC" => [
-        "name" => "Saint Vincent and the Grenadines",
-        "nameComplete" => "Saint Vincent and the Grenadines",
-        "demonyms" => [
-            "Saint Vincentians",
-            "Grenadines"
+    'VC' => [
+        'name' => 'Saint Vincent and the Grenadines',
+        'fullName' => 'Saint Vincent and the Grenadines',
+        'demonyms' => [
+            'Saint Vincentians',
+            'Grenadines'
         ],
-        "keywords" => [
-            "vincentian"
+        'keywords' => [
+            'vincentian'
         ]
     ],
-    "VE" => [
-        "name" => "Venezuela",
-        "nameComplete" => "Bolivarian Republic of Venezuela",
-        "demonyms" => [
-            "Venezuelans"
+    'VE' => [
+        'name' => 'Venezuela',
+        'fullName' => 'Bolivarian Republic of Venezuela',
+        'demonyms' => [
+            'Venezuelans'
         ],
-        "keywords" => [
-            "venezuelan"
+        'keywords' => [
+            'venezuelan'
         ]
     ],
-    "VG" => [
-        "name" => "Virgin Islands (British)",
-        "nameComplete" => "British Virgin Islands",
-        "demonyms" => [
-            "British Virgin Islanders"
+    'VG' => [
+        'name' => 'Virgin Islands (British)',
+        'fullName' => 'British Virgin Islands',
+        'demonyms' => [
+            'British Virgin Islanders'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "VI" => [
-        "name" => "Virgin Islands (U.S.)",
-        "nameComplete" => "United States Virgin Islands",
-        "demonyms" => [
-            "United States Virgin Islanders"
+    'VI' => [
+        'name' => 'Virgin Islands (U.S.)',
+        'fullName' => 'United States Virgin Islands',
+        'demonyms' => [
+            'United States Virgin Islanders'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "VN" => [
-        "name" => "Viet Nam",
-        "nameComplete" => "Socialist Republic of Vietnam",
-        "demonyms" => [
-            "Vietnamese"
+    'VN' => [
+        'name' => 'Viet Nam',
+        'fullName' => 'Socialist Republic of Vietnam',
+        'demonyms' => [
+            'Vietnamese'
         ],
-        "keywords" => []
+        'keywords' => []
     ],
-    "VU" => [
-        "name" => "Vanuatu",
-        "nameComplete" => "Republic of Vanuatu",
-        "demonyms" => [
-            "Ni-Vanuatu"
+    'VU' => [
+        'name' => 'Vanuatu',
+        'fullName' => 'Republic of Vanuatu',
+        'demonyms' => [
+            'Ni-Vanuatu'
         ],
-        "keywords" => [
-            "vanuatuan",
-            "vanuatuans"
+        'keywords' => [
+            'vanuatuan',
+            'vanuatuans'
         ]
     ],
-    "WF" => [
-        "name" => "Wallis and Futuna",
-        "nameComplete" => "Overseas Collectivity of the Wallis and Futuna Islands",
-        "demonyms" => [
-            "Wallis and Futuna Islanders",
-            "Wallisian-Futunan"
+    'WF' => [
+        'name' => 'Wallis and Futuna',
+        'fullName' => 'Overseas Collectivity of the Wallis and Futuna Islands',
+        'demonyms' => [
+            'Wallis and Futuna Islanders',
+            'Wallisian-Futunan'
         ],
-        "keywords" => [
-            "alofi",
-            "com"
+        'keywords' => [
+            'alofi',
+            'com'
         ]
     ],
-    "WS" => [
-        "name" => "Samoa",
-        "nameComplete" => "Independent State of Samoa",
-        "demonyms" => [
-            "Samoans"
+    'WS' => [
+        'name' => 'Samoa',
+        'fullName' => 'Independent State of Samoa',
+        'demonyms' => [
+            'Samoans'
         ],
-        "keywords" => [
-            "samoan"
+        'keywords' => [
+            'samoan'
         ]
     ],
-    "XK" => [
-        "name" => "Kosovo",
-        "nameComplete" => "Republic of Kosovo",
-        "demonyms" => [
-            "Yemenis"
+    'XK' => [
+        'name' => 'Kosovo',
+        'fullName' => 'Republic of Kosovo',
+        'demonyms' => [
+            'Yemenis'
         ],
-        "keywords" => [
-            "kosovar",
-            "kosovars",
-            "kosovan",
-            "kosovans"
+        'keywords' => [
+            'kosovar',
+            'kosovars',
+            'kosovan',
+            'kosovans'
         ]
     ],
-    "YE" => [
-        "name" => "Yemen",
-        "nameComplete" => "Republic of Yemen",
-        "demonyms" => [
-            "Yemenis"
+    'YE' => [
+        'name' => 'Yemen',
+        'fullName' => 'Republic of Yemen',
+        'demonyms' => [
+            'Yemenis'
         ],
-        "keywords" => [
-            "yemeni"
+        'keywords' => [
+            'yemeni'
         ]
     ],
-    "YT" => [
-        "name" => "Mayotte",
-        "nameComplete" => "Departmental Collectivity of Mayotte",
-        "demonyms" => [
-            "Mahorais"
+    'YT' => [
+        'name' => 'Mayotte',
+        'fullName' => 'Departmental Collectivity of Mayotte',
+        'demonyms' => [
+            'Mahorais'
         ],
-        "keywords" => [
-            "dom",
-            "mahoran",
-            "mahorans"
+        'keywords' => [
+            'dom',
+            'mahoran',
+            'mahorans'
         ]
     ],
-    "ZA" => [
-        "name" => "South Africa",
-        "nameComplete" => "Republic of South Africa",
-        "demonyms" => [
-            "South Africans"
+    'ZA' => [
+        'name' => 'South Africa',
+        'fullName' => 'Republic of South Africa',
+        'demonyms' => [
+            'South Africans'
         ],
-        "keywords" => [
-            "african"
+        'keywords' => [
+            'african'
         ]
     ],
-    "ZM" => [
-        "name" => "Zambia",
-        "nameComplete" => "Republic of Zambia",
-        "demonyms" => [
-            "Zambians"
+    'ZM' => [
+        'name' => 'Zambia',
+        'fullName' => 'Republic of Zambia',
+        'demonyms' => [
+            'Zambians'
         ],
-        "keywords" => [
-            "zambian"
+        'keywords' => [
+            'zambian'
         ]
     ],
-    "ZW" => [
-        "name" => "Zimbabwe",
-        "nameComplete" => "Republic of Zimbabwe",
-        "demonyms" => [
-            "Zimbabweans"
+    'ZW' => [
+        'name' => 'Zimbabwe',
+        'fullName' => 'Republic of Zimbabwe',
+        'demonyms' => [
+            'Zimbabweans'
         ],
-        "keywords" => [
-            "zimbabwean"
+        'keywords' => [
+            'zimbabwean'
         ]
     ]
 ];

@@ -20,544 +20,544 @@
  
  
 return [
-    "AED" => [
-        "name" => "Dirham degli Emirati Arabi Uniti"
+    'AED' => [
+        'name' => 'Dirham degli Emirati Arabi Uniti'
     ],
-    "AFN" => [
-        "name" => "Afghani"
+    'AFN' => [
+        'name' => 'Afghani'
     ],
-    "ALL" => [
-        "name" => "Lek"
+    'ALL' => [
+        'name' => 'Lek'
     ],
-    "AMD" => [
-        "name" => "Dram Armeno"
+    'AMD' => [
+        'name' => 'Dram Armeno'
     ],
-    "ANG" => [
-        "name" => "Fiorino delle Antille Olandesi"
+    'ANG' => [
+        'name' => 'Fiorino delle Antille Olandesi'
     ],
-    "AOA" => [
-        "name" => "Kwanza"
+    'AOA' => [
+        'name' => 'Kwanza'
     ],
-    "ARS" => [
-        "name" => "Peso Argentino"
+    'ARS' => [
+        'name' => 'Peso Argentino'
     ],
-    "AUD" => [
-        "name" => "Dollaro Australiano"
+    'AUD' => [
+        'name' => 'Dollaro Australiano'
     ],
-    "AWG" => [
-        "name" => "Fiorino di Aruba"
+    'AWG' => [
+        'name' => 'Fiorino di Aruba'
     ],
-    "AZN" => [
-        "name" => "Manat Azero"
+    'AZN' => [
+        'name' => 'Manat Azero'
     ],
-    "BAM" => [
-        "name" => "Marco Convertibile"
+    'BAM' => [
+        'name' => 'Marco Convertibile'
     ],
-    "BBD" => [
-        "name" => "Dollaro di Barbados"
+    'BBD' => [
+        'name' => 'Dollaro di Barbados'
     ],
-    "BDT" => [
-        "name" => "Taka"
+    'BDT' => [
+        'name' => 'Taka'
     ],
-    "BGN" => [
-        "name" => "Lev Bulgaro"
+    'BGN' => [
+        'name' => 'Lev Bulgaro'
     ],
-    "BHD" => [
-        "name" => "Dinaro del Bahrain"
+    'BHD' => [
+        'name' => 'Dinaro del Bahrain'
     ],
-    "BIF" => [
-        "name" => "Franco del Burundi"
+    'BIF' => [
+        'name' => 'Franco del Burundi'
     ],
-    "BMD" => [
-        "name" => "Dollaro delle Bermuda"
+    'BMD' => [
+        'name' => 'Dollaro delle Bermuda'
     ],
-    "BND" => [
-        "name" => "Dollaro del Brunei"
+    'BND' => [
+        'name' => 'Dollaro del Brunei'
     ],
-    "BOB" => [
-        "name" => "Boliviano"
+    'BOB' => [
+        'name' => 'Boliviano'
     ],
-    "BOV" => [
-        "name" => "Mvdol"
+    'BOV' => [
+        'name' => 'Mvdol'
     ],
-    "BRL" => [
-        "name" => "Real Brasiliano"
+    'BRL' => [
+        'name' => 'Real Brasiliano'
     ],
-    "BSD" => [
-        "name" => "Dollaro delle Bahamas"
+    'BSD' => [
+        'name' => 'Dollaro delle Bahamas'
     ],
-    "BTN" => [
-        "name" => "Ngultrum"
+    'BTN' => [
+        'name' => 'Ngultrum'
     ],
-    "BWP" => [
-        "name" => "Pula"
+    'BWP' => [
+        'name' => 'Pula'
     ],
-    "BYN" => [
-        "name" => "Rublo Bielorusso"
+    'BYN' => [
+        'name' => 'Rublo Bielorusso'
     ],
-    "BZD" => [
-        "name" => "Dollaro del Belize"
+    'BZD' => [
+        'name' => 'Dollaro del Belize'
     ],
-    "CAD" => [
-        "name" => "Dollaro Canadese"
+    'CAD' => [
+        'name' => 'Dollaro Canadese'
     ],
-    "CDF" => [
-        "name" => "Franco Congolese"
+    'CDF' => [
+        'name' => 'Franco Congolese'
     ],
-    "CHE" => [
-        "name" => "Euro WIR"
+    'CHE' => [
+        'name' => 'Euro WIR'
     ],
-    "CHF" => [
-        "name" => "Franco Svizzero"
+    'CHF' => [
+        'name' => 'Franco Svizzero'
     ],
-    "CHW" => [
-        "name" => "Franco WIR"
+    'CHW' => [
+        'name' => 'Franco WIR'
     ],
-    "CLF" => [
-        "name" => "Unidad de Fomento"
+    'CLF' => [
+        'name' => 'Unidad de Fomento'
     ],
-    "CLP" => [
-        "name" => "Peso Cileno"
+    'CLP' => [
+        'name' => 'Peso Cileno'
     ],
-    "CNY" => [
-        "name" => "Renminbi Cinese"
+    'CNY' => [
+        'name' => 'Renminbi Cinese'
     ],
-    "COP" => [
-        "name" => "Peso Colombiano"
+    'COP' => [
+        'name' => 'Peso Colombiano'
     ],
-    "COU" => [
-        "name" => "Unidad de Valor Real"
+    'COU' => [
+        'name' => 'Unidad de Valor Real'
     ],
-    "CRC" => [
-        "name" => "Colón Costaricano"
+    'CRC' => [
+        'name' => 'Colón Costaricano'
     ],
-    "CUC" => [
-        "name" => "Peso Cubano Convertible"
+    'CUC' => [
+        'name' => 'Peso Cubano Convertible'
     ],
-    "CUP" => [
-        "name" => "Peso Cubano"
+    'CUP' => [
+        'name' => 'Peso Cubano'
     ],
-    "CVE" => [
-        "name" => "Escudo di Capo Verde"
+    'CVE' => [
+        'name' => 'Escudo di Capo Verde'
     ],
-    "CZK" => [
-        "name" => "Corona Ceca"
+    'CZK' => [
+        'name' => 'Corona Ceca'
     ],
-    "DJF" => [
-        "name" => "Franco di Gibuti"
+    'DJF' => [
+        'name' => 'Franco di Gibuti'
     ],
-    "DKK" => [
-        "name" => "Corona Danese"
+    'DKK' => [
+        'name' => 'Corona Danese'
     ],
-    "DOP" => [
-        "name" => "Peso Dominicano"
+    'DOP' => [
+        'name' => 'Peso Dominicano'
     ],
-    "DZD" => [
-        "name" => "Dinaro Algerino"
+    'DZD' => [
+        'name' => 'Dinaro Algerino'
     ],
-    "EGP" => [
-        "name" => "Sterlina Egiziana"
+    'EGP' => [
+        'name' => 'Sterlina Egiziana'
     ],
-    "ERN" => [
-        "name" => "Nakfa"
+    'ERN' => [
+        'name' => 'Nakfa'
     ],
-    "ETB" => [
-        "name" => "Birr Etiope"
+    'ETB' => [
+        'name' => 'Birr Etiope'
     ],
-    "EUR" => [
-        "name" => "Euro"
+    'EUR' => [
+        'name' => 'Euro'
     ],
-    "FJD" => [
-        "name" => "Dollaro delle Figi"
+    'FJD' => [
+        'name' => 'Dollaro delle Figi'
     ],
-    "FKP" => [
-        "name" => "Sterlina delle Falkland"
+    'FKP' => [
+        'name' => 'Sterlina delle Falkland'
     ],
-    "GBP" => [
-        "name" => "Sterlina Britannica"
+    'GBP' => [
+        'name' => 'Sterlina Britannica'
     ],
-    "GEL" => [
-        "name" => "Lari Georgiano"
+    'GEL' => [
+        'name' => 'Lari Georgiano'
     ],
-    "GHS" => [
-        "name" => "Cedi del Ghana"
+    'GHS' => [
+        'name' => 'Cedi del Ghana'
     ],
-    "GIP" => [
-        "name" => "Sterlina di Gibilterra"
+    'GIP' => [
+        'name' => 'Sterlina di Gibilterra'
     ],
-    "GMD" => [
-        "name" => "Dalasi"
+    'GMD' => [
+        'name' => 'Dalasi'
     ],
-    "GNF" => [
-        "name" => "Franco della Guinea"
+    'GNF' => [
+        'name' => 'Franco della Guinea'
     ],
-    "GTQ" => [
-        "name" => "Quetzal"
+    'GTQ' => [
+        'name' => 'Quetzal'
     ],
-    "GYD" => [
-        "name" => "Dollaro della Guyana"
+    'GYD' => [
+        'name' => 'Dollaro della Guyana'
     ],
-    "HKD" => [
-        "name" => "Dollaro di Hong Kong"
+    'HKD' => [
+        'name' => 'Dollaro di Hong Kong'
     ],
-    "HNL" => [
-        "name" => "Lempira"
+    'HNL' => [
+        'name' => 'Lempira'
     ],
-    "HTG" => [
-        "name" => "Gourde"
+    'HTG' => [
+        'name' => 'Gourde'
     ],
-    "HUF" => [
-        "name" => "Fiorino Ungherese"
+    'HUF' => [
+        'name' => 'Fiorino Ungherese'
     ],
-    "IDR" => [
-        "name" => "Rupia Indonesiana"
+    'IDR' => [
+        'name' => 'Rupia Indonesiana'
     ],
-    "ILS" => [
-        "name" => "Nuovo Sheqel Israeliano"
+    'ILS' => [
+        'name' => 'Nuovo Sheqel Israeliano'
     ],
-    "INR" => [
-        "name" => "Rupia Indiana"
+    'INR' => [
+        'name' => 'Rupia Indiana'
     ],
-    "IQD" => [
-        "name" => "Dinaro Iracheno"
+    'IQD' => [
+        'name' => 'Dinaro Iracheno'
     ],
-    "IRR" => [
-        "name" => "Rial Iraniano"
+    'IRR' => [
+        'name' => 'Rial Iraniano'
     ],
-    "ISK" => [
-        "name" => "Corona Islandese"
+    'ISK' => [
+        'name' => 'Corona Islandese'
     ],
-    "JMD" => [
-        "name" => "Dollaro Giamaicano"
+    'JMD' => [
+        'name' => 'Dollaro Giamaicano'
     ],
-    "JOD" => [
-        "name" => "Dinaro Giordano"
+    'JOD' => [
+        'name' => 'Dinaro Giordano'
     ],
-    "JPY" => [
-        "name" => "Yen Giapponese"
+    'JPY' => [
+        'name' => 'Yen Giapponese'
     ],
-    "KES" => [
-        "name" => "Scellino Keniota"
+    'KES' => [
+        'name' => 'Scellino Keniota'
     ],
-    "KGS" => [
-        "name" => "Som Kirghiso"
+    'KGS' => [
+        'name' => 'Som Kirghiso'
     ],
-    "KHR" => [
-        "name" => "Riel Cambogiano"
+    'KHR' => [
+        'name' => 'Riel Cambogiano'
     ],
-    "KMF" => [
-        "name" => "Franco Comoriano"
+    'KMF' => [
+        'name' => 'Franco Comoriano'
     ],
-    "KPW" => [
-        "name" => "Won Nordcoreano"
+    'KPW' => [
+        'name' => 'Won Nordcoreano'
     ],
-    "KRW" => [
-        "name" => "Won Sudcoreano"
+    'KRW' => [
+        'name' => 'Won Sudcoreano'
     ],
-    "KWD" => [
-        "name" => "Dinaro Kuwaitiano"
+    'KWD' => [
+        'name' => 'Dinaro Kuwaitiano'
     ],
-    "KYD" => [
-        "name" => "Dollaro delle Isole Cayman"
+    'KYD' => [
+        'name' => 'Dollaro delle Isole Cayman'
     ],
-    "KZT" => [
-        "name" => "Tenge Kazako"
+    'KZT' => [
+        'name' => 'Tenge Kazako'
     ],
-    "LAK" => [
-        "name" => "Kip del Laos"
+    'LAK' => [
+        'name' => 'Kip del Laos'
     ],
-    "LBP" => [
-        "name" => "Sterlina Libanese"
+    'LBP' => [
+        'name' => 'Sterlina Libanese'
     ],
-    "LKR" => [
-        "name" => "Rupia dello Sri Lanka"
+    'LKR' => [
+        'name' => 'Rupia dello Sri Lanka'
     ],
-    "LRD" => [
-        "name" => "Dollaro Liberiano"
+    'LRD' => [
+        'name' => 'Dollaro Liberiano'
     ],
-    "LSL" => [
-        "name" => "Loti"
+    'LSL' => [
+        'name' => 'Loti'
     ],
-    "LYD" => [
-        "name" => "Dinaro Libico"
+    'LYD' => [
+        'name' => 'Dinaro Libico'
     ],
-    "MAD" => [
-        "name" => "Dirham Marocchino"
+    'MAD' => [
+        'name' => 'Dirham Marocchino'
     ],
-    "MDL" => [
-        "name" => "Leu Moldavo"
+    'MDL' => [
+        'name' => 'Leu Moldavo'
     ],
-    "MGA" => [
-        "name" => "Ariary Malgascio"
+    'MGA' => [
+        'name' => 'Ariary Malgascio'
     ],
-    "MKD" => [
-        "name" => "Dinaro Macedone"
+    'MKD' => [
+        'name' => 'Dinaro Macedone'
     ],
-    "MMK" => [
-        "name" => "Kyat Birmano"
+    'MMK' => [
+        'name' => 'Kyat Birmano'
     ],
-    "MNT" => [
-        "name" => "Tugrik Mongolo"
+    'MNT' => [
+        'name' => 'Tugrik Mongolo'
     ],
-    "MOP" => [
-        "name" => "Pataca"
+    'MOP' => [
+        'name' => 'Pataca'
     ],
-    "MRU" => [
-        "name" => "Ouguiya"
+    'MRU' => [
+        'name' => 'Ouguiya'
     ],
-    "MUR" => [
-        "name" => "Rupia Mauriziana"
+    'MUR' => [
+        'name' => 'Rupia Mauriziana'
     ],
-    "MVR" => [
-        "name" => "Rufiyaa"
+    'MVR' => [
+        'name' => 'Rufiyaa'
     ],
-    "MWK" => [
-        "name" => "Kwacha Malawiano"
+    'MWK' => [
+        'name' => 'Kwacha Malawiano'
     ],
-    "MXN" => [
-        "name" => "Peso Messicano"
+    'MXN' => [
+        'name' => 'Peso Messicano'
     ],
-    "MXV" => [
-        "name" => "Unidad de Inversion (UDI) Messicana"
+    'MXV' => [
+        'name' => 'Unidad de Inversion (UDI) Messicana'
     ],
-    "MYR" => [
-        "name" => "Ringgit Malese"
+    'MYR' => [
+        'name' => 'Ringgit Malese'
     ],
-    "MZN" => [
-        "name" => "Metical Mozambicano"
+    'MZN' => [
+        'name' => 'Metical Mozambicano'
     ],
-    "NAD" => [
-        "name" => "Dollaro Namibiano"
+    'NAD' => [
+        'name' => 'Dollaro Namibiano'
     ],
-    "NGN" => [
-        "name" => "Naira Nigeriana"
+    'NGN' => [
+        'name' => 'Naira Nigeriana'
     ],
-    "NIO" => [
-        "name" => "Cordoba Oro"
+    'NIO' => [
+        'name' => 'Cordoba Oro'
     ],
-    "NOK" => [
-        "name" => "Corona Norvegese"
+    'NOK' => [
+        'name' => 'Corona Norvegese'
     ],
-    "NPR" => [
-        "name" => "Rupia Nepalese"
+    'NPR' => [
+        'name' => 'Rupia Nepalese'
     ],
-    "NZD" => [
-        "name" => "Dollaro Neozelandese"
+    'NZD' => [
+        'name' => 'Dollaro Neozelandese'
     ],
-    "OMR" => [
-        "name" => "Rial Omanita"
+    'OMR' => [
+        'name' => 'Rial Omanita'
     ],
-    "PAB" => [
-        "name" => "Balboa"
+    'PAB' => [
+        'name' => 'Balboa'
     ],
-    "PEN" => [
-        "name" => "Sol Peruviano"
+    'PEN' => [
+        'name' => 'Sol Peruviano'
     ],
-    "PGK" => [
-        "name" => "Kina della Papua Nuova Guinea"
+    'PGK' => [
+        'name' => 'Kina della Papua Nuova Guinea'
     ],
-    "PHP" => [
-        "name" => "Peso Filippino"
+    'PHP' => [
+        'name' => 'Peso Filippino'
     ],
-    "PKR" => [
-        "name" => "Rupia Pakistana"
+    'PKR' => [
+        'name' => 'Rupia Pakistana'
     ],
-    "PLN" => [
-        "name" => "Zloty Polacco"
+    'PLN' => [
+        'name' => 'Zloty Polacco'
     ],
-    "PYG" => [
-        "name" => "Guarani"
+    'PYG' => [
+        'name' => 'Guarani'
     ],
-    "QAR" => [
-        "name" => "Rial Qatariota"
+    'QAR' => [
+        'name' => 'Rial Qatariota'
     ],
-    "RON" => [
-        "name" => "Leu Rumeno"
+    'RON' => [
+        'name' => 'Leu Rumeno'
     ],
-    "RSD" => [
-        "name" => "Dinaro Serbo"
+    'RSD' => [
+        'name' => 'Dinaro Serbo'
     ],
-    "RUB" => [
-        "name" => "Rublo Russo"
+    'RUB' => [
+        'name' => 'Rublo Russo'
     ],
-    "RWF" => [
-        "name" => "Franco Ruandese"
+    'RWF' => [
+        'name' => 'Franco Ruandese'
     ],
-    "SAR" => [
-        "name" => "Riyal Saudita"
+    'SAR' => [
+        'name' => 'Riyal Saudita'
     ],
-    "SBD" => [
-        "name" => "Dollaro delle Isole Salomone"
+    'SBD' => [
+        'name' => 'Dollaro delle Isole Salomone'
     ],
-    "SCR" => [
-        "name" => "Rupia delle Seychelles"
+    'SCR' => [
+        'name' => 'Rupia delle Seychelles'
     ],
-    "SDG" => [
-        "name" => "Sterlina Sudanese"
+    'SDG' => [
+        'name' => 'Sterlina Sudanese'
     ],
-    "SEK" => [
-        "name" => "Corona Svedese"
+    'SEK' => [
+        'name' => 'Corona Svedese'
     ],
-    "SGD" => [
-        "name" => "Dollaro di Singapore"
+    'SGD' => [
+        'name' => 'Dollaro di Singapore'
     ],
-    "SHP" => [
-        "name" => "Sterlina di Sant'Elena"
+    'SHP' => [
+        'name' => 'Sterlina di Sant\'Elena'
     ],
-    "SLE" => [
-        "name" => "Leone"
+    'SLE' => [
+        'name' => 'Leone'
     ],
-    "SLL" => [
-        "name" => "Leone"
+    'SLL' => [
+        'name' => 'Leone'
     ],
-    "SOS" => [
-        "name" => "Scellino Somalo"
+    'SOS' => [
+        'name' => 'Scellino Somalo'
     ],
-    "SRD" => [
-        "name" => "Dollaro del Suriname"
+    'SRD' => [
+        'name' => 'Dollaro del Suriname'
     ],
-    "SSP" => [
-        "name" => "Sterlina Sudsudanese"
+    'SSP' => [
+        'name' => 'Sterlina Sudsudanese'
     ],
-    "STN" => [
-        "name" => "Dobra"
+    'STN' => [
+        'name' => 'Dobra'
     ],
-    "SVC" => [
-        "name" => "Colón Salvadoregno"
+    'SVC' => [
+        'name' => 'Colón Salvadoregno'
     ],
-    "SYP" => [
-        "name" => "Sterlina Siriana"
+    'SYP' => [
+        'name' => 'Sterlina Siriana'
     ],
-    "SZL" => [
-        "name" => "Lilangeni"
+    'SZL' => [
+        'name' => 'Lilangeni'
     ],
-    "THB" => [
-        "name" => "Baht Tailandese"
+    'THB' => [
+        'name' => 'Baht Tailandese'
     ],
-    "TJS" => [
-        "name" => "Somoni Tagiko"
+    'TJS' => [
+        'name' => 'Somoni Tagiko'
     ],
-    "TMT" => [
-        "name" => "Manat Turkmeno"
+    'TMT' => [
+        'name' => 'Manat Turkmeno'
     ],
-    "TND" => [
-        "name" => "Dinaro Tunisino"
+    'TND' => [
+        'name' => 'Dinaro Tunisino'
     ],
-    "TOP" => [
-        "name" => "Pa'anga"
+    'TOP' => [
+        'name' => 'Pa\'anga'
     ],
-    "TRY" => [
-        "name" => "Lira Turca"
+    'TRY' => [
+        'name' => 'Lira Turca'
     ],
-    "TTD" => [
-        "name" => "Dollaro di Trinidad e Tobago"
+    'TTD' => [
+        'name' => 'Dollaro di Trinidad e Tobago'
     ],
-    "TWD" => [
-        "name" => "Nuovo Dollaro di Taiwan"
+    'TWD' => [
+        'name' => 'Nuovo Dollaro di Taiwan'
     ],
-    "TZS" => [
-        "name" => "Scellino della Tanzania"
+    'TZS' => [
+        'name' => 'Scellino della Tanzania'
     ],
-    "UAH" => [
-        "name" => "Grivnia Ucraina"
+    'UAH' => [
+        'name' => 'Grivnia Ucraina'
     ],
-    "UGX" => [
-        "name" => "Scellino Ugandese"
+    'UGX' => [
+        'name' => 'Scellino Ugandese'
     ],
-    "USD" => [
-        "name" => "Dollaro Statunitense"
+    'USD' => [
+        'name' => 'Dollaro Statunitense'
     ],
-    "USN" => [
-        "name" => "Dollaro Statunitense (giorno successivo)"
+    'USN' => [
+        'name' => 'Dollaro Statunitense (giorno successivo)'
     ],
-    "UYI" => [
-        "name" => "Peso Uruguayo in Unidades Indexadas (UI)"
+    'UYI' => [
+        'name' => 'Peso Uruguayo in Unidades Indexadas (UI)'
     ],
-    "UYU" => [
-        "name" => "Peso Uruguayo"
+    'UYU' => [
+        'name' => 'Peso Uruguayo'
     ],
-    "UYW" => [
-        "name" => "Unidad Previsional"
+    'UYW' => [
+        'name' => 'Unidad Previsional'
     ],
-    "UZS" => [
-        "name" => "Sum Uzbeko"
+    'UZS' => [
+        'name' => 'Sum Uzbeko'
     ],
-    "VED" => [
-        "name" => "Bolívar Soberano"
+    'VED' => [
+        'name' => 'Bolívar Soberano'
     ],
-    "VES" => [
-        "name" => "Bolívar Soberano"
+    'VES' => [
+        'name' => 'Bolívar Soberano'
     ],
-    "VND" => [
-        "name" => "Dong Vietnamita"
+    'VND' => [
+        'name' => 'Dong Vietnamita'
     ],
-    "VUV" => [
-        "name" => "Vatu"
+    'VUV' => [
+        'name' => 'Vatu'
     ],
-    "WST" => [
-        "name" => "Tala"
+    'WST' => [
+        'name' => 'Tala'
     ],
-    "XAF" => [
-        "name" => "Franco CFA BEAC"
+    'XAF' => [
+        'name' => 'Franco CFA BEAC'
     ],
-    "XAG" => [
-        "name" => "Argento"
+    'XAG' => [
+        'name' => 'Argento'
     ],
-    "XAU" => [
-        "name" => "Oro"
+    'XAU' => [
+        'name' => 'Oro'
     ],
-    "XBA" => [
-        "name" => "Unità composita europea dei mercati obbligazionari (EURCO)"
+    'XBA' => [
+        'name' => 'Unità composita europea dei mercati obbligazionari (EURCO)'
     ],
-    "XBB" => [
-        "name" => "Unità monetaria europea dei mercati obbligazionari (EMU-6)"
+    'XBB' => [
+        'name' => 'Unità monetaria europea dei mercati obbligazionari (EMU-6)'
     ],
-    "XBC" => [
-        "name" => "Unità di conto europea 9 (EUA-9)"
+    'XBC' => [
+        'name' => 'Unità di conto europea 9 (EUA-9)'
     ],
-    "XBD" => [
-        "name" => "Unità di conto europea 17 (EUA-17)"
+    'XBD' => [
+        'name' => 'Unità di conto europea 17 (EUA-17)'
     ],
-    "XCD" => [
-        "name" => "Dollaro dei Caraibi Orientali"
+    'XCD' => [
+        'name' => 'Dollaro dei Caraibi Orientali'
     ],
-    "XDR" => [
-        "name" => "Diritti Speciali di Prelievo (SDR)"
+    'XDR' => [
+        'name' => 'Diritti Speciali di Prelievo (SDR)'
     ],
-    "XOF" => [
-        "name" => "Franco CFA BCEAO"
+    'XOF' => [
+        'name' => 'Franco CFA BCEAO'
     ],
-    "XPD" => [
-        "name" => "Palladio"
+    'XPD' => [
+        'name' => 'Palladio'
     ],
-    "XPF" => [
-        "name" => "Franco CFP"
+    'XPF' => [
+        'name' => 'Franco CFP'
     ],
-    "XPT" => [
-        "name" => "Platino"
+    'XPT' => [
+        'name' => 'Platino'
     ],
-    "XSU" => [
-        "name" => "Sucre"
+    'XSU' => [
+        'name' => 'Sucre'
     ],
-    "XTS" => [
-        "name" => "Codici riservati specificamente per scopi di prova"
+    'XTS' => [
+        'name' => 'Codici riservati specificamente per scopi di prova'
     ],
-    "XUA" => [
-        "name" => "Unità di conto ADB"
+    'XUA' => [
+        'name' => 'Unità di conto ADB'
     ],
-    "XXX" => [
-        "name" => "Codici assegnati per transazioni senza valuta"
+    'XXX' => [
+        'name' => 'Codici assegnati per transazioni senza valuta'
     ],
-    "YER" => [
-        "name" => "Rial dello Yemen"
+    'YER' => [
+        'name' => 'Rial dello Yemen'
     ],
-    "ZAR" => [
-        "name" => "Rand Sudafricano"
+    'ZAR' => [
+        'name' => 'Rand Sudafricano'
     ],
-    "ZMW" => [
-        "name" => "Kwacha dello Zambia"
+    'ZMW' => [
+        'name' => 'Kwacha dello Zambia'
     ],
-    "ZWL" => [
-        "name" => "Dollaro dello Zimbabwe"
+    'ZWL' => [
+        'name' => 'Dollaro dello Zimbabwe'
     ]
 ];
