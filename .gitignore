@@ -1,3 +1,6 @@
+# App Files
+exportConfig.json
+
 # Logs
 logs
 *.log
@@ -134,5 +137,4 @@ dist
 junit.xml
 
 
-# App Files
-exportConfig.json
+
