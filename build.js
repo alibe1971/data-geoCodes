@@ -51,7 +51,8 @@ let APP = {
         console.log(chalk.green('   - BEGIN DATA EXPORT'));
         APP['exports'] = await readJsonFile('exportConfig.json');
         for (const [app, paths] of Object.entries(APP['exports'])) {
-            if (!configBuild.Apps.hasOwnProperty(app)) {
+            // if (!configBuild.Apps.hasOwnProperty(app)) {
+            if (!Object.prototype.hasOwnProperty.call(configBuild.Apps, app)) {
                 console.log(chalk.red('         - The `' + app + '` is not part in this project. Skipping ...'));
                 continue;
             }

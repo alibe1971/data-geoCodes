@@ -42,7 +42,7 @@ export function sortList(list, key) {
 }
 
 export function checkDir(directoryPath) {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve) => {
         fs.access(directoryPath, fs.constants.F_OK, (err) => {
             if (err) {
                 resolve(false);
@@ -159,9 +159,4 @@ export function parseSvg(data) {
             }
         });
     });
-}
-
-
-export async function exportData(path) {
-    // await fsExtra.copy(srcDir, destDir);
 }
