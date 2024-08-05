@@ -58,7 +58,7 @@ export const saveDataForPhp = {
         buildData += 'return ' + JSON.stringify(data, null, 4)
             .replace(/\\"/g, "__ESCAPED_DOUBLE_QUOTE__")
             .replace(/'/g, "\\'")
-            .replace(/:/g, ' =>')
+            .replace(/: /g, ' => ')
             .replace(/\{/g, '[')
             .replace(/"/g, "'")
             .replace(/\}/g, ']')
