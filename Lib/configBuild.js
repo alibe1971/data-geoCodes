@@ -6,6 +6,7 @@ import {languagesFunctions} from "./Builders/languagesBuilder.js";
 import { saveDataForJson } from './Writers/appJson.js';
 import { saveDataForNode } from './Writers/appNode.js';
 import { saveDataForPhp } from './Writers/appPhp.js';
+import { saveDataForGo } from './Writers/appGo.js';
 
 
 export const configBuild = {
@@ -17,6 +18,7 @@ export const configBuild = {
         json: saveDataForJson,
         node: saveDataForNode,
         php: saveDataForPhp,
+        go: saveDataForGo
     },
     TranslationDir: 'Translations/',
     TranslationData: {
