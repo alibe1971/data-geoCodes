@@ -408,7 +408,7 @@ export const currencies = {
         name: "Leone"
     },
     SLL: {
-        name: "Leone"
+        name: "Leone (deprecated)"
     },
     SOS: {
         name: "Somali Shilling"
@@ -483,7 +483,7 @@ export const currencies = {
         name: "Uzbekistan Sum"
     },
     VED: {
-        name: "Bolívar Soberano"
+        name: "Digital Bolívar Soberano"
     },
     VES: {
         name: "Bolívar Soberano"

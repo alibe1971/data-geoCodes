@@ -408,7 +408,7 @@ export const currencies = {
         name: "Leone"
     },
     SLL: {
-        name: "Leone"
+        name: "Leone (dismesso)"
     },
     SOS: {
         name: "Scellino Somalo"
@@ -483,10 +483,10 @@ export const currencies = {
         name: "Sum Uzbeko"
     },
     VED: {
-        name: "Bolívar Soberano"
+        name: "Bolívar Venezuelano Digitale"
     },
     VES: {
-        name: "Bolívar Soberano"
+        name: "Bolívar Venezuelano"
     },
     VND: {
         name: "Dong Vietnamita"

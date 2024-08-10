@@ -407,7 +407,7 @@ return [
         'name' => 'Leone'
     ],
     'SLL' => [
-        'name' => 'Leone'
+        'name' => 'Leone (deprecated)'
     ],
     'SOS' => [
         'name' => 'Somali Shilling'
@@ -482,7 +482,7 @@ return [
         'name' => 'Uzbekistan Sum'
     ],
     'VED' => [
-        'name' => 'Bolívar Soberano'
+        'name' => 'Digital Bolívar Soberano'
     ],
     'VES' => [
         'name' => 'Bolívar Soberano'

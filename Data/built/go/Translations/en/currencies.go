@@ -407,7 +407,7 @@ const Currencies = `{
         "name": "Leone"
     },
     "SLL": {
-        "name": "Leone"
+        "name": "Leone (deprecated)"
     },
     "SOS": {
         "name": "Somali Shilling"
@@ -482,7 +482,7 @@ const Currencies = `{
         "name": "Uzbekistan Sum"
     },
     "VED": {
-        "name": "Bolívar Soberano"
+        "name": "Digital Bolívar Soberano"
     },
     "VES": {
         "name": "Bolívar Soberano"
