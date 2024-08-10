@@ -85,6 +85,15 @@ for (const country of Object.values(countries)) {
             ).toBe(true);
             uniqueKeysControl.add(`unM49_${country.unM49}`);
         });
+        test(`Test that for the country '${country.alpha2}', 'unM49' is not present in GeoSets`, () => {
+            // Exception for Antartica (AQ - 010) that is also a continent
+            if (country.alpha2 != 'AQ') {
+                expect(
+                    typeof global.APP.data.geoSets.find(item => item['unM49'] === country.unM49) !== 'undefined'
+                ).toBe(false);
+            }
+        });
+
 
         /** flags **/
         test(`Test that the country '${country.alpha2}' has the property 'flags' as not empty object`, () => {
@@ -189,6 +198,11 @@ for (const country of Object.values(countries)) {
             ).toBe(true);
         });
         test(`Test that the country '${country.alpha2}' has the property 'dialCodes.main' as array`, () => {
+            expect(
+                country.dialCodes.hasOwnProperty('main') && Array.isArray(country.dialCodes.main)
+            ).toBe(true);
+        });
+        test(`Test that the country '${country.alpha2}' has the 'dialCodes.main' values with the right format`, () => {
             expect(
                 country.dialCodes.hasOwnProperty('main') && Array.isArray(country.dialCodes.main)
             ).toBe(true);
