@@ -2,9 +2,11 @@ import { setupApp } from '../setupTests';
 import {countries} from "../../Data/built/node/countries";
 
 let defTranslation;
+let defLang;
 beforeAll(async () => {
     await setupApp();
-    defTranslation = global.APP.translations.countries[global.APP.config.settings.languages.default];
+    defLang = global.APP.config.settings.languages.default;
+    defTranslation = global.APP.translations.countries[defLang];
 });
 
 let uniqueKeysControl = new Set();
@@ -51,9 +53,9 @@ for (const country of Object.values(countries)) {
         });
         test(`Test that for the country '${country.alpha2}', 'alpha2' is unique`, () => {
             expect(
-                uniqueKeysControl.has(country.alpha2) === false
+                uniqueKeysControl.has(`alpha2_${country.alpha2}`) === false
             ).toBe(true);
-            uniqueKeysControl.add(country.alpha2);
+            uniqueKeysControl.add(`alpha2_${country.alpha2}`);
         });
 
         /** alpha3 **/
@@ -65,9 +67,9 @@ for (const country of Object.values(countries)) {
         });
         test(`Test that for the country '${country.alpha2}', 'alpha3' is unique`, () => {
             expect(
-                uniqueKeysControl.has(country.alpha3) === false
+                uniqueKeysControl.has(`alpha3_${country.alpha3}`) === false
             ).toBe(true);
-            uniqueKeysControl.add(country.alpha3);
+            uniqueKeysControl.add(`alpha3_${country.alpha3}`);
         });
 
         /** unM49 **/
@@ -79,9 +81,9 @@ for (const country of Object.values(countries)) {
         });
         test(`Test that for the country '${country.alpha2}', 'unM49' is unique`, () => {
             expect(
-                uniqueKeysControl.has(country.unM49) === false
+                uniqueKeysControl.has(`unM49_${country.unM49}`) === false
             ).toBe(true);
-            uniqueKeysControl.add(country.unM49);
+            uniqueKeysControl.add(`unM49_${country.unM49}`);
         });
 
         /** flags **/
@@ -108,10 +110,10 @@ for (const country of Object.values(countries)) {
             ).toBe(true);
         });
         test(`Test that for the country '${country.alpha2}', 'officialName' is unique`, () => {
-            expect(
-                uniqueKeysControl.has(country.officialName) === false
-            ).toBe(true);
-            uniqueKeysControl.add(country.officialName);
+            for (const [lang, name] of Object.entries(country.officialName)) {
+                expect(uniqueKeysControl.has(`officialName_${lang}_${name}`)).toBe(false);
+                uniqueKeysControl.add(`officialName_${lang}_${name}`);
+            }
         });
 
         /** dependency **/
@@ -264,11 +266,11 @@ for (const country of Object.values(countries)) {
                 typeof defTranslation[country.alpha2].name === 'string' && defTranslation[country.alpha2].name !== ''
             ).toBe(true);
         });
-        test(`Test that for the country '${country.alpha2}', translation 'name' is unique`, () => {
+        test(`Test that for the country '${country.alpha2}', default translation 'name' is unique`, () => {
             expect(
-                uniqueKeysControl.has(defTranslation[country.alpha2].name) === false
+                uniqueKeysControl.has(`trans_${defLang}_name_${defTranslation[country.alpha2].name}`) === false
             ).toBe(true);
-            uniqueKeysControl.add(defTranslation[country.alpha2].name);
+            uniqueKeysControl.add(`trans_${defLang}_name_${defTranslation[country.alpha2].name}`);
         });
 
         /** fullName **/
@@ -277,6 +279,12 @@ for (const country of Object.values(countries)) {
                 defTranslation[country.alpha2].hasOwnProperty('fullName') &&
                 typeof defTranslation[country.alpha2].fullName === 'string' && defTranslation[country.alpha2].fullName !== ''
             ).toBe(true);
+        });
+        test(`Test that for the country '${country.alpha2}', default translation 'fullName' is unique`, () => {
+            expect(
+                uniqueKeysControl.has(`trans_${defLang}_fullName_${defTranslation[country.alpha2].name}`) === false
+            ).toBe(true);
+            uniqueKeysControl.add(`trans_${defLang}_fullName_${defTranslation[country.alpha2].name}`);
         });
 
         /** demonyms **/

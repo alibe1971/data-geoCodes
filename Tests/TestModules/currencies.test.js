@@ -2,9 +2,11 @@ import { setupApp } from '../setupTests';
 import {currencies} from "../../Data/built/node/currencies";
 
 let defTranslation;
+let defLang;
 beforeAll(async () => {
     await setupApp();
-    defTranslation = global.APP.translations.currencies[global.APP.config.settings.languages.default];
+    defLang = global.APP.config.settings.languages.default;
+    defTranslation = global.APP.translations.currencies[defLang];
 });
 
 let uniqueKeysControl = new Set();
@@ -52,9 +54,9 @@ for (const currency of Object.values(currencies)) {
         });
         test(`Test that for the currency '${currency.isoAlpha}', 'isoAlpha' is unique`, () => {
             expect(
-                uniqueKeysControl.has(currency.isoAlpha) === false
+                uniqueKeysControl.has(`isoAlpha_${currency.isoAlpha}`) === false
             ).toBe(true);
-            uniqueKeysControl.add(currency.isoAlpha);
+            uniqueKeysControl.add(`isoAlpha_${currency.isoAlpha}`);
         });
 
         /** isoNumber **/
@@ -67,9 +69,9 @@ for (const currency of Object.values(currencies)) {
         });
         test(`Test that for the currency '${currency.isoAlpha}', 'isoNumber' is unique`, () => {
             expect(
-                uniqueKeysControl.has(currency.isoNumber) === false
+                uniqueKeysControl.has(`isoNumber_${currency.isoNumber}`) === false
             ).toBe(true);
-            uniqueKeysControl.add(currency.isoNumber);
+            uniqueKeysControl.add(`isoNumber_${currency.isoNumber}`);
         });
 
         /** symbol **/
@@ -108,6 +110,12 @@ for (const currency of Object.values(currencies)) {
                 defTranslation[currency.isoAlpha].hasOwnProperty('name') &&
                 typeof defTranslation[currency.isoAlpha].name === 'string' && defTranslation[currency.isoAlpha].name !== ''
             ).toBe(true);
+        });
+        test(`Test that for the country '${currency.isoAlpha}', default translation 'name' is unique`, () => {
+            expect(
+                uniqueKeysControl.has(`trans_${defLang}_name_${defTranslation[currency.isoAlpha].name}`) === false
+            ).toBe(true);
+            uniqueKeysControl.add(`trans_${defLang}_name_${defTranslation[currency.isoAlpha].name}`);
         });
     });
 

@@ -2,9 +2,11 @@ import { setupApp } from '../setupTests';
 import {geoSets} from "../../Data/built/node/geoSets";
 
 let defTranslation;
+let defLang;
 beforeAll(async () => {
     await setupApp();
-    defTranslation = global.APP.translations.geoSets[global.APP.config.settings.languages.default];
+    defLang = global.APP.config.settings.languages.default;
+    defTranslation = global.APP.translations.geoSets[defLang];
 });
 
 let uniqueKeysControl = new Set();
@@ -52,9 +54,9 @@ for (const geoSet of Object.values(geoSets)) {
         });
         test(`Test that for the geoSet '${geoSet.internalCode}', 'internalCode' is unique`, () => {
             expect(
-                uniqueKeysControl.has(geoSet.internalCode) === false
+                uniqueKeysControl.has(`internalCode_${geoSet.internalCode}`) === false
             ).toBe(true);
-            uniqueKeysControl.add(geoSet.internalCode);
+            uniqueKeysControl.add(`internalCode_${geoSet.internalCode}`);
         });
 
         /** unM49 **/
@@ -67,10 +69,10 @@ for (const geoSet of Object.values(geoSets)) {
         });
         test(`Test that for the geoSet '${geoSet.internalCode}', 'unM49' is unique`, () => {
             expect(
-                uniqueKeysControl.has(geoSet.unM49) === false
+                uniqueKeysControl.has(`unM49_${geoSet.unM49}`) === false
             ).toBe(true);
             if (geoSet.unM49 !== null) {
-                uniqueKeysControl.add(geoSet.unM49);
+                uniqueKeysControl.add(`unM49_${geoSet.unM49}`);
             }
         });
 
@@ -118,11 +120,11 @@ for (const geoSet of Object.values(geoSets)) {
                 typeof defTranslation[geoSet.internalCode].name === 'string' && defTranslation[geoSet.internalCode].name !== ''
             ).toBe(true);
         });
-        test(`Test that for the geoSet '${geoSet.internalCode}', translation 'name' is unique`, () => {
+        test(`Test that for the geoSet '${geoSet.internalCode}', default translation 'name' is unique`, () => {
             expect(
-                uniqueKeysControl.has(defTranslation[geoSet.internalCode].name) === false
+                uniqueKeysControl.has(`trans_${defLang}_name_${defTranslation[geoSet.internalCode].name}`) === false
             ).toBe(true);
-            uniqueKeysControl.add(defTranslation[geoSet.internalCode].name);
+            uniqueKeysControl.add(`trans_${defLang}_name_${defTranslation[geoSet.internalCode].name}`);
         });
     });
 
