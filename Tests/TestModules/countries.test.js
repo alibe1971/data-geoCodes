@@ -203,14 +203,23 @@ for (const country of Object.values(countries)) {
             ).toBe(true);
         });
         test(`Test that the country '${country.alpha2}' has the 'dialCodes.main' values with the right format`, () => {
-            expect(
-                country.dialCodes.hasOwnProperty('main') && Array.isArray(country.dialCodes.main)
-            ).toBe(true);
+            for (const phone of country.dialCodes.main) {
+                expect(
+                    typeof phone === 'string' && /^\+\d+$/.test(phone)
+                ).toBe(true);
+            }
         });
         test(`Test that the country '${country.alpha2}' has the property 'dialCodes.exceptions' as array`, () => {
             expect(
                 country.dialCodes.hasOwnProperty('exceptions') && Array.isArray(country.dialCodes.exceptions)
             ).toBe(true);
+        });
+        test(`Test that the country '${country.alpha2}' has the 'dialCodes.exceptions' values with the right format`, () => {
+            for (const phone of country.dialCodes.exceptions) {
+                expect(
+                    typeof phone === 'string' && /^\+\d+$/.test(phone)
+                ).toBe(true);
+            }
         });
 
         /** ccTld **/
