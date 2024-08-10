@@ -5,6 +5,7 @@ global.builtPath = rootDir + '/Data/built/';
 global.Applications = {
     node: '.js',
     php: '.php',
+    go: '.go',
     json: '.json'
 };
 const dataPath = global.builtPath + 'node/';
