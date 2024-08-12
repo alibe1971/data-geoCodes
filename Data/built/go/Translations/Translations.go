@@ -16,6 +16,30 @@
  * For further detailed information, please refer to the documentation.
  */
 
-package geoCodes
+package TranslationsData
 
-const Languages = `[]`
+import (
+	"github.com/alibe1971/go-geoCodes/geoCodes/Data/Translations/en"
+	"github.com/alibe1971/go-geoCodes/geoCodes/Data/Translations/it"
+)
+
+var TranslationsCountries = map[string]string{
+	"en": TranslationsEn.Countries,
+	"it": TranslationsIt.Countries,
+}
+
+var TranslationsCurrencies = map[string]string{
+	"en": TranslationsEn.Currencies,
+	"it": TranslationsIt.Currencies,
+}
+
+var TranslationsGeoSets = map[string]string{
+	"en": TranslationsEn.GeoSets,
+	"it": TranslationsIt.GeoSets,
+}
+
+var TranslationsLanguages = map[string]string{
+	"en": TranslationsEn.Languages,
+	"it": TranslationsIt.Languages,
+}
+

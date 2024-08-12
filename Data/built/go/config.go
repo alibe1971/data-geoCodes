@@ -10,14 +10,14 @@
  * - The built files will be located inside the directory:
  *   - `Data/built/node`
  * - Submit a pull request to publish your changes.
- * - You can also clone the Node.js application, integrate the built data, and submit two separate pull requests:
+ * - You can also clone the GoLang application, integrate the built data, and submit two separate pull requests:
  *   - One for the data modifications.
  *   - Another for integrating the modified data into the specific app.
  * For further detailed information, please refer to the documentation.
  */
- 
+
 package geoCodes
- 
+
 const Config = `{
     "settings": {
         "languages": {
