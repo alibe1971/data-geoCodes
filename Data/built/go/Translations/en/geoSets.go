@@ -16,7 +16,7 @@
  * For further detailed information, please refer to the documentation.
  */
 
-package TranslationsEn
+package geoCodes
 
 const GeoSets = `{
     "CONV-G20": {

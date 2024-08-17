@@ -839,7 +839,8 @@ const GeoSets = `[
             "SY",
             "TR",
             "AE",
-            "YE"
+            "YE",
+            "TW"
         ]
     },
     {
@@ -871,7 +872,8 @@ const GeoSets = `[
             "KP",
             "JP",
             "MN",
-            "KR"
+            "KR",
+            "TW"
         ]
     },
     {
@@ -1000,6 +1002,7 @@ const GeoSets = `[
             "LU",
             "MC",
             "NL",
+            "XK",
             "CH"
         ]
     },
@@ -1084,6 +1087,7 @@ const GeoSets = `[
             "SM",
             "RS",
             "SI",
+            "XK",
             "ES"
         ]
     },

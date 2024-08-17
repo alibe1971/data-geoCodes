@@ -839,7 +839,8 @@ return [
             'SY',
             'TR',
             'AE',
-            'YE'
+            'YE',
+            'TW'
         ]
     ],
     [
@@ -871,7 +872,8 @@ return [
             'KP',
             'JP',
             'MN',
-            'KR'
+            'KR',
+            'TW'
         ]
     ],
     [
@@ -1000,6 +1002,7 @@ return [
             'LU',
             'MC',
             'NL',
+            'XK',
             'CH'
         ]
     ],
@@ -1084,6 +1087,7 @@ return [
             'SM',
             'RS',
             'SI',
+            'XK',
             'ES'
         ]
     ],

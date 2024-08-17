@@ -840,7 +840,8 @@ export const geoSets = [
             "SY",
             "TR",
             "AE",
-            "YE"
+            "YE",
+            "TW"
         ]
     },
     {
@@ -872,7 +873,8 @@ export const geoSets = [
             "KP",
             "JP",
             "MN",
-            "KR"
+            "KR",
+            "TW"
         ]
     },
     {
@@ -1001,6 +1003,7 @@ export const geoSets = [
             "LU",
             "MC",
             "NL",
+            "XK",
             "CH"
         ]
     },
@@ -1085,6 +1088,7 @@ export const geoSets = [
             "SM",
             "RS",
             "SI",
+            "XK",
             "ES"
         ]
     },

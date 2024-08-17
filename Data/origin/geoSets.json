@@ -864,7 +864,8 @@
             "SY",
             "TR",
             "AE",
-            "YE"
+            "YE",
+            "TW"
         ],
         "NOTES": []
     },
@@ -900,7 +901,8 @@
             "KP",
             "JP",
             "MN",
-            "KR"
+            "KR",
+            "TW"
         ],
         "NOTES": []
     },
@@ -1037,11 +1039,12 @@
             "LU",
             "MC",
             "NL",
+            "XK",
             "CH"
         ],
         "NOTES": [
             "The Sark Island (under the Jurisdiction of the Bailiwick of Guernsey) has M49 code = 680",
-            "It has also an eceptional reservation country code as CQ (from the French Sercq)",
+            "It has also an exceptional reservation country code as CQ (from the French Sercq)",
             "I decided to remove, because the alpha2 isn't official and the Jurisdiction is under another code that ",
             "has dependency under GB. Just considered USELESS",
             "This note is valid also for: ",
@@ -1141,6 +1144,7 @@
             "SM",
             "RS",
             "SI",
+            "XK",
             "ES"
         ],
         "NOTES": []

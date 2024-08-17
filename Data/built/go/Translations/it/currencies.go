@@ -16,7 +16,7 @@
  * For further detailed information, please refer to the documentation.
  */
 
-package TranslationsIt
+package geoCodes
 
 const Currencies = `{
     "AED": {
