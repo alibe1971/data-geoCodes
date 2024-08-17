@@ -21,8 +21,10 @@ export const saveDataForGo = {
 
             /** Translations Data **/
             for (const [lang, dataTrans] of Object.entries(completeData.translations[key])) {
-                langMap[lang] = lang.charAt(0).toUpperCase() + lang.slice(1);
+                // langMap[lang] = lang.charAt(0).toUpperCase() + lang.slice(1);
+                langMap[lang] = lang;
 
+                // goData = saveDataForGo.build(keyCap, dataTrans, langMap[lang]);
                 goData = saveDataForGo.build(keyCap, dataTrans, langMap[lang]);
                 await writeFile(destination + completeData.TranslationDir + lang + '/' + key + '.go', goData );
                 console.log(
@@ -61,11 +63,11 @@ export const saveDataForGo = {
 `;
     },
 
-    build: (name, data, Translation = null) => {
+    build: (name, data) => {
         let packageName = 'geoCodes';
-        if (Translation) {
-            packageName = 'Translations' + Translation;
-        }
+        // if (Translation) {
+        //     packageName = 'Translations' + Translation;
+        // }
 
         let buildData = saveDataForGo.disclaimer();
         buildData += '\npackage ' + packageName + '\n';
@@ -83,16 +85,16 @@ export const saveDataForGo = {
             mapCall[key] = '';
         }
         for (const [lang, Lang] of Object.entries(langMap)) {
-            importPackage += `\n\t"github.com/alibe1971/go-geoCodes/geoCodes/Data/Translations/${lang}"`;
+            importPackage += `\n\t${lang} "github.com/alibe1971/go-geoCodes/geoCodes/Data/Translations/${lang}"`;
             for (const key of dataMap) {
-                mapCall[key] += `\n\t"${lang}": Translations${Lang}.${key},`;
+                mapCall[key] += `\n\t"${lang}": ${Lang}.${key},`;
             }
         }
         let buildData = saveDataForGo.disclaimer();
-        buildData += '\npackage TranslationsData\n\n';
+        buildData += '\npackage geoCodes\n\n';
         buildData += 'import (' + importPackage + '\n)\n\n';
         for (const key of dataMap) {
-            buildData += 'var Translations' + key + ' = map[string]string{' + mapCall[key] + '\n}\n\n';
+            buildData += 'var ' + key + ' = map[string]string{' + mapCall[key] + '\n}\n\n';
         }
 
         return buildData;
