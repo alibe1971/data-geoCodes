@@ -10881,7 +10881,7 @@ export const countries = [
             "sr-Latn-RS"
         ],
         otherAppsIds: {
-            geoNamesOrg: null
+            geoNamesOrg: 831053
         }
     },
     {
