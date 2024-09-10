@@ -3,6 +3,15 @@
         "/Users/aliberati/Desktop/STIEKATE/json"
     ],
 
+    "xml":[
+        "/Users/aliberati/Desktop/STIEKATE/xml"
+    ],
+
+    "go":[
+        "/Users/aliberati/Desktop/STIEKATE/go",
+        "/Users/aliberati/ALIBE/go-geoCodes/geoCodes/Data"
+    ],
+
     "node":[
 
     ],

@@ -7,6 +7,7 @@ import { saveDataForJson } from './Writers/appJson.js';
 import { saveDataForNode } from './Writers/appNode.js';
 import { saveDataForPhp } from './Writers/appPhp.js';
 import { saveDataForGo } from './Writers/appGo.js';
+import { saveDataForXml } from './Writers/appXml.js';
 
 
 export const configBuild = {
@@ -18,7 +19,8 @@ export const configBuild = {
         json: saveDataForJson,
         node: saveDataForNode,
         php: saveDataForPhp,
-        go: saveDataForGo
+        go: saveDataForGo,
+        xml: saveDataForXml,
     },
     TranslationDir: 'Translations/',
     TranslationData: {

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="currencies">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="currency" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="isoAlpha" type="xs:string" minOccurs="0"/>
+                            <xs:element name="isoNumber" type="xs:string" minOccurs="0"/>
+                            <xs:element name="name" type="xs:string" minOccurs="0"/>
+                            <xs:element name="symbol" type="xs:string" minOccurs="0" nillable="true"/>
+                            <xs:element name="decimal" type="xs:int" minOccurs="0" nillable="true"/>
+                        </xs:sequence>
+                        <xs:attribute name="index" type="xs:int" use="optional"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

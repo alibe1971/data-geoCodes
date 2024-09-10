@@ -7,7 +7,7 @@
   "type": "module",
   "scripts": {
     "build": "node build",
-    "lint": "eslint .",
+    "lint": "eslint --fix .",
     "test": "jest --verbose",
     "start": "npm-run-all --sequential lint build test"
   },
@@ -44,7 +44,8 @@
     "chalk": "^5.3.0",
     "fs-extra": "^11.2.0",
     "slugify": "^1.6.6",
-    "svgo": "^3.3.2"
+    "svgo": "^3.3.2",
+    "xml-js": "^1.6.11"
   },
   "devDependencies": {
     "@babel/core": "^7.24.7",
