@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translationsCurrencies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" language="it">
+    <currency key="AED">
+        <name>Dirham degli Emirati Arabi Uniti</name>
+    </currency>
+    <currency key="AFN">
+        <name>Afghani</name>
+    </currency>
+    <currency key="ALL">
+        <name>Lek</name>
+    </currency>
+    <currency key="AMD">
+        <name>Dram Armeno</name>
+    </currency>
+    <currency key="ANG">
+        <name>Fiorino delle Antille Olandesi</name>
+    </currency>
+    <currency key="AOA">
+        <name>Kwanza</name>
+    </currency>
+    <currency key="ARS">
+        <name>Peso Argentino</name>
+    </currency>
+    <currency key="AUD">
+        <name>Dollaro Australiano</name>
+    </currency>
+    <currency key="AWG">
+        <name>Fiorino di Aruba</name>
+    </currency>
+    <currency key="AZN">
+        <name>Manat Azero</name>
+    </currency>
+    <currency key="BAM">
+        <name>Marco Convertibile</name>
+    </currency>
+    <currency key="BBD">
+        <name>Dollaro di Barbados</name>
+    </currency>
+    <currency key="BDT">
+        <name>Taka</name>
+    </currency>
+    <currency key="BGN">
+        <name>Lev Bulgaro</name>
+    </currency>
+    <currency key="BHD">
+        <name>Dinaro del Bahrain</name>
+    </currency>
+    <currency key="BIF">
+        <name>Franco del Burundi</name>
+    </currency>
+    <currency key="BMD">
+        <name>Dollaro delle Bermuda</name>
+    </currency>
+    <currency key="BND">
+        <name>Dollaro del Brunei</name>
+    </currency>
+    <currency key="BOB">
+        <name>Boliviano</name>
+    </currency>
+    <currency key="BOV">
+        <name>Mvdol</name>
+    </currency>
+    <currency key="BRL">
+        <name>Real Brasiliano</name>
+    </currency>
+    <currency key="BSD">
+        <name>Dollaro delle Bahamas</name>
+    </currency>
+    <currency key="BTN">
+        <name>Ngultrum</name>
+    </currency>
+    <currency key="BWP">
+        <name>Pula</name>
+    </currency>
+    <currency key="BYN">
+        <name>Rublo Bielorusso</name>
+    </currency>
+    <currency key="BZD">
+        <name>Dollaro del Belize</name>
+    </currency>
+    <currency key="CAD">
+        <name>Dollaro Canadese</name>
+    </currency>
+    <currency key="CDF">
+        <name>Franco Congolese</name>
+    </currency>
+    <currency key="CHE">
+        <name>Euro WIR</name>
+    </currency>
+    <currency key="CHF">
+        <name>Franco Svizzero</name>
+    </currency>
+    <currency key="CHW">
+        <name>Franco WIR</name>
+    </currency>
+    <currency key="CLF">
+        <name>Unidad de Fomento</name>
+    </currency>
+    <currency key="CLP">
+        <name>Peso Cileno</name>
+    </currency>
+    <currency key="CNY">
+        <name>Renminbi Cinese</name>
+    </currency>
+    <currency key="COP">
+        <name>Peso Colombiano</name>
+    </currency>
+    <currency key="COU">
+        <name>Unidad de Valor Real</name>
+    </currency>
+    <currency key="CRC">
+        <name>Colón Costaricano</name>
+    </currency>
+    <currency key="CUC">
+        <name>Peso Cubano Convertible</name>
+    </currency>
+    <currency key="CUP">
+        <name>Peso Cubano</name>
+    </currency>
+    <currency key="CVE">
+        <name>Escudo di Capo Verde</name>
+    </currency>
+    <currency key="CZK">
+        <name>Corona Ceca</name>
+    </currency>
+    <currency key="DJF">
+        <name>Franco di Gibuti</name>
+    </currency>
+    <currency key="DKK">
+        <name>Corona Danese</name>
+    </currency>
+    <currency key="DOP">
+        <name>Peso Dominicano</name>
+    </currency>
+    <currency key="DZD">
+        <name>Dinaro Algerino</name>
+    </currency>
+    <currency key="EGP">
+        <name>Sterlina Egiziana</name>
+    </currency>
+    <currency key="ERN">
+        <name>Nakfa</name>
+    </currency>
+    <currency key="ETB">
+        <name>Birr Etiope</name>
+    </currency>
+    <currency key="EUR">
+        <name>Euro</name>
+    </currency>
+    <currency key="FJD">
+        <name>Dollaro delle Figi</name>
+    </currency>
+    <currency key="FKP">
+        <name>Sterlina delle Falkland</name>
+    </currency>
+    <currency key="GBP">
+        <name>Sterlina Britannica</name>
+    </currency>
+    <currency key="GEL">
+        <name>Lari Georgiano</name>
+    </currency>
+    <currency key="GHS">
+        <name>Cedi del Ghana</name>
+    </currency>
+    <currency key="GIP">
+        <name>Sterlina di Gibilterra</name>
+    </currency>
+    <currency key="GMD">
+        <name>Dalasi</name>
+    </currency>
+    <currency key="GNF">
+        <name>Franco della Guinea</name>
+    </currency>
+    <currency key="GTQ">
+        <name>Quetzal</name>
+    </currency>
+    <currency key="GYD">
+        <name>Dollaro della Guyana</name>
+    </currency>
+    <currency key="HKD">
+        <name>Dollaro di Hong Kong</name>
+    </currency>
+    <currency key="HNL">
+        <name>Lempira</name>
+    </currency>
+    <currency key="HTG">
+        <name>Gourde</name>
+    </currency>
+    <currency key="HUF">
+        <name>Fiorino Ungherese</name>
+    </currency>
+    <currency key="IDR">
+        <name>Rupia Indonesiana</name>
+    </currency>
+    <currency key="ILS">
+        <name>Nuovo Sheqel Israeliano</name>
+    </currency>
+    <currency key="INR">
+        <name>Rupia Indiana</name>
+    </currency>
+    <currency key="IQD">
+        <name>Dinaro Iracheno</name>
+    </currency>
+    <currency key="IRR">
+        <name>Rial Iraniano</name>
+    </currency>
+    <currency key="ISK">
+        <name>Corona Islandese</name>
+    </currency>
+    <currency key="JMD">
+        <name>Dollaro Giamaicano</name>
+    </currency>
+    <currency key="JOD">
+        <name>Dinaro Giordano</name>
+    </currency>
+    <currency key="JPY">
+        <name>Yen Giapponese</name>
+    </currency>
+    <currency key="KES">
+        <name>Scellino Keniota</name>
+    </currency>
+    <currency key="KGS">
+        <name>Som Kirghiso</name>
+    </currency>
+    <currency key="KHR">
+        <name>Riel Cambogiano</name>
+    </currency>
+    <currency key="KMF">
+        <name>Franco Comoriano</name>
+    </currency>
+    <currency key="KPW">
+        <name>Won Nordcoreano</name>
+    </currency>
+    <currency key="KRW">
+        <name>Won Sudcoreano</name>
+    </currency>
+    <currency key="KWD">
+        <name>Dinaro Kuwaitiano</name>
+    </currency>
+    <currency key="KYD">
+        <name>Dollaro delle Isole Cayman</name>
+    </currency>
+    <currency key="KZT">
+        <name>Tenge Kazako</name>
+    </currency>
+    <currency key="LAK">
+        <name>Kip del Laos</name>
+    </currency>
+    <currency key="LBP">
+        <name>Sterlina Libanese</name>
+    </currency>
+    <currency key="LKR">
+        <name>Rupia dello Sri Lanka</name>
+    </currency>
+    <currency key="LRD">
+        <name>Dollaro Liberiano</name>
+    </currency>
+    <currency key="LSL">
+        <name>Loti</name>
+    </currency>
+    <currency key="LYD">
+        <name>Dinaro Libico</name>
+    </currency>
+    <currency key="MAD">
+        <name>Dirham Marocchino</name>
+    </currency>
+    <currency key="MDL">
+        <name>Leu Moldavo</name>
+    </currency>
+    <currency key="MGA">
+        <name>Ariary Malgascio</name>
+    </currency>
+    <currency key="MKD">
+        <name>Dinaro Macedone</name>
+    </currency>
+    <currency key="MMK">
+        <name>Kyat Birmano</name>
+    </currency>
+    <currency key="MNT">
+        <name>Tugrik Mongolo</name>
+    </currency>
+    <currency key="MOP">
+        <name>Pataca</name>
+    </currency>
+    <currency key="MRU">
+        <name>Ouguiya</name>
+    </currency>
+    <currency key="MUR">
+        <name>Rupia Mauriziana</name>
+    </currency>
+    <currency key="MVR">
+        <name>Rufiyaa</name>
+    </currency>
+    <currency key="MWK">
+        <name>Kwacha Malawiano</name>
+    </currency>
+    <currency key="MXN">
+        <name>Peso Messicano</name>
+    </currency>
+    <currency key="MXV">
+        <name>Unidad de Inversion (UDI) Messicana</name>
+    </currency>
+    <currency key="MYR">
+        <name>Ringgit Malese</name>
+    </currency>
+    <currency key="MZN">
+        <name>Metical Mozambicano</name>
+    </currency>
+    <currency key="NAD">
+        <name>Dollaro Namibiano</name>
+    </currency>
+    <currency key="NGN">
+        <name>Naira Nigeriana</name>
+    </currency>
+    <currency key="NIO">
+        <name>Cordoba Oro</name>
+    </currency>
+    <currency key="NOK">
+        <name>Corona Norvegese</name>
+    </currency>
+    <currency key="NPR">
+        <name>Rupia Nepalese</name>
+    </currency>
+    <currency key="NZD">
+        <name>Dollaro Neozelandese</name>
+    </currency>
+    <currency key="OMR">
+        <name>Rial Omanita</name>
+    </currency>
+    <currency key="PAB">
+        <name>Balboa</name>
+    </currency>
+    <currency key="PEN">
+        <name>Sol Peruviano</name>
+    </currency>
+    <currency key="PGK">
+        <name>Kina della Papua Nuova Guinea</name>
+    </currency>
+    <currency key="PHP">
+        <name>Peso Filippino</name>
+    </currency>
+    <currency key="PKR">
+        <name>Rupia Pakistana</name>
+    </currency>
+    <currency key="PLN">
+        <name>Zloty Polacco</name>
+    </currency>
+    <currency key="PYG">
+        <name>Guarani</name>
+    </currency>
+    <currency key="QAR">
+        <name>Rial Qatariota</name>
+    </currency>
+    <currency key="RON">
+        <name>Leu Rumeno</name>
+    </currency>
+    <currency key="RSD">
+        <name>Dinaro Serbo</name>
+    </currency>
+    <currency key="RUB">
+        <name>Rublo Russo</name>
+    </currency>
+    <currency key="RWF">
+        <name>Franco Ruandese</name>
+    </currency>
+    <currency key="SAR">
+        <name>Riyal Saudita</name>
+    </currency>
+    <currency key="SBD">
+        <name>Dollaro delle Isole Salomone</name>
+    </currency>
+    <currency key="SCR">
+        <name>Rupia delle Seychelles</name>
+    </currency>
+    <currency key="SDG">
+        <name>Sterlina Sudanese</name>
+    </currency>
+    <currency key="SEK">
+        <name>Corona Svedese</name>
+    </currency>
+    <currency key="SGD">
+        <name>Dollaro di Singapore</name>
+    </currency>
+    <currency key="SHP">
+        <name>Sterlina di Sant'Elena</name>
+    </currency>
+    <currency key="SLE">
+        <name>Leone</name>
+    </currency>
+    <currency key="SLL">
+        <name>Leone (dismesso)</name>
+    </currency>
+    <currency key="SOS">
+        <name>Scellino Somalo</name>
+    </currency>
+    <currency key="SRD">
+        <name>Dollaro del Suriname</name>
+    </currency>
+    <currency key="SSP">
+        <name>Sterlina Sudsudanese</name>
+    </currency>
+    <currency key="STN">
+        <name>Dobra</name>
+    </currency>
+    <currency key="SVC">
+        <name>Colón Salvadoregno</name>
+    </currency>
+    <currency key="SYP">
+        <name>Sterlina Siriana</name>
+    </currency>
+    <currency key="SZL">
+        <name>Lilangeni</name>
+    </currency>
+    <currency key="THB">
+        <name>Baht Tailandese</name>
+    </currency>
+    <currency key="TJS">
+        <name>Somoni Tagiko</name>
+    </currency>
+    <currency key="TMT">
+        <name>Manat Turkmeno</name>
+    </currency>
+    <currency key="TND">
+        <name>Dinaro Tunisino</name>
+    </currency>
+    <currency key="TOP">
+        <name>Pa'anga</name>
+    </currency>
+    <currency key="TRY">
+        <name>Lira Turca</name>
+    </currency>
+    <currency key="TTD">
+        <name>Dollaro di Trinidad e Tobago</name>
+    </currency>
+    <currency key="TWD">
+        <name>Nuovo Dollaro di Taiwan</name>
+    </currency>
+    <currency key="TZS">
+        <name>Scellino della Tanzania</name>
+    </currency>
+    <currency key="UAH">
+        <name>Grivnia Ucraina</name>
+    </currency>
+    <currency key="UGX">
+        <name>Scellino Ugandese</name>
+    </currency>
+    <currency key="USD">
+        <name>Dollaro Statunitense</name>
+    </currency>
+    <currency key="USN">
+        <name>Dollaro Statunitense (giorno successivo)</name>
+    </currency>
+    <currency key="UYI">
+        <name>Peso Uruguayo in Unidades Indexadas (UI)</name>
+    </currency>
+    <currency key="UYU">
+        <name>Peso Uruguayo</name>
+    </currency>
+    <currency key="UYW">
+        <name>Unidad Previsional</name>
+    </currency>
+    <currency key="UZS">
+        <name>Sum Uzbeko</name>
+    </currency>
+    <currency key="VED">
+        <name>Bolívar Venezuelano Digitale</name>
+    </currency>
+    <currency key="VES">
+        <name>Bolívar Venezuelano</name>
+    </currency>
+    <currency key="VND">
+        <name>Dong Vietnamita</name>
+    </currency>
+    <currency key="VUV">
+        <name>Vatu</name>
+    </currency>
+    <currency key="WST">
+        <name>Tala</name>
+    </currency>
+    <currency key="XAF">
+        <name>Franco CFA BEAC</name>
+    </currency>
+    <currency key="XAG">
+        <name>Argento</name>
+    </currency>
+    <currency key="XAU">
+        <name>Oro</name>
+    </currency>
+    <currency key="XBA">
+        <name>Unità composita europea dei mercati obbligazionari (EURCO)</name>
+    </currency>
+    <currency key="XBB">
+        <name>Unità monetaria europea dei mercati obbligazionari (EMU-6)</name>
+    </currency>
+    <currency key="XBC">
+        <name>Unità di conto europea 9 (EUA-9)</name>
+    </currency>
+    <currency key="XBD">
+        <name>Unità di conto europea 17 (EUA-17)</name>
+    </currency>
+    <currency key="XCD">
+        <name>Dollaro dei Caraibi Orientali</name>
+    </currency>
+    <currency key="XDR">
+        <name>Diritti Speciali di Prelievo (SDR)</name>
+    </currency>
+    <currency key="XOF">
+        <name>Franco CFA BCEAO</name>
+    </currency>
+    <currency key="XPD">
+        <name>Palladio</name>
+    </currency>
+    <currency key="XPF">
+        <name>Franco CFP</name>
+    </currency>
+    <currency key="XPT">
+        <name>Platino</name>
+    </currency>
+    <currency key="XSU">
+        <name>Sucre</name>
+    </currency>
+    <currency key="XTS">
+        <name>Codici riservati specificamente per scopi di prova</name>
+    </currency>
+    <currency key="XUA">
+        <name>Unità di conto ADB</name>
+    </currency>
+    <currency key="XXX">
+        <name>Codici assegnati per transazioni senza valuta</name>
+    </currency>
+    <currency key="YER">
+        <name>Rial dello Yemen</name>
+    </currency>
+    <currency key="ZAR">
+        <name>Rand Sudafricano</name>
+    </currency>
+    <currency key="ZMW">
+        <name>Kwacha dello Zambia</name>
+    </currency>
+    <currency key="ZWL">
+        <name>Dollaro dello Zimbabwe</name>
+    </currency>
+</translationsCurrencies>

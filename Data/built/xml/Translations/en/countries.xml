@@ -1,0 +1,2549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translationsCountries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" language="en">
+    <country key="AD">
+        <name>Andorra</name>
+        <fullName>Principality of Andorra</fullName>
+        <demonyms>
+            <demonym>Andorrans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>andorran</keyword>
+        </keywords>
+    </country>
+    <country key="AE">
+        <name>United Arab Emirates</name>
+        <fullName>United Arab Emirates</fullName>
+        <demonyms>
+            <demonym>Emiratis</demonym>
+            <demonym>Emaratians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>uae</keyword>
+            <keyword>emirati</keyword>
+        </keywords>
+    </country>
+    <country key="AF">
+        <name>Afghanistan</name>
+        <fullName>Islamic Emirate of Afghanistan</fullName>
+        <demonyms>
+            <demonym>Afghans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>afghan</keyword>
+        </keywords>
+    </country>
+    <country key="AG">
+        <name>Antigua and Barbuda</name>
+        <fullName>Antigua and Barbuda</fullName>
+        <demonyms>
+            <demonym>Antiguans</demonym>
+            <demonym>Barbudans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>antiguan</keyword>
+            <keyword>barbudan</keyword>
+        </keywords>
+    </country>
+    <country key="AI">
+        <name>Anguilla</name>
+        <fullName>Anguilla</fullName>
+        <demonyms>
+            <demonym>Anguillans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>anguillan</keyword>
+        </keywords>
+    </country>
+    <country key="AL">
+        <name>Albania</name>
+        <fullName>Republic of Albania</fullName>
+        <demonyms>
+            <demonym>Albanians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>albanian</keyword>
+        </keywords>
+    </country>
+    <country key="AM">
+        <name>Armenia</name>
+        <fullName>Republic of Armenia</fullName>
+        <demonyms>
+            <demonym>Armenians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>armenian</keyword>
+        </keywords>
+    </country>
+    <country key="AO">
+        <name>Angola</name>
+        <fullName>Republic of Angola</fullName>
+        <demonyms>
+            <demonym>Angolans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>angolan</keyword>
+        </keywords>
+    </country>
+    <country key="AQ">
+        <name>Antartica</name>
+        <fullName>Antartica</fullName>
+        <demonyms/>
+        <keywords>
+            <keyword>antarctics</keyword>
+            <keyword>antarctic</keyword>
+        </keywords>
+    </country>
+    <country key="AR">
+        <name>Argentina</name>
+        <fullName>Argentine Republic</fullName>
+        <demonyms>
+            <demonym>Argentinians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>argentine</keyword>
+            <keyword>argentines</keyword>
+        </keywords>
+    </country>
+    <country key="AS">
+        <name>American Samoa</name>
+        <fullName>American Samoa</fullName>
+        <demonyms>
+            <demonym>Samoans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>samoan</keyword>
+        </keywords>
+    </country>
+    <country key="AT">
+        <name>Austria</name>
+        <fullName>Republic of Austria</fullName>
+        <demonyms>
+            <demonym>Austrians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>austrian</keyword>
+        </keywords>
+    </country>
+    <country key="AU">
+        <name>Australia</name>
+        <fullName>Commonwealth of Australia</fullName>
+        <demonyms>
+            <demonym>Australians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>aussie</keyword>
+            <keyword>australian</keyword>
+        </keywords>
+    </country>
+    <country key="AW">
+        <name>Aruba</name>
+        <fullName>Country of Aruba</fullName>
+        <demonyms>
+            <demonym>Arubans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>abc</keyword>
+            <keyword>islands</keyword>
+            <keyword>aruban</keyword>
+        </keywords>
+    </country>
+    <country key="AX">
+        <name>Åland Islands</name>
+        <fullName>Region of Åland</fullName>
+        <demonyms>
+            <demonym>Åland Islanders</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>alandic</keyword>
+            <keyword>alandics</keyword>
+        </keywords>
+    </country>
+    <country key="AZ">
+        <name>Azerbaijan</name>
+        <fullName>Republic of Azerbaijan</fullName>
+        <demonyms>
+            <demonym>Azerbaijanis</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>azerbaijani</keyword>
+        </keywords>
+    </country>
+    <country key="BA">
+        <name>Bosnia and Herzegovina</name>
+        <fullName>Bosnia and Herzegovina</fullName>
+        <demonyms>
+            <demonym>Bosnians</demonym>
+            <demonym>Herzegovinians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>bosnian</keyword>
+            <keyword>herzegovinian</keyword>
+            <keyword>bosnianherzegovinian</keyword>
+            <keyword>bosnianherzegovinians</keyword>
+        </keywords>
+    </country>
+    <country key="BB">
+        <name>Barbados</name>
+        <fullName>Barbados</fullName>
+        <demonyms>
+            <demonym>Barbadians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>barbadian</keyword>
+        </keywords>
+    </country>
+    <country key="BD">
+        <name>Bangladesh</name>
+        <fullName>People's Republic of Bangladesh</fullName>
+        <demonyms>
+            <demonym>Bangladeshis</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>bangladeshi</keyword>
+        </keywords>
+    </country>
+    <country key="BE">
+        <name>Belgium</name>
+        <fullName>Kingdom of Belgium</fullName>
+        <demonyms>
+            <demonym>Belgians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>belgian</keyword>
+        </keywords>
+    </country>
+    <country key="BF">
+        <name>Burkina Faso</name>
+        <fullName>Burkina Faso</fullName>
+        <demonyms>
+            <demonym>Burkinabés</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>burkinabe</keyword>
+        </keywords>
+    </country>
+    <country key="BG">
+        <name>Bulgaria</name>
+        <fullName>Republic of Bulgaria</fullName>
+        <demonyms>
+            <demonym>Bulgarians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>bulgarian</keyword>
+        </keywords>
+    </country>
+    <country key="BH">
+        <name>Bahrain</name>
+        <fullName>Kingdom of Bahrain</fullName>
+        <demonyms>
+            <demonym>Bahrainis</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>bahraini</keyword>
+        </keywords>
+    </country>
+    <country key="BI">
+        <name>Burundi</name>
+        <fullName>Republic of Burundi</fullName>
+        <demonyms>
+            <demonym>Burundians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>burundian</keyword>
+        </keywords>
+    </country>
+    <country key="BJ">
+        <name>Benin</name>
+        <fullName>Republic of Benin</fullName>
+        <demonyms>
+            <demonym>Beninese</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>dahomey</keyword>
+        </keywords>
+    </country>
+    <country key="BL">
+        <name>Saint Barthélemy</name>
+        <fullName>Overseas Collectivity of Saint Barthélemy</fullName>
+        <demonyms>
+            <demonym>Barthélemois</demonym>
+            <demonym>Saint Barthélemy Islanders</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>com</keyword>
+        </keywords>
+    </country>
+    <country key="BM">
+        <name>Bermuda</name>
+        <fullName>Bermuda</fullName>
+        <demonyms>
+            <demonym>Bermudians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>bermudian</keyword>
+        </keywords>
+    </country>
+    <country key="BN">
+        <name>Brunei</name>
+        <fullName>Brunei Darussalam</fullName>
+        <demonyms>
+            <demonym>Bruneians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>bruneian</keyword>
+        </keywords>
+    </country>
+    <country key="BO">
+        <name>Bolivia</name>
+        <fullName>Plurinational State of Bolivia</fullName>
+        <demonyms>
+            <demonym>Bolivians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>bolivian</keyword>
+        </keywords>
+    </country>
+    <country key="BQ">
+        <name>Bonaire, Sint Eustatius and Saba</name>
+        <fullName>Caribbean Netherlands</fullName>
+        <demonyms>
+            <demonym>Bonaireans</demonym>
+            <demonym>Saba Islanders</demonym>
+            <demonym>Sabans</demonym>
+            <demonym>Sint Eustatians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>abc</keyword>
+            <keyword>islands</keyword>
+            <keyword>sss</keyword>
+            <keyword>bes</keyword>
+            <keyword>bonairian</keyword>
+            <keyword>bonairians</keyword>
+            <keyword>eustatian</keyword>
+            <keyword>saban</keyword>
+        </keywords>
+    </country>
+    <country key="BR">
+        <name>Brazil</name>
+        <fullName>Federative Republic of Brazil</fullName>
+        <demonyms>
+            <demonym>Brazilians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>brazilian</keyword>
+        </keywords>
+    </country>
+    <country key="BS">
+        <name>Bahamas</name>
+        <fullName>Commonwealth of The Bahamas</fullName>
+        <demonyms>
+            <demonym>Bahamians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>bahamian</keyword>
+        </keywords>
+    </country>
+    <country key="BT">
+        <name>Bhutan</name>
+        <fullName>Kingdom of Bhutan</fullName>
+        <demonyms>
+            <demonym>Bhutanese</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>thunder</keyword>
+            <keyword>dragon</keyword>
+            <keyword>kingdom</keyword>
+            <keyword>druk</keyword>
+            <keyword>yul</keyword>
+        </keywords>
+    </country>
+    <country key="BV">
+        <name>Bouvet Island</name>
+        <fullName>Bouvet Island</fullName>
+        <demonyms>
+            <demonym>Bouvet Islanders</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="BW">
+        <name>Botswana</name>
+        <fullName>Republic of Botswana</fullName>
+        <demonyms>
+            <demonym>Batswana</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>botswanan</keyword>
+        </keywords>
+    </country>
+    <country key="BY">
+        <name>Belarus</name>
+        <fullName>Republic of Belarus</fullName>
+        <demonyms>
+            <demonym>Belarusians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>white</keyword>
+            <keyword>russia</keyword>
+            <keyword>belarusian</keyword>
+        </keywords>
+    </country>
+    <country key="BZ">
+        <name>Belize</name>
+        <fullName>Belize</fullName>
+        <demonyms>
+            <demonym>Belizeans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>british</keyword>
+            <keyword>honduras</keyword>
+            <keyword>belizean</keyword>
+        </keywords>
+    </country>
+    <country key="CA">
+        <name>Canada</name>
+        <fullName>Canada</fullName>
+        <demonyms>
+            <demonym>Canadians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>canadian</keyword>
+        </keywords>
+    </country>
+    <country key="CC">
+        <name>Cocos (Keeling) Islands</name>
+        <fullName>Cocos (Keeling) Islands</fullName>
+        <demonyms>
+            <demonym>Cocosian</demonym>
+            <demonym>Cocos Islanders</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="CD">
+        <name>Congo (Democratic Republic of the)</name>
+        <fullName>Democratic Republic of the Congo</fullName>
+        <demonyms>
+            <demonym>Congolese</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>kinshasa</keyword>
+            <keyword>rdc</keyword>
+            <keyword>belgian</keyword>
+            <keyword>zaire</keyword>
+        </keywords>
+    </country>
+    <country key="CF">
+        <name>Central African Republic</name>
+        <fullName>Central African Republic</fullName>
+        <demonyms>
+            <demonym>Central Africans</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="CG">
+        <name>Congo</name>
+        <fullName>Republic of the Congo</fullName>
+        <demonyms>
+            <demonym>Congolese</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>brazzaville</keyword>
+            <keyword>french</keyword>
+        </keywords>
+    </country>
+    <country key="CH">
+        <name>Switzerland</name>
+        <fullName>Swiss Confederation</fullName>
+        <demonyms>
+            <demonym>Swiss</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="CI">
+        <name>Côte d'Ivoire</name>
+        <fullName>Republic of Côte d'Ivoire</fullName>
+        <demonyms>
+            <demonym>Ivorians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>ivorian</keyword>
+        </keywords>
+    </country>
+    <country key="CK">
+        <name>Cook Islands</name>
+        <fullName>Cook Islands</fullName>
+        <demonyms>
+            <demonym>Cook Islanders</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>island</keyword>
+        </keywords>
+    </country>
+    <country key="CL">
+        <name>Chile</name>
+        <fullName>Republic of Chile</fullName>
+        <demonyms>
+            <demonym>Chileans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>chilean</keyword>
+        </keywords>
+    </country>
+    <country key="CM">
+        <name>Cameroon</name>
+        <fullName>Republic of Cameroon</fullName>
+        <demonyms>
+            <demonym>Cameroonians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>cameroonian</keyword>
+        </keywords>
+    </country>
+    <country key="CN">
+        <name>China</name>
+        <fullName>People's Republic of China</fullName>
+        <demonyms>
+            <demonym>Chinese</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="CO">
+        <name>Colombia</name>
+        <fullName>Republic of Colombia</fullName>
+        <demonyms>
+            <demonym>Colombians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>colombian</keyword>
+        </keywords>
+    </country>
+    <country key="CR">
+        <name>Costa Rica</name>
+        <fullName>Republic of Costa Rica</fullName>
+        <demonyms>
+            <demonym>Costa Ricans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>rican</keyword>
+        </keywords>
+    </country>
+    <country key="CU">
+        <name>Cuba</name>
+        <fullName>Republic of Cuba</fullName>
+        <demonyms>
+            <demonym>Cubans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>cuban</keyword>
+        </keywords>
+    </country>
+    <country key="CV">
+        <name>Cabo Verde</name>
+        <fullName>Republic of Cabo Verde</fullName>
+        <demonyms>
+            <demonym>Cape Verdeans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>verdean</keyword>
+        </keywords>
+    </country>
+    <country key="CW">
+        <name>Curaçao</name>
+        <fullName>Country of Curaçao</fullName>
+        <demonyms>
+            <demonym>Curaçaoans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>abc</keyword>
+            <keyword>islands</keyword>
+            <keyword>curacaoan</keyword>
+        </keywords>
+    </country>
+    <country key="CX">
+        <name>Christmas Island</name>
+        <fullName>Christmas Island</fullName>
+        <demonyms>
+            <demonym>Christmas Islanders</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>kiritimati</keyword>
+        </keywords>
+    </country>
+    <country key="CY">
+        <name>Cyprus</name>
+        <fullName>Republic of Cyprus</fullName>
+        <demonyms>
+            <demonym>Cypriots</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>cypriot</keyword>
+        </keywords>
+    </country>
+    <country key="CZ">
+        <name>Czech Republic</name>
+        <fullName>Czech Republic</fullName>
+        <demonyms>
+            <demonym>Czechs</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="DE">
+        <name>Germany</name>
+        <fullName>Federal Republic of Germany</fullName>
+        <demonyms>
+            <demonym>Germans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>german</keyword>
+        </keywords>
+    </country>
+    <country key="DJ">
+        <name>Djibouti</name>
+        <fullName>Republic of Djibouti</fullName>
+        <demonyms>
+            <demonym>Djiboutians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>djiboutian</keyword>
+        </keywords>
+    </country>
+    <country key="DK">
+        <name>Denmark</name>
+        <fullName>Kingdom of Denmark</fullName>
+        <demonyms>
+            <demonym>Danes</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>danish</keyword>
+        </keywords>
+    </country>
+    <country key="DM">
+        <name>Dominica</name>
+        <fullName>Commonwealth of Dominica</fullName>
+        <demonyms>
+            <demonym>Dominicans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>dominican</keyword>
+        </keywords>
+    </country>
+    <country key="DO">
+        <name>Dominican Republic</name>
+        <fullName>Dominican Republic</fullName>
+        <demonyms>
+            <demonym>Dominicans</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="DZ">
+        <name>Algeria</name>
+        <fullName>People's Democratic Republic of Algeria</fullName>
+        <demonyms>
+            <demonym>Algerians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>algerian</keyword>
+        </keywords>
+    </country>
+    <country key="EC">
+        <name>Ecuador</name>
+        <fullName>Republic of Ecuador</fullName>
+        <demonyms>
+            <demonym>Ecuadorians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>ecuadorian</keyword>
+        </keywords>
+    </country>
+    <country key="EE">
+        <name>Estonia</name>
+        <fullName>Republic of Estonia</fullName>
+        <demonyms>
+            <demonym>Estonians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>estonian</keyword>
+        </keywords>
+    </country>
+    <country key="EG">
+        <name>Egypt</name>
+        <fullName>Arab Republic of Egypt</fullName>
+        <demonyms>
+            <demonym>Egyptians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>egyptian</keyword>
+        </keywords>
+    </country>
+    <country key="EH">
+        <name>Western Sahara</name>
+        <fullName>Sahrawi Arab Democratic Republic</fullName>
+        <demonyms>
+            <demonym>Sahrawis</demonym>
+            <demonym>Western Saharans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>sahrawi</keyword>
+        </keywords>
+    </country>
+    <country key="ER">
+        <name>Eritrea</name>
+        <fullName>State of Eritrea</fullName>
+        <demonyms>
+            <demonym>Eritreans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>eritrean</keyword>
+        </keywords>
+    </country>
+    <country key="ES">
+        <name>Spain</name>
+        <fullName>Kingdom of Spain</fullName>
+        <demonyms>
+            <demonym>Spaniards</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>iberia</keyword>
+            <keyword>iberian</keyword>
+            <keyword>peninsula</keyword>
+            <keyword>spanish</keyword>
+        </keywords>
+    </country>
+    <country key="ET">
+        <name>Ethiopia</name>
+        <fullName>Federal Democratic Republic of Ethiopia</fullName>
+        <demonyms>
+            <demonym>Ethiopians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>ethiopian</keyword>
+        </keywords>
+    </country>
+    <country key="FI">
+        <name>Finland</name>
+        <fullName>Republic of Finland</fullName>
+        <demonyms>
+            <demonym>Finns</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>finnish</keyword>
+        </keywords>
+    </country>
+    <country key="FJ">
+        <name>Fiji</name>
+        <fullName>Republic of Fiji</fullName>
+        <demonyms>
+            <demonym>Fijians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>fijian</keyword>
+        </keywords>
+    </country>
+    <country key="FK">
+        <name>Falkland Islands</name>
+        <fullName>Falkland Islands</fullName>
+        <demonyms>
+            <demonym>Falkland Islanders</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>falklandian</keyword>
+            <keyword>falklandic</keyword>
+            <keyword>falklander</keyword>
+            <keyword>falklandish</keyword>
+        </keywords>
+    </country>
+    <country key="FM">
+        <name>Micronesia (Federated States of)</name>
+        <fullName>Federated States of Micronesia</fullName>
+        <demonyms>
+            <demonym>Micronesians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>com</keyword>
+            <keyword>micronesian</keyword>
+        </keywords>
+    </country>
+    <country key="FO">
+        <name>Faroe Islands</name>
+        <fullName>Fær Øer</fullName>
+        <demonyms>
+            <demonym>Faroese</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="FR">
+        <name>France</name>
+        <fullName>French Republic</fullName>
+        <demonyms>
+            <demonym>French</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="GA">
+        <name>Gabon</name>
+        <fullName>Gabonese Republic</fullName>
+        <demonyms>
+            <demonym>Gabonese</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="GB">
+        <name>United Kingdom</name>
+        <fullName>United Kingdom of Great Britain and Northern Ireland</fullName>
+        <demonyms>
+            <demonym>British</demonym>
+            <demonym>English</demonym>
+            <demonym>Scottish</demonym>
+            <demonym>Welsh</demonym>
+            <demonym>Irish</demonym>
+            <demonym>Northern Irish</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>uk</keyword>
+            <keyword>ukgb</keyword>
+            <keyword>gbeng</keyword>
+            <keyword>gbnir</keyword>
+            <keyword>gbsct</keyword>
+            <keyword>gbwls</keyword>
+            <keyword>gbcym</keyword>
+            <keyword>gbeaw</keyword>
+            <keyword>gbgbn</keyword>
+            <keyword>gbukm</keyword>
+            <keyword>isles</keyword>
+            <keyword>caledonia</keyword>
+            <keyword>england</keyword>
+            <keyword>britannia</keyword>
+            <keyword>albion</keyword>
+            <keyword>scotland</keyword>
+            <keyword>wales</keyword>
+            <keyword>ireland</keyword>
+            <keyword>alba</keyword>
+            <keyword>cymru</keyword>
+            <keyword>ulster</keyword>
+            <keyword>britons</keyword>
+        </keywords>
+    </country>
+    <country key="GD">
+        <name>Grenada</name>
+        <fullName>Grenada</fullName>
+        <demonyms>
+            <demonym>Grenadians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>grenadian</keyword>
+        </keywords>
+    </country>
+    <country key="GE">
+        <name>Georgia</name>
+        <fullName>Republic of Georgia</fullName>
+        <demonyms>
+            <demonym>Georgians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>georgian</keyword>
+        </keywords>
+    </country>
+    <country key="GF">
+        <name>French Guiana</name>
+        <fullName>Department of French Guiana</fullName>
+        <demonyms>
+            <demonym>French Guianese</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>guyana</keyword>
+            <keyword>dom</keyword>
+        </keywords>
+    </country>
+    <country key="GG">
+        <name>Guernsey</name>
+        <fullName>Bailiwick of Guernsey</fullName>
+        <demonyms>
+            <demonym>Channel Islanders</demonym>
+            <demonym>Guernsey Islanders</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="GH">
+        <name>Ghana</name>
+        <fullName>Republic of Ghana</fullName>
+        <demonyms>
+            <demonym>Ghanaians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>ghanaian</keyword>
+        </keywords>
+    </country>
+    <country key="GI">
+        <name>Gibraltar</name>
+        <fullName>Gibraltar</fullName>
+        <demonyms>
+            <demonym>Gibraltarians</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="GL">
+        <name>Greenland</name>
+        <fullName>Greenland</fullName>
+        <demonyms>
+            <demonym>Greenlanders</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>inuit</keyword>
+            <keyword>greenlandic</keyword>
+        </keywords>
+    </country>
+    <country key="GM">
+        <name>Gambia</name>
+        <fullName>Republic of The Gambia</fullName>
+        <demonyms>
+            <demonym>Gambians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>gambian</keyword>
+        </keywords>
+    </country>
+    <country key="GN">
+        <name>Guinea</name>
+        <fullName>Republic of Guinea</fullName>
+        <demonyms>
+            <demonym>Guineans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>conakry</keyword>
+            <keyword>guinean</keyword>
+        </keywords>
+    </country>
+    <country key="GP">
+        <name>Guadeloupe</name>
+        <fullName>Department of Guadeloupe</fullName>
+        <demonyms>
+            <demonym>Guadeloupeans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>dom</keyword>
+        </keywords>
+    </country>
+    <country key="GQ">
+        <name>Equatorial Guinea</name>
+        <fullName>Republic of Equatorial Guinea</fullName>
+        <demonyms>
+            <demonym>Equatorial Guineans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>guinean</keyword>
+        </keywords>
+    </country>
+    <country key="GR">
+        <name>Greece</name>
+        <fullName>Hellenic Republic</fullName>
+        <demonyms>
+            <demonym>Greeks</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>hellenic</keyword>
+            <keyword>republic</keyword>
+            <keyword>greek</keyword>
+            <keyword>el</keyword>
+        </keywords>
+    </country>
+    <country key="GS">
+        <name>South Georgia and the South Sandwich Islands</name>
+        <fullName>South Georgia and the South Sandwich Islands</fullName>
+        <demonyms>
+            <demonym>South Georgians</demonym>
+            <demonym>South Sandwich Islanders</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>georgian</keyword>
+        </keywords>
+    </country>
+    <country key="GT">
+        <name>Guatemala</name>
+        <fullName>Republic of Guatemala</fullName>
+        <demonyms>
+            <demonym>Guatemalans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>guatemalan</keyword>
+        </keywords>
+    </country>
+    <country key="GU">
+        <name>Guam</name>
+        <fullName>Guam</fullName>
+        <demonyms>
+            <demonym>Guamanians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>guamanian</keyword>
+        </keywords>
+    </country>
+    <country key="GW">
+        <name>Guinea-Bissau</name>
+        <fullName>Republic of Guinea-Bissau</fullName>
+        <demonyms>
+            <demonym>Bissau-Guineans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>portuguese</keyword>
+            <keyword>guinea</keyword>
+            <keyword>guineabissauan</keyword>
+            <keyword>guineabissauans</keyword>
+        </keywords>
+    </country>
+    <country key="GY">
+        <name>Guyana</name>
+        <fullName>Co-operative Republic of Guyana</fullName>
+        <demonyms>
+            <demonym>Guyanese</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="HK">
+        <name>Hong Kong</name>
+        <fullName>Hong Kong Special Administrative Region of the People's Republic of China</fullName>
+        <demonyms>
+            <demonym>Hong Kongers</demonym>
+            <demonym>Hongkongers</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>kongese</keyword>
+            <keyword>hongkongish</keyword>
+        </keywords>
+    </country>
+    <country key="HM">
+        <name>Heard Island and McDonald Islands</name>
+        <fullName>Territory of Heard Island and McDonald Islands</fullName>
+        <demonyms/>
+        <keywords>
+            <keyword>heardian</keyword>
+            <keyword>heardians</keyword>
+        </keywords>
+    </country>
+    <country key="HN">
+        <name>Honduras</name>
+        <fullName>Republic of Honduras</fullName>
+        <demonyms>
+            <demonym>Hondurans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>honduran</keyword>
+        </keywords>
+    </country>
+    <country key="HR">
+        <name>Croatia</name>
+        <fullName>Republic of Croatia</fullName>
+        <demonyms>
+            <demonym>Croatians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>croatian</keyword>
+        </keywords>
+    </country>
+    <country key="HT">
+        <name>Haiti</name>
+        <fullName>Republic of Haiti</fullName>
+        <demonyms>
+            <demonym>Haitians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>haitian</keyword>
+        </keywords>
+    </country>
+    <country key="HU">
+        <name>Hungary</name>
+        <fullName>Hungary</fullName>
+        <demonyms>
+            <demonym>Hungarians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>hungarian</keyword>
+        </keywords>
+    </country>
+    <country key="ID">
+        <name>Indonesia</name>
+        <fullName>Republic of Indonesia</fullName>
+        <demonyms>
+            <demonym>Indonesians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>portuguese</keyword>
+            <keyword>timor</keyword>
+            <keyword>indonesian</keyword>
+        </keywords>
+    </country>
+    <country key="IE">
+        <name>Ireland</name>
+        <fullName>Republic of Ireland</fullName>
+        <demonyms>
+            <demonym>Irish</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>eire</keyword>
+        </keywords>
+    </country>
+    <country key="IL">
+        <name>Israel</name>
+        <fullName>State of Israel</fullName>
+        <demonyms>
+            <demonym>Israelis</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>israeli</keyword>
+        </keywords>
+    </country>
+    <country key="IM">
+        <name>Isle of Man</name>
+        <fullName>British islands Isle of Man</fullName>
+        <demonyms>
+            <demonym>Manx</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>mann</keyword>
+        </keywords>
+    </country>
+    <country key="IN">
+        <name>India</name>
+        <fullName>Republic of India</fullName>
+        <demonyms>
+            <demonym>Indians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>indian</keyword>
+        </keywords>
+    </country>
+    <country key="IO">
+        <name>British Indian Ocean Territory</name>
+        <fullName>British Indian Ocean Territory</fullName>
+        <demonyms>
+            <demonym>British Indians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>chagos</keyword>
+            <keyword>biot</keyword>
+            <keyword>oceanic</keyword>
+        </keywords>
+    </country>
+    <country key="IQ">
+        <name>Iraq</name>
+        <fullName>Republic of Iraq</fullName>
+        <demonyms>
+            <demonym>Iraqis</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>mesopotamia</keyword>
+            <keyword>iraqi</keyword>
+        </keywords>
+    </country>
+    <country key="IR">
+        <name>Iran</name>
+        <fullName>Islamic Republic of Iran</fullName>
+        <demonyms>
+            <demonym>Iranians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>persia</keyword>
+            <keyword>persian</keyword>
+            <keyword>persians</keyword>
+            <keyword>iranian</keyword>
+        </keywords>
+    </country>
+    <country key="IS">
+        <name>Iceland</name>
+        <fullName>Republic of Iceland</fullName>
+        <demonyms>
+            <demonym>Icelanders</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>icelandic</keyword>
+        </keywords>
+    </country>
+    <country key="IT">
+        <name>Italy</name>
+        <fullName>Italian Republic</fullName>
+        <demonyms>
+            <demonym>Italians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>italian</keyword>
+        </keywords>
+    </country>
+    <country key="JE">
+        <name>Jersey</name>
+        <fullName>Bailiwick of Jersey</fullName>
+        <demonyms>
+            <demonym>Channel Islanders</demonym>
+            <demonym>Jersey Islanders</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>norman</keyword>
+            <keyword>islands</keyword>
+        </keywords>
+    </country>
+    <country key="JM">
+        <name>Jamaica</name>
+        <fullName>Jamaica</fullName>
+        <demonyms>
+            <demonym>Jamaicans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>jamaican</keyword>
+        </keywords>
+    </country>
+    <country key="JO">
+        <name>Jordan</name>
+        <fullName>Hashemite Kingdom of Jordan</fullName>
+        <demonyms>
+            <demonym>Jordanians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>jordanian</keyword>
+        </keywords>
+    </country>
+    <country key="JP">
+        <name>Japan</name>
+        <fullName>Japan</fullName>
+        <demonyms>
+            <demonym>Japanese</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>nippon</keyword>
+        </keywords>
+    </country>
+    <country key="KE">
+        <name>Kenya</name>
+        <fullName>Republic of Kenya</fullName>
+        <demonyms>
+            <demonym>Kenyans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>kenyan</keyword>
+        </keywords>
+    </country>
+    <country key="KG">
+        <name>Kyrgyzstan</name>
+        <fullName>Kyrgyz Republic</fullName>
+        <demonyms>
+            <demonym>Kyrgyz</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>kyrgyzstani</keyword>
+            <keyword>kyrgyzstanis</keyword>
+        </keywords>
+    </country>
+    <country key="KH">
+        <name>Cambodia</name>
+        <fullName>Kingdom of Cambodia</fullName>
+        <demonyms>
+            <demonym>Cambodians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>cambodian</keyword>
+        </keywords>
+    </country>
+    <country key="KI">
+        <name>Kiribati</name>
+        <fullName>Republic of Kiribati</fullName>
+        <demonyms>
+            <demonym>I-Kiribati</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="KM">
+        <name>Comoros</name>
+        <fullName>Union of the Comoros</fullName>
+        <demonyms>
+            <demonym>Comorians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>comoran</keyword>
+        </keywords>
+    </country>
+    <country key="KN">
+        <name>Saint Kitts and Nevis</name>
+        <fullName>Federation of Saint Kitts and Nevis</fullName>
+        <demonyms>
+            <demonym>Kittitians</demonym>
+            <demonym>Nevisians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>kittitian</keyword>
+            <keyword>nevisian</keyword>
+        </keywords>
+    </country>
+    <country key="KP">
+        <name>Korea (Democratic People's Republic of)</name>
+        <fullName>Democratic People's Republic of Korea</fullName>
+        <demonyms>
+            <demonym>North Koreans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>korean</keyword>
+        </keywords>
+    </country>
+    <country key="KR">
+        <name>Korea (Republic of)</name>
+        <fullName>Republic of Korea</fullName>
+        <demonyms>
+            <demonym>South Koreans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>korean</keyword>
+        </keywords>
+    </country>
+    <country key="KW">
+        <name>Kuwait</name>
+        <fullName>State of Kuwait</fullName>
+        <demonyms>
+            <demonym>Kuwaitis</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>kuwaiti</keyword>
+        </keywords>
+    </country>
+    <country key="KY">
+        <name>Cayman Islands</name>
+        <fullName>Cayman Islands</fullName>
+        <demonyms>
+            <demonym>Caymanians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>caymanian</keyword>
+        </keywords>
+    </country>
+    <country key="KZ">
+        <name>Kazakhstan</name>
+        <fullName>Republic of Kazakhstan</fullName>
+        <demonyms>
+            <demonym>Kazakhs</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>kazakhstani</keyword>
+        </keywords>
+    </country>
+    <country key="LA">
+        <name>Lao People's Democratic Republic</name>
+        <fullName>Lao People's Democratic Republic</fullName>
+        <demonyms>
+            <demonym>Laotians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>laotian</keyword>
+        </keywords>
+    </country>
+    <country key="LB">
+        <name>Lebanon</name>
+        <fullName>Lebanese Republic</fullName>
+        <demonyms>
+            <demonym>Lebanese</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="LC">
+        <name>Saint Lucia</name>
+        <fullName>Saint Lucia</fullName>
+        <demonyms>
+            <demonym>Saint Lucians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>lucian</keyword>
+        </keywords>
+    </country>
+    <country key="LI">
+        <name>Liechtenstein</name>
+        <fullName>Principality of Liechtenstein</fullName>
+        <demonyms>
+            <demonym>Liechtensteiners</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="LK">
+        <name>Sri Lanka</name>
+        <fullName>Democratic Socialist Republic of Sri Lanka</fullName>
+        <demonyms>
+            <demonym>Sri Lankans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>ceylon</keyword>
+            <keyword>lankan</keyword>
+        </keywords>
+    </country>
+    <country key="LR">
+        <name>Liberia</name>
+        <fullName>Republic of Liberia</fullName>
+        <demonyms>
+            <demonym>Liberians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>liberian</keyword>
+        </keywords>
+    </country>
+    <country key="LS">
+        <name>Lesotho</name>
+        <fullName>Kingdom of Lesotho</fullName>
+        <demonyms>
+            <demonym>Basotho</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="LT">
+        <name>Lithuania</name>
+        <fullName>Republic of Lithuania</fullName>
+        <demonyms>
+            <demonym>Lithuanians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>lithuanian</keyword>
+        </keywords>
+    </country>
+    <country key="LU">
+        <name>Luxembourg</name>
+        <fullName>Grand Duchy of Luxembourg</fullName>
+        <demonyms>
+            <demonym>Luxembourgers</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="LV">
+        <name>Latvia</name>
+        <fullName>Republic of Latvia</fullName>
+        <demonyms>
+            <demonym>Latvians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>latvian</keyword>
+        </keywords>
+    </country>
+    <country key="LY">
+        <name>Libya</name>
+        <fullName>State of Libya</fullName>
+        <demonyms>
+            <demonym>Libyans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>libyan</keyword>
+        </keywords>
+    </country>
+    <country key="MA">
+        <name>Morocco</name>
+        <fullName>Kingdom of Morocco</fullName>
+        <demonyms>
+            <demonym>Moroccans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>moroccan</keyword>
+        </keywords>
+    </country>
+    <country key="MC">
+        <name>Monaco</name>
+        <fullName>Principality of Monaco</fullName>
+        <demonyms>
+            <demonym>Monégasque</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>monegasques</keyword>
+        </keywords>
+    </country>
+    <country key="MD">
+        <name>Moldova</name>
+        <fullName>Republic of Moldova</fullName>
+        <demonyms>
+            <demonym>Moldovans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>moldovan</keyword>
+        </keywords>
+    </country>
+    <country key="ME">
+        <name>Montenegro</name>
+        <fullName>Montenegro</fullName>
+        <demonyms>
+            <demonym>Montenegrins</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>montenegrin</keyword>
+        </keywords>
+    </country>
+    <country key="MF">
+        <name>Saint Martin (French part)</name>
+        <fullName>Overseas Collectivity of Saint Martin</fullName>
+        <demonyms>
+            <demonym>Saint-Martinois</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>com</keyword>
+            <keyword>saintmartinoise</keyword>
+        </keywords>
+    </country>
+    <country key="MG">
+        <name>Madagascar</name>
+        <fullName>Republic of Madagascar</fullName>
+        <demonyms>
+            <demonym>Malagasy</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="MH">
+        <name>Marshall Islands</name>
+        <fullName>Republic of the Marshall Islands</fullName>
+        <demonyms>
+            <demonym>Marshallese</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="MK">
+        <name>North Macedonia</name>
+        <fullName>Republic of North Macedonia</fullName>
+        <demonyms>
+            <demonym>Macedonians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>macedonian</keyword>
+        </keywords>
+    </country>
+    <country key="ML">
+        <name>Mali</name>
+        <fullName>Republic of Mali</fullName>
+        <demonyms>
+            <demonym>Malians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>malian</keyword>
+        </keywords>
+    </country>
+    <country key="MM">
+        <name>Myanmar</name>
+        <fullName>Republic of the Union of Myanmar</fullName>
+        <demonyms>
+            <demonym>Burmese</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>burma</keyword>
+        </keywords>
+    </country>
+    <country key="MN">
+        <name>Mongolia</name>
+        <fullName>Mongolia</fullName>
+        <demonyms>
+            <demonym>Mongolians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>mongolian</keyword>
+        </keywords>
+    </country>
+    <country key="MO">
+        <name>Macau</name>
+        <fullName>Macau Special Administrative Region of the People's Republic of China</fullName>
+        <demonyms>
+            <demonym>Macanese</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="MP">
+        <name>Northern Mariana Islands</name>
+        <fullName>Commonwealth of the Northern Mariana Islands</fullName>
+        <demonyms>
+            <demonym>Northern Mariana Islanders</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>marianan</keyword>
+        </keywords>
+    </country>
+    <country key="MQ">
+        <name>Martinique</name>
+        <fullName>Territorial Collectivity of Martinique</fullName>
+        <demonyms>
+            <demonym>Martiniquais</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>dom</keyword>
+        </keywords>
+    </country>
+    <country key="MR">
+        <name>Mauritania</name>
+        <fullName>Islamic Republic of Mauritania</fullName>
+        <demonyms>
+            <demonym>Mauritanians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>mauritanian</keyword>
+        </keywords>
+    </country>
+    <country key="MS">
+        <name>Montserrat</name>
+        <fullName>Colony of Montserrat</fullName>
+        <demonyms>
+            <demonym>Montserratians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>montserratian</keyword>
+        </keywords>
+    </country>
+    <country key="MT">
+        <name>Malta</name>
+        <fullName>Republic of Malta</fullName>
+        <demonyms>
+            <demonym>Maltese</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="MU">
+        <name>Mauritius</name>
+        <fullName>Republic of Mauritius</fullName>
+        <demonyms>
+            <demonym>Mauritians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>mauritian</keyword>
+        </keywords>
+    </country>
+    <country key="MV">
+        <name>Maldives</name>
+        <fullName>Republic of Maldives</fullName>
+        <demonyms>
+            <demonym>Maldivians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>maldivian</keyword>
+        </keywords>
+    </country>
+    <country key="MW">
+        <name>Malawi</name>
+        <fullName>Republic of Malawi</fullName>
+        <demonyms>
+            <demonym>Malawians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>malawian</keyword>
+        </keywords>
+    </country>
+    <country key="MX">
+        <name>Mexico</name>
+        <fullName>United Mexican States</fullName>
+        <demonyms>
+            <demonym>Mexicans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>mexican</keyword>
+        </keywords>
+    </country>
+    <country key="MY">
+        <name>Malaysia</name>
+        <fullName>Malaysia</fullName>
+        <demonyms>
+            <demonym>Malaysians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>malaysian</keyword>
+        </keywords>
+    </country>
+    <country key="MZ">
+        <name>Mozambique</name>
+        <fullName>Republic of Mozambique</fullName>
+        <demonyms>
+            <demonym>Mozambicans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>mozambican</keyword>
+        </keywords>
+    </country>
+    <country key="NA">
+        <name>Namibia</name>
+        <fullName>Republic of Namibia</fullName>
+        <demonyms>
+            <demonym>Namibians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>namibian</keyword>
+        </keywords>
+    </country>
+    <country key="NC">
+        <name>New Caledonia</name>
+        <fullName>Government of New Caledonia</fullName>
+        <demonyms>
+            <demonym>New Caledonians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>com</keyword>
+            <keyword>caledonian</keyword>
+        </keywords>
+    </country>
+    <country key="NE">
+        <name>Niger</name>
+        <fullName>Republic of Niger</fullName>
+        <demonyms>
+            <demonym>Nigeriens</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>nigerien</keyword>
+        </keywords>
+    </country>
+    <country key="NF">
+        <name>Norfolk Island</name>
+        <fullName>Territory of Norfolk Island</fullName>
+        <demonyms>
+            <demonym>Norfolk Islanders</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="NG">
+        <name>Nigeria</name>
+        <fullName>Federal Republic of Nigeria</fullName>
+        <demonyms>
+            <demonym>Nigerians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>nigerian</keyword>
+        </keywords>
+    </country>
+    <country key="NI">
+        <name>Nicaragua</name>
+        <fullName>Republic of Nicaragua</fullName>
+        <demonyms>
+            <demonym>Nicaraguans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>nicaraguan</keyword>
+        </keywords>
+    </country>
+    <country key="NL">
+        <name>Netherlands</name>
+        <fullName>Kingdom of the Netherlands</fullName>
+        <demonyms>
+            <demonym>Dutch</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>holland</keyword>
+        </keywords>
+    </country>
+    <country key="NO">
+        <name>Norway</name>
+        <fullName>Kingdom of Norway</fullName>
+        <demonyms>
+            <demonym>Norwegians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>norwegian</keyword>
+        </keywords>
+    </country>
+    <country key="NP">
+        <name>Nepal</name>
+        <fullName>Federal Democratic Republic of Nepal</fullName>
+        <demonyms>
+            <demonym>Nepalis</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>nepali</keyword>
+        </keywords>
+    </country>
+    <country key="NR">
+        <name>Nauru</name>
+        <fullName>Republic of Nauru</fullName>
+        <demonyms>
+            <demonym>Nauruans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>nauruan</keyword>
+        </keywords>
+    </country>
+    <country key="NU">
+        <name>Niue</name>
+        <fullName>Niue</fullName>
+        <demonyms>
+            <demonym>Niueans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>niuean</keyword>
+        </keywords>
+    </country>
+    <country key="NZ">
+        <name>New Zealand</name>
+        <fullName>New Zealand</fullName>
+        <demonyms>
+            <demonym>New Zealanders</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>zealandish</keyword>
+            <keyword>zealander</keyword>
+            <keyword>kiwi</keyword>
+        </keywords>
+    </country>
+    <country key="OM">
+        <name>Oman</name>
+        <fullName>Sultanate of Oman</fullName>
+        <demonyms>
+            <demonym>Omanis</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>omani</keyword>
+        </keywords>
+    </country>
+    <country key="PA">
+        <name>Panama</name>
+        <fullName>Republic of Panama</fullName>
+        <demonyms>
+            <demonym>Panamanians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>panamanian</keyword>
+        </keywords>
+    </country>
+    <country key="PE">
+        <name>Peru</name>
+        <fullName>Republic of Peru</fullName>
+        <demonyms>
+            <demonym>Peruvians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>peruvian</keyword>
+        </keywords>
+    </country>
+    <country key="PF">
+        <name>French Polynesia</name>
+        <fullName>Overseas Collectivity of French Polynesia</fullName>
+        <demonyms>
+            <demonym>French Polynesians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>com</keyword>
+            <keyword>polynesian</keyword>
+        </keywords>
+    </country>
+    <country key="PG">
+        <name>Papua New Guinea</name>
+        <fullName>Independent State of Papua New Guinea</fullName>
+        <demonyms>
+            <demonym>Papua New Guineans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>guinean</keyword>
+        </keywords>
+    </country>
+    <country key="PH">
+        <name>Philippines</name>
+        <fullName>Republic of the Philippines</fullName>
+        <demonyms>
+            <demonym>Filipinos</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>filipino</keyword>
+        </keywords>
+    </country>
+    <country key="PK">
+        <name>Pakistan</name>
+        <fullName>Islamic Republic of Pakistan</fullName>
+        <demonyms>
+            <demonym>Pakistanis</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>pakistani</keyword>
+        </keywords>
+    </country>
+    <country key="PL">
+        <name>Poland</name>
+        <fullName>Republic of Poland</fullName>
+        <demonyms>
+            <demonym>Poles</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>polish</keyword>
+        </keywords>
+    </country>
+    <country key="PM">
+        <name>Saint Pierre and Miquelon</name>
+        <fullName>Overseas Collectivity of Saint-Pierre and Miquelon</fullName>
+        <demonyms>
+            <demonym>Saint-Pierrais</demonym>
+            <demonym>Miquelonnais</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>com</keyword>
+            <keyword>or</keyword>
+        </keywords>
+    </country>
+    <country key="PN">
+        <name>Pitcairn</name>
+        <fullName>Pitcairn, Henderson, Ducie and Oeno Islands</fullName>
+        <demonyms>
+            <demonym>Pitcairn Islanders</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>island</keyword>
+        </keywords>
+    </country>
+    <country key="PR">
+        <name>Puerto Rico</name>
+        <fullName>Commonwealth of Puerto Rico</fullName>
+        <demonyms>
+            <demonym>Puerto Ricans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>rican</keyword>
+        </keywords>
+    </country>
+    <country key="PS">
+        <name>Palestine</name>
+        <fullName>State of Palestine</fullName>
+        <demonyms>
+            <demonym>Palestinians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>palestinian</keyword>
+        </keywords>
+    </country>
+    <country key="PT">
+        <name>Portugal</name>
+        <fullName>Portuguese Republic</fullName>
+        <demonyms>
+            <demonym>Portuguese</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="PW">
+        <name>Palau</name>
+        <fullName>Republic of Palau</fullName>
+        <demonyms>
+            <demonym>Palauans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>palauan</keyword>
+        </keywords>
+    </country>
+    <country key="PY">
+        <name>Paraguay</name>
+        <fullName>Republic of Paraguay</fullName>
+        <demonyms>
+            <demonym>Paraguayans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>paraguayan</keyword>
+        </keywords>
+    </country>
+    <country key="QA">
+        <name>Qatar</name>
+        <fullName>State of Qatar</fullName>
+        <demonyms>
+            <demonym>Qataris</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>qatari</keyword>
+        </keywords>
+    </country>
+    <country key="RE">
+        <name>The Réunion</name>
+        <fullName>Department of Réunion</fullName>
+        <demonyms>
+            <demonym>Réunionnais</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>dom</keyword>
+            <keyword>reunionese</keyword>
+        </keywords>
+    </country>
+    <country key="RO">
+        <name>Romania</name>
+        <fullName>Romania</fullName>
+        <demonyms>
+            <demonym>Romanians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>romanian</keyword>
+        </keywords>
+    </country>
+    <country key="RS">
+        <name>Serbia</name>
+        <fullName>Republic of Serbia</fullName>
+        <demonyms>
+            <demonym>Serbians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>serbian</keyword>
+            <keyword>serbs</keyword>
+        </keywords>
+    </country>
+    <country key="RU">
+        <name>Russian Federation</name>
+        <fullName>Russian Federation</fullName>
+        <demonyms>
+            <demonym>Russians</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="RW">
+        <name>Rwanda</name>
+        <fullName>Republic of Rwanda</fullName>
+        <demonyms>
+            <demonym>Rwandans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>rwandan</keyword>
+        </keywords>
+    </country>
+    <country key="SA">
+        <name>Saudi Arabia</name>
+        <fullName>Kingdom of Saudi Arabia</fullName>
+        <demonyms>
+            <demonym>Saudi Arabians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>arabian</keyword>
+        </keywords>
+    </country>
+    <country key="SB">
+        <name>Solomon Islands</name>
+        <fullName>Solomon Islands</fullName>
+        <demonyms>
+            <demonym>Solomon Islanders</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="SC">
+        <name>Seychelles</name>
+        <fullName>Republic of Seychelles</fullName>
+        <demonyms>
+            <demonym>Seychellois</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="SD">
+        <name>Sudan</name>
+        <fullName>Republic of the Sudan</fullName>
+        <demonyms>
+            <demonym>Sudanese</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="SE">
+        <name>Sweden</name>
+        <fullName>Kingdom of Sweden</fullName>
+        <demonyms>
+            <demonym>Swedes</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>swedish</keyword>
+        </keywords>
+    </country>
+    <country key="SG">
+        <name>Singapore</name>
+        <fullName>Republic of Singapore</fullName>
+        <demonyms>
+            <demonym>Singaporeans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>singaporean</keyword>
+        </keywords>
+    </country>
+    <country key="SH">
+        <name>Saint Helena, Ascension and Tristan da Cunha</name>
+        <fullName>Saint Helena, Ascension and Tristan da Cunha</fullName>
+        <demonyms>
+            <demonym>Saint Helenians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>helenian</keyword>
+        </keywords>
+    </country>
+    <country key="SI">
+        <name>Slovenia</name>
+        <fullName>Republic of Slovenia</fullName>
+        <demonyms>
+            <demonym>Slovenes</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>slovenian</keyword>
+            <keyword>slovenians</keyword>
+        </keywords>
+    </country>
+    <country key="SJ">
+        <name>Svalbard and Jan Mayen</name>
+        <fullName>Svalbard and Jan Mayen Islands</fullName>
+        <demonyms>
+            <demonym>Svalbard and Jan Mayen Islanders</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="SK">
+        <name>Slovakia</name>
+        <fullName>Slovak Republic</fullName>
+        <demonyms>
+            <demonym>Slovaks</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>slovak</keyword>
+        </keywords>
+    </country>
+    <country key="SL">
+        <name>Sierra Leone</name>
+        <fullName>Republic of Sierra Leone</fullName>
+        <demonyms>
+            <demonym>Sierra Leoneans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>leonean</keyword>
+        </keywords>
+    </country>
+    <country key="SM">
+        <name>San Marino</name>
+        <fullName>Republic of San Marino</fullName>
+        <demonyms>
+            <demonym>Sammarinese</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>sanmarinese</keyword>
+        </keywords>
+    </country>
+    <country key="SN">
+        <name>Senegal</name>
+        <fullName>Republic of Senegal</fullName>
+        <demonyms>
+            <demonym>Senegalese</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="SO">
+        <name>Somalia</name>
+        <fullName>Federal Republic of Somalia</fullName>
+        <demonyms>
+            <demonym>Somalis</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>somali</keyword>
+        </keywords>
+    </country>
+    <country key="SR">
+        <name>Suriname</name>
+        <fullName>Republic of Suriname</fullName>
+        <demonyms>
+            <demonym>Surinamese</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="SS">
+        <name>South Sudan</name>
+        <fullName>Republic of South Sudan</fullName>
+        <demonyms>
+            <demonym>South Sudanese</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="ST">
+        <name>Sao Tome and Principe</name>
+        <fullName>Democratic Republic of São Tomé and Príncipe</fullName>
+        <demonyms>
+            <demonym>São Toméans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>tomean</keyword>
+        </keywords>
+    </country>
+    <country key="SV">
+        <name>El Salvador</name>
+        <fullName>Republic of El Salvador</fullName>
+        <demonyms>
+            <demonym>Salvadorans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>salvadoran</keyword>
+        </keywords>
+    </country>
+    <country key="SX">
+        <name>Sint Maarten</name>
+        <fullName>Sint Maarten</fullName>
+        <demonyms>
+            <demonym>Sint Maarteners</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>sss</keyword>
+            <keyword>islands</keyword>
+        </keywords>
+    </country>
+    <country key="SY">
+        <name>Syrian Arab Republic</name>
+        <fullName>Syrian Arab Republic</fullName>
+        <demonyms>
+            <demonym>Syrians</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="SZ">
+        <name>Eswatini</name>
+        <fullName>Kingdom of Eswatini</fullName>
+        <demonyms>
+            <demonym>Swazis</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>swazi</keyword>
+        </keywords>
+    </country>
+    <country key="TC">
+        <name>Turks and Caicos Islands</name>
+        <fullName>Turks and Caicos Islands</fullName>
+        <demonyms>
+            <demonym>Turks and Caicos Islanders</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>island</keyword>
+        </keywords>
+    </country>
+    <country key="TD">
+        <name>Chad</name>
+        <fullName>Republic of Chad</fullName>
+        <demonyms>
+            <demonym>Chadians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>chadian</keyword>
+        </keywords>
+    </country>
+    <country key="TF">
+        <name>French Southern Territories</name>
+        <fullName>French Southern and Antarctic Lands</fullName>
+        <demonyms>
+            <demonym>French Southern and Antarctic Lands</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>taaf</keyword>
+        </keywords>
+    </country>
+    <country key="TG">
+        <name>Togo</name>
+        <fullName>Togolese Republic</fullName>
+        <demonyms>
+            <demonym>Togolese</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="TH">
+        <name>Thailand</name>
+        <fullName>Kingdom of Thailand</fullName>
+        <demonyms>
+            <demonym>Thais</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>thai</keyword>
+        </keywords>
+    </country>
+    <country key="TJ">
+        <name>Tajikistan</name>
+        <fullName>Republic of Tajikistan</fullName>
+        <demonyms>
+            <demonym>Tajiks</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>tajikistani</keyword>
+        </keywords>
+    </country>
+    <country key="TK">
+        <name>Tokelau</name>
+        <fullName>Tokelau Islands</fullName>
+        <demonyms>
+            <demonym>Tokelauans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>union</keyword>
+            <keyword>islands</keyword>
+            <keyword>tokelauan</keyword>
+        </keywords>
+    </country>
+    <country key="TL">
+        <name>East Timor</name>
+        <fullName>Democratic Republic of Timor-Leste</fullName>
+        <demonyms>
+            <demonym>East Timorese</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="TM">
+        <name>Turkmenistan</name>
+        <fullName>Turkmenistan</fullName>
+        <demonyms>
+            <demonym>Turkmen</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>turkmens</keyword>
+        </keywords>
+    </country>
+    <country key="TN">
+        <name>Tunisia</name>
+        <fullName>Republic of Tunisia</fullName>
+        <demonyms>
+            <demonym>Tunisians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>tunisian</keyword>
+        </keywords>
+    </country>
+    <country key="TO">
+        <name>Tonga</name>
+        <fullName>Kingdom of Tonga</fullName>
+        <demonyms>
+            <demonym>Tongans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>tongan</keyword>
+        </keywords>
+    </country>
+    <country key="TR">
+        <name>Turkey</name>
+        <fullName>Republic of Turkey</fullName>
+        <demonyms>
+            <demonym>Turks</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>turkish</keyword>
+        </keywords>
+    </country>
+    <country key="TT">
+        <name>Trinidad and Tobago</name>
+        <fullName>Republic of Trinidad and Tobago</fullName>
+        <demonyms>
+            <demonym>Trinidadians</demonym>
+            <demonym>Tobagonians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>trinidadian</keyword>
+        </keywords>
+    </country>
+    <country key="TV">
+        <name>Tuvalu</name>
+        <fullName>Tuvalu</fullName>
+        <demonyms>
+            <demonym>Tuvaluans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>tuvaluan</keyword>
+        </keywords>
+    </country>
+    <country key="TW">
+        <name>Taiwan</name>
+        <fullName>Republic of China</fullName>
+        <demonyms>
+            <demonym>Taiwanese</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>formosa</keyword>
+        </keywords>
+    </country>
+    <country key="TZ">
+        <name>Tanzania, United Republic of</name>
+        <fullName>United Republic of Tanzania</fullName>
+        <demonyms>
+            <demonym>Tanzanians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>tanzanian</keyword>
+        </keywords>
+    </country>
+    <country key="UA">
+        <name>Ukraine</name>
+        <fullName>Ukraine</fullName>
+        <demonyms>
+            <demonym>Ukrainians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>little</keyword>
+            <keyword>russia</keyword>
+            <keyword>ukrainian</keyword>
+        </keywords>
+    </country>
+    <country key="UG">
+        <name>Uganda</name>
+        <fullName>Republic of Uganda</fullName>
+        <demonyms>
+            <demonym>Ugandans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>ugandan</keyword>
+        </keywords>
+    </country>
+    <country key="UM">
+        <name>United States Minor Outlying Islands</name>
+        <fullName>United States Minor Outlying Islands</fullName>
+        <demonyms/>
+        <keywords>
+            <keyword>usmoi</keyword>
+        </keywords>
+    </country>
+    <country key="US">
+        <name>United States</name>
+        <fullName>United States of America</fullName>
+        <demonyms>
+            <demonym>Americans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>usa</keyword>
+            <keyword>us</keyword>
+            <keyword>america</keyword>
+            <keyword>american</keyword>
+        </keywords>
+    </country>
+    <country key="UY">
+        <name>Uruguay</name>
+        <fullName>Oriental Republic of Uruguay</fullName>
+        <demonyms>
+            <demonym>Uruguayans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>uruguayan</keyword>
+        </keywords>
+    </country>
+    <country key="UZ">
+        <name>Uzbekistan</name>
+        <fullName>Republic of Uzbekistan</fullName>
+        <demonyms>
+            <demonym>Uzbeks</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>uzbekistani</keyword>
+        </keywords>
+    </country>
+    <country key="VA">
+        <name>Holy See</name>
+        <fullName>Vatican City State</fullName>
+        <demonyms>
+            <demonym>Vatican Citizens</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="VC">
+        <name>Saint Vincent and the Grenadines</name>
+        <fullName>Saint Vincent and the Grenadines</fullName>
+        <demonyms>
+            <demonym>Saint Vincentians</demonym>
+            <demonym>Grenadines</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>vincentian</keyword>
+        </keywords>
+    </country>
+    <country key="VE">
+        <name>Venezuela</name>
+        <fullName>Bolivarian Republic of Venezuela</fullName>
+        <demonyms>
+            <demonym>Venezuelans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>venezuelan</keyword>
+        </keywords>
+    </country>
+    <country key="VG">
+        <name>Virgin Islands (British)</name>
+        <fullName>British Virgin Islands</fullName>
+        <demonyms>
+            <demonym>British Virgin Islanders</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="VI">
+        <name>Virgin Islands (U.S.)</name>
+        <fullName>United States Virgin Islands</fullName>
+        <demonyms>
+            <demonym>United States Virgin Islanders</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="VN">
+        <name>Viet Nam</name>
+        <fullName>Socialist Republic of Vietnam</fullName>
+        <demonyms>
+            <demonym>Vietnamese</demonym>
+        </demonyms>
+        <keywords/>
+    </country>
+    <country key="VU">
+        <name>Vanuatu</name>
+        <fullName>Republic of Vanuatu</fullName>
+        <demonyms>
+            <demonym>Ni-Vanuatu</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>vanuatuan</keyword>
+            <keyword>vanuatuans</keyword>
+        </keywords>
+    </country>
+    <country key="WF">
+        <name>Wallis and Futuna</name>
+        <fullName>Overseas Collectivity of the Wallis and Futuna Islands</fullName>
+        <demonyms>
+            <demonym>Wallis and Futuna Islanders</demonym>
+            <demonym>Wallisian-Futunan</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>alofi</keyword>
+            <keyword>com</keyword>
+        </keywords>
+    </country>
+    <country key="WS">
+        <name>Samoa</name>
+        <fullName>Independent State of Samoa</fullName>
+        <demonyms>
+            <demonym>Samoans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>samoan</keyword>
+        </keywords>
+    </country>
+    <country key="XK">
+        <name>Kosovo</name>
+        <fullName>Republic of Kosovo</fullName>
+        <demonyms>
+            <demonym>Yemenis</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>kosovar</keyword>
+            <keyword>kosovars</keyword>
+            <keyword>kosovan</keyword>
+            <keyword>kosovans</keyword>
+        </keywords>
+    </country>
+    <country key="YE">
+        <name>Yemen</name>
+        <fullName>Republic of Yemen</fullName>
+        <demonyms>
+            <demonym>Yemenis</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>yemeni</keyword>
+        </keywords>
+    </country>
+    <country key="YT">
+        <name>Mayotte</name>
+        <fullName>Departmental Collectivity of Mayotte</fullName>
+        <demonyms>
+            <demonym>Mahorais</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>dom</keyword>
+            <keyword>mahoran</keyword>
+            <keyword>mahorans</keyword>
+        </keywords>
+    </country>
+    <country key="ZA">
+        <name>South Africa</name>
+        <fullName>Republic of South Africa</fullName>
+        <demonyms>
+            <demonym>South Africans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>african</keyword>
+        </keywords>
+    </country>
+    <country key="ZM">
+        <name>Zambia</name>
+        <fullName>Republic of Zambia</fullName>
+        <demonyms>
+            <demonym>Zambians</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>zambian</keyword>
+        </keywords>
+    </country>
+    <country key="ZW">
+        <name>Zimbabwe</name>
+        <fullName>Republic of Zimbabwe</fullName>
+        <demonyms>
+            <demonym>Zimbabweans</demonym>
+        </demonyms>
+        <keywords>
+            <keyword>zimbabwean</keyword>
+        </keywords>
+    </country>
+</translationsCountries>

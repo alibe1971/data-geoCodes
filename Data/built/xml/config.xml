@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+    <languages>
+        <default>en</default>
+        <inPackage>
+            <locale language="en">en_GB</locale>
+            <locale language="it">it_IT</locale>
+        </inPackage>
+    </languages>
+</settings>

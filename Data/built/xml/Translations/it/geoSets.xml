@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translationsGeoSets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" language="it">
+    <geoSet key="CONV-G20">
+        <name>Gruppo dei Venti (G20)</name>
+    </geoSet>
+    <geoSet key="CONV-G7">
+        <name>Gruppo dei Sette (G7)</name>
+    </geoSet>
+    <geoSet key="CONV-SCHENGEN">
+        <name>Spazio Schengen</name>
+    </geoSet>
+    <geoSet key="CONV-UNCAC">
+        <name>Convenzione delle Nazioni Unite contro la Corruzione (CNUC)</name>
+    </geoSet>
+    <geoSet key="GEOG-AF">
+        <name>Africa</name>
+    </geoSet>
+    <geoSet key="GEOG-AF-NO">
+        <name>Africa Settentrionale</name>
+    </geoSet>
+    <geoSet key="GEOG-AF-SS">
+        <name>Africa Sub-Sahariana</name>
+    </geoSet>
+    <geoSet key="GEOG-AF-SS-EA">
+        <name>Africa Orientale</name>
+    </geoSet>
+    <geoSet key="GEOG-AF-SS-MD">
+        <name>Africa Centrale</name>
+    </geoSet>
+    <geoSet key="GEOG-AF-SS-SO">
+        <name>Africa Meridionale</name>
+    </geoSet>
+    <geoSet key="GEOG-AF-SS-WE">
+        <name>Africa Occidentale</name>
+    </geoSet>
+    <geoSet key="GEOG-AM">
+        <name>Americhe</name>
+    </geoSet>
+    <geoSet key="GEOG-AM-LA">
+        <name>America Latina e Caraibi</name>
+    </geoSet>
+    <geoSet key="GEOG-AM-LA-CA">
+        <name>Caraibi</name>
+    </geoSet>
+    <geoSet key="GEOG-AM-LA-CT">
+        <name>America Centrale</name>
+    </geoSet>
+    <geoSet key="GEOG-AM-LA-SO">
+        <name>America Meridionale</name>
+    </geoSet>
+    <geoSet key="GEOG-AM-NO">
+        <name>America Settentrionale</name>
+    </geoSet>
+    <geoSet key="GEOG-AQ">
+        <name>Antartide</name>
+    </geoSet>
+    <geoSet key="GEOG-AS">
+        <name>Asia</name>
+    </geoSet>
+    <geoSet key="GEOG-AS-CT">
+        <name>Asia Centrale</name>
+    </geoSet>
+    <geoSet key="GEOG-AS-EA">
+        <name>Asia Orientale</name>
+    </geoSet>
+    <geoSet key="GEOG-AS-SE">
+        <name>Asia Sud-Orientale</name>
+    </geoSet>
+    <geoSet key="GEOG-AS-SO">
+        <name>Asia Meridionale</name>
+    </geoSet>
+    <geoSet key="GEOG-AS-WE">
+        <name>Asia Occidentale</name>
+    </geoSet>
+    <geoSet key="GEOG-EU">
+        <name>Europa</name>
+    </geoSet>
+    <geoSet key="GEOG-EU-EA">
+        <name>Europa Orientale</name>
+    </geoSet>
+    <geoSet key="GEOG-EU-NO">
+        <name>Europa Settentrionale</name>
+    </geoSet>
+    <geoSet key="GEOG-EU-NO-CH">
+        <name>Isole del Canale</name>
+    </geoSet>
+    <geoSet key="GEOG-EU-SO">
+        <name>Europa Meridionale</name>
+    </geoSet>
+    <geoSet key="GEOG-EU-WE">
+        <name>Europa Occidentale</name>
+    </geoSet>
+    <geoSet key="GEOG-OC">
+        <name>Oceania</name>
+    </geoSet>
+    <geoSet key="GEOG-OC-AN">
+        <name>Australia e Nuova Zelanda</name>
+    </geoSet>
+    <geoSet key="GEOG-OC-ME">
+        <name>Melanesia</name>
+    </geoSet>
+    <geoSet key="GEOG-OC-MI">
+        <name>Micronesia</name>
+    </geoSet>
+    <geoSet key="GEOG-OC-PO">
+        <name>Polinesia</name>
+    </geoSet>
+    <geoSet key="ORGS-ACTO">
+        <name>Organizzazione del Trattato di Cooperazione Amazzonica (ACTO)</name>
+    </geoSet>
+    <geoSet key="ORGS-ASEAN">
+        <name>Associazione delle Nazioni del Sud-est Asiatico (ASEAN)</name>
+    </geoSet>
+    <geoSet key="ORGS-AU">
+        <name>Unione Africana (AU)</name>
+    </geoSet>
+    <geoSet key="ORGS-BRICS">
+        <name>BRICS</name>
+    </geoSet>
+    <geoSet key="ORGS-CIS">
+        <name>Comunità degli Stati Indipendenti (CSI)</name>
+    </geoSet>
+    <geoSet key="ORGS-COE">
+        <name>Consiglio d'Europa (CoE)</name>
+    </geoSet>
+    <geoSet key="ORGS-CSTO">
+        <name>Organizzazione del Trattato di Sicurezza Collettiva (OTSC)</name>
+    </geoSet>
+    <geoSet key="ORGS-CWNAT">
+        <name>Commonwealth delle Nazioni</name>
+    </geoSet>
+    <geoSet key="ORGS-CWRLM">
+        <name>Reame del Commonwealth</name>
+    </geoSet>
+    <geoSet key="ORGS-EU">
+        <name>Unione Europea (UE)</name>
+    </geoSet>
+    <geoSet key="ORGS-IBRD">
+        <name>Banca Internazionale per la Ricostruzione e lo Sviluppo (BIRS)</name>
+    </geoSet>
+    <geoSet key="ORGS-ICC">
+        <name>Corte Penale Internazionale (CPI)</name>
+    </geoSet>
+    <geoSet key="ORGS-ICSID">
+        <name>Centro Internazionale per la Regolamentazione delle Controversie relative agli Investimenti (ICSID)</name>
+    </geoSet>
+    <geoSet key="ORGS-IDA">
+        <name>Associazione Internazionale per lo Sviluppo (IDA)</name>
+    </geoSet>
+    <geoSet key="ORGS-IFC">
+        <name>Corporazione Finanziaria Internazionale (IFC)</name>
+    </geoSet>
+    <geoSet key="ORGS-IPOL">
+        <name>Organizzazione Internazionale di Polizia Criminale (Interpol)</name>
+    </geoSet>
+    <geoSet key="ORGS-MIGA">
+        <name>Agenzia Multilaterale di Garanzia degli Investimenti (MIGA)</name>
+    </geoSet>
+    <geoSet key="ORGS-NATO">
+        <name>Organizzazione del Trattato dell'Atlantico del Nord (NATO)</name>
+    </geoSet>
+    <geoSet key="ORGS-OAS">
+        <name>Organizzazione degli Stati Americani (OAS)</name>
+    </geoSet>
+    <geoSet key="ORGS-OECD">
+        <name>Organizzazione per la Cooperazione e lo Sviluppo Economico (OCSE)</name>
+    </geoSet>
+    <geoSet key="ORGS-OPEC">
+        <name>Organizzazione dei Paesi Esportatori di Petrolio (OPEC)</name>
+    </geoSet>
+    <geoSet key="ORGS-OSCE">
+        <name>Organizzazione per la Sicurezza e la Cooperazione in Europa (OSCE)</name>
+    </geoSet>
+    <geoSet key="ORGS-SCO">
+        <name>Organizzazione di Cooperazione di Shanghai (SCO)</name>
+    </geoSet>
+    <geoSet key="ORGS-UN">
+        <name>Nazioni Unite (ONU)</name>
+    </geoSet>
+    <geoSet key="ORGS-WCO">
+        <name>Organizzazione Mondiale delle Dogane (OMD)</name>
+    </geoSet>
+    <geoSet key="ORGS-WTO">
+        <name>Organizzazione Mondiale del Commercio (OMC)</name>
+    </geoSet>
+    <geoSet key="ZONE-EZ">
+        <name>Eurozona (EZ)</name>
+    </geoSet>
+</translationsGeoSets>

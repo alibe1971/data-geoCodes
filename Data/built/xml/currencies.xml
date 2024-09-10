@@ -1,0 +1,1083 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<currencies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <currency index="0">
+        <isoAlpha>AED</isoAlpha>
+        <isoNumber>784</isoNumber>
+        <symbol>د.إ</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="1">
+        <isoAlpha>AFN</isoAlpha>
+        <isoNumber>971</isoNumber>
+        <symbol>؋</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="2">
+        <isoAlpha>ALL</isoAlpha>
+        <isoNumber>008</isoNumber>
+        <symbol>Lek</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="3">
+        <isoAlpha>AMD</isoAlpha>
+        <isoNumber>051</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="4">
+        <isoAlpha>ANG</isoAlpha>
+        <isoNumber>532</isoNumber>
+        <symbol>ƒ</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="5">
+        <isoAlpha>AOA</isoAlpha>
+        <isoNumber>973</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="6">
+        <isoAlpha>ARS</isoAlpha>
+        <isoNumber>032</isoNumber>
+        <symbol>$</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="7">
+        <isoAlpha>AUD</isoAlpha>
+        <isoNumber>036</isoNumber>
+        <symbol>$</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="8">
+        <isoAlpha>AWG</isoAlpha>
+        <isoNumber>533</isoNumber>
+        <symbol>ƒ</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="9">
+        <isoAlpha>AZN</isoAlpha>
+        <isoNumber>944</isoNumber>
+        <symbol>₼</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="10">
+        <isoAlpha>BAM</isoAlpha>
+        <isoNumber>977</isoNumber>
+        <symbol>KM</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="11">
+        <isoAlpha>BBD</isoAlpha>
+        <isoNumber>052</isoNumber>
+        <symbol>$</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="12">
+        <isoAlpha>BDT</isoAlpha>
+        <isoNumber>050</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="13">
+        <isoAlpha>BGN</isoAlpha>
+        <isoNumber>975</isoNumber>
+        <symbol>лв</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="14">
+        <isoAlpha>BHD</isoAlpha>
+        <isoNumber>048</isoNumber>
+        <symbol/>
+        <decimal>3</decimal>
+    </currency>
+    <currency index="15">
+        <isoAlpha>BIF</isoAlpha>
+        <isoNumber>108</isoNumber>
+        <symbol/>
+        <decimal>0</decimal>
+    </currency>
+    <currency index="16">
+        <isoAlpha>BMD</isoAlpha>
+        <isoNumber>060</isoNumber>
+        <symbol>$</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="17">
+        <isoAlpha>BND</isoAlpha>
+        <isoNumber>096</isoNumber>
+        <symbol>$</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="18">
+        <isoAlpha>BOB</isoAlpha>
+        <isoNumber>068</isoNumber>
+        <symbol>$b</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="19">
+        <isoAlpha>BOV</isoAlpha>
+        <isoNumber>984</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="20">
+        <isoAlpha>BRL</isoAlpha>
+        <isoNumber>986</isoNumber>
+        <symbol>R$</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="21">
+        <isoAlpha>BSD</isoAlpha>
+        <isoNumber>044</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="22">
+        <isoAlpha>BTN</isoAlpha>
+        <isoNumber>064</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="23">
+        <isoAlpha>BWP</isoAlpha>
+        <isoNumber>072</isoNumber>
+        <symbol>P</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="24">
+        <isoAlpha>BYN</isoAlpha>
+        <isoNumber>933</isoNumber>
+        <symbol>Br</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="25">
+        <isoAlpha>BZD</isoAlpha>
+        <isoNumber>084</isoNumber>
+        <symbol>BZ$</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="26">
+        <isoAlpha>CAD</isoAlpha>
+        <isoNumber>124</isoNumber>
+        <symbol>$</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="27">
+        <isoAlpha>CDF</isoAlpha>
+        <isoNumber>976</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="28">
+        <isoAlpha>CHE</isoAlpha>
+        <isoNumber>947</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="29">
+        <isoAlpha>CHF</isoAlpha>
+        <isoNumber>756</isoNumber>
+        <symbol>CHF</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="30">
+        <isoAlpha>CHW</isoAlpha>
+        <isoNumber>948</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="31">
+        <isoAlpha>CLF</isoAlpha>
+        <isoNumber>990</isoNumber>
+        <symbol/>
+        <decimal>4</decimal>
+    </currency>
+    <currency index="32">
+        <isoAlpha>CLP</isoAlpha>
+        <isoNumber>152</isoNumber>
+        <symbol>$</symbol>
+        <decimal>0</decimal>
+    </currency>
+    <currency index="33">
+        <isoAlpha>CNY</isoAlpha>
+        <isoNumber>156</isoNumber>
+        <symbol>¥</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="34">
+        <isoAlpha>COP</isoAlpha>
+        <isoNumber>170</isoNumber>
+        <symbol>$</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="35">
+        <isoAlpha>COU</isoAlpha>
+        <isoNumber>970</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="36">
+        <isoAlpha>CRC</isoAlpha>
+        <isoNumber>188</isoNumber>
+        <symbol>₡</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="37">
+        <isoAlpha>CUC</isoAlpha>
+        <isoNumber>931</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="38">
+        <isoAlpha>CUP</isoAlpha>
+        <isoNumber>192</isoNumber>
+        <symbol>₱</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="39">
+        <isoAlpha>CVE</isoAlpha>
+        <isoNumber>132</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="40">
+        <isoAlpha>CZK</isoAlpha>
+        <isoNumber>203</isoNumber>
+        <symbol>Kč</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="41">
+        <isoAlpha>DJF</isoAlpha>
+        <isoNumber>262</isoNumber>
+        <symbol/>
+        <decimal>0</decimal>
+    </currency>
+    <currency index="42">
+        <isoAlpha>DKK</isoAlpha>
+        <isoNumber>208</isoNumber>
+        <symbol>kr</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="43">
+        <isoAlpha>DOP</isoAlpha>
+        <isoNumber>214</isoNumber>
+        <symbol>RD$</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="44">
+        <isoAlpha>DZD</isoAlpha>
+        <isoNumber>012</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="45">
+        <isoAlpha>EGP</isoAlpha>
+        <isoNumber>818</isoNumber>
+        <symbol>£</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="46">
+        <isoAlpha>ERN</isoAlpha>
+        <isoNumber>232</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="47">
+        <isoAlpha>ETB</isoAlpha>
+        <isoNumber>230</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="48">
+        <isoAlpha>EUR</isoAlpha>
+        <isoNumber>978</isoNumber>
+        <symbol>€</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="49">
+        <isoAlpha>FJD</isoAlpha>
+        <isoNumber>242</isoNumber>
+        <symbol>$</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="50">
+        <isoAlpha>FKP</isoAlpha>
+        <isoNumber>238</isoNumber>
+        <symbol>£</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="51">
+        <isoAlpha>GBP</isoAlpha>
+        <isoNumber>826</isoNumber>
+        <symbol>£</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="52">
+        <isoAlpha>GEL</isoAlpha>
+        <isoNumber>981</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="53">
+        <isoAlpha>GHS</isoAlpha>
+        <isoNumber>936</isoNumber>
+        <symbol>¢</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="54">
+        <isoAlpha>GIP</isoAlpha>
+        <isoNumber>292</isoNumber>
+        <symbol>£</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="55">
+        <isoAlpha>GMD</isoAlpha>
+        <isoNumber>270</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="56">
+        <isoAlpha>GNF</isoAlpha>
+        <isoNumber>324</isoNumber>
+        <symbol/>
+        <decimal>0</decimal>
+    </currency>
+    <currency index="57">
+        <isoAlpha>GTQ</isoAlpha>
+        <isoNumber>320</isoNumber>
+        <symbol>Q</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="58">
+        <isoAlpha>GYD</isoAlpha>
+        <isoNumber>328</isoNumber>
+        <symbol>$</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="59">
+        <isoAlpha>HKD</isoAlpha>
+        <isoNumber>344</isoNumber>
+        <symbol>$</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="60">
+        <isoAlpha>HNL</isoAlpha>
+        <isoNumber>340</isoNumber>
+        <symbol>L</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="61">
+        <isoAlpha>HTG</isoAlpha>
+        <isoNumber>332</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="62">
+        <isoAlpha>HUF</isoAlpha>
+        <isoNumber>348</isoNumber>
+        <symbol>Ft</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="63">
+        <isoAlpha>IDR</isoAlpha>
+        <isoNumber>360</isoNumber>
+        <symbol>Rp</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="64">
+        <isoAlpha>ILS</isoAlpha>
+        <isoNumber>376</isoNumber>
+        <symbol>₪</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="65">
+        <isoAlpha>INR</isoAlpha>
+        <isoNumber>356</isoNumber>
+        <symbol>₹</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="66">
+        <isoAlpha>IQD</isoAlpha>
+        <isoNumber>368</isoNumber>
+        <symbol/>
+        <decimal>3</decimal>
+    </currency>
+    <currency index="67">
+        <isoAlpha>IRR</isoAlpha>
+        <isoNumber>364</isoNumber>
+        <symbol>﷼</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="68">
+        <isoAlpha>ISK</isoAlpha>
+        <isoNumber>352</isoNumber>
+        <symbol>kr</symbol>
+        <decimal>0</decimal>
+    </currency>
+    <currency index="69">
+        <isoAlpha>JMD</isoAlpha>
+        <isoNumber>388</isoNumber>
+        <symbol>J$</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="70">
+        <isoAlpha>JOD</isoAlpha>
+        <isoNumber>400</isoNumber>
+        <symbol/>
+        <decimal>3</decimal>
+    </currency>
+    <currency index="71">
+        <isoAlpha>JPY</isoAlpha>
+        <isoNumber>392</isoNumber>
+        <symbol>¥</symbol>
+        <decimal>0</decimal>
+    </currency>
+    <currency index="72">
+        <isoAlpha>KES</isoAlpha>
+        <isoNumber>404</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="73">
+        <isoAlpha>KGS</isoAlpha>
+        <isoNumber>417</isoNumber>
+        <symbol>лв</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="74">
+        <isoAlpha>KHR</isoAlpha>
+        <isoNumber>116</isoNumber>
+        <symbol>៛</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="75">
+        <isoAlpha>KMF</isoAlpha>
+        <isoNumber>174</isoNumber>
+        <symbol/>
+        <decimal>0</decimal>
+    </currency>
+    <currency index="76">
+        <isoAlpha>KPW</isoAlpha>
+        <isoNumber>408</isoNumber>
+        <symbol>₩</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="77">
+        <isoAlpha>KRW</isoAlpha>
+        <isoNumber>410</isoNumber>
+        <symbol>₩</symbol>
+        <decimal>0</decimal>
+    </currency>
+    <currency index="78">
+        <isoAlpha>KWD</isoAlpha>
+        <isoNumber>414</isoNumber>
+        <symbol/>
+        <decimal>3</decimal>
+    </currency>
+    <currency index="79">
+        <isoAlpha>KYD</isoAlpha>
+        <isoNumber>136</isoNumber>
+        <symbol>$</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="80">
+        <isoAlpha>KZT</isoAlpha>
+        <isoNumber>398</isoNumber>
+        <symbol>лв</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="81">
+        <isoAlpha>LAK</isoAlpha>
+        <isoNumber>418</isoNumber>
+        <symbol>LAK</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="82">
+        <isoAlpha>LBP</isoAlpha>
+        <isoNumber>422</isoNumber>
+        <symbol>£</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="83">
+        <isoAlpha>LKR</isoAlpha>
+        <isoNumber>144</isoNumber>
+        <symbol>₨</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="84">
+        <isoAlpha>LRD</isoAlpha>
+        <isoNumber>430</isoNumber>
+        <symbol>$</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="85">
+        <isoAlpha>LSL</isoAlpha>
+        <isoNumber>426</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="86">
+        <isoAlpha>LYD</isoAlpha>
+        <isoNumber>434</isoNumber>
+        <symbol/>
+        <decimal>3</decimal>
+    </currency>
+    <currency index="87">
+        <isoAlpha>MAD</isoAlpha>
+        <isoNumber>504</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="88">
+        <isoAlpha>MDL</isoAlpha>
+        <isoNumber>498</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="89">
+        <isoAlpha>MGA</isoAlpha>
+        <isoNumber>969</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="90">
+        <isoAlpha>MKD</isoAlpha>
+        <isoNumber>807</isoNumber>
+        <symbol>ден</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="91">
+        <isoAlpha>MMK</isoAlpha>
+        <isoNumber>104</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="92">
+        <isoAlpha>MNT</isoAlpha>
+        <isoNumber>496</isoNumber>
+        <symbol>₮</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="93">
+        <isoAlpha>MOP</isoAlpha>
+        <isoNumber>446</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="94">
+        <isoAlpha>MRU</isoAlpha>
+        <isoNumber>929</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="95">
+        <isoAlpha>MUR</isoAlpha>
+        <isoNumber>480</isoNumber>
+        <symbol>₨</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="96">
+        <isoAlpha>MVR</isoAlpha>
+        <isoNumber>462</isoNumber>
+        <symbol>Rf</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="97">
+        <isoAlpha>MWK</isoAlpha>
+        <isoNumber>454</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="98">
+        <isoAlpha>MXN</isoAlpha>
+        <isoNumber>484</isoNumber>
+        <symbol>$</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="99">
+        <isoAlpha>MXV</isoAlpha>
+        <isoNumber>979</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="100">
+        <isoAlpha>MYR</isoAlpha>
+        <isoNumber>458</isoNumber>
+        <symbol>RM</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="101">
+        <isoAlpha>MZN</isoAlpha>
+        <isoNumber>943</isoNumber>
+        <symbol>MT</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="102">
+        <isoAlpha>NAD</isoAlpha>
+        <isoNumber>516</isoNumber>
+        <symbol>$</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="103">
+        <isoAlpha>NGN</isoAlpha>
+        <isoNumber>566</isoNumber>
+        <symbol>₦</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="104">
+        <isoAlpha>NIO</isoAlpha>
+        <isoNumber>558</isoNumber>
+        <symbol>C$</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="105">
+        <isoAlpha>NOK</isoAlpha>
+        <isoNumber>578</isoNumber>
+        <symbol>kr</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="106">
+        <isoAlpha>NPR</isoAlpha>
+        <isoNumber>524</isoNumber>
+        <symbol>₨</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="107">
+        <isoAlpha>NZD</isoAlpha>
+        <isoNumber>554</isoNumber>
+        <symbol>$</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="108">
+        <isoAlpha>OMR</isoAlpha>
+        <isoNumber>512</isoNumber>
+        <symbol>﷼</symbol>
+        <decimal>3</decimal>
+    </currency>
+    <currency index="109">
+        <isoAlpha>PAB</isoAlpha>
+        <isoNumber>590</isoNumber>
+        <symbol>B/.</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="110">
+        <isoAlpha>PEN</isoAlpha>
+        <isoNumber>604</isoNumber>
+        <symbol>S/.</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="111">
+        <isoAlpha>PGK</isoAlpha>
+        <isoNumber>598</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="112">
+        <isoAlpha>PHP</isoAlpha>
+        <isoNumber>608</isoNumber>
+        <symbol>₱</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="113">
+        <isoAlpha>PKR</isoAlpha>
+        <isoNumber>586</isoNumber>
+        <symbol>₨</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="114">
+        <isoAlpha>PLN</isoAlpha>
+        <isoNumber>985</isoNumber>
+        <symbol>zł</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="115">
+        <isoAlpha>PYG</isoAlpha>
+        <isoNumber>600</isoNumber>
+        <symbol>₲</symbol>
+        <decimal>0</decimal>
+    </currency>
+    <currency index="116">
+        <isoAlpha>QAR</isoAlpha>
+        <isoNumber>634</isoNumber>
+        <symbol>﷼</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="117">
+        <isoAlpha>RON</isoAlpha>
+        <isoNumber>946</isoNumber>
+        <symbol>lei</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="118">
+        <isoAlpha>RSD</isoAlpha>
+        <isoNumber>941</isoNumber>
+        <symbol>дин.</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="119">
+        <isoAlpha>RUB</isoAlpha>
+        <isoNumber>643</isoNumber>
+        <symbol>₽</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="120">
+        <isoAlpha>RWF</isoAlpha>
+        <isoNumber>646</isoNumber>
+        <symbol/>
+        <decimal>0</decimal>
+    </currency>
+    <currency index="121">
+        <isoAlpha>SAR</isoAlpha>
+        <isoNumber>682</isoNumber>
+        <symbol>﷼</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="122">
+        <isoAlpha>SBD</isoAlpha>
+        <isoNumber>090</isoNumber>
+        <symbol>$</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="123">
+        <isoAlpha>SCR</isoAlpha>
+        <isoNumber>690</isoNumber>
+        <symbol>₨</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="124">
+        <isoAlpha>SDG</isoAlpha>
+        <isoNumber>938</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="125">
+        <isoAlpha>SEK</isoAlpha>
+        <isoNumber>752</isoNumber>
+        <symbol>kr</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="126">
+        <isoAlpha>SGD</isoAlpha>
+        <isoNumber>702</isoNumber>
+        <symbol>$</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="127">
+        <isoAlpha>SHP</isoAlpha>
+        <isoNumber>654</isoNumber>
+        <symbol>£</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="128">
+        <isoAlpha>SLE</isoAlpha>
+        <isoNumber>925</isoNumber>
+        <symbol>Le</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="129">
+        <isoAlpha>SLL</isoAlpha>
+        <isoNumber>694</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="130">
+        <isoAlpha>SOS</isoAlpha>
+        <isoNumber>706</isoNumber>
+        <symbol>S</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="131">
+        <isoAlpha>SRD</isoAlpha>
+        <isoNumber>968</isoNumber>
+        <symbol>$</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="132">
+        <isoAlpha>SSP</isoAlpha>
+        <isoNumber>728</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="133">
+        <isoAlpha>STN</isoAlpha>
+        <isoNumber>930</isoNumber>
+        <symbol>Db</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="134">
+        <isoAlpha>SVC</isoAlpha>
+        <isoNumber>222</isoNumber>
+        <symbol>$</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="135">
+        <isoAlpha>SYP</isoAlpha>
+        <isoNumber>760</isoNumber>
+        <symbol>£</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="136">
+        <isoAlpha>SZL</isoAlpha>
+        <isoNumber>748</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="137">
+        <isoAlpha>THB</isoAlpha>
+        <isoNumber>764</isoNumber>
+        <symbol>฿</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="138">
+        <isoAlpha>TJS</isoAlpha>
+        <isoNumber>972</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="139">
+        <isoAlpha>TMT</isoAlpha>
+        <isoNumber>934</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="140">
+        <isoAlpha>TND</isoAlpha>
+        <isoNumber>788</isoNumber>
+        <symbol/>
+        <decimal>3</decimal>
+    </currency>
+    <currency index="141">
+        <isoAlpha>TOP</isoAlpha>
+        <isoNumber>776</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="142">
+        <isoAlpha>TRY</isoAlpha>
+        <isoNumber>949</isoNumber>
+        <symbol>₺</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="143">
+        <isoAlpha>TTD</isoAlpha>
+        <isoNumber>780</isoNumber>
+        <symbol>TT$</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="144">
+        <isoAlpha>TWD</isoAlpha>
+        <isoNumber>901</isoNumber>
+        <symbol>NT$</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="145">
+        <isoAlpha>TZS</isoAlpha>
+        <isoNumber>834</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="146">
+        <isoAlpha>UAH</isoAlpha>
+        <isoNumber>980</isoNumber>
+        <symbol>₴</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="147">
+        <isoAlpha>UGX</isoAlpha>
+        <isoNumber>800</isoNumber>
+        <symbol/>
+        <decimal>0</decimal>
+    </currency>
+    <currency index="148">
+        <isoAlpha>USD</isoAlpha>
+        <isoNumber>840</isoNumber>
+        <symbol>$</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="149">
+        <isoAlpha>USN</isoAlpha>
+        <isoNumber>997</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="150">
+        <isoAlpha>UYI</isoAlpha>
+        <isoNumber>940</isoNumber>
+        <symbol/>
+        <decimal>0</decimal>
+    </currency>
+    <currency index="151">
+        <isoAlpha>UYU</isoAlpha>
+        <isoNumber>858</isoNumber>
+        <symbol>$U</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="152">
+        <isoAlpha>UYW</isoAlpha>
+        <isoNumber>927</isoNumber>
+        <symbol/>
+        <decimal>4</decimal>
+    </currency>
+    <currency index="153">
+        <isoAlpha>UZS</isoAlpha>
+        <isoNumber>860</isoNumber>
+        <symbol>лв</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="154">
+        <isoAlpha>VED</isoAlpha>
+        <isoNumber>926</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="155">
+        <isoAlpha>VES</isoAlpha>
+        <isoNumber>928</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="156">
+        <isoAlpha>VND</isoAlpha>
+        <isoNumber>704</isoNumber>
+        <symbol>₫</symbol>
+        <decimal>0</decimal>
+    </currency>
+    <currency index="157">
+        <isoAlpha>VUV</isoAlpha>
+        <isoNumber>548</isoNumber>
+        <symbol/>
+        <decimal>0</decimal>
+    </currency>
+    <currency index="158">
+        <isoAlpha>WST</isoAlpha>
+        <isoNumber>882</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="159">
+        <isoAlpha>XAF</isoAlpha>
+        <isoNumber>950</isoNumber>
+        <symbol/>
+        <decimal>0</decimal>
+    </currency>
+    <currency index="160">
+        <isoAlpha>XAG</isoAlpha>
+        <isoNumber>961</isoNumber>
+        <symbol/>
+        <decimal xsi:nil="true"/>
+    </currency>
+    <currency index="161">
+        <isoAlpha>XAU</isoAlpha>
+        <isoNumber>959</isoNumber>
+        <symbol/>
+        <decimal xsi:nil="true"/>
+    </currency>
+    <currency index="162">
+        <isoAlpha>XBA</isoAlpha>
+        <isoNumber>955</isoNumber>
+        <symbol/>
+        <decimal xsi:nil="true"/>
+    </currency>
+    <currency index="163">
+        <isoAlpha>XBB</isoAlpha>
+        <isoNumber>956</isoNumber>
+        <symbol/>
+        <decimal xsi:nil="true"/>
+    </currency>
+    <currency index="164">
+        <isoAlpha>XBC</isoAlpha>
+        <isoNumber>957</isoNumber>
+        <symbol/>
+        <decimal xsi:nil="true"/>
+    </currency>
+    <currency index="165">
+        <isoAlpha>XBD</isoAlpha>
+        <isoNumber>958</isoNumber>
+        <symbol/>
+        <decimal xsi:nil="true"/>
+    </currency>
+    <currency index="166">
+        <isoAlpha>XCD</isoAlpha>
+        <isoNumber>951</isoNumber>
+        <symbol>$</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="167">
+        <isoAlpha>XDR</isoAlpha>
+        <isoNumber>960</isoNumber>
+        <symbol/>
+        <decimal xsi:nil="true"/>
+    </currency>
+    <currency index="168">
+        <isoAlpha>XOF</isoAlpha>
+        <isoNumber>952</isoNumber>
+        <symbol/>
+        <decimal>0</decimal>
+    </currency>
+    <currency index="169">
+        <isoAlpha>XPD</isoAlpha>
+        <isoNumber>964</isoNumber>
+        <symbol/>
+        <decimal xsi:nil="true"/>
+    </currency>
+    <currency index="170">
+        <isoAlpha>XPF</isoAlpha>
+        <isoNumber>953</isoNumber>
+        <symbol/>
+        <decimal>0</decimal>
+    </currency>
+    <currency index="171">
+        <isoAlpha>XPT</isoAlpha>
+        <isoNumber>962</isoNumber>
+        <symbol/>
+        <decimal xsi:nil="true"/>
+    </currency>
+    <currency index="172">
+        <isoAlpha>XSU</isoAlpha>
+        <isoNumber>994</isoNumber>
+        <symbol/>
+        <decimal xsi:nil="true"/>
+    </currency>
+    <currency index="173">
+        <isoAlpha>XTS</isoAlpha>
+        <isoNumber>963</isoNumber>
+        <symbol/>
+        <decimal xsi:nil="true"/>
+    </currency>
+    <currency index="174">
+        <isoAlpha>XUA</isoAlpha>
+        <isoNumber>965</isoNumber>
+        <symbol/>
+        <decimal xsi:nil="true"/>
+    </currency>
+    <currency index="175">
+        <isoAlpha>XXX</isoAlpha>
+        <isoNumber>999</isoNumber>
+        <symbol/>
+        <decimal xsi:nil="true"/>
+    </currency>
+    <currency index="176">
+        <isoAlpha>YER</isoAlpha>
+        <isoNumber>886</isoNumber>
+        <symbol>﷼</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="177">
+        <isoAlpha>ZAR</isoAlpha>
+        <isoNumber>710</isoNumber>
+        <symbol>R</symbol>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="178">
+        <isoAlpha>ZMW</isoAlpha>
+        <isoNumber>967</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+    <currency index="179">
+        <isoAlpha>ZWL</isoAlpha>
+        <isoNumber>932</isoNumber>
+        <symbol/>
+        <decimal>2</decimal>
+    </currency>
+</currencies>
