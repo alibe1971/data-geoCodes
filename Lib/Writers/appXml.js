@@ -2,6 +2,9 @@ import chalk from 'chalk';
 import { writeFile } from '../utils.js';
 import { js2xml } from 'xml-js';
 
+/**
+ * Map for the XML creation
+ */
 const xmlMap = {
     settings: {
         languages: {
@@ -171,6 +174,9 @@ export const saveDataForXml = {
     }
 };
 
+/**
+ * Creation of the json for the xml transformation
+ */
 const createXmlFromMap = (data, rootElement, map) => {
     let tagKey = null;
     let attributeKey = null;
@@ -197,8 +203,6 @@ const createXmlFromMap = (data, rootElement, map) => {
         if (tagKey && (tagKey in map)) {
             map = map[tagKey];
         }
-
-
     }
 
     if (typeof data === 'object' && data !== null) {
@@ -268,6 +272,9 @@ const createXmlFromMap = (data, rootElement, map) => {
     return xmlObject;
 };
 
+/**
+ * Refactoring of the Translation object for the xml mapping
+ */
 const refactorTranslationObj = (data) => {
     let refactored = [];
     for (let key in data) {
