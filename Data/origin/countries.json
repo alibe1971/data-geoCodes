@@ -8,6 +8,7 @@
         "alpha3": "AND",
         "unM49": "020",
         "flags": {
+            "emoji": "🇦🇩",
             "svg": null
         },
         "dependency": null,
@@ -51,6 +52,7 @@
         "alpha3": "ARE",
         "unM49": 784,
         "flags": {
+            "emoji": "🇦🇪",
             "svg": null
         },
         "dependency": null,
@@ -95,6 +97,7 @@
         "alpha3": "AFG",
         "unM49": "004",
         "flags": {
+            "emoji": "🇦🇫",
             "svg": null
         },
         "dependency": null,
@@ -145,6 +148,7 @@
         "alpha3": "ATG",
         "unM49": "028",
         "flags": {
+            "emoji": "🇦🇬",
             "svg": null
         },
         "dependency": null,
@@ -188,6 +192,7 @@
         "alpha3": "AIA",
         "unM49": 660,
         "flags": {
+            "emoji": "🇦🇮",
             "svg": null
         },
         "dependency": "GB",
@@ -231,6 +236,7 @@
         "alpha3": "ALB",
         "unM49": "008",
         "flags": {
+            "emoji": "🇦🇱",
             "svg": null
         },
         "dependency": null,
@@ -274,6 +280,7 @@
         "alpha3": "ARM",
         "unM49": "051",
         "flags": {
+            "emoji": "🇦🇲",
             "svg": null
         },
         "dependency": null,
@@ -317,6 +324,7 @@
         "alpha3": "AGO",
         "unM49": "024",
         "flags": {
+            "emoji": "🇦🇴",
             "svg": null
         },
         "dependency": null,
@@ -362,6 +370,7 @@
         "alpha3": "ATA",
         "unM49": "010",
         "flags": {
+            "emoji": "🇦🇶",
             "svg": null
         },
         "dependency": null,
@@ -574,6 +583,7 @@
         "alpha3": "ARG",
         "unM49": "032",
         "flags": {
+            "emoji": "🇦🇷",
             "svg": null
         },
         "dependency": null,
@@ -636,6 +646,7 @@
         "alpha3": "ASM",
         "unM49": "016",
         "flags": {
+            "emoji": "🇦🇸",
             "svg": null
         },
         "dependency": "US",
@@ -679,6 +690,7 @@
         "alpha3": "AUT",
         "unM49": "040",
         "flags": {
+            "emoji": "🇦🇹",
             "svg": null
         },
         "dependency": null,
@@ -720,6 +732,7 @@
         "alpha3": "AUS",
         "unM49": "036",
         "flags": {
+            "emoji": "🇦🇺",
             "svg": null
         },
         "dependency": null,
@@ -782,6 +795,7 @@
         "alpha3": "ABW",
         "unM49": 533,
         "flags": {
+            "emoji": "🇦🇼",
             "svg": null
         },
         "dependency": "NL",
@@ -821,6 +835,7 @@
         "alpha3": "ALA",
         "unM49": 248,
         "flags": {
+            "emoji": "🇦🇽",
             "svg": null
         },
         "dependency": "FI",
@@ -860,6 +875,7 @@
         "alpha3": "AZE",
         "unM49": "031",
         "flags": {
+            "emoji": "🇦🇿",
             "svg": null
         },
         "dependency": null,
@@ -907,6 +923,7 @@
         "alpha3": "BIH",
         "unM49": "070",
         "flags": {
+            "emoji": "🇧🇦",
             "svg": null
         },
         "dependency": null,
@@ -953,6 +970,7 @@
         "alpha3": "BRB",
         "unM49": "052",
         "flags": {
+            "emoji": "🇧🇧",
             "svg": null
         },
         "dependency": null,
@@ -996,6 +1014,7 @@
         "alpha3": "BGD",
         "unM49": "050",
         "flags": {
+            "emoji": "🇧🇩",
             "svg": null
         },
         "dependency": null,
@@ -1042,6 +1061,7 @@
         "alpha3": "BEL",
         "unM49": "056",
         "flags": {
+            "emoji": "🇧🇪",
             "svg": null
         },
         "dependency": null,
@@ -1093,6 +1113,7 @@
         "alpha3": "BFA",
         "unM49": 854,
         "flags": {
+            "emoji": "🇧🇫",
             "svg": null
         },
         "dependency": null,
@@ -1136,6 +1157,7 @@
         "alpha3": "BGR",
         "unM49": 100,
         "flags": {
+            "emoji": "🇧🇬",
             "svg": null
         },
         "dependency": null,
@@ -1179,6 +1201,7 @@
         "alpha3": "BHR",
         "unM49": "048",
         "flags": {
+            "emoji": "🇧🇭",
             "svg": null
         },
         "dependency": null,
@@ -1219,6 +1242,7 @@
         "alpha3": "BDI",
         "unM49": 108,
         "flags": {
+            "emoji": "🇧🇮",
             "svg": null
         },
         "dependency": null,
@@ -1266,6 +1290,7 @@
         "alpha3": "BEN",
         "unM49": 204,
         "flags": {
+            "emoji": "🇧🇯",
             "svg": null
         },
         "dependency": null,
@@ -1311,6 +1336,7 @@
         "alpha3": "BLM",
         "unM49": 652,
         "flags": {
+            "emoji": "🇧🇱",
             "svg": null
         },
         "dependency": "FR",
@@ -1354,6 +1380,7 @@
         "alpha3": "BMU",
         "unM49": "060",
         "flags": {
+            "emoji": "🇧🇲",
             "svg": null
         },
         "dependency": "GB",
@@ -1398,6 +1425,7 @@
         "alpha3": "BRN",
         "unM49": "096",
         "flags": {
+            "emoji": "🇧🇳",
             "svg": null
         },
         "dependency": null,
@@ -1447,6 +1475,7 @@
         "alpha3": "BOL",
         "unM49": "068",
         "flags": {
+            "emoji": "🇧🇴",
             "svg": null
         },
         "dependency": null,
@@ -1500,6 +1529,7 @@
         "alpha3": "BES",
         "unM49": 535,
         "flags": {
+            "emoji": "🇧🇶",
             "svg": null
         },
         "dependency": "NL",
@@ -1543,6 +1573,7 @@
         "alpha3": "BRA",
         "unM49": "076",
         "flags": {
+            "emoji": "🇧🇷",
             "svg": null
         },
         "dependency": null,
@@ -1610,6 +1641,7 @@
         "alpha3": "BHS",
         "unM49": "044",
         "flags": {
+            "emoji": "🇧🇸",
             "svg": null
         },
         "dependency": null,
@@ -1653,6 +1685,7 @@
         "alpha3": "BTN",
         "unM49": "064",
         "flags": {
+            "emoji": "🇧🇹",
             "svg": null
         },
         "dependency": null,
@@ -1693,6 +1726,7 @@
         "alpha3": "BVT",
         "unM49": "074",
         "flags": {
+            "emoji": "🇧🇻",
             "svg": null
         },
         "dependency": "NO",
@@ -1737,6 +1771,7 @@
         "alpha3": "BWA",
         "unM49": "072",
         "flags": {
+            "emoji": "🇧🇼",
             "svg": null
         },
         "dependency": null,
@@ -1781,6 +1816,7 @@
         "alpha3": "BLR",
         "unM49": 112,
         "flags": {
+            "emoji": "🇧🇾",
             "svg": null
         },
         "dependency": null,
@@ -1822,6 +1858,7 @@
         "alpha3": "BLZ",
         "unM49": "084",
         "flags": {
+            "emoji": "🇧🇿",
             "svg": null
         },
         "dependency": null,
@@ -1868,6 +1905,7 @@
         "alpha3": "CAN",
         "unM49": 124,
         "flags": {
+            "emoji": "🇨🇦",
             "svg": null
         },
         "dependency": null,
@@ -1950,6 +1988,7 @@
         "alpha3": "CCK",
         "unM49": 166,
         "flags": {
+            "emoji": "🇨🇨",
             "svg": null
         },
         "dependency": "AU",
@@ -1993,6 +2032,7 @@
         "alpha3": "COD",
         "unM49": 180,
         "flags": {
+            "emoji": "🇨🇩",
             "svg": null
         },
         "dependency": null,
@@ -2044,6 +2084,7 @@
         "alpha3": "CAF",
         "unM49": 140,
         "flags": {
+            "emoji": "🇨🇫",
             "svg": null
         },
         "dependency": null,
@@ -2091,6 +2132,7 @@
         "alpha3": "COG",
         "unM49": 178,
         "flags": {
+            "emoji": "🇨🇬",
             "svg": null
         },
         "dependency": null,
@@ -2140,6 +2182,7 @@
         "alpha3": "CHE",
         "unM49": 756,
         "flags": {
+            "emoji": "🇨🇭",
             "svg": null
         },
         "dependency": null,
@@ -2201,6 +2244,7 @@
         "alpha3": "CIV",
         "unM49": 384,
         "flags": {
+            "emoji": "🇨🇮",
             "svg": null
         },
         "dependency": null,
@@ -2245,6 +2289,7 @@
         "alpha3": "COK",
         "unM49": 184,
         "flags": {
+            "emoji": "🇨🇰",
             "svg": null
         },
         "dependency": "NZ",
@@ -2284,6 +2329,7 @@
         "alpha3": "CHL",
         "unM49": 152,
         "flags": {
+            "emoji": "🇨🇱",
             "svg": null
         },
         "dependency": null,
@@ -2332,6 +2378,7 @@
         "alpha3": "CMR",
         "unM49": 120,
         "flags": {
+            "emoji": "🇨🇲",
             "svg": null
         },
         "dependency": null,
@@ -2404,6 +2451,7 @@
         "alpha3": "CHN",
         "unM49": 156,
         "flags": {
+            "emoji": "🇨🇳",
             "svg": null
         },
         "dependency": null,
@@ -2454,6 +2502,7 @@
         "alpha3": "COL",
         "unM49": 170,
         "flags": {
+            "emoji": "🇨🇴",
             "svg": null
         },
         "dependency": null,
@@ -2497,6 +2546,7 @@
         "alpha3": "CRI",
         "unM49": 188,
         "flags": {
+            "emoji": "🇨🇷",
             "svg": null
         },
         "dependency": null,
@@ -2540,6 +2590,7 @@
         "alpha3": "CUB",
         "unM49": 192,
         "flags": {
+            "emoji": "🇨🇺",
             "svg": null
         },
         "dependency": null,
@@ -2583,6 +2634,7 @@
         "alpha3": "CPV",
         "unM49": 132,
         "flags": {
+            "emoji": "🇨🇻",
             "svg": null
         },
         "dependency": null,
@@ -2629,6 +2681,7 @@
         "alpha3": "CUW",
         "unM49": 531,
         "flags": {
+            "emoji": "🇨🇼",
             "svg": null
         },
         "dependency": "NL",
@@ -2668,6 +2721,7 @@
         "alpha3": "CXR",
         "unM49": 162,
         "flags": {
+            "emoji": "🇨🇽",
             "svg": null
         },
         "dependency": "AU",
@@ -2708,6 +2762,7 @@
         "alpha3": "CYP",
         "unM49": 196,
         "flags": {
+            "emoji": "🇨🇾",
             "svg": null
         },
         "dependency": null,
@@ -2753,6 +2808,7 @@
         "alpha3": "CZE",
         "unM49": 203,
         "flags": {
+            "emoji": "🇨🇿",
             "svg": null
         },
         "dependency": null,
@@ -2796,6 +2852,7 @@
         "alpha3": "DEU",
         "unM49": 276,
         "flags": {
+            "emoji": "🇩🇪",
             "svg": null
         },
         "dependency": null,
@@ -2847,6 +2904,7 @@
         "alpha3": "DJI",
         "unM49": 262,
         "flags": {
+            "emoji": "🇩🇯",
             "svg": null
         },
         "dependency": null,
@@ -2895,6 +2953,7 @@
         "alpha3": "DNK",
         "unM49": 208,
         "flags": {
+            "emoji": "🇩🇰",
             "svg": null
         },
         "dependency": null,
@@ -2942,6 +3001,7 @@
         "alpha3": "DMA",
         "unM49": 212,
         "flags": {
+            "emoji": "🇩🇲",
             "svg": null
         },
         "dependency": null,
@@ -2985,6 +3045,7 @@
         "alpha3": "DOM",
         "unM49": 214,
         "flags": {
+            "emoji": "🇩🇴",
             "svg": null
         },
         "dependency": null,
@@ -3029,6 +3090,7 @@
         "alpha3": "DZA",
         "unM49": "012",
         "flags": {
+            "emoji": "🇩🇿",
             "svg": null
         },
         "dependency": null,
@@ -3077,6 +3139,7 @@
         "alpha3": "ECU",
         "unM49": 218,
         "flags": {
+            "emoji": "🇪🇨",
             "svg": null
         },
         "dependency": null,
@@ -3123,6 +3186,7 @@
         "alpha3": "EST",
         "unM49": 233,
         "flags": {
+            "emoji": "🇪🇪",
             "svg": null
         },
         "dependency": null,
@@ -3162,6 +3226,7 @@
         "alpha3": "EGY",
         "unM49": 818,
         "flags": {
+            "emoji": "🇪🇬",
             "svg": null
         },
         "dependency": null,
@@ -3205,6 +3270,7 @@
         "alpha3": "ESH",
         "unM49": 732,
         "flags": {
+            "emoji": "🇪🇭",
             "svg": null
         },
         "dependency": null,
@@ -3249,6 +3315,7 @@
         "alpha3": "ERI",
         "unM49": 232,
         "flags": {
+            "emoji": "🇪🇷",
             "svg": null
         },
         "dependency": null,
@@ -3299,6 +3366,7 @@
         "alpha3": "ESP",
         "unM49": 724,
         "flags": {
+            "emoji": "🇪🇸",
             "svg": null
         },
         "dependency": null,
@@ -3352,6 +3420,7 @@
         "alpha3": "ETH",
         "unM49": 231,
         "flags": {
+            "emoji": "🇪🇹",
             "svg": null
         },
         "dependency": null,
@@ -3402,6 +3471,7 @@
         "alpha3": "FIN",
         "unM49": 246,
         "flags": {
+            "emoji": "🇫🇮",
             "svg": null
         },
         "dependency": null,
@@ -3451,6 +3521,7 @@
         "alpha3": "FJI",
         "unM49": 242,
         "flags": {
+            "emoji": "🇫🇯",
             "svg": null
         },
         "dependency": null,
@@ -3494,6 +3565,7 @@
         "alpha3": "FLK",
         "unM49": 238,
         "flags": {
+            "emoji": "🇫🇰",
             "svg": null
         },
         "dependency": "GB",
@@ -3537,6 +3609,7 @@
         "alpha3": "FSM",
         "unM49": 583,
         "flags": {
+            "emoji": "🇫🇲",
             "svg": null
         },
         "dependency": null,
@@ -3586,6 +3659,7 @@
         "alpha3": "FRO",
         "unM49": 234,
         "flags": {
+            "emoji": "🇫🇴",
             "svg": null
         },
         "dependency": "DK",
@@ -3626,6 +3700,7 @@
         "alpha3": "FRA",
         "unM49": 250,
         "flags": {
+            "emoji": "🇫🇷",
             "svg": null
         },
         "dependency": null,
@@ -3675,6 +3750,7 @@
         "alpha3": "GAB",
         "unM49": 266,
         "flags": {
+            "emoji": "🇬🇦",
             "svg": null
         },
         "dependency": null,
@@ -3718,6 +3794,7 @@
         "alpha3": "GBR",
         "unM49": 826,
         "flags": {
+            "emoji": "🇬🇧",
             "svg": null
         },
         "dependency": null,
@@ -3770,6 +3847,7 @@
         "alpha3": "GRD",
         "unM49": 308,
         "flags": {
+            "emoji": "🇬🇩",
             "svg": null
         },
         "dependency": null,
@@ -3813,6 +3891,7 @@
         "alpha3": "GEO",
         "unM49": 268,
         "flags": {
+            "emoji": "🇬🇪",
             "svg": null
         },
         "dependency": null,
@@ -3858,6 +3937,7 @@
         "alpha3": "GUF",
         "unM49": 254,
         "flags": {
+            "emoji": "🇬🇫",
             "svg": null
         },
         "dependency": "FR",
@@ -3901,6 +3981,7 @@
         "alpha3": "GGY",
         "unM49": 831,
         "flags": {
+            "emoji": "🇬🇬",
             "svg": null
         },
         "dependency": "GB",
@@ -3940,6 +4021,7 @@
         "alpha3": "GHA",
         "unM49": 288,
         "flags": {
+            "emoji": "🇬🇭",
             "svg": null
         },
         "dependency": null,
@@ -3989,6 +4071,7 @@
         "alpha3": "GIB",
         "unM49": 292,
         "flags": {
+            "emoji": "🇬🇮",
             "svg": null
         },
         "dependency": "GB",
@@ -4035,6 +4118,7 @@
         "alpha3": "GRL",
         "unM49": 304,
         "flags": {
+            "emoji": "🇬🇱",
             "svg": null
         },
         "dependency": "DK",
@@ -4079,6 +4163,7 @@
         "alpha3": "GMB",
         "unM49": 270,
         "flags": {
+            "emoji": "🇬🇲",
             "svg": null
         },
         "dependency": null,
@@ -4122,6 +4207,7 @@
         "alpha3": "GIN",
         "unM49": 324,
         "flags": {
+            "emoji": "🇬🇳",
             "svg": null
         },
         "dependency": null,
@@ -4167,6 +4253,7 @@
         "alpha3": "GLP",
         "unM49": 312,
         "flags": {
+            "emoji": "🇬🇵",
             "svg": null
         },
         "dependency": "FR",
@@ -4208,6 +4295,7 @@
         "alpha3": "GNQ",
         "unM49": 226,
         "flags": {
+            "emoji": "🇬🇶",
             "svg": null
         },
         "dependency": null,
@@ -4255,6 +4343,7 @@
         "alpha3": "GRC",
         "unM49": 300,
         "flags": {
+            "emoji": "🇬🇷",
             "svg": null
         },
         "dependency": null,
@@ -4298,6 +4387,7 @@
         "alpha3": "SGS",
         "unM49": 239,
         "flags": {
+            "emoji": "🇬🇸",
             "svg": null
         },
         "dependency": "GB",
@@ -4347,6 +4437,7 @@
         "alpha3": "GTM",
         "unM49": 320,
         "flags": {
+            "emoji": "🇬🇹",
             "svg": null
         },
         "dependency": null,
@@ -4391,6 +4482,7 @@
         "alpha3": "GUM",
         "unM49": 316,
         "flags": {
+            "emoji": "🇬🇺",
             "svg": null
         },
         "dependency": "US",
@@ -4435,6 +4527,7 @@
         "alpha3": "GNB",
         "unM49": 624,
         "flags": {
+            "emoji": "🇬🇼",
             "svg": null
         },
         "dependency": null,
@@ -4478,6 +4571,7 @@
         "alpha3": "GUY",
         "unM49": 328,
         "flags": {
+            "emoji": "🇬🇾",
             "svg": null
         },
         "dependency": null,
@@ -4521,6 +4615,7 @@
         "alpha3": "HKG",
         "unM49": 344,
         "flags": {
+            "emoji": "🇭🇰",
             "svg": null
         },
         "dependency": "CN",
@@ -4564,6 +4659,7 @@
         "alpha3": "HMD",
         "unM49": 334,
         "flags": {
+            "emoji": "🇭🇲",
             "svg": null
         },
         "dependency": "AU",
@@ -4603,6 +4699,7 @@
         "alpha3": "HND",
         "unM49": 340,
         "flags": {
+            "emoji": "🇭🇳",
             "svg": null
         },
         "dependency": null,
@@ -4646,6 +4743,7 @@
         "alpha3": "HRV",
         "unM49": 191,
         "flags": {
+            "emoji": "🇭🇷",
             "svg": null
         },
         "dependency": null,
@@ -4686,6 +4784,7 @@
         "alpha3": "HTI",
         "unM49": 332,
         "flags": {
+            "emoji": "🇭🇹",
             "svg": null
         },
         "dependency": null,
@@ -4729,6 +4828,7 @@
         "alpha3": "HUN",
         "unM49": 348,
         "flags": {
+            "emoji": "🇭🇺",
             "svg": null
         },
         "dependency": null,
@@ -4768,6 +4868,7 @@
         "alpha3": "IDN",
         "unM49": 360,
         "flags": {
+            "emoji": "🇮🇩",
             "svg": null
         },
         "dependency": null,
@@ -4818,6 +4919,7 @@
         "alpha3": "IRL",
         "unM49": 372,
         "flags": {
+            "emoji": "🇮🇪",
             "svg": null
         },
         "dependency": null,
@@ -4859,6 +4961,7 @@
         "alpha3": "ISR",
         "unM49": 376,
         "flags": {
+            "emoji": "🇮🇱",
             "svg": null
         },
         "dependency": null,
@@ -4904,6 +5007,7 @@
         "alpha3": "IMN",
         "unM49": 833,
         "flags": {
+            "emoji": "🇮🇲",
             "svg": null
         },
         "dependency": "GB",
@@ -4948,6 +5052,7 @@
         "alpha3": "IND",
         "unM49": 356,
         "flags": {
+            "emoji": "🇮🇳",
             "svg": null
         },
         "dependency": null,
@@ -5027,6 +5132,7 @@
         "alpha3": "IOT",
         "unM49": "086",
         "flags": {
+            "emoji": "🇮🇴",
             "svg": null
         },
         "dependency": "GB",
@@ -5071,6 +5177,7 @@
         "alpha3": "IRQ",
         "unM49": 368,
         "flags": {
+            "emoji": "🇮🇶",
             "svg": null
         },
         "dependency": null,
@@ -5114,6 +5221,7 @@
         "alpha3": "IRN",
         "unM49": 364,
         "flags": {
+            "emoji": "🇮🇷",
             "svg": null
         },
         "dependency": null,
@@ -5159,6 +5267,7 @@
         "alpha3": "ISL",
         "unM49": 352,
         "flags": {
+            "emoji": "🇮🇸",
             "svg": null
         },
         "dependency": null,
@@ -5198,6 +5307,7 @@
         "alpha3": "ITA",
         "unM49": 380,
         "flags": {
+            "emoji": "🇮🇹",
             "svg": null
         },
         "dependency": null,
@@ -5243,6 +5353,7 @@
         "alpha3": "JEY",
         "unM49": 832,
         "flags": {
+            "emoji": "🇯🇪",
             "svg": null
         },
         "dependency": "GB",
@@ -5286,6 +5397,7 @@
         "alpha3": "JAM",
         "unM49": 388,
         "flags": {
+            "emoji": "🇯🇲",
             "svg": null
         },
         "dependency": null,
@@ -5330,6 +5442,7 @@
         "alpha3": "JOR",
         "unM49": 400,
         "flags": {
+            "emoji": "🇯🇴",
             "svg": null
         },
         "dependency": null,
@@ -5373,6 +5486,7 @@
         "alpha3": "JPN",
         "unM49": 392,
         "flags": {
+            "emoji": "🇯🇵",
             "svg": null
         },
         "dependency": null,
@@ -5413,6 +5527,7 @@
         "alpha3": "KEN",
         "unM49": 404,
         "flags": {
+            "emoji": "🇰🇪",
             "svg": null
         },
         "dependency": null,
@@ -5487,6 +5602,7 @@
         "alpha3": "KGZ",
         "unM49": 417,
         "flags": {
+            "emoji": "🇰🇬",
             "svg": null
         },
         "dependency": null,
@@ -5528,6 +5644,7 @@
         "alpha3": "KHM",
         "unM49": 116,
         "flags": {
+            "emoji": "🇰🇭",
             "svg": null
         },
         "dependency": null,
@@ -5572,6 +5689,7 @@
         "alpha3": "KIR",
         "unM49": 296,
         "flags": {
+            "emoji": "🇰🇮",
             "svg": null
         },
         "dependency": null,
@@ -5619,6 +5737,7 @@
         "alpha3": "COM",
         "unM49": 174,
         "flags": {
+            "emoji": "🇰🇲",
             "svg": null
         },
         "dependency": null,
@@ -5665,6 +5784,7 @@
         "alpha3": "KNA",
         "unM49": 659,
         "flags": {
+            "emoji": "🇰🇳",
             "svg": null
         },
         "dependency": null,
@@ -5708,6 +5828,7 @@
         "alpha3": "PRK",
         "unM49": 408,
         "flags": {
+            "emoji": "🇰🇵",
             "svg": null
         },
         "dependency": null,
@@ -5751,6 +5872,7 @@
         "alpha3": "KOR",
         "unM49": 410,
         "flags": {
+            "emoji": "🇰🇷",
             "svg": null
         },
         "dependency": null,
@@ -5794,6 +5916,7 @@
         "alpha3": "KWT",
         "unM49": 414,
         "flags": {
+            "emoji": "🇰🇼",
             "svg": null
         },
         "dependency": null,
@@ -5833,6 +5956,7 @@
         "alpha3": "CYM",
         "unM49": 136,
         "flags": {
+            "emoji": "🇰🇾",
             "svg": null
         },
         "dependency": "GB",
@@ -5877,6 +6001,7 @@
         "alpha3": "KAZ",
         "unM49": 398,
         "flags": {
+            "emoji": "🇰🇿",
             "svg": null
         },
         "dependency": null,
@@ -5924,6 +6049,7 @@
         "alpha3": "LAO",
         "unM49": 418,
         "flags": {
+            "emoji": "🇱🇦",
             "svg": null
         },
         "dependency": null,
@@ -5967,6 +6093,7 @@
         "alpha3": "LBN",
         "unM49": 422,
         "flags": {
+            "emoji": "🇱🇧",
             "svg": null
         },
         "dependency": null,
@@ -6010,6 +6137,7 @@
         "alpha3": "LCA",
         "unM49": 662,
         "flags": {
+            "emoji": "🇱🇨",
             "svg": null
         },
         "dependency": null,
@@ -6054,6 +6182,7 @@
         "alpha3": "LIE",
         "unM49": 438,
         "flags": {
+            "emoji": "🇱🇮",
             "svg": null
         },
         "dependency": null,
@@ -6100,6 +6229,7 @@
         "alpha3": "LKA",
         "unM49": 144,
         "flags": {
+            "emoji": "🇱🇰",
             "svg": null
         },
         "dependency": null,
@@ -6146,6 +6276,7 @@
         "alpha3": "LBR",
         "unM49": 430,
         "flags": {
+            "emoji": "🇱🇷",
             "svg": null
         },
         "dependency": null,
@@ -6195,6 +6326,7 @@
         "alpha3": "LSO",
         "unM49": 426,
         "flags": {
+            "emoji": "🇱🇸",
             "svg": null
         },
         "dependency": null,
@@ -6238,6 +6370,7 @@
         "alpha3": "LTU",
         "unM49": 440,
         "flags": {
+            "emoji": "🇱🇹",
             "svg": null
         },
         "dependency": null,
@@ -6283,6 +6416,7 @@
         "alpha3": "LUX",
         "unM49": 442,
         "flags": {
+            "emoji": "🇱🇺",
             "svg": null
         },
         "dependency": null,
@@ -6334,6 +6468,7 @@
         "alpha3": "LVA",
         "unM49": 428,
         "flags": {
+            "emoji": "🇱🇻",
             "svg": null
         },
         "dependency": null,
@@ -6373,6 +6508,7 @@
         "alpha3": "LBY",
         "unM49": 434,
         "flags": {
+            "emoji": "🇱🇾",
             "svg": null
         },
         "dependency": null,
@@ -6413,6 +6549,7 @@
         "alpha3": "MAR",
         "unM49": 504,
         "flags": {
+            "emoji": "🇲🇦",
             "svg": null
         },
         "dependency": null,
@@ -6469,6 +6606,7 @@
         "alpha3": "MCO",
         "unM49": 492,
         "flags": {
+            "emoji": "🇲🇨",
             "svg": null
         },
         "dependency": null,
@@ -6512,6 +6650,7 @@
         "alpha3": "MDA",
         "unM49": 498,
         "flags": {
+            "emoji": "🇲🇩",
             "svg": null
         },
         "dependency": null,
@@ -6555,6 +6694,7 @@
         "alpha3": "MNE",
         "unM49": 499,
         "flags": {
+            "emoji": "🇲🇪",
             "svg": null
         },
         "dependency": null,
@@ -6602,6 +6742,7 @@
         "alpha3": "MAF",
         "unM49": 663,
         "flags": {
+            "emoji": "🇲🇫",
             "svg": null
         },
         "dependency": null,
@@ -6642,6 +6783,7 @@
         "alpha3": "MDG",
         "unM49": 450,
         "flags": {
+            "emoji": "🇲🇬",
             "svg": null
         },
         "dependency": null,
@@ -6690,6 +6832,7 @@
         "alpha3": "MHL",
         "unM49": 584,
         "flags": {
+            "emoji": "🇲🇭",
             "svg": null
         },
         "dependency": null,
@@ -6735,6 +6878,7 @@
         "alpha3": "MKD",
         "unM49": 807,
         "flags": {
+            "emoji": "🇲🇰",
             "svg": null
         },
         "dependency": null,
@@ -6776,6 +6920,7 @@
         "alpha3": "MLI",
         "unM49": 466,
         "flags": {
+            "emoji": "🇲🇱",
             "svg": null
         },
         "dependency": null,
@@ -6826,6 +6971,7 @@
         "alpha3": "MMR",
         "unM49": 104,
         "flags": {
+            "emoji": "🇲🇲",
             "svg": null
         },
         "dependency": null,
@@ -6866,6 +7012,7 @@
         "alpha3": "MNG",
         "unM49": 496,
         "flags": {
+            "emoji": "🇲🇳",
             "svg": null
         },
         "dependency": null,
@@ -6910,6 +7057,7 @@
         "alpha3": "MAC",
         "unM49": 446,
         "flags": {
+            "emoji": "🇲🇴",
             "svg": null
         },
         "dependency": "CN",
@@ -6954,6 +7102,7 @@
         "alpha3": "MNP",
         "unM49": 580,
         "flags": {
+            "emoji": "🇲🇵",
             "svg": null
         },
         "dependency": "US",
@@ -6993,6 +7142,7 @@
         "alpha3": "MTQ",
         "unM49": 474,
         "flags": {
+            "emoji": "🇲🇶",
             "svg": null
         },
         "dependency": "FR",
@@ -7033,6 +7183,7 @@
         "alpha3": "MRT",
         "unM49": 478,
         "flags": {
+            "emoji": "🇲🇷",
             "svg": null
         },
         "dependency": null,
@@ -7080,6 +7231,7 @@
         "alpha3": "MSR",
         "unM49": 500,
         "flags": {
+            "emoji": "🇲🇸",
             "svg": null
         },
         "dependency": "GB",
@@ -7124,6 +7276,7 @@
         "alpha3": "MLT",
         "unM49": 470,
         "flags": {
+            "emoji": "🇲🇹",
             "svg": null
         },
         "dependency": null,
@@ -7170,6 +7323,7 @@
         "alpha3": "MUS",
         "unM49": 480,
         "flags": {
+            "emoji": "🇲🇺",
             "svg": null
         },
         "dependency": null,
@@ -7217,6 +7371,7 @@
         "alpha3": "MDV",
         "unM49": 462,
         "flags": {
+            "emoji": "🇲🇻",
             "svg": null
         },
         "dependency": null,
@@ -7261,6 +7416,7 @@
         "alpha3": "MWI",
         "unM49": 454,
         "flags": {
+            "emoji": "🇲🇼",
             "svg": null
         },
         "dependency": null,
@@ -7304,6 +7460,7 @@
         "alpha3": "MEX",
         "unM49": 484,
         "flags": {
+            "emoji": "🇲🇽",
             "svg": null
         },
         "dependency": null,
@@ -7362,6 +7519,7 @@
         "alpha3": "MYS",
         "unM49": 458,
         "flags": {
+            "emoji": "🇲🇾",
             "svg": null
         },
         "dependency": null,
@@ -7413,6 +7571,7 @@
         "alpha3": "MOZ",
         "unM49": 508,
         "flags": {
+            "emoji": "🇲🇿",
             "svg": null
         },
         "dependency": null,
@@ -7456,6 +7615,7 @@
         "alpha3": "NAM",
         "unM49": 516,
         "flags": {
+            "emoji": "🇳🇦",
             "svg": null
         },
         "dependency": null,
@@ -7503,6 +7663,7 @@
         "alpha3": "NCL",
         "unM49": 540,
         "flags": {
+            "emoji": "🇳🇨",
             "svg": null
         },
         "dependency": "FR",
@@ -7542,6 +7703,7 @@
         "alpha3": "NER",
         "unM49": 562,
         "flags": {
+            "emoji": "🇳🇪",
             "svg": null
         },
         "dependency": null,
@@ -7591,6 +7753,7 @@
         "alpha3": "NFK",
         "unM49": 574,
         "flags": {
+            "emoji": "🇳🇫",
             "svg": null
         },
         "dependency": "AU",
@@ -7634,6 +7797,7 @@
         "alpha3": "NGA",
         "unM49": 566,
         "flags": {
+            "emoji": "🇳🇬",
             "svg": null
         },
         "dependency": null,
@@ -7683,6 +7847,7 @@
         "alpha3": "NIC",
         "unM49": 558,
         "flags": {
+            "emoji": "🇳🇮",
             "svg": null
         },
         "dependency": null,
@@ -7729,6 +7894,7 @@
         "alpha3": "NLD",
         "unM49": 528,
         "flags": {
+            "emoji": "🇳🇱",
             "svg": null
         },
         "dependency": null,
@@ -7780,6 +7946,7 @@
         "alpha3": "NOR",
         "unM49": 578,
         "flags": {
+            "emoji": "🇳🇴",
             "svg": null
         },
         "dependency": null,
@@ -7823,6 +7990,7 @@
         "alpha3": "NPL",
         "unM49": 524,
         "flags": {
+            "emoji": "🇳🇵",
             "svg": null
         },
         "dependency": null,
@@ -7868,6 +8036,7 @@
         "alpha3": "NRU",
         "unM49": 520,
         "flags": {
+            "emoji": "🇳🇷",
             "svg": null
         },
         "dependency": null,
@@ -7911,6 +8080,7 @@
         "alpha3": "NIU",
         "unM49": 570,
         "flags": {
+            "emoji": "🇳🇺",
             "svg": null
         },
         "dependency": "NZ",
@@ -7955,6 +8125,7 @@
         "alpha3": "NZL",
         "unM49": 554,
         "flags": {
+            "emoji": "🇳🇿",
             "svg": null
         },
         "dependency": null,
@@ -7997,6 +8168,7 @@
         "alpha3": "OMN",
         "unM49": 512,
         "flags": {
+            "emoji": "🇴🇲",
             "svg": null
         },
         "dependency": null,
@@ -8036,6 +8208,7 @@
         "alpha3": "PAN",
         "unM49": 591,
         "flags": {
+            "emoji": "🇵🇦",
             "svg": null
         },
         "dependency": null,
@@ -8083,6 +8256,7 @@
         "alpha3": "PER",
         "unM49": 604,
         "flags": {
+            "emoji": "🇵🇪",
             "svg": null
         },
         "dependency": null,
@@ -8128,6 +8302,7 @@
         "alpha3": "PYF",
         "unM49": 258,
         "flags": {
+            "emoji": "🇵🇫",
             "svg": null
         },
         "dependency": "FR",
@@ -8177,6 +8352,7 @@
         "alpha3": "PNG",
         "unM49": 598,
         "flags": {
+            "emoji": "🇵🇬",
             "svg": null
         },
         "dependency": null,
@@ -8222,6 +8398,7 @@
         "alpha3": "PHL",
         "unM49": 608,
         "flags": {
+            "emoji": "🇵🇭",
             "svg": null
         },
         "dependency": null,
@@ -8271,6 +8448,7 @@
         "alpha3": "PAK",
         "unM49": 586,
         "flags": {
+            "emoji": "🇵🇰",
             "svg": null
         },
         "dependency": null,
@@ -8322,6 +8500,7 @@
         "alpha3": "POL",
         "unM49": 616,
         "flags": {
+            "emoji": "🇵🇱",
             "svg": null
         },
         "dependency": null,
@@ -8361,6 +8540,7 @@
         "alpha3": "SPM",
         "unM49": 666,
         "flags": {
+            "emoji": "🇵🇲",
             "svg": null
         },
         "dependency": "FR",
@@ -8405,6 +8585,7 @@
         "alpha3": "PCN",
         "unM49": 612,
         "flags": {
+            "emoji": "🇵🇳",
             "svg": null
         },
         "dependency": "GB",
@@ -8449,6 +8630,7 @@
         "alpha3": "PRI",
         "unM49": 630,
         "flags": {
+            "emoji": "🇵🇷",
             "svg": null
         },
         "dependency": "US",
@@ -8495,6 +8677,7 @@
         "alpha3": "PSE",
         "unM49": 275,
         "flags": {
+            "emoji": "🇵🇸",
             "svg": null
         },
         "dependency": null,
@@ -8533,6 +8716,7 @@
         "alpha3": "PRT",
         "unM49": 620,
         "flags": {
+            "emoji": "🇵🇹",
             "svg": null
         },
         "dependency": null,
@@ -8575,6 +8759,7 @@
         "alpha3": "PLW",
         "unM49": 585,
         "flags": {
+            "emoji": "🇵🇼",
             "svg": null
         },
         "dependency": null,
@@ -8619,6 +8804,7 @@
         "alpha3": "PRY",
         "unM49": 600,
         "flags": {
+            "emoji": "🇵🇾",
             "svg": null
         },
         "dependency": null,
@@ -8663,6 +8849,7 @@
         "alpha3": "QAT",
         "unM49": 634,
         "flags": {
+            "emoji": "🇶🇦",
             "svg": null
         },
         "dependency": null,
@@ -8706,6 +8893,7 @@
         "alpha3": "REU",
         "unM49": 638,
         "flags": {
+            "emoji": "🇷🇪",
             "svg": null
         },
         "dependency": "FR",
@@ -8749,6 +8937,7 @@
         "alpha3": "ROU",
         "unM49": 642,
         "flags": {
+            "emoji": "🇷🇴",
             "svg": null
         },
         "dependency": null,
@@ -8789,6 +8978,7 @@
         "alpha3": "SRB",
         "unM49": 688,
         "flags": {
+            "emoji": "🇷🇸",
             "svg": null
         },
         "dependency": null,
@@ -8835,6 +9025,7 @@
         "alpha3": "RUS",
         "unM49": 643,
         "flags": {
+            "emoji": "🇷🇺",
             "svg": null
         },
         "dependency": null,
@@ -8913,6 +9104,7 @@
         "alpha3": "RWA",
         "unM49": 646,
         "flags": {
+            "emoji": "🇷🇼",
             "svg": null
         },
         "dependency": null,
@@ -8960,6 +9152,7 @@
         "alpha3": "SAU",
         "unM49": 682,
         "flags": {
+            "emoji": "🇸🇦",
             "svg": null
         },
         "dependency": null,
@@ -9003,6 +9196,7 @@
         "alpha3": "SLB",
         "unM49": "090",
         "flags": {
+            "emoji": "🇸🇧",
             "svg": null
         },
         "dependency": null,
@@ -9048,6 +9242,7 @@
         "alpha3": "SYC",
         "unM49": 690,
         "flags": {
+            "emoji": "🇸🇨",
             "svg": null
         },
         "dependency": null,
@@ -9094,6 +9289,7 @@
         "alpha3": "SDN",
         "unM49": 729,
         "flags": {
+            "emoji": "🇸🇩",
             "svg": null
         },
         "dependency": null,
@@ -9141,6 +9337,7 @@
         "alpha3": "SWE",
         "unM49": 752,
         "flags": {
+            "emoji": "🇸🇪",
             "svg": null
         },
         "dependency": null,
@@ -9191,6 +9388,7 @@
         "alpha3": "SGP",
         "unM49": 702,
         "flags": {
+            "emoji": "🇸🇬",
             "svg": null
         },
         "dependency": null,
@@ -9240,6 +9438,7 @@
         "alpha3": "SHN",
         "unM49": 654,
         "flags": {
+            "emoji": "🇸🇭",
             "svg": null
         },
         "dependency": "GB",
@@ -9296,6 +9495,7 @@
         "alpha3": "SVN",
         "unM49": 705,
         "flags": {
+            "emoji": "🇸🇮",
             "svg": null
         },
         "dependency": null,
@@ -9337,6 +9537,7 @@
         "alpha3": "SJM",
         "unM49": 744,
         "flags": {
+            "emoji": "🇸🇯",
             "svg": null
         },
         "dependency": "NO",
@@ -9381,6 +9582,7 @@
         "alpha3": "SVK",
         "unM49": 703,
         "flags": {
+            "emoji": "🇸🇰",
             "svg": null
         },
         "dependency": null,
@@ -9421,6 +9623,7 @@
         "alpha3": "SLE",
         "unM49": 694,
         "flags": {
+            "emoji": "🇸🇱",
             "svg": null
         },
         "dependency": null,
@@ -9465,6 +9668,7 @@
         "alpha3": "SMR",
         "unM49": 674,
         "flags": {
+            "emoji": "🇸🇲",
             "svg": null
         },
         "dependency": null,
@@ -9509,6 +9713,7 @@
         "alpha3": "SEN",
         "unM49": 686,
         "flags": {
+            "emoji": "🇸🇳",
             "svg": null
         },
         "dependency": null,
@@ -9559,6 +9764,7 @@
         "alpha3": "SOM",
         "unM49": 706,
         "flags": {
+            "emoji": "🇸🇴",
             "svg": null
         },
         "dependency": null,
@@ -9600,6 +9806,7 @@
         "alpha3": "SUR",
         "unM49": 740,
         "flags": {
+            "emoji": "🇸🇷",
             "svg": null
         },
         "dependency": null,
@@ -9643,6 +9850,7 @@
         "alpha3": "SSD",
         "unM49": 728,
         "flags": {
+            "emoji": "🇸🇸",
             "svg": null
         },
         "dependency": null,
@@ -9688,6 +9896,7 @@
         "alpha3": "STP",
         "unM49": 678,
         "flags": {
+            "emoji": "🇸🇹",
             "svg": null
         },
         "dependency": null,
@@ -9731,6 +9940,7 @@
         "alpha3": "SLV",
         "unM49": 222,
         "flags": {
+            "emoji": "🇸🇻",
             "svg": null
         },
         "dependency": null,
@@ -9776,6 +9986,7 @@
         "alpha3": "SXM",
         "unM49": 534,
         "flags": {
+            "emoji": "🇸🇽",
             "svg": null
         },
         "dependency": "NL",
@@ -9821,6 +10032,7 @@
         "alpha3": "SYR",
         "unM49": 760,
         "flags": {
+            "emoji": "🇸🇾",
             "svg": null
         },
         "dependency": null,
@@ -9867,6 +10079,7 @@
         "alpha3": "SWZ",
         "unM49": 748,
         "flags": {
+            "emoji": "🇸🇿",
             "svg": null
         },
         "dependency": null,
@@ -9912,6 +10125,7 @@
         "alpha3": "TCA",
         "unM49": 796,
         "flags": {
+            "emoji": "🇹🇨",
             "svg": null
         },
         "dependency": "GB",
@@ -9956,6 +10170,7 @@
         "alpha3": "TCD",
         "unM49": 148,
         "flags": {
+            "emoji": "🇹🇩",
             "svg": null
         },
         "dependency": null,
@@ -10002,6 +10217,7 @@
         "alpha3": "ATF",
         "unM49": 260,
         "flags": {
+            "emoji": "🇹🇫",
             "svg": null
         },
         "dependency": "FR",
@@ -10051,6 +10267,7 @@
         "alpha3": "TGO",
         "unM49": 768,
         "flags": {
+            "emoji": "🇹🇬",
             "svg": null
         },
         "dependency": null,
@@ -10096,6 +10313,7 @@
         "alpha3": "THA",
         "unM49": 764,
         "flags": {
+            "emoji": "🇹🇭",
             "svg": null
         },
         "dependency": null,
@@ -10139,6 +10357,7 @@
         "alpha3": "TJK",
         "unM49": 762,
         "flags": {
+            "emoji": "🇹🇯",
             "svg": null
         },
         "dependency": null,
@@ -10182,6 +10401,7 @@
         "alpha3": "TKL",
         "unM49": 772,
         "flags": {
+            "emoji": "🇹🇰",
             "svg": null
         },
         "dependency": "NZ",
@@ -10226,6 +10446,7 @@
         "alpha3": "TLS",
         "unM49": 626,
         "flags": {
+            "emoji": "🇹🇱",
             "svg": null
         },
         "dependency": null,
@@ -10269,6 +10490,7 @@
         "alpha3": "TKM",
         "unM49": 795,
         "flags": {
+            "emoji": "🇹🇲",
             "svg": null
         },
         "dependency": null,
@@ -10313,6 +10535,7 @@
         "alpha3": "TUN",
         "unM49": 788,
         "flags": {
+            "emoji": "🇹🇳",
             "svg": null
         },
         "dependency": null,
@@ -10359,6 +10582,7 @@
         "alpha3": "TON",
         "unM49": 776,
         "flags": {
+            "emoji": "🇹🇴",
             "svg": null
         },
         "dependency": null,
@@ -10405,6 +10629,7 @@
         "alpha3": "TUR",
         "unM49": 792,
         "flags": {
+            "emoji": "🇹🇷",
             "svg": null
         },
         "dependency": null,
@@ -10451,6 +10676,7 @@
         "alpha3": "TTO",
         "unM49": 780,
         "flags": {
+            "emoji": "🇹🇹",
             "svg": null
         },
         "dependency": null,
@@ -10495,6 +10721,7 @@
         "alpha3": "TUV",
         "unM49": 798,
         "flags": {
+            "emoji": "🇹🇻",
             "svg": null
         },
         "dependency": null,
@@ -10539,6 +10766,7 @@
         "alpha3": "TWN",
         "unM49": 158,
         "flags": {
+            "emoji": "🇹🇼",
             "svg": null
         },
         "dependency": null,
@@ -10579,6 +10807,7 @@
         "alpha3": "TZA",
         "unM49": 834,
         "flags": {
+            "emoji": "🇹🇿",
             "svg": null
         },
         "dependency": null,
@@ -10642,6 +10871,7 @@
         "alpha3": "UKR",
         "unM49": 804,
         "flags": {
+            "emoji": "🇺🇦",
             "svg": null
         },
         "dependency": null,
@@ -10686,6 +10916,7 @@
         "alpha3": "UGA",
         "unM49": 800,
         "flags": {
+            "emoji": "🇺🇬",
             "svg": null
         },
         "dependency": null,
@@ -10741,6 +10972,7 @@
         "alpha3": "UMI",
         "unM49": 581,
         "flags": {
+            "emoji": "🇺🇲",
             "svg": null
         },
         "dependency": "US",
@@ -10789,6 +11021,7 @@
         "alpha3": "USA",
         "unM49": 840,
         "flags": {
+            "emoji": "🇺🇸",
             "svg": null
         },
         "dependency": null,
@@ -10890,6 +11123,7 @@
         "alpha3": "URY",
         "unM49": 858,
         "flags": {
+            "emoji": "🇺🇾",
             "svg": null
         },
         "dependency": null,
@@ -10934,6 +11168,7 @@
         "alpha3": "UZB",
         "unM49": 860,
         "flags": {
+            "emoji": "🇺🇿",
             "svg": null
         },
         "dependency": null,
@@ -10978,6 +11213,7 @@
         "alpha3": "VAT",
         "unM49": 336,
         "flags": {
+            "emoji": "🇻🇦",
             "svg": null
         },
         "dependency": null,
@@ -11017,6 +11253,7 @@
         "alpha3": "VCT",
         "unM49": 670,
         "flags": {
+            "emoji": "🇻🇨",
             "svg": null
         },
         "dependency": null,
@@ -11060,6 +11297,7 @@
         "alpha3": "VEN",
         "unM49": 862,
         "flags": {
+            "emoji": "🇻🇪",
             "svg": null
         },
         "dependency": null,
@@ -11103,6 +11341,7 @@
         "alpha3": "VGB",
         "unM49": "092",
         "flags": {
+            "emoji": "🇻🇬",
             "svg": null
         },
         "dependency": "GB",
@@ -11146,6 +11385,7 @@
         "alpha3": "VIR",
         "unM49": 850,
         "flags": {
+            "emoji": "🇻🇮",
             "svg": null
         },
         "dependency": "US",
@@ -11189,6 +11429,7 @@
         "alpha3": "VNM",
         "unM49": 704,
         "flags": {
+            "emoji": "🇻🇳",
             "svg": null
         },
         "dependency": null,
@@ -11235,6 +11476,7 @@
         "alpha3": "VUT",
         "unM49": 548,
         "flags": {
+            "emoji": "🇻🇺",
             "svg": null
         },
         "dependency": null,
@@ -11283,6 +11525,7 @@
         "alpha3": "WLF",
         "unM49": 876,
         "flags": {
+            "emoji": "🇼🇫",
             "svg": null
         },
         "dependency": "FR",
@@ -11326,6 +11569,7 @@
         "alpha3": "WSM",
         "unM49": 882,
         "flags": {
+            "emoji": "🇼🇸",
             "svg": null
         },
         "dependency": null,
@@ -11371,6 +11615,7 @@
         "alpha3": "XKX",
         "unM49": 412,
         "flags": {
+            "emoji": "🇽🇰",
             "svg": null
         },
         "dependency": null,
@@ -11423,6 +11668,7 @@
         "alpha3": "YEM",
         "unM49": 887,
         "flags": {
+            "emoji": "🇾🇪",
             "svg": null
         },
         "dependency": null,
@@ -11466,6 +11712,7 @@
         "alpha3": "MYT",
         "unM49": 175,
         "flags": {
+            "emoji": "🇾🇹",
             "svg": null
         },
         "dependency": "FR",
@@ -11519,6 +11766,7 @@
         "alpha3": "ZAF",
         "unM49": 710,
         "flags": {
+            "emoji": "🇿🇦",
             "svg": null
         },
         "dependency": null,
@@ -11568,6 +11816,7 @@
         "alpha3": "ZMB",
         "unM49": 894,
         "flags": {
+            "emoji": "🇿🇲",
             "svg": null
         },
         "dependency": null,
@@ -11626,6 +11875,7 @@
         "alpha3": "ZWE",
         "unM49": 716,
         "flags": {
+            "emoji": "🇿🇼",
             "svg": null
         },
         "dependency": null,
