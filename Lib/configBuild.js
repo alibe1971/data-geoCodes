@@ -8,6 +8,7 @@ import { saveDataForNode } from './Writers/appNode.js';
 import { saveDataForPhp } from './Writers/appPhp.js';
 import { saveDataForGo } from './Writers/appGo.js';
 import { saveDataForXml } from './Writers/appXml.js';
+import { saveDataForYaml } from './Writers/appYaml.js';
 
 
 export const configBuild = {
@@ -18,6 +19,7 @@ export const configBuild = {
     Apps: {
         json: saveDataForJson,
         node: saveDataForNode,
+        yaml: saveDataForYaml,
         php: saveDataForPhp,
         go: saveDataForGo,
         xml: saveDataForXml,
