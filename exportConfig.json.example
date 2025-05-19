@@ -1,0 +1,27 @@
+{
+    "json":[
+        "/Users/aliberati/Desktop/STIEKATE/json/"
+    ],
+
+    "xml":[
+        "/Users/aliberati/Desktop/STIEKATE/xml"
+    ],
+
+    "yaml":[
+        "/Users/aliberati/Desktop/STIEKATE/yaml"
+    ],
+
+    "go":[
+        "/Users/aliberati/Desktop/STIEKATE/go",
+        "/Users/aliberati/ALIBE/go-geoCodes/geoCodes/Data"
+    ],
+
+    "node":[
+
+    ],
+
+    "php":[
+        "/Users/aliberati/ALIBE/php-geoCodes/src/Data",
+        "/Users/aliberati/Desktop/STIEKATE/php"
+    ]
+}
