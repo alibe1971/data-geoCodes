@@ -1,5 +1,5 @@
 import chalk from 'chalk';
-import {readJsonFile, cleanDir, checkDir, cloneDir} from './Lib/utils.js';
+import {checkFile, readJsonFile, cleanDir, checkDir, cloneDir} from './Lib/utils.js';
 import { configBuild } from './Lib/configBuild.js';
 
 let APP = {
@@ -48,38 +48,44 @@ let APP = {
         }
         console.log(chalk.green('   - DATA FILE WRITTEN SUCCESSFULLY'));
 
-        console.log(chalk.green('   - BEGIN DATA EXPORT'));
-        APP['exports'] = await readJsonFile('exportConfig.json');
-        for (const [app, paths] of Object.entries(APP['exports'])) {
-            // if (!configBuild.Apps.hasOwnProperty(app)) {
-            if (!Object.prototype.hasOwnProperty.call(configBuild.Apps, app)) {
-                console.log(chalk.red('         - The `' + app + '` is not part in this project. Skipping ...'));
-                continue;
-            }
-            if (paths.length == 0) {
-                console.log(chalk.red('         - The `' + app + '` has no path where execute the export. ' +
-                    'Skipping ...'));
-                continue;
-            }
-            console.log(chalk.magenta('         - Exporting the `' + app + '` data ...'));
-            for(const path of paths) {
-                if (!await checkDir(path)) {
-                    console.log(chalk.red('            - The directory `' + path +
-                        '` for the app `' + app + '` does not exist. Skipping ...'));
+        if (checkFile('exportConfig.json')) {
+            console.log(chalk.green('   - BEGIN DATA EXPORT'));
+
+            APP['exports'] = await readJsonFile('exportConfig.json');
+            for (const [app, paths] of Object.entries(APP['exports'])) {
+                // if (!configBuild.Apps.hasOwnProperty(app)) {
+                if (!Object.prototype.hasOwnProperty.call(configBuild.Apps, app)) {
+                    console.log(chalk.red('         - The `' + app + '` is not part in this project. Skipping ...'));
                     continue;
                 }
-                try {
-                    await cloneDir(configBuild.readPaths.destin + app, path);
-                    console.log(chalk.cyan('            - The `' + app + '` data successfully exported in `' +
-                        path + '`'));
-                } catch (e) {
-                    console.log(chalk.red('            - The cloning operation in the directory `' + path +
-                        '` for the app `' + app + '` returned with this error:`' + e + '`. Skipping ...'));
+                if (paths.length == 0) {
+                    console.log(chalk.red('         - The `' + app + '` has no path where execute the export. ' +
+                        'Skipping ...'));
+                    continue;
+                }
+                console.log(chalk.magenta('         - Exporting the `' + app + '` data ...'));
+                for(const path of paths) {
+                    if (!await checkDir(path)) {
+                        console.log(chalk.red('            - The directory `' + path +
+                            '` for the app `' + app + '` does not exist. Skipping ...'));
+                        continue;
+                    }
+                    try {
+                        await cloneDir(configBuild.readPaths.destin + app, path);
+                        console.log(chalk.cyan('            - The `' + app + '` data successfully exported in `' +
+                            path + '`'));
+                    } catch (e) {
+                        console.log(chalk.red('            - The cloning operation in the directory `' + path +
+                            '` for the app `' + app + '` returned with this error:`' + e + '`. Skipping ...'));
+                    }
                 }
             }
-        }
 
-        console.log(chalk.green('   - DATA EXPORTATION TERMINATED'));
+            console.log(chalk.green('   - DATA EXPORTATION TERMINATED'));
+
+        } else {
+            console.log(chalk.yellow('   - DATA EXPORTATION JUMPED (file `exportConfig.json` not found)'));
+        }
 
         console.log(chalk.green('PROCESS COMPLETED WITH SUCCESS'));
     } catch (err) {

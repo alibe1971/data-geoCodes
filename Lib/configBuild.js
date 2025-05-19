@@ -45,7 +45,7 @@ export const configBuild = {
             name: 'languages'
         }
     },
-    appConfig: 'Config.json',
+    appConfig: 'config.json',
     appData: {
         countries: countriesFunctions,
         currencies: currenciesFunctions,
