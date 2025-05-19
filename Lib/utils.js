@@ -41,6 +41,13 @@ export function sortList(list, key) {
     return list;
 }
 
+export function checkFile(filePath) {
+    if (fs.existsSync(filePath)) {
+        return true;
+    }
+    return false;
+}
+
 export function checkDir(directoryPath) {
     return new Promise((resolve) => {
         fs.access(directoryPath, fs.constants.F_OK, (err) => {
