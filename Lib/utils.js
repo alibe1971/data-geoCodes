@@ -3,23 +3,17 @@ import fs from 'fs';
 import fsExtra from 'fs-extra';
 import path from 'path';
 import { parseString } from 'xml2js';
-import {optimize} from "svgo";
-
+import { optimize } from 'svgo';
 
 export function readJsonFile(filePath) {
     return new Promise((resolve, reject) => {
-        fs.readFile(path.resolve(filePath), 'utf-8', (err, data) => {
-            if (err) {
-                reject(chalk.red(`Error reading file ${filePath}: ${err}`));
-            } else {
-                try {
-                    const jsonData = JSON.parse(data);
-                    resolve(jsonData);
-                } catch (err) {
-                    reject(chalk.red(`Error parsing JSON file ${filePath}: ${err}`));
-                }
-            }
-        });
+        try {
+            const data = fs.readFileSync(path.resolve(filePath), 'utf-8');
+            const jsonData = JSON.parse(data);
+            resolve(jsonData);
+        } catch (err) {
+            reject(chalk.red(`Error reading or parsing JSON file ${filePath}: ${err}`));
+        }
     });
 }
 
@@ -42,20 +36,13 @@ export function sortList(list, key) {
 }
 
 export function checkFile(filePath) {
-    if (fs.existsSync(filePath)) {
-        return true;
-    }
-    return false;
+    return fs.existsSync(filePath);
 }
 
 export function checkDir(directoryPath) {
     return new Promise((resolve) => {
         fs.access(directoryPath, fs.constants.F_OK, (err) => {
-            if (err) {
-                resolve(false);
-            } else {
-                resolve(true);
-            }
+            resolve(!err);
         });
     });
 }
@@ -63,45 +50,38 @@ export function checkDir(directoryPath) {
 export async function cleanDir(directoryPath, translationsDir, languages) {
     await deleteDir(directoryPath);
     await createDir(directoryPath);
-    await createDir(directoryPath + translationsDir);
-    for (let i = 0; i < languages.length; i++) {
-        await createDir(directoryPath + translationsDir + languages[i]);
+    await createDir(path.join(directoryPath, translationsDir));
+    for (const lang of languages) {
+        await createDir(path.join(directoryPath, translationsDir, lang));
     }
-    return;
 }
-
 
 export async function cloneDir(source, destination) {
     await deleteDir(destination);
     await fsExtra.copy(source, destination);
-    return;
 }
 
 export async function deleteDir(directoryPath) {
     try {
         const resolvedPath = path.resolve(directoryPath);
         if (fs.existsSync(resolvedPath)) {
-            await fs.rmSync(resolvedPath, {recursive: true, force: true});
+            fs.rmSync(resolvedPath, { recursive: true, force: true });
         }
     } catch (err) {
         throw new Error('utils/deleteDir reported ' + err);
     }
-
-    return;
 }
 
 export async function createDir(directoryPath) {
     try {
         const resolvedPath = path.resolve(directoryPath);
-        if (!fs.existsSync(resolvedPath)){
-            await fs.mkdirSync(resolvedPath, { recursive: true });
+        if (!fs.existsSync(resolvedPath)) {
+            fs.mkdirSync(resolvedPath, { recursive: true });
         }
     } catch (err) {
         throw new Error('utils/createDir reported ' + err);
     }
-    return;
 }
-
 
 export function checkForTranslationString(mainKey, currentObj, lang, defaultLanguage, prop) {
     if (!Object.prototype.hasOwnProperty.call(currentObj, mainKey)) {
@@ -113,31 +93,31 @@ export function checkForTranslationString(mainKey, currentObj, lang, defaultLang
         }
         return false;
     }
+
     if (typeof currentObj[mainKey] !== 'string') {
         throw new Error(
             'Translation language: `' + lang + '`. Country: `' + mainKey + '`. Property: `' + prop
             + '`. It must be a string'
         );
     }
+
     if (currentObj[mainKey].length === 0) {
         if (lang === defaultLanguage) {
             throw new Error(
                 'Translation language: `' + lang + '`. Country: `' + mainKey + '`. Property: `' + prop
-                + '`. Mandatory for language `' + defaultLanguage + '`'
+                + '`. Cannot be empty for language `' + defaultLanguage + '`'
             );
         }
         return false;
     }
+
     return true;
 }
 
 export function getMinimizedSvg(filePath) {
     return new Promise((resolve, reject) => {
-        fs.readFile(path.resolve(filePath), 'utf-8', (err, data) => {
-            if (err) {
-                reject(chalk.red(`Error reading file ${filePath}: ${err}`));
-                return;
-            }
+        try {
+            const data = fs.readFileSync(path.resolve(filePath), 'utf-8');
 
             parseSvg(data)
                 .then(() => {
@@ -145,14 +125,16 @@ export function getMinimizedSvg(filePath) {
                     if (optimizationResult.error) {
                         reject(chalk.red(`Error optimizing SVG file ${filePath}: ${optimizationResult.error}`));
                     } else {
-                        // console.log(chalk.green(`Successfully optimized SVG file ${filePath}`));
                         resolve(optimizationResult.data);
                     }
                 })
                 .catch(error => {
                     reject(chalk.red(`Error parsing SVG: ${error}`));
                 });
-        });
+
+        } catch (err) {
+            reject(chalk.red(`Error reading file ${filePath}: ${err}`));
+        }
     });
 }
 
