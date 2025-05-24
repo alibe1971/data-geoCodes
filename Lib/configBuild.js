@@ -1,3 +1,4 @@
+import { configFunctions } from './Builders/configBuilder.js';
 import { countriesFunctions } from './Builders/countriesBuilder.js';
 import { geoSetsFunctions } from './Builders/geoSetsBuilder.js';
 import { currenciesFunctions } from './Builders/currenciesBuilder.js';
@@ -46,6 +47,7 @@ export const configBuild = {
         }
     },
     appConfig: 'config.json',
+    configFunctions: configFunctions,
     appData: {
         countries: countriesFunctions,
         currencies: currenciesFunctions,

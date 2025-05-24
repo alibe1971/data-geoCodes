@@ -88,12 +88,13 @@ export function errorMessage(type, collection, item, mainKey, prop, message, lan
         main: 'Main data: ',
         trans: 'Translation language: `' + lang + '`. '
     };
-    throw new Error(
-        typeObj[type] + message + "\n"
-        + ' - Collection: `' +  collection + '`' + "\n"
-        + ' - ' + item + ': `' + mainKey + '`'  + "\n"
-        + ' - Property: `' + prop + '`'
-    );
+    let throwMessage = typeObj[type] + message + "\n"
+        + ' - Collection: `' +  collection + '`' + "\n";
+    if (item !== null) {
+        throwMessage += ' - ' + item + ': `' + mainKey + '`'  + "\n";
+    }
+    throwMessage += ' - Property: `' + prop + '`';
+    throw new Error(throwMessage);
 }
 
 export function checkForTranslationString(

@@ -14,14 +14,20 @@ let APP = {
     exports: {}
 };
 
+console.log(chalk.green('PROCESS BEGIN'));
+
 (async function build() {
     Object.keys(require.cache).forEach(function(key) {
         delete require.cache[key];
     });
 
-    APP['config'] = await readJsonFile(configBuild.readPaths.origin + 'config.json');
-
     console.log(chalk.yellow('   - DATA PARSING'));
+
+    console.log(chalk.magenta('      - Begin to parse `config` data'));
+    APP['config'] = await configBuild.configFunctions.DataParse(
+        await readJsonFile(configBuild.readPaths.origin + 'config.json')
+    );
+    console.log(chalk.green('      - Data `Config` parsing completed with success'));
     for (const [key, functions] of Object.entries(configBuild.appData)) {
         console.log(chalk.magenta('      - Begin to parse `' + key + '` data'));
         APP.data[key] = await functions.DataParse(
@@ -104,4 +110,4 @@ let APP = {
     process.exit(1);
 });
 
-console.log(chalk.green('PROCESS BEGIN'));
+
