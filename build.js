@@ -11,15 +11,40 @@ let APP = {
     data: {},
     TranslationDir: configBuild.TranslationDir,
     translations: {},
-    exports: {}
+    extra: {}
 };
 
-console.log(chalk.green('PROCESS BEGIN'));
+
 
 (async function build() {
     Object.keys(require.cache).forEach(function(key) {
         delete require.cache[key];
     });
+
+    await (async function extra() {
+        if (checkFile('buildConfig.json')) {
+            APP['extra'] = await readJsonFile('buildConfig.json');
+        }
+
+        /** extra.flagsSvgFormat */
+        if(
+            !Object.prototype.hasOwnProperty.call(APP['extra'], 'flagsSvgFormat') ||
+            typeof APP['extra'].flagsSvgFormat != 'string' ||
+            !configBuild.extra.flags.enumSvgFormat.includes(APP['extra'].flagsSvgFormat)
+        ) {
+            APP['extra'].flagsSvgFormat = configBuild.extra.flags.defaultSvgFormat;
+        }
+
+        /** extra.exportDataDirs */
+        if(
+            !Object.prototype.hasOwnProperty.call(APP['extra'], 'exportDataDirs') ||
+            typeof APP['extra'].exportDataDirs != 'object' ||
+            APP['extra'].exportDataDirs == null ||
+            Array.isArray(APP['extra'].exportDataDirs)
+        ) {
+            APP['extra'].exportDataDirs = {};
+        }
+    })();
 
     console.log(chalk.yellow('   - DATA PARSING'));
 
@@ -65,11 +90,9 @@ console.log(chalk.green('PROCESS BEGIN'));
     }
     console.log(chalk.green('   - DATA FILE WRITTEN SUCCESSFULLY'));
 
-    if (checkFile('exportConfig.json')) {
+    if (Object.keys(APP['extra'].exportDataDirs).length !== 0) {
         console.log(chalk.green('   - BEGIN DATA EXPORT'));
-
-        APP['exports'] = await readJsonFile('exportConfig.json');
-        for (const [app, paths] of Object.entries(APP['exports'])) {
+        for (const [app, paths] of Object.entries(APP['extra'].exportDataDirs)) {
             if (!Object.prototype.hasOwnProperty.call(configBuild.Apps, app)) {
                 console.log(chalk.red('         - The `' + app + '` is not part in this project. Skipping ...'));
                 continue;
@@ -81,7 +104,11 @@ console.log(chalk.green('PROCESS BEGIN'));
             }
             console.log(chalk.magenta('         - Exporting the `' + app + '` data ...'));
             for(const path of paths) {
-                if (!await checkDir(path)) {
+                if (
+                    typeof path !== "string" ||
+                    path.length == 0 ||
+                    !await checkDir(path)
+                ) {
                     console.log(chalk.red('            - The directory `' + path +
                         '` for the app `' + app + '` does not exist. Skipping ...'));
                     continue;
@@ -100,7 +127,7 @@ console.log(chalk.green('PROCESS BEGIN'));
         console.log(chalk.green('   - DATA EXPORTATION TERMINATED'));
 
     } else {
-        console.log(chalk.yellow('   - DATA EXPORTATION JUMPED (file `exportConfig.json` not found)'));
+        console.log(chalk.yellow('   - DATA EXPORTATION JUMPED (no extra directories defined in `buildConfig.json`)'));
     }
 
     console.log(chalk.green('PROCESS COMPLETED WITH SUCCESS'));
@@ -111,3 +138,4 @@ console.log(chalk.green('PROCESS BEGIN'));
 });
 
 
+console.log(chalk.green('PROCESS BEGIN'));

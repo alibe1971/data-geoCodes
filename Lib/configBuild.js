@@ -53,5 +53,15 @@ export const configBuild = {
         currencies: currenciesFunctions,
         geoSets: geoSetsFunctions,
         languages: languagesFunctions
+    },
+    extra: {
+        flags: {
+            enumSvgFormat: [
+                '1x1',
+                '4x3',
+                '10x7'
+            ],
+            defaultSvgFormat: '10x7'
+        }
     }
 };
