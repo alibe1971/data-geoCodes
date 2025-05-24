@@ -1,59 +1,62 @@
 import chalk from 'chalk';
-import {sortList, checkForTranslationString, getMinimizedSvg} from '../utils.js';
+import {sortList, checkForTranslationString, getMinimizedSvg, errorMessage} from '../utils.js';
 import slugify from 'slugify';
 
 const mainKey = 'alpha2';
+const collection = 'Countries';
+const collectionItem = 'Country';
 
 let Countries = [];
 let Translations = {};
 
 export const countriesFunctions = {
+
     DataParse: async (data, dataDir) => {
+
+        function throwMex(prop, item, message) {
+            throw new Error( errorMessage('main', collection, collectionItem, item, prop, message));
+        }
+
         for (const item of Object.values(data)) {
             if(!Object.prototype.hasOwnProperty.call(item, mainKey)) {
-                throw new Error('The property `' + mainKey + '` is required in every items.');
+                throwMex(mainKey, JSON.stringify(item), 'Required property is missing');
             }
             let country = {};
 
             /** officialName: must be present and must be an object */
             if(!Object.prototype.hasOwnProperty.call(item, 'officialName')) {
-                throw new Error('Item: `'+ item[mainKey] +'`. The property `officialName` is required');
+                throwMex('officialName', item[mainKey], 'Required property is missing');
             } else if(
                 typeof item.officialName != 'object' ||
                 item.officialName === null ||
                 Array.isArray(item.officialName)
             ) {
-                throw new Error('Item: `'+ item[mainKey] +'`. The property `officialName` must be an object');
+                throwMex('officialName', item[mainKey], 'The property must be an object');
+                // throw new
             }
             country.officialName = item.officialName;
 
             /** alpha2: must be present and must be 2 chars length string */
             if(typeof item.alpha2 != 'string' || item.alpha2.length != 2 || !/^[a-zA-Z]+$/.test(item.alpha2)) {
-                throw new Error(
-                    'Item: `'+ item[mainKey] +'`. The property `alpha2` must be 2 chars length alphabetical string'
-                );
+                throwMex('alpha2', item[mainKey], 'The property must be 2 chars length alphabetical string');
             }
             country.alpha2 = item.alpha2.toUpperCase();
 
             /** alpha3: must be present and must be 3 chars length string */
             if(!Object.prototype.hasOwnProperty.call(item, 'alpha3')) {
-                throw new Error('Item: `' + item[mainKey] + '`. The property `alpha3` is required');
+                throwMex('alpha3', item[mainKey], 'Required property is missing');
             } else if(typeof item.alpha3 != 'string' || item.alpha3.length != 3 || !/^[a-zA-Z]+$/.test(item.alpha3)) {
-                throw new Error(
-                    'Item: `' + item[mainKey] + '`. The property `alpha3` must be 3 chars length alphabetical string'
-                );
+                throwMex('alpha3', item[mainKey], 'The property must be 3 chars length alphabetical string');
             }
             country.alpha3 = item.alpha3.toUpperCase();
 
             /** unM49: must be present and must be 3 chars length numeric string */
             if(!Object.prototype.hasOwnProperty.call(item, 'unM49')) {
-                throw new Error('Item: `' + item[mainKey] + '`. The property `unM49` is required');
+                throwMex('unM49', item[mainKey], 'Required property is missing');
             }
             item.unM49 = item.unM49.toString().padStart(3, '0');
             if(item.unM49.length != 3 || !/^\d+$/.test(item.unM49)) {
-                throw new Error(
-                    'Item: `' + item[mainKey] + '`. The property `unM49` must be 3 chars length numeric string'
-                );
+                throwMex('unM49', item[mainKey], 'The property must be 3 chars length numeric string');
             }
             country.unM49 = item.unM49;
 
@@ -89,18 +92,17 @@ export const countriesFunctions = {
                     item.dependency.length != 2 ||
                     !/^[a-zA-Z]+$/.test(item.dependency)
                 ) {
-                    throw new Error(
-                        'Item: `' + item[mainKey] + '`. The property `dependency` must be null or a 2 chars length '+
-                        'alphabetical string'
-                    );
+                    throwMex('dependency', item[mainKey],
+                        'The property must be null or 2 chars length alphabetical string');
                 }
             }
             country.dependency = item.dependency;
+
             /** mottos: must be present and must be an object */
             if(!Object.prototype.hasOwnProperty.call(item, 'mottos')) {
                 item.mottos = {};
             } else if(typeof item.mottos != 'object' || item.mottos === null || Array.isArray(item.mottos)) {
-                throw new Error('Item: `' + item[mainKey] + '`. The property `mottos` must be an object');
+                throwMex('mottos', item[mainKey], 'The property must be an object');
             }
             if(Object.keys(item.mottos).length !== 0) {
                 if(!Object.prototype.hasOwnProperty.call(item.mottos, 'official')) {
@@ -110,7 +112,8 @@ export const countriesFunctions = {
                     item.mottos.official === null ||
                     Array.isArray(item.mottos.official)
                 ) {
-                    throw new Error('Item: `'+ item[mainKey] +'`. The property `mottos.official` must be an object');
+                    throwMex('mottos.official', item[mainKey], 'The property must be an object');
+                    // throw new Error('Item: `'+ item[mainKey] +'`. The property `mottos.official` must be an object');
                 } else {
                     item.mottos = {
                         official: item.mottos.official
@@ -130,7 +133,7 @@ export const countriesFunctions = {
                 item.currencies === null ||
                 Array.isArray(item.currencies)
             ) {
-                throw new Error('Item: `' + item[mainKey] + '`. The property `currencies` must be an object');
+                throwMex('currencies', item[mainKey], 'The property must be an object');
             }
             if(Object.keys(item.currencies).length !== 0) {
                 if(!Object.prototype.hasOwnProperty.call(item.currencies,'legalTenders')) {
@@ -140,9 +143,7 @@ export const countriesFunctions = {
                     item.currencies.legalTenders === null ||
                     !Array.isArray(item.currencies.legalTenders)
                 ) {
-                    throw new Error(
-                        'Item: `' + item[mainKey] + '`. The property `currencies.legalTenders` must be an array'
-                    );
+                    throwMex('currencies.legalTenders', item[mainKey], 'The property must be an array');
                 }
                 if(!Object.prototype.hasOwnProperty.call(item.currencies,'widelyAccepted')) {
                     item.currencies.widelyAccepted = {};
@@ -151,9 +152,7 @@ export const countriesFunctions = {
                     item.currencies.widelyAccepted === null ||
                     !Array.isArray(item.currencies.widelyAccepted)
                 ) {
-                    throw new Error(
-                        'Item: `'+ item[mainKey] +'`. The property `currencies.widelyAccepted` must be an array'
-                    );
+                    throwMex('currencies.widelyAccepted', item[mainKey], 'The property must be an array');
                 }
             }
             country.currencies = {
@@ -168,7 +167,7 @@ export const countriesFunctions = {
                     exceptions: []
                 };
             } else if(typeof item.dialCodes != 'object' || item.dialCodes === null || Array.isArray(item.dialCodes)) {
-                throw new Error('Item: `' + item[mainKey] + '`. The property `dialCodes` must be an object');
+                throwMex('dialCodes', item[mainKey], 'The property must be an object');
             }
             if(Object.keys(item.dialCodes).length !== 0) {
                 if(!Object.prototype.hasOwnProperty.call(item.dialCodes, 'main')) {
@@ -178,7 +177,7 @@ export const countriesFunctions = {
                     item.dialCodes.main === null ||
                     !Array.isArray(item.dialCodes.main)
                 ) {
-                    throw new Error('Item: `'+ item[mainKey] +'`. The property `dialCodes.main` must be an array');
+                    throwMex('dialCodes.main', item[mainKey], 'The property must be an array');
                 }
                 if(!Object.prototype.hasOwnProperty.call(item.dialCodes, 'exceptions')) {
                     item.dialCodes.exceptions = {};
@@ -187,9 +186,7 @@ export const countriesFunctions = {
                     item.dialCodes.exceptions === null ||
                     !Array.isArray(item.dialCodes.exceptions)
                 ) {
-                    throw new Error(
-                        'Item: `'+ item[mainKey] +'`. The property `dialCodes.exceptions` must be an array'
-                    );
+                    throwMex('dialCodes.exceptions', item[mainKey], 'The property must be an array');
                 }
             }
             country.dialCodes = {
@@ -206,30 +203,27 @@ export const countriesFunctions = {
                     typeof item.ccTld != 'string' ||
                     !/^\.[a-z]{2}$/.test(item.ccTld)
                 ) {
-                    throw new Error(
-                        'Item: `' + item[mainKey] + '`. The property `ccTld` must be null or a 3 chars length ' +
-                        '(beginning with `.` and 2 length alphabetical string'
-                    );
+                    throwMex('ccTld', item[mainKey],
+                        'The property must be a string, respect the level domain rules (and begin with a `.`)');
                 }
             }
             country.ccTld = item.ccTld;
 
             /** timeZones: must be present and must be a not empty array */
             if(!Object.prototype.hasOwnProperty.call(item, 'timeZones')) {
-                throw new Error('Item: `'+ item[mainKey] +'`. The property `timeZones` is required');
+                throwMex('timeZones', item[mainKey], 'Required property is missing');
             } else if(
                 typeof item.timeZones != 'object' ||
                 item.timeZones === null ||
                 !Array.isArray(item.timeZones) ||
                 item.timeZones.length === 0
             ) {
-                throw new Error('Item: `'+ item[mainKey] +'`. The property `timeZones` must be a not array');
+                throwMex('timeZones', item[mainKey], 'The property must be a not empty array');
             }
             for (const tz of item.timeZones) {
                 if(typeof tz != 'string' || !/^[^/]+(\/[^/]+){1,2}$/.test(tz)) {
-                    throw new Error(
-                        'Item: `' + item[mainKey] + '`. The value `timeZones["' + tz + '"]` has not the correct format'
-                    );
+                    throwMex('timeZones', item[mainKey],
+                        'The value timeZones["' + tz + '"]` has not the correct format');
                 }
             }
             country.timeZones = item.timeZones;
@@ -239,20 +233,19 @@ export const countriesFunctions = {
 
             /** locales: must be present and must be a not empty array */
             if(!Object.prototype.hasOwnProperty.call(item, 'locales')) {
-                throw new Error('Item: `' + item[mainKey] + '`. The property `timeZones` is required');
+                throwMex('locales', item[mainKey], 'Required property is missing');
             } else if(
                 typeof item.locales != 'object' ||
                 item.locales === null ||
                 !Array.isArray(item.locales) ||
                 item.locales.length === 0
             ) {
-                throw new Error('Item: `' + item[mainKey] + '`. The property `locales` must be a not empty array');
+                throwMex('locales', item[mainKey], 'The property must be a not empty array');
             }
             for (const loc of item.locales) {
                 if(typeof loc != 'string' || !/^(?=.*[a-zA-Z])([a-zA-Z]+-?)*[a-zA-Z]+$/.test(loc)) {
-                    throw new Error(
-                        'Item: `' + item[mainKey] + '`. The value `locales["' + loc + '"]` has not the correct format'
-                    );
+                    throwMex('locales', item[mainKey],
+                        'The value locales["' + loc + '"]` has not the correct format');
                 }
             }
             country.locales = item.locales;
@@ -265,19 +258,17 @@ export const countriesFunctions = {
             } else if(
                 typeof item.otherAppsIds != 'object' || item.otherAppsIds === null || Array.isArray(item.otherAppsIds)
             ) {
-                throw new Error('Item: `' + item[mainKey] + '`. The property `otherAppsIds` must be an object');
+                throwMex('otherAppsIds', item[mainKey], 'The property must be an object');
             }
             if(Object.keys(item.otherAppsIds).length !== 0) {
                 if(!Object.prototype.hasOwnProperty.call(item.otherAppsIds, 'geoNamesOrg')) {
                     item.otherAppsIds.geoNamesOrg = null;
                 } else if(
-                    (!Number.isInteger(item.otherAppsIds.geoNamesOrg) || item.otherAppsIds.geoNamesOrg == 0) &&
+                    (!Number.isInteger(item.otherAppsIds.geoNamesOrg) || item.otherAppsIds.geoNamesOrg <= 0) &&
                     item.otherAppsIds.geoNamesOrg !== null
                 ) {
-                    throw new Error(
-                        'Item: `'+ item[mainKey] + '`. The property `otherAppsIds.geoNamesOrg` must be an integer' +
-                        ' or null'
-                    );
+                    throwMex('otherAppsIds.geoNamesOrg', item[mainKey],
+                        'The property must be a positive integer or null');
                 }
             }
             country.otherAppsIds = {
@@ -297,7 +288,7 @@ export const countriesFunctions = {
         let currentObj;
         let cc;
 
-        function checkIfIsArray(lang, prop) {
+        function checkIfIsArray(mainKey, lang, prop) {
             if (
                 !Object.prototype.hasOwnProperty.call(currentObj, cc) ||
                 !Object.prototype.hasOwnProperty.call(currentObj[cc], prop)
@@ -305,10 +296,8 @@ export const countriesFunctions = {
                 return false;
             }
             if (!Array.isArray(currentObj[cc][prop])) {
-                throw new Error(
-                    'Translation language: `' + lang + '`. Country: `' + cc + '`. Property: `' + prop
-                    + '`. It must be an array.'
-                );
+                throw new Error( errorMessage('trans', collection, collectionItem, mainKey, prop,
+                    'The property must be an array', lang));
             }
             return true;
         }
@@ -331,29 +320,43 @@ export const countriesFunctions = {
 
                 /** `name` (common name): the source must be a string (required for the default language) **/
                 Translations[lang][cc].name =
-                    (checkForTranslationString(cc, langObjs.name, lang, defaultLanguage, 'name')) ?
-                        langObjs.name[cc] : '';
+                    (checkForTranslationString(
+                        collection,
+                        collectionItem,
+                        cc,
+                        langObjs.name,
+                        lang,
+                        defaultLanguage,
+                        'name'
+                    )) ? langObjs.name[cc] : '';
 
                 /** `fullName`: the source must be a string (required for the default language) **/
                 Translations[lang][cc].fullName =
-                    (checkForTranslationString(cc, langObjs.fullName, lang, defaultLanguage, 'name')) ?
-                        langObjs.fullName[cc] : '';
+                    (checkForTranslationString(
+                        collection,
+                        collectionItem,
+                        cc,
+                        langObjs.name,
+                        lang,
+                        defaultLanguage,
+                        'name'
+                    )) ? langObjs.fullName[cc] : '';
 
                 /** `demonyms`: the source (if present) must be an array **/
                 currentObj = langObjs.demonyms;
-                Translations[lang][cc].demonyms = (checkIfIsArray(lang, 'demonyms')) ?
+                Translations[lang][cc].demonyms = (checkIfIsArray(cc, lang, 'demonyms')) ?
                     langObjs.demonyms[cc].demonyms : [];
 
                 /** `keywords`: all the sources (if present) must be an array **/
                 currentObj = langObjs.acronymsAliasFormer;
-                let acronymsAliasFormer = (checkIfIsArray(lang, 'acronymsAliasFormer')) ?
+                let acronymsAliasFormer = (checkIfIsArray(cc, lang, 'acronymsAliasFormer')) ?
                     langObjs.acronymsAliasFormer[cc].acronymsAliasFormer : [];
                 currentObj = langObjs.adjectives;
-                let adjectives = (checkIfIsArray(lang, 'adjectives')) ? langObjs.adjectives[cc].adjectives : [];
+                let adjectives = (checkIfIsArray(cc, lang, 'adjectives')) ? langObjs.adjectives[cc].adjectives : [];
                 currentObj = langObjs.others;
-                let others = (checkIfIsArray(lang, 'others')) ? langObjs.others[cc].others : [];
+                let others = (checkIfIsArray(cc, lang, 'others')) ? langObjs.others[cc].others : [];
                 currentObj = langObjs.typos;
-                let typos = (checkIfIsArray(lang, 'typos')) ? langObjs.typos[cc].typos : [];
+                let typos = (checkIfIsArray(cc, lang, 'typos')) ? langObjs.typos[cc].typos : [];
 
                 Translations[lang][cc].keywords =
                     Array.from(new Set([].concat(

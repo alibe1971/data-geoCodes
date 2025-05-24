@@ -83,12 +83,40 @@ export async function createDir(directoryPath) {
     }
 }
 
-export function checkForTranslationString(mainKey, currentObj, lang, defaultLanguage, prop) {
+export function errorMessage(type, collection, item, mainKey, prop, message, lang= null) {
+    const typeObj =  {
+        main: 'Main data: ',
+        trans: 'Translation language: `' + lang + '`. '
+    };
+    throw new Error(
+        typeObj[type] + message + "\n"
+        + ' - Collection: `' +  collection + '`' + "\n"
+        + ' - ' + item + ': `' + mainKey + '`'  + "\n"
+        + ' - Property: `' + prop + '`'
+    );
+}
+
+export function checkForTranslationString(
+    collection,
+    collectionItem,
+    mainKey,
+    currentObj,
+    lang,
+    defaultLanguage,
+    prop
+) {
     if (!Object.prototype.hasOwnProperty.call(currentObj, mainKey)) {
         if (lang === defaultLanguage) {
             throw new Error(
-                'Translation language: `' + lang + '`. Country: `' + mainKey + '`. Property: `' + prop
-                + '`. Mandatory for language `' + defaultLanguage + '`'
+                errorMessage(
+                    'trans',
+                    collection,
+                    collectionItem,
+                    mainKey,
+                    prop,
+                    ' Missing mandatory property for language `' + lang + '` (default language)',
+                    lang
+                )
             );
         }
         return false;
@@ -96,16 +124,30 @@ export function checkForTranslationString(mainKey, currentObj, lang, defaultLang
 
     if (typeof currentObj[mainKey] !== 'string') {
         throw new Error(
-            'Translation language: `' + lang + '`. Country: `' + mainKey + '`. Property: `' + prop
-            + '`. It must be a string'
+            errorMessage(
+                'trans',
+                collection,
+                collectionItem,
+                mainKey,
+                prop,
+                ' Property must be a string',
+                lang
+            )
         );
     }
 
     if (currentObj[mainKey].length === 0) {
         if (lang === defaultLanguage) {
             throw new Error(
-                'Translation language: `' + lang + '`. Country: `' + mainKey + '`. Property: `' + prop
-                + '`. Cannot be empty for language `' + defaultLanguage + '`'
+                errorMessage(
+                    'trans',
+                    collection,
+                    collectionItem,
+                    mainKey,
+                    prop,
+                    ' Property cannot be empty for language `' + lang + '` (default language)',
+                    lang
+                )
             );
         }
         return false;

@@ -1,20 +1,25 @@
 import chalk from 'chalk';
-import {checkForTranslationString, sortList} from '../utils.js';
+import {checkForTranslationString, errorMessage, sortList} from '../utils.js';
 
 const mainKey = 'internalCode';
+const collection = 'GeoSets';
+const collectionItem = 'GeoSet';
 
 let GeoSets = [];
 let Translations = {};
-
-
 
 export const geoSetsFunctions = {
     DataParse: async (data, dataDir) => {
         // eslint-disable-next-line no-unused-vars
         const unused = dataDir;
+
+        function throwMex(prop, item, message) {
+            throw new Error( errorMessage('main', collection, collectionItem, item, prop, message));
+        }
+
         for (const item of Object.values(data)) {
             if (!Object.prototype.hasOwnProperty.call(item, mainKey)) {
-                throw new Error('The property `' + mainKey + '` is required in every items.');
+                throwMex(mainKey, JSON.stringify(item), 'Required property is missing');
             }
             let geoSet = {};
 
@@ -22,9 +27,7 @@ export const geoSetsFunctions = {
             if (
                 typeof item.internalCode != 'string' || !/^(?=.*[a-zA-Z0-9])[^-]+(-[^-]+){1,4}$/.test(item.internalCode)
             ) {
-                throw new Error(
-                    'Item: `' + item[mainKey] + '`. The property `internalCode` has not the correct format'
-                );
+                throwMex('internalCode', item[mainKey], 'The property has not the correct format');
             }
             geoSet.internalCode = item.internalCode.toUpperCase();
 
@@ -35,30 +38,27 @@ export const geoSetsFunctions = {
             if(item.unM49 !== null) {
                 item.unM49 = item.unM49.toString().padStart(3, '0');
                 if(item.unM49.length != 3 || !/^\d+$/.test(item.unM49)) {
-                    throw new Error(
-                        'Item: `' + item[mainKey] + '`. The property `unM49` must be 3 chars length numeric string'
-                    );
+                    throwMex('unM49', item[mainKey], 'The property must be 3 chars length numeric string');
                 }
             }
             geoSet.unM49 = item.unM49;
 
             /** tags: must be present and must be an array of strings*/
             if(!Object.prototype.hasOwnProperty.call(item, 'tags')) {
-                throw new Error('Item: `' + item[mainKey] + '`. The property `tags` is required');
+                throwMex('tags', item[mainKey], 'Required property is missing');
             }
             if(
                 typeof item.tags != 'object' ||
                 item.tags === null ||
                 !Array.isArray(item.tags)
             ) {
-                throw new Error('Item: `' + item[mainKey] + '`. The property `tags` must be an array');
+                throwMex('tags', item[mainKey], 'The property must be an array');
             }
             let tmpTag = [];
             for (const tag of item.tags) {
                 if(typeof tag != 'string' || /\s/.test(tag)) {
-                    throw new Error(
-                        'Item: `' + item[mainKey] + '`. The value `tags["' + tag + '"]` must be a single word string'
-                    );
+                    throwMex('tags', item[mainKey],
+                        'The value timeZones["' + tag + '"]` must be a single word string');
                 }
                 tmpTag.push(tag.toLowerCase());
             }
@@ -67,22 +67,21 @@ export const geoSetsFunctions = {
 
             /** countryCodes: must be present and must be an array of 2 length chars strings*/
             if(!Object.prototype.hasOwnProperty.call(item, 'countryCodes')) {
-                throw new Error('Item: `' + item[mainKey] + '`. The property `countryCodes` is required');
+                throwMex('countryCodes', item[mainKey], 'Required property is missing');
             }
             if(
                 typeof item.countryCodes != 'object' ||
                 item.countryCodes === null ||
-                !Array.isArray(item.countryCodes)
+                !Array.isArray(item.countryCodes) ||
+                item.countryCodes.length === 0
             ) {
-                throw new Error('Item: `' + item[mainKey] + '`. The property `countryCodes` must be an array');
+                throwMex('countryCodes', item[mainKey], 'The property must be a not empty array');
             }
             let tmpCC = [];
             for (const countryCode of item.countryCodes) {
                 if(typeof countryCode != 'string' || !/^[a-zA-Z]{2}$/.test(countryCode)) {
-                    throw new Error(
-                        'Item: `' + item[mainKey] + '`. The value `countryCodes["' + countryCode + '"]` must be a' +
-                        'single 2 length alphabetical string'
-                    );
+                    throwMex('alpha2', item[mainKey],
+                        'The value `countryCodes["' + countryCode + '"]` must be 2 chars length alphabetical string');
                 }
                 tmpCC.push(countryCode.toUpperCase());
             }
@@ -107,8 +106,15 @@ export const geoSetsFunctions = {
 
                 /** `name`: the source must be a string (required for the default language) **/
                 Translations[lang][cc].name =
-                    (checkForTranslationString(cc, langObjs.name, lang, defaultLanguage, 'name')) ?
-                        langObjs.name[cc] : '';
+                    (checkForTranslationString(
+                        collection,
+                        collectionItem,
+                        cc,
+                        langObjs.name,
+                        lang,
+                        defaultLanguage,
+                        'name'
+                    )) ? langObjs.name[cc] : '';
             }
             console.log(chalk.cyan('         - Translation language `' + lang + '` data for `geoSets` parsed'));
         }
