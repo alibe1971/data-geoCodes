@@ -1,6 +1,7 @@
 import chalk from 'chalk';
 import {sortList, checkForTranslationString, getMinimizedSvg, errorMessage} from '../utils.js';
 import slugify from 'slugify';
+import {configBuild} from "../configBuild.js";
 
 const mainKey = 'alpha2';
 const collection = 'Countries';
@@ -11,7 +12,7 @@ let Translations = {};
 
 export const countriesFunctions = {
 
-    DataParse: async (data, dataDir) => {
+    DataParse: async data => {
 
         function throwMex(prop, item, message) {
             throw new Error( errorMessage('main', collection, collectionItem, item, prop, message));
@@ -73,8 +74,10 @@ export const countriesFunctions = {
             if(Object.keys(item.flags).length !== 0) {
                 /** svg */
                 try {
+                    let flagPath = configBuild.readPaths.origin + 'Flags/Countries/' + item[mainKey].toLowerCase()
+                        + '/flag_10x7.svg';
                     item.flags.svg = await getMinimizedSvg(
-                        dataDir + 'Flags/Countries/' + item[mainKey].toLowerCase() + '/flag_10x7.svg'
+                        flagPath
                     );
                 } catch (error) {
                     throw new Error('Item: `' + item[mainKey] + '`. Error while minimizing SVG');

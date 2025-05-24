@@ -25,8 +25,7 @@ let APP = {
     for (const [key, functions] of Object.entries(configBuild.appData)) {
         console.log(chalk.magenta('      - Begin to parse `' + key + '` data'));
         APP.data[key] = await functions.DataParse(
-            await readJsonFile(configBuild.readPaths.origin + key + '.json'),
-            configBuild.readPaths.origin
+            await readJsonFile(configBuild.readPaths.origin + key + '.json')
         );
 
         let translationData = {};
@@ -65,7 +64,6 @@ let APP = {
 
         APP['exports'] = await readJsonFile('exportConfig.json');
         for (const [app, paths] of Object.entries(APP['exports'])) {
-            // if (!configBuild.Apps.hasOwnProperty(app)) {
             if (!Object.prototype.hasOwnProperty.call(configBuild.Apps, app)) {
                 console.log(chalk.red('         - The `' + app + '` is not part in this project. Skipping ...'));
                 continue;

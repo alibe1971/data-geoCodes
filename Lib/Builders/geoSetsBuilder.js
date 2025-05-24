@@ -9,9 +9,7 @@ let GeoSets = [];
 let Translations = {};
 
 export const geoSetsFunctions = {
-    DataParse: async (data, dataDir) => {
-        // eslint-disable-next-line no-unused-vars
-        const unused = dataDir;
+    DataParse: async data => {
 
         function throwMex(prop, item, message) {
             throw new Error( errorMessage('main', collection, collectionItem, item, prop, message));
