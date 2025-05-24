@@ -61,7 +61,8 @@ export const configBuild = {
                 '4x3',
                 '10x7'
             ],
-            defaultSvgFormat: '10x7'
+            defaultSvgFormat: '10x7',
+            chosenSvgFormat: null,
         }
     }
 };

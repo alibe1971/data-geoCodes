@@ -73,12 +73,10 @@ export const countriesFunctions = {
             }
             if(Object.keys(item.flags).length !== 0) {
                 /** svg */
+                let flagPath = configBuild.readPaths.origin + 'Flags/Countries/' + item[mainKey].toLowerCase()
+                    + '/flag_' + configBuild.extra.flags.chosenSvgFormat + '.svg'
                 try {
-                    let flagPath = configBuild.readPaths.origin + 'Flags/Countries/' + item[mainKey].toLowerCase()
-                        + '/flag_10x7.svg';
-                    item.flags.svg = await getMinimizedSvg(
-                        flagPath
-                    );
+                    item.flags.svg = await getMinimizedSvg(flagPath);
                 } catch (error) {
                     throw new Error('Item: `' + item[mainKey] + '`. Error while minimizing SVG');
                 }

@@ -34,6 +34,7 @@ let APP = {
         ) {
             APP['extra'].flagsSvgFormat = configBuild.extra.flags.defaultSvgFormat;
         }
+        configBuild.extra.flags.chosenSvgFormat = APP['extra'].flagsSvgFormat;
 
         /** extra.exportDataDirs */
         if(
