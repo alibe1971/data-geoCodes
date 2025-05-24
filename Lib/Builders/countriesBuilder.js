@@ -1,5 +1,5 @@
 import chalk from 'chalk';
-import {sortList, checkForTranslationString, getMinimizedSvg, errorMessage} from '../utils.js';
+import {sortList, checkForTranslationString, getMinimizedSvg, errorMessage, checkFile, readJsonFile} from '../utils.js';
 import slugify from 'slugify';
 import {configBuild} from "../configBuild.js";
 
@@ -63,23 +63,31 @@ export const countriesFunctions = {
 
             /** flags: must be an object */
             if(!Object.prototype.hasOwnProperty.call(item, 'flags')) {
-                item.flags = {
-                    svg: null
-                };
+                throwMex('flags', item[mainKey], 'Required property is missing');
             } else if(
                 typeof item.flags != 'object' || item.flags === null || Array.isArray(item.flags)
             ) {
-                throw new Error('Item: `' + item[mainKey] + '`. The property `flags` must be an object');
+                throwMex('flags', item[mainKey], 'The property must be an object');
             }
-            if(Object.keys(item.flags).length !== 0) {
-                /** svg */
-                let flagPath = configBuild.readPaths.origin + 'Flags/Countries/' + item[mainKey].toLowerCase()
-                    + '/flag_' + configBuild.extra.flags.chosenSvgFormat + '.svg'
-                try {
-                    item.flags.svg = await getMinimizedSvg(flagPath);
-                } catch (error) {
-                    throw new Error('Item: `' + item[mainKey] + '`. Error while minimizing SVG');
-                }
+            /** flags.emoji: must be an emoji */
+            if(!Object.prototype.hasOwnProperty.call(item.flags, 'emoji')) {
+                throwMex('flags.emoji', item[mainKey], 'Required property is missing');
+            }
+            if(
+                typeof item.flags.emoji != 'string' || !/^\p{Regional_Indicator}{2}$/u.test(item.flags.emoji)
+            ) {
+                throwMex('flags.emoji', item[mainKey], 'The property must be a flag emoji');
+            }
+            /** flags.svg: built in */
+            let flagPath = configBuild.readPaths.origin + 'Flags/Countries/' + item[mainKey].toLowerCase()
+                + '/flag_' + configBuild.extra.flags.chosenSvgFormat + '.svg'
+            if (!checkFile(flagPath)) {
+                throwMex('flags.svg', item[mainKey], 'The origin data file `' + flagPath +'` must exists');
+            }
+            try {
+                item.flags.svg = await getMinimizedSvg(flagPath);
+            } catch (error) {
+                throwMex('flags.svg', item[mainKey], 'Error while minimizing SVG');
             }
             country.flags = item.flags;
 
