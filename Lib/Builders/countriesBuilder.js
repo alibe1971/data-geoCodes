@@ -283,7 +283,7 @@ export const countriesFunctions = {
         }
 
         Countries = sortList(Countries, mainKey);
-        console.log(chalk.cyan('         - Main data for `Countries` parsed'));
+        console.log(chalk.cyan('         - Main data for `' + collection +'` parsed'));
         return Countries;
     },
 
@@ -375,7 +375,7 @@ export const countriesFunctions = {
                         ).includes(word)
                         );
             }
-            console.log(chalk.cyan('         - Translation language `' + lang + '` data for `countries` parsed'));
+            console.log(chalk.cyan('         - Translation language `' + lang + '` data for `' + collection +'` parsed'));
         }
         return Translations;
     }

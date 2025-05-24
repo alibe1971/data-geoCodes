@@ -90,7 +90,7 @@ export const geoSetsFunctions = {
         }
 
         GeoSets = sortList(GeoSets, mainKey);
-        console.log(chalk.cyan('         - Main data for `GeoSets` parsed'));
+        console.log(chalk.cyan('         - Main data for `' + collection +'` parsed'));
         return GeoSets;
     },
 
@@ -114,7 +114,7 @@ export const geoSetsFunctions = {
                         'name'
                     )) ? langObjs.name[cc] : '';
             }
-            console.log(chalk.cyan('         - Translation language `' + lang + '` data for `geoSets` parsed'));
+            console.log(chalk.cyan('         - Translation language `' + lang + '` data for `' + collection +'` parsed'));
         }
         return Translations;
     }

@@ -65,7 +65,7 @@ export const currenciesFunctions = {
         }
 
         Currencies = sortList(Currencies, mainKey);
-        console.log(chalk.cyan('         - Main data for `Currencies` parsed'));
+        console.log(chalk.cyan('         - Main data for `' + collection +'` parsed'));
         return Currencies;
     },
 
@@ -89,7 +89,7 @@ export const currenciesFunctions = {
                         'name'
                     )) ? langObjs.name[cc] : '';
             }
-            console.log(chalk.cyan('         - Translation language `' + lang + '` data for `currencies` parsed'));
+            console.log(chalk.cyan('         - Translation language `' + lang + '` data for `' + collection +'` parsed'));
         }
         return Translations;
     }
