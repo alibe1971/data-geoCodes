@@ -104,7 +104,5 @@ export const configFunctions = {
         console.log(chalk.cyan('         - Main data for `' + collection +'` parsed'));
         return Config;
     }
-
-
 };
 
