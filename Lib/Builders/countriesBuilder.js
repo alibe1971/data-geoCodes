@@ -1,5 +1,12 @@
 import chalk from 'chalk';
-import {sortList, checkForTranslationString, getMinimizedSvg, errorMessage, checkFile, readJsonFile} from '../utils.js';
+import {
+    sortList,
+    checkForTranslationString,
+    getMinimizedSvg,
+    errorMessage,
+    checkFile,
+    requirements
+} from '../utils.js';
 import slugify from 'slugify';
 import {configBuild} from "../configBuild.js";
 
@@ -24,18 +31,31 @@ export const countriesFunctions = {
             }
             let country = {};
 
-            /** officialName: must be present and must be an object */
+            /** officialName: it must be present and it must be an object not empty */
             if(!Object.prototype.hasOwnProperty.call(item, 'officialName')) {
                 throwMex('officialName', item[mainKey], 'Required property is missing');
-            } else if(
-                typeof item.officialName != 'object' ||
-                item.officialName === null ||
-                Array.isArray(item.officialName)
-            ) {
-                throwMex('officialName', item[mainKey], 'The property must be an object');
-                // throw new
             }
-            country.officialName = item.officialName;
+            if(
+                !requirements(item.officialName, 'mustBeObject') ||
+                !requirements(item.officialName, 'cannotBeEmpty')
+            ) {
+                throwMex('officialName', item[mainKey], 'The property must be a not empty object');
+            }
+            let officialName = {};
+            for (let [lang, name] of Object.entries(item.officialName)) {
+                lang = lang.replace(/_/g, "-");
+                const langArr = lang.split("-");
+                const langGr = langArr[0].toLowerCase();
+                const charGr = langArr[1]
+                    ? langArr[1].charAt(0).toUpperCase() + langArr[1].slice(1).toLowerCase()
+                    : "";
+                lang = charGr ? `${langGr}-${charGr}` : langGr;
+                if ( !requirements(name, 'mustBeString') || !requirements(name, 'cannotBeEmpty') ) {
+                    throwMex('officialName.'+lang, item[mainKey], 'The property must be a not empty string');
+                }
+                officialName[lang] = name;
+            }
+            country.officialName = officialName;
 
             /** alpha2: must be present and must be 2 chars length string */
             if(typeof item.alpha2 != 'string' || item.alpha2.length != 2 || !/^[a-zA-Z]+$/.test(item.alpha2)) {

@@ -1,5 +1,5 @@
 import chalk from 'chalk';
-import {errorMessage} from '../utils.js';
+import {errorMessage, requirements} from '../utils.js';
 
 const collection = 'Config';
 
@@ -25,21 +25,23 @@ export const configFunctions = {
             throwMex('settings', 'Required property is missing');
         }
         /** settings: must be an object */
-        if(typeof data.settings != 'object' || data.settings === null || Array.isArray(data.settings)) {
-            throwMex('settings', 'The property must be an object');
+        if(
+            !requirements(data.settings, 'mustBeObject') ||
+            !requirements(data.settings, 'cannotBeEmpty')
+        ) {
+            throwMex('settings', 'The property must be a not empty object');
         }
 
         /** settings.languages: must be present */
         if(!Object.prototype.hasOwnProperty.call(data.settings, 'languages')) {
             throwMex('settings.languages', 'Required property is missing');
         }
-        /** settings.languages: must be an object */
+        /** settings.languages: must be a not empty object */
         if(
-            typeof data.settings.languages != 'object' ||
-            data.settings.languages === null ||
-            Array.isArray(data.settings.languages)
+            !requirements(data.settings.languages, 'mustBeObject') ||
+            !requirements(data.settings.languages, 'cannotBeEmpty')
         ) {
-            throwMex('settings.languages', 'The property must be an object');
+            throwMex('settings.languages', 'The property must be a not empty object');
         }
 
         /** settings.languages.inPackage: must be present */
@@ -48,20 +50,19 @@ export const configFunctions = {
         }
         /** settings.languages.inPackage: must be a not empty object */
         if(
-            typeof data.settings.languages.inPackage != 'object' ||
-            data.settings.languages.inPackage === null ||
-            Array.isArray(data.settings.languages.inPackage) ||
-            Object.keys(data.settings.languages.inPackage).length === 0
+            !requirements(data.settings.languages.inPackage, 'mustBeObject') ||
+            !requirements(data.settings.languages.inPackage, 'cannotBeEmpty')
         ) {
             throwMex('settings.languages.inPackage', 'The property must be a not empty object');
         }
         let inPackage = {};
         for (let [lang, locale] of Object.entries(data.settings.languages.inPackage)) {
-            if(typeof lang != 'string' || !/^[a-z]{2}$/i.test(lang)) {
+            if( !requirements(lang, 'mustBeString') || !requirements(lang, 'regex', /^[a-z]{2}$/i) ) {
                 throwMex('settings.languages.inPackage',
                     'The key `' + lang + '` must be 2 chars length alphabetic string');
             }
-            if(typeof locale != 'string' || !/^[a-z]{2}_[a-z]{2}$/i.test(locale)) {
+            locale = locale.replace(/-/g, "_");
+            if( !requirements(locale, 'mustBeString') || !requirements(locale, 'regex', /^[a-z]{2}_[a-z]{2}$/i) ) {
                 throwMex('settings.languages.inPackage',
                     'The value `' + locale + '` has not the correct format (Ie: string `ss_SS`, case insensitive)');
             }
@@ -83,13 +84,14 @@ export const configFunctions = {
         }
         /** settings.languages.default: must be a 2 char string string  */
         if(
-            typeof data.settings.languages.default != 'string' ||
-            !/^[a-z]{2}$/i.test(data.settings.languages.default)
+            !requirements(data.settings.languages.default, 'mustBeString') ||
+            !requirements(data.settings.languages.default, 'regex', /^[a-z]{2}$/i)
         ) {
-            throwMex('settings.languages.default',
-                'The Property must be 2 chars length alphabetic string');
+            throwMex('settings.languages.default', 'The Property must be 2 chars length alphabetic string');
         }
-        /** settings.languages.default: must be a 2 char string string  */
+
+
+        /** settings.languages.default: must be present in the `inPackage` keys  */
         Config.settings.languages.default = data.settings.languages.default.toLowerCase();
         if(
             !Object.prototype.hasOwnProperty.call(

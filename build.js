@@ -1,5 +1,5 @@
 import chalk from 'chalk';
-import {checkFile, readJsonFile, cleanDir, checkDir, cloneDir} from './Lib/utils.js';
+import {checkFile, readJsonFile, cleanDir, checkDir, cloneDir, requirements} from './Lib/utils.js';
 import { configBuild } from './Lib/configBuild.js';
 import { createRequire } from 'module';
 
@@ -39,9 +39,7 @@ let APP = {
         /** extra.exportDataDirs */
         if(
             !Object.prototype.hasOwnProperty.call(APP['extra'], 'exportDataDirs') ||
-            typeof APP['extra'].exportDataDirs != 'object' ||
-            APP['extra'].exportDataDirs == null ||
-            Array.isArray(APP['extra'].exportDataDirs)
+            !requirements(APP['extra'].exportDataDirs, 'mustBeObject')
         ) {
             APP['extra'].exportDataDirs = {};
         }
@@ -91,7 +89,7 @@ let APP = {
     }
     console.log(chalk.green('   - DATA FILE WRITTEN SUCCESSFULLY'));
 
-    if (Object.keys(APP['extra'].exportDataDirs).length !== 0) {
+    if ( !requirements(Object.keys(APP['extra'].exportDataDirs, 'cannotBeEmpty'))) {
         console.log(chalk.green('   - BEGIN DATA EXPORT'));
         for (const [app, paths] of Object.entries(APP['extra'].exportDataDirs)) {
             if (!Object.prototype.hasOwnProperty.call(configBuild.Apps, app)) {
