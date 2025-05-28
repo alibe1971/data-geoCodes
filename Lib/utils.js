@@ -196,31 +196,30 @@ export function parseSvg(data) {
 
 export function requirements(prop, rule, regex=null) {
     switch (rule) {
-        case 'mustBeObject':
-            return ( typeof prop == 'object' && prop !== null && !Array.isArray(prop) );
+    case 'mustBeObject':
+        return ( typeof prop == 'object' && prop !== null && !Array.isArray(prop) );
 
-        case 'mustBeArray':
-            return ( typeof prop == 'object' && prop !== null && Array.isArray(prop) );
+    case 'mustBeArray':
+        return ( typeof prop == 'object' && prop !== null && Array.isArray(prop) );
 
-        case 'mustBeString':
-            return ( typeof prop == 'string' );
+    case 'mustBeString':
+        return ( typeof prop == 'string' );
 
-        case 'mustBeStringOrNull':
-            return ( typeof prop == 'object' && prop === null );
+    case 'mustBeStringOrNull':
+        return ( typeof prop == 'object' && prop === null );
 
-        case 'cannotBeEmpty':
-            let count = 0;
-            if ( typeof prop == 'object' ) {
-                count = Object.keys(prop).length;
-            } else if ( typeof prop == 'string' ) {
-                count = prop.replace(/ /g, '').length;
-            } else {
-                return false;
-            }
-            return ( count !== 0 );
-
-        case 'regex':
-            return regex.test(prop)
-
+    case 'cannotBeEmpty': {
+        let count = 0;
+        if (typeof prop == 'object') {
+            count = Object.keys(prop).length;
+        } else if (typeof prop == 'string') {
+            count = prop.replace(/ /g, '').length;
+        } else {
+            return false;
+        }
+        return (count !== 0);
+    }
+    case 'regex':
+        return regex.test(prop);
     }
 }

@@ -89,8 +89,6 @@ export const configFunctions = {
         ) {
             throwMex('settings.languages.default', 'The Property must be 2 chars length alphabetic string');
         }
-
-
         /** settings.languages.default: must be present in the `inPackage` keys  */
         Config.settings.languages.default = data.settings.languages.default.toLowerCase();
         if(

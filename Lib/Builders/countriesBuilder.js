@@ -58,7 +58,10 @@ export const countriesFunctions = {
             country.officialName = officialName;
 
             /** alpha2: must be present and must be 2 chars length string */
-            if(typeof item.alpha2 != 'string' || item.alpha2.length != 2 || !/^[a-zA-Z]+$/.test(item.alpha2)) {
+            if(
+                !requirements(item.alpha2, 'mustBeString') ||
+                !requirements(item.alpha2, 'regex', /^[a-z]{2}$/i)
+            ) {
                 throwMex('alpha2', item[mainKey], 'The property must be 2 chars length alphabetical string');
             }
             country.alpha2 = item.alpha2.toUpperCase();
@@ -66,7 +69,10 @@ export const countriesFunctions = {
             /** alpha3: must be present and must be 3 chars length string */
             if(!Object.prototype.hasOwnProperty.call(item, 'alpha3')) {
                 throwMex('alpha3', item[mainKey], 'Required property is missing');
-            } else if(typeof item.alpha3 != 'string' || item.alpha3.length != 3 || !/^[a-zA-Z]+$/.test(item.alpha3)) {
+            } else if(
+                !requirements(item.alpha3, 'mustBeString') ||
+                !requirements(item.alpha3, 'regex', /^[a-z]{3}$/i)
+            ) {
                 throwMex('alpha3', item[mainKey], 'The property must be 3 chars length alphabetical string');
             }
             country.alpha3 = item.alpha3.toUpperCase();
@@ -76,7 +82,7 @@ export const countriesFunctions = {
                 throwMex('unM49', item[mainKey], 'Required property is missing');
             }
             item.unM49 = item.unM49.toString().padStart(3, '0');
-            if(item.unM49.length != 3 || !/^\d+$/.test(item.unM49)) {
+            if( !requirements(item.unM49, 'regex', /^\d{3}$/i) ) {
                 throwMex('unM49', item[mainKey], 'The property must be 3 chars length numeric string');
             }
             country.unM49 = item.unM49;
@@ -85,7 +91,7 @@ export const countriesFunctions = {
             if(!Object.prototype.hasOwnProperty.call(item, 'flags')) {
                 throwMex('flags', item[mainKey], 'Required property is missing');
             } else if(
-                typeof item.flags != 'object' || item.flags === null || Array.isArray(item.flags)
+                !requirements(item.flags, 'mustBeObject')
             ) {
                 throwMex('flags', item[mainKey], 'The property must be an object');
             }
@@ -94,13 +100,14 @@ export const countriesFunctions = {
                 throwMex('flags.emoji', item[mainKey], 'Required property is missing');
             }
             if(
-                typeof item.flags.emoji != 'string' || !/^\p{Regional_Indicator}{2}$/u.test(item.flags.emoji)
+                !requirements(item.flags.emoji, 'mustBeString') ||
+                !requirements(item.flags.emoji, 'regex', /^\p{Regional_Indicator}{2}$/u)
             ) {
                 throwMex('flags.emoji', item[mainKey], 'The property must be a flag emoji');
             }
             /** flags.svg: built in */
             let flagPath = configBuild.readPaths.origin + 'Flags/Countries/' + item[mainKey].toLowerCase()
-                + '/flag_' + configBuild.extra.flags.chosenSvgFormat + '.svg'
+                + '/flag_' + configBuild.extra.flags.chosenSvgFormat + '.svg';
             if (!checkFile(flagPath)) {
                 throwMex('flags.svg', item[mainKey], 'The origin data file `' + flagPath +'` must exists');
             }
@@ -117,13 +124,13 @@ export const countriesFunctions = {
             }
             if(item.dependency !== null) {
                 if(
-                    typeof item.dependency != 'string' ||
-                    item.dependency.length != 2 ||
-                    !/^[a-zA-Z]+$/.test(item.dependency)
+                    !requirements(item.dependency, 'mustBeString') ||
+                    !requirements(item.dependency, 'regex', /^[a-z]{2}$/i)
                 ) {
                     throwMex('dependency', item[mainKey],
                         'The property must be null or 2 chars length alphabetical string');
                 }
+                item.dependency = item.dependency.toUpperCase();
             }
             country.dependency = item.dependency;
 
@@ -401,7 +408,9 @@ export const countriesFunctions = {
                         ).includes(word)
                         );
             }
-            console.log(chalk.cyan('         - Translation language `' + lang + '` data for `' + collection +'` parsed'));
+            console.log(
+                chalk.cyan('         - Translation language `' + lang + '` data for `' + collection +'` parsed')
+            );
         }
         return Translations;
     }

@@ -89,7 +89,9 @@ export const currenciesFunctions = {
                         'name'
                     )) ? langObjs.name[cc] : '';
             }
-            console.log(chalk.cyan('         - Translation language `' + lang + '` data for `' + collection +'` parsed'));
+            console.log(
+                chalk.cyan('         - Translation language `' + lang + '` data for `' + collection +'` parsed')
+            );
         }
         return Translations;
     }
