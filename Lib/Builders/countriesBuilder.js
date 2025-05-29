@@ -241,14 +241,16 @@ export const countriesFunctions = {
             }
             if(item.ccTld !== null) {
                 if(
-                    typeof item.ccTld != 'string' ||
-                    !/^\.[a-z]{2}$/.test(item.ccTld)
+                    !requirements(item.ccTld, 'mustBeString') ||
+                    !requirements(item.ccTld, 'regex', /^\.[a-z]{2}$/i)
+                    // typeof item.ccTld != 'string' ||
+                    // !/^\.[a-z]{2}$/.test(item.ccTld)
                 ) {
                     throwMex('ccTld', item[mainKey],
                         'The property must be a string, respect the level domain rules (and begin with a `.`)');
                 }
             }
-            country.ccTld = item.ccTld;
+            country.ccTld = item.ccTld.toLowerCase();
 
             /** timeZones: must be present and must be a not empty array */
             if(!Object.prototype.hasOwnProperty.call(item, 'timeZones')) {
