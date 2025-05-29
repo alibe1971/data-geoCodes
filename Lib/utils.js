@@ -193,6 +193,15 @@ export function parseSvg(data) {
     });
 }
 
+export function refactorLanguages(lang) {
+    lang = lang.replace(/_/g, "-");
+    const langArr = lang.split("-");
+    const langGr = langArr[0].toLowerCase();
+    const charGr = langArr[1]
+        ? langArr[1].charAt(0).toUpperCase() + langArr[1].slice(1).toLowerCase()
+        : "";
+    return charGr ? `${langGr}-${charGr}` : langGr;
+}
 
 export function requirements(prop, rule, regex=null) {
     switch (rule) {

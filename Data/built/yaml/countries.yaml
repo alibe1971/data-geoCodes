@@ -826,6 +826,9 @@
   mottos:
     official:
       la: Virtus unita fortior
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - EUR
@@ -861,6 +864,9 @@
   mottos:
     official:
       ar: الله الوطن الرئيس
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - AED
@@ -1135,6 +1141,9 @@
   mottos:
     official:
       ar: لا إله إلا الله، محمد رسول الله
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - AFN
@@ -1181,6 +1190,9 @@
   mottos:
     official:
       en: Each Endeavouring, All Achieving
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - XCD
@@ -1268,6 +1280,9 @@
   mottos:
     official:
       en: Unity, Strength and Endurance
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - XCD
@@ -1370,6 +1385,9 @@
   mottos:
     official:
       sq: Ti Shqipëri, më jep nder, më jep emrin Shqipëtar
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - ALL
@@ -1406,6 +1424,9 @@
   mottos:
     official:
       hy: Մեկ Ազգ, Մեկ Մշակույթ
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - AMD
@@ -1459,6 +1480,9 @@
   mottos:
     official:
       la: Virtus unita fortior
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - AOA
@@ -1555,7 +1579,11 @@
       3.104-2.47zM281.888 270.113s2.661-.19 1.964
       2.534c-1.014-2.091-1.9-2.407-1.964-2.534z"/></g></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders: []
     widelyAccepted: []
@@ -1830,6 +1858,9 @@
   mottos:
     official:
       es: En unión y libertad
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - ARS
@@ -2058,6 +2089,9 @@
   mottos:
     official:
       sm: Sāmoa, Muamua Le Atua
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - USD
@@ -2089,7 +2123,11 @@
       234.605h1012.712V469.21H0z"
       style="fill:#fff;stroke-width:1.14888048"/></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - EUR
@@ -2153,7 +2191,11 @@
       style="stroke-width:1.20000005" transform="matrix(.11556 0 0 .11556 39.82
       -7.243)"/></g></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - AUD
@@ -2209,7 +2251,12 @@
       stroke-miterlimit="10" stroke-width=".2" d="M4.625 3.375 4 1.35l-.625
       2.025L1.35 4l2.025.625L4 6.65l.625-2.025L6.65 4z"/></svg>
   dependency: NL
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal:
+      fr: Je maintiendrai
+    presidential: {}
   currencies:
     legalTenders:
       - AWG
@@ -2245,7 +2292,11 @@
       d="M-21.573 350H1123.97v100H-21.573z"
       style="fill:#d21034;stroke-width:1.02049112;fill-opacity:1"/></svg>
   dependency: FI
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - EUR
@@ -2287,7 +2338,11 @@
       17.486-36.786-38.376-13.647 38.376-13.646-17.486-36.786 36.786 17.486z"
       style="fill:#fff;stroke-width:1.42646134"/></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - AZN
@@ -2335,7 +2390,11 @@
       transform="translate(.32 .48)"/><use xlink:href="#b" width="100%"
       height="100%" x="6" y="6" transform="translate(.639 .916)"/></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - BAM
@@ -2384,6 +2443,9 @@
   mottos:
     official:
       en: Pride and Industry
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - BBD
@@ -2417,6 +2479,9 @@
   mottos:
     official:
       bn: জাতীয়তাবাদ, ধর্মনিরপেক্ষতা, সমাজতন্ত্র এবং গণতন্ত্র
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - BDT
@@ -2457,6 +2522,9 @@
       nl: Eendracht maakt macht
       fr: L'union fait la force
       de: Einigkeit macht stark
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - EUR
@@ -2503,6 +2571,9 @@
   mottos:
     official:
       fr: Unité–Progrès–Justice
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - XOF
@@ -2537,6 +2608,9 @@
   mottos:
     official:
       bg: Съединението прави силата
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - BGN
@@ -2568,7 +2642,11 @@
       37 13.506l23 10.535-23 10.535 23 10.535-23 10.535 23 10.535-23 10.535 23
       10.535-23 10.535h113" style="fill:#ce1126;stroke-width:1.08191991"/></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - BHD
@@ -2616,6 +2694,9 @@
   mottos:
     official:
       fr: Unité, Travail, Progrès
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - BIF
@@ -2655,6 +2736,9 @@
   mottos:
     official:
       fr: Fraternité, Justice, Travail
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - XOF
@@ -2693,6 +2777,9 @@
   mottos:
     official:
       tnq: Ouanalao
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - EUR
@@ -3416,6 +3503,9 @@
   mottos:
     official:
       la: Quo Fata Ferunt
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - BMD
@@ -3785,6 +3875,9 @@
   mottos:
     official:
       ms: Sentiasa membuat kebajikan dengan petunjuk Allah
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - BND
@@ -6790,6 +6883,9 @@
   mottos:
     official:
       es: La unión es la fuerza
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - BOB
@@ -6826,6 +6922,10 @@
   mottos:
     official:
       nl: Ik zal handhaven
+    popular: {}
+    royal:
+      fr: Je maintiendrai
+    presidential: {}
   currencies:
     legalTenders:
       - USD
@@ -6921,6 +7021,9 @@
   mottos:
     official:
       pt: Ordem e Progresso
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - BRL
@@ -6978,6 +7081,9 @@
   mottos:
     official:
       en: Forward, Upward, Onward, Together
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - BSD
@@ -7603,7 +7709,11 @@
       2.898"/></g><path fill="#fff" d="M654.46 134.31c-3.537.655-6.708
       2.734-8.762 6.84"/></g></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - BTN
@@ -7639,7 +7749,11 @@
       350H1123.97v100H-21.573z"
       style="fill:#002868;stroke-width:1.02049112"/></svg>
   dependency: 'NO'
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - NOK
@@ -7678,6 +7792,9 @@
   mottos:
     official:
       tn: Pula
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - BWP
@@ -7726,7 +7843,11 @@
       transform="matrix(-1 0 0 1 122 0)"/></g><use xlink:href="#b" width="100%"
       height="100%" transform="matrix(1 0 0 -1 0 551.889)"/></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - BYN
@@ -8656,6 +8777,9 @@
   mottos:
     official:
       la: Sub umbra floreo
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - BZD
@@ -8705,6 +8829,9 @@
   mottos:
     official:
       la: A mari usque ad mare
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - CAD
@@ -8845,6 +8972,9 @@
   mottos:
     official:
       ms: Maju Pulu Kita
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - AUD
@@ -8882,6 +9012,9 @@
   mottos:
     official:
       fr: Justice – Paix – Travail
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - CDF
@@ -8932,6 +9065,9 @@
   mottos:
     official:
       fr: Unité, Dignité, Travail
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - XAF
@@ -8970,6 +9106,9 @@
   mottos:
     official:
       fr: Unité, Travail, Progrès
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - XAF
@@ -9013,6 +9152,9 @@
       fr: Un pour tous, tous pour un
       it: Uno per tutti, tutti per uno
       rm: In per tuts, tuts per in
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - CHF
@@ -9063,6 +9205,9 @@
   mottos:
     official:
       fr: Union, Discipline, Travail
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - XOF
@@ -9122,7 +9267,11 @@
       xlink:href="#f" width="100%" height="100%"
       transform="rotate(168)"/></g></svg>
   dependency: NZ
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - NZD
@@ -9166,6 +9315,9 @@
   mottos:
     official:
       es: Por la razón o la fuerza
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - CLP
@@ -9215,6 +9367,9 @@
     official:
       fr: Paix, Travail, Patrie
       en: Pace, Lavoro, Patria
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - XAF
@@ -9281,7 +9436,11 @@
       width="100%" height="100%" transform="rotate(20.66 -18.372
       31.692)"/></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - CNY
@@ -9327,6 +9486,9 @@
   mottos:
     official:
       es: Libertad y Orden
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - COP
@@ -10394,6 +10556,9 @@
   mottos:
     official:
       es: ¡Vivan siempre el trabajo y la paz!
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - CRC
@@ -10431,6 +10596,9 @@
   mottos:
     official:
       es: ¡Patria o Muerte, Venceremos!
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - CUP
@@ -10476,6 +10644,9 @@
   mottos:
     official:
       pt: Unidade, Trabalho, Progresso
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - CVE
@@ -10515,7 +10686,12 @@
       xlink:href="#c" transform="rotate(144 12 12)"/></g><use xlink:href="#d"
       x="-4" y="-4" transform="scale(.75)"/></svg>
   dependency: NL
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal:
+      fr: Je maintiendrai
+    presidential: {}
   currencies:
     legalTenders:
       - ANG
@@ -10597,7 +10773,11 @@
       xlink:href="#a" x="2.522" y="269.061"/><use xlink:href="#a" x="-112.066"
       y="123.223"/><use xlink:href="#a" x="108.427" y="85.027"/></g></svg>
   dependency: AU
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - AUD
@@ -10767,7 +10947,11 @@
       1.104-.551.939-1.599v-.316l.129-4.273.956-1.155.521-2.816.491-.65.513-.676
       1.268-.891-.22-.531z"/></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - EUR
@@ -10809,6 +10993,9 @@
   mottos:
     official:
       cs: Pravda vítězí
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - CZK
@@ -10840,7 +11027,11 @@
       style="fill:#d00;stroke-width:1.08387232"/><path d="M0 2.093h5v1.175H0z"
       style="fill:#ffce00;stroke-width:1.08387232"/></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - EUR
@@ -10891,6 +11082,9 @@
     official:
       ar: اتحاد، مساواة، سلام
       fr: Unité, Égalité, Paix
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - DJF
@@ -10929,6 +11123,9 @@
   mottos:
     official:
       da: Guds hjælp, Folkets kærlighed, Danmarks styrke
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - DKK
@@ -11128,6 +11325,9 @@
   mottos:
     official:
       la: Post Deum terra est
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - XCD
@@ -12790,6 +12990,9 @@
   mottos:
     official:
       es: Dios, Patria, Libertad
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - DOP
@@ -12828,6 +13031,9 @@
     official:
       ar: بالشّعب، وللشّعب
       ber: ⵏ ⵙⵙⵉⵔⵉⵏ ⵏ ⴰⵔⵔⴻⵏ ⵏ ⵏⴻⵍⵍⴻⵉⵔⵏ
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - DZD
@@ -15576,6 +15782,9 @@
   mottos:
     official:
       la: Pro Deo, Patria et Libertate
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - USD
@@ -15610,7 +15819,11 @@
       style="stroke-width:1.05141175"/><path d="M0-1.073h33v7.738H0z"
       style="fill:#4891d9;stroke-width:1.05141175"/></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - EUR
@@ -15859,6 +16072,9 @@
   mottos:
     official:
       ar: بلادي، بلادي، بلادي
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - EGP
@@ -15901,6 +16117,9 @@
   mottos:
     official:
       ar: حرية ديمقراطية وحدة
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - MAD
@@ -16007,6 +16226,9 @@
   mottos:
     official:
       ar: انتصار للجماهير
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - ERN
@@ -17846,6 +18068,9 @@
   mottos:
     official:
       la: Plus ultra
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - EUR
@@ -17900,6 +18125,9 @@
   mottos:
     official:
       am: ኢትዮጵያ አንደኛ
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - ETB
@@ -17940,7 +18168,11 @@
       d="M500-90.606h300V1186.83H500z"
       style="fill:#003580;stroke-width:1.07763863"/></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - EUR
@@ -18603,6 +18835,9 @@
   mottos:
     official:
       fj: Rerevaka na Kalou ka Doka na Tui
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - FJD
@@ -19156,6 +19391,9 @@
   mottos:
     official:
       en: Desire the Right
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - FKP
@@ -19197,6 +19435,9 @@
   mottos:
     official:
       en: Peace, Unity, Liberty
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - USD
@@ -19235,7 +19476,11 @@
       style="fill:#ed2939"><path d="M6.829 0H8.91v16H6.83z"/><path d="M-.457
       7H22.44v2H-.457z"/></g></svg>
   dependency: DK
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - DKK
@@ -19273,6 +19518,9 @@
   mottos:
     official:
       fr: Liberté, Égalité, Fraternité
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - EUR
@@ -19315,6 +19563,9 @@
   mottos:
     official:
       fr: Union, Travail, Justice
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - XAF
@@ -19357,6 +19608,9 @@
   mottos:
     official:
       fr: Dieu et mon droit
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - GBP
@@ -19423,6 +19677,9 @@
   mottos:
     official:
       en: Ever Conscious of God We Aspire, Build and Advance as One People
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - XCD
@@ -19466,6 +19723,9 @@
   mottos:
     official:
       ka: ძალა ერთობაშია
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - GEL
@@ -19504,6 +19764,9 @@
   mottos:
     official:
       fr: Liberté, Égalité, Fraternité
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - EUR
@@ -19541,7 +19804,11 @@
       transform="matrix(0 -1.00258 .99743 0 .033 -.033)"/><use xlink:href="#a"
       width="100%" height="100%" transform="rotate(180 0 -.033)"/></svg>
   dependency: GB
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - GBP
@@ -19580,6 +19847,9 @@
   mottos:
     official:
       en: Freedom and Justice
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - GHS
@@ -19681,6 +19951,9 @@
   mottos:
     official:
       la: Montis Insignia Calpe
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - GIP
@@ -19713,7 +19986,11 @@
       5.982h19.133v6.378H0Zm3.189 0a4.252 4.252 0 0 0 8.503 0 4.252 4.252 0 0
       0-8.503 0" style="fill:#d00c33;stroke-width:1.06292057"/></svg>
   dependency: DK
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - DKK
@@ -19755,6 +20032,9 @@
   mottos:
     official:
       en: Progress, Peace, and Prosperity
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - GMD
@@ -19789,6 +20069,9 @@
   mottos:
     official:
       fr: Travail, Justice, Solidarité
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - GNF
@@ -19824,7 +20107,11 @@
       d="M0-16.017h300v632.701H0z"
       style="fill:#002395;stroke-width:1.02688956"/></svg>
   dependency: FR
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - EUR
@@ -19941,6 +20228,9 @@
   mottos:
     official:
       es: Unidad, Paz, Justicia
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - XAF
@@ -19980,6 +20270,9 @@
   mottos:
     official:
       el: Ελευθερία ή Θάνατος
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - EUR
@@ -20397,6 +20690,9 @@
   mottos:
     official:
       la: Leo terram propriam protegat
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders: []
     widelyAccepted: []
@@ -21083,6 +21379,9 @@
   mottos:
     official:
       es: Libre Crezca Fecundo
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - GTQ
@@ -21206,6 +21505,9 @@
     official:
       ch: Tånó y CHamoru
       en: Land of the CHamorus
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - USD
@@ -21246,6 +21548,9 @@
   mottos:
     official:
       pt: Unidade, Luta, Progresso
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - XOF
@@ -21284,6 +21589,9 @@
   mottos:
     official:
       en: One People, One Nation, One Destiny
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - GYD
@@ -21326,7 +21634,11 @@
       450 300)"/><use xlink:href="#a" transform="rotate(216 450 300)"/><use
       xlink:href="#a" transform="rotate(288 450 300)"/></svg>
   dependency: CN
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - HKD
@@ -21392,7 +21704,11 @@
       style="stroke-width:1.20000005" transform="matrix(.11556 0 0 .11556 39.82
       -7.243)"/></g></svg>
   dependency: AU
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - AUD
@@ -21440,6 +21756,9 @@
   mottos:
     official:
       es: Libre, Soberana e Independiente
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - HNL
@@ -22590,7 +22909,11 @@
       5.151zM746.404 67.598l1.497 7.71-5.918 5.135zM741.729 80.354l-1.505-7.689
       5.926-5.152zM746.477 66.565l-1.497-7.709 5.918-5.13z"/></g></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - EUR
@@ -22626,6 +22949,9 @@
   mottos:
     official:
       fr: L'union fait la force
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - HTG
@@ -22657,7 +22983,11 @@
       style="fill:#fff;stroke-width:1.18339503"/><path d="M0-.601h6v1.4H0z"
       style="fill:#cd2a3e;stroke-width:1.18339503"/></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - HUF
@@ -22691,6 +23021,9 @@
   mottos:
     official:
       kaw: Bhinneka Tunggal Ika
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - IDR
@@ -22732,7 +23065,11 @@
       style="fill:#ff883e;fill-opacity:1;stroke:none;stroke-width:1.18399441"
       transform="translate(0 -752.362)"/></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - EUR
@@ -22771,7 +23108,11 @@
       transform="translate(110 80)"/><use xlink:href="#a" transform="rotate(180
       55 40)"/></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - ILS
@@ -23050,6 +23391,9 @@
   mottos:
     official:
       la: Quocumque ieceris Stabit
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - GBP
@@ -23098,6 +23442,9 @@
   mottos:
     official:
       hi: सत्यमेव जयते
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - INR
@@ -23487,6 +23834,9 @@
   mottos:
     official:
       en: Limuria is in our trust
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - USD
@@ -23559,7 +23909,11 @@
       3.087v26.911c3.401.749 4.117-1.179 5.736-2.206.441 4.307 3.185 8.529 3.088
       11.91h-14.559z" style="fill:#007a3d;fill-opacity:1"/></g></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - IQD
@@ -23617,6 +23971,9 @@
   mottos:
     official:
       fa: استقلال، آزادی، جمهوری اسلامی
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - IRR
@@ -23652,7 +24009,11 @@
       0H995.28v1800H789.024M-36 800h2578.2v200H-36"
       style="fill:#d72828;stroke-width:1.01551986"/></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - ISK
@@ -23684,7 +24045,11 @@
       style="fill:#fff;stroke-width:1.02715886"/><path d="M2-.057h1v2.11H2z"
       style="fill:#ce2b37;stroke-width:1.02715886"/></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - EUR
@@ -23799,6 +24164,9 @@
   mottos:
     official:
       fr: Dieu et Mon Droit
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - GBP
@@ -23833,6 +24201,9 @@
   mottos:
     official:
       en: Out of Many One People
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - JMD
@@ -23876,6 +24247,9 @@
   mottos:
     official:
       ar: الله، الوطن، المليك
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - JOD
@@ -23906,7 +24280,11 @@
       style="fill:#fff;stroke-width:1.05348241"/><circle cx="450" cy="300"
       r="180" fill="#bc002d"/></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - JPY
@@ -23956,6 +24334,9 @@
   mottos:
     official:
       sw: Harambee
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - KES
@@ -24033,7 +24414,11 @@
       33.052 0 1 0 0 66.104l1.8-1.232a31.82 31.82 0 1 1 0-63.64z"/></g><use
       xlink:href="#e" transform="scale(-1 1)"/></g></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - KGS
@@ -24232,6 +24617,9 @@
   mottos:
     official:
       km: ជាតិ សាសនា ព្រះមហាក្សត្រ
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - KHR
@@ -24309,6 +24697,9 @@
   mottos:
     official:
       gil: Te mauri, te raoi ao te tabomoa
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - AUD
@@ -24360,6 +24751,9 @@
     official:
       fr: Waḥda, taḍāmun, tanmiyya
       ar: وحدة، تضامن، تنمية
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - KMF
@@ -24405,6 +24799,9 @@
   mottos:
     official:
       en: Country Above Self
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - XCD
@@ -24450,6 +24847,9 @@
   mottos:
     official:
       ko: 강성대국
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - KPW
@@ -24490,6 +24890,9 @@
   mottos:
     official:
       ko: 홍익인간
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - KRW
@@ -24522,7 +24925,11 @@
       4.424h12v2.813H0z" style="fill:#ce1126;stroke-width:1.18589878"/><path
       d="M0 7.237v-8.438L3.445 1.61v2.813z"/></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - KWD
@@ -25110,6 +25517,9 @@
   mottos:
     official:
       en: He hath founded it upon the seas
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - KYD
@@ -25288,7 +25698,11 @@
       0)"/></g><use xlink:href="#f" width="100%" height="100%"
       transform="matrix(1 0 0 -1 0 1000)"/></g></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - KZT
@@ -25332,6 +25746,9 @@
   mottos:
     official:
       lo: ສັນຕິພາບ ເອກະລາດ ປະຊາທິປະໄຕ ເອກະພາບ ວັດທະນະຖາວອນ
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - LAK
@@ -25449,6 +25866,9 @@
   mottos:
     official:
       ar: كلنـا للوطـن للعـلى للعـلم
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - LBP
@@ -25483,6 +25903,9 @@
   mottos:
     official:
       en: The Land, The People, The Light
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - XCD
@@ -25708,6 +26131,9 @@
   mottos:
     official:
       de: Für Gott, Fürst und Vaterland
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - CHF
@@ -26028,6 +26454,9 @@
     official:
       si: ශ්‍රී ලංකා මාතා
       ta: ஸ்ரீ லங்கா தாயே
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - LKR
@@ -26075,6 +26504,9 @@
   mottos:
     official:
       en: The Love of Liberty Brought Us Here
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - LRD
@@ -26136,6 +26568,9 @@
   mottos:
     official:
       st: Khotso Pula Nala
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - LSL
@@ -26170,6 +26605,9 @@
   mottos:
     official:
       lt: Tautos jėga vienybėje
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - EUR
@@ -26209,6 +26647,9 @@
       lb: Mir wëlle bleiwe wat mir sinn
       fr: Nous voulons rester ce que nous sommes
       de: Wir wollen bleiben, was wir sind
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - EUR
@@ -26245,7 +26686,11 @@
       style="fill:#9e3039;stroke-width:1.1861223"/><path d="M0
       215.587h1200v168.826H0" style="fill:#fff;stroke-width:1.1861223"/></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - EUR
@@ -26284,7 +26729,11 @@
       108.43-35.23-67.013 92.236v-114.01l67.013 92.236z"
       style="fill:#fff;stroke-width:1.34362209"/></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - LYD
@@ -26322,6 +26771,9 @@
     official:
       ar: الله، الوطن، الملك
       ber: ⴰⴽⵓⵛ, ⴰⵎⵓⵔ, ⴰⴳⵍⵍⵉⴷ
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - MAD
@@ -26368,6 +26820,9 @@
   mottos:
     official:
       la: Deo Juvante
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - EUR
@@ -26806,7 +27261,11 @@
       24.727-3.738-3.096-6.473-7.266-6.962-11.877-.951-8.979 5.571-15.922
       15.41-15.922 3.761 0 7.375 1.152 10.494 3.072"/></g></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - MDL
@@ -27701,6 +28160,9 @@
     official:
       sr-Latn: Čojstvo i junaštvo
       sr-Cyrl: Чојство и јунаштво
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - EUR
@@ -27737,7 +28199,11 @@
       d="M0-16.017h300v632.701H0z"
       style="fill:#002395;stroke-width:1.02688956"/></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - EUR
@@ -27775,6 +28241,9 @@
   mottos:
     official:
       mg: Tanindrazana, Fahafahana, Fandrosoana
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - MGA
@@ -27823,6 +28292,9 @@
   mottos:
     official:
       mh: Jepilpilin ke ejukaan
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - USD
@@ -27859,7 +28331,11 @@
       style="fill:#f9d616"/><circle cx="70" cy="35" r="11.25" fill="#F9D616"
       stroke="#CE2028" stroke-width="2.5"/></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - MKD
@@ -27898,6 +28374,9 @@
   mottos:
     official:
       fr: Un peuple, un but, une foi
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - XOF
@@ -27942,7 +28421,11 @@
       transform="rotate(-72)"/><use xlink:href="#a" transform="rotate(72)"/><use
       xlink:href="#a" transform="rotate(144)"/></g></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - MMK
@@ -28004,7 +28487,11 @@
       0-40.684-36.484-59.944-36.484-89.688 0-10.08 2.36-27.26
       16.64-40.86z"/></g></g></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - MNT
@@ -28068,7 +28555,11 @@
       31.819.552z"/></g><use xlink:href="#a" transform="matrix(-1 0 0 1 660
       0)"/></svg>
   dependency: CN
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - MOP
@@ -28536,7 +29027,11 @@
       92.095-78.331-56.915-78.331 56.914 29.916-92.095-78.327-56.92
       96.82-.004z"/></g></svg>
   dependency: US
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - USD
@@ -28585,7 +29080,11 @@
       xlink:href="#a" y="286.25"/><use xlink:href="#a" x="411.25"
       y="286.25"/></svg>
   dependency: FR
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - EUR
@@ -28626,6 +29125,9 @@
   mottos:
     official:
       ar: شرف إخاء عدل
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - MRU
@@ -28813,6 +29315,9 @@
   mottos:
     official:
       en: A people of excellence, moulded by nature, nurtured by God
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - XCD
@@ -29036,6 +29541,9 @@
   mottos:
     official:
       la: Virtute et constantia
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - EUR
@@ -29074,6 +29582,9 @@
   mottos:
     official:
       la: Stella Clavisque Maris Indici
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - MUR
@@ -29112,6 +29623,9 @@
   mottos:
     official:
       ar: الدولة المحلديبية
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - MVR
@@ -29156,6 +29670,9 @@
   mottos:
     official:
       en: Unity and Freedom
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - MWK
@@ -31130,6 +31647,9 @@
   mottos:
     official:
       es: La Patria Es Primero
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - MXN
@@ -31201,6 +31721,9 @@
   mottos:
     official:
       ms: Bersekutu Bertambah Mutu
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - MYR
@@ -31287,7 +31810,11 @@
       341.284c-3.023.263-5.643.583-8.206 2.344z"
       style="fill:#000;fill-rule:evenodd;stroke:#000;stroke-width:1.67506242;stroke-linecap:round;stroke-linejoin:round"/></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - MZN
@@ -31334,6 +31861,9 @@
   mottos:
     official:
       en: Unity, Liberty, Justice
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - NAD
@@ -31394,7 +31924,11 @@
       23.575-6.554 41.898-6.554 41.898"/></g><use xlink:href="#a" width="100%"
       height="100%" transform="matrix(-1 0 0 1 600.997 0)"/></svg>
   dependency: FR
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - XPF
@@ -31431,6 +31965,9 @@
   mottos:
     official:
       fr: Unité - Travail - Progrès
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - XOF
@@ -31706,6 +32243,9 @@
   mottos:
     official:
       pih: Inasmuch
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - AUD
@@ -31739,6 +32279,9 @@
   mottos:
     official:
       en: Unity and Faith, Peace and Progress
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - NGN
@@ -32156,6 +32699,9 @@
   mottos:
     official:
       es: En Dios Confiamos
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - NIO
@@ -32193,6 +32739,10 @@
   mottos:
     official:
       fr: Je maintiendrai
+    popular: {}
+    royal:
+      fr: Je maintiendrai
+    presidential: {}
   currencies:
     legalTenders:
       - EUR
@@ -32235,7 +32785,11 @@
       350H1123.97v100H-21.573z"
       style="fill:#002868;stroke-width:1.02049112"/></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - NOK
@@ -32289,6 +32843,9 @@
   mottos:
     official:
       ne: जननी जन्मभूमिश्च स्वर्गादपी गरीयसी
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - NPR
@@ -32330,6 +32887,9 @@
   mottos:
     official:
       en: God's Will First
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - AUD
@@ -32380,6 +32940,9 @@
   mottos:
     official:
       niu: Atua, Niue Tukulagi
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - NZD
@@ -32444,7 +33007,11 @@
       d="M0 480h1200v248.263H0z"
       style="fill:#00247d;fill-opacity:1;stroke-width:1.31468689"/></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - NZD
@@ -32739,7 +33306,11 @@
       width="12.89" height="8.84" x="186.32" y=".84" rx=".7" ry="1.563"
       style="fill:#fff;stroke:#db161b;stroke-width:.33028001"/></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - OMR
@@ -32784,6 +33355,9 @@
   mottos:
     official:
       la: Pro Mundi Beneficio
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - PAB
@@ -34481,6 +35055,9 @@
   mottos:
     official:
       es: Firme y feliz por la unión
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - PEN
@@ -34606,6 +35183,10 @@
   mottos:
     official:
       fr: Liberté, Égalité, Fraternité
+    popular:
+      ty: Pōrīnetia Farāni
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - XPF
@@ -34682,6 +35263,9 @@
   mottos:
     official:
       en: Unity in Diversity
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - PGK
@@ -34738,6 +35322,9 @@
     official:
       tl: Maka-Diyos, Maka-tao, Makakalikasan at Makabansa
       en: For God, People, Nature and Country
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - PHP
@@ -34780,6 +35367,9 @@
   mottos:
     official:
       ur: ایمان ، اتحاد ، نظم
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - PKR
@@ -34818,7 +35408,11 @@
       style="fill:#fff;stroke-width:1.06026554"/><path d="M0 5h16v5.621H0z"
       style="fill:#dc143c;stroke-width:1.06026554"/></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - PLN
@@ -34855,6 +35449,9 @@
   mottos:
     official:
       la: A Mare Labor
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - EUR
@@ -35135,6 +35732,9 @@
   mottos:
     official:
       fr: Dieu et mon droit
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - NZD
@@ -35177,6 +35777,9 @@
   mottos:
     official:
       la: Joannes Est Nomen Eius
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - USD
@@ -35212,7 +35815,11 @@
       style="stroke-width:1.18383384"/><path d="m0-.607 2.227 2.103L0 3.598Z"
       style="fill:#ce1126;stroke-width:1.24907482"/></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders: []
     widelyAccepted: []
@@ -35405,7 +36012,11 @@
       xlink:href="#f" y="-26.016"/><use xlink:href="#f" x="-20.799"/><use
       xlink:href="#f" x="20.745"/><use xlink:href="#f" y="25.784"/></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - EUR
@@ -35442,6 +36053,9 @@
   mottos:
     official:
       en: Rainbow's End
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - USD
@@ -35958,6 +36572,9 @@
     official:
       es: Paz y Justicia
       gn: Py'aguapy ha tekojoja
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - PYG
@@ -35991,6 +36608,9 @@
   mottos:
     official:
       ar: الله الوطن الأمير
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - QAR
@@ -36027,6 +36647,9 @@
   mottos:
     official:
       la: Florebo quocumque ferar
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - EUR
@@ -36058,7 +36681,11 @@
       style="fill:#fcd116;stroke-width:1.02851295"/><path d="M2-.053h1v2.116H2z"
       style="fill:#ce1126;stroke-width:1.02851295"/></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - RON
@@ -38251,6 +38878,9 @@
   mottos:
     official:
       sr: Само слога Србина спасава
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - RSD
@@ -38285,7 +38915,11 @@
       style="fill:#d52b1e;stroke-width:1.02688956"/><path d="M0
       1.962h9v2.109H0z" style="fill:#0039a6;stroke-width:1.02688956"/></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - RUB
@@ -38369,6 +39003,9 @@
   mottos:
     official:
       rw: Ubumwe, Umurimo, Gukunda Igihugu
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - RWF
@@ -38680,6 +39317,9 @@
   mottos:
     official:
       ar: لا إله إلا الله، محمد رسول الله
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - SAR
@@ -38727,6 +39367,9 @@
   mottos:
     official:
       en: To Lead is to Serve
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - SBD
@@ -38765,6 +39408,9 @@
   mottos:
     official:
       la: Finis Coronat Opus
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - SCR
@@ -38804,6 +39450,9 @@
   mottos:
     official:
       ar: النصر لنا
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - SDG
@@ -38843,6 +39492,9 @@
   mottos:
     official:
       sv: För Sverige - i tiden
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - SEK
@@ -38893,6 +39545,9 @@
   mottos:
     official:
       ms: Majulah Singapura
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - SGD
@@ -39957,6 +40612,9 @@
   mottos:
     official:
       en: Loyal and Unshakeable
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - SHP
@@ -40010,7 +40668,11 @@
       155.61 0 0 1 0 118.97 155.61 155.61 0 0 1-110.26-19.48L-120-163.23a280 280
       0 0 0 8.42-3.82" style="fill:#ed1c24"/></svg></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - EUR
@@ -40050,6 +40712,9 @@
   mottos:
     official:
       'no': Alt for Norge
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - NOK
@@ -40100,7 +40765,11 @@
       0-.277.164-.277.164s-.133-.345-.382-.345" style="fill:#0b4ea2"
       transform="translate(-.25 -.065)"/></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - EUR
@@ -40139,6 +40808,9 @@
     official:
       en: Unity, Freedom, Justice
       kri: Unity, Freedom, Justice
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - SLE
@@ -41339,6 +42011,9 @@
   mottos:
     official:
       la: Libertas
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - EUR
@@ -41383,6 +42058,9 @@
   mottos:
     official:
       fr: Un Peuple, Un But, Une Foi
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - XOF
@@ -41426,7 +42104,11 @@
       transform="rotate(144)"/><use xlink:href="#b"
       transform="rotate(-144)"/></g></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - SOS
@@ -41464,6 +42146,9 @@
   mottos:
     official:
       la: Justitia – Pietas – Fides
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - SRD
@@ -41502,6 +42187,9 @@
   mottos:
     official:
       en: Justice, Liberty, Prosperity
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - SSP
@@ -41549,6 +42237,9 @@
   mottos:
     official:
       pt: Unidade, Disciplina, Trabalho
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - STN
@@ -43160,6 +43851,9 @@
   mottos:
     official:
       es: Dios, Union y Libertad
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - USD
@@ -43486,6 +44180,10 @@
   mottos:
     official:
       la: Semper progrediens
+    popular: {}
+    royal:
+      fr: Je maintiendrai
+    presidential: {}
   currencies:
     legalTenders:
       - ANG
@@ -43530,6 +44228,9 @@
   mottos:
     official:
       ar: وَحْدَةٌ ، حُرِّيَّةٌ ، اِشْتِرَاكِيَّةٌ
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - SYP
@@ -43655,6 +44356,9 @@
   mottos:
     official:
       ss: Siyinqaba
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - SZL
@@ -43944,6 +44648,9 @@
   mottos:
     official:
       en: One people, one nation, one destiny
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - USD
@@ -43982,6 +44689,9 @@
     official:
       ar: الاتحاد، العمل، التقدم
       fr: Unité, Travail, Progrès
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - XAF
@@ -44027,6 +44737,9 @@
   mottos:
     official:
       fr: Liberté, égalité, fraternité
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - EUR
@@ -44077,6 +44790,9 @@
   mottos:
     official:
       fr: Travail, Liberté, Patrie
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - XOF
@@ -44114,6 +44830,9 @@
   mottos:
     official:
       th: ชาติ ศาสนา พระมหากษัตริย์
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - THB
@@ -44174,6 +44893,9 @@
   mottos:
     official:
       tg: Истиқлол, Озодӣ, Ватан
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - TJS
@@ -44222,6 +44944,9 @@
   mottos:
     official:
       tkl: Tokelau Mo Te Atua
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - NZD
@@ -44265,6 +44990,9 @@
   mottos:
     official:
       pt: Unidade, Acção, Progresso
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - USD
@@ -44877,6 +45605,9 @@
   mottos:
     official:
       tk: Türkmenistan Bitaraplygyň watanydyr
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - TMT
@@ -44913,6 +45644,9 @@
   mottos:
     official:
       ar: حرية، نظام، عدالة
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - TND
@@ -44953,6 +45687,9 @@
     official:
       to: Ko e Otua mo Tonga ko hoku tofi'a
       en: God and Tonga are my heritage
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - TOP
@@ -44990,6 +45727,9 @@
   mottos:
     official:
       tr: Yurtta sulh, cihanda sulh
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - TRY
@@ -45027,6 +45767,9 @@
   mottos:
     official:
       en: Together We Aspire, Together We Achieve
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - TTD
@@ -45088,6 +45831,9 @@
     official:
       tuv: Tuvalu mo te Atua
       en: Tuvalu for the Almighty
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - AUD
@@ -45124,7 +45870,11 @@
       height="100%" transform="rotate(60 0 -4.8)"/><circle cy="-5.28" r="17"
       style="fill:#000095"/><circle cy="-5.28" r="15" style="fill:#fff"/></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - TWD
@@ -45158,7 +45908,11 @@
       stroke-width="19" d="M0 48 72 0"/><path d="M-.726 48.436 73.999-1.381"
       style="stroke:#000;stroke-width:13.4920969"/></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - TZS
@@ -45214,7 +45968,11 @@
       400.629h1200v420.764H0z"
       style="fill:#ffd500;stroke-width:1.0256263"/></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - UAH
@@ -45314,6 +46072,9 @@
   mottos:
     official:
       en: For God and My Country
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - UGX
@@ -45375,6 +46136,10 @@
   mottos:
     official:
       en: In God We Trust
+    popular: {}
+    royal: {}
+    presidential:
+      la: E pluribus unum
   currencies:
     legalTenders:
       - USD
@@ -45426,6 +46191,10 @@
   mottos:
     official:
       en: In God We Trust
+    popular: {}
+    royal: {}
+    presidential:
+      la: E pluribus unum
   currencies:
     legalTenders:
       - USD
@@ -45534,6 +46303,9 @@
   mottos:
     official:
       es: Libertad o Muerte
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - UYU
@@ -45586,7 +46358,11 @@
       height="100%" x="-24"/><use xlink:href="#d" width="100%" height="100%"
       x="-24" y="-24"/></g></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - UZS
@@ -46169,7 +46945,11 @@
       56.636c-4.926-6.191-40.227-8.83-54.096-.392-5.02 0-18.54-93.848 29-91.529
       43.656 2.13 28.129 92.354 25.096 91.92z"/></g></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - EUR
@@ -46207,6 +46987,9 @@
   mottos:
     official:
       la: Pax et Justitia
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - XCD
@@ -46254,6 +47037,9 @@
   mottos:
     official:
       es: Dios y Federación
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - VES
@@ -46520,6 +47306,9 @@
   mottos:
     official:
       la: Vigilate
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - USD
@@ -46849,6 +47638,9 @@
   mottos:
     official:
       en: United in Pride and Hope
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - USD
@@ -46886,6 +47678,9 @@
   mottos:
     official:
       vi: Độc lập – Tự do – Hạnh phúc
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - VND
@@ -46962,6 +47757,9 @@
       bi: Long God yumi stanap
       fr: Nous nous tenons devant Dieu
       en: With God we stand
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - VUV
@@ -47001,6 +47799,9 @@
   mottos:
     official:
       fr: Liberté, égalité, fraternité
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - XPF
@@ -47045,6 +47846,9 @@
   mottos:
     official:
       sm: Fa'avaei le Atua Samoa
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - WST
@@ -47321,7 +48125,11 @@
       2.238 2.685h5.369c.895 0 1.342-2.237 3.132-2.237"
       style="stroke-width:4.47445"/></svg>
   dependency: null
-  mottos: {}
+  mottos:
+    official: {}
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - EUR
@@ -47363,6 +48171,9 @@
   mottos:
     official:
       ar: اَللهُ، ٱلْوَطَنُ، ٱلثَوْرَةُ، ٱلْوَحْدَةُ
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - YER
@@ -47399,6 +48210,9 @@
   mottos:
     official:
       swb: Ra Hachiri
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - EUR
@@ -47457,6 +48271,9 @@
   mottos:
     official:
       xam: 'ǃke e: ǀxarra ǁke'
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - ZAR
@@ -47612,6 +48429,9 @@
   mottos:
     official:
       en: One Zambia, One Nation
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - ZMW
@@ -47700,6 +48520,9 @@
   mottos:
     official:
       en: Unity, Freedom, Work
+    popular: {}
+    royal: {}
+    presidential: {}
   currencies:
     legalTenders:
       - ZWL

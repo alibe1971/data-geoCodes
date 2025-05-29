@@ -5,7 +5,7 @@ import {
     getMinimizedSvg,
     errorMessage,
     checkFile,
-    requirements
+    requirements, refactorLanguages
 } from '../utils.js';
 import slugify from 'slugify';
 import {configBuild} from "../configBuild.js";
@@ -43,13 +43,7 @@ export const countriesFunctions = {
             }
             let officialName = {};
             for (let [lang, name] of Object.entries(item.officialName)) {
-                lang = lang.replace(/_/g, "-");
-                const langArr = lang.split("-");
-                const langGr = langArr[0].toLowerCase();
-                const charGr = langArr[1]
-                    ? langArr[1].charAt(0).toUpperCase() + langArr[1].slice(1).toLowerCase()
-                    : "";
-                lang = charGr ? `${langGr}-${charGr}` : langGr;
+                lang = refactorLanguages(lang);
                 if ( !requirements(name, 'mustBeString') || !requirements(name, 'cannotBeEmpty') ) {
                     throwMex('officialName.'+lang, item[mainKey], 'The property must be a not empty string');
                 }
@@ -134,101 +128,112 @@ export const countriesFunctions = {
             }
             country.dependency = item.dependency;
 
-            /** mottos: must be present and must be an object */
-            if(!Object.prototype.hasOwnProperty.call(item, 'mottos')) {
-                item.mottos = {};
-            } else if(typeof item.mottos != 'object' || item.mottos === null || Array.isArray(item.mottos)) {
+            /** mottos: if present, it must be an object */
+            let itemMottos = {};
+            const mottosCategories = [
+                'official',
+                'popular',
+                'royal',
+                'presidential',
+            ];
+            if ( !Object.prototype.hasOwnProperty.call(item, 'mottos') ) {
+                item.mottos = itemMottos;
+            } else if( !requirements(item.mottos, 'mustBeObject') ) {
                 throwMex('mottos', item[mainKey], 'The property must be an object');
             }
-            if(Object.keys(item.mottos).length !== 0) {
-                if(!Object.prototype.hasOwnProperty.call(item.mottos, 'official')) {
-                    item.mottos = {};
-                } else if(
-                    typeof item.mottos.official != 'object' ||
-                    item.mottos.official === null ||
-                    Array.isArray(item.mottos.official)
-                ) {
-                    throwMex('mottos.official', item[mainKey], 'The property must be an object');
-                    // throw new Error('Item: `'+ item[mainKey] +'`. The property `mottos.official` must be an object');
+            for (const cat of mottosCategories) {
+                if(!Object.prototype.hasOwnProperty.call(item.mottos, cat)) {
+                    itemMottos[cat] = {};
+                } else if( !requirements(item.mottos[cat], 'mustBeObject') ) {
+                    throwMex('mottos.' + cat, item[mainKey], 'The property must be an object');
                 } else {
-                    item.mottos = {
-                        official: item.mottos.official
-                    };
+                    let mottos = {};
+                    for (let [lang, motto] of Object.entries(item.mottos[cat])) {
+                        lang = refactorLanguages(lang);
+                        if ( !requirements(motto, 'mustBeString') || !requirements(motto, 'cannotBeEmpty') ) {
+                            throwMex(
+                                'mottos.' + cat + '.' + lang, item[mainKey],
+                                'The property must be a not empty string'
+                            );
+                        }
+                        mottos[lang] = motto;
+                    }
+                    itemMottos[cat] = mottos;
                 }
             }
-            country.mottos = item.mottos;
+            country.mottos = itemMottos;
 
             /** currencies: must be an object */
-            if(!Object.prototype.hasOwnProperty.call(item, 'currencies')) {
-                item.currencies = {
-                    legalTenders: {},
-                    widelyAccepted: {}
-                };
-            } else if(
-                typeof item.currencies != 'object' ||
-                item.currencies === null ||
-                Array.isArray(item.currencies)
-            ) {
+            let itemCurrencies = {};
+            const currencyCategories = [
+                'legalTenders',
+                'widelyAccepted'
+            ];
+            if ( !Object.prototype.hasOwnProperty.call(item, 'currencies') ) {
+                item.currencies = itemCurrencies;
+            } else if( !requirements(item.currencies, 'mustBeObject') ) {
                 throwMex('currencies', item[mainKey], 'The property must be an object');
             }
-            if(Object.keys(item.currencies).length !== 0) {
-                if(!Object.prototype.hasOwnProperty.call(item.currencies,'legalTenders')) {
-                    item.currencies.legalTenders = {};
-                } else if(
-                    typeof item.currencies.legalTenders != 'object' ||
-                    item.currencies.legalTenders === null ||
-                    !Array.isArray(item.currencies.legalTenders)
-                ) {
-                    throwMex('currencies.legalTenders', item[mainKey], 'The property must be an array');
-                }
-                if(!Object.prototype.hasOwnProperty.call(item.currencies,'widelyAccepted')) {
-                    item.currencies.widelyAccepted = {};
-                } else if(
-                    typeof item.currencies.widelyAccepted != 'object' ||
-                    item.currencies.widelyAccepted === null ||
-                    !Array.isArray(item.currencies.widelyAccepted)
-                ) {
-                    throwMex('currencies.widelyAccepted', item[mainKey], 'The property must be an array');
+            for (const cat of currencyCategories) {
+                if(!Object.prototype.hasOwnProperty.call(item.currencies, cat)) {
+                    itemCurrencies[cat] = [];
+                } else if( !requirements(item.currencies[cat], 'mustBeArray') ) {
+                    throwMex('currencies.' + cat, item[mainKey], 'The property must be an array');
+                } else {
+                    let currencies = [];
+                    for (const [index, curr] of item.currencies[cat].entries()) {
+                        if(
+                            !requirements(curr, 'mustBeString') ||
+                            !requirements(curr, 'regex', /^[a-z]{3}$/i)
+                        ) {
+                            throwMex('currencies.' + cat + '.' + index, item[mainKey],
+                                'The property must be 3 chars length alphabetical string');
+                        }
+                        currencies.push(curr.toUpperCase());
+                    }
+                    itemCurrencies[cat] = [...new Set(currencies)];
                 }
             }
-            country.currencies = {
-                legalTenders: item.currencies.legalTenders,
-                widelyAccepted: item.currencies.widelyAccepted
-            };
+            country.currencies = itemCurrencies;
 
             /** dialCodes: must be an object */
-            if(!Object.prototype.hasOwnProperty.call(item, 'dialCodes')) {
-                item.dialCodes = {
-                    main: [],
-                    exceptions: []
-                };
-            } else if(typeof item.dialCodes != 'object' || item.dialCodes === null || Array.isArray(item.dialCodes)) {
+            let itemDialCodes = {};
+            const dialCodesCategories = [
+                'main',
+                'exceptions'
+            ];
+            if ( !Object.prototype.hasOwnProperty.call(item, 'dialCodes') ) {
+                item.dialCodes = itemDialCodes;
+            } else if( !requirements(item.dialCodes, 'mustBeObject') ) {
                 throwMex('dialCodes', item[mainKey], 'The property must be an object');
             }
-            if(Object.keys(item.dialCodes).length !== 0) {
-                if(!Object.prototype.hasOwnProperty.call(item.dialCodes, 'main')) {
-                    item.dialCodes.main = [];
-                } else if(
-                    typeof item.dialCodes.main != 'object' ||
-                    item.dialCodes.main === null ||
-                    !Array.isArray(item.dialCodes.main)
-                ) {
-                    throwMex('dialCodes.main', item[mainKey], 'The property must be an array');
-                }
-                if(!Object.prototype.hasOwnProperty.call(item.dialCodes, 'exceptions')) {
-                    item.dialCodes.exceptions = {};
-                } else if(
-                    typeof item.dialCodes.exceptions != 'object' ||
-                    item.dialCodes.exceptions === null ||
-                    !Array.isArray(item.dialCodes.exceptions)
-                ) {
-                    throwMex('dialCodes.exceptions', item[mainKey], 'The property must be an array');
+            for (const cat of dialCodesCategories) {
+                if(!Object.prototype.hasOwnProperty.call(item.dialCodes, cat)) {
+                    itemDialCodes[cat] = [];
+                } else if( !requirements(item.dialCodes[cat], 'mustBeArray') ) {
+                    throwMex('dialCodes.' + cat, item[mainKey], 'The property must be an array');
+                } else {
+                    let dialCodes = [];
+                    for (let [index, dial] of item.dialCodes[cat].entries()) {
+                        if (Number.isInteger(dial)) {
+                            dial = '+' + dial.toString();
+                        } else if (typeof dial == 'string') {
+                            dial = dial.replace(/^00/g, '+');
+                        }
+                        if(
+                            !requirements(dial, 'mustBeString') ||
+                            !requirements(dial, 'regex', /^(?:\+[1-9]\d*|\d+)$/)
+                        ) {
+                            throwMex('dialCodes.' + cat + '.' + index, item[mainKey],
+                                'The property must be either an integer or a numeric string.'
+                            + 'It can start with `00` or `+`, but the very next digit must be between 1 and 9');
+                        }
+                        dialCodes.push(dial);
+                    }
+                    itemDialCodes[cat] = [...new Set(dialCodes)];
                 }
             }
-            country.dialCodes = {
-                main: item.dialCodes.main,
-                exceptions: item.dialCodes.exceptions
-            };
+            country.dialCodes = itemDialCodes;
 
             /** ccTld: can be null or 2 chars length string other the beginning of `.` (3 chars total) */
             if(!Object.prototype.hasOwnProperty.call(item, 'ccTld')) {
