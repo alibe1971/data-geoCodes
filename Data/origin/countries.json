@@ -785,7 +785,11 @@
             "emoji": "🇦🇼"
         },
         "dependency": "NL",
-        "mottos": {},
+        "mottos": {
+            "royal": {
+                "fr": "Je maintiendrai"
+            }
+        },
         "currencies": {
             "legalTenders": [
                 "AWG"
@@ -1506,6 +1510,9 @@
         "mottos": {
             "official": {
                 "nl": "Ik zal handhaven"
+            },
+            "royal": {
+                "fr": "Je maintiendrai"
             }
         },
         "currencies": {
@@ -2632,7 +2639,11 @@
             "emoji": "🇨🇼"
         },
         "dependency": "NL",
-        "mottos": {},
+        "mottos": {
+            "royal": {
+                "fr": "Je maintiendrai"
+            }
+        },
         "currencies": {
             "legalTenders": [
                 "ANG"
@@ -7735,6 +7746,9 @@
         "mottos": {
             "official": {
                 "fr": "Je maintiendrai"
+            },
+            "royal": {
+                "fr": "Je maintiendrai"
             }
         },
         "currencies": {
@@ -8135,7 +8149,7 @@
             "official": {
                 "fr": "Liberté, Égalité, Fraternité"
             },
-            "territorial": {
+            "popular": {
                 "ty": "Pōrīnetia Farāni"
             }
         },
@@ -9782,6 +9796,9 @@
         "mottos": {
             "official": {
                 "la": "Semper progrediens"
+            },
+            "royal": {
+                "fr": "Je maintiendrai"
             }
         },
         "currencies": {
