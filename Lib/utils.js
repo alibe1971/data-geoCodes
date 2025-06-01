@@ -4,6 +4,8 @@ import fsExtra from 'fs-extra';
 import path from 'path';
 import { parseString } from 'xml2js';
 import { optimize } from 'svgo';
+import * as tags from 'language-tags';
+import { parse as parseBcp47 } from 'bcp-47';
 
 export function readJsonFile(filePath) {
     return new Promise((resolve, reject) => {
@@ -195,12 +197,12 @@ export function parseSvg(data) {
 
 export function refactorLanguages(lang) {
     lang = lang.replace(/_/g, "-");
-    const langArr = lang.split("-");
-    const langGr = langArr[0].toLowerCase();
-    const charGr = langArr[1]
-        ? langArr[1].charAt(0).toUpperCase() + langArr[1].slice(1).toLowerCase()
-        : "";
-    return charGr ? `${langGr}-${charGr}` : langGr;
+    try {
+        return new Intl.Locale(lang).toString();
+    } catch (err) {
+        return 'error';
+    }
+
 }
 
 export function requirements(prop, rule, regex=null) {
@@ -215,12 +217,19 @@ export function requirements(prop, rule, regex=null) {
         return ( typeof prop == 'string' );
 
     case 'mustBeStringOrNull':
-        return ( typeof prop == 'object' && prop === null );
+        return ( (typeof prop == 'object' && prop === null) || typeof prop == 'string' );
+
+    case 'mustBePositiveIntegerNotZero':
+        return ( Number.isInteger(prop) && prop > 0);
 
     case 'cannotBeEmpty': {
         let count = 0;
         if (typeof prop == 'object') {
-            count = Object.keys(prop).length;
+            if (!Array.isArray(prop)) {
+                count = Object.keys(prop).length;
+            } else {
+                count = prop.length;
+            }
         } else if (typeof prop == 'string') {
             count = prop.replace(/ /g, '').length;
         } else {
@@ -230,5 +239,15 @@ export function requirements(prop, rule, regex=null) {
     }
     case 'regex':
         return regex.test(prop);
+
+    case 'bcp47': {
+        const ast = parseBcp47(prop);
+        if (!ast) return false;
+        if (!tags.check(prop)) return false;
+        if (!tags.language(ast.language)) return false;
+        if (ast.script && !tags.type(ast.script, 'script')) return false;
+        if (ast.region && !tags.region(ast.region)) return false;
+        return true;
+    }
     }
 }

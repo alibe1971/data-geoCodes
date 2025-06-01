@@ -1,5 +1,5 @@
 import chalk from 'chalk';
-import {errorMessage, requirements} from '../utils.js';
+import {errorMessage, refactorLanguages, requirements} from '../utils.js';
 
 const collection = 'Config';
 
@@ -61,13 +61,24 @@ export const configFunctions = {
                 throwMex('settings.languages.inPackage',
                     'The key `' + lang + '` must be 2 chars length alphabetic string');
             }
-            locale = locale.replace(/-/g, "_");
-            if( !requirements(locale, 'mustBeString') || !requirements(locale, 'regex', /^[a-z]{2}_[a-z]{2}$/i) ) {
+
+            if( !requirements(locale, 'mustBeString') || !requirements(locale, 'cannotBeEmpty') ) {
                 throwMex('settings.languages.inPackage',
-                    'The value `' + locale + '` has not the correct format (Ie: string `ss_SS`, case insensitive)');
+                    'The value `' + locale + '` must be a not empty string');
             }
+            locale = refactorLanguages(locale);
+            if ( locale == 'error' || !requirements(locale, 'bcp47') ) {
+                throwMex(
+                    'settings.languages.inPackage',
+                    'The value `' + locale + '` non-compliant with BCP 47 format'
+                );
+            }
+            if (!Intl.Collator.supportedLocalesOf([locale]).length) {
+                throwMex('settings.languages.inPackage', 'The value `' + locale + '` is not supported');
+            }
+
             lang = lang.toLowerCase();
-            let [locLang, locCC] = locale.split('_');
+            let [locLang, locCC] = locale.split('-');
             locLang = locLang.toLowerCase();
             if(locLang != lang) {
                 throwMex('settings.languages.inPackage',

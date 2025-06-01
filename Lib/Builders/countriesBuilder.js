@@ -9,6 +9,7 @@ import {
 } from '../utils.js';
 import slugify from 'slugify';
 import {configBuild} from "../configBuild.js";
+import moment from 'moment-timezone';
 
 const mainKey = 'alpha2';
 const collection = 'Countries';
@@ -43,9 +44,15 @@ export const countriesFunctions = {
             }
             let officialName = {};
             for (let [lang, name] of Object.entries(item.officialName)) {
+                /** key */
                 lang = refactorLanguages(lang);
+                if ( lang == 'error' || !requirements(lang, 'bcp47') ) {
+                    throwMex('officialName.'+lang, item[mainKey], 'The property key non-compliant with BCP 47 format');
+                }
+
+                /** value */
                 if ( !requirements(name, 'mustBeString') || !requirements(name, 'cannotBeEmpty') ) {
-                    throwMex('officialName.'+lang, item[mainKey], 'The property must be a not empty string');
+                    throwMex('officialName.'+lang, item[mainKey], 'The property value must be a not empty string');
                 }
                 officialName[lang] = name;
             }
@@ -150,6 +157,11 @@ export const countriesFunctions = {
                     let mottos = {};
                     for (let [lang, motto] of Object.entries(item.mottos[cat])) {
                         lang = refactorLanguages(lang);
+                        if ( lang == 'error' || !requirements(lang, 'bcp47') ) {
+                            throwMex(
+                                'mottos.' + cat + '.' + lang, item[mainKey],
+                                'The property key non-compliant with BCP 47 format');
+                        }
                         if ( !requirements(motto, 'mustBeString') || !requirements(motto, 'cannotBeEmpty') ) {
                             throwMex(
                                 'mottos.' + cat + '.' + lang, item[mainKey],
@@ -239,34 +251,46 @@ export const countriesFunctions = {
             if(!Object.prototype.hasOwnProperty.call(item, 'ccTld')) {
                 item.ccTld = null;
             }
+            if ( !requirements(item.ccTld, 'mustBeStringOrNull') ) {
+                throwMex('ccTld', item[mainKey], 'The property must be string or null');
+            }
             if(item.ccTld !== null) {
-                if(
+                item.ccTld = item.ccTld.replace(/^[^.]/, match => '.' + match).toLowerCase();
+                if (
                     !requirements(item.ccTld, 'mustBeString') ||
                     !requirements(item.ccTld, 'regex', /^\.[a-z]{2}$/i)
-                    // typeof item.ccTld != 'string' ||
-                    // !/^\.[a-z]{2}$/.test(item.ccTld)
+
                 ) {
                     throwMex('ccTld', item[mainKey],
-                        'The property must be a string, respect the level domain rules (and begin with a `.`)');
+                        'The property as string must respect the level domain rules (and begin with a `.`)');
                 }
+                item.ccTld = item.ccTld.toLowerCase();
             }
-            country.ccTld = item.ccTld.toLowerCase();
+            country.ccTld = item.ccTld;
+
+            /** ccIdn (Internationalized Domain Names): TODO */
+            country.ccIdn = [];
 
             /** timeZones: must be present and must be a not empty array */
             if(!Object.prototype.hasOwnProperty.call(item, 'timeZones')) {
                 throwMex('timeZones', item[mainKey], 'Required property is missing');
             } else if(
-                typeof item.timeZones != 'object' ||
-                item.timeZones === null ||
-                !Array.isArray(item.timeZones) ||
-                item.timeZones.length === 0
+                !requirements(item.timeZones, 'mustBeArray') ||
+                !requirements(item.timeZones, 'cannotBeEmpty')
             ) {
                 throwMex('timeZones', item[mainKey], 'The property must be a not empty array');
             }
-            for (const tz of item.timeZones) {
-                if(typeof tz != 'string' || !/^[^/]+(\/[^/]+){1,2}$/.test(tz)) {
+            for (const [index, tz] of item.timeZones.entries()) {
+                if(
+                    !requirements(tz, 'mustBeString') ||
+                    !requirements(tz, 'regex', /^[^/]+(\/[^/]+){1,2}$/i)
+                ) {
                     throwMex('timeZones', item[mainKey],
-                        'The value timeZones["' + tz + '"]` has not the correct format');
+                        'The value `timeZones.' + index +'` has not the correct format');
+                }
+                if( !(moment.tz.zone(tz) != null) ) {
+                    throwMex('timeZones', item[mainKey],
+                        'The value `timeZones.' + index +'` is not in the database');
                 }
             }
             country.timeZones = item.timeZones;
@@ -293,26 +317,27 @@ export const countriesFunctions = {
             }
             country.locales = item.locales;
 
-            /** otherAppsIds: must be an object */
+            /** otherAppsIds: must be present and be a not empty object */
             if(!Object.prototype.hasOwnProperty.call(item, 'otherAppsIds')) {
-                item.otherAppsIds = {
-                    geoNamesOrg: null
-                };
-            } else if(
-                typeof item.otherAppsIds != 'object' || item.otherAppsIds === null || Array.isArray(item.otherAppsIds)
-            ) {
-                throwMex('otherAppsIds', item[mainKey], 'The property must be an object');
+                throwMex('otherAppsIds', item[mainKey], 'Required property is missing');
             }
-            if(Object.keys(item.otherAppsIds).length !== 0) {
-                if(!Object.prototype.hasOwnProperty.call(item.otherAppsIds, 'geoNamesOrg')) {
-                    item.otherAppsIds.geoNamesOrg = null;
-                } else if(
-                    (!Number.isInteger(item.otherAppsIds.geoNamesOrg) || item.otherAppsIds.geoNamesOrg <= 0) &&
-                    item.otherAppsIds.geoNamesOrg !== null
-                ) {
-                    throwMex('otherAppsIds.geoNamesOrg', item[mainKey],
-                        'The property must be a positive integer or null');
-                }
+            if(
+                !requirements(item.otherAppsIds, 'mustBeObject') ||
+                !requirements(item.otherAppsIds, 'cannotBeEmpty')
+            ) {
+                throwMex('otherAppsIds', item[mainKey], 'The property must be a not empty object');
+            }
+            if(!Object.prototype.hasOwnProperty.call(item.otherAppsIds, 'geoNamesOrg')) {
+                throwMex('otherAppsIds.geoNamesOrg', item[mainKey], 'Required property is missing');
+            }
+
+            // geoNamesOrg
+            if(!Object.prototype.hasOwnProperty.call(item.otherAppsIds, 'geoNamesOrg')) {
+                item.otherAppsIds.geoNamesOrg = null;
+            }
+            if( !requirements(item.otherAppsIds.geoNamesOrg, 'mustBePositiveIntegerNotZero') ) {
+                throwMex('otherAppsIds.geoNamesOrg', item[mainKey],
+                    'The property must be a positive greater then zero');
             }
             country.otherAppsIds = {
                 geoNamesOrg: item.otherAppsIds.geoNamesOrg
