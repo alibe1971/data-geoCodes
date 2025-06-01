@@ -396,9 +396,7 @@ const Countries = `[
         }
     },
     {
-        "officialName": {
-            "en": "Antarctica"
-        },
+        "officialName": {},
         "alpha2": "AQ",
         "alpha3": "ATA",
         "unM49": "010",

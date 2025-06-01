@@ -377,9 +377,7 @@
         </otherAppsIds>
     </country>
     <country index="8">
-        <officialName>
-            <name lang="en">Antarctica</name>
-        </officialName>
+        <officialName/>
         <alpha2>AQ</alpha2>
         <alpha3>ATA</alpha3>
         <unM49>010</unM49>
