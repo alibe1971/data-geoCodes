@@ -32,6 +32,7 @@
             "exceptions": []
         },
         "ccTld": ".ad",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Andorra"
         ],
@@ -77,6 +78,7 @@
             "exceptions": []
         },
         "ccTld": ".ae",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Dubai"
         ],
@@ -92,7 +94,7 @@
     {
         "officialName": {
             "ps": "د افغانستان اسلامي امارت",
-            "prs": "امارت اسلامی افغانستان"
+            "fa-AF": "امارت اسلامی افغانستان"
         },
         "alpha2": "AF",
         "alpha3": "AFG",
@@ -123,6 +125,7 @@
             "exceptions": []
         },
         "ccTld": ".af",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Kabul"
         ],
@@ -173,6 +176,7 @@
             "exceptions": []
         },
         "ccTld": ".ag",
+        "ccIdn": [],
         "timeZones": [
             "America/Antigua"
         ],
@@ -218,6 +222,7 @@
             "exceptions": []
         },
         "ccTld": ".ai",
+        "ccIdn": [],
         "timeZones": [
             "America/Anguilla"
         ],
@@ -263,6 +268,7 @@
             "exceptions": []
         },
         "ccTld": ".al",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Tirane"
         ],
@@ -308,6 +314,7 @@
             "exceptions": []
         },
         "ccTld": ".am",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Yerevan"
         ],
@@ -353,6 +360,7 @@
             "exceptions": []
         },
         "ccTld": ".ao",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Luanda"
         ],
@@ -369,7 +377,7 @@
     },
     {
         "officialName": {
-            "en": "Antartica"
+            "en": "Antarctica"
         },
         "alpha2": "AQ",
         "alpha3": "ATA",
@@ -396,18 +404,19 @@
             "exceptions": []
         },
         "ccTld": ".aq",
+        "ccIdn": [],
         "timeZones": [
-            "Antartica/South_Pole",
-            "Antartica/Casey",
-            "Antartica/Davis",
-            "Antartica/DumontDUrville",
-            "Antartica/Macquarie",
-            "Antartica/Mawson",
-            "Antartica/Palmer",
-            "Antartica/Rothera",
-            "Antartica/Syowa",
-            "Antartica/Troll",
-            "Antartica/Vostok"
+            "Antarctica/South_Pole",
+            "Antarctica/Casey",
+            "Antarctica/Davis",
+            "Antarctica/DumontDUrville",
+            "Antarctica/Macquarie",
+            "Antarctica/Mawson",
+            "Antarctica/Palmer",
+            "Antarctica/Rothera",
+            "Antarctica/Syowa",
+            "Antarctica/Troll",
+            "Antarctica/Vostok"
         ],
         "languages": [],
         "locales": [
@@ -613,6 +622,7 @@
             "exceptions": []
         },
         "ccTld": ".ar",
+        "ccIdn": [],
         "timeZones": [
             "America/Argentina/Buenos_Aires",
             "America/Argentina/Catamarca",
@@ -677,6 +687,7 @@
             "exceptions": []
         },
         "ccTld": ".as",
+        "ccIdn": [],
         "timeZones": [
             "Pacific/Pago_Pago"
         ],
@@ -720,6 +731,7 @@
             "exceptions": []
         },
         "ccTld": ".at",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Vienna"
         ],
@@ -765,6 +777,7 @@
             "exceptions": []
         },
         "ccTld": ".au",
+        "ccIdn": [],
         "timeZones": [
             "Australia/Adelaide",
             "Australia/Brisbane",
@@ -833,6 +846,7 @@
             "exceptions": []
         },
         "ccTld": ".aw",
+        "ccIdn": [],
         "timeZones": [
             "America/Aruba"
         ],
@@ -876,6 +890,7 @@
             "exceptions": []
         },
         "ccTld": ".ax",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Mariehamn"
         ],
@@ -919,6 +934,7 @@
             "exceptions": []
         },
         "ccTld": ".az",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Baku"
         ],
@@ -941,7 +957,7 @@
             "hr-Cyrl": "Босна и Херцеговина",
             "sr-Latn": "Bosna i Hercegovina",
             "bs-Latn": "Bosna i Hercegovina",
-            "hr-Latn": "Bosna i Hercegovina"
+            "hr": "Bosna i Hercegovina"
         },
         "alpha2": "BA",
         "alpha3": "BIH",
@@ -970,6 +986,7 @@
             "exceptions": []
         },
         "ccTld": ".ba",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Sarajevo"
         ],
@@ -1022,13 +1039,15 @@
             "exceptions": []
         },
         "ccTld": ".bb",
+        "ccIdn": [],
         "timeZones": [
             "America/Barbados"
         ],
         "languages": [],
         "locales": [
             "en",
-            "en-BB"
+            "en-BB",
+            "bzs"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3374084
@@ -1067,6 +1086,7 @@
             "exceptions": []
         },
         "ccTld": ".bd",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Dhaka",
             "Asia/Dacca"
@@ -1117,6 +1137,7 @@
             "exceptions": []
         },
         "ccTld": ".be",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Brussels"
         ],
@@ -1168,6 +1189,7 @@
             "exceptions": []
         },
         "ccTld": ".bf",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Ouagadougou"
         ],
@@ -1213,6 +1235,7 @@
             "exceptions": []
         },
         "ccTld": ".bg",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Sofia"
         ],
@@ -1256,6 +1279,7 @@
             "exceptions": []
         },
         "ccTld": ".bh",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Bahrain"
         ],
@@ -1302,6 +1326,7 @@
             "exceptions": []
         },
         "ccTld": ".bi",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Bujumbura"
         ],
@@ -1351,6 +1376,7 @@
             "exceptions": []
         },
         "ccTld": ".bj",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Porto-Novo"
         ],
@@ -1398,6 +1424,7 @@
             "exceptions": []
         },
         "ccTld": ".gp",
+        "ccIdn": [],
         "timeZones": [
             "America/St_Barthelemy"
         ],
@@ -1443,6 +1470,7 @@
             "exceptions": []
         },
         "ccTld": ".bm",
+        "ccIdn": [],
         "timeZones": [
             "Atlantic/Bermuda"
         ],
@@ -1489,6 +1517,7 @@
             "exceptions": []
         },
         "ccTld": ".bn",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Brunei"
         ],
@@ -1537,6 +1566,7 @@
             "exceptions": []
         },
         "ccTld": ".bo",
+        "ccIdn": [],
         "timeZones": [
             "America/La_Paz"
         ],
@@ -1586,6 +1616,7 @@
             "exceptions": []
         },
         "ccTld": ".bq",
+        "ccIdn": [],
         "timeZones": [
             "America/Kralendijk"
         ],
@@ -1631,6 +1662,7 @@
             "exceptions": []
         },
         "ccTld": ".br",
+        "ccIdn": [],
         "timeZones": [
             "America/Araguaina",
             "America/Bahia",
@@ -1698,6 +1730,7 @@
             "exceptions": []
         },
         "ccTld": ".bs",
+        "ccIdn": [],
         "timeZones": [
             "America/Nassau"
         ],
@@ -1741,6 +1774,7 @@
             "exceptions": []
         },
         "ccTld": ".bt",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Thimphu",
             "Asia/Thimbu"
@@ -1783,6 +1817,7 @@
             "exceptions": []
         },
         "ccTld": ".bv",
+        "ccIdn": [],
         "timeZones": [
             "Etc/UTC"
         ],
@@ -1833,6 +1868,7 @@
             "exceptions": []
         },
         "ccTld": ".bw",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Gaborone"
         ],
@@ -1877,6 +1913,7 @@
             "exceptions": []
         },
         "ccTld": ".by",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Minsk"
         ],
@@ -1924,6 +1961,7 @@
             "exceptions": []
         },
         "ccTld": ".bz",
+        "ccIdn": [],
         "timeZones": [
             "America/Belize"
         ],
@@ -1972,6 +2010,7 @@
             "exceptions": []
         },
         "ccTld": ".ca",
+        "ccIdn": [],
         "timeZones": [
             "America/Atikokan",
             "America/Blanc-Sablon",
@@ -2056,6 +2095,7 @@
             "exceptions": []
         },
         "ccTld": ".cc",
+        "ccIdn": [],
         "timeZones": [
             "Indian/Cocos"
         ],
@@ -2101,6 +2141,7 @@
             "exceptions": []
         },
         "ccTld": ".cd",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Kinshasa",
             "Africa/Lubumbashi"
@@ -2154,6 +2195,7 @@
             "exceptions": []
         },
         "ccTld": ".cf",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Bangui"
         ],
@@ -2203,6 +2245,7 @@
             "exceptions": []
         },
         "ccTld": ".cg",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Brazzaville"
         ],
@@ -2258,6 +2301,7 @@
             "exceptions": []
         },
         "ccTld": ".ch",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Zurich"
         ],
@@ -2317,6 +2361,7 @@
             "exceptions": []
         },
         "ccTld": ".ci",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Abidjan"
         ],
@@ -2361,6 +2406,7 @@
             "exceptions": []
         },
         "ccTld": ".ck",
+        "ccIdn": [],
         "timeZones": [
             "Pacific/Rarotonga"
         ],
@@ -2406,6 +2452,7 @@
             "exceptions": []
         },
         "ccTld": ".cl",
+        "ccIdn": [],
         "timeZones": [
             "America/Punta_Arenas",
             "America/Santiago",
@@ -2457,6 +2504,7 @@
             "exceptions": []
         },
         "ccTld": ".cm",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Douala"
         ],
@@ -2528,6 +2576,7 @@
             "exceptions": []
         },
         "ccTld": ".cn",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Shanghai",
             "Asia/Urumqi",
@@ -2584,6 +2633,7 @@
             "exceptions": []
         },
         "ccTld": ".co",
+        "ccIdn": [],
         "timeZones": [
             "America/Bogota"
         ],
@@ -2629,6 +2679,7 @@
             "exceptions": []
         },
         "ccTld": ".cr",
+        "ccIdn": [],
         "timeZones": [
             "America/Costa_Rica"
         ],
@@ -2674,6 +2725,7 @@
             "exceptions": []
         },
         "ccTld": ".cu",
+        "ccIdn": [],
         "timeZones": [
             "America/Havana"
         ],
@@ -2719,6 +2771,7 @@
             "exceptions": []
         },
         "ccTld": ".cv",
+        "ccIdn": [],
         "timeZones": [
             "Atlantic/Cape_Verde"
         ],
@@ -2767,6 +2820,7 @@
             "exceptions": []
         },
         "ccTld": ".cw",
+        "ccIdn": [],
         "timeZones": [
             "America/Curacao"
         ],
@@ -2810,6 +2864,7 @@
             "exceptions": []
         },
         "ccTld": ".cx",
+        "ccIdn": [],
         "timeZones": [
             "Indian/Christmas"
         ],
@@ -2854,6 +2909,7 @@
             "exceptions": []
         },
         "ccTld": ".cy",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Famagusta",
             "Asia/Nicosia",
@@ -2905,6 +2961,7 @@
             "exceptions": []
         },
         "ccTld": ".cz",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Prague"
         ],
@@ -2948,6 +3005,7 @@
             "exceptions": []
         },
         "ccTld": ".de",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Berlin",
             "Europe/Busingen"
@@ -3006,6 +3064,7 @@
             "exceptions": []
         },
         "ccTld": ".dj",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Djibouti"
         ],
@@ -3055,6 +3114,7 @@
             "exceptions": []
         },
         "ccTld": ".dk",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Copenhagen"
         ],
@@ -3104,6 +3164,7 @@
             "exceptions": []
         },
         "ccTld": ".dm",
+        "ccIdn": [],
         "timeZones": [
             "America/Dominica"
         ],
@@ -3149,6 +3210,7 @@
             "exceptions": []
         },
         "ccTld": ".do",
+        "ccIdn": [],
         "timeZones": [
             "America/Santo_Domingo"
         ],
@@ -3196,6 +3258,7 @@
             "exceptions": []
         },
         "ccTld": ".dz",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Algiers"
         ],
@@ -3245,6 +3308,7 @@
             "exceptions": []
         },
         "ccTld": ".ec",
+        "ccIdn": [],
         "timeZones": [
             "America/Guayaquil",
             "Pacific/Galapagos"
@@ -3291,6 +3355,7 @@
             "exceptions": []
         },
         "ccTld": ".ee",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Tallinn"
         ],
@@ -3336,6 +3401,7 @@
             "exceptions": []
         },
         "ccTld": ".eg",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Cairo"
         ],
@@ -3381,6 +3447,7 @@
             "exceptions": []
         },
         "ccTld": ".eh",
+        "ccIdn": [],
         "timeZones": [
             "Africa/El_Aaiun"
         ],
@@ -3427,6 +3494,7 @@
             "exceptions": []
         },
         "ccTld": ".er",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Asmara",
             "Africa/Asmera"
@@ -3477,6 +3545,7 @@
             "exceptions": []
         },
         "ccTld": ".es",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Ceuta",
             "Atlantic/Canary",
@@ -3532,6 +3601,7 @@
             "exceptions": []
         },
         "ccTld": ".et",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Addis_Ababa"
         ],
@@ -3582,6 +3652,7 @@
             "exceptions": []
         },
         "ccTld": ".fi",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Helsinki"
         ],
@@ -3637,6 +3708,7 @@
             "exceptions": []
         },
         "ccTld": ".fj",
+        "ccIdn": [],
         "timeZones": [
             "Pacific/Fiji"
         ],
@@ -3682,6 +3754,7 @@
             "exceptions": []
         },
         "ccTld": ".fk",
+        "ccIdn": [],
         "timeZones": [
             "Atlantic/Stanley"
         ],
@@ -3727,6 +3800,7 @@
             "exceptions": []
         },
         "ccTld": ".fm",
+        "ccIdn": [],
         "timeZones": [
             "Pacific/Chuuk",
             "Pacific/Kosrae",
@@ -3776,6 +3850,7 @@
             "exceptions": []
         },
         "ccTld": ".fo",
+        "ccIdn": [],
         "timeZones": [
             "Atlantic/Faroe",
             "Atlantic/Faeroe"
@@ -3822,6 +3897,7 @@
             "exceptions": []
         },
         "ccTld": ".fr",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Paris"
         ],
@@ -3873,6 +3949,7 @@
             "exceptions": []
         },
         "ccTld": ".ga",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Libreville"
         ],
@@ -3918,6 +3995,7 @@
             "exceptions": []
         },
         "ccTld": ".uk",
+        "ccIdn": [],
         "timeZones": [
             "Europe/London",
             "Europe/Belfast"
@@ -3972,6 +4050,7 @@
             "exceptions": []
         },
         "ccTld": ".gd",
+        "ccIdn": [],
         "timeZones": [
             "America/Grenada"
         ],
@@ -4017,6 +4096,7 @@
             "exceptions": []
         },
         "ccTld": ".ge",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Tbilisi"
         ],
@@ -4064,6 +4144,7 @@
             "exceptions": []
         },
         "ccTld": ".gf",
+        "ccIdn": [],
         "timeZones": [
             "America/Cayenne"
         ],
@@ -4107,6 +4188,7 @@
             "exceptions": []
         },
         "ccTld": ".gg",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Guernsey"
         ],
@@ -4152,6 +4234,7 @@
             "exceptions": []
         },
         "ccTld": ".gh",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Accra"
         ],
@@ -4203,6 +4286,7 @@
             "exceptions": []
         },
         "ccTld": ".gi",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Gibraltar"
         ],
@@ -4247,6 +4331,7 @@
             "exceptions": []
         },
         "ccTld": ".gl",
+        "ccIdn": [],
         "timeZones": [
             "America/Danmarkshavn",
             "America/Scoresbysund",
@@ -4297,6 +4382,7 @@
             "exceptions": []
         },
         "ccTld": ".gm",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Banjul"
         ],
@@ -4342,6 +4428,7 @@
             "exceptions": []
         },
         "ccTld": ".gn",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Conakry"
         ],
@@ -4387,6 +4474,7 @@
             "exceptions": []
         },
         "ccTld": ".gp",
+        "ccIdn": [],
         "timeZones": [
             "America/Guadeloupe"
         ],
@@ -4434,6 +4522,7 @@
             "exceptions": []
         },
         "ccTld": ".gq",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Malabo"
         ],
@@ -4483,6 +4572,7 @@
             "exceptions": []
         },
         "ccTld": ".gr",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Athens"
         ],
@@ -4526,6 +4616,7 @@
             "exceptions": []
         },
         "ccTld": ".gs",
+        "ccIdn": [],
         "timeZones": [
             "Atlantic/South_Georgia"
         ],
@@ -4579,6 +4670,7 @@
             "exceptions": []
         },
         "ccTld": ".gt",
+        "ccIdn": [],
         "timeZones": [
             "America/Guatemala"
         ],
@@ -4626,6 +4718,7 @@
             "exceptions": []
         },
         "ccTld": ".gu",
+        "ccIdn": [],
         "timeZones": [
             "Pacific/Guam"
         ],
@@ -4671,6 +4764,7 @@
             "exceptions": []
         },
         "ccTld": ".gw",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Bissau"
         ],
@@ -4716,6 +4810,7 @@
             "exceptions": []
         },
         "ccTld": ".gy",
+        "ccIdn": [],
         "timeZones": [
             "America/Guyana"
         ],
@@ -4759,6 +4854,7 @@
             "exceptions": []
         },
         "ccTld": ".hk",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Hong_Kong"
         ],
@@ -4806,6 +4902,7 @@
             "exceptions": []
         },
         "ccTld": ".hm",
+        "ccIdn": [],
         "timeZones": [
             "Etc/GMT-5"
         ],
@@ -4851,6 +4948,7 @@
             "exceptions": []
         },
         "ccTld": ".hn",
+        "ccIdn": [],
         "timeZones": [
             "America/Tegucigalpa"
         ],
@@ -4894,6 +4992,7 @@
             "exceptions": []
         },
         "ccTld": ".hr",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Zagreb"
         ],
@@ -4940,6 +5039,7 @@
             "exceptions": []
         },
         "ccTld": ".ht",
+        "ccIdn": [],
         "timeZones": [
             "America/Port-au-Prince"
         ],
@@ -4983,6 +5083,7 @@
             "exceptions": []
         },
         "ccTld": ".hu",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Budapest"
         ],
@@ -5028,6 +5129,7 @@
             "exceptions": []
         },
         "ccTld": ".id",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Jakarta",
             "Asia/Jayapura",
@@ -5078,6 +5180,7 @@
             "exceptions": []
         },
         "ccTld": ".ie",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Dublin"
         ],
@@ -5123,6 +5226,7 @@
             "exceptions": []
         },
         "ccTld": ".il",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Jerusalem",
             "Asia/Tel_Aviv"
@@ -5174,6 +5278,7 @@
             "exceptions": []
         },
         "ccTld": ".im",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Isle_of_Man"
         ],
@@ -5220,6 +5325,7 @@
             "exceptions": []
         },
         "ccTld": ".in",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Kolkata",
             "Asia/Calcutta"
@@ -5301,6 +5407,7 @@
             "exceptions": []
         },
         "ccTld": ".io",
+        "ccIdn": [],
         "timeZones": [
             "Indian/Chagos"
         ],
@@ -5345,6 +5452,7 @@
             "exceptions": []
         },
         "ccTld": ".iq",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Baghdad"
         ],
@@ -5394,6 +5502,7 @@
             "exceptions": []
         },
         "ccTld": ".ir",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Tehran"
         ],
@@ -5439,6 +5548,7 @@
             "exceptions": []
         },
         "ccTld": ".is",
+        "ccIdn": [],
         "timeZones": [
             "Atlantic/Reykjavik"
         ],
@@ -5482,6 +5592,7 @@
             "exceptions": []
         },
         "ccTld": ".it",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Rome"
         ],
@@ -5533,6 +5644,7 @@
             "exceptions": []
         },
         "ccTld": ".je",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Jersey"
         ],
@@ -5579,6 +5691,7 @@
             "exceptions": []
         },
         "ccTld": ".jm",
+        "ccIdn": [],
         "timeZones": [
             "America/Jamaica"
         ],
@@ -5624,6 +5737,7 @@
             "exceptions": []
         },
         "ccTld": ".jo",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Amman"
         ],
@@ -5667,6 +5781,7 @@
             "exceptions": []
         },
         "ccTld": ".jp",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Tokyo"
         ],
@@ -5713,6 +5828,7 @@
             "exceptions": []
         },
         "ccTld": ".ke",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Nairobi"
         ],
@@ -5787,6 +5903,7 @@
             "exceptions": []
         },
         "ccTld": ".kg",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Bishkek"
         ],
@@ -5834,6 +5951,7 @@
             "exceptions": []
         },
         "ccTld": ".kh",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Phnom_Penh"
         ],
@@ -5880,6 +5998,7 @@
             "exceptions": []
         },
         "ccTld": ".ki",
+        "ccIdn": [],
         "timeZones": [
             "Pacific/Kiritimati",
             "Pacific/Tarawa",
@@ -5897,7 +6016,7 @@
     {
         "officialName": {
             "fr": "Union des Comores",
-            "zd": "Udzima wa Komori",
+            "swb": "Udzima wa Komori",
             "ar": "الاتحاد ﺍﻟﻘﻤﺮي"
         },
         "alpha2": "KM",
@@ -5930,6 +6049,7 @@
             "exceptions": []
         },
         "ccTld": ".km",
+        "ccIdn": [],
         "timeZones": [
             "Indian/Comoro"
         ],
@@ -5977,6 +6097,7 @@
             "exceptions": []
         },
         "ccTld": ".kn",
+        "ccIdn": [],
         "timeZones": [
             "America/St_Kitts"
         ],
@@ -6022,6 +6143,7 @@
             "exceptions": []
         },
         "ccTld": ".kp",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Pyongyang"
         ],
@@ -6067,6 +6189,7 @@
             "exceptions": []
         },
         "ccTld": ".kr",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Seoul"
         ],
@@ -6110,6 +6233,7 @@
             "exceptions": []
         },
         "ccTld": ".kw",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Kuwait"
         ],
@@ -6155,6 +6279,7 @@
             "exceptions": []
         },
         "ccTld": ".ky",
+        "ccIdn": [],
         "timeZones": [
             "America/Cayman"
         ],
@@ -6199,6 +6324,7 @@
             "exceptions": []
         },
         "ccTld": ".kz",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Almaty",
             "Asia/Aqtau",
@@ -6252,6 +6378,7 @@
             "exceptions": []
         },
         "ccTld": ".la",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Vientiane"
         ],
@@ -6297,6 +6424,7 @@
             "exceptions": []
         },
         "ccTld": ".lb",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Beirut"
         ],
@@ -6342,6 +6470,7 @@
             "exceptions": []
         },
         "ccTld": ".lc",
+        "ccIdn": [],
         "timeZones": [
             "America/St_Lucia"
         ],
@@ -6388,6 +6517,7 @@
             "exceptions": []
         },
         "ccTld": ".li",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Vaduz"
         ],
@@ -6437,6 +6567,7 @@
             "exceptions": []
         },
         "ccTld": ".lk",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Colombo"
         ],
@@ -6484,6 +6615,7 @@
             "exceptions": []
         },
         "ccTld": ".lr",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Monrovia"
         ],
@@ -6535,6 +6667,7 @@
             "exceptions": []
         },
         "ccTld": ".ls",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Maseru"
         ],
@@ -6580,6 +6713,7 @@
             "exceptions": []
         },
         "ccTld": ".lt",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Vilnius"
         ],
@@ -6629,6 +6763,7 @@
             "exceptions": []
         },
         "ccTld": ".lu",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Luxembourg"
         ],
@@ -6678,6 +6813,7 @@
             "exceptions": []
         },
         "ccTld": ".lv",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Riga"
         ],
@@ -6721,6 +6857,7 @@
             "exceptions": []
         },
         "ccTld": ".ly",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Tripoli"
         ],
@@ -6768,6 +6905,7 @@
             "exceptions": []
         },
         "ccTld": ".ma",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Casablanca"
         ],
@@ -6825,6 +6963,7 @@
             "exceptions": []
         },
         "ccTld": ".mc",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Monaco"
         ],
@@ -6868,6 +7007,7 @@
             "exceptions": []
         },
         "ccTld": ".md",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Chisinau",
             "Europe/Tiraspol"
@@ -6918,6 +7058,7 @@
             "exceptions": []
         },
         "ccTld": ".me",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Podgorica"
         ],
@@ -6964,6 +7105,7 @@
             "exceptions": []
         },
         "ccTld": ".gp",
+        "ccIdn": [],
         "timeZones": [
             "America/Marigot"
         ],
@@ -7010,6 +7152,7 @@
             "exceptions": []
         },
         "ccTld": ".mg",
+        "ccIdn": [],
         "timeZones": [
             "Indian/Antananarivo"
         ],
@@ -7060,6 +7203,7 @@
             "exceptions": []
         },
         "ccTld": ".mh",
+        "ccIdn": [],
         "timeZones": [
             "Pacific/Kwajalein",
             "Pacific/Majuro"
@@ -7105,6 +7249,7 @@
             "exceptions": []
         },
         "ccTld": ".mk",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Skopje"
         ],
@@ -7152,6 +7297,7 @@
             "exceptions": []
         },
         "ccTld": ".ml",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Bamako",
             "Africa/Timbuktu"
@@ -7202,6 +7348,7 @@
             "exceptions": []
         },
         "ccTld": ".mm",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Yangon",
             "Asia/Rangoon"
@@ -7246,6 +7393,7 @@
             "exceptions": []
         },
         "ccTld": ".mn",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Choibalsan",
             "Asia/Hovd",
@@ -7263,7 +7411,7 @@
     },
     {
         "officialName": {
-            "cmn": "中华人民共和国澳门特别行政区",
+            "zh": "中华人民共和国澳门特别行政区",
             "yue": "中華人民共和國澳門特別行政區",
             "pt": "Região Administrativa Especial de Macau da República Popular da China"
         },
@@ -7294,6 +7442,7 @@
             "exceptions": []
         },
         "ccTld": ".mo",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Macau",
             "Asia/Macao"
@@ -7342,6 +7491,7 @@
             "exceptions": []
         },
         "ccTld": ".mp",
+        "ccIdn": [],
         "timeZones": [
             "Pacific/Saipan"
         ],
@@ -7385,6 +7535,7 @@
             "exceptions": []
         },
         "ccTld": ".mq",
+        "ccIdn": [],
         "timeZones": [
             "America/Martinique"
         ],
@@ -7431,6 +7582,7 @@
             "exceptions": []
         },
         "ccTld": ".mr",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Nouakchott"
         ],
@@ -7480,6 +7632,7 @@
             "exceptions": []
         },
         "ccTld": ".ms",
+        "ccIdn": [],
         "timeZones": [
             "America/Montserrat"
         ],
@@ -7526,6 +7679,7 @@
             "exceptions": []
         },
         "ccTld": ".mt",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Malta"
         ],
@@ -7574,6 +7728,7 @@
             "exceptions": []
         },
         "ccTld": ".mu",
+        "ccIdn": [],
         "timeZones": [
             "Indian/Mauritius"
         ],
@@ -7623,6 +7778,7 @@
             "exceptions": []
         },
         "ccTld": ".mv",
+        "ccIdn": [],
         "timeZones": [
             "Indian/Maldives"
         ],
@@ -7669,6 +7825,7 @@
             "exceptions": []
         },
         "ccTld": ".mw",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Blantyre"
         ],
@@ -7714,6 +7871,7 @@
             "exceptions": []
         },
         "ccTld": ".mx",
+        "ccIdn": [],
         "timeZones": [
             "America/Bahia_Banderas",
             "America/Cancun",
@@ -7774,6 +7932,7 @@
             "exceptions": []
         },
         "ccTld": ".my",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Kuala_Lumpur",
             "Asia/Kuching"
@@ -7822,6 +7981,7 @@
             "exceptions": []
         },
         "ccTld": ".mz",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Maputo"
         ],
@@ -7871,6 +8031,7 @@
             "exceptions": []
         },
         "ccTld": ".na",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Windhoek"
         ],
@@ -7918,6 +8079,7 @@
             "exceptions": []
         },
         "ccTld": ".nc",
+        "ccIdn": [],
         "timeZones": [
             "Pacific/Noumea"
         ],
@@ -7963,6 +8125,7 @@
             "exceptions": []
         },
         "ccTld": ".ne",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Niamey"
         ],
@@ -8014,6 +8177,7 @@
             "exceptions": []
         },
         "ccTld": ".nf",
+        "ccIdn": [],
         "timeZones": [
             "Pacific/Norfolk"
         ],
@@ -8059,6 +8223,7 @@
             "exceptions": []
         },
         "ccTld": ".ng",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Lagos"
         ],
@@ -8110,6 +8275,7 @@
             "exceptions": []
         },
         "ccTld": ".ni",
+        "ccIdn": [],
         "timeZones": [
             "America/Managua"
         ],
@@ -8160,6 +8326,7 @@
             "exceptions": []
         },
         "ccTld": ".nl",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Amsterdam"
         ],
@@ -8211,6 +8378,7 @@
             "exceptions": []
         },
         "ccTld": ".no",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Oslo"
         ],
@@ -8260,6 +8428,7 @@
             "exceptions": []
         },
         "ccTld": ".np",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Kathmandu",
             "Asia/Katmandu"
@@ -8307,6 +8476,7 @@
             "exceptions": []
         },
         "ccTld": ".nr",
+        "ccIdn": [],
         "timeZones": [
             "Pacific/Nauru"
         ],
@@ -8352,6 +8522,7 @@
             "exceptions": []
         },
         "ccTld": ".nu",
+        "ccIdn": [],
         "timeZones": [
             "Pacific/Niue"
         ],
@@ -8396,6 +8567,7 @@
             "exceptions": []
         },
         "ccTld": ".nz",
+        "ccIdn": [],
         "timeZones": [
             "Pacific/Auckland",
             "Pacific/Chatham"
@@ -8442,6 +8614,7 @@
             "exceptions": []
         },
         "ccTld": ".om",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Muscat"
         ],
@@ -8487,6 +8660,7 @@
             "exceptions": []
         },
         "ccTld": ".pa",
+        "ccIdn": [],
         "timeZones": [
             "America/Panama"
         ],
@@ -8534,6 +8708,7 @@
             "exceptions": []
         },
         "ccTld": ".pe",
+        "ccIdn": [],
         "timeZones": [
             "America/Lima"
         ],
@@ -8583,6 +8758,7 @@
             "exceptions": []
         },
         "ccTld": ".pf",
+        "ccIdn": [],
         "timeZones": [
             "Pacific/Gambier",
             "Pacific/Marquesas",
@@ -8631,6 +8807,7 @@
             "exceptions": []
         },
         "ccTld": ".pg",
+        "ccIdn": [],
         "timeZones": [
             "Pacific/Bougainville",
             "Pacific/Port_Moresby"
@@ -8659,7 +8836,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "tl": "Maka-Diyos, Maka-tao, Makakalikasan at Makabansa",
+                "fil": "Maka-Diyos, Maka-tao, Makakalikasan at Makabansa",
                 "en": "For God, People, Nature and Country"
             },
             "popular": {},
@@ -8679,6 +8856,7 @@
             "exceptions": []
         },
         "ccTld": ".ph",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Manila"
         ],
@@ -8729,6 +8907,7 @@
             "exceptions": []
         },
         "ccTld": ".pk",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Karachi"
         ],
@@ -8780,6 +8959,7 @@
             "exceptions": []
         },
         "ccTld": ".pl",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Warsaw"
         ],
@@ -8825,6 +9005,7 @@
             "exceptions": []
         },
         "ccTld": ".pm",
+        "ccIdn": [],
         "timeZones": [
             "America/Miquelon"
         ],
@@ -8871,6 +9052,7 @@
             "exceptions": []
         },
         "ccTld": ".pn",
+        "ccIdn": [],
         "timeZones": [
             "Pacific/Pitcairn"
         ],
@@ -8918,6 +9100,7 @@
             "exceptions": []
         },
         "ccTld": ".pr",
+        "ccIdn": [],
         "timeZones": [
             "America/Puerto_Rico"
         ],
@@ -8961,6 +9144,7 @@
             "exceptions": []
         },
         "ccTld": ".ps",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Gaza",
             "Asia/Hebron"
@@ -9005,6 +9189,7 @@
             "exceptions": []
         },
         "ccTld": ".pt",
+        "ccIdn": [],
         "timeZones": [
             "Atlantic/Azores",
             "Atlantic/Madeira",
@@ -9053,6 +9238,7 @@
             "exceptions": []
         },
         "ccTld": ".pw",
+        "ccIdn": [],
         "timeZones": [
             "Pacific/Palau"
         ],
@@ -9100,6 +9286,7 @@
             "exceptions": []
         },
         "ccTld": ".py",
+        "ccIdn": [],
         "timeZones": [
             "America/Asuncion"
         ],
@@ -9145,6 +9332,7 @@
             "exceptions": []
         },
         "ccTld": ".qa",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Qatar"
         ],
@@ -9190,6 +9378,7 @@
             "exceptions": []
         },
         "ccTld": ".re",
+        "ccIdn": [],
         "timeZones": [
             "Indian/Reunion"
         ],
@@ -9233,6 +9422,7 @@
             "exceptions": []
         },
         "ccTld": ".ro",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Bucharest"
         ],
@@ -9279,6 +9469,7 @@
             "exceptions": []
         },
         "ccTld": ".rs",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Belgrade"
         ],
@@ -9325,6 +9516,7 @@
             "exceptions": []
         },
         "ccTld": ".ru",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Anadyr",
             "Asia/Barnaul",
@@ -9409,6 +9601,7 @@
             "exceptions": []
         },
         "ccTld": ".rw",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Kigali"
         ],
@@ -9458,6 +9651,7 @@
             "exceptions": []
         },
         "ccTld": ".sa",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Riyadh"
         ],
@@ -9503,6 +9697,7 @@
             "exceptions": []
         },
         "ccTld": ".sb",
+        "ccIdn": [],
         "timeZones": [
             "Pacific/Guadalcanal"
         ],
@@ -9550,6 +9745,7 @@
             "exceptions": []
         },
         "ccTld": ".sc",
+        "ccIdn": [],
         "timeZones": [
             "Indian/Mahe"
         ],
@@ -9598,6 +9794,7 @@
             "exceptions": []
         },
         "ccTld": ".sd",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Khartoum"
         ],
@@ -9647,6 +9844,7 @@
             "exceptions": []
         },
         "ccTld": ".se",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Stockholm"
         ],
@@ -9699,6 +9897,7 @@
             "exceptions": []
         },
         "ccTld": ".sg",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Singapore"
         ],
@@ -9750,6 +9949,7 @@
             "exceptions": []
         },
         "ccTld": ".sh",
+        "ccIdn": [],
         "timeZones": [
             "Atlantic/St_Helena"
         ],
@@ -9793,6 +9993,7 @@
             "exceptions": []
         },
         "ccTld": ".si",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Ljubljana"
         ],
@@ -9840,6 +10041,7 @@
             "exceptions": []
         },
         "ccTld": ".sj",
+        "ccIdn": [],
         "timeZones": [
             "Arctic/Longyearbyen",
             "Atlantic/Jan_Mayen"
@@ -9884,6 +10086,7 @@
             "exceptions": []
         },
         "ccTld": ".sk",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Bratislava"
         ],
@@ -9931,6 +10134,7 @@
             "exceptions": []
         },
         "ccTld": ".sl",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Freetown"
         ],
@@ -9976,6 +10180,7 @@
             "exceptions": []
         },
         "ccTld": ".sm",
+        "ccIdn": [],
         "timeZones": [
             "Europe/San_Marino"
         ],
@@ -10022,6 +10227,7 @@
             "exceptions": []
         },
         "ccTld": ".sn",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Dakar"
         ],
@@ -10072,6 +10278,7 @@
             "exceptions": []
         },
         "ccTld": ".so",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Mogadishu"
         ],
@@ -10119,6 +10326,7 @@
             "exceptions": []
         },
         "ccTld": ".sr",
+        "ccIdn": [],
         "timeZones": [
             "America/Paramaribo"
         ],
@@ -10164,6 +10372,7 @@
             "exceptions": []
         },
         "ccTld": null,
+        "ccIdn": [],
         "timeZones": [
             "Africa/Juba"
         ],
@@ -10211,6 +10420,7 @@
             "exceptions": []
         },
         "ccTld": ".st",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Sao_Tome"
         ],
@@ -10256,6 +10466,7 @@
             "exceptions": []
         },
         "ccTld": ".sv",
+        "ccIdn": [],
         "timeZones": [
             "America/El_Salvador"
         ],
@@ -10303,6 +10514,7 @@
             "exceptions": []
         },
         "ccTld": ".sx",
+        "ccIdn": [],
         "timeZones": [
             "America/Lower_Princes"
         ],
@@ -10350,6 +10562,7 @@
             "exceptions": []
         },
         "ccTld": ".sy",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Damascus"
         ],
@@ -10398,6 +10611,7 @@
             "exceptions": []
         },
         "ccTld": ".sz",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Mbabane"
         ],
@@ -10443,6 +10657,7 @@
             "exceptions": []
         },
         "ccTld": ".tc",
+        "ccIdn": [],
         "timeZones": [
             "America/Grand_Turk"
         ],
@@ -10490,6 +10705,7 @@
             "exceptions": []
         },
         "ccTld": ".td",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Ndjamena"
         ],
@@ -10537,6 +10753,7 @@
             "exceptions": []
         },
         "ccTld": ".tf",
+        "ccIdn": [],
         "timeZones": [
             "Indian/Kerguelen"
         ],
@@ -10588,6 +10805,7 @@
             "exceptions": []
         },
         "ccTld": ".tg",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Lome"
         ],
@@ -10635,6 +10853,7 @@
             "exceptions": []
         },
         "ccTld": ".th",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Bangkok"
         ],
@@ -10680,6 +10899,7 @@
             "exceptions": []
         },
         "ccTld": ".tj",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Dushanbe"
         ],
@@ -10725,6 +10945,7 @@
             "exceptions": []
         },
         "ccTld": ".tk",
+        "ccIdn": [],
         "timeZones": [
             "Pacific/Fakaofo"
         ],
@@ -10771,6 +10992,7 @@
             "exceptions": []
         },
         "ccTld": ".tl",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Dili"
         ],
@@ -10816,6 +11038,7 @@
             "exceptions": []
         },
         "ccTld": ".tm",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Ashgabat",
             "Asia/Ashkhabad"
@@ -10862,6 +11085,7 @@
             "exceptions": []
         },
         "ccTld": ".tn",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Tunis"
         ],
@@ -10911,6 +11135,7 @@
             "exceptions": []
         },
         "ccTld": ".to",
+        "ccIdn": [],
         "timeZones": [
             "Pacific/Tongatapu"
         ],
@@ -10958,6 +11183,7 @@
             "exceptions": []
         },
         "ccTld": ".tr",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Istanbul",
             "Asia/Istanbul"
@@ -11006,6 +11232,7 @@
             "exceptions": []
         },
         "ccTld": ".tt",
+        "ccIdn": [],
         "timeZones": [
             "America/Port_of_Spain"
         ],
@@ -11053,6 +11280,7 @@
             "exceptions": []
         },
         "ccTld": ".tv",
+        "ccIdn": [],
         "timeZones": [
             "Pacific/Funafuti"
         ],
@@ -11096,6 +11324,7 @@
             "exceptions": []
         },
         "ccTld": ".tw",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Taipei"
         ],
@@ -11140,6 +11369,7 @@
             "exceptions": []
         },
         "ccTld": ".tz",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Dar_es_Salaam"
         ],
@@ -11207,6 +11437,7 @@
             "exceptions": []
         },
         "ccTld": ".ua",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Kiev",
             "Europe/Uzhgorod",
@@ -11257,6 +11488,7 @@
             "exceptions": []
         },
         "ccTld": ".ug",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Kampala"
         ],
@@ -11316,6 +11548,7 @@
             "exceptions": []
         },
         "ccTld": ".um",
+        "ccIdn": [],
         "timeZones": [
             "Pacific/Midway",
             "Pacific/Wake",
@@ -11365,6 +11598,7 @@
             "exceptions": []
         },
         "ccTld": ".us",
+        "ccIdn": [],
         "timeZones": [
             "America/Adak",
             "America/Anchorage",
@@ -11465,6 +11699,7 @@
             "exceptions": []
         },
         "ccTld": ".uy",
+        "ccIdn": [],
         "timeZones": [
             "America/Montevideo"
         ],
@@ -11509,6 +11744,7 @@
             "exceptions": []
         },
         "ccTld": ".uz",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Samarkand",
             "Asia/Tashkent"
@@ -11557,6 +11793,7 @@
             "exceptions": []
         },
         "ccTld": ".va",
+        "ccIdn": [],
         "timeZones": [
             "Europe/Vatican"
         ],
@@ -11602,6 +11839,7 @@
             "exceptions": []
         },
         "ccTld": ".vc",
+        "ccIdn": [],
         "timeZones": [
             "America/St_Vincent"
         ],
@@ -11647,6 +11885,7 @@
             "exceptions": []
         },
         "ccTld": ".ve",
+        "ccIdn": [],
         "timeZones": [
             "America/Caracas"
         ],
@@ -11692,6 +11931,7 @@
             "exceptions": []
         },
         "ccTld": ".vg",
+        "ccIdn": [],
         "timeZones": [
             "America/Tortola"
         ],
@@ -11737,6 +11977,7 @@
             "exceptions": []
         },
         "ccTld": ".vi",
+        "ccIdn": [],
         "timeZones": [
             "America/St_Thomas"
         ],
@@ -11782,6 +12023,7 @@
             "exceptions": []
         },
         "ccTld": ".vn",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Ho_Chi_Minh",
             "Asia/Saigon"
@@ -11832,6 +12074,7 @@
             "exceptions": []
         },
         "ccTld": ".vu",
+        "ccIdn": [],
         "timeZones": [
             "Pacific/Efate"
         ],
@@ -11880,6 +12123,7 @@
             "exceptions": []
         },
         "ccTld": ".wf",
+        "ccIdn": [],
         "timeZones": [
             "Pacific/Wallis"
         ],
@@ -11925,6 +12169,7 @@
             "exceptions": []
         },
         "ccTld": ".ws",
+        "ccIdn": [],
         "timeZones": [
             "Pacific/Apia",
             "Pacific/Samoa"
@@ -11972,6 +12217,7 @@
             "exceptions": []
         },
         "ccTld": null,
+        "ccIdn": [],
         "timeZones": [
             "Europe/Belgrade"
         ],
@@ -12022,6 +12268,7 @@
             "exceptions": []
         },
         "ccTld": ".ye",
+        "ccIdn": [],
         "timeZones": [
             "Asia/Aden"
         ],
@@ -12067,6 +12314,7 @@
             "exceptions": []
         },
         "ccTld": ".yt",
+        "ccIdn": [],
         "timeZones": [
             "Indian/Mayotte"
         ],
@@ -12122,6 +12370,7 @@
             "exceptions": []
         },
         "ccTld": ".za",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Johannesburg"
         ],
@@ -12173,6 +12422,7 @@
             "exceptions": []
         },
         "ccTld": ".zm",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Lusaka"
         ],
@@ -12233,6 +12483,7 @@
             "exceptions": []
         },
         "ccTld": ".zw",
+        "ccIdn": [],
         "timeZones": [
             "Africa/Harare"
         ],

@@ -52,6 +52,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ad',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Andorra'
         ],
@@ -97,6 +98,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ae',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Dubai'
         ],
@@ -112,7 +114,7 @@ return [
     [
         'officialName' => [
             'ps' => 'د افغانستان اسلامي امارت',
-            'prs' => 'امارت اسلامی افغانستان'
+            'fa-AF' => 'امارت اسلامی افغانستان'
         ],
         'alpha2' => 'AF',
         'alpha3' => 'AFG',
@@ -143,6 +145,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.af',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Kabul'
         ],
@@ -193,6 +196,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ag',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Antigua'
         ],
@@ -238,6 +242,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ai',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Anguilla'
         ],
@@ -283,6 +288,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.al',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Tirane'
         ],
@@ -328,6 +334,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.am',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Yerevan'
         ],
@@ -373,6 +380,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ao',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Luanda'
         ],
@@ -389,7 +397,7 @@ return [
     ],
     [
         'officialName' => [
-            'en' => 'Antartica'
+            'en' => 'Antarctica'
         ],
         'alpha2' => 'AQ',
         'alpha3' => 'ATA',
@@ -416,18 +424,19 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.aq',
+        'ccIdn' => [],
         'timeZones' => [
-            'Antartica/South_Pole',
-            'Antartica/Casey',
-            'Antartica/Davis',
-            'Antartica/DumontDUrville',
-            'Antartica/Macquarie',
-            'Antartica/Mawson',
-            'Antartica/Palmer',
-            'Antartica/Rothera',
-            'Antartica/Syowa',
-            'Antartica/Troll',
-            'Antartica/Vostok'
+            'Antarctica/South_Pole',
+            'Antarctica/Casey',
+            'Antarctica/Davis',
+            'Antarctica/DumontDUrville',
+            'Antarctica/Macquarie',
+            'Antarctica/Mawson',
+            'Antarctica/Palmer',
+            'Antarctica/Rothera',
+            'Antarctica/Syowa',
+            'Antarctica/Troll',
+            'Antarctica/Vostok'
         ],
         'languages' => [],
         'locales' => [
@@ -633,6 +642,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ar',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Argentina/Buenos_Aires',
             'America/Argentina/Catamarca',
@@ -697,6 +707,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.as',
+        'ccIdn' => [],
         'timeZones' => [
             'Pacific/Pago_Pago'
         ],
@@ -740,6 +751,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.at',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Vienna'
         ],
@@ -785,6 +797,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.au',
+        'ccIdn' => [],
         'timeZones' => [
             'Australia/Adelaide',
             'Australia/Brisbane',
@@ -853,6 +866,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.aw',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Aruba'
         ],
@@ -896,6 +910,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ax',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Mariehamn'
         ],
@@ -939,6 +954,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.az',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Baku'
         ],
@@ -961,7 +977,7 @@ return [
             'hr-Cyrl' => 'Босна и Херцеговина',
             'sr-Latn' => 'Bosna i Hercegovina',
             'bs-Latn' => 'Bosna i Hercegovina',
-            'hr-Latn' => 'Bosna i Hercegovina'
+            'hr' => 'Bosna i Hercegovina'
         ],
         'alpha2' => 'BA',
         'alpha3' => 'BIH',
@@ -990,6 +1006,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ba',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Sarajevo'
         ],
@@ -1042,13 +1059,15 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.bb',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Barbados'
         ],
         'languages' => [],
         'locales' => [
             'en',
-            'en-BB'
+            'en-BB',
+            'bzs'
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 3374084
@@ -1087,6 +1106,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.bd',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Dhaka',
             'Asia/Dacca'
@@ -1137,6 +1157,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.be',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Brussels'
         ],
@@ -1188,6 +1209,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.bf',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Ouagadougou'
         ],
@@ -1233,6 +1255,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.bg',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Sofia'
         ],
@@ -1276,6 +1299,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.bh',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Bahrain'
         ],
@@ -1322,6 +1346,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.bi',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Bujumbura'
         ],
@@ -1371,6 +1396,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.bj',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Porto-Novo'
         ],
@@ -1418,6 +1444,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.gp',
+        'ccIdn' => [],
         'timeZones' => [
             'America/St_Barthelemy'
         ],
@@ -1463,6 +1490,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.bm',
+        'ccIdn' => [],
         'timeZones' => [
             'Atlantic/Bermuda'
         ],
@@ -1509,6 +1537,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.bn',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Brunei'
         ],
@@ -1557,6 +1586,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.bo',
+        'ccIdn' => [],
         'timeZones' => [
             'America/La_Paz'
         ],
@@ -1606,6 +1636,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.bq',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Kralendijk'
         ],
@@ -1651,6 +1682,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.br',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Araguaina',
             'America/Bahia',
@@ -1718,6 +1750,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.bs',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Nassau'
         ],
@@ -1761,6 +1794,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.bt',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Thimphu',
             'Asia/Thimbu'
@@ -1803,6 +1837,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.bv',
+        'ccIdn' => [],
         'timeZones' => [
             'Etc/UTC'
         ],
@@ -1853,6 +1888,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.bw',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Gaborone'
         ],
@@ -1897,6 +1933,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.by',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Minsk'
         ],
@@ -1944,6 +1981,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.bz',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Belize'
         ],
@@ -1992,6 +2030,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ca',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Atikokan',
             'America/Blanc-Sablon',
@@ -2076,6 +2115,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.cc',
+        'ccIdn' => [],
         'timeZones' => [
             'Indian/Cocos'
         ],
@@ -2121,6 +2161,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.cd',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Kinshasa',
             'Africa/Lubumbashi'
@@ -2174,6 +2215,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.cf',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Bangui'
         ],
@@ -2223,6 +2265,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.cg',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Brazzaville'
         ],
@@ -2278,6 +2321,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ch',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Zurich'
         ],
@@ -2337,6 +2381,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ci',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Abidjan'
         ],
@@ -2381,6 +2426,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ck',
+        'ccIdn' => [],
         'timeZones' => [
             'Pacific/Rarotonga'
         ],
@@ -2426,6 +2472,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.cl',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Punta_Arenas',
             'America/Santiago',
@@ -2477,6 +2524,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.cm',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Douala'
         ],
@@ -2548,6 +2596,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.cn',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Shanghai',
             'Asia/Urumqi',
@@ -2604,6 +2653,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.co',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Bogota'
         ],
@@ -2649,6 +2699,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.cr',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Costa_Rica'
         ],
@@ -2694,6 +2745,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.cu',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Havana'
         ],
@@ -2739,6 +2791,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.cv',
+        'ccIdn' => [],
         'timeZones' => [
             'Atlantic/Cape_Verde'
         ],
@@ -2787,6 +2840,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.cw',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Curacao'
         ],
@@ -2830,6 +2884,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.cx',
+        'ccIdn' => [],
         'timeZones' => [
             'Indian/Christmas'
         ],
@@ -2874,6 +2929,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.cy',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Famagusta',
             'Asia/Nicosia',
@@ -2925,6 +2981,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.cz',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Prague'
         ],
@@ -2968,6 +3025,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.de',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Berlin',
             'Europe/Busingen'
@@ -3026,6 +3084,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.dj',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Djibouti'
         ],
@@ -3075,6 +3134,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.dk',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Copenhagen'
         ],
@@ -3124,6 +3184,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.dm',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Dominica'
         ],
@@ -3169,6 +3230,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.do',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Santo_Domingo'
         ],
@@ -3216,6 +3278,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.dz',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Algiers'
         ],
@@ -3265,6 +3328,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ec',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Guayaquil',
             'Pacific/Galapagos'
@@ -3311,6 +3375,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ee',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Tallinn'
         ],
@@ -3356,6 +3421,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.eg',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Cairo'
         ],
@@ -3401,6 +3467,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.eh',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/El_Aaiun'
         ],
@@ -3447,6 +3514,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.er',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Asmara',
             'Africa/Asmera'
@@ -3497,6 +3565,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.es',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Ceuta',
             'Atlantic/Canary',
@@ -3552,6 +3621,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.et',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Addis_Ababa'
         ],
@@ -3602,6 +3672,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.fi',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Helsinki'
         ],
@@ -3657,6 +3728,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.fj',
+        'ccIdn' => [],
         'timeZones' => [
             'Pacific/Fiji'
         ],
@@ -3702,6 +3774,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.fk',
+        'ccIdn' => [],
         'timeZones' => [
             'Atlantic/Stanley'
         ],
@@ -3747,6 +3820,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.fm',
+        'ccIdn' => [],
         'timeZones' => [
             'Pacific/Chuuk',
             'Pacific/Kosrae',
@@ -3796,6 +3870,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.fo',
+        'ccIdn' => [],
         'timeZones' => [
             'Atlantic/Faroe',
             'Atlantic/Faeroe'
@@ -3842,6 +3917,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.fr',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Paris'
         ],
@@ -3893,6 +3969,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ga',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Libreville'
         ],
@@ -3938,6 +4015,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.uk',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/London',
             'Europe/Belfast'
@@ -3992,6 +4070,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.gd',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Grenada'
         ],
@@ -4037,6 +4116,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ge',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Tbilisi'
         ],
@@ -4084,6 +4164,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.gf',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Cayenne'
         ],
@@ -4127,6 +4208,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.gg',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Guernsey'
         ],
@@ -4172,6 +4254,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.gh',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Accra'
         ],
@@ -4223,6 +4306,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.gi',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Gibraltar'
         ],
@@ -4267,6 +4351,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.gl',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Danmarkshavn',
             'America/Scoresbysund',
@@ -4317,6 +4402,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.gm',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Banjul'
         ],
@@ -4362,6 +4448,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.gn',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Conakry'
         ],
@@ -4407,6 +4494,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.gp',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Guadeloupe'
         ],
@@ -4454,6 +4542,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.gq',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Malabo'
         ],
@@ -4503,6 +4592,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.gr',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Athens'
         ],
@@ -4546,6 +4636,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.gs',
+        'ccIdn' => [],
         'timeZones' => [
             'Atlantic/South_Georgia'
         ],
@@ -4599,6 +4690,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.gt',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Guatemala'
         ],
@@ -4646,6 +4738,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.gu',
+        'ccIdn' => [],
         'timeZones' => [
             'Pacific/Guam'
         ],
@@ -4691,6 +4784,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.gw',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Bissau'
         ],
@@ -4736,6 +4830,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.gy',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Guyana'
         ],
@@ -4779,6 +4874,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.hk',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Hong_Kong'
         ],
@@ -4826,6 +4922,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.hm',
+        'ccIdn' => [],
         'timeZones' => [
             'Etc/GMT-5'
         ],
@@ -4871,6 +4968,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.hn',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Tegucigalpa'
         ],
@@ -4914,6 +5012,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.hr',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Zagreb'
         ],
@@ -4960,6 +5059,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ht',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Port-au-Prince'
         ],
@@ -5003,6 +5103,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.hu',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Budapest'
         ],
@@ -5048,6 +5149,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.id',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Jakarta',
             'Asia/Jayapura',
@@ -5098,6 +5200,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ie',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Dublin'
         ],
@@ -5143,6 +5246,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.il',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Jerusalem',
             'Asia/Tel_Aviv'
@@ -5194,6 +5298,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.im',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Isle_of_Man'
         ],
@@ -5240,6 +5345,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.in',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Kolkata',
             'Asia/Calcutta'
@@ -5321,6 +5427,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.io',
+        'ccIdn' => [],
         'timeZones' => [
             'Indian/Chagos'
         ],
@@ -5365,6 +5472,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.iq',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Baghdad'
         ],
@@ -5414,6 +5522,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ir',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Tehran'
         ],
@@ -5459,6 +5568,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.is',
+        'ccIdn' => [],
         'timeZones' => [
             'Atlantic/Reykjavik'
         ],
@@ -5502,6 +5612,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.it',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Rome'
         ],
@@ -5553,6 +5664,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.je',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Jersey'
         ],
@@ -5599,6 +5711,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.jm',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Jamaica'
         ],
@@ -5644,6 +5757,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.jo',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Amman'
         ],
@@ -5687,6 +5801,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.jp',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Tokyo'
         ],
@@ -5733,6 +5848,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ke',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Nairobi'
         ],
@@ -5807,6 +5923,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.kg',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Bishkek'
         ],
@@ -5854,6 +5971,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.kh',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Phnom_Penh'
         ],
@@ -5900,6 +6018,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ki',
+        'ccIdn' => [],
         'timeZones' => [
             'Pacific/Kiritimati',
             'Pacific/Tarawa',
@@ -5917,7 +6036,7 @@ return [
     [
         'officialName' => [
             'fr' => 'Union des Comores',
-            'zd' => 'Udzima wa Komori',
+            'swb' => 'Udzima wa Komori',
             'ar' => 'الاتحاد ﺍﻟﻘﻤﺮي'
         ],
         'alpha2' => 'KM',
@@ -5950,6 +6069,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.km',
+        'ccIdn' => [],
         'timeZones' => [
             'Indian/Comoro'
         ],
@@ -5997,6 +6117,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.kn',
+        'ccIdn' => [],
         'timeZones' => [
             'America/St_Kitts'
         ],
@@ -6042,6 +6163,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.kp',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Pyongyang'
         ],
@@ -6087,6 +6209,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.kr',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Seoul'
         ],
@@ -6130,6 +6253,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.kw',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Kuwait'
         ],
@@ -6175,6 +6299,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ky',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Cayman'
         ],
@@ -6219,6 +6344,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.kz',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Almaty',
             'Asia/Aqtau',
@@ -6272,6 +6398,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.la',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Vientiane'
         ],
@@ -6317,6 +6444,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.lb',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Beirut'
         ],
@@ -6362,6 +6490,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.lc',
+        'ccIdn' => [],
         'timeZones' => [
             'America/St_Lucia'
         ],
@@ -6408,6 +6537,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.li',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Vaduz'
         ],
@@ -6457,6 +6587,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.lk',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Colombo'
         ],
@@ -6504,6 +6635,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.lr',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Monrovia'
         ],
@@ -6555,6 +6687,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ls',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Maseru'
         ],
@@ -6600,6 +6733,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.lt',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Vilnius'
         ],
@@ -6649,6 +6783,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.lu',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Luxembourg'
         ],
@@ -6698,6 +6833,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.lv',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Riga'
         ],
@@ -6741,6 +6877,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ly',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Tripoli'
         ],
@@ -6788,6 +6925,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ma',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Casablanca'
         ],
@@ -6845,6 +6983,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.mc',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Monaco'
         ],
@@ -6888,6 +7027,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.md',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Chisinau',
             'Europe/Tiraspol'
@@ -6938,6 +7078,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.me',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Podgorica'
         ],
@@ -6984,6 +7125,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.gp',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Marigot'
         ],
@@ -7030,6 +7172,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.mg',
+        'ccIdn' => [],
         'timeZones' => [
             'Indian/Antananarivo'
         ],
@@ -7080,6 +7223,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.mh',
+        'ccIdn' => [],
         'timeZones' => [
             'Pacific/Kwajalein',
             'Pacific/Majuro'
@@ -7125,6 +7269,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.mk',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Skopje'
         ],
@@ -7172,6 +7317,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ml',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Bamako',
             'Africa/Timbuktu'
@@ -7222,6 +7368,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.mm',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Yangon',
             'Asia/Rangoon'
@@ -7266,6 +7413,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.mn',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Choibalsan',
             'Asia/Hovd',
@@ -7283,7 +7431,7 @@ return [
     ],
     [
         'officialName' => [
-            'cmn' => '中华人民共和国澳门特别行政区',
+            'zh' => '中华人民共和国澳门特别行政区',
             'yue' => '中華人民共和國澳門特別行政區',
             'pt' => 'Região Administrativa Especial de Macau da República Popular da China'
         ],
@@ -7314,6 +7462,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.mo',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Macau',
             'Asia/Macao'
@@ -7362,6 +7511,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.mp',
+        'ccIdn' => [],
         'timeZones' => [
             'Pacific/Saipan'
         ],
@@ -7405,6 +7555,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.mq',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Martinique'
         ],
@@ -7451,6 +7602,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.mr',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Nouakchott'
         ],
@@ -7500,6 +7652,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ms',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Montserrat'
         ],
@@ -7546,6 +7699,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.mt',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Malta'
         ],
@@ -7594,6 +7748,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.mu',
+        'ccIdn' => [],
         'timeZones' => [
             'Indian/Mauritius'
         ],
@@ -7643,6 +7798,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.mv',
+        'ccIdn' => [],
         'timeZones' => [
             'Indian/Maldives'
         ],
@@ -7689,6 +7845,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.mw',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Blantyre'
         ],
@@ -7734,6 +7891,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.mx',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Bahia_Banderas',
             'America/Cancun',
@@ -7794,6 +7952,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.my',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Kuala_Lumpur',
             'Asia/Kuching'
@@ -7842,6 +8001,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.mz',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Maputo'
         ],
@@ -7891,6 +8051,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.na',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Windhoek'
         ],
@@ -7938,6 +8099,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.nc',
+        'ccIdn' => [],
         'timeZones' => [
             'Pacific/Noumea'
         ],
@@ -7983,6 +8145,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ne',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Niamey'
         ],
@@ -8034,6 +8197,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.nf',
+        'ccIdn' => [],
         'timeZones' => [
             'Pacific/Norfolk'
         ],
@@ -8079,6 +8243,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ng',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Lagos'
         ],
@@ -8130,6 +8295,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ni',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Managua'
         ],
@@ -8180,6 +8346,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.nl',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Amsterdam'
         ],
@@ -8231,6 +8398,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.no',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Oslo'
         ],
@@ -8280,6 +8448,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.np',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Kathmandu',
             'Asia/Katmandu'
@@ -8327,6 +8496,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.nr',
+        'ccIdn' => [],
         'timeZones' => [
             'Pacific/Nauru'
         ],
@@ -8372,6 +8542,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.nu',
+        'ccIdn' => [],
         'timeZones' => [
             'Pacific/Niue'
         ],
@@ -8416,6 +8587,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.nz',
+        'ccIdn' => [],
         'timeZones' => [
             'Pacific/Auckland',
             'Pacific/Chatham'
@@ -8462,6 +8634,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.om',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Muscat'
         ],
@@ -8507,6 +8680,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.pa',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Panama'
         ],
@@ -8554,6 +8728,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.pe',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Lima'
         ],
@@ -8603,6 +8778,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.pf',
+        'ccIdn' => [],
         'timeZones' => [
             'Pacific/Gambier',
             'Pacific/Marquesas',
@@ -8651,6 +8827,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.pg',
+        'ccIdn' => [],
         'timeZones' => [
             'Pacific/Bougainville',
             'Pacific/Port_Moresby'
@@ -8679,7 +8856,7 @@ return [
         'dependency' => null,
         'mottos' => [
             'official' => [
-                'tl' => 'Maka-Diyos, Maka-tao, Makakalikasan at Makabansa',
+                'fil' => 'Maka-Diyos, Maka-tao, Makakalikasan at Makabansa',
                 'en' => 'For God, People, Nature and Country'
             ],
             'popular' => [],
@@ -8699,6 +8876,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ph',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Manila'
         ],
@@ -8749,6 +8927,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.pk',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Karachi'
         ],
@@ -8800,6 +8979,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.pl',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Warsaw'
         ],
@@ -8845,6 +9025,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.pm',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Miquelon'
         ],
@@ -8891,6 +9072,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.pn',
+        'ccIdn' => [],
         'timeZones' => [
             'Pacific/Pitcairn'
         ],
@@ -8938,6 +9120,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.pr',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Puerto_Rico'
         ],
@@ -8981,6 +9164,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ps',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Gaza',
             'Asia/Hebron'
@@ -9025,6 +9209,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.pt',
+        'ccIdn' => [],
         'timeZones' => [
             'Atlantic/Azores',
             'Atlantic/Madeira',
@@ -9073,6 +9258,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.pw',
+        'ccIdn' => [],
         'timeZones' => [
             'Pacific/Palau'
         ],
@@ -9120,6 +9306,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.py',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Asuncion'
         ],
@@ -9165,6 +9352,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.qa',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Qatar'
         ],
@@ -9210,6 +9398,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.re',
+        'ccIdn' => [],
         'timeZones' => [
             'Indian/Reunion'
         ],
@@ -9253,6 +9442,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ro',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Bucharest'
         ],
@@ -9299,6 +9489,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.rs',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Belgrade'
         ],
@@ -9345,6 +9536,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ru',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Anadyr',
             'Asia/Barnaul',
@@ -9429,6 +9621,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.rw',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Kigali'
         ],
@@ -9478,6 +9671,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.sa',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Riyadh'
         ],
@@ -9523,6 +9717,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.sb',
+        'ccIdn' => [],
         'timeZones' => [
             'Pacific/Guadalcanal'
         ],
@@ -9570,6 +9765,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.sc',
+        'ccIdn' => [],
         'timeZones' => [
             'Indian/Mahe'
         ],
@@ -9618,6 +9814,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.sd',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Khartoum'
         ],
@@ -9667,6 +9864,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.se',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Stockholm'
         ],
@@ -9719,6 +9917,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.sg',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Singapore'
         ],
@@ -9770,6 +9969,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.sh',
+        'ccIdn' => [],
         'timeZones' => [
             'Atlantic/St_Helena'
         ],
@@ -9813,6 +10013,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.si',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Ljubljana'
         ],
@@ -9860,6 +10061,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.sj',
+        'ccIdn' => [],
         'timeZones' => [
             'Arctic/Longyearbyen',
             'Atlantic/Jan_Mayen'
@@ -9904,6 +10106,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.sk',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Bratislava'
         ],
@@ -9951,6 +10154,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.sl',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Freetown'
         ],
@@ -9996,6 +10200,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.sm',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/San_Marino'
         ],
@@ -10042,6 +10247,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.sn',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Dakar'
         ],
@@ -10092,6 +10298,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.so',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Mogadishu'
         ],
@@ -10139,6 +10346,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.sr',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Paramaribo'
         ],
@@ -10184,6 +10392,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => null,
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Juba'
         ],
@@ -10231,6 +10440,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.st',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Sao_Tome'
         ],
@@ -10276,6 +10486,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.sv',
+        'ccIdn' => [],
         'timeZones' => [
             'America/El_Salvador'
         ],
@@ -10323,6 +10534,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.sx',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Lower_Princes'
         ],
@@ -10370,6 +10582,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.sy',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Damascus'
         ],
@@ -10418,6 +10631,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.sz',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Mbabane'
         ],
@@ -10463,6 +10677,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.tc',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Grand_Turk'
         ],
@@ -10510,6 +10725,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.td',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Ndjamena'
         ],
@@ -10557,6 +10773,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.tf',
+        'ccIdn' => [],
         'timeZones' => [
             'Indian/Kerguelen'
         ],
@@ -10608,6 +10825,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.tg',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Lome'
         ],
@@ -10655,6 +10873,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.th',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Bangkok'
         ],
@@ -10700,6 +10919,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.tj',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Dushanbe'
         ],
@@ -10745,6 +10965,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.tk',
+        'ccIdn' => [],
         'timeZones' => [
             'Pacific/Fakaofo'
         ],
@@ -10791,6 +11012,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.tl',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Dili'
         ],
@@ -10836,6 +11058,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.tm',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Ashgabat',
             'Asia/Ashkhabad'
@@ -10882,6 +11105,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.tn',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Tunis'
         ],
@@ -10931,6 +11155,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.to',
+        'ccIdn' => [],
         'timeZones' => [
             'Pacific/Tongatapu'
         ],
@@ -10978,6 +11203,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.tr',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Istanbul',
             'Asia/Istanbul'
@@ -11026,6 +11252,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.tt',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Port_of_Spain'
         ],
@@ -11073,6 +11300,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.tv',
+        'ccIdn' => [],
         'timeZones' => [
             'Pacific/Funafuti'
         ],
@@ -11116,6 +11344,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.tw',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Taipei'
         ],
@@ -11160,6 +11389,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.tz',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Dar_es_Salaam'
         ],
@@ -11227,6 +11457,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ua',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Kiev',
             'Europe/Uzhgorod',
@@ -11277,6 +11508,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ug',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Kampala'
         ],
@@ -11336,6 +11568,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.um',
+        'ccIdn' => [],
         'timeZones' => [
             'Pacific/Midway',
             'Pacific/Wake',
@@ -11385,6 +11618,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.us',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Adak',
             'America/Anchorage',
@@ -11485,6 +11719,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.uy',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Montevideo'
         ],
@@ -11529,6 +11764,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.uz',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Samarkand',
             'Asia/Tashkent'
@@ -11577,6 +11813,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.va',
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Vatican'
         ],
@@ -11622,6 +11859,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.vc',
+        'ccIdn' => [],
         'timeZones' => [
             'America/St_Vincent'
         ],
@@ -11667,6 +11905,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ve',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Caracas'
         ],
@@ -11712,6 +11951,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.vg',
+        'ccIdn' => [],
         'timeZones' => [
             'America/Tortola'
         ],
@@ -11757,6 +11997,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.vi',
+        'ccIdn' => [],
         'timeZones' => [
             'America/St_Thomas'
         ],
@@ -11802,6 +12043,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.vn',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Ho_Chi_Minh',
             'Asia/Saigon'
@@ -11852,6 +12094,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.vu',
+        'ccIdn' => [],
         'timeZones' => [
             'Pacific/Efate'
         ],
@@ -11900,6 +12143,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.wf',
+        'ccIdn' => [],
         'timeZones' => [
             'Pacific/Wallis'
         ],
@@ -11945,6 +12189,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ws',
+        'ccIdn' => [],
         'timeZones' => [
             'Pacific/Apia',
             'Pacific/Samoa'
@@ -11992,6 +12237,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => null,
+        'ccIdn' => [],
         'timeZones' => [
             'Europe/Belgrade'
         ],
@@ -12042,6 +12288,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.ye',
+        'ccIdn' => [],
         'timeZones' => [
             'Asia/Aden'
         ],
@@ -12087,6 +12334,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.yt',
+        'ccIdn' => [],
         'timeZones' => [
             'Indian/Mayotte'
         ],
@@ -12142,6 +12390,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.za',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Johannesburg'
         ],
@@ -12193,6 +12442,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.zm',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Lusaka'
         ],
@@ -12253,6 +12503,7 @@ return [
             'exceptions' => []
         ],
         'ccTld' => '.zw',
+        'ccIdn' => [],
         'timeZones' => [
             'Africa/Harare'
         ],

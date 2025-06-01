@@ -104,8 +104,8 @@ return [
         ]
     ],
     'AQ' => [
-        'name' => 'Antartica',
-        'fullName' => 'Antartica',
+        'name' => 'Antarctica',
+        'fullName' => 'Antarctica',
         'demonyms' => [],
         'keywords' => [
             'antarctics',

@@ -33,6 +33,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ad</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Andorra</tz>
         </timeZones>
@@ -78,6 +79,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ae</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Dubai</tz>
         </timeZones>
@@ -93,7 +95,7 @@
     <country index="2">
         <officialName>
             <name lang="ps">د افغانستان اسلامي امارت</name>
-            <name lang="prs">امارت اسلامی افغانستان</name>
+            <name lang="fa-AF">امارت اسلامی افغانستان</name>
         </officialName>
         <alpha2>AF</alpha2>
         <alpha3>AFG</alpha3>
@@ -124,6 +126,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.af</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Kabul</tz>
         </timeZones>
@@ -174,6 +177,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ag</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Antigua</tz>
         </timeZones>
@@ -219,6 +223,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ai</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Anguilla</tz>
         </timeZones>
@@ -264,6 +269,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.al</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Tirane</tz>
         </timeZones>
@@ -309,6 +315,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.am</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Yerevan</tz>
         </timeZones>
@@ -354,6 +361,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ao</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Luanda</tz>
         </timeZones>
@@ -370,7 +378,7 @@
     </country>
     <country index="8">
         <officialName>
-            <name lang="en">Antartica</name>
+            <name lang="en">Antarctica</name>
         </officialName>
         <alpha2>AQ</alpha2>
         <alpha3>ATA</alpha3>
@@ -397,18 +405,19 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.aq</ccTld>
+        <ccIdn/>
         <timeZones>
-            <tz>Antartica/South_Pole</tz>
-            <tz>Antartica/Casey</tz>
-            <tz>Antartica/Davis</tz>
-            <tz>Antartica/DumontDUrville</tz>
-            <tz>Antartica/Macquarie</tz>
-            <tz>Antartica/Mawson</tz>
-            <tz>Antartica/Palmer</tz>
-            <tz>Antartica/Rothera</tz>
-            <tz>Antartica/Syowa</tz>
-            <tz>Antartica/Troll</tz>
-            <tz>Antartica/Vostok</tz>
+            <tz>Antarctica/South_Pole</tz>
+            <tz>Antarctica/Casey</tz>
+            <tz>Antarctica/Davis</tz>
+            <tz>Antarctica/DumontDUrville</tz>
+            <tz>Antarctica/Macquarie</tz>
+            <tz>Antarctica/Mawson</tz>
+            <tz>Antarctica/Palmer</tz>
+            <tz>Antarctica/Rothera</tz>
+            <tz>Antarctica/Syowa</tz>
+            <tz>Antarctica/Troll</tz>
+            <tz>Antarctica/Vostok</tz>
         </timeZones>
         <languages/>
         <locales>
@@ -614,6 +623,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ar</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Argentina/Buenos_Aires</tz>
             <tz>America/Argentina/Catamarca</tz>
@@ -678,6 +688,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.as</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Pacific/Pago_Pago</tz>
         </timeZones>
@@ -721,6 +732,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.at</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Vienna</tz>
         </timeZones>
@@ -766,6 +778,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.au</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Australia/Adelaide</tz>
             <tz>Australia/Brisbane</tz>
@@ -834,6 +847,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.aw</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Aruba</tz>
         </timeZones>
@@ -877,6 +891,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ax</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Mariehamn</tz>
         </timeZones>
@@ -920,6 +935,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.az</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Baku</tz>
         </timeZones>
@@ -942,7 +958,7 @@
             <name lang="hr-Cyrl">Босна и Херцеговина</name>
             <name lang="sr-Latn">Bosna i Hercegovina</name>
             <name lang="bs-Latn">Bosna i Hercegovina</name>
-            <name lang="hr-Latn">Bosna i Hercegovina</name>
+            <name lang="hr">Bosna i Hercegovina</name>
         </officialName>
         <alpha2>BA</alpha2>
         <alpha3>BIH</alpha3>
@@ -971,6 +987,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ba</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Sarajevo</tz>
         </timeZones>
@@ -1023,6 +1040,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.bb</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Barbados</tz>
         </timeZones>
@@ -1030,6 +1048,7 @@
         <locales>
             <locale>en</locale>
             <locale>en-BB</locale>
+            <locale>bzs</locale>
         </locales>
         <otherAppsIds>
             <geoNamesOrg>3374084</geoNamesOrg>
@@ -1068,6 +1087,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.bd</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Dhaka</tz>
             <tz>Asia/Dacca</tz>
@@ -1118,6 +1138,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.be</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Brussels</tz>
         </timeZones>
@@ -1169,6 +1190,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.bf</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Ouagadougou</tz>
         </timeZones>
@@ -1214,6 +1236,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.bg</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Sofia</tz>
         </timeZones>
@@ -1257,6 +1280,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.bh</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Bahrain</tz>
         </timeZones>
@@ -1303,6 +1327,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.bi</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Bujumbura</tz>
         </timeZones>
@@ -1352,6 +1377,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.bj</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Porto-Novo</tz>
         </timeZones>
@@ -1399,6 +1425,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.gp</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/St_Barthelemy</tz>
         </timeZones>
@@ -1444,6 +1471,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.bm</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Atlantic/Bermuda</tz>
         </timeZones>
@@ -1490,6 +1518,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.bn</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Brunei</tz>
         </timeZones>
@@ -1538,6 +1567,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.bo</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/La_Paz</tz>
         </timeZones>
@@ -1587,6 +1617,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.bq</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Kralendijk</tz>
         </timeZones>
@@ -1632,6 +1663,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.br</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Araguaina</tz>
             <tz>America/Bahia</tz>
@@ -1699,6 +1731,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.bs</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Nassau</tz>
         </timeZones>
@@ -1742,6 +1775,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.bt</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Thimphu</tz>
             <tz>Asia/Thimbu</tz>
@@ -1784,6 +1818,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.bv</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Etc/UTC</tz>
         </timeZones>
@@ -1834,6 +1869,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.bw</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Gaborone</tz>
         </timeZones>
@@ -1878,6 +1914,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.by</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Minsk</tz>
         </timeZones>
@@ -1925,6 +1962,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.bz</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Belize</tz>
         </timeZones>
@@ -1973,6 +2011,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ca</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Atikokan</tz>
             <tz>America/Blanc-Sablon</tz>
@@ -2057,6 +2096,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.cc</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Indian/Cocos</tz>
         </timeZones>
@@ -2102,6 +2142,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.cd</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Kinshasa</tz>
             <tz>Africa/Lubumbashi</tz>
@@ -2155,6 +2196,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.cf</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Bangui</tz>
         </timeZones>
@@ -2204,6 +2246,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.cg</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Brazzaville</tz>
         </timeZones>
@@ -2259,6 +2302,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ch</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Zurich</tz>
         </timeZones>
@@ -2318,6 +2362,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ci</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Abidjan</tz>
         </timeZones>
@@ -2362,6 +2407,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ck</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Pacific/Rarotonga</tz>
         </timeZones>
@@ -2407,6 +2453,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.cl</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Punta_Arenas</tz>
             <tz>America/Santiago</tz>
@@ -2458,6 +2505,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.cm</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Douala</tz>
         </timeZones>
@@ -2529,6 +2577,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.cn</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Shanghai</tz>
             <tz>Asia/Urumqi</tz>
@@ -2585,6 +2634,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.co</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Bogota</tz>
         </timeZones>
@@ -2630,6 +2680,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.cr</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Costa_Rica</tz>
         </timeZones>
@@ -2675,6 +2726,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.cu</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Havana</tz>
         </timeZones>
@@ -2720,6 +2772,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.cv</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Atlantic/Cape_Verde</tz>
         </timeZones>
@@ -2768,6 +2821,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.cw</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Curacao</tz>
         </timeZones>
@@ -2811,6 +2865,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.cx</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Indian/Christmas</tz>
         </timeZones>
@@ -2855,6 +2910,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.cy</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Famagusta</tz>
             <tz>Asia/Nicosia</tz>
@@ -2906,6 +2962,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.cz</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Prague</tz>
         </timeZones>
@@ -2949,6 +3006,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.de</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Berlin</tz>
             <tz>Europe/Busingen</tz>
@@ -3007,6 +3065,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.dj</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Djibouti</tz>
         </timeZones>
@@ -3056,6 +3115,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.dk</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Copenhagen</tz>
         </timeZones>
@@ -3105,6 +3165,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.dm</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Dominica</tz>
         </timeZones>
@@ -3150,6 +3211,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.do</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Santo_Domingo</tz>
         </timeZones>
@@ -3197,6 +3259,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.dz</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Algiers</tz>
         </timeZones>
@@ -3246,6 +3309,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ec</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Guayaquil</tz>
             <tz>Pacific/Galapagos</tz>
@@ -3292,6 +3356,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ee</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Tallinn</tz>
         </timeZones>
@@ -3337,6 +3402,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.eg</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Cairo</tz>
         </timeZones>
@@ -3382,6 +3448,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.eh</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/El_Aaiun</tz>
         </timeZones>
@@ -3428,6 +3495,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.er</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Asmara</tz>
             <tz>Africa/Asmera</tz>
@@ -3478,6 +3546,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.es</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Ceuta</tz>
             <tz>Atlantic/Canary</tz>
@@ -3533,6 +3602,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.et</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Addis_Ababa</tz>
         </timeZones>
@@ -3583,6 +3653,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.fi</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Helsinki</tz>
         </timeZones>
@@ -3638,6 +3709,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.fj</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Pacific/Fiji</tz>
         </timeZones>
@@ -3683,6 +3755,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.fk</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Atlantic/Stanley</tz>
         </timeZones>
@@ -3728,6 +3801,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.fm</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Pacific/Chuuk</tz>
             <tz>Pacific/Kosrae</tz>
@@ -3777,6 +3851,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.fo</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Atlantic/Faroe</tz>
             <tz>Atlantic/Faeroe</tz>
@@ -3823,6 +3898,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.fr</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Paris</tz>
         </timeZones>
@@ -3874,6 +3950,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ga</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Libreville</tz>
         </timeZones>
@@ -3919,6 +3996,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.uk</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/London</tz>
             <tz>Europe/Belfast</tz>
@@ -3973,6 +4051,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.gd</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Grenada</tz>
         </timeZones>
@@ -4018,6 +4097,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ge</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Tbilisi</tz>
         </timeZones>
@@ -4065,6 +4145,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.gf</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Cayenne</tz>
         </timeZones>
@@ -4108,6 +4189,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.gg</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Guernsey</tz>
         </timeZones>
@@ -4153,6 +4235,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.gh</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Accra</tz>
         </timeZones>
@@ -4204,6 +4287,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.gi</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Gibraltar</tz>
         </timeZones>
@@ -4248,6 +4332,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.gl</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Danmarkshavn</tz>
             <tz>America/Scoresbysund</tz>
@@ -4298,6 +4383,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.gm</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Banjul</tz>
         </timeZones>
@@ -4343,6 +4429,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.gn</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Conakry</tz>
         </timeZones>
@@ -4388,6 +4475,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.gp</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Guadeloupe</tz>
         </timeZones>
@@ -4435,6 +4523,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.gq</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Malabo</tz>
         </timeZones>
@@ -4484,6 +4573,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.gr</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Athens</tz>
         </timeZones>
@@ -4577,6 +4667,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.gs</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Atlantic/South_Georgia</tz>
         </timeZones>
@@ -4630,6 +4721,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.gt</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Guatemala</tz>
         </timeZones>
@@ -4677,6 +4769,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.gu</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Pacific/Guam</tz>
         </timeZones>
@@ -4722,6 +4815,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.gw</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Bissau</tz>
         </timeZones>
@@ -4767,6 +4861,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.gy</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Guyana</tz>
         </timeZones>
@@ -4810,6 +4905,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.hk</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Hong_Kong</tz>
         </timeZones>
@@ -4857,6 +4953,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.hm</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Etc/GMT-5</tz>
         </timeZones>
@@ -4902,6 +4999,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.hn</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Tegucigalpa</tz>
         </timeZones>
@@ -4945,6 +5043,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.hr</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Zagreb</tz>
         </timeZones>
@@ -4991,6 +5090,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ht</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Port-au-Prince</tz>
         </timeZones>
@@ -5034,6 +5134,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.hu</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Budapest</tz>
         </timeZones>
@@ -5079,6 +5180,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.id</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Jakarta</tz>
             <tz>Asia/Jayapura</tz>
@@ -5129,6 +5231,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ie</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Dublin</tz>
         </timeZones>
@@ -5174,6 +5277,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.il</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Jerusalem</tz>
             <tz>Asia/Tel_Aviv</tz>
@@ -5225,6 +5329,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.im</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Isle_of_Man</tz>
         </timeZones>
@@ -5271,6 +5376,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.in</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Kolkata</tz>
             <tz>Asia/Calcutta</tz>
@@ -5352,6 +5458,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.io</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Indian/Chagos</tz>
         </timeZones>
@@ -5396,6 +5503,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.iq</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Baghdad</tz>
         </timeZones>
@@ -5445,6 +5553,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ir</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Tehran</tz>
         </timeZones>
@@ -5490,6 +5599,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.is</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Atlantic/Reykjavik</tz>
         </timeZones>
@@ -5533,6 +5643,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.it</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Rome</tz>
         </timeZones>
@@ -5584,6 +5695,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.je</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Jersey</tz>
         </timeZones>
@@ -5630,6 +5742,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.jm</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Jamaica</tz>
         </timeZones>
@@ -5675,6 +5788,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.jo</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Amman</tz>
         </timeZones>
@@ -5718,6 +5832,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.jp</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Tokyo</tz>
         </timeZones>
@@ -5764,6 +5879,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ke</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Nairobi</tz>
         </timeZones>
@@ -5838,6 +5954,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.kg</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Bishkek</tz>
         </timeZones>
@@ -5885,6 +6002,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.kh</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Phnom_Penh</tz>
         </timeZones>
@@ -5931,6 +6049,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ki</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Pacific/Kiritimati</tz>
             <tz>Pacific/Tarawa</tz>
@@ -5948,7 +6067,7 @@
     <country index="118">
         <officialName>
             <name lang="fr">Union des Comores</name>
-            <name lang="zd">Udzima wa Komori</name>
+            <name lang="swb">Udzima wa Komori</name>
             <name lang="ar">الاتحاد ﺍﻟﻘﻤﺮي</name>
         </officialName>
         <alpha2>KM</alpha2>
@@ -5981,6 +6100,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.km</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Indian/Comoro</tz>
         </timeZones>
@@ -6028,6 +6148,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.kn</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/St_Kitts</tz>
         </timeZones>
@@ -6073,6 +6194,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.kp</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Pyongyang</tz>
         </timeZones>
@@ -6118,6 +6240,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.kr</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Seoul</tz>
         </timeZones>
@@ -6161,6 +6284,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.kw</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Kuwait</tz>
         </timeZones>
@@ -6206,6 +6330,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ky</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Cayman</tz>
         </timeZones>
@@ -6250,6 +6375,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.kz</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Almaty</tz>
             <tz>Asia/Aqtau</tz>
@@ -6303,6 +6429,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.la</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Vientiane</tz>
         </timeZones>
@@ -6348,6 +6475,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.lb</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Beirut</tz>
         </timeZones>
@@ -6393,6 +6521,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.lc</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/St_Lucia</tz>
         </timeZones>
@@ -6439,6 +6568,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.li</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Vaduz</tz>
         </timeZones>
@@ -6488,6 +6618,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.lk</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Colombo</tz>
         </timeZones>
@@ -6535,6 +6666,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.lr</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Monrovia</tz>
         </timeZones>
@@ -6586,6 +6718,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ls</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Maseru</tz>
         </timeZones>
@@ -6631,6 +6764,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.lt</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Vilnius</tz>
         </timeZones>
@@ -6680,6 +6814,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.lu</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Luxembourg</tz>
         </timeZones>
@@ -6729,6 +6864,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.lv</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Riga</tz>
         </timeZones>
@@ -6772,6 +6908,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ly</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Tripoli</tz>
         </timeZones>
@@ -6819,6 +6956,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ma</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Casablanca</tz>
         </timeZones>
@@ -6876,6 +7014,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.mc</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Monaco</tz>
         </timeZones>
@@ -6919,6 +7058,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.md</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Chisinau</tz>
             <tz>Europe/Tiraspol</tz>
@@ -6969,6 +7109,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.me</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Podgorica</tz>
         </timeZones>
@@ -7015,6 +7156,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.gp</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Marigot</tz>
         </timeZones>
@@ -7061,6 +7203,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.mg</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Indian/Antananarivo</tz>
         </timeZones>
@@ -7111,6 +7254,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.mh</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Pacific/Kwajalein</tz>
             <tz>Pacific/Majuro</tz>
@@ -7156,6 +7300,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.mk</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Skopje</tz>
         </timeZones>
@@ -7203,6 +7348,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ml</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Bamako</tz>
             <tz>Africa/Timbuktu</tz>
@@ -7253,6 +7399,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.mm</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Yangon</tz>
             <tz>Asia/Rangoon</tz>
@@ -7297,6 +7444,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.mn</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Choibalsan</tz>
             <tz>Asia/Hovd</tz>
@@ -7314,7 +7462,7 @@
     </country>
     <country index="147">
         <officialName>
-            <name lang="cmn">中华人民共和国澳门特别行政区</name>
+            <name lang="zh">中华人民共和国澳门特别行政区</name>
             <name lang="yue">中華人民共和國澳門特別行政區</name>
             <name lang="pt">Região Administrativa Especial de Macau da República Popular da China</name>
         </officialName>
@@ -7345,6 +7493,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.mo</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Macau</tz>
             <tz>Asia/Macao</tz>
@@ -7393,6 +7542,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.mp</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Pacific/Saipan</tz>
         </timeZones>
@@ -7436,6 +7586,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.mq</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Martinique</tz>
         </timeZones>
@@ -7482,6 +7633,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.mr</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Nouakchott</tz>
         </timeZones>
@@ -7531,6 +7683,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ms</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Montserrat</tz>
         </timeZones>
@@ -7577,6 +7730,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.mt</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Malta</tz>
         </timeZones>
@@ -7625,6 +7779,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.mu</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Indian/Mauritius</tz>
         </timeZones>
@@ -7674,6 +7829,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.mv</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Indian/Maldives</tz>
         </timeZones>
@@ -7720,6 +7876,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.mw</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Blantyre</tz>
         </timeZones>
@@ -7765,6 +7922,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.mx</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Bahia_Banderas</tz>
             <tz>America/Cancun</tz>
@@ -7825,6 +7983,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.my</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Kuala_Lumpur</tz>
             <tz>Asia/Kuching</tz>
@@ -7873,6 +8032,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.mz</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Maputo</tz>
         </timeZones>
@@ -7922,6 +8082,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.na</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Windhoek</tz>
         </timeZones>
@@ -7969,6 +8130,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.nc</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Pacific/Noumea</tz>
         </timeZones>
@@ -8014,6 +8176,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ne</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Niamey</tz>
         </timeZones>
@@ -8065,6 +8228,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.nf</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Pacific/Norfolk</tz>
         </timeZones>
@@ -8110,6 +8274,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ng</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Lagos</tz>
         </timeZones>
@@ -8161,6 +8326,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ni</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Managua</tz>
         </timeZones>
@@ -8211,6 +8377,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.nl</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Amsterdam</tz>
         </timeZones>
@@ -8262,6 +8429,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.no</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Oslo</tz>
         </timeZones>
@@ -8311,6 +8479,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.np</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Kathmandu</tz>
             <tz>Asia/Katmandu</tz>
@@ -8358,6 +8527,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.nr</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Pacific/Nauru</tz>
         </timeZones>
@@ -8403,6 +8573,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.nu</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Pacific/Niue</tz>
         </timeZones>
@@ -8447,6 +8618,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.nz</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Pacific/Auckland</tz>
             <tz>Pacific/Chatham</tz>
@@ -8493,6 +8665,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.om</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Muscat</tz>
         </timeZones>
@@ -8538,6 +8711,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.pa</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Panama</tz>
         </timeZones>
@@ -8585,6 +8759,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.pe</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Lima</tz>
         </timeZones>
@@ -8634,6 +8809,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.pf</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Pacific/Gambier</tz>
             <tz>Pacific/Marquesas</tz>
@@ -8682,6 +8858,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.pg</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Pacific/Bougainville</tz>
             <tz>Pacific/Port_Moresby</tz>
@@ -8710,7 +8887,7 @@
         <dependency/>
         <mottos>
             <official>
-                <motto lang="tl">Maka-Diyos, Maka-tao, Makakalikasan at Makabansa</motto>
+                <motto lang="fil">Maka-Diyos, Maka-tao, Makakalikasan at Makabansa</motto>
                 <motto lang="en">For God, People, Nature and Country</motto>
             </official>
             <popular/>
@@ -8730,6 +8907,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ph</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Manila</tz>
         </timeZones>
@@ -8780,6 +8958,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.pk</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Karachi</tz>
         </timeZones>
@@ -8831,6 +9010,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.pl</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Warsaw</tz>
         </timeZones>
@@ -8876,6 +9056,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.pm</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Miquelon</tz>
         </timeZones>
@@ -8922,6 +9103,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.pn</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Pacific/Pitcairn</tz>
         </timeZones>
@@ -8969,6 +9151,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.pr</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Puerto_Rico</tz>
         </timeZones>
@@ -9012,6 +9195,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ps</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Gaza</tz>
             <tz>Asia/Hebron</tz>
@@ -9056,6 +9240,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.pt</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Atlantic/Azores</tz>
             <tz>Atlantic/Madeira</tz>
@@ -9104,6 +9289,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.pw</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Pacific/Palau</tz>
         </timeZones>
@@ -9151,6 +9337,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.py</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Asuncion</tz>
         </timeZones>
@@ -9196,6 +9383,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.qa</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Qatar</tz>
         </timeZones>
@@ -9241,6 +9429,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.re</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Indian/Reunion</tz>
         </timeZones>
@@ -9284,6 +9473,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ro</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Bucharest</tz>
         </timeZones>
@@ -9330,6 +9520,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.rs</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Belgrade</tz>
         </timeZones>
@@ -9376,6 +9567,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ru</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Anadyr</tz>
             <tz>Asia/Barnaul</tz>
@@ -9460,6 +9652,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.rw</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Kigali</tz>
         </timeZones>
@@ -9509,6 +9702,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.sa</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Riyadh</tz>
         </timeZones>
@@ -9554,6 +9748,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.sb</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Pacific/Guadalcanal</tz>
         </timeZones>
@@ -9601,6 +9796,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.sc</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Indian/Mahe</tz>
         </timeZones>
@@ -9649,6 +9845,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.sd</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Khartoum</tz>
         </timeZones>
@@ -9698,6 +9895,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.se</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Stockholm</tz>
         </timeZones>
@@ -9750,6 +9948,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.sg</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Singapore</tz>
         </timeZones>
@@ -9801,6 +10000,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.sh</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Atlantic/St_Helena</tz>
         </timeZones>
@@ -9844,6 +10044,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.si</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Ljubljana</tz>
         </timeZones>
@@ -9891,6 +10092,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.sj</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Arctic/Longyearbyen</tz>
             <tz>Atlantic/Jan_Mayen</tz>
@@ -9935,6 +10137,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.sk</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Bratislava</tz>
         </timeZones>
@@ -9982,6 +10185,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.sl</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Freetown</tz>
         </timeZones>
@@ -10027,6 +10231,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.sm</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/San_Marino</tz>
         </timeZones>
@@ -10073,6 +10278,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.sn</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Dakar</tz>
         </timeZones>
@@ -10123,6 +10329,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.so</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Mogadishu</tz>
         </timeZones>
@@ -10170,6 +10377,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.sr</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Paramaribo</tz>
         </timeZones>
@@ -10215,6 +10423,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld/>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Juba</tz>
         </timeZones>
@@ -10262,6 +10471,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.st</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Sao_Tome</tz>
         </timeZones>
@@ -10307,6 +10517,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.sv</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/El_Salvador</tz>
         </timeZones>
@@ -10354,6 +10565,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.sx</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Lower_Princes</tz>
         </timeZones>
@@ -10401,6 +10613,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.sy</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Damascus</tz>
         </timeZones>
@@ -10449,6 +10662,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.sz</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Mbabane</tz>
         </timeZones>
@@ -10494,6 +10708,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.tc</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Grand_Turk</tz>
         </timeZones>
@@ -10541,6 +10756,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.td</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Ndjamena</tz>
         </timeZones>
@@ -10588,6 +10804,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.tf</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Indian/Kerguelen</tz>
         </timeZones>
@@ -10639,6 +10856,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.tg</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Lome</tz>
         </timeZones>
@@ -10686,6 +10904,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.th</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Bangkok</tz>
         </timeZones>
@@ -10731,6 +10950,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.tj</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Dushanbe</tz>
         </timeZones>
@@ -10776,6 +10996,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.tk</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Pacific/Fakaofo</tz>
         </timeZones>
@@ -10822,6 +11043,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.tl</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Dili</tz>
         </timeZones>
@@ -10867,6 +11089,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.tm</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Ashgabat</tz>
             <tz>Asia/Ashkhabad</tz>
@@ -10913,6 +11136,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.tn</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Tunis</tz>
         </timeZones>
@@ -10962,6 +11186,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.to</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Pacific/Tongatapu</tz>
         </timeZones>
@@ -11009,6 +11234,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.tr</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Istanbul</tz>
             <tz>Asia/Istanbul</tz>
@@ -11057,6 +11283,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.tt</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Port_of_Spain</tz>
         </timeZones>
@@ -11104,6 +11331,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.tv</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Pacific/Funafuti</tz>
         </timeZones>
@@ -11147,6 +11375,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.tw</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Taipei</tz>
         </timeZones>
@@ -11191,6 +11420,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.tz</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Dar_es_Salaam</tz>
         </timeZones>
@@ -11258,6 +11488,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ua</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Kiev</tz>
             <tz>Europe/Uzhgorod</tz>
@@ -11308,6 +11539,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ug</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Kampala</tz>
         </timeZones>
@@ -11367,6 +11599,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.um</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Pacific/Midway</tz>
             <tz>Pacific/Wake</tz>
@@ -11416,6 +11649,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.us</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Adak</tz>
             <tz>America/Anchorage</tz>
@@ -11516,6 +11750,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.uy</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Montevideo</tz>
         </timeZones>
@@ -11560,6 +11795,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.uz</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Samarkand</tz>
             <tz>Asia/Tashkent</tz>
@@ -11608,6 +11844,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.va</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Vatican</tz>
         </timeZones>
@@ -11653,6 +11890,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.vc</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/St_Vincent</tz>
         </timeZones>
@@ -11698,6 +11936,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ve</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Caracas</tz>
         </timeZones>
@@ -11743,6 +11982,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.vg</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/Tortola</tz>
         </timeZones>
@@ -11788,6 +12028,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.vi</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>America/St_Thomas</tz>
         </timeZones>
@@ -11833,6 +12074,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.vn</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Ho_Chi_Minh</tz>
             <tz>Asia/Saigon</tz>
@@ -11883,6 +12125,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.vu</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Pacific/Efate</tz>
         </timeZones>
@@ -11931,6 +12174,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.wf</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Pacific/Wallis</tz>
         </timeZones>
@@ -11976,6 +12220,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ws</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Pacific/Apia</tz>
             <tz>Pacific/Samoa</tz>
@@ -12023,6 +12268,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld/>
+        <ccIdn/>
         <timeZones>
             <tz>Europe/Belgrade</tz>
         </timeZones>
@@ -12073,6 +12319,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ye</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Asia/Aden</tz>
         </timeZones>
@@ -12118,6 +12365,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.yt</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Indian/Mayotte</tz>
         </timeZones>
@@ -12173,6 +12421,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.za</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Johannesburg</tz>
         </timeZones>
@@ -12224,6 +12473,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.zm</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Lusaka</tz>
         </timeZones>
@@ -12284,6 +12534,7 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.zw</ccTld>
+        <ccIdn/>
         <timeZones>
             <tz>Africa/Harare</tz>
         </timeZones>

@@ -53,6 +53,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ad",
+        ccIdn: [],
         timeZones: [
             "Europe/Andorra"
         ],
@@ -98,6 +99,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ae",
+        ccIdn: [],
         timeZones: [
             "Asia/Dubai"
         ],
@@ -113,7 +115,7 @@ export const countries = [
     {
         officialName: {
             ps: "د افغانستان اسلامي امارت",
-            prs: "امارت اسلامی افغانستان"
+            "fa-AF": "امارت اسلامی افغانستان"
         },
         alpha2: "AF",
         alpha3: "AFG",
@@ -144,6 +146,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".af",
+        ccIdn: [],
         timeZones: [
             "Asia/Kabul"
         ],
@@ -194,6 +197,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ag",
+        ccIdn: [],
         timeZones: [
             "America/Antigua"
         ],
@@ -239,6 +243,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ai",
+        ccIdn: [],
         timeZones: [
             "America/Anguilla"
         ],
@@ -284,6 +289,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".al",
+        ccIdn: [],
         timeZones: [
             "Europe/Tirane"
         ],
@@ -329,6 +335,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".am",
+        ccIdn: [],
         timeZones: [
             "Asia/Yerevan"
         ],
@@ -374,6 +381,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ao",
+        ccIdn: [],
         timeZones: [
             "Africa/Luanda"
         ],
@@ -390,7 +398,7 @@ export const countries = [
     },
     {
         officialName: {
-            en: "Antartica"
+            en: "Antarctica"
         },
         alpha2: "AQ",
         alpha3: "ATA",
@@ -417,18 +425,19 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".aq",
+        ccIdn: [],
         timeZones: [
-            "Antartica/South_Pole",
-            "Antartica/Casey",
-            "Antartica/Davis",
-            "Antartica/DumontDUrville",
-            "Antartica/Macquarie",
-            "Antartica/Mawson",
-            "Antartica/Palmer",
-            "Antartica/Rothera",
-            "Antartica/Syowa",
-            "Antartica/Troll",
-            "Antartica/Vostok"
+            "Antarctica/South_Pole",
+            "Antarctica/Casey",
+            "Antarctica/Davis",
+            "Antarctica/DumontDUrville",
+            "Antarctica/Macquarie",
+            "Antarctica/Mawson",
+            "Antarctica/Palmer",
+            "Antarctica/Rothera",
+            "Antarctica/Syowa",
+            "Antarctica/Troll",
+            "Antarctica/Vostok"
         ],
         languages: [],
         locales: [
@@ -634,6 +643,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ar",
+        ccIdn: [],
         timeZones: [
             "America/Argentina/Buenos_Aires",
             "America/Argentina/Catamarca",
@@ -698,6 +708,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".as",
+        ccIdn: [],
         timeZones: [
             "Pacific/Pago_Pago"
         ],
@@ -741,6 +752,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".at",
+        ccIdn: [],
         timeZones: [
             "Europe/Vienna"
         ],
@@ -786,6 +798,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".au",
+        ccIdn: [],
         timeZones: [
             "Australia/Adelaide",
             "Australia/Brisbane",
@@ -854,6 +867,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".aw",
+        ccIdn: [],
         timeZones: [
             "America/Aruba"
         ],
@@ -897,6 +911,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ax",
+        ccIdn: [],
         timeZones: [
             "Europe/Mariehamn"
         ],
@@ -940,6 +955,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".az",
+        ccIdn: [],
         timeZones: [
             "Asia/Baku"
         ],
@@ -962,7 +978,7 @@ export const countries = [
             "hr-Cyrl": "Босна и Херцеговина",
             "sr-Latn": "Bosna i Hercegovina",
             "bs-Latn": "Bosna i Hercegovina",
-            "hr-Latn": "Bosna i Hercegovina"
+            hr: "Bosna i Hercegovina"
         },
         alpha2: "BA",
         alpha3: "BIH",
@@ -991,6 +1007,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ba",
+        ccIdn: [],
         timeZones: [
             "Europe/Sarajevo"
         ],
@@ -1043,13 +1060,15 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".bb",
+        ccIdn: [],
         timeZones: [
             "America/Barbados"
         ],
         languages: [],
         locales: [
             "en",
-            "en-BB"
+            "en-BB",
+            "bzs"
         ],
         otherAppsIds: {
             geoNamesOrg: 3374084
@@ -1088,6 +1107,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".bd",
+        ccIdn: [],
         timeZones: [
             "Asia/Dhaka",
             "Asia/Dacca"
@@ -1138,6 +1158,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".be",
+        ccIdn: [],
         timeZones: [
             "Europe/Brussels"
         ],
@@ -1189,6 +1210,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".bf",
+        ccIdn: [],
         timeZones: [
             "Africa/Ouagadougou"
         ],
@@ -1234,6 +1256,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".bg",
+        ccIdn: [],
         timeZones: [
             "Europe/Sofia"
         ],
@@ -1277,6 +1300,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".bh",
+        ccIdn: [],
         timeZones: [
             "Asia/Bahrain"
         ],
@@ -1323,6 +1347,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".bi",
+        ccIdn: [],
         timeZones: [
             "Africa/Bujumbura"
         ],
@@ -1372,6 +1397,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".bj",
+        ccIdn: [],
         timeZones: [
             "Africa/Porto-Novo"
         ],
@@ -1419,6 +1445,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".gp",
+        ccIdn: [],
         timeZones: [
             "America/St_Barthelemy"
         ],
@@ -1464,6 +1491,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".bm",
+        ccIdn: [],
         timeZones: [
             "Atlantic/Bermuda"
         ],
@@ -1510,6 +1538,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".bn",
+        ccIdn: [],
         timeZones: [
             "Asia/Brunei"
         ],
@@ -1558,6 +1587,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".bo",
+        ccIdn: [],
         timeZones: [
             "America/La_Paz"
         ],
@@ -1607,6 +1637,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".bq",
+        ccIdn: [],
         timeZones: [
             "America/Kralendijk"
         ],
@@ -1652,6 +1683,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".br",
+        ccIdn: [],
         timeZones: [
             "America/Araguaina",
             "America/Bahia",
@@ -1719,6 +1751,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".bs",
+        ccIdn: [],
         timeZones: [
             "America/Nassau"
         ],
@@ -1762,6 +1795,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".bt",
+        ccIdn: [],
         timeZones: [
             "Asia/Thimphu",
             "Asia/Thimbu"
@@ -1804,6 +1838,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".bv",
+        ccIdn: [],
         timeZones: [
             "Etc/UTC"
         ],
@@ -1854,6 +1889,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".bw",
+        ccIdn: [],
         timeZones: [
             "Africa/Gaborone"
         ],
@@ -1898,6 +1934,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".by",
+        ccIdn: [],
         timeZones: [
             "Europe/Minsk"
         ],
@@ -1945,6 +1982,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".bz",
+        ccIdn: [],
         timeZones: [
             "America/Belize"
         ],
@@ -1993,6 +2031,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ca",
+        ccIdn: [],
         timeZones: [
             "America/Atikokan",
             "America/Blanc-Sablon",
@@ -2077,6 +2116,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".cc",
+        ccIdn: [],
         timeZones: [
             "Indian/Cocos"
         ],
@@ -2122,6 +2162,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".cd",
+        ccIdn: [],
         timeZones: [
             "Africa/Kinshasa",
             "Africa/Lubumbashi"
@@ -2175,6 +2216,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".cf",
+        ccIdn: [],
         timeZones: [
             "Africa/Bangui"
         ],
@@ -2224,6 +2266,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".cg",
+        ccIdn: [],
         timeZones: [
             "Africa/Brazzaville"
         ],
@@ -2279,6 +2322,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ch",
+        ccIdn: [],
         timeZones: [
             "Europe/Zurich"
         ],
@@ -2338,6 +2382,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ci",
+        ccIdn: [],
         timeZones: [
             "Africa/Abidjan"
         ],
@@ -2382,6 +2427,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ck",
+        ccIdn: [],
         timeZones: [
             "Pacific/Rarotonga"
         ],
@@ -2427,6 +2473,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".cl",
+        ccIdn: [],
         timeZones: [
             "America/Punta_Arenas",
             "America/Santiago",
@@ -2478,6 +2525,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".cm",
+        ccIdn: [],
         timeZones: [
             "Africa/Douala"
         ],
@@ -2549,6 +2597,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".cn",
+        ccIdn: [],
         timeZones: [
             "Asia/Shanghai",
             "Asia/Urumqi",
@@ -2605,6 +2654,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".co",
+        ccIdn: [],
         timeZones: [
             "America/Bogota"
         ],
@@ -2650,6 +2700,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".cr",
+        ccIdn: [],
         timeZones: [
             "America/Costa_Rica"
         ],
@@ -2695,6 +2746,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".cu",
+        ccIdn: [],
         timeZones: [
             "America/Havana"
         ],
@@ -2740,6 +2792,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".cv",
+        ccIdn: [],
         timeZones: [
             "Atlantic/Cape_Verde"
         ],
@@ -2788,6 +2841,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".cw",
+        ccIdn: [],
         timeZones: [
             "America/Curacao"
         ],
@@ -2831,6 +2885,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".cx",
+        ccIdn: [],
         timeZones: [
             "Indian/Christmas"
         ],
@@ -2875,6 +2930,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".cy",
+        ccIdn: [],
         timeZones: [
             "Asia/Famagusta",
             "Asia/Nicosia",
@@ -2926,6 +2982,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".cz",
+        ccIdn: [],
         timeZones: [
             "Europe/Prague"
         ],
@@ -2969,6 +3026,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".de",
+        ccIdn: [],
         timeZones: [
             "Europe/Berlin",
             "Europe/Busingen"
@@ -3027,6 +3085,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".dj",
+        ccIdn: [],
         timeZones: [
             "Africa/Djibouti"
         ],
@@ -3076,6 +3135,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".dk",
+        ccIdn: [],
         timeZones: [
             "Europe/Copenhagen"
         ],
@@ -3125,6 +3185,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".dm",
+        ccIdn: [],
         timeZones: [
             "America/Dominica"
         ],
@@ -3170,6 +3231,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".do",
+        ccIdn: [],
         timeZones: [
             "America/Santo_Domingo"
         ],
@@ -3217,6 +3279,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".dz",
+        ccIdn: [],
         timeZones: [
             "Africa/Algiers"
         ],
@@ -3266,6 +3329,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ec",
+        ccIdn: [],
         timeZones: [
             "America/Guayaquil",
             "Pacific/Galapagos"
@@ -3312,6 +3376,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ee",
+        ccIdn: [],
         timeZones: [
             "Europe/Tallinn"
         ],
@@ -3357,6 +3422,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".eg",
+        ccIdn: [],
         timeZones: [
             "Africa/Cairo"
         ],
@@ -3402,6 +3468,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".eh",
+        ccIdn: [],
         timeZones: [
             "Africa/El_Aaiun"
         ],
@@ -3448,6 +3515,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".er",
+        ccIdn: [],
         timeZones: [
             "Africa/Asmara",
             "Africa/Asmera"
@@ -3498,6 +3566,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".es",
+        ccIdn: [],
         timeZones: [
             "Africa/Ceuta",
             "Atlantic/Canary",
@@ -3553,6 +3622,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".et",
+        ccIdn: [],
         timeZones: [
             "Africa/Addis_Ababa"
         ],
@@ -3603,6 +3673,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".fi",
+        ccIdn: [],
         timeZones: [
             "Europe/Helsinki"
         ],
@@ -3658,6 +3729,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".fj",
+        ccIdn: [],
         timeZones: [
             "Pacific/Fiji"
         ],
@@ -3703,6 +3775,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".fk",
+        ccIdn: [],
         timeZones: [
             "Atlantic/Stanley"
         ],
@@ -3748,6 +3821,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".fm",
+        ccIdn: [],
         timeZones: [
             "Pacific/Chuuk",
             "Pacific/Kosrae",
@@ -3797,6 +3871,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".fo",
+        ccIdn: [],
         timeZones: [
             "Atlantic/Faroe",
             "Atlantic/Faeroe"
@@ -3843,6 +3918,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".fr",
+        ccIdn: [],
         timeZones: [
             "Europe/Paris"
         ],
@@ -3894,6 +3970,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ga",
+        ccIdn: [],
         timeZones: [
             "Africa/Libreville"
         ],
@@ -3939,6 +4016,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".uk",
+        ccIdn: [],
         timeZones: [
             "Europe/London",
             "Europe/Belfast"
@@ -3993,6 +4071,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".gd",
+        ccIdn: [],
         timeZones: [
             "America/Grenada"
         ],
@@ -4038,6 +4117,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ge",
+        ccIdn: [],
         timeZones: [
             "Asia/Tbilisi"
         ],
@@ -4085,6 +4165,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".gf",
+        ccIdn: [],
         timeZones: [
             "America/Cayenne"
         ],
@@ -4128,6 +4209,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".gg",
+        ccIdn: [],
         timeZones: [
             "Europe/Guernsey"
         ],
@@ -4173,6 +4255,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".gh",
+        ccIdn: [],
         timeZones: [
             "Africa/Accra"
         ],
@@ -4224,6 +4307,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".gi",
+        ccIdn: [],
         timeZones: [
             "Europe/Gibraltar"
         ],
@@ -4268,6 +4352,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".gl",
+        ccIdn: [],
         timeZones: [
             "America/Danmarkshavn",
             "America/Scoresbysund",
@@ -4318,6 +4403,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".gm",
+        ccIdn: [],
         timeZones: [
             "Africa/Banjul"
         ],
@@ -4363,6 +4449,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".gn",
+        ccIdn: [],
         timeZones: [
             "Africa/Conakry"
         ],
@@ -4408,6 +4495,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".gp",
+        ccIdn: [],
         timeZones: [
             "America/Guadeloupe"
         ],
@@ -4455,6 +4543,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".gq",
+        ccIdn: [],
         timeZones: [
             "Africa/Malabo"
         ],
@@ -4504,6 +4593,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".gr",
+        ccIdn: [],
         timeZones: [
             "Europe/Athens"
         ],
@@ -4547,6 +4637,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".gs",
+        ccIdn: [],
         timeZones: [
             "Atlantic/South_Georgia"
         ],
@@ -4600,6 +4691,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".gt",
+        ccIdn: [],
         timeZones: [
             "America/Guatemala"
         ],
@@ -4647,6 +4739,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".gu",
+        ccIdn: [],
         timeZones: [
             "Pacific/Guam"
         ],
@@ -4692,6 +4785,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".gw",
+        ccIdn: [],
         timeZones: [
             "Africa/Bissau"
         ],
@@ -4737,6 +4831,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".gy",
+        ccIdn: [],
         timeZones: [
             "America/Guyana"
         ],
@@ -4780,6 +4875,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".hk",
+        ccIdn: [],
         timeZones: [
             "Asia/Hong_Kong"
         ],
@@ -4827,6 +4923,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".hm",
+        ccIdn: [],
         timeZones: [
             "Etc/GMT-5"
         ],
@@ -4872,6 +4969,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".hn",
+        ccIdn: [],
         timeZones: [
             "America/Tegucigalpa"
         ],
@@ -4915,6 +5013,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".hr",
+        ccIdn: [],
         timeZones: [
             "Europe/Zagreb"
         ],
@@ -4961,6 +5060,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ht",
+        ccIdn: [],
         timeZones: [
             "America/Port-au-Prince"
         ],
@@ -5004,6 +5104,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".hu",
+        ccIdn: [],
         timeZones: [
             "Europe/Budapest"
         ],
@@ -5049,6 +5150,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".id",
+        ccIdn: [],
         timeZones: [
             "Asia/Jakarta",
             "Asia/Jayapura",
@@ -5099,6 +5201,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ie",
+        ccIdn: [],
         timeZones: [
             "Europe/Dublin"
         ],
@@ -5144,6 +5247,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".il",
+        ccIdn: [],
         timeZones: [
             "Asia/Jerusalem",
             "Asia/Tel_Aviv"
@@ -5195,6 +5299,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".im",
+        ccIdn: [],
         timeZones: [
             "Europe/Isle_of_Man"
         ],
@@ -5241,6 +5346,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".in",
+        ccIdn: [],
         timeZones: [
             "Asia/Kolkata",
             "Asia/Calcutta"
@@ -5322,6 +5428,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".io",
+        ccIdn: [],
         timeZones: [
             "Indian/Chagos"
         ],
@@ -5366,6 +5473,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".iq",
+        ccIdn: [],
         timeZones: [
             "Asia/Baghdad"
         ],
@@ -5415,6 +5523,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ir",
+        ccIdn: [],
         timeZones: [
             "Asia/Tehran"
         ],
@@ -5460,6 +5569,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".is",
+        ccIdn: [],
         timeZones: [
             "Atlantic/Reykjavik"
         ],
@@ -5503,6 +5613,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".it",
+        ccIdn: [],
         timeZones: [
             "Europe/Rome"
         ],
@@ -5554,6 +5665,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".je",
+        ccIdn: [],
         timeZones: [
             "Europe/Jersey"
         ],
@@ -5600,6 +5712,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".jm",
+        ccIdn: [],
         timeZones: [
             "America/Jamaica"
         ],
@@ -5645,6 +5758,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".jo",
+        ccIdn: [],
         timeZones: [
             "Asia/Amman"
         ],
@@ -5688,6 +5802,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".jp",
+        ccIdn: [],
         timeZones: [
             "Asia/Tokyo"
         ],
@@ -5734,6 +5849,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ke",
+        ccIdn: [],
         timeZones: [
             "Africa/Nairobi"
         ],
@@ -5808,6 +5924,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".kg",
+        ccIdn: [],
         timeZones: [
             "Asia/Bishkek"
         ],
@@ -5855,6 +5972,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".kh",
+        ccIdn: [],
         timeZones: [
             "Asia/Phnom_Penh"
         ],
@@ -5901,6 +6019,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ki",
+        ccIdn: [],
         timeZones: [
             "Pacific/Kiritimati",
             "Pacific/Tarawa",
@@ -5918,7 +6037,7 @@ export const countries = [
     {
         officialName: {
             fr: "Union des Comores",
-            zd: "Udzima wa Komori",
+            swb: "Udzima wa Komori",
             ar: "الاتحاد ﺍﻟﻘﻤﺮي"
         },
         alpha2: "KM",
@@ -5951,6 +6070,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".km",
+        ccIdn: [],
         timeZones: [
             "Indian/Comoro"
         ],
@@ -5998,6 +6118,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".kn",
+        ccIdn: [],
         timeZones: [
             "America/St_Kitts"
         ],
@@ -6043,6 +6164,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".kp",
+        ccIdn: [],
         timeZones: [
             "Asia/Pyongyang"
         ],
@@ -6088,6 +6210,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".kr",
+        ccIdn: [],
         timeZones: [
             "Asia/Seoul"
         ],
@@ -6131,6 +6254,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".kw",
+        ccIdn: [],
         timeZones: [
             "Asia/Kuwait"
         ],
@@ -6176,6 +6300,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ky",
+        ccIdn: [],
         timeZones: [
             "America/Cayman"
         ],
@@ -6220,6 +6345,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".kz",
+        ccIdn: [],
         timeZones: [
             "Asia/Almaty",
             "Asia/Aqtau",
@@ -6273,6 +6399,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".la",
+        ccIdn: [],
         timeZones: [
             "Asia/Vientiane"
         ],
@@ -6318,6 +6445,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".lb",
+        ccIdn: [],
         timeZones: [
             "Asia/Beirut"
         ],
@@ -6363,6 +6491,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".lc",
+        ccIdn: [],
         timeZones: [
             "America/St_Lucia"
         ],
@@ -6409,6 +6538,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".li",
+        ccIdn: [],
         timeZones: [
             "Europe/Vaduz"
         ],
@@ -6458,6 +6588,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".lk",
+        ccIdn: [],
         timeZones: [
             "Asia/Colombo"
         ],
@@ -6505,6 +6636,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".lr",
+        ccIdn: [],
         timeZones: [
             "Africa/Monrovia"
         ],
@@ -6556,6 +6688,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ls",
+        ccIdn: [],
         timeZones: [
             "Africa/Maseru"
         ],
@@ -6601,6 +6734,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".lt",
+        ccIdn: [],
         timeZones: [
             "Europe/Vilnius"
         ],
@@ -6650,6 +6784,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".lu",
+        ccIdn: [],
         timeZones: [
             "Europe/Luxembourg"
         ],
@@ -6699,6 +6834,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".lv",
+        ccIdn: [],
         timeZones: [
             "Europe/Riga"
         ],
@@ -6742,6 +6878,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ly",
+        ccIdn: [],
         timeZones: [
             "Africa/Tripoli"
         ],
@@ -6789,6 +6926,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ma",
+        ccIdn: [],
         timeZones: [
             "Africa/Casablanca"
         ],
@@ -6846,6 +6984,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".mc",
+        ccIdn: [],
         timeZones: [
             "Europe/Monaco"
         ],
@@ -6889,6 +7028,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".md",
+        ccIdn: [],
         timeZones: [
             "Europe/Chisinau",
             "Europe/Tiraspol"
@@ -6939,6 +7079,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".me",
+        ccIdn: [],
         timeZones: [
             "Europe/Podgorica"
         ],
@@ -6985,6 +7126,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".gp",
+        ccIdn: [],
         timeZones: [
             "America/Marigot"
         ],
@@ -7031,6 +7173,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".mg",
+        ccIdn: [],
         timeZones: [
             "Indian/Antananarivo"
         ],
@@ -7081,6 +7224,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".mh",
+        ccIdn: [],
         timeZones: [
             "Pacific/Kwajalein",
             "Pacific/Majuro"
@@ -7126,6 +7270,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".mk",
+        ccIdn: [],
         timeZones: [
             "Europe/Skopje"
         ],
@@ -7173,6 +7318,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ml",
+        ccIdn: [],
         timeZones: [
             "Africa/Bamako",
             "Africa/Timbuktu"
@@ -7223,6 +7369,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".mm",
+        ccIdn: [],
         timeZones: [
             "Asia/Yangon",
             "Asia/Rangoon"
@@ -7267,6 +7414,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".mn",
+        ccIdn: [],
         timeZones: [
             "Asia/Choibalsan",
             "Asia/Hovd",
@@ -7284,7 +7432,7 @@ export const countries = [
     },
     {
         officialName: {
-            cmn: "中华人民共和国澳门特别行政区",
+            zh: "中华人民共和国澳门特别行政区",
             yue: "中華人民共和國澳門特別行政區",
             pt: "Região Administrativa Especial de Macau da República Popular da China"
         },
@@ -7315,6 +7463,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".mo",
+        ccIdn: [],
         timeZones: [
             "Asia/Macau",
             "Asia/Macao"
@@ -7363,6 +7512,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".mp",
+        ccIdn: [],
         timeZones: [
             "Pacific/Saipan"
         ],
@@ -7406,6 +7556,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".mq",
+        ccIdn: [],
         timeZones: [
             "America/Martinique"
         ],
@@ -7452,6 +7603,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".mr",
+        ccIdn: [],
         timeZones: [
             "Africa/Nouakchott"
         ],
@@ -7501,6 +7653,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ms",
+        ccIdn: [],
         timeZones: [
             "America/Montserrat"
         ],
@@ -7547,6 +7700,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".mt",
+        ccIdn: [],
         timeZones: [
             "Europe/Malta"
         ],
@@ -7595,6 +7749,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".mu",
+        ccIdn: [],
         timeZones: [
             "Indian/Mauritius"
         ],
@@ -7644,6 +7799,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".mv",
+        ccIdn: [],
         timeZones: [
             "Indian/Maldives"
         ],
@@ -7690,6 +7846,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".mw",
+        ccIdn: [],
         timeZones: [
             "Africa/Blantyre"
         ],
@@ -7735,6 +7892,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".mx",
+        ccIdn: [],
         timeZones: [
             "America/Bahia_Banderas",
             "America/Cancun",
@@ -7795,6 +7953,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".my",
+        ccIdn: [],
         timeZones: [
             "Asia/Kuala_Lumpur",
             "Asia/Kuching"
@@ -7843,6 +8002,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".mz",
+        ccIdn: [],
         timeZones: [
             "Africa/Maputo"
         ],
@@ -7892,6 +8052,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".na",
+        ccIdn: [],
         timeZones: [
             "Africa/Windhoek"
         ],
@@ -7939,6 +8100,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".nc",
+        ccIdn: [],
         timeZones: [
             "Pacific/Noumea"
         ],
@@ -7984,6 +8146,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ne",
+        ccIdn: [],
         timeZones: [
             "Africa/Niamey"
         ],
@@ -8035,6 +8198,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".nf",
+        ccIdn: [],
         timeZones: [
             "Pacific/Norfolk"
         ],
@@ -8080,6 +8244,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ng",
+        ccIdn: [],
         timeZones: [
             "Africa/Lagos"
         ],
@@ -8131,6 +8296,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ni",
+        ccIdn: [],
         timeZones: [
             "America/Managua"
         ],
@@ -8181,6 +8347,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".nl",
+        ccIdn: [],
         timeZones: [
             "Europe/Amsterdam"
         ],
@@ -8232,6 +8399,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".no",
+        ccIdn: [],
         timeZones: [
             "Europe/Oslo"
         ],
@@ -8281,6 +8449,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".np",
+        ccIdn: [],
         timeZones: [
             "Asia/Kathmandu",
             "Asia/Katmandu"
@@ -8328,6 +8497,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".nr",
+        ccIdn: [],
         timeZones: [
             "Pacific/Nauru"
         ],
@@ -8373,6 +8543,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".nu",
+        ccIdn: [],
         timeZones: [
             "Pacific/Niue"
         ],
@@ -8417,6 +8588,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".nz",
+        ccIdn: [],
         timeZones: [
             "Pacific/Auckland",
             "Pacific/Chatham"
@@ -8463,6 +8635,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".om",
+        ccIdn: [],
         timeZones: [
             "Asia/Muscat"
         ],
@@ -8508,6 +8681,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".pa",
+        ccIdn: [],
         timeZones: [
             "America/Panama"
         ],
@@ -8555,6 +8729,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".pe",
+        ccIdn: [],
         timeZones: [
             "America/Lima"
         ],
@@ -8604,6 +8779,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".pf",
+        ccIdn: [],
         timeZones: [
             "Pacific/Gambier",
             "Pacific/Marquesas",
@@ -8652,6 +8828,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".pg",
+        ccIdn: [],
         timeZones: [
             "Pacific/Bougainville",
             "Pacific/Port_Moresby"
@@ -8680,7 +8857,7 @@ export const countries = [
         dependency: null,
         mottos: {
             official: {
-                tl: "Maka-Diyos, Maka-tao, Makakalikasan at Makabansa",
+                fil: "Maka-Diyos, Maka-tao, Makakalikasan at Makabansa",
                 en: "For God, People, Nature and Country"
             },
             popular: {},
@@ -8700,6 +8877,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ph",
+        ccIdn: [],
         timeZones: [
             "Asia/Manila"
         ],
@@ -8750,6 +8928,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".pk",
+        ccIdn: [],
         timeZones: [
             "Asia/Karachi"
         ],
@@ -8801,6 +8980,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".pl",
+        ccIdn: [],
         timeZones: [
             "Europe/Warsaw"
         ],
@@ -8846,6 +9026,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".pm",
+        ccIdn: [],
         timeZones: [
             "America/Miquelon"
         ],
@@ -8892,6 +9073,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".pn",
+        ccIdn: [],
         timeZones: [
             "Pacific/Pitcairn"
         ],
@@ -8939,6 +9121,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".pr",
+        ccIdn: [],
         timeZones: [
             "America/Puerto_Rico"
         ],
@@ -8982,6 +9165,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ps",
+        ccIdn: [],
         timeZones: [
             "Asia/Gaza",
             "Asia/Hebron"
@@ -9026,6 +9210,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".pt",
+        ccIdn: [],
         timeZones: [
             "Atlantic/Azores",
             "Atlantic/Madeira",
@@ -9074,6 +9259,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".pw",
+        ccIdn: [],
         timeZones: [
             "Pacific/Palau"
         ],
@@ -9121,6 +9307,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".py",
+        ccIdn: [],
         timeZones: [
             "America/Asuncion"
         ],
@@ -9166,6 +9353,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".qa",
+        ccIdn: [],
         timeZones: [
             "Asia/Qatar"
         ],
@@ -9211,6 +9399,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".re",
+        ccIdn: [],
         timeZones: [
             "Indian/Reunion"
         ],
@@ -9254,6 +9443,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ro",
+        ccIdn: [],
         timeZones: [
             "Europe/Bucharest"
         ],
@@ -9300,6 +9490,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".rs",
+        ccIdn: [],
         timeZones: [
             "Europe/Belgrade"
         ],
@@ -9346,6 +9537,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ru",
+        ccIdn: [],
         timeZones: [
             "Asia/Anadyr",
             "Asia/Barnaul",
@@ -9430,6 +9622,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".rw",
+        ccIdn: [],
         timeZones: [
             "Africa/Kigali"
         ],
@@ -9479,6 +9672,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".sa",
+        ccIdn: [],
         timeZones: [
             "Asia/Riyadh"
         ],
@@ -9524,6 +9718,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".sb",
+        ccIdn: [],
         timeZones: [
             "Pacific/Guadalcanal"
         ],
@@ -9571,6 +9766,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".sc",
+        ccIdn: [],
         timeZones: [
             "Indian/Mahe"
         ],
@@ -9619,6 +9815,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".sd",
+        ccIdn: [],
         timeZones: [
             "Africa/Khartoum"
         ],
@@ -9668,6 +9865,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".se",
+        ccIdn: [],
         timeZones: [
             "Europe/Stockholm"
         ],
@@ -9720,6 +9918,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".sg",
+        ccIdn: [],
         timeZones: [
             "Asia/Singapore"
         ],
@@ -9771,6 +9970,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".sh",
+        ccIdn: [],
         timeZones: [
             "Atlantic/St_Helena"
         ],
@@ -9814,6 +10014,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".si",
+        ccIdn: [],
         timeZones: [
             "Europe/Ljubljana"
         ],
@@ -9861,6 +10062,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".sj",
+        ccIdn: [],
         timeZones: [
             "Arctic/Longyearbyen",
             "Atlantic/Jan_Mayen"
@@ -9905,6 +10107,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".sk",
+        ccIdn: [],
         timeZones: [
             "Europe/Bratislava"
         ],
@@ -9952,6 +10155,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".sl",
+        ccIdn: [],
         timeZones: [
             "Africa/Freetown"
         ],
@@ -9997,6 +10201,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".sm",
+        ccIdn: [],
         timeZones: [
             "Europe/San_Marino"
         ],
@@ -10043,6 +10248,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".sn",
+        ccIdn: [],
         timeZones: [
             "Africa/Dakar"
         ],
@@ -10093,6 +10299,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".so",
+        ccIdn: [],
         timeZones: [
             "Africa/Mogadishu"
         ],
@@ -10140,6 +10347,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".sr",
+        ccIdn: [],
         timeZones: [
             "America/Paramaribo"
         ],
@@ -10185,6 +10393,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: null,
+        ccIdn: [],
         timeZones: [
             "Africa/Juba"
         ],
@@ -10232,6 +10441,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".st",
+        ccIdn: [],
         timeZones: [
             "Africa/Sao_Tome"
         ],
@@ -10277,6 +10487,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".sv",
+        ccIdn: [],
         timeZones: [
             "America/El_Salvador"
         ],
@@ -10324,6 +10535,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".sx",
+        ccIdn: [],
         timeZones: [
             "America/Lower_Princes"
         ],
@@ -10371,6 +10583,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".sy",
+        ccIdn: [],
         timeZones: [
             "Asia/Damascus"
         ],
@@ -10419,6 +10632,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".sz",
+        ccIdn: [],
         timeZones: [
             "Africa/Mbabane"
         ],
@@ -10464,6 +10678,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".tc",
+        ccIdn: [],
         timeZones: [
             "America/Grand_Turk"
         ],
@@ -10511,6 +10726,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".td",
+        ccIdn: [],
         timeZones: [
             "Africa/Ndjamena"
         ],
@@ -10558,6 +10774,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".tf",
+        ccIdn: [],
         timeZones: [
             "Indian/Kerguelen"
         ],
@@ -10609,6 +10826,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".tg",
+        ccIdn: [],
         timeZones: [
             "Africa/Lome"
         ],
@@ -10656,6 +10874,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".th",
+        ccIdn: [],
         timeZones: [
             "Asia/Bangkok"
         ],
@@ -10701,6 +10920,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".tj",
+        ccIdn: [],
         timeZones: [
             "Asia/Dushanbe"
         ],
@@ -10746,6 +10966,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".tk",
+        ccIdn: [],
         timeZones: [
             "Pacific/Fakaofo"
         ],
@@ -10792,6 +11013,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".tl",
+        ccIdn: [],
         timeZones: [
             "Asia/Dili"
         ],
@@ -10837,6 +11059,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".tm",
+        ccIdn: [],
         timeZones: [
             "Asia/Ashgabat",
             "Asia/Ashkhabad"
@@ -10883,6 +11106,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".tn",
+        ccIdn: [],
         timeZones: [
             "Africa/Tunis"
         ],
@@ -10932,6 +11156,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".to",
+        ccIdn: [],
         timeZones: [
             "Pacific/Tongatapu"
         ],
@@ -10979,6 +11204,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".tr",
+        ccIdn: [],
         timeZones: [
             "Europe/Istanbul",
             "Asia/Istanbul"
@@ -11027,6 +11253,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".tt",
+        ccIdn: [],
         timeZones: [
             "America/Port_of_Spain"
         ],
@@ -11074,6 +11301,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".tv",
+        ccIdn: [],
         timeZones: [
             "Pacific/Funafuti"
         ],
@@ -11117,6 +11345,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".tw",
+        ccIdn: [],
         timeZones: [
             "Asia/Taipei"
         ],
@@ -11161,6 +11390,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".tz",
+        ccIdn: [],
         timeZones: [
             "Africa/Dar_es_Salaam"
         ],
@@ -11228,6 +11458,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ua",
+        ccIdn: [],
         timeZones: [
             "Europe/Kiev",
             "Europe/Uzhgorod",
@@ -11278,6 +11509,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ug",
+        ccIdn: [],
         timeZones: [
             "Africa/Kampala"
         ],
@@ -11337,6 +11569,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".um",
+        ccIdn: [],
         timeZones: [
             "Pacific/Midway",
             "Pacific/Wake",
@@ -11386,6 +11619,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".us",
+        ccIdn: [],
         timeZones: [
             "America/Adak",
             "America/Anchorage",
@@ -11486,6 +11720,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".uy",
+        ccIdn: [],
         timeZones: [
             "America/Montevideo"
         ],
@@ -11530,6 +11765,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".uz",
+        ccIdn: [],
         timeZones: [
             "Asia/Samarkand",
             "Asia/Tashkent"
@@ -11578,6 +11814,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".va",
+        ccIdn: [],
         timeZones: [
             "Europe/Vatican"
         ],
@@ -11623,6 +11860,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".vc",
+        ccIdn: [],
         timeZones: [
             "America/St_Vincent"
         ],
@@ -11668,6 +11906,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ve",
+        ccIdn: [],
         timeZones: [
             "America/Caracas"
         ],
@@ -11713,6 +11952,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".vg",
+        ccIdn: [],
         timeZones: [
             "America/Tortola"
         ],
@@ -11758,6 +11998,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".vi",
+        ccIdn: [],
         timeZones: [
             "America/St_Thomas"
         ],
@@ -11803,6 +12044,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".vn",
+        ccIdn: [],
         timeZones: [
             "Asia/Ho_Chi_Minh",
             "Asia/Saigon"
@@ -11853,6 +12095,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".vu",
+        ccIdn: [],
         timeZones: [
             "Pacific/Efate"
         ],
@@ -11901,6 +12144,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".wf",
+        ccIdn: [],
         timeZones: [
             "Pacific/Wallis"
         ],
@@ -11946,6 +12190,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ws",
+        ccIdn: [],
         timeZones: [
             "Pacific/Apia",
             "Pacific/Samoa"
@@ -11993,6 +12238,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: null,
+        ccIdn: [],
         timeZones: [
             "Europe/Belgrade"
         ],
@@ -12043,6 +12289,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ye",
+        ccIdn: [],
         timeZones: [
             "Asia/Aden"
         ],
@@ -12088,6 +12335,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".yt",
+        ccIdn: [],
         timeZones: [
             "Indian/Mayotte"
         ],
@@ -12143,6 +12391,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".za",
+        ccIdn: [],
         timeZones: [
             "Africa/Johannesburg"
         ],
@@ -12194,6 +12443,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".zm",
+        ccIdn: [],
         timeZones: [
             "Africa/Lusaka"
         ],
@@ -12254,6 +12504,7 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".zw",
+        ccIdn: [],
         timeZones: [
             "Africa/Harare"
         ],

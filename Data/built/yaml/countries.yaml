@@ -838,6 +838,7 @@
       - '+376'
     exceptions: []
   ccTld: .ad
+  ccIdn: []
   timeZones:
     - Europe/Andorra
   languages: []
@@ -876,6 +877,7 @@
       - '+971'
     exceptions: []
   ccTld: .ae
+  ccIdn: []
   timeZones:
     - Asia/Dubai
   languages: []
@@ -886,7 +888,7 @@
     geoNamesOrg: 290557
 - officialName:
     ps: د افغانستان اسلامي امارت
-    prs: امارت اسلامی افغانستان
+    fa-AF: امارت اسلامی افغانستان
   alpha2: AF
   alpha3: AFG
   unM49: '004'
@@ -1153,6 +1155,7 @@
       - '+93'
     exceptions: []
   ccTld: .af
+  ccIdn: []
   timeZones:
     - Asia/Kabul
   languages: []
@@ -1202,6 +1205,7 @@
       - '+1268'
     exceptions: []
   ccTld: .ag
+  ccIdn: []
   timeZones:
     - America/Antigua
   languages: []
@@ -1292,6 +1296,7 @@
       - '+1264'
     exceptions: []
   ccTld: .ai
+  ccIdn: []
   timeZones:
     - America/Anguilla
   languages: []
@@ -1397,6 +1402,7 @@
       - '+355'
     exceptions: []
   ccTld: .al
+  ccIdn: []
   timeZones:
     - Europe/Tirane
   languages: []
@@ -1436,6 +1442,7 @@
       - '+374'
     exceptions: []
   ccTld: .am
+  ccIdn: []
   timeZones:
     - Asia/Yerevan
   languages: []
@@ -1492,6 +1499,7 @@
       - '+244'
     exceptions: []
   ccTld: .ao
+  ccIdn: []
   timeZones:
     - Africa/Luanda
   languages: []
@@ -1503,7 +1511,7 @@
   otherAppsIds:
     geoNamesOrg: 3351879
 - officialName:
-    en: Antartica
+    en: Antarctica
   alpha2: AQ
   alpha3: ATA
   unM49: '010'
@@ -1592,18 +1600,19 @@
       - '+6721'
     exceptions: []
   ccTld: .aq
+  ccIdn: []
   timeZones:
-    - Antartica/South_Pole
-    - Antartica/Casey
-    - Antartica/Davis
-    - Antartica/DumontDUrville
-    - Antartica/Macquarie
-    - Antartica/Mawson
-    - Antartica/Palmer
-    - Antartica/Rothera
-    - Antartica/Syowa
-    - Antartica/Troll
-    - Antartica/Vostok
+    - Antarctica/South_Pole
+    - Antarctica/Casey
+    - Antarctica/Davis
+    - Antarctica/DumontDUrville
+    - Antarctica/Macquarie
+    - Antarctica/Mawson
+    - Antarctica/Palmer
+    - Antarctica/Rothera
+    - Antarctica/Syowa
+    - Antarctica/Troll
+    - Antarctica/Vostok
   languages: []
   locales:
     - en
@@ -1870,6 +1879,7 @@
       - '+54'
     exceptions: []
   ccTld: .ar
+  ccIdn: []
   timeZones:
     - America/Argentina/Buenos_Aires
     - America/Argentina/Catamarca
@@ -2101,6 +2111,7 @@
       - '+1684'
     exceptions: []
   ccTld: .as
+  ccIdn: []
   timeZones:
     - Pacific/Pago_Pago
   languages: []
@@ -2137,6 +2148,7 @@
       - '+43'
     exceptions: []
   ccTld: .at
+  ccIdn: []
   timeZones:
     - Europe/Vienna
   languages: []
@@ -2205,6 +2217,7 @@
       - '+61'
     exceptions: []
   ccTld: .au
+  ccIdn: []
   timeZones:
     - Australia/Adelaide
     - Australia/Brisbane
@@ -2266,6 +2279,7 @@
       - '+297'
     exceptions: []
   ccTld: .aw
+  ccIdn: []
   timeZones:
     - America/Aruba
   languages: []
@@ -2306,6 +2320,7 @@
       - '+35818'
     exceptions: []
   ccTld: .ax
+  ccIdn: []
   timeZones:
     - Europe/Mariehamn
   languages: []
@@ -2352,6 +2367,7 @@
       - '+994'
     exceptions: []
   ccTld: .az
+  ccIdn: []
   timeZones:
     - Asia/Baku
   languages: []
@@ -2369,7 +2385,7 @@
     hr-Cyrl: Босна и Херцеговина
     sr-Latn: Bosna i Hercegovina
     bs-Latn: Bosna i Hercegovina
-    hr-Latn: Bosna i Hercegovina
+    hr: Bosna i Hercegovina
   alpha2: BA
   alpha3: BIH
   unM49: '070'
@@ -2404,6 +2420,7 @@
       - '+387'
     exceptions: []
   ccTld: .ba
+  ccIdn: []
   timeZones:
     - Europe/Sarajevo
   languages: []
@@ -2455,12 +2472,14 @@
       - '+1246'
     exceptions: []
   ccTld: .bb
+  ccIdn: []
   timeZones:
     - America/Barbados
   languages: []
   locales:
     - en
     - en-BB
+    - bzs
   otherAppsIds:
     geoNamesOrg: 3374084
 - officialName:
@@ -2491,6 +2510,7 @@
       - '+880'
     exceptions: []
   ccTld: .bd
+  ccIdn: []
   timeZones:
     - Asia/Dhaka
     - Asia/Dacca
@@ -2534,6 +2554,7 @@
       - '+32'
     exceptions: []
   ccTld: .be
+  ccIdn: []
   timeZones:
     - Europe/Brussels
   languages: []
@@ -2583,6 +2604,7 @@
       - '+226'
     exceptions: []
   ccTld: .bf
+  ccIdn: []
   timeZones:
     - Africa/Ouagadougou
   languages: []
@@ -2620,6 +2642,7 @@
       - '+359'
     exceptions: []
   ccTld: .bg
+  ccIdn: []
   timeZones:
     - Europe/Sofia
   languages: []
@@ -2656,6 +2679,7 @@
       - '+973'
     exceptions: []
   ccTld: .bh
+  ccIdn: []
   timeZones:
     - Asia/Bahrain
   languages: []
@@ -2706,6 +2730,7 @@
       - '+257'
     exceptions: []
   ccTld: .bi
+  ccIdn: []
   timeZones:
     - Africa/Bujumbura
   languages: []
@@ -2748,6 +2773,7 @@
       - '+229'
     exceptions: []
   ccTld: .bj
+  ccIdn: []
   timeZones:
     - Africa/Porto-Novo
   languages: []
@@ -2789,6 +2815,7 @@
       - '+590'
     exceptions: []
   ccTld: .gp
+  ccIdn: []
   timeZones:
     - America/St_Barthelemy
   languages: []
@@ -3515,6 +3542,7 @@
       - '+1441'
     exceptions: []
   ccTld: .bm
+  ccIdn: []
   timeZones:
     - Atlantic/Bermuda
   languages: []
@@ -3887,6 +3915,7 @@
       - '+673'
     exceptions: []
   ccTld: .bn
+  ccIdn: []
   timeZones:
     - Asia/Brunei
   languages: []
@@ -6895,6 +6924,7 @@
       - '+591'
     exceptions: []
   ccTld: .bo
+  ccIdn: []
   timeZones:
     - America/La_Paz
   languages: []
@@ -6935,6 +6965,7 @@
       - '+599'
     exceptions: []
   ccTld: .bq
+  ccIdn: []
   timeZones:
     - America/Kralendijk
   languages: []
@@ -7033,6 +7064,7 @@
       - '+55'
     exceptions: []
   ccTld: .br
+  ccIdn: []
   timeZones:
     - America/Araguaina
     - America/Bahia
@@ -7093,6 +7125,7 @@
       - '+1242'
     exceptions: []
   ccTld: .bs
+  ccIdn: []
   timeZones:
     - America/Nassau
   languages: []
@@ -7723,6 +7756,7 @@
       - '+975'
     exceptions: []
   ccTld: .bt
+  ccIdn: []
   timeZones:
     - Asia/Thimphu
     - Asia/Thimbu
@@ -7762,6 +7796,7 @@
     main: []
     exceptions: []
   ccTld: .bv
+  ccIdn: []
   timeZones:
     - Etc/UTC
   languages: []
@@ -7804,6 +7839,7 @@
       - '+267'
     exceptions: []
   ccTld: .bw
+  ccIdn: []
   timeZones:
     - Africa/Gaborone
   languages: []
@@ -7857,6 +7893,7 @@
       - '+375'
     exceptions: []
   ccTld: .by
+  ccIdn: []
   timeZones:
     - Europe/Minsk
   languages: []
@@ -8789,6 +8826,7 @@
       - '+501'
     exceptions: []
   ccTld: .bz
+  ccIdn: []
   timeZones:
     - America/Belize
   languages: []
@@ -8841,6 +8879,7 @@
       - '+1'
     exceptions: []
   ccTld: .ca
+  ccIdn: []
   timeZones:
     - America/Atikokan
     - America/Blanc-Sablon
@@ -8984,6 +9023,7 @@
       - '+61891'
     exceptions: []
   ccTld: .cc
+  ccIdn: []
   timeZones:
     - Indian/Cocos
   languages: []
@@ -9024,6 +9064,7 @@
       - '+243'
     exceptions: []
   ccTld: .cd
+  ccIdn: []
   timeZones:
     - Africa/Kinshasa
     - Africa/Lubumbashi
@@ -9077,6 +9118,7 @@
       - '+236'
     exceptions: []
   ccTld: .cf
+  ccIdn: []
   timeZones:
     - Africa/Bangui
   languages: []
@@ -9118,6 +9160,7 @@
       - '+242'
     exceptions: []
   ccTld: .cg
+  ccIdn: []
   timeZones:
     - Africa/Brazzaville
   languages: []
@@ -9164,6 +9207,7 @@
       - '+41'
     exceptions: []
   ccTld: .ch
+  ccIdn: []
   timeZones:
     - Europe/Zurich
   languages: []
@@ -9217,6 +9261,7 @@
       - '+225'
     exceptions: []
   ccTld: .ci
+  ccIdn: []
   timeZones:
     - Africa/Abidjan
   languages: []
@@ -9281,6 +9326,7 @@
       - '+682'
     exceptions: []
   ccTld: .ck
+  ccIdn: []
   timeZones:
     - Pacific/Rarotonga
   languages: []
@@ -9327,6 +9373,7 @@
       - '+56'
     exceptions: []
   ccTld: .cl
+  ccIdn: []
   timeZones:
     - America/Punta_Arenas
     - America/Santiago
@@ -9379,6 +9426,7 @@
       - '+237'
     exceptions: []
   ccTld: .cm
+  ccIdn: []
   timeZones:
     - Africa/Douala
   languages: []
@@ -9450,6 +9498,7 @@
       - '+86'
     exceptions: []
   ccTld: .cn
+  ccIdn: []
   timeZones:
     - Asia/Shanghai
     - Asia/Urumqi
@@ -9498,6 +9547,7 @@
       - '+57'
     exceptions: []
   ccTld: .co
+  ccIdn: []
   timeZones:
     - America/Bogota
   languages: []
@@ -10568,6 +10618,7 @@
       - '+506'
     exceptions: []
   ccTld: .cr
+  ccIdn: []
   timeZones:
     - America/Costa_Rica
   languages: []
@@ -10608,6 +10659,7 @@
       - '+53'
     exceptions: []
   ccTld: .cu
+  ccIdn: []
   timeZones:
     - America/Havana
   languages: []
@@ -10656,6 +10708,7 @@
       - '+238'
     exceptions: []
   ccTld: .cv
+  ccIdn: []
   timeZones:
     - Atlantic/Cape_Verde
   languages: []
@@ -10701,6 +10754,7 @@
       - '+5999'
     exceptions: []
   ccTld: .cw
+  ccIdn: []
   timeZones:
     - America/Curacao
   languages: []
@@ -10787,6 +10841,7 @@
       - '+61891'
     exceptions: []
   ccTld: .cx
+  ccIdn: []
   timeZones:
     - Indian/Christmas
   languages: []
@@ -10961,6 +11016,7 @@
       - '+357'
     exceptions: []
   ccTld: .cy
+  ccIdn: []
   timeZones:
     - Asia/Famagusta
     - Asia/Nicosia
@@ -11005,6 +11061,7 @@
       - '+420'
     exceptions: []
   ccTld: .cz
+  ccIdn: []
   timeZones:
     - Europe/Prague
   languages: []
@@ -11041,6 +11098,7 @@
       - '+49'
     exceptions: []
   ccTld: .de
+  ccIdn: []
   timeZones:
     - Europe/Berlin
     - Europe/Busingen
@@ -11094,6 +11152,7 @@
       - '+253'
     exceptions: []
   ccTld: .dj
+  ccIdn: []
   timeZones:
     - Africa/Djibouti
   languages: []
@@ -11135,6 +11194,7 @@
       - '+45'
     exceptions: []
   ccTld: .dk
+  ccIdn: []
   timeZones:
     - Europe/Copenhagen
   languages: []
@@ -11337,6 +11397,7 @@
       - '+1767'
     exceptions: []
   ccTld: .dm
+  ccIdn: []
   timeZones:
     - America/Dominica
   languages: []
@@ -13002,6 +13063,7 @@
       - '+1'
     exceptions: []
   ccTld: .do
+  ccIdn: []
   timeZones:
     - America/Santo_Domingo
   languages: []
@@ -13043,6 +13105,7 @@
       - '+213'
     exceptions: []
   ccTld: .dz
+  ccIdn: []
   timeZones:
     - Africa/Algiers
   languages: []
@@ -15794,6 +15857,7 @@
       - '+593'
     exceptions: []
   ccTld: .ec
+  ccIdn: []
   timeZones:
     - America/Guayaquil
     - Pacific/Galapagos
@@ -15833,6 +15897,7 @@
       - '+372'
     exceptions: []
   ccTld: .ee
+  ccIdn: []
   timeZones:
     - Europe/Tallinn
   languages: []
@@ -16084,6 +16149,7 @@
       - '+20'
     exceptions: []
   ccTld: .eg
+  ccIdn: []
   timeZones:
     - Africa/Cairo
   languages: []
@@ -16129,6 +16195,7 @@
       - '+212'
     exceptions: []
   ccTld: .eh
+  ccIdn: []
   timeZones:
     - Africa/El_Aaiun
   languages: []
@@ -16238,6 +16305,7 @@
       - '+291'
     exceptions: []
   ccTld: .er
+  ccIdn: []
   timeZones:
     - Africa/Asmara
     - Africa/Asmera
@@ -18080,6 +18148,7 @@
       - '+34'
     exceptions: []
   ccTld: .es
+  ccIdn: []
   timeZones:
     - Africa/Ceuta
     - Atlantic/Canary
@@ -18137,6 +18206,7 @@
       - '+251'
     exceptions: []
   ccTld: .et
+  ccIdn: []
   timeZones:
     - Africa/Addis_Ababa
   languages: []
@@ -18182,6 +18252,7 @@
       - '+358'
     exceptions: []
   ccTld: .fi
+  ccIdn: []
   timeZones:
     - Europe/Helsinki
   languages: []
@@ -18847,6 +18918,7 @@
       - '+679'
     exceptions: []
   ccTld: .fj
+  ccIdn: []
   timeZones:
     - Pacific/Fiji
   languages: []
@@ -19403,6 +19475,7 @@
       - '+500'
     exceptions: []
   ccTld: .fk
+  ccIdn: []
   timeZones:
     - Atlantic/Stanley
   languages: []
@@ -19447,6 +19520,7 @@
       - '+691'
     exceptions: []
   ccTld: .fm
+  ccIdn: []
   timeZones:
     - Pacific/Chuuk
     - Pacific/Kosrae
@@ -19490,6 +19564,7 @@
       - '+298'
     exceptions: []
   ccTld: .fo
+  ccIdn: []
   timeZones:
     - Atlantic/Faroe
     - Atlantic/Faeroe
@@ -19530,6 +19605,7 @@
       - '+33'
     exceptions: []
   ccTld: .fr
+  ccIdn: []
   timeZones:
     - Europe/Paris
   languages: []
@@ -19575,6 +19651,7 @@
       - '+241'
     exceptions: []
   ccTld: .ga
+  ccIdn: []
   timeZones:
     - Africa/Libreville
   languages: []
@@ -19620,6 +19697,7 @@
       - '+44'
     exceptions: []
   ccTld: .uk
+  ccIdn: []
   timeZones:
     - Europe/London
     - Europe/Belfast
@@ -19689,6 +19767,7 @@
       - '+1473'
     exceptions: []
   ccTld: .gd
+  ccIdn: []
   timeZones:
     - America/Grenada
   languages: []
@@ -19735,6 +19814,7 @@
       - '+995'
     exceptions: []
   ccTld: .ge
+  ccIdn: []
   timeZones:
     - Asia/Tbilisi
   languages: []
@@ -19776,6 +19856,7 @@
       - '+594'
     exceptions: []
   ccTld: .gf
+  ccIdn: []
   timeZones:
     - America/Cayenne
   languages: []
@@ -19818,6 +19899,7 @@
       - '+441481'
     exceptions: []
   ccTld: .gg
+  ccIdn: []
   timeZones:
     - Europe/Guernsey
   languages: []
@@ -19859,6 +19941,7 @@
       - '+233'
     exceptions: []
   ccTld: .gh
+  ccIdn: []
   timeZones:
     - Africa/Accra
   languages: []
@@ -19963,6 +20046,7 @@
       - '+350'
     exceptions: []
   ccTld: .gi
+  ccIdn: []
   timeZones:
     - Europe/Gibraltar
   languages: []
@@ -20000,6 +20084,7 @@
       - '+299'
     exceptions: []
   ccTld: .gl
+  ccIdn: []
   timeZones:
     - America/Danmarkshavn
     - America/Scoresbysund
@@ -20044,6 +20129,7 @@
       - '+220'
     exceptions: []
   ccTld: .gm
+  ccIdn: []
   timeZones:
     - Africa/Banjul
   languages: []
@@ -20081,6 +20167,7 @@
       - '+224'
     exceptions: []
   ccTld: .gn
+  ccIdn: []
   timeZones:
     - Africa/Conakry
   languages: []
@@ -20121,6 +20208,7 @@
       - '+590'
     exceptions: []
   ccTld: .gp
+  ccIdn: []
   timeZones:
     - America/Guadeloupe
   languages: []
@@ -20240,6 +20328,7 @@
       - '+240'
     exceptions: []
   ccTld: .gq
+  ccIdn: []
   timeZones:
     - Africa/Malabo
   languages: []
@@ -20282,6 +20371,7 @@
       - '+30'
     exceptions: []
   ccTld: .gr
+  ccIdn: []
   timeZones:
     - Europe/Athens
   languages: []
@@ -20701,6 +20791,7 @@
       - '+500'
     exceptions: []
   ccTld: .gs
+  ccIdn: []
   timeZones:
     - Atlantic/South_Georgia
   languages: []
@@ -21391,6 +21482,7 @@
       - '+502'
     exceptions: []
   ccTld: .gt
+  ccIdn: []
   timeZones:
     - America/Guatemala
   languages: []
@@ -21517,6 +21609,7 @@
       - '+1671'
     exceptions: []
   ccTld: .gu
+  ccIdn: []
   timeZones:
     - Pacific/Guam
   languages: []
@@ -21560,6 +21653,7 @@
       - '+245'
     exceptions: []
   ccTld: .gw
+  ccIdn: []
   timeZones:
     - Africa/Bissau
   languages: []
@@ -21601,6 +21695,7 @@
       - '+592'
     exceptions: []
   ccTld: .gy
+  ccIdn: []
   timeZones:
     - America/Guyana
   languages: []
@@ -21648,6 +21743,7 @@
       - '+852'
     exceptions: []
   ccTld: .hk
+  ccIdn: []
   timeZones:
     - Asia/Hong_Kong
   languages: []
@@ -21718,6 +21814,7 @@
       - '+6724'
     exceptions: []
   ccTld: .hm
+  ccIdn: []
   timeZones:
     - Etc/GMT-5
   languages: []
@@ -21768,6 +21865,7 @@
       - '+504'
     exceptions: []
   ccTld: .hn
+  ccIdn: []
   timeZones:
     - America/Tegucigalpa
   languages: []
@@ -22923,6 +23021,7 @@
       - '+385'
     exceptions: []
   ccTld: .hr
+  ccIdn: []
   timeZones:
     - Europe/Zagreb
   languages: []
@@ -22961,6 +23060,7 @@
       - '+509'
     exceptions: []
   ccTld: .ht
+  ccIdn: []
   timeZones:
     - America/Port-au-Prince
   languages: []
@@ -22997,6 +23097,7 @@
       - '+36'
     exceptions: []
   ccTld: .hu
+  ccIdn: []
   timeZones:
     - Europe/Budapest
   languages: []
@@ -23033,6 +23134,7 @@
       - '+62'
     exceptions: []
   ccTld: .id
+  ccIdn: []
   timeZones:
     - Asia/Jakarta
     - Asia/Jayapura
@@ -23079,6 +23181,7 @@
       - '+353'
     exceptions: []
   ccTld: .ie
+  ccIdn: []
   timeZones:
     - Europe/Dublin
   languages: []
@@ -23122,6 +23225,7 @@
       - '+972'
     exceptions: []
   ccTld: .il
+  ccIdn: []
   timeZones:
     - Asia/Jerusalem
     - Asia/Tel_Aviv
@@ -23403,6 +23507,7 @@
       - '+441624'
     exceptions: []
   ccTld: .im
+  ccIdn: []
   timeZones:
     - Europe/Isle_of_Man
   languages: []
@@ -23454,6 +23559,7 @@
       - '+91'
     exceptions: []
   ccTld: .in
+  ccIdn: []
   timeZones:
     - Asia/Kolkata
     - Asia/Calcutta
@@ -23846,6 +23952,7 @@
       - '+246'
     exceptions: []
   ccTld: .io
+  ccIdn: []
   timeZones:
     - Indian/Chagos
   languages: []
@@ -23923,6 +24030,7 @@
       - '+964'
     exceptions: []
   ccTld: .iq
+  ccIdn: []
   timeZones:
     - Asia/Baghdad
   languages: []
@@ -23983,6 +24091,7 @@
       - '+98'
     exceptions: []
   ccTld: .ir
+  ccIdn: []
   timeZones:
     - Asia/Tehran
   languages: []
@@ -24023,6 +24132,7 @@
       - '+354'
     exceptions: []
   ccTld: .is
+  ccIdn: []
   timeZones:
     - Atlantic/Reykjavik
   languages: []
@@ -24059,6 +24169,7 @@
       - '+39'
     exceptions: []
   ccTld: .it
+  ccIdn: []
   timeZones:
     - Europe/Rome
   languages: []
@@ -24176,6 +24287,7 @@
       - '+441534'
     exceptions: []
   ccTld: .je
+  ccIdn: []
   timeZones:
     - Europe/Jersey
   languages: []
@@ -24214,6 +24326,7 @@
       - '+1658'
     exceptions: []
   ccTld: .jm
+  ccIdn: []
   timeZones:
     - America/Jamaica
   languages: []
@@ -24259,6 +24372,7 @@
       - '+962'
     exceptions: []
   ccTld: .jo
+  ccIdn: []
   timeZones:
     - Asia/Amman
   languages: []
@@ -24294,6 +24408,7 @@
       - '+81'
     exceptions: []
   ccTld: .jp
+  ccIdn: []
   timeZones:
     - Asia/Tokyo
   languages: []
@@ -24346,6 +24461,7 @@
       - '+254'
     exceptions: []
   ccTld: .ke
+  ccIdn: []
   timeZones:
     - Africa/Nairobi
   languages: []
@@ -24428,6 +24544,7 @@
       - '+996'
     exceptions: []
   ccTld: .kg
+  ccIdn: []
   timeZones:
     - Asia/Bishkek
   languages: []
@@ -24629,6 +24746,7 @@
       - '+855'
     exceptions: []
   ccTld: .kh
+  ccIdn: []
   timeZones:
     - Asia/Phnom_Penh
   languages: []
@@ -24709,6 +24827,7 @@
       - '+686'
     exceptions: []
   ccTld: .ki
+  ccIdn: []
   timeZones:
     - Pacific/Kiritimati
     - Pacific/Tarawa
@@ -24721,7 +24840,7 @@
     geoNamesOrg: 4030945
 - officialName:
     fr: Union des Comores
-    zd: Udzima wa Komori
+    swb: Udzima wa Komori
     ar: الاتحاد ﺍﻟﻘﻤﺮي
   alpha2: KM
   alpha3: COM
@@ -24763,6 +24882,7 @@
       - '+269'
     exceptions: []
   ccTld: .km
+  ccIdn: []
   timeZones:
     - Indian/Comoro
   languages: []
@@ -24811,6 +24931,7 @@
       - '+1869'
     exceptions: []
   ccTld: .kn
+  ccIdn: []
   timeZones:
     - America/St_Kitts
   languages: []
@@ -24859,6 +24980,7 @@
       - '+850'
     exceptions: []
   ccTld: .kp
+  ccIdn: []
   timeZones:
     - Asia/Pyongyang
   languages: []
@@ -24902,6 +25024,7 @@
       - '+82'
     exceptions: []
   ccTld: .kr
+  ccIdn: []
   timeZones:
     - Asia/Seoul
   languages: []
@@ -24939,6 +25062,7 @@
       - '+965'
     exceptions: []
   ccTld: .kw
+  ccIdn: []
   timeZones:
     - Asia/Kuwait
   languages: []
@@ -25529,6 +25653,7 @@
       - '+1345'
     exceptions: []
   ccTld: .ky
+  ccIdn: []
   timeZones:
     - America/Cayman
   languages: []
@@ -25712,6 +25837,7 @@
       - '+997'
     exceptions: []
   ccTld: .kz
+  ccIdn: []
   timeZones:
     - Asia/Almaty
     - Asia/Aqtau
@@ -25758,6 +25884,7 @@
       - '+856'
     exceptions: []
   ccTld: .la
+  ccIdn: []
   timeZones:
     - Asia/Vientiane
   languages: []
@@ -25878,6 +26005,7 @@
       - '+961'
     exceptions: []
   ccTld: .lb
+  ccIdn: []
   timeZones:
     - Asia/Beirut
   languages: []
@@ -25915,6 +26043,7 @@
       - '+1758'
     exceptions: []
   ccTld: .lc
+  ccIdn: []
   timeZones:
     - America/St_Lucia
   languages: []
@@ -26143,6 +26272,7 @@
       - '+423'
     exceptions: []
   ccTld: .li
+  ccIdn: []
   timeZones:
     - Europe/Vaduz
   languages: []
@@ -26466,6 +26596,7 @@
       - '+94'
     exceptions: []
   ccTld: .lk
+  ccIdn: []
   timeZones:
     - Asia/Colombo
   languages: []
@@ -26516,6 +26647,7 @@
       - '+231'
     exceptions: []
   ccTld: .lr
+  ccIdn: []
   timeZones:
     - Africa/Monrovia
   languages: []
@@ -26580,6 +26712,7 @@
       - '+266'
     exceptions: []
   ccTld: .ls
+  ccIdn: []
   timeZones:
     - Africa/Maseru
   languages: []
@@ -26617,6 +26750,7 @@
       - '+370'
     exceptions: []
   ccTld: .lt
+  ccIdn: []
   timeZones:
     - Europe/Vilnius
   languages: []
@@ -26659,6 +26793,7 @@
       - '+352'
     exceptions: []
   ccTld: .lu
+  ccIdn: []
   timeZones:
     - Europe/Luxembourg
   languages: []
@@ -26700,6 +26835,7 @@
       - '+371'
     exceptions: []
   ccTld: .lv
+  ccIdn: []
   timeZones:
     - Europe/Riga
   languages: []
@@ -26743,6 +26879,7 @@
       - '+218'
     exceptions: []
   ccTld: .ly
+  ccIdn: []
   timeZones:
     - Africa/Tripoli
   languages: []
@@ -26783,6 +26920,7 @@
       - '+212'
     exceptions: []
   ccTld: .ma
+  ccIdn: []
   timeZones:
     - Africa/Casablanca
   languages: []
@@ -26832,6 +26970,7 @@
       - '+377'
     exceptions: []
   ccTld: .mc
+  ccIdn: []
   timeZones:
     - Europe/Monaco
   languages: []
@@ -27275,6 +27414,7 @@
       - '+373'
     exceptions: []
   ccTld: .md
+  ccIdn: []
   timeZones:
     - Europe/Chisinau
     - Europe/Tiraspol
@@ -28172,6 +28312,7 @@
       - '+382'
     exceptions: []
   ccTld: .me
+  ccIdn: []
   timeZones:
     - Europe/Podgorica
   languages: []
@@ -28213,6 +28354,7 @@
       - '+590'
     exceptions: []
   ccTld: .gp
+  ccIdn: []
   timeZones:
     - America/Marigot
   languages: []
@@ -28253,6 +28395,7 @@
       - '+261'
     exceptions: []
   ccTld: .mg
+  ccIdn: []
   timeZones:
     - Indian/Antananarivo
   languages: []
@@ -28304,6 +28447,7 @@
       - '+692'
     exceptions: []
   ccTld: .mh
+  ccIdn: []
   timeZones:
     - Pacific/Kwajalein
     - Pacific/Majuro
@@ -28345,6 +28489,7 @@
       - '+389'
     exceptions: []
   ccTld: .mk
+  ccIdn: []
   timeZones:
     - Europe/Skopje
   languages: []
@@ -28386,6 +28531,7 @@
       - '+223'
     exceptions: []
   ccTld: .ml
+  ccIdn: []
   timeZones:
     - Africa/Bamako
     - Africa/Timbuktu
@@ -28435,6 +28581,7 @@
       - '+95'
     exceptions: []
   ccTld: .mm
+  ccIdn: []
   timeZones:
     - Asia/Yangon
     - Asia/Rangoon
@@ -28501,6 +28648,7 @@
       - '+976'
     exceptions: []
   ccTld: .mn
+  ccIdn: []
   timeZones:
     - Asia/Choibalsan
     - Asia/Hovd
@@ -28513,7 +28661,7 @@
   otherAppsIds:
     geoNamesOrg: 2029969
 - officialName:
-    cmn: 中华人民共和国澳门特别行政区
+    zh: 中华人民共和国澳门特别行政区
     yue: 中華人民共和國澳門特別行政區
     pt: Região Administrativa Especial de Macau da República Popular da China
   alpha2: MO
@@ -28569,6 +28717,7 @@
       - '+853'
     exceptions: []
   ccTld: .mo
+  ccIdn: []
   timeZones:
     - Asia/Macau
     - Asia/Macao
@@ -29041,6 +29190,7 @@
       - '+1670'
     exceptions: []
   ccTld: .mp
+  ccIdn: []
   timeZones:
     - Pacific/Saipan
   languages: []
@@ -29094,6 +29244,7 @@
       - '+596'
     exceptions: []
   ccTld: .mq
+  ccIdn: []
   timeZones:
     - America/Martinique
   languages: []
@@ -29137,6 +29288,7 @@
       - '+222'
     exceptions: []
   ccTld: .mr
+  ccIdn: []
   timeZones:
     - Africa/Nouakchott
   languages: []
@@ -29327,6 +29479,7 @@
       - '+1664'
     exceptions: []
   ccTld: .ms
+  ccIdn: []
   timeZones:
     - America/Montserrat
   languages: []
@@ -29553,6 +29706,7 @@
       - '+356'
     exceptions: []
   ccTld: .mt
+  ccIdn: []
   timeZones:
     - Europe/Malta
   languages: []
@@ -29594,6 +29748,7 @@
       - '+230'
     exceptions: []
   ccTld: .mu
+  ccIdn: []
   timeZones:
     - Indian/Mauritius
   languages: []
@@ -29635,6 +29790,7 @@
       - '+960'
     exceptions: []
   ccTld: .mv
+  ccIdn: []
   timeZones:
     - Indian/Maldives
   languages: []
@@ -29682,6 +29838,7 @@
       - '+265'
     exceptions: []
   ccTld: .mw
+  ccIdn: []
   timeZones:
     - Africa/Blantyre
   languages: []
@@ -31659,6 +31816,7 @@
       - '+52'
     exceptions: []
   ccTld: .mx
+  ccIdn: []
   timeZones:
     - America/Bahia_Banderas
     - America/Cancun
@@ -31733,6 +31891,7 @@
       - '+60'
     exceptions: []
   ccTld: .my
+  ccIdn: []
   timeZones:
     - Asia/Kuala_Lumpur
     - Asia/Kuching
@@ -31824,6 +31983,7 @@
       - '+258'
     exceptions: []
   ccTld: .mz
+  ccIdn: []
   timeZones:
     - Africa/Maputo
   languages: []
@@ -31873,6 +32033,7 @@
       - '+264'
     exceptions: []
   ccTld: .na
+  ccIdn: []
   timeZones:
     - Africa/Windhoek
   languages: []
@@ -31938,6 +32099,7 @@
       - '+687'
     exceptions: []
   ccTld: .nc
+  ccIdn: []
   timeZones:
     - Pacific/Noumea
   languages: []
@@ -31977,6 +32139,7 @@
       - '+227'
     exceptions: []
   ccTld: .ne
+  ccIdn: []
   timeZones:
     - Africa/Niamey
   languages: []
@@ -32255,6 +32418,7 @@
       - '+6723'
     exceptions: []
   ccTld: .nf
+  ccIdn: []
   timeZones:
     - Pacific/Norfolk
   languages: []
@@ -32291,6 +32455,7 @@
       - '+234'
     exceptions: []
   ccTld: .ng
+  ccIdn: []
   timeZones:
     - Africa/Lagos
   languages: []
@@ -32711,6 +32876,7 @@
       - '+505'
     exceptions: []
   ccTld: .ni
+  ccIdn: []
   timeZones:
     - America/Managua
   languages: []
@@ -32752,6 +32918,7 @@
       - '+31'
     exceptions: []
   ccTld: .nl
+  ccIdn: []
   timeZones:
     - Europe/Amsterdam
   languages: []
@@ -32799,6 +32966,7 @@
       - '+47'
     exceptions: []
   ccTld: .no
+  ccIdn: []
   timeZones:
     - Europe/Oslo
   languages: []
@@ -32855,6 +33023,7 @@
       - '+977'
     exceptions: []
   ccTld: .np
+  ccIdn: []
   timeZones:
     - Asia/Kathmandu
     - Asia/Katmandu
@@ -32899,6 +33068,7 @@
       - '+674'
     exceptions: []
   ccTld: .nr
+  ccIdn: []
   timeZones:
     - Pacific/Nauru
   languages: []
@@ -32952,6 +33122,7 @@
       - '+683'
     exceptions: []
   ccTld: .nu
+  ccIdn: []
   timeZones:
     - Pacific/Niue
   languages: []
@@ -33021,6 +33192,7 @@
       - '+64'
     exceptions: []
   ccTld: .nz
+  ccIdn: []
   timeZones:
     - Pacific/Auckland
     - Pacific/Chatham
@@ -33320,6 +33492,7 @@
       - '+968'
     exceptions: []
   ccTld: .om
+  ccIdn: []
   timeZones:
     - Asia/Muscat
   languages: []
@@ -33367,6 +33540,7 @@
       - '+507'
     exceptions: []
   ccTld: .pa
+  ccIdn: []
   timeZones:
     - America/Panama
   languages: []
@@ -35067,6 +35241,7 @@
       - '+51'
     exceptions: []
   ccTld: .pe
+  ccIdn: []
   timeZones:
     - America/Lima
   languages: []
@@ -35196,6 +35371,7 @@
       - '+689'
     exceptions: []
   ccTld: .pf
+  ccIdn: []
   timeZones:
     - Pacific/Gambier
     - Pacific/Marquesas
@@ -35275,6 +35451,7 @@
       - '+675'
     exceptions: []
   ccTld: .pg
+  ccIdn: []
   timeZones:
     - Pacific/Bougainville
     - Pacific/Port_Moresby
@@ -35320,7 +35497,7 @@
   dependency: null
   mottos:
     official:
-      tl: Maka-Diyos, Maka-tao, Makakalikasan at Makabansa
+      fil: Maka-Diyos, Maka-tao, Makakalikasan at Makabansa
       en: For God, People, Nature and Country
     popular: {}
     royal: {}
@@ -35334,6 +35511,7 @@
       - '+63'
     exceptions: []
   ccTld: .ph
+  ccIdn: []
   timeZones:
     - Asia/Manila
   languages: []
@@ -35379,6 +35557,7 @@
       - '+92'
     exceptions: []
   ccTld: .pk
+  ccIdn: []
   timeZones:
     - Asia/Karachi
   languages: []
@@ -35422,6 +35601,7 @@
       - '+48'
     exceptions: []
   ccTld: .pl
+  ccIdn: []
   timeZones:
     - Europe/Warsaw
   languages: []
@@ -35461,6 +35641,7 @@
       - '+508'
     exceptions: []
   ccTld: .pm
+  ccIdn: []
   timeZones:
     - America/Miquelon
   languages: []
@@ -35744,6 +35925,7 @@
       - '+64'
     exceptions: []
   ccTld: .pn
+  ccIdn: []
   timeZones:
     - Pacific/Pitcairn
   languages: []
@@ -35790,6 +35972,7 @@
       - '+1939'
     exceptions: []
   ccTld: .pr
+  ccIdn: []
   timeZones:
     - America/Puerto_Rico
   languages: []
@@ -35828,6 +36011,7 @@
       - '+970'
     exceptions: []
   ccTld: .ps
+  ccIdn: []
   timeZones:
     - Asia/Gaza
     - Asia/Hebron
@@ -36026,6 +36210,7 @@
       - '+351'
     exceptions: []
   ccTld: .pt
+  ccIdn: []
   timeZones:
     - Atlantic/Azores
     - Atlantic/Madeira
@@ -36065,6 +36250,7 @@
       - '+680'
     exceptions: []
   ccTld: .pw
+  ccIdn: []
   timeZones:
     - Pacific/Palau
   languages: []
@@ -36584,6 +36770,7 @@
       - '+595'
     exceptions: []
   ccTld: .py
+  ccIdn: []
   timeZones:
     - America/Asuncion
   languages: []
@@ -36620,6 +36807,7 @@
       - '+974'
     exceptions: []
   ccTld: .qa
+  ccIdn: []
   timeZones:
     - Asia/Qatar
   languages: []
@@ -36659,6 +36847,7 @@
       - '+262'
     exceptions: []
   ccTld: .re
+  ccIdn: []
   timeZones:
     - Indian/Reunion
   languages: []
@@ -36695,6 +36884,7 @@
       - '+40'
     exceptions: []
   ccTld: .ro
+  ccIdn: []
   timeZones:
     - Europe/Bucharest
   languages: []
@@ -38890,6 +39080,7 @@
       - '+381'
     exceptions: []
   ccTld: .rs
+  ccIdn: []
   timeZones:
     - Europe/Belgrade
   languages: []
@@ -38929,6 +39120,7 @@
       - '+7'
     exceptions: []
   ccTld: .ru
+  ccIdn: []
   timeZones:
     - Asia/Anadyr
     - Asia/Barnaul
@@ -39015,6 +39207,7 @@
       - '+250'
     exceptions: []
   ccTld: .rw
+  ccIdn: []
   timeZones:
     - Africa/Kigali
   languages: []
@@ -39329,6 +39522,7 @@
       - '+966'
     exceptions: []
   ccTld: .sa
+  ccIdn: []
   timeZones:
     - Asia/Riyadh
   languages: []
@@ -39379,6 +39573,7 @@
       - '+677'
     exceptions: []
   ccTld: .sb
+  ccIdn: []
   timeZones:
     - Pacific/Guadalcanal
   languages: []
@@ -39420,6 +39615,7 @@
       - '+248'
     exceptions: []
   ccTld: .sc
+  ccIdn: []
   timeZones:
     - Indian/Mahe
   languages: []
@@ -39462,6 +39658,7 @@
       - '+249'
     exceptions: []
   ccTld: .sd
+  ccIdn: []
   timeZones:
     - Africa/Khartoum
   languages: []
@@ -39504,6 +39701,7 @@
       - '+46'
     exceptions: []
   ccTld: .se
+  ccIdn: []
   timeZones:
     - Europe/Stockholm
   languages: []
@@ -39557,6 +39755,7 @@
       - '+65'
     exceptions: []
   ccTld: .sg
+  ccIdn: []
   timeZones:
     - Asia/Singapore
   languages: []
@@ -40624,6 +40823,7 @@
       - '+290'
     exceptions: []
   ccTld: .sh
+  ccIdn: []
   timeZones:
     - Atlantic/St_Helena
   languages: []
@@ -40682,6 +40882,7 @@
       - '+386'
     exceptions: []
   ccTld: .si
+  ccIdn: []
   timeZones:
     - Europe/Ljubljana
   languages: []
@@ -40724,6 +40925,7 @@
       - '+47'
     exceptions: []
   ccTld: .sj
+  ccIdn: []
   timeZones:
     - Arctic/Longyearbyen
     - Atlantic/Jan_Mayen
@@ -40779,6 +40981,7 @@
       - '+421'
     exceptions: []
   ccTld: .sk
+  ccIdn: []
   timeZones:
     - Europe/Bratislava
   languages: []
@@ -40820,6 +41023,7 @@
       - '+232'
     exceptions: []
   ccTld: .sl
+  ccIdn: []
   timeZones:
     - Africa/Freetown
   languages: []
@@ -42023,6 +42227,7 @@
       - '+378'
     exceptions: []
   ccTld: .sm
+  ccIdn: []
   timeZones:
     - Europe/San_Marino
   languages: []
@@ -42070,6 +42275,7 @@
       - '+221'
     exceptions: []
   ccTld: .sn
+  ccIdn: []
   timeZones:
     - Africa/Dakar
   languages: []
@@ -42118,6 +42324,7 @@
       - '+252'
     exceptions: []
   ccTld: .so
+  ccIdn: []
   timeZones:
     - Africa/Mogadishu
   languages: []
@@ -42158,6 +42365,7 @@
       - '+597'
     exceptions: []
   ccTld: .sr
+  ccIdn: []
   timeZones:
     - America/Paramaribo
   languages: []
@@ -42199,6 +42407,7 @@
       - '+211'
     exceptions: []
   ccTld: null
+  ccIdn: []
   timeZones:
     - Africa/Juba
   languages: []
@@ -42249,6 +42458,7 @@
       - '+239'
     exceptions: []
   ccTld: .st
+  ccIdn: []
   timeZones:
     - Africa/Sao_Tome
   languages: []
@@ -43863,6 +44073,7 @@
       - '+503'
     exceptions: []
   ccTld: .sv
+  ccIdn: []
   timeZones:
     - America/El_Salvador
   languages: []
@@ -44193,6 +44404,7 @@
       - '+1721'
     exceptions: []
   ccTld: .sx
+  ccIdn: []
   timeZones:
     - America/Lower_Princes
   languages: []
@@ -44240,6 +44452,7 @@
       - '+963'
     exceptions: []
   ccTld: .sy
+  ccIdn: []
   timeZones:
     - Asia/Damascus
   languages: []
@@ -44368,6 +44581,7 @@
       - '+268'
     exceptions: []
   ccTld: .sz
+  ccIdn: []
   timeZones:
     - Africa/Mbabane
   languages: []
@@ -44660,6 +44874,7 @@
       - '+1649'
     exceptions: []
   ccTld: .tc
+  ccIdn: []
   timeZones:
     - America/Grand_Turk
   languages: []
@@ -44701,6 +44916,7 @@
       - '+235'
     exceptions: []
   ccTld: .td
+  ccIdn: []
   timeZones:
     - Africa/Ndjamena
   languages: []
@@ -44749,6 +44965,7 @@
       - '+262'
     exceptions: []
   ccTld: .tf
+  ccIdn: []
   timeZones:
     - Indian/Kerguelen
   languages: []
@@ -44802,6 +45019,7 @@
       - '+228'
     exceptions: []
   ccTld: .tg
+  ccIdn: []
   timeZones:
     - Africa/Lome
   languages: []
@@ -44842,6 +45060,7 @@
       - '+66'
     exceptions: []
   ccTld: .th
+  ccIdn: []
   timeZones:
     - Asia/Bangkok
   languages: []
@@ -44905,6 +45124,7 @@
       - '+992'
     exceptions: []
   ccTld: .tj
+  ccIdn: []
   timeZones:
     - Asia/Dushanbe
   languages: []
@@ -44956,6 +45176,7 @@
       - '+690'
     exceptions: []
   ccTld: .tk
+  ccIdn: []
   timeZones:
     - Pacific/Fakaofo
   languages: []
@@ -45002,6 +45223,7 @@
       - '+670'
     exceptions: []
   ccTld: .tl
+  ccIdn: []
   timeZones:
     - Asia/Dili
   languages: []
@@ -45617,6 +45839,7 @@
       - '+993'
     exceptions: []
   ccTld: .tm
+  ccIdn: []
   timeZones:
     - Asia/Ashgabat
     - Asia/Ashkhabad
@@ -45656,6 +45879,7 @@
       - '+216'
     exceptions: []
   ccTld: .tn
+  ccIdn: []
   timeZones:
     - Africa/Tunis
   languages: []
@@ -45699,6 +45923,7 @@
       - '+676'
     exceptions: []
   ccTld: .to
+  ccIdn: []
   timeZones:
     - Pacific/Tongatapu
   languages: []
@@ -45739,6 +45964,7 @@
       - '+90'
     exceptions: []
   ccTld: .tr
+  ccIdn: []
   timeZones:
     - Europe/Istanbul
     - Asia/Istanbul
@@ -45779,6 +46005,7 @@
       - '+1868'
     exceptions: []
   ccTld: .tt
+  ccIdn: []
   timeZones:
     - America/Port_of_Spain
   languages: []
@@ -45843,6 +46070,7 @@
       - '+688'
     exceptions: []
   ccTld: .tv
+  ccIdn: []
   timeZones:
     - Pacific/Funafuti
   languages: []
@@ -45884,6 +46112,7 @@
       - '+886'
     exceptions: []
   ccTld: .tw
+  ccIdn: []
   timeZones:
     - Asia/Taipei
   languages: []
@@ -45922,6 +46151,7 @@
       - '+255'
     exceptions: []
   ccTld: .tz
+  ccIdn: []
   timeZones:
     - Africa/Dar_es_Salaam
   languages: []
@@ -45982,6 +46212,7 @@
       - '+380'
     exceptions: []
   ccTld: .ua
+  ccIdn: []
   timeZones:
     - Europe/Kiev
     - Europe/Uzhgorod
@@ -46084,6 +46315,7 @@
       - '+256'
     exceptions: []
   ccTld: .ug
+  ccIdn: []
   timeZones:
     - Africa/Kampala
   languages: []
@@ -46149,6 +46381,7 @@
       - '+1'
     exceptions: []
   ccTld: .um
+  ccIdn: []
   timeZones:
     - Pacific/Midway
     - Pacific/Wake
@@ -46204,6 +46437,7 @@
       - '+1'
     exceptions: []
   ccTld: .us
+  ccIdn: []
   timeZones:
     - America/Adak
     - America/Anchorage
@@ -46315,6 +46549,7 @@
       - '+598'
     exceptions: []
   ccTld: .uy
+  ccIdn: []
   timeZones:
     - America/Montevideo
   languages: []
@@ -46372,6 +46607,7 @@
       - '+998'
     exceptions: []
   ccTld: .uz
+  ccIdn: []
   timeZones:
     - Asia/Samarkand
     - Asia/Tashkent
@@ -46959,6 +47195,7 @@
       - '+3906698'
     exceptions: []
   ccTld: .va
+  ccIdn: []
   timeZones:
     - Europe/Vatican
   languages: []
@@ -46999,6 +47236,7 @@
       - '+1784'
     exceptions: []
   ccTld: .vc
+  ccIdn: []
   timeZones:
     - America/St_Vincent
   languages: []
@@ -47049,6 +47287,7 @@
       - '+58'
     exceptions: []
   ccTld: .ve
+  ccIdn: []
   timeZones:
     - America/Caracas
   languages: []
@@ -47318,6 +47557,7 @@
       - '+1284'
     exceptions: []
   ccTld: .vg
+  ccIdn: []
   timeZones:
     - America/Tortola
   languages: []
@@ -47650,6 +47890,7 @@
       - '+1340'
     exceptions: []
   ccTld: .vi
+  ccIdn: []
   timeZones:
     - America/St_Thomas
   languages: []
@@ -47690,6 +47931,7 @@
       - '+84'
     exceptions: []
   ccTld: .vn
+  ccIdn: []
   timeZones:
     - Asia/Ho_Chi_Minh
     - Asia/Saigon
@@ -47769,6 +48011,7 @@
       - '+678'
     exceptions: []
   ccTld: .vu
+  ccIdn: []
   timeZones:
     - Pacific/Efate
   languages: []
@@ -47811,6 +48054,7 @@
       - '+681'
     exceptions: []
   ccTld: .wf
+  ccIdn: []
   timeZones:
     - Pacific/Wallis
   languages: []
@@ -47858,6 +48102,7 @@
       - '+685'
     exceptions: []
   ccTld: .ws
+  ccIdn: []
   timeZones:
     - Pacific/Apia
     - Pacific/Samoa
@@ -48140,6 +48385,7 @@
       - '+383'
     exceptions: []
   ccTld: null
+  ccIdn: []
   timeZones:
     - Europe/Belgrade
   languages: []
@@ -48183,6 +48429,7 @@
       - '+967'
     exceptions: []
   ccTld: .ye
+  ccIdn: []
   timeZones:
     - Asia/Aden
   languages: []
@@ -48222,6 +48469,7 @@
       - '+262'
     exceptions: []
   ccTld: .yt
+  ccIdn: []
   timeZones:
     - Indian/Mayotte
   languages: []
@@ -48283,6 +48531,7 @@
       - '+27'
     exceptions: []
   ccTld: .za
+  ccIdn: []
   timeZones:
     - Africa/Johannesburg
   languages: []
@@ -48441,6 +48690,7 @@
       - '+260'
     exceptions: []
   ccTld: .zm
+  ccIdn: []
   timeZones:
     - Africa/Lusaka
   languages: []
@@ -48532,6 +48782,7 @@
       - '+263'
     exceptions: []
   ccTld: .zw
+  ccIdn: []
   timeZones:
     - Africa/Harare
   languages: []
