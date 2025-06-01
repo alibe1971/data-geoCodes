@@ -34,12 +34,9 @@ export const countriesFunctions = {
 
             /** officialName: it must be present and it must be an object not empty */
             if(!Object.prototype.hasOwnProperty.call(item, 'officialName')) {
-                throwMex('officialName', item[mainKey], 'Required property is missing');
+                item.officialName = {};
             }
-            if(
-                !requirements(item.officialName, 'mustBeObject') ||
-                !requirements(item.officialName, 'cannotBeEmpty')
-            ) {
+            if( !requirements(item.officialName, 'mustBeObject') ) {
                 throwMex('officialName', item[mainKey], 'The property must be a not empty object');
             }
             let officialName = {};
