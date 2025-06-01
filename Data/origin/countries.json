@@ -560,10 +560,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 6697173
         },
-        "NOTES": [
-            "[officialName] The Antarctica has no official name, neither official languages",
-            "Used English as official name, because it cannot be empty"
-        ]
+        "NOTES": []
     },
     {
         "LABEL": "Argentina",
