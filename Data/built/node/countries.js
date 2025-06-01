@@ -1067,8 +1067,7 @@ export const countries = [
         languages: [],
         locales: [
             "en",
-            "en-BB",
-            "bzs"
+            "en-BB"
         ],
         otherAppsIds: {
             geoNamesOrg: 3374084

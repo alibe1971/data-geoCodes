@@ -984,13 +984,14 @@
         "languages": [],
         "locales": [
             "en",
-            "en-BB",
-            "bzs"
+            "en-BB"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3374084
         },
-        "NOTES": []
+        "NOTES": [
+            "[languages] bzs è la lingua dei segni"
+        ]
     },
     {
         "LABEL": "Bangladesh",
