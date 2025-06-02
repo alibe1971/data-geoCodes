@@ -842,7 +842,7 @@
   timeZones:
     - Europe/Andorra
   languages: []
-  locales:
+  localesIcu:
     - ca
     - ca-AD
   otherAppsIds:
@@ -881,7 +881,7 @@
   timeZones:
     - Asia/Dubai
   languages: []
-  locales:
+  localesIcu:
     - ar
     - ar-AE
   otherAppsIds:
@@ -1159,7 +1159,7 @@
   timeZones:
     - Asia/Kabul
   languages: []
-  locales:
+  localesIcu:
     - fa
     - fa-AF
     - ps
@@ -1209,7 +1209,7 @@
   timeZones:
     - America/Antigua
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-AG
   otherAppsIds:
@@ -1300,7 +1300,7 @@
   timeZones:
     - America/Anguilla
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-AI
   otherAppsIds:
@@ -1406,7 +1406,7 @@
   timeZones:
     - Europe/Tirane
   languages: []
-  locales:
+  localesIcu:
     - sq
     - sq-AL
   otherAppsIds:
@@ -1446,7 +1446,7 @@
   timeZones:
     - Asia/Yerevan
   languages: []
-  locales:
+  localesIcu:
     - hy
     - hy-AM
   otherAppsIds:
@@ -1503,7 +1503,7 @@
   timeZones:
     - Africa/Luanda
   languages: []
-  locales:
+  localesIcu:
     - ln
     - ln-AO
     - pt
@@ -1613,7 +1613,7 @@
     - Antarctica/Troll
     - Antarctica/Vostok
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-FI
     - fi
@@ -1638,24 +1638,12 @@
     - es-UY
     - es-CL
     - es-AR
-    - ce
-    - ce-RU
-    - cu
-    - cu-RU
-    - os
-    - os-RU
     - ru
     - ru-RU
-    - sah
-    - sah-RU
-    - tt
-    - tt-RU
     - ca
     - ca-IT
     - de
     - de-IT
-    - fur
-    - fur-IT
     - it
     - it-IT
     - en-AU
@@ -1667,31 +1655,17 @@
     - ca-FR
     - fr
     - fr-FR
-    - gsw
-    - gsw-FR
     - ja
     - ja-JP
     - cy
     - cy-GB
     - en-GB
-    - gd
-    - gd-GB
-    - gv
-    - gv-GB
-    - kw
-    - kw-GB
-    - ast
-    - ast-ES
     - ca-ES
     - es-ES
-    - eu
-    - eu-ES
     - gl
     - gl-ES
     - bo
     - bo-CN
-    - ii
-    - ii-CN
     - ug
     - ug-CN
     - zh
@@ -1704,20 +1678,14 @@
     - fy-DE
     - hsb
     - hsb-DE
-    - ksh
-    - ksh-DE
     - ro
     - ro-RO
     - es-PE
-    - qu
-    - qu-PE
     - as
     - as-IN
     - bn
     - bn-IN
     - bo-IN
-    - brx
-    - brx-IN
     - en-IN
     - gu
     - gu-IN
@@ -1727,8 +1695,6 @@
     - kn-IN
     - kok
     - kok-IN
-    - ks
-    - ks-IN
     - ml
     - ml-IN
     - mr
@@ -1738,8 +1704,6 @@
     - or
     - or-IN
     - pa
-    - pa-Guru
-    - pa-Guru-IN
     - ta
     - ta-IN
     - te
@@ -1747,7 +1711,6 @@
     - ur
     - ur-IN
     - es-EC
-    - qu-EC
     - cs
     - cs-CZ
     - be
@@ -1763,8 +1726,6 @@
     - zu
     - zu-ZA
     - en-NZ
-    - mi
-    - mi-NZ
     - ko
     - ko-KR
     - en-SE
@@ -1900,7 +1861,7 @@
     - America/Mendoza
     - America/Rosario
   languages: []
-  locales:
+  localesIcu:
     - es
     - es-AR
   otherAppsIds:
@@ -2114,7 +2075,7 @@
   timeZones:
     - Pacific/Pago_Pago
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-AS
   otherAppsIds:
@@ -2151,7 +2112,7 @@
   timeZones:
     - Europe/Vienna
   languages: []
-  locales:
+  localesIcu:
     - de
     - de-AT
     - en
@@ -2242,7 +2203,7 @@
     - Australia/West
     - Australia/Yancowinna
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-AU
   otherAppsIds:
@@ -2282,7 +2243,7 @@
   timeZones:
     - America/Aruba
   languages: []
-  locales:
+  localesIcu:
     - nl
     - nl-AW
   otherAppsIds:
@@ -2323,7 +2284,7 @@
   timeZones:
     - Europe/Mariehamn
   languages: []
-  locales:
+  localesIcu:
     - sv
     - sv-AX
   otherAppsIds:
@@ -2370,7 +2331,7 @@
   timeZones:
     - Asia/Baku
   languages: []
-  locales:
+  localesIcu:
     - az
     - az-Cyrl
     - az-Cyrl-AZ
@@ -2423,7 +2384,7 @@
   timeZones:
     - Europe/Sarajevo
   languages: []
-  locales:
+  localesIcu:
     - bs
     - bs-BA
     - hr
@@ -2475,7 +2436,7 @@
   timeZones:
     - America/Barbados
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-BB
   otherAppsIds:
@@ -2513,7 +2474,7 @@
     - Asia/Dhaka
     - Asia/Dacca
   languages: []
-  locales:
+  localesIcu:
     - bn
     - bn-BD
   otherAppsIds:
@@ -2556,7 +2517,7 @@
   timeZones:
     - Europe/Brussels
   languages: []
-  locales:
+  localesIcu:
     - de
     - de-BE
     - en
@@ -2606,7 +2567,7 @@
   timeZones:
     - Africa/Ouagadougou
   languages: []
-  locales:
+  localesIcu:
     - fr
     - fr-BF
   otherAppsIds:
@@ -2644,7 +2605,7 @@
   timeZones:
     - Europe/Sofia
   languages: []
-  locales:
+  localesIcu:
     - bg
     - bg-BG
   otherAppsIds:
@@ -2681,7 +2642,7 @@
   timeZones:
     - Asia/Bahrain
   languages: []
-  locales:
+  localesIcu:
     - ar
     - ar-BH
   otherAppsIds:
@@ -2732,13 +2693,11 @@
   timeZones:
     - Africa/Bujumbura
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-BI
     - fr
     - fr-BI
-    - rn
-    - rn-BI
   otherAppsIds:
     geoNamesOrg: 433561
 - officialName:
@@ -2775,7 +2734,7 @@
   timeZones:
     - Africa/Porto-Novo
   languages: []
-  locales:
+  localesIcu:
     - fr
     - fr-BJ
     - yo
@@ -2817,7 +2776,7 @@
   timeZones:
     - America/St_Barthelemy
   languages: []
-  locales:
+  localesIcu:
     - fr
     - fr-BL
   otherAppsIds:
@@ -3544,7 +3503,7 @@
   timeZones:
     - Atlantic/Bermuda
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-BM
   otherAppsIds:
@@ -3917,7 +3876,7 @@
   timeZones:
     - Asia/Brunei
   languages: []
-  locales:
+  localesIcu:
     - ms
     - ms-BN
   otherAppsIds:
@@ -6926,11 +6885,9 @@
   timeZones:
     - America/La_Paz
   languages: []
-  locales:
+  localesIcu:
     - es
     - es-BO
-    - qu
-    - qu-BO
   otherAppsIds:
     geoNamesOrg: 3923057
 - officialName:
@@ -6967,7 +6924,7 @@
   timeZones:
     - America/Kralendijk
   languages: []
-  locales:
+  localesIcu:
     - nl
     - nl-BQ
   otherAppsIds:
@@ -7086,7 +7043,7 @@
     - Brazil/East
     - Brazil/West
   languages: []
-  locales:
+  localesIcu:
     - es
     - es-BR
     - pt
@@ -7127,7 +7084,7 @@
   timeZones:
     - America/Nassau
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-BS
   otherAppsIds:
@@ -7759,7 +7716,7 @@
     - Asia/Thimphu
     - Asia/Thimbu
   languages: []
-  locales:
+  localesIcu:
     - dz
     - dz-BT
   otherAppsIds:
@@ -7798,7 +7755,7 @@
   timeZones:
     - Etc/UTC
   languages: []
-  locales:
+  localesIcu:
     - nb
     - nb-NO
     - nn
@@ -7841,7 +7798,7 @@
   timeZones:
     - Africa/Gaborone
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-BW
   otherAppsIds:
@@ -7895,7 +7852,7 @@
   timeZones:
     - Europe/Minsk
   languages: []
-  locales:
+  localesIcu:
     - be
     - be-BY
     - ru
@@ -8828,7 +8785,7 @@
   timeZones:
     - America/Belize
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-BZ
     - es
@@ -8918,7 +8875,7 @@
     - Canada/Saskatchewan
     - Canada/Yukon
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-CA
     - fr
@@ -9025,7 +8982,7 @@
   timeZones:
     - Indian/Cocos
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-CC
   otherAppsIds:
@@ -9067,13 +9024,11 @@
     - Africa/Kinshasa
     - Africa/Lubumbashi
   languages: []
-  locales:
+  localesIcu:
     - fr
     - fr-CD
     - ln
     - ln-CD
-    - lu
-    - lu-CD
     - sw
     - sw-CD
   otherAppsIds:
@@ -9120,13 +9075,11 @@
   timeZones:
     - Africa/Bangui
   languages: []
-  locales:
+  localesIcu:
     - fr
     - fr-CF
     - ln
     - ln-CF
-    - sg
-    - sg-CF
   otherAppsIds:
     geoNamesOrg: 239880
 - officialName:
@@ -9162,7 +9115,7 @@
   timeZones:
     - Africa/Brazzaville
   languages: []
-  locales:
+  localesIcu:
     - fr
     - fr-CG
     - ln
@@ -9209,21 +9162,17 @@
   timeZones:
     - Europe/Zurich
   languages: []
-  locales:
+  localesIcu:
     - de
     - de-CH
     - en
     - en-CH
     - fr
     - fr-CH
-    - gsw
-    - gsw-CH
     - it
     - it-CH
     - pt
     - pt-CH
-    - rm
-    - rm-CH
     - wae
     - wae-CH
   otherAppsIds:
@@ -9263,7 +9212,7 @@
   timeZones:
     - Africa/Abidjan
   languages: []
-  locales:
+  localesIcu:
     - fr
     - fr-CI
   otherAppsIds:
@@ -9328,7 +9277,7 @@
   timeZones:
     - Pacific/Rarotonga
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-CK
   otherAppsIds:
@@ -9379,7 +9328,7 @@
     - Chile/Continental
     - Chile/EasterIsland
   languages: []
-  locales:
+  localesIcu:
     - es
     - es-CL
   otherAppsIds:
@@ -9428,37 +9377,13 @@
   timeZones:
     - Africa/Douala
   languages: []
-  locales:
-    - agq
-    - agq-CM
-    - bas
-    - bas-CM
-    - dua
-    - dua-CM
+  localesIcu:
     - en
     - en-CM
-    - ewo
-    - ewo-CM
     - ff
     - ff-CM
     - fr
     - fr-CM
-    - jgo
-    - jgo-CM
-    - kkj
-    - kkj-CM
-    - ksf
-    - ksf-CM
-    - mgo
-    - mgo-CM
-    - mua
-    - mua-CM
-    - nmg
-    - nmg-CM
-    - nnh
-    - nnh-CM
-    - yav
-    - yav-CM
   otherAppsIds:
     geoNamesOrg: 2233387
 - officialName:
@@ -9505,11 +9430,9 @@
     - Asia/Harbin
     - Asia/Kashgar
   languages: []
-  locales:
+  localesIcu:
     - bo
     - bo-CN
-    - ii
-    - ii-CN
     - ug
     - ug-CN
     - zh
@@ -9549,7 +9472,7 @@
   timeZones:
     - America/Bogota
   languages: []
-  locales:
+  localesIcu:
     - es
     - es-CO
   otherAppsIds:
@@ -10620,7 +10543,7 @@
   timeZones:
     - America/Costa_Rica
   languages: []
-  locales:
+  localesIcu:
     - es
     - es-CR
   otherAppsIds:
@@ -10661,7 +10584,7 @@
   timeZones:
     - America/Havana
   languages: []
-  locales:
+  localesIcu:
     - es
     - es-CU
   otherAppsIds:
@@ -10710,9 +10633,7 @@
   timeZones:
     - Atlantic/Cape_Verde
   languages: []
-  locales:
-    - kea
-    - kea-CV
+  localesIcu:
     - pt
     - pt-CV
   otherAppsIds:
@@ -10756,7 +10677,7 @@
   timeZones:
     - America/Curacao
   languages: []
-  locales:
+  localesIcu:
     - nl
     - nl-CW
   otherAppsIds:
@@ -10843,7 +10764,7 @@
   timeZones:
     - Indian/Christmas
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-CX
   otherAppsIds:
@@ -11020,7 +10941,7 @@
     - Asia/Nicosia
     - Europe/Nicosia
   languages: []
-  locales:
+  localesIcu:
     - el
     - el-CY
     - en
@@ -11063,7 +10984,7 @@
   timeZones:
     - Europe/Prague
   languages: []
-  locales:
+  localesIcu:
     - cs
     - cs-CZ
   otherAppsIds:
@@ -11101,7 +11022,7 @@
     - Europe/Berlin
     - Europe/Busingen
   languages: []
-  locales:
+  localesIcu:
     - de
     - de-DE
     - dsb
@@ -11112,8 +11033,6 @@
     - fy-DE
     - hsb
     - hsb-DE
-    - ksh
-    - ksh-DE
   otherAppsIds:
     geoNamesOrg: 2921044
 - officialName:
@@ -11154,13 +11073,11 @@
   timeZones:
     - Africa/Djibouti
   languages: []
-  locales:
+  localesIcu:
     - ar
     - ar-DJ
     - fr
     - fr-DJ
-    - so
-    - so-DJ
   otherAppsIds:
     geoNamesOrg: 223816
 - officialName:
@@ -11196,7 +11113,7 @@
   timeZones:
     - Europe/Copenhagen
   languages: []
-  locales:
+  localesIcu:
     - da
     - da-DK
     - en
@@ -11399,7 +11316,7 @@
   timeZones:
     - America/Dominica
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-DM
   otherAppsIds:
@@ -13065,7 +12982,7 @@
   timeZones:
     - America/Santo_Domingo
   languages: []
-  locales:
+  localesIcu:
     - es
     - es-DO
   otherAppsIds:
@@ -13107,13 +13024,11 @@
   timeZones:
     - Africa/Algiers
   languages: []
-  locales:
+  localesIcu:
     - ar
     - ar-DZ
     - fr
     - fr-DZ
-    - kab
-    - kab-DZ
   otherAppsIds:
     geoNamesOrg: 2589581
 - officialName:
@@ -15860,11 +15775,9 @@
     - America/Guayaquil
     - Pacific/Galapagos
   languages: []
-  locales:
+  localesIcu:
     - es
     - es-EC
-    - qu
-    - qu-EC
   otherAppsIds:
     geoNamesOrg: 3658394
 - officialName:
@@ -15899,7 +15812,7 @@
   timeZones:
     - Europe/Tallinn
   languages: []
-  locales:
+  localesIcu:
     - et
     - et-EE
   otherAppsIds:
@@ -16151,7 +16064,7 @@
   timeZones:
     - Africa/Cairo
   languages: []
-  locales:
+  localesIcu:
     - ar
     - ar-EG
   otherAppsIds:
@@ -16197,7 +16110,7 @@
   timeZones:
     - Africa/El_Aaiun
   languages: []
-  locales:
+  localesIcu:
     - ar
     - ar-EH
   otherAppsIds:
@@ -16308,13 +16221,11 @@
     - Africa/Asmara
     - Africa/Asmera
   languages: []
-  locales:
+  localesIcu:
     - ar
     - ar-ER
     - en
     - en-ER
-    - ti
-    - ti-ER
   otherAppsIds:
     geoNamesOrg: 338010
 - officialName:
@@ -18152,15 +18063,11 @@
     - Atlantic/Canary
     - Europe/Madrid
   languages: []
-  locales:
-    - ast
-    - ast-ES
+  localesIcu:
     - ca
     - ca-ES
     - es
     - es-ES
-    - eu
-    - eu-ES
     - gl
     - gl-ES
   otherAppsIds:
@@ -18208,15 +18115,11 @@
   timeZones:
     - Africa/Addis_Ababa
   languages: []
-  locales:
+  localesIcu:
     - am
     - am-ET
     - om
     - om-ET
-    - so
-    - so-ET
-    - ti
-    - ti-ET
   otherAppsIds:
     geoNamesOrg: 337996
 - officialName:
@@ -18254,7 +18157,7 @@
   timeZones:
     - Europe/Helsinki
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-FI
     - fi
@@ -18920,7 +18823,7 @@
   timeZones:
     - Pacific/Fiji
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-FJ
   otherAppsIds:
@@ -19477,7 +19380,7 @@
   timeZones:
     - Atlantic/Stanley
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-FK
   otherAppsIds:
@@ -19527,7 +19430,7 @@
     - Pacific/Truk
     - Pacific/Yap
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-FM
   otherAppsIds:
@@ -19567,7 +19470,7 @@
     - Atlantic/Faroe
     - Atlantic/Faeroe
   languages: []
-  locales:
+  localesIcu:
     - fo
     - fo-FO
   otherAppsIds:
@@ -19607,15 +19510,13 @@
   timeZones:
     - Europe/Paris
   languages: []
-  locales:
+  localesIcu:
     - br
     - br-FR
     - ca
     - ca-FR
     - fr
     - fr-FR
-    - gsw
-    - gsw-FR
   otherAppsIds:
     geoNamesOrg: 3017382
 - officialName:
@@ -19653,7 +19554,7 @@
   timeZones:
     - Africa/Libreville
   languages: []
-  locales:
+  localesIcu:
     - fr
     - fr-GA
   otherAppsIds:
@@ -19700,17 +19601,11 @@
     - Europe/London
     - Europe/Belfast
   languages: []
-  locales:
+  localesIcu:
     - cy
     - cy-GB
     - en
     - en-GB
-    - gd
-    - gd-GB
-    - gv
-    - gv-GB
-    - kw
-    - kw-GB
   otherAppsIds:
     geoNamesOrg: 2635167
 - officialName:
@@ -19769,7 +19664,7 @@
   timeZones:
     - America/Grenada
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-GD
   otherAppsIds:
@@ -19816,11 +19711,9 @@
   timeZones:
     - Asia/Tbilisi
   languages: []
-  locales:
+  localesIcu:
     - ka
     - ka-GE
-    - os
-    - os-GE
   otherAppsIds:
     geoNamesOrg: 614540
 - officialName:
@@ -19858,7 +19751,7 @@
   timeZones:
     - America/Cayenne
   languages: []
-  locales:
+  localesIcu:
     - fr
     - fr-GF
   otherAppsIds:
@@ -19901,7 +19794,7 @@
   timeZones:
     - Europe/Guernsey
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-GG
   otherAppsIds:
@@ -19943,9 +19836,7 @@
   timeZones:
     - Africa/Accra
   languages: []
-  locales:
-    - ak
-    - ak-GH
+  localesIcu:
     - ee
     - ee-GH
     - en
@@ -20048,7 +19939,7 @@
   timeZones:
     - Europe/Gibraltar
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-GI
   otherAppsIds:
@@ -20089,7 +19980,7 @@
     - America/Thule
     - America/Godthab
   languages: []
-  locales:
+  localesIcu:
     - da
     - da-GL
     - kl
@@ -20131,7 +20022,7 @@
   timeZones:
     - Africa/Banjul
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-GM
   otherAppsIds:
@@ -20169,7 +20060,7 @@
   timeZones:
     - Africa/Conakry
   languages: []
-  locales:
+  localesIcu:
     - ff
     - ff-GN
     - fr
@@ -20210,7 +20101,7 @@
   timeZones:
     - America/Guadeloupe
   languages: []
-  locales:
+  localesIcu:
     - fr
     - fr-GP
   otherAppsIds:
@@ -20330,7 +20221,7 @@
   timeZones:
     - Africa/Malabo
   languages: []
-  locales:
+  localesIcu:
     - es
     - es-GQ
     - fr
@@ -20373,7 +20264,7 @@
   timeZones:
     - Europe/Athens
   languages: []
-  locales:
+  localesIcu:
     - el
     - el-GR
   otherAppsIds:
@@ -20793,17 +20684,11 @@
   timeZones:
     - Atlantic/South_Georgia
   languages: []
-  locales:
+  localesIcu:
     - cy
     - cy-GB
     - en
     - en-GB
-    - gd
-    - gd-GB
-    - gv
-    - gv-GB
-    - kw
-    - kw-GB
   otherAppsIds:
     geoNamesOrg: 3474415
 - officialName:
@@ -21484,7 +21369,7 @@
   timeZones:
     - America/Guatemala
   languages: []
-  locales:
+  localesIcu:
     - es
     - es-GT
   otherAppsIds:
@@ -21611,7 +21496,7 @@
   timeZones:
     - Pacific/Guam
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-GU
   otherAppsIds:
@@ -21655,7 +21540,7 @@
   timeZones:
     - Africa/Bissau
   languages: []
-  locales:
+  localesIcu:
     - pt
     - pt-GW
   otherAppsIds:
@@ -21697,7 +21582,7 @@
   timeZones:
     - America/Guyana
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-GY
   otherAppsIds:
@@ -21745,11 +21630,9 @@
   timeZones:
     - Asia/Hong_Kong
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-HK
-    - yue
-    - yue-HK
     - zh
     - zh-HK
   otherAppsIds:
@@ -21816,7 +21699,7 @@
   timeZones:
     - Etc/GMT-5
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-AU
   otherAppsIds:
@@ -21867,7 +21750,7 @@
   timeZones:
     - America/Tegucigalpa
   languages: []
-  locales:
+  localesIcu:
     - es
     - es-HN
   otherAppsIds:
@@ -23023,7 +22906,7 @@
   timeZones:
     - Europe/Zagreb
   languages: []
-  locales:
+  localesIcu:
     - hr
     - hr-HR
   otherAppsIds:
@@ -23062,7 +22945,7 @@
   timeZones:
     - America/Port-au-Prince
   languages: []
-  locales:
+  localesIcu:
     - fr
     - fr-HT
   otherAppsIds:
@@ -23099,7 +22982,7 @@
   timeZones:
     - Europe/Budapest
   languages: []
-  locales:
+  localesIcu:
     - hu
     - hu-HU
   otherAppsIds:
@@ -23140,11 +23023,9 @@
     - Asia/Pontianak
     - Asia/Ujung_Pandang
   languages: []
-  locales:
+  localesIcu:
     - id
     - id-ID
-    - jv
-    - jv-ID
   otherAppsIds:
     geoNamesOrg: 1643084
 - officialName:
@@ -23183,7 +23064,7 @@
   timeZones:
     - Europe/Dublin
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-IE
     - ga
@@ -23228,7 +23109,7 @@
     - Asia/Jerusalem
     - Asia/Tel_Aviv
   languages: []
-  locales:
+  localesIcu:
     - ar
     - ar-IL
     - en
@@ -23509,7 +23390,7 @@
   timeZones:
     - Europe/Isle_of_Man
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-IM
   otherAppsIds:
@@ -23562,15 +23443,13 @@
     - Asia/Kolkata
     - Asia/Calcutta
   languages: []
-  locales:
+  localesIcu:
     - as
     - as-IN
     - bn
     - bn-IN
     - bo
     - bo-IN
-    - brx
-    - brx-IN
     - en
     - en-IN
     - gu
@@ -23581,8 +23460,6 @@
     - kn-IN
     - kok
     - kok-IN
-    - ks
-    - ks-IN
     - ml
     - ml-IN
     - mr
@@ -23592,8 +23469,6 @@
     - or
     - or-IN
     - pa
-    - pa-Guru
-    - pa-Guru-IN
     - ta
     - ta-IN
     - te
@@ -23954,7 +23829,7 @@
   timeZones:
     - Indian/Chagos
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-IO
   otherAppsIds:
@@ -24032,13 +23907,9 @@
   timeZones:
     - Asia/Baghdad
   languages: []
-  locales:
+  localesIcu:
     - ar
     - ar-IQ
-    - ckb
-    - ckb-IQ
-    - lrc
-    - lrc-IQ
   otherAppsIds:
     geoNamesOrg: 99237
 - officialName:
@@ -24093,9 +23964,7 @@
   timeZones:
     - Asia/Tehran
   languages: []
-  locales:
-    - ckb
-    - ckb-IR
+  localesIcu:
     - fa
     - fa-IR
   otherAppsIds:
@@ -24134,7 +24003,7 @@
   timeZones:
     - Atlantic/Reykjavik
   languages: []
-  locales:
+  localesIcu:
     - is
     - is-IS
   otherAppsIds:
@@ -24171,13 +24040,11 @@
   timeZones:
     - Europe/Rome
   languages: []
-  locales:
+  localesIcu:
     - ca
     - ca-IT
     - de
     - de-IT
-    - fur
-    - fur-IT
     - it
     - it-IT
   otherAppsIds:
@@ -24289,7 +24156,7 @@
   timeZones:
     - Europe/Jersey
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-JE
   otherAppsIds:
@@ -24328,7 +24195,7 @@
   timeZones:
     - America/Jamaica
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-JM
   otherAppsIds:
@@ -24374,7 +24241,7 @@
   timeZones:
     - Asia/Amman
   languages: []
-  locales:
+  localesIcu:
     - ar
     - ar-JO
   otherAppsIds:
@@ -24410,7 +24277,7 @@
   timeZones:
     - Asia/Tokyo
   languages: []
-  locales:
+  localesIcu:
     - ja
     - ja-JP
   otherAppsIds:
@@ -24463,39 +24330,13 @@
   timeZones:
     - Africa/Nairobi
   languages: []
-  locales:
-    - dav
-    - dav-KE
-    - ebu
-    - ebu-KE
+  localesIcu:
     - en
     - en-KE
-    - guz
-    - guz-KE
-    - kam
-    - kam-KE
-    - ki
-    - ki-KE
-    - kln
-    - kln-KE
-    - luo
-    - luo-KE
-    - luy
-    - luy-KE
-    - mas
-    - mas-KE
-    - mer
-    - mer-KE
     - om
     - om-KE
-    - saq
-    - saq-KE
-    - so
-    - so-KE
     - sw
     - sw-KE
-    - teo
-    - teo-KE
   otherAppsIds:
     geoNamesOrg: 192950
 - officialName:
@@ -24546,7 +24387,7 @@
   timeZones:
     - Asia/Bishkek
   languages: []
-  locales:
+  localesIcu:
     - ky
     - ky-KG
     - ru
@@ -24748,7 +24589,7 @@
   timeZones:
     - Asia/Phnom_Penh
   languages: []
-  locales:
+  localesIcu:
     - km
     - km-KH
   otherAppsIds:
@@ -24831,7 +24672,7 @@
     - Pacific/Tarawa
     - Pacific/Enderbury
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-KI
   otherAppsIds:
@@ -24884,7 +24725,7 @@
   timeZones:
     - Indian/Comoro
   languages: []
-  locales:
+  localesIcu:
     - ar
     - ar-KM
     - fr
@@ -24933,7 +24774,7 @@
   timeZones:
     - America/St_Kitts
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-KN
   otherAppsIds:
@@ -24982,7 +24823,7 @@
   timeZones:
     - Asia/Pyongyang
   languages: []
-  locales:
+  localesIcu:
     - ko
     - ko-KP
   otherAppsIds:
@@ -25026,7 +24867,7 @@
   timeZones:
     - Asia/Seoul
   languages: []
-  locales:
+  localesIcu:
     - ko
     - ko-KR
   otherAppsIds:
@@ -25064,7 +24905,7 @@
   timeZones:
     - Asia/Kuwait
   languages: []
-  locales:
+  localesIcu:
     - ar
     - ar-KW
   otherAppsIds:
@@ -25655,7 +25496,7 @@
   timeZones:
     - America/Cayman
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-KY
   otherAppsIds:
@@ -25845,7 +25686,7 @@
     - Asia/Qostanay
     - Asia/Qyzylorda
   languages: []
-  locales:
+  localesIcu:
     - kk
     - kk-KZ
     - ru
@@ -25886,7 +25727,7 @@
   timeZones:
     - Asia/Vientiane
   languages: []
-  locales:
+  localesIcu:
     - lo
     - lo-LA
   otherAppsIds:
@@ -26007,7 +25848,7 @@
   timeZones:
     - Asia/Beirut
   languages: []
-  locales:
+  localesIcu:
     - ar
     - ar-LB
   otherAppsIds:
@@ -26045,7 +25886,7 @@
   timeZones:
     - America/St_Lucia
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-LC
   otherAppsIds:
@@ -26274,11 +26115,9 @@
   timeZones:
     - Europe/Vaduz
   languages: []
-  locales:
+  localesIcu:
     - de
     - de-LI
-    - gsw
-    - gsw-LI
   otherAppsIds:
     geoNamesOrg: 3042058
 - officialName:
@@ -26598,7 +26437,7 @@
   timeZones:
     - Asia/Colombo
   languages: []
-  locales:
+  localesIcu:
     - si
     - si-LK
     - ta
@@ -26649,14 +26488,9 @@
   timeZones:
     - Africa/Monrovia
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-LR
-    - vai
-    - vai-Latn
-    - vai-Latn-LR
-    - vai-Vaii
-    - vai-Vaii-LR
   otherAppsIds:
     geoNamesOrg: 2275384
 - officialName:
@@ -26714,7 +26548,7 @@
   timeZones:
     - Africa/Maseru
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-LS
   otherAppsIds:
@@ -26752,7 +26586,7 @@
   timeZones:
     - Europe/Vilnius
   languages: []
-  locales:
+  localesIcu:
     - lt
     - lt-LT
   otherAppsIds:
@@ -26795,7 +26629,7 @@
   timeZones:
     - Europe/Luxembourg
   languages: []
-  locales:
+  localesIcu:
     - de
     - de-LU
     - fr
@@ -26837,7 +26671,7 @@
   timeZones:
     - Europe/Riga
   languages: []
-  locales:
+  localesIcu:
     - lv
     - lv-LV
   otherAppsIds:
@@ -26881,7 +26715,7 @@
   timeZones:
     - Africa/Tripoli
   languages: []
-  locales:
+  localesIcu:
     - ar
     - ar-LY
   otherAppsIds:
@@ -26922,21 +26756,11 @@
   timeZones:
     - Africa/Casablanca
   languages: []
-  locales:
+  localesIcu:
     - ar
     - ar-MA
     - fr
     - fr-MA
-    - shi
-    - shi-Latn
-    - shi-Latn-MA
-    - shi-Tfng
-    - shi-Tfng-MA
-    - tzm
-    - tzm-Latn
-    - tzm-Latn-MA
-    - zgh
-    - zgh-MA
   otherAppsIds:
     geoNamesOrg: 2542007
 - officialName:
@@ -26972,7 +26796,7 @@
   timeZones:
     - Europe/Monaco
   languages: []
-  locales:
+  localesIcu:
     - fr
     - fr-MC
   otherAppsIds:
@@ -27417,7 +27241,7 @@
     - Europe/Chisinau
     - Europe/Tiraspol
   languages: []
-  locales:
+  localesIcu:
     - ro
     - ro-MD
     - ru
@@ -28314,7 +28138,7 @@
   timeZones:
     - Europe/Podgorica
   languages: []
-  locales:
+  localesIcu:
     - sr
     - sr-Cyrl
     - sr-Cyrl-ME
@@ -28356,7 +28180,7 @@
   timeZones:
     - America/Marigot
   languages: []
-  locales:
+  localesIcu:
     - fr
     - fr-MF
   otherAppsIds:
@@ -28397,13 +28221,11 @@
   timeZones:
     - Indian/Antananarivo
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-MG
     - fr
     - fr-MG
-    - mg
-    - mg-MG
   otherAppsIds:
     geoNamesOrg: 1062947
 - officialName:
@@ -28450,7 +28272,7 @@
     - Pacific/Kwajalein
     - Pacific/Majuro
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-MH
   otherAppsIds:
@@ -28491,7 +28313,7 @@
   timeZones:
     - Europe/Skopje
   languages: []
-  locales:
+  localesIcu:
     - mk
     - mk-MK
     - sq
@@ -28534,15 +28356,9 @@
     - Africa/Bamako
     - Africa/Timbuktu
   languages: []
-  locales:
-    - bm
-    - bm-ML
+  localesIcu:
     - fr
     - fr-ML
-    - khq
-    - khq-ML
-    - ses
-    - ses-ML
   otherAppsIds:
     geoNamesOrg: 2453866
 - officialName:
@@ -28584,7 +28400,7 @@
     - Asia/Yangon
     - Asia/Rangoon
   languages: []
-  locales:
+  localesIcu:
     - my
     - my-MM
   otherAppsIds:
@@ -28653,7 +28469,7 @@
     - Asia/Ulaanbaatar
     - Asia/Ulan_Bator
   languages: []
-  locales:
+  localesIcu:
     - mn
     - mn-MN
   otherAppsIds:
@@ -28720,7 +28536,7 @@
     - Asia/Macau
     - Asia/Macao
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-MO
     - pt
@@ -29192,7 +29008,7 @@
   timeZones:
     - Pacific/Saipan
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-MP
   otherAppsIds:
@@ -29246,7 +29062,7 @@
   timeZones:
     - America/Martinique
   languages: []
-  locales:
+  localesIcu:
     - fr
     - fr-MQ
   otherAppsIds:
@@ -29290,7 +29106,7 @@
   timeZones:
     - Africa/Nouakchott
   languages: []
-  locales:
+  localesIcu:
     - ar
     - ar-MR
     - ff
@@ -29481,7 +29297,7 @@
   timeZones:
     - America/Montserrat
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-MS
   otherAppsIds:
@@ -29708,7 +29524,7 @@
   timeZones:
     - Europe/Malta
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-MT
     - mt
@@ -29750,13 +29566,11 @@
   timeZones:
     - Indian/Mauritius
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-MU
     - fr
     - fr-MU
-    - mfe
-    - mfe-MU
   otherAppsIds:
     geoNamesOrg: 934292
 - officialName:
@@ -29792,9 +29606,7 @@
   timeZones:
     - Indian/Maldives
   languages: []
-  locales:
-    - dv
-    - dv-MV
+  localesIcu: []
   otherAppsIds:
     geoNamesOrg: 1282028
 - officialName:
@@ -29840,7 +29652,7 @@
   timeZones:
     - Africa/Blantyre
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-MW
   otherAppsIds:
@@ -31833,7 +31645,7 @@
     - Mexico/BajaSur
     - Mexico/General
   languages: []
-  locales:
+  localesIcu:
     - es
     - es-MX
   otherAppsIds:
@@ -31894,7 +31706,7 @@
     - Asia/Kuala_Lumpur
     - Asia/Kuching
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-MY
     - ms
@@ -31985,13 +31797,9 @@
   timeZones:
     - Africa/Maputo
   languages: []
-  locales:
-    - mgh
-    - mgh-MZ
+  localesIcu:
     - pt
     - pt-MZ
-    - seh
-    - seh-MZ
   otherAppsIds:
     geoNamesOrg: 1036973
 - officialName:
@@ -32035,13 +31843,11 @@
   timeZones:
     - Africa/Windhoek
   languages: []
-  locales:
+  localesIcu:
     - af
     - af-NA
     - en
     - en-NA
-    - naq
-    - naq-NA
   otherAppsIds:
     geoNamesOrg: 3355338
 - officialName:
@@ -32101,7 +31907,7 @@
   timeZones:
     - Pacific/Noumea
   languages: []
-  locales:
+  localesIcu:
     - fr
     - fr-NC
   otherAppsIds:
@@ -32141,15 +31947,11 @@
   timeZones:
     - Africa/Niamey
   languages: []
-  locales:
-    - dje
-    - dje-NE
+  localesIcu:
     - fr
     - fr-NE
     - ha
     - ha-NE
-    - twq
-    - twq-NE
   otherAppsIds:
     geoNamesOrg: 2440476
 - officialName:
@@ -32420,7 +32222,7 @@
   timeZones:
     - Pacific/Norfolk
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-NF
   otherAppsIds:
@@ -32457,7 +32259,7 @@
   timeZones:
     - Africa/Lagos
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-NG
     - ha
@@ -32878,7 +32680,7 @@
   timeZones:
     - America/Managua
   languages: []
-  locales:
+  localesIcu:
     - es
     - es-NI
   otherAppsIds:
@@ -32920,7 +32722,7 @@
   timeZones:
     - Europe/Amsterdam
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-NL
     - fy
@@ -32968,7 +32770,7 @@
   timeZones:
     - Europe/Oslo
   languages: []
-  locales:
+  localesIcu:
     - nb
     - nb-NO
     - nn
@@ -33026,7 +32828,7 @@
     - Asia/Kathmandu
     - Asia/Katmandu
   languages: []
-  locales:
+  localesIcu:
     - ne
     - ne-NP
   otherAppsIds:
@@ -33070,7 +32872,7 @@
   timeZones:
     - Pacific/Nauru
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-NR
   otherAppsIds:
@@ -33124,7 +32926,7 @@
   timeZones:
     - Pacific/Niue
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-NU
   otherAppsIds:
@@ -33195,11 +32997,9 @@
     - Pacific/Auckland
     - Pacific/Chatham
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-NZ
-    - mi
-    - mi-NZ
   otherAppsIds:
     geoNamesOrg: 2186224
 - officialName:
@@ -33494,7 +33294,7 @@
   timeZones:
     - Asia/Muscat
   languages: []
-  locales:
+  localesIcu:
     - ar
     - ar-OM
   otherAppsIds:
@@ -33542,7 +33342,7 @@
   timeZones:
     - America/Panama
   languages: []
-  locales:
+  localesIcu:
     - es
     - es-PA
   otherAppsIds:
@@ -35243,11 +35043,9 @@
   timeZones:
     - America/Lima
   languages: []
-  locales:
+  localesIcu:
     - es
     - es-PE
-    - qu
-    - qu-PE
   otherAppsIds:
     geoNamesOrg: 3932488
 - officialName:
@@ -35375,7 +35173,7 @@
     - Pacific/Marquesas
     - Pacific/Tahiti
   languages: []
-  locales:
+  localesIcu:
     - fr
     - fr-PF
   otherAppsIds:
@@ -35454,7 +35252,7 @@
     - Pacific/Bougainville
     - Pacific/Port_Moresby
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-PG
   otherAppsIds:
@@ -35513,7 +35311,7 @@
   timeZones:
     - Asia/Manila
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-PH
     - es
@@ -35559,15 +35357,12 @@
   timeZones:
     - Asia/Karachi
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-PK
     - pa
     - pa-Arab
     - pa-Arab-PK
-    - sd
-    - sd-Arab
-    - sd-Arab-PK
     - ur
     - ur-PK
   otherAppsIds:
@@ -35603,7 +35398,7 @@
   timeZones:
     - Europe/Warsaw
   languages: []
-  locales:
+  localesIcu:
     - pl
     - pl-PL
   otherAppsIds:
@@ -35643,7 +35438,7 @@
   timeZones:
     - America/Miquelon
   languages: []
-  locales:
+  localesIcu:
     - fr
     - fr-PM
   otherAppsIds:
@@ -35927,7 +35722,7 @@
   timeZones:
     - Pacific/Pitcairn
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-PN
   otherAppsIds:
@@ -35974,7 +35769,7 @@
   timeZones:
     - America/Puerto_Rico
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-PR
     - es
@@ -36014,7 +35809,7 @@
     - Asia/Gaza
     - Asia/Hebron
   languages: []
-  locales:
+  localesIcu:
     - ar
     - ar-PS
   otherAppsIds:
@@ -36214,7 +36009,7 @@
     - Atlantic/Madeira
     - Europe/Lisbon
   languages: []
-  locales:
+  localesIcu:
     - pt
     - pt-PT
   otherAppsIds:
@@ -36252,7 +36047,7 @@
   timeZones:
     - Pacific/Palau
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-PW
   otherAppsIds:
@@ -36772,7 +36567,7 @@
   timeZones:
     - America/Asuncion
   languages: []
-  locales:
+  localesIcu:
     - es
     - es-PY
   otherAppsIds:
@@ -36809,7 +36604,7 @@
   timeZones:
     - Asia/Qatar
   languages: []
-  locales:
+  localesIcu:
     - ar
     - ar-QA
   otherAppsIds:
@@ -36849,7 +36644,7 @@
   timeZones:
     - Indian/Reunion
   languages: []
-  locales:
+  localesIcu:
     - fr
     - fr-RE
   otherAppsIds:
@@ -36886,7 +36681,7 @@
   timeZones:
     - Europe/Bucharest
   languages: []
-  locales:
+  localesIcu:
     - ro
     - ro-RO
   otherAppsIds:
@@ -39082,7 +38877,7 @@
   timeZones:
     - Europe/Belgrade
   languages: []
-  locales:
+  localesIcu:
     - sr
     - sr-Cyrl
     - sr-Cyrl-RS
@@ -39148,19 +38943,9 @@
     - Europe/Ulyanovsk
     - Europe/Volgograd
   languages: []
-  locales:
-    - ce
-    - ce-RU
-    - cu
-    - cu-RU
-    - os
-    - os-RU
+  localesIcu:
     - ru
     - ru-RU
-    - sah
-    - sah-RU
-    - tt
-    - tt-RU
   otherAppsIds:
     geoNamesOrg: 2017370
 - officialName:
@@ -39209,13 +38994,11 @@
   timeZones:
     - Africa/Kigali
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-RW
     - fr
     - fr-RW
-    - rw
-    - rw-RW
   otherAppsIds:
     geoNamesOrg: 49518
 - officialName:
@@ -39524,7 +39307,7 @@
   timeZones:
     - Asia/Riyadh
   languages: []
-  locales:
+  localesIcu:
     - ar
     - ar-SA
   otherAppsIds:
@@ -39575,7 +39358,7 @@
   timeZones:
     - Pacific/Guadalcanal
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-SB
   otherAppsIds:
@@ -39617,7 +39400,7 @@
   timeZones:
     - Indian/Mahe
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-SC
     - fr
@@ -39660,13 +39443,11 @@
   timeZones:
     - Africa/Khartoum
   languages: []
-  locales:
+  localesIcu:
     - ar
     - ar-SD
     - en
     - en-SD
-    - nus
-    - nus-SD
   otherAppsIds:
     geoNamesOrg: 366755
 - officialName:
@@ -39703,7 +39484,7 @@
   timeZones:
     - Europe/Stockholm
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-SE
     - se
@@ -39757,7 +39538,7 @@
   timeZones:
     - Asia/Singapore
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-SG
     - ms
@@ -40825,7 +40606,7 @@
   timeZones:
     - Atlantic/St_Helena
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-SH
   otherAppsIds:
@@ -40884,7 +40665,7 @@
   timeZones:
     - Europe/Ljubljana
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-SI
     - sl
@@ -40928,7 +40709,7 @@
     - Arctic/Longyearbyen
     - Atlantic/Jan_Mayen
   languages: []
-  locales:
+  localesIcu:
     - nb
     - nb-SJ
   otherAppsIds:
@@ -40983,7 +40764,7 @@
   timeZones:
     - Europe/Bratislava
   languages: []
-  locales:
+  localesIcu:
     - sk
     - sk-SK
   otherAppsIds:
@@ -41025,7 +40806,7 @@
   timeZones:
     - Africa/Freetown
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-SL
   otherAppsIds:
@@ -42229,7 +42010,7 @@
   timeZones:
     - Europe/San_Marino
   languages: []
-  locales:
+  localesIcu:
     - it
     - it-SM
   otherAppsIds:
@@ -42277,9 +42058,7 @@
   timeZones:
     - Africa/Dakar
   languages: []
-  locales:
-    - dyo
-    - dyo-SN
+  localesIcu:
     - ff
     - ff-SN
     - fr
@@ -42326,11 +42105,9 @@
   timeZones:
     - Africa/Mogadishu
   languages: []
-  locales:
+  localesIcu:
     - ar
     - ar-SO
-    - so
-    - so-SO
   otherAppsIds:
     geoNamesOrg: 51537
 - officialName:
@@ -42367,7 +42144,7 @@
   timeZones:
     - America/Paramaribo
   languages: []
-  locales:
+  localesIcu:
     - nl
     - nl-SR
   otherAppsIds:
@@ -42409,7 +42186,7 @@
   timeZones:
     - Africa/Juba
   languages: []
-  locales:
+  localesIcu:
     - ar
     - ar-SS
     - en
@@ -42460,7 +42237,7 @@
   timeZones:
     - Africa/Sao_Tome
   languages: []
-  locales:
+  localesIcu:
     - pt
     - pt-ST
   otherAppsIds:
@@ -44075,7 +43852,7 @@
   timeZones:
     - America/El_Salvador
   languages: []
-  locales:
+  localesIcu:
     - es
     - es-SV
   otherAppsIds:
@@ -44406,7 +44183,7 @@
   timeZones:
     - America/Lower_Princes
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-SX
     - nl
@@ -44454,7 +44231,7 @@
   timeZones:
     - Asia/Damascus
   languages: []
-  locales:
+  localesIcu:
     - ar
     - ar-SY
     - fr
@@ -44583,7 +44360,7 @@
   timeZones:
     - Africa/Mbabane
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-SZ
   otherAppsIds:
@@ -44876,7 +44653,7 @@
   timeZones:
     - America/Grand_Turk
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-TC
   otherAppsIds:
@@ -44918,7 +44695,7 @@
   timeZones:
     - Africa/Ndjamena
   languages: []
-  locales:
+  localesIcu:
     - ar
     - ar-TD
     - fr
@@ -44967,15 +44744,13 @@
   timeZones:
     - Indian/Kerguelen
   languages: []
-  locales:
+  localesIcu:
     - br
     - br-FR
     - ca
     - ca-FR
     - fr
     - fr-FR
-    - gsw
-    - gsw-FR
   otherAppsIds:
     geoNamesOrg: 1546748
 - officialName:
@@ -45021,7 +44796,7 @@
   timeZones:
     - Africa/Lome
   languages: []
-  locales:
+  localesIcu:
     - ee
     - ee-TG
     - fr
@@ -45062,7 +44837,7 @@
   timeZones:
     - Asia/Bangkok
   languages: []
-  locales:
+  localesIcu:
     - th
     - th-TH
   otherAppsIds:
@@ -45126,9 +44901,7 @@
   timeZones:
     - Asia/Dushanbe
   languages: []
-  locales:
-    - tg
-    - tg-TJ
+  localesIcu: []
   otherAppsIds:
     geoNamesOrg: 1220409
 - officialName:
@@ -45178,7 +44951,7 @@
   timeZones:
     - Pacific/Fakaofo
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-TK
   otherAppsIds:
@@ -45225,7 +44998,7 @@
   timeZones:
     - Asia/Dili
   languages: []
-  locales:
+  localesIcu:
     - pt
     - pt-TL
   otherAppsIds:
@@ -45842,7 +45615,7 @@
     - Asia/Ashgabat
     - Asia/Ashkhabad
   languages: []
-  locales:
+  localesIcu:
     - tk
     - tk-TM
   otherAppsIds:
@@ -45881,7 +45654,7 @@
   timeZones:
     - Africa/Tunis
   languages: []
-  locales:
+  localesIcu:
     - ar
     - ar-TN
     - fr
@@ -45925,7 +45698,7 @@
   timeZones:
     - Pacific/Tongatapu
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-TO
     - to
@@ -45967,7 +45740,7 @@
     - Europe/Istanbul
     - Asia/Istanbul
   languages: []
-  locales:
+  localesIcu:
     - ku
     - ku-TR
     - tr
@@ -46007,7 +45780,7 @@
   timeZones:
     - America/Port_of_Spain
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-TT
   otherAppsIds:
@@ -46072,7 +45845,7 @@
   timeZones:
     - Pacific/Funafuti
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-TV
   otherAppsIds:
@@ -46114,7 +45887,7 @@
   timeZones:
     - Asia/Taipei
   languages: []
-  locales:
+  localesIcu:
     - zh
     - zh-TW
   otherAppsIds:
@@ -46153,33 +45926,11 @@
   timeZones:
     - Africa/Dar_es_Salaam
   languages: []
-  locales:
-    - asa
-    - asa-TZ
-    - bez
-    - bez-TZ
+  localesIcu:
     - en
     - en-TZ
-    - jmc
-    - jmc-TZ
-    - kde
-    - kde-TZ
-    - ksb
-    - ksb-TZ
-    - lag
-    - lag-TZ
-    - mas
-    - mas-TZ
-    - rof
-    - rof-TZ
-    - rwk
-    - rwk-TZ
-    - sbp
-    - sbp-TZ
     - sw
     - sw-TZ
-    - vun
-    - vun-TZ
   otherAppsIds:
     geoNamesOrg: 149590
 - officialName:
@@ -46216,7 +45967,7 @@
     - Europe/Uzhgorod
     - Europe/Zaporozhye
   languages: []
-  locales:
+  localesIcu:
     - ru
     - ru-UA
     - uk
@@ -46317,21 +46068,11 @@
   timeZones:
     - Africa/Kampala
   languages: []
-  locales:
-    - cgg
-    - cgg-UG
+  localesIcu:
     - en
     - en-UG
-    - lg
-    - lg-UG
-    - nyn
-    - nyn-UG
     - sw
     - sw-UG
-    - teo
-    - teo-UG
-    - xog
-    - xog-UG
   otherAppsIds:
     geoNamesOrg: 226074
 - officialName:
@@ -46385,7 +46126,7 @@
     - Pacific/Wake
     - Pacific/Johnston
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-UM
   otherAppsIds:
@@ -46486,7 +46227,7 @@
     - US/Pacific
     - US/Samoa
   languages: []
-  locales:
+  localesIcu:
     - chr
     - chr-US
     - en
@@ -46551,7 +46292,7 @@
   timeZones:
     - America/Montevideo
   languages: []
-  locales:
+  localesIcu:
     - es
     - es-UY
   otherAppsIds:
@@ -46610,7 +46351,7 @@
     - Asia/Samarkand
     - Asia/Tashkent
   languages: []
-  locales:
+  localesIcu:
     - uz
     - uz-Cyrl
     - uz-Cyrl-UZ
@@ -47197,7 +46938,7 @@
   timeZones:
     - Europe/Vatican
   languages: []
-  locales:
+  localesIcu:
     - it
     - it-VA
   otherAppsIds:
@@ -47238,7 +46979,7 @@
   timeZones:
     - America/St_Vincent
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-VC
   otherAppsIds:
@@ -47289,7 +47030,7 @@
   timeZones:
     - America/Caracas
   languages: []
-  locales:
+  localesIcu:
     - es
     - es-VE
   otherAppsIds:
@@ -47559,7 +47300,7 @@
   timeZones:
     - America/Tortola
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-VG
   otherAppsIds:
@@ -47892,7 +47633,7 @@
   timeZones:
     - America/St_Thomas
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-VI
   otherAppsIds:
@@ -47934,7 +47675,7 @@
     - Asia/Ho_Chi_Minh
     - Asia/Saigon
   languages: []
-  locales:
+  localesIcu:
     - vi
     - vi-VN
   otherAppsIds:
@@ -48013,7 +47754,7 @@
   timeZones:
     - Pacific/Efate
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-VU
     - fr
@@ -48056,7 +47797,7 @@
   timeZones:
     - Pacific/Wallis
   languages: []
-  locales:
+  localesIcu:
     - fr
     - fr-WF
   otherAppsIds:
@@ -48105,7 +47846,7 @@
     - Pacific/Apia
     - Pacific/Samoa
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-WS
   otherAppsIds:
@@ -48387,7 +48128,7 @@
   timeZones:
     - Europe/Belgrade
   languages: []
-  locales:
+  localesIcu:
     - sq
     - sq-AL
     - sr
@@ -48431,7 +48172,7 @@
   timeZones:
     - Asia/Aden
   languages: []
-  locales:
+  localesIcu:
     - ar
     - ar-YE
   otherAppsIds:
@@ -48471,7 +48212,7 @@
   timeZones:
     - Indian/Mayotte
   languages: []
-  locales:
+  localesIcu:
     - fr
     - fr-YT
   otherAppsIds:
@@ -48533,7 +48274,7 @@
   timeZones:
     - Africa/Johannesburg
   languages: []
-  locales:
+  localesIcu:
     - af
     - af-ZA
     - en
@@ -48692,9 +48433,7 @@
   timeZones:
     - Africa/Lusaka
   languages: []
-  locales:
-    - bem
-    - bem-ZM
+  localesIcu:
     - en
     - en-ZM
   otherAppsIds:
@@ -48784,12 +48523,8 @@
   timeZones:
     - Africa/Harare
   languages: []
-  locales:
+  localesIcu:
     - en
     - en-ZW
-    - nd
-    - nd-ZW
-    - sn
-    - sn-ZW
   otherAppsIds:
     geoNamesOrg: 878675

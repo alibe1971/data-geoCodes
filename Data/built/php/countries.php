@@ -57,7 +57,7 @@ return [
             'Europe/Andorra'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ca',
             'ca-AD'
         ],
@@ -103,7 +103,7 @@ return [
             'Asia/Dubai'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ar',
             'ar-AE'
         ],
@@ -150,7 +150,7 @@ return [
             'Asia/Kabul'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'fa',
             'fa-AF',
             'ps',
@@ -201,7 +201,7 @@ return [
             'America/Antigua'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-AG'
         ],
@@ -247,7 +247,7 @@ return [
             'America/Anguilla'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-AI'
         ],
@@ -293,7 +293,7 @@ return [
             'Europe/Tirane'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'sq',
             'sq-AL'
         ],
@@ -339,7 +339,7 @@ return [
             'Asia/Yerevan'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'hy',
             'hy-AM'
         ],
@@ -385,7 +385,7 @@ return [
             'Africa/Luanda'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ln',
             'ln-AO',
             'pt',
@@ -437,7 +437,7 @@ return [
             'Antarctica/Vostok'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-FI',
             'fi',
@@ -462,24 +462,12 @@ return [
             'es-UY',
             'es-CL',
             'es-AR',
-            'ce',
-            'ce-RU',
-            'cu',
-            'cu-RU',
-            'os',
-            'os-RU',
             'ru',
             'ru-RU',
-            'sah',
-            'sah-RU',
-            'tt',
-            'tt-RU',
             'ca',
             'ca-IT',
             'de',
             'de-IT',
-            'fur',
-            'fur-IT',
             'it',
             'it-IT',
             'en-AU',
@@ -491,31 +479,17 @@ return [
             'ca-FR',
             'fr',
             'fr-FR',
-            'gsw',
-            'gsw-FR',
             'ja',
             'ja-JP',
             'cy',
             'cy-GB',
             'en-GB',
-            'gd',
-            'gd-GB',
-            'gv',
-            'gv-GB',
-            'kw',
-            'kw-GB',
-            'ast',
-            'ast-ES',
             'ca-ES',
             'es-ES',
-            'eu',
-            'eu-ES',
             'gl',
             'gl-ES',
             'bo',
             'bo-CN',
-            'ii',
-            'ii-CN',
             'ug',
             'ug-CN',
             'zh',
@@ -528,20 +502,14 @@ return [
             'fy-DE',
             'hsb',
             'hsb-DE',
-            'ksh',
-            'ksh-DE',
             'ro',
             'ro-RO',
             'es-PE',
-            'qu',
-            'qu-PE',
             'as',
             'as-IN',
             'bn',
             'bn-IN',
             'bo-IN',
-            'brx',
-            'brx-IN',
             'en-IN',
             'gu',
             'gu-IN',
@@ -551,8 +519,6 @@ return [
             'kn-IN',
             'kok',
             'kok-IN',
-            'ks',
-            'ks-IN',
             'ml',
             'ml-IN',
             'mr',
@@ -562,8 +528,6 @@ return [
             'or',
             'or-IN',
             'pa',
-            'pa-Guru',
-            'pa-Guru-IN',
             'ta',
             'ta-IN',
             'te',
@@ -571,7 +535,6 @@ return [
             'ur',
             'ur-IN',
             'es-EC',
-            'qu-EC',
             'cs',
             'cs-CZ',
             'be',
@@ -587,8 +550,6 @@ return [
             'zu',
             'zu-ZA',
             'en-NZ',
-            'mi',
-            'mi-NZ',
             'ko',
             'ko-KR',
             'en-SE',
@@ -663,7 +624,7 @@ return [
             'America/Rosario'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'es',
             'es-AR'
         ],
@@ -710,7 +671,7 @@ return [
             'Pacific/Pago_Pago'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-AS'
         ],
@@ -754,7 +715,7 @@ return [
             'Europe/Vienna'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'de',
             'de-AT',
             'en',
@@ -822,7 +783,7 @@ return [
             'Australia/Yancowinna'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-AU'
         ],
@@ -869,7 +830,7 @@ return [
             'America/Aruba'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'nl',
             'nl-AW'
         ],
@@ -913,7 +874,7 @@ return [
             'Europe/Mariehamn'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'sv',
             'sv-AX'
         ],
@@ -957,7 +918,7 @@ return [
             'Asia/Baku'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'az',
             'az-Cyrl',
             'az-Cyrl-AZ',
@@ -1009,7 +970,7 @@ return [
             'Europe/Sarajevo'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'bs',
             'bs-BA',
             'hr',
@@ -1062,7 +1023,7 @@ return [
             'America/Barbados'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-BB'
         ],
@@ -1109,7 +1070,7 @@ return [
             'Asia/Dacca'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'bn',
             'bn-BD'
         ],
@@ -1159,7 +1120,7 @@ return [
             'Europe/Brussels'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'de',
             'de-BE',
             'en',
@@ -1211,7 +1172,7 @@ return [
             'Africa/Ouagadougou'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'fr',
             'fr-BF'
         ],
@@ -1257,7 +1218,7 @@ return [
             'Europe/Sofia'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'bg',
             'bg-BG'
         ],
@@ -1301,7 +1262,7 @@ return [
             'Asia/Bahrain'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ar',
             'ar-BH'
         ],
@@ -1348,13 +1309,11 @@ return [
             'Africa/Bujumbura'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-BI',
             'fr',
-            'fr-BI',
-            'rn',
-            'rn-BI'
+            'fr-BI'
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 433561
@@ -1398,7 +1357,7 @@ return [
             'Africa/Porto-Novo'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'fr',
             'fr-BJ',
             'yo',
@@ -1446,7 +1405,7 @@ return [
             'America/St_Barthelemy'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'fr',
             'fr-BL'
         ],
@@ -1492,7 +1451,7 @@ return [
             'Atlantic/Bermuda'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-BM'
         ],
@@ -1539,7 +1498,7 @@ return [
             'Asia/Brunei'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ms',
             'ms-BN'
         ],
@@ -1588,11 +1547,9 @@ return [
             'America/La_Paz'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'es',
-            'es-BO',
-            'qu',
-            'qu-BO'
+            'es-BO'
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 3923057
@@ -1638,7 +1595,7 @@ return [
             'America/Kralendijk'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'nl',
             'nl-BQ'
         ],
@@ -1704,7 +1661,7 @@ return [
             'Brazil/West'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'es',
             'es-BR',
             'pt',
@@ -1752,7 +1709,7 @@ return [
             'America/Nassau'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-BS'
         ],
@@ -1797,7 +1754,7 @@ return [
             'Asia/Thimbu'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'dz',
             'dz-BT'
         ],
@@ -1839,7 +1796,7 @@ return [
             'Etc/UTC'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'nb',
             'nb-NO',
             'nn',
@@ -1890,7 +1847,7 @@ return [
             'Africa/Gaborone'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-BW'
         ],
@@ -1935,7 +1892,7 @@ return [
             'Europe/Minsk'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'be',
             'be-BY',
             'ru',
@@ -1983,7 +1940,7 @@ return [
             'America/Belize'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-BZ',
             'es',
@@ -2069,7 +2026,7 @@ return [
             'Canada/Yukon'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-CA',
             'fr',
@@ -2117,7 +2074,7 @@ return [
             'Indian/Cocos'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-CC'
         ],
@@ -2164,13 +2121,11 @@ return [
             'Africa/Lubumbashi'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'fr',
             'fr-CD',
             'ln',
             'ln-CD',
-            'lu',
-            'lu-CD',
             'sw',
             'sw-CD'
         ],
@@ -2217,13 +2172,11 @@ return [
             'Africa/Bangui'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'fr',
             'fr-CF',
             'ln',
-            'ln-CF',
-            'sg',
-            'sg-CF'
+            'ln-CF'
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 239880
@@ -2267,7 +2220,7 @@ return [
             'Africa/Brazzaville'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'fr',
             'fr-CG',
             'ln',
@@ -2323,21 +2276,17 @@ return [
             'Europe/Zurich'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'de',
             'de-CH',
             'en',
             'en-CH',
             'fr',
             'fr-CH',
-            'gsw',
-            'gsw-CH',
             'it',
             'it-CH',
             'pt',
             'pt-CH',
-            'rm',
-            'rm-CH',
             'wae',
             'wae-CH'
         ],
@@ -2383,7 +2332,7 @@ return [
             'Africa/Abidjan'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'fr',
             'fr-CI'
         ],
@@ -2428,7 +2377,7 @@ return [
             'Pacific/Rarotonga'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-CK'
         ],
@@ -2478,7 +2427,7 @@ return [
             'Chile/EasterIsland'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'es',
             'es-CL'
         ],
@@ -2526,37 +2475,13 @@ return [
             'Africa/Douala'
         ],
         'languages' => [],
-        'locales' => [
-            'agq',
-            'agq-CM',
-            'bas',
-            'bas-CM',
-            'dua',
-            'dua-CM',
+        'localesIcu' => [
             'en',
             'en-CM',
-            'ewo',
-            'ewo-CM',
             'ff',
             'ff-CM',
             'fr',
-            'fr-CM',
-            'jgo',
-            'jgo-CM',
-            'kkj',
-            'kkj-CM',
-            'ksf',
-            'ksf-CM',
-            'mgo',
-            'mgo-CM',
-            'mua',
-            'mua-CM',
-            'nmg',
-            'nmg-CM',
-            'nnh',
-            'nnh-CM',
-            'yav',
-            'yav-CM'
+            'fr-CM'
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 2233387
@@ -2603,11 +2528,9 @@ return [
             'Asia/Kashgar'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'bo',
             'bo-CN',
-            'ii',
-            'ii-CN',
             'ug',
             'ug-CN',
             'zh',
@@ -2655,7 +2578,7 @@ return [
             'America/Bogota'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'es',
             'es-CO'
         ],
@@ -2701,7 +2624,7 @@ return [
             'America/Costa_Rica'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'es',
             'es-CR'
         ],
@@ -2747,7 +2670,7 @@ return [
             'America/Havana'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'es',
             'es-CU'
         ],
@@ -2793,9 +2716,7 @@ return [
             'Atlantic/Cape_Verde'
         ],
         'languages' => [],
-        'locales' => [
-            'kea',
-            'kea-CV',
+        'localesIcu' => [
             'pt',
             'pt-CV'
         ],
@@ -2842,7 +2763,7 @@ return [
             'America/Curacao'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'nl',
             'nl-CW'
         ],
@@ -2886,7 +2807,7 @@ return [
             'Indian/Christmas'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-CX'
         ],
@@ -2933,7 +2854,7 @@ return [
             'Europe/Nicosia'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'el',
             'el-CY',
             'en',
@@ -2983,7 +2904,7 @@ return [
             'Europe/Prague'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'cs',
             'cs-CZ'
         ],
@@ -3028,7 +2949,7 @@ return [
             'Europe/Busingen'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'de',
             'de-DE',
             'dsb',
@@ -3038,9 +2959,7 @@ return [
             'fy',
             'fy-DE',
             'hsb',
-            'hsb-DE',
-            'ksh',
-            'ksh-DE'
+            'hsb-DE'
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 2921044
@@ -3086,13 +3005,11 @@ return [
             'Africa/Djibouti'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ar',
             'ar-DJ',
             'fr',
-            'fr-DJ',
-            'so',
-            'so-DJ'
+            'fr-DJ'
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 223816
@@ -3136,7 +3053,7 @@ return [
             'Europe/Copenhagen'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'da',
             'da-DK',
             'en',
@@ -3186,7 +3103,7 @@ return [
             'America/Dominica'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-DM'
         ],
@@ -3232,7 +3149,7 @@ return [
             'America/Santo_Domingo'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'es',
             'es-DO'
         ],
@@ -3280,13 +3197,11 @@ return [
             'Africa/Algiers'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ar',
             'ar-DZ',
             'fr',
-            'fr-DZ',
-            'kab',
-            'kab-DZ'
+            'fr-DZ'
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 2589581
@@ -3331,11 +3246,9 @@ return [
             'Pacific/Galapagos'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'es',
-            'es-EC',
-            'qu',
-            'qu-EC'
+            'es-EC'
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 3658394
@@ -3377,7 +3290,7 @@ return [
             'Europe/Tallinn'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'et',
             'et-EE'
         ],
@@ -3423,7 +3336,7 @@ return [
             'Africa/Cairo'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ar',
             'ar-EG'
         ],
@@ -3469,7 +3382,7 @@ return [
             'Africa/El_Aaiun'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ar',
             'ar-EH'
         ],
@@ -3517,13 +3430,11 @@ return [
             'Africa/Asmera'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ar',
             'ar-ER',
             'en',
-            'en-ER',
-            'ti',
-            'ti-ER'
+            'en-ER'
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 338010
@@ -3569,15 +3480,11 @@ return [
             'Europe/Madrid'
         ],
         'languages' => [],
-        'locales' => [
-            'ast',
-            'ast-ES',
+        'localesIcu' => [
             'ca',
             'ca-ES',
             'es',
             'es-ES',
-            'eu',
-            'eu-ES',
             'gl',
             'gl-ES'
         ],
@@ -3623,15 +3530,11 @@ return [
             'Africa/Addis_Ababa'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'am',
             'am-ET',
             'om',
-            'om-ET',
-            'so',
-            'so-ET',
-            'ti',
-            'ti-ET'
+            'om-ET'
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 337996
@@ -3674,7 +3577,7 @@ return [
             'Europe/Helsinki'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-FI',
             'fi',
@@ -3730,7 +3633,7 @@ return [
             'Pacific/Fiji'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-FJ'
         ],
@@ -3776,7 +3679,7 @@ return [
             'Atlantic/Stanley'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-FK'
         ],
@@ -3827,7 +3730,7 @@ return [
             'Pacific/Yap'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-FM'
         ],
@@ -3873,7 +3776,7 @@ return [
             'Atlantic/Faeroe'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'fo',
             'fo-FO'
         ],
@@ -3919,15 +3822,13 @@ return [
             'Europe/Paris'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'br',
             'br-FR',
             'ca',
             'ca-FR',
             'fr',
-            'fr-FR',
-            'gsw',
-            'gsw-FR'
+            'fr-FR'
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 3017382
@@ -3971,7 +3872,7 @@ return [
             'Africa/Libreville'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'fr',
             'fr-GA'
         ],
@@ -4018,17 +3919,11 @@ return [
             'Europe/Belfast'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'cy',
             'cy-GB',
             'en',
-            'en-GB',
-            'gd',
-            'gd-GB',
-            'gv',
-            'gv-GB',
-            'kw',
-            'kw-GB'
+            'en-GB'
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 2635167
@@ -4072,7 +3967,7 @@ return [
             'America/Grenada'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-GD'
         ],
@@ -4118,11 +4013,9 @@ return [
             'Asia/Tbilisi'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ka',
-            'ka-GE',
-            'os',
-            'os-GE'
+            'ka-GE'
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 614540
@@ -4166,7 +4059,7 @@ return [
             'America/Cayenne'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'fr',
             'fr-GF'
         ],
@@ -4210,7 +4103,7 @@ return [
             'Europe/Guernsey'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-GG'
         ],
@@ -4256,9 +4149,7 @@ return [
             'Africa/Accra'
         ],
         'languages' => [],
-        'locales' => [
-            'ak',
-            'ak-GH',
+        'localesIcu' => [
             'ee',
             'ee-GH',
             'en',
@@ -4308,7 +4199,7 @@ return [
             'Europe/Gibraltar'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-GI'
         ],
@@ -4356,7 +4247,7 @@ return [
             'America/Godthab'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'da',
             'da-GL',
             'kl',
@@ -4404,7 +4295,7 @@ return [
             'Africa/Banjul'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-GM'
         ],
@@ -4450,7 +4341,7 @@ return [
             'Africa/Conakry'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ff',
             'ff-GN',
             'fr',
@@ -4496,7 +4387,7 @@ return [
             'America/Guadeloupe'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'fr',
             'fr-GP'
         ],
@@ -4544,7 +4435,7 @@ return [
             'Africa/Malabo'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'es',
             'es-GQ',
             'fr',
@@ -4594,7 +4485,7 @@ return [
             'Europe/Athens'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'el',
             'el-GR'
         ],
@@ -4638,17 +4529,11 @@ return [
             'Atlantic/South_Georgia'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'cy',
             'cy-GB',
             'en',
-            'en-GB',
-            'gd',
-            'gd-GB',
-            'gv',
-            'gv-GB',
-            'kw',
-            'kw-GB'
+            'en-GB'
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 3474415
@@ -4692,7 +4577,7 @@ return [
             'America/Guatemala'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'es',
             'es-GT'
         ],
@@ -4740,7 +4625,7 @@ return [
             'Pacific/Guam'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-GU'
         ],
@@ -4786,7 +4671,7 @@ return [
             'Africa/Bissau'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'pt',
             'pt-GW'
         ],
@@ -4832,7 +4717,7 @@ return [
             'America/Guyana'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-GY'
         ],
@@ -4876,11 +4761,9 @@ return [
             'Asia/Hong_Kong'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-HK',
-            'yue',
-            'yue-HK',
             'zh',
             'zh-HK'
         ],
@@ -4924,7 +4807,7 @@ return [
             'Etc/GMT-5'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-AU'
         ],
@@ -4970,7 +4853,7 @@ return [
             'America/Tegucigalpa'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'es',
             'es-HN'
         ],
@@ -5014,7 +4897,7 @@ return [
             'Europe/Zagreb'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'hr',
             'hr-HR'
         ],
@@ -5061,7 +4944,7 @@ return [
             'America/Port-au-Prince'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'fr',
             'fr-HT'
         ],
@@ -5105,7 +4988,7 @@ return [
             'Europe/Budapest'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'hu',
             'hu-HU'
         ],
@@ -5155,11 +5038,9 @@ return [
             'Asia/Ujung_Pandang'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'id',
-            'id-ID',
-            'jv',
-            'jv-ID'
+            'id-ID'
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 1643084
@@ -5202,7 +5083,7 @@ return [
             'Europe/Dublin'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-IE',
             'ga',
@@ -5249,7 +5130,7 @@ return [
             'Asia/Tel_Aviv'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ar',
             'ar-IL',
             'en',
@@ -5300,7 +5181,7 @@ return [
             'Europe/Isle_of_Man'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-IM'
         ],
@@ -5348,15 +5229,13 @@ return [
             'Asia/Calcutta'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'as',
             'as-IN',
             'bn',
             'bn-IN',
             'bo',
             'bo-IN',
-            'brx',
-            'brx-IN',
             'en',
             'en-IN',
             'gu',
@@ -5367,8 +5246,6 @@ return [
             'kn-IN',
             'kok',
             'kok-IN',
-            'ks',
-            'ks-IN',
             'ml',
             'ml-IN',
             'mr',
@@ -5378,8 +5255,6 @@ return [
             'or',
             'or-IN',
             'pa',
-            'pa-Guru',
-            'pa-Guru-IN',
             'ta',
             'ta-IN',
             'te',
@@ -5429,7 +5304,7 @@ return [
             'Indian/Chagos'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-IO'
         ],
@@ -5474,13 +5349,9 @@ return [
             'Asia/Baghdad'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ar',
-            'ar-IQ',
-            'ckb',
-            'ckb-IQ',
-            'lrc',
-            'lrc-IQ'
+            'ar-IQ'
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 99237
@@ -5524,9 +5395,7 @@ return [
             'Asia/Tehran'
         ],
         'languages' => [],
-        'locales' => [
-            'ckb',
-            'ckb-IR',
+        'localesIcu' => [
             'fa',
             'fa-IR'
         ],
@@ -5570,7 +5439,7 @@ return [
             'Atlantic/Reykjavik'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'is',
             'is-IS'
         ],
@@ -5614,13 +5483,11 @@ return [
             'Europe/Rome'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ca',
             'ca-IT',
             'de',
             'de-IT',
-            'fur',
-            'fur-IT',
             'it',
             'it-IT'
         ],
@@ -5666,7 +5533,7 @@ return [
             'Europe/Jersey'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-JE'
         ],
@@ -5713,7 +5580,7 @@ return [
             'America/Jamaica'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-JM'
         ],
@@ -5759,7 +5626,7 @@ return [
             'Asia/Amman'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ar',
             'ar-JO'
         ],
@@ -5803,7 +5670,7 @@ return [
             'Asia/Tokyo'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ja',
             'ja-JP'
         ],
@@ -5850,39 +5717,13 @@ return [
             'Africa/Nairobi'
         ],
         'languages' => [],
-        'locales' => [
-            'dav',
-            'dav-KE',
-            'ebu',
-            'ebu-KE',
+        'localesIcu' => [
             'en',
             'en-KE',
-            'guz',
-            'guz-KE',
-            'kam',
-            'kam-KE',
-            'ki',
-            'ki-KE',
-            'kln',
-            'kln-KE',
-            'luo',
-            'luo-KE',
-            'luy',
-            'luy-KE',
-            'mas',
-            'mas-KE',
-            'mer',
-            'mer-KE',
             'om',
             'om-KE',
-            'saq',
-            'saq-KE',
-            'so',
-            'so-KE',
             'sw',
-            'sw-KE',
-            'teo',
-            'teo-KE'
+            'sw-KE'
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 192950
@@ -5925,7 +5766,7 @@ return [
             'Asia/Bishkek'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ky',
             'ky-KG',
             'ru',
@@ -5973,7 +5814,7 @@ return [
             'Asia/Phnom_Penh'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'km',
             'km-KH'
         ],
@@ -6022,7 +5863,7 @@ return [
             'Pacific/Enderbury'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-KI'
         ],
@@ -6071,7 +5912,7 @@ return [
             'Indian/Comoro'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ar',
             'ar-KM',
             'fr',
@@ -6119,7 +5960,7 @@ return [
             'America/St_Kitts'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-KN'
         ],
@@ -6165,7 +6006,7 @@ return [
             'Asia/Pyongyang'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ko',
             'ko-KP'
         ],
@@ -6211,7 +6052,7 @@ return [
             'Asia/Seoul'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ko',
             'ko-KR'
         ],
@@ -6255,7 +6096,7 @@ return [
             'Asia/Kuwait'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ar',
             'ar-KW'
         ],
@@ -6301,7 +6142,7 @@ return [
             'America/Cayman'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-KY'
         ],
@@ -6352,7 +6193,7 @@ return [
             'Asia/Qyzylorda'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'kk',
             'kk-KZ',
             'ru',
@@ -6400,7 +6241,7 @@ return [
             'Asia/Vientiane'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'lo',
             'lo-LA'
         ],
@@ -6446,7 +6287,7 @@ return [
             'Asia/Beirut'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ar',
             'ar-LB'
         ],
@@ -6492,7 +6333,7 @@ return [
             'America/St_Lucia'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-LC'
         ],
@@ -6539,11 +6380,9 @@ return [
             'Europe/Vaduz'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'de',
-            'de-LI',
-            'gsw',
-            'gsw-LI'
+            'de-LI'
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 3042058
@@ -6589,7 +6428,7 @@ return [
             'Asia/Colombo'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'si',
             'si-LK',
             'ta',
@@ -6637,14 +6476,9 @@ return [
             'Africa/Monrovia'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
-            'en-LR',
-            'vai',
-            'vai-Latn',
-            'vai-Latn-LR',
-            'vai-Vaii',
-            'vai-Vaii-LR'
+            'en-LR'
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 2275384
@@ -6689,7 +6523,7 @@ return [
             'Africa/Maseru'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-LS'
         ],
@@ -6735,7 +6569,7 @@ return [
             'Europe/Vilnius'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'lt',
             'lt-LT'
         ],
@@ -6785,7 +6619,7 @@ return [
             'Europe/Luxembourg'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'de',
             'de-LU',
             'fr',
@@ -6835,7 +6669,7 @@ return [
             'Europe/Riga'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'lv',
             'lv-LV'
         ],
@@ -6879,7 +6713,7 @@ return [
             'Africa/Tripoli'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ar',
             'ar-LY'
         ],
@@ -6927,21 +6761,11 @@ return [
             'Africa/Casablanca'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ar',
             'ar-MA',
             'fr',
-            'fr-MA',
-            'shi',
-            'shi-Latn',
-            'shi-Latn-MA',
-            'shi-Tfng',
-            'shi-Tfng-MA',
-            'tzm',
-            'tzm-Latn',
-            'tzm-Latn-MA',
-            'zgh',
-            'zgh-MA'
+            'fr-MA'
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 2542007
@@ -6985,7 +6809,7 @@ return [
             'Europe/Monaco'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'fr',
             'fr-MC'
         ],
@@ -7030,7 +6854,7 @@ return [
             'Europe/Tiraspol'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ro',
             'ro-MD',
             'ru',
@@ -7080,7 +6904,7 @@ return [
             'Europe/Podgorica'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'sr',
             'sr-Cyrl',
             'sr-Cyrl-ME',
@@ -7127,7 +6951,7 @@ return [
             'America/Marigot'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'fr',
             'fr-MF'
         ],
@@ -7174,13 +6998,11 @@ return [
             'Indian/Antananarivo'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-MG',
             'fr',
-            'fr-MG',
-            'mg',
-            'mg-MG'
+            'fr-MG'
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 1062947
@@ -7226,7 +7048,7 @@ return [
             'Pacific/Majuro'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-MH'
         ],
@@ -7271,7 +7093,7 @@ return [
             'Europe/Skopje'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'mk',
             'mk-MK',
             'sq',
@@ -7320,15 +7142,9 @@ return [
             'Africa/Timbuktu'
         ],
         'languages' => [],
-        'locales' => [
-            'bm',
-            'bm-ML',
+        'localesIcu' => [
             'fr',
-            'fr-ML',
-            'khq',
-            'khq-ML',
-            'ses',
-            'ses-ML'
+            'fr-ML'
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 2453866
@@ -7371,7 +7187,7 @@ return [
             'Asia/Rangoon'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'my',
             'my-MM'
         ],
@@ -7418,7 +7234,7 @@ return [
             'Asia/Ulan_Bator'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'mn',
             'mn-MN'
         ],
@@ -7465,7 +7281,7 @@ return [
             'Asia/Macao'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-MO',
             'pt',
@@ -7513,7 +7329,7 @@ return [
             'Pacific/Saipan'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-MP'
         ],
@@ -7557,7 +7373,7 @@ return [
             'America/Martinique'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'fr',
             'fr-MQ'
         ],
@@ -7604,7 +7420,7 @@ return [
             'Africa/Nouakchott'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ar',
             'ar-MR',
             'ff',
@@ -7654,7 +7470,7 @@ return [
             'America/Montserrat'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-MS'
         ],
@@ -7701,7 +7517,7 @@ return [
             'Europe/Malta'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-MT',
             'mt',
@@ -7750,13 +7566,11 @@ return [
             'Indian/Mauritius'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-MU',
             'fr',
-            'fr-MU',
-            'mfe',
-            'mfe-MU'
+            'fr-MU'
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 934292
@@ -7800,10 +7614,7 @@ return [
             'Indian/Maldives'
         ],
         'languages' => [],
-        'locales' => [
-            'dv',
-            'dv-MV'
-        ],
+        'localesIcu' => [],
         'otherAppsIds' => [
             'geoNamesOrg' => 1282028
         ]
@@ -7847,7 +7658,7 @@ return [
             'Africa/Blantyre'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-MW'
         ],
@@ -7908,7 +7719,7 @@ return [
             'Mexico/General'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'es',
             'es-MX'
         ],
@@ -7955,7 +7766,7 @@ return [
             'Asia/Kuching'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-MY',
             'ms',
@@ -8003,13 +7814,9 @@ return [
             'Africa/Maputo'
         ],
         'languages' => [],
-        'locales' => [
-            'mgh',
-            'mgh-MZ',
+        'localesIcu' => [
             'pt',
-            'pt-MZ',
-            'seh',
-            'seh-MZ'
+            'pt-MZ'
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 1036973
@@ -8053,13 +7860,11 @@ return [
             'Africa/Windhoek'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'af',
             'af-NA',
             'en',
-            'en-NA',
-            'naq',
-            'naq-NA'
+            'en-NA'
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 3355338
@@ -8101,7 +7906,7 @@ return [
             'Pacific/Noumea'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'fr',
             'fr-NC'
         ],
@@ -8147,15 +7952,11 @@ return [
             'Africa/Niamey'
         ],
         'languages' => [],
-        'locales' => [
-            'dje',
-            'dje-NE',
+        'localesIcu' => [
             'fr',
             'fr-NE',
             'ha',
-            'ha-NE',
-            'twq',
-            'twq-NE'
+            'ha-NE'
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 2440476
@@ -8199,7 +8000,7 @@ return [
             'Pacific/Norfolk'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-NF'
         ],
@@ -8245,7 +8046,7 @@ return [
             'Africa/Lagos'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-NG',
             'ha',
@@ -8297,7 +8098,7 @@ return [
             'America/Managua'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'es',
             'es-NI'
         ],
@@ -8348,7 +8149,7 @@ return [
             'Europe/Amsterdam'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-NL',
             'fy',
@@ -8400,7 +8201,7 @@ return [
             'Europe/Oslo'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'nb',
             'nb-NO',
             'nn',
@@ -8451,7 +8252,7 @@ return [
             'Asia/Katmandu'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ne',
             'ne-NP'
         ],
@@ -8498,7 +8299,7 @@ return [
             'Pacific/Nauru'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-NR'
         ],
@@ -8544,7 +8345,7 @@ return [
             'Pacific/Niue'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-NU'
         ],
@@ -8590,11 +8391,9 @@ return [
             'Pacific/Chatham'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
-            'en-NZ',
-            'mi',
-            'mi-NZ'
+            'en-NZ'
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 2186224
@@ -8636,7 +8435,7 @@ return [
             'Asia/Muscat'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ar',
             'ar-OM'
         ],
@@ -8682,7 +8481,7 @@ return [
             'America/Panama'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'es',
             'es-PA'
         ],
@@ -8730,11 +8529,9 @@ return [
             'America/Lima'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'es',
-            'es-PE',
-            'qu',
-            'qu-PE'
+            'es-PE'
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 3932488
@@ -8782,7 +8579,7 @@ return [
             'Pacific/Tahiti'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'fr',
             'fr-PF'
         ],
@@ -8830,7 +8627,7 @@ return [
             'Pacific/Port_Moresby'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-PG'
         ],
@@ -8878,7 +8675,7 @@ return [
             'Asia/Manila'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-PH',
             'es',
@@ -8929,15 +8726,12 @@ return [
             'Asia/Karachi'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-PK',
             'pa',
             'pa-Arab',
             'pa-Arab-PK',
-            'sd',
-            'sd-Arab',
-            'sd-Arab-PK',
             'ur',
             'ur-PK'
         ],
@@ -8981,7 +8775,7 @@ return [
             'Europe/Warsaw'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'pl',
             'pl-PL'
         ],
@@ -9027,7 +8821,7 @@ return [
             'America/Miquelon'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'fr',
             'fr-PM'
         ],
@@ -9074,7 +8868,7 @@ return [
             'Pacific/Pitcairn'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-PN'
         ],
@@ -9122,7 +8916,7 @@ return [
             'America/Puerto_Rico'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-PR',
             'es',
@@ -9167,7 +8961,7 @@ return [
             'Asia/Hebron'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ar',
             'ar-PS'
         ],
@@ -9213,7 +9007,7 @@ return [
             'Europe/Lisbon'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'pt',
             'pt-PT'
         ],
@@ -9260,7 +9054,7 @@ return [
             'Pacific/Palau'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-PW'
         ],
@@ -9308,7 +9102,7 @@ return [
             'America/Asuncion'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'es',
             'es-PY'
         ],
@@ -9354,7 +9148,7 @@ return [
             'Asia/Qatar'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ar',
             'ar-QA'
         ],
@@ -9400,7 +9194,7 @@ return [
             'Indian/Reunion'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'fr',
             'fr-RE'
         ],
@@ -9444,7 +9238,7 @@ return [
             'Europe/Bucharest'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ro',
             'ro-RO'
         ],
@@ -9491,7 +9285,7 @@ return [
             'Europe/Belgrade'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'sr',
             'sr-Cyrl',
             'sr-Cyrl-RS',
@@ -9564,19 +9358,9 @@ return [
             'Europe/Volgograd'
         ],
         'languages' => [],
-        'locales' => [
-            'ce',
-            'ce-RU',
-            'cu',
-            'cu-RU',
-            'os',
-            'os-RU',
+        'localesIcu' => [
             'ru',
-            'ru-RU',
-            'sah',
-            'sah-RU',
-            'tt',
-            'tt-RU'
+            'ru-RU'
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 2017370
@@ -9623,13 +9407,11 @@ return [
             'Africa/Kigali'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-RW',
             'fr',
-            'fr-RW',
-            'rw',
-            'rw-RW'
+            'fr-RW'
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 49518
@@ -9673,7 +9455,7 @@ return [
             'Asia/Riyadh'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ar',
             'ar-SA'
         ],
@@ -9719,7 +9501,7 @@ return [
             'Pacific/Guadalcanal'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-SB'
         ],
@@ -9767,7 +9549,7 @@ return [
             'Indian/Mahe'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-SC',
             'fr',
@@ -9816,13 +9598,11 @@ return [
             'Africa/Khartoum'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ar',
             'ar-SD',
             'en',
-            'en-SD',
-            'nus',
-            'nus-SD'
+            'en-SD'
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 366755
@@ -9866,7 +9646,7 @@ return [
             'Europe/Stockholm'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-SE',
             'se',
@@ -9919,7 +9699,7 @@ return [
             'Asia/Singapore'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-SG',
             'ms',
@@ -9971,7 +9751,7 @@ return [
             'Atlantic/St_Helena'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-SH'
         ],
@@ -10015,7 +9795,7 @@ return [
             'Europe/Ljubljana'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-SI',
             'sl',
@@ -10064,7 +9844,7 @@ return [
             'Atlantic/Jan_Mayen'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'nb',
             'nb-SJ'
         ],
@@ -10108,7 +9888,7 @@ return [
             'Europe/Bratislava'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'sk',
             'sk-SK'
         ],
@@ -10156,7 +9936,7 @@ return [
             'Africa/Freetown'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-SL'
         ],
@@ -10202,7 +9982,7 @@ return [
             'Europe/San_Marino'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'it',
             'it-SM'
         ],
@@ -10249,9 +10029,7 @@ return [
             'Africa/Dakar'
         ],
         'languages' => [],
-        'locales' => [
-            'dyo',
-            'dyo-SN',
+        'localesIcu' => [
             'ff',
             'ff-SN',
             'fr',
@@ -10300,11 +10078,9 @@ return [
             'Africa/Mogadishu'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ar',
-            'ar-SO',
-            'so',
-            'so-SO'
+            'ar-SO'
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 51537
@@ -10348,7 +10124,7 @@ return [
             'America/Paramaribo'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'nl',
             'nl-SR'
         ],
@@ -10394,7 +10170,7 @@ return [
             'Africa/Juba'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ar',
             'ar-SS',
             'en',
@@ -10442,7 +10218,7 @@ return [
             'Africa/Sao_Tome'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'pt',
             'pt-ST'
         ],
@@ -10488,7 +10264,7 @@ return [
             'America/El_Salvador'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'es',
             'es-SV'
         ],
@@ -10536,7 +10312,7 @@ return [
             'America/Lower_Princes'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-SX',
             'nl',
@@ -10584,7 +10360,7 @@ return [
             'Asia/Damascus'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ar',
             'ar-SY',
             'fr',
@@ -10633,7 +10409,7 @@ return [
             'Africa/Mbabane'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-SZ'
         ],
@@ -10679,7 +10455,7 @@ return [
             'America/Grand_Turk'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-TC'
         ],
@@ -10727,7 +10503,7 @@ return [
             'Africa/Ndjamena'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ar',
             'ar-TD',
             'fr',
@@ -10775,15 +10551,13 @@ return [
             'Indian/Kerguelen'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'br',
             'br-FR',
             'ca',
             'ca-FR',
             'fr',
-            'fr-FR',
-            'gsw',
-            'gsw-FR'
+            'fr-FR'
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 1546748
@@ -10827,7 +10601,7 @@ return [
             'Africa/Lome'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ee',
             'ee-TG',
             'fr',
@@ -10875,7 +10649,7 @@ return [
             'Asia/Bangkok'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'th',
             'th-TH'
         ],
@@ -10921,10 +10695,7 @@ return [
             'Asia/Dushanbe'
         ],
         'languages' => [],
-        'locales' => [
-            'tg',
-            'tg-TJ'
-        ],
+        'localesIcu' => [],
         'otherAppsIds' => [
             'geoNamesOrg' => 1220409
         ]
@@ -10967,7 +10738,7 @@ return [
             'Pacific/Fakaofo'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-TK'
         ],
@@ -11014,7 +10785,7 @@ return [
             'Asia/Dili'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'pt',
             'pt-TL'
         ],
@@ -11061,7 +10832,7 @@ return [
             'Asia/Ashkhabad'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'tk',
             'tk-TM'
         ],
@@ -11107,7 +10878,7 @@ return [
             'Africa/Tunis'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ar',
             'ar-TN',
             'fr',
@@ -11157,7 +10928,7 @@ return [
             'Pacific/Tongatapu'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-TO',
             'to',
@@ -11206,7 +10977,7 @@ return [
             'Asia/Istanbul'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ku',
             'ku-TR',
             'tr',
@@ -11254,7 +11025,7 @@ return [
             'America/Port_of_Spain'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-TT'
         ],
@@ -11302,7 +11073,7 @@ return [
             'Pacific/Funafuti'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-TV'
         ],
@@ -11346,7 +11117,7 @@ return [
             'Asia/Taipei'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'zh',
             'zh-TW'
         ],
@@ -11391,33 +11162,11 @@ return [
             'Africa/Dar_es_Salaam'
         ],
         'languages' => [],
-        'locales' => [
-            'asa',
-            'asa-TZ',
-            'bez',
-            'bez-TZ',
+        'localesIcu' => [
             'en',
             'en-TZ',
-            'jmc',
-            'jmc-TZ',
-            'kde',
-            'kde-TZ',
-            'ksb',
-            'ksb-TZ',
-            'lag',
-            'lag-TZ',
-            'mas',
-            'mas-TZ',
-            'rof',
-            'rof-TZ',
-            'rwk',
-            'rwk-TZ',
-            'sbp',
-            'sbp-TZ',
             'sw',
-            'sw-TZ',
-            'vun',
-            'vun-TZ'
+            'sw-TZ'
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 149590
@@ -11461,7 +11210,7 @@ return [
             'Europe/Zaporozhye'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ru',
             'ru-UA',
             'uk',
@@ -11510,21 +11259,11 @@ return [
             'Africa/Kampala'
         ],
         'languages' => [],
-        'locales' => [
-            'cgg',
-            'cgg-UG',
+        'localesIcu' => [
             'en',
             'en-UG',
-            'lg',
-            'lg-UG',
-            'nyn',
-            'nyn-UG',
             'sw',
-            'sw-UG',
-            'teo',
-            'teo-UG',
-            'xog',
-            'xog-UG'
+            'sw-UG'
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 226074
@@ -11572,7 +11311,7 @@ return [
             'Pacific/Johnston'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-UM'
         ],
@@ -11667,7 +11406,7 @@ return [
             'US/Samoa'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'chr',
             'chr-US',
             'en',
@@ -11721,7 +11460,7 @@ return [
             'America/Montevideo'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'es',
             'es-UY'
         ],
@@ -11767,7 +11506,7 @@ return [
             'Asia/Tashkent'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'uz',
             'uz-Cyrl',
             'uz-Cyrl-UZ',
@@ -11815,7 +11554,7 @@ return [
             'Europe/Vatican'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'it',
             'it-VA'
         ],
@@ -11861,7 +11600,7 @@ return [
             'America/St_Vincent'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-VC'
         ],
@@ -11907,7 +11646,7 @@ return [
             'America/Caracas'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'es',
             'es-VE'
         ],
@@ -11953,7 +11692,7 @@ return [
             'America/Tortola'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-VG'
         ],
@@ -11999,7 +11738,7 @@ return [
             'America/St_Thomas'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-VI'
         ],
@@ -12046,7 +11785,7 @@ return [
             'Asia/Saigon'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'vi',
             'vi-VN'
         ],
@@ -12096,7 +11835,7 @@ return [
             'Pacific/Efate'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-VU',
             'fr',
@@ -12145,7 +11884,7 @@ return [
             'Pacific/Wallis'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'fr',
             'fr-WF'
         ],
@@ -12192,7 +11931,7 @@ return [
             'Pacific/Samoa'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
             'en-WS'
         ],
@@ -12239,7 +11978,7 @@ return [
             'Europe/Belgrade'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'sq',
             'sq-AL',
             'sr',
@@ -12290,7 +12029,7 @@ return [
             'Asia/Aden'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'ar',
             'ar-YE'
         ],
@@ -12336,7 +12075,7 @@ return [
             'Indian/Mayotte'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'fr',
             'fr-YT'
         ],
@@ -12392,7 +12131,7 @@ return [
             'Africa/Johannesburg'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'af',
             'af-ZA',
             'en',
@@ -12444,9 +12183,7 @@ return [
             'Africa/Lusaka'
         ],
         'languages' => [],
-        'locales' => [
-            'bem',
-            'bem-ZM',
+        'localesIcu' => [
             'en',
             'en-ZM'
         ],
@@ -12505,13 +12242,9 @@ return [
             'Africa/Harare'
         ],
         'languages' => [],
-        'locales' => [
+        'localesIcu' => [
             'en',
-            'en-ZW',
-            'nd',
-            'nd-ZW',
-            'sn',
-            'sn-ZW'
+            'en-ZW'
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 878675

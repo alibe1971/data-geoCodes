@@ -37,7 +37,7 @@
             "Europe/Andorra"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ca",
             "ca-AD"
         ],
@@ -83,7 +83,7 @@
             "Asia/Dubai"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ar",
             "ar-AE"
         ],
@@ -130,7 +130,7 @@
             "Asia/Kabul"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "fa",
             "fa-AF",
             "ps",
@@ -181,7 +181,7 @@
             "America/Antigua"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-AG"
         ],
@@ -227,7 +227,7 @@
             "America/Anguilla"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-AI"
         ],
@@ -273,7 +273,7 @@
             "Europe/Tirane"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "sq",
             "sq-AL"
         ],
@@ -319,7 +319,7 @@
             "Asia/Yerevan"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "hy",
             "hy-AM"
         ],
@@ -365,7 +365,7 @@
             "Africa/Luanda"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ln",
             "ln-AO",
             "pt",
@@ -417,7 +417,7 @@
             "Antarctica/Vostok"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-FI",
             "fi",
@@ -442,24 +442,12 @@
             "es-UY",
             "es-CL",
             "es-AR",
-            "ce",
-            "ce-RU",
-            "cu",
-            "cu-RU",
-            "os",
-            "os-RU",
             "ru",
             "ru-RU",
-            "sah",
-            "sah-RU",
-            "tt",
-            "tt-RU",
             "ca",
             "ca-IT",
             "de",
             "de-IT",
-            "fur",
-            "fur-IT",
             "it",
             "it-IT",
             "en-AU",
@@ -471,31 +459,17 @@
             "ca-FR",
             "fr",
             "fr-FR",
-            "gsw",
-            "gsw-FR",
             "ja",
             "ja-JP",
             "cy",
             "cy-GB",
             "en-GB",
-            "gd",
-            "gd-GB",
-            "gv",
-            "gv-GB",
-            "kw",
-            "kw-GB",
-            "ast",
-            "ast-ES",
             "ca-ES",
             "es-ES",
-            "eu",
-            "eu-ES",
             "gl",
             "gl-ES",
             "bo",
             "bo-CN",
-            "ii",
-            "ii-CN",
             "ug",
             "ug-CN",
             "zh",
@@ -508,20 +482,14 @@
             "fy-DE",
             "hsb",
             "hsb-DE",
-            "ksh",
-            "ksh-DE",
             "ro",
             "ro-RO",
             "es-PE",
-            "qu",
-            "qu-PE",
             "as",
             "as-IN",
             "bn",
             "bn-IN",
             "bo-IN",
-            "brx",
-            "brx-IN",
             "en-IN",
             "gu",
             "gu-IN",
@@ -531,8 +499,6 @@
             "kn-IN",
             "kok",
             "kok-IN",
-            "ks",
-            "ks-IN",
             "ml",
             "ml-IN",
             "mr",
@@ -542,8 +508,6 @@
             "or",
             "or-IN",
             "pa",
-            "pa-Guru",
-            "pa-Guru-IN",
             "ta",
             "ta-IN",
             "te",
@@ -551,7 +515,6 @@
             "ur",
             "ur-IN",
             "es-EC",
-            "qu-EC",
             "cs",
             "cs-CZ",
             "be",
@@ -567,8 +530,6 @@
             "zu",
             "zu-ZA",
             "en-NZ",
-            "mi",
-            "mi-NZ",
             "ko",
             "ko-KR",
             "en-SE",
@@ -643,7 +604,7 @@
             "America/Rosario"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "es",
             "es-AR"
         ],
@@ -690,7 +651,7 @@
             "Pacific/Pago_Pago"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-AS"
         ],
@@ -734,7 +695,7 @@
             "Europe/Vienna"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "de",
             "de-AT",
             "en",
@@ -802,7 +763,7 @@
             "Australia/Yancowinna"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-AU"
         ],
@@ -849,7 +810,7 @@
             "America/Aruba"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "nl",
             "nl-AW"
         ],
@@ -893,7 +854,7 @@
             "Europe/Mariehamn"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "sv",
             "sv-AX"
         ],
@@ -937,7 +898,7 @@
             "Asia/Baku"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "az",
             "az-Cyrl",
             "az-Cyrl-AZ",
@@ -989,7 +950,7 @@
             "Europe/Sarajevo"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "bs",
             "bs-BA",
             "hr",
@@ -1042,7 +1003,7 @@
             "America/Barbados"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-BB"
         ],
@@ -1089,7 +1050,7 @@
             "Asia/Dacca"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "bn",
             "bn-BD"
         ],
@@ -1139,7 +1100,7 @@
             "Europe/Brussels"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "de",
             "de-BE",
             "en",
@@ -1191,7 +1152,7 @@
             "Africa/Ouagadougou"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "fr",
             "fr-BF"
         ],
@@ -1237,7 +1198,7 @@
             "Europe/Sofia"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "bg",
             "bg-BG"
         ],
@@ -1281,7 +1242,7 @@
             "Asia/Bahrain"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ar",
             "ar-BH"
         ],
@@ -1328,13 +1289,11 @@
             "Africa/Bujumbura"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-BI",
             "fr",
-            "fr-BI",
-            "rn",
-            "rn-BI"
+            "fr-BI"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 433561
@@ -1378,7 +1337,7 @@
             "Africa/Porto-Novo"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "fr",
             "fr-BJ",
             "yo",
@@ -1426,7 +1385,7 @@
             "America/St_Barthelemy"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "fr",
             "fr-BL"
         ],
@@ -1472,7 +1431,7 @@
             "Atlantic/Bermuda"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-BM"
         ],
@@ -1519,7 +1478,7 @@
             "Asia/Brunei"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ms",
             "ms-BN"
         ],
@@ -1568,11 +1527,9 @@
             "America/La_Paz"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "es",
-            "es-BO",
-            "qu",
-            "qu-BO"
+            "es-BO"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3923057
@@ -1618,7 +1575,7 @@
             "America/Kralendijk"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "nl",
             "nl-BQ"
         ],
@@ -1684,7 +1641,7 @@
             "Brazil/West"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "es",
             "es-BR",
             "pt",
@@ -1732,7 +1689,7 @@
             "America/Nassau"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-BS"
         ],
@@ -1777,7 +1734,7 @@
             "Asia/Thimbu"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "dz",
             "dz-BT"
         ],
@@ -1819,7 +1776,7 @@
             "Etc/UTC"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "nb",
             "nb-NO",
             "nn",
@@ -1870,7 +1827,7 @@
             "Africa/Gaborone"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-BW"
         ],
@@ -1915,7 +1872,7 @@
             "Europe/Minsk"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "be",
             "be-BY",
             "ru",
@@ -1963,7 +1920,7 @@
             "America/Belize"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-BZ",
             "es",
@@ -2049,7 +2006,7 @@
             "Canada/Yukon"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-CA",
             "fr",
@@ -2097,7 +2054,7 @@
             "Indian/Cocos"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-CC"
         ],
@@ -2144,13 +2101,11 @@
             "Africa/Lubumbashi"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "fr",
             "fr-CD",
             "ln",
             "ln-CD",
-            "lu",
-            "lu-CD",
             "sw",
             "sw-CD"
         ],
@@ -2197,13 +2152,11 @@
             "Africa/Bangui"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "fr",
             "fr-CF",
             "ln",
-            "ln-CF",
-            "sg",
-            "sg-CF"
+            "ln-CF"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 239880
@@ -2247,7 +2200,7 @@
             "Africa/Brazzaville"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "fr",
             "fr-CG",
             "ln",
@@ -2303,21 +2256,17 @@
             "Europe/Zurich"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "de",
             "de-CH",
             "en",
             "en-CH",
             "fr",
             "fr-CH",
-            "gsw",
-            "gsw-CH",
             "it",
             "it-CH",
             "pt",
             "pt-CH",
-            "rm",
-            "rm-CH",
             "wae",
             "wae-CH"
         ],
@@ -2363,7 +2312,7 @@
             "Africa/Abidjan"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "fr",
             "fr-CI"
         ],
@@ -2408,7 +2357,7 @@
             "Pacific/Rarotonga"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-CK"
         ],
@@ -2458,7 +2407,7 @@
             "Chile/EasterIsland"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "es",
             "es-CL"
         ],
@@ -2506,37 +2455,13 @@
             "Africa/Douala"
         ],
         "languages": [],
-        "locales": [
-            "agq",
-            "agq-CM",
-            "bas",
-            "bas-CM",
-            "dua",
-            "dua-CM",
+        "localesIcu": [
             "en",
             "en-CM",
-            "ewo",
-            "ewo-CM",
             "ff",
             "ff-CM",
             "fr",
-            "fr-CM",
-            "jgo",
-            "jgo-CM",
-            "kkj",
-            "kkj-CM",
-            "ksf",
-            "ksf-CM",
-            "mgo",
-            "mgo-CM",
-            "mua",
-            "mua-CM",
-            "nmg",
-            "nmg-CM",
-            "nnh",
-            "nnh-CM",
-            "yav",
-            "yav-CM"
+            "fr-CM"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2233387
@@ -2583,11 +2508,9 @@
             "Asia/Kashgar"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "bo",
             "bo-CN",
-            "ii",
-            "ii-CN",
             "ug",
             "ug-CN",
             "zh",
@@ -2635,7 +2558,7 @@
             "America/Bogota"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "es",
             "es-CO"
         ],
@@ -2681,7 +2604,7 @@
             "America/Costa_Rica"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "es",
             "es-CR"
         ],
@@ -2727,7 +2650,7 @@
             "America/Havana"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "es",
             "es-CU"
         ],
@@ -2773,9 +2696,7 @@
             "Atlantic/Cape_Verde"
         ],
         "languages": [],
-        "locales": [
-            "kea",
-            "kea-CV",
+        "localesIcu": [
             "pt",
             "pt-CV"
         ],
@@ -2822,7 +2743,7 @@
             "America/Curacao"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "nl",
             "nl-CW"
         ],
@@ -2866,7 +2787,7 @@
             "Indian/Christmas"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-CX"
         ],
@@ -2913,7 +2834,7 @@
             "Europe/Nicosia"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "el",
             "el-CY",
             "en",
@@ -2963,7 +2884,7 @@
             "Europe/Prague"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "cs",
             "cs-CZ"
         ],
@@ -3008,7 +2929,7 @@
             "Europe/Busingen"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "de",
             "de-DE",
             "dsb",
@@ -3018,9 +2939,7 @@
             "fy",
             "fy-DE",
             "hsb",
-            "hsb-DE",
-            "ksh",
-            "ksh-DE"
+            "hsb-DE"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2921044
@@ -3066,13 +2985,11 @@
             "Africa/Djibouti"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ar",
             "ar-DJ",
             "fr",
-            "fr-DJ",
-            "so",
-            "so-DJ"
+            "fr-DJ"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 223816
@@ -3116,7 +3033,7 @@
             "Europe/Copenhagen"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "da",
             "da-DK",
             "en",
@@ -3166,7 +3083,7 @@
             "America/Dominica"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-DM"
         ],
@@ -3212,7 +3129,7 @@
             "America/Santo_Domingo"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "es",
             "es-DO"
         ],
@@ -3260,13 +3177,11 @@
             "Africa/Algiers"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ar",
             "ar-DZ",
             "fr",
-            "fr-DZ",
-            "kab",
-            "kab-DZ"
+            "fr-DZ"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2589581
@@ -3311,11 +3226,9 @@
             "Pacific/Galapagos"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "es",
-            "es-EC",
-            "qu",
-            "qu-EC"
+            "es-EC"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3658394
@@ -3357,7 +3270,7 @@
             "Europe/Tallinn"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "et",
             "et-EE"
         ],
@@ -3403,7 +3316,7 @@
             "Africa/Cairo"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ar",
             "ar-EG"
         ],
@@ -3449,7 +3362,7 @@
             "Africa/El_Aaiun"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ar",
             "ar-EH"
         ],
@@ -3497,13 +3410,11 @@
             "Africa/Asmera"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ar",
             "ar-ER",
             "en",
-            "en-ER",
-            "ti",
-            "ti-ER"
+            "en-ER"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 338010
@@ -3549,15 +3460,11 @@
             "Europe/Madrid"
         ],
         "languages": [],
-        "locales": [
-            "ast",
-            "ast-ES",
+        "localesIcu": [
             "ca",
             "ca-ES",
             "es",
             "es-ES",
-            "eu",
-            "eu-ES",
             "gl",
             "gl-ES"
         ],
@@ -3603,15 +3510,11 @@
             "Africa/Addis_Ababa"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "am",
             "am-ET",
             "om",
-            "om-ET",
-            "so",
-            "so-ET",
-            "ti",
-            "ti-ET"
+            "om-ET"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 337996
@@ -3654,7 +3557,7 @@
             "Europe/Helsinki"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-FI",
             "fi",
@@ -3710,7 +3613,7 @@
             "Pacific/Fiji"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-FJ"
         ],
@@ -3756,7 +3659,7 @@
             "Atlantic/Stanley"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-FK"
         ],
@@ -3807,7 +3710,7 @@
             "Pacific/Yap"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-FM"
         ],
@@ -3853,7 +3756,7 @@
             "Atlantic/Faeroe"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "fo",
             "fo-FO"
         ],
@@ -3899,15 +3802,13 @@
             "Europe/Paris"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "br",
             "br-FR",
             "ca",
             "ca-FR",
             "fr",
-            "fr-FR",
-            "gsw",
-            "gsw-FR"
+            "fr-FR"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3017382
@@ -3951,7 +3852,7 @@
             "Africa/Libreville"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "fr",
             "fr-GA"
         ],
@@ -3998,17 +3899,11 @@
             "Europe/Belfast"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "cy",
             "cy-GB",
             "en",
-            "en-GB",
-            "gd",
-            "gd-GB",
-            "gv",
-            "gv-GB",
-            "kw",
-            "kw-GB"
+            "en-GB"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2635167
@@ -4052,7 +3947,7 @@
             "America/Grenada"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-GD"
         ],
@@ -4098,11 +3993,9 @@
             "Asia/Tbilisi"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ka",
-            "ka-GE",
-            "os",
-            "os-GE"
+            "ka-GE"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 614540
@@ -4146,7 +4039,7 @@
             "America/Cayenne"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "fr",
             "fr-GF"
         ],
@@ -4190,7 +4083,7 @@
             "Europe/Guernsey"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-GG"
         ],
@@ -4236,9 +4129,7 @@
             "Africa/Accra"
         ],
         "languages": [],
-        "locales": [
-            "ak",
-            "ak-GH",
+        "localesIcu": [
             "ee",
             "ee-GH",
             "en",
@@ -4288,7 +4179,7 @@
             "Europe/Gibraltar"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-GI"
         ],
@@ -4336,7 +4227,7 @@
             "America/Godthab"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "da",
             "da-GL",
             "kl",
@@ -4384,7 +4275,7 @@
             "Africa/Banjul"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-GM"
         ],
@@ -4430,7 +4321,7 @@
             "Africa/Conakry"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ff",
             "ff-GN",
             "fr",
@@ -4476,7 +4367,7 @@
             "America/Guadeloupe"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "fr",
             "fr-GP"
         ],
@@ -4524,7 +4415,7 @@
             "Africa/Malabo"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "es",
             "es-GQ",
             "fr",
@@ -4574,7 +4465,7 @@
             "Europe/Athens"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "el",
             "el-GR"
         ],
@@ -4618,17 +4509,11 @@
             "Atlantic/South_Georgia"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "cy",
             "cy-GB",
             "en",
-            "en-GB",
-            "gd",
-            "gd-GB",
-            "gv",
-            "gv-GB",
-            "kw",
-            "kw-GB"
+            "en-GB"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3474415
@@ -4672,7 +4557,7 @@
             "America/Guatemala"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "es",
             "es-GT"
         ],
@@ -4720,7 +4605,7 @@
             "Pacific/Guam"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-GU"
         ],
@@ -4766,7 +4651,7 @@
             "Africa/Bissau"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "pt",
             "pt-GW"
         ],
@@ -4812,7 +4697,7 @@
             "America/Guyana"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-GY"
         ],
@@ -4856,11 +4741,9 @@
             "Asia/Hong_Kong"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-HK",
-            "yue",
-            "yue-HK",
             "zh",
             "zh-HK"
         ],
@@ -4904,7 +4787,7 @@
             "Etc/GMT-5"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-AU"
         ],
@@ -4950,7 +4833,7 @@
             "America/Tegucigalpa"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "es",
             "es-HN"
         ],
@@ -4994,7 +4877,7 @@
             "Europe/Zagreb"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "hr",
             "hr-HR"
         ],
@@ -5041,7 +4924,7 @@
             "America/Port-au-Prince"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "fr",
             "fr-HT"
         ],
@@ -5085,7 +4968,7 @@
             "Europe/Budapest"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "hu",
             "hu-HU"
         ],
@@ -5135,11 +5018,9 @@
             "Asia/Ujung_Pandang"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "id",
-            "id-ID",
-            "jv",
-            "jv-ID"
+            "id-ID"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1643084
@@ -5182,7 +5063,7 @@
             "Europe/Dublin"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-IE",
             "ga",
@@ -5229,7 +5110,7 @@
             "Asia/Tel_Aviv"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ar",
             "ar-IL",
             "en",
@@ -5280,7 +5161,7 @@
             "Europe/Isle_of_Man"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-IM"
         ],
@@ -5328,15 +5209,13 @@
             "Asia/Calcutta"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "as",
             "as-IN",
             "bn",
             "bn-IN",
             "bo",
             "bo-IN",
-            "brx",
-            "brx-IN",
             "en",
             "en-IN",
             "gu",
@@ -5347,8 +5226,6 @@
             "kn-IN",
             "kok",
             "kok-IN",
-            "ks",
-            "ks-IN",
             "ml",
             "ml-IN",
             "mr",
@@ -5358,8 +5235,6 @@
             "or",
             "or-IN",
             "pa",
-            "pa-Guru",
-            "pa-Guru-IN",
             "ta",
             "ta-IN",
             "te",
@@ -5409,7 +5284,7 @@
             "Indian/Chagos"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-IO"
         ],
@@ -5454,13 +5329,9 @@
             "Asia/Baghdad"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ar",
-            "ar-IQ",
-            "ckb",
-            "ckb-IQ",
-            "lrc",
-            "lrc-IQ"
+            "ar-IQ"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 99237
@@ -5504,9 +5375,7 @@
             "Asia/Tehran"
         ],
         "languages": [],
-        "locales": [
-            "ckb",
-            "ckb-IR",
+        "localesIcu": [
             "fa",
             "fa-IR"
         ],
@@ -5550,7 +5419,7 @@
             "Atlantic/Reykjavik"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "is",
             "is-IS"
         ],
@@ -5594,13 +5463,11 @@
             "Europe/Rome"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ca",
             "ca-IT",
             "de",
             "de-IT",
-            "fur",
-            "fur-IT",
             "it",
             "it-IT"
         ],
@@ -5646,7 +5513,7 @@
             "Europe/Jersey"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-JE"
         ],
@@ -5693,7 +5560,7 @@
             "America/Jamaica"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-JM"
         ],
@@ -5739,7 +5606,7 @@
             "Asia/Amman"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ar",
             "ar-JO"
         ],
@@ -5783,7 +5650,7 @@
             "Asia/Tokyo"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ja",
             "ja-JP"
         ],
@@ -5830,39 +5697,13 @@
             "Africa/Nairobi"
         ],
         "languages": [],
-        "locales": [
-            "dav",
-            "dav-KE",
-            "ebu",
-            "ebu-KE",
+        "localesIcu": [
             "en",
             "en-KE",
-            "guz",
-            "guz-KE",
-            "kam",
-            "kam-KE",
-            "ki",
-            "ki-KE",
-            "kln",
-            "kln-KE",
-            "luo",
-            "luo-KE",
-            "luy",
-            "luy-KE",
-            "mas",
-            "mas-KE",
-            "mer",
-            "mer-KE",
             "om",
             "om-KE",
-            "saq",
-            "saq-KE",
-            "so",
-            "so-KE",
             "sw",
-            "sw-KE",
-            "teo",
-            "teo-KE"
+            "sw-KE"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 192950
@@ -5905,7 +5746,7 @@
             "Asia/Bishkek"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ky",
             "ky-KG",
             "ru",
@@ -5953,7 +5794,7 @@
             "Asia/Phnom_Penh"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "km",
             "km-KH"
         ],
@@ -6002,7 +5843,7 @@
             "Pacific/Enderbury"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-KI"
         ],
@@ -6051,7 +5892,7 @@
             "Indian/Comoro"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ar",
             "ar-KM",
             "fr",
@@ -6099,7 +5940,7 @@
             "America/St_Kitts"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-KN"
         ],
@@ -6145,7 +5986,7 @@
             "Asia/Pyongyang"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ko",
             "ko-KP"
         ],
@@ -6191,7 +6032,7 @@
             "Asia/Seoul"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ko",
             "ko-KR"
         ],
@@ -6235,7 +6076,7 @@
             "Asia/Kuwait"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ar",
             "ar-KW"
         ],
@@ -6281,7 +6122,7 @@
             "America/Cayman"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-KY"
         ],
@@ -6332,7 +6173,7 @@
             "Asia/Qyzylorda"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "kk",
             "kk-KZ",
             "ru",
@@ -6380,7 +6221,7 @@
             "Asia/Vientiane"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "lo",
             "lo-LA"
         ],
@@ -6426,7 +6267,7 @@
             "Asia/Beirut"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ar",
             "ar-LB"
         ],
@@ -6472,7 +6313,7 @@
             "America/St_Lucia"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-LC"
         ],
@@ -6519,11 +6360,9 @@
             "Europe/Vaduz"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "de",
-            "de-LI",
-            "gsw",
-            "gsw-LI"
+            "de-LI"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3042058
@@ -6569,7 +6408,7 @@
             "Asia/Colombo"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "si",
             "si-LK",
             "ta",
@@ -6617,14 +6456,9 @@
             "Africa/Monrovia"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
-            "en-LR",
-            "vai",
-            "vai-Latn",
-            "vai-Latn-LR",
-            "vai-Vaii",
-            "vai-Vaii-LR"
+            "en-LR"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2275384
@@ -6669,7 +6503,7 @@
             "Africa/Maseru"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-LS"
         ],
@@ -6715,7 +6549,7 @@
             "Europe/Vilnius"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "lt",
             "lt-LT"
         ],
@@ -6765,7 +6599,7 @@
             "Europe/Luxembourg"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "de",
             "de-LU",
             "fr",
@@ -6815,7 +6649,7 @@
             "Europe/Riga"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "lv",
             "lv-LV"
         ],
@@ -6859,7 +6693,7 @@
             "Africa/Tripoli"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ar",
             "ar-LY"
         ],
@@ -6907,21 +6741,11 @@
             "Africa/Casablanca"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ar",
             "ar-MA",
             "fr",
-            "fr-MA",
-            "shi",
-            "shi-Latn",
-            "shi-Latn-MA",
-            "shi-Tfng",
-            "shi-Tfng-MA",
-            "tzm",
-            "tzm-Latn",
-            "tzm-Latn-MA",
-            "zgh",
-            "zgh-MA"
+            "fr-MA"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2542007
@@ -6965,7 +6789,7 @@
             "Europe/Monaco"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "fr",
             "fr-MC"
         ],
@@ -7010,7 +6834,7 @@
             "Europe/Tiraspol"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ro",
             "ro-MD",
             "ru",
@@ -7060,7 +6884,7 @@
             "Europe/Podgorica"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "sr",
             "sr-Cyrl",
             "sr-Cyrl-ME",
@@ -7107,7 +6931,7 @@
             "America/Marigot"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "fr",
             "fr-MF"
         ],
@@ -7154,13 +6978,11 @@
             "Indian/Antananarivo"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-MG",
             "fr",
-            "fr-MG",
-            "mg",
-            "mg-MG"
+            "fr-MG"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1062947
@@ -7206,7 +7028,7 @@
             "Pacific/Majuro"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-MH"
         ],
@@ -7251,7 +7073,7 @@
             "Europe/Skopje"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "mk",
             "mk-MK",
             "sq",
@@ -7300,15 +7122,9 @@
             "Africa/Timbuktu"
         ],
         "languages": [],
-        "locales": [
-            "bm",
-            "bm-ML",
+        "localesIcu": [
             "fr",
-            "fr-ML",
-            "khq",
-            "khq-ML",
-            "ses",
-            "ses-ML"
+            "fr-ML"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2453866
@@ -7351,7 +7167,7 @@
             "Asia/Rangoon"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "my",
             "my-MM"
         ],
@@ -7398,7 +7214,7 @@
             "Asia/Ulan_Bator"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "mn",
             "mn-MN"
         ],
@@ -7445,7 +7261,7 @@
             "Asia/Macao"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-MO",
             "pt",
@@ -7493,7 +7309,7 @@
             "Pacific/Saipan"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-MP"
         ],
@@ -7537,7 +7353,7 @@
             "America/Martinique"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "fr",
             "fr-MQ"
         ],
@@ -7584,7 +7400,7 @@
             "Africa/Nouakchott"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ar",
             "ar-MR",
             "ff",
@@ -7634,7 +7450,7 @@
             "America/Montserrat"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-MS"
         ],
@@ -7681,7 +7497,7 @@
             "Europe/Malta"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-MT",
             "mt",
@@ -7730,13 +7546,11 @@
             "Indian/Mauritius"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-MU",
             "fr",
-            "fr-MU",
-            "mfe",
-            "mfe-MU"
+            "fr-MU"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 934292
@@ -7780,10 +7594,7 @@
             "Indian/Maldives"
         ],
         "languages": [],
-        "locales": [
-            "dv",
-            "dv-MV"
-        ],
+        "localesIcu": [],
         "otherAppsIds": {
             "geoNamesOrg": 1282028
         }
@@ -7827,7 +7638,7 @@
             "Africa/Blantyre"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-MW"
         ],
@@ -7888,7 +7699,7 @@
             "Mexico/General"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "es",
             "es-MX"
         ],
@@ -7935,7 +7746,7 @@
             "Asia/Kuching"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-MY",
             "ms",
@@ -7983,13 +7794,9 @@
             "Africa/Maputo"
         ],
         "languages": [],
-        "locales": [
-            "mgh",
-            "mgh-MZ",
+        "localesIcu": [
             "pt",
-            "pt-MZ",
-            "seh",
-            "seh-MZ"
+            "pt-MZ"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1036973
@@ -8033,13 +7840,11 @@
             "Africa/Windhoek"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "af",
             "af-NA",
             "en",
-            "en-NA",
-            "naq",
-            "naq-NA"
+            "en-NA"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3355338
@@ -8081,7 +7886,7 @@
             "Pacific/Noumea"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "fr",
             "fr-NC"
         ],
@@ -8127,15 +7932,11 @@
             "Africa/Niamey"
         ],
         "languages": [],
-        "locales": [
-            "dje",
-            "dje-NE",
+        "localesIcu": [
             "fr",
             "fr-NE",
             "ha",
-            "ha-NE",
-            "twq",
-            "twq-NE"
+            "ha-NE"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2440476
@@ -8179,7 +7980,7 @@
             "Pacific/Norfolk"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-NF"
         ],
@@ -8225,7 +8026,7 @@
             "Africa/Lagos"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-NG",
             "ha",
@@ -8277,7 +8078,7 @@
             "America/Managua"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "es",
             "es-NI"
         ],
@@ -8328,7 +8129,7 @@
             "Europe/Amsterdam"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-NL",
             "fy",
@@ -8380,7 +8181,7 @@
             "Europe/Oslo"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "nb",
             "nb-NO",
             "nn",
@@ -8431,7 +8232,7 @@
             "Asia/Katmandu"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ne",
             "ne-NP"
         ],
@@ -8478,7 +8279,7 @@
             "Pacific/Nauru"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-NR"
         ],
@@ -8524,7 +8325,7 @@
             "Pacific/Niue"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-NU"
         ],
@@ -8570,11 +8371,9 @@
             "Pacific/Chatham"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
-            "en-NZ",
-            "mi",
-            "mi-NZ"
+            "en-NZ"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2186224
@@ -8616,7 +8415,7 @@
             "Asia/Muscat"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ar",
             "ar-OM"
         ],
@@ -8662,7 +8461,7 @@
             "America/Panama"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "es",
             "es-PA"
         ],
@@ -8710,11 +8509,9 @@
             "America/Lima"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "es",
-            "es-PE",
-            "qu",
-            "qu-PE"
+            "es-PE"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3932488
@@ -8762,7 +8559,7 @@
             "Pacific/Tahiti"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "fr",
             "fr-PF"
         ],
@@ -8810,7 +8607,7 @@
             "Pacific/Port_Moresby"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-PG"
         ],
@@ -8858,7 +8655,7 @@
             "Asia/Manila"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-PH",
             "es",
@@ -8909,15 +8706,12 @@
             "Asia/Karachi"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-PK",
             "pa",
             "pa-Arab",
             "pa-Arab-PK",
-            "sd",
-            "sd-Arab",
-            "sd-Arab-PK",
             "ur",
             "ur-PK"
         ],
@@ -8961,7 +8755,7 @@
             "Europe/Warsaw"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "pl",
             "pl-PL"
         ],
@@ -9007,7 +8801,7 @@
             "America/Miquelon"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "fr",
             "fr-PM"
         ],
@@ -9054,7 +8848,7 @@
             "Pacific/Pitcairn"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-PN"
         ],
@@ -9102,7 +8896,7 @@
             "America/Puerto_Rico"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-PR",
             "es",
@@ -9147,7 +8941,7 @@
             "Asia/Hebron"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ar",
             "ar-PS"
         ],
@@ -9193,7 +8987,7 @@
             "Europe/Lisbon"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "pt",
             "pt-PT"
         ],
@@ -9240,7 +9034,7 @@
             "Pacific/Palau"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-PW"
         ],
@@ -9288,7 +9082,7 @@
             "America/Asuncion"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "es",
             "es-PY"
         ],
@@ -9334,7 +9128,7 @@
             "Asia/Qatar"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ar",
             "ar-QA"
         ],
@@ -9380,7 +9174,7 @@
             "Indian/Reunion"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "fr",
             "fr-RE"
         ],
@@ -9424,7 +9218,7 @@
             "Europe/Bucharest"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ro",
             "ro-RO"
         ],
@@ -9471,7 +9265,7 @@
             "Europe/Belgrade"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "sr",
             "sr-Cyrl",
             "sr-Cyrl-RS",
@@ -9544,19 +9338,9 @@
             "Europe/Volgograd"
         ],
         "languages": [],
-        "locales": [
-            "ce",
-            "ce-RU",
-            "cu",
-            "cu-RU",
-            "os",
-            "os-RU",
+        "localesIcu": [
             "ru",
-            "ru-RU",
-            "sah",
-            "sah-RU",
-            "tt",
-            "tt-RU"
+            "ru-RU"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2017370
@@ -9603,13 +9387,11 @@
             "Africa/Kigali"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-RW",
             "fr",
-            "fr-RW",
-            "rw",
-            "rw-RW"
+            "fr-RW"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 49518
@@ -9653,7 +9435,7 @@
             "Asia/Riyadh"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ar",
             "ar-SA"
         ],
@@ -9699,7 +9481,7 @@
             "Pacific/Guadalcanal"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-SB"
         ],
@@ -9747,7 +9529,7 @@
             "Indian/Mahe"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-SC",
             "fr",
@@ -9796,13 +9578,11 @@
             "Africa/Khartoum"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ar",
             "ar-SD",
             "en",
-            "en-SD",
-            "nus",
-            "nus-SD"
+            "en-SD"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 366755
@@ -9846,7 +9626,7 @@
             "Europe/Stockholm"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-SE",
             "se",
@@ -9899,7 +9679,7 @@
             "Asia/Singapore"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-SG",
             "ms",
@@ -9951,7 +9731,7 @@
             "Atlantic/St_Helena"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-SH"
         ],
@@ -9995,7 +9775,7 @@
             "Europe/Ljubljana"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-SI",
             "sl",
@@ -10044,7 +9824,7 @@
             "Atlantic/Jan_Mayen"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "nb",
             "nb-SJ"
         ],
@@ -10088,7 +9868,7 @@
             "Europe/Bratislava"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "sk",
             "sk-SK"
         ],
@@ -10136,7 +9916,7 @@
             "Africa/Freetown"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-SL"
         ],
@@ -10182,7 +9962,7 @@
             "Europe/San_Marino"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "it",
             "it-SM"
         ],
@@ -10229,9 +10009,7 @@
             "Africa/Dakar"
         ],
         "languages": [],
-        "locales": [
-            "dyo",
-            "dyo-SN",
+        "localesIcu": [
             "ff",
             "ff-SN",
             "fr",
@@ -10280,11 +10058,9 @@
             "Africa/Mogadishu"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ar",
-            "ar-SO",
-            "so",
-            "so-SO"
+            "ar-SO"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 51537
@@ -10328,7 +10104,7 @@
             "America/Paramaribo"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "nl",
             "nl-SR"
         ],
@@ -10374,7 +10150,7 @@
             "Africa/Juba"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ar",
             "ar-SS",
             "en",
@@ -10422,7 +10198,7 @@
             "Africa/Sao_Tome"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "pt",
             "pt-ST"
         ],
@@ -10468,7 +10244,7 @@
             "America/El_Salvador"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "es",
             "es-SV"
         ],
@@ -10516,7 +10292,7 @@
             "America/Lower_Princes"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-SX",
             "nl",
@@ -10564,7 +10340,7 @@
             "Asia/Damascus"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ar",
             "ar-SY",
             "fr",
@@ -10613,7 +10389,7 @@
             "Africa/Mbabane"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-SZ"
         ],
@@ -10659,7 +10435,7 @@
             "America/Grand_Turk"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-TC"
         ],
@@ -10707,7 +10483,7 @@
             "Africa/Ndjamena"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ar",
             "ar-TD",
             "fr",
@@ -10755,15 +10531,13 @@
             "Indian/Kerguelen"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "br",
             "br-FR",
             "ca",
             "ca-FR",
             "fr",
-            "fr-FR",
-            "gsw",
-            "gsw-FR"
+            "fr-FR"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1546748
@@ -10807,7 +10581,7 @@
             "Africa/Lome"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ee",
             "ee-TG",
             "fr",
@@ -10855,7 +10629,7 @@
             "Asia/Bangkok"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "th",
             "th-TH"
         ],
@@ -10901,10 +10675,7 @@
             "Asia/Dushanbe"
         ],
         "languages": [],
-        "locales": [
-            "tg",
-            "tg-TJ"
-        ],
+        "localesIcu": [],
         "otherAppsIds": {
             "geoNamesOrg": 1220409
         }
@@ -10947,7 +10718,7 @@
             "Pacific/Fakaofo"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-TK"
         ],
@@ -10994,7 +10765,7 @@
             "Asia/Dili"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "pt",
             "pt-TL"
         ],
@@ -11041,7 +10812,7 @@
             "Asia/Ashkhabad"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "tk",
             "tk-TM"
         ],
@@ -11087,7 +10858,7 @@
             "Africa/Tunis"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ar",
             "ar-TN",
             "fr",
@@ -11137,7 +10908,7 @@
             "Pacific/Tongatapu"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-TO",
             "to",
@@ -11186,7 +10957,7 @@
             "Asia/Istanbul"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ku",
             "ku-TR",
             "tr",
@@ -11234,7 +11005,7 @@
             "America/Port_of_Spain"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-TT"
         ],
@@ -11282,7 +11053,7 @@
             "Pacific/Funafuti"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-TV"
         ],
@@ -11326,7 +11097,7 @@
             "Asia/Taipei"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "zh",
             "zh-TW"
         ],
@@ -11371,33 +11142,11 @@
             "Africa/Dar_es_Salaam"
         ],
         "languages": [],
-        "locales": [
-            "asa",
-            "asa-TZ",
-            "bez",
-            "bez-TZ",
+        "localesIcu": [
             "en",
             "en-TZ",
-            "jmc",
-            "jmc-TZ",
-            "kde",
-            "kde-TZ",
-            "ksb",
-            "ksb-TZ",
-            "lag",
-            "lag-TZ",
-            "mas",
-            "mas-TZ",
-            "rof",
-            "rof-TZ",
-            "rwk",
-            "rwk-TZ",
-            "sbp",
-            "sbp-TZ",
             "sw",
-            "sw-TZ",
-            "vun",
-            "vun-TZ"
+            "sw-TZ"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 149590
@@ -11441,7 +11190,7 @@
             "Europe/Zaporozhye"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ru",
             "ru-UA",
             "uk",
@@ -11490,21 +11239,11 @@
             "Africa/Kampala"
         ],
         "languages": [],
-        "locales": [
-            "cgg",
-            "cgg-UG",
+        "localesIcu": [
             "en",
             "en-UG",
-            "lg",
-            "lg-UG",
-            "nyn",
-            "nyn-UG",
             "sw",
-            "sw-UG",
-            "teo",
-            "teo-UG",
-            "xog",
-            "xog-UG"
+            "sw-UG"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 226074
@@ -11552,7 +11291,7 @@
             "Pacific/Johnston"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-UM"
         ],
@@ -11647,7 +11386,7 @@
             "US/Samoa"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "chr",
             "chr-US",
             "en",
@@ -11701,7 +11440,7 @@
             "America/Montevideo"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "es",
             "es-UY"
         ],
@@ -11747,7 +11486,7 @@
             "Asia/Tashkent"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "uz",
             "uz-Cyrl",
             "uz-Cyrl-UZ",
@@ -11795,7 +11534,7 @@
             "Europe/Vatican"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "it",
             "it-VA"
         ],
@@ -11841,7 +11580,7 @@
             "America/St_Vincent"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-VC"
         ],
@@ -11887,7 +11626,7 @@
             "America/Caracas"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "es",
             "es-VE"
         ],
@@ -11933,7 +11672,7 @@
             "America/Tortola"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-VG"
         ],
@@ -11979,7 +11718,7 @@
             "America/St_Thomas"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-VI"
         ],
@@ -12026,7 +11765,7 @@
             "Asia/Saigon"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "vi",
             "vi-VN"
         ],
@@ -12076,7 +11815,7 @@
             "Pacific/Efate"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-VU",
             "fr",
@@ -12125,7 +11864,7 @@
             "Pacific/Wallis"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "fr",
             "fr-WF"
         ],
@@ -12172,7 +11911,7 @@
             "Pacific/Samoa"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
             "en-WS"
         ],
@@ -12219,7 +11958,7 @@
             "Europe/Belgrade"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "sq",
             "sq-AL",
             "sr",
@@ -12270,7 +12009,7 @@
             "Asia/Aden"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "ar",
             "ar-YE"
         ],
@@ -12316,7 +12055,7 @@
             "Indian/Mayotte"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "fr",
             "fr-YT"
         ],
@@ -12372,7 +12111,7 @@
             "Africa/Johannesburg"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "af",
             "af-ZA",
             "en",
@@ -12424,9 +12163,7 @@
             "Africa/Lusaka"
         ],
         "languages": [],
-        "locales": [
-            "bem",
-            "bem-ZM",
+        "localesIcu": [
             "en",
             "en-ZM"
         ],
@@ -12485,13 +12222,9 @@
             "Africa/Harare"
         ],
         "languages": [],
-        "locales": [
+        "localesIcu": [
             "en",
-            "en-ZW",
-            "nd",
-            "nd-ZW",
-            "sn",
-            "sn-ZW"
+            "en-ZW"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 878675

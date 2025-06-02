@@ -58,7 +58,7 @@ export const countries = [
             "Europe/Andorra"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ca",
             "ca-AD"
         ],
@@ -104,7 +104,7 @@ export const countries = [
             "Asia/Dubai"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ar",
             "ar-AE"
         ],
@@ -151,7 +151,7 @@ export const countries = [
             "Asia/Kabul"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "fa",
             "fa-AF",
             "ps",
@@ -202,7 +202,7 @@ export const countries = [
             "America/Antigua"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-AG"
         ],
@@ -248,7 +248,7 @@ export const countries = [
             "America/Anguilla"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-AI"
         ],
@@ -294,7 +294,7 @@ export const countries = [
             "Europe/Tirane"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "sq",
             "sq-AL"
         ],
@@ -340,7 +340,7 @@ export const countries = [
             "Asia/Yerevan"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "hy",
             "hy-AM"
         ],
@@ -386,7 +386,7 @@ export const countries = [
             "Africa/Luanda"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ln",
             "ln-AO",
             "pt",
@@ -438,7 +438,7 @@ export const countries = [
             "Antarctica/Vostok"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-FI",
             "fi",
@@ -463,24 +463,12 @@ export const countries = [
             "es-UY",
             "es-CL",
             "es-AR",
-            "ce",
-            "ce-RU",
-            "cu",
-            "cu-RU",
-            "os",
-            "os-RU",
             "ru",
             "ru-RU",
-            "sah",
-            "sah-RU",
-            "tt",
-            "tt-RU",
             "ca",
             "ca-IT",
             "de",
             "de-IT",
-            "fur",
-            "fur-IT",
             "it",
             "it-IT",
             "en-AU",
@@ -492,31 +480,17 @@ export const countries = [
             "ca-FR",
             "fr",
             "fr-FR",
-            "gsw",
-            "gsw-FR",
             "ja",
             "ja-JP",
             "cy",
             "cy-GB",
             "en-GB",
-            "gd",
-            "gd-GB",
-            "gv",
-            "gv-GB",
-            "kw",
-            "kw-GB",
-            "ast",
-            "ast-ES",
             "ca-ES",
             "es-ES",
-            "eu",
-            "eu-ES",
             "gl",
             "gl-ES",
             "bo",
             "bo-CN",
-            "ii",
-            "ii-CN",
             "ug",
             "ug-CN",
             "zh",
@@ -529,20 +503,14 @@ export const countries = [
             "fy-DE",
             "hsb",
             "hsb-DE",
-            "ksh",
-            "ksh-DE",
             "ro",
             "ro-RO",
             "es-PE",
-            "qu",
-            "qu-PE",
             "as",
             "as-IN",
             "bn",
             "bn-IN",
             "bo-IN",
-            "brx",
-            "brx-IN",
             "en-IN",
             "gu",
             "gu-IN",
@@ -552,8 +520,6 @@ export const countries = [
             "kn-IN",
             "kok",
             "kok-IN",
-            "ks",
-            "ks-IN",
             "ml",
             "ml-IN",
             "mr",
@@ -563,8 +529,6 @@ export const countries = [
             "or",
             "or-IN",
             "pa",
-            "pa-Guru",
-            "pa-Guru-IN",
             "ta",
             "ta-IN",
             "te",
@@ -572,7 +536,6 @@ export const countries = [
             "ur",
             "ur-IN",
             "es-EC",
-            "qu-EC",
             "cs",
             "cs-CZ",
             "be",
@@ -588,8 +551,6 @@ export const countries = [
             "zu",
             "zu-ZA",
             "en-NZ",
-            "mi",
-            "mi-NZ",
             "ko",
             "ko-KR",
             "en-SE",
@@ -664,7 +625,7 @@ export const countries = [
             "America/Rosario"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "es",
             "es-AR"
         ],
@@ -711,7 +672,7 @@ export const countries = [
             "Pacific/Pago_Pago"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-AS"
         ],
@@ -755,7 +716,7 @@ export const countries = [
             "Europe/Vienna"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "de",
             "de-AT",
             "en",
@@ -823,7 +784,7 @@ export const countries = [
             "Australia/Yancowinna"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-AU"
         ],
@@ -870,7 +831,7 @@ export const countries = [
             "America/Aruba"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "nl",
             "nl-AW"
         ],
@@ -914,7 +875,7 @@ export const countries = [
             "Europe/Mariehamn"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "sv",
             "sv-AX"
         ],
@@ -958,7 +919,7 @@ export const countries = [
             "Asia/Baku"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "az",
             "az-Cyrl",
             "az-Cyrl-AZ",
@@ -1010,7 +971,7 @@ export const countries = [
             "Europe/Sarajevo"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "bs",
             "bs-BA",
             "hr",
@@ -1063,7 +1024,7 @@ export const countries = [
             "America/Barbados"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-BB"
         ],
@@ -1110,7 +1071,7 @@ export const countries = [
             "Asia/Dacca"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "bn",
             "bn-BD"
         ],
@@ -1160,7 +1121,7 @@ export const countries = [
             "Europe/Brussels"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "de",
             "de-BE",
             "en",
@@ -1212,7 +1173,7 @@ export const countries = [
             "Africa/Ouagadougou"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "fr",
             "fr-BF"
         ],
@@ -1258,7 +1219,7 @@ export const countries = [
             "Europe/Sofia"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "bg",
             "bg-BG"
         ],
@@ -1302,7 +1263,7 @@ export const countries = [
             "Asia/Bahrain"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ar",
             "ar-BH"
         ],
@@ -1349,13 +1310,11 @@ export const countries = [
             "Africa/Bujumbura"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-BI",
             "fr",
-            "fr-BI",
-            "rn",
-            "rn-BI"
+            "fr-BI"
         ],
         otherAppsIds: {
             geoNamesOrg: 433561
@@ -1399,7 +1358,7 @@ export const countries = [
             "Africa/Porto-Novo"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "fr",
             "fr-BJ",
             "yo",
@@ -1447,7 +1406,7 @@ export const countries = [
             "America/St_Barthelemy"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "fr",
             "fr-BL"
         ],
@@ -1493,7 +1452,7 @@ export const countries = [
             "Atlantic/Bermuda"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-BM"
         ],
@@ -1540,7 +1499,7 @@ export const countries = [
             "Asia/Brunei"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ms",
             "ms-BN"
         ],
@@ -1589,11 +1548,9 @@ export const countries = [
             "America/La_Paz"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "es",
-            "es-BO",
-            "qu",
-            "qu-BO"
+            "es-BO"
         ],
         otherAppsIds: {
             geoNamesOrg: 3923057
@@ -1639,7 +1596,7 @@ export const countries = [
             "America/Kralendijk"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "nl",
             "nl-BQ"
         ],
@@ -1705,7 +1662,7 @@ export const countries = [
             "Brazil/West"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "es",
             "es-BR",
             "pt",
@@ -1753,7 +1710,7 @@ export const countries = [
             "America/Nassau"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-BS"
         ],
@@ -1798,7 +1755,7 @@ export const countries = [
             "Asia/Thimbu"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "dz",
             "dz-BT"
         ],
@@ -1840,7 +1797,7 @@ export const countries = [
             "Etc/UTC"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "nb",
             "nb-NO",
             "nn",
@@ -1891,7 +1848,7 @@ export const countries = [
             "Africa/Gaborone"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-BW"
         ],
@@ -1936,7 +1893,7 @@ export const countries = [
             "Europe/Minsk"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "be",
             "be-BY",
             "ru",
@@ -1984,7 +1941,7 @@ export const countries = [
             "America/Belize"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-BZ",
             "es",
@@ -2070,7 +2027,7 @@ export const countries = [
             "Canada/Yukon"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-CA",
             "fr",
@@ -2118,7 +2075,7 @@ export const countries = [
             "Indian/Cocos"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-CC"
         ],
@@ -2165,13 +2122,11 @@ export const countries = [
             "Africa/Lubumbashi"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "fr",
             "fr-CD",
             "ln",
             "ln-CD",
-            "lu",
-            "lu-CD",
             "sw",
             "sw-CD"
         ],
@@ -2218,13 +2173,11 @@ export const countries = [
             "Africa/Bangui"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "fr",
             "fr-CF",
             "ln",
-            "ln-CF",
-            "sg",
-            "sg-CF"
+            "ln-CF"
         ],
         otherAppsIds: {
             geoNamesOrg: 239880
@@ -2268,7 +2221,7 @@ export const countries = [
             "Africa/Brazzaville"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "fr",
             "fr-CG",
             "ln",
@@ -2324,21 +2277,17 @@ export const countries = [
             "Europe/Zurich"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "de",
             "de-CH",
             "en",
             "en-CH",
             "fr",
             "fr-CH",
-            "gsw",
-            "gsw-CH",
             "it",
             "it-CH",
             "pt",
             "pt-CH",
-            "rm",
-            "rm-CH",
             "wae",
             "wae-CH"
         ],
@@ -2384,7 +2333,7 @@ export const countries = [
             "Africa/Abidjan"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "fr",
             "fr-CI"
         ],
@@ -2429,7 +2378,7 @@ export const countries = [
             "Pacific/Rarotonga"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-CK"
         ],
@@ -2479,7 +2428,7 @@ export const countries = [
             "Chile/EasterIsland"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "es",
             "es-CL"
         ],
@@ -2527,37 +2476,13 @@ export const countries = [
             "Africa/Douala"
         ],
         languages: [],
-        locales: [
-            "agq",
-            "agq-CM",
-            "bas",
-            "bas-CM",
-            "dua",
-            "dua-CM",
+        localesIcu: [
             "en",
             "en-CM",
-            "ewo",
-            "ewo-CM",
             "ff",
             "ff-CM",
             "fr",
-            "fr-CM",
-            "jgo",
-            "jgo-CM",
-            "kkj",
-            "kkj-CM",
-            "ksf",
-            "ksf-CM",
-            "mgo",
-            "mgo-CM",
-            "mua",
-            "mua-CM",
-            "nmg",
-            "nmg-CM",
-            "nnh",
-            "nnh-CM",
-            "yav",
-            "yav-CM"
+            "fr-CM"
         ],
         otherAppsIds: {
             geoNamesOrg: 2233387
@@ -2604,11 +2529,9 @@ export const countries = [
             "Asia/Kashgar"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "bo",
             "bo-CN",
-            "ii",
-            "ii-CN",
             "ug",
             "ug-CN",
             "zh",
@@ -2656,7 +2579,7 @@ export const countries = [
             "America/Bogota"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "es",
             "es-CO"
         ],
@@ -2702,7 +2625,7 @@ export const countries = [
             "America/Costa_Rica"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "es",
             "es-CR"
         ],
@@ -2748,7 +2671,7 @@ export const countries = [
             "America/Havana"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "es",
             "es-CU"
         ],
@@ -2794,9 +2717,7 @@ export const countries = [
             "Atlantic/Cape_Verde"
         ],
         languages: [],
-        locales: [
-            "kea",
-            "kea-CV",
+        localesIcu: [
             "pt",
             "pt-CV"
         ],
@@ -2843,7 +2764,7 @@ export const countries = [
             "America/Curacao"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "nl",
             "nl-CW"
         ],
@@ -2887,7 +2808,7 @@ export const countries = [
             "Indian/Christmas"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-CX"
         ],
@@ -2934,7 +2855,7 @@ export const countries = [
             "Europe/Nicosia"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "el",
             "el-CY",
             "en",
@@ -2984,7 +2905,7 @@ export const countries = [
             "Europe/Prague"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "cs",
             "cs-CZ"
         ],
@@ -3029,7 +2950,7 @@ export const countries = [
             "Europe/Busingen"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "de",
             "de-DE",
             "dsb",
@@ -3039,9 +2960,7 @@ export const countries = [
             "fy",
             "fy-DE",
             "hsb",
-            "hsb-DE",
-            "ksh",
-            "ksh-DE"
+            "hsb-DE"
         ],
         otherAppsIds: {
             geoNamesOrg: 2921044
@@ -3087,13 +3006,11 @@ export const countries = [
             "Africa/Djibouti"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ar",
             "ar-DJ",
             "fr",
-            "fr-DJ",
-            "so",
-            "so-DJ"
+            "fr-DJ"
         ],
         otherAppsIds: {
             geoNamesOrg: 223816
@@ -3137,7 +3054,7 @@ export const countries = [
             "Europe/Copenhagen"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "da",
             "da-DK",
             "en",
@@ -3187,7 +3104,7 @@ export const countries = [
             "America/Dominica"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-DM"
         ],
@@ -3233,7 +3150,7 @@ export const countries = [
             "America/Santo_Domingo"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "es",
             "es-DO"
         ],
@@ -3281,13 +3198,11 @@ export const countries = [
             "Africa/Algiers"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ar",
             "ar-DZ",
             "fr",
-            "fr-DZ",
-            "kab",
-            "kab-DZ"
+            "fr-DZ"
         ],
         otherAppsIds: {
             geoNamesOrg: 2589581
@@ -3332,11 +3247,9 @@ export const countries = [
             "Pacific/Galapagos"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "es",
-            "es-EC",
-            "qu",
-            "qu-EC"
+            "es-EC"
         ],
         otherAppsIds: {
             geoNamesOrg: 3658394
@@ -3378,7 +3291,7 @@ export const countries = [
             "Europe/Tallinn"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "et",
             "et-EE"
         ],
@@ -3424,7 +3337,7 @@ export const countries = [
             "Africa/Cairo"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ar",
             "ar-EG"
         ],
@@ -3470,7 +3383,7 @@ export const countries = [
             "Africa/El_Aaiun"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ar",
             "ar-EH"
         ],
@@ -3518,13 +3431,11 @@ export const countries = [
             "Africa/Asmera"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ar",
             "ar-ER",
             "en",
-            "en-ER",
-            "ti",
-            "ti-ER"
+            "en-ER"
         ],
         otherAppsIds: {
             geoNamesOrg: 338010
@@ -3570,15 +3481,11 @@ export const countries = [
             "Europe/Madrid"
         ],
         languages: [],
-        locales: [
-            "ast",
-            "ast-ES",
+        localesIcu: [
             "ca",
             "ca-ES",
             "es",
             "es-ES",
-            "eu",
-            "eu-ES",
             "gl",
             "gl-ES"
         ],
@@ -3624,15 +3531,11 @@ export const countries = [
             "Africa/Addis_Ababa"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "am",
             "am-ET",
             "om",
-            "om-ET",
-            "so",
-            "so-ET",
-            "ti",
-            "ti-ET"
+            "om-ET"
         ],
         otherAppsIds: {
             geoNamesOrg: 337996
@@ -3675,7 +3578,7 @@ export const countries = [
             "Europe/Helsinki"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-FI",
             "fi",
@@ -3731,7 +3634,7 @@ export const countries = [
             "Pacific/Fiji"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-FJ"
         ],
@@ -3777,7 +3680,7 @@ export const countries = [
             "Atlantic/Stanley"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-FK"
         ],
@@ -3828,7 +3731,7 @@ export const countries = [
             "Pacific/Yap"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-FM"
         ],
@@ -3874,7 +3777,7 @@ export const countries = [
             "Atlantic/Faeroe"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "fo",
             "fo-FO"
         ],
@@ -3920,15 +3823,13 @@ export const countries = [
             "Europe/Paris"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "br",
             "br-FR",
             "ca",
             "ca-FR",
             "fr",
-            "fr-FR",
-            "gsw",
-            "gsw-FR"
+            "fr-FR"
         ],
         otherAppsIds: {
             geoNamesOrg: 3017382
@@ -3972,7 +3873,7 @@ export const countries = [
             "Africa/Libreville"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "fr",
             "fr-GA"
         ],
@@ -4019,17 +3920,11 @@ export const countries = [
             "Europe/Belfast"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "cy",
             "cy-GB",
             "en",
-            "en-GB",
-            "gd",
-            "gd-GB",
-            "gv",
-            "gv-GB",
-            "kw",
-            "kw-GB"
+            "en-GB"
         ],
         otherAppsIds: {
             geoNamesOrg: 2635167
@@ -4073,7 +3968,7 @@ export const countries = [
             "America/Grenada"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-GD"
         ],
@@ -4119,11 +4014,9 @@ export const countries = [
             "Asia/Tbilisi"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ka",
-            "ka-GE",
-            "os",
-            "os-GE"
+            "ka-GE"
         ],
         otherAppsIds: {
             geoNamesOrg: 614540
@@ -4167,7 +4060,7 @@ export const countries = [
             "America/Cayenne"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "fr",
             "fr-GF"
         ],
@@ -4211,7 +4104,7 @@ export const countries = [
             "Europe/Guernsey"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-GG"
         ],
@@ -4257,9 +4150,7 @@ export const countries = [
             "Africa/Accra"
         ],
         languages: [],
-        locales: [
-            "ak",
-            "ak-GH",
+        localesIcu: [
             "ee",
             "ee-GH",
             "en",
@@ -4309,7 +4200,7 @@ export const countries = [
             "Europe/Gibraltar"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-GI"
         ],
@@ -4357,7 +4248,7 @@ export const countries = [
             "America/Godthab"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "da",
             "da-GL",
             "kl",
@@ -4405,7 +4296,7 @@ export const countries = [
             "Africa/Banjul"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-GM"
         ],
@@ -4451,7 +4342,7 @@ export const countries = [
             "Africa/Conakry"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ff",
             "ff-GN",
             "fr",
@@ -4497,7 +4388,7 @@ export const countries = [
             "America/Guadeloupe"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "fr",
             "fr-GP"
         ],
@@ -4545,7 +4436,7 @@ export const countries = [
             "Africa/Malabo"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "es",
             "es-GQ",
             "fr",
@@ -4595,7 +4486,7 @@ export const countries = [
             "Europe/Athens"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "el",
             "el-GR"
         ],
@@ -4639,17 +4530,11 @@ export const countries = [
             "Atlantic/South_Georgia"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "cy",
             "cy-GB",
             "en",
-            "en-GB",
-            "gd",
-            "gd-GB",
-            "gv",
-            "gv-GB",
-            "kw",
-            "kw-GB"
+            "en-GB"
         ],
         otherAppsIds: {
             geoNamesOrg: 3474415
@@ -4693,7 +4578,7 @@ export const countries = [
             "America/Guatemala"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "es",
             "es-GT"
         ],
@@ -4741,7 +4626,7 @@ export const countries = [
             "Pacific/Guam"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-GU"
         ],
@@ -4787,7 +4672,7 @@ export const countries = [
             "Africa/Bissau"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "pt",
             "pt-GW"
         ],
@@ -4833,7 +4718,7 @@ export const countries = [
             "America/Guyana"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-GY"
         ],
@@ -4877,11 +4762,9 @@ export const countries = [
             "Asia/Hong_Kong"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-HK",
-            "yue",
-            "yue-HK",
             "zh",
             "zh-HK"
         ],
@@ -4925,7 +4808,7 @@ export const countries = [
             "Etc/GMT-5"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-AU"
         ],
@@ -4971,7 +4854,7 @@ export const countries = [
             "America/Tegucigalpa"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "es",
             "es-HN"
         ],
@@ -5015,7 +4898,7 @@ export const countries = [
             "Europe/Zagreb"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "hr",
             "hr-HR"
         ],
@@ -5062,7 +4945,7 @@ export const countries = [
             "America/Port-au-Prince"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "fr",
             "fr-HT"
         ],
@@ -5106,7 +4989,7 @@ export const countries = [
             "Europe/Budapest"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "hu",
             "hu-HU"
         ],
@@ -5156,11 +5039,9 @@ export const countries = [
             "Asia/Ujung_Pandang"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "id",
-            "id-ID",
-            "jv",
-            "jv-ID"
+            "id-ID"
         ],
         otherAppsIds: {
             geoNamesOrg: 1643084
@@ -5203,7 +5084,7 @@ export const countries = [
             "Europe/Dublin"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-IE",
             "ga",
@@ -5250,7 +5131,7 @@ export const countries = [
             "Asia/Tel_Aviv"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ar",
             "ar-IL",
             "en",
@@ -5301,7 +5182,7 @@ export const countries = [
             "Europe/Isle_of_Man"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-IM"
         ],
@@ -5349,15 +5230,13 @@ export const countries = [
             "Asia/Calcutta"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "as",
             "as-IN",
             "bn",
             "bn-IN",
             "bo",
             "bo-IN",
-            "brx",
-            "brx-IN",
             "en",
             "en-IN",
             "gu",
@@ -5368,8 +5247,6 @@ export const countries = [
             "kn-IN",
             "kok",
             "kok-IN",
-            "ks",
-            "ks-IN",
             "ml",
             "ml-IN",
             "mr",
@@ -5379,8 +5256,6 @@ export const countries = [
             "or",
             "or-IN",
             "pa",
-            "pa-Guru",
-            "pa-Guru-IN",
             "ta",
             "ta-IN",
             "te",
@@ -5430,7 +5305,7 @@ export const countries = [
             "Indian/Chagos"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-IO"
         ],
@@ -5475,13 +5350,9 @@ export const countries = [
             "Asia/Baghdad"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ar",
-            "ar-IQ",
-            "ckb",
-            "ckb-IQ",
-            "lrc",
-            "lrc-IQ"
+            "ar-IQ"
         ],
         otherAppsIds: {
             geoNamesOrg: 99237
@@ -5525,9 +5396,7 @@ export const countries = [
             "Asia/Tehran"
         ],
         languages: [],
-        locales: [
-            "ckb",
-            "ckb-IR",
+        localesIcu: [
             "fa",
             "fa-IR"
         ],
@@ -5571,7 +5440,7 @@ export const countries = [
             "Atlantic/Reykjavik"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "is",
             "is-IS"
         ],
@@ -5615,13 +5484,11 @@ export const countries = [
             "Europe/Rome"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ca",
             "ca-IT",
             "de",
             "de-IT",
-            "fur",
-            "fur-IT",
             "it",
             "it-IT"
         ],
@@ -5667,7 +5534,7 @@ export const countries = [
             "Europe/Jersey"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-JE"
         ],
@@ -5714,7 +5581,7 @@ export const countries = [
             "America/Jamaica"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-JM"
         ],
@@ -5760,7 +5627,7 @@ export const countries = [
             "Asia/Amman"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ar",
             "ar-JO"
         ],
@@ -5804,7 +5671,7 @@ export const countries = [
             "Asia/Tokyo"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ja",
             "ja-JP"
         ],
@@ -5851,39 +5718,13 @@ export const countries = [
             "Africa/Nairobi"
         ],
         languages: [],
-        locales: [
-            "dav",
-            "dav-KE",
-            "ebu",
-            "ebu-KE",
+        localesIcu: [
             "en",
             "en-KE",
-            "guz",
-            "guz-KE",
-            "kam",
-            "kam-KE",
-            "ki",
-            "ki-KE",
-            "kln",
-            "kln-KE",
-            "luo",
-            "luo-KE",
-            "luy",
-            "luy-KE",
-            "mas",
-            "mas-KE",
-            "mer",
-            "mer-KE",
             "om",
             "om-KE",
-            "saq",
-            "saq-KE",
-            "so",
-            "so-KE",
             "sw",
-            "sw-KE",
-            "teo",
-            "teo-KE"
+            "sw-KE"
         ],
         otherAppsIds: {
             geoNamesOrg: 192950
@@ -5926,7 +5767,7 @@ export const countries = [
             "Asia/Bishkek"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ky",
             "ky-KG",
             "ru",
@@ -5974,7 +5815,7 @@ export const countries = [
             "Asia/Phnom_Penh"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "km",
             "km-KH"
         ],
@@ -6023,7 +5864,7 @@ export const countries = [
             "Pacific/Enderbury"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-KI"
         ],
@@ -6072,7 +5913,7 @@ export const countries = [
             "Indian/Comoro"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ar",
             "ar-KM",
             "fr",
@@ -6120,7 +5961,7 @@ export const countries = [
             "America/St_Kitts"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-KN"
         ],
@@ -6166,7 +6007,7 @@ export const countries = [
             "Asia/Pyongyang"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ko",
             "ko-KP"
         ],
@@ -6212,7 +6053,7 @@ export const countries = [
             "Asia/Seoul"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ko",
             "ko-KR"
         ],
@@ -6256,7 +6097,7 @@ export const countries = [
             "Asia/Kuwait"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ar",
             "ar-KW"
         ],
@@ -6302,7 +6143,7 @@ export const countries = [
             "America/Cayman"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-KY"
         ],
@@ -6353,7 +6194,7 @@ export const countries = [
             "Asia/Qyzylorda"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "kk",
             "kk-KZ",
             "ru",
@@ -6401,7 +6242,7 @@ export const countries = [
             "Asia/Vientiane"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "lo",
             "lo-LA"
         ],
@@ -6447,7 +6288,7 @@ export const countries = [
             "Asia/Beirut"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ar",
             "ar-LB"
         ],
@@ -6493,7 +6334,7 @@ export const countries = [
             "America/St_Lucia"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-LC"
         ],
@@ -6540,11 +6381,9 @@ export const countries = [
             "Europe/Vaduz"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "de",
-            "de-LI",
-            "gsw",
-            "gsw-LI"
+            "de-LI"
         ],
         otherAppsIds: {
             geoNamesOrg: 3042058
@@ -6590,7 +6429,7 @@ export const countries = [
             "Asia/Colombo"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "si",
             "si-LK",
             "ta",
@@ -6638,14 +6477,9 @@ export const countries = [
             "Africa/Monrovia"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
-            "en-LR",
-            "vai",
-            "vai-Latn",
-            "vai-Latn-LR",
-            "vai-Vaii",
-            "vai-Vaii-LR"
+            "en-LR"
         ],
         otherAppsIds: {
             geoNamesOrg: 2275384
@@ -6690,7 +6524,7 @@ export const countries = [
             "Africa/Maseru"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-LS"
         ],
@@ -6736,7 +6570,7 @@ export const countries = [
             "Europe/Vilnius"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "lt",
             "lt-LT"
         ],
@@ -6786,7 +6620,7 @@ export const countries = [
             "Europe/Luxembourg"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "de",
             "de-LU",
             "fr",
@@ -6836,7 +6670,7 @@ export const countries = [
             "Europe/Riga"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "lv",
             "lv-LV"
         ],
@@ -6880,7 +6714,7 @@ export const countries = [
             "Africa/Tripoli"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ar",
             "ar-LY"
         ],
@@ -6928,21 +6762,11 @@ export const countries = [
             "Africa/Casablanca"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ar",
             "ar-MA",
             "fr",
-            "fr-MA",
-            "shi",
-            "shi-Latn",
-            "shi-Latn-MA",
-            "shi-Tfng",
-            "shi-Tfng-MA",
-            "tzm",
-            "tzm-Latn",
-            "tzm-Latn-MA",
-            "zgh",
-            "zgh-MA"
+            "fr-MA"
         ],
         otherAppsIds: {
             geoNamesOrg: 2542007
@@ -6986,7 +6810,7 @@ export const countries = [
             "Europe/Monaco"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "fr",
             "fr-MC"
         ],
@@ -7031,7 +6855,7 @@ export const countries = [
             "Europe/Tiraspol"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ro",
             "ro-MD",
             "ru",
@@ -7081,7 +6905,7 @@ export const countries = [
             "Europe/Podgorica"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "sr",
             "sr-Cyrl",
             "sr-Cyrl-ME",
@@ -7128,7 +6952,7 @@ export const countries = [
             "America/Marigot"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "fr",
             "fr-MF"
         ],
@@ -7175,13 +6999,11 @@ export const countries = [
             "Indian/Antananarivo"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-MG",
             "fr",
-            "fr-MG",
-            "mg",
-            "mg-MG"
+            "fr-MG"
         ],
         otherAppsIds: {
             geoNamesOrg: 1062947
@@ -7227,7 +7049,7 @@ export const countries = [
             "Pacific/Majuro"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-MH"
         ],
@@ -7272,7 +7094,7 @@ export const countries = [
             "Europe/Skopje"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "mk",
             "mk-MK",
             "sq",
@@ -7321,15 +7143,9 @@ export const countries = [
             "Africa/Timbuktu"
         ],
         languages: [],
-        locales: [
-            "bm",
-            "bm-ML",
+        localesIcu: [
             "fr",
-            "fr-ML",
-            "khq",
-            "khq-ML",
-            "ses",
-            "ses-ML"
+            "fr-ML"
         ],
         otherAppsIds: {
             geoNamesOrg: 2453866
@@ -7372,7 +7188,7 @@ export const countries = [
             "Asia/Rangoon"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "my",
             "my-MM"
         ],
@@ -7419,7 +7235,7 @@ export const countries = [
             "Asia/Ulan_Bator"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "mn",
             "mn-MN"
         ],
@@ -7466,7 +7282,7 @@ export const countries = [
             "Asia/Macao"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-MO",
             "pt",
@@ -7514,7 +7330,7 @@ export const countries = [
             "Pacific/Saipan"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-MP"
         ],
@@ -7558,7 +7374,7 @@ export const countries = [
             "America/Martinique"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "fr",
             "fr-MQ"
         ],
@@ -7605,7 +7421,7 @@ export const countries = [
             "Africa/Nouakchott"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ar",
             "ar-MR",
             "ff",
@@ -7655,7 +7471,7 @@ export const countries = [
             "America/Montserrat"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-MS"
         ],
@@ -7702,7 +7518,7 @@ export const countries = [
             "Europe/Malta"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-MT",
             "mt",
@@ -7751,13 +7567,11 @@ export const countries = [
             "Indian/Mauritius"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-MU",
             "fr",
-            "fr-MU",
-            "mfe",
-            "mfe-MU"
+            "fr-MU"
         ],
         otherAppsIds: {
             geoNamesOrg: 934292
@@ -7801,10 +7615,7 @@ export const countries = [
             "Indian/Maldives"
         ],
         languages: [],
-        locales: [
-            "dv",
-            "dv-MV"
-        ],
+        localesIcu: [],
         otherAppsIds: {
             geoNamesOrg: 1282028
         }
@@ -7848,7 +7659,7 @@ export const countries = [
             "Africa/Blantyre"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-MW"
         ],
@@ -7909,7 +7720,7 @@ export const countries = [
             "Mexico/General"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "es",
             "es-MX"
         ],
@@ -7956,7 +7767,7 @@ export const countries = [
             "Asia/Kuching"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-MY",
             "ms",
@@ -8004,13 +7815,9 @@ export const countries = [
             "Africa/Maputo"
         ],
         languages: [],
-        locales: [
-            "mgh",
-            "mgh-MZ",
+        localesIcu: [
             "pt",
-            "pt-MZ",
-            "seh",
-            "seh-MZ"
+            "pt-MZ"
         ],
         otherAppsIds: {
             geoNamesOrg: 1036973
@@ -8054,13 +7861,11 @@ export const countries = [
             "Africa/Windhoek"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "af",
             "af-NA",
             "en",
-            "en-NA",
-            "naq",
-            "naq-NA"
+            "en-NA"
         ],
         otherAppsIds: {
             geoNamesOrg: 3355338
@@ -8102,7 +7907,7 @@ export const countries = [
             "Pacific/Noumea"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "fr",
             "fr-NC"
         ],
@@ -8148,15 +7953,11 @@ export const countries = [
             "Africa/Niamey"
         ],
         languages: [],
-        locales: [
-            "dje",
-            "dje-NE",
+        localesIcu: [
             "fr",
             "fr-NE",
             "ha",
-            "ha-NE",
-            "twq",
-            "twq-NE"
+            "ha-NE"
         ],
         otherAppsIds: {
             geoNamesOrg: 2440476
@@ -8200,7 +8001,7 @@ export const countries = [
             "Pacific/Norfolk"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-NF"
         ],
@@ -8246,7 +8047,7 @@ export const countries = [
             "Africa/Lagos"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-NG",
             "ha",
@@ -8298,7 +8099,7 @@ export const countries = [
             "America/Managua"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "es",
             "es-NI"
         ],
@@ -8349,7 +8150,7 @@ export const countries = [
             "Europe/Amsterdam"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-NL",
             "fy",
@@ -8401,7 +8202,7 @@ export const countries = [
             "Europe/Oslo"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "nb",
             "nb-NO",
             "nn",
@@ -8452,7 +8253,7 @@ export const countries = [
             "Asia/Katmandu"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ne",
             "ne-NP"
         ],
@@ -8499,7 +8300,7 @@ export const countries = [
             "Pacific/Nauru"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-NR"
         ],
@@ -8545,7 +8346,7 @@ export const countries = [
             "Pacific/Niue"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-NU"
         ],
@@ -8591,11 +8392,9 @@ export const countries = [
             "Pacific/Chatham"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
-            "en-NZ",
-            "mi",
-            "mi-NZ"
+            "en-NZ"
         ],
         otherAppsIds: {
             geoNamesOrg: 2186224
@@ -8637,7 +8436,7 @@ export const countries = [
             "Asia/Muscat"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ar",
             "ar-OM"
         ],
@@ -8683,7 +8482,7 @@ export const countries = [
             "America/Panama"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "es",
             "es-PA"
         ],
@@ -8731,11 +8530,9 @@ export const countries = [
             "America/Lima"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "es",
-            "es-PE",
-            "qu",
-            "qu-PE"
+            "es-PE"
         ],
         otherAppsIds: {
             geoNamesOrg: 3932488
@@ -8783,7 +8580,7 @@ export const countries = [
             "Pacific/Tahiti"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "fr",
             "fr-PF"
         ],
@@ -8831,7 +8628,7 @@ export const countries = [
             "Pacific/Port_Moresby"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-PG"
         ],
@@ -8879,7 +8676,7 @@ export const countries = [
             "Asia/Manila"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-PH",
             "es",
@@ -8930,15 +8727,12 @@ export const countries = [
             "Asia/Karachi"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-PK",
             "pa",
             "pa-Arab",
             "pa-Arab-PK",
-            "sd",
-            "sd-Arab",
-            "sd-Arab-PK",
             "ur",
             "ur-PK"
         ],
@@ -8982,7 +8776,7 @@ export const countries = [
             "Europe/Warsaw"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "pl",
             "pl-PL"
         ],
@@ -9028,7 +8822,7 @@ export const countries = [
             "America/Miquelon"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "fr",
             "fr-PM"
         ],
@@ -9075,7 +8869,7 @@ export const countries = [
             "Pacific/Pitcairn"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-PN"
         ],
@@ -9123,7 +8917,7 @@ export const countries = [
             "America/Puerto_Rico"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-PR",
             "es",
@@ -9168,7 +8962,7 @@ export const countries = [
             "Asia/Hebron"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ar",
             "ar-PS"
         ],
@@ -9214,7 +9008,7 @@ export const countries = [
             "Europe/Lisbon"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "pt",
             "pt-PT"
         ],
@@ -9261,7 +9055,7 @@ export const countries = [
             "Pacific/Palau"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-PW"
         ],
@@ -9309,7 +9103,7 @@ export const countries = [
             "America/Asuncion"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "es",
             "es-PY"
         ],
@@ -9355,7 +9149,7 @@ export const countries = [
             "Asia/Qatar"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ar",
             "ar-QA"
         ],
@@ -9401,7 +9195,7 @@ export const countries = [
             "Indian/Reunion"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "fr",
             "fr-RE"
         ],
@@ -9445,7 +9239,7 @@ export const countries = [
             "Europe/Bucharest"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ro",
             "ro-RO"
         ],
@@ -9492,7 +9286,7 @@ export const countries = [
             "Europe/Belgrade"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "sr",
             "sr-Cyrl",
             "sr-Cyrl-RS",
@@ -9565,19 +9359,9 @@ export const countries = [
             "Europe/Volgograd"
         ],
         languages: [],
-        locales: [
-            "ce",
-            "ce-RU",
-            "cu",
-            "cu-RU",
-            "os",
-            "os-RU",
+        localesIcu: [
             "ru",
-            "ru-RU",
-            "sah",
-            "sah-RU",
-            "tt",
-            "tt-RU"
+            "ru-RU"
         ],
         otherAppsIds: {
             geoNamesOrg: 2017370
@@ -9624,13 +9408,11 @@ export const countries = [
             "Africa/Kigali"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-RW",
             "fr",
-            "fr-RW",
-            "rw",
-            "rw-RW"
+            "fr-RW"
         ],
         otherAppsIds: {
             geoNamesOrg: 49518
@@ -9674,7 +9456,7 @@ export const countries = [
             "Asia/Riyadh"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ar",
             "ar-SA"
         ],
@@ -9720,7 +9502,7 @@ export const countries = [
             "Pacific/Guadalcanal"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-SB"
         ],
@@ -9768,7 +9550,7 @@ export const countries = [
             "Indian/Mahe"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-SC",
             "fr",
@@ -9817,13 +9599,11 @@ export const countries = [
             "Africa/Khartoum"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ar",
             "ar-SD",
             "en",
-            "en-SD",
-            "nus",
-            "nus-SD"
+            "en-SD"
         ],
         otherAppsIds: {
             geoNamesOrg: 366755
@@ -9867,7 +9647,7 @@ export const countries = [
             "Europe/Stockholm"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-SE",
             "se",
@@ -9920,7 +9700,7 @@ export const countries = [
             "Asia/Singapore"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-SG",
             "ms",
@@ -9972,7 +9752,7 @@ export const countries = [
             "Atlantic/St_Helena"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-SH"
         ],
@@ -10016,7 +9796,7 @@ export const countries = [
             "Europe/Ljubljana"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-SI",
             "sl",
@@ -10065,7 +9845,7 @@ export const countries = [
             "Atlantic/Jan_Mayen"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "nb",
             "nb-SJ"
         ],
@@ -10109,7 +9889,7 @@ export const countries = [
             "Europe/Bratislava"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "sk",
             "sk-SK"
         ],
@@ -10157,7 +9937,7 @@ export const countries = [
             "Africa/Freetown"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-SL"
         ],
@@ -10203,7 +9983,7 @@ export const countries = [
             "Europe/San_Marino"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "it",
             "it-SM"
         ],
@@ -10250,9 +10030,7 @@ export const countries = [
             "Africa/Dakar"
         ],
         languages: [],
-        locales: [
-            "dyo",
-            "dyo-SN",
+        localesIcu: [
             "ff",
             "ff-SN",
             "fr",
@@ -10301,11 +10079,9 @@ export const countries = [
             "Africa/Mogadishu"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ar",
-            "ar-SO",
-            "so",
-            "so-SO"
+            "ar-SO"
         ],
         otherAppsIds: {
             geoNamesOrg: 51537
@@ -10349,7 +10125,7 @@ export const countries = [
             "America/Paramaribo"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "nl",
             "nl-SR"
         ],
@@ -10395,7 +10171,7 @@ export const countries = [
             "Africa/Juba"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ar",
             "ar-SS",
             "en",
@@ -10443,7 +10219,7 @@ export const countries = [
             "Africa/Sao_Tome"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "pt",
             "pt-ST"
         ],
@@ -10489,7 +10265,7 @@ export const countries = [
             "America/El_Salvador"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "es",
             "es-SV"
         ],
@@ -10537,7 +10313,7 @@ export const countries = [
             "America/Lower_Princes"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-SX",
             "nl",
@@ -10585,7 +10361,7 @@ export const countries = [
             "Asia/Damascus"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ar",
             "ar-SY",
             "fr",
@@ -10634,7 +10410,7 @@ export const countries = [
             "Africa/Mbabane"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-SZ"
         ],
@@ -10680,7 +10456,7 @@ export const countries = [
             "America/Grand_Turk"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-TC"
         ],
@@ -10728,7 +10504,7 @@ export const countries = [
             "Africa/Ndjamena"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ar",
             "ar-TD",
             "fr",
@@ -10776,15 +10552,13 @@ export const countries = [
             "Indian/Kerguelen"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "br",
             "br-FR",
             "ca",
             "ca-FR",
             "fr",
-            "fr-FR",
-            "gsw",
-            "gsw-FR"
+            "fr-FR"
         ],
         otherAppsIds: {
             geoNamesOrg: 1546748
@@ -10828,7 +10602,7 @@ export const countries = [
             "Africa/Lome"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ee",
             "ee-TG",
             "fr",
@@ -10876,7 +10650,7 @@ export const countries = [
             "Asia/Bangkok"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "th",
             "th-TH"
         ],
@@ -10922,10 +10696,7 @@ export const countries = [
             "Asia/Dushanbe"
         ],
         languages: [],
-        locales: [
-            "tg",
-            "tg-TJ"
-        ],
+        localesIcu: [],
         otherAppsIds: {
             geoNamesOrg: 1220409
         }
@@ -10968,7 +10739,7 @@ export const countries = [
             "Pacific/Fakaofo"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-TK"
         ],
@@ -11015,7 +10786,7 @@ export const countries = [
             "Asia/Dili"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "pt",
             "pt-TL"
         ],
@@ -11062,7 +10833,7 @@ export const countries = [
             "Asia/Ashkhabad"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "tk",
             "tk-TM"
         ],
@@ -11108,7 +10879,7 @@ export const countries = [
             "Africa/Tunis"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ar",
             "ar-TN",
             "fr",
@@ -11158,7 +10929,7 @@ export const countries = [
             "Pacific/Tongatapu"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-TO",
             "to",
@@ -11207,7 +10978,7 @@ export const countries = [
             "Asia/Istanbul"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ku",
             "ku-TR",
             "tr",
@@ -11255,7 +11026,7 @@ export const countries = [
             "America/Port_of_Spain"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-TT"
         ],
@@ -11303,7 +11074,7 @@ export const countries = [
             "Pacific/Funafuti"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-TV"
         ],
@@ -11347,7 +11118,7 @@ export const countries = [
             "Asia/Taipei"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "zh",
             "zh-TW"
         ],
@@ -11392,33 +11163,11 @@ export const countries = [
             "Africa/Dar_es_Salaam"
         ],
         languages: [],
-        locales: [
-            "asa",
-            "asa-TZ",
-            "bez",
-            "bez-TZ",
+        localesIcu: [
             "en",
             "en-TZ",
-            "jmc",
-            "jmc-TZ",
-            "kde",
-            "kde-TZ",
-            "ksb",
-            "ksb-TZ",
-            "lag",
-            "lag-TZ",
-            "mas",
-            "mas-TZ",
-            "rof",
-            "rof-TZ",
-            "rwk",
-            "rwk-TZ",
-            "sbp",
-            "sbp-TZ",
             "sw",
-            "sw-TZ",
-            "vun",
-            "vun-TZ"
+            "sw-TZ"
         ],
         otherAppsIds: {
             geoNamesOrg: 149590
@@ -11462,7 +11211,7 @@ export const countries = [
             "Europe/Zaporozhye"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ru",
             "ru-UA",
             "uk",
@@ -11511,21 +11260,11 @@ export const countries = [
             "Africa/Kampala"
         ],
         languages: [],
-        locales: [
-            "cgg",
-            "cgg-UG",
+        localesIcu: [
             "en",
             "en-UG",
-            "lg",
-            "lg-UG",
-            "nyn",
-            "nyn-UG",
             "sw",
-            "sw-UG",
-            "teo",
-            "teo-UG",
-            "xog",
-            "xog-UG"
+            "sw-UG"
         ],
         otherAppsIds: {
             geoNamesOrg: 226074
@@ -11573,7 +11312,7 @@ export const countries = [
             "Pacific/Johnston"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-UM"
         ],
@@ -11668,7 +11407,7 @@ export const countries = [
             "US/Samoa"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "chr",
             "chr-US",
             "en",
@@ -11722,7 +11461,7 @@ export const countries = [
             "America/Montevideo"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "es",
             "es-UY"
         ],
@@ -11768,7 +11507,7 @@ export const countries = [
             "Asia/Tashkent"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "uz",
             "uz-Cyrl",
             "uz-Cyrl-UZ",
@@ -11816,7 +11555,7 @@ export const countries = [
             "Europe/Vatican"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "it",
             "it-VA"
         ],
@@ -11862,7 +11601,7 @@ export const countries = [
             "America/St_Vincent"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-VC"
         ],
@@ -11908,7 +11647,7 @@ export const countries = [
             "America/Caracas"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "es",
             "es-VE"
         ],
@@ -11954,7 +11693,7 @@ export const countries = [
             "America/Tortola"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-VG"
         ],
@@ -12000,7 +11739,7 @@ export const countries = [
             "America/St_Thomas"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-VI"
         ],
@@ -12047,7 +11786,7 @@ export const countries = [
             "Asia/Saigon"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "vi",
             "vi-VN"
         ],
@@ -12097,7 +11836,7 @@ export const countries = [
             "Pacific/Efate"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-VU",
             "fr",
@@ -12146,7 +11885,7 @@ export const countries = [
             "Pacific/Wallis"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "fr",
             "fr-WF"
         ],
@@ -12193,7 +11932,7 @@ export const countries = [
             "Pacific/Samoa"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
             "en-WS"
         ],
@@ -12240,7 +11979,7 @@ export const countries = [
             "Europe/Belgrade"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "sq",
             "sq-AL",
             "sr",
@@ -12291,7 +12030,7 @@ export const countries = [
             "Asia/Aden"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "ar",
             "ar-YE"
         ],
@@ -12337,7 +12076,7 @@ export const countries = [
             "Indian/Mayotte"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "fr",
             "fr-YT"
         ],
@@ -12393,7 +12132,7 @@ export const countries = [
             "Africa/Johannesburg"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "af",
             "af-ZA",
             "en",
@@ -12445,9 +12184,7 @@ export const countries = [
             "Africa/Lusaka"
         ],
         languages: [],
-        locales: [
-            "bem",
-            "bem-ZM",
+        localesIcu: [
             "en",
             "en-ZM"
         ],
@@ -12506,13 +12243,9 @@ export const countries = [
             "Africa/Harare"
         ],
         languages: [],
-        locales: [
+        localesIcu: [
             "en",
-            "en-ZW",
-            "nd",
-            "nd-ZW",
-            "sn",
-            "sn-ZW"
+            "en-ZW"
         ],
         otherAppsIds: {
             geoNamesOrg: 878675

@@ -73,7 +73,7 @@ const xmlMap = {
             timeZones: {
                 "@tag": "tz"
             },
-            locales: {
+            localesIcu: {
                 "@tag": "locale"
             }
         }

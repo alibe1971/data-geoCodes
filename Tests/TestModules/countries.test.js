@@ -243,12 +243,12 @@ for (const country of Object.values(countries)) {
         /** languages **/
         // [TODO]
 
-        /** locales **/
-        test(`Test that the country '${country.alpha2}' has the property 'locales' as not empty array`, () => {
+        /** localesIcu **/
+        test(`Test that the country '${country.alpha2}' has the property 'localesIcu' as array`, () => {
             expect(
-                country.hasOwnProperty('locales') &&
-                typeof country.locales === 'object' && country.locales !== null &&
-                Array.isArray(country.locales) && country.locales.length !== 0
+                country.hasOwnProperty('localesIcu') &&
+                typeof country.localesIcu === 'object' && country.localesIcu !== null &&
+                Array.isArray(country.localesIcu)
             ).toBe(true);
         });
 

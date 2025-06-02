@@ -196,7 +196,7 @@ export const countriesFunctions = {
                             !requirements(curr, 'regex', /^[a-z]{3}$/i)
                         ) {
                             throwMex('currencies.' + cat + '.' + index, item[mainKey],
-                                'The property must be 3 chars length alphabetical string');
+                                'The value for the property (' + curr + ') must be 3 chars length alphabetical string');
                         }
                         currencies.push(curr.toUpperCase());
                     }
@@ -234,8 +234,9 @@ export const countriesFunctions = {
                             !requirements(dial, 'regex', /^(?:\+[1-9]\d*|\d+)$/)
                         ) {
                             throwMex('dialCodes.' + cat + '.' + index, item[mainKey],
-                                'The property must be either an integer or a numeric string.'
-                            + 'It can start with `00` or `+`, but the very next digit must be between 1 and 9');
+                                'The the value for the property (' + dial + ') must be either an integer or '
+                                + 'a numeric string. '
+                                + 'It can start with `00` or `+`, but the very next digit must be between 1 and 9');
                         }
                         dialCodes.push(dial);
                     }
@@ -256,7 +257,6 @@ export const countriesFunctions = {
                 if (
                     !requirements(item.ccTld, 'mustBeString') ||
                     !requirements(item.ccTld, 'regex', /^\.[a-z]{2}$/i)
-
                 ) {
                     throwMex('ccTld', item[mainKey],
                         'The property as string must respect the level domain rules (and begin with a `.`)');
@@ -282,12 +282,12 @@ export const countriesFunctions = {
                     !requirements(tz, 'mustBeString') ||
                     !requirements(tz, 'regex', /^[^/]+(\/[^/]+){1,2}$/i)
                 ) {
-                    throwMex('timeZones', item[mainKey],
-                        'The value `timeZones.' + index +'` has not the correct format');
+                    throwMex('timeZones.' + index, item[mainKey],
+                        'The value for the property (' + tz + ') has not the correct format');
                 }
                 if( !(moment.tz.zone(tz) != null) ) {
-                    throwMex('timeZones', item[mainKey],
-                        'The value `timeZones.' + index +'` is not in the database');
+                    throwMex('timeZones.' + index, item[mainKey],
+                        'The value for the property (' + tz + ') is not in the database');
                 }
             }
             country.timeZones = item.timeZones;
@@ -295,24 +295,27 @@ export const countriesFunctions = {
             /** languages: TODO */
             country.languages = [];
 
-            /** locales: must be present and must be a not empty array */
-            if(!Object.prototype.hasOwnProperty.call(item, 'locales')) {
-                throwMex('locales', item[mainKey], 'Required property is missing');
-            } else if(
-                typeof item.locales != 'object' ||
-                item.locales === null ||
-                !Array.isArray(item.locales) ||
-                item.locales.length === 0
-            ) {
-                throwMex('locales', item[mainKey], 'The property must be a not empty array');
+            /** localesIcu: must be present and must be a not empty array */
+            let localesIcu = [];
+            if(!Object.prototype.hasOwnProperty.call(item, 'localesIcu')) {
+                item.localesIcu = localesIcu;
+            } else if(!requirements(item.localesIcu, 'mustBeArray') ) {
+                throwMex('localesIcu', item[mainKey], 'The property must be an  array');
             }
-            for (const loc of item.locales) {
-                if(typeof loc != 'string' || !/^(?=.*[a-zA-Z])([a-zA-Z]+-?)*[a-zA-Z]+$/.test(loc)) {
-                    throwMex('locales', item[mainKey],
-                        'The value locales["' + loc + '"]` has not the correct format');
+            for (let [index, loc] of item.localesIcu.entries()) {
+                loc = refactorLanguages(loc);
+                if ( loc == 'error' || !requirements(loc, 'bcp47') ) {
+                    throwMex('localesIcu.' + index, item[mainKey],
+                        'The value for the property (' + loc + ') ' +
+                        'non-compliant with BCP 47 format');
                 }
+                if (!Intl.Collator.supportedLocalesOf([loc]).length) {
+                    throwMex('localesIcu.' + index, item[mainKey],
+                        'The value for the property (' + loc + ') is not supported');
+                }
+                localesIcu.push(loc);
             }
-            country.locales = item.locales;
+            country.localesIcu = localesIcu;
 
             /** otherAppsIds: must be present and be a not empty object */
             if(!Object.prototype.hasOwnProperty.call(item, 'otherAppsIds')) {
