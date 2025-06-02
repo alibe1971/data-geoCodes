@@ -59,7 +59,7 @@ let APP = {
         );
 
         let translationData = {};
-        for (const lang of Object.keys(APP['config'].settings.languages.inPackage)) {
+        for (const lang of APP['config'].settings.languages.inPackage) {
             translationData[lang] = {};
             for (const [transKey, transObj] of Object.entries(configBuild.TranslationData[key])) {
                 translationData[lang][transKey] = await readJsonFile(
@@ -81,7 +81,7 @@ let APP = {
         await cleanDir(
             configBuild.readPaths.destin + app,
             '/' + configBuild.TranslationDir + '/',
-            Object.keys(APP['config'].settings.languages.inPackage)
+            APP['config'].settings.languages.inPackage
         );
         console.log(chalk.cyan('         - The `' + app + '` directory has now been cleaned'));
         await functions.save(configBuild.readPaths.destin + app + '/', APP);

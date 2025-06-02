@@ -6,19 +6,11 @@
                 <xs:element name="languages">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="default" type="xs:string"/>
-                            <xs:element name="inPackage">
+                            <xs:element name="default" type="xs:string" minOccurs="1"/>
+                            <xs:element name="inPackage" minOccurs="1">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="locale" maxOccurs="unbounded">
-                                            <xs:complexType>
-                                                <xs:simpleContent>
-                                                    <xs:extension base="xs:string">
-                                                        <xs:attribute name="language" type="xs:string" use="required"/>
-                                                    </xs:extension>
-                                                </xs:simpleContent>
-                                            </xs:complexType>
-                                        </xs:element>
+                                        <xs:element name="language" type="xs:string" maxOccurs="unbounded" minOccurs="1"/>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>

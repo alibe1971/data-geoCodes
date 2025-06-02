@@ -311,7 +311,8 @@ export const countriesFunctions = {
                 }
                 if (!Intl.Collator.supportedLocalesOf([loc]).length) {
                     throwMex('localesIcu.' + index, item[mainKey],
-                        'The value for the property (' + loc + ') is not supported');
+                        'The value for the property (' + loc + ') is not supported by the International Components '
+                        + 'for Unicode');
                 }
                 localesIcu.push(loc);
             }

@@ -9,8 +9,7 @@ const xmlMap = {
     settings: {
         languages: {
             inPackage: {
-                "@tag": "locale",
-                "@attribute": "language",
+                "@tag": "language"
             }
         }
     },

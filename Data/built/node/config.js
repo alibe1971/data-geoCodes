@@ -23,10 +23,10 @@ export const config = {
     settings: {
         languages: {
             default: "en",
-            inPackage: {
-                en: "en_GB",
-                it: "it_IT"
-            }
+            inPackage: [
+                "en",
+                "it"
+            ]
         }
     }
 };
