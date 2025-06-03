@@ -28,6 +28,16 @@ export function writeFile(filePath, data) {
     }
 }
 
+export function cloneFile(filePath, destination) {
+    try {
+        fs.copyFileSync(filePath, destination);
+        return chalk.green(`File ${filePath} has been successfully cloned.`);
+    } catch (err) {
+        throw new Error(chalk.red(`Error cloning file ${filePath}: ${err}`));
+    }
+
+}
+
 export function sortList(list, key) {
     list.sort((a, b) => {
         const aKey = a[key] || '';

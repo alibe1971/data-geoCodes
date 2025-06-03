@@ -1,6 +1,8 @@
 import chalk from 'chalk';
-import { writeFile } from '../utils.js';
+import {cloneFile, writeFile} from '../utils.js';
 import { js2xml } from 'xml-js';
+import { dirname } from 'path';
+import { fileURLToPath } from 'url';
 
 /**
  * Map for the XML creation
@@ -49,6 +51,18 @@ const xmlMap = {
             },
             mottos: {
                 official: {
+                    "@tag": "motto",
+                    "@attribute": "lang",
+                },
+                popular: {
+                    "@tag": "motto",
+                    "@attribute": "lang",
+                },
+                royal: {
+                    "@tag": "motto",
+                    "@attribute": "lang",
+                },
+                presidential: {
                     "@tag": "motto",
                     "@attribute": "lang",
                 }
@@ -109,6 +123,7 @@ export const saveDataForXml = {
                 }
             }
         };
+        const XsdPath = dirname(fileURLToPath(import.meta.url)) + '/Xsd/';
 
         /** Configuration **/
         completeData.config = {...declaration, ...completeData.config};
@@ -118,6 +133,7 @@ export const saveDataForXml = {
 
         await writeFile(destination + 'config.xml', xmlData);
         await writeFile(destination + 'config.min.xml', xmlMinData);
+        await cloneFile(XsdPath + 'config.xsd',  destination + 'config.xsd');
 
         /** Main Data **/
         for (let [key, data] of Object.entries(completeData.data)) {
@@ -141,6 +157,8 @@ export const saveDataForXml = {
 
             await writeFile(destination + key + '.xml', xmlData);
             await writeFile(destination + key + '.min.xml', xmlMinData);
+            await cloneFile(XsdPath + key + '.xsd',  destination + key + '.xsd');
+            await cloneFile(XsdPath + 'Translations/' + key + '.xsd',  destination + 'Translations/' + key + '.xsd');
             console.log(chalk.cyan(`         - Main data for 'xml' app for '${key}' has been written`));
 
             /** Translations Data **/
