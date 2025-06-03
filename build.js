@@ -26,15 +26,15 @@ let APP = {
             APP['extra'] = await readJsonFile('buildConfig.json');
         }
 
-        /** extra.flagsSvgFormat */
+        /** extra.countries.flagsSvgFormat */
         if(
             !Object.prototype.hasOwnProperty.call(APP['extra'], 'flagsSvgFormat') ||
             typeof APP['extra'].flagsSvgFormat != 'string' ||
-            !configBuild.extra.flags.enumSvgFormat.includes(APP['extra'].flagsSvgFormat)
+            !configBuild.extra.countries.flags.enumSvgFormat.includes(APP['extra'].flagsSvgFormat)
         ) {
-            APP['extra'].flagsSvgFormat = configBuild.extra.flags.defaultSvgFormat;
+            APP['extra'].flagsSvgFormat = configBuild.extra.countries.flags.defaultSvgFormat;
         }
-        configBuild.extra.flags.chosenSvgFormat = APP['extra'].flagsSvgFormat;
+        configBuild.extra.countries.flags.chosenSvgFormat = APP['extra'].flagsSvgFormat;
 
         /** extra.exportDataDirs */
         if(

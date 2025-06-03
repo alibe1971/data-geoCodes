@@ -105,7 +105,7 @@ export const countriesFunctions = {
             }
             /** flags.svg: built in */
             let flagPath = configBuild.readPaths.origin + 'Flags/Countries/' + item[mainKey].toLowerCase()
-                + '/flag_' + configBuild.extra.flags.chosenSvgFormat + '.svg';
+                + '/flag_' + configBuild.extra.countries.flags.chosenSvgFormat + '.svg';
             if (!checkFile(flagPath)) {
                 throwMex('flags.svg', item[mainKey], 'The origin data file `' + flagPath +'` must exists');
             }
@@ -134,18 +134,12 @@ export const countriesFunctions = {
 
             /** mottos: if present, it must be an object */
             let itemMottos = {};
-            const mottosCategories = [
-                'official',
-                'popular',
-                'royal',
-                'presidential',
-            ];
             if ( !Object.prototype.hasOwnProperty.call(item, 'mottos') ) {
                 item.mottos = itemMottos;
             } else if( !requirements(item.mottos, 'mustBeObject') ) {
                 throwMex('mottos', item[mainKey], 'The property must be an object');
             }
-            for (const cat of mottosCategories) {
+            for (const cat of configBuild.extra.countries.mottos.categories) {
                 if(!Object.prototype.hasOwnProperty.call(item.mottos, cat)) {
                     itemMottos[cat] = {};
                 } else if( !requirements(item.mottos[cat], 'mustBeObject') ) {
@@ -174,16 +168,12 @@ export const countriesFunctions = {
 
             /** currencies: must be an object */
             let itemCurrencies = {};
-            const currencyCategories = [
-                'legalTenders',
-                'widelyAccepted'
-            ];
             if ( !Object.prototype.hasOwnProperty.call(item, 'currencies') ) {
                 item.currencies = itemCurrencies;
             } else if( !requirements(item.currencies, 'mustBeObject') ) {
                 throwMex('currencies', item[mainKey], 'The property must be an object');
             }
-            for (const cat of currencyCategories) {
+            for (const cat of configBuild.extra.countries.currencies.categories) {
                 if(!Object.prototype.hasOwnProperty.call(item.currencies, cat)) {
                     itemCurrencies[cat] = [];
                 } else if( !requirements(item.currencies[cat], 'mustBeArray') ) {
@@ -207,16 +197,12 @@ export const countriesFunctions = {
 
             /** dialCodes: must be an object */
             let itemDialCodes = {};
-            const dialCodesCategories = [
-                'main',
-                'exceptions'
-            ];
             if ( !Object.prototype.hasOwnProperty.call(item, 'dialCodes') ) {
                 item.dialCodes = itemDialCodes;
             } else if( !requirements(item.dialCodes, 'mustBeObject') ) {
                 throwMex('dialCodes', item[mainKey], 'The property must be an object');
             }
-            for (const cat of dialCodesCategories) {
+            for (const cat of configBuild.extra.countries.dialCodes.categories) {
                 if(!Object.prototype.hasOwnProperty.call(item.dialCodes, cat)) {
                     itemDialCodes[cat] = [];
                 } else if( !requirements(item.dialCodes[cat], 'mustBeArray') ) {

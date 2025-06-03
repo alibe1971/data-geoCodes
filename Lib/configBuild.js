@@ -55,14 +55,37 @@ export const configBuild = {
         languages: languagesFunctions
     },
     extra: {
-        flags: {
-            enumSvgFormat: [
-                '1x1',
-                '4x3',
-                '10x7'
-            ],
-            defaultSvgFormat: '10x7',
-            chosenSvgFormat: null,
+        countries: {
+            flags: {
+                enumSvgFormat: [
+                    '1x1',
+                    '4x3',
+                    '10x7'
+                ],
+                defaultSvgFormat: '10x7',
+                chosenSvgFormat: null,
+            },
+            mottos: {
+                categories: [
+                    'official',
+                    'popular',
+                    'royal',
+                    'presidential'
+                ]
+            },
+            currencies: {
+                categories: [
+                    'legalTenders',
+                    'widelyAccepted'
+                ]
+            },
+            dialCodes: {
+                categories: [
+                    'main',
+                    'exceptions'
+                ]
+            }
         }
+
     }
 };
