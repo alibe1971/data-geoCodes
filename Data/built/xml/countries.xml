@@ -789,7 +789,7 @@
             <official/>
             <popular/>
             <royal>
-                <fr>Je maintiendrai</fr>
+                <motto lang="fr">Je maintiendrai</motto>
             </royal>
             <presidential/>
         </mottos>
@@ -1554,7 +1554,7 @@
             </official>
             <popular/>
             <royal>
-                <fr>Je maintiendrai</fr>
+                <motto lang="fr">Je maintiendrai</motto>
             </royal>
             <presidential/>
         </mottos>
@@ -2722,7 +2722,7 @@
             <official/>
             <popular/>
             <royal>
-                <fr>Je maintiendrai</fr>
+                <motto lang="fr">Je maintiendrai</motto>
             </royal>
             <presidential/>
         </mottos>
@@ -8158,7 +8158,7 @@
             </official>
             <popular/>
             <royal>
-                <fr>Je maintiendrai</fr>
+                <motto lang="fr">Je maintiendrai</motto>
             </royal>
             <presidential/>
         </mottos>
@@ -8585,7 +8585,7 @@
                 <motto lang="fr">Liberté, Égalité, Fraternité</motto>
             </official>
             <popular>
-                <ty>Pōrīnetia Farāni</ty>
+                <motto lang="ty">Pōrīnetia Farāni</motto>
             </popular>
             <royal/>
             <presidential/>
@@ -10321,7 +10321,7 @@
             </official>
             <popular/>
             <royal>
-                <fr>Je maintiendrai</fr>
+                <motto lang="fr">Je maintiendrai</motto>
             </royal>
             <presidential/>
         </mottos>
@@ -11319,7 +11319,7 @@
             <popular/>
             <royal/>
             <presidential>
-                <la>E pluribus unum</la>
+                <motto lang="la">E pluribus unum</motto>
             </presidential>
         </mottos>
         <currencies>
@@ -11369,7 +11369,7 @@
             <popular/>
             <royal/>
             <presidential>
-                <la>E pluribus unum</la>
+                <motto lang="la">E pluribus unum</motto>
             </presidential>
         </mottos>
         <currencies>

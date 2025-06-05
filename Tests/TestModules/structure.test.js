@@ -19,7 +19,7 @@ describe('Files configuration for the applications', () => {
                 const file = `${path}${data}${global.Applications[app]}`;
                 expect(fs.existsSync(file)).toBe(true);
 
-                for (const lang of Object.keys(global.APP.config.settings.languages.inPackage)) {
+                for (const lang of global.APP.config.settings.languages.inPackage) {
                     const langFile = `${path}${global.translationsDir}${lang}/${data}${global.Applications[app]}`;
                     expect(fs.existsSync(langFile)).toBe(true);
                 }

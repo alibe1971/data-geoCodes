@@ -45,7 +45,7 @@ export async function setupApp() {
             moduleLoad = await import(`${dataPath}${key}.js`);
             global.APP.data[key] = moduleLoad[key];
 
-            for (const lang of Object.keys(global.APP.config.settings.languages.inPackage)) {
+            for (const lang of global.APP.config.settings.languages.inPackage) {
                 moduleLoad = await import(`${dataPath}${global.translationsDir}${lang}/${key}.js`);
                 global.APP.translations[key][lang] = moduleLoad[key];
             }
