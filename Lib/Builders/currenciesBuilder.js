@@ -1,5 +1,5 @@
 import chalk from 'chalk';
-import {checkForTranslationString, errorMessage, sortList} from '../utils.js';
+import {checkForTranslationString, errorMessage, requirements, sortList} from '../utils.js';
 
 const mainKey = 'isoAlpha';
 const collection = 'Currencies';
@@ -22,18 +22,22 @@ export const currenciesFunctions = {
             let currency = {};
 
             /** isoAlpha: must be present and must be 3 chars length string */
-            if(typeof item.isoAlpha != 'string' || item.isoAlpha.length != 3 || !/^[a-zA-Z]+$/.test(item.isoAlpha)) {
+            if(
+                !requirements(item.isoAlpha, 'mustBeString') ||
+                !requirements(item.isoAlpha, 'regex', /^[a-z]{3}$/i)
+            ) {
                 throwMex('isoAlpha', item[mainKey], 'The property must be 3 chars length alphabetical string');
             }
             currency.isoAlpha = item.isoAlpha.toUpperCase();
 
-            /** unM49: must be present and must be 3 chars length numeric string */
+
+            /** isoNumber: must be present and must be 3 chars length numeric string */
             if(!Object.prototype.hasOwnProperty.call(item, 'isoNumber')) {
-                throwMex('unM49', item[mainKey], 'Required property is missing');
+                throwMex('isoNumber', item[mainKey], 'Required property is missing');
             }
             item.isoNumber = item.isoNumber.toString().padStart(3, '0');
-            if(item.isoNumber.length != 3 || !/^\d+$/.test(item.isoNumber)) {
-                throwMex('unM49', item[mainKey], 'The property must be 3 chars length numeric string');
+            if( !requirements(item.isoNumber, 'regex', /^\d{3}$/i) ) {
+                throwMex('isoNumber', item[mainKey], 'The property must be 3 chars length numeric string');
             }
             currency.isoNumber = item.isoNumber;
 
@@ -42,20 +46,19 @@ export const currenciesFunctions = {
             if(!Object.prototype.hasOwnProperty.call(item, 'symbol')) {
                 item.symbol = null;
             }
-            if(item.symbol !== null) {
-                if(typeof item.symbol != 'string') {
-                    throwMex('symbol', item[mainKey],  'The property must be null or s string');
-                }
+            if( !requirements(item.symbol, 'mustBeStringOrNull')  ) {
+                throwMex('symbol', item[mainKey], 'The property must be null or string');
             }
             currency.symbol = item.symbol;
 
-            /** decimal: must be present and an integer */
+            /** decimal: must be null or a positive integer (zero included)*/
             if(!Object.prototype.hasOwnProperty.call(item, 'decimal')) {
-                throwMex('decimal', item[mainKey], 'Required property is missing');
+                item.decimal = null;
             }
-            if(item.decimal !== null) {
-                if(!Number.isInteger(item.decimal)) {
-                    throwMex('decimal', item[mainKey], 'The property must be a positive integer');
+            if(item.decimal != null) {
+                if( !requirements(item.decimal, 'mustBePositiveIntegerOrZero') ) {
+                    throwMex('decimal', item[mainKey],
+                        'The property must be null or a positive integer (zero included)');
                 }
             }
             currency.decimal = item.decimal;
@@ -70,24 +73,24 @@ export const currenciesFunctions = {
     },
 
     DataTranslations: async (data, defaultLanguage = 'en') => {
-        let cc;
+        let cur;
         for (const [lang, langObjs] of Object.entries(data)) {
             Translations[lang] = {};
-            for (const country of Object.values(Currencies)) {
-                cc = country[mainKey];
-                Translations[lang][cc] = {};
+            for (const currency of Object.values(Currencies)) {
+                cur = currency[mainKey];
+                Translations[lang][cur] = {};
 
                 /** `name`: the source must be a string (required for the default language) **/
-                Translations[lang][cc].name =
+                Translations[lang][cur].name =
                     (checkForTranslationString(
                         collection,
                         collectionItem,
-                        cc,
+                        cur,
                         langObjs.name,
                         lang,
                         defaultLanguage,
                         'name'
-                    )) ? langObjs.name[cc] : '';
+                    )) ? langObjs.name[cur] : '';
             }
             console.log(
                 chalk.cyan('         - Translation language `' + lang + '` data for `' + collection +'` parsed')
