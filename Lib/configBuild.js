@@ -85,6 +85,14 @@ export const configBuild = {
                     'exceptions'
                 ]
             }
+        },
+        geoSets: {
+            internalCode: [
+                'GEOG',
+                'CONV',
+                'ORGS',
+                'ZONE',
+            ]
         }
 
     }
