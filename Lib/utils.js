@@ -232,6 +232,9 @@ export function requirements(prop, rule, regex=null) {
     case 'mustBePositiveIntegerNotZero':
         return ( Number.isInteger(prop) && prop > 0);
 
+    case 'mustBePositiveIntegerOrZero':
+        return ( Number.isInteger(prop) && prop >= 0);
+
     case 'cannotBeEmpty': {
         let count = 0;
         if (typeof prop == 'object') {
