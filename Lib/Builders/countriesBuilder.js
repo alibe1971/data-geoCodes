@@ -324,7 +324,7 @@ export const countriesFunctions = {
             }
             if( !requirements(item.otherAppsIds.geoNamesOrg, 'mustBePositiveIntegerNotZero') ) {
                 throwMex('otherAppsIds.geoNamesOrg', item[mainKey],
-                    'The property must be a positive greater then zero');
+                    'The property must be null or a positive integer greater then zero');
             }
             country.otherAppsIds = {
                 geoNamesOrg: item.otherAppsIds.geoNamesOrg
