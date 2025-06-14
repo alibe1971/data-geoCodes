@@ -1197,7 +1197,9 @@
         "isoNumber": "997",
         "symbol": null,
         "decimal": 2,
-        "NOTES": []
+        "NOTES": [
+            "Used only at a financial level"
+        ]
     },
     {
         "LABEL": "Uruguay Peso en Unidades Indexadas (UI)",
