@@ -2641,7 +2641,6 @@ return [
             'LK',
             'SD',
             'SR',
-            'SZ',
             'SE',
             'CH',
             'SY',

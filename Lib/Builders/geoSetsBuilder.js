@@ -28,7 +28,8 @@ export const geoSetsFunctions = {
                 !requirements(item.internalCode, 'mustBeString') ||
                 !requirements(item.internalCode, 'regex', /^(?=.*[a-z0-9])[^-]+(?:-[^-]+){1,3}$/i)
             ) {
-                throwMex('internalCode', item[mainKey], 'The property has not the correct format');
+                throwMex('internalCode', item[mainKey],
+                    'The property must be a string, having from 2 to 4 alphanumeric sequences separated by an hyphen.');
             }
             item.internalCode = item.internalCode.toUpperCase();
             macroSet = item.internalCode.split('-')[0];
@@ -78,7 +79,7 @@ export const geoSetsFunctions = {
                 }
                 tmpTag.push(tag.toLowerCase());
             }
-            geoSet.tags = tmpTag;
+            geoSet.tags = tmpTag.filter((v, i) => tmpTag.indexOf(v) === i);
 
 
             /** countryCodes: must be present and must be an array of 2 length chars strings*/
@@ -97,12 +98,12 @@ export const geoSetsFunctions = {
                     !requirements(countryCode, 'mustBeString') ||
                     !requirements(countryCode, 'regex', /^[a-z]{2}$/i)
                 ) {
-                    throwMex('alpha2', item[mainKey],
+                    throwMex('countryCodes', item[mainKey],
                         'The value of countryCodes `' + countryCode + '` must be 2 chars length alphabetical string');
                 }
                 tmpCC.push(countryCode.toUpperCase());
             }
-            geoSet.countryCodes = tmpCC;
+            geoSet.countryCodes = tmpCC.filter((v, i) => tmpCC.indexOf(v) === i);
 
             /** ---- **/
             GeoSets.push(geoSet);

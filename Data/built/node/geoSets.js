@@ -2642,7 +2642,6 @@ export const geoSets = [
             "LK",
             "SD",
             "SR",
-            "SZ",
             "SE",
             "CH",
             "SY",

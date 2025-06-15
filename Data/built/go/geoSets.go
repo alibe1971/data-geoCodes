@@ -2641,7 +2641,6 @@ const GeoSets = `[
             "LK",
             "SD",
             "SR",
-            "SZ",
             "SE",
             "CH",
             "SY",
