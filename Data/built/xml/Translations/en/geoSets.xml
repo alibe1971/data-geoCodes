@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <translationsGeoSets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" language="en">
+    <geoSet key="CONV-EZ">
+        <name>Eurozone (EZ)</name>
+    </geoSet>
     <geoSet key="CONV-G20">
         <name>Group of Twenty (G20)</name>
     </geoSet>
@@ -182,8 +185,5 @@
     </geoSet>
     <geoSet key="ORGS-WTO">
         <name>World Trade Organization (WTO)</name>
-    </geoSet>
-    <geoSet key="ZONE-EZ">
-        <name>Eurozone (EZ)</name>
     </geoSet>
 </translationsGeoSets>

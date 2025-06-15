@@ -21,6 +21,39 @@
  
 export const geoSets = [
     {
+        internalCode: "CONV-EZ",
+        unM49: null,
+        tags: [
+            "convention",
+            "zone",
+            "finance",
+            "economy",
+            "currency"
+        ],
+        countryCodes: [
+            "AT",
+            "BE",
+            "CY",
+            "EE",
+            "FI",
+            "FR",
+            "DE",
+            "GR",
+            "IE",
+            "IT",
+            "LV",
+            "LT",
+            "LU",
+            "MT",
+            "NL",
+            "PT",
+            "SK",
+            "SI",
+            "ES",
+            "HR"
+        ]
+    },
+    {
         internalCode: "CONV-G20",
         unM49: null,
         tags: [
@@ -3643,38 +3676,6 @@ export const geoSets = [
             "YE",
             "ZM",
             "ZW"
-        ]
-    },
-    {
-        internalCode: "ZONE-EZ",
-        unM49: null,
-        tags: [
-            "zone",
-            "finance",
-            "economy",
-            "currency"
-        ],
-        countryCodes: [
-            "AT",
-            "BE",
-            "CY",
-            "EE",
-            "FI",
-            "FR",
-            "DE",
-            "GR",
-            "IE",
-            "IT",
-            "LV",
-            "LT",
-            "LU",
-            "MT",
-            "NL",
-            "PT",
-            "SK",
-            "SI",
-            "ES",
-            "HR"
         ]
     }
 ];

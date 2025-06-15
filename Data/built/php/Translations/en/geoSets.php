@@ -19,6 +19,9 @@
  */
 
 return [
+    'CONV-EZ' => [
+        'name' => 'Eurozone (EZ)'
+    ],
     'CONV-G20' => [
         'name' => 'Group of Twenty (G20)'
     ],
@@ -201,8 +204,5 @@ return [
     ],
     'ORGS-WTO' => [
         'name' => 'World Trade Organization (WTO)'
-    ],
-    'ZONE-EZ' => [
-        'name' => 'Eurozone (EZ)'
     ]
 ];

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <translationsGeoSets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" language="it">
+    <geoSet key="CONV-EZ">
+        <name>Eurozona (EZ)</name>
+    </geoSet>
     <geoSet key="CONV-G20">
         <name>Gruppo dei Venti (G20)</name>
     </geoSet>
@@ -182,8 +185,5 @@
     </geoSet>
     <geoSet key="ORGS-WTO">
         <name>Organizzazione Mondiale del Commercio (OMC)</name>
-    </geoSet>
-    <geoSet key="ZONE-EZ">
-        <name>Eurozona (EZ)</name>
     </geoSet>
 </translationsGeoSets>

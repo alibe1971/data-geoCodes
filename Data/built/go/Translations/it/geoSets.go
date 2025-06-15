@@ -19,6 +19,9 @@
 package geoCodes
 
 const GeoSets = `{
+    "CONV-EZ": {
+        "name": "Eurozona (EZ)"
+    },
     "CONV-G20": {
         "name": "Gruppo dei Venti (G20)"
     },
@@ -201,8 +204,5 @@ const GeoSets = `{
     },
     "ORGS-WTO": {
         "name": "Organizzazione Mondiale del Commercio (OMC)"
-    },
-    "ZONE-EZ": {
-        "name": "Eurozona (EZ)"
     }
 }`

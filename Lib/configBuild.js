@@ -90,8 +90,7 @@ export const configBuild = {
             internalCode: [
                 'GEOG',
                 'CONV',
-                'ORGS',
-                'ZONE',
+                'ORGS'
             ]
         }
 

@@ -3772,9 +3772,10 @@
     },
     {
         "LABEL": "Eurozone (EZ)",
-        "internalCode": "ZONE-EZ",
+        "internalCode": "CONV-EZ",
         "unM49": null,
         "tags": [
+            "convention",
             "zone",
             "finance",
             "economy",

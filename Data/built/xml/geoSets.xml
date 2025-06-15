@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <geoSets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <geoSet index="0">
+        <internalCode>CONV-EZ</internalCode>
+        <unM49/>
+        <tags>
+            <tag>convention</tag>
+            <tag>zone</tag>
+            <tag>finance</tag>
+            <tag>economy</tag>
+            <tag>currency</tag>
+        </tags>
+        <countryCodes>
+            <cc>AT</cc>
+            <cc>BE</cc>
+            <cc>CY</cc>
+            <cc>EE</cc>
+            <cc>FI</cc>
+            <cc>FR</cc>
+            <cc>DE</cc>
+            <cc>GR</cc>
+            <cc>IE</cc>
+            <cc>IT</cc>
+            <cc>LV</cc>
+            <cc>LT</cc>
+            <cc>LU</cc>
+            <cc>MT</cc>
+            <cc>NL</cc>
+            <cc>PT</cc>
+            <cc>SK</cc>
+            <cc>SI</cc>
+            <cc>ES</cc>
+            <cc>HR</cc>
+        </countryCodes>
+    </geoSet>
+    <geoSet index="1">
         <internalCode>CONV-G20</internalCode>
         <unM49/>
         <tags>
@@ -29,7 +62,7 @@
             <cc>US</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="1">
+    <geoSet index="2">
         <internalCode>CONV-G7</internalCode>
         <unM49/>
         <tags>
@@ -46,7 +79,7 @@
             <cc>US</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="2">
+    <geoSet index="3">
         <internalCode>CONV-SCHENGEN</internalCode>
         <unM49/>
         <tags>
@@ -83,7 +116,7 @@
             <cc>HU</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="3">
+    <geoSet index="4">
         <internalCode>CONV-UNCAC</internalCode>
         <unM49/>
         <tags>
@@ -283,7 +316,7 @@
             <cc>ZW</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="4">
+    <geoSet index="5">
         <internalCode>GEOG-AF</internalCode>
         <unM49>002</unM49>
         <tags>
@@ -353,7 +386,7 @@
             <cc>TG</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="5">
+    <geoSet index="6">
         <internalCode>GEOG-AF-NO</internalCode>
         <unM49>015</unM49>
         <tags>
@@ -370,7 +403,7 @@
             <cc>EH</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="6">
+    <geoSet index="7">
         <internalCode>GEOG-AF-SS</internalCode>
         <unM49>202</unM49>
         <tags>
@@ -433,7 +466,7 @@
             <cc>TG</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="7">
+    <geoSet index="8">
         <internalCode>GEOG-AF-SS-EA</internalCode>
         <unM49>014</unM49>
         <tags>
@@ -465,7 +498,7 @@
             <cc>ZW</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="8">
+    <geoSet index="9">
         <internalCode>GEOG-AF-SS-MD</internalCode>
         <unM49>017</unM49>
         <tags>
@@ -484,7 +517,7 @@
             <cc>ST</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="9">
+    <geoSet index="10">
         <internalCode>GEOG-AF-SS-SO</internalCode>
         <unM49>018</unM49>
         <tags>
@@ -499,7 +532,7 @@
             <cc>ZA</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="10">
+    <geoSet index="11">
         <internalCode>GEOG-AF-SS-WE</internalCode>
         <unM49>011</unM49>
         <tags>
@@ -526,7 +559,7 @@
             <cc>TG</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="11">
+    <geoSet index="12">
         <internalCode>GEOG-AM</internalCode>
         <unM49>019</unM49>
         <tags>
@@ -593,7 +626,7 @@
             <cc>US</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="12">
+    <geoSet index="13">
         <internalCode>GEOG-AM-LA</internalCode>
         <unM49>419</unM49>
         <tags>
@@ -655,7 +688,7 @@
             <cc>VE</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="13">
+    <geoSet index="14">
         <internalCode>GEOG-AM-LA-CA</internalCode>
         <unM49>029</unM49>
         <tags>
@@ -693,7 +726,7 @@
             <cc>VI</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="14">
+    <geoSet index="15">
         <internalCode>GEOG-AM-LA-CT</internalCode>
         <unM49>013</unM49>
         <tags>
@@ -711,7 +744,7 @@
             <cc>PA</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="15">
+    <geoSet index="16">
         <internalCode>GEOG-AM-LA-SO</internalCode>
         <unM49>005</unM49>
         <tags>
@@ -737,7 +770,7 @@
             <cc>VE</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="16">
+    <geoSet index="17">
         <internalCode>GEOG-AM-NO</internalCode>
         <unM49>021</unM49>
         <tags>
@@ -752,7 +785,7 @@
             <cc>US</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="17">
+    <geoSet index="18">
         <internalCode>GEOG-AQ</internalCode>
         <unM49>010</unM49>
         <tags>
@@ -763,7 +796,7 @@
             <cc>AQ</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="18">
+    <geoSet index="19">
         <internalCode>GEOG-AS</internalCode>
         <unM49>142</unM49>
         <tags>
@@ -824,7 +857,7 @@
             <cc>TW</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="19">
+    <geoSet index="20">
         <internalCode>GEOG-AS-CT</internalCode>
         <unM49>143</unM49>
         <tags>
@@ -839,7 +872,7 @@
             <cc>UZ</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="20">
+    <geoSet index="21">
         <internalCode>GEOG-AS-EA</internalCode>
         <unM49>030</unM49>
         <tags>
@@ -857,7 +890,7 @@
             <cc>TW</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="21">
+    <geoSet index="22">
         <internalCode>GEOG-AS-SE</internalCode>
         <unM49>035</unM49>
         <tags>
@@ -878,7 +911,7 @@
             <cc>VN</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="22">
+    <geoSet index="23">
         <internalCode>GEOG-AS-SO</internalCode>
         <unM49>034</unM49>
         <tags>
@@ -897,7 +930,7 @@
             <cc>LK</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="23">
+    <geoSet index="24">
         <internalCode>GEOG-AS-WE</internalCode>
         <unM49>145</unM49>
         <tags>
@@ -925,7 +958,7 @@
             <cc>YE</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="24">
+    <geoSet index="25">
         <internalCode>GEOG-EU</internalCode>
         <unM49>150</unM49>
         <tags>
@@ -987,7 +1020,7 @@
             <cc>CH</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="25">
+    <geoSet index="26">
         <internalCode>GEOG-EU-EA</internalCode>
         <unM49>151</unM49>
         <tags>
@@ -1007,7 +1040,7 @@
             <cc>UA</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="26">
+    <geoSet index="27">
         <internalCode>GEOG-EU-NO</internalCode>
         <unM49>154</unM49>
         <tags>
@@ -1033,7 +1066,7 @@
             <cc>GB</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="27">
+    <geoSet index="28">
         <internalCode>GEOG-EU-NO-CH</internalCode>
         <unM49>830</unM49>
         <tags>
@@ -1045,7 +1078,7 @@
             <cc>JE</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="28">
+    <geoSet index="29">
         <internalCode>GEOG-EU-SO</internalCode>
         <unM49>039</unM49>
         <tags>
@@ -1072,7 +1105,7 @@
             <cc>ES</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="29">
+    <geoSet index="30">
         <internalCode>GEOG-EU-WE</internalCode>
         <unM49>155</unM49>
         <tags>
@@ -1091,7 +1124,7 @@
             <cc>CH</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="30">
+    <geoSet index="31">
         <internalCode>GEOG-OC</internalCode>
         <unM49>009</unM49>
         <tags>
@@ -1130,7 +1163,7 @@
             <cc>WF</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="31">
+    <geoSet index="32">
         <internalCode>GEOG-OC-AN</internalCode>
         <unM49>053</unM49>
         <tags>
@@ -1146,7 +1179,7 @@
             <cc>NF</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="32">
+    <geoSet index="33">
         <internalCode>GEOG-OC-ME</internalCode>
         <unM49>054</unM49>
         <tags>
@@ -1161,7 +1194,7 @@
             <cc>VU</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="33">
+    <geoSet index="34">
         <internalCode>GEOG-OC-MI</internalCode>
         <unM49>057</unM49>
         <tags>
@@ -1179,7 +1212,7 @@
             <cc>UM</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="34">
+    <geoSet index="35">
         <internalCode>GEOG-OC-PO</internalCode>
         <unM49>061</unM49>
         <tags>
@@ -1199,7 +1232,7 @@
             <cc>WF</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="35">
+    <geoSet index="36">
         <internalCode>ORGS-ACTO</internalCode>
         <unM49/>
         <tags>
@@ -1217,7 +1250,7 @@
             <cc>VE</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="36">
+    <geoSet index="37">
         <internalCode>ORGS-ASEAN</internalCode>
         <unM49/>
         <tags>
@@ -1238,7 +1271,7 @@
             <cc>MM</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="37">
+    <geoSet index="38">
         <internalCode>ORGS-AU</internalCode>
         <unM49/>
         <tags>
@@ -1299,7 +1332,7 @@
             <cc>ZW</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="38">
+    <geoSet index="39">
         <internalCode>ORGS-BRICS</internalCode>
         <unM49/>
         <tags>
@@ -1314,7 +1347,7 @@
             <cc>ZA</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="39">
+    <geoSet index="40">
         <internalCode>ORGS-CIS</internalCode>
         <unM49/>
         <tags>
@@ -1333,7 +1366,7 @@
             <cc>UZ</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="40">
+    <geoSet index="41">
         <internalCode>ORGS-COE</internalCode>
         <unM49/>
         <tags>
@@ -1390,7 +1423,7 @@
             <cc>UA</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="41">
+    <geoSet index="42">
         <internalCode>ORGS-CSTO</internalCode>
         <unM49/>
         <tags>
@@ -1406,7 +1439,7 @@
             <cc>TJ</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="42">
+    <geoSet index="43">
         <internalCode>ORGS-CWNAT</internalCode>
         <unM49/>
         <tags>
@@ -1472,7 +1505,7 @@
             <cc>TG</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="43">
+    <geoSet index="44">
         <internalCode>ORGS-CWRLM</internalCode>
         <unM49/>
         <tags>
@@ -1497,7 +1530,7 @@
             <cc>TV</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="44">
+    <geoSet index="45">
         <internalCode>ORGS-EU</internalCode>
         <unM49/>
         <tags>
@@ -1534,7 +1567,7 @@
             <cc>SK</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="45">
+    <geoSet index="46">
         <internalCode>ORGS-IBRD</internalCode>
         <unM49/>
         <tags>
@@ -1733,7 +1766,7 @@
             <cc>LS</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="46">
+    <geoSet index="47">
         <internalCode>ORGS-ICC</internalCode>
         <unM49/>
         <tags>
@@ -1867,7 +1900,7 @@
             <cc>ZM</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="47">
+    <geoSet index="48">
         <internalCode>ORGS-ICSID</internalCode>
         <unM49/>
         <tags>
@@ -2035,7 +2068,7 @@
             <cc>ZW</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="48">
+    <geoSet index="49">
         <internalCode>ORGS-IDA</internalCode>
         <unM49/>
         <tags>
@@ -2219,7 +2252,7 @@
             <cc>ZW</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="49">
+    <geoSet index="50">
         <internalCode>ORGS-IFC</internalCode>
         <unM49/>
         <tags>
@@ -2415,7 +2448,7 @@
             <cc>LB</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="50">
+    <geoSet index="51">
         <internalCode>ORGS-IPOL</internalCode>
         <unM49/>
         <tags>
@@ -2620,7 +2653,7 @@
             <cc>ZW</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="51">
+    <geoSet index="52">
         <internalCode>ORGS-MIGA</internalCode>
         <unM49/>
         <tags>
@@ -2812,7 +2845,7 @@
             <cc>LB</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="52">
+    <geoSet index="53">
         <internalCode>ORGS-NATO</internalCode>
         <unM49/>
         <tags>
@@ -2852,7 +2885,7 @@
             <cc>FI</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="53">
+    <geoSet index="54">
         <internalCode>ORGS-OAS</internalCode>
         <unM49/>
         <tags>
@@ -2897,7 +2930,7 @@
             <cc>VE</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="54">
+    <geoSet index="55">
         <internalCode>ORGS-OECD</internalCode>
         <unM49/>
         <tags>
@@ -2945,7 +2978,7 @@
             <cc>CR</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="55">
+    <geoSet index="56">
         <internalCode>ORGS-OPEC</internalCode>
         <unM49/>
         <tags>
@@ -2968,7 +3001,7 @@
             <cc>VE</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="56">
+    <geoSet index="57">
         <internalCode>ORGS-OSCE</internalCode>
         <unM49/>
         <tags>
@@ -3035,7 +3068,7 @@
             <cc>MN</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="57">
+    <geoSet index="58">
         <internalCode>ORGS-SCO</internalCode>
         <unM49/>
         <tags>
@@ -3054,7 +3087,7 @@
             <cc>UZ</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="58">
+    <geoSet index="59">
         <internalCode>ORGS-UN</internalCode>
         <unM49/>
         <tags>
@@ -3257,7 +3290,7 @@
             <cc>ZW</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="59">
+    <geoSet index="60">
         <internalCode>ORGS-WCO</internalCode>
         <unM49/>
         <tags>
@@ -3452,7 +3485,7 @@
             <cc>VN</cc>
         </countryCodes>
     </geoSet>
-    <geoSet index="60">
+    <geoSet index="61">
         <internalCode>ORGS-WTO</internalCode>
         <unM49/>
         <tags>
@@ -3623,38 +3656,6 @@
             <cc>YE</cc>
             <cc>ZM</cc>
             <cc>ZW</cc>
-        </countryCodes>
-    </geoSet>
-    <geoSet index="61">
-        <internalCode>ZONE-EZ</internalCode>
-        <unM49/>
-        <tags>
-            <tag>zone</tag>
-            <tag>finance</tag>
-            <tag>economy</tag>
-            <tag>currency</tag>
-        </tags>
-        <countryCodes>
-            <cc>AT</cc>
-            <cc>BE</cc>
-            <cc>CY</cc>
-            <cc>EE</cc>
-            <cc>FI</cc>
-            <cc>FR</cc>
-            <cc>DE</cc>
-            <cc>GR</cc>
-            <cc>IE</cc>
-            <cc>IT</cc>
-            <cc>LV</cc>
-            <cc>LT</cc>
-            <cc>LU</cc>
-            <cc>MT</cc>
-            <cc>NL</cc>
-            <cc>PT</cc>
-            <cc>SK</cc>
-            <cc>SI</cc>
-            <cc>ES</cc>
-            <cc>HR</cc>
         </countryCodes>
     </geoSet>
 </geoSets>
