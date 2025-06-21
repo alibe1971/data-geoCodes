@@ -10,6 +10,7 @@ import {
 import slugify from 'slugify';
 import {configBuild} from "../configBuild.js";
 import moment from 'moment-timezone';
+import punycode from 'punycode/punycode.js';
 
 const mainKey = 'alpha2';
 const collection = 'Countries';
@@ -42,8 +43,8 @@ export const countriesFunctions = {
             let officialName = {};
             for (let [lang, name] of Object.entries(item.officialName)) {
                 /** key */
-                lang = refactorLanguages(lang);
-                if ( lang == 'error' || !requirements(lang, 'bcp47') ) {
+                let langTest = refactorLanguages(lang);
+                if ( langTest == 'error' || !requirements(langTest, 'bcp47') ) {
                     throwMex('officialName.'+lang, item[mainKey], 'The property key non-compliant with BCP 47 format');
                 }
 
@@ -147,8 +148,8 @@ export const countriesFunctions = {
                 } else {
                     let mottos = {};
                     for (let [lang, motto] of Object.entries(item.mottos[cat])) {
-                        lang = refactorLanguages(lang);
-                        if ( lang == 'error' || !requirements(lang, 'bcp47') ) {
+                        let langTest = refactorLanguages(lang);
+                        if ( langTest == 'error' || !requirements(langTest, 'bcp47') ) {
                             throwMex(
                                 'mottos.' + cat + '.' + lang, item[mainKey],
                                 'The property key non-compliant with BCP 47 format');
@@ -245,14 +246,128 @@ export const countriesFunctions = {
                     !requirements(item.ccTld, 'regex', /^\.[a-z]{2}$/i)
                 ) {
                     throwMex('ccTld', item[mainKey],
-                        'The property as string must respect the level domain rules (and begin with a `.`)');
+                        'The property as string must respect the cc top level domain rules');
                 }
-                item.ccTld = item.ccTld.toLowerCase();
+                if (!requirements(item.ccTld, 'validDomain')) {
+                    throwMex('ccTld', item[mainKey],
+                        'The value for the property (' + item.ccTld + ') ' +
+                        'is not a valid domain');
+                }
             }
             country.ccTld = item.ccTld;
 
-            /** ccIdn (Internationalized Domain Names): TODO */
+            /** ccIdn (Internationalized Domain Names) */
             country.ccIdn = [];
+            if(!Object.prototype.hasOwnProperty.call(item, 'ccIdn')) {
+                item.ccIdn = [];
+            } else if (!requirements(item.ccIdn, 'mustBeArray')) {
+                throwMex('ccIdn', item[mainKey], 'The property must be an array');
+            }
+            if (item.ccIdn.length > 0) {
+                let ccIdns = [];
+                for (const [idx, ccIdn] of item.ccIdn.entries()) {
+                    if (
+                        !requirements(ccIdn, 'mustBeObject') ||
+                        !requirements(ccIdn, 'cannotBeEmpty')
+                    ) {
+                        throwMex('ccIdn.' + idx, item[mainKey], 'The internal element must be a not empty object');
+                    }
+                    let ccIdnElement = {};
+                    for (const internalProperty of configBuild.extra.countries.ccIdn.internalProperties) {
+                        if(!Object.prototype.hasOwnProperty.call(ccIdn, internalProperty)) {
+                            throwMex('ccIdn.' + idx + '.' + internalProperty, item[mainKey],
+                                'Required property is missing');
+                        }
+                        switch (internalProperty) {
+                        case 'unicode':
+                        case 'punycode':
+                        case 'language':
+                            if (
+                                !requirements(ccIdn[internalProperty], 'mustBeString') ||
+                                !requirements(ccIdn[internalProperty], 'cannotBeEmpty')
+                            ) {
+                                throwMex('ccIdn.' + idx + '.' + internalProperty, item[mainKey],
+                                    'The property value must be a not empty string');
+                            }
+                            break;
+                        case 'regionsOfUse':
+                            if (
+                                !requirements(ccIdn[internalProperty], 'mustBeArray') ||
+                                !requirements(ccIdn, 'cannotBeEmpty')
+                            ) {
+                                throwMex('ccIdn.' + idx + '.' + internalProperty, item[mainKey],
+                                    'The property value must be a not empty array');
+                            }
+                            break;
+                        default:
+                            // nothing
+                        }
+
+                        switch (internalProperty) {
+                        case 'unicode':
+                            ccIdn[internalProperty] =
+                                ccIdn[internalProperty].replace(/^[^.]/, match => '.' + match).toLowerCase();
+                            if (!requirements(ccIdn[internalProperty], 'validDomain')) {
+                                throwMex('ccIdn.' + idx + '.' + internalProperty, item[mainKey],
+                                    'The value for the property (' + ccIdn[internalProperty] + ') ' +
+                                    'is not a valid domain');
+                            }
+                            break;
+                        case 'punycode': {
+                            const unicodeAscii = punycode.toASCII(ccIdn['unicode'].slice(1));
+                            ccIdn[internalProperty] =
+                                ccIdn[internalProperty].replace(/^[^.]/, match => '.' + match).toLowerCase();
+                            const punicodeTest = ccIdn[internalProperty].slice(1);
+                            if (!requirements(ccIdn[internalProperty], 'regex', /^\.?xn--[a-z0-9-]{1,59}$/)) {
+                                throwMex('ccIdn.' + idx + '.' + internalProperty, item[mainKey],
+                                    'The value for the property (' + ccIdn[internalProperty] +
+                                    ') has not the correct format');
+                            }
+                            if (punicodeTest != unicodeAscii) {
+                                console.log(punicodeTest + ' != ' + unicodeAscii);
+                                throwMex('ccIdn.' + idx + '.' + internalProperty, item[mainKey],
+                                    'The value for the property (' + ccIdn[internalProperty] + ') ' +
+                                    'does not match with the related unicode (' +
+                                    ccIdn['unicode'] + ' => .' + unicodeAscii + ')');
+                            }
+                            break;
+                        }
+                        case 'language': {
+                            let loc = refactorLanguages(ccIdn[internalProperty]);
+                            if (loc == 'error' || !requirements(loc, 'bcp47')) {
+                                throwMex('ccIdn.' + idx + '.' + internalProperty, item[mainKey],
+                                    'The value for the property (' + ccIdn[internalProperty] + ') ' +
+                                    'non-compliant with BCP 47 format');
+                            }
+                            if (!Intl.Collator.supportedLocalesOf([loc]).length) {
+                                throwMex('ccIdn.' + idx + '.' + internalProperty, item[mainKey],
+                                    'The value for the property (' + loc + ') is not supported by the '
+                                    + 'International Components for Unicode');
+                            }
+                            break;
+                        }
+                        case 'regionsOfUse':
+                            for (const [iidx, region] of ccIdn[internalProperty].entries()) {
+                                if(
+                                    !requirements(region, 'mustBeString') ||
+                                    !requirements(region, 'regex', /^[a-z]{2}$/i)
+                                ) {
+                                    throwMex('ccIdn.' + idx + '.' + internalProperty + '.' + iidx, item[mainKey],
+                                        'The property must be 2 chars length alphabetical string');
+                                }
+                                ccIdn[internalProperty][iidx] = ccIdn[internalProperty][iidx].toUpperCase();
+                            }
+                            break;
+                        default:
+                            // nothing
+                        }
+
+                        ccIdnElement[internalProperty] = ccIdn[internalProperty];
+                    }
+                    ccIdns.push(ccIdnElement);
+                }
+                country.ccIdn=ccIdns;
+            }
 
             /** timeZones: must be present and must be a not empty array */
             if(!Object.prototype.hasOwnProperty.call(item, 'timeZones')) {
@@ -289,8 +404,8 @@ export const countriesFunctions = {
                 throwMex('localesIcu', item[mainKey], 'The property must be an  array');
             }
             for (let [index, loc] of item.localesIcu.entries()) {
-                loc = refactorLanguages(loc);
-                if ( loc == 'error' || !requirements(loc, 'bcp47') ) {
+                let locTest = refactorLanguages(loc);
+                if ( locTest == 'error' || !requirements(locTest, 'bcp47') ) {
                     throwMex('localesIcu.' + index, item[mainKey],
                         'The value for the property (' + loc + ') ' +
                         'non-compliant with BCP 47 format');

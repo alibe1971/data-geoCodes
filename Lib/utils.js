@@ -6,6 +6,8 @@ import { parseString } from 'xml2js';
 import { optimize } from 'svgo';
 import * as tags from 'language-tags';
 import { parse as parseBcp47 } from 'bcp-47';
+import isValidDomain from 'is-valid-domain';
+
 
 export function readJsonFile(filePath) {
     return new Promise((resolve, reject) => {
@@ -262,5 +264,15 @@ export function requirements(prop, rule, regex=null) {
         if (ast.region && !tags.region(ast.region)) return false;
         return true;
     }
+    case 'validDomain': {
+        const tld = prop.startsWith('.') ? prop.slice(1) : prop;
+        return isValidDomain('example.' + tld, {
+            subdomain: false,
+            wildcard: false,
+            allowUnicode: true
+        });
+    }
+    default:
+        //nothing
     }
 }

@@ -95,7 +95,7 @@
     <country index="2">
         <officialName>
             <name lang="ps">د افغانستان اسلامي امارت</name>
-            <name lang="fa-AF">امارت اسلامی افغانستان</name>
+            <name lang="prs">امارت اسلامی افغانستان</name>
         </officialName>
         <alpha2>AF</alpha2>
         <alpha3>AFG</alpha3>
@@ -315,7 +315,16 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.am</ccTld>
-        <ccIdn/>
+        <ccIdn>
+            <0>
+                <unicode>.հայ</unicode>
+                <punycode>.xn--y9a3aq</punycode>
+                <language>hy</language>
+                <regionsOfUse>
+                    <0>AM</0>
+                </regionsOfUse>
+            </0>
+        </ccIdn>
         <timeZones>
             <tz>Asia/Yerevan</tz>
         </timeZones>
@@ -1045,7 +1054,17 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.bd</ccTld>
-        <ccIdn/>
+        <ccIdn>
+            <0>
+                <unicode>.বাংলা</unicode>
+                <punycode>.xn--54b7fta0cc</punycode>
+                <language>bn</language>
+                <regionsOfUse>
+                    <0>BD</0>
+                    <1>IN</1>
+                </regionsOfUse>
+            </0>
+        </ccIdn>
         <timeZones>
             <tz>Asia/Dhaka</tz>
             <tz>Asia/Dacca</tz>
@@ -1194,7 +1213,16 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.bg</ccTld>
-        <ccIdn/>
+        <ccIdn>
+            <0>
+                <unicode>.бг</unicode>
+                <punycode>.xn--90ae</punycode>
+                <language>bg</language>
+                <regionsOfUse>
+                    <0>BG</0>
+                </regionsOfUse>
+            </0>
+        </ccIdn>
         <timeZones>
             <tz>Europe/Sofia</tz>
         </timeZones>
@@ -1238,7 +1266,16 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.bh</ccTld>
-        <ccIdn/>
+        <ccIdn>
+            <0>
+                <unicode>.البحرين</unicode>
+                <punycode>.xn--mgbcpq6gpa1a</punycode>
+                <language>ar</language>
+                <regionsOfUse>
+                    <0>BH</0>
+                </regionsOfUse>
+            </0>
+        </ccIdn>
         <timeZones>
             <tz>Asia/Bahrain</tz>
         </timeZones>
@@ -1868,7 +1905,16 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.by</ccTld>
-        <ccIdn/>
+        <ccIdn>
+            <0>
+                <unicode>.бел</unicode>
+                <punycode>.xn--90ais</punycode>
+                <language>be</language>
+                <regionsOfUse>
+                    <0>BY</0>
+                </regionsOfUse>
+            </0>
+        </ccIdn>
         <timeZones>
             <tz>Europe/Minsk</tz>
         </timeZones>
@@ -2499,7 +2545,27 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.cn</ccTld>
-        <ccIdn/>
+        <ccIdn>
+            <0>
+                <unicode>.中国</unicode>
+                <punycode>.xn--fiqs8s</punycode>
+                <language>zh-Hans</language>
+                <regionsOfUse>
+                    <0>CN</0>
+                </regionsOfUse>
+            </0>
+            <1>
+                <unicode>.中國</unicode>
+                <punycode>.xn--fiqz9s</punycode>
+                <language>zh-Hant</language>
+                <regionsOfUse>
+                    <0>CN</0>
+                    <1>HK</1>
+                    <2>MO</2>
+                    <3>TW</3>
+                </regionsOfUse>
+            </1>
+        </ccIdn>
         <timeZones>
             <tz>Asia/Shanghai</tz>
             <tz>Asia/Urumqi</tz>
@@ -3312,7 +3378,16 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.eg</ccTld>
-        <ccIdn/>
+        <ccIdn>
+            <0>
+                <unicode>.مصر</unicode>
+                <punycode>.xn--wgbh1c</punycode>
+                <language>ar</language>
+                <regionsOfUse>
+                    <0>EG</0>
+                </regionsOfUse>
+            </0>
+        </ccIdn>
         <timeZones>
             <tz>Africa/Cairo</tz>
         </timeZones>
@@ -3989,7 +4064,16 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ge</ccTld>
-        <ccIdn/>
+        <ccIdn>
+            <0>
+                <unicode>.გე</unicode>
+                <punycode>.xn--node</punycode>
+                <language>ka</language>
+                <regionsOfUse>
+                    <0>GE</0>
+                </regionsOfUse>
+            </0>
+        </ccIdn>
         <timeZones>
             <tz>Asia/Tbilisi</tz>
         </timeZones>
@@ -4787,7 +4871,16 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.hk</ccTld>
-        <ccIdn/>
+        <ccIdn>
+            <0>
+                <unicode>.香港</unicode>
+                <punycode>.xn--j6w193g</punycode>
+                <language>zh-Hant</language>
+                <regionsOfUse>
+                    <0>HK</0>
+                </regionsOfUse>
+            </0>
+        </ccIdn>
         <timeZones>
             <tz>Asia/Hong_Kong</tz>
         </timeZones>
@@ -5421,7 +5514,16 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ir</ccTld>
-        <ccIdn/>
+        <ccIdn>
+            <0>
+                <unicode>.ایران</unicode>
+                <punycode>.xn--mgba3a4f16a</punycode>
+                <language>fa</language>
+                <regionsOfUse>
+                    <0>IR</0>
+                </regionsOfUse>
+            </0>
+        </ccIdn>
         <timeZones>
             <tz>Asia/Tehran</tz>
         </timeZones>
@@ -5652,7 +5754,16 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.jo</ccTld>
-        <ccIdn/>
+        <ccIdn>
+            <0>
+                <unicode>.الاردن</unicode>
+                <punycode>.xn--mgbayh7gpa</punycode>
+                <language>ar</language>
+                <regionsOfUse>
+                    <0>JO</0>
+                </regionsOfUse>
+            </0>
+        </ccIdn>
         <timeZones>
             <tz>Asia/Amman</tz>
         </timeZones>
@@ -6078,7 +6189,16 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.kr</ccTld>
-        <ccIdn/>
+        <ccIdn>
+            <0>
+                <unicode>.한국</unicode>
+                <punycode>.xn--3e0b707e</punycode>
+                <language>ko</language>
+                <regionsOfUse>
+                    <0>KR</0>
+                </regionsOfUse>
+            </0>
+        </ccIdn>
         <timeZones>
             <tz>Asia/Seoul</tz>
         </timeZones>
@@ -6213,7 +6333,16 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.kz</ccTld>
-        <ccIdn/>
+        <ccIdn>
+            <0>
+                <unicode>.қаз</unicode>
+                <punycode>.xn--80ao21a</punycode>
+                <language>kk</language>
+                <regionsOfUse>
+                    <0>KZ</0>
+                </regionsOfUse>
+            </0>
+        </ccIdn>
         <timeZones>
             <tz>Asia/Almaty</tz>
             <tz>Asia/Aqtau</tz>
@@ -7257,7 +7386,16 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.mn</ccTld>
-        <ccIdn/>
+        <ccIdn>
+            <0>
+                <unicode>.мон</unicode>
+                <punycode>.xn--l1acc</punycode>
+                <language>mn</language>
+                <regionsOfUse>
+                    <0>MN</0>
+                </regionsOfUse>
+            </0>
+        </ccIdn>
         <timeZones>
             <tz>Asia/Choibalsan</tz>
             <tz>Asia/Hovd</tz>
@@ -7275,7 +7413,7 @@
     </country>
     <country index="147">
         <officialName>
-            <name lang="zh">中华人民共和国澳门特别行政区</name>
+            <name lang="cmn">中华人民共和国澳门特别行政区</name>
             <name lang="yue">中華人民共和國澳門特別行政區</name>
             <name lang="pt">Região Administrativa Especial de Macau da República Popular da China</name>
         </officialName>
@@ -8681,7 +8819,7 @@
         <dependency/>
         <mottos>
             <official>
-                <motto lang="fil">Maka-Diyos, Maka-tao, Makakalikasan at Makabansa</motto>
+                <motto lang="tl">Maka-Diyos, Maka-tao, Makakalikasan at Makabansa</motto>
                 <motto lang="en">For God, People, Nature and Country</motto>
             </official>
             <popular/>
@@ -8752,7 +8890,17 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.pk</ccTld>
-        <ccIdn/>
+        <ccIdn>
+            <0>
+                <unicode>.پاکستان</unicode>
+                <punycode>.xn--mgbai9azgqp6j</punycode>
+                <language>ur</language>
+                <regionsOfUse>
+                    <0>PK</0>
+                    <1>IN</1>
+                </regionsOfUse>
+            </0>
+        </ccIdn>
         <timeZones>
             <tz>Asia/Karachi</tz>
         </timeZones>
@@ -9174,7 +9322,16 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.qa</ccTld>
-        <ccIdn/>
+        <ccIdn>
+            <0>
+                <unicode>.قطر</unicode>
+                <punycode>.xn--wgbl6a</punycode>
+                <language>ar</language>
+                <regionsOfUse>
+                    <0>QA</0>
+                </regionsOfUse>
+            </0>
+        </ccIdn>
         <timeZones>
             <tz>Asia/Qatar</tz>
         </timeZones>
@@ -9358,7 +9515,19 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ru</ccTld>
-        <ccIdn/>
+        <ccIdn>
+            <0>
+                <unicode>.рф</unicode>
+                <punycode>.xn--p1ai</punycode>
+                <language>ru</language>
+                <regionsOfUse>
+                    <0>RU</0>
+                    <1>BY</1>
+                    <2>UA</2>
+                    <3>KZ</3>
+                </regionsOfUse>
+            </0>
+        </ccIdn>
         <timeZones>
             <tz>Asia/Anadyr</tz>
             <tz>Asia/Barnaul</tz>
@@ -9481,7 +9650,16 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.sa</ccTld>
-        <ccIdn/>
+        <ccIdn>
+            <0>
+                <unicode>.السعودية</unicode>
+                <punycode>.xn--mgberp4a5d4ar</punycode>
+                <language>ar</language>
+                <regionsOfUse>
+                    <0>SA</0>
+                </regionsOfUse>
+            </0>
+        </ccIdn>
         <timeZones>
             <tz>Asia/Riyadh</tz>
         </timeZones>
@@ -9725,7 +9903,25 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.sg</ccTld>
-        <ccIdn/>
+        <ccIdn>
+            <0>
+                <unicode>.新加坡</unicode>
+                <punycode>.xn--yfro4i67o</punycode>
+                <language>zh-Hans</language>
+                <regionsOfUse>
+                    <0>SG</0>
+                </regionsOfUse>
+            </0>
+            <1>
+                <unicode>.சிங்கப்பூர்</unicode>
+                <punycode>.xn--clchc0ea0b2g2a9gcd</punycode>
+                <language>ta</language>
+                <regionsOfUse>
+                    <0>SG</0>
+                    <1>IN</1>
+                </regionsOfUse>
+            </1>
+        </ccIdn>
         <timeZones>
             <tz>Asia/Singapore</tz>
         </timeZones>
@@ -10150,7 +10346,16 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.sr</ccTld>
-        <ccIdn/>
+        <ccIdn>
+            <0>
+                <unicode>.срб</unicode>
+                <punycode>.xn--90a3ac</punycode>
+                <language>sr</language>
+                <regionsOfUse>
+                    <0>RS</0>
+                </regionsOfUse>
+            </0>
+        </ccIdn>
         <timeZones>
             <tz>America/Paramaribo</tz>
         </timeZones>
@@ -10386,7 +10591,16 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.sy</ccTld>
-        <ccIdn/>
+        <ccIdn>
+            <0>
+                <unicode>.سورية</unicode>
+                <punycode>.xn--ogbpf8fl</punycode>
+                <language>ar</language>
+                <regionsOfUse>
+                    <0>SY</0>
+                </regionsOfUse>
+            </0>
+        </ccIdn>
         <timeZones>
             <tz>Asia/Damascus</tz>
         </timeZones>
@@ -10675,7 +10889,16 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.th</ccTld>
-        <ccIdn/>
+        <ccIdn>
+            <0>
+                <unicode>.ไทย</unicode>
+                <punycode>.xn--o3cw4h</punycode>
+                <language>th</language>
+                <regionsOfUse>
+                    <0>TH</0>
+                </regionsOfUse>
+            </0>
+        </ccIdn>
         <timeZones>
             <tz>Asia/Bangkok</tz>
         </timeZones>
@@ -11143,7 +11366,24 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.tw</ccTld>
-        <ccIdn/>
+        <ccIdn>
+            <0>
+                <unicode>.台灣</unicode>
+                <punycode>.xn--kpry57d</punycode>
+                <language>zh-Hant</language>
+                <regionsOfUse>
+                    <0>TW</0>
+                </regionsOfUse>
+            </0>
+            <1>
+                <unicode>.台湾</unicode>
+                <punycode>.xn--kprw13d</punycode>
+                <language>zh-Hans</language>
+                <regionsOfUse>
+                    <0>TW</0>
+                </regionsOfUse>
+            </1>
+        </ccIdn>
         <timeZones>
             <tz>Asia/Taipei</tz>
         </timeZones>
@@ -11234,7 +11474,16 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ua</ccTld>
-        <ccIdn/>
+        <ccIdn>
+            <0>
+                <unicode>.укр</unicode>
+                <punycode>.xn--j1amh</punycode>
+                <language>uk</language>
+                <regionsOfUse>
+                    <0>UA</0>
+                </regionsOfUse>
+            </0>
+        </ccIdn>
         <timeZones>
             <tz>Europe/Kiev</tz>
             <tz>Europe/Uzhgorod</tz>
@@ -12055,7 +12304,16 @@
             <exceptions/>
         </dialCodes>
         <ccTld>.ye</ccTld>
-        <ccIdn/>
+        <ccIdn>
+            <0>
+                <unicode>.اليمن</unicode>
+                <punycode>.xn--mgb2ddes</punycode>
+                <language>ar</language>
+                <regionsOfUse>
+                    <0>YE</0>
+                </regionsOfUse>
+            </0>
+        </ccIdn>
         <timeZones>
             <tz>Asia/Aden</tz>
         </timeZones>

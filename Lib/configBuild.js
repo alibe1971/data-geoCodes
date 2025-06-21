@@ -84,6 +84,14 @@ export const configBuild = {
                     'main',
                     'exceptions'
                 ]
+            },
+            ccIdn: {
+                internalProperties: [
+                    'unicode',
+                    'punycode',
+                    'language',
+                    'regionsOfUse'
+                ]
             }
         },
         geoSets: {

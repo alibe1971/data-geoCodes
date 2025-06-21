@@ -115,7 +115,7 @@ export const countries = [
     {
         officialName: {
             ps: "د افغانستان اسلامي امارت",
-            "fa-AF": "امارت اسلامی افغانستان"
+            prs: "امارت اسلامی افغانستان"
         },
         alpha2: "AF",
         alpha3: "AFG",
@@ -335,7 +335,16 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".am",
-        ccIdn: [],
+        ccIdn: [
+            {
+                unicode: ".հայ",
+                punycode: ".xn--y9a3aq",
+                language: "hy",
+                regionsOfUse: [
+                    "AM"
+                ]
+            }
+        ],
         timeZones: [
             "Asia/Yerevan"
         ],
@@ -1065,7 +1074,17 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".bd",
-        ccIdn: [],
+        ccIdn: [
+            {
+                unicode: ".বাংলা",
+                punycode: ".xn--54b7fta0cc",
+                language: "bn",
+                regionsOfUse: [
+                    "BD",
+                    "IN"
+                ]
+            }
+        ],
         timeZones: [
             "Asia/Dhaka",
             "Asia/Dacca"
@@ -1214,7 +1233,16 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".bg",
-        ccIdn: [],
+        ccIdn: [
+            {
+                unicode: ".бг",
+                punycode: ".xn--90ae",
+                language: "bg",
+                regionsOfUse: [
+                    "BG"
+                ]
+            }
+        ],
         timeZones: [
             "Europe/Sofia"
         ],
@@ -1258,7 +1286,16 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".bh",
-        ccIdn: [],
+        ccIdn: [
+            {
+                unicode: ".البحرين",
+                punycode: ".xn--mgbcpq6gpa1a",
+                language: "ar",
+                regionsOfUse: [
+                    "BH"
+                ]
+            }
+        ],
         timeZones: [
             "Asia/Bahrain"
         ],
@@ -1888,7 +1925,16 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".by",
-        ccIdn: [],
+        ccIdn: [
+            {
+                unicode: ".бел",
+                punycode: ".xn--90ais",
+                language: "be",
+                regionsOfUse: [
+                    "BY"
+                ]
+            }
+        ],
         timeZones: [
             "Europe/Minsk"
         ],
@@ -2519,7 +2565,27 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".cn",
-        ccIdn: [],
+        ccIdn: [
+            {
+                unicode: ".中国",
+                punycode: ".xn--fiqs8s",
+                language: "zh-Hans",
+                regionsOfUse: [
+                    "CN"
+                ]
+            },
+            {
+                unicode: ".中國",
+                punycode: ".xn--fiqz9s",
+                language: "zh-Hant",
+                regionsOfUse: [
+                    "CN",
+                    "HK",
+                    "MO",
+                    "TW"
+                ]
+            }
+        ],
         timeZones: [
             "Asia/Shanghai",
             "Asia/Urumqi",
@@ -3332,7 +3398,16 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".eg",
-        ccIdn: [],
+        ccIdn: [
+            {
+                unicode: ".مصر",
+                punycode: ".xn--wgbh1c",
+                language: "ar",
+                regionsOfUse: [
+                    "EG"
+                ]
+            }
+        ],
         timeZones: [
             "Africa/Cairo"
         ],
@@ -4009,7 +4084,16 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ge",
-        ccIdn: [],
+        ccIdn: [
+            {
+                unicode: ".გე",
+                punycode: ".xn--node",
+                language: "ka",
+                regionsOfUse: [
+                    "GE"
+                ]
+            }
+        ],
         timeZones: [
             "Asia/Tbilisi"
         ],
@@ -4757,7 +4841,16 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".hk",
-        ccIdn: [],
+        ccIdn: [
+            {
+                unicode: ".香港",
+                punycode: ".xn--j6w193g",
+                language: "zh-Hant",
+                regionsOfUse: [
+                    "HK"
+                ]
+            }
+        ],
         timeZones: [
             "Asia/Hong_Kong"
         ],
@@ -5391,7 +5484,16 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ir",
-        ccIdn: [],
+        ccIdn: [
+            {
+                unicode: ".ایران",
+                punycode: ".xn--mgba3a4f16a",
+                language: "fa",
+                regionsOfUse: [
+                    "IR"
+                ]
+            }
+        ],
         timeZones: [
             "Asia/Tehran"
         ],
@@ -5622,7 +5724,16 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".jo",
-        ccIdn: [],
+        ccIdn: [
+            {
+                unicode: ".الاردن",
+                punycode: ".xn--mgbayh7gpa",
+                language: "ar",
+                regionsOfUse: [
+                    "JO"
+                ]
+            }
+        ],
         timeZones: [
             "Asia/Amman"
         ],
@@ -6048,7 +6159,16 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".kr",
-        ccIdn: [],
+        ccIdn: [
+            {
+                unicode: ".한국",
+                punycode: ".xn--3e0b707e",
+                language: "ko",
+                regionsOfUse: [
+                    "KR"
+                ]
+            }
+        ],
         timeZones: [
             "Asia/Seoul"
         ],
@@ -6183,7 +6303,16 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".kz",
-        ccIdn: [],
+        ccIdn: [
+            {
+                unicode: ".қаз",
+                punycode: ".xn--80ao21a",
+                language: "kk",
+                regionsOfUse: [
+                    "KZ"
+                ]
+            }
+        ],
         timeZones: [
             "Asia/Almaty",
             "Asia/Aqtau",
@@ -7227,7 +7356,16 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".mn",
-        ccIdn: [],
+        ccIdn: [
+            {
+                unicode: ".мон",
+                punycode: ".xn--l1acc",
+                language: "mn",
+                regionsOfUse: [
+                    "MN"
+                ]
+            }
+        ],
         timeZones: [
             "Asia/Choibalsan",
             "Asia/Hovd",
@@ -7245,7 +7383,7 @@ export const countries = [
     },
     {
         officialName: {
-            zh: "中华人民共和国澳门特别行政区",
+            cmn: "中华人民共和国澳门特别行政区",
             yue: "中華人民共和國澳門特別行政區",
             pt: "Região Administrativa Especial de Macau da República Popular da China"
         },
@@ -8651,7 +8789,7 @@ export const countries = [
         dependency: null,
         mottos: {
             official: {
-                fil: "Maka-Diyos, Maka-tao, Makakalikasan at Makabansa",
+                tl: "Maka-Diyos, Maka-tao, Makakalikasan at Makabansa",
                 en: "For God, People, Nature and Country"
             },
             popular: {},
@@ -8722,7 +8860,17 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".pk",
-        ccIdn: [],
+        ccIdn: [
+            {
+                unicode: ".پاکستان",
+                punycode: ".xn--mgbai9azgqp6j",
+                language: "ur",
+                regionsOfUse: [
+                    "PK",
+                    "IN"
+                ]
+            }
+        ],
         timeZones: [
             "Asia/Karachi"
         ],
@@ -9144,7 +9292,16 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".qa",
-        ccIdn: [],
+        ccIdn: [
+            {
+                unicode: ".قطر",
+                punycode: ".xn--wgbl6a",
+                language: "ar",
+                regionsOfUse: [
+                    "QA"
+                ]
+            }
+        ],
         timeZones: [
             "Asia/Qatar"
         ],
@@ -9328,7 +9485,19 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ru",
-        ccIdn: [],
+        ccIdn: [
+            {
+                unicode: ".рф",
+                punycode: ".xn--p1ai",
+                language: "ru",
+                regionsOfUse: [
+                    "RU",
+                    "BY",
+                    "UA",
+                    "KZ"
+                ]
+            }
+        ],
         timeZones: [
             "Asia/Anadyr",
             "Asia/Barnaul",
@@ -9451,7 +9620,16 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".sa",
-        ccIdn: [],
+        ccIdn: [
+            {
+                unicode: ".السعودية",
+                punycode: ".xn--mgberp4a5d4ar",
+                language: "ar",
+                regionsOfUse: [
+                    "SA"
+                ]
+            }
+        ],
         timeZones: [
             "Asia/Riyadh"
         ],
@@ -9695,7 +9873,25 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".sg",
-        ccIdn: [],
+        ccIdn: [
+            {
+                unicode: ".新加坡",
+                punycode: ".xn--yfro4i67o",
+                language: "zh-Hans",
+                regionsOfUse: [
+                    "SG"
+                ]
+            },
+            {
+                unicode: ".சிங்கப்பூர்",
+                punycode: ".xn--clchc0ea0b2g2a9gcd",
+                language: "ta",
+                regionsOfUse: [
+                    "SG",
+                    "IN"
+                ]
+            }
+        ],
         timeZones: [
             "Asia/Singapore"
         ],
@@ -10120,7 +10316,16 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".sr",
-        ccIdn: [],
+        ccIdn: [
+            {
+                unicode: ".срб",
+                punycode: ".xn--90a3ac",
+                language: "sr",
+                regionsOfUse: [
+                    "RS"
+                ]
+            }
+        ],
         timeZones: [
             "America/Paramaribo"
         ],
@@ -10356,7 +10561,16 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".sy",
-        ccIdn: [],
+        ccIdn: [
+            {
+                unicode: ".سورية",
+                punycode: ".xn--ogbpf8fl",
+                language: "ar",
+                regionsOfUse: [
+                    "SY"
+                ]
+            }
+        ],
         timeZones: [
             "Asia/Damascus"
         ],
@@ -10645,7 +10859,16 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".th",
-        ccIdn: [],
+        ccIdn: [
+            {
+                unicode: ".ไทย",
+                punycode: ".xn--o3cw4h",
+                language: "th",
+                regionsOfUse: [
+                    "TH"
+                ]
+            }
+        ],
         timeZones: [
             "Asia/Bangkok"
         ],
@@ -11113,7 +11336,24 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".tw",
-        ccIdn: [],
+        ccIdn: [
+            {
+                unicode: ".台灣",
+                punycode: ".xn--kpry57d",
+                language: "zh-Hant",
+                regionsOfUse: [
+                    "TW"
+                ]
+            },
+            {
+                unicode: ".台湾",
+                punycode: ".xn--kprw13d",
+                language: "zh-Hans",
+                regionsOfUse: [
+                    "TW"
+                ]
+            }
+        ],
         timeZones: [
             "Asia/Taipei"
         ],
@@ -11204,7 +11444,16 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ua",
-        ccIdn: [],
+        ccIdn: [
+            {
+                unicode: ".укр",
+                punycode: ".xn--j1amh",
+                language: "uk",
+                regionsOfUse: [
+                    "UA"
+                ]
+            }
+        ],
         timeZones: [
             "Europe/Kiev",
             "Europe/Uzhgorod",
@@ -12025,7 +12274,16 @@ export const countries = [
             exceptions: []
         },
         ccTld: ".ye",
-        ccIdn: [],
+        ccIdn: [
+            {
+                unicode: ".اليمن",
+                punycode: ".xn--mgb2ddes",
+                language: "ar",
+                regionsOfUse: [
+                    "YE"
+                ]
+            }
+        ],
         timeZones: [
             "Asia/Aden"
         ],
