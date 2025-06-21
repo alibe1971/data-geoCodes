@@ -75,6 +75,12 @@ const xmlMap = {
                     "@tag": "currency"
                 }
             },
+            ccIdn: {
+                "@tag": "idn",
+                regionsOfUse: {
+                    "@tag": "region"
+                }
+            },
             dialCodes: {
                 main: {
                     "@tag": "dial"

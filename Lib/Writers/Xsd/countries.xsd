@@ -143,7 +143,22 @@
                             <xs:element name="ccIdn" minOccurs="1">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="idn" type="xs:string" maxOccurs="unbounded" minOccurs="0"/>
+                                        <xs:element name="idn" maxOccurs="unbounded" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="unicode" type="xs:string"/>
+                                                    <xs:element name="punycode" type="xs:string"/>
+                                                    <xs:element name="language" type="xs:string"/>
+                                                    <xs:element name="regionsOfUse" minOccurs="0">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="region" type="xs:string" maxOccurs="unbounded"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
