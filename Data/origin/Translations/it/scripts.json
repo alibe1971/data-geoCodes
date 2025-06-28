@@ -8,32 +8,36 @@
         "NOTES": []
     },
     "Aghb": {
-        "name": "Caucasian Albanian",
-        "NOTES": []
+        "name": "Albanese caucasico",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Albania_caucasica"
+        ]
     },
     "Ahom": {
         "name": "Ahom, Tai Ahom",
         "NOTES": []
     },
     "Arab": {
-        "name": "Arabic",
+        "name": "Arabo",
         "NOTES": []
     },
     "Aran": {
-        "name": "Arabic (Nastaliq variant)",
+        "name": "Arabo (nasta'liq)",
         "NOTES": []
     },
     "Armi": {
-        "name": "Imperial Aramaic",
+        "name": "Aramaico biblico",
         "NOTES": []
     },
     "Armn": {
-        "name": "Armenian",
+        "name": "Armeno",
         "NOTES": []
     },
     "Avst": {
-        "name": "Avestan",
-        "NOTES": []
+        "name": "Avestico",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_avestica"
+        ]
     },
     "Bali": {
         "name": "Balinese",
@@ -52,7 +56,7 @@
         "NOTES": []
     },
     "Beng": {
-        "name": "Bengali (Bangla)",
+        "name": "Bengalese (Bangla)",
         "NOTES": []
     },
     "Berf": {
@@ -64,12 +68,14 @@
         "NOTES": []
     },
     "Blis": {
-        "name": "Blissymbols",
+        "name": "Blissymbol",
         "NOTES": []
     },
     "Bopo": {
         "name": "Bopomofo",
-        "NOTES": []
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Bopomofo"
+        ]
     },
     "Brah": {
         "name": "Brahmi",
@@ -81,7 +87,9 @@
     },
     "Bugi": {
         "name": "Buginese",
-        "NOTES": []
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_buginese"
+        ]
     },
     "Buhd": {
         "name": "Buhid",
@@ -92,8 +100,10 @@
         "NOTES": []
     },
     "Cans": {
-        "name": "Unified Canadian Aboriginal Syllabics",
-        "NOTES": []
+        "name": "Sillabario Aborigeno Canadese Unificato",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Sillabario_aborigeno_canadese"
+        ]
     },
     "Cari": {
         "name": "Carian",
@@ -112,39 +122,43 @@
         "NOTES": []
     },
     "Chrs": {
-        "name": "Chorasmian",
-        "NOTES": []
+        "name": "Corasmiano",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_corasmia"
+        ]
     },
     "Cirt": {
         "name": "Cirth",
         "NOTES": []
     },
     "Copt": {
-        "name": "Coptic",
+        "name": "Copto",
         "NOTES": []
     },
     "Cpmn": {
-        "name": "Cypro-Minoan",
+        "name": "Cipro-Minoico",
         "NOTES": []
     },
     "Cprt": {
-        "name": "Cypriot syllabary",
+        "name": "Cipriota",
         "NOTES": []
     },
     "Cyrl": {
-        "name": "Cyrillic",
+        "name": "Cirillico",
         "NOTES": []
     },
     "Cyrs": {
-        "name": "Cyrillic (Old Church Slavonic variant)",
+        "name": "Cirillico (slavo ecclesiastico antico)",
         "NOTES": []
     },
     "Deva": {
         "name": "Devanagari (Nagari)",
-        "NOTES": []
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Alfabeto_devanagari"
+        ]
     },
     "Diak": {
-        "name": "Dives Akuru",
+        "name": "Akuru dives",
         "NOTES": []
     },
     "Dogr": {
@@ -152,23 +166,23 @@
         "NOTES": []
     },
     "Dsrt": {
-        "name": "Deseret (Mormon)",
+        "name": "Deseret",
         "NOTES": []
     },
     "Dupl": {
-        "name": "Duployan shorthand, Duployan stenography",
+        "name": "Stenografia duployan",
         "NOTES": []
     },
     "Egyd": {
-        "name": "Egyptian demotic",
+        "name": "Egizio demotico",
         "NOTES": []
     },
     "Egyh": {
-        "name": "Egyptian hieratic",
+        "name": "Egizio ieratico",
         "NOTES": []
     },
     "Egyp": {
-        "name": "Egyptian hieroglyphs",
+        "name": "Egizio geroglifico",
         "NOTES": []
     },
     "Elba": {
@@ -176,11 +190,11 @@
         "NOTES": []
     },
     "Elym": {
-        "name": "Elymaic",
+        "name": "Elimaico",
         "NOTES": []
     },
     "Ethi": {
-        "name": "Ethiopic (Geʻez)",
+        "name": "Etiope (Geʻez)",
         "NOTES": []
     },
     "Gara": {
@@ -188,27 +202,27 @@
         "NOTES": []
     },
     "Geok": {
-        "name": "Khutsuri (Asomtavruli and Nuskhuri)",
+        "name": "Khutsuri (Asomtavruli e Nuskhuri)",
         "NOTES": []
     },
     "Geor": {
-        "name": "Georgian (Mkhedruli and Mtavruli)",
+        "name": "Georgiano (Mkhedruli e Mtavruli)",
         "NOTES": []
     },
     "Glag": {
-        "name": "Glagolitic",
+        "name": "Glagolitico",
         "NOTES": []
     },
     "Gong": {
-        "name": "Gunjala Gondi",
+        "name": "Gunjala gondi",
         "NOTES": []
     },
     "Gonm": {
-        "name": "Masaram Gondi",
+        "name": "Masaram gondi",
         "NOTES": []
     },
     "Goth": {
-        "name": "Gothic",
+        "name": "Gotico",
         "NOTES": []
     },
     "Gran": {
@@ -216,12 +230,14 @@
         "NOTES": []
     },
     "Grek": {
-        "name": "Greek",
+        "name": "Greco",
         "NOTES": []
     },
     "Gujr": {
-        "name": "Gujarati",
-        "NOTES": []
+        "name": "Gugiarati (Gujarati)",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_gujar%C4%81t%C4%AB"
+        ]
     },
     "Gukh": {
         "name": "Gurung Khema",
@@ -232,11 +248,11 @@
         "NOTES": []
     },
     "Hanb": {
-        "name": "Han with Bopomofo (alias for Han + Bopomofo)",
+        "name": "Han con Bopomofo (alias per Han + Bopomofo)",
         "NOTES": []
     },
     "Hang": {
-        "name": "Hangul (Hangŭl, Hangeul)",
+        "name": "Hangul (Hang' l, Hangeul)",
         "NOTES": []
     },
     "Hani": {
@@ -248,19 +264,19 @@
         "NOTES": []
     },
     "Hans": {
-        "name": "Han (Simplified variant)",
+        "name": "Han (variante semplificata)",
         "NOTES": []
     },
     "Hant": {
-        "name": "Han (Traditional variant)",
+        "name": "Han (variante tradizionale)",
         "NOTES": []
     },
     "Hatr": {
-        "name": "Hatran",
+        "name": "Hatrena (Aramaico di Hatra)",
         "NOTES": []
     },
     "Hebr": {
-        "name": "Hebrew",
+        "name": "Ebraico",
         "NOTES": []
     },
     "Hira": {
@@ -268,7 +284,7 @@
         "NOTES": []
     },
     "Hluw": {
-        "name": "Anatolian Hieroglyphs (Luwian Hieroglyphs, Hittite Hieroglyphs)",
+        "name": "Geroglifici anatolici (Geroglifici luvi, Geroglifici ittiti)",
         "NOTES": []
     },
     "Hmng": {
@@ -280,35 +296,38 @@
         "NOTES": []
     },
     "Hntl": {
-        "name": "Han (Traditional variant) with Latin (alias for Hant + Latn)",
+        "name": "Han (variante tradizionale) con latino (alias per Hant + Latn)",
         "NOTES": []
     },
     "Hrkt": {
-        "name": "Japanese syllabaries (alias for Hiragana + Katakana)",
+        "name": "Sillabari giapponesi (alias per Hiragana + Katakana)",
         "NOTES": []
     },
     "Hung": {
-        "name": "Old Hungarian (Hungarian Runic)",
+        "name": "Ungherese antico (runico ungherese)",
         "NOTES": []
     },
     "Inds": {
-        "name": "Indus (Harappan)",
+        "name": "Indo (Harappa)",
         "NOTES": []
     },
     "Ital": {
-        "name": "Old Italic (Etruscan, Oscan, etc.)",
+        "name": "Italico antico (etrusco, osco, ecc...)",
         "NOTES": []
     },
     "Jamo": {
-        "name": "Jamo (alias for Jamo subset of Hangul)",
+        "name": "Jamo (alias per il sottoinsieme Jamo di Hangul)",
         "NOTES": []
     },
     "Java": {
-        "name": "Javanese",
-        "NOTES": []
+        "name": "Giavanese",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_giavanese",
+            "https://www.treccani.it/vocabolario/giavanese/"
+        ]
     },
     "Jpan": {
-        "name": "Japanese (alias for Han + Hiragana + Katakana)",
+        "name": "Giapponese (alias per Han + Hiragana + Katakana)",
         "NOTES": []
     },
     "Jurc": {
@@ -332,7 +351,7 @@
         "NOTES": []
     },
     "Khmr": {
-        "name": "Khmer",
+        "name": "Cambogiano (Khmer)",
         "NOTES": []
     },
     "Khoj": {
@@ -340,19 +359,21 @@
         "NOTES": []
     },
     "Kitl": {
-        "name": "Khitan large script",
+        "name": "Alfabeto Kitai grande",
         "NOTES": []
     },
     "Kits": {
-        "name": "Khitan small script",
+        "name": "Alfabeto Kitai piccolo",
         "NOTES": []
     },
     "Knda": {
-        "name": "Kannada",
-        "NOTES": []
+        "name": "Canarese (Kannada, Cànara, Kànara)",
+        "NOTES": [
+            "https://www.treccani.it/vocabolario/canarese/"
+        ]
     },
     "Kore": {
-        "name": "Korean (alias for Hangul + Han)",
+        "name": "Coreano (alias per Hangul + Han)",
         "NOTES": []
     },
     "Kpel": {
@@ -372,19 +393,22 @@
         "NOTES": []
     },
     "Laoo": {
-        "name": "Lao",
-        "NOTES": []
+        "name": "Laotiano, Laosiano, Laoziano",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Alfabeto_laotiano",
+            "https://www.treccani.it/vocabolario/laotiano/"
+        ]
     },
     "Latf": {
-        "name": "Latin (Fraktur variant)",
+        "name": "Latino (scrittura Fraktur)",
         "NOTES": []
     },
     "Latg": {
-        "name": "Latin (Gaelic variant)",
+        "name": "Latino (scrittura gaelica)",
         "NOTES": []
     },
     "Latn": {
-        "name": "Latin",
+        "name": "Latino",
         "NOTES": []
     },
     "Leke": {
@@ -400,11 +424,11 @@
         "NOTES": []
     },
     "Lina": {
-        "name": "Linear A",
+        "name": "Lineare A",
         "NOTES": []
     },
     "Linb": {
-        "name": "Linear B",
+        "name": "Lineare B",
         "NOTES": []
     },
     "Lisu": {
@@ -416,11 +440,11 @@
         "NOTES": []
     },
     "Lyci": {
-        "name": "Lycian",
+        "name": "Licio",
         "NOTES": []
     },
     "Lydi": {
-        "name": "Lydian",
+        "name": "Lidio",
         "NOTES": []
     },
     "Mahj": {
@@ -432,11 +456,14 @@
         "NOTES": []
     },
     "Mand": {
-        "name": "Mandaic, Mandaean",
-        "NOTES": []
+        "name": "Mandaico, Mandei",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_mandaica",
+            "https://www.treccani.it/vocabolario/mandaico/"
+        ]
     },
     "Mani": {
-        "name": "Manichaean",
+        "name": "Manicheo",
         "NOTES": []
     },
     "Marc": {
@@ -444,11 +471,11 @@
         "NOTES": []
     },
     "Maya": {
-        "name": "Mayan hieroglyphs",
+        "name": "Geroglifici Maya",
         "NOTES": []
     },
     "Medf": {
-        "name": "Medefaidrin (Oberi Okaime, Oberi Ɔkaimɛ)",
+        "name": "Medefaidrin (Oberi Okaime)",
         "NOTES": []
     },
     "Mend": {
@@ -456,27 +483,32 @@
         "NOTES": []
     },
     "Merc": {
-        "name": "Meroitic Cursive",
-        "NOTES": []
+        "name": "Corsivo meroitico",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Alfabeto_meroitico",
+            "https://www.treccani.it/vocabolario/meroitico/"
+        ]
     },
     "Mero": {
-        "name": "Meroitic Hieroglyphs",
+        "name": "Geroglifici meroitici",
         "NOTES": []
     },
     "Mlym": {
         "name": "Malayalam",
-        "NOTES": []
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_malay%C4%81la%E1%B9%83"
+        ]
     },
     "Modi": {
-        "name": "Modi, Moḍī",
+        "name": "Modi",
         "NOTES": []
     },
     "Mong": {
-        "name": "Mongolian",
+        "name": "Mongolo",
         "NOTES": []
     },
     "Moon": {
-        "name": "Moon (Moon code, Moon script, Moon type)",
+        "name": "Moon (codice Moon, scrittura Moon, tipo Moon)",
         "NOTES": []
     },
     "Mroo": {
@@ -492,7 +524,7 @@
         "NOTES": []
     },
     "Mymr": {
-        "name": "Myanmar (Burmese)",
+        "name": "Birmano (Myanmar)",
         "NOTES": []
     },
     "Nagm": {
@@ -504,23 +536,26 @@
         "NOTES": []
     },
     "Narb": {
-        "name": "Old North Arabian (Ancient North Arabian)",
+        "name": "Arabo Settentrionale Antico",
         "NOTES": []
     },
     "Nbat": {
-        "name": "Nabataean",
-        "NOTES": []
+        "name": "Nabateo",
+        "NOTES": [
+            "https://www.treccani.it/vocabolario/nabateo/",
+            "https://it.wikipedia.org/wiki/Lingua_nabatea"
+        ]
     },
     "Newa": {
-        "name": "Newa, Newar, Newari, Nepāla lipi",
+        "name": "Newa, Newari, Newar, Nevar, Lipi nepalese",
         "NOTES": []
     },
     "Nkdb": {
-        "name": "Naxi Dongba (na²¹ɕi³³ to³³ba²¹, Nakhi Tomba)",
+        "name": "Naxi Dongba (Nakhi Tomba)",
         "NOTES": []
     },
     "Nkgb": {
-        "name": "Naxi Geba (na²¹ɕi³³ gʌ²¹ba²¹, 'Na-'Khi ²Ggŏ-¹baw, Nakhi Geba)",
+        "name": "Naxi Geba (Nakhi Geba)",
         "NOTES": []
     },
     "Nkoo": {
@@ -528,7 +563,7 @@
         "NOTES": []
     },
     "Nshu": {
-        "name": "Nüshu",
+        "name": "Nü shu",
         "NOTES": []
     },
     "Ogam": {
@@ -536,7 +571,7 @@
         "NOTES": []
     },
     "Olck": {
-        "name": "Ol Chiki (Ol Cemet’, Ol, Santali)",
+        "name": "Ol Chiki (Ol Chemet’, Ol, Santali)",
         "NOTES": []
     },
     "Onao": {
@@ -544,11 +579,11 @@
         "NOTES": []
     },
     "Orkh": {
-        "name": "Old Turkic, Orkhon Runic",
+        "name": "Turco antico, Orkhon runico",
         "NOTES": []
     },
     "Orya": {
-        "name": "Oriya (Odia)",
+        "name": "Odia (Oriya)",
         "NOTES": []
     },
     "Osge": {
@@ -556,75 +591,84 @@
         "NOTES": []
     },
     "Osma": {
-        "name": "Osmanya",
+        "name": "Osmanya, Somalo",
         "NOTES": []
     },
     "Ougr": {
-        "name": "Old Uyghur",
-        "NOTES": []
+        "name": "Uiguro antico",
+        "NOTES": [
+            "https://www.treccani.it/enciclopedia/uiguri_(Dizionario-di-Storia)/"
+        ]
     },
     "Palm": {
-        "name": "Palmyrene",
-        "NOTES": []
+        "name": "Palmireno",
+        "NOTES": [
+            "https://www.treccani.it/vocabolario/palmireno/"
+        ]
     },
     "Pauc": {
         "name": "Pau Cin Hau",
         "NOTES": []
     },
     "Pcun": {
-        "name": "Proto-Cuneiform",
+        "name": "Protocuneiforme",
         "NOTES": []
     },
     "Pelm": {
-        "name": "Proto-Elamite",
+        "name": "Protoelamico",
         "NOTES": []
     },
     "Perm": {
-        "name": "Old Permic",
-        "NOTES": []
+        "name": "Permico antico (Permiano antico)",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingue_permiche"
+        ]
     },
     "Phag": {
-        "name": "Phags-pa",
+        "name": "'Phags-pa",
         "NOTES": []
     },
     "Phli": {
-        "name": "Inscriptional Pahlavi",
-        "NOTES": []
+        "name": "Pahlavi, Pahlevi (iscrizioni)",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_pahlavi",
+            "https://www.treccani.it/enciclopedia/pahlavi_(Dizionario-di-Storia)/"
+        ]
     },
     "Phlp": {
-        "name": "Psalter Pahlavi",
+        "name": "Pahlavi, Pahlevi (salterio)",
         "NOTES": []
     },
     "Phlv": {
-        "name": "Book Pahlavi",
+        "name": "Pahlavi, Pahlevi (libro)",
         "NOTES": []
     },
     "Phnx": {
-        "name": "Phoenician",
+        "name": "Fenicio",
         "NOTES": []
     },
     "Plrd": {
-        "name": "Miao (Pollard)",
+        "name": "Pollard (Miao Pollard)",
         "NOTES": []
     },
     "Piqd": {
-        "name": "Klingon (KLI pIqaD)",
+        "name": "Klingon (pIqaD)",
         "NOTES": []
     },
     "Prti": {
-        "name": "Inscriptional Parthian",
+        "name": "Parto (iscrizioni)",
         "NOTES": []
     },
     "Psin": {
-        "name": "Proto-Sinaitic",
+        "name": "Proto-Sinaitico",
         "NOTES": []
     },
     "Qaaa": {
-        "name": "Reserved for private use (inizio)",
+        "name": "Riservato per uso privato (start)",
         "NOTES": []
     },
     "Qabx": {
-        "name": "Reserved for private use (fine)",
+        "name": "Riservato per uso privato (end)",
         "NOTES": []
     },
     "Ranj": {
@@ -636,7 +680,7 @@
         "NOTES": []
     },
     "Rohg": {
-        "name": "Hanifi Rohingya",
+        "name": "Rohingya hanifi",
         "NOTES": []
     },
     "Roro": {
@@ -644,11 +688,11 @@
         "NOTES": []
     },
     "Runr": {
-        "name": "Runic",
+        "name": "Runico",
         "NOTES": []
     },
     "Samr": {
-        "name": "Samaritan",
+        "name": "Samaritano",
         "NOTES": []
     },
     "Sara": {
@@ -656,7 +700,7 @@
         "NOTES": []
     },
     "Sarb": {
-        "name": "Old South Arabian",
+        "name": "Arabo meridionale antico",
         "NOTES": []
     },
     "Saur": {
@@ -664,23 +708,25 @@
         "NOTES": []
     },
     "Seal": {
-        "name": "(Small) Seal",
+        "name": "Sigillario",
         "NOTES": []
     },
     "Sgnw": {
-        "name": "SignWriting",
+        "name": "Sutton SignWriting, SignWriting, Scrittura dei segni",
         "NOTES": []
     },
     "Shaw": {
-        "name": "Shavian (Shaw)",
-        "NOTES": []
+        "name": "Shaviano",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Alfabeto_shaviano"
+        ]
     },
     "Shrd": {
-        "name": "Sharada, Śāradā",
+        "name": "Sharada, Śāradā, Charada",
         "NOTES": []
     },
     "Shui": {
-        "name": "Shuishu",
+        "name": "Shuishu, Sui",
         "NOTES": []
     },
     "Sidd": {
@@ -688,24 +734,33 @@
         "NOTES": []
     },
     "Sidt": {
-        "name": "Sidetic",
-        "NOTES": []
+        "name": "Sidetico",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_sidetica"
+        ]
     },
     "Sind": {
         "name": "Khudawadi, Sindhi",
         "NOTES": []
     },
     "Sinh": {
-        "name": "Sinhala",
-        "NOTES": []
+        "name": "Singalese, Cingalese, Ceylonese, Silonense, Sinhala",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_singalese",
+            "https://www.treccani.it/vocabolario/singalese/",
+            "https://www.treccani.it/vocabolario/ceylonense/"
+
+        ]
     },
     "Sogd": {
         "name": "Sogdian",
         "NOTES": []
     },
     "Sogo": {
-        "name": "Old Sogdian",
-        "NOTES": []
+        "name": "Sogdiano antico",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Alfabeto_sogdiano"
+        ]
     },
     "Sora": {
         "name": "Sora Sompeng",
@@ -716,39 +771,42 @@
         "NOTES": []
     },
     "Sund": {
-        "name": "Sundanese",
-        "NOTES": []
+        "name": "Sundanese, Sondanese",
+        "NOTES": [
+            "https://www.treccani.it/vocabolario/sundanese/",
+            "https://it.wikipedia.org/wiki/Lingua_sundanese"
+        ]
     },
     "Sunu": {
         "name": "Sunuwar",
         "NOTES": []
     },
     "Sylo": {
-        "name": "Syloti Nagri",
+        "name": "Sylheti, Sileṭ Nagri",
         "NOTES": []
     },
     "Syrc": {
-        "name": "Syriac",
+        "name": "Siriaco",
         "NOTES": []
     },
     "Syre": {
-        "name": "Syriac (Estrangelo variant)",
+        "name": "Siriaco (variante ʾEsṭrangēlā)",
         "NOTES": []
     },
     "Syrj": {
-        "name": "Syriac (Western variant)",
+        "name": "Siriaco (variante occidentale)",
         "NOTES": []
     },
     "Syrn": {
-        "name": "Syriac (Eastern variant)",
+        "name": "Siriaco (variante orientale)",
         "NOTES": []
     },
     "Tagb": {
-        "name": "Tagbanwa",
+        "name": "Tagbanwa, Aborlan Tagbanwa, Apurawnon",
         "NOTES": []
     },
     "Takr": {
-        "name": "Takri, Ṭākrī, Ṭāṅkrī",
+        "name": "Takri",
         "NOTES": []
     },
     "Tale": {
@@ -756,11 +814,11 @@
         "NOTES": []
     },
     "Talu": {
-        "name": "New Tai Lue",
+        "name": "Nuovo Tai lue, Tai lue semplificato",
         "NOTES": []
     },
     "Taml": {
-        "name": "Tamil",
+        "name": "Tàmil, Tàmul",
         "NOTES": []
     },
     "Tang": {
@@ -776,7 +834,7 @@
         "NOTES": []
     },
     "Telu": {
-        "name": "Telugu",
+        "name": "Tèlugu",
         "NOTES": []
     },
     "Teng": {
@@ -784,23 +842,23 @@
         "NOTES": []
     },
     "Tfng": {
-        "name": "Tifinagh (Berber)",
+        "name": "Tifinagh (Berbero)",
         "NOTES": []
     },
     "Tglg": {
-        "name": "Tagalog (Baybayin, Alibata)",
+        "name": "Tagalog, Tagalo",
         "NOTES": []
     },
     "Thaa": {
-        "name": "Thaana",
+        "name": "Thaana, Taana, Tāna",
         "NOTES": []
     },
     "Thai": {
-        "name": "Thai",
+        "name": "Tailandese",
         "NOTES": []
     },
     "Tibt": {
-        "name": "Tibetan",
+        "name": "Tibetano",
         "NOTES": []
     },
     "Tirh": {
@@ -824,27 +882,30 @@
         "NOTES": []
     },
     "Tutg": {
-        "name": "Tulu-Tigalari",
+        "name": "Tigalari, Tulu",
         "NOTES": []
     },
     "Ugar": {
-        "name": "Ugaritic",
-        "NOTES": []
+        "name": "Ugaritico",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Alfabeto_ugaritico",
+            "https://www.treccani.it/vocabolario/ugaritico/"
+        ]
     },
     "Vaii": {
         "name": "Vai",
         "NOTES": []
     },
     "Visp": {
-        "name": "Visible Speech",
+        "name": "Discorso visibile",
         "NOTES": []
     },
     "Vith": {
-        "name": "Vithkuqi",
+        "name": "Vithkuqi, Büthakukye, Beitha Kukju",
         "NOTES": []
     },
     "Wara": {
-        "name": "Warang Citi (Varang Kshiti)",
+        "name": "Warang Chiti (Varang Kshiti)",
         "NOTES": []
     },
     "Wcho": {
@@ -856,11 +917,11 @@
         "NOTES": []
     },
     "Xpeo": {
-        "name": "Old Persian",
+        "name": "Persiano antico",
         "NOTES": []
     },
     "Xsux": {
-        "name": "Cuneiform, Sumero-Akkadian",
+        "name": "Cuneiforme, Sumero-Accadico",
         "NOTES": []
     },
     "Yezi": {
@@ -872,35 +933,35 @@
         "NOTES": []
     },
     "Zanb": {
-        "name": "Zanabazar Square (Zanabazarin Dörböljin Useg, Xewtee Dörböljin Bicig, Horizontal Square Script)",
+        "name": "Zanabazar quadrato (Scrittura Orizontale Quadrata)",
         "NOTES": []
     },
     "Zinh": {
-        "name": "Code for inherited script",
+        "name": "Codice per script ereditato",
         "NOTES": []
     },
     "Zmth": {
-        "name": "Mathematical notation",
+        "name": "Notazione matematica",
         "NOTES": []
     },
     "Zsye": {
-        "name": "Symbols (Emoji variant)",
+        "name": "Simboli (variante Emoji)",
         "NOTES": []
     },
     "Zsym": {
-        "name": "Symbols",
+        "name": "Simboli",
         "NOTES": []
     },
     "Zxxx": {
-        "name": "Code for unwritten documents",
+        "name": "Codice per documenti non scritti",
         "NOTES": []
     },
     "Zyyy": {
-        "name": "Code for undetermined script",
+        "name": "Codice per script indeterminato",
         "NOTES": []
     },
     "Zzzz": {
-        "name": "Code for uncoded script",
+        "name": "Codice per script non codificato",
         "NOTES": []
     }
 }
