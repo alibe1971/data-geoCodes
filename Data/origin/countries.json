@@ -6733,7 +6733,7 @@
     {
         "LABEL": "Cayman Islands",
         "officialName": {
-            "en": "Cayman Islands"
+            "eng": "Cayman Islands"
         },
         "alpha2": "KY",
         "alpha3": "CYM",
@@ -6744,7 +6744,7 @@
         "dependency": "GB",
         "mottos": {
             "official": {
-                "en": "He hath founded it upon the seas"
+                "eng": "He hath founded it upon the seas"
             }
         },
         "currencies": {
@@ -6765,10 +6765,11 @@
             "America/Cayman"
         ],
         "languages": {
-            "official": [],
+            "official": ["eng"],
             "widelySpoken": [],
             "localCommunities": [],
-            "signs": []
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -6782,8 +6783,8 @@
     {
         "LABEL": "Kazakhstan",
         "officialName": {
-            "kk": "Қазақстан Республикасы",
-            "ru": "Республика Казахстан"
+            "kaz": "Қазақстан Республикасы",
+            "rus": "Республика Казахстан"
         },
         "alpha2": "KZ",
         "alpha3": "KAZ",
@@ -6826,10 +6827,11 @@
             "Asia/Qyzylorda"
         ],
         "languages": {
-            "official": [],
+            "official": ["kaz", "rus"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["uig", "uzb", "tat", "ukr", "kor", "deu"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "kk",
@@ -6845,7 +6847,7 @@
     {
         "LABEL": "Lao People's Democratic Republic",
         "officialName": {
-            "lo": "ສາທາລະນະລັດ ປະຊາທິປະໄຕ ປະຊາຊົນລາວ"
+            "lao": "ສາທາລະນະລັດ ປະຊາທິປະໄຕ ປະຊາຊົນລາວ"
         },
         "alpha2": "LA",
         "alpha3": "LAO",
@@ -6856,7 +6858,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "lo": "ສັນຕິພາບ ເອກະລາດ ປະຊາທິປະໄຕ ເອກະພາບ ວັດທະນະຖາວອນ"
+                "lao": "ສັນຕິພາບ ເອກະລາດ ປະຊາທິປະໄຕ ເອກະພາບ ວັດທະນະຖາວອນ"
             }
         },
         "currencies": {
@@ -6877,10 +6879,11 @@
             "Asia/Vientiane"
         ],
         "languages": {
-            "official": [],
+            "official": ["lao"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["khm", "hnj", "tha", "vie", "cth", "blr"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "lo",
@@ -6894,7 +6897,7 @@
     {
         "LABEL": "Lebanon",
         "officialName": {
-            "ar": "الجمهورية اللبنانية"
+            "ara": "الجمهورية اللبنانية"
         },
         "alpha2": "LB",
         "alpha3": "LBN",
@@ -6905,7 +6908,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "ar": "كلنـا للوطـن للعـلى للعـلم"
+                "ara": "كلنـا للوطـن للعـلى للعـلم"
             }
         },
         "currencies": {
@@ -6926,10 +6929,11 @@
             "Asia/Beirut"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["ara"],
+            "widelySpoken": ["fra", "eng"],
+            "localCommunities": ["arm", "syc", "kaa", "acm"],
+            "signs": [],
+            "dialects": ["acm"]
         },
         "localesIcu": [
             "ar",
@@ -6943,7 +6947,7 @@
     {
         "LABEL": "Saint Lucia",
         "officialName": {
-            "en": "Saint Lucia"
+            "eng": "Saint Lucia"
         },
         "alpha2": "LC",
         "alpha3": "LCA",
@@ -6954,7 +6958,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "en": "The Land, The People, The Light"
+                "eng": "The Land, The People, The Light"
             }
         },
         "currencies": {
@@ -6975,10 +6979,11 @@
             "America/St_Lucia"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
+            "official": ["eng"],
+            "widelySpoken": ["acf"],
             "localCommunities": [],
-            "signs": []
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -6992,8 +6997,7 @@
     {
         "LABEL": "Liechtenstein",
         "officialName": {
-            "de": "Fürstentum Liechtenstein",
-            "wae": "Fürstentum Liechtenstein"
+            "deu": "Fürstentum Liechtenstein"
         },
         "alpha2": "LI",
         "alpha3": "LIE",
@@ -7004,7 +7008,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "de": "Für Gott, Fürst und Vaterland"
+                "deu": "Für Gott, Fürst und Vaterland"
             }
         },
         "currencies": {
@@ -7025,10 +7029,11 @@
             "Europe/Vaduz"
         ],
         "languages": {
-            "official": [],
+            "official": ["deu"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["wae"],
+            "signs": [],
+            "dialects": ["gsw"]
         },
         "localesIcu": [
             "de",
@@ -7037,13 +7042,16 @@
         "otherAppsIds": {
             "geoNamesOrg": 3042058
         },
-        "NOTES": []
+        "NOTES": [
+            "[languages] Walser German is spoken in Triesenberg and considered a living heritage, though not used in",
+            "official domains."
+        ]
     },
     {
         "LABEL": "Sri Lanka",
         "officialName": {
-            "si": "ශ්‍රී ලංකා ප්‍රජාතාන්ත්‍රික සමාජවාදී ජනරජය",
-            "ta": "இலங்கை ஜனநாயக சோசலிச குடியரசு"
+            "sin": "ශ්‍රී ලංකා ප්‍රජාතාන්ත්‍රික සමාජවාදී ජනරජය",
+            "tam": "இலங்கை ஜனநாயக சோசலிச குடியரசு"
         },
         "alpha2": "LK",
         "alpha3": "LKA",
@@ -7054,8 +7062,8 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "si": "ශ්‍රී ලංකා මාතා",
-                "ta": "ஸ்ரீ லங்கா தாயே"
+                "sin": "ශ්‍රී ලංකා මාතා",
+                "tam": "ஸ்ரீ லங்கா தாயே"
             }
         },
         "currencies": {
@@ -7076,10 +7084,11 @@
             "Asia/Colombo"
         ],
         "languages": {
-            "official": [],
+            "official": ["sin", "tam"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["eng", "san", "urd"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "si",
@@ -7095,7 +7104,7 @@
     {
         "LABEL": "Liberia",
         "officialName": {
-            "en": "Republic of Liberia"
+            "eng": "Republic of Liberia"
         },
         "alpha2": "LR",
         "alpha3": "LBR",
@@ -7106,7 +7115,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "en": "The Love of Liberty Brought Us Here"
+                "eng": "The Love of Liberty Brought Us Here"
             }
         },
         "currencies": {
@@ -7127,10 +7136,11 @@
             "Africa/Monrovia"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["eng"],
+            "widelySpoken": ["lir"],
+            "localCommunities": ["vai", "kpe", "bai", "dee", "klu", "lnw", "men", "dnj", "bes"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -7144,8 +7154,8 @@
     {
         "LABEL": "Lesotho",
         "officialName": {
-            "st": "Muso oa Lesotho",
-            "en": "Kingdom of Lesotho"
+            "sot": "Muso oa Lesotho",
+            "eng": "Kingdom of Lesotho"
         },
         "alpha2": "LS",
         "alpha3": "LSO",
@@ -7156,7 +7166,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "st": "Khotso Pula Nala"
+                "sot": "Khotso Pula Nala"
             }
         },
         "currencies": {
@@ -7177,10 +7187,11 @@
             "Africa/Maseru"
         ],
         "languages": {
-            "official": [],
+            "official": ["sot", "eng"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["zul", "xho"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -7194,7 +7205,7 @@
     {
         "LABEL": "Lithuania",
         "officialName": {
-            "lt": "Lietuvos Respublika"
+            "lit": "Lietuvos Respublika"
         },
         "alpha2": "LT",
         "alpha3": "LTU",
@@ -7205,7 +7216,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "lt": "Tautos jėga vienybėje"
+                "lit": "Tautos jėga vienybėje"
             }
         },
         "currencies": {
@@ -7226,10 +7237,11 @@
             "Europe/Vilnius"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["lit"],
+            "widelySpoken": ["rus"],
+            "localCommunities": ["pol", "bel", "ukr", "rom"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "lt",
@@ -7243,9 +7255,9 @@
     {
         "LABEL": "Luxembourg",
         "officialName": {
-            "lb": "Groussherzogtum Lëtzebuerg",
-            "fr": "Grand-Duché de Luxembourg",
-            "de": "Großherzogtum Luxemburg"
+            "ltz": "Groussherzogtum Lëtzebuerg",
+            "fra": "Grand-Duché de Luxembourg",
+            "deu": "Großherzogtum Luxemburg"
         },
         "alpha2": "LU",
         "alpha3": "LUX",
@@ -7256,9 +7268,9 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "lb": "Mir wëlle bleiwe wat mir sinn",
-                "fr": "Nous voulons rester ce que nous sommes",
-                "de": "Wir wollen bleiben, was wir sind"
+                "ltz": "Mir wëlle bleiwe wat mir sinn",
+                "fra": "Nous voulons rester ce que nous sommes",
+                "deu": "Wir wollen bleiben, was wir sind"
             }
         },
         "currencies": {
@@ -7279,10 +7291,11 @@
             "Europe/Luxembourg"
         ],
         "languages": {
-            "official": [],
+            "official": ["ltz", "fra", "deu"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["por", "ita", "eng"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "de",
@@ -7302,7 +7315,7 @@
     {
         "LABEL": "Latvia",
         "officialName": {
-            "lv": "Latvijas Republika"
+            "lav": "Latvijas Republika"
         },
         "alpha2": "LV",
         "alpha3": "LVA",
@@ -7330,10 +7343,11 @@
             "Europe/Riga"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["lav"],
+            "widelySpoken": ["rus"],
+            "localCommunities": ["ukr", "bel", "pol", "rom"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "lv",
@@ -7347,7 +7361,7 @@
     {
         "LABEL": "Libya",
         "officialName": {
-            "ar": "دولة ليبيا"
+            "ara": "دولة ليبيا"
         },
         "alpha2": "LY",
         "alpha3": "LBY",
@@ -7375,10 +7389,11 @@
             "Africa/Tripoli"
         ],
         "languages": {
-            "official": [],
+            "official": ["ara"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["tzm", "taq", "zgh", "itk"],
+            "signs": [],
+            "dialects": ["ayl"]
         },
         "localesIcu": [
             "ar",
@@ -7392,8 +7407,8 @@
     {
         "LABEL": "Morocco",
         "officialName": {
-            "ar": "المملكة المغربية",
-            "ber": "ⵜⴰⴳⴻⵍⴷⵉⵜ ⵏ ⵍⵎⴻⵖⵔⵉⴱ"
+            "ara": "المملكة المغربية",
+            "zgh": "ⵜⴰⴳⴻⵍⴷⵉⵜ ⵏ ⵍⵎⴻⵖⵔⵉⴱ"
         },
         "alpha2": "MA",
         "alpha3": "MAR",
@@ -7404,8 +7419,8 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "ar": "الله، الوطن، الملك",
-                "ber": "ⴰⴽⵓⵛ, ⴰⵎⵓⵔ, ⴰⴳⵍⵍⵉⴷ"
+                "ara": "الله، الوطن، الملك",
+                "zgh": "ⴰⴽⵓⵛ, ⴰⵎⵓⵔ, ⴰⴳⵍⵍⵉⴷ"
             }
         },
         "currencies": {
@@ -7426,10 +7441,11 @@
             "Africa/Casablanca"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["ara", "zgh"],
+            "widelySpoken": ["fra"],
+            "localCommunities": ["rif", "tzm", "shi", "spa"],
+            "signs": [],
+            "dialects": ["ary"]
         },
         "localesIcu": [
             "ar",
@@ -7445,7 +7461,7 @@
     {
         "LABEL": "Monaco",
         "officialName": {
-            "fr": "Principauté de Monaco"
+            "fra": "Principauté de Monaco"
         },
         "alpha2": "MC",
         "alpha3": "MCO",
@@ -7456,7 +7472,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "la": "Deo Juvante"
+                "lat": "Deo Juvante"
             }
         },
         "currencies": {
@@ -7477,10 +7493,11 @@
             "Europe/Monaco"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["fra"],
+            "widelySpoken": ["ita", "eng"],
+            "localCommunities": ["oci", "lij"],
+            "signs": [],
+            "dialects": ["mcm"]
         },
         "localesIcu": [
             "fr",
