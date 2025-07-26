@@ -2,7 +2,7 @@
     {
         "LABEL": "Andorra",
         "officialName": {
-            "ca": "Principat d'Andorra"
+            "cat": "Principat d'Andorra"
         },
         "alpha2": "AD",
         "alpha3": "AND",
@@ -13,7 +13,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "la": "Virtus unita fortior"
+                "lat": "Virtus unita fortior"
             }
         },
         "currencies": {
@@ -33,7 +33,20 @@
         "timeZones": [
             "Europe/Andorra"
         ],
-        "languages": [],
+        "languages": {
+            "official": [
+                "cat"
+            ],
+            "widelySpoken": [
+                "fra",
+                "spa"
+            ],
+            "localCommunities": [],
+            "signs": [
+                "csc"
+            ],
+            "dialects": []
+        },
         "localesIcu": [
             "ca",
             "ca-AD"
@@ -46,7 +59,7 @@
     {
         "LABEL": "United Arab Emirates",
         "officialName": {
-            "ar": "دولة الإمارات العربية المتحدة"
+            "arb": "دولة الإمارات العربية المتحدة"
         },
         "alpha2": "AE",
         "alpha3": "ARE",
@@ -57,7 +70,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "ar": "الله الوطن الرئيس"
+                "arb": "الله الوطن الرئيس"
             }
         },
         "currencies": {
@@ -77,7 +90,18 @@
         "timeZones": [
             "Asia/Dubai"
         ],
-        "languages": [],
+        "languages": {
+            "official": [
+                "arb"
+            ],
+            "widelySpoken": [
+                "afb",
+                "eng"
+            ],
+            "localCommunities": [],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "ar",
             "ar-AE"
@@ -90,7 +114,7 @@
     {
         "LABEL": "Afghanistan",
         "officialName": {
-            "ps": "د افغانستان اسلامي امارت",
+            "pus": "د افغانستان اسلامي امارت",
             "prs": "امارت اسلامی افغانستان"
         },
         "alpha2": "AF",
@@ -102,7 +126,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "ar": "لا إله إلا الله، محمد رسول الله"
+                "arb": "لا إله إلا الله، محمد رسول الله"
             }
         },
         "currencies": {
@@ -122,7 +146,16 @@
         "timeZones": [
             "Asia/Kabul"
         ],
-        "languages": [],
+        "languages": {
+            "official": [
+                "pus",
+                "prs"
+            ],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "fa",
             "fa-AF",
@@ -142,7 +175,7 @@
     {
         "LABEL": "Antigua and Barbuda",
         "officialName": {
-            "en": "Antigua and Barbuda"
+            "eng": "Antigua and Barbuda"
         },
         "alpha2": "AG",
         "alpha3": "ATG",
@@ -153,7 +186,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "en": "Each Endeavouring, All Achieving"
+                "eng": "Each Endeavouring, All Achieving"
             }
         },
         "currencies": {
@@ -173,7 +206,13 @@
         "timeZones": [
             "America/Antigua"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": ["eng", "aig"],
+            "localCommunities": [],
+            "signs": ["ase"],
+            "dialects": []
+        },
         "localesIcu": [
             "en",
             "en-AG"
@@ -181,12 +220,14 @@
         "otherAppsIds": {
             "geoNamesOrg": 3576396
         },
-        "NOTES": []
+        "NOTES": [
+            "No official language declared, but english is used in the administrative acts"
+        ]
     },
     {
         "LABEL": "Anguilla",
         "officialName": {
-            "en": "Anguilla"
+            "eng": "Anguilla"
         },
         "alpha2": "AI",
         "alpha3": "AIA",
@@ -197,7 +238,7 @@
         "dependency": "GB",
         "mottos": {
             "official": {
-                "en": "Unity, Strength and Endurance"
+                "eng": "Unity, Strength and Endurance"
             }
         },
         "currencies": {
@@ -217,7 +258,13 @@
         "timeZones": [
             "America/Anguilla"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": ["eng", "aig"],
+            "localCommunities": [],
+            "signs": ["ase"],
+            "dialects": []
+        },
         "localesIcu": [
             "en",
             "en-AI"
@@ -225,12 +272,14 @@
         "otherAppsIds": {
             "geoNamesOrg": 3573511
         },
-        "NOTES": []
+        "NOTES": [
+            "Also if british territory, Anguilla has no declared de jure official language"
+        ]
     },
     {
         "LABEL": "Albania",
         "officialName": {
-            "sq": "Republika e Shqipërisë"
+            "sqi": "Republika e Shqipërisë"
         },
         "alpha2": "AL",
         "alpha3": "ALB",
@@ -241,7 +290,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "sq": "Ti Shqipëri, më jep nder, më jep emrin Shqipëtar"
+                "sqi": "Ti Shqipëri, më jep nder, më jep emrin Shqipëtar"
             }
         },
         "currencies": {
@@ -261,7 +310,13 @@
         "timeZones": [
             "Europe/Tirane"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["sqi"],
+            "widelySpoken": [],
+            "localCommunities": ["ell", "mkd", "srp", "rom", "vlj"],
+            "signs": ["sqk"],
+            "dialects": ["aln", "als"]
+        },
         "localesIcu": [
             "sq",
             "sq-AL"
@@ -274,7 +329,7 @@
     {
         "LABEL": "Armenia",
         "officialName": {
-            "hy": "Հայաստանի Հանրապետություն"
+            "hye": "Հայաստանի Հանրապետություն"
         },
         "alpha2": "AM",
         "alpha3": "ARM",
@@ -285,7 +340,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "hy": "Մեկ Ազգ, Մեկ Մշակույթ"
+                "hye": "Մեկ Ազգ, Մեկ Մշակույթ"
             }
         },
         "currencies": {
@@ -314,7 +369,13 @@
         "timeZones": [
             "Asia/Yerevan"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["hye"],
+            "widelySpoken": [],
+            "localCommunities": ["rue", "rmy", "oss", "krc", "aze", "kbd"],
+            "signs": ["aen"],
+            "dialects": ["hyw"]
+        },
         "localesIcu": [
             "hy",
             "hy-AM"
@@ -327,7 +388,7 @@
     {
         "LABEL": "Angola",
         "officialName": {
-            "pt": "República de Angola"
+            "por": "República de Angola"
         },
         "alpha2": "AO",
         "alpha3": "AGO",
@@ -338,7 +399,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "la": "Virtus unita fortior"
+                "lat": "Virtus unita fortior"
             }
         },
         "currencies": {
@@ -358,7 +419,13 @@
         "timeZones": [
             "Africa/Luanda"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["por"],
+            "widelySpoken": ["kik", "umb", "lnb", "kmb", "nyo"],
+            "localCommunities": ["ndo", "lue", "chb", "cox", "mhw", "olu", "nyn", "mnh"],
+            "signs": ["lbs"],
+            "dialects": []
+        },
         "localesIcu": [
             "ln",
             "ln-AO",
@@ -372,7 +439,7 @@
     },
     {
         "LABEL": "Antarctica",
-        "officialName": {},
+        "officialName": [],
         "alpha2": "AQ",
         "alpha3": "ATA",
         "unM49": "010",
@@ -380,7 +447,7 @@
             "emoji": "🇦🇶"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [],
             "widelyAccepted": []
@@ -406,7 +473,12 @@
             "Antarctica/Troll",
             "Antarctica/Vostok"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-FI",
@@ -542,7 +614,7 @@
     {
         "LABEL": "Argentina",
         "officialName": {
-            "es": "República Argentina"
+            "spa": "República Argentina"
         },
         "alpha2": "AR",
         "alpha3": "ARG",
@@ -553,7 +625,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "es": "En unión y libertad"
+                "spa": "En unión y libertad"
             }
         },
         "currencies": {
@@ -591,7 +663,13 @@
             "America/Mendoza",
             "America/Rosario"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["spa"],
+            "widelySpoken": [],
+            "localCommunities": ["gnc", "quh", "mzf", "map", "aym", "wca", "qvw", "chr", "bjo"],
+            "signs": ["aed"],
+            "dialects": []
+        },
         "localesIcu": [
             "es",
             "es-AR"
@@ -604,8 +682,8 @@
     {
         "LABEL": "American Samoa",
         "officialName": {
-            "en": "American Samoa",
-            "sm": "Amerika Sāmoa"
+            "eng": "American Samoa",
+            "smo": "Amerika Sāmoa"
         },
         "alpha2": "AS",
         "alpha3": "ASM",
@@ -616,7 +694,7 @@
         "dependency": "US",
         "mottos": {
             "official": {
-                "sm": "Sāmoa, Muamua Le Atua"
+                "smo": "Sāmoa, Muamua Le Atua"
             }
         },
         "currencies": {
@@ -636,7 +714,13 @@
         "timeZones": [
             "Pacific/Pago_Pago"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["eng", "smo"],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": ["ase"],
+            "dialects": []
+        },
         "localesIcu": [
             "en",
             "en-AS"
@@ -649,7 +733,7 @@
     {
         "LABEL": "Austria",
         "officialName": {
-            "de": "Republik Österreich"
+            "deu": "Republik Österreich"
         },
         "alpha2": "AT",
         "alpha3": "AUT",
@@ -658,7 +742,7 @@
             "emoji": "🇦🇹"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "EUR"
@@ -676,7 +760,13 @@
         "timeZones": [
             "Europe/Vienna"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["deu"],
+            "widelySpoken": [],
+            "localCommunities": ["slv", "hrv", "hun", "rom", "cim", "sqi", "tur", "srp", "ces", "pol"],
+            "signs": ["asq"],
+            "dialects": ["bar"]
+        },
         "localesIcu": [
             "de",
             "de-AT",
@@ -691,7 +781,7 @@
     {
         "LABEL": "Australia",
         "officialName": {
-            "en": "Commonwealth of Australia"
+            "eng": "Commonwealth of Australia"
         },
         "alpha2": "AU",
         "alpha3": "AUS",
@@ -700,7 +790,7 @@
             "emoji": "🇦🇺"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "AUD"
@@ -740,7 +830,13 @@
             "Australia/West",
             "Australia/Yancowinna"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": ["eng"],
+            "localCommunities": ["zxx", "itk", "warl", "pny", "aly", "kri", "yol", "pit", "cmn", "arb", "ell", "vnm", "hin"],
+            "signs": ["aus"],
+            "dialects": []
+        },
         "localesIcu": [
             "en",
             "en-AU"
@@ -753,7 +849,7 @@
     {
         "LABEL": "Aruba",
         "officialName": {
-            "nl": "Land Aruba",
+            "nld": "Land Aruba",
             "pap": "Pais Aruba"
         },
         "alpha2": "AW",
@@ -765,7 +861,7 @@
         "dependency": "NL",
         "mottos": {
             "royal": {
-                "fr": "Je maintiendrai"
+                "fra": "Je maintiendrai"
             }
         },
         "currencies": {
@@ -785,7 +881,13 @@
         "timeZones": [
             "America/Aruba"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["nld", "pap"],
+            "widelySpoken": ["eng", "spa"],
+            "localCommunities": [],
+            "signs": ["ase"],
+            "dialects": []
+        },
         "localesIcu": [
             "nl",
             "nl-AW"
@@ -798,7 +900,7 @@
     {
         "LABEL": "Åland Islands",
         "officialName": {
-            "sv": "Landskapet Åland"
+            "swe": "Landskapet Åland"
         },
         "alpha2": "AX",
         "alpha3": "ALA",
@@ -807,7 +909,7 @@
             "emoji": "🇦🇽"
         },
         "dependency": "FI",
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "EUR"
@@ -825,7 +927,13 @@
         "timeZones": [
             "Europe/Mariehamn"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["swe"],
+            "widelySpoken": [],
+            "localCommunities": ["fin"],
+            "signs": ["fse"],
+            "dialects": []
+        },
         "localesIcu": [
             "sv",
             "sv-AX"
@@ -838,7 +946,7 @@
     {
         "LABEL": "Azerbaijan",
         "officialName": {
-            "az": "Azərbaycan Respublikası"
+            "aze": "Azərbaycan Respublikası"
         },
         "alpha2": "AZ",
         "alpha3": "AZE",
@@ -847,7 +955,7 @@
             "emoji": "🇦🇿"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "AZN"
@@ -865,7 +973,13 @@
         "timeZones": [
             "Asia/Baku"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["aze"],
+            "widelySpoken": ["rus", "tur"],
+            "localCommunities": ["lez", "tkr", "tat", "udi", "kur", "avk", "xal", "diq", "arm"],
+            "signs": ["azj", "rsl"],
+            "dialects": ["azb"]
+        },
         "localesIcu": [
             "az",
             "az-Cyrl",
@@ -883,7 +997,6 @@
         "officialName": {
             "sr-Cyrl": "Босна и Херцеговина",
             "bs-Cyrl": "Босна и Херцеговина",
-            "hr-Cyrl": "Босна и Херцеговина",
             "sr-Latn": "Bosna i Hercegovina",
             "bs-Latn": "Bosna i Hercegovina",
             "hr": "Bosna i Hercegovina"
@@ -895,7 +1008,7 @@
             "emoji": "🇧🇦"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "BAM"
@@ -913,7 +1026,13 @@
         "timeZones": [
             "Europe/Sarajevo"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["bos", "hrv", "srp"],
+            "widelySpoken": [],
+            "localCommunities": ["rmy", "aln", "trn", "cnr", "rom"],
+            "signs": ["bzs"],
+            "dialects": []
+        },
         "localesIcu": [
             "bs",
             "bs-BA",
@@ -933,7 +1052,7 @@
     {
         "LABEL": "Barbados",
         "officialName": {
-            "en": "Barbados"
+            "eng": "Barbados"
         },
         "alpha2": "BB",
         "alpha3": "BRB",
@@ -944,7 +1063,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "en": "Pride and Industry"
+                "eng": "Pride and Industry"
             }
         },
         "currencies": {
@@ -964,7 +1083,13 @@
         "timeZones": [
             "America/Barbados"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": ["eng", "bbc"],
+            "localCommunities": [],
+            "signs": ["bzs", "ase"],
+            "dialects": []
+        },
         "localesIcu": [
             "en",
             "en-BB"
@@ -979,7 +1104,7 @@
     {
         "LABEL": "Bangladesh",
         "officialName": {
-            "bn": "গণপ্রজাতন্ত্রী বাংলাদেশ"
+            "ben": "গণপ্রজাতন্ত্রী বাংলাদেশ"
         },
         "alpha2": "BD",
         "alpha3": "BGD",
@@ -990,7 +1115,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "bn": "জাতীয়তাবাদ, ধর্মনিরপেক্ষতা, সমাজতন্ত্র এবং গণতন্ত্র"
+                "ben": "জাতীয়তাবাদ, ধর্মনিরপেক্ষতা, সমাজতন্ত্র এবং গণতন্ত্র"
             }
         },
         "currencies": {
@@ -1021,7 +1146,13 @@
             "Asia/Dhaka",
             "Asia/Dacca"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["ben"],
+            "widelySpoken": [],
+            "localCommunities": ["ctg", "syl", "rhg", "ccp", "trp", "bpy", "kfr", "lus", "mro", "sae", "byn", "khk"],
+            "signs": ["bds"],
+            "dialects": []
+        },
         "localesIcu": [
             "bn",
             "bn-BD"
@@ -1034,9 +1165,9 @@
     {
         "LABEL": "Belgium",
         "officialName": {
-            "nl": "Koninkrijk België",
-            "fr": "Royaume de Belgique",
-            "de": "Königreich Belgien"
+            "nld": "Koninkrijk België",
+            "fra": "Royaume de Belgique",
+            "deu": "Königreich Belgien"
         },
         "alpha2": "BE",
         "alpha3": "BEL",
@@ -1047,9 +1178,9 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "nl": "Eendracht maakt macht",
-                "fr": "L'union fait la force",
-                "de": "Einigkeit macht stark"
+                "nld": "Eendracht maakt macht",
+                "fra": "L'union fait la force",
+                "deu": "Einigkeit macht stark"
             }
         },
         "currencies": {
@@ -1069,7 +1200,13 @@
         "timeZones": [
             "Europe/Brussels"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["nld", "fra", "deu"],
+            "widelySpoken": [],
+            "localCommunities": ["wae", "vls", "wln", "lim", "yid"],
+            "signs": ["vgt", "sfb", "slf"],
+            "dialects": []
+        },
         "localesIcu": [
             "de",
             "de-BE",
@@ -1088,7 +1225,7 @@
     {
         "LABEL": "Burkina Faso",
         "officialName": {
-            "fr": "Burkina Faso"
+            "fra": "Burkina Faso"
         },
         "alpha2": "BF",
         "alpha3": "BFA",
@@ -1099,7 +1236,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "fr": "Unité–Progrès–Justice"
+                "fra": "Unité–Progrès–Justice"
             }
         },
         "currencies": {
@@ -1119,7 +1256,13 @@
         "timeZones": [
             "Africa/Ouagadougou"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["fra"],
+            "widelySpoken": ["mos"],
+            "localCommunities": ["dyu", "ful", "bbo", "bba", "smp", "lob", "dag", "daf", "san", "mnk", "bwq", "noc"],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "fr",
             "fr-BF"
@@ -1172,7 +1315,13 @@
         "timeZones": [
             "Europe/Sofia"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["bul"],
+            "widelySpoken": [],
+            "localCommunities": ["tur", "rom", "rmy", "rup", "mkd", "srm", "buj", "trk", "aln", "ell"],
+            "signs": ["bqn"],
+            "dialects": []
+        },
         "localesIcu": [
             "bg",
             "bg-BG"
@@ -1185,7 +1334,7 @@
     {
         "LABEL": "Bahrain",
         "officialName": {
-            "ar": "مملكة البحرين"
+            "arb": "مملكة البحرين"
         },
         "alpha2": "BH",
         "alpha3": "BHR",
@@ -1194,7 +1343,7 @@
             "emoji": "🇧🇭"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "BHD"
@@ -1221,7 +1370,13 @@
         "timeZones": [
             "Asia/Bahrain"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["arb"],
+            "widelySpoken": ["eng"],
+            "localCommunities": ["pes", "mal", "hin", "tam", "fil", "urd", "guj", "nep", "tel", "bal"],
+            "signs": ["ads"],
+            "dialects": []
+        },
         "localesIcu": [
             "ar",
             "ar-BH"
@@ -1234,8 +1389,9 @@
     {
         "LABEL": "Burundi",
         "officialName": {
-            "rn": "Repubulika y’Uburunde",
-            "fr": "République du Burundi"
+            "run": "Repubulika y’Uburunde",
+            "fra": "République du Burundi",
+            "eng": "Republic of Burundi"
         },
         "alpha2": "BI",
         "alpha3": "BDI",
@@ -1246,7 +1402,10 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "fr": "Unité, Travail, Progrès"
+                "run": "Ubumwe, Ibikorwa, Amajambere",
+                "swh": "Muungano, Kazi, Maendeleo",
+                "fra": "Unité, Travail, Progrès",
+                "eng": "Union, Work, Progress"
             }
         },
         "currencies": {
@@ -1266,7 +1425,13 @@
         "timeZones": [
             "Africa/Bujumbura"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["run", "fra", "eng"],
+            "widelySpoken": [],
+            "localCommunities": ["swb", "kin", "gez", "swh"],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "en",
             "en-BI",
@@ -1281,7 +1446,7 @@
     {
         "LABEL": "Benin",
         "officialName": {
-            "fr": "République du Bénin"
+            "fra": "République du Bénin"
         },
         "alpha2": "BJ",
         "alpha3": "BEN",
@@ -1292,7 +1457,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "fr": "Fraternité, Justice, Travail"
+                "fra": "Fraternité, Justice, Travail"
             }
         },
         "currencies": {
@@ -1312,7 +1477,13 @@
         "timeZones": [
             "Africa/Porto-Novo"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["fra"],
+            "widelySpoken": ["fon", "yor"],
+            "localCommunities": ["guw", "bba", "gun", "nqo", "ido", "xmw", "xog", "bqy", "wci"],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "fr",
             "fr-BJ",
@@ -1327,7 +1498,7 @@
     {
         "LABEL": "Saint Barthélemy",
         "officialName": {
-            "fr": "Collectivité d'outre-mer de Saint-Barthélemy"
+            "fra": "Collectivité d'outre-mer de Saint-Barthélemy"
         },
         "alpha2": "BL",
         "alpha3": "BLM",
@@ -1338,7 +1509,7 @@
         "dependency": "FR",
         "mottos": {
             "official": {
-                "tnq": "Ouanalao"
+                "und": "Ouanalao"
             }
         },
         "currencies": {
@@ -1358,7 +1529,13 @@
         "timeZones": [
             "America/St_Barthelemy"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["fra"],
+            "widelySpoken": ["eng"],
+            "localCommunities": ["gcf"],
+            "signs": ["fsl"],
+            "dialects": []
+        },
         "localesIcu": [
             "fr",
             "fr-BL"
@@ -1371,7 +1548,7 @@
     {
         "LABEL": "Bermuda",
         "officialName": {
-            "en": "Bermuda"
+            "eng": "Bermuda"
         },
         "alpha2": "BM",
         "alpha3": "BMU",
@@ -1382,7 +1559,7 @@
         "dependency": "GB",
         "mottos": {
             "official": {
-                "la": "Quo Fata Ferunt"
+                "lat": "Quo Fata Ferunt"
             }
         },
         "currencies": {
@@ -1402,7 +1579,13 @@
         "timeZones": [
             "Atlantic/Bermuda"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": ["eng"],
+            "localCommunities": ["por"],
+            "signs": ["ase"],
+            "dialects": []
+        },
         "localesIcu": [
             "en",
             "en-BM"
@@ -1415,8 +1598,8 @@
     {
         "LABEL": "Brunei Darussalam",
         "officialName": {
-            "ms": "Negara Brunei Darussalam",
-            "en": "Brunei Darussalam"
+            "msa": "Negara Brunei Darussalam",
+            "eng": "Brunei Darussalam"
         },
         "alpha2": "BN",
         "alpha3": "BRN",
@@ -1427,7 +1610,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "ms": "Sentiasa membuat kebajikan dengan petunjuk Allah"
+                "msa": "Sentiasa membuat kebajikan dengan petunjuk Allah"
             }
         },
         "currencies": {
@@ -1447,7 +1630,13 @@
         "timeZones": [
             "Asia/Brunei"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["msa"],
+            "widelySpoken": ["eng"],
+            "localCommunities": ["bjn", "dtp", "tmw", "iba", "ceb", "tmc", "zlm", "mdy", "yue"],
+            "signs": [],
+            "dialects": ["kxd"]
+        },
         "localesIcu": [
             "ms",
             "ms-BN"
@@ -1463,10 +1652,10 @@
     {
         "LABEL": "Bolivia",
         "officialName": {
-            "es": "Estado Plurinacional de Bolivia",
-            "gn": "Tetã Hetãvoregua Mborivia",
-            "ay": "Wuliwya Suyu",
-            "qu": "Puliwya Mamallaqta"
+            "spa": "Estado Plurinacional de Bolivia",
+            "grn": "Tetã Hetãvoregua Volívia",
+            "aym": "Wuliwya Suyu",
+            "que": "Bulibiya Mamallaqta"
         },
         "alpha2": "BO",
         "alpha3": "BOL",
@@ -1477,7 +1666,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "es": "La unión es la fuerza"
+                "spa": "La unión es la fuerza"
             }
         },
         "currencies": {
@@ -1497,7 +1686,13 @@
         "timeZones": [
             "America/La_Paz"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["spa", "aym", "quh", "gnr", "bba", "cni", "itc", "mhm", "mbb", "qvo", "qvw", "qvz", "qwh", "qxa", "qxr", "qxh", "tna", "trp", "yuz", "guo", "cab", "mzo", "kna", "gob", "qvc", "tnc", "puq", "tns", "caj", "cas", "cco", "cya", "gce", "nnk", "bvl"],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": ["bvl"],
+            "dialects": []
+        },
         "localesIcu": [
             "es",
             "es-BO"
@@ -1506,19 +1701,21 @@
             "geoNamesOrg": 3923057
         },
         "NOTES": [
-            "MANY OFFICIAL LANGUAGES - Bolivian Constitution Archived on October 24, 2017, in the Internet Archive.",
-            "Article 5 of the Constitution recognizes Spanish as well as all the languages of the native nations ",
-            "and peoples as official languages. The same article lists the following languages: Aymara, Araona,",
-            "Baure, Bésiro, Canichana, Cavineño, Cayubaba, Chácobo, Chimán, Ese Ejja, Guarani, Guarasu'we, Guarayu,",
-            "Itonama, Leco, Machajuyai-Kallawaya, Machineri, Maropa, Mojeño-Trinitario, Mojeño-Ignaciano, Moré,",
-            "Mosetén, Movima, Pacawara, Puquina, Quechua, Sirionó, Tacana, Tapiete, Toromona, Uru-Chipaya, Weenhayek,",
-            "Yaminawa, Yuki, Yuracaré, and Zamuco."
+            "MANY OFFICIAL LANGUAGES – The 2009 Constitution of the Plurinational State of Bolivia,",
+            "archived on October 24, 2017 in the Internet Archive, establishes multiple official languages.",
+            "Article 5 recognizes Spanish, as well as all languages of the indigenous nations and peoples, as official.",
+            "The Constitution explicitly lists: Aymara, Araona, Baure, Bésiro, Canichana, Cavineño, Cayubaba, Chácobo,",
+            "Chimán, Ese Ejja, Guarani, Guarasu'we, Guarayu, Itonama, Leco, Machajuyai-Kallawaya, Machineri, Maropa,",
+            "Mojeño-Trinitario, Mojeño-Ignaciano, Moré, Mosetén, Movima, Pacawara, Puquina, Quechua, Sirionó, Tacana,",
+            "Tapiete, Toromona, Uru-Chipaya, Weenhayek, Yaminawa, Yuki, Yuracaré, and Zamuco.",
+            "https://www.constituteproject.org/constitution/Bolivia_2009.pdf?lang=en",
+            "https://web.archive.org/web/20171024024514/http://www.harmonywithnatureun.org/content/documents/152Bolivia%20Constitution.pdf"
         ]
     },
     {
         "LABEL": "Bonaire, Sint Eustatius and Saba",
         "officialName": {
-            "nl": "Caribisch Nederland"
+            "nld": "Caribisch Nederland"
         },
         "alpha2": "BQ",
         "alpha3": "BES",
@@ -1529,10 +1726,10 @@
         "dependency": "NL",
         "mottos": {
             "official": {
-                "nl": "Ik zal handhaven"
+                "nld": "Ik zal handhaven"
             },
             "royal": {
-                "fr": "Je maintiendrai"
+                "fra": "Je maintiendrai"
             }
         },
         "currencies": {
@@ -1543,7 +1740,10 @@
         },
         "dialCodes": {
             "main": [
-                "+599"
+                "+5997",
+                "+5998",
+                "+5993",
+                "+5994"
             ],
             "exceptions": []
         },
@@ -1552,7 +1752,13 @@
         "timeZones": [
             "America/Kralendijk"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["nld"],
+            "widelySpoken": ["pap", "eng"],
+            "localCommunities": [],
+            "signs": ["ase"],
+            "dialects": []
+        },
         "localesIcu": [
             "nl",
             "nl-BQ"
@@ -1565,7 +1771,7 @@
     {
         "LABEL": "Brazil",
         "officialName": {
-            "pt": "República Federativa do Brasil"
+            "por": "República Federativa do Brasil"
         },
         "alpha2": "BR",
         "alpha3": "BRA",
@@ -1576,7 +1782,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "pt": "Ordem e Progresso"
+                "por": "Ordem e Progresso"
             }
         },
         "currencies": {
@@ -1616,7 +1822,13 @@
             "Brazil/East",
             "Brazil/West"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["por"],
+            "widelySpoken": ["pov", "yrl"],
+            "localCommunities": ["tup", "kau", "gub", "xav", "tup", "myn", "mvp", "mzc", "tub", "ter", "kek", "apu", "kam", "kqn", "mpd", "xav", "bdn", "knt", "kpy"],
+            "signs": ["bzs"],
+            "dialects": []
+        },
         "localesIcu": [
             "es",
             "es-BR",
@@ -1633,7 +1845,7 @@
     {
         "LABEL": "Bahamas",
         "officialName": {
-            "en": "Commonwealth of the Bahamas"
+            "eng": "Commonwealth of the Bahamas"
         },
         "alpha2": "BS",
         "alpha3": "BHS",
@@ -1644,7 +1856,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "en": "Forward, Upward, Onward, Together"
+                "eng": "Forward, Upward, Onward, Together"
             }
         },
         "currencies": {
@@ -1664,7 +1876,13 @@
         "timeZones": [
             "America/Nassau"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["eng"],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": ["ase"],
+            "dialects": []
+        },
         "localesIcu": [
             "en",
             "en-BS"
@@ -1677,7 +1895,7 @@
     {
         "LABEL": "Bhutan",
         "officialName": {
-            "dz": "འབྲུག་ཡུལ"
+            "dzo": "འབྲུག་ཡུལ"
         },
         "alpha2": "BT",
         "alpha3": "BTN",
@@ -1686,7 +1904,7 @@
             "emoji": "🇧🇹"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "BTN"
@@ -1705,7 +1923,13 @@
             "Asia/Thimphu",
             "Asia/Thimbu"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["dzo"],
+            "widelySpoken": ["nep", "eng"],
+            "localCommunities": ["lep", "tsj", "khg", "luk", "kjl", "czt", "sty", "sgy", "kao"],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "dz",
             "dz-BT"
@@ -1718,7 +1942,7 @@
     {
         "LABEL": "Bouvet Island",
         "officialName": {
-            "no": "Bouvetøya"
+            "nor": "Bouvetøya"
         },
         "alpha2": "BV",
         "alpha3": "BVT",
@@ -1727,7 +1951,7 @@
             "emoji": "🇧🇻"
         },
         "dependency": "NO",
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "NOK"
@@ -1743,7 +1967,13 @@
         "timeZones": [
             "Etc/UTC"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "nb",
             "nb-NO",
@@ -1762,8 +1992,8 @@
     {
         "LABEL": "Botswana",
         "officialName": {
-            "tn": "Lefatshe la Botswana",
-            "en": "Republic of Botswana"
+            "tsn": "Lefatshe la Botswana",
+            "eng": "Republic of Botswana"
         },
         "alpha2": "BW",
         "alpha3": "BWA",
@@ -1774,7 +2004,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "tn": "Pula"
+                "tsn": "Pula"
             }
         },
         "currencies": {
@@ -1794,7 +2024,13 @@
         "timeZones": [
             "Africa/Gaborone"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["eng", "tsn"],
+            "widelySpoken": [],
+            "localCommunities": ["kal", "nmn", "her", "mhw", "xuu", "guc", "huc", "seh", "khi", "nmg", "dik", "naq"],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "en",
             "en-BW"
@@ -1807,8 +2043,8 @@
     {
         "LABEL": "Belarus",
         "officialName": {
-            "be": "Рэспубліка Беларусь",
-            "ru": "Республика Беларусь"
+            "bel": "Рэспубліка Беларусь",
+            "rus": "Республика Беларусь"
         },
         "alpha2": "BY",
         "alpha3": "BLR",
@@ -1817,7 +2053,7 @@
             "emoji": "🇧🇾"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "BYN"
@@ -1844,7 +2080,13 @@
         "timeZones": [
             "Europe/Minsk"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["bel", "rus"],
+            "widelySpoken": [],
+            "localCommunities": ["plt", "pol", "ukr", "lit", "yid", "rmy", "tat", "ces", "lav"],
+            "signs": ["rsl"],
+            "dialects": []
+        },
         "localesIcu": [
             "be",
             "be-BY",
@@ -1859,7 +2101,7 @@
     {
         "LABEL": "Belize",
         "officialName": {
-            "en": "Belize"
+            "eng": "Belize"
         },
         "alpha2": "BZ",
         "alpha3": "BLZ",
@@ -1870,7 +2112,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "la": "Sub umbra floreo"
+                "lat": "Sub umbra floreo"
             }
         },
         "currencies": {
@@ -1890,7 +2132,13 @@
         "timeZones": [
             "America/Belize"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["eng"],
+            "widelySpoken": ["spn", "bzd", "mop", "yua"],
+            "localCommunities": ["mnf", "inb", "pln", "gym", "yua", "tzj"],
+            "signs": ["bzs"],
+            "dialects": []
+        },
         "localesIcu": [
             "en",
             "en-BZ",
@@ -1905,8 +2153,8 @@
     {
         "LABEL": "Canada",
         "officialName": {
-            "fr": "Canada",
-            "en": "Canada"
+            "fra": "Canada",
+            "eng": "Canada"
         },
         "alpha2": "CA",
         "alpha3": "CAN",
@@ -1917,7 +2165,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "la": "A mari usque ad mare"
+                "lat": "A mari usque ad mare"
             }
         },
         "currencies": {
@@ -1974,7 +2222,13 @@
             "Canada/Saskatchewan",
             "Canada/Yukon"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["eng", "fra"],
+            "widelySpoken": ["ike", "moh", "oji", "crj"],
+            "localCommunities": ["ikt", "bev", "chp", "cwd", "den", "dgr", "fuf", "gul", "hur", "kut", "myn", "nnh", "nsr", "ood", "sal", "sca", "srs", "sqt", "taa", "tce", "tht", "tli", "tnl", "wuu"],
+            "signs": ["asl", "lsq"],
+            "dialects": []
+        },
         "localesIcu": [
             "en",
             "en-CA",
@@ -1989,7 +2243,7 @@
     {
         "LABEL": "Cocos (Keeling) Islands",
         "officialName": {
-            "en": "Territory of Cocos (Keeling) Islands"
+            "eng": "Territory of Cocos (Keeling) Islands"
         },
         "alpha2": "CC",
         "alpha3": "CCK",
@@ -2000,7 +2254,7 @@
         "dependency": "AU",
         "mottos": {
             "official": {
-                "ms": "Maju Pulu Kita"
+                "msa": "Maju Pulu Kita"
             }
         },
         "currencies": {
@@ -2020,7 +2274,13 @@
         "timeZones": [
             "Indian/Cocos"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["eng"],
+            "widelySpoken": ["zlm"],
+            "localCommunities": [],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "en",
             "en-CC"
@@ -2033,7 +2293,7 @@
     {
         "LABEL": "Congo (Democratic Republic of the)",
         "officialName": {
-            "fr": "République démocratique du Congo"
+            "fra": "République démocratique du Congo"
         },
         "alpha2": "CD",
         "alpha3": "COD",
@@ -2044,7 +2304,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "fr": "Justice – Paix – Travail"
+                "fra": "Justice – Paix – Travail"
             }
         },
         "currencies": {
@@ -2065,7 +2325,13 @@
             "Africa/Kinshasa",
             "Africa/Lubumbashi"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["fra"],
+            "widelySpoken": ["lin", "kon", "lua", "swa"],
+            "localCommunities": ["bnt", "umb", "nyk", "tkw", "cng", "yaf", "ndo", "bku", "luo", "ngc", "bmb", "blz"],
+            "signs": ["fcs"],
+            "dialects": []
+        },
         "localesIcu": [
             "fr",
             "fr-CD",
@@ -2082,8 +2348,8 @@
     {
         "LABEL": "Central African Republic",
         "officialName": {
-            "fr": "République centrafricaine",
-            "sg": "Ködörösêse tî Bêafrîka"
+            "fra": "République centrafricaine",
+            "sgb": "Ködörösêse tî Bêafrîka"
         },
         "alpha2": "CF",
         "alpha3": "CAF",
@@ -2094,7 +2360,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "fr": "Unité, Dignité, Travail"
+                "fra": "Unité, Dignité, Travail"
             }
         },
         "currencies": {
@@ -2114,7 +2380,13 @@
         "timeZones": [
             "Africa/Bangui"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["fra", "sgb"],
+            "widelySpoken": [],
+            "localCommunities": ["gya", "mbb", "mnh", "bxp", "bkg", "nzc", "lnl", "bjo", "kwy", "bfl"],
+            "signs": ["csf"],
+            "dialects": []
+        },
         "localesIcu": [
             "fr",
             "fr-CF",
@@ -2129,7 +2401,7 @@
     {
         "LABEL": "Congo",
         "officialName": {
-            "fr": "République du Congo"
+            "fra": "République du Congo"
         },
         "alpha2": "CG",
         "alpha3": "COG",
@@ -2160,7 +2432,13 @@
         "timeZones": [
             "Africa/Brazzaville"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["fra"],
+            "widelySpoken": ["lin", "kon"],
+            "localCommunities": ["ktu", "bqk", "mkw", "nla", "tek", "tdt", "bzv", "mho", "ymg"],
+            "signs": ["fcs"],
+            "dialects": []
+        },
         "localesIcu": [
             "fr",
             "fr-CG",
@@ -2175,11 +2453,11 @@
     {
         "LABEL": "Switzerland",
         "officialName": {
-            "de": "Schweizerische Eidgenossenschaft",
-            "fr": "Confédération suisse",
-            "it": "Confederazione Svizzera",
-            "rm": "Confederaziun svizra",
-            "la": "Confoederatio helvetica"
+            "deu": "Schweizerische Eidgenossenschaft",
+            "fra": "Confédération suisse",
+            "ita": "Confederazione Svizzera",
+            "roh": "Confederaziun svizra",
+            "lat": "Confoederatio helvetica"
         },
         "alpha2": "CH",
         "alpha3": "CHE",
@@ -2190,11 +2468,11 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "la": "Unus pro omnibus, omnes pro uno",
-                "de": "Einer für alle, alle für einen",
-                "fr": "Un pour tous, tous pour un",
-                "it": "Uno per tutti, tutti per uno",
-                "rm": "In per tuts, tuts per in"
+                "lat": "Unus pro omnibus, omnes pro uno",
+                "deu": "Einer für alle, alle für einen",
+                "fra": "Un pour tous, tous pour un",
+                "ita": "Uno per tutti, tutti per uno",
+                "roh": "In per tuts, tuts per in"
             }
         },
         "currencies": {
@@ -2214,7 +2492,13 @@
         "timeZones": [
             "Europe/Zurich"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["deu", "fra", "ita", "roh"],
+            "widelySpoken": [],
+            "localCommunities": ["gsw", "lld", "slv", "por", "srp", "alb", "tur"],
+            "signs": ["sgg"],
+            "dialects": []
+        },
         "localesIcu": [
             "de",
             "de-CH",
@@ -2237,7 +2521,7 @@
     {
         "LABEL": "Côte d'Ivoire",
         "officialName": {
-            "fr": "République de Côte d'Ivoire"
+            "fra": "République de Côte d'Ivoire"
         },
         "alpha2": "CI",
         "alpha3": "CIV",
@@ -2248,7 +2532,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "fr": "Union, Discipline, Travail"
+                "fra": "Union, Discipline, Travail"
             }
         },
         "currencies": {
@@ -2268,7 +2552,13 @@
         "timeZones": [
             "Africa/Abidjan"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["fra"],
+            "widelySpoken": ["dyu", "nqo", "aka", "baq", "kro", "sju"],
+            "localCommunities": ["sef", "kfo", "bci", "biv", "mxx", "bqa", "mkw", "acl", "djg", "bfb", "agv", "kpe", "loo"],
+            "signs": ["fcs"],
+            "dialects": []
+        },
         "localesIcu": [
             "fr",
             "fr-CI"
@@ -2281,8 +2571,8 @@
     {
         "LABEL": "Cook Islands",
         "officialName": {
-            "mi": "Kūki 'Āirani",
-            "en": "Cook Islands"
+            "rar": "Kūki ‘Airani",
+            "tzh": "Kūki Airani"
         },
         "alpha2": "CK",
         "alpha3": "COK",
@@ -2291,7 +2581,7 @@
             "emoji": "🇨🇰"
         },
         "dependency": "NZ",
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "NZD"
@@ -2309,7 +2599,13 @@
         "timeZones": [
             "Pacific/Rarotonga"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["eng", "rar"],
+            "widelySpoken": [],
+            "localCommunities": ["pkp", "mri", "pau", "tah"],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "en",
             "en-CK"
@@ -2322,7 +2618,7 @@
     {
         "LABEL": "Chile",
         "officialName": {
-            "es": "República de Chile"
+            "spa": "República de Chile"
         },
         "alpha2": "CL",
         "alpha3": "CHL",
@@ -2333,7 +2629,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "es": "Por la razón o la fuerza"
+                "spa": "Por la razón o la fuerza"
             }
         },
         "currencies": {
@@ -2357,7 +2653,13 @@
             "Chile/Continental",
             "Chile/EasterIsland"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["spa"],
+            "widelySpoken": [],
+            "localCommunities": ["arn", "cba", "aym", "que", "rap", "mzh"],
+            "signs": ["csg"],
+            "dialects": []
+        },
         "localesIcu": [
             "es",
             "es-CL"
@@ -2370,8 +2672,8 @@
     {
         "LABEL": "Cameroon",
         "officialName": {
-            "fr": "République du Cameroun",
-            "en": "Republic of Cameroon"
+            "fra": "République du Cameroun",
+            "eng": "Republic of Cameroon"
         },
         "alpha2": "CM",
         "alpha3": "CMR",
@@ -2382,8 +2684,8 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "fr": "Paix, Travail, Patrie",
-                "en": "Pace, Lavoro, Patria"
+                "fra": "Paix, Travail, Patrie",
+                "eng": "Pace, Lavoro, Patria"
             }
         },
         "currencies": {
@@ -2403,7 +2705,13 @@
         "timeZones": [
             "Africa/Douala"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["eng", "fra"],
+            "widelySpoken": ["ffm", "nmg", "bkm", "bcu"],
+            "localCommunities": ["bas", "bbj", "dua", "mva", "yam", "bum", "ken", "lns", "fmp", "bet", "mcp", "azo", "bss"],
+            "signs": ["csn"],
+            "dialects": []
+        },
         "localesIcu": [
             "en",
             "en-CM",
@@ -2420,7 +2728,7 @@
     {
         "LABEL": "China",
         "officialName": {
-            "zh": "中华人民共和国"
+            "cmn": "中华人民共和国"
         },
         "alpha2": "CN",
         "alpha3": "CHN",
@@ -2429,7 +2737,7 @@
             "emoji": "🇨🇳"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "CNY"
@@ -2466,13 +2774,15 @@
         ],
         "timeZones": [
             "Asia/Shanghai",
-            "Asia/Urumqi",
-            "Asia/Chongqing",
-            "Asia/Chungking",
-            "Asia/Harbin",
-            "Asia/Kashgar"
+            "Asia/Urumqi"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["cmn"],
+            "widelySpoken": ["yue", "wuu", "hak", "gan", "cdo", "hsn", "nan"],
+            "localCommunities": ["uig", "tib", "bod", "kas", "zha", "iii", "khb", "khk"],
+            "signs": ["csl"],
+            "dialects": []
+        },
         "localesIcu": [
             "bo",
             "bo-CN",
@@ -2489,7 +2799,7 @@
     {
         "LABEL": "Colombia",
         "officialName": {
-            "es": "República de Colombia"
+            "spa": "República de Colombia"
         },
         "alpha2": "CO",
         "alpha3": "COL",
@@ -2500,7 +2810,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "es": "Libertad y Orden"
+                "spa": "Libertad y Orden"
             }
         },
         "currencies": {
@@ -2520,7 +2830,13 @@
         "timeZones": [
             "America/Bogota"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["spa"],
+            "widelySpoken": [],
+            "localCommunities": ["way", "pbb", "cjp", "guc", "iku", "kbh", "tnc", "njd", "tnd", "cof", "bmr"],
+            "signs": ["csn"],
+            "dialects": []
+        },
         "localesIcu": [
             "es",
             "es-CO"
@@ -2533,7 +2849,7 @@
     {
         "LABEL": "Costa Rica",
         "officialName": {
-            "es": "República de Costa Rica"
+            "spa": "República de Costa Rica"
         },
         "alpha2": "CR",
         "alpha3": "CRI",
@@ -2544,7 +2860,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "es": "¡Vivan siempre el trabajo y la paz!"
+                "spa": "¡Vivan siempre el trabajo y la paz!"
             }
         },
         "currencies": {
@@ -2564,7 +2880,13 @@
         "timeZones": [
             "America/Costa_Rica"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["spa"],
+            "widelySpoken": [],
+            "localCommunities": ["bzd", "cjp", "bkc", "gnr", "emp"],
+            "signs": ["csr"],
+            "dialects": []
+        },
         "localesIcu": [
             "es",
             "es-CR"
@@ -2577,7 +2899,7 @@
     {
         "LABEL": "Cuba",
         "officialName": {
-            "es": "República de Cuba"
+            "spa": "República de Cuba"
         },
         "alpha2": "CU",
         "alpha3": "CUB",
@@ -2588,7 +2910,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "es": "¡Patria o Muerte, Venceremos!"
+                "spa": "¡Patria o Muerte, Venceremos!"
             }
         },
         "currencies": {
@@ -2608,7 +2930,13 @@
         "timeZones": [
             "America/Havana"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["spa"],
+            "widelySpoken": [],
+            "localCommunities": ["hat", "yua"],
+            "signs": ["csl"],
+            "dialects": []
+        },
         "localesIcu": [
             "es",
             "es-CU"
@@ -2621,7 +2949,7 @@
     {
         "LABEL": "Cabo Verde",
         "officialName": {
-            "pt": "República de Cabo Verde"
+            "por": "República de Cabo Verde"
         },
         "alpha2": "CV",
         "alpha3": "CPV",
@@ -2632,7 +2960,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "pt": "Unidade, Trabalho, Progresso"
+                "por": "Unidade, Trabalho, Progresso"
             }
         },
         "currencies": {
@@ -2652,7 +2980,13 @@
         "timeZones": [
             "Atlantic/Cape_Verde"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["por"],
+            "widelySpoken": ["kea"],
+            "localCommunities": [],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "pt",
             "pt-CV"
@@ -2666,7 +3000,7 @@
         "LABEL": "Curaçao",
         "officialName": {
             "pap": "Pais Kòrsou",
-            "nl": "Paese di Curaçao"
+            "nld": "Land Curaçao"
         },
         "alpha2": "CW",
         "alpha3": "CUW",
@@ -2677,7 +3011,7 @@
         "dependency": "NL",
         "mottos": {
             "royal": {
-                "fr": "Je maintiendrai"
+                "fra": "Je maintiendrai"
             }
         },
         "currencies": {
@@ -2697,7 +3031,13 @@
         "timeZones": [
             "America/Curacao"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["nld", "pap", "eng"],
+            "widelySpoken": [],
+            "localCommunities": ["spa"],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "nl",
             "nl-CW"
@@ -2710,7 +3050,7 @@
     {
         "LABEL": "Christmas Island",
         "officialName": {
-            "en": "Territory of Christmas Island"
+            "eng": "Territory of Christmas Island"
         },
         "alpha2": "CX",
         "alpha3": "CXR",
@@ -2719,7 +3059,7 @@
             "emoji": "🇨🇽"
         },
         "dependency": "AU",
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "AUD"
@@ -2737,7 +3077,13 @@
         "timeZones": [
             "Indian/Christmas"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["eng"],
+            "widelySpoken": ["cmn", "msa"],
+            "localCommunities": [],
+            "signs": ["aus"],
+            "dialects": []
+        },
         "localesIcu": [
             "en",
             "en-CX"
@@ -2750,8 +3096,8 @@
     {
         "LABEL": "Cyprus",
         "officialName": {
-            "el": "Κυπριακή Δημοκρατία",
-            "tr": "Kıbrıs Cumhuriyeti"
+            "ell": "Κυπριακή Δημοκρατία",
+            "tur": "Kıbrıs Cumhuriyeti"
         },
         "alpha2": "CY",
         "alpha3": "CYP",
@@ -2760,7 +3106,7 @@
             "emoji": "🇨🇾"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "EUR"
@@ -2780,7 +3126,13 @@
             "Asia/Nicosia",
             "Europe/Nicosia"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["ell", "tur"],
+            "widelySpoken": ["eng"],
+            "localCommunities": ["hyw", "fra", "arz", "cpg", "syc", "ita"],
+            "signs": ["csg"],
+            "dialects": []
+        },
         "localesIcu": [
             "el",
             "el-CY",
@@ -2797,7 +3149,7 @@
     {
         "LABEL": "Czechia",
         "officialName": {
-            "cs": "Česká republika"
+            "ces": "Česká republika"
         },
         "alpha2": "CZ",
         "alpha3": "CZE",
@@ -2808,7 +3160,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "cs": "Pravda vítězí"
+                "ces": "Pravda vítězí"
             }
         },
         "currencies": {
@@ -2828,7 +3180,13 @@
         "timeZones": [
             "Europe/Prague"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["ces"],
+            "widelySpoken": ["slk", "deu", "eng"],
+            "localCommunities": ["rom", "pol", "rus", "ukr", "vie"],
+            "signs": ["cse"],
+            "dialects": []
+        },
         "localesIcu": [
             "cs",
             "cs-CZ"
@@ -2850,7 +3208,7 @@
             "emoji": "🇩🇪"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "EUR"
@@ -2869,7 +3227,13 @@
             "Europe/Berlin",
             "Europe/Busingen"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["deu"],
+            "widelySpoken": ["eng", "tur"],
+            "localCommunities": ["dan", "frr", "nds", "gsw", "rom", "pol", "rus", "ukr", "vie", "ksh"],
+            "signs": ["gsg"],
+            "dialects": []
+        },
         "localesIcu": [
             "de",
             "de-DE",
@@ -2890,8 +3254,8 @@
     {
         "LABEL": "Djibouti",
         "officialName": {
-            "ar": "جمهورية جيبوتي",
-            "fr": "République de Djibouti"
+            "arb": "جمهورية جيبوتي",
+            "fra": "République de Djibouti"
         },
         "alpha2": "DJ",
         "alpha3": "DJI",
@@ -2902,8 +3266,8 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "ar": "اتحاد، مساواة، سلام",
-                "fr": "Unité, Égalité, Paix"
+                "arb": "اتحاد، مساواة، سلام",
+                "fra": "Unité, Égalité, Paix"
             }
         },
         "currencies": {
@@ -2923,7 +3287,13 @@
         "timeZones": [
             "Africa/Djibouti"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["arb", "fra"],
+            "widelySpoken": ["som", "aar"],
+            "localCommunities": [],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "ar",
             "ar-DJ",
@@ -2938,7 +3308,7 @@
     {
         "LABEL": "Denmark",
         "officialName": {
-            "da": "Kongeriget Danmark"
+            "dan": "Kongeriget Danmark"
         },
         "alpha2": "DK",
         "alpha3": "DNK",
@@ -2949,7 +3319,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "da": "Guds hjælp, Folkets kærlighed, Danmarks styrke"
+                "dan": "Guds hjælp, Folkets kærlighed, Danmarks styrke"
             }
         },
         "currencies": {
@@ -2969,7 +3339,13 @@
         "timeZones": [
             "Europe/Copenhagen"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["dan"],
+            "widelySpoken": ["eng", "deu"],
+            "localCommunities": ["fao", "kal", "rom"],
+            "signs": ["dsl"],
+            "dialects": []
+        },
         "localesIcu": [
             "da",
             "da-DK",
@@ -2986,7 +3362,7 @@
     {
         "LABEL": "Dominica",
         "officialName": {
-            "en": "Commonwealth of Dominica"
+            "eng": "Commonwealth of Dominica"
         },
         "alpha2": "DM",
         "alpha3": "DMA",
@@ -2997,7 +3373,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "la": "Post Deum terra est"
+                "lat": "Post Deum terra est"
             }
         },
         "currencies": {
@@ -3017,7 +3393,13 @@
         "timeZones": [
             "America/Dominica"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["eng"],
+            "widelySpoken": ["acf"],
+            "localCommunities": [],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "en",
             "en-DM"
@@ -3030,7 +3412,7 @@
     {
         "LABEL": "Dominican Republic",
         "officialName": {
-            "es": "República Dominicana"
+            "spa": "República Dominicana"
         },
         "alpha2": "DO",
         "alpha3": "DOM",
@@ -3041,7 +3423,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "es": "Dios, Patria, Libertad"
+                "spa": "Dios, Patria, Libertad"
             }
         },
         "currencies": {
@@ -3061,7 +3443,13 @@
         "timeZones": [
             "America/Santo_Domingo"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["spa"],
+            "widelySpoken": [],
+            "localCommunities": ["hat", "eng", "fra"],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "es",
             "es-DO"
@@ -3074,8 +3462,8 @@
     {
         "LABEL": "Algeria",
         "officialName": {
-            "ar": "الجمهورية الجزائرية الديمقراطية الشعبية",
-            "ber": "ⴰⵎⴻⴳⴷⴰⵣⵉⵜ ⴷⴰⵎⵙⵉⵙⵖⵔⵉⴷⴰ ⵏ ⴰⵍⵊⵉⵔⵉⴰ"
+            "arb": "الجمهورية الجزائرية الديمقراطية الشعبية",
+            "kab": "ⴰⵎⴻⴳⴷⴰⵣⵉⵜ ⴷⴰⵎⵙⵉⵙⵖⵔⵉⴷⴰ ⵏ ⴰⵍⵊⵉⵔⵉⴰ"
         },
         "alpha2": "DZ",
         "alpha3": "DZA",
@@ -3086,8 +3474,8 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "ar": "بالشّعب، وللشّعب",
-                "ber": "ⵏ ⵙⵙⵉⵔⵉⵏ ⵏ ⴰⵔⵔⴻⵏ ⵏ ⵏⴻⵍⵍⴻⵉⵔⵏ"
+                "arb": "بالشّعب، وللشّعب",
+                "kab": "ⵏ ⵙⵙⵉⵔⵉⵏ ⵏ ⴰⵔⵔⴻⵏ ⵏ ⵏⴻⵍⵍⴻⵉⵔⵏ"
             }
         },
         "currencies": {
@@ -3107,7 +3495,13 @@
         "timeZones": [
             "Africa/Algiers"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["arb", "kab"],
+            "widelySpoken": ["fr"],
+            "localCommunities": ["shi", "taq", "tmh", "mzb"],
+            "signs": ["ads"],
+            "dialects": []
+        },
         "localesIcu": [
             "ar",
             "ar-DZ",
@@ -3117,12 +3511,16 @@
         "otherAppsIds": {
             "geoNamesOrg": 2589581
         },
-        "NOTES": []
+        "NOTES": [
+            "[languages] Tamazight is officially recognized as a national and official language.",
+            "It includes varieties such as Kabyle (kab), Mozabite (mzb), Tamasheq (tmh), and Tamahaq (taq), ",
+            "all part of the broader Berber (ber) language family."
+        ]
     },
     {
         "LABEL": "Ecuador",
         "officialName": {
-            "es": "República del Ecuador"
+            "spa": "República del Ecuador"
         },
         "alpha2": "EC",
         "alpha3": "ECU",
@@ -3133,7 +3531,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "la": "Pro Deo, Patria et Libertate"
+                "lat": "Pro Deo, Patria et Libertate"
             }
         },
         "currencies": {
@@ -3154,7 +3552,13 @@
             "America/Guayaquil",
             "Pacific/Galapagos"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["spa", "que"],
+            "widelySpoken": [],
+            "localCommunities": ["grn", "shp", "qug", "cbi", "jiv", "ach", "hch", "kwi", "cof", "wao", "auc", "trn"],
+            "signs": ["ecs"],
+            "dialects": []
+        },
         "localesIcu": [
             "es",
             "es-EC"
@@ -3167,7 +3571,7 @@
     {
         "LABEL": "Estonia",
         "officialName": {
-            "et": "Eesti Vabariik"
+            "est": "Eesti Vabariik"
         },
         "alpha2": "EE",
         "alpha3": "EST",
@@ -3176,7 +3580,7 @@
             "emoji": "🇪🇪"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "EUR"
@@ -3194,7 +3598,13 @@
         "timeZones": [
             "Europe/Tallinn"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["est"],
+            "widelySpoken": ["rus", "eng"],
+            "localCommunities": ["vro", "deu", "ukr", "fin", "rom"],
+            "signs": ["eso"],
+            "dialects": []
+        },
         "localesIcu": [
             "et",
             "et-EE"
@@ -3207,7 +3617,7 @@
     {
         "LABEL": "Egypt",
         "officialName": {
-            "ar": "جمهورية مصر العربية"
+            "arb": "جمهورية مصر العربية"
         },
         "alpha2": "EG",
         "alpha3": "EGY",
@@ -3247,7 +3657,13 @@
         "timeZones": [
             "Africa/Cairo"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["arb"],
+            "widelySpoken": ["arz", "enb"],
+            "localCommunities": ["cop", "nob", "bej", "grc", "arm"],
+            "signs": ["esl"],
+            "dialects": []
+        },
         "localesIcu": [
             "ar",
             "ar-EG"
@@ -3260,7 +3676,7 @@
     {
         "LABEL": "Western Sahara",
         "officialName": {
-            "ar": "الجمهورية العربية الصحراوية الديمقراطية"
+            "arb": "الجمهورية العربية الصحراوية الديمقراطية"
         },
         "alpha2": "EH",
         "alpha3": "ESH",
@@ -3271,7 +3687,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "ar": "حرية ديمقراطية وحدة"
+                "arb": "حرية ديمقراطية وحدة"
             }
         },
         "currencies": {
@@ -3291,7 +3707,13 @@
         "timeZones": [
             "Africa/El_Aaiun"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["arb", "spa"],
+            "widelySpoken": [],
+            "localCommunities": ["mey", "ber"],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "ar",
             "ar-EH"
@@ -3304,8 +3726,8 @@
     {
         "LABEL": "Eritrea",
         "officialName": {
-            "ar": "دولة إريتريا",
-            "ti": "ኤርትራ"
+            "ara": "دولة إريتريا",
+            "tir": "ኤርትራ"
         },
         "alpha2": "ER",
         "alpha3": "ERI",
@@ -3316,7 +3738,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "ar": "انتصار للجماهير"
+                "ara": "انتصار للجماهير"
             }
         },
         "currencies": {
@@ -3337,7 +3759,13 @@
             "Africa/Asmara",
             "Africa/Asmera"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": ["tir", "ara", "tig"],
+            "localCommunities": ["byn", "nrb", "ssy", "kun", "blu", "amh", "orm"],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "ar",
             "ar-ER",
@@ -3354,7 +3782,7 @@
     {
         "LABEL": "Spain",
         "officialName": {
-            "es": "Reino de España"
+            "spa": "Reino de España"
         },
         "alpha2": "ES",
         "alpha3": "ESP",
@@ -3365,7 +3793,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "la": "Plus ultra"
+                "lat": "Plus ultra"
             }
         },
         "currencies": {
@@ -3387,7 +3815,13 @@
             "Atlantic/Canary",
             "Europe/Madrid"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["spa"],
+            "widelySpoken": ["cat", "eus", "glg", "oci"],
+            "localCommunities": ["ast", "ext", "arn", "mzc", "ltg", "rml", "pov", "mlg", "fab"],
+            "signs": ["ssp"],
+            "dialects": []
+        },
         "localesIcu": [
             "ca",
             "ca-ES",
@@ -3404,7 +3838,7 @@
     {
         "LABEL": "Ethiopia",
         "officialName": {
-            "am": "የኢትዮጵያ ፌዴራላዊ ዴሞክራሲያዊ ሪፐብሊክ"
+            "amh": "የኢትዮጵያ ፌዴራላዊ ዴሞክራሲያዊ ሪፐብሊክ"
         },
         "alpha2": "ET",
         "alpha3": "ETH",
@@ -3415,7 +3849,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "am": "ኢትዮጵያ አንደኛ"
+                "amh": "ኢትዮጵያ አንደኛ"
             }
         },
         "currencies": {
@@ -3435,7 +3869,13 @@
         "timeZones": [
             "Africa/Addis_Ababa"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["amh"],
+            "widelySpoken": ["orm", "tir", "som", "sid", "tgn", "wal", "sgw"],
+            "localCommunities": ["gax", "bgn", "bench", "dwr", "gez", "mtc", "guz", "had", "amh", "afa"],
+            "signs": ["eth"],
+            "dialects": []
+        },
         "localesIcu": [
             "am",
             "am-ET",
@@ -3450,8 +3890,8 @@
     {
         "LABEL": "Finland",
         "officialName": {
-            "fi": "Suomen tasavalta",
-            "sv": "Republiken Finland"
+            "fin": "Suomen tasavalta",
+            "swe": "Republiken Finland"
         },
         "alpha2": "FI",
         "alpha3": "FIN",
@@ -3460,7 +3900,7 @@
             "emoji": "🇫🇮"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "EUR"
@@ -3478,7 +3918,13 @@
         "timeZones": [
             "Europe/Helsinki"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["fin", "swe", "fss"],
+            "widelySpoken": [],
+            "localCommunities": ["sme", "sms", "smn", "fit", "rom", "rus", "est"],
+            "signs": ["fse"],
+            "dialects": []
+        },
         "localesIcu": [
             "en",
             "en-FI",
@@ -3499,8 +3945,8 @@
     {
         "LABEL": "Fiji",
         "officialName": {
-            "en": "Republic of Fiji",
-            "fj": "Matanitu Tugalala o Viti",
+            "eng": "Republic of Fiji",
+            "fij": "Matanitu Tugalala o Viti",
             "hif": "रिपब्लिक ऑफ फीजी"
         },
         "alpha2": "FJ",
@@ -3512,7 +3958,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "fj": "Rerevaka na Kalou ka Doka na Tui"
+                "fij": "Rerevaka na Kalou ka Doka na Tui"
             }
         },
         "currencies": {
@@ -3532,7 +3978,13 @@
         "timeZones": [
             "Pacific/Fiji"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["eng", "fij", "hif"],
+            "widelySpoken": [],
+            "localCommunities": ["gil", "ton", "bau", "hif"],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "en",
             "en-FJ"
@@ -3545,7 +3997,7 @@
     {
         "LABEL": "Falkland Islands (Malvinas)",
         "officialName": {
-            "en": "Falkland Islands"
+            "eng": "Falkland Islands"
         },
         "alpha2": "FK",
         "alpha3": "FLK",
@@ -3556,7 +4008,7 @@
         "dependency": "GB",
         "mottos": {
             "official": {
-                "en": "Desire the Right"
+                "eng": "Desire the Right"
             }
         },
         "currencies": {
@@ -3576,7 +4028,13 @@
         "timeZones": [
             "Atlantic/Stanley"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["eng"],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "en",
             "en-FK"
@@ -3589,7 +4047,7 @@
     {
         "LABEL": "Micronesia (Federated States of)",
         "officialName": {
-            "en": "Federated States of Micronesia"
+            "eng": "Federated States of Micronesia"
         },
         "alpha2": "FM",
         "alpha3": "FSM",
@@ -3600,7 +4058,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "en": "Peace, Unity, Liberty"
+                "eng": "Peace, Unity, Liberty"
             }
         },
         "currencies": {
@@ -3625,7 +4083,13 @@
             "Pacific/Truk",
             "Pacific/Yap"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["eng"],
+            "widelySpoken": ["chk", "pon", "kos", "yap"],
+            "localCommunities": ["uli", "tox", "woe", "fud", "kpg", "mrl", "poh"],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "en",
             "en-FM"
@@ -3638,8 +4102,8 @@
     {
         "LABEL": "Faroe Islands",
         "officialName": {
-            "fo": "Føroyar",
-            "da": "Færøerne"
+            "fao": "Føroyar",
+            "dan": "Færøerne"
         },
         "alpha2": "FO",
         "alpha3": "FRO",
@@ -3648,7 +4112,7 @@
             "emoji": "🇫🇴"
         },
         "dependency": "DK",
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "DKK"
@@ -3667,7 +4131,13 @@
             "Atlantic/Faroe",
             "Atlantic/Faeroe"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["fao", "dan"],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "fo",
             "fo-FO"
@@ -3680,7 +4150,7 @@
     {
         "LABEL": "France",
         "officialName": {
-            "fr": "République française"
+            "fra": "République française"
         },
         "alpha2": "FR",
         "alpha3": "FRA",
@@ -3691,7 +4161,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "fr": "Liberté, Égalité, Fraternité"
+                "fra": "Liberté, Égalité, Fraternité"
             }
         },
         "currencies": {
@@ -3711,7 +4181,13 @@
         "timeZones": [
             "Europe/Paris"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["fra"],
+            "widelySpoken": ["oci", "bre", "cor", "gsw", "cat", "eus", "glg"],
+            "localCommunities": ["arp", "kmr", "por", "ita", "zho", "ara", "tam", "cmn", "tur", "kab", "ber", "son", "ful", "wol"],
+            "signs": ["fsl"],
+            "dialects": []
+        },
         "localesIcu": [
             "br",
             "br-FR",
@@ -3728,7 +4204,7 @@
     {
         "LABEL": "Gabon",
         "officialName": {
-            "fr": "République gabonaise "
+            "fra": "République gabonaise "
         },
         "alpha2": "GA",
         "alpha3": "GAB",
@@ -3739,7 +4215,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "fr": "Union, Travail, Justice"
+                "fra": "Union, Travail, Justice"
             }
         },
         "currencies": {
@@ -3759,7 +4235,13 @@
         "timeZones": [
             "Africa/Libreville"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["fra"],
+            "widelySpoken": ["myb", "fang", "bkg"],
+            "localCommunities": ["bap", "ebu", "pun", "tte", "mvb", "bko"],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "fr",
             "fr-GA"
@@ -3767,12 +4249,15 @@
         "otherAppsIds": {
             "geoNamesOrg": 2400553
         },
-        "NOTES": []
+        "NOTES": [
+            "[languages] Over 40 Bantu languages are spoken in Gabon.",
+            "Only the most socio-linguistically active ones are listed under 'localCommunities'."
+        ]
     },
     {
         "LABEL": "United Kingdom of Great Britain and Northern Ireland",
         "officialName": {
-            "en": "United Kingdom of Great Britain and Northern Ireland"
+            "eng": "United Kingdom of Great Britain and Northern Ireland"
         },
         "alpha2": "GB",
         "alpha3": "GBR",
@@ -3783,7 +4268,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "fr": "Dieu et mon droit"
+                "fra": "Dieu et mon droit"
             }
         },
         "currencies": {
@@ -3804,7 +4289,13 @@
             "Europe/London",
             "Europe/Belfast"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["eng"],
+            "widelySpoken": ["cym", "gla", "gle", "cor", "sco", "uln"],
+            "localCommunities": ["urd", "pan", "guj", "ben", "ara", "pol", "som", "tir", "tur", "pus", "rom"],
+            "signs": ["bfi"],
+            "dialects": []
+        },
         "localesIcu": [
             "cy",
             "cy-GB",
@@ -3819,7 +4310,7 @@
     {
         "LABEL": "Grenada",
         "officialName": {
-            "en": "Grenada"
+            "eng": "Grenada"
         },
         "alpha2": "GD",
         "alpha3": "GRD",
@@ -3830,7 +4321,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "en": "Ever Conscious of God We Aspire, Build and Advance as One People"
+                "eng": "Ever Conscious of God We Aspire, Build and Advance as One People"
             }
         },
         "currencies": {
@@ -3850,7 +4341,13 @@
         "timeZones": [
             "America/Grenada"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["eng"],
+            "widelySpoken": ["gcl"],
+            "localCommunities": [],
+            "signs": ["bzs"],
+            "dialects": []
+        },
         "localesIcu": [
             "en",
             "en-GD"
@@ -3863,7 +4360,7 @@
     {
         "LABEL": "Georgia",
         "officialName": {
-            "ka": "საქართველოს რესპუბლიკა"
+            "kat": "საქართველოს რესპუბლიკა"
         },
         "alpha2": "GE",
         "alpha3": "GEO",
@@ -3874,7 +4371,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "ka": "ძალა ერთობაშია"
+                "kat": "ძალა ერთობაშია"
             }
         },
         "currencies": {
@@ -3903,7 +4400,13 @@
         "timeZones": [
             "Asia/Tbilisi"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["kat"],
+            "widelySpoken": ["rus", "azj", "arm"],
+            "localCommunities": ["abk", "ava", "kbd", "lez", "che", "udm"],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "ka",
             "ka-GE"
@@ -3916,7 +4419,7 @@
     {
         "LABEL": "French Guiana",
         "officialName": {
-            "fr": "Département de la Guyane"
+            "fra": "Département de la Guyane"
         },
         "alpha2": "GF",
         "alpha3": "GUF",
@@ -3927,7 +4430,7 @@
         "dependency": "FR",
         "mottos": {
             "official": {
-                "fr": "Liberté, Égalité, Fraternité"
+                "fra": "Liberté, Égalité, Fraternité"
             }
         },
         "currencies": {
@@ -3947,7 +4450,13 @@
         "timeZones": [
             "America/Cayenne"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["fra"],
+            "widelySpoken": ["gcr"],
+            "localCommunities": ["car", "way", "way", "mpy", "tup", "tir", "poi", "njo", "dut", "srn", "tem"],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "fr",
             "fr-GF"
@@ -3960,7 +4469,7 @@
     {
         "LABEL": "Guernsey",
         "officialName": {
-            "en": "Bailiwick of Guernsey"
+            "eng": "Bailiwick of Guernsey"
         },
         "alpha2": "GG",
         "alpha3": "GGY",
@@ -3969,7 +4478,7 @@
             "emoji": "🇬🇬"
         },
         "dependency": "GB",
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "GBP"
@@ -3987,7 +4496,13 @@
         "timeZones": [
             "Europe/Guernsey"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["eng"],
+            "widelySpoken": [],
+            "localCommunities": ["nrf"],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "en",
             "en-GG"
@@ -4000,7 +4515,7 @@
     {
         "LABEL": "Ghana",
         "officialName": {
-            "en": "Republic of Ghana"
+            "eng": "Republic of Ghana"
         },
         "alpha2": "GH",
         "alpha3": "GHA",
@@ -4011,7 +4526,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "en": "Freedom and Justice"
+                "eng": "Freedom and Justice"
             }
         },
         "currencies": {
@@ -4031,7 +4546,13 @@
         "timeZones": [
             "Africa/Accra"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["eng"],
+            "widelySpoken": ["aka", "twi", "ewe", "dag", "gaa", "gon", "kpe", "kus", "nzi"],
+            "localCommunities": ["abr", "bim", "sef", "kas", "mzw", "dag", "gur", "mam", "ckl"],
+            "signs": ["gse"],
+            "dialects": []
+        },
         "localesIcu": [
             "ee",
             "ee-GH",
@@ -4048,7 +4569,7 @@
     {
         "LABEL": "Gibraltar",
         "officialName": {
-            "en": "Gibraltar"
+            "eng": "Gibraltar"
         },
         "alpha2": "GI",
         "alpha3": "GIB",
@@ -4059,7 +4580,7 @@
         "dependency": "GB",
         "mottos": {
             "official": {
-                "la": "Montis Insignia Calpe"
+                "lat": "Montis Insignia Calpe"
             }
         },
         "currencies": {
@@ -4079,7 +4600,13 @@
         "timeZones": [
             "Europe/Gibraltar"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["eng"],
+            "widelySpoken": ["spa"],
+            "localCommunities": ["lld"],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "en",
             "en-GI"
@@ -4094,8 +4621,8 @@
     {
         "LABEL": "Greenland",
         "officialName": {
-            "kl": "Kalaallit Nunaat",
-            "da": "Grønland"
+            "kal": "Kalaallit Nunaat",
+            "dan": "Grønland"
         },
         "alpha2": "GL",
         "alpha3": "GRL",
@@ -4104,7 +4631,7 @@
             "emoji": "🇬🇱"
         },
         "dependency": "DK",
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "DKK"
@@ -4125,7 +4652,13 @@
             "America/Thule",
             "America/Godthab"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["kal"],
+            "widelySpoken": ["dan"],
+            "localCommunities": [],
+            "signs": [],
+            "dialects": ["klq", "ktq", "gdn"]
+        },
         "localesIcu": [
             "da",
             "da-GL",
@@ -4140,7 +4673,7 @@
     {
         "LABEL": "Gambia",
         "officialName": {
-            "en": "Republic of The Gambia"
+            "eng": "Republic of The Gambia"
         },
         "alpha2": "GM",
         "alpha3": "GMB",
@@ -4151,7 +4684,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "en": "Progress, Peace, and Prosperity"
+                "eng": "Progress, Peace, and Prosperity"
             }
         },
         "currencies": {
@@ -4171,7 +4704,13 @@
         "timeZones": [
             "Africa/Banjul"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["eng"],
+            "widelySpoken": ["wol", "fuc", "mnk", "snf", "srr"],
+            "localCommunities": ["knf", "ffm", "bim", "mlq"],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "en",
             "en-GM"
@@ -4184,7 +4723,7 @@
     {
         "LABEL": "Guinea",
         "officialName": {
-            "fr": "République de Guinée"
+            "fra": "République de Guinée"
         },
         "alpha2": "GN",
         "alpha3": "GIN",
@@ -4195,7 +4734,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "fr": "Travail, Justice, Solidarité"
+                "fra": "Travail, Justice, Solidarité"
             }
         },
         "currencies": {
@@ -4215,7 +4754,13 @@
         "timeZones": [
             "Africa/Conakry"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["fra"],
+            "widelySpoken": ["fuf", "sus", "man", "knf", "djz"],
+            "localCommunities": ["bsc", "bgu", "nqo", "kqs", "kqy", "khq"],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "ff",
             "ff-GN",
@@ -4230,7 +4775,7 @@
     {
         "LABEL": "Guadeloupe",
         "officialName": {
-            "fr": "Region Guadeloupe"
+            "fra": "Region Guadeloupe"
         },
         "alpha2": "GP",
         "alpha3": "GLP",
@@ -4239,7 +4784,7 @@
             "emoji": "🇬🇵"
         },
         "dependency": "FR",
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "EUR"
@@ -4257,7 +4802,13 @@
         "timeZones": [
             "America/Guadeloupe"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["fra"],
+            "widelySpoken": ["gcf"],
+            "localCommunities": [],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "fr",
             "fr-GP"
@@ -4270,9 +4821,9 @@
     {
         "LABEL": "Equatorial Guinea",
         "officialName": {
-            "es": "República de Guinea Ecuatorial",
-            "fr": "République de Guinée équatoriale ",
-            "pt": "República da Guiné Equatorial"
+            "spa": "República de Guinea Ecuatorial",
+            "fra": "République de Guinée équatoriale ",
+            "por": "República da Guiné Equatorial"
         },
         "alpha2": "GQ",
         "alpha3": "GNQ",
@@ -4283,7 +4834,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "es": "Unidad, Paz, Justicia"
+                "spa": "Unidad, Paz, Justicia"
             }
         },
         "currencies": {
@@ -4303,7 +4854,13 @@
         "timeZones": [
             "Africa/Malabo"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["spa", "fra", "por"],
+            "widelySpoken": ["bvb", "fan"],
+            "localCommunities": ["bpd", "bqx", "nvo", "gym"],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "es",
             "es-GQ",
@@ -4320,7 +4877,7 @@
     {
         "LABEL": "Greece",
         "officialName": {
-            "el": "Ελληνική Δημοκρατία"
+            "ell": "Ελληνική Δημοκρατία"
         },
         "alpha2": "GR",
         "alpha3": "GRC",
@@ -4331,7 +4888,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "el": "Ελευθερία ή Θάνατος"
+                "ell": "Ελευθερία ή Θάνατος"
             }
         },
         "currencies": {
@@ -4351,7 +4908,13 @@
         "timeZones": [
             "Europe/Athens"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["ell"],
+            "widelySpoken": [],
+            "localCommunities": ["tur", "sqi", "pnt", "rmn", "rup", "bgk", "mkd"],
+            "signs": ["gss"],
+            "dialects": []
+        },
         "localesIcu": [
             "el",
             "el-GR"
@@ -4364,7 +4927,7 @@
     {
         "LABEL": "South Georgia and the South Sandwich Islands",
         "officialName": {
-            "en": "South Georgia and the South Sandwich Islands"
+            "eng": "South Georgia and the South Sandwich Islands"
         },
         "alpha2": "GS",
         "alpha3": "SGS",
@@ -4375,7 +4938,7 @@
         "dependency": "GB",
         "mottos": {
             "official": {
-                "la": "Leo terram propriam protegat"
+                "lat": "Leo terram propriam protegat"
             }
         },
         "currencies": {
@@ -4393,7 +4956,13 @@
         "timeZones": [
             "Atlantic/South_Georgia"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["eng"],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "cy",
             "cy-GB",
@@ -4408,7 +4977,7 @@
     {
         "LABEL": "Guatemala",
         "officialName": {
-            "es": "República de Guatemala"
+            "spa": "República de Guatemala"
         },
         "alpha2": "GT",
         "alpha3": "GTM",
@@ -4419,7 +4988,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "es": "Libre Crezca Fecundo"
+                "spa": "Libre Crezca Fecundo"
             }
         },
         "currencies": {
@@ -4439,7 +5008,13 @@
         "timeZones": [
             "America/Guatemala"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["spa"],
+            "widelySpoken": ["quc", "mam", "cak", "poc", "kjb", "itz", "qut", "tzj", "usp"],
+            "localCommunities": ["ach", "acr", "apf", "ckz", "emp", "ixl", "kek", "mpm", "pap", "pbi", "poc", "pov", "pqu", "qum", "ttc", "tzl"],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "es",
             "es-GT"
@@ -4452,8 +5027,8 @@
     {
         "LABEL": "Guam",
         "officialName": {
-            "en": "Guam",
-            "ch": "Guåhan"
+            "eng": "Guam",
+            "cha": "Guåhan"
         },
         "alpha2": "GU",
         "alpha3": "GUM",
@@ -4464,8 +5039,8 @@
         "dependency": "US",
         "mottos": {
             "official": {
-                "ch": "Tånó y CHamoru",
-                "en": "Land of the CHamorus"
+                "cha": "Tånó y CHamoru",
+                "eng": "Land of the CHamorus"
             }
         },
         "currencies": {
@@ -4485,7 +5060,13 @@
         "timeZones": [
             "Pacific/Guam"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["eng", "cha"],
+            "widelySpoken": ["fil"],
+            "localCommunities": ["jpn", "kor", "zho"],
+            "signs": ["asl"],
+            "dialects": []
+        },
         "localesIcu": [
             "en",
             "en-GU"
@@ -4498,7 +5079,7 @@
     {
         "LABEL": "Guinea-Bissau",
         "officialName": {
-            "pt": "República da Guiné-Bissau"
+            "por": "República da Guiné-Bissau"
         },
         "alpha2": "GW",
         "alpha3": "GNB",
@@ -4509,7 +5090,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "pt": "Unidade, Luta, Progresso"
+                "por": "Unidade, Luta, Progresso"
             }
         },
         "currencies": {
@@ -4529,7 +5110,13 @@
         "timeZones": [
             "Africa/Bissau"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["por"],
+            "widelySpoken": ["pov", "knf", "mnk", "man"],
+            "localCommunities": ["bjt", "bqj", "bsc", "bto", "nql", "snf", "krf", "kmd", "lue", "pap"],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "pt",
             "pt-GW"
@@ -4542,7 +5129,7 @@
     {
         "LABEL": "Guyana",
         "officialName": {
-            "en": "Co-operative Republic of Guyana"
+            "eng": "Co-operative Republic of Guyana"
         },
         "alpha2": "GY",
         "alpha3": "GUY",
@@ -4553,7 +5140,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "en": "One People, One Nation, One Destiny"
+                "eng": "One People, One Nation, One Destiny"
             }
         },
         "currencies": {
@@ -4573,7 +5160,13 @@
         "timeZones": [
             "America/Guyana"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["eng"],
+            "widelySpoken": ["gyn", "hns"],
+            "localCommunities": ["car", "arw", "aix", "mzp", "ake", "wrg", "mpx"],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "en",
             "en-GY"
@@ -4586,7 +5179,8 @@
     {
         "LABEL": "Hong Kong",
         "officialName": {
-            "zh": "中華人民共和國香港特別行政區"
+            "yue": "中華人民共和國香港特別行政區",
+            "cmn": "中华人民共和国香港特别行政区"
         },
         "alpha2": "HK",
         "alpha3": "HKG",
@@ -4595,7 +5189,7 @@
             "emoji": "🇭🇰"
         },
         "dependency": "CN",
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "HKD"
@@ -4622,7 +5216,13 @@
         "timeZones": [
             "Asia/Hong_Kong"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["yue", "eng"],
+            "widelySpoken": ["cmn"],
+            "localCommunities": ["wuu", "hak", "zho", "fil", "ind"],
+            "signs": ["hks"],
+            "dialects": []
+        },
         "localesIcu": [
             "en",
             "en-HK",
@@ -4637,7 +5237,7 @@
     {
         "LABEL": "Heard Island and McDonald Islands",
         "officialName": {
-            "en": "Heard Island and McDonald Islands"
+            "eng": "Heard Island and McDonald Islands"
         },
         "alpha2": "HM",
         "alpha3": "HMD",
@@ -4646,7 +5246,7 @@
             "emoji": "🇭🇲"
         },
         "dependency": "AU",
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "AUD"
@@ -4664,7 +5264,13 @@
         "timeZones": [
             "Etc/GMT-5"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "en",
             "en-AU"
@@ -4672,12 +5278,16 @@
         "otherAppsIds": {
             "geoNamesOrg": 1547314
         },
-        "NOTES": []
+        "NOTES": [
+            "[ccTLD] [dialCodes] The territory is uninhabited. However, it maintains a ccTLD (.hm) and a dial code ",
+            "(+6724) as part of administrative and technical standards derived from its status as an Australian ",
+            "external territory."
+        ]
     },
     {
         "LABEL": "Honduras",
         "officialName": {
-            "es": "República de Honduras"
+            "spa": "República de Honduras"
         },
         "alpha2": "HN",
         "alpha3": "HND",
@@ -4688,7 +5298,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "es": "Libre, Soberana e Independiente"
+                "spa": "Libre, Soberana e Independiente"
             }
         },
         "currencies": {
@@ -4708,7 +5318,13 @@
         "timeZones": [
             "America/Tegucigalpa"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["spa"],
+            "widelySpoken": [],
+            "localCommunities": ["cab", "bzd", "bip", "chf", "peb", "bgs", "len", "mop", "tow"],
+            "signs": ["hds"],
+            "dialects": []
+        },
         "localesIcu": [
             "es",
             "es-HN"
@@ -4721,7 +5337,7 @@
     {
         "LABEL": "Croatia",
         "officialName": {
-            "hr": "Republika Hrvatska"
+            "hrv": "Republika Hrvatska"
         },
         "alpha2": "HR",
         "alpha3": "HRV",
@@ -4730,7 +5346,7 @@
             "emoji": "🇭🇷"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "EUR"
@@ -4748,7 +5364,13 @@
         "timeZones": [
             "Europe/Zagreb"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["hrv"],
+            "widelySpoken": ["srp", "ita", "hun"],
+            "localCommunities": ["slv", "czk", "rom", "rue"],
+            "signs": ["hsh"],
+            "dialects": []
+        },
         "localesIcu": [
             "hr",
             "hr-HR"
@@ -4761,8 +5383,8 @@
     {
         "LABEL": "Haiti",
         "officialName": {
-            "fr": "République d'Haïti",
-            "ht": "Repiblik Ayiti"
+            "fra": "République d'Haïti",
+            "hat": "Repiblik Ayiti"
         },
         "alpha2": "HT",
         "alpha3": "HTI",
@@ -4773,7 +5395,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "fr": "L'union fait la force"
+                "fra": "L'union fait la force"
             }
         },
         "currencies": {
@@ -4793,7 +5415,13 @@
         "timeZones": [
             "America/Port-au-Prince"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["hat", "fra"],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": ["hsl"],
+            "dialects": []
+        },
         "localesIcu": [
             "fr",
             "fr-HT"
@@ -4806,7 +5434,7 @@
     {
         "LABEL": "Hungary",
         "officialName": {
-            "hu": "Magyarország"
+            "hun": "Magyarország"
         },
         "alpha2": "HU",
         "alpha3": "HUN",
@@ -4815,7 +5443,7 @@
             "emoji": "🇭🇺"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "HUF"
@@ -4833,7 +5461,13 @@
         "timeZones": [
             "Europe/Budapest"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["hun"],
+            "widelySpoken": ["rom", "deu", "srp", "slk"],
+            "localCommunities": ["hrv", "ukr", "rum", "rom", "rue"],
+            "signs": ["hsh"],
+            "dialects": []
+        },
         "localesIcu": [
             "hu",
             "hu-HU"
@@ -4846,7 +5480,7 @@
     {
         "LABEL": "Indonesia",
         "officialName": {
-            "id": "Republik Indonesia"
+            "ind": "Republik Indonesia"
         },
         "alpha2": "ID",
         "alpha3": "IDN",
@@ -4881,7 +5515,13 @@
             "Asia/Pontianak",
             "Asia/Ujung_Pandang"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["ind"],
+            "widelySpoken": ["jav", "sun", "min", "bug", "ban", "mad", "bjn"],
+            "localCommunities": ["ace", "btk", "rej", "tor", "sas", "gor", "bcl", "kge", "tdr", "kqr"],
+            "signs": ["inl"],
+            "dialects": []
+        },
         "localesIcu": [
             "id",
             "id-ID"
@@ -4894,8 +5534,8 @@
     {
         "LABEL": "Ireland",
         "officialName": {
-            "en": "Republic of Ireland",
-            "ga": "Poblacht na hÉireann"
+            "gle": "Poblacht na hÉireann",
+            "eng": "Republic of Ireland"
         },
         "alpha2": "IE",
         "alpha3": "IRL",
@@ -4904,7 +5544,7 @@
             "emoji": "🇮🇪"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "EUR"
@@ -4922,7 +5562,13 @@
         "timeZones": [
             "Europe/Dublin"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["gle", "eng"],
+            "widelySpoken": [],
+            "localCommunities": ["pol"],
+            "signs": ["isg"],
+            "dialects": []
+        },
         "localesIcu": [
             "en",
             "en-IE",
@@ -4937,7 +5583,8 @@
     {
         "LABEL": "Israel",
         "officialName": {
-            "he": "מדינת ישראל"
+            "heb": "מְדִינַת יִשְרָאֵל",
+            "ara": "دولة إسرائيل"
         },
         "alpha2": "IL",
         "alpha3": "ISR",
@@ -4946,7 +5593,7 @@
             "emoji": "🇮🇱"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "ILS"
@@ -4965,7 +5612,13 @@
             "Asia/Jerusalem",
             "Asia/Tel_Aviv"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["heb"],
+            "widelySpoken": ["ara", "rus", "eng", "amh", "yid"],
+            "localCommunities": ["jpa", "jdt", "lad", "kaa", "grc", "arc"],
+            "signs": ["isr"],
+            "dialects": []
+        },
         "localesIcu": [
             "ar",
             "ar-IL",
@@ -4977,13 +5630,17 @@
         "otherAppsIds": {
             "geoNamesOrg": 294640
         },
-        "NOTES": []
+        "NOTES": [
+            "Since 2018, Hebrew is the sole official language of Israel.",
+            "Arabic holds a special status under the Basic Law, and continues to be used in official documents, ",
+            "education, and public life for the Arab minority."
+        ]
     },
     {
         "LABEL": "Isle of Man",
         "officialName": {
-            "en": "Isle of Man",
-            "gv": "Ellan Vannin"
+            "eng": "Isle of Man",
+            "glv": "Ellan Vannin"
         },
         "alpha2": "IM",
         "alpha3": "IMN",
@@ -4994,7 +5651,7 @@
         "dependency": "GB",
         "mottos": {
             "official": {
-                "la": "Quocumque ieceris Stabit"
+                "lat": "Quocumque ieceris Stabit"
             }
         },
         "currencies": {
@@ -5014,7 +5671,13 @@
         "timeZones": [
             "Europe/Isle_of_Man"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["eng"],
+            "widelySpoken": [],
+            "localCommunities": ["glv"],
+            "signs": ["bfi"],
+            "dialects": []
+        },
         "localesIcu": [
             "en",
             "en-IM"
@@ -5027,8 +5690,8 @@
     {
         "LABEL": "India",
         "officialName": {
-            "hi": "भारत गणराज्य",
-            "en": "Republic of India"
+            "hin": "भारत गणराज्य",
+            "eng": "Republic of India"
         },
         "alpha2": "IN",
         "alpha3": "IND",
@@ -5039,7 +5702,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "hi": "सत्यमेव जयते"
+                "hin": "सत्यमेव जयते"
             }
         },
         "currencies": {
@@ -5060,7 +5723,13 @@
             "Asia/Kolkata",
             "Asia/Calcutta"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["hin", "eng"],
+            "widelySpoken": ["ben", "tel", "mar", "tam", "urd", "guj", "mal", "kan", "ori", "pan", "asm", "mai"],
+            "localCommunities": ["kok", "doi", "kas", "snd", "mni", "san", "nep", "lep", "bho", "bhb", "mag", "sat", "grt", "kha", "lus", "njo"],
+            "signs": ["ins"],
+            "dialects": []
+        },
         "localesIcu": [
             "as",
             "as-IN",
@@ -5097,12 +5766,18 @@
         "otherAppsIds": {
             "geoNamesOrg": 1269750
         },
-        "NOTES": []
+        "NOTES": [
+            "[languages]",
+            "India does not have a national language. Hindi and English are official languages at the federal level.",
+            "22 languages are officially recognized in the Constitution's Eighth Schedule.",
+            "Indian Sign Language (ins) is standardized and supported by ISLRTC, though not yet de jure official."
+        ]
+
     },
     {
         "LABEL": "British Indian Ocean Territory",
         "officialName": {
-            "en": "British Indian Ocean Territory"
+            "eng": "British Indian Ocean Territory"
         },
         "alpha2": "IO",
         "alpha3": "IOT",
@@ -5113,7 +5788,7 @@
         "dependency": "GB",
         "mottos": {
             "official": {
-                "en": "Limuria is in our trust"
+                "eng": "Limuria is in our trust"
             }
         },
         "currencies": {
@@ -5133,7 +5808,13 @@
         "timeZones": [
             "Indian/Chagos"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["eng"],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "en",
             "en-IO"
@@ -5141,13 +5822,17 @@
         "otherAppsIds": {
             "geoNamesOrg": 1282588
         },
-        "NOTES": []
+        "NOTES": [
+            "[languages] The British Indian Ocean Territory has no permanent civilian population.",
+            "English is used as the official language for administrative purposes.",
+            "No local or sign languages are in use on the territory."
+        ]
     },
     {
         "LABEL": "Iraq",
         "officialName": {
-            "ar": "جمهورية العراق",
-            "ku": "کۆمارا ىراقێ"
+            "ara": "جمهورية العراق",
+            "kur": "کۆمارا ىراقێ"
         },
         "alpha2": "IQ",
         "alpha3": "IRQ",
@@ -5156,7 +5841,7 @@
             "emoji": "🇮🇶"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "IQD"
@@ -5174,7 +5859,13 @@
         "timeZones": [
             "Asia/Baghdad"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["ara", "kur"],
+            "widelySpoken": ["tur", "arc", "syr"],
+            "localCommunities": ["cka", "bhd", "ahy", "aii", "tmr", "hne"],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "ar",
             "ar-IQ"
@@ -5182,12 +5873,17 @@
         "otherAppsIds": {
             "geoNamesOrg": 99237
         },
-        "NOTES": []
+        "NOTES": [
+            "[languages]",
+            "Arabic and Kurdish are co-official languages under Article 4 of the 2005 Iraqi Constitution.",
+            "Turkmen, Syriac, and Armenian are recognized for official use in administrative units where they are",
+            "widely spoken."
+        ]
     },
     {
         "LABEL": "Iran (Islamic Republic of)",
         "officialName": {
-            "fa": "جمهوری اسلامی ایران"
+            "fas": "جمهوری اسلامی ایران"
         },
         "alpha2": "IR",
         "alpha3": "IRN",
@@ -5227,7 +5923,13 @@
         "timeZones": [
             "Asia/Tehran"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["fas"],
+            "widelySpoken": ["azb", "kur", "glk", "lrc", "bal", "mzn"],
+            "localCommunities": ["tuk", "tly", "sdh", "kbd", "pes", "hyw", "bra", "psh", "bqi"],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "fa",
             "fa-IR"
@@ -5240,7 +5942,7 @@
     {
         "LABEL": "Iceland",
         "officialName": {
-            "is": "Lýðveldið Ísland"
+            "isl": "Lýðveldið Ísland"
         },
         "alpha2": "IS",
         "alpha3": "ISL",
@@ -5249,7 +5951,7 @@
             "emoji": "🇮🇸"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "ISK"
@@ -5267,7 +5969,13 @@
         "timeZones": [
             "Atlantic/Reykjavik"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["isl"],
+            "widelySpoken": ["eng", "pol", "lit"],
+            "localCommunities": [],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "is",
             "is-IS"
@@ -5275,12 +5983,15 @@
         "otherAppsIds": {
             "geoNamesOrg": 2629691
         },
-        "NOTES": []
+        "NOTES": [
+            "[languages] Icelandic Sign Language is legally recognized since 2011 but has no distinct ISO 639-3 code.",
+            "Polish is the most spoken foreign language in Iceland due to immigration."
+        ]
     },
     {
         "LABEL": "Italy",
         "officialName": {
-            "it": "Repubblica Italiana"
+            "ita": "Repubblica Italiana"
         },
         "alpha2": "IT",
         "alpha3": "ITA",
@@ -5289,7 +6000,7 @@
             "emoji": "🇮🇹"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "EUR"
@@ -5307,7 +6018,13 @@
         "timeZones": [
             "Europe/Rome"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["ita"],
+            "widelySpoken": ["nap", "scn", "srd", "vec", "lij", "lmo", "eml", "pms", "fur"],
+            "localCommunities": ["deu", "fra", "slv", "hrv", "grc", "arb", "cat", "mol", "gsw", "lld"],
+            "signs": ["ise"],
+            "dialects": []
+        },
         "localesIcu": [
             "ca",
             "ca-IT",
@@ -5324,7 +6041,7 @@
     {
         "LABEL": "Jersey",
         "officialName": {
-            "en": "Bailiwick of Jersey"
+            "eng": "Bailiwick of Jersey"
         },
         "alpha2": "JE",
         "alpha3": "JEY",
@@ -5335,7 +6052,7 @@
         "dependency": "GB",
         "mottos": {
             "official": {
-                "fr": "Dieu et Mon Droit"
+                "fra": "Dieu et Mon Droit"
             }
         },
         "currencies": {
@@ -5355,7 +6072,13 @@
         "timeZones": [
             "Europe/Jersey"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["eng"],
+            "widelySpoken": ["fra"],
+            "localCommunities": ["nrf"],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "en",
             "en-JE"
@@ -5368,7 +6091,7 @@
     {
         "LABEL": "Jamaica",
         "officialName": {
-            "en": "Jamaica"
+            "eng": "Jamaica"
         },
         "alpha2": "JM",
         "alpha3": "JAM",
@@ -5379,7 +6102,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "en": "Out of Many One People"
+                "eng": "Out of Many One People"
             }
         },
         "currencies": {
@@ -5400,7 +6123,13 @@
         "timeZones": [
             "America/Jamaica"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["eng"],
+            "widelySpoken": ["jam"],
+            "localCommunities": [],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "en",
             "en-JM"
@@ -5413,7 +6142,7 @@
     {
         "LABEL": "Jordan",
         "officialName": {
-            "ar": "المملكة الأردنية الهاشمية"
+            "arb": "المملكة الأردنية الهاشمية"
         },
         "alpha2": "JO",
         "alpha3": "JOR",
@@ -5424,7 +6153,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "ar": "الله، الوطن، المليك"
+                "arb": "الله، الوطن، المليك"
             }
         },
         "currencies": {
@@ -5453,7 +6182,13 @@
         "timeZones": [
             "Asia/Amman"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["arb"],
+            "widelySpoken": ["eng"],
+            "localCommunities": ["ckb", "aze", "arm", "syc", "arc", "che", "cnu"],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "ar",
             "ar-JO"
@@ -5475,7 +6210,7 @@
             "emoji": "🇯🇵"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "JPY"
@@ -5493,7 +6228,13 @@
         "timeZones": [
             "Asia/Tokyo"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["jpn"],
+            "widelySpoken": [],
+            "localCommunities": ["ryu", "ain", "kor", "zho", "eng"],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "ja",
             "ja-JP"
@@ -5501,13 +6242,18 @@
         "otherAppsIds": {
             "geoNamesOrg": 1861060
         },
-        "NOTES": []
+        "NOTES": [
+            "[languages]",
+            "Japanese is not constitutionally declared official, but functions as the de facto national language.",
+            "Ryukyuan and Ainu are indigenous languages with limited speakers and cultural protection.",
+            "Japanese Sign Language (JSL) is used and promoted, but lacks ISO recognition."
+        ]
     },
     {
         "LABEL": "Kenya",
         "officialName": {
-            "sw": "Jamuhuri ya Kenya",
-            "en": "Republic of Kenya"
+            "swa": "Jamuhuri ya Kenya",
+            "eng": "Republic of Kenya"
         },
         "alpha2": "KE",
         "alpha3": "KEN",
@@ -5518,7 +6264,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "sw": "Harambee"
+                "swa": "Harambee"
             }
         },
         "currencies": {
@@ -5538,7 +6284,13 @@
         "timeZones": [
             "Africa/Nairobi"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["eng", "swa"],
+            "widelySpoken": ["kik", "luo", "kam", "kln", "mer", "guj"],
+            "localCommunities": ["mas", "som", "tgz", "mlg", "orc"],
+            "signs": ["ksl"],
+            "dialects": []
+        },
         "localesIcu": [
             "en",
             "en-KE",
@@ -5550,13 +6302,18 @@
         "otherAppsIds": {
             "geoNamesOrg": 192950
         },
-        "NOTES": []
+        "NOTES": [
+            "[languages]",
+            "English and Swahili are co-official languages of Kenya (Constitution, Article 7).",
+            "Over 60 languages are spoken in Kenya, with Kikuyu, Luo, Kamba and Kalenjin among the most widespread.",
+            "Kenyan Sign Language (ksl) is used in education and communication by the deaf community."
+        ]
     },
     {
         "LABEL": "Kyrgyzstan",
         "officialName": {
-            "ru": "Кирги́зская Респу́блика",
-            "ky": "Кыргыз Республикасы"
+            "kir": "Кыргыз Республикасы",
+            "rus": "Кирги́зская Респу́блика"
         },
         "alpha2": "KG",
         "alpha3": "KGZ",
@@ -5565,7 +6322,7 @@
             "emoji": "🇰🇬"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "KGS"
@@ -5583,7 +6340,13 @@
         "timeZones": [
             "Asia/Bishkek"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["kir", "rus"],
+            "widelySpoken": ["uzb"],
+            "localCommunities": ["uig", "tat", "tuk", "kas", "tjk", "tur", "haz", "tgk"],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "ky",
             "ky-KG",
@@ -5593,12 +6356,15 @@
         "otherAppsIds": {
             "geoNamesOrg": 1527747
         },
-        "NOTES": []
+        "NOTES": [
+            "[languages] Kirghiz is the State language as defined by the Constitution.",
+            "Russian is an official language for interethnic communication, widely used in administration and education."
+        ]
     },
     {
         "LABEL": "Cambodia",
         "officialName": {
-            "km": "ព្រះរាជាណាចក្រ កម្ពុជា"
+            "khm": "ព្រះរាជាណាចក្រ កម្ពុជា"
         },
         "alpha2": "KH",
         "alpha3": "KHM",
@@ -5609,7 +6375,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "km": "ជាតិ សាសនា ព្រះមហាក្សត្រ"
+                "khm": "ជាតិ សាសនា ព្រះមហាក្សត្រ"
             }
         },
         "currencies": {
@@ -5629,7 +6395,13 @@
         "timeZones": [
             "Asia/Phnom_Penh"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["khm"],
+            "widelySpoken": ["vie", "zho", "eng", "fra"],
+            "localCommunities": ["jra", "mnw", "blk", "stt", "kdt", "kuj", "kra", "bkm"],
+            "signs": ["csn"],
+            "dialects": []
+        },
         "localesIcu": [
             "km",
             "km-KH"
@@ -5637,12 +6409,18 @@
         "otherAppsIds": {
             "geoNamesOrg": 1831722
         },
-        "NOTES": []
+        "NOTES": [
+            "[languages]",
+            "Khmer is the sole official language of Cambodia (Constitution, Article 5).",
+            "Vietnamese, Chinese, French and English are commonly spoken in urban and professional contexts.",
+            "Cambodian Sign Language (csn) is used by the deaf community and supported by local initiatives.",
+            "Several indigenous languages are spoken in rural and eastern regions, especially by ethnic minorities."
+        ]
     },
     {
         "LABEL": "Kiribati",
         "officialName": {
-            "en": "Republic of Kiribati",
+            "eng": "Republic of Kiribati",
             "gil": "Kiribati"
         },
         "alpha2": "KI",
@@ -5676,7 +6454,13 @@
             "Pacific/Tarawa",
             "Pacific/Enderbury"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["eng", "gil"],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "en",
             "en-KI"
@@ -5689,9 +6473,9 @@
     {
         "LABEL": "Comoros",
         "officialName": {
-            "fr": "Union des Comores",
+            "fra": "Union des Comores",
             "swb": "Udzima wa Komori",
-            "ar": "الاتحاد ﺍﻟﻘﻤﺮي"
+            "ara": "الاتحاد ﺍﻟﻘﻤﺮي"
         },
         "alpha2": "KM",
         "alpha3": "COM",
@@ -5702,8 +6486,8 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "fr": "Waḥda, taḍāmun, tanmiyya",
-                "ar": "وحدة، تضامن، تنمية"
+                "fra": "Waḥda, taḍāmun, tanmiyya",
+                "ara": "وحدة، تضامن، تنمية"
             }
         },
         "currencies": {
@@ -5723,7 +6507,13 @@
         "timeZones": [
             "Indian/Comoro"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["swb", "fra", "ara"],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "ar",
             "ar-KM",
@@ -5738,7 +6528,7 @@
     {
         "LABEL": "Saint Kitts and Nevis",
         "officialName": {
-            "en": "Federation of Saint Christopher and Nevis"
+            "eng": "Federation of Saint Christopher and Nevis"
         },
         "alpha2": "KN",
         "alpha3": "KNA",
@@ -5749,7 +6539,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "en": "Country Above Self"
+                "eng": "Country Above Self"
             }
         },
         "currencies": {
@@ -5769,7 +6559,13 @@
         "timeZones": [
             "America/St_Kitts"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["eng"],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "en",
             "en-KN"
@@ -5782,7 +6578,7 @@
     {
         "LABEL": "Korea (Democratic People's Republic of)",
         "officialName": {
-            "ko": "조선민주주의인민공화국"
+            "kor": "조선민주주의인민공화국"
         },
         "alpha2": "KP",
         "alpha3": "PRK",
@@ -5793,7 +6589,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "ko": "강성대국"
+                "kor": "강성대국"
             }
         },
         "currencies": {
@@ -5813,7 +6609,13 @@
         "timeZones": [
             "Asia/Pyongyang"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["kor"],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": [],
+            "dialects": []
+        },
         "localesIcu": [
             "ko",
             "ko-KP"
@@ -5826,7 +6628,7 @@
     {
         "LABEL": "Korea (Republic of)",
         "officialName": {
-            "ko": "대한민국"
+            "kor": "대한민국"
         },
         "alpha2": "KR",
         "alpha3": "KOR",
@@ -5837,7 +6639,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "ko": "홍익인간"
+                "kor": "홍익인간"
             }
         },
         "currencies": {
@@ -5866,7 +6668,13 @@
         "timeZones": [
             "Asia/Seoul"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["kor"],
+            "widelySpoken": ["eng"],
+            "localCommunities": [],
+            "signs": ["kvk"],
+            "dialects": []
+        },
         "localesIcu": [
             "ko",
             "ko-KR"
@@ -5879,7 +6687,7 @@
     {
         "LABEL": "Kuwait",
         "officialName": {
-            "ar": "دولة الكويت"
+            "ara": "دولة الكويت"
         },
         "alpha2": "KW",
         "alpha3": "KWT",
@@ -5888,7 +6696,7 @@
             "emoji": "🇰🇼"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "KWD"
@@ -5906,7 +6714,13 @@
         "timeZones": [
             "Asia/Kuwait"
         ],
-        "languages": [],
+        "languages": {
+            "official": ["ara"],
+            "widelySpoken": ["eng"],
+            "localCommunities": ["pes", "mlt", "hin", "ben", "tgl", "nep", "tam", "tel"],
+            "signs": [],
+            "dialects": ["afb"]
+        },
         "localesIcu": [
             "ar",
             "ar-KW"
@@ -5950,7 +6764,12 @@
         "timeZones": [
             "America/Cayman"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-KY"
@@ -5973,7 +6792,7 @@
             "emoji": "🇰🇿"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "KZT"
@@ -6006,7 +6825,12 @@
             "Asia/Qostanay",
             "Asia/Qyzylorda"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "kk",
             "kk-KZ",
@@ -6052,7 +6876,12 @@
         "timeZones": [
             "Asia/Vientiane"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "lo",
             "lo-LA"
@@ -6096,7 +6925,12 @@
         "timeZones": [
             "Asia/Beirut"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "ar",
             "ar-LB"
@@ -6140,7 +6974,12 @@
         "timeZones": [
             "America/St_Lucia"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-LC"
@@ -6185,7 +7024,12 @@
         "timeZones": [
             "Europe/Vaduz"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "de",
             "de-LI"
@@ -6231,7 +7075,12 @@
         "timeZones": [
             "Asia/Colombo"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "si",
             "si-LK",
@@ -6277,7 +7126,12 @@
         "timeZones": [
             "Africa/Monrovia"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-LR"
@@ -6322,7 +7176,12 @@
         "timeZones": [
             "Africa/Maseru"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-LS"
@@ -6366,7 +7225,12 @@
         "timeZones": [
             "Europe/Vilnius"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "lt",
             "lt-LT"
@@ -6414,7 +7278,12 @@
         "timeZones": [
             "Europe/Luxembourg"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "de",
             "de-LU",
@@ -6442,7 +7311,7 @@
             "emoji": "🇱🇻"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "EUR"
@@ -6460,7 +7329,12 @@
         "timeZones": [
             "Europe/Riga"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "lv",
             "lv-LV"
@@ -6482,7 +7356,7 @@
             "emoji": "🇱🇾"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "LYD"
@@ -6500,7 +7374,12 @@
         "timeZones": [
             "Africa/Tripoli"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "ar",
             "ar-LY"
@@ -6546,7 +7425,12 @@
         "timeZones": [
             "Africa/Casablanca"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "ar",
             "ar-MA",
@@ -6592,7 +7476,12 @@
         "timeZones": [
             "Europe/Monaco"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "fr",
             "fr-MC"
@@ -6614,7 +7503,7 @@
             "emoji": "🇲🇩"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "MDL"
@@ -6633,7 +7522,12 @@
             "Europe/Chisinau",
             "Europe/Tiraspol"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "ro",
             "ro-MD",
@@ -6681,7 +7575,12 @@
         "timeZones": [
             "Europe/Podgorica"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "sr",
             "sr-Cyrl",
@@ -6706,7 +7605,7 @@
             "emoji": "🇲🇫"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "EUR"
@@ -6724,7 +7623,12 @@
         "timeZones": [
             "America/Marigot"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "fr",
             "fr-MF"
@@ -6769,7 +7673,12 @@
         "timeZones": [
             "Indian/Antananarivo"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-MG",
@@ -6817,7 +7726,12 @@
             "Pacific/Kwajalein",
             "Pacific/Majuro"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-MH"
@@ -6840,7 +7754,7 @@
             "emoji": "🇲🇰"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "MKD"
@@ -6858,7 +7772,12 @@
         "timeZones": [
             "Europe/Skopje"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "mk",
             "mk-MK",
@@ -6905,7 +7824,12 @@
             "Africa/Bamako",
             "Africa/Timbuktu"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "fr",
             "fr-ML"
@@ -6927,7 +7851,7 @@
             "emoji": "🇲🇲"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "MMK"
@@ -6946,7 +7870,12 @@
             "Asia/Yangon",
             "Asia/Rangoon"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "my",
             "my-MM"
@@ -6968,7 +7897,7 @@
             "emoji": "🇲🇳"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "MNT"
@@ -6998,7 +7927,12 @@
             "Asia/Ulaanbaatar",
             "Asia/Ulan_Bator"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "mn",
             "mn-MN"
@@ -7022,7 +7956,7 @@
             "emoji": "🇲🇴"
         },
         "dependency": "CN",
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "MOP"
@@ -7041,7 +7975,12 @@
             "Asia/Macau",
             "Asia/Macao"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-MO",
@@ -7067,7 +8006,7 @@
             "emoji": "🇲🇵"
         },
         "dependency": "US",
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "USD"
@@ -7085,7 +8024,12 @@
         "timeZones": [
             "Pacific/Saipan"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-MP"
@@ -7107,7 +8051,7 @@
             "emoji": "🇲🇶"
         },
         "dependency": "FR",
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "EUR"
@@ -7125,7 +8069,12 @@
         "timeZones": [
             "America/Martinique"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "fr",
             "fr-MQ"
@@ -7170,7 +8119,12 @@
         "timeZones": [
             "Africa/Nouakchott"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "ar",
             "ar-MR",
@@ -7218,7 +8172,12 @@
         "timeZones": [
             "America/Montserrat"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-MS"
@@ -7263,7 +8222,12 @@
         "timeZones": [
             "Europe/Malta"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-MT",
@@ -7310,7 +8274,12 @@
         "timeZones": [
             "Indian/Mauritius"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-MU",
@@ -7356,7 +8325,12 @@
         "timeZones": [
             "Indian/Maldives"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [],
         "otherAppsIds": {
             "geoNamesOrg": 1282028
@@ -7398,7 +8372,12 @@
         "timeZones": [
             "Africa/Blantyre"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-MW"
@@ -7457,7 +8436,12 @@
             "Mexico/BajaSur",
             "Mexico/General"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "es",
             "es-MX"
@@ -7502,7 +8486,12 @@
             "Asia/Kuala_Lumpur",
             "Asia/Kuching"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-MY",
@@ -7531,7 +8520,7 @@
             "emoji": "🇲🇿"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "MZN"
@@ -7549,7 +8538,12 @@
         "timeZones": [
             "Africa/Maputo"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "pt",
             "pt-MZ"
@@ -7593,7 +8587,12 @@
         "timeZones": [
             "Africa/Windhoek"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "af",
             "af-NA",
@@ -7617,7 +8616,7 @@
             "emoji": "🇳🇨"
         },
         "dependency": "FR",
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "XPF"
@@ -7635,7 +8634,12 @@
         "timeZones": [
             "Pacific/Noumea"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "fr",
             "fr-NC"
@@ -7679,7 +8683,12 @@
         "timeZones": [
             "Africa/Niamey"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "fr",
             "fr-NE",
@@ -7725,7 +8734,12 @@
         "timeZones": [
             "Pacific/Norfolk"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-NF"
@@ -7769,7 +8783,12 @@
         "timeZones": [
             "Africa/Lagos"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-NG",
@@ -7819,7 +8838,12 @@
         "timeZones": [
             "America/Managua"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "es",
             "es-NI"
@@ -7869,7 +8893,12 @@
         "timeZones": [
             "Europe/Amsterdam"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-NL",
@@ -7899,7 +8928,7 @@
             "emoji": "🇳🇴"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "NOK"
@@ -7917,7 +8946,12 @@
         "timeZones": [
             "Europe/Oslo"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "nb",
             "nb-NO",
@@ -7966,7 +9000,12 @@
             "Asia/Kathmandu",
             "Asia/Katmandu"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "ne",
             "ne-NP"
@@ -8011,7 +9050,12 @@
         "timeZones": [
             "Pacific/Nauru"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-NR"
@@ -8055,7 +9099,12 @@
         "timeZones": [
             "Pacific/Niue"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-NU"
@@ -8078,7 +9127,7 @@
             "emoji": "🇳🇿"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "NZD"
@@ -8097,7 +9146,12 @@
             "Pacific/Auckland",
             "Pacific/Chatham"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-NZ"
@@ -8119,7 +9173,7 @@
             "emoji": "🇴🇲"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "OMR"
@@ -8137,7 +9191,12 @@
         "timeZones": [
             "Asia/Muscat"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "ar",
             "ar-OM"
@@ -8181,7 +9240,12 @@
         "timeZones": [
             "America/Panama"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "es",
             "es-PA"
@@ -8229,7 +9293,12 @@
         "timeZones": [
             "America/Lima"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "es",
             "es-PE"
@@ -8278,7 +9347,12 @@
             "Pacific/Marquesas",
             "Pacific/Tahiti"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "fr",
             "fr-PF"
@@ -8324,7 +9398,12 @@
             "Pacific/Bougainville",
             "Pacific/Port_Moresby"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-PG"
@@ -8370,7 +9449,12 @@
         "timeZones": [
             "Asia/Manila"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-PH",
@@ -8429,7 +9513,12 @@
         "timeZones": [
             "Asia/Karachi"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-PK",
@@ -8456,7 +9545,7 @@
             "emoji": "🇵🇱"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "PLN"
@@ -8474,7 +9563,12 @@
         "timeZones": [
             "Europe/Warsaw"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "pl",
             "pl-PL"
@@ -8518,7 +9612,12 @@
         "timeZones": [
             "America/Miquelon"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "fr",
             "fr-PM"
@@ -8563,7 +9662,12 @@
         "timeZones": [
             "Pacific/Pitcairn"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-PN"
@@ -8609,7 +9713,12 @@
         "timeZones": [
             "America/Puerto_Rico"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-PR",
@@ -8633,7 +9742,7 @@
             "emoji": "🇵🇸"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [],
             "widelyAccepted": []
@@ -8650,7 +9759,12 @@
             "Asia/Gaza",
             "Asia/Hebron"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "ar",
             "ar-PS"
@@ -8672,7 +9786,7 @@
             "emoji": "🇵🇹"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "EUR"
@@ -8692,7 +9806,12 @@
             "Atlantic/Madeira",
             "Europe/Lisbon"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "pt",
             "pt-PT"
@@ -8737,7 +9856,12 @@
         "timeZones": [
             "Pacific/Palau"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-PW"
@@ -8783,7 +9907,12 @@
         "timeZones": [
             "America/Asuncion"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "es",
             "es-PY"
@@ -8836,7 +9965,12 @@
         "timeZones": [
             "Asia/Qatar"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "ar",
             "ar-QA"
@@ -8880,7 +10014,12 @@
         "timeZones": [
             "Indian/Reunion"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "fr",
             "fr-RE"
@@ -8902,7 +10041,7 @@
             "emoji": "🇷🇴"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "RON"
@@ -8920,7 +10059,12 @@
         "timeZones": [
             "Europe/Bucharest"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "ro",
             "ro-RO"
@@ -8965,7 +10109,12 @@
         "timeZones": [
             "Europe/Belgrade"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "sr",
             "sr-Cyrl",
@@ -8990,7 +10139,7 @@
             "emoji": "🇷🇺"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "RUB"
@@ -9046,7 +10195,12 @@
             "Europe/Ulyanovsk",
             "Europe/Volgograd"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "ru",
             "ru-RU"
@@ -9093,7 +10247,12 @@
         "timeZones": [
             "Africa/Kigali"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-RW",
@@ -9148,7 +10307,12 @@
         "timeZones": [
             "Asia/Riyadh"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "ar",
             "ar-SA"
@@ -9192,7 +10356,12 @@
         "timeZones": [
             "Pacific/Guadalcanal"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-SB"
@@ -9238,7 +10407,12 @@
         "timeZones": [
             "Indian/Mahe"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-SC",
@@ -9285,7 +10459,12 @@
         "timeZones": [
             "Africa/Khartoum"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "ar",
             "ar-SD",
@@ -9331,7 +10510,12 @@
         "timeZones": [
             "Europe/Stockholm"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-SE",
@@ -9400,7 +10584,12 @@
         "timeZones": [
             "Asia/Singapore"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-SG",
@@ -9450,7 +10639,12 @@
         "timeZones": [
             "Atlantic/St_Helena"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-SH"
@@ -9485,7 +10679,7 @@
             "emoji": "🇸🇮"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "EUR"
@@ -9503,7 +10697,12 @@
         "timeZones": [
             "Europe/Ljubljana"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-SI",
@@ -9550,7 +10749,12 @@
             "Arctic/Longyearbyen",
             "Atlantic/Jan_Mayen"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "nb",
             "nb-SJ"
@@ -9572,7 +10776,7 @@
             "emoji": "🇸🇰"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "EUR"
@@ -9590,7 +10794,12 @@
         "timeZones": [
             "Europe/Bratislava"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "sk",
             "sk-SK"
@@ -9636,7 +10845,12 @@
         "timeZones": [
             "Africa/Freetown"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-SL"
@@ -9680,7 +10894,12 @@
         "timeZones": [
             "Europe/San_Marino"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "it",
             "it-SM"
@@ -9725,7 +10944,12 @@
         "timeZones": [
             "Africa/Dakar"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "ff",
             "ff-SN",
@@ -9752,7 +10976,7 @@
             "emoji": "🇸🇴"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "SOS"
@@ -9770,7 +10994,12 @@
         "timeZones": [
             "Africa/Mogadishu"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "ar",
             "ar-SO"
@@ -9823,7 +11052,12 @@
         "timeZones": [
             "America/Paramaribo"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "nl",
             "nl-SR"
@@ -9867,7 +11101,12 @@
         "timeZones": [
             "Africa/Juba"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "ar",
             "ar-SS",
@@ -9913,7 +11152,12 @@
         "timeZones": [
             "Africa/Sao_Tome"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "pt",
             "pt-ST"
@@ -9957,7 +11201,12 @@
         "timeZones": [
             "America/El_Salvador"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "es",
             "es-SV"
@@ -10006,7 +11255,12 @@
         "timeZones": [
             "America/Lower_Princes"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-SX",
@@ -10061,7 +11315,12 @@
         "timeZones": [
             "Asia/Damascus"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "ar",
             "ar-SY",
@@ -10108,7 +11367,12 @@
         "timeZones": [
             "Africa/Mbabane"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-SZ"
@@ -10154,7 +11418,12 @@
         "timeZones": [
             "America/Grand_Turk"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-TC"
@@ -10200,7 +11469,12 @@
         "timeZones": [
             "Africa/Ndjamena"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "ar",
             "ar-TD",
@@ -10246,7 +11520,12 @@
         "timeZones": [
             "Indian/Kerguelen"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "br",
             "br-FR",
@@ -10294,7 +11573,12 @@
         "timeZones": [
             "Africa/Lome"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "ee",
             "ee-TG",
@@ -10349,7 +11633,12 @@
         "timeZones": [
             "Asia/Bangkok"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "th",
             "th-TH"
@@ -10393,7 +11682,12 @@
         "timeZones": [
             "Asia/Dushanbe"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [],
         "otherAppsIds": {
             "geoNamesOrg": 1220409
@@ -10434,7 +11728,12 @@
         "timeZones": [
             "Pacific/Fakaofo"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-TK"
@@ -10479,7 +11778,12 @@
         "timeZones": [
             "Asia/Dili"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "pt",
             "pt-TL"
@@ -10524,7 +11828,12 @@
             "Asia/Ashgabat",
             "Asia/Ashkhabad"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "tk",
             "tk-TM"
@@ -10568,7 +11877,12 @@
         "timeZones": [
             "Africa/Tunis"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "ar",
             "ar-TN",
@@ -10616,7 +11930,12 @@
         "timeZones": [
             "Pacific/Tongatapu"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-TO",
@@ -10663,7 +11982,12 @@
             "Europe/Istanbul",
             "Asia/Istanbul"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "ku",
             "ku-TR",
@@ -10709,7 +12033,12 @@
         "timeZones": [
             "America/Port_of_Spain"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-TT"
@@ -10755,7 +12084,12 @@
         "timeZones": [
             "Pacific/Funafuti"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-TV"
@@ -10777,7 +12111,7 @@
             "emoji": "🇹🇼"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "TWD"
@@ -10812,7 +12146,12 @@
         "timeZones": [
             "Asia/Taipei"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "zh",
             "zh-TW"
@@ -10835,7 +12174,7 @@
             "emoji": "🇹🇿"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "TZS"
@@ -10853,7 +12192,12 @@
         "timeZones": [
             "Africa/Dar_es_Salaam"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-TZ",
@@ -10877,7 +12221,7 @@
             "emoji": "🇺🇦"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "UAH"
@@ -10906,7 +12250,12 @@
             "Europe/Uzhgorod",
             "Europe/Zaporozhye"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "ru",
             "ru-UA",
@@ -10953,7 +12302,12 @@
         "timeZones": [
             "Africa/Kampala"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-UG",
@@ -11004,7 +12358,12 @@
             "Pacific/Wake",
             "Pacific/Johnston"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-UM"
@@ -11098,7 +12457,12 @@
             "US/Pacific",
             "US/Samoa"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "chr",
             "chr-US",
@@ -11150,7 +12514,12 @@
         "timeZones": [
             "America/Montevideo"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "es",
             "es-UY"
@@ -11173,7 +12542,7 @@
             "emoji": "🇺🇿"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "UZS"
@@ -11192,7 +12561,12 @@
             "Asia/Samarkand",
             "Asia/Tashkent"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "uz",
             "uz-Cyrl",
@@ -11218,7 +12592,7 @@
             "emoji": "🇻🇦"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "EUR"
@@ -11236,7 +12610,12 @@
         "timeZones": [
             "Europe/Vatican"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "it",
             "it-VA"
@@ -11280,7 +12659,12 @@
         "timeZones": [
             "America/St_Vincent"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-VC"
@@ -11324,7 +12708,12 @@
         "timeZones": [
             "America/Caracas"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "es",
             "es-VE"
@@ -11368,7 +12757,12 @@
         "timeZones": [
             "America/Tortola"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-VG"
@@ -11412,7 +12806,12 @@
         "timeZones": [
             "America/St_Thomas"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-VI"
@@ -11457,7 +12856,12 @@
             "Asia/Ho_Chi_Minh",
             "Asia/Saigon"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "vi",
             "vi-VN"
@@ -11505,7 +12909,12 @@
         "timeZones": [
             "Pacific/Efate"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-VU",
@@ -11552,7 +12961,12 @@
         "timeZones": [
             "Pacific/Wallis"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "fr",
             "fr-WF"
@@ -11597,7 +13011,12 @@
             "Pacific/Apia",
             "Pacific/Samoa"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-WS"
@@ -11620,7 +13039,7 @@
             "emoji": "🇽🇰"
         },
         "dependency": null,
-        "mottos": {},
+        "mottos": [],
         "currencies": {
             "legalTenders": [
                 "EUR"
@@ -11640,7 +13059,12 @@
         "timeZones": [
             "Europe/Belgrade"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "sq",
             "sq-AL",
@@ -11704,7 +13128,12 @@
         "timeZones": [
             "Asia/Aden"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "ar",
             "ar-YE"
@@ -11748,7 +13177,12 @@
         "timeZones": [
             "Indian/Mayotte"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "fr",
             "fr-YT"
@@ -11802,7 +13236,12 @@
         "timeZones": [
             "Africa/Johannesburg"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "af",
             "af-ZA",
@@ -11852,7 +13291,12 @@
         "timeZones": [
             "Africa/Lusaka"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-ZM"
@@ -11909,7 +13353,12 @@
         "timeZones": [
             "Africa/Harare"
         ],
-        "languages": [],
+        "languages": {
+            "official": [],
+            "widelySpoken": [],
+            "localCommunities": [],
+            "signs": []
+        },
         "localesIcu": [
             "en",
             "en-ZW"
