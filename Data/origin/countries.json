@@ -38,7 +38,6 @@
                 "cat"
             ],
             "widelySpoken": [
-                "fra",
                 "spa"
             ],
             "localCommunities": [],
@@ -91,16 +90,11 @@
             "Asia/Dubai"
         ],
         "languages": {
-            "official": [
-                "arb"
-            ],
-            "widelySpoken": [
-                "afb",
-                "eng"
-            ],
+            "official": ["arb"],
+            "widelySpoken": ["eng", "hin", "fil", "mal", "tam", "urd"],
             "localCommunities": [],
             "signs": [],
-            "dialects": []
+            "dialects": ["afb"]
         },
         "localesIcu": [
             "ar",
@@ -147,12 +141,9 @@
             "Asia/Kabul"
         ],
         "languages": {
-            "official": [
-                "pus",
-                "prs"
-            ],
-            "widelySpoken": [],
-            "localCommunities": [],
+            "official": ["pus", "prs"],
+            "widelySpoken": ["tuk", "bal", "uzb"],
+            "localCommunities": ["haz", "tkm", "pam", "hnd", "brh"],
             "signs": [],
             "dialects": []
         },
@@ -7511,7 +7502,7 @@
     {
         "LABEL": "Moldova (Republic of)",
         "officialName": {
-            "ro": "Republica Moldova"
+            "ron": "Republica Moldova"
         },
         "alpha2": "MD",
         "alpha3": "MDA",
@@ -7540,10 +7531,11 @@
             "Europe/Tiraspol"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["ron"],
+            "widelySpoken": ["rus"],
+            "localCommunities": ["ukr", "bul", "gag"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "ro",
@@ -7559,8 +7551,7 @@
     {
         "LABEL": "Montenegro",
         "officialName": {
-            "sr-Latn": "Crna Gora",
-            "sr-Cyrl": "Црна Гора"
+            "cnr": "Crna Gora"
         },
         "alpha2": "ME",
         "alpha3": "MNE",
@@ -7571,8 +7562,8 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "sr-Latn": "Čojstvo i junaštvo",
-                "sr-Cyrl": "Чојство и јунаштво"
+                "cnr-Cyrl": "Част и Слобода",
+                "cnr-Latn": "Čast i Sloboda"
             }
         },
         "currencies": {
@@ -7593,10 +7584,11 @@
             "Europe/Podgorica"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
+            "official": ["cnr"],
+            "widelySpoken": ["srp", "bos", "hrv", "alb"],
             "localCommunities": [],
-            "signs": []
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "sr",
@@ -7613,7 +7605,7 @@
     {
         "LABEL": "Saint Martin (French part)",
         "officialName": {
-            "fr": "Collectivité d'outre-mer de Saint-Martin"
+            "fra": "Collectivité d'outre-mer de Saint-Martin"
         },
         "alpha2": "MF",
         "alpha3": "MAF",
@@ -7641,10 +7633,11 @@
             "America/Marigot"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["fra"],
+            "widelySpoken": ["eng"],
+            "localCommunities": ["nrf", "spa", "hat"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "fr",
@@ -7658,8 +7651,8 @@
     {
         "LABEL": "Madagascar",
         "officialName": {
-            "mg": "Repoblikan'i Madagasikara",
-            "fr": "République de Madagascar"
+            "mlg": "Repoblikan'i Madagasikara",
+            "fra": "République de Madagascar"
         },
         "alpha2": "MG",
         "alpha3": "MDG",
@@ -7670,7 +7663,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "mg": "Tanindrazana, Fahafahana, Fandrosoana"
+                "mlg": "Tanindrazana, Fahafahana, Fandrosoana"
             }
         },
         "currencies": {
@@ -7691,10 +7684,11 @@
             "Indian/Antananarivo"
         ],
         "languages": {
-            "official": [],
+            "official": ["mlg", "fra"],
             "widelySpoken": [],
             "localCommunities": [],
-            "signs": []
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -7710,8 +7704,8 @@
     {
         "LABEL": "Marshall Islands",
         "officialName": {
-            "mh": "Aolepān Aorōkin M̧ajeļ",
-            "en": "Republic of the Marshall Islands"
+            "mah": "Aolepān Aorōkin M̧ajeļ",
+            "eng": "Republic of the Marshall Islands"
         },
         "alpha2": "MH",
         "alpha3": "MHL",
@@ -7722,7 +7716,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "mh": "Jepilpilin ke ejukaan"
+                "mah": "Jepilpilin ke ejukaan"
             }
         },
         "currencies": {
@@ -7744,10 +7738,11 @@
             "Pacific/Majuro"
         ],
         "languages": {
-            "official": [],
+            "official": ["mah", "eng"],
             "widelySpoken": [],
             "localCommunities": [],
-            "signs": []
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -7761,8 +7756,8 @@
     {
         "LABEL": "North Macedonia",
         "officialName": {
-            "mk": "Република Северна Македонија",
-            "sq": "Republika e Maqedonisë së Veriut"
+            "mkd": "Република Северна Македонија",
+            "sqi": "Republika e Maqedonisë së Veriut"
         },
         "alpha2": "MK",
         "alpha3": "MKD",
@@ -7790,10 +7785,11 @@
             "Europe/Skopje"
         ],
         "languages": {
-            "official": [],
+            "official": ["mkd", "sqi"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["rom", "trk", "srb", "vlm", "bos"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "mk",
@@ -7809,7 +7805,7 @@
     {
         "LABEL": "Mali",
         "officialName": {
-            "fr": "République du Mali"
+            "fra": "République du Mali"
         },
         "alpha2": "ML",
         "alpha3": "MLI",
@@ -7820,7 +7816,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "fr": "Un peuple, un but, une foi"
+                "fra": "Un peuple, un but, une foi"
             }
         },
         "currencies": {
@@ -7842,10 +7838,11 @@
             "Africa/Timbuktu"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["fra"],
+            "widelySpoken": ["bam", "fuf"],
+            "localCommunities": ["son", "ses", "tmh", "ful", "dyu", "bci", "snq"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "fr",
@@ -7859,7 +7856,7 @@
     {
         "LABEL": "Myanmar",
         "officialName": {
-            "my": "ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်"
+            "mya": "ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်"
         },
         "alpha2": "MM",
         "alpha3": "MMR",
@@ -7888,10 +7885,11 @@
             "Asia/Rangoon"
         ],
         "languages": {
-            "official": [],
+            "official": ["mya"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["shn", "kac", "kar", "cak", "mnw", "rar", "cmn", "tam"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "my",
@@ -7905,7 +7903,7 @@
     {
         "LABEL": "Mongolia",
         "officialName": {
-            "mn": "ᠮᠣᠩᠭᠣᠯ ᠤᠯᠤᠰ"
+            "mon": "ᠮᠣᠩᠭᠣᠯ ᠤᠯᠤᠰ"
         },
         "alpha2": "MN",
         "alpha3": "MNG",
@@ -7945,10 +7943,11 @@
             "Asia/Ulan_Bator"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["mon"],
+            "widelySpoken": ["rus"],
+            "localCommunities": ["kaz", "tuv", "bxr", "mvf"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "mn",
@@ -7957,14 +7956,17 @@
         "otherAppsIds": {
             "geoNamesOrg": 2029969
         },
-        "NOTES": []
+        "NOTES": [
+            "[languages] 'rus' is still widely taught and used, though not official.",
+            "[languages] 'bxr' represents Buriat spoken in northern Mongolia, distinct from Khalkha Mongolian."
+        ]
     },
     {
         "LABEL": "Macao",
         "officialName": {
             "cmn": "中华人民共和国澳门特别行政区",
             "yue": "中華人民共和國澳門特別行政區",
-            "pt": "Região Administrativa Especial de Macau da República Popular da China"
+            "por": "Região Administrativa Especial de Macau da República Popular da China"
         },
         "alpha2": "MO",
         "alpha3": "MAC",
@@ -7993,10 +7995,11 @@
             "Asia/Macao"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["yue", "por"],
+            "widelySpoken": ["cmn"],
+            "localCommunities": ["eng"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -8014,7 +8017,7 @@
     {
         "LABEL": "Northern Mariana Islands",
         "officialName": {
-            "en": "Commonwealth of the Northern Mariana Islands"
+            "eng": "Commonwealth of the Northern Mariana Islands"
         },
         "alpha2": "MP",
         "alpha3": "MNP",
@@ -8042,10 +8045,11 @@
             "Pacific/Saipan"
         ],
         "languages": {
-            "official": [],
+            "official": ["eng", "cha", "car"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["fil", "jpn", "kor", "cmn"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -8059,7 +8063,7 @@
     {
         "LABEL": "Martinique",
         "officialName": {
-            "fr": "Collectivité territoriale de Martinique"
+            "fra": "Collectivité territoriale de Martinique"
         },
         "alpha2": "MQ",
         "alpha3": "MTQ",
@@ -8087,10 +8091,11 @@
             "America/Martinique"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["fra"],
+            "widelySpoken": ["acf"],
+            "localCommunities": ["hat", "car"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "fr",
@@ -8104,8 +8109,8 @@
     {
         "LABEL": "Mauritania",
         "officialName": {
-            "ar": "الجمهورية الإسلامية الموريتانية",
-            "fr": "Republique Islamique de Mauritanie"
+            "ara": "الجمهورية الإسلامية الموريتانية",
+            "fra": "Republique Islamique de Mauritanie"
         },
         "alpha2": "MR",
         "alpha3": "MRT",
@@ -8116,7 +8121,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "ar": "شرف إخاء عدل"
+                "ara": "شرف إخاء عدل"
             }
         },
         "currencies": {
@@ -8137,10 +8142,11 @@
             "Africa/Nouakchott"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["ara"],
+            "widelySpoken": ["fra", "mey", "zen"],
+            "localCommunities": ["son", "fuc", "snq", "bwj"],
+            "signs": [],
+            "dialects": ["ary", "aao"]
         },
         "localesIcu": [
             "ar",
@@ -8158,7 +8164,7 @@
     {
         "LABEL": "Montserrat",
         "officialName": {
-            "en": "Colony of Montserrat"
+            "eng": "Colony of Montserrat"
         },
         "alpha2": "MS",
         "alpha3": "MSR",
@@ -8169,7 +8175,7 @@
         "dependency": "GB",
         "mottos": {
             "official": {
-                "en": "A people of excellence, moulded by nature, nurtured by God"
+                "eng": "A people of excellence, moulded by nature, nurtured by God"
             }
         },
         "currencies": {
@@ -8190,10 +8196,11 @@
             "America/Montserrat"
         ],
         "languages": {
-            "official": [],
+            "official": ["eng"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["acf"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -8207,8 +8214,8 @@
     {
         "LABEL": "Malta",
         "officialName": {
-            "mt": "Repubblika ta' Malta",
-            "en": "Republic of Malta"
+            "mlt": "Repubblika ta' Malta",
+            "eng": "Republic of Malta"
         },
         "alpha2": "MT",
         "alpha3": "MLT",
@@ -8219,7 +8226,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "la": "Virtute et constantia"
+                "lat": "Virtute et constantia"
             }
         },
         "currencies": {
@@ -8240,10 +8247,11 @@
             "Europe/Malta"
         ],
         "languages": {
-            "official": [],
+            "official": ["mlt", "eng"],
             "widelySpoken": [],
             "localCommunities": [],
-            "signs": []
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -8259,8 +8267,8 @@
     {
         "LABEL": "Mauritius",
         "officialName": {
-            "en": "Republic of Mauritius",
-            "fr": "République de Maurice"
+            "eng": "Republic of Mauritius",
+            "fra": "République de Maurice"
         },
         "alpha2": "MU",
         "alpha3": "MUS",
@@ -8271,7 +8279,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "la": "Stella Clavisque Maris Indici"
+                "lat": "Stella Clavisque Maris Indici"
             }
         },
         "currencies": {
@@ -8292,10 +8300,11 @@
             "Indian/Mauritius"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["eng"],
+            "widelySpoken": ["mfe", "fra", "bho"],
+            "localCommunities": ["urd", "tam", "tel", "guj", "hns", "yue"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -8311,7 +8320,7 @@
     {
         "LABEL": "Maldives",
         "officialName": {
-            "dv": "ދިވެހިރާއްޖޭގެ ޖުމްހޫރިއްޔާ"
+            "div": "ދިވެހިރާއްޖޭގެ ޖުމްހޫރިއްޔާ"
         },
         "alpha2": "MV",
         "alpha3": "MDV",
@@ -8322,7 +8331,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "ar": "الدولة المحلديبية"
+                "ara": "الدولة المحلديبية"
             }
         },
         "currencies": {
@@ -8343,10 +8352,11 @@
             "Indian/Maldives"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["div"],
+            "widelySpoken": ["eng"],
+            "localCommunities": ["hin", "tam"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [],
         "otherAppsIds": {
@@ -8357,8 +8367,8 @@
     {
         "LABEL": "Malawi",
         "officialName": {
-            "ny": "Dziko la Malaŵi",
-            "en": "Republic of Malawi"
+            "nya": "Dziko la Malaŵi",
+            "eng": "Republic of Malawi"
         },
         "alpha2": "MW",
         "alpha3": "MWI",
@@ -8369,7 +8379,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "en": "Unity and Freedom"
+                "eng": "Unity and Freedom"
             }
         },
         "currencies": {
@@ -8390,10 +8400,11 @@
             "Africa/Blantyre"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["nya", "eng"],
+            "widelySpoken": ["tum", "yai"],
+            "localCommunities": ["loz", "tsw", "toh", "seh"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -8407,7 +8418,7 @@
     {
         "LABEL": "Mexico",
         "officialName": {
-            "es": "Estados Unidos Mexicanos"
+            "spa": "Estados Unidos Mexicanos"
         },
         "alpha2": "MX",
         "alpha3": "MEX",
@@ -8418,7 +8429,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "es": "La Patria Es Primero"
+                "spa": "La Patria Es Primero"
             }
         },
         "currencies": {
@@ -8454,10 +8465,11 @@
             "Mexico/General"
         ],
         "languages": {
-            "official": [],
+            "official": ["spa"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["nah", "mxc", "mix", "tzm", "zap", "myn", "tar", "cmi", "tzo", "yoa"],
+            "signs": ["mfs"],
+            "dialects": []
         },
         "localesIcu": [
             "es",
@@ -8466,12 +8478,16 @@
         "otherAppsIds": {
             "geoNamesOrg": 3996063
         },
-        "NOTES": []
+        "NOTES": [
+            "[languages] Mexico recognizes 68 indigenous languages as national languages per LGDLPI (2003), ",
+            "with official status in the regions where spoken. Only Spanish has nationwide functional official status."
+        ]
+
     },
     {
         "LABEL": "Malaysia",
         "officialName": {
-            "ms": "Malaysia"
+            "msa": "Malaysia"
         },
         "alpha2": "MY",
         "alpha3": "MYS",
@@ -8482,7 +8498,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "ms": "Bersekutu Bertambah Mutu"
+                "msa": "Bersekutu Bertambah Mutu"
             }
         },
         "currencies": {
@@ -8504,10 +8520,11 @@
             "Asia/Kuching"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["zsm"],
+            "widelySpoken": ["eng", "zho", "tam"],
+            "localCommunities": ["tel", "mlt", "bjn", "ceb", "tha", "jak", "che", "tem"],
+            "signs": [],
+            "dialects": ["jhi"]
         },
         "localesIcu": [
             "en",
@@ -8521,14 +8538,19 @@
             "geoNamesOrg": 1733045
         },
         "NOTES": [
-            "The Malay language also has a different alphabet called 'Jawi', ",
-            "which does not have a corresponding ISO 639 code. IGNORED."
+            "[languages] Malaysia recognizes Malay (zsm) as the only official language according to Article 152 of",
+            "the Constitution. English, Mandarin Chinese (zho), and Tamil (tam) are widely used in education, media,",
+            "and commerce. Indigenous groups and migrant communities speak various local languages including ",
+            "Telugu (tel), Banjar (bjn), Temiar (tem), and others.",
+            "[languages] The Malay language also has a different alphabet called 'Jawi', which does not have a ",
+            "corresponding ISO 639 code. IGNORED."
         ]
+
     },
     {
         "LABEL": "Mozambique",
         "officialName": {
-            "pt": "República de Moçambique"
+            "por": "República de Moçambique"
         },
         "alpha2": "MZ",
         "alpha3": "MOZ",
@@ -8556,10 +8578,11 @@
             "Africa/Maputo"
         ],
         "languages": {
-            "official": [],
+            "official": ["por"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["vmw", "seh", "nyy", "bwc", "ndc", "rng", "lom", "yao", "tsc"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "pt",
@@ -8568,12 +8591,15 @@
         "otherAppsIds": {
             "geoNamesOrg": 1036973
         },
-        "NOTES": []
+        "NOTES": [
+          "[languages] Portuguese is the only official language. Bantu languages are widely used in local communities.",
+          "[languages] Makhuwa, Sena, and Tswa-related languages are the most spoken native languages across regions."
+        ]
     },
     {
         "LABEL": "Namibia",
         "officialName": {
-            "en": "Republic of Namibia"
+            "eng": "Republic of Namibia"
         },
         "alpha2": "NA",
         "alpha3": "NAM",
@@ -8584,7 +8610,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "en": "Unity, Liberty, Justice"
+                "eng": "Unity, Liberty, Justice"
             }
         },
         "currencies": {
@@ -8605,10 +8631,11 @@
             "Africa/Windhoek"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["eng"],
+            "widelySpoken": ["afr", "deu", "naq", "hgm", "kwn", "loz", "her"],
+            "localCommunities": ["tsn", "ven", "khi", "ktz", "bwc"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "af",
@@ -8619,12 +8646,17 @@
         "otherAppsIds": {
             "geoNamesOrg": 3355338
         },
-        "NOTES": []
+        "NOTES": [
+            "[languages] English is the only official language. Afrikaans and Khoekhoe are widely spoken and used ",
+            "regionally.",
+            "[languages] Herero, German, and Lozi have strong presence. Indigenous San languages are spoken by local ",
+            "groups."
+        ]
     },
     {
         "LABEL": "New Caledonia",
         "officialName": {
-            "fr": "Gouvernement de la Nouvelle-Calédonie"
+            "fra": "Gouvernement de la Nouvelle-Calédonie"
         },
         "alpha2": "NC",
         "alpha3": "NCL",
@@ -8652,10 +8684,11 @@
             "Pacific/Noumea"
         ],
         "languages": {
-            "official": [],
+            "official": ["fra"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["aji", "drg", "pma", "pkn", "nkk", "hnj"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "fr",
@@ -8664,12 +8697,18 @@
         "otherAppsIds": {
             "geoNamesOrg": 2139685
         },
-        "NOTES": []
+        "NOTES": [
+            "[languages] French is the only official language. Kanak languages like Ajië and Drehu are",
+            "used in local education.",
+            "[languages] Over 30 Kanak languages are recognized as heritage. Several have ISO codes and",
+            "active speakers.",
+            "[languages] Hmong Njua (hnj) is spoken by a Lao Hmong community in Bourail, active since 1975."
+        ]
     },
     {
         "LABEL": "Niger",
         "officialName": {
-            "fr": "République du Niger"
+            "fra": "République du Niger"
         },
         "alpha2": "NE",
         "alpha3": "NER",
@@ -8680,7 +8719,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "fr": "Unité - Travail - Progrès"
+                "fra": "Unité - Travail - Progrès"
             }
         },
         "currencies": {
@@ -8701,10 +8740,11 @@
             "Africa/Niamey"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["fra"],
+            "widelySpoken": ["hau", "dje", "tmh", "ful", "kan", "zma"],
+            "localCommunities": ["bmn", "mfh", "tsw", "srr"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "fr",
@@ -8720,7 +8760,7 @@
     {
         "LABEL": "Norfolk Island",
         "officialName": {
-            "en": "Territory of Norfolk Island"
+            "eng": "Territory of Norfolk Island"
         },
         "alpha2": "NF",
         "alpha3": "NFK",
@@ -8731,7 +8771,7 @@
         "dependency": "AU",
         "mottos": {
             "official": {
-                "pih": "Inasmuch"
+                "und": "Inasmuch"
             }
         },
         "currencies": {
@@ -8752,10 +8792,11 @@
             "Pacific/Norfolk"
         ],
         "languages": {
-            "official": [],
+            "official": ["eng"],
             "widelySpoken": [],
             "localCommunities": [],
-            "signs": []
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -8764,12 +8805,15 @@
         "otherAppsIds": {
             "geoNamesOrg": 2155115
         },
-        "NOTES": []
+        "NOTES": [
+            "[languages] Norfuk is legally protected and used locally, but lacks an ISO 639-3 code. Excluded.",
+            "[mottos] Motto 'Inasmuch' is in Norfuk. No ISO code exists, so stored using key 'und' in mottos.official."
+        ]
     },
     {
         "LABEL": "Nigeria",
         "officialName": {
-            "en": "Federal Republic of Nigeria"
+            "eng": "Federal Republic of Nigeria"
         },
         "alpha2": "NG",
         "alpha3": "NGA",
@@ -8780,7 +8824,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "en": "Unity and Faith, Peace and Progress"
+                "eng": "Unity and Faith, Peace and Progress"
             }
         },
         "currencies": {
@@ -8801,10 +8845,11 @@
             "Africa/Lagos"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["eng"],
+            "widelySpoken": ["hau", "ibo", "yor", "fuv"],
+            "localCommunities": ["efi", "bin", "tiv", "ibb", "kaj", "kau", "bbc", "kcg", "ogo", "bba"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -8824,7 +8869,7 @@
     {
         "LABEL": "Nicaragua",
         "officialName": {
-            "es": "República de Nicaragua"
+            "spa": "República de Nicaragua"
         },
         "alpha2": "NI",
         "alpha3": "NIC",
@@ -8835,7 +8880,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "es": "En Dios Confiamos"
+                "spa": "En Dios Confiamos"
             }
         },
         "currencies": {
@@ -8856,10 +8901,11 @@
             "America/Managua"
         ],
         "languages": {
-            "official": [],
+            "official": ["spa"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["miq", "bzd", "cab", "cok", "ulw"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "es",
@@ -8873,10 +8919,9 @@
     {
         "LABEL": "Netherlands",
         "officialName": {
-            "nl": "Koninkrijk der Nederlanden",
-            "fy": "Keninkryk fan de Nederlannen",
-            "pap": "Reino Hulandes",
-            "en": "Kingdom of the Netherlands"
+            "nld": "Koninkrijk der Nederlanden",
+            "fry": "Keninkryk fan de Nederlannen",
+            "pap": "Reino Hulandes"
         },
         "alpha2": "NL",
         "alpha3": "NLD",
@@ -8887,10 +8932,10 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "fr": "Je maintiendrai"
+                "fra": "Je maintiendrai"
             },
             "royal": {
-                "fr": "Je maintiendrai"
+                "fra": "Je maintiendrai"
             }
         },
         "currencies": {
@@ -8911,10 +8956,11 @@
             "Europe/Amsterdam"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["nld", "fry", "pap"],
+            "widelySpoken": ["eng"],
+            "localCommunities": ["zea"],
+            "signs": ["dse"],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -8927,14 +8973,16 @@
         "otherAppsIds": {
             "geoNamesOrg": 2750405
         },
-        "NOTES": []
+        "NOTES": [
+            "[languages] Dutch Sign Language (dse) is official since 2020. Included under 'signs' with ISO code."
+        ]
     },
     {
         "LABEL": "Norway",
         "officialName": {
-            "nb": "Kongeriket Norge",
-            "nn": "Kongeriket Noreg",
-            "se": "Norgga gonagasriika",
+            "nob": "Kongeriket Norge",
+            "nno": "Kongeriket Noreg",
+            "sme": "Norgga gonagasriika",
             "smj": "Vuona gånågisrijkka",
             "sma": "Nöörjen gånkarïjhke"
         },
@@ -8964,10 +9012,11 @@
             "Europe/Oslo"
         ],
         "languages": {
-            "official": [],
+            "official": ["nob", "nno", "sme", "smj", "sma"],
             "widelySpoken": [],
             "localCommunities": [],
-            "signs": []
+            "signs": ["nsl"],
+            "dialects": []
         },
         "localesIcu": [
             "nb",
@@ -8985,7 +9034,7 @@
     {
         "LABEL": "Nepal",
         "officialName": {
-            "ne": "सङ्घीय लोकतान्त्रिक गणतन्त्र नेपाल"
+            "nep": "सङ्घीय लोकतान्त्रिक गणतन्त्र नेपाल"
         },
         "alpha2": "NP",
         "alpha3": "NPL",
@@ -8996,7 +9045,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "ne": "जननी जन्मभूमिश्च स्वर्गादपी गरीयसी"
+                "nep": "जननी जन्मभूमिश्च स्वर्गादपी गरीयसी"
             }
         },
         "currencies": {
@@ -9018,10 +9067,11 @@
             "Asia/Katmandu"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["nep"],
+            "widelySpoken": ["mai", "bho", "new", "tam", "mag", "awa", "thf"],
+            "localCommunities": ["dty", "thl", "ltr", "san", "che", "sun", "byn"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "ne",
@@ -9035,8 +9085,8 @@
     {
         "LABEL": "Nauru",
         "officialName": {
-            "na": "Ripublik Naoero",
-            "en": "Republic of Nauru"
+            "nau": "Ripublik Naoero",
+            "eng": "Republic of Nauru"
         },
         "alpha2": "NR",
         "alpha3": "NRU",
@@ -9047,7 +9097,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "en": "God's Will First"
+                "eng": "God's Will First"
             }
         },
         "currencies": {
@@ -9068,10 +9118,11 @@
             "Pacific/Nauru"
         ],
         "languages": {
-            "official": [],
+            "official": ["nau", "eng"],
             "widelySpoken": [],
             "localCommunities": [],
-            "signs": []
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -9085,7 +9136,8 @@
     {
         "LABEL": "Niue",
         "officialName": {
-            "en": "Niue"
+            "eng": "Niue",
+            "niu": "Fakamotu Niue"
         },
         "alpha2": "NU",
         "alpha3": "NIU",
@@ -9117,10 +9169,11 @@
             "Pacific/Niue"
         ],
         "languages": {
-            "official": [],
+            "official": ["eng", "niu"],
             "widelySpoken": [],
             "localCommunities": [],
-            "signs": []
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -9134,8 +9187,8 @@
     {
         "LABEL": "New Zealand",
         "officialName": {
-            "mi": "Aotearoa",
-            "en": "New Zealand"
+            "mri": "Aotearoa",
+            "eng": "New Zealand"
         },
         "alpha2": "NZ",
         "alpha3": "NZL",
@@ -9164,10 +9217,11 @@
             "Pacific/Chatham"
         ],
         "languages": {
-            "official": [],
+            "official": ["eng", "mri", "nzs"],
             "widelySpoken": [],
             "localCommunities": [],
-            "signs": []
+            "signs": ["nzs"],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -9181,7 +9235,7 @@
     {
         "LABEL": "Oman",
         "officialName": {
-            "ar": "سلطنة عُمان"
+            "ara": "سلطنة عُمان"
         },
         "alpha2": "OM",
         "alpha3": "OMN",
@@ -9209,10 +9263,11 @@
             "Asia/Muscat"
         ],
         "languages": {
-            "official": [],
+            "official": ["ara"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["bal", "swb", "eng", "hnd"],
+            "signs": [],
+            "dialects": ["afb"]
         },
         "localesIcu": [
             "ar",
@@ -9221,12 +9276,14 @@
         "otherAppsIds": {
             "geoNamesOrg": 286963
         },
-        "NOTES": []
+        "NOTES": [
+            "[languages] Gulf Arabic (afb) is the main spoken variety, but not used officially. Added to 'dialects'."
+        ]
     },
     {
         "LABEL": "Panama",
         "officialName": {
-            "es": "República de Panamá"
+            "spa": "República de Panamá"
         },
         "alpha2": "PA",
         "alpha3": "PAN",
@@ -9237,7 +9294,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "la": "Pro Mundi Beneficio"
+                "lat": "Pro Mundi Beneficio"
             }
         },
         "currencies": {
@@ -9258,10 +9315,11 @@
             "America/Panama"
         ],
         "languages": {
-            "official": [],
+            "official": ["spa"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["gnb", "gna", "pln", "tue", "cab", "ebr"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "es",
@@ -9271,15 +9329,16 @@
             "geoNamesOrg": 3703430
         },
         "NOTES": [
-            "El Salvador and Panama also have Bitcoin as legal tender. IGNORED."
+            "[currency] El Salvador and Panama also have Bitcoin as legal tender. IGNORED.",
+            "[languages] Indigenous languages like Guna (gnb, gna) are recognized culturally but not official. All ISO valid."
         ]
     },
     {
         "LABEL": "Peru",
         "officialName": {
-            "es": "República del Perú",
-            "qu": "Piruw Ripuwlika",
-            "ay": "Piruw Suyu"
+            "spa": "República del Perú",
+            "que": "Piruw Ripuwlika",
+            "aym": "Piruw Suyu"
         },
         "alpha2": "PE",
         "alpha3": "PER",
@@ -9290,7 +9349,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "es": "Firme y feliz por la unión"
+                "spa": "Firme y feliz por la unión"
             }
         },
         "currencies": {
@@ -9311,10 +9370,11 @@
             "America/Lima"
         ],
         "languages": {
-            "official": [],
+            "official": ["spa", "que", "aym"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["agr", "cni", "shp", "mrc", "ash"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "es",
@@ -9323,12 +9383,14 @@
         "otherAppsIds": {
             "geoNamesOrg": 3932488
         },
-        "NOTES": []
+        "NOTES": [
+            "[languages] Quechua and Aymara are official only in certain regions. Indigenous Amazonian languages added where ISO."
+        ]
     },
     {
         "LABEL": "French Polynesia",
         "officialName": {
-            "fr": "Polynésie française"
+            "fra": "Polynésie française"
         },
         "alpha2": "PF",
         "alpha3": "PYF",
@@ -9339,10 +9401,10 @@
         "dependency": "FR",
         "mottos": {
             "official": {
-                "fr": "Liberté, Égalité, Fraternité"
+                "fra": "Liberté, Égalité, Fraternité"
             },
             "popular": {
-                "ty": "Pōrīnetia Farāni"
+                "tah": "Pōrīnetia Farāni"
             }
         },
         "currencies": {
@@ -9365,10 +9427,11 @@
             "Pacific/Tahiti"
         ],
         "languages": {
-            "official": [],
+            "official": ["fra"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["tah", "pau", "mhx", "nrf"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "fr",
@@ -9377,13 +9440,15 @@
         "otherAppsIds": {
             "geoNamesOrg": 4030656
         },
-        "NOTES": []
+        "NOTES": [
+            "[languages] French is the only official language. Tahitian and other ISO-coded Polynesian languages added as local."
+        ]
     },
     {
         "LABEL": "Papua New Guinea",
         "officialName": {
-            "en": "Independent State of Papua New Guinea",
-            "ho": "Independen Stet bilong Papua Niu Gini"
+            "eng": "Independent State of Papua New Guinea",
+            "hmo": "Independen Stet bilong Papua Niu Gini"
         },
         "alpha2": "PG",
         "alpha3": "PNG",
@@ -9394,7 +9459,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "en": "Unity in Diversity"
+                "eng": "Unity in Diversity"
             }
         },
         "currencies": {
@@ -9416,10 +9481,11 @@
             "Pacific/Port_Moresby"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["eng", "hmo"],
+            "widelySpoken": ["tpi"],
+            "localCommunities": ["meu", "kag"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -9428,13 +9494,16 @@
         "otherAppsIds": {
             "geoNamesOrg": 2088628
         },
-        "NOTES": []
+        "NOTES": [
+            "[languages] English and Hiri Motu are official. Tok Pisin is widely spoken but not legally official.",
+            "[languages] Local languages like Motu (meu) are included only if ISO-coded and ethnographically present."
+        ]
     },
     {
         "LABEL": "Philippines",
         "officialName": {
             "fil": "Repúbliká ng Pilipinas",
-            "en": "Republic of the Philippines"
+            "eng": "Republic of the Philippines"
         },
         "alpha2": "PH",
         "alpha3": "PHL",
@@ -9445,8 +9514,8 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "tl": "Maka-Diyos, Maka-tao, Makakalikasan at Makabansa",
-                "en": "For God, People, Nature and Country"
+                "tgl": "Maka-Diyos, Maka-tao, Makakalikasan at Makabansa",
+                "eng": "For God, People, Nature and Country"
             }
         },
         "currencies": {
@@ -9467,10 +9536,11 @@
             "Asia/Manila"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["fil", "eng"],
+            "widelySpoken": ["tgl", "ceb", "ilo", "hil"],
+            "localCommunities": ["war", "bik", "mdh", "tsg", "mrw", "bku", "msb"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -9483,13 +9553,15 @@
         "otherAppsIds": {
             "geoNamesOrg": 1694008
         },
-        "NOTES": []
+        "NOTES": [
+            "[languages] Filipino and English are official. Major regional languages added by diffusion and ISO presence.",
+            "[languages] Filipino Sign Language is legally recognized but lacks ISO code. Not included."
+        ]
     },
     {
         "LABEL": "Pakistan",
         "officialName": {
-            "ur": "اِسلامی جمہوریہ پاكِستان",
-            "en": "Islamic Republic of Pakistan"
+            "urd": "اِسلامی جمہوریہ پاكِستان"
         },
         "alpha2": "PK",
         "alpha3": "PAK",
@@ -9500,7 +9572,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "ur": "ایمان ، اتحاد ، نظم"
+                "urd": "ایمان ، اتحاد ، نظم"
             }
         },
         "currencies": {
@@ -9531,10 +9603,11 @@
             "Asia/Karachi"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["urd"],
+            "widelySpoken": ["pan", "snd", "pus", "bal"],
+            "localCommunities": ["hnd", "bra", "skr", "mvy", "guj", "kas"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -9548,12 +9621,15 @@
         "otherAppsIds": {
             "geoNamesOrg": 1168579
         },
-        "NOTES": []
+        "NOTES": [
+            "[languages] Urdu is the only official language. English is used administratively but not official by law.",
+            "[languages] Major regional languages like Punjabi, Sindhi, and Pashto are widely spoken and ISO-valid."
+        ]
     },
     {
         "LABEL": "Poland",
         "officialName": {
-            "pl": "Rzeczpospolita Polska"
+            "pol": "Rzeczpospolita Polska"
         },
         "alpha2": "PL",
         "alpha3": "POL",
@@ -9581,10 +9657,11 @@
             "Europe/Warsaw"
         ],
         "languages": {
-            "official": [],
+            "official": ["pol"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["szl", "kas", "lit", "ukr", "deu", "blr", "rom"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "pl",
@@ -9598,7 +9675,7 @@
     {
         "LABEL": "Saint Pierre and Miquelon",
         "officialName": {
-            "fr": "Collectivité d'outre-mer de Saint-Pierre-et-Miquelon"
+            "fra": "Collectivité d'outre-mer de Saint-Pierre-et-Miquelon"
         },
         "alpha2": "PM",
         "alpha3": "SPM",
@@ -9609,7 +9686,7 @@
         "dependency": "FR",
         "mottos": {
             "official": {
-                "la": "A Mare Labor"
+                "lat": "A Mare Labor"
             }
         },
         "currencies": {
@@ -9630,10 +9707,11 @@
             "America/Miquelon"
         ],
         "languages": {
-            "official": [],
+            "official": ["fra"],
             "widelySpoken": [],
             "localCommunities": [],
-            "signs": []
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "fr",
@@ -9647,8 +9725,7 @@
     {
         "LABEL": "Pitcairn",
         "officialName": {
-            "en": "Pitcairn, Henderson, Ducie and Oeno Islands",
-            "pih": "Pitkern Ailen"
+            "eng": "Pitcairn, Henderson, Ducie and Oeno Islands"
         },
         "alpha2": "PN",
         "alpha3": "PCN",
@@ -9659,7 +9736,7 @@
         "dependency": "GB",
         "mottos": {
             "official": {
-                "fr": "Dieu et mon droit"
+                "fra": "Dieu et mon droit"
             }
         },
         "currencies": {
@@ -9680,10 +9757,11 @@
             "Pacific/Pitcairn"
         ],
         "languages": {
-            "official": [],
+            "official": ["eng"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["pih"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -9697,8 +9775,8 @@
     {
         "LABEL": "Puerto Rico",
         "officialName": {
-            "en": "Commonwealth of Puerto Rico",
-            "es": "Estado Libre Asociado de Puerto Rico"
+            "eng": "Commonwealth of Puerto Rico",
+            "spa": "Estado Libre Asociado de Puerto Rico"
         },
         "alpha2": "PR",
         "alpha3": "PRI",
@@ -9709,7 +9787,7 @@
         "dependency": "US",
         "mottos": {
             "official": {
-                "la": "Joannes Est Nomen Eius"
+                "lat": "Joannes Est Nomen Eius"
             }
         },
         "currencies": {
@@ -9731,10 +9809,11 @@
             "America/Puerto_Rico"
         ],
         "languages": {
-            "official": [],
+            "official": ["spa", "eng"],
             "widelySpoken": [],
             "localCommunities": [],
-            "signs": []
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -9745,12 +9824,15 @@
         "otherAppsIds": {
             "geoNamesOrg": 4566966
         },
-        "NOTES": []
+        "NOTES": [
+            "[languages] Both Spanish and English are official by law. Spanish is dominant in everyday communication.",
+            "[languages] No local or sign languages with ISO code. Dialectal Spanish not included."
+        ]
     },
     {
         "LABEL": "Palestine",
         "officialName": {
-            "ar": "دولة فلسطين"
+            "ara": "دولة فلسطين"
         },
         "alpha2": "PS",
         "alpha3": "PSE",
@@ -9777,10 +9859,11 @@
             "Asia/Hebron"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
+            "official": ["ara"],
+            "widelySpoken": ["apc"],
             "localCommunities": [],
-            "signs": []
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "ar",
@@ -9789,12 +9872,15 @@
         "otherAppsIds": {
             "geoNamesOrg": 6254930
         },
-        "NOTES": []
+        "NOTES": [
+            "[languages] Arabic is the only official language. Levantine Arabic (apc) is widely spoken.",
+            "[languages] Palestinian Sign Language exists but lacks ISO code. Not included."
+        ]
     },
     {
         "LABEL": "Portugal",
         "officialName": {
-            "pt": "República Portuguesa"
+            "por": "República Portuguesa"
         },
         "alpha2": "PT",
         "alpha3": "PRT",
@@ -9824,10 +9910,11 @@
             "Europe/Lisbon"
         ],
         "languages": {
-            "official": [],
+            "official": ["por"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["mwl"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "pt",
@@ -9836,13 +9923,16 @@
         "otherAppsIds": {
             "geoNamesOrg": 2264397
         },
-        "NOTES": []
+        "NOTES": [
+            "[languages] Portuguese is the only national official language. Mirandese (mwl) is recognized locally.",
+            "[languages] Portuguese Sign Language is constitutionally recognized but has no ISO code. Not included."
+        ]
     },
     {
         "LABEL": "Palau",
         "officialName": {
             "pau": "Beluu er a Palau ",
-            "en": "Republic of Palau"
+            "eng": "Republic of Palau"
         },
         "alpha2": "PW",
         "alpha3": "PLW",
@@ -9853,7 +9943,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "en": "Rainbow's End"
+                "eng": "Rainbow's End"
             }
         },
         "currencies": {
@@ -9874,10 +9964,11 @@
             "Pacific/Palau"
         ],
         "languages": {
-            "official": [],
+            "official": ["pau", "eng"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["jpn", "fil", "sov"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -9891,8 +9982,8 @@
     {
         "LABEL": "Paraguay",
         "officialName": {
-            "es": "República del Paraguay",
-            "gn": "Tetã Paraguái"
+            "spa": "República del Paraguay",
+            "grn": "Tetã Paraguái"
         },
         "alpha2": "PY",
         "alpha3": "PRY",
@@ -9903,8 +9994,8 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "es": "Paz y Justicia",
-                "gn": "Py'aguapy ha tekojoja"
+                "spa": "Paz y Justicia",
+                "grn": "Py'aguapy ha tekojoja"
             }
         },
         "currencies": {
@@ -9925,10 +10016,11 @@
             "America/Asuncion"
         ],
         "languages": {
-            "official": [],
+            "official": ["spa", "grn"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["ayc"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "es",
@@ -9937,12 +10029,15 @@
         "otherAppsIds": {
             "geoNamesOrg": 3437598
         },
-        "NOTES": []
+        "NOTES": [
+            "[languages] Spanish and Guaraní are both official by Constitution.",
+            "[languages] Ayoreo (ayc) is spoken by local indigenous communities. No sign language has ISO code."
+        ]
     },
     {
         "LABEL": "Qatar",
         "officialName": {
-            "ar": "دولة قطر"
+            "ara": "دولة قطر"
         },
         "alpha2": "QA",
         "alpha3": "QAT",
@@ -9953,7 +10048,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "ar": "الله الوطن الأمير"
+                "ara": "الله الوطن الأمير"
             }
         },
         "currencies": {
@@ -9983,10 +10078,11 @@
             "Asia/Qatar"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
+            "official": ["ara"],
+            "widelySpoken": ["hin", "urd", "tgl", "nep", "afb"],
             "localCommunities": [],
-            "signs": []
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "ar",
@@ -9995,12 +10091,15 @@
         "otherAppsIds": {
             "geoNamesOrg": 289688
         },
-        "NOTES": []
+        "NOTES": [
+            "[languages] Arabic is the only official language. Gulf Arabic (afb) is widely spoken informally.",
+            "[languages] Hindi, Urdu, Tagalog, and Nepali are widely used by migrant communities. All ISO valid."
+        ]
     },
     {
         "LABEL": "Réunion",
         "officialName": {
-            "fr": "Département de La Réunion"
+            "fra": "Département de La Réunion"
         },
         "alpha2": "RE",
         "alpha3": "REU",
@@ -10011,7 +10110,7 @@
         "dependency": "FR",
         "mottos": {
             "official": {
-                "la": "Florebo quocumque ferar"
+                "lat": "Florebo quocumque ferar"
             }
         },
         "currencies": {
@@ -10032,10 +10131,11 @@
             "Indian/Reunion"
         ],
         "languages": {
-            "official": [],
+            "official": ["fra"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["rcf"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "fr",
@@ -10044,12 +10144,14 @@
         "otherAppsIds": {
             "geoNamesOrg": 935317
         },
-        "NOTES": []
+        "NOTES": [
+            "[languages] French is the only official language. Réunion Creole (rcf) is spoken by most of the population."
+        ]
     },
     {
         "LABEL": "Romania",
         "officialName": {
-            "ro": "România"
+            "ron": "România"
         },
         "alpha2": "RO",
         "alpha3": "ROU",
@@ -10077,10 +10179,11 @@
             "Europe/Bucharest"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["ron"],
+            "widelySpoken": ["hun"],
+            "localCommunities": ["rom", "ger", "ukr", "srp", "rue", "bul", "trp"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "ro",
@@ -10089,7 +10192,10 @@
         "otherAppsIds": {
             "geoNamesOrg": 798549
         },
-        "NOTES": []
+        "NOTES": [
+            "[languages] Romanian is the only official language. Hungarian (hun) is widely spoken regionally.",
+            "[languages] Several minority languages are used locally: Romani, German, Ukrainian, Serbian, Rusyn, etc."
+        ]
     },
     {
         "LABEL": "Serbia",
@@ -10127,10 +10233,11 @@
             "Europe/Belgrade"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["srp"],
+            "widelySpoken": ["hun"],
+            "localCommunities": ["rom", "slk", "hrv", "ukr", "bul", "rue", "rum", "aln"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "sr",
@@ -10142,12 +10249,15 @@
         "otherAppsIds": {
             "geoNamesOrg": 6290252
         },
-        "NOTES": []
+        "NOTES": [
+            "[languages] Serbian (srp) is the only official language. Hungarian (hun) is widely spoken in Vojvodina.",
+            "[languages] Minority languages with ISO codes are used locally: Romani, Slovak, Rusyn, Croatian, etc."
+        ]
     },
     {
         "LABEL": "Russian Federation",
         "officialName": {
-            "ru": "Росси́йская Федера́ция"
+            "rus": "Росси́йская Федера́ция"
         },
         "alpha2": "RU",
         "alpha3": "RUS",
@@ -10213,10 +10323,11 @@
             "Europe/Volgograd"
         ],
         "languages": {
-            "official": [],
+            "official": ["rus"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["tat", "che", "baq", "chv", "ava", "ady", "kbd", "sah", "udm", "kom", "bua", "lez", "mdf", "myv", "inh"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "ru",
@@ -10230,10 +10341,10 @@
     {
         "LABEL": "Rwanda",
         "officialName": {
-            "rw": "Repubulika y'u Rwanda",
-            "sw": "Jamhuri ya Rwanda",
-            "fr": "République du Rwanda",
-            "en": "Republic of Rwanda"
+            "kin": "Repubulika y'u Rwanda",
+            "swa": "Jamhuri ya Rwanda",
+            "fra": "République du Rwanda",
+            "eng": "Republic of Rwanda"
         },
         "alpha2": "RW",
         "alpha3": "RWA",
@@ -10244,7 +10355,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "rw": "Ubumwe, Umurimo, Gukunda Igihugu"
+                "kin": "Ubumwe, Umurimo, Gukunda Igihugu"
             }
         },
         "currencies": {
@@ -10265,10 +10376,11 @@
             "Africa/Kigali"
         ],
         "languages": {
-            "official": [],
+            "official": ["kin", "swa", "fra", "eng"],
             "widelySpoken": [],
             "localCommunities": [],
-            "signs": []
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -10284,7 +10396,7 @@
     {
         "LABEL": "Saudi Arabia",
         "officialName": {
-            "ar": "المملكة العربية السعودية"
+            "ara": "المملكة العربية السعودية"
         },
         "alpha2": "SA",
         "alpha3": "SAU",
@@ -10295,7 +10407,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "ar": "لا إله إلا الله، محمد رسول الله"
+                "ara": "لا إله إلا الله، محمد رسول الله"
             }
         },
         "currencies": {
@@ -10325,10 +10437,11 @@
             "Asia/Riyadh"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["ara"],
+            "widelySpoken": ["eng", "mal", "urd"],
+            "localCommunities": ["tgl", "hin", "tam"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "ar",
@@ -10337,12 +10450,15 @@
         "otherAppsIds": {
             "geoNamesOrg": 102358
         },
-        "NOTES": []
+        "NOTES": [
+            "[languages] Arabic (ara) is the sole official language. English, Urdu, and Malayalam are widely spoken.",
+            "[languages] Tagalog, Hindi, and Tamil are used by stable migrant groups. No dialects with valid ISO codes."
+        ]
     },
     {
         "LABEL": "Solomon Islands",
         "officialName": {
-            "en": "Solomon Islands"
+            "eng": "Solomon Islands"
         },
         "alpha2": "SB",
         "alpha3": "SLB",
@@ -10374,10 +10490,11 @@
             "Pacific/Guadalcanal"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["eng"],
+            "widelySpoken": ["pis"],
+            "localCommunities": ["mlp", "alu"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -10392,8 +10509,8 @@
         "LABEL": "Seychelles",
         "officialName": {
             "crs": "Repiblik Sesel",
-            "en": "Republic of Seychelles",
-            "fr": "République des Seychelles"
+            "eng": "Republic of Seychelles",
+            "fra": "République des Seychelles"
         },
         "alpha2": "SC",
         "alpha3": "SYC",
@@ -10425,10 +10542,11 @@
             "Indian/Mahe"
         ],
         "languages": {
-            "official": [],
+            "official": ["crs", "eng", "fra"],
             "widelySpoken": [],
             "localCommunities": [],
-            "signs": []
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -10444,8 +10562,8 @@
     {
         "LABEL": "Sudan",
         "officialName": {
-            "ar": "جمهورية السودان",
-            "en": "Republic of the Sudan"
+            "ara": "جمهورية السودان",
+            "eng": "Republic of the Sudan"
         },
         "alpha2": "SD",
         "alpha3": "SDN",
@@ -10477,10 +10595,11 @@
             "Africa/Khartoum"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["ara", "eng"],
+            "widelySpoken": ["fvr", "gez", "bej"],
+            "localCommunities": ["fia", "shk", "jaa", "rej", "mmd"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "ar",
@@ -10496,7 +10615,7 @@
     {
         "LABEL": "Sweden",
         "officialName": {
-            "sv": "Konungariket Sverige"
+            "swe": "Konungariket Sverige"
         },
         "alpha2": "SE",
         "alpha3": "SWE",
@@ -10507,7 +10626,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "sv": "För Sverige - i tiden"
+                "swe": "För Sverige - i tiden"
             }
         },
         "currencies": {
@@ -10528,10 +10647,11 @@
             "Europe/Stockholm"
         ],
         "languages": {
-            "official": [],
+            "official": ["swe"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["fit", "sme", "fiq", "sma", "sju", "rmf"],
+            "signs": ["swl"],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -10549,10 +10669,10 @@
     {
         "LABEL": "Singapore",
         "officialName": {
-            "ms": "Republik Singapura",
-            "en": "Republic of Singapore",
-            "zh": "新加坡共和国",
-            "ta": "சிங்கப்பூர் குடியரசு"
+            "msa": "Republik Singapura",
+            "eng": "Republic of Singapore",
+            "zho": "新加坡共和国",
+            "tam": "சிங்கப்பூர் குடியரசு"
         },
         "alpha2": "SG",
         "alpha3": "SGP",
@@ -10602,10 +10722,11 @@
             "Asia/Singapore"
         ],
         "languages": {
-            "official": [],
+            "official": ["msa", "eng", "zho", "tam"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["min", "mal", "bjn"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -10620,12 +10741,15 @@
         "otherAppsIds": {
             "geoNamesOrg": 1880251
         },
-        "NOTES": []
+        "NOTES": [
+            "[languages] Singapore has four official languages (msa, eng, zho, tam).",
+            "[languages] Hokkien (min), Malayalam (mal), and Banjar (bjn) are used by local communities. No signs with ISO code."
+        ]
     },
     {
         "LABEL": "Saint Helena, Ascension and Tristan da Cunha",
         "officialName": {
-            "en": "Saint Helena, Ascension and Tristan da Cunha"
+            "eng": "Saint Helena, Ascension and Tristan da Cunha"
         },
         "alpha2": "SH",
         "alpha3": "SHN",
@@ -10636,7 +10760,7 @@
         "dependency": "GB",
         "mottos": {
             "official": {
-                "en": "Loyal and Unshakeable"
+                "eng": "Loyal and Unshakeable"
             }
         },
         "currencies": {
@@ -10657,7 +10781,7 @@
             "Atlantic/St_Helena"
         ],
         "languages": {
-            "official": [],
+            "official": ["eng"],
             "widelySpoken": [],
             "localCommunities": [],
             "signs": []
@@ -10687,7 +10811,7 @@
     {
         "LABEL": "Slovenia",
         "officialName": {
-            "sl": "Republika Slovenija"
+            "slv": "Republika Slovenija"
         },
         "alpha2": "SI",
         "alpha3": "SVN",
@@ -10715,10 +10839,11 @@
             "Europe/Ljubljana"
         ],
         "languages": {
-            "official": [],
+            "official": ["slv"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["ita", "hun"],
+            "signs": ["jhs"],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -10734,7 +10859,7 @@
     {
         "LABEL": "Svalbard and Jan Mayen",
         "officialName": {
-            "no": "Svalbard og Jan Mayen"
+            "nor": "Svalbard og Jan Mayen"
         },
         "alpha2": "SJ",
         "alpha3": "SJM",
@@ -10745,7 +10870,7 @@
         "dependency": "NO",
         "mottos": {
             "official": {
-                "no": "Alt for Norge"
+                "nor": "Alt for Norge"
             }
         },
         "currencies": {
@@ -10767,10 +10892,11 @@
             "Atlantic/Jan_Mayen"
         ],
         "languages": {
-            "official": [],
+            "official": ["nor"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["rus"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "nb",
@@ -10779,12 +10905,15 @@
         "otherAppsIds": {
             "geoNamesOrg": 607072
         },
-        "NOTES": []
+        "NOTES": [
+            "[languages] Norwegian (nor) is the only official language in both Svalbard and Jan Mayen.",
+            "[languages] Russian (rus) is used by local communities in Barentsburg (Svalbard)."
+        ]
     },
     {
         "LABEL": "Slovakia",
         "officialName": {
-            "sk": "Slovenská Republika"
+            "slk": "Slovenská Republika"
         },
         "alpha2": "SK",
         "alpha3": "SVK",
@@ -10812,10 +10941,11 @@
             "Europe/Bratislava"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["slk"],
+            "widelySpoken": ["ces", "hun"],
+            "localCommunities": ["ukr", "rue", "deu", "rmc"],
+            "signs": ["svk"],
+            "dialects": []
         },
         "localesIcu": [
             "sk",
@@ -10829,8 +10959,7 @@
     {
         "LABEL": "Sierra Leone",
         "officialName": {
-            "en": "Republic of Sierra Leone",
-            "kri": "Republic of Sierra Leone"
+            "eng": "Republic of Sierra Leone"
         },
         "alpha2": "SL",
         "alpha3": "SLE",
@@ -10841,7 +10970,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "en": "Unity, Freedom, Justice",
+                "eng": "Unity, Freedom, Justice",
                 "kri": "Unity, Freedom, Justice"
             }
         },
@@ -10863,10 +10992,11 @@
             "Africa/Freetown"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["eng"],
+            "widelySpoken": ["kri", "men", "tem"],
+            "localCommunities": ["lif", "kor", "sus"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -10880,7 +11010,7 @@
     {
         "LABEL": "San Marino",
         "officialName": {
-            "it": "Repubblica di San Marino"
+            "ita": "Repubblica di San Marino"
         },
         "alpha2": "SM",
         "alpha3": "SMR",
@@ -10891,7 +11021,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "la": "Libertas"
+                "lat": "Libertas"
             }
         },
         "currencies": {
@@ -10912,10 +11042,11 @@
             "Europe/San_Marino"
         ],
         "languages": {
-            "official": [],
+            "official": ["ita"],
             "widelySpoken": [],
             "localCommunities": [],
-            "signs": []
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "it",
@@ -10929,8 +11060,7 @@
     {
         "LABEL": "Senegal",
         "officialName": {
-            "fr": "République du Sénégal",
-            "wo": "Réewum Senegaal"
+            "fra": "République du Sénégal"
         },
         "alpha2": "SN",
         "alpha3": "SEN",
@@ -10941,7 +11071,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "fr": "Un Peuple, Un But, Une Foi"
+                "fra": "Un Peuple, Un But, Une Foi"
             }
         },
         "currencies": {
@@ -10962,10 +11092,11 @@
             "Africa/Dakar"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["fra"],
+            "widelySpoken": ["wol", "fuc", "srr", "dyo"],
+            "localCommunities": ["mnk", "snk"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "ff",
@@ -10983,8 +11114,8 @@
     {
         "LABEL": "Somalia",
         "officialName": {
-            "so": "Jamhuuriyadda Federaalka Soomaaliya",
-            "ar": "جمهورية الصومال الفدرالية"
+            "som": "Jamhuuriyadda Federaalka Soomaaliya",
+            "ara": "جمهورية الصومال الفدرالية"
         },
         "alpha2": "SO",
         "alpha3": "SOM",
@@ -11012,10 +11143,11 @@
             "Africa/Mogadishu"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
+            "official": ["som", "ara"],
+            "widelySpoken": ["ita", "eng"],
             "localCommunities": [],
-            "signs": []
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "ar",
@@ -11029,7 +11161,7 @@
     {
         "LABEL": "Suriname",
         "officialName": {
-            "nl": "Republiek Suriname"
+            "nld": "Republiek Suriname"
         },
         "alpha2": "SR",
         "alpha3": "SUR",
@@ -11040,7 +11172,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "la": "Justitia – Pietas – Fides"
+                "lat": "Justitia – Pietas – Fides"
             }
         },
         "currencies": {
@@ -11070,10 +11202,11 @@
             "America/Paramaribo"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["nld"],
+            "widelySpoken": ["srn", "hns", "jav"],
+            "localCommunities": ["srm", "djk", "way", "tri"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "nl",
@@ -11082,12 +11215,16 @@
         "otherAppsIds": {
             "geoNamesOrg": 3382998
         },
-        "NOTES": []
+        "NOTES": [
+            "[languages] Dutch (nld) is the only official language. Sranan Tongo (srn) is the main spoken lingua franca.",
+            "[languages] Bhojpuri (hns), Javanese (jav), and creoles like Saramaccan (srm) and Aukan (djk) are community languages.",
+            "[languages] Indigenous languages like Wayana (way) and Trio (tri) are spoken in remote areas."
+        ]
     },
     {
         "LABEL": "South Sudan",
         "officialName": {
-            "en": "Republic of South Sudan"
+            "eng": "Republic of South Sudan"
         },
         "alpha2": "SS",
         "alpha3": "SSD",
@@ -11098,7 +11235,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "en": "Justice, Liberty, Prosperity"
+                "eng": "Justice, Liberty, Prosperity"
             }
         },
         "currencies": {
@@ -11119,10 +11256,11 @@
             "Africa/Juba"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["eng"],
+            "widelySpoken": ["din", "nus", "bfa"],
+            "localCommunities": ["zne", "shk", "toq"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "ar",
@@ -11138,7 +11276,7 @@
     {
         "LABEL": "Sao Tome and Principe",
         "officialName": {
-            "pt": "República Democrática de São Tomé e Príncipe"
+            "por": "República Democrática de São Tomé e Príncipe"
         },
         "alpha2": "ST",
         "alpha3": "STP",
@@ -11149,7 +11287,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "pt": "Unidade, Disciplina, Trabalho"
+                "por": "Unidade, Disciplina, Trabalho"
             }
         },
         "currencies": {
@@ -11170,10 +11308,11 @@
             "Africa/Sao_Tome"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["por"],
+            "widelySpoken": ["for"],
+            "localCommunities": ["aoa", "pre"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "pt",
@@ -11187,7 +11326,7 @@
     {
         "LABEL": "El Salvador",
         "officialName": {
-            "es": "República de El Salvador"
+            "spa": "República de El Salvador"
         },
         "alpha2": "SV",
         "alpha3": "SLV",
@@ -11198,7 +11337,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "es": "Dios, Union y Libertad"
+                "spa": "Dios, Union y Libertad"
             }
         },
         "currencies": {
@@ -11219,10 +11358,11 @@
             "America/El_Salvador"
         ],
         "languages": {
-            "official": [],
+            "official": ["spa"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["ppl"],
+            "signs": ["esn"],
+            "dialects": []
         },
         "localesIcu": [
             "es",
@@ -11232,13 +11372,13 @@
             "geoNamesOrg": 3585968
         },
         "NOTES": [
-            "El Salvador and Panama also have Bitcoin as legal tender. IGNORED."
+            "[currencies] El Salvador and Panama also have Bitcoin as legal tender. IGNORED."
         ]
     },
     {
         "LABEL": "Sint Maarten (Dutch part)",
         "officialName": {
-            "nl": "Sint Maarten"
+            "nld": "Sint Maarten"
         },
         "alpha2": "SX",
         "alpha3": "SXM",
@@ -11249,10 +11389,10 @@
         "dependency": "NL",
         "mottos": {
             "official": {
-                "la": "Semper progrediens"
+                "lat": "Semper progrediens"
             },
             "royal": {
-                "fr": "Je maintiendrai"
+                "fra": "Je maintiendrai"
             }
         },
         "currencies": {
@@ -11273,10 +11413,11 @@
             "America/Lower_Princes"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["nld"],
+            "widelySpoken": ["eng"],
+            "localCommunities": ["pap"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -11292,7 +11433,7 @@
     {
         "LABEL": "Syrian Arab Republic",
         "officialName": {
-            "ar": "الجمهوريّة العربيّة السّوريّة"
+            "ara": "الجمهوريّة العربيّة السّوريّة"
         },
         "alpha2": "SY",
         "alpha3": "SYR",
@@ -11303,7 +11444,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "ar": "وَحْدَةٌ ، حُرِّيَّةٌ ، اِشْتِرَاكِيَّةٌ"
+                "ara": "وَحْدَةٌ ، حُرِّيَّةٌ ، اِشْتِرَاكِيَّةٌ"
             }
         },
         "currencies": {
@@ -11333,10 +11474,11 @@
             "Asia/Damascus"
         ],
         "languages": {
-            "official": [],
+            "official": ["ara"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["kur", "hye", "tuk", "aii"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "ar",
@@ -11352,8 +11494,8 @@
     {
         "LABEL": "Eswatini",
         "officialName": {
-            "ss": "Umbuso weSwatini",
-            "en": "Kingdom of eSwatini"
+            "ssw": "Umbuso weSwatini",
+            "eng": "Kingdom of eSwatini"
         },
         "alpha2": "SZ",
         "alpha3": "SWZ",
@@ -11364,7 +11506,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "ss": "Siyinqaba"
+                "ssw": "Siyinqaba"
             }
         },
         "currencies": {
@@ -11385,10 +11527,11 @@
             "Africa/Mbabane"
         ],
         "languages": {
-            "official": [],
+            "official": ["ssw", "eng"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["zul"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -11398,13 +11541,15 @@
             "geoNamesOrg": 934841
         },
         "NOTES": [
-            "Former Swaziland"
+            "Former Swaziland",
+            "[languages] Swati (ssw) and English (eng) are the two official languages per the 2005 Constitution.",
+            "[languages] Zulu (zul) is spoken in some communities near the South African border. All codes are ISO 639-3."
         ]
     },
     {
         "LABEL": "Turks and Caicos Islands",
         "officialName": {
-            "en": "Turks and Caicos"
+            "eng": "Turks and Caicos Islands"
         },
         "alpha2": "TC",
         "alpha3": "TCA",
@@ -11415,7 +11560,7 @@
         "dependency": "GB",
         "mottos": {
             "official": {
-                "en": "One people, one nation, one destiny"
+                "eng": "One people, one nation, one destiny"
             }
         },
         "currencies": {
@@ -11436,10 +11581,11 @@
             "America/Grand_Turk"
         ],
         "languages": {
-            "official": [],
+            "official": ["eng"],
             "widelySpoken": [],
             "localCommunities": [],
-            "signs": []
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -11453,8 +11599,8 @@
     {
         "LABEL": "Chad",
         "officialName": {
-            "ar": "جمهورية تشاد",
-            "fr": "République du Tchad"
+            "ara": "جمهورية تشاد",
+            "fra": "République du Tchad"
         },
         "alpha2": "TD",
         "alpha3": "TCD",
@@ -11465,8 +11611,8 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "ar": "الاتحاد، العمل، التقدم",
-                "fr": "Unité, Travail, Progrès"
+                "ara": "الاتحاد، العمل، التقدم",
+                "fra": "Unité, Travail, Progrès"
             }
         },
         "currencies": {
@@ -11487,10 +11633,11 @@
             "Africa/Ndjamena"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["ara", "fra"],
+            "widelySpoken": ["sre"],
+            "localCommunities": ["kbl", "mde", "tma", "dzg"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "ar",
@@ -11506,7 +11653,7 @@
     {
         "LABEL": "French Southern Territories",
         "officialName": {
-            "fr": "Territoire des Terres australes et antarctiques françaises"
+            "fra": "Territoire des Terres australes et antarctiques françaises"
         },
         "alpha2": "TF",
         "alpha3": "ATF",
@@ -11517,7 +11664,7 @@
         "dependency": "FR",
         "mottos": {
             "official": {
-                "fr": "Liberté, égalité, fraternité"
+                "fra": "Liberté, égalité, fraternité"
             }
         },
         "currencies": {
@@ -11538,10 +11685,11 @@
             "Indian/Kerguelen"
         ],
         "languages": {
-            "official": [],
+            "official": ["fra"],
             "widelySpoken": [],
             "localCommunities": [],
-            "signs": []
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "br",
@@ -11559,7 +11707,7 @@
     {
         "LABEL": "Togo",
         "officialName": {
-            "fr": "République Togolaise"
+            "fra": "République Togolaise"
         },
         "alpha2": "TG",
         "alpha3": "TGO",
@@ -11570,7 +11718,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "fr": "Travail, Liberté, Patrie"
+                "fra": "Travail, Liberté, Patrie"
             }
         },
         "currencies": {
@@ -11591,10 +11739,11 @@
             "Africa/Lome"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["fra"],
+            "widelySpoken": ["ewe", "kbp"],
+            "localCommunities": ["ifb", "kdh", "kpo"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "ee",
@@ -11610,7 +11759,7 @@
     {
         "LABEL": "Thailand",
         "officialName": {
-            "th": "Ratcha Anachak Thai"
+            "tha": "Ratcha Anachak Thai"
         },
         "alpha2": "TH",
         "alpha3": "THA",
@@ -11621,7 +11770,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "th": "ชาติ ศาสนา พระมหากษัตริย์"
+                "tha": "ชาติ ศาสนา พระมหากษัตริย์"
             }
         },
         "currencies": {
@@ -11651,10 +11800,11 @@
             "Asia/Bangkok"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["tha"],
+            "widelySpoken": ["tts", "nod", "sou"],
+            "localCommunities": ["ksw", "kjp", "kxm", "hmn"],
+            "signs": ["tsq"],
+            "dialects": []
         },
         "localesIcu": [
             "th",
@@ -11668,7 +11818,7 @@
     {
         "LABEL": "Tajikistan",
         "officialName": {
-            "tg": "Ҷумҳурии Тоҷикистон"
+            "tgk": "Ҷумҳурии Тоҷикистон"
         },
         "alpha2": "TJ",
         "alpha3": "TJK",
@@ -11679,7 +11829,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "tg": "Истиқлол, Озодӣ, Ватан"
+                "tgk": "Истиқлол, Озодӣ, Ватан"
             }
         },
         "currencies": {
@@ -11700,10 +11850,11 @@
             "Asia/Dushanbe"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["tgk"],
+            "widelySpoken": ["rus", "uzb"],
+            "localCommunities": ["kir", "tuk"],
+            "signs": ["rsl"],
+            "dialects": []
         },
         "localesIcu": [],
         "otherAppsIds": {
@@ -11714,7 +11865,8 @@
     {
         "LABEL": "Tokelau",
         "officialName": {
-            "en": "Tokelau"
+            "eng": "Tokelau",
+            "tkl": "Tokelau"
         },
         "alpha2": "TK",
         "alpha3": "TKL",
@@ -11746,10 +11898,11 @@
             "Pacific/Fakaofo"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
+            "official": ["tkl", "eng"],
+            "widelySpoken": ["smo"],
             "localCommunities": [],
-            "signs": []
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -11764,7 +11917,7 @@
         "LABEL": "Timor-Leste",
         "officialName": {
             "tet": "Repúblika Demokrátika Timór Lorosa'e",
-            "pt": "República Democrática de Timor-Leste"
+            "por": "República Democrática de Timor-Leste"
         },
         "alpha2": "TL",
         "alpha3": "TLS",
@@ -11796,10 +11949,11 @@
             "Asia/Dili"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["tet", "por"],
+            "widelySpoken": ["mav", "mkz"],
+            "localCommunities": ["ddg", "bfn", "kem", "gal"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "pt",
@@ -11813,7 +11967,7 @@
     {
         "LABEL": "Turkmenistan",
         "officialName": {
-            "tk": "Türkmenistan Respublikasy"
+            "tuk": "Türkmenistan Respublikasy"
         },
         "alpha2": "TM",
         "alpha3": "TKM",
@@ -11824,7 +11978,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "tk": "Türkmenistan Bitaraplygyň watanydyr"
+                "tuk": "Türkmenistan Bitaraplygyň watanydyr"
             }
         },
         "currencies": {
@@ -11846,10 +12000,11 @@
             "Asia/Ashkhabad"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["tuk"],
+            "widelySpoken": ["rus", "uzb"],
+            "localCommunities": ["kaz", "aze", "hye"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "tk",
@@ -11863,7 +12018,7 @@
     {
         "LABEL": "Tunisia",
         "officialName": {
-            "ar": "الجمهورية التونسية"
+            "ara": "الجمهورية التونسية"
         },
         "alpha2": "TN",
         "alpha3": "TUN",
@@ -11874,7 +12029,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "ar": "حرية، نظام، عدالة"
+                "ara": "حرية، نظام، عدالة"
             }
         },
         "currencies": {
@@ -11895,10 +12050,11 @@
             "Africa/Tunis"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["ara"],
+            "widelySpoken": ["fra"],
+            "localCommunities": ["aeb"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "ar",
@@ -11914,8 +12070,8 @@
     {
         "LABEL": "Tonga",
         "officialName": {
-            "to": "Pule'anga Fakatu'i 'o Tonga",
-            "en": "Kingdom of Tonga"
+            "ton": "Pule'anga Fakatu'i 'o Tonga",
+            "eng": "Kingdom of Tonga"
         },
         "alpha2": "TO",
         "alpha3": "TON",
@@ -11926,8 +12082,8 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "to": "Ko e Otua mo Tonga ko hoku tofi'a",
-                "en": "God and Tonga are my heritage"
+                "ton": "Ko e Otua mo Tonga ko hoku tofi'a",
+                "eng": "God and Tonga are my heritage"
             }
         },
         "currencies": {
@@ -11948,10 +12104,11 @@
             "Pacific/Tongatapu"
         ],
         "languages": {
-            "official": [],
+            "official": ["ton", "eng"],
             "widelySpoken": [],
             "localCommunities": [],
-            "signs": []
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -11967,7 +12124,7 @@
     {
         "LABEL": "Turkey",
         "officialName": {
-            "tr": "Türkiye Cumhuriyeti"
+            "tur": "Türkiye Cumhuriyeti"
         },
         "alpha2": "TR",
         "alpha3": "TUR",
@@ -11978,7 +12135,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "tr": "Yurtta sulh, cihanda sulh"
+                "tur": "Yurtta sulh, cihanda sulh"
             }
         },
         "currencies": {
@@ -12000,10 +12157,11 @@
             "Asia/Istanbul"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["tur"],
+            "widelySpoken": ["kmr", "ckb"],
+            "localCommunities": ["hye", "ara", "lzz", "zza"],
+            "signs": ["tsm"],
+            "dialects": []
         },
         "localesIcu": [
             "ku",
@@ -12019,7 +12177,7 @@
     {
         "LABEL": "Trinidad and Tobago",
         "officialName": {
-            "en": "Republic of Trinidad and Tobago"
+            "eng": "Republic of Trinidad and Tobago"
         },
         "alpha2": "TT",
         "alpha3": "TTO",
@@ -12030,7 +12188,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "en": "Together We Aspire, Together We Achieve"
+                "eng": "Together We Aspire, Together We Achieve"
             }
         },
         "currencies": {
@@ -12051,10 +12209,11 @@
             "America/Port_of_Spain"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["eng"],
+            "widelySpoken": ["tgh", "tob"],
+            "localCommunities": ["hnd", "bho", "spa"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -12069,7 +12228,7 @@
         "LABEL": "Tuvalu",
         "officialName": {
             "tuv": "Tuvalu",
-            "en": "Tuvalu"
+            "eng": "Tuvalu"
         },
         "alpha2": "TV",
         "alpha3": "TUV",
@@ -12081,7 +12240,7 @@
         "mottos": {
             "official": {
                 "tuv": "Tuvalu mo te Atua",
-                "en": "Tuvalu for the Almighty"
+                "eng": "Tuvalu for the Almighty"
             }
         },
         "currencies": {
@@ -12102,10 +12261,11 @@
             "Pacific/Funafuti"
         ],
         "languages": {
-            "official": [],
+            "official": ["tuv", "eng"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["gil"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -12119,7 +12279,7 @@
     {
         "LABEL": "Taiwan",
         "officialName": {
-            "zh": "中華民國"
+            "cmn": "中華民國"
         },
         "alpha2": "TW",
         "alpha3": "TWN",
@@ -12164,10 +12324,11 @@
             "Asia/Taipei"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["cmn"],
+            "widelySpoken": ["nan", "hak"],
+            "localCommunities": ["ami", "pwn", "bnn", "tay", "tsu", "ckv"],
+            "signs": ["tss"],
+            "dialects": []
         },
         "localesIcu": [
             "zh",
@@ -12181,8 +12342,8 @@
     {
         "LABEL": "Tanzania, United Republic of",
         "officialName": {
-            "sw": "Jamhuri ya Muungano wa Tanzania",
-            "en": "United Republic of Tanzania"
+            "swa": "Jamhuri ya Muungano wa Tanzania",
+            "eng": "United Republic of Tanzania"
         },
         "alpha2": "TZ",
         "alpha3": "TZA",
@@ -12210,10 +12371,11 @@
             "Africa/Dar_es_Salaam"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["swa", "eng"],
+            "widelySpoken": ["suk", "nym", "chj"],
+            "localCommunities": ["mas", "irk", "hts"],
+            "signs": ["tza"],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -12229,7 +12391,7 @@
     {
         "LABEL": "Ukraine",
         "officialName": {
-            "uk": "Україна"
+            "ukr": "Україна"
         },
         "alpha2": "UA",
         "alpha3": "UKR",
@@ -12268,10 +12430,11 @@
             "Europe/Zaporozhye"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["ukr"],
+            "widelySpoken": ["rus"],
+            "localCommunities": ["crh", "ron", "hun", "pol"],
+            "signs": ["ukl"],
+            "dialects": []
         },
         "localesIcu": [
             "ru",
@@ -12287,8 +12450,8 @@
     {
         "LABEL": "Uganda",
         "officialName": {
-            "sw": "Jamhuri ya Uganda",
-            "en": "Republic of Uganda"
+            "swa": "Jamhuri ya Uganda",
+            "eng": "Republic of Uganda"
         },
         "alpha2": "UG",
         "alpha3": "UGA",
@@ -12299,7 +12462,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "en": "For God and My Country"
+                "eng": "For God and My Country"
             }
         },
         "currencies": {
@@ -12320,10 +12483,11 @@
             "Africa/Kampala"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["eng", "swa"],
+            "widelySpoken": ["lug", "nyn", "teo"],
+            "localCommunities": ["ach", "laj"],
+            "signs": ["ugn"],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -12339,7 +12503,7 @@
     {
         "LABEL": "United States Minor Outlying Islands",
         "officialName": {
-            "en": "United States Minor Outlying Islands"
+            "eng": "United States Minor Outlying Islands"
         },
         "alpha2": "UM",
         "alpha3": "UMI",
@@ -12350,10 +12514,10 @@
         "dependency": "US",
         "mottos": {
             "official": {
-                "en": "In God We Trust"
+                "eng": "In God We Trust"
             },
             "presidential": {
-                "la": "E pluribus unum"
+                "lat": "E pluribus unum"
             }
         },
         "currencies": {
@@ -12376,10 +12540,11 @@
             "Pacific/Johnston"
         ],
         "languages": {
-            "official": [],
+            "official": ["eng"],
             "widelySpoken": [],
             "localCommunities": [],
-            "signs": []
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -12393,7 +12558,7 @@
     {
         "LABEL": "United States of America",
         "officialName": {
-            "en": "United States of America"
+            "eng": "United States of America"
         },
         "alpha2": "US",
         "alpha3": "USA",
@@ -12404,10 +12569,10 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "en": "In God We Trust"
+                "eng": "In God We Trust"
             },
             "presidential": {
-                "la": "E pluribus unum"
+                "lat": "E pluribus unum"
             }
         },
         "currencies": {
@@ -12475,10 +12640,11 @@
             "US/Samoa"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["eng"],
+            "widelySpoken": ["spa", "cmn", "yue", "tgl", "vie"],
+            "localCommunities": ["nav", "dak", "chr", "esu"],
+            "signs": ["ase"],
+            "dialects": []
         },
         "localesIcu": [
             "chr",
@@ -12495,12 +12661,17 @@
         "otherAppsIds": {
             "geoNamesOrg": 6252001
         },
-        "NOTES": []
+        "NOTES": [
+            "[languages] English (eng) is de facto official. No federal language defined by law.",
+            "[languages] Spanish (spa), Chinese (cmn, yue), Tagalog (tgl), and Vietnamese (vie) are widely spoken.",
+            "[languages] Native languages like Navajo (nav), Dakota (dak), and Yupik (esu) are spoken by local communities.",
+            "[languages] American Sign Language (ase) is in common use. All ISO 639-3 valid."
+        ]
     },
     {
         "LABEL": "Uruguay",
         "officialName": {
-            "es": "República Oriental del Uruguay"
+            "spa": "República Oriental del Uruguay"
         },
         "alpha2": "UY",
         "alpha3": "URY",
@@ -12511,7 +12682,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "es": "Libertad o Muerte"
+                "spa": "Libertad o Muerte"
             }
         },
         "currencies": {
@@ -12532,10 +12703,11 @@
             "America/Montevideo"
         ],
         "languages": {
-            "official": [],
+            "official": ["spa"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["por"],
+            "signs": ["uls"],
+            "dialects": []
         },
         "localesIcu": [
             "es",
@@ -12579,10 +12751,11 @@
             "Asia/Tashkent"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["uzb"],
+            "widelySpoken": ["rus"],
+            "localCommunities": ["kaa"],
+            "signs": ["uzs"],
+            "dialects": []
         },
         "localesIcu": [
             "uz",
@@ -12599,8 +12772,8 @@
     {
         "LABEL": "Holy See",
         "officialName": {
-            "la": "Status Civitatis Vaticanae",
-            "it": "Stato della Città del Vaticano"
+            "lat": "Status Civitatis Vaticanae",
+            "ita": "Stato della Città del Vaticano"
         },
         "alpha2": "VA",
         "alpha3": "VAT",
@@ -12628,10 +12801,11 @@
             "Europe/Vatican"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
+            "official": ["lat"],
+            "widelySpoken": ["ita"],
             "localCommunities": [],
-            "signs": []
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "it",
@@ -12645,7 +12819,7 @@
     {
         "LABEL": "Saint Vincent and the Grenadines",
         "officialName": {
-            "en": "Saint Vincent and the Grenadines"
+            "eng": "Saint Vincent and the Grenadines"
         },
         "alpha2": "VC",
         "alpha3": "VCT",
@@ -12656,7 +12830,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "la": "Pax et Justitia"
+                "lat": "Pax et Justitia"
             }
         },
         "currencies": {
@@ -12677,10 +12851,11 @@
             "America/St_Vincent"
         ],
         "languages": {
-            "official": [],
+            "official": ["eng"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["svc"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -12694,7 +12869,7 @@
     {
         "LABEL": "Venezuela",
         "officialName": {
-            "es": "República Bolivariana de Venezuela"
+            "spa": "República Bolivariana de Venezuela"
         },
         "alpha2": "VE",
         "alpha3": "VEN",
@@ -12705,7 +12880,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "es": "Dios y Federación"
+                "spa": "Dios y Federación"
             }
         },
         "currencies": {
@@ -12726,10 +12901,11 @@
             "America/Caracas"
         ],
         "languages": {
-            "official": [],
+            "official": ["spa"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["wba", "guc", "aoc", "guu"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "es",
@@ -12743,7 +12919,7 @@
     {
         "LABEL": "Virgin Islands (British)",
         "officialName": {
-            "en": "British Virgin Islands"
+            "eng": "British Virgin Islands"
         },
         "alpha2": "VG",
         "alpha3": "VGB",
@@ -12754,7 +12930,7 @@
         "dependency": "GB",
         "mottos": {
             "official": {
-                "la": "Vigilate"
+                "lat": "Vigilate"
             }
         },
         "currencies": {
@@ -12775,10 +12951,11 @@
             "America/Tortola"
         ],
         "languages": {
-            "official": [],
+            "official": ["eng"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["vic"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -12792,7 +12969,7 @@
     {
         "LABEL": "Virgin Islands (U.S.)",
         "officialName": {
-            "en": "Virgin Islands of the United States"
+            "eng": "Virgin Islands of the United States"
         },
         "alpha2": "VI",
         "alpha3": "VIR",
@@ -12803,7 +12980,7 @@
         "dependency": "US",
         "mottos": {
             "official": {
-                "en": "United in Pride and Hope"
+                "eng": "United in Pride and Hope"
             }
         },
         "currencies": {
@@ -12824,10 +13001,11 @@
             "America/St_Thomas"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["eng"],
+            "widelySpoken": ["spa"],
+            "localCommunities": ["vic"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -12841,7 +13019,7 @@
     {
         "LABEL": "Viet Nam",
         "officialName": {
-            "vi": "Cộng hòa xã hội chủ nghĩa Việt Nam"
+            "vie": "Cộng hòa xã hội chủ nghĩa Việt Nam"
         },
         "alpha2": "VN",
         "alpha3": "VNM",
@@ -12852,7 +13030,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "vi": "Độc lập – Tự do – Hạnh phúc"
+                "vie": "Độc lập – Tự do – Hạnh phúc"
             }
         },
         "currencies": {
@@ -12874,10 +13052,11 @@
             "Asia/Saigon"
         ],
         "languages": {
-            "official": [],
+            "official": ["vie"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["hmn", "khm", "mtq", "tyv"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "vi",
@@ -12891,9 +13070,9 @@
     {
         "LABEL": "Vanuatu",
         "officialName": {
-            "bi": "Ripablik blong Vanuatu",
-            "fr": "République de Vanuatu",
-            "en": "Republic of Vanuatu"
+            "bis": "Ripablik blong Vanuatu",
+            "fra": "République de Vanuatu",
+            "eng": "Republic of Vanuatu"
         },
         "alpha2": "VU",
         "alpha3": "VUT",
@@ -12904,9 +13083,9 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "bi": "Long God yumi stanap",
-                "fr": "Nous nous tenons devant Dieu",
-                "en": "With God we stand"
+                "bis": "Long God yumi stanap",
+                "fra": "Nous nous tenons devant Dieu",
+                "eng": "With God we stand"
             }
         },
         "currencies": {
@@ -12927,10 +13106,11 @@
             "Pacific/Efate"
         ],
         "languages": {
-            "official": [],
+            "official": ["bis", "eng", "fra"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["app", "pma", "lml", "aty"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -12946,8 +13126,7 @@
     {
         "LABEL": "Wallis and Futuna",
         "officialName": {
-            "fr": "Collectivité d'outre-mer de Wallis-et-Futuna",
-            "wls": "‘Uvea mo Futuna"
+            "fra": "Collectivité d'outre-mer de Wallis-et-Futuna"
         },
         "alpha2": "WF",
         "alpha3": "WLF",
@@ -12958,7 +13137,7 @@
         "dependency": "FR",
         "mottos": {
             "official": {
-                "fr": "Liberté, égalité, fraternité"
+                "fra": "Liberté, égalité, fraternité"
             }
         },
         "currencies": {
@@ -12979,10 +13158,11 @@
             "Pacific/Wallis"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
+            "official": ["fra"],
+            "widelySpoken": ["wls", "fud"],
             "localCommunities": [],
-            "signs": []
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "fr",
@@ -12996,7 +13176,8 @@
     {
         "LABEL": "Samoa",
         "officialName": {
-            "sm": "Malo Sa'oloto Tuto'atasi o Samoa"
+            "smo": "Malo Sa'oloto Tuto'atasi o Samoa",
+            "eng": "Independent State of Samoa"
         },
         "alpha2": "WS",
         "alpha3": "WSM",
@@ -13007,7 +13188,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "sm": "Fa'avaei le Atua Samoa"
+                "smo": "Fa'avaei le Atua Samoa"
             }
         },
         "currencies": {
@@ -13029,10 +13210,11 @@
             "Pacific/Samoa"
         ],
         "languages": {
-            "official": [],
+            "official": ["smo", "eng"],
             "widelySpoken": [],
             "localCommunities": [],
-            "signs": []
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -13046,8 +13228,9 @@
     {
         "LABEL": "Kossovo",
         "officialName": {
-            "sq": "Republika e Kosovës",
-            "sr": "Република Косово"
+            "sqi": "Republika e Kosovës",
+            "srp-Cyrl": "Република Косово",
+            "srp-Latn": "Republika Kosovo"
         },
         "alpha2": "XK",
         "alpha3": "XKX",
@@ -13077,19 +13260,20 @@
             "Europe/Belgrade"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
+            "official": ["sqi", "srp"],
+            "widelySpoken": ["bos", "tur", "rom"],
             "localCommunities": [],
-            "signs": []
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "sq",
-            "sq-AL",
+            "sq-XK",
             "sr",
             "sr-Cyrl",
-            "sr-Cyrl-RS",
+            "sr-Cyrl-XK",
             "sr-Latn",
-            "sr-Latn-RS"
+            "sr-Latn-XK"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 831053
@@ -13105,7 +13289,7 @@
     {
         "LABEL": "Yemen",
         "officialName": {
-            "ar": "الجمهوريّة اليمنية"
+            "ara": "الجمهوريّة اليمنية"
         },
         "alpha2": "YE",
         "alpha3": "YEM",
@@ -13116,7 +13300,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "ar": "اَللهُ، ٱلْوَطَنُ، ٱلثَوْرَةُ، ٱلْوَحْدَةُ"
+                "ara": "اَللهُ، ٱلْوَطَنُ، ٱلثَوْرَةُ، ٱلْوَحْدَةُ"
             }
         },
         "currencies": {
@@ -13146,10 +13330,11 @@
             "Asia/Aden"
         ],
         "languages": {
-            "official": [],
+            "official": ["ara"],
             "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "localCommunities": ["meh", "soc"],
+            "signs": [],
+            "dialects": ["ayh", "ars"]
         },
         "localesIcu": [
             "ar",
@@ -13163,7 +13348,7 @@
     {
         "LABEL": "Mayotte",
         "officialName": {
-            "fr": "Collectivité départementale de Mayotte"
+            "fra": "Collectivité départementale de Mayotte"
         },
         "alpha2": "YT",
         "alpha3": "MYT",
@@ -13195,10 +13380,11 @@
             "Indian/Mayotte"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
+            "official": ["fra"],
+            "widelySpoken": ["swb", "zdj"],
             "localCommunities": [],
-            "signs": []
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "fr",
@@ -13212,16 +13398,16 @@
     {
         "LABEL": "South Africa",
         "officialName": {
-            "af": "Republiek van Suid-Afrika",
-            "en": "Republic of South Africa",
-            "nr": "iRiphabliki yeSewula Afrika",
-            "ss": "iRiphabhulikhi yeNingizimu Afrika",
-            "st": "Rephaboliki ya Afrika Borwa",
-            "tn": "Rephaboliki ya Aforika Borwa",
-            "ts": "Riphabliki ra Afrika Dzonga",
-            "ve": "Riphabuḽiki ya Afurika Tshipembe",
-            "xh": "iRiphabliki yomZantsi Afrika",
-            "zu": "iRiphabhuliki yaseNingizimu Afrika",
+            "afr": "Republiek van Suid-Afrika",
+            "eng": "Republic of South Africa",
+            "nbl": "iRiphabliki yeSewula Afrika",
+            "ssw": "iRiphabhulikhi yeNingizimu Afrika",
+            "sot": "Rephaboliki ya Afrika Borwa",
+            "tsn": "Rephaboliki ya Aforika Borwa",
+            "tso": "Riphabliki ra Afrika Dzonga",
+            "ven": "Riphabuḽiki ya Afurika Tshipembe",
+            "xho": "iRiphabliki yomZantsi Afrika",
+            "zul": "iRiphabhuliki yaseNingizimu Afrika",
             "nso": "Repabliki ya Afrika-Borwa"
         },
         "alpha2": "ZA",
@@ -13254,10 +13440,14 @@
             "Africa/Johannesburg"
         ],
         "languages": {
-            "official": [],
+            "official": [
+                "afr", "eng", "nbl", "ssw", "sot", "tsn",
+                "tso", "ven", "xho", "zul", "nso"
+            ],
             "widelySpoken": [],
             "localCommunities": [],
-            "signs": []
+            "signs": ["sfs"],
+            "dialects": []
         },
         "localesIcu": [
             "af",
@@ -13277,7 +13467,7 @@
     {
         "LABEL": "Zambia",
         "officialName": {
-            "en": "Republic of Zambia"
+            "eng": "Republic of Zambia"
         },
         "alpha2": "ZM",
         "alpha3": "ZMB",
@@ -13288,7 +13478,7 @@
         "dependency": null,
         "mottos": {
             "official": {
-                "en": "One Zambia, One Nation"
+                "eng": "One Zambia, One Nation"
             }
         },
         "currencies": {
@@ -13309,10 +13499,11 @@
             "Africa/Lusaka"
         ],
         "languages": {
-            "official": [],
-            "widelySpoken": [],
-            "localCommunities": [],
-            "signs": []
+            "official": ["eng"],
+            "widelySpoken": ["bem", "nya", "toi", "loz", "lun", "kqn", "kdo"],
+            "localCommunities": ["lch", "cce", "xuj", "bmy"],
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
@@ -13326,20 +13517,20 @@
     {
         "LABEL": "Zimbabwe",
         "officialName": {
-            "en": "Republic of Zimbabwe",
-            "sn": "Nyika yeZimbabwe",
-            "nd": "Ilizwe leZimbabwe",
-            "ny": "Dziko la Zimbabwe",
+            "eng": "Republic of Zimbabwe",
+            "sna": "Nyika yeZimbabwe",
+            "nde": "Ilizwe leZimbabwe",
+            "nya": "Dziko la Zimbabwe",
             "bwg": "Dziko la Zimbabwe",
             "twx": "Hango yeZimbabwe",
             "hio": "Zimbabwe Nù",
             "nmq": "Inyika yeZimbabwe",
             "mxc": "Nyika yeZimbabwe",
-            "ts": "Tiko ra Zimbabwe",
+            "tso": "Tiko ra Zimbabwe",
             "nso": "Naha ya Zimbabwe",
             "toi": "Cisi ca Zimbabwe",
-            "ve": "Shango ḽa Zimbabwe",
-            "xh": "Ilizwe leZimbabwe"
+            "ven": "Shango ḽa Zimbabwe",
+            "xho": "Ilizwe leZimbabwe"
         },
         "alpha2": "ZW",
         "alpha3": "ZWE",
@@ -13371,10 +13562,11 @@
             "Africa/Harare"
         ],
         "languages": {
-            "official": [],
+            "official": ["sna", "nde", "eng", "nya", "toi", "tso", "ven", "xho", "nso", "bwg", "twx", "hio", "nmq", "mxc"],
             "widelySpoken": [],
             "localCommunities": [],
-            "signs": []
+            "signs": [],
+            "dialects": []
         },
         "localesIcu": [
             "en",
