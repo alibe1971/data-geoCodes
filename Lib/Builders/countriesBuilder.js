@@ -142,27 +142,54 @@ export const countriesFunctions = {
             }
             for (const cat of configBuild.extra.countries.mottos.categories) {
                 if(!Object.prototype.hasOwnProperty.call(item.mottos, cat)) {
-                    itemMottos[cat] = {};
-                } else if( !requirements(item.mottos[cat], 'mustBeObject') ) {
-                    throwMex('mottos.' + cat, item[mainKey], 'The property must be an object');
+                    itemMottos[cat] = [];
+                } else if( !requirements(item.mottos[cat], 'mustBeArray') ) {
+                    throwMex('mottos.' + cat, item[mainKey], 'The property must be an array');
                 } else {
-                    let mottos = {};
-                    for (let [lang, motto] of Object.entries(item.mottos[cat])) {
-                        let langTest = refactorLanguages(lang);
-                        if ( langTest == 'error' || !requirements(langTest, 'bcp47') ) {
+                    let mottoEntries = [];
+                    for (const [idx, mottoCatEntry] of Object.entries(item.mottos[cat])) {
+                        if(
+                            !requirements(mottoCatEntry, 'mustBeObject') ||
+                            !requirements(mottoCatEntry, 'cannotBeEmpty')
+                        ) {
                             throwMex(
-                                'mottos.' + cat + '.' + lang, item[mainKey],
-                                'The property key non-compliant with BCP 47 format');
-                        }
-                        if ( !requirements(motto, 'mustBeString') || !requirements(motto, 'cannotBeEmpty') ) {
-                            throwMex(
-                                'mottos.' + cat + '.' + lang, item[mainKey],
-                                'The property must be a not empty string'
+                                'mottos.' + cat+ '.' + idx, item[mainKey],
+                                'The property must be a not empty object'
                             );
                         }
-                        mottos[lang] = motto;
+                        let mottoCatEntryItem = {
+                            text: {}
+                        };
+                        /** text property */
+                        if(!Object.prototype.hasOwnProperty.call(mottoCatEntry, 'text')) {
+                            throwMex(
+                                'mottos.' + cat+ '.' + idx + '.text', item[mainKey],
+                                'Required property is missing'
+                            );
+                        }
+                        let mottos = {};
+                        for (let [lang, motto] of Object.entries(mottoCatEntry.text)) {
+                            let langTest = refactorLanguages(lang);
+                            if ( langTest == 'error' || !requirements(langTest, 'bcp47') ) {
+                                throwMex(
+                                    'mottos.' + cat + '.' + lang, item[mainKey],
+                                    'The property key non-compliant with BCP 47 format');
+                            }
+                            if (
+                                !requirements(motto, 'mustBeString') ||
+                                !requirements(motto, 'cannotBeEmpty')
+                            ) {
+                                throwMex(
+                                    'mottos.' + cat + '.' + lang, item[mainKey],
+                                    'The property must be a not empty string'
+                                );
+                            }
+                            mottos[lang] = motto;
+                        }
+                        mottoCatEntryItem.text = mottos;
+                        mottoEntries.push(mottoCatEntryItem);
                     }
-                    itemMottos[cat] = mottos;
+                    itemMottos[cat] = mottoEntries;
                 }
             }
             country.mottos = itemMottos;
@@ -210,22 +237,77 @@ export const countriesFunctions = {
                     throwMex('dialCodes.' + cat, item[mainKey], 'The property must be an array');
                 } else {
                     let dialCodes = [];
-                    for (let [index, dial] of item.dialCodes[cat].entries()) {
-                        if (Number.isInteger(dial)) {
-                            dial = '+' + dial.toString();
-                        } else if (typeof dial == 'string') {
-                            dial = dial.replace(/^00/g, '+');
+                    if (cat == 'exceptions') {
+                        for (let [index, exception] of item.dialCodes[cat].entries()) {
+                            if (
+                                !requirements(exception, 'mustBeObject')  ||
+                                !requirements(exception, 'cannotBeEmpty')
+                            ) {
+                                throwMex(
+                                    'dialCodes.' + cat + '.' + index, item[mainKey],
+                                    'The property must be a not empty object'
+                                );
+                            }
+                            for (const exceptionsProps of configBuild.extra.countries.dialCodes.exceptionsProps) {
+                                if(!Object.prototype.hasOwnProperty.call(exception, exceptionsProps)) {
+                                    throwMex(
+                                        'dialCodes.' + cat + '.' + index + '.' + exceptionsProps, item[mainKey],
+                                        'Required property is missing'
+                                    );
+                                }
+                                if (exceptionsProps == 'code') {
+                                    if (Number.isInteger(exception['code'])) {
+                                        exception['code'] = exception['code'].toString();
+                                    } else if (typeof exception['code'] == 'string') {
+                                        exception['code'] = exception['code'].replace(/\s+/g, '');
+                                    }
+                                    if (
+                                        !requirements(exception['code'], 'mustBeString') ||
+                                        !requirements(exception['code'], 'regex', /^(\d+)$/)
+                                    ) {
+                                        throwMex(
+                                            'dialCodes.' + cat + '.' + index + '.' + exceptionsProps,
+                                            item[mainKey],
+                                            'The the value for the property (' + exception['code'] + ') must '
+                                            + 'be either an integer or a numeric string. '
+                                        );
+                                    }
+                                }
+                                if (exceptionsProps == 'origin') {
+                                    if(
+                                        !requirements(exception['origin'], 'mustBeString') ||
+                                        !requirements(exception['origin'], 'regex', /^[a-z]{2}$/i)
+                                    ) {
+                                        throwMex(
+                                            'dialCodes.' + cat + '.' + index + '.' + exceptionsProps,
+                                            item[mainKey],
+                                            'The property must be 2 chars length alphabetical string'
+                                        );
+                                    }
+                                    exception['origin'] = exception['origin'].toUpperCase();
+                                }
+                                dialCodes.push(exception);
+                            }
                         }
-                        if(
-                            !requirements(dial, 'mustBeString') ||
-                            !requirements(dial, 'regex', /^(?:\+[1-9]\d*|\d+)$/)
-                        ) {
-                            throwMex('dialCodes.' + cat + '.' + index, item[mainKey],
-                                'The the value for the property (' + dial + ') must be either an integer or '
-                                + 'a numeric string. '
-                                + 'It can start with `00` or `+`, but the very next digit must be between 1 and 9');
+                        itemDialCodes[cat] = [...new Set(dialCodes)];
+                    } else {
+                        for (let [index, dial] of item.dialCodes[cat].entries()) {
+                            if (Number.isInteger(dial)) {
+                                dial = '+' + dial.toString();
+                            } else if (typeof dial == 'string') {
+                                dial = dial.replace(/^00/g, '+');
+                            }
+                            if(
+                                !requirements(dial, 'mustBeString') ||
+                                !requirements(dial, 'regex', /^(?:\+[1-9]\d*|\d+)$/)
+                            ) {
+                                throwMex('dialCodes.' + cat + '.' + index, item[mainKey],
+                                    'The the value for the property (' + dial + ') must be either an integer or '
+                                    + 'a numeric string. '
+                                    + 'It can start with `00` or `+`, but the very next digit must be between 1 and 9');
+                            }
+                            dialCodes.push(dial);
                         }
-                        dialCodes.push(dial);
                     }
                     itemDialCodes[cat] = [...new Set(dialCodes)];
                 }
@@ -393,8 +475,66 @@ export const countriesFunctions = {
             }
             country.timeZones = item.timeZones;
 
-            /** languages: TODO */
-            country.languages = [];
+            /** languages: */
+            if (!Object.prototype.hasOwnProperty.call(item, 'languages')) {
+                item.languages = {};
+            }
+            for (const cat of configBuild.extra.countries.languages.categories) {
+                if (cat === 'official' || cat === 'signs') {
+                    if (!Object.prototype.hasOwnProperty.call(item.languages, cat)) {
+                        item.languages[cat] = {};
+                    }
+
+                    for (const sub of configBuild.extra.countries.languages.subCategories[cat]) {
+                        if (!Object.prototype.hasOwnProperty.call(item.languages[cat], sub)) {
+                            item.languages[cat][sub] = [];
+                        }
+                        let list = item.languages[cat][sub]
+                            .map(lang => lang.toLowerCase())
+                            .filter((lang, index, self) => self.indexOf(lang) === index);
+
+                        if (!requirements(list, 'mustBeArray')) {
+                            throwMex(`languages.${cat}.${sub}`, item[mainKey], 'The property must be an array');
+                        }
+                        list.forEach((lang, idx) => {
+                            if (
+                                !requirements(lang, 'mustBeString') ||
+                                !requirements(lang, 'regex', /^[a-z]{2,3}$/i)
+                            ) {
+                                throwMex(`languages.${cat}.${sub}.${idx}`, item[mainKey],
+                                    `The value '${lang}' has not a ISO 639 valid format`);
+                            }
+                        });
+                        item.languages[cat][sub] = list;
+                    }
+                } else {
+                    if (!Object.prototype.hasOwnProperty.call(item.languages, cat)) {
+                        item.languages[cat] = [];
+                    }
+
+                    let list = item.languages[cat]
+                        .map(lang => lang.toLowerCase())
+                        .filter((lang, index, self) => self.indexOf(lang) === index);
+
+                    if (!requirements(list, 'mustBeArray')) {
+                        throwMex(`languages.${cat}`, item[mainKey], 'The property must be an array');
+                    }
+
+                    list.forEach((lang, idx) => {
+                        if (
+                            !requirements(lang, 'mustBeString') ||
+                            !requirements(lang, 'regex', /^[a-z]{2,3}$/i)
+                        ) {
+                            throwMex(`languages.${cat}.${idx}`, item[mainKey],
+                                `The value '${lang}' has not a ISO 639 valid format`);
+                        }
+                    });
+
+                    item.languages[cat] = list;
+                }
+            }
+
+            country.languages = item.languages;
 
             /** localesIcu: must be present and must be a not empty array */
             let localesIcu = [];
@@ -436,13 +576,75 @@ export const countriesFunctions = {
             // geoNamesOrg
             if(!Object.prototype.hasOwnProperty.call(item.otherAppsIds, 'geoNamesOrg')) {
                 item.otherAppsIds.geoNamesOrg = null;
+            } else {
+                if( !requirements(item.otherAppsIds.geoNamesOrg, 'mustBePositiveIntegerNotZero') ) {
+                    throwMex('otherAppsIds.geoNamesOrg', item[mainKey],
+                        'The property must be null or a positive integer greater then zero');
+                }
             }
-            if( !requirements(item.otherAppsIds.geoNamesOrg, 'mustBePositiveIntegerNotZero') ) {
-                throwMex('otherAppsIds.geoNamesOrg', item[mainKey],
-                    'The property must be null or a positive integer greater then zero');
+
+            // wikidata
+            if(!Object.prototype.hasOwnProperty.call(item.otherAppsIds, 'wikidata')) {
+                item.otherAppsIds.wikidata = null;
+            } else {
+                if (
+                    !requirements(item.otherAppsIds.wikidata, 'mustBeString') ||
+                    !requirements(item.otherAppsIds.wikidata, 'cannotBeEmpty')
+                ) {
+                    throwMex('otherAppsIds.wikidata', item[mainKey],
+                        'The property must be null or a not empty string');
+                }
+                if(
+                    !requirements(item.otherAppsIds.wikidata, 'regex', /^Q[1-9][0-9]*$/i)
+                ) {
+                    throwMex('otherAppsIds.wikidata', item[mainKey],
+                        'The value for the property (' + item.otherAppsIds.wikidata + ') has not the correct format');
+                }
+                item.otherAppsIds.wikidata = item.otherAppsIds.wikidata.toUpperCase();
             }
+
+            // Open Street Map
+            if(!Object.prototype.hasOwnProperty.call(item.otherAppsIds, 'openStreetMap')) {
+                item.otherAppsIds.openStreetMap = {
+                    type: null,
+                    id: null
+                };
+            } else {
+                if (
+                    !requirements(item.otherAppsIds.openStreetMap, 'mustBeObject') ||
+                    !requirements(item.otherAppsIds.openStreetMap, 'cannotBeEmpty')
+                ) {
+                    throwMex('otherAppsIds.openStreetMap', item[mainKey],
+                        'The property must be null or a not empty object');
+                }
+
+                if(!Object.prototype.hasOwnProperty.call(item.otherAppsIds.openStreetMap, 'type')) {
+                    throwMex('otherAppsIds.openStreetMap.type', item[mainKey], 'Required property is missing');
+                }
+                if(
+                    !requirements(item.otherAppsIds.openStreetMap.type, 'mustBeString') ||
+                    !requirements(item.otherAppsIds.openStreetMap.type, 'regex', /^(node|way|relation)$/i)
+                ) {
+                    throwMex('otherAppsIds.openStreetMap.type', item[mainKey],
+                        'The value for the property (' + item.otherAppsIds.openStreetMap.type + ') ' +
+                        'has not the correct format (`node` or `way` or `relation`, case insensitive)'
+                    );
+                }
+                item.otherAppsIds.openStreetMap.type = item.otherAppsIds.openStreetMap.type.toLowerCase();
+
+                if(!Object.prototype.hasOwnProperty.call(item.otherAppsIds.openStreetMap, 'id')) {
+                    throwMex('otherAppsIds.openStreetMap.id', item[mainKey], 'Required property is missing');
+                }
+                if( !requirements(item.otherAppsIds.openStreetMap.id, 'mustBePositiveIntegerNotZero') ) {
+                    throwMex('otherAppsIds.geoNamesOrg.id', item[mainKey],
+                        'The property must be null or a positive integer greater then zero');
+                }
+            }
+
             country.otherAppsIds = {
-                geoNamesOrg: item.otherAppsIds.geoNamesOrg
+                geoNamesOrg: item.otherAppsIds.geoNamesOrg,
+                wikidata: item.otherAppsIds.wikidata,
+                openStreetMap: item.otherAppsIds.openStreetMap
             };
 
             /** ---- **/

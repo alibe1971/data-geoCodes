@@ -69,8 +69,14 @@ export const configBuild = {
                 categories: [
                     'official',
                     'popular',
+                    'founding',
+                    'presidential',
                     'royal',
-                    'presidential'
+                    'military',
+                    'historical'
+                ],
+                subCategories: [
+                    'text'
                 ]
             },
             currencies: {
@@ -81,8 +87,13 @@ export const configBuild = {
             },
             dialCodes: {
                 categories: [
-                    'main',
+                    'deJure',
+                    'deFacto',
                     'exceptions'
+                ],
+                exceptionsProps: [
+                    'code',
+                    'origin'
                 ]
             },
             ccIdn: {
@@ -92,6 +103,27 @@ export const configBuild = {
                     'language',
                     'regionsOfUse'
                 ]
+            },
+            languages: {
+                categories: [
+                    'official',
+                    'regional',
+                    'widelySpoken',
+                    'localCommunities',
+                    'extraTerritorialCommunities',
+                    'signs'
+                ],
+                subCategories: {
+                    official: [
+                        'deJure',
+                        'deFacto'
+                    ],
+                    signs: [
+                        'official',
+                        'recognized',
+                        'used'
+                    ]
+                }
             }
         },
         geoSets: {
