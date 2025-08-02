@@ -22,7 +22,7 @@
 export const countries = [
     {
         officialName: {
-            ca: "Principat d'Andorra"
+            cat: "Principat d'Andorra"
         },
         alpha2: "AD",
         alpha3: "AND",
@@ -33,12 +33,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                la: "Virtus unita fortior"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        lat: "Virtus Unita Fortior"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -47,9 +54,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+376"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".ad",
@@ -57,18 +65,47 @@ export const countries = [
         timeZones: [
             "Europe/Andorra"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "cat"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "spa"
+            ],
+            localCommunities: [
+                "fra",
+                "por"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [
+                    "csc"
+                ],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "ca",
             "ca-AD"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3041565
+            geoNamesOrg: 3041565,
+            wikidata: "Q228",
+            openStreetMap: {
+                type: "relation",
+                id: 9407
+            }
         }
     },
     {
         officialName: {
-            ar: "دولة الإمارات العربية المتحدة"
+            arb: "دولة الإمارات العربية المتحدة"
         },
         alpha2: "AE",
         alpha3: "ARE",
@@ -79,12 +116,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                ar: "الله الوطن الرئيس"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        arb: "الله الوطن الرئيس"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -93,9 +137,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+971"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".ae",
@@ -103,18 +148,49 @@ export const countries = [
         timeZones: [
             "Asia/Dubai"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "arb"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "eng",
+                "hin",
+                "fil",
+                "mal",
+                "tam",
+                "urd"
+            ],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: [
+                "afb"
+            ]
+        },
         localesIcu: [
             "ar",
             "ar-AE"
         ],
         otherAppsIds: {
-            geoNamesOrg: 290557
+            geoNamesOrg: 290557,
+            wikidata: "Q878",
+            openStreetMap: {
+                type: "relation",
+                id: 307763
+            }
         }
     },
     {
         officialName: {
-            ps: "د افغانستان اسلامي امارت",
+            pus: "د افغانستان اسلامي امارت",
             prs: "امارت اسلامی افغانستان"
         },
         alpha2: "AF",
@@ -126,12 +202,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                ar: "لا إله إلا الله، محمد رسول الله"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        arb: "لا إله إلا الله، محمد رسول الله"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -140,9 +223,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+93"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".af",
@@ -150,7 +234,35 @@ export const countries = [
         timeZones: [
             "Asia/Kabul"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "pus",
+                    "prs"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "bal",
+                "uzb"
+            ],
+            localCommunities: [
+                "haz",
+                "tuk",
+                "tkm",
+                "pam",
+                "hnd",
+                "brh"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "fa",
             "fa-AF",
@@ -161,12 +273,17 @@ export const countries = [
             "uz-Arab-AF"
         ],
         otherAppsIds: {
-            geoNamesOrg: 1149361
+            geoNamesOrg: 1149361,
+            wikidata: "Q889",
+            openStreetMap: {
+                type: "relation",
+                id: 303427
+            }
         }
     },
     {
         officialName: {
-            en: "Antigua and Barbuda"
+            eng: "Antigua and Barbuda"
         },
         alpha2: "AG",
         alpha3: "ATG",
@@ -177,12 +294,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                en: "Each Endeavouring, All Achieving"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        eng: "Each Endeavouring, All Achieving"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -191,9 +315,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+1268"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".ag",
@@ -201,18 +326,44 @@ export const countries = [
         timeZones: [
             "America/Antigua"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [],
+                deFacto: [
+                    "eng"
+                ]
+            },
+            regional: [],
+            widelySpoken: [
+                "aig"
+            ],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "ase"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-AG"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3576396
+            geoNamesOrg: 3576396,
+            wikidata: "Q781",
+            openStreetMap: {
+                type: "relation",
+                id: 536900
+            }
         }
     },
     {
         officialName: {
-            en: "Anguilla"
+            eng: "Anguilla"
         },
         alpha2: "AI",
         alpha3: "AIA",
@@ -223,12 +374,19 @@ export const countries = [
         },
         dependency: "GB",
         mottos: {
-            official: {
-                en: "Unity, Strength and Endurance"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        eng: "Unity, Strength and Endurance"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -237,9 +395,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+1264"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".ai",
@@ -247,18 +406,44 @@ export const countries = [
         timeZones: [
             "America/Anguilla"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [],
+                deFacto: [
+                    "eng"
+                ]
+            },
+            regional: [],
+            widelySpoken: [
+                "aig"
+            ],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "ase"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-AI"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3573511
+            geoNamesOrg: 3573511,
+            wikidata: "Q25228",
+            openStreetMap: {
+                type: "relation",
+                id: 536904
+            }
         }
     },
     {
         officialName: {
-            sq: "Republika e Shqipërisë"
+            sqi: "Republika e Shqipërisë"
         },
         alpha2: "AL",
         alpha3: "ALB",
@@ -269,12 +454,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                sq: "Ti Shqipëri, më jep nder, më jep emrin Shqipëtar"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        sqi: "Ti Shqipëri, më jep nder, më jep emrin Shqipëtar"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -283,9 +475,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+355"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".al",
@@ -293,18 +486,51 @@ export const countries = [
         timeZones: [
             "Europe/Tirane"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "sqi"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "ell",
+                "mkd",
+                "srp",
+                "rom",
+                "vlj"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "sqk"
+                ]
+            },
+            dialects: [
+                "aln",
+                "als"
+            ]
+        },
         localesIcu: [
             "sq",
             "sq-AL"
         ],
         otherAppsIds: {
-            geoNamesOrg: 783754
+            geoNamesOrg: 783754,
+            wikidata: "Q222",
+            openStreetMap: {
+                type: "relation",
+                id: 53292
+            }
         }
     },
     {
         officialName: {
-            hy: "Հայաստանի Հանրապետություն"
+            hye: "Հայաստանի Հանրապետություն"
         },
         alpha2: "AM",
         alpha3: "ARM",
@@ -315,12 +541,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                hy: "Մեկ Ազգ, Մեկ Մշակույթ"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        hye: "Մեկ Ազգ, Մեկ Մշակույթ"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -329,9 +562,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+374"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".am",
@@ -348,18 +582,51 @@ export const countries = [
         timeZones: [
             "Asia/Yerevan"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "hye"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "rue",
+                "rmy",
+                "oss",
+                "krc",
+                "aze",
+                "kbd"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "aen"
+                ]
+            },
+            dialects: [
+                "hyw"
+            ]
+        },
         localesIcu: [
             "hy",
             "hy-AM"
         ],
         otherAppsIds: {
-            geoNamesOrg: 174982
+            geoNamesOrg: 174982,
+            wikidata: "Q399",
+            openStreetMap: {
+                type: "relation",
+                id: 36466
+            }
         }
     },
     {
         officialName: {
-            pt: "República de Angola"
+            por: "República de Angola"
         },
         alpha2: "AO",
         alpha3: "AGO",
@@ -370,12 +637,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                la: "Virtus unita fortior"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        lat: "Virtus unita fortior"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -384,9 +658,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+244"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".ao",
@@ -394,7 +669,41 @@ export const countries = [
         timeZones: [
             "Africa/Luanda"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "por"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "kik",
+                "umb",
+                "lnb",
+                "kmb",
+                "nyo"
+            ],
+            localCommunities: [
+                "ndo",
+                "lue",
+                "chb",
+                "cox",
+                "mhw",
+                "olu",
+                "nyn",
+                "mnh"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "lbs"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "ln",
             "ln-AO",
@@ -402,7 +711,12 @@ export const countries = [
             "pt-AO"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3351879
+            geoNamesOrg: 3351879,
+            wikidata: "Q916",
+            openStreetMap: {
+                type: "relation",
+                id: 195267
+            }
         }
     },
     {
@@ -416,19 +730,23 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [],
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+6721"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".aq",
@@ -446,7 +764,22 @@ export const countries = [
             "Antarctica/Troll",
             "Antarctica/Vostok"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-FI",
@@ -575,12 +908,17 @@ export const countries = [
             "uk-UA"
         ],
         otherAppsIds: {
-            geoNamesOrg: 6697173
+            geoNamesOrg: 6697173,
+            wikidata: "Q21590062",
+            openStreetMap: {
+                type: "relation",
+                id: 2708953
+            }
         }
     },
     {
         officialName: {
-            es: "República Argentina"
+            spa: "República Argentina"
         },
         alpha2: "AR",
         alpha3: "ARG",
@@ -591,12 +929,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                es: "En unión y libertad"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        spa: "En unión y libertad"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -605,9 +950,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+54"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".ar",
@@ -633,19 +979,53 @@ export const countries = [
             "America/Mendoza",
             "America/Rosario"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "spa"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "gnc",
+                "quh",
+                "mzf",
+                "map",
+                "aym",
+                "wca",
+                "qvw",
+                "chr",
+                "bjo"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "aed"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "es",
             "es-AR"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3865483
+            geoNamesOrg: 3865483,
+            wikidata: "Q414",
+            openStreetMap: {
+                type: "relation",
+                id: 286393
+            }
         }
     },
     {
         officialName: {
-            en: "American Samoa",
-            sm: "Amerika Sāmoa"
+            eng: "American Samoa",
+            smo: "Amerika Sāmoa"
         },
         alpha2: "AS",
         alpha3: "ASM",
@@ -656,12 +1036,19 @@ export const countries = [
         },
         dependency: "US",
         mottos: {
-            official: {
-                sm: "Sāmoa, Muamua Le Atua"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        smo: "Sāmoa, Muamua Le Atua"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -670,9 +1057,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+1684"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".as",
@@ -680,18 +1068,43 @@ export const countries = [
         timeZones: [
             "Pacific/Pago_Pago"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng",
+                    "smo"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "ase"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-AS"
         ],
         otherAppsIds: {
-            geoNamesOrg: 5880801
+            geoNamesOrg: 5880801,
+            wikidata: "Q16641",
+            openStreetMap: {
+                type: "relation",
+                id: 587232
+            }
         }
     },
     {
         officialName: {
-            de: "Republik Österreich"
+            deu: "Republik Österreich"
         },
         alpha2: "AT",
         alpha3: "AUT",
@@ -702,10 +1115,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -714,9 +1130,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+43"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".at",
@@ -724,7 +1141,39 @@ export const countries = [
         timeZones: [
             "Europe/Vienna"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "deu"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "slv",
+                "hrv",
+                "hun",
+                "rom",
+                "cim",
+                "sqi",
+                "tur",
+                "srp",
+                "ces",
+                "pol"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "asq"
+                ]
+            },
+            dialects: [
+                "bar"
+            ]
+        },
         localesIcu: [
             "de",
             "de-AT",
@@ -732,12 +1181,17 @@ export const countries = [
             "en-AT"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2782113
+            geoNamesOrg: 2782113,
+            wikidata: "Q40",
+            openStreetMap: {
+                type: "relation",
+                id: 16239
+            }
         }
     },
     {
         officialName: {
-            en: "Commonwealth of Australia"
+            eng: "Commonwealth of Australia"
         },
         alpha2: "AU",
         alpha3: "AUS",
@@ -748,10 +1202,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -760,9 +1217,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+61"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".au",
@@ -792,18 +1250,56 @@ export const countries = [
             "Australia/West",
             "Australia/Yancowinna"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [],
+                deFacto: [
+                    "eng"
+                ]
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "zxx",
+                "itk",
+                "wbp",
+                "pny",
+                "aly",
+                "kri",
+                "yol",
+                "pit",
+                "cmn",
+                "arb",
+                "ell",
+                "vnm",
+                "hin"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "aus"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-AU"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2077456
+            geoNamesOrg: 2077456,
+            wikidata: "Q408",
+            openStreetMap: {
+                type: "relation",
+                id: 80500
+            }
         }
     },
     {
         officialName: {
-            nl: "Land Aruba",
+            nld: "Land Aruba",
             pap: "Pais Aruba"
         },
         alpha2: "AW",
@@ -815,12 +1311,19 @@ export const countries = [
         },
         dependency: "NL",
         mottos: {
-            official: {},
-            popular: {},
-            royal: {
-                fr: "Je maintiendrai"
-            },
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [
+                {
+                    text: {
+                        fra: "Je maintiendrai"
+                    }
+                }
+            ],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -829,9 +1332,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+297"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".aw",
@@ -839,18 +1343,46 @@ export const countries = [
         timeZones: [
             "America/Aruba"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "nld",
+                    "pap"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "eng",
+                "spa"
+            ],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "ase"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "nl",
             "nl-AW"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3577279
+            geoNamesOrg: 3577279,
+            wikidata: "Q21203",
+            openStreetMap: {
+                type: "relation",
+                id: 1703814
+            }
         }
     },
     {
         officialName: {
-            sv: "Landskapet Åland"
+            swe: "Landskapet Åland"
         },
         alpha2: "AX",
         alpha3: "ALA",
@@ -861,10 +1393,13 @@ export const countries = [
         },
         dependency: "FI",
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -873,9 +1408,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+35818"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".ax",
@@ -883,18 +1419,44 @@ export const countries = [
         timeZones: [
             "Europe/Mariehamn"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "swe"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "fin"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "fse"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "sv",
             "sv-AX"
         ],
         otherAppsIds: {
-            geoNamesOrg: 661882
+            geoNamesOrg: 661882,
+            wikidata: "Q5689",
+            openStreetMap: {
+                type: "relation",
+                id: 1650407
+            }
         }
     },
     {
         officialName: {
-            az: "Azərbaycan Respublikası"
+            aze: "Azərbaycan Respublikası"
         },
         alpha2: "AZ",
         alpha3: "AZE",
@@ -905,10 +1467,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -917,9 +1482,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+994"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".az",
@@ -927,7 +1493,42 @@ export const countries = [
         timeZones: [
             "Asia/Baku"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "aze"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "rus",
+                "tur"
+            ],
+            localCommunities: [
+                "lez",
+                "tkr",
+                "tat",
+                "udi",
+                "kur",
+                "avk",
+                "xal",
+                "diq",
+                "arm"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "azj",
+                    "rsl"
+                ]
+            },
+            dialects: [
+                "azb"
+            ]
+        },
         localesIcu: [
             "az",
             "az-Cyrl",
@@ -936,17 +1537,21 @@ export const countries = [
             "az-Latn-AZ"
         ],
         otherAppsIds: {
-            geoNamesOrg: 587116
+            geoNamesOrg: 587116,
+            wikidata: "Q227",
+            openStreetMap: {
+                type: "relation",
+                id: 364110
+            }
         }
     },
     {
         officialName: {
             "sr-Cyrl": "Босна и Херцеговина",
             "bs-Cyrl": "Босна и Херцеговина",
-            "hr-Cyrl": "Босна и Херцеговина",
             "sr-Latn": "Bosna i Hercegovina",
             "bs-Latn": "Bosna i Hercegovina",
-            hr: "Bosna i Hercegovina"
+            hrv: "Bosna i Hercegovina"
         },
         alpha2: "BA",
         alpha3: "BIH",
@@ -957,10 +1562,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -969,9 +1577,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+387"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".ba",
@@ -979,7 +1588,34 @@ export const countries = [
         timeZones: [
             "Europe/Sarajevo"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "bos",
+                    "hrv",
+                    "srp"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "rmy",
+                "aln",
+                "trn",
+                "cnr",
+                "rom"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "bzs"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "bs",
             "bs-BA",
@@ -992,12 +1628,17 @@ export const countries = [
             "sr-Latn-BA"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3277605
+            geoNamesOrg: 3277605,
+            wikidata: "Q225",
+            openStreetMap: {
+                type: "relation",
+                id: 2528142
+            }
         }
     },
     {
         officialName: {
-            en: "Barbados"
+            eng: "Barbados"
         },
         alpha2: "BB",
         alpha3: "BRB",
@@ -1008,12 +1649,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                en: "Pride and Industry"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        eng: "Pride and Industry"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -1022,9 +1670,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+1246"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".bb",
@@ -1032,18 +1681,44 @@ export const countries = [
         timeZones: [
             "America/Barbados"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "eng",
+                "bbc"
+            ],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "bzs",
+                    "ase"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-BB"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3374084
+            geoNamesOrg: 3374084,
+            wikidata: "Q244",
+            openStreetMap: {
+                type: "relation",
+                id: 547511
+            }
         }
     },
     {
         officialName: {
-            bn: "গণপ্রজাতন্ত্রী বাংলাদেশ"
+            ben: "গণপ্রজাতন্ত্রী বাংলাদেশ"
         },
         alpha2: "BD",
         alpha3: "BGD",
@@ -1054,12 +1729,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                bn: "জাতীয়তাবাদ, ধর্মনিরপেক্ষতা, সমাজতন্ত্র এবং গণতন্ত্র"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        ben: "জাতীয়তাবাদ, ধর্মনিরপেক্ষতা, সমাজতন্ত্র এবং গণতন্ত্র"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -1068,9 +1750,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+880"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".bd",
@@ -1089,20 +1772,57 @@ export const countries = [
             "Asia/Dhaka",
             "Asia/Dacca"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "ben"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "ctg",
+                "syl",
+                "rhg",
+                "ccp",
+                "trp",
+                "bpy",
+                "kfr",
+                "lus",
+                "mro",
+                "sae",
+                "byn",
+                "khk"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "bds"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "bn",
             "bn-BD"
         ],
         otherAppsIds: {
-            geoNamesOrg: 1210997
+            geoNamesOrg: 1210997,
+            wikidata: "Q902",
+            openStreetMap: {
+                type: "relation",
+                id: 184640
+            }
         }
     },
     {
         officialName: {
-            nl: "Koninkrijk België",
-            fr: "Royaume de Belgique",
-            de: "Königreich Belgien"
+            nld: "Koninkrijk België",
+            fra: "Royaume de Belgique",
+            deu: "Königreich Belgien"
         },
         alpha2: "BE",
         alpha3: "BEL",
@@ -1113,14 +1833,21 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                nl: "Eendracht maakt macht",
-                fr: "L'union fait la force",
-                de: "Einigkeit macht stark"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        nld: "Eendracht maakt macht",
+                        fra: "L'union fait la force",
+                        deu: "Einigkeit macht stark"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -1129,9 +1856,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+32"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".be",
@@ -1139,7 +1867,42 @@ export const countries = [
         timeZones: [
             "Europe/Brussels"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "nld",
+                    "fra",
+                    "deu"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "wae",
+                "vls",
+                "wln",
+                "lim",
+                "yid"
+            ],
+            extraTerritorialCommunities: [
+                "ara",
+                "tur",
+                "ber"
+            ],
+            signs: {
+                official: [
+                    "vgt"
+                ],
+                recognized: [
+                    "sfb"
+                ],
+                used: [
+                    "slf"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "de",
             "de-BE",
@@ -1151,12 +1914,17 @@ export const countries = [
             "nl-BE"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2802361
+            geoNamesOrg: 2802361,
+            wikidata: "Q31",
+            openStreetMap: {
+                type: "relation",
+                id: 52411
+            }
         }
     },
     {
         officialName: {
-            fr: "Burkina Faso"
+            fra: "Burkina Faso"
         },
         alpha2: "BF",
         alpha3: "BFA",
@@ -1167,12 +1935,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                fr: "Unité–Progrès–Justice"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        fra: "Unité–Progrès–Justice"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -1181,9 +1956,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+226"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".bf",
@@ -1191,18 +1967,55 @@ export const countries = [
         timeZones: [
             "Africa/Ouagadougou"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "fra"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "mos"
+            ],
+            localCommunities: [
+                "dyu",
+                "ful",
+                "bbo",
+                "bba",
+                "smp",
+                "lob",
+                "dag",
+                "daf",
+                "san",
+                "mnk",
+                "bwq",
+                "noc"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "fr",
             "fr-BF"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2361809
+            geoNamesOrg: 2361809,
+            wikidata: "Q965",
+            openStreetMap: {
+                type: "relation",
+                id: 192783
+            }
         }
     },
     {
         officialName: {
-            bg: "Република България"
+            bul: "Република България"
         },
         alpha2: "BG",
         alpha3: "BGR",
@@ -1213,12 +2026,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                bg: "Съединението прави силата"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        bul: "Съединението прави силата"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -1227,9 +2047,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+359"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".bg",
@@ -1246,18 +2067,53 @@ export const countries = [
         timeZones: [
             "Europe/Sofia"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "bul"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "tur",
+                "rom",
+                "rmy",
+                "rup",
+                "mkd",
+                "srm",
+                "buj",
+                "trk",
+                "aln",
+                "ell"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [
+                    "bqn"
+                ],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "bg",
             "bg-BG"
         ],
         otherAppsIds: {
-            geoNamesOrg: 732800
+            geoNamesOrg: 732800,
+            wikidata: "Q219",
+            openStreetMap: {
+                type: "relation",
+                id: 186382
+            }
         }
     },
     {
         officialName: {
-            ar: "مملكة البحرين"
+            arb: "مملكة البحرين"
         },
         alpha2: "BH",
         alpha3: "BHR",
@@ -1268,10 +2124,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -1280,9 +2139,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+973"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".bh",
@@ -1299,19 +2159,57 @@ export const countries = [
         timeZones: [
             "Asia/Bahrain"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "arb"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "eng"
+            ],
+            localCommunities: [
+                "pes",
+                "mal",
+                "hin",
+                "tam",
+                "fil",
+                "urd",
+                "guj",
+                "nep",
+                "tel",
+                "bal"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [
+                    "ads"
+                ],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "ar",
             "ar-BH"
         ],
         otherAppsIds: {
-            geoNamesOrg: 290291
+            geoNamesOrg: 290291,
+            wikidata: "Q398",
+            openStreetMap: {
+                type: "relation",
+                id: 378734
+            }
         }
     },
     {
         officialName: {
-            rn: "Repubulika y’Uburunde",
-            fr: "République du Burundi"
+            run: "Repubulika y’Uburunde",
+            fra: "République du Burundi",
+            eng: "Republic of Burundi"
         },
         alpha2: "BI",
         alpha3: "BDI",
@@ -1322,12 +2220,20 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                fr: "Unité, Travail, Progrès"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        run: "Ubumwe, Ibikorwa, Amajambere",
+                        fra: "Unité, Travail, Progrès"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -1336,9 +2242,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+257"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".bi",
@@ -1346,7 +2253,31 @@ export const countries = [
         timeZones: [
             "Africa/Bujumbura"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "run",
+                    "fra",
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "swb",
+                "kin",
+                "gez",
+                "swh"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-BI",
@@ -1354,12 +2285,17 @@ export const countries = [
             "fr-BI"
         ],
         otherAppsIds: {
-            geoNamesOrg: 433561
+            geoNamesOrg: 433561,
+            wikidata: "Q967",
+            openStreetMap: {
+                type: "relation",
+                id: 195266
+            }
         }
     },
     {
         officialName: {
-            fr: "République du Bénin"
+            fra: "République du Bénin"
         },
         alpha2: "BJ",
         alpha3: "BEN",
@@ -1370,12 +2306,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                fr: "Fraternité, Justice, Travail"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        fra: "Fraternité, Justice, Travail"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -1384,9 +2327,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+229"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".bj",
@@ -1394,7 +2338,37 @@ export const countries = [
         timeZones: [
             "Africa/Porto-Novo"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "fra"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "fon",
+                "yor"
+            ],
+            localCommunities: [
+                "guw",
+                "bba",
+                "gun",
+                "nqo",
+                "ido",
+                "xmw",
+                "xog",
+                "bqy",
+                "wci"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "fr",
             "fr-BJ",
@@ -1402,12 +2376,17 @@ export const countries = [
             "yo-BJ"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2395170
+            geoNamesOrg: 2395170,
+            wikidata: "Q962",
+            openStreetMap: {
+                type: "relation",
+                id: 192782
+            }
         }
     },
     {
         officialName: {
-            fr: "Collectivité d'outre-mer de Saint-Barthélemy"
+            fra: "Collectivité d'outre-mer de Saint-Barthélemy"
         },
         alpha2: "BL",
         alpha3: "BLM",
@@ -1418,12 +2397,19 @@ export const countries = [
         },
         dependency: "FR",
         mottos: {
-            official: {
-                tnq: "Ouanalao"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        und: "Ouanalao"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -1432,9 +2418,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+590"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".gp",
@@ -1442,18 +2429,46 @@ export const countries = [
         timeZones: [
             "America/St_Barthelemy"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "fra"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "eng"
+            ],
+            localCommunities: [
+                "gcf"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "fsl"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "fr",
             "fr-BL"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3578476
+            geoNamesOrg: 3578476,
+            wikidata: "Q25305",
+            openStreetMap: {
+                type: "relation",
+                id: 1265297
+            }
         }
     },
     {
         officialName: {
-            en: "Bermuda"
+            eng: "Bermuda"
         },
         alpha2: "BM",
         alpha3: "BMU",
@@ -1464,12 +2479,19 @@ export const countries = [
         },
         dependency: "GB",
         mottos: {
-            official: {
-                la: "Quo Fata Ferunt"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        lat: "Quo Fata Ferunt"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -1478,9 +2500,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+1441"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".bm",
@@ -1488,19 +2511,45 @@ export const countries = [
         timeZones: [
             "Atlantic/Bermuda"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "eng"
+            ],
+            localCommunities: [
+                "por"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "ase"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-BM"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3573345
+            geoNamesOrg: 3573345,
+            wikidata: "Q23635",
+            openStreetMap: {
+                type: "relation",
+                id: 1993209
+            }
         }
     },
     {
         officialName: {
-            ms: "Negara Brunei Darussalam",
-            en: "Brunei Darussalam"
+            msa: "Negara Brunei Darussalam",
+            eng: "Brunei Darussalam"
         },
         alpha2: "BN",
         alpha3: "BRN",
@@ -1511,12 +2560,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                ms: "Sentiasa membuat kebajikan dengan petunjuk Allah"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        msa: "Sentiasa membuat kebajikan dengan petunjuk Allah"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -1525,9 +2581,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+673"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".bn",
@@ -1535,21 +2592,57 @@ export const countries = [
         timeZones: [
             "Asia/Brunei"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "msa"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "eng"
+            ],
+            localCommunities: [
+                "bjn",
+                "dtp",
+                "tmw",
+                "iba",
+                "ceb",
+                "tmc",
+                "zlm",
+                "mdy",
+                "yue"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: [
+                "kxd"
+            ]
+        },
         localesIcu: [
             "ms",
             "ms-BN"
         ],
         otherAppsIds: {
-            geoNamesOrg: 1820814
+            geoNamesOrg: 1820814,
+            wikidata: "Q921",
+            openStreetMap: {
+                type: "relation",
+                id: 1993209
+            }
         }
     },
     {
         officialName: {
-            es: "Estado Plurinacional de Bolivia",
-            gn: "Tetã Hetãvoregua Mborivia",
-            ay: "Wuliwya Suyu",
-            qu: "Puliwya Mamallaqta"
+            spa: "Estado Plurinacional de Bolivia",
+            grn: "Tetã Hetãvoregua Volívia",
+            aym: "Wuliwya Suyu",
+            que: "Bulibiya Mamallaqta"
         },
         alpha2: "BO",
         alpha3: "BOL",
@@ -1560,12 +2653,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                es: "La unión es la fuerza"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        spa: "La unión es la fuerza"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -1574,9 +2674,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+591"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".bo",
@@ -1584,18 +2685,76 @@ export const countries = [
         timeZones: [
             "America/La_Paz"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "spa",
+                    "aym",
+                    "quh",
+                    "gnr",
+                    "bba",
+                    "cni",
+                    "itc",
+                    "mhm",
+                    "mbb",
+                    "qvo",
+                    "qvw",
+                    "qvz",
+                    "qwh",
+                    "qxa",
+                    "qxr",
+                    "qxh",
+                    "tna",
+                    "trp",
+                    "yuz",
+                    "guo",
+                    "cab",
+                    "mzo",
+                    "kna",
+                    "gob",
+                    "qvc",
+                    "tnc",
+                    "puq",
+                    "tns",
+                    "caj",
+                    "cas",
+                    "cco",
+                    "cya",
+                    "gce",
+                    "nnk",
+                    "bvl"
+                ],
+                deFacto: []
+            },
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [
+                    "bvl"
+                ],
+                recognized: [],
+                used: []
+            },
+            dialects: [],
+            regional: []
+        },
         localesIcu: [
             "es",
             "es-BO"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3923057
+            geoNamesOrg: 3923057,
+            wikidata: "Q750",
+            openStreetMap: {
+                type: "relation",
+                id: 195267
+            }
         }
     },
     {
         officialName: {
-            nl: "Caribisch Nederland"
+            nld: "Caribisch Nederland"
         },
         alpha2: "BQ",
         alpha3: "BES",
@@ -1606,14 +2765,25 @@ export const countries = [
         },
         dependency: "NL",
         mottos: {
-            official: {
-                nl: "Ik zal handhaven"
-            },
-            popular: {},
-            royal: {
-                fr: "Je maintiendrai"
-            },
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        nld: "Ik zal handhaven"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [
+                {
+                    text: {
+                        fra: "Je maintiendrai"
+                    }
+                }
+            ],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -1622,9 +2792,13 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
-                "+599"
+            deJure: [
+                "+5997",
+                "+5998",
+                "+5993",
+                "+5994"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".bq",
@@ -1632,18 +2806,45 @@ export const countries = [
         timeZones: [
             "America/Kralendijk"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "nld"
+                ],
+                deFacto: []
+            },
+            widelySpoken: [
+                "pap",
+                "eng"
+            ],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [
+                    "ase"
+                ],
+                recognized: [],
+                used: []
+            },
+            dialects: [],
+            regional: []
+        },
         localesIcu: [
             "nl",
             "nl-BQ"
         ],
         otherAppsIds: {
-            geoNamesOrg: 7626844
+            geoNamesOrg: 7626844,
+            wikidata: "Q25279",
+            openStreetMap: {
+                type: "relation",
+                id: 1216720
+            }
         }
     },
     {
         officialName: {
-            pt: "República Federativa do Brasil"
+            por: "República Federativa do Brasil"
         },
         alpha2: "BR",
         alpha3: "BRA",
@@ -1654,12 +2855,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                pt: "Ordem e Progresso"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        por: "Ordem e Progresso"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -1668,9 +2876,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+55"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".br",
@@ -1698,7 +2907,53 @@ export const countries = [
             "Brazil/East",
             "Brazil/West"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "por"
+                ],
+                deFacto: []
+            },
+            widelySpoken: [
+                "pov",
+                "yrl"
+            ],
+            localCommunities: [
+                "tup",
+                "kau",
+                "gub",
+                "xav",
+                "myn",
+                "mvp",
+                "mzc",
+                "tub",
+                "ter",
+                "kek",
+                "apu",
+                "kam",
+                "kqn",
+                "mpd",
+                "bdn",
+                "knt",
+                "kpy"
+            ],
+            extraTerritorialCommunities: [
+                "jpn",
+                "ita",
+                "deu",
+                "cmn",
+                "yue"
+            ],
+            signs: {
+                official: [
+                    "bzs"
+                ],
+                recognized: [],
+                used: []
+            },
+            dialects: [],
+            regional: []
+        },
         localesIcu: [
             "es",
             "es-BR",
@@ -1706,12 +2961,17 @@ export const countries = [
             "pt-BR"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3469034
+            geoNamesOrg: 3469034,
+            wikidata: "Q155",
+            openStreetMap: {
+                type: "relation",
+                id: 59470
+            }
         }
     },
     {
         officialName: {
-            en: "Commonwealth of the Bahamas"
+            eng: "Commonwealth of the Bahamas"
         },
         alpha2: "BS",
         alpha3: "BHS",
@@ -1722,12 +2982,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                en: "Forward, Upward, Onward, Together"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        eng: "Forward, Upward, Onward, Together"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -1736,9 +3003,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+1242"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".bs",
@@ -1746,18 +3014,42 @@ export const countries = [
         timeZones: [
             "America/Nassau"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng"
+                ],
+                deFacto: []
+            },
+            widelySpoken: [],
+            localCommunities: [],
+            signs: {
+                official: [],
+                recognized: [
+                    "ase"
+                ],
+                used: []
+            },
+            dialects: [],
+            regional: [],
+            extraTerritorialCommunities: []
+        },
         localesIcu: [
             "en",
             "en-BS"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3572887
+            geoNamesOrg: 3572887,
+            wikidata: "Q778",
+            openStreetMap: {
+                type: "relation",
+                id: 547469
+            }
         }
     },
     {
         officialName: {
-            dz: "འབྲུག་ཡུལ"
+            dzo: "འབྲུག་ཡུལ"
         },
         alpha2: "BT",
         alpha3: "BTN",
@@ -1768,10 +3060,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -1780,9 +3075,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+975"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".bt",
@@ -1791,18 +3087,53 @@ export const countries = [
             "Asia/Thimphu",
             "Asia/Thimbu"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "dzo"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "nep",
+                "eng"
+            ],
+            localCommunities: [
+                "lep",
+                "tsj",
+                "khg",
+                "luk",
+                "kjl",
+                "czt",
+                "sty",
+                "sgy",
+                "kao"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "dz",
             "dz-BT"
         ],
         otherAppsIds: {
-            geoNamesOrg: 1252634
+            geoNamesOrg: 1252634,
+            wikidata: "Q917",
+            openStreetMap: {
+                type: "relation",
+                id: 184629
+            }
         }
     },
     {
         officialName: {
-            no: "Bouvetøya"
+            nor: "Bouvetøya"
         },
         alpha2: "BV",
         alpha3: "BVT",
@@ -1813,10 +3144,13 @@ export const countries = [
         },
         dependency: "NO",
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -1825,7 +3159,8 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [],
+            deJure: [],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".bv",
@@ -1833,7 +3168,22 @@ export const countries = [
         timeZones: [
             "Etc/UTC"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "nb",
             "nb-NO",
@@ -1843,13 +3193,18 @@ export const countries = [
             "se-NO"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3371123
+            geoNamesOrg: 3371123,
+            wikidata: "Q244",
+            openStreetMap: {
+                type: "relation",
+                id: 1749828
+            }
         }
     },
     {
         officialName: {
-            tn: "Lefatshe la Botswana",
-            en: "Republic of Botswana"
+            tsn: "Lefatshe la Botswana",
+            eng: "Republic of Botswana"
         },
         alpha2: "BW",
         alpha3: "BWA",
@@ -1860,12 +3215,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                tn: "Pula"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        tsn: "Pula"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -1874,9 +3236,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+267"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".bw",
@@ -1884,19 +3247,55 @@ export const countries = [
         timeZones: [
             "Africa/Gaborone"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng",
+                    "tsn"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "kal",
+                "nmn",
+                "her",
+                "mhw",
+                "xuu",
+                "guc",
+                "huc",
+                "seh",
+                "khi",
+                "nmg",
+                "dik",
+                "naq"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-BW"
         ],
         otherAppsIds: {
-            geoNamesOrg: 933860
+            geoNamesOrg: 933860,
+            wikidata: "Q963",
+            openStreetMap: {
+                type: "relation",
+                id: 1889339
+            }
         }
     },
     {
         officialName: {
-            be: "Рэспубліка Беларусь",
-            ru: "Республика Беларусь"
+            bel: "Рэспубліка Беларусь",
+            rus: "Республика Беларусь"
         },
         alpha2: "BY",
         alpha3: "BLR",
@@ -1907,10 +3306,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -1919,9 +3321,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+375"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".by",
@@ -1938,7 +3341,37 @@ export const countries = [
         timeZones: [
             "Europe/Minsk"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "bel",
+                    "rus"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "plt",
+                "pol",
+                "ukr",
+                "lit",
+                "yid",
+                "rmy",
+                "tat",
+                "ces",
+                "lav"
+            ],
+            signs: {
+                official: [],
+                recognized: [
+                    "rsl"
+                ],
+                used: []
+            },
+            extraTerritorialCommunities: [],
+            dialects: []
+        },
         localesIcu: [
             "be",
             "be-BY",
@@ -1946,12 +3379,17 @@ export const countries = [
             "ru-BY"
         ],
         otherAppsIds: {
-            geoNamesOrg: 630336
+            geoNamesOrg: 630336,
+            wikidata: "Q184",
+            openStreetMap: {
+                type: "relation",
+                id: 59065
+            }
         }
     },
     {
         officialName: {
-            en: "Belize"
+            eng: "Belize"
         },
         alpha2: "BZ",
         alpha3: "BLZ",
@@ -1962,12 +3400,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                la: "Sub umbra floreo"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        lat: "Sub umbra floreo"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -1976,9 +3421,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+501"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".bz",
@@ -1986,7 +3432,38 @@ export const countries = [
         timeZones: [
             "America/Belize"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "spn",
+                "bzd",
+                "mop",
+                "yua"
+            ],
+            localCommunities: [
+                "mnf",
+                "inb",
+                "pln",
+                "gym",
+                "yua",
+                "tzj"
+            ],
+            signs: {
+                official: [],
+                recognized: [
+                    "bzs"
+                ],
+                used: []
+            },
+            extraTerritorialCommunities: [],
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-BZ",
@@ -1994,13 +3471,18 @@ export const countries = [
             "es-BZ"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3582678
+            geoNamesOrg: 3582678,
+            wikidata: "Q242",
+            openStreetMap: {
+                type: "relation",
+                id: 287827
+            }
         }
     },
     {
         officialName: {
-            fr: "Canada",
-            en: "Canada"
+            fra: "Canada",
+            eng: "Canada"
         },
         alpha2: "CA",
         alpha3: "CAN",
@@ -2011,12 +3493,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                la: "A mari usque ad mare"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        lat: "A mari usque ad mare"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -2025,9 +3514,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+1"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".ca",
@@ -2062,17 +3552,67 @@ export const countries = [
             "America/Pangnirtung",
             "America/Rainy_River",
             "America/Thunder_Bay",
-            "America/Yellowknife",
-            "Canada/Atlantic",
-            "Canada/Central",
-            "Canada/Eastern",
-            "Canada/Mountain",
-            "Canada/Newfoundland",
-            "Canada/Pacific",
-            "Canada/Saskatchewan",
-            "Canada/Yukon"
+            "America/Yellowknife"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng",
+                    "fra"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "ike",
+                "moh",
+                "oji",
+                "crj"
+            ],
+            localCommunities: [
+                "ikt",
+                "bev",
+                "chp",
+                "cwd",
+                "den",
+                "dgr",
+                "hur",
+                "kut",
+                "myn",
+                "nnh",
+                "nsr",
+                "ood",
+                "sal",
+                "sca",
+                "srs",
+                "sqt",
+                "taa",
+                "tce",
+                "tht",
+                "tli",
+                "tnl",
+                "wuu"
+            ],
+            extraTerritorialCommunities: [
+                "pan",
+                "tam",
+                "zho",
+                "ita",
+                "deu",
+                "pun",
+                "ara",
+                "ukr"
+            ],
+            signs: {
+                official: [],
+                recognized: [
+                    "asl",
+                    "lsq"
+                ],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-CA",
@@ -2080,12 +3620,17 @@ export const countries = [
             "fr-CA"
         ],
         otherAppsIds: {
-            geoNamesOrg: 6251999
+            geoNamesOrg: 6251999,
+            wikidata: "Q16",
+            openStreetMap: {
+                type: "relation",
+                id: 1428125
+            }
         }
     },
     {
         officialName: {
-            en: "Territory of Cocos (Keeling) Islands"
+            eng: "Territory of Cocos (Keeling) Islands"
         },
         alpha2: "CC",
         alpha3: "CCK",
@@ -2096,12 +3641,19 @@ export const countries = [
         },
         dependency: "AU",
         mottos: {
-            official: {
-                ms: "Maju Pulu Kita"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        msa: "Maju Pulu Kita"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -2110,28 +3662,60 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [],
+            deFacto: [
                 "+61891"
             ],
-            exceptions: []
+            exceptions: [
+                {
+                    code: "089162",
+                    origin: "AU"
+                }
+            ]
         },
         ccTld: ".cc",
         ccIdn: [],
         timeZones: [
             "Indian/Cocos"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [],
+                deFacto: [
+                    "eng"
+                ]
+            },
+            regional: [],
+            widelySpoken: [
+                "zlm"
+            ],
+            localCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "aus"
+                ]
+            },
+            extraTerritorialCommunities: [],
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-CC"
         ],
         otherAppsIds: {
-            geoNamesOrg: 1547376
+            geoNamesOrg: 1547376,
+            wikidata: "Q26988",
+            openStreetMap: {
+                type: "relation",
+                id: 82610
+            }
         }
     },
     {
         officialName: {
-            fr: "République démocratique du Congo"
+            fra: "République démocratique du Congo"
         },
         alpha2: "CD",
         alpha3: "COD",
@@ -2142,12 +3726,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                fr: "Justice – Paix – Travail"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        fra: "Justice – Paix – Travail"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -2156,9 +3747,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+243"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".cd",
@@ -2167,7 +3759,44 @@ export const countries = [
             "Africa/Kinshasa",
             "Africa/Lubumbashi"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "fra"
+                ],
+                deFacto: []
+            },
+            regional: [
+                "lin",
+                "kon",
+                "lua",
+                "swa"
+            ],
+            widelySpoken: [],
+            localCommunities: [
+                "bnt",
+                "umb",
+                "nyk",
+                "tkw",
+                "cng",
+                "yaf",
+                "ndo",
+                "bku",
+                "luo",
+                "ngc",
+                "bmb",
+                "blz"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "fsl"
+                ]
+            },
+            extraTerritorialCommunities: [],
+            dialects: []
+        },
         localesIcu: [
             "fr",
             "fr-CD",
@@ -2177,13 +3806,18 @@ export const countries = [
             "sw-CD"
         ],
         otherAppsIds: {
-            geoNamesOrg: 203312
+            geoNamesOrg: 203312,
+            wikidata: "Q974",
+            openStreetMap: {
+                type: "relation",
+                id: 192795
+            }
         }
     },
     {
         officialName: {
-            fr: "République centrafricaine",
-            sg: "Ködörösêse tî Bêafrîka"
+            fra: "République centrafricaine",
+            sgb: "Ködörösêse tî Bêafrîka"
         },
         alpha2: "CF",
         alpha3: "CAF",
@@ -2194,12 +3828,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                fr: "Unité, Dignité, Travail"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        fra: "Unité, Dignité, Travail"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -2208,9 +3849,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+236"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".cf",
@@ -2218,7 +3860,38 @@ export const countries = [
         timeZones: [
             "Africa/Bangui"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "fra",
+                    "sgb"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "gya",
+                "mbb",
+                "mnh",
+                "bxp",
+                "bkg",
+                "nzc",
+                "lnl",
+                "bjo",
+                "kwy",
+                "bfl"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "csf"
+                ]
+            },
+            extraTerritorialCommunities: [],
+            dialects: []
+        },
         localesIcu: [
             "fr",
             "fr-CF",
@@ -2226,12 +3899,17 @@ export const countries = [
             "ln-CF"
         ],
         otherAppsIds: {
-            geoNamesOrg: 239880
+            geoNamesOrg: 239880,
+            wikidata: "Q929",
+            openStreetMap: {
+                type: "relation",
+                id: 192793
+            }
         }
     },
     {
         officialName: {
-            fr: "République du Congo"
+            fra: "République du Congo"
         },
         alpha2: "CG",
         alpha3: "COG",
@@ -2242,12 +3920,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                fr: "Unité, Travail, Progrès"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        fra: "Unité, Travail, Progrès"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -2256,9 +3941,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+242"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".cg",
@@ -2266,7 +3952,39 @@ export const countries = [
         timeZones: [
             "Africa/Brazzaville"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "fra"
+                ],
+                deFacto: []
+            },
+            regional: [
+                "lin",
+                "kon"
+            ],
+            widelySpoken: [],
+            localCommunities: [
+                "ktu",
+                "bqk",
+                "mkw",
+                "nla",
+                "tek",
+                "tdt",
+                "bzv",
+                "mho",
+                "ymg"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "fcs"
+                ]
+            },
+            extraTerritorialCommunities: [],
+            dialects: []
+        },
         localesIcu: [
             "fr",
             "fr-CG",
@@ -2274,16 +3992,20 @@ export const countries = [
             "ln-CG"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2260494
+            geoNamesOrg: 2260494,
+            wikidata: "Q971",
+            openStreetMap: {
+                type: "relation",
+                id: 192790
+            }
         }
     },
     {
         officialName: {
-            de: "Schweizerische Eidgenossenschaft",
-            fr: "Confédération suisse",
-            it: "Confederazione Svizzera",
-            rm: "Confederaziun svizra",
-            la: "Confoederatio helvetica"
+            deu: "Schweizerische Eidgenossenschaft",
+            fra: "Confédération suisse",
+            ita: "Confederazione Svizzera",
+            roh: "Confederaziun svizra"
         },
         alpha2: "CH",
         alpha3: "CHE",
@@ -2294,16 +4016,23 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                la: "Unus pro omnibus, omnes pro uno",
-                de: "Einer für alle, alle für einen",
-                fr: "Un pour tous, tous pour un",
-                it: "Uno per tutti, tutti per uno",
-                rm: "In per tuts, tuts per in"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [
+                {
+                    text: {
+                        lat: "Unus pro omnibus, omnes pro uno",
+                        deu: "Einer für alle, alle für einen",
+                        fra: "Un pour tous, tous pour un",
+                        ita: "Uno per tutti, tutti per uno",
+                        roh: "In per tuts, tuts per in"
+                    }
+                }
+            ],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -2312,9 +4041,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+41"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".ch",
@@ -2322,7 +4052,37 @@ export const countries = [
         timeZones: [
             "Europe/Zurich"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "deu",
+                    "fra",
+                    "ita",
+                    "roh"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "gsw",
+                "lld",
+                "slv",
+                "por",
+                "srp",
+                "alb",
+                "tur"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "sgg"
+                ]
+            },
+            extraTerritorialCommunities: [],
+            dialects: []
+        },
         localesIcu: [
             "de",
             "de-CH",
@@ -2338,12 +4098,17 @@ export const countries = [
             "wae-CH"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2658434
+            geoNamesOrg: 2658434,
+            wikidata: "Q39",
+            openStreetMap: {
+                type: "relation",
+                id: 51701
+            }
         }
     },
     {
         officialName: {
-            fr: "République de Côte d'Ivoire"
+            fra: "République de Côte d'Ivoire"
         },
         alpha2: "CI",
         alpha3: "CIV",
@@ -2354,12 +4119,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                fr: "Union, Discipline, Travail"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        fra: "Union, Discipline, Travail"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -2368,9 +4140,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+225"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".ci",
@@ -2378,19 +4151,63 @@ export const countries = [
         timeZones: [
             "Africa/Abidjan"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "fra"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "dyu",
+                "aka",
+                "baq",
+                "kro",
+                "sju"
+            ],
+            localCommunities: [
+                "sef",
+                "kfo",
+                "bci",
+                "biv",
+                "mxx",
+                "bqa",
+                "mkw",
+                "acl",
+                "djg",
+                "bfb",
+                "agv",
+                "kpe",
+                "loo"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "fcs"
+                ]
+            },
+            extraTerritorialCommunities: [],
+            dialects: []
+        },
         localesIcu: [
             "fr",
             "fr-CI"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2287781
+            geoNamesOrg: 2287781,
+            wikidata: "Q1008",
+            openStreetMap: {
+                type: "relation",
+                id: 192780
+            }
         }
     },
     {
         officialName: {
-            mi: "Kūki 'Āirani",
-            en: "Cook Islands"
+            rar: "Kūki ‘Airani",
+            tzh: "Kūki Airani"
         },
         alpha2: "CK",
         alpha3: "COK",
@@ -2401,10 +4218,13 @@ export const countries = [
         },
         dependency: "NZ",
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -2413,9 +4233,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+682"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".ck",
@@ -2423,18 +4244,46 @@ export const countries = [
         timeZones: [
             "Pacific/Rarotonga"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng",
+                    "rar"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "pkp",
+                "mri",
+                "pau",
+                "tah"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            extraTerritorialCommunities: [],
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-CK"
         ],
         otherAppsIds: {
-            geoNamesOrg: 1899402
+            geoNamesOrg: 1899402,
+            wikidata: "Q26988",
+            openStreetMap: {
+                type: "relation",
+                id: 2186648
+            }
         }
     },
     {
         officialName: {
-            es: "República de Chile"
+            spa: "República de Chile"
         },
         alpha2: "CL",
         alpha3: "CHL",
@@ -2445,12 +4294,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                es: "Por la razón o la fuerza"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        spa: "Por la razón o la fuerza"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -2459,9 +4315,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+56"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".cl",
@@ -2473,19 +4330,49 @@ export const countries = [
             "Chile/Continental",
             "Chile/EasterIsland"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "spa"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "arn",
+                "cba",
+                "aym",
+                "que",
+                "rap"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "csg"
+                ]
+            },
+            extraTerritorialCommunities: [],
+            dialects: []
+        },
         localesIcu: [
             "es",
             "es-CL"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3895114
+            geoNamesOrg: 3895114,
+            wikidata: "Q298",
+            openStreetMap: {
+                type: "relation",
+                id: 167454
+            }
         }
     },
     {
         officialName: {
-            fr: "République du Cameroun",
-            en: "Republic of Cameroon"
+            fra: "République du Cameroun",
+            eng: "Republic of Cameroon"
         },
         alpha2: "CM",
         alpha3: "CMR",
@@ -2496,13 +4383,20 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                fr: "Paix, Travail, Patrie",
-                en: "Pace, Lavoro, Patria"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        fra: "Paix, Travail, Patrie",
+                        eng: "Peace, Work, Fatherland"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -2511,9 +4405,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+237"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".cm",
@@ -2521,7 +4416,46 @@ export const countries = [
         timeZones: [
             "Africa/Douala"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng",
+                    "fra"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "ffm",
+                "nmg",
+                "bkm",
+                "bcu"
+            ],
+            localCommunities: [
+                "bas",
+                "bbj",
+                "dua",
+                "mva",
+                "yam",
+                "bum",
+                "ken",
+                "lns",
+                "fmp",
+                "bet",
+                "mcp",
+                "azo",
+                "bss"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "csn"
+                ]
+            },
+            extraTerritorialCommunities: [],
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-CM",
@@ -2531,12 +4465,17 @@ export const countries = [
             "fr-CM"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2233387
+            geoNamesOrg: 2233387,
+            wikidata: "Q1009",
+            openStreetMap: {
+                type: "relation",
+                id: 192830
+            }
         }
     },
     {
         officialName: {
-            zh: "中华人民共和国"
+            cmn: "中华人民共和国"
         },
         alpha2: "CN",
         alpha3: "CHN",
@@ -2547,10 +4486,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -2559,9 +4501,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+86"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".cn",
@@ -2588,13 +4531,44 @@ export const countries = [
         ],
         timeZones: [
             "Asia/Shanghai",
-            "Asia/Urumqi",
-            "Asia/Chongqing",
-            "Asia/Chungking",
-            "Asia/Harbin",
-            "Asia/Kashgar"
+            "Asia/Urumqi"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "cmn"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "yue",
+                "wuu",
+                "hak",
+                "gan",
+                "cdo",
+                "hsn",
+                "nan"
+            ],
+            localCommunities: [
+                "uig",
+                "bod",
+                "kas",
+                "zha",
+                "iii",
+                "khb",
+                "khk"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "csl"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "bo",
             "bo-CN",
@@ -2604,12 +4578,17 @@ export const countries = [
             "zh-CN"
         ],
         otherAppsIds: {
-            geoNamesOrg: 1814991
+            geoNamesOrg: 1814991,
+            wikidata: "Q148",
+            openStreetMap: {
+                type: "relation",
+                id: 270056
+            }
         }
     },
     {
         officialName: {
-            es: "República de Colombia"
+            spa: "República de Colombia"
         },
         alpha2: "CO",
         alpha3: "COL",
@@ -2620,12 +4599,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                es: "Libertad y Orden"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        spa: "Libertad y Orden"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -2634,9 +4620,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+57"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".co",
@@ -2644,18 +4631,54 @@ export const countries = [
         timeZones: [
             "America/Bogota"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "spa"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "way",
+                "pbb",
+                "cjp",
+                "guc",
+                "iku",
+                "kbh",
+                "tnc",
+                "njd",
+                "tnd",
+                "cof",
+                "bmr"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "csn"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "es",
             "es-CO"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3686110
+            geoNamesOrg: 3686110,
+            wikidata: "Q739",
+            openStreetMap: {
+                type: "relation",
+                id: 120027
+            }
         }
     },
     {
         officialName: {
-            es: "República de Costa Rica"
+            spa: "República de Costa Rica"
         },
         alpha2: "CR",
         alpha3: "CRI",
@@ -2666,12 +4689,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                es: "¡Vivan siempre el trabajo y la paz!"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        spa: "¡Vivan siempre el trabajo y la paz!"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -2680,9 +4710,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+506"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".cr",
@@ -2690,18 +4721,48 @@ export const countries = [
         timeZones: [
             "America/Costa_Rica"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "spa"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "bzd",
+                "cjp",
+                "bkc",
+                "gnr",
+                "emp"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "csr"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "es",
             "es-CR"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3624060
+            geoNamesOrg: 3624060,
+            wikidata: "Q800",
+            openStreetMap: {
+                type: "relation",
+                id: 121760
+            }
         }
     },
     {
         officialName: {
-            es: "República de Cuba"
+            spa: "República de Cuba"
         },
         alpha2: "CU",
         alpha3: "CUB",
@@ -2712,12 +4773,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                es: "¡Patria o Muerte, Venceremos!"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        spa: "¡Patria o Muerte, Venceremos!"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -2726,9 +4794,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+53"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".cu",
@@ -2736,18 +4805,45 @@ export const countries = [
         timeZones: [
             "America/Havana"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "spa"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "hat",
+                "yua"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "csl"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "es",
             "es-CU"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3562981
+            geoNamesOrg: 3562981,
+            wikidata: "Q241",
+            openStreetMap: {
+                type: "relation",
+                id: 307833
+            }
         }
     },
     {
         officialName: {
-            pt: "República de Cabo Verde"
+            por: "República de Cabo Verde"
         },
         alpha2: "CV",
         alpha3: "CPV",
@@ -2758,12 +4854,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                pt: "Unidade, Trabalho, Progresso"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        por: "Unidade, Trabalho, Progresso"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -2772,9 +4875,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+238"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".cv",
@@ -2782,19 +4886,43 @@ export const countries = [
         timeZones: [
             "Atlantic/Cape_Verde"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "por"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "kea"
+            ],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "pt",
             "pt-CV"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3374766
+            geoNamesOrg: 3374766,
+            wikidata: "Q1011",
+            openStreetMap: {
+                type: "relation",
+                id: 536765
+            }
         }
     },
     {
         officialName: {
             pap: "Pais Kòrsou",
-            nl: "Paese di Curaçao"
+            nld: "Land Curaçao"
         },
         alpha2: "CW",
         alpha3: "CUW",
@@ -2805,12 +4933,19 @@ export const countries = [
         },
         dependency: "NL",
         mottos: {
-            official: {},
-            popular: {},
-            royal: {
-                fr: "Je maintiendrai"
-            },
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [
+                {
+                    text: {
+                        fra: "Je maintiendrai"
+                    }
+                }
+            ],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -2819,9 +4954,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+5999"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".cw",
@@ -2829,18 +4965,44 @@ export const countries = [
         timeZones: [
             "America/Curacao"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "nld",
+                    "pap",
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "spa"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "nl",
             "nl-CW"
         ],
         otherAppsIds: {
-            geoNamesOrg: 7626836
+            geoNamesOrg: 7626836,
+            wikidata: "Q25279",
+            openStreetMap: {
+                type: "relation",
+                id: 1273856
+            }
         }
     },
     {
         officialName: {
-            en: "Territory of Christmas Island"
+            eng: "Territory of Christmas Island"
         },
         alpha2: "CX",
         alpha3: "CXR",
@@ -2851,10 +5013,13 @@ export const countries = [
         },
         dependency: "AU",
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -2863,29 +5028,62 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
-                "+61891"
+            deJure: [],
+            deFacto: [
+                "+6189164"
             ],
-            exceptions: []
+            exceptions: [
+                {
+                    code: "089164",
+                    origin: "AU"
+                }
+            ]
         },
         ccTld: ".cx",
         ccIdn: [],
         timeZones: [
             "Indian/Christmas"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [],
+                deFacto: [
+                    "eng"
+                ]
+            },
+            regional: [],
+            widelySpoken: [
+                "cmn",
+                "msa"
+            ],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "aus"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-CX"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2078138
+            geoNamesOrg: 2078138,
+            wikidata: "Q31063",
+            openStreetMap: {
+                type: "relation",
+                id: 82637
+            }
         }
     },
     {
         officialName: {
-            el: "Κυπριακή Δημοκρατία",
-            tr: "Kıbrıs Cumhuriyeti"
+            ell: "Κυπριακή Δημοκρατία",
+            tur: "Kıbrıs Cumhuriyeti"
         },
         alpha2: "CY",
         alpha3: "CYP",
@@ -2896,10 +5094,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -2908,9 +5109,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+357"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".cy",
@@ -2920,7 +5122,36 @@ export const countries = [
             "Asia/Nicosia",
             "Europe/Nicosia"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "ell",
+                    "tur"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "eng"
+            ],
+            localCommunities: [
+                "hyw",
+                "fra",
+                "arz",
+                "cpg",
+                "syc",
+                "ita"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "csg"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "el",
             "el-CY",
@@ -2930,12 +5161,17 @@ export const countries = [
             "tr-CY"
         ],
         otherAppsIds: {
-            geoNamesOrg: 146669
+            geoNamesOrg: 146669,
+            wikidata: "Q229",
+            openStreetMap: {
+                type: "relation",
+                id: 307787
+            }
         }
     },
     {
         officialName: {
-            cs: "Česká republika"
+            ces: "Česká republika"
         },
         alpha2: "CZ",
         alpha3: "CZE",
@@ -2946,12 +5182,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                cs: "Pravda vítězí"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        ces: "Pravda vítězí"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -2960,9 +5203,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+420"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".cz",
@@ -2970,18 +5214,54 @@ export const countries = [
         timeZones: [
             "Europe/Prague"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "ces"
+                ],
+                deFacto: []
+            },
+            regional: [
+                "slk"
+            ],
+            widelySpoken: [
+                "deu",
+                "eng"
+            ],
+            localCommunities: [
+                "rom"
+            ],
+            extraTerritorialCommunities: [
+                "pol",
+                "rus",
+                "ukr",
+                "vie"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "cse"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "cs",
             "cs-CZ"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3077311
+            geoNamesOrg: 3077311,
+            wikidata: "Q213",
+            openStreetMap: {
+                type: "relation",
+                id: 51684
+            }
         }
     },
     {
         officialName: {
-            de: "Bundesrepublik Deutschland"
+            deu: "Bundesrepublik Deutschland"
         },
         alpha2: "DE",
         alpha3: "DEU",
@@ -2992,10 +5272,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -3004,9 +5287,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+49"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".de",
@@ -3015,7 +5299,42 @@ export const countries = [
             "Europe/Berlin",
             "Europe/Busingen"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "deu"
+                ],
+                deFacto: []
+            },
+            regional: [
+                "dan",
+                "frr",
+                "nds",
+                "gsw"
+            ],
+            widelySpoken: [
+                "tur",
+                "eng"
+            ],
+            localCommunities: [
+                "rom",
+                "ksh"
+            ],
+            extraTerritorialCommunities: [
+                "pol",
+                "rus",
+                "ukr",
+                "vie"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "gsg"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "de",
             "de-DE",
@@ -3029,13 +5348,18 @@ export const countries = [
             "hsb-DE"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2921044
+            geoNamesOrg: 2921044,
+            wikidata: "Q183",
+            openStreetMap: {
+                type: "relation",
+                id: 51477
+            }
         }
     },
     {
         officialName: {
-            ar: "جمهورية جيبوتي",
-            fr: "République de Djibouti"
+            arb: "جمهورية جيبوتي",
+            fra: "République de Djibouti"
         },
         alpha2: "DJ",
         alpha3: "DJI",
@@ -3046,13 +5370,20 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                ar: "اتحاد، مساواة، سلام",
-                fr: "Unité, Égalité, Paix"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        arb: "اتحاد، مساواة، سلام",
+                        fra: "Unité, Égalité, Paix"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -3061,9 +5392,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+253"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".dj",
@@ -3071,7 +5403,28 @@ export const countries = [
         timeZones: [
             "Africa/Djibouti"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "arb",
+                    "fra"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "som",
+                "aar"
+            ],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "ar",
             "ar-DJ",
@@ -3079,12 +5432,17 @@ export const countries = [
             "fr-DJ"
         ],
         otherAppsIds: {
-            geoNamesOrg: 223816
+            geoNamesOrg: 223816,
+            wikidata: "Q977",
+            openStreetMap: {
+                type: "relation",
+                id: 192789
+            }
         }
     },
     {
         officialName: {
-            da: "Kongeriget Danmark"
+            dan: "Kongeriget Danmark"
         },
         alpha2: "DK",
         alpha3: "DNK",
@@ -3095,12 +5453,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                da: "Guds hjælp, Folkets kærlighed, Danmarks styrke"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        dan: "Guds hjælp, Folkets kærlighed, Danmarks styrke"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -3109,9 +5474,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+45"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".dk",
@@ -3119,7 +5485,39 @@ export const countries = [
         timeZones: [
             "Europe/Copenhagen"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "dan"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "eng",
+                "deu"
+            ],
+            localCommunities: [
+                "fao",
+                "kal",
+                "rom"
+            ],
+            extraTerritorialCommunities: [
+                "tur",
+                "urd",
+                "sqi",
+                "ara",
+                "swe"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "dsl"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "da",
             "da-DK",
@@ -3129,12 +5527,17 @@ export const countries = [
             "fo-DK"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2623032
+            geoNamesOrg: 2623032,
+            wikidata: "Q35",
+            openStreetMap: {
+                type: "relation",
+                id: 50046
+            }
         }
     },
     {
         officialName: {
-            en: "Commonwealth of Dominica"
+            eng: "Commonwealth of Dominica"
         },
         alpha2: "DM",
         alpha3: "DMA",
@@ -3145,12 +5548,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                la: "Post Deum terra est"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        lat: "Post Deum terra est"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -3159,9 +5569,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+1767"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".dm",
@@ -3169,18 +5580,42 @@ export const countries = [
         timeZones: [
             "America/Dominica"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "acf"
+            ],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-DM"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3575830
+            geoNamesOrg: 3575830,
+            wikidata: "Q784",
+            openStreetMap: {
+                type: "relation",
+                id: 307828
+            }
         }
     },
     {
         officialName: {
-            es: "República Dominicana"
+            spa: "República Dominicana"
         },
         alpha2: "DO",
         alpha3: "DOM",
@@ -3191,12 +5626,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                es: "Dios, Patria, Libertad"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        spa: "Dios, Patria, Libertad"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -3205,9 +5647,12 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
-                "+1"
+            deJure: [
+                "+1809",
+                "+1829",
+                "+1849"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".do",
@@ -3215,19 +5660,45 @@ export const countries = [
         timeZones: [
             "America/Santo_Domingo"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "spa"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "hat",
+                "eng",
+                "fra"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "es",
             "es-DO"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3508796
+            geoNamesOrg: 3508796,
+            wikidata: "Q786",
+            openStreetMap: {
+                type: "relation",
+                id: 307829
+            }
         }
     },
     {
         officialName: {
-            ar: "الجمهورية الجزائرية الديمقراطية الشعبية",
-            ber: "ⴰⵎⴻⴳⴷⴰⵣⵉⵜ ⴷⴰⵎⵙⵉⵙⵖⵔⵉⴷⴰ ⵏ ⴰⵍⵊⵉⵔⵉⴰ"
+            arb: "الجمهورية الجزائرية الديمقراطية الشعبية",
+            kab: "ⴰⵎⴻⴳⴷⴰⵣⵉⵜ ⴷⴰⵎⵙⵉⵙⵖⵔⵉⴷⴰ ⵏ ⴰⵍⵊⵉⵔⵉⴰ"
         },
         alpha2: "DZ",
         alpha3: "DZA",
@@ -3238,13 +5709,20 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                ar: "بالشّعب، وللشّعب",
-                ber: "ⵏ ⵙⵙⵉⵔⵉⵏ ⵏ ⴰⵔⵔⴻⵏ ⵏ ⵏⴻⵍⵍⴻⵉⵔⵏ"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        arb: "بالشّعب، وللشّعب",
+                        kab: "ⵏ ⵙⵙⵉⵔⵉⵏ ⵏ ⴰⵔⵔⴻⵏ ⵏ ⵏⴻⵍⵍⴻⵉⵔⵏ"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -3253,9 +5731,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+213"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".dz",
@@ -3263,7 +5742,34 @@ export const countries = [
         timeZones: [
             "Africa/Algiers"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "arb",
+                    "kab"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "fra"
+            ],
+            localCommunities: [
+                "shi",
+                "taq",
+                "tmh",
+                "mzb"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "ads"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "ar",
             "ar-DZ",
@@ -3271,12 +5777,17 @@ export const countries = [
             "fr-DZ"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2589581
+            geoNamesOrg: 2589581,
+            wikidata: "Q262",
+            openStreetMap: {
+                type: "relation",
+                id: 192756
+            }
         }
     },
     {
         officialName: {
-            es: "República del Ecuador"
+            spa: "República del Ecuador"
         },
         alpha2: "EC",
         alpha3: "ECU",
@@ -3287,12 +5798,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                la: "Pro Deo, Patria et Libertate"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        lat: "Pro Deo, Patria et Libertate"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -3301,9 +5819,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+593"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".ec",
@@ -3312,18 +5831,57 @@ export const countries = [
             "America/Guayaquil",
             "Pacific/Galapagos"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "spa",
+                    "que"
+                ],
+                deFacto: []
+            },
+            regional: [
+                "qug"
+            ],
+            widelySpoken: [],
+            localCommunities: [
+                "grn",
+                "shp",
+                "cbi",
+                "jiv",
+                "ach",
+                "hch",
+                "kwi",
+                "cof",
+                "wao",
+                "auc",
+                "trn"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "ecs"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "es",
             "es-EC"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3658394
+            geoNamesOrg: 3658394,
+            wikidata: "Q736",
+            openStreetMap: {
+                type: "relation",
+                id: 307786
+            }
         }
     },
     {
         officialName: {
-            et: "Eesti Vabariik"
+            est: "Eesti Vabariik"
         },
         alpha2: "EE",
         alpha3: "EST",
@@ -3334,10 +5892,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -3346,9 +5907,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+372"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".ee",
@@ -3356,18 +5918,51 @@ export const countries = [
         timeZones: [
             "Europe/Tallinn"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "est"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "rus",
+                "eng"
+            ],
+            localCommunities: [
+                "vro",
+                "deu",
+                "ukr",
+                "fin",
+                "rom"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "eso"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "et",
             "et-EE"
         ],
         otherAppsIds: {
-            geoNamesOrg: 453733
+            geoNamesOrg: 453733,
+            wikidata: "Q191",
+            openStreetMap: {
+                type: "relation",
+                id: 79510
+            }
         }
     },
     {
         officialName: {
-            ar: "جمهورية مصر العربية"
+            arb: "جمهورية مصر العربية"
         },
         alpha2: "EG",
         alpha3: "EGY",
@@ -3378,12 +5973,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                ar: "بلادي، بلادي، بلادي"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        arb: "بلادي، بلادي، بلادي"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -3392,9 +5994,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+20"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".eg",
@@ -3402,7 +6005,7 @@ export const countries = [
             {
                 unicode: ".مصر",
                 punycode: ".xn--wgbh1c",
-                language: "ar",
+                language: "arb",
                 regionsOfUse: [
                     "EG"
                 ]
@@ -3411,18 +6014,51 @@ export const countries = [
         timeZones: [
             "Africa/Cairo"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "arb"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "arz",
+                "enb"
+            ],
+            localCommunities: [
+                "cop",
+                "nob",
+                "bej",
+                "grc",
+                "arm"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "esl"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "ar",
             "ar-EG"
         ],
         otherAppsIds: {
-            geoNamesOrg: 357994
+            geoNamesOrg: 357994,
+            wikidata: "Q79",
+            openStreetMap: {
+                type: "relation",
+                id: 1473946
+            }
         }
     },
     {
         officialName: {
-            ar: "الجمهورية العربية الصحراوية الديمقراطية"
+            arb: "الجمهورية العربية الصحراوية الديمقراطية"
         },
         alpha2: "EH",
         alpha3: "ESH",
@@ -3433,12 +6069,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                ar: "حرية ديمقراطية وحدة"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        arb: "حرية ديمقراطية وحدة"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -3447,7 +6090,8 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [],
+            deFacto: [
                 "+212"
             ],
             exceptions: []
@@ -3457,19 +6101,45 @@ export const countries = [
         timeZones: [
             "Africa/El_Aaiun"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "arb",
+                    "spa"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "mey",
+                "ber"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "ar",
             "ar-EH"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2461445
+            geoNamesOrg: 2461445,
+            wikidata: "Q6250",
+            openStreetMap: {
+                type: "relation",
+                id: 5441969
+            }
         }
     },
     {
         officialName: {
-            ar: "دولة إريتريا",
-            ti: "ኤርትራ"
+            ara: "دولة إريتريا",
+            tir: "ኤርትራ"
         },
         alpha2: "ER",
         alpha3: "ERI",
@@ -3480,12 +6150,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                ar: "انتصار للجماهير"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        ara: "انتصار للجماهير"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -3494,18 +6171,45 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+291"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".er",
         ccIdn: [],
         timeZones: [
-            "Africa/Asmara",
-            "Africa/Asmera"
+            "Africa/Asmara"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "tir",
+                "ara",
+                "tig"
+            ],
+            localCommunities: [
+                "byn",
+                "nrb",
+                "ssy",
+                "kun",
+                "blu",
+                "amh",
+                "orm"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "ar",
             "ar-ER",
@@ -3513,12 +6217,17 @@ export const countries = [
             "en-ER"
         ],
         otherAppsIds: {
-            geoNamesOrg: 338010
+            geoNamesOrg: 338010,
+            wikidata: "Q986",
+            openStreetMap: {
+                type: "relation",
+                id: 1620601
+            }
         }
     },
     {
         officialName: {
-            es: "Reino de España"
+            spa: "Reino de España"
         },
         alpha2: "ES",
         alpha3: "ESP",
@@ -3529,12 +6238,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                la: "Plus ultra"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        lat: "Plus ultra"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -3543,9 +6259,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+34"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".es",
@@ -3555,7 +6272,52 @@ export const countries = [
             "Atlantic/Canary",
             "Europe/Madrid"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "spa"
+                ],
+                deFacto: []
+            },
+            regional: [
+                "cat",
+                "eus",
+                "glg",
+                "oci"
+            ],
+            widelySpoken: [],
+            localCommunities: [
+                "ast",
+                "ext",
+                "arn",
+                "mzc",
+                "ltg",
+                "rml",
+                "pov",
+                "mlg",
+                "fab"
+            ],
+            extraTerritorialCommunities: [
+                "ara",
+                "ron",
+                "que",
+                "tir",
+                "zul",
+                "pol",
+                "por",
+                "fra",
+                "urd",
+                "zho"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "ssp"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "ca",
             "ca-ES",
@@ -3565,12 +6327,17 @@ export const countries = [
             "gl-ES"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2510769
+            geoNamesOrg: 2510769,
+            wikidata: "Q29",
+            openStreetMap: {
+                type: "relation",
+                id: 1311341
+            }
         }
     },
     {
         officialName: {
-            am: "የኢትዮጵያ ፌዴራላዊ ዴሞክራሲያዊ ሪፐብሊክ"
+            amh: "የኢትዮጵያ ፌዴራላዊ ዴሞክራሲያዊ ሪፐብሊክ"
         },
         alpha2: "ET",
         alpha3: "ETH",
@@ -3581,12 +6348,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                am: "ኢትዮጵያ አንደኛ"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        amh: "ኢትዮጵያ አንደኛ"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -3595,9 +6369,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+251"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".et",
@@ -3605,7 +6380,40 @@ export const countries = [
         timeZones: [
             "Africa/Addis_Ababa"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "amh"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "orm",
+                "tir",
+                "som",
+                "sid",
+                "tgn",
+                "wal",
+                "sgw"
+            ],
+            localCommunities: [
+                "gax",
+                "bcq",
+                "dwr",
+                "gez",
+                "mtc"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "eth"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "am",
             "am-ET",
@@ -3613,13 +6421,18 @@ export const countries = [
             "om-ET"
         ],
         otherAppsIds: {
-            geoNamesOrg: 337996
+            geoNamesOrg: 337996,
+            wikidata: "Q115",
+            openStreetMap: {
+                type: "relation",
+                id: 192800
+            }
         }
     },
     {
         officialName: {
-            fi: "Suomen tasavalta",
-            sv: "Republiken Finland"
+            fin: "Suomen tasavalta",
+            swe: "Republiken Finland"
         },
         alpha2: "FI",
         alpha3: "FIN",
@@ -3630,10 +6443,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -3642,9 +6458,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+358"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".fi",
@@ -3652,7 +6469,45 @@ export const countries = [
         timeZones: [
             "Europe/Helsinki"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "fin",
+                    "swe"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "rus",
+                "eng",
+                "est"
+            ],
+            localCommunities: [
+                "sme",
+                "sms",
+                "smn",
+                "fit",
+                "rom"
+            ],
+            extraTerritorialCommunities: [
+                "ara",
+                "som",
+                "kur",
+                "fao",
+                "tir"
+            ],
+            signs: {
+                official: [],
+                recognized: [
+                    "fss"
+                ],
+                used: [
+                    "fse"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-FI",
@@ -3666,13 +6521,18 @@ export const countries = [
             "sv-FI"
         ],
         otherAppsIds: {
-            geoNamesOrg: 660013
+            geoNamesOrg: 660013,
+            wikidata: "Q33",
+            openStreetMap: {
+                type: "relation",
+                id: 54224
+            }
         }
     },
     {
         officialName: {
-            en: "Republic of Fiji",
-            fj: "Matanitu Tugalala o Viti",
+            eng: "Republic of Fiji",
+            fij: "Matanitu Tugalala o Viti",
             hif: "रिपब्लिक ऑफ फीजी"
         },
         alpha2: "FJ",
@@ -3684,12 +6544,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                fj: "Rerevaka na Kalou ka Doka na Tui"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        fij: "Rerevaka na Kalou ka Doka na Tui"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -3698,9 +6565,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+679"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".fj",
@@ -3708,18 +6576,48 @@ export const countries = [
         timeZones: [
             "Pacific/Fiji"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng",
+                    "fij",
+                    "hif"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "gil",
+                "ton",
+                "bau"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [
+                    "fji"
+                ],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-FJ"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2205218
+            geoNamesOrg: 2205218,
+            wikidata: "Q712",
+            openStreetMap: {
+                type: "relation",
+                id: 2157446
+            }
         }
     },
     {
         officialName: {
-            en: "Falkland Islands"
+            eng: "Falkland Islands"
         },
         alpha2: "FK",
         alpha3: "FLK",
@@ -3730,12 +6628,19 @@ export const countries = [
         },
         dependency: "GB",
         mottos: {
-            official: {
-                en: "Desire the Right"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        eng: "Desire the Right"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -3744,9 +6649,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+500"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".fk",
@@ -3754,18 +6660,40 @@ export const countries = [
         timeZones: [
             "Atlantic/Stanley"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-FK"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3474414
+            geoNamesOrg: 3474414,
+            wikidata: "Q9648",
+            openStreetMap: {
+                type: "relation",
+                id: 1993867
+            }
         }
     },
     {
         officialName: {
-            en: "Federated States of Micronesia"
+            eng: "Federated States of Micronesia"
         },
         alpha2: "FM",
         alpha3: "FSM",
@@ -3776,12 +6704,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                en: "Peace, Unity, Liberty"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        eng: "Peace, Unity, Liberty"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -3790,9 +6725,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+691"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".fm",
@@ -3805,19 +6741,54 @@ export const countries = [
             "Pacific/Truk",
             "Pacific/Yap"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "chk",
+                "pon",
+                "kos",
+                "yap"
+            ],
+            localCommunities: [
+                "uli",
+                "tox",
+                "woe",
+                "fud",
+                "kpg",
+                "mrl",
+                "poh"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-FM"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2081918
+            geoNamesOrg: 2081918,
+            wikidata: "Q702",
+            openStreetMap: {
+                type: "relation",
+                id: 571824
+            }
         }
     },
     {
         officialName: {
-            fo: "Føroyar",
-            da: "Færøerne"
+            fao: "Føroyar",
+            dan: "Færøerne"
         },
         alpha2: "FO",
         alpha3: "FRO",
@@ -3828,10 +6799,13 @@ export const countries = [
         },
         dependency: "DK",
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -3840,9 +6814,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+298"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".fo",
@@ -3851,18 +6826,41 @@ export const countries = [
             "Atlantic/Faroe",
             "Atlantic/Faeroe"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "fao",
+                    "dan"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "fo",
             "fo-FO"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2622320
+            geoNamesOrg: 2622320,
+            wikidata: "Q4628",
+            openStreetMap: {
+                type: "relation",
+                id: 52939
+            }
         }
     },
     {
         officialName: {
-            fr: "République française"
+            fra: "République française"
         },
         alpha2: "FR",
         alpha3: "FRA",
@@ -3873,12 +6871,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                fr: "Liberté, Égalité, Fraternité"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        fra: "Liberté, Égalité, Fraternité"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -3887,9 +6892,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+33"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".fr",
@@ -3897,7 +6903,50 @@ export const countries = [
         timeZones: [
             "Europe/Paris"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "fra"
+                ],
+                deFacto: []
+            },
+            regional: [
+                "oci",
+                "bre",
+                "cor",
+                "gsw",
+                "cat",
+                "eus",
+                "glg"
+            ],
+            widelySpoken: [],
+            localCommunities: [
+                "arp",
+                "kmr",
+                "kab",
+                "ber",
+                "zho",
+                "tam",
+                "tur",
+                "ful",
+                "son",
+                "wol"
+            ],
+            extraTerritorialCommunities: [
+                "ara",
+                "por",
+                "ita",
+                "cmn"
+            ],
+            signs: {
+                official: [
+                    "fsl"
+                ],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "br",
             "br-FR",
@@ -3907,12 +6956,17 @@ export const countries = [
             "fr-FR"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3017382
+            geoNamesOrg: 3017382,
+            wikidata: "Q142",
+            openStreetMap: {
+                type: "relation",
+                id: 1403916
+            }
         }
     },
     {
         officialName: {
-            fr: "République gabonaise "
+            fra: "République gabonaise"
         },
         alpha2: "GA",
         alpha3: "GAB",
@@ -3923,12 +6977,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                fr: "Union, Travail, Justice"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        fra: "Union, Travail, Justice"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -3937,9 +6998,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+241"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".ga",
@@ -3947,18 +7009,51 @@ export const countries = [
         timeZones: [
             "Africa/Libreville"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "fra"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "fan"
+            ],
+            localCommunities: [
+                "mye",
+                "pun",
+                "nzb",
+                "tte",
+                "bap",
+                "ebu",
+                "mvb",
+                "bko"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "fr",
             "fr-GA"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2400553
+            geoNamesOrg: 2400553,
+            wikidata: "Q1000",
+            openStreetMap: {
+                type: "relation",
+                id: 192794
+            }
         }
     },
     {
         officialName: {
-            en: "United Kingdom of Great Britain and Northern Ireland"
+            eng: "United Kingdom of Great Britain and Northern Ireland"
         },
         alpha2: "GB",
         alpha3: "GBR",
@@ -3969,12 +7064,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                fr: "Dieu et mon droit"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        fra: "Dieu et mon droit"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -3983,9 +7085,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+44"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".uk",
@@ -3994,7 +7097,52 @@ export const countries = [
             "Europe/London",
             "Europe/Belfast"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [
+                "cym",
+                "gla",
+                "gle",
+                "cor",
+                "sco",
+                "uln"
+            ],
+            widelySpoken: [],
+            localCommunities: [
+                "urd",
+                "pan",
+                "guj",
+                "ben",
+                "ara",
+                "pol",
+                "som",
+                "tir",
+                "tur",
+                "pus",
+                "rom"
+            ],
+            extraTerritorialCommunities: [
+                "hin",
+                "tam",
+                "swa",
+                "fra",
+                "zho",
+                "ita"
+            ],
+            signs: {
+                official: [
+                    "bfi"
+                ],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "cy",
             "cy-GB",
@@ -4002,12 +7150,17 @@ export const countries = [
             "en-GB"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2635167
+            geoNamesOrg: 2635167,
+            wikidata: "Q145",
+            openStreetMap: {
+                type: "relation",
+                id: 62149
+            }
         }
     },
     {
         officialName: {
-            en: "Grenada"
+            eng: "Grenada"
         },
         alpha2: "GD",
         alpha3: "GRD",
@@ -4018,12 +7171,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                en: "Ever Conscious of God We Aspire, Build and Advance as One People"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        eng: "Ever Conscious of God We Aspire, Build and Advance as One People"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -4032,9 +7192,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+1473"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".gd",
@@ -4042,18 +7203,44 @@ export const countries = [
         timeZones: [
             "America/Grenada"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "gcl"
+            ],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "bzs"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-GD"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3580239
+            geoNamesOrg: 3580239,
+            wikidata: "Q769",
+            openStreetMap: {
+                type: "relation",
+                id: 536899
+            }
         }
     },
     {
         officialName: {
-            ka: "საქართველოს რესპუბლიკა"
+            kat: "საქართველოს რესპუბლიკა"
         },
         alpha2: "GE",
         alpha3: "GEO",
@@ -4064,12 +7251,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                ka: "ძალა ერთობაშია"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        kat: "ძალა ერთობაშია"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -4078,9 +7272,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+995"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".ge",
@@ -4097,18 +7292,52 @@ export const countries = [
         timeZones: [
             "Asia/Tbilisi"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "kat"
+                ],
+                deFacto: []
+            },
+            regional: [
+                "abk"
+            ],
+            widelySpoken: [
+                "rus",
+                "azj",
+                "arm"
+            ],
+            localCommunities: [
+                "ava",
+                "kbd",
+                "lez",
+                "che",
+                "udm"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "ka",
             "ka-GE"
         ],
         otherAppsIds: {
-            geoNamesOrg: 614540
+            geoNamesOrg: 614540,
+            wikidata: "Q230",
+            openStreetMap: {
+                type: "relation",
+                id: 28699
+            }
         }
     },
     {
         officialName: {
-            fr: "Département de la Guyane"
+            fra: "Département de la Guyane"
         },
         alpha2: "GF",
         alpha3: "GUF",
@@ -4119,12 +7348,19 @@ export const countries = [
         },
         dependency: "FR",
         mottos: {
-            official: {
-                fr: "Liberté, Égalité, Fraternité"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        fra: "Liberté, Égalité, Fraternité"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -4133,9 +7369,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+594"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".gf",
@@ -4143,18 +7380,53 @@ export const countries = [
         timeZones: [
             "America/Cayenne"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "fra"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "gcr"
+            ],
+            localCommunities: [
+                "car",
+                "way",
+                "mpy",
+                "tup",
+                "tir",
+                "poi",
+                "njo",
+                "dut",
+                "srn",
+                "tem"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "fr",
             "fr-GF"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3381670
+            geoNamesOrg: 3381670,
+            wikidata: "Q3769",
+            openStreetMap: {
+                type: "relation",
+                id: 3407760
+            }
         }
     },
     {
         officialName: {
-            en: "Bailiwick of Guernsey"
+            eng: "Bailiwick of Guernsey"
         },
         alpha2: "GG",
         alpha3: "GGY",
@@ -4165,40 +7437,82 @@ export const countries = [
         },
         dependency: "GB",
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
-                "GBP"
+                "GBP",
+                "GGP"
             ],
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [],
+            deFacto: [
                 "+441481"
             ],
-            exceptions: []
+            exceptions: [
+                {
+                    code: "01481",
+                    origin: "GB"
+                },
+                {
+                    code: "01481",
+                    origin: "IM"
+                },
+                {
+                    code: "01481",
+                    origin: "JE"
+                }
+            ]
         },
         ccTld: ".gg",
         ccIdn: [],
         timeZones: [
             "Europe/Guernsey"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "nrf"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-GG"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3042362
+            geoNamesOrg: 3042362,
+            wikidata: "Q25230",
+            openStreetMap: {
+                type: "relation",
+                id: 93636
+            }
         }
     },
     {
         officialName: {
-            en: "Republic of Ghana"
+            eng: "Republic of Ghana"
         },
         alpha2: "GH",
         alpha3: "GHA",
@@ -4209,12 +7523,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                en: "Freedom and Justice"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        eng: "Freedom and Justice"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -4223,9 +7544,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+233"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".gh",
@@ -4233,7 +7555,46 @@ export const countries = [
         timeZones: [
             "Africa/Accra"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "aka",
+                "twi",
+                "ewe",
+                "dag",
+                "gaa",
+                "gon",
+                "kpe",
+                "kus",
+                "nzi"
+            ],
+            localCommunities: [
+                "abr",
+                "bim",
+                "sef",
+                "kas",
+                "mzw",
+                "dag",
+                "gur",
+                "mam",
+                "ckl"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [
+                    "gse"
+                ],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "ee",
             "ee-GH",
@@ -4243,12 +7604,17 @@ export const countries = [
             "ha-GH"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2300660
+            geoNamesOrg: 2300660,
+            wikidata: "Q117",
+            openStreetMap: {
+                type: "relation",
+                id: 192781
+            }
         }
     },
     {
         officialName: {
-            en: "Gibraltar"
+            eng: "Gibraltar"
         },
         alpha2: "GI",
         alpha3: "GIB",
@@ -4259,12 +7625,25 @@ export const countries = [
         },
         dependency: "GB",
         mottos: {
-            official: {
-                la: "Montis Insignia Calpe"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        lat: "Montis Insignia Calpe"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [
+                {
+                    text: {
+                        lat: "Nulli Expugnabilis Hosti"
+                    }
+                }
+            ],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -4273,9 +7652,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+350"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".gi",
@@ -4283,19 +7663,45 @@ export const countries = [
         timeZones: [
             "Europe/Gibraltar"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "spa"
+            ],
+            localCommunities: [
+                "lld"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-GI"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2411586
+            geoNamesOrg: 2411586,
+            wikidata: "Q1410",
+            openStreetMap: {
+                type: "relation",
+                id: 1278737
+            }
         }
     },
     {
         officialName: {
-            kl: "Kalaallit Nunaat",
-            da: "Grønland"
+            kal: "Kalaallit Nunaat",
+            dan: "Grønland"
         },
         alpha2: "GL",
         alpha3: "GRL",
@@ -4306,10 +7712,13 @@ export const countries = [
         },
         dependency: "DK",
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -4318,9 +7727,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+299"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".gl",
@@ -4331,7 +7741,32 @@ export const countries = [
             "America/Thule",
             "America/Godthab"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "kal"
+                ],
+                deFacto: []
+            },
+            regional: [
+                "dan"
+            ],
+            widelySpoken: [
+                "dan"
+            ],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: [
+                "klq",
+                "ktq",
+                "gdn"
+            ]
+        },
         localesIcu: [
             "da",
             "da-GL",
@@ -4339,12 +7774,17 @@ export const countries = [
             "kl-GL"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3425505
+            geoNamesOrg: 3425505,
+            wikidata: "Q223",
+            openStreetMap: {
+                type: "relation",
+                id: 2184073
+            }
         }
     },
     {
         officialName: {
-            en: "Republic of The Gambia"
+            eng: "Republic of The Gambia"
         },
         alpha2: "GM",
         alpha3: "GMB",
@@ -4355,12 +7795,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                en: "Progress, Peace, and Prosperity"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        eng: "Progress, Peace, and Prosperity"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -4369,9 +7816,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+220"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".gm",
@@ -4379,18 +7827,51 @@ export const countries = [
         timeZones: [
             "Africa/Banjul"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "wol",
+                "fuc",
+                "mnk",
+                "snf",
+                "srr"
+            ],
+            localCommunities: [
+                "knf",
+                "ffm",
+                "bim",
+                "mlq"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-GM"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2413451
+            geoNamesOrg: 2413451,
+            wikidata: "Q1005",
+            openStreetMap: {
+                type: "relation",
+                id: 192781
+            }
         }
     },
     {
         officialName: {
-            fr: "République de Guinée"
+            fra: "République de Guinée"
         },
         alpha2: "GN",
         alpha3: "GIN",
@@ -4401,12 +7882,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                fr: "Travail, Justice, Solidarité"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        fra: "Travail, Justice, Solidarité"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -4415,9 +7903,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+224"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".gn",
@@ -4425,7 +7914,37 @@ export const countries = [
         timeZones: [
             "Africa/Conakry"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "fra"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "fuf",
+                "sus",
+                "man",
+                "knf",
+                "djz"
+            ],
+            localCommunities: [
+                "bsc",
+                "bgu",
+                "nqo",
+                "kqs",
+                "kqy",
+                "khq"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "ff",
             "ff-GN",
@@ -4433,12 +7952,17 @@ export const countries = [
             "fr-GN"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2420477
+            geoNamesOrg: 2420477,
+            wikidata: "Q1006",
+            openStreetMap: {
+                type: "relation",
+                id: 192778
+            }
         }
     },
     {
         officialName: {
-            fr: "Region Guadeloupe"
+            fra: "Region Guadeloupe"
         },
         alpha2: "GP",
         alpha3: "GLP",
@@ -4449,10 +7973,13 @@ export const countries = [
         },
         dependency: "FR",
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -4461,9 +7988,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+590"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".gp",
@@ -4471,20 +7999,44 @@ export const countries = [
         timeZones: [
             "America/Guadeloupe"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "fra"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "gcf"
+            ],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "fr",
             "fr-GP"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3579143
+            geoNamesOrg: 3579143,
+            wikidata: "Q17012",
+            openStreetMap: {
+                type: "relation",
+                id: 3407643
+            }
         }
     },
     {
         officialName: {
-            es: "República de Guinea Ecuatorial",
-            fr: "République de Guinée équatoriale ",
-            pt: "República da Guiné Equatorial"
+            spa: "República de Guinea Ecuatorial",
+            fra: "République de Guinée équatoriale",
+            por: "República da Guiné Equatorial"
         },
         alpha2: "GQ",
         alpha3: "GNQ",
@@ -4495,12 +8047,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                es: "Unidad, Paz, Justicia"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        spa: "Unidad, Paz, Justicia"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -4509,9 +8068,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+240"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".gq",
@@ -4519,7 +8079,34 @@ export const countries = [
         timeZones: [
             "Africa/Malabo"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "spa",
+                    "fra",
+                    "por"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "bvb",
+                "fan"
+            ],
+            localCommunities: [
+                "bpd",
+                "bqx",
+                "nvo",
+                "gym"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "es",
             "es-GQ",
@@ -4529,12 +8116,17 @@ export const countries = [
             "pt-GQ"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2309096
+            geoNamesOrg: 2309096,
+            wikidata: "Q983",
+            openStreetMap: {
+                type: "relation",
+                id: 192781
+            }
         }
     },
     {
         officialName: {
-            el: "Ελληνική Δημοκρατία"
+            ell: "Ελληνική Δημοκρατία"
         },
         alpha2: "GR",
         alpha3: "GRC",
@@ -4545,12 +8137,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                el: "Ελευθερία ή Θάνατος"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        ell: "Ελευθερία ή Θάνατος"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -4559,9 +8158,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+30"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".gr",
@@ -4569,18 +8169,57 @@ export const countries = [
         timeZones: [
             "Europe/Athens"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "ell"
+                ],
+                deFacto: []
+            },
+            regional: [
+                "tur"
+            ],
+            widelySpoken: [],
+            localCommunities: [
+                "sqi",
+                "pnt",
+                "rmn",
+                "rup",
+                "bgk",
+                "mkd"
+            ],
+            extraTerritorialCommunities: [
+                "ara",
+                "eng",
+                "rus",
+                "alb",
+                "kur"
+            ],
+            signs: {
+                official: [],
+                recognized: [
+                    "gss"
+                ],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "el",
             "el-GR"
         ],
         otherAppsIds: {
-            geoNamesOrg: 390903
+            geoNamesOrg: 390903,
+            wikidata: "Q41",
+            openStreetMap: {
+                type: "relation",
+                id: 192782
+            }
         }
     },
     {
         officialName: {
-            en: "South Georgia and the South Sandwich Islands"
+            eng: "South Georgia and the South Sandwich Islands"
         },
         alpha2: "GS",
         alpha3: "SGS",
@@ -4591,21 +8230,31 @@ export const countries = [
         },
         dependency: "GB",
         mottos: {
-            official: {
-                la: "Leo terram propriam protegat"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        lat: "Leo Terram Propriam Protegat"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [],
-            widelyAccepted: []
+            widelyAccepted: [
+                "GBP"
+            ]
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+500"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".gs",
@@ -4613,7 +8262,24 @@ export const countries = [
         timeZones: [
             "Atlantic/South_Georgia"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [],
+                deFacto: [
+                    "eng"
+                ]
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "cy",
             "cy-GB",
@@ -4621,12 +8287,17 @@ export const countries = [
             "en-GB"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3474415
+            geoNamesOrg: 3474415,
+            wikidata: "Q35086",
+            openStreetMap: {
+                type: "relation",
+                id: 1983626
+            }
         }
     },
     {
         officialName: {
-            es: "República de Guatemala"
+            spa: "República de Guatemala"
         },
         alpha2: "GT",
         alpha3: "GTM",
@@ -4637,12 +8308,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                es: "Libre Crezca Fecundo"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        spa: "Libre Crezca Fecundo"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -4651,9 +8329,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+502"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".gt",
@@ -4661,19 +8340,66 @@ export const countries = [
         timeZones: [
             "America/Guatemala"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "spa"
+                ],
+                deFacto: []
+            },
+            regional: [
+                "quc",
+                "mam",
+                "cak",
+                "poc",
+                "kjb",
+                "itz",
+                "qut",
+                "tzj",
+                "usp",
+                "kek",
+                "ixl",
+                "qum",
+                "ach",
+                "acr",
+                "apf",
+                "ckz",
+                "emp",
+                "mpm",
+                "pap",
+                "pbi",
+                "pov",
+                "pqu",
+                "ttc",
+                "tzl"
+            ],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "es",
             "es-GT"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3595528
+            geoNamesOrg: 3595528,
+            wikidata: "Q774",
+            openStreetMap: {
+                type: "relation",
+                id: 1521463
+            }
         }
     },
     {
         officialName: {
-            en: "Guam",
-            ch: "Guåhan"
+            eng: "Guam",
+            cha: "Guåhan"
         },
         alpha2: "GU",
         alpha3: "GUM",
@@ -4684,13 +8410,20 @@ export const countries = [
         },
         dependency: "US",
         mottos: {
-            official: {
-                ch: "Tånó y CHamoru",
-                en: "Land of the CHamorus"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        cha: "Tånó y CHamoru",
+                        eng: "Land of the CHamorus"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -4699,9 +8432,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+1671"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".gu",
@@ -4709,18 +8443,49 @@ export const countries = [
         timeZones: [
             "Pacific/Guam"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng",
+                    "cha"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "fil"
+            ],
+            localCommunities: [
+                "jpn",
+                "kor",
+                "zho"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [
+                    "asl"
+                ],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-GU"
         ],
         otherAppsIds: {
-            geoNamesOrg: 4043988
+            geoNamesOrg: 4043988,
+            wikidata: "Q16635",
+            openStreetMap: {
+                type: "relation",
+                id: 306001
+            }
         }
     },
     {
         officialName: {
-            pt: "República da Guiné-Bissau"
+            por: "República da Guiné-Bissau"
         },
         alpha2: "GW",
         alpha3: "GNB",
@@ -4731,12 +8496,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                pt: "Unidade, Luta, Progresso"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        por: "Unidade, Luta, Progresso"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -4745,9 +8517,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+245"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".gw",
@@ -4755,18 +8528,56 @@ export const countries = [
         timeZones: [
             "Africa/Bissau"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "por"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "pov",
+                "knf",
+                "mnk",
+                "man"
+            ],
+            localCommunities: [
+                "bjt",
+                "bqj",
+                "bsc",
+                "bto",
+                "nql",
+                "snf",
+                "krf",
+                "kmd",
+                "lue",
+                "pap"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "pt",
             "pt-GW"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2372248
+            geoNamesOrg: 2372248,
+            wikidata: "Q1007",
+            openStreetMap: {
+                type: "relation",
+                id: 192776
+            }
         }
     },
     {
         officialName: {
-            en: "Co-operative Republic of Guyana"
+            eng: "Co-operative Republic of Guyana"
         },
         alpha2: "GY",
         alpha3: "GUY",
@@ -4777,12 +8588,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                en: "One People, One Nation, One Destiny"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        eng: "One People, One Nation, One Destiny"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -4791,9 +8609,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+592"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".gy",
@@ -4801,18 +8620,52 @@ export const countries = [
         timeZones: [
             "America/Guyana"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "gyn",
+                "hns"
+            ],
+            localCommunities: [
+                "car",
+                "arw",
+                "aix",
+                "mzp",
+                "ake",
+                "wrg",
+                "mpx"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-GY"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3378535
+            geoNamesOrg: 3378535,
+            wikidata: "Q734",
+            openStreetMap: {
+                type: "relation",
+                id: 192781
+            }
         }
     },
     {
         officialName: {
-            zh: "中華人民共和國香港特別行政區"
+            "yue-Hant": "中華人民共和國香港特別行政區",
+            "cmn-Hans": "中华人民共和国香港特别行政区"
         },
         alpha2: "HK",
         alpha3: "HKG",
@@ -4823,10 +8676,13 @@ export const countries = [
         },
         dependency: "CN",
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -4835,9 +8691,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+852"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".hk",
@@ -4854,7 +8711,36 @@ export const countries = [
         timeZones: [
             "Asia/Hong_Kong"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng"
+                ],
+                deFacto: [
+                    "yue"
+                ]
+            },
+            regional: [],
+            widelySpoken: [
+                "cmn"
+            ],
+            localCommunities: [
+                "wuu",
+                "hak",
+                "zho",
+                "fil",
+                "ind"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [
+                    "hks"
+                ],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-HK",
@@ -4862,12 +8748,17 @@ export const countries = [
             "zh-HK"
         ],
         otherAppsIds: {
-            geoNamesOrg: 1819730
+            geoNamesOrg: 1819730,
+            wikidata: "Q8646",
+            openStreetMap: {
+                type: "relation",
+                id: 913110
+            }
         }
     },
     {
         officialName: {
-            en: "Heard Island and McDonald Islands"
+            eng: "Heard Island and McDonald Islands"
         },
         alpha2: "HM",
         alpha3: "HMD",
@@ -4878,10 +8769,13 @@ export const countries = [
         },
         dependency: "AU",
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -4890,9 +8784,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+6724"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".hm",
@@ -4900,18 +8795,38 @@ export const countries = [
         timeZones: [
             "Etc/GMT-5"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-AU"
         ],
         otherAppsIds: {
-            geoNamesOrg: 1547314
+            geoNamesOrg: 1547314,
+            wikidata: "Q131198",
+            openStreetMap: {
+                type: "relation",
+                id: 2177227
+            }
         }
     },
     {
         officialName: {
-            es: "República de Honduras"
+            spa: "República de Honduras"
         },
         alpha2: "HN",
         alpha3: "HND",
@@ -4922,12 +8837,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                es: "Libre, Soberana e Independiente"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        spa: "Libre, Soberana e Independiente"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -4936,9 +8858,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+504"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".hn",
@@ -4946,18 +8869,52 @@ export const countries = [
         timeZones: [
             "America/Tegucigalpa"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "spa"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "cab",
+                "bzd",
+                "bip",
+                "chf",
+                "peb",
+                "bgs",
+                "len",
+                "mop",
+                "tow"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [
+                    "hds"
+                ],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "es",
             "es-HN"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3608932
+            geoNamesOrg: 3608932,
+            wikidata: "Q783",
+            openStreetMap: {
+                type: "relation",
+                id: 287670
+            }
         }
     },
     {
         officialName: {
-            hr: "Republika Hrvatska"
+            hrv: "Republika Hrvatska"
         },
         alpha2: "HR",
         alpha3: "HRV",
@@ -4968,10 +8925,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -4980,9 +8940,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+385"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".hr",
@@ -4990,19 +8951,52 @@ export const countries = [
         timeZones: [
             "Europe/Zagreb"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "hrv"
+                ],
+                deFacto: []
+            },
+            regional: [
+                "srp",
+                "ita",
+                "hun"
+            ],
+            widelySpoken: [],
+            localCommunities: [
+                "slv",
+                "czk",
+                "rom",
+                "rue"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [
+                    "hsh"
+                ],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "hr",
             "hr-HR"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3202326
+            geoNamesOrg: 3202326,
+            wikidata: "Q224",
+            openStreetMap: {
+                type: "relation",
+                id: 214885
+            }
         }
     },
     {
         officialName: {
-            fr: "République d'Haïti",
-            ht: "Repiblik Ayiti"
+            fra: "République d'Haïti",
+            hat: "Repiblik Ayiti"
         },
         alpha2: "HT",
         alpha3: "HTI",
@@ -5013,12 +9007,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                fr: "L'union fait la force"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        fra: "L'union fait la force"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -5027,9 +9028,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+509"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".ht",
@@ -5037,18 +9039,43 @@ export const countries = [
         timeZones: [
             "America/Port-au-Prince"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "hat",
+                    "fra"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [
+                    "hsl"
+                ],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "fr",
             "fr-HT"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3723988
+            geoNamesOrg: 3723988,
+            wikidata: "Q790",
+            openStreetMap: {
+                type: "relation",
+                id: 307833
+            }
         }
     },
     {
         officialName: {
-            hu: "Magyarország"
+            hun: "Magyarország"
         },
         alpha2: "HU",
         alpha3: "HUN",
@@ -5059,10 +9086,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -5071,9 +9101,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+36"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".hu",
@@ -5081,18 +9112,54 @@ export const countries = [
         timeZones: [
             "Europe/Budapest"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "hun"
+                ],
+                deFacto: []
+            },
+            regional: [
+                "srp",
+                "hrv",
+                "ukr",
+                "slk",
+                "rum"
+            ],
+            widelySpoken: [
+                "deu"
+            ],
+            localCommunities: [
+                "rue"
+            ],
+            extraTerritorialCommunities: [
+                "rom"
+            ],
+            signs: {
+                official: [],
+                recognized: [
+                    "hsh"
+                ],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "hu",
             "hu-HU"
         ],
         otherAppsIds: {
-            geoNamesOrg: 719819
+            geoNamesOrg: 719819,
+            wikidata: "Q28",
+            openStreetMap: {
+                type: "relation",
+                id: 21335
+            }
         }
     },
     {
         officialName: {
-            id: "Republik Indonesia"
+            ind: "Republik Indonesia"
         },
         alpha2: "ID",
         alpha3: "IDN",
@@ -5103,12 +9170,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                kaw: "Bhinneka Tunggal Ika"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        kaw: "Bhinneka Tunggal Ika"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -5117,9 +9191,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+62"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".id",
@@ -5131,19 +9206,66 @@ export const countries = [
             "Asia/Pontianak",
             "Asia/Ujung_Pandang"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "ind"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "jav",
+                "sun",
+                "min",
+                "bug",
+                "ban",
+                "mad",
+                "bjn"
+            ],
+            localCommunities: [
+                "ace",
+                "btk",
+                "rej",
+                "tor",
+                "sas",
+                "gor",
+                "bcl",
+                "kge",
+                "tdr",
+                "kqr"
+            ],
+            extraTerritorialCommunities: [
+                "hak",
+                "nan",
+                "cmn"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "inl"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "id",
             "id-ID"
         ],
         otherAppsIds: {
-            geoNamesOrg: 1643084
+            geoNamesOrg: 1643084,
+            wikidata: "Q252",
+            openStreetMap: {
+                type: "relation",
+                id: 2134181
+            }
         }
     },
     {
         officialName: {
-            en: "Republic of Ireland",
-            ga: "Poblacht na hÉireann"
+            gle: "Poblacht na hÉireann",
+            eng: "Republic of Ireland"
         },
         alpha2: "IE",
         alpha3: "IRL",
@@ -5154,10 +9276,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -5166,9 +9291,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+353"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".ie",
@@ -5176,7 +9302,30 @@ export const countries = [
         timeZones: [
             "Europe/Dublin"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "gle"
+                ],
+                deFacto: [
+                    "eng"
+                ]
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [
+                "pol"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "isg"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-IE",
@@ -5184,12 +9333,18 @@ export const countries = [
             "ga-IE"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2963597
+            geoNamesOrg: 2963597,
+            wikidata: "Q27",
+            openStreetMap: {
+                type: "relation",
+                id: 62273
+            }
         }
     },
     {
         officialName: {
-            he: "מדינת ישראל"
+            heb: "מְדִינַת יִשְרָאֵל",
+            ara: "دولة إسرائيل"
         },
         alpha2: "IL",
         alpha3: "ISR",
@@ -5200,10 +9355,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -5212,9 +9370,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+972"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".il",
@@ -5223,7 +9382,39 @@ export const countries = [
             "Asia/Jerusalem",
             "Asia/Tel_Aviv"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "heb"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "ara",
+                "rus",
+                "eng",
+                "amh",
+                "yid"
+            ],
+            localCommunities: [
+                "jpa",
+                "jdt",
+                "lad",
+                "kaa",
+                "grc",
+                "arc"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "isr"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "ar",
             "ar-IL",
@@ -5233,13 +9424,18 @@ export const countries = [
             "he-IL"
         ],
         otherAppsIds: {
-            geoNamesOrg: 294640
+            geoNamesOrg: 294640,
+            wikidata: "Q801",
+            openStreetMap: {
+                type: "relation",
+                id: 1473946
+            }
         }
     },
     {
         officialName: {
-            en: "Isle of Man",
-            gv: "Ellan Vannin"
+            eng: "Isle of Man",
+            glv: "Ellan Vannin"
         },
         alpha2: "IM",
         alpha3: "IMN",
@@ -5250,12 +9446,19 @@ export const countries = [
         },
         dependency: "GB",
         mottos: {
-            official: {
-                la: "Quocumque ieceris Stabit"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        lat: "Quocumque ieceris Stabit"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -5264,29 +9467,69 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [],
+            deFacto: [
                 "+441624"
             ],
-            exceptions: []
+            exceptions: [
+                {
+                    code: "01624",
+                    origin: "GB"
+                },
+                {
+                    code: "01624",
+                    origin: "GG"
+                },
+                {
+                    code: "01624",
+                    origin: "JE"
+                }
+            ]
         },
         ccTld: ".im",
         ccIdn: [],
         timeZones: [
             "Europe/Isle_of_Man"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "glv"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "bfi"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-IM"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3042225
+            geoNamesOrg: 3042225,
+            wikidata: "Q9676",
+            openStreetMap: {
+                type: "relation",
+                id: 62000
+            }
         }
     },
     {
         officialName: {
-            hi: "भारत गणराज्य",
-            en: "Republic of India"
+            hin: "भारत गणराज्य",
+            eng: "Republic of India"
         },
         alpha2: "IN",
         alpha3: "IND",
@@ -5297,12 +9540,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                hi: "सत्यमेव जयते"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        hin: "सत्यमेव जयते"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -5311,9 +9561,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+91"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".in",
@@ -5322,7 +9573,57 @@ export const countries = [
             "Asia/Kolkata",
             "Asia/Calcutta"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "hin",
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "ben",
+                "tel",
+                "mar",
+                "tam",
+                "urd",
+                "guj",
+                "mal",
+                "kan",
+                "ori",
+                "pan",
+                "asm",
+                "mai"
+            ],
+            localCommunities: [
+                "kok",
+                "doi",
+                "kas",
+                "snd",
+                "mni",
+                "san",
+                "nep",
+                "lep",
+                "bho",
+                "bhb",
+                "mag",
+                "sat",
+                "grt",
+                "kha",
+                "lus",
+                "njo"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "ins"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "as",
             "as-IN",
@@ -5357,12 +9658,17 @@ export const countries = [
             "ur-IN"
         ],
         otherAppsIds: {
-            geoNamesOrg: 1269750
+            geoNamesOrg: 1269750,
+            wikidata: "Q668",
+            openStreetMap: {
+                type: "relation",
+                id: 304716
+            }
         }
     },
     {
         officialName: {
-            en: "British Indian Ocean Territory"
+            eng: "British Indian Ocean Territory"
         },
         alpha2: "IO",
         alpha3: "IOT",
@@ -5373,12 +9679,19 @@ export const countries = [
         },
         dependency: "GB",
         mottos: {
-            official: {
-                en: "Limuria is in our trust"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        eng: "Limuria is in our trust"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -5387,9 +9700,8 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
-                "+246"
-            ],
+            deJure: [],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".io",
@@ -5397,19 +9709,34 @@ export const countries = [
         timeZones: [
             "Indian/Chagos"
         ],
-        languages: [],
+        languages: {
+            official: [
+                "eng"
+            ],
+            widelySpoken: [],
+            localCommunities: [],
+            signs: [],
+            dialects: [],
+            regional: [],
+            extraTerritorialCommunities: []
+        },
         localesIcu: [
             "en",
             "en-IO"
         ],
         otherAppsIds: {
-            geoNamesOrg: 1282588
+            geoNamesOrg: 1282588,
+            wikidata: "Q43448",
+            openStreetMap: {
+                type: "relation",
+                id: 1993867
+            }
         }
     },
     {
         officialName: {
-            ar: "جمهورية العراق",
-            ku: "کۆمارا ىراقێ"
+            ara: "جمهورية العراق",
+            kur: "کۆمارا ىراقێ"
         },
         alpha2: "IQ",
         alpha3: "IRQ",
@@ -5420,10 +9747,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -5432,9 +9762,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+964"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".iq",
@@ -5442,18 +9773,52 @@ export const countries = [
         timeZones: [
             "Asia/Baghdad"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "ara",
+                    "kur"
+                ],
+                deFacto: []
+            },
+            regional: [
+                "tur",
+                "syr",
+                "hye"
+            ],
+            widelySpoken: [],
+            localCommunities: [
+                "cka",
+                "bhd",
+                "ahy",
+                "aii",
+                "tmr",
+                "hne"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "ar",
             "ar-IQ"
         ],
         otherAppsIds: {
-            geoNamesOrg: 99237
+            geoNamesOrg: 99237,
+            wikidata: "Q796",
+            openStreetMap: {
+                type: "relation",
+                id: 304934
+            }
         }
     },
     {
         officialName: {
-            fa: "جمهوری اسلامی ایران"
+            fas: "جمهوری اسلامی ایران"
         },
         alpha2: "IR",
         alpha3: "IRN",
@@ -5464,12 +9829,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                fa: "استقلال، آزادی، جمهوری اسلامی"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        fas: "استقلال، آزادی، جمهوری اسلامی"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -5478,9 +9850,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+98"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".ir",
@@ -5497,18 +9870,57 @@ export const countries = [
         timeZones: [
             "Asia/Tehran"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "fas"
+                ],
+                deFacto: []
+            },
+            regional: [
+                "azb",
+                "kur",
+                "glk",
+                "lrc",
+                "bal",
+                "mzn"
+            ],
+            widelySpoken: [],
+            localCommunities: [
+                "tuk",
+                "tly",
+                "sdh",
+                "kbd",
+                "pes",
+                "hyw",
+                "bra",
+                "psh",
+                "bqi"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "fa",
             "fa-IR"
         ],
         otherAppsIds: {
-            geoNamesOrg: 130758
+            geoNamesOrg: 130758,
+            wikidata: "Q794",
+            openStreetMap: {
+                type: "relation",
+                id: 304938
+            }
         }
     },
     {
         officialName: {
-            is: "Lýðveldið Ísland"
+            isl: "Lýðveldið Ísland"
         },
         alpha2: "IS",
         alpha3: "ISL",
@@ -5519,10 +9931,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -5531,9 +9946,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+354"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".is",
@@ -5541,18 +9957,47 @@ export const countries = [
         timeZones: [
             "Atlantic/Reykjavik"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "isl"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "eng"
+            ],
+            localCommunities: [],
+            extraTerritorialCommunities: [
+                "pol",
+                "lit"
+            ],
+            signs: {
+                official: [],
+                recognized: [
+                    "icl"
+                ],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "is",
             "is-IS"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2629691
+            geoNamesOrg: 2629691,
+            wikidata: "Q189",
+            openStreetMap: {
+                type: "relation",
+                id: 299133
+            }
         }
     },
     {
         officialName: {
-            it: "Repubblica Italiana"
+            ita: "Repubblica Italiana"
         },
         alpha2: "IT",
         alpha3: "ITA",
@@ -5563,10 +10008,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -5575,9 +10023,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+39"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".it",
@@ -5585,7 +10034,48 @@ export const countries = [
         timeZones: [
             "Europe/Rome"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "ita"
+                ],
+                deFacto: []
+            },
+            regional: [
+                "deu",
+                "fra",
+                "slv",
+                "hrv",
+                "cat",
+                "gsw",
+                "lld",
+                "fur",
+                "srd"
+            ],
+            widelySpoken: [
+                "nap",
+                "scn",
+                "vec",
+                "lij",
+                "lmo",
+                "eml",
+                "pms"
+            ],
+            localCommunities: [
+                "arb",
+                "grc",
+                "mol"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "ise"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "ca",
             "ca-IT",
@@ -5595,12 +10085,17 @@ export const countries = [
             "it-IT"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3175395
+            geoNamesOrg: 3175395,
+            wikidata: "Q38",
+            openStreetMap: {
+                type: "relation",
+                id: 365331
+            }
         }
     },
     {
         officialName: {
-            en: "Bailiwick of Jersey"
+            eng: "Bailiwick of Jersey"
         },
         alpha2: "JE",
         alpha3: "JEY",
@@ -5611,12 +10106,19 @@ export const countries = [
         },
         dependency: "GB",
         mottos: {
-            official: {
-                fr: "Dieu et Mon Droit"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        fra: "Dieu et Mon Droit"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -5625,28 +10127,68 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [],
+            deFacto: [
                 "+441534"
             ],
-            exceptions: []
+            exceptions: [
+                {
+                    code: "01534",
+                    origin: "GB"
+                },
+                {
+                    code: "01534",
+                    origin: "GG"
+                },
+                {
+                    code: "01534",
+                    origin: "IM"
+                }
+            ]
         },
         ccTld: ".je",
         ccIdn: [],
         timeZones: [
             "Europe/Jersey"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "fra"
+            ],
+            localCommunities: [
+                "nrf"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-JE"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3042142
+            geoNamesOrg: 3042142,
+            wikidata: "Q785",
+            openStreetMap: {
+                type: "relation",
+                id: 367988
+            }
         }
     },
     {
         officialName: {
-            en: "Jamaica"
+            eng: "Jamaica"
         },
         alpha2: "JM",
         alpha3: "JAM",
@@ -5657,12 +10199,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                en: "Out of Many One People"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        eng: "Out of Many One People"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -5671,10 +10220,11 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+1876",
                 "+1658"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".jm",
@@ -5682,18 +10232,42 @@ export const countries = [
         timeZones: [
             "America/Jamaica"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "jam"
+            ],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-JM"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3489940
+            geoNamesOrg: 3489940,
+            wikidata: "Q766",
+            openStreetMap: {
+                type: "relation",
+                id: 53644
+            }
         }
     },
     {
         officialName: {
-            ar: "المملكة الأردنية الهاشمية"
+            arb: "المملكة الأردنية الهاشمية"
         },
         alpha2: "JO",
         alpha3: "JOR",
@@ -5704,12 +10278,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                ar: "الله، الوطن، المليك"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        arb: "الله، الوطن، المليك"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -5718,9 +10299,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+962"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".jo",
@@ -5737,18 +10319,50 @@ export const countries = [
         timeZones: [
             "Asia/Amman"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "arb"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "eng"
+            ],
+            localCommunities: [
+                "ckb",
+                "aze",
+                "arm",
+                "syc",
+                "arc",
+                "che",
+                "cnu"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "ar",
             "ar-JO"
         ],
         otherAppsIds: {
-            geoNamesOrg: 248816
+            geoNamesOrg: 248816,
+            wikidata: "Q810",
+            openStreetMap: {
+                type: "relation",
+                id: 1848181
+            }
         }
     },
     {
         officialName: {
-            ja: "日本国"
+            jpn: "日本国"
         },
         alpha2: "JP",
         alpha3: "JPN",
@@ -5759,10 +10373,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -5771,9 +10388,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+81"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".jp",
@@ -5781,19 +10399,50 @@ export const countries = [
         timeZones: [
             "Asia/Tokyo"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [],
+                deFacto: [
+                    "jpn"
+                ]
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "ryu",
+                "ain"
+            ],
+            extraTerritorialCommunities: [
+                "kor",
+                "zho",
+                "eng"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "jsl"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "ja",
             "ja-JP"
         ],
         otherAppsIds: {
-            geoNamesOrg: 1861060
+            geoNamesOrg: 1861060,
+            wikidata: "Q17",
+            openStreetMap: {
+                type: "relation",
+                id: 382313
+            }
         }
     },
     {
         officialName: {
-            sw: "Jamuhuri ya Kenya",
-            en: "Republic of Kenya"
+            swa: "Jamuhuri ya Kenya",
+            eng: "Republic of Kenya"
         },
         alpha2: "KE",
         alpha3: "KEN",
@@ -5804,12 +10453,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                sw: "Harambee"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        swa: "Harambee"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -5818,17 +10474,60 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+254"
             ],
-            exceptions: []
+            deFacto: [],
+            exceptions: [
+                {
+                    code: "020",
+                    origin: "TZ"
+                },
+                {
+                    code: "020",
+                    origin: "UG"
+                }
+            ]
         },
         ccTld: ".ke",
         ccIdn: [],
         timeZones: [
             "Africa/Nairobi"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng",
+                    "swa"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "kik",
+                "luo",
+                "kam",
+                "kln",
+                "mer"
+            ],
+            localCommunities: [
+                "mas",
+                "som",
+                "tgz",
+                "mlg",
+                "orc",
+                "guj"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "ksl"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-KE",
@@ -5838,13 +10537,18 @@ export const countries = [
             "sw-KE"
         ],
         otherAppsIds: {
-            geoNamesOrg: 192950
+            geoNamesOrg: 192950,
+            wikidata: "Q114",
+            openStreetMap: {
+                type: "relation",
+                id: 195271
+            }
         }
     },
     {
         officialName: {
-            ru: "Кирги́зская Респу́блика",
-            ky: "Кыргыз Республикасы"
+            kir: "Кыргыз Республикасы",
+            rus: "Кирги́зская Респу́блика"
         },
         alpha2: "KG",
         alpha3: "KGZ",
@@ -5855,10 +10559,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -5867,9 +10574,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+996"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".kg",
@@ -5877,7 +10585,37 @@ export const countries = [
         timeZones: [
             "Asia/Bishkek"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "kir"
+                ],
+                deFacto: [
+                    "rus"
+                ]
+            },
+            regional: [],
+            widelySpoken: [
+                "uzb"
+            ],
+            localCommunities: [
+                "uig",
+                "tat",
+                "tuk",
+                "kas",
+                "tjk",
+                "tur",
+                "haz",
+                "tgk"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "ky",
             "ky-KG",
@@ -5885,12 +10623,17 @@ export const countries = [
             "ru-KG"
         ],
         otherAppsIds: {
-            geoNamesOrg: 1527747
+            geoNamesOrg: 1527747,
+            wikidata: "Q813",
+            openStreetMap: {
+                type: "relation",
+                id: 178009
+            }
         }
     },
     {
         officialName: {
-            km: "ព្រះរាជាណាចក្រ កម្ពុជា"
+            khm: "ព្រះរាជាណាចក្រ កម្ពុជា"
         },
         alpha2: "KH",
         alpha3: "KHM",
@@ -5901,12 +10644,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                km: "ជាតិ សាសនា ព្រះមហាក្សត្រ"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        khm: "ជាតិ សាសនា ព្រះមហាក្សត្រ"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -5915,9 +10665,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+855"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".kh",
@@ -5925,18 +10676,56 @@ export const countries = [
         timeZones: [
             "Asia/Phnom_Penh"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "khm"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "vie",
+                "zho",
+                "eng",
+                "fra"
+            ],
+            localCommunities: [
+                "jra",
+                "mnw",
+                "blk",
+                "stt",
+                "kdt",
+                "kuj",
+                "kra",
+                "bkm"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "csn"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "km",
             "km-KH"
         ],
         otherAppsIds: {
-            geoNamesOrg: 1831722
+            geoNamesOrg: 1831722,
+            wikidata: "Q424",
+            openStreetMap: {
+                type: "relation",
+                id: 49898
+            }
         }
     },
     {
         officialName: {
-            en: "Republic of Kiribati",
+            eng: "Republic of Kiribati",
             gil: "Kiribati"
         },
         alpha2: "KI",
@@ -5948,12 +10737,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                gil: "Te mauri, te raoi ao te tabomoa"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        gil: "Te mauri, te raoi ao te tabomoa"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -5962,9 +10758,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+686"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".ki",
@@ -5974,20 +10771,43 @@ export const countries = [
             "Pacific/Tarawa",
             "Pacific/Enderbury"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng",
+                    "gil"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-KI"
         ],
         otherAppsIds: {
-            geoNamesOrg: 4030945
+            geoNamesOrg: 4030945,
+            wikidata: "Q710",
+            openStreetMap: {
+                type: "relation",
+                id: 2186468
+            }
         }
     },
     {
         officialName: {
-            fr: "Union des Comores",
+            fra: "Union des Comores",
             swb: "Udzima wa Komori",
-            ar: "الاتحاد ﺍﻟﻘﻤﺮي"
+            ara: "الاتحاد ﺍﻟﻘﻤﺮي"
         },
         alpha2: "KM",
         alpha3: "COM",
@@ -5998,13 +10818,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                fr: "Waḥda, taḍāmun, tanmiyya",
-                ar: "وحدة، تضامن، تنمية"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        ara: "وحدة، تضامن، تنمية"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -6013,9 +10839,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+269"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".km",
@@ -6023,7 +10850,26 @@ export const countries = [
         timeZones: [
             "Indian/Comoro"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "swb",
+                    "fra",
+                    "ara"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "ar",
             "ar-KM",
@@ -6031,12 +10877,17 @@ export const countries = [
             "fr-KM"
         ],
         otherAppsIds: {
-            geoNamesOrg: 921929
+            geoNamesOrg: 921929,
+            wikidata: "Q970",
+            openStreetMap: {
+                type: "relation",
+                id: 5357741
+            }
         }
     },
     {
         officialName: {
-            en: "Federation of Saint Christopher and Nevis"
+            eng: "Federation of Saint Christopher and Nevis"
         },
         alpha2: "KN",
         alpha3: "KNA",
@@ -6047,12 +10898,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                en: "Country Above Self"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        eng: "Country Above Self"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -6061,9 +10919,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+1869"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".kn",
@@ -6071,18 +10930,42 @@ export const countries = [
         timeZones: [
             "America/St_Kitts"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "jam"
+            ],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-KN"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3575174
+            geoNamesOrg: 3575174,
+            wikidata: "Q763",
+            openStreetMap: {
+                type: "relation",
+                id: 536780
+            }
         }
     },
     {
         officialName: {
-            ko: "조선민주주의인민공화국"
+            kor: "조선민주주의인민공화국"
         },
         alpha2: "KP",
         alpha3: "PRK",
@@ -6093,12 +10976,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                ko: "강성대국"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [
+                {
+                    text: {
+                        kor: "강성대국"
+                    }
+                }
+            ],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -6107,9 +10997,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+850"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".kp",
@@ -6117,18 +11008,40 @@ export const countries = [
         timeZones: [
             "Asia/Pyongyang"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "kor"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "ko",
             "ko-KP"
         ],
         otherAppsIds: {
-            geoNamesOrg: 1873107
+            geoNamesOrg: 1873107,
+            wikidata: "Q423",
+            openStreetMap: {
+                type: "relation",
+                id: 192734
+            }
         }
     },
     {
         officialName: {
-            ko: "대한민국"
+            kor: "대한민국"
         },
         alpha2: "KR",
         alpha3: "KOR",
@@ -6139,12 +11052,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                ko: "홍익인간"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [
+                {
+                    text: {
+                        kor: "홍익인간"
+                    }
+                }
+            ],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -6153,9 +11073,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+82"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".kr",
@@ -6172,18 +11093,52 @@ export const countries = [
         timeZones: [
             "Asia/Seoul"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "kor"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "eng"
+            ],
+            localCommunities: [
+                "zho"
+            ],
+            extraTerritorialCommunities: [
+                "vie",
+                "tgl",
+                "uzb",
+                "mon",
+                "tha"
+            ],
+            signs: {
+                official: [
+                    "kvk"
+                ],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "ko",
             "ko-KR"
         ],
         otherAppsIds: {
-            geoNamesOrg: 1835841
+            geoNamesOrg: 1835841,
+            wikidata: "Q884",
+            openStreetMap: {
+                type: "relation",
+                id: 307756
+            }
         }
     },
     {
         officialName: {
-            ar: "دولة الكويت"
+            ara: "دولة الكويت"
         },
         alpha2: "KW",
         alpha3: "KWT",
@@ -6194,10 +11149,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -6206,9 +11164,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+965"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".kw",
@@ -6216,18 +11175,55 @@ export const countries = [
         timeZones: [
             "Asia/Kuwait"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "ara"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "eng"
+            ],
+            localCommunities: [
+                "pes",
+                "mlt",
+                "hin",
+                "ben",
+                "tgl",
+                "nep",
+                "tam",
+                "tel"
+            ],
+            extraTerritorialCommunities: [
+                "urd"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: [
+                "afb"
+            ]
+        },
         localesIcu: [
             "ar",
             "ar-KW"
         ],
         otherAppsIds: {
-            geoNamesOrg: 285570
+            geoNamesOrg: 285570,
+            wikidata: "Q817",
+            openStreetMap: {
+                type: "relation",
+                id: 305099
+            }
         }
     },
     {
         officialName: {
-            en: "Cayman Islands"
+            eng: "Cayman Islands"
         },
         alpha2: "KY",
         alpha3: "CYM",
@@ -6238,12 +11234,19 @@ export const countries = [
         },
         dependency: "GB",
         mottos: {
-            official: {
-                en: "He hath founded it upon the seas"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        eng: "He hath founded it upon the seas"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -6252,9 +11255,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+1345"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".ky",
@@ -6262,19 +11266,41 @@ export const countries = [
         timeZones: [
             "America/Cayman"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-KY"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3580718
+            geoNamesOrg: 3580718,
+            wikidata: "Q5785",
+            openStreetMap: {
+                type: "relation",
+                id: 536900
+            }
         }
     },
     {
         officialName: {
-            kk: "Қазақстан Республикасы",
-            ru: "Республика Казахстан"
+            kaz: "Қазақстан Республикасы",
+            rus: "Республика Казахстан"
         },
         alpha2: "KZ",
         alpha3: "KAZ",
@@ -6285,10 +11311,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -6297,8 +11326,11 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+997"
+            ],
+            deFacto: [
+                "+7"
             ],
             exceptions: []
         },
@@ -6322,7 +11354,35 @@ export const countries = [
             "Asia/Qostanay",
             "Asia/Qyzylorda"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "kaz"
+                ],
+                deFacto: [
+                    "rus"
+                ]
+            },
+            regional: [],
+            widelySpoken: [
+                "rus"
+            ],
+            localCommunities: [
+                "uig",
+                "uzb",
+                "tat",
+                "ukr",
+                "kor",
+                "deu"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "kk",
             "kk-KZ",
@@ -6330,12 +11390,17 @@ export const countries = [
             "ru-KZ"
         ],
         otherAppsIds: {
-            geoNamesOrg: 1522867
+            geoNamesOrg: 1522867,
+            wikidata: "Q232",
+            openStreetMap: {
+                type: "relation",
+                id: 214665
+            }
         }
     },
     {
         officialName: {
-            lo: "ສາທາລະນະລັດ ປະຊາທິປະໄຕ ປະຊາຊົນລາວ"
+            lao: "ສາທາລະນະລັດ ປະຊາທິປະໄຕ ປະຊາຊົນລາວ"
         },
         alpha2: "LA",
         alpha3: "LAO",
@@ -6346,12 +11411,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                lo: "ສັນຕິພາບ ເອກະລາດ ປະຊາທິປະໄຕ ເອກະພາບ ວັດທະນະຖາວອນ"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        lao: "ສັນຕິພາບ ເອກະລາດ ປະຊາທິປະໄຕ ເອກະພາບ ວັດທະນະຖາວອນ"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -6360,9 +11432,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+856"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".la",
@@ -6370,18 +11443,47 @@ export const countries = [
         timeZones: [
             "Asia/Vientiane"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "lao"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "khm",
+                "hnj",
+                "tha",
+                "vie",
+                "cth",
+                "blr"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "lo",
             "lo-LA"
         ],
         otherAppsIds: {
-            geoNamesOrg: 1655842
+            geoNamesOrg: 1655842,
+            wikidata: "Q819",
+            openStreetMap: {
+                type: "relation",
+                id: 49903
+            }
         }
     },
     {
         officialName: {
-            ar: "الجمهورية اللبنانية"
+            ara: "الجمهورية اللبنانية"
         },
         alpha2: "LB",
         alpha3: "LBN",
@@ -6392,12 +11494,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                ar: "كلنـا للوطـن للعـلى للعـلم"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        ara: "كلنـا للوطـن للعـلى للعـلم"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -6406,9 +11515,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+961"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".lb",
@@ -6416,18 +11526,49 @@ export const countries = [
         timeZones: [
             "Asia/Beirut"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "ara"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "fra",
+                "eng"
+            ],
+            localCommunities: [
+                "arm",
+                "syc",
+                "kaa"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: [
+                "acm"
+            ]
+        },
         localesIcu: [
             "ar",
             "ar-LB"
         ],
         otherAppsIds: {
-            geoNamesOrg: 272103
+            geoNamesOrg: 272103,
+            wikidata: "Q822",
+            openStreetMap: {
+                type: "relation",
+                id: 184843
+            }
         }
     },
     {
         officialName: {
-            en: "Saint Lucia"
+            eng: "Saint Lucia"
         },
         alpha2: "LC",
         alpha3: "LCA",
@@ -6438,12 +11579,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                en: "The Land, The People, The Light"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        eng: "The Land, The People, The Light"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -6452,9 +11600,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+1758"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".lc",
@@ -6462,19 +11611,42 @@ export const countries = [
         timeZones: [
             "America/St_Lucia"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "acf"
+            ],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-LC"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3576468
+            geoNamesOrg: 3576468,
+            wikidata: "Q760",
+            openStreetMap: {
+                type: "relation",
+                id: 536900
+            }
         }
     },
     {
         officialName: {
-            de: "Fürstentum Liechtenstein",
-            wae: "Fürstentum Liechtenstein"
+            deu: "Fürstentum Liechtenstein"
         },
         alpha2: "LI",
         alpha3: "LIE",
@@ -6485,12 +11657,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                de: "Für Gott, Fürst und Vaterland"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        deu: "Für Gott, Fürst und Vaterland"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -6499,9 +11678,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+423"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".li",
@@ -6509,19 +11689,45 @@ export const countries = [
         timeZones: [
             "Europe/Vaduz"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "deu"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "wae"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: [
+                "gsw"
+            ]
+        },
         localesIcu: [
             "de",
             "de-LI"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3042058
+            geoNamesOrg: 3042058,
+            wikidata: "Q347",
+            openStreetMap: {
+                type: "relation",
+                id: 1155955
+            }
         }
     },
     {
         officialName: {
-            si: "ශ්‍රී ලංකා ප්‍රජාතාන්ත්‍රික සමාජවාදී ජනරජය",
-            ta: "இலங்கை ஜனநாயக சோசலிச குடியரசு"
+            sin: "ශ්‍රී ලංකා ප්‍රජාතාන්ත්‍රික සමාජවාදී ජනරජය",
+            tam: "இலங்கை ஜனநாயக சோசலிச குடியரசு"
         },
         alpha2: "LK",
         alpha3: "LKA",
@@ -6532,13 +11738,20 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                si: "ශ්‍රී ලංකා මාතා",
-                ta: "ஸ்ரீ லங்கா தாயே"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        sin: "ශ්‍රී ලංකා මාතා",
+                        tam: "ஸ்ரீ லங்கா தாயே"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -6547,9 +11760,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+94"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".lk",
@@ -6557,7 +11771,29 @@ export const countries = [
         timeZones: [
             "Asia/Colombo"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "sin",
+                    "tam"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "eng",
+                "san",
+                "urd"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "si",
             "si-LK",
@@ -6565,12 +11801,17 @@ export const countries = [
             "ta-LK"
         ],
         otherAppsIds: {
-            geoNamesOrg: 1227603
+            geoNamesOrg: 1227603,
+            wikidata: "Q854",
+            openStreetMap: {
+                type: "relation",
+                id: 536807
+            }
         }
     },
     {
         officialName: {
-            en: "Republic of Liberia"
+            eng: "Republic of Liberia"
         },
         alpha2: "LR",
         alpha3: "LBR",
@@ -6581,12 +11822,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                en: "The Love of Liberty Brought Us Here"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        eng: "The Love of Liberty Brought Us Here"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -6595,9 +11843,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+231"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".lr",
@@ -6605,19 +11854,53 @@ export const countries = [
         timeZones: [
             "Africa/Monrovia"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "lir"
+            ],
+            localCommunities: [
+                "vai",
+                "kpe",
+                "bai",
+                "dee",
+                "klu",
+                "lnw",
+                "men",
+                "dnj",
+                "bes"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-LR"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2275384
+            geoNamesOrg: 2275384,
+            wikidata: "Q1014",
+            openStreetMap: {
+                type: "relation",
+                id: 192780
+            }
         }
     },
     {
         officialName: {
-            st: "Muso oa Lesotho",
-            en: "Kingdom of Lesotho"
+            sot: "Muso oa Lesotho",
+            eng: "Kingdom of Lesotho"
         },
         alpha2: "LS",
         alpha3: "LSO",
@@ -6628,12 +11911,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                st: "Khotso Pula Nala"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        sot: "Khotso Pula Nala"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -6642,9 +11932,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+266"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".ls",
@@ -6652,18 +11943,44 @@ export const countries = [
         timeZones: [
             "Africa/Maseru"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "sot",
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "zul",
+                "xho"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-LS"
         ],
         otherAppsIds: {
-            geoNamesOrg: 932692
+            geoNamesOrg: 932692,
+            wikidata: "Q1015",
+            openStreetMap: {
+                type: "relation",
+                id: 192781
+            }
         }
     },
     {
         officialName: {
-            lt: "Lietuvos Respublika"
+            lit: "Lietuvos Respublika"
         },
         alpha2: "LT",
         alpha3: "LTU",
@@ -6674,12 +11991,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                lt: "Tautos jėga vienybėje"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        lit: "Tautos jėga vienybėje"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -6688,9 +12012,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+370"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".lt",
@@ -6698,20 +12023,49 @@ export const countries = [
         timeZones: [
             "Europe/Vilnius"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "lit"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "rus"
+            ],
+            localCommunities: [
+                "pol",
+                "bel",
+                "ukr",
+                "rom"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "lt",
             "lt-LT"
         ],
         otherAppsIds: {
-            geoNamesOrg: 597427
+            geoNamesOrg: 597427,
+            wikidata: "Q37",
+            openStreetMap: {
+                type: "relation",
+                id: 72594
+            }
         }
     },
     {
         officialName: {
-            lb: "Groussherzogtum Lëtzebuerg",
-            fr: "Grand-Duché de Luxembourg",
-            de: "Großherzogtum Luxemburg"
+            ltz: "Groussherzogtum Lëtzebuerg",
+            fra: "Grand-Duché de Luxembourg",
+            deu: "Großherzogtum Luxemburg"
         },
         alpha2: "LU",
         alpha3: "LUX",
@@ -6722,14 +12076,21 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                lb: "Mir wëlle bleiwe wat mir sinn",
-                fr: "Nous voulons rester ce que nous sommes",
-                de: "Wir wollen bleiben, was wir sind"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        ltz: "Mir wëlle bleiwe wat mir sinn",
+                        fra: "Nous voulons rester ce que nous sommes",
+                        deu: "Wir wollen bleiben, was wir sind"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -6738,9 +12099,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+352"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".lu",
@@ -6748,7 +12110,30 @@ export const countries = [
         timeZones: [
             "Europe/Luxembourg"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "ltz",
+                    "fra",
+                    "deu"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [
+                "por",
+                "ita",
+                "eng"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "de",
             "de-LU",
@@ -6760,12 +12145,17 @@ export const countries = [
             "pt-LU"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2960313
+            geoNamesOrg: 2960313,
+            wikidata: "Q32",
+            openStreetMap: {
+                type: "relation",
+                id: 2171347
+            }
         }
     },
     {
         officialName: {
-            lv: "Latvijas Republika"
+            lav: "Latvijas Republika"
         },
         alpha2: "LV",
         alpha3: "LVA",
@@ -6776,10 +12166,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -6788,9 +12181,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+371"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".lv",
@@ -6798,18 +12192,47 @@ export const countries = [
         timeZones: [
             "Europe/Riga"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "lav"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "rus"
+            ],
+            localCommunities: [
+                "ukr",
+                "bel",
+                "pol",
+                "rom"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "lv",
             "lv-LV"
         ],
         otherAppsIds: {
-            geoNamesOrg: 458258
+            geoNamesOrg: 458258,
+            wikidata: "Q211",
+            openStreetMap: {
+                type: "relation",
+                id: 72594
+            }
         }
     },
     {
         officialName: {
-            ar: "دولة ليبيا"
+            ara: "دولة ليبيا"
         },
         alpha2: "LY",
         alpha3: "LBY",
@@ -6820,10 +12243,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -6832,9 +12258,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+218"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".ly",
@@ -6842,19 +12269,48 @@ export const countries = [
         timeZones: [
             "Africa/Tripoli"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "ara"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "tzm",
+                "taq",
+                "zgh",
+                "itk"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: [
+                "ayl"
+            ]
+        },
         localesIcu: [
             "ar",
             "ar-LY"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2215636
+            geoNamesOrg: 2215636,
+            wikidata: "Q1016",
+            openStreetMap: {
+                type: "relation",
+                id: 192758
+            }
         }
     },
     {
         officialName: {
-            ar: "المملكة المغربية",
-            ber: "ⵜⴰⴳⴻⵍⴷⵉⵜ ⵏ ⵍⵎⴻⵖⵔⵉⴱ"
+            ara: "المملكة المغربية",
+            zgh: "ⵜⴰⴳⴻⵍⴷⵉⵜ ⵏ ⵍⵎⴻⵖⵔⵉⴱ"
         },
         alpha2: "MA",
         alpha3: "MAR",
@@ -6865,13 +12321,20 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                ar: "الله، الوطن، الملك",
-                ber: "ⴰⴽⵓⵛ, ⴰⵎⵓⵔ, ⴰⴳⵍⵍⵉⴷ"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        ara: "الله، الوطن، الملك",
+                        zgh: "ⴰⴽⵓⵛ, ⴰⵎⵓⵔ, ⴰⴳⵍⵍⵉⴷ"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -6880,9 +12343,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+212"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".ma",
@@ -6890,7 +12354,35 @@ export const countries = [
         timeZones: [
             "Africa/Casablanca"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "ara",
+                    "zgh"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "fra"
+            ],
+            localCommunities: [
+                "rif",
+                "tzm",
+                "shi"
+            ],
+            extraTerritorialCommunities: [
+                "spa"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: [
+                "ary"
+            ]
+        },
         localesIcu: [
             "ar",
             "ar-MA",
@@ -6898,12 +12390,17 @@ export const countries = [
             "fr-MA"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2542007
+            geoNamesOrg: 2542007,
+            wikidata: "Q1028",
+            openStreetMap: {
+                type: "relation",
+                id: 363043
+            }
         }
     },
     {
         officialName: {
-            fr: "Principauté de Monaco"
+            fra: "Principauté de Monaco"
         },
         alpha2: "MC",
         alpha3: "MCO",
@@ -6914,12 +12411,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                la: "Deo Juvante"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        lat: "Deo Juvante"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -6928,9 +12432,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+377"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".mc",
@@ -6938,18 +12443,48 @@ export const countries = [
         timeZones: [
             "Europe/Monaco"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "fra"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "ita",
+                "eng"
+            ],
+            localCommunities: [
+                "oci",
+                "lij"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: [
+                "mcm"
+            ]
+        },
         localesIcu: [
             "fr",
             "fr-MC"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2993457
+            geoNamesOrg: 2993457,
+            wikidata: "Q235",
+            openStreetMap: {
+                type: "relation",
+                id: 1124038
+            }
         }
     },
     {
         officialName: {
-            ro: "Republica Moldova"
+            ron: "Republica Moldova"
         },
         alpha2: "MD",
         alpha3: "MDA",
@@ -6960,10 +12495,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -6972,9 +12510,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+373"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".md",
@@ -6983,7 +12522,30 @@ export const countries = [
             "Europe/Chisinau",
             "Europe/Tiraspol"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "ron"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "rus"
+            ],
+            localCommunities: [
+                "ukr",
+                "bul",
+                "gag"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "ro",
             "ro-MD",
@@ -6991,13 +12553,17 @@ export const countries = [
             "ru-MD"
         ],
         otherAppsIds: {
-            geoNamesOrg: 617790
+            geoNamesOrg: 617790,
+            wikidata: "Q217",
+            openStreetMap: {
+                type: "relation",
+                id: 58974
+            }
         }
     },
     {
         officialName: {
-            "sr-Latn": "Crna Gora",
-            "sr-Cyrl": "Црна Гора"
+            cnr: "Crna Gora"
         },
         alpha2: "ME",
         alpha3: "MNE",
@@ -7008,13 +12574,20 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                "sr-Latn": "Čojstvo i junaštvo",
-                "sr-Cyrl": "Чојство и јунаштво"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        "cnr-Cyrl": "Част и Слобода",
+                        "cnr-Latn": "Čast i Sloboda"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -7023,9 +12596,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+382"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".me",
@@ -7033,7 +12607,29 @@ export const countries = [
         timeZones: [
             "Europe/Podgorica"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "cnr"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "srp",
+                "bos",
+                "hrv",
+                "alb"
+            ],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "sr",
             "sr-Cyrl",
@@ -7042,12 +12638,17 @@ export const countries = [
             "sr-Latn-ME"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3194884
+            geoNamesOrg: 3194884,
+            wikidata: "Q236",
+            openStreetMap: {
+                type: "relation",
+                id: 53296
+            }
         }
     },
     {
         officialName: {
-            fr: "Collectivité d'outre-mer de Saint-Martin"
+            fra: "Collectivité d'outre-mer de Saint-Martin"
         },
         alpha2: "MF",
         alpha3: "MAF",
@@ -7058,10 +12659,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -7070,9 +12674,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+590"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".gp",
@@ -7080,19 +12685,48 @@ export const countries = [
         timeZones: [
             "America/Marigot"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "fra"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "eng"
+            ],
+            localCommunities: [
+                "nrf",
+                "hat"
+            ],
+            extraTerritorialCommunities: [
+                "spa"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "fr",
             "fr-MF"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3578421
+            geoNamesOrg: 3578421,
+            wikidata: "Q34617",
+            openStreetMap: {
+                type: "relation",
+                id: 307828
+            }
         }
     },
     {
         officialName: {
-            mg: "Repoblikan'i Madagasikara",
-            fr: "République de Madagascar"
+            mlg: "Repoblikan'i Madagasikara",
+            fra: "République de Madagascar"
         },
         alpha2: "MG",
         alpha3: "MDG",
@@ -7103,12 +12737,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                mg: "Tanindrazana, Fahafahana, Fandrosoana"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        mlg: "Tanindrazana, Fahafahana, Fandrosoana"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -7117,9 +12758,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+261"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".mg",
@@ -7127,7 +12769,25 @@ export const countries = [
         timeZones: [
             "Indian/Antananarivo"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "mlg",
+                    "fra"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-MG",
@@ -7135,13 +12795,18 @@ export const countries = [
             "fr-MG"
         ],
         otherAppsIds: {
-            geoNamesOrg: 1062947
+            geoNamesOrg: 1062947,
+            wikidata: "Q1019",
+            openStreetMap: {
+                type: "relation",
+                id: 2555066
+            }
         }
     },
     {
         officialName: {
-            mh: "Aolepān Aorōkin M̧ajeļ",
-            en: "Republic of the Marshall Islands"
+            mah: "Aolepān Aorōkin M̧ajeļ",
+            eng: "Republic of the Marshall Islands"
         },
         alpha2: "MH",
         alpha3: "MHL",
@@ -7152,12 +12817,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                mh: "Jepilpilin ke ejukaan"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        mah: "Jepilpilin ke ejukaan"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -7166,9 +12838,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+692"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".mh",
@@ -7177,19 +12850,42 @@ export const countries = [
             "Pacific/Kwajalein",
             "Pacific/Majuro"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "mah",
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-MH"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2080185
+            geoNamesOrg: 2080185,
+            wikidata: "Q709",
+            openStreetMap: {
+                type: "relation",
+                id: 571780
+            }
         }
     },
     {
         officialName: {
-            mk: "Република Северна Македонија",
-            sq: "Republika e Maqedonisë së Veriut"
+            mkd: "Република Северна Македонија",
+            sqi: "Republika e Maqedonisë së Veriut"
         },
         alpha2: "MK",
         alpha3: "MKD",
@@ -7200,10 +12896,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -7212,9 +12911,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+389"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".mk",
@@ -7222,7 +12922,31 @@ export const countries = [
         timeZones: [
             "Europe/Skopje"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "mkd",
+                    "sqi"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "rom",
+                "trk",
+                "srb",
+                "vlm",
+                "bos"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "mk",
             "mk-MK",
@@ -7230,12 +12954,17 @@ export const countries = [
             "sq-MK"
         ],
         otherAppsIds: {
-            geoNamesOrg: 718075
+            geoNamesOrg: 718075,
+            wikidata: "Q221",
+            openStreetMap: {
+                type: "relation",
+                id: 53294
+            }
         }
     },
     {
         officialName: {
-            fr: "République du Mali"
+            fra: "République du Mali"
         },
         alpha2: "ML",
         alpha3: "MLI",
@@ -7246,12 +12975,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                fr: "Un peuple, un but, une foi"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        fra: "Un peuple, un but, une foi"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -7260,9 +12996,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+223"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".ml",
@@ -7271,18 +13008,51 @@ export const countries = [
             "Africa/Bamako",
             "Africa/Timbuktu"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "fra"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "bam",
+                "fuf"
+            ],
+            localCommunities: [
+                "son",
+                "ses",
+                "tmh",
+                "ful",
+                "dyu",
+                "bci",
+                "snq"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "fr",
             "fr-ML"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2453866
+            geoNamesOrg: 2453866,
+            wikidata: "Q912",
+            openStreetMap: {
+                type: "relation",
+                id: 192785
+            }
         }
     },
     {
         officialName: {
-            my: "ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်"
+            mya: "ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်"
         },
         alpha2: "MM",
         alpha3: "MMR",
@@ -7293,10 +13063,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -7305,9 +13078,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+95"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".mm",
@@ -7316,18 +13090,50 @@ export const countries = [
             "Asia/Yangon",
             "Asia/Rangoon"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "mya"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "shn",
+                "kac",
+                "kar",
+                "cak",
+                "mnw",
+                "rar"
+            ],
+            extraTerritorialCommunities: [
+                "cmn",
+                "tam"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "my",
             "my-MM"
         ],
         otherAppsIds: {
-            geoNamesOrg: 1327865
+            geoNamesOrg: 1327865,
+            wikidata: "Q836",
+            openStreetMap: {
+                type: "relation",
+                id: 50371
+            }
         }
     },
     {
         officialName: {
-            mn: "ᠮᠣᠩᠭᠣᠯ ᠤᠯᠤᠰ"
+            mon: "ᠮᠣᠩᠭᠣᠯ ᠤᠯᠤᠰ"
         },
         alpha2: "MN",
         alpha3: "MNG",
@@ -7338,10 +13144,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -7350,9 +13159,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+976"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".mn",
@@ -7372,20 +13182,49 @@ export const countries = [
             "Asia/Ulaanbaatar",
             "Asia/Ulan_Bator"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "mon"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "rus"
+            ],
+            localCommunities: [
+                "kaz",
+                "tuv",
+                "bxr",
+                "mvf"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "mn",
             "mn-MN"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2029969
+            geoNamesOrg: 2029969,
+            wikidata: "Q711",
+            openStreetMap: {
+                type: "relation",
+                id: 161033
+            }
         }
     },
     {
         officialName: {
-            cmn: "中华人民共和国澳门特别行政区",
-            yue: "中華人民共和國澳門特別行政區",
-            pt: "Região Administrativa Especial de Macau da República Popular da China"
+            "cmn-Hans": "中华人民共和国澳门特别行政区",
+            "yue-Hant": "中華人民共和國澳門特別行政區",
+            por: "Região Administrativa Especial de Macau da República Popular da China"
         },
         alpha2: "MO",
         alpha3: "MAC",
@@ -7396,10 +13235,13 @@ export const countries = [
         },
         dependency: "CN",
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -7408,9 +13250,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+853"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".mo",
@@ -7419,7 +13262,29 @@ export const countries = [
             "Asia/Macau",
             "Asia/Macao"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "yue",
+                    "por"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "cmn"
+            ],
+            localCommunities: [
+                "eng"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-MO",
@@ -7429,12 +13294,17 @@ export const countries = [
             "zh-MO"
         ],
         otherAppsIds: {
-            geoNamesOrg: 1821275
+            geoNamesOrg: 1821275,
+            wikidata: "Q14773",
+            openStreetMap: {
+                type: "relation",
+                id: 102199
+            }
         }
     },
     {
         officialName: {
-            en: "Commonwealth of the Northern Mariana Islands"
+            eng: "Commonwealth of the Northern Mariana Islands"
         },
         alpha2: "MP",
         alpha3: "MNP",
@@ -7445,10 +13315,13 @@ export const countries = [
         },
         dependency: "US",
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -7457,9 +13330,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+1670"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".mp",
@@ -7467,18 +13341,48 @@ export const countries = [
         timeZones: [
             "Pacific/Saipan"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng",
+                    "cha",
+                    "car"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "fil",
+                "jpn",
+                "kor"
+            ],
+            extraTerritorialCommunities: [
+                "cmn"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-MP"
         ],
         otherAppsIds: {
-            geoNamesOrg: 4041468
+            geoNamesOrg: 4041468,
+            wikidata: "Q16641",
+            openStreetMap: {
+                type: "relation",
+                id: 306004
+            }
         }
     },
     {
         officialName: {
-            fr: "Collectivité territoriale de Martinique"
+            fra: "Collectivité territoriale de Martinique"
         },
         alpha2: "MQ",
         alpha3: "MTQ",
@@ -7489,10 +13393,13 @@ export const countries = [
         },
         dependency: "FR",
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -7501,9 +13408,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+596"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".mq",
@@ -7511,19 +13419,46 @@ export const countries = [
         timeZones: [
             "America/Martinique"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "fra"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "acf"
+            ],
+            localCommunities: [
+                "hat",
+                "car"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "fr",
             "fr-MQ"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3570311
+            geoNamesOrg: 3570311,
+            wikidata: "Q17054",
+            openStreetMap: {
+                type: "relation",
+                id: 2473087
+            }
         }
     },
     {
         officialName: {
-            ar: "الجمهورية الإسلامية الموريتانية",
-            fr: "Republique Islamique de Mauritanie"
+            ara: "الجمهورية الإسلامية الموريتانية",
+            fra: "Republique Islamique de Mauritanie"
         },
         alpha2: "MR",
         alpha3: "MRT",
@@ -7534,12 +13469,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                ar: "شرف إخاء عدل"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        ara: "شرف إخاء عدل"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -7548,9 +13490,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+222"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".mr",
@@ -7558,7 +13501,36 @@ export const countries = [
         timeZones: [
             "Africa/Nouakchott"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "ara"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "fra",
+                "mey",
+                "zen"
+            ],
+            localCommunities: [
+                "son",
+                "fuc",
+                "snq",
+                "bwj"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: [
+                "ary",
+                "aao"
+            ]
+        },
         localesIcu: [
             "ar",
             "ar-MR",
@@ -7568,12 +13540,17 @@ export const countries = [
             "fr-MR"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2378080
+            geoNamesOrg: 2378080,
+            wikidata: "Q1025",
+            openStreetMap: {
+                type: "relation",
+                id: 192763
+            }
         }
     },
     {
         officialName: {
-            en: "Colony of Montserrat"
+            eng: "Colony of Montserrat"
         },
         alpha2: "MS",
         alpha3: "MSR",
@@ -7584,12 +13561,19 @@ export const countries = [
         },
         dependency: "GB",
         mottos: {
-            official: {
-                en: "A people of excellence, moulded by nature, nurtured by God"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        eng: "A people of excellence, moulded by nature, nurtured by God"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -7598,9 +13582,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+1664"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".ms",
@@ -7608,19 +13593,43 @@ export const countries = [
         timeZones: [
             "America/Montserrat"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "acf"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-MS"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3578097
+            geoNamesOrg: 3578097,
+            wikidata: "Q13353",
+            openStreetMap: {
+                type: "relation",
+                id: 537077
+            }
         }
     },
     {
         officialName: {
-            mt: "Repubblika ta' Malta",
-            en: "Republic of Malta"
+            mlt: "Repubblika ta' Malta",
+            eng: "Republic of Malta"
         },
         alpha2: "MT",
         alpha3: "MLT",
@@ -7631,12 +13640,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                la: "Virtute et constantia"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        lat: "Virtute et constantia"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -7645,9 +13661,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+356"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".mt",
@@ -7655,7 +13672,25 @@ export const countries = [
         timeZones: [
             "Europe/Malta"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "mlt",
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-MT",
@@ -7663,13 +13698,18 @@ export const countries = [
             "mt-MT"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2562770
+            geoNamesOrg: 2562770,
+            wikidata: "Q233",
+            openStreetMap: {
+                type: "relation",
+                id: 365307
+            }
         }
     },
     {
         officialName: {
-            en: "Republic of Mauritius",
-            fr: "République de Maurice"
+            eng: "Republic of Mauritius",
+            fra: "République de Maurice"
         },
         alpha2: "MU",
         alpha3: "MUS",
@@ -7680,12 +13720,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                la: "Stella Clavisque Maris Indici"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        lat: "Stella Clavisque Maris Indici"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -7694,9 +13741,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+230"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".mu",
@@ -7704,7 +13752,36 @@ export const countries = [
         timeZones: [
             "Indian/Mauritius"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "mfe",
+                "fra",
+                "bho"
+            ],
+            localCommunities: [
+                "urd",
+                "tam",
+                "tel",
+                "guj",
+                "hns"
+            ],
+            extraTerritorialCommunities: [
+                "yue"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-MU",
@@ -7712,12 +13789,17 @@ export const countries = [
             "fr-MU"
         ],
         otherAppsIds: {
-            geoNamesOrg: 934292
+            geoNamesOrg: 934292,
+            wikidata: "Q1027",
+            openStreetMap: {
+                type: "relation",
+                id: 535682
+            }
         }
     },
     {
         officialName: {
-            dv: "ދިވެހިރާއްޖޭގެ ޖުމްހޫރިއްޔާ"
+            div: "ދިވެހިރާއްޖޭގެ ޖުމްހޫރިއްޔާ"
         },
         alpha2: "MV",
         alpha3: "MDV",
@@ -7728,12 +13810,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                ar: "الدولة المحلديبية"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        ara: "الدولة المحلديبية"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -7742,9 +13831,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+960"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".mv",
@@ -7752,16 +13842,43 @@ export const countries = [
         timeZones: [
             "Indian/Maldives"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "div"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "eng"
+            ],
+            localCommunities: [
+                "hin",
+                "tam"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [],
         otherAppsIds: {
-            geoNamesOrg: 1282028
+            geoNamesOrg: 1282028,
+            wikidata: "Q912",
+            openStreetMap: {
+                type: "relation",
+                id: 536765
+            }
         }
     },
     {
         officialName: {
-            ny: "Dziko la Malaŵi",
-            en: "Republic of Malawi"
+            nya: "Dziko la Malaŵi",
+            eng: "Republic of Malawi"
         },
         alpha2: "MW",
         alpha3: "MWI",
@@ -7772,12 +13889,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                en: "Unity and Freedom"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        eng: "Unity and Freedom"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -7786,9 +13910,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+265"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".mw",
@@ -7796,18 +13921,49 @@ export const countries = [
         timeZones: [
             "Africa/Blantyre"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "nya",
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "tum",
+                "yai"
+            ],
+            localCommunities: [
+                "loz",
+                "tsw",
+                "toh",
+                "seh"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-MW"
         ],
         otherAppsIds: {
-            geoNamesOrg: 927384
+            geoNamesOrg: 927384,
+            wikidata: "Q1020",
+            openStreetMap: {
+                type: "relation",
+                id: 195270
+            }
         }
     },
     {
         officialName: {
-            es: "Estados Unidos Mexicanos"
+            spa: "Estados Unidos Mexicanos"
         },
         alpha2: "MX",
         alpha3: "MEX",
@@ -7818,12 +13974,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                es: "La Patria Es Primero"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        spa: "La Patria Es Primero"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -7832,43 +13995,69 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+52"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".mx",
         ccIdn: [],
         timeZones: [
-            "America/Bahia_Banderas",
             "America/Cancun",
-            "America/Chihuahua",
-            "America/Hermosillo",
-            "America/Matamoros",
-            "America/Mazatlan",
-            "America/Merida",
             "America/Mexico_City",
-            "America/Monterrey",
-            "America/Ojinaga",
+            "America/Mazatlan",
             "America/Tijuana",
-            "America/Ensenada",
-            "America/Santa_Isabel",
-            "Mexico/BajaNorte",
-            "Mexico/BajaSur",
-            "Mexico/General"
+            "America/Bahia_Banderas",
+            "America/Ciudad_Juarez"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "spa"
+                ],
+                deFacto: []
+            },
+            regional: [
+                "nah",
+                "mxc",
+                "mix",
+                "tzm",
+                "zap",
+                "myn",
+                "tar",
+                "cmi",
+                "tzo",
+                "yoa"
+            ],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [
+                    "mfs"
+                ],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "es",
             "es-MX"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3996063
+            geoNamesOrg: 3996063,
+            wikidata: "Q96",
+            openStreetMap: {
+                type: "relation",
+                id: 114686
+            }
         }
     },
     {
         officialName: {
-            ms: "Malaysia"
+            msa: "Malaysia"
         },
         alpha2: "MY",
         alpha3: "MYS",
@@ -7879,12 +14068,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                ms: "Bersekutu Bertambah Mutu"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        msa: "Bersekutu Bertambah Mutu"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -7893,9 +14089,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+60"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".my",
@@ -7904,7 +14101,39 @@ export const countries = [
             "Asia/Kuala_Lumpur",
             "Asia/Kuching"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "zsm"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "eng",
+                "zho",
+                "tam"
+            ],
+            localCommunities: [
+                "tel",
+                "mlt",
+                "bjn",
+                "ceb",
+                "tha",
+                "jak",
+                "che",
+                "tem"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: [
+                "jhi"
+            ]
+        },
         localesIcu: [
             "en",
             "en-MY",
@@ -7914,12 +14143,17 @@ export const countries = [
             "ta-MY"
         ],
         otherAppsIds: {
-            geoNamesOrg: 1733045
+            geoNamesOrg: 1733045,
+            wikidata: "Q833",
+            openStreetMap: {
+                type: "relation",
+                id: 2108121
+            }
         }
     },
     {
         officialName: {
-            pt: "República de Moçambique"
+            por: "República de Moçambique"
         },
         alpha2: "MZ",
         alpha3: "MOZ",
@@ -7930,10 +14164,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -7942,9 +14179,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+258"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".mz",
@@ -7952,18 +14190,50 @@ export const countries = [
         timeZones: [
             "Africa/Maputo"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "por"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "vmw",
+                "seh",
+                "nyy",
+                "bwc",
+                "ndc",
+                "rng",
+                "lom",
+                "yao",
+                "tsc"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "pt",
             "pt-MZ"
         ],
         otherAppsIds: {
-            geoNamesOrg: 1036973
+            geoNamesOrg: 1036973,
+            wikidata: "Q1029",
+            openStreetMap: {
+                type: "relation",
+                id: 195270
+            }
         }
     },
     {
         officialName: {
-            en: "Republic of Namibia"
+            eng: "Republic of Namibia"
         },
         alpha2: "NA",
         alpha3: "NAM",
@@ -7974,12 +14244,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                en: "Unity, Liberty, Justice"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        eng: "Unity, Liberty, Justice"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -7988,9 +14265,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+264"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".na",
@@ -7998,7 +14276,38 @@ export const countries = [
         timeZones: [
             "Africa/Windhoek"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "afr",
+                "deu",
+                "naq",
+                "hgm",
+                "kwn",
+                "loz",
+                "her"
+            ],
+            localCommunities: [
+                "tsn",
+                "ven",
+                "khi",
+                "ktz",
+                "bwc"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "af",
             "af-NA",
@@ -8006,12 +14315,17 @@ export const countries = [
             "en-NA"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3355338
+            geoNamesOrg: 3355338,
+            wikidata: "Q1030",
+            openStreetMap: {
+                type: "relation",
+                id: 195273
+            }
         }
     },
     {
         officialName: {
-            fr: "Gouvernement de la Nouvelle-Calédonie"
+            fra: "Gouvernement de la Nouvelle-Calédonie"
         },
         alpha2: "NC",
         alpha3: "NCL",
@@ -8022,10 +14336,13 @@ export const countries = [
         },
         dependency: "FR",
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -8034,9 +14351,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+687"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".nc",
@@ -8044,18 +14362,47 @@ export const countries = [
         timeZones: [
             "Pacific/Noumea"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "fra"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "aji",
+                "drg",
+                "pma",
+                "pkn",
+                "nkk",
+                "hnj"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "fr",
             "fr-NC"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2139685
+            geoNamesOrg: 2139685,
+            wikidata: "Q33788",
+            openStreetMap: {
+                type: "relation",
+                id: 341129
+            }
         }
     },
     {
         officialName: {
-            fr: "République du Niger"
+            fra: "République du Niger"
         },
         alpha2: "NE",
         alpha3: "NER",
@@ -8066,12 +14413,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                fr: "Unité - Travail - Progrès"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        fra: "Unité - Travail - Progrès"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -8080,9 +14434,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+227"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".ne",
@@ -8090,7 +14445,36 @@ export const countries = [
         timeZones: [
             "Africa/Niamey"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "fra"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "hau",
+                "dje",
+                "tmh",
+                "ful",
+                "kan",
+                "zma"
+            ],
+            localCommunities: [
+                "bmn",
+                "mfh",
+                "tsw",
+                "srr"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "fr",
             "fr-NE",
@@ -8098,12 +14482,17 @@ export const countries = [
             "ha-NE"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2440476
+            geoNamesOrg: 2440476,
+            wikidata: "Q1032",
+            openStreetMap: {
+                type: "relation",
+                id: 192785
+            }
         }
     },
     {
         officialName: {
-            en: "Territory of Norfolk Island"
+            eng: "Territory of Norfolk Island"
         },
         alpha2: "NF",
         alpha3: "NFK",
@@ -8114,12 +14503,19 @@ export const countries = [
         },
         dependency: "AU",
         mottos: {
-            official: {
-                pih: "Inasmuch"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        und: "Inasmuch"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -8128,9 +14524,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+6723"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".nf",
@@ -8138,18 +14535,40 @@ export const countries = [
         timeZones: [
             "Pacific/Norfolk"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-NF"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2155115
+            geoNamesOrg: 2155115,
+            wikidata: "Q31057",
+            openStreetMap: {
+                type: "relation",
+                id: 2177248
+            }
         }
     },
     {
         officialName: {
-            en: "Federal Republic of Nigeria"
+            eng: "Federal Republic of Nigeria"
         },
         alpha2: "NG",
         alpha3: "NGA",
@@ -8160,12 +14579,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                en: "Unity and Faith, Peace and Progress"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        eng: "Unity and Faith, Peace and Progress"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -8174,9 +14600,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+234"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".ng",
@@ -8184,7 +14611,40 @@ export const countries = [
         timeZones: [
             "Africa/Lagos"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "hau",
+                "ibo",
+                "yor",
+                "fuv"
+            ],
+            localCommunities: [
+                "efi",
+                "bin",
+                "tiv",
+                "ibb",
+                "kaj",
+                "kau",
+                "bbc",
+                "kcg",
+                "ogo",
+                "bba"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-NG",
@@ -8196,12 +14656,17 @@ export const countries = [
             "yo-NG"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2328926
+            geoNamesOrg: 2328926,
+            wikidata: "Q1033",
+            openStreetMap: {
+                type: "relation",
+                id: 192785
+            }
         }
     },
     {
         officialName: {
-            es: "República de Nicaragua"
+            spa: "República de Nicaragua"
         },
         alpha2: "NI",
         alpha3: "NIC",
@@ -8212,12 +14677,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                es: "En Dios Confiamos"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        spa: "En Dios Confiamos"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -8226,9 +14698,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+505"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".ni",
@@ -8236,21 +14709,51 @@ export const countries = [
         timeZones: [
             "America/Managua"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "spa"
+                ],
+                deFacto: []
+            },
+            regional: [
+                "miq",
+                "bzd",
+                "cab"
+            ],
+            widelySpoken: [],
+            localCommunities: [
+                "cok",
+                "ulw"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [
+                    "ncs"
+                ],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "es",
             "es-NI"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3617476
+            geoNamesOrg: 3617476,
+            wikidata: "Q811",
+            openStreetMap: {
+                type: "relation",
+                id: 287666
+            }
         }
     },
     {
         officialName: {
-            nl: "Koninkrijk der Nederlanden",
-            fy: "Keninkryk fan de Nederlannen",
-            pap: "Reino Hulandes",
-            en: "Kingdom of the Netherlands"
+            nld: "Koninkrijk der Nederlanden",
+            fry: "Keninkryk fan de Nederlannen",
+            pap: "Reino Hulandes"
         },
         alpha2: "NL",
         alpha3: "NLD",
@@ -8261,14 +14764,25 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                fr: "Je maintiendrai"
-            },
-            popular: {},
-            royal: {
-                fr: "Je maintiendrai"
-            },
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        fra: "Je maintiendrai"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [
+                {
+                    text: {
+                        fra: "Je maintiendrai"
+                    }
+                }
+            ],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -8277,9 +14791,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+31"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".nl",
@@ -8287,7 +14802,42 @@ export const countries = [
         timeZones: [
             "Europe/Amsterdam"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "nld",
+                    "fry",
+                    "pap"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "eng"
+            ],
+            localCommunities: [
+                "zea"
+            ],
+            extraTerritorialCommunities: [
+                "tur",
+                "ara",
+                "tam",
+                "hin",
+                "ind",
+                "por",
+                "pol",
+                "rum",
+                "bul"
+            ],
+            signs: {
+                official: [
+                    "dse"
+                ],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-NL",
@@ -8297,14 +14847,19 @@ export const countries = [
             "nl-NL"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2750405
+            geoNamesOrg: 2750405,
+            wikidata: "Q55",
+            openStreetMap: {
+                type: "relation",
+                id: 47796
+            }
         }
     },
     {
         officialName: {
-            nb: "Kongeriket Norge",
-            nn: "Kongeriket Noreg",
-            se: "Norgga gonagasriika",
+            nob: "Kongeriket Norge",
+            nno: "Kongeriket Noreg",
+            sme: "Norgga gonagasriika",
             smj: "Vuona gånågisrijkka",
             sma: "Nöörjen gånkarïjhke"
         },
@@ -8317,10 +14872,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -8329,9 +14887,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+47"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".no",
@@ -8339,7 +14898,39 @@ export const countries = [
         timeZones: [
             "Europe/Oslo"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "nob",
+                    "nno",
+                    "sme",
+                    "smj",
+                    "sma"
+                ],
+                deFacto: []
+            },
+            regional: [
+                "fkv",
+                "rmy",
+                "rme"
+            ],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [
+                "pol",
+                "som",
+                "urd",
+                "ara"
+            ],
+            signs: {
+                official: [],
+                recognized: [
+                    "nsl"
+                ],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "nb",
             "nb-NO",
@@ -8349,12 +14940,17 @@ export const countries = [
             "se-NO"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3144096
+            geoNamesOrg: 3144096,
+            wikidata: "Q20",
+            openStreetMap: {
+                type: "relation",
+                id: 2978650
+            }
         }
     },
     {
         officialName: {
-            ne: "सङ्घीय लोकतान्त्रिक गणतन्त्र नेपाल"
+            nep: "सङ्घीय लोकतान्त्रिक गणतन्त्र नेपाल"
         },
         alpha2: "NP",
         alpha3: "NPL",
@@ -8365,12 +14961,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                ne: "जननी जन्मभूमिश्च स्वर्गादपी गरीयसी"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        nep: "जननी जन्मभूमिश्च स्वर्गादपी गरीयसी"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -8379,30 +14982,68 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+977"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".np",
         ccIdn: [],
         timeZones: [
-            "Asia/Kathmandu",
-            "Asia/Katmandu"
+            "Asia/Kathmandu"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "nep"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "mai",
+                "bho",
+                "new",
+                "tam",
+                "mag",
+                "awa",
+                "thf"
+            ],
+            localCommunities: [
+                "dty",
+                "thl",
+                "ltr",
+                "san",
+                "che",
+                "sun",
+                "byn"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "ne",
             "ne-NP"
         ],
         otherAppsIds: {
-            geoNamesOrg: 1282988
+            geoNamesOrg: 1282988,
+            wikidata: "Q837",
+            openStreetMap: {
+                type: "relation",
+                id: 184633
+            }
         }
     },
     {
         officialName: {
-            na: "Ripublik Naoero",
-            en: "Republic of Nauru"
+            nau: "Ripublik Naoero",
+            eng: "Republic of Nauru"
         },
         alpha2: "NR",
         alpha3: "NRU",
@@ -8413,12 +15054,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                en: "God's Will First"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        eng: "God's Will First"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -8427,9 +15075,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+674"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".nr",
@@ -8437,18 +15086,42 @@ export const countries = [
         timeZones: [
             "Pacific/Nauru"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "nau",
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-NR"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2110425
+            geoNamesOrg: 2110425,
+            wikidata: "Q697",
+            openStreetMap: {
+                type: "relation",
+                id: 571805
+            }
         }
     },
     {
         officialName: {
-            en: "Niue"
+            eng: "Niue",
+            niu: "Fakamotu Niue"
         },
         alpha2: "NU",
         alpha3: "NIU",
@@ -8459,12 +15132,19 @@ export const countries = [
         },
         dependency: "NZ",
         mottos: {
-            official: {
-                niu: "Atua, Niue Tukulagi"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        niu: "Atua, Niue Tukulagi"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -8473,9 +15153,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+683"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".nu",
@@ -8483,19 +15164,42 @@ export const countries = [
         timeZones: [
             "Pacific/Niue"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng",
+                    "niu"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-NU"
         ],
         otherAppsIds: {
-            geoNamesOrg: 4036232
+            geoNamesOrg: 4036232,
+            wikidata: "Q34020",
+            openStreetMap: {
+                type: "relation",
+                id: 2177229
+            }
         }
     },
     {
         officialName: {
-            mi: "Aotearoa",
-            en: "New Zealand"
+            mri: "Aotearoa",
+            eng: "New Zealand"
         },
         alpha2: "NZ",
         alpha3: "NZL",
@@ -8506,10 +15210,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -8518,9 +15225,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+64"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".nz",
@@ -8529,18 +15237,54 @@ export const countries = [
             "Pacific/Auckland",
             "Pacific/Chatham"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng",
+                    "mri",
+                    "nzs"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "smo",
+                "ton",
+                "ckb"
+            ],
+            localCommunities: [
+                "mri"
+            ],
+            extraTerritorialCommunities: [
+                "zho",
+                "hin",
+                "tgn"
+            ],
+            signs: {
+                official: [
+                    "nzs"
+                ],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-NZ"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2186224
+            geoNamesOrg: 2186224,
+            wikidata: "Q664",
+            openStreetMap: {
+                type: "relation",
+                id: 556706
+            }
         }
     },
     {
         officialName: {
-            ar: "سلطنة عُمان"
+            ara: "سلطنة عُمان"
         },
         alpha2: "OM",
         alpha3: "OMN",
@@ -8551,10 +15295,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -8563,9 +15310,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+968"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".om",
@@ -8573,18 +15321,48 @@ export const countries = [
         timeZones: [
             "Asia/Muscat"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "ara"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "bal",
+                "swb"
+            ],
+            localCommunities: [],
+            extraTerritorialCommunities: [
+                "eng",
+                "hnd"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: [
+                "afb"
+            ]
+        },
         localesIcu: [
             "ar",
             "ar-OM"
         ],
         otherAppsIds: {
-            geoNamesOrg: 286963
+            geoNamesOrg: 286963,
+            wikidata: "Q842",
+            openStreetMap: {
+                type: "relation",
+                id: 305138
+            }
         }
     },
     {
         officialName: {
-            es: "República de Panamá"
+            spa: "República de Panamá"
         },
         alpha2: "PA",
         alpha3: "PAN",
@@ -8595,12 +15373,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                la: "Pro Mundi Beneficio"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        lat: "Pro Mundi Beneficio"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -8609,9 +15394,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+507"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".pa",
@@ -8619,20 +15405,49 @@ export const countries = [
         timeZones: [
             "America/Panama"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "spa"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "gnb",
+                "gna",
+                "pln",
+                "tue",
+                "cab",
+                "ebr"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "es",
             "es-PA"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3703430
+            geoNamesOrg: 3703430,
+            wikidata: "Q804",
+            openStreetMap: {
+                type: "relation",
+                id: 287668
+            }
         }
     },
     {
         officialName: {
-            es: "República del Perú",
-            qu: "Piruw Ripuwlika",
-            ay: "Piruw Suyu"
+            spa: "República del Perú",
+            que: "Piruw Ripuwlika",
+            aym: "Piruw Suyu"
         },
         alpha2: "PE",
         alpha3: "PER",
@@ -8643,12 +15458,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                es: "Firme y feliz por la unión"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        spa: "Firme y feliz por la unión"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -8657,9 +15479,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+51"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".pe",
@@ -8667,18 +15490,49 @@ export const countries = [
         timeZones: [
             "America/Lima"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "spa"
+                ],
+                deFacto: []
+            },
+            regional: [
+                "que",
+                "aym"
+            ],
+            widelySpoken: [],
+            localCommunities: [
+                "agr",
+                "cni",
+                "shp",
+                "mrc",
+                "ash"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "es",
             "es-PE"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3932488
+            geoNamesOrg: 3932488,
+            wikidata: "Q419",
+            openStreetMap: {
+                type: "relation",
+                id: 288247
+            }
         }
     },
     {
         officialName: {
-            fr: "Polynésie française"
+            fra: "Polynésie française"
         },
         alpha2: "PF",
         alpha3: "PYF",
@@ -8689,14 +15543,25 @@ export const countries = [
         },
         dependency: "FR",
         mottos: {
-            official: {
-                fr: "Liberté, Égalité, Fraternité"
-            },
-            popular: {
-                ty: "Pōrīnetia Farāni"
-            },
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        fra: "Liberté, Égalité, Fraternité"
+                    }
+                }
+            ],
+            popular: [
+                {
+                    text: {
+                        tah: "Pōrīnetia Farāni"
+                    }
+                }
+            ],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -8705,9 +15570,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+689"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".pf",
@@ -8717,19 +15583,46 @@ export const countries = [
             "Pacific/Marquesas",
             "Pacific/Tahiti"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "fra"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "tah",
+                "pau",
+                "mhx",
+                "nrf"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "fr",
             "fr-PF"
         ],
         otherAppsIds: {
-            geoNamesOrg: 4030656
+            geoNamesOrg: 4030656,
+            wikidata: "Q30971",
+            openStreetMap: {
+                type: "relation",
+                id: 3412620
+            }
         }
     },
     {
         officialName: {
-            en: "Independent State of Papua New Guinea",
-            ho: "Independen Stet bilong Papua Niu Gini"
+            eng: "Independent State of Papua New Guinea",
+            hmo: "Independen Stet bilong Papua Niu Gini"
         },
         alpha2: "PG",
         alpha3: "PNG",
@@ -8740,12 +15633,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                en: "Unity in Diversity"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        eng: "Unity in Diversity"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -8754,9 +15654,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+675"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".pg",
@@ -8765,19 +15666,47 @@ export const countries = [
             "Pacific/Bougainville",
             "Pacific/Port_Moresby"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng",
+                    "hmo"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "tpi"
+            ],
+            localCommunities: [
+                "meu",
+                "kag"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-PG"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2088628
+            geoNamesOrg: 2088628,
+            wikidata: "Q691",
+            openStreetMap: {
+                type: "relation",
+                id: 288084
+            }
         }
     },
     {
         officialName: {
             fil: "Repúbliká ng Pilipinas",
-            en: "Republic of the Philippines"
+            eng: "Republic of the Philippines"
         },
         alpha2: "PH",
         alpha3: "PHL",
@@ -8788,13 +15717,20 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                tl: "Maka-Diyos, Maka-tao, Makakalikasan at Makabansa",
-                en: "For God, People, Nature and Country"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        tgl: "Maka-Diyos, Maka-tao, Makakalikasan at Makabansa",
+                        eng: "For God, People, Nature and Country"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -8803,9 +15739,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+63"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".ph",
@@ -8813,7 +15750,39 @@ export const countries = [
         timeZones: [
             "Asia/Manila"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "fil",
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "tgl",
+                "ceb",
+                "ilo",
+                "hil"
+            ],
+            localCommunities: [
+                "war",
+                "bik",
+                "mdh",
+                "tsg",
+                "mrw"
+            ],
+            extraTerritorialCommunities: [
+                "bku",
+                "msb"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-PH",
@@ -8823,13 +15792,17 @@ export const countries = [
             "fil-PH"
         ],
         otherAppsIds: {
-            geoNamesOrg: 1694008
+            geoNamesOrg: 1694008,
+            wikidata: "Q928",
+            openStreetMap: {
+                type: "relation",
+                id: 443174
+            }
         }
     },
     {
         officialName: {
-            ur: "اِسلامی جمہوریہ پاكِستان",
-            en: "Islamic Republic of Pakistan"
+            urd: "اِسلامی جمہوریہ پاكِستان"
         },
         alpha2: "PK",
         alpha3: "PAK",
@@ -8840,12 +15813,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                ur: "ایمان ، اتحاد ، نظم"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        urd: "ایمان ، اتحاد ، نظم"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -8854,9 +15834,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+92"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".pk",
@@ -8874,7 +15855,37 @@ export const countries = [
         timeZones: [
             "Asia/Karachi"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "urd"
+                ],
+                deFacto: []
+            },
+            regional: [
+                "pan",
+                "snd",
+                "pus",
+                "bal"
+            ],
+            widelySpoken: [],
+            localCommunities: [
+                "skr",
+                "mvy",
+                "guj",
+                "kas"
+            ],
+            extraTerritorialCommunities: [
+                "hnd",
+                "bra"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-PK",
@@ -8885,12 +15896,17 @@ export const countries = [
             "ur-PK"
         ],
         otherAppsIds: {
-            geoNamesOrg: 1168579
+            geoNamesOrg: 1168579,
+            wikidata: "Q843",
+            openStreetMap: {
+                type: "relation",
+                id: 307573
+            }
         }
     },
     {
         officialName: {
-            pl: "Rzeczpospolita Polska"
+            pol: "Rzeczpospolita Polska"
         },
         alpha2: "PL",
         alpha3: "POL",
@@ -8901,10 +15917,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -8913,9 +15932,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+48"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".pl",
@@ -8923,18 +15943,52 @@ export const countries = [
         timeZones: [
             "Europe/Warsaw"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "pol"
+                ],
+                deFacto: []
+            },
+            regional: [
+                "kas",
+                "lit",
+                "ukr",
+                "blr",
+                "deu",
+                "rom"
+            ],
+            widelySpoken: [],
+            localCommunities: [
+                "szl"
+            ],
+            extraTerritorialCommunities: [
+                "rus",
+                "ces"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "pl",
             "pl-PL"
         ],
         otherAppsIds: {
-            geoNamesOrg: 798544
+            geoNamesOrg: 798544,
+            wikidata: "Q36",
+            openStreetMap: {
+                type: "relation",
+                id: 49715
+            }
         }
     },
     {
         officialName: {
-            fr: "Collectivité d'outre-mer de Saint-Pierre-et-Miquelon"
+            fra: "Collectivité d'outre-mer de Saint-Pierre-et-Miquelon"
         },
         alpha2: "PM",
         alpha3: "SPM",
@@ -8945,12 +15999,19 @@ export const countries = [
         },
         dependency: "FR",
         mottos: {
-            official: {
-                la: "A Mare Labor"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        lat: "A Mare Labor"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -8959,9 +16020,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+508"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".pm",
@@ -8969,19 +16031,40 @@ export const countries = [
         timeZones: [
             "America/Miquelon"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "fra"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "fr",
             "fr-PM"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3424932
+            geoNamesOrg: 3424932,
+            wikidata: "Q34617",
+            openStreetMap: {
+                type: "relation",
+                id: 3406825
+            }
         }
     },
     {
         officialName: {
-            en: "Pitcairn, Henderson, Ducie and Oeno Islands",
-            pih: "Pitkern Ailen"
+            eng: "Pitcairn, Henderson, Ducie and Oeno Islands"
         },
         alpha2: "PN",
         alpha3: "PCN",
@@ -8992,12 +16075,19 @@ export const countries = [
         },
         dependency: "GB",
         mottos: {
-            official: {
-                fr: "Dieu et mon droit"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        fra: "Dieu et mon droit"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -9006,9 +16096,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+64"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".pn",
@@ -9016,19 +16107,43 @@ export const countries = [
         timeZones: [
             "Pacific/Pitcairn"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "pih"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-PN"
         ],
         otherAppsIds: {
-            geoNamesOrg: 4030699
+            geoNamesOrg: 4030699,
+            wikidata: "Q35672",
+            openStreetMap: {
+                type: "relation",
+                id: 2185373
+            }
         }
     },
     {
         officialName: {
-            en: "Commonwealth of Puerto Rico",
-            es: "Estado Libre Asociado de Puerto Rico"
+            eng: "Commonwealth of Puerto Rico",
+            spa: "Estado Libre Asociado de Puerto Rico"
         },
         alpha2: "PR",
         alpha3: "PRI",
@@ -9039,12 +16154,19 @@ export const countries = [
         },
         dependency: "US",
         mottos: {
-            official: {
-                la: "Joannes Est Nomen Eius"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        lat: "Joannes Est Nomen Eius"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -9053,10 +16175,11 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+1787",
                 "+1939"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".pr",
@@ -9064,7 +16187,25 @@ export const countries = [
         timeZones: [
             "America/Puerto_Rico"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "spa",
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-PR",
@@ -9072,12 +16213,17 @@ export const countries = [
             "es-PR"
         ],
         otherAppsIds: {
-            geoNamesOrg: 4566966
+            geoNamesOrg: 4566966,
+            wikidata: "Q1183",
+            openStreetMap: {
+                type: "relation",
+                id: 442260
+            }
         }
     },
     {
         officialName: {
-            ar: "دولة فلسطين"
+            ara: "دولة فلسطين"
         },
         alpha2: "PS",
         alpha3: "PSE",
@@ -9088,19 +16234,23 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [],
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+970"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".ps",
@@ -9109,18 +16259,42 @@ export const countries = [
             "Asia/Gaza",
             "Asia/Hebron"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "ara"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "apc"
+            ],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "ar",
             "ar-PS"
         ],
         otherAppsIds: {
-            geoNamesOrg: 6254930
+            geoNamesOrg: 6254930,
+            wikidata: "Q219060",
+            openStreetMap: {
+                type: "relation",
+                id: 1703814
+            }
         }
     },
     {
         officialName: {
-            pt: "República Portuguesa"
+            por: "República Portuguesa"
         },
         alpha2: "PT",
         alpha3: "PRT",
@@ -9131,10 +16305,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -9143,9 +16320,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+351"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".pt",
@@ -9155,19 +16333,49 @@ export const countries = [
             "Atlantic/Madeira",
             "Europe/Lisbon"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "por"
+                ],
+                deFacto: []
+            },
+            regional: [
+                "mwl"
+            ],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [
+                "zho",
+                "hin",
+                "rus"
+            ],
+            signs: {
+                official: [
+                    "psr"
+                ],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "pt",
             "pt-PT"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2264397
+            geoNamesOrg: 2264397,
+            wikidata: "Q45",
+            openStreetMap: {
+                type: "relation",
+                id: 295480
+            }
         }
     },
     {
         officialName: {
             pau: "Beluu er a Palau ",
-            en: "Republic of Palau"
+            eng: "Republic of Palau"
         },
         alpha2: "PW",
         alpha3: "PLW",
@@ -9178,12 +16386,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                en: "Rainbow's End"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        eng: "Rainbow's End"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -9192,9 +16407,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+680"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".pw",
@@ -9202,19 +16418,48 @@ export const countries = [
         timeZones: [
             "Pacific/Palau"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "pau",
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [
+                "sov"
+            ],
+            widelySpoken: [],
+            localCommunities: [
+                "jpn"
+            ],
+            extraTerritorialCommunities: [
+                "fil"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-PW"
         ],
         otherAppsIds: {
-            geoNamesOrg: 1559582
+            geoNamesOrg: 1559582,
+            wikidata: "Q695",
+            openStreetMap: {
+                type: "relation",
+                id: 571802
+            }
         }
     },
     {
         officialName: {
-            es: "República del Paraguay",
-            gn: "Tetã Paraguái"
+            spa: "República del Paraguay",
+            grn: "Tetã Paraguái"
         },
         alpha2: "PY",
         alpha3: "PRY",
@@ -9225,13 +16470,20 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                es: "Paz y Justicia",
-                gn: "Py'aguapy ha tekojoja"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        spa: "Paz y Justicia",
+                        grn: "Py'aguapy ha tekojoja"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -9240,9 +16492,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+595"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".py",
@@ -9250,18 +16503,43 @@ export const countries = [
         timeZones: [
             "America/Asuncion"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "spa",
+                    "grn"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "ayc"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "es",
             "es-PY"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3437598
+            geoNamesOrg: 3437598,
+            wikidata: "Q733",
+            openStreetMap: {
+                type: "relation",
+                id: 287077
+            }
         }
     },
     {
         officialName: {
-            ar: "دولة قطر"
+            ara: "دولة قطر"
         },
         alpha2: "QA",
         alpha3: "QAT",
@@ -9272,12 +16550,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                ar: "الله الوطن الأمير"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        ara: "الله الوطن الأمير"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -9286,9 +16571,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+974"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".qa",
@@ -9305,18 +16591,47 @@ export const countries = [
         timeZones: [
             "Asia/Qatar"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "ara"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [
+                "hin",
+                "urd",
+                "tgl",
+                "nep"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: [
+                "afb"
+            ]
+        },
         localesIcu: [
             "ar",
             "ar-QA"
         ],
         otherAppsIds: {
-            geoNamesOrg: 289688
+            geoNamesOrg: 289688,
+            wikidata: "Q846",
+            openStreetMap: {
+                type: "relation",
+                id: 305091
+            }
         }
     },
     {
         officialName: {
-            fr: "Département de La Réunion"
+            fra: "Département de La Réunion"
         },
         alpha2: "RE",
         alpha3: "REU",
@@ -9327,12 +16642,19 @@ export const countries = [
         },
         dependency: "FR",
         mottos: {
-            official: {
-                la: "Florebo quocumque ferar"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        lat: "Florebo quocumque ferar"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -9341,9 +16663,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+262"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".re",
@@ -9351,18 +16674,42 @@ export const countries = [
         timeZones: [
             "Indian/Reunion"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "fra"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "rcf"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "fr",
             "fr-RE"
         ],
         otherAppsIds: {
-            geoNamesOrg: 935317
+            geoNamesOrg: 935317,
+            wikidata: "Q2181",
+            openStreetMap: {
+                type: "relation",
+                id: 935317
+            }
         }
     },
     {
         officialName: {
-            ro: "România"
+            ron: "România"
         },
         alpha2: "RO",
         alpha3: "ROU",
@@ -9373,10 +16720,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -9385,9 +16735,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+40"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".ro",
@@ -9395,19 +16746,51 @@ export const countries = [
         timeZones: [
             "Europe/Bucharest"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "ron"
+                ],
+                deFacto: []
+            },
+            regional: [
+                "hun",
+                "deu",
+                "srp",
+                "ukr",
+                "bul"
+            ],
+            widelySpoken: [],
+            localCommunities: [
+                "rom",
+                "rue",
+                "trp"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "ro",
             "ro-RO"
         ],
         otherAppsIds: {
-            geoNamesOrg: 798549
+            geoNamesOrg: 798549,
+            wikidata: "Q218",
+            openStreetMap: {
+                type: "relation",
+                id: 90689
+            }
         }
     },
     {
         officialName: {
-            "sr-Cyrl": "Република Србија",
-            "sr-Latn": "Republika Srbija"
+            "srp-Cyrl": "Република Србија",
+            "srp-Latn": "Republika Srbija"
         },
         alpha2: "RS",
         alpha3: "SRB",
@@ -9418,12 +16801,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                sr: "Само слога Србина спасава"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        "srp-Cyrl": "Само слога Србина спасава"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -9432,9 +16822,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+381"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".rs",
@@ -9442,7 +16833,35 @@ export const countries = [
         timeZones: [
             "Europe/Belgrade"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "srp"
+                ],
+                deFacto: []
+            },
+            regional: [
+                "hun",
+                "slk",
+                "hrv",
+                "ukr",
+                "bul",
+                "rue",
+                "rum",
+                "aln"
+            ],
+            widelySpoken: [],
+            localCommunities: [
+                "rom"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "sr",
             "sr-Cyrl",
@@ -9451,12 +16870,17 @@ export const countries = [
             "sr-Latn-RS"
         ],
         otherAppsIds: {
-            geoNamesOrg: 6290252
+            geoNamesOrg: 6290252,
+            wikidata: "Q403",
+            openStreetMap: {
+                type: "relation",
+                id: 1741311
+            }
         }
     },
     {
         officialName: {
-            ru: "Росси́йская Федера́ция"
+            rus: "Росси́йская Федера́ция"
         },
         alpha2: "RU",
         alpha3: "RUS",
@@ -9467,10 +16891,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -9479,9 +16906,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+7"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".ru",
@@ -9527,21 +16955,64 @@ export const countries = [
             "Europe/Ulyanovsk",
             "Europe/Volgograd"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "rus"
+                ],
+                deFacto: []
+            },
+            regional: [
+                "tat",
+                "che",
+                "chv",
+                "ava",
+                "ady",
+                "kbd",
+                "sah",
+                "udm",
+                "kom",
+                "bua",
+                "lez",
+                "mdf",
+                "myv",
+                "inh"
+            ],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [
+                "ukr",
+                "deu",
+                "aze",
+                "kor",
+                "arm"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "ru",
             "ru-RU"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2017370
+            geoNamesOrg: 2017370,
+            wikidata: "Q159",
+            openStreetMap: {
+                type: "relation",
+                id: 60189
+            }
         }
     },
     {
         officialName: {
-            rw: "Repubulika y'u Rwanda",
-            sw: "Jamhuri ya Rwanda",
-            fr: "République du Rwanda",
-            en: "Republic of Rwanda"
+            kin: "Repubulika y'u Rwanda",
+            swa: "Jamhuri ya Rwanda",
+            fra: "République du Rwanda",
+            eng: "Republic of Rwanda"
         },
         alpha2: "RW",
         alpha3: "RWA",
@@ -9552,12 +17023,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                rw: "Ubumwe, Umurimo, Gukunda Igihugu"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        kin: "Ubumwe, Umurimo, Gukunda igihugu"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -9566,9 +17044,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+250"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".rw",
@@ -9576,7 +17055,27 @@ export const countries = [
         timeZones: [
             "Africa/Kigali"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "kin",
+                    "swa",
+                    "fra",
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-RW",
@@ -9584,12 +17083,17 @@ export const countries = [
             "fr-RW"
         ],
         otherAppsIds: {
-            geoNamesOrg: 49518
+            geoNamesOrg: 49518,
+            wikidata: "Q1037",
+            openStreetMap: {
+                type: "relation",
+                id: 171496
+            }
         }
     },
     {
         officialName: {
-            ar: "المملكة العربية السعودية"
+            ara: "المملكة العربية السعودية"
         },
         alpha2: "SA",
         alpha3: "SAU",
@@ -9600,12 +17104,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                ar: "لا إله إلا الله، محمد رسول الله"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        ara: "لا إله إلا الله، محمد رسول الله"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -9614,9 +17125,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+966"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".sa",
@@ -9633,18 +17145,50 @@ export const countries = [
         timeZones: [
             "Asia/Riyadh"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "ara"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "eng",
+                "mal",
+                "urd"
+            ],
+            localCommunities: [],
+            extraTerritorialCommunities: [
+                "tgl",
+                "hin",
+                "tam"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: [
+                "afb"
+            ]
+        },
         localesIcu: [
             "ar",
             "ar-SA"
         ],
         otherAppsIds: {
-            geoNamesOrg: 102358
+            geoNamesOrg: 102358,
+            wikidata: "Q851",
+            openStreetMap: {
+                type: "relation",
+                id: 307584
+            }
         }
     },
     {
         officialName: {
-            en: "Solomon Islands"
+            eng: "Solomon Islands"
         },
         alpha2: "SB",
         alpha3: "SLB",
@@ -9655,12 +17199,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                en: "To Lead is to Serve"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        eng: "To Lead is to Serve"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -9669,9 +17220,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+677"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".sb",
@@ -9679,20 +17231,47 @@ export const countries = [
         timeZones: [
             "Pacific/Guadalcanal"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "pis"
+            ],
+            localCommunities: [
+                "mlp",
+                "alu"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-SB"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2103350
+            geoNamesOrg: 2103350,
+            wikidata: "Q685",
+            openStreetMap: {
+                type: "relation",
+                id: 2851649
+            }
         }
     },
     {
         officialName: {
             crs: "Repiblik Sesel",
-            en: "Republic of Seychelles",
-            fr: "République des Seychelles"
+            eng: "Republic of Seychelles",
+            fra: "République des Seychelles"
         },
         alpha2: "SC",
         alpha3: "SYC",
@@ -9703,12 +17282,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                la: "Finis Coronat Opus"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        lat: "Finis Coronat Opus"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -9717,9 +17303,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+248"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".sc",
@@ -9727,7 +17314,26 @@ export const countries = [
         timeZones: [
             "Indian/Mahe"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "crs",
+                    "eng",
+                    "fra"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-SC",
@@ -9735,13 +17341,18 @@ export const countries = [
             "fr-SC"
         ],
         otherAppsIds: {
-            geoNamesOrg: 241170
+            geoNamesOrg: 241170,
+            wikidata: "Q1042",
+            openStreetMap: {
+                type: "relation",
+                id: 536765
+            }
         }
     },
     {
         officialName: {
-            ar: "جمهورية السودان",
-            en: "Republic of the Sudan"
+            ara: "جمهورية السودان",
+            eng: "Republic of the Sudan"
         },
         alpha2: "SD",
         alpha3: "SDN",
@@ -9752,12 +17363,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                ar: "النصر لنا"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        ara: "النصر لنا"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -9766,9 +17384,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+249"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".sd",
@@ -9776,7 +17395,35 @@ export const countries = [
         timeZones: [
             "Africa/Khartoum"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "ara",
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "fvr",
+                "gez",
+                "bej"
+            ],
+            localCommunities: [
+                "fia",
+                "shk",
+                "jaa",
+                "rej",
+                "mmd"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "ar",
             "ar-SD",
@@ -9784,12 +17431,17 @@ export const countries = [
             "en-SD"
         ],
         otherAppsIds: {
-            geoNamesOrg: 366755
+            geoNamesOrg: 366755,
+            wikidata: "Q1049",
+            openStreetMap: {
+                type: "relation",
+                id: 192789
+            }
         }
     },
     {
         officialName: {
-            sv: "Konungariket Sverige"
+            swe: "Konungariket Sverige"
         },
         alpha2: "SE",
         alpha3: "SWE",
@@ -9800,12 +17452,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                sv: "För Sverige - i tiden"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        swe: "För Sverige - i tiden"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -9814,9 +17473,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+46"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".se",
@@ -9824,7 +17484,42 @@ export const countries = [
         timeZones: [
             "Europe/Stockholm"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "swe"
+                ],
+                deFacto: []
+            },
+            regional: [
+                "sme",
+                "sma",
+                "sju"
+            ],
+            widelySpoken: [
+                "fit"
+            ],
+            localCommunities: [
+                "fiq",
+                "rmf"
+            ],
+            extraTerritorialCommunities: [
+                "ara",
+                "pes",
+                "kur",
+                "som",
+                "tir",
+                "amh"
+            ],
+            signs: {
+                official: [],
+                recognized: [
+                    "swl"
+                ],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-SE",
@@ -9834,15 +17529,20 @@ export const countries = [
             "sv-SE"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2661886
+            geoNamesOrg: 2661886,
+            wikidata: "Q34",
+            openStreetMap: {
+                type: "relation",
+                id: 52822
+            }
         }
     },
     {
         officialName: {
-            ms: "Republik Singapura",
-            en: "Republic of Singapore",
-            zh: "新加坡共和国",
-            ta: "சிங்கப்பூர் குடியரசு"
+            msa: "Republik Singapura",
+            eng: "Republic of Singapore",
+            "cmn-Hans": "新加坡共和国",
+            tam: "சிங்கப்பூர் குடியரசு"
         },
         alpha2: "SG",
         alpha3: "SGP",
@@ -9853,12 +17553,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                ms: "Majulah Singapura"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        msa: "Majulah Singapura"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -9867,9 +17574,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+65"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".sg",
@@ -9895,7 +17603,36 @@ export const countries = [
         timeZones: [
             "Asia/Singapore"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "msa",
+                    "eng",
+                    "cmn",
+                    "tam"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "min",
+                "mal",
+                "bjn"
+            ],
+            extraTerritorialCommunities: [
+                "ben",
+                "urd",
+                "tel",
+                "hin"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-SG",
@@ -9904,15 +17641,22 @@ export const countries = [
             "ta",
             "ta-SG",
             "zh",
-            "zh-SG"
+            "zh-SG",
+            "zh-Hans",
+            "zh-Hans-SG"
         ],
         otherAppsIds: {
-            geoNamesOrg: 1880251
+            geoNamesOrg: 1880251,
+            wikidata: "Q334",
+            openStreetMap: {
+                type: "relation",
+                id: 536780
+            }
         }
     },
     {
         officialName: {
-            en: "Saint Helena, Ascension and Tristan da Cunha"
+            eng: "Saint Helena, Ascension and Tristan da Cunha"
         },
         alpha2: "SH",
         alpha3: "SHN",
@@ -9923,12 +17667,19 @@ export const countries = [
         },
         dependency: "GB",
         mottos: {
-            official: {
-                en: "Loyal and Unshakeable"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        eng: "Loyal and Unshakeable"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -9937,9 +17688,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+290"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".sh",
@@ -9947,18 +17699,40 @@ export const countries = [
         timeZones: [
             "Atlantic/St_Helena"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-SH"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3370751
+            geoNamesOrg: 3370751,
+            wikidata: "Q192184",
+            openStreetMap: {
+                type: "relation",
+                id: 1964272
+            }
         }
     },
     {
         officialName: {
-            sl: "Republika Slovenija"
+            slv: "Republika Slovenija"
         },
         alpha2: "SI",
         alpha3: "SVN",
@@ -9969,10 +17743,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -9981,9 +17758,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+386"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".si",
@@ -9991,7 +17769,33 @@ export const countries = [
         timeZones: [
             "Europe/Ljubljana"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "slv"
+                ],
+                deFacto: []
+            },
+            regional: [
+                "ita",
+                "hun"
+            ],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [
+                "bos",
+                "srp",
+                "hrv"
+            ],
+            signs: {
+                official: [
+                    "jhs"
+                ],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-SI",
@@ -9999,12 +17803,17 @@ export const countries = [
             "sl-SI"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3190538
+            geoNamesOrg: 3190538,
+            wikidata: "Q215",
+            openStreetMap: {
+                type: "relation",
+                id: 218657
+            }
         }
     },
     {
         officialName: {
-            no: "Svalbard og Jan Mayen"
+            nor: "Svalbard og Jan Mayen"
         },
         alpha2: "SJ",
         alpha3: "SJM",
@@ -10015,12 +17824,19 @@ export const countries = [
         },
         dependency: "NO",
         mottos: {
-            official: {
-                no: "Alt for Norge"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        nor: "Alt for Norge"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -10029,7 +17845,8 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [],
+            deFacto: [
                 "+47"
             ],
             exceptions: []
@@ -10040,18 +17857,42 @@ export const countries = [
             "Arctic/Longyearbyen",
             "Atlantic/Jan_Mayen"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "nor"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "rus"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "nb",
             "nb-SJ"
         ],
         otherAppsIds: {
-            geoNamesOrg: 607072
+            geoNamesOrg: 607072,
+            wikidata: "Q104235",
+            openStreetMap: {
+                type: "relation",
+                id: 1229689
+            }
         }
     },
     {
         officialName: {
-            sk: "Slovenská Republika"
+            slk: "Slovenská Republika"
         },
         alpha2: "SK",
         alpha3: "SVK",
@@ -10062,10 +17903,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -10074,9 +17918,8 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
-                "+421"
-            ],
+            deJure: [],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".sk",
@@ -10084,19 +17927,54 @@ export const countries = [
         timeZones: [
             "Europe/Bratislava"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "slk"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "ces",
+                "hun"
+            ],
+            localCommunities: [
+                "ukr",
+                "rue",
+                "deu",
+                "rmc"
+            ],
+            extraTerritorialCommunities: [
+                "srp",
+                "bos",
+                "hrv"
+            ],
+            signs: {
+                official: [
+                    "svk"
+                ],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "sk",
             "sk-SK"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3057568
+            geoNamesOrg: 3057568,
+            wikidata: "Q214",
+            openStreetMap: {
+                type: "relation",
+                id: 14296
+            }
         }
     },
     {
         officialName: {
-            en: "Republic of Sierra Leone",
-            kri: "Republic of Sierra Leone"
+            eng: "Republic of Sierra Leone"
         },
         alpha2: "SL",
         alpha3: "SLE",
@@ -10107,13 +17985,20 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                en: "Unity, Freedom, Justice",
-                kri: "Unity, Freedom, Justice"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        eng: "Unity, Freedom, Justice",
+                        kri: "Unity, Freedom, Justice"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -10122,9 +18007,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+232"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".sl",
@@ -10132,18 +18018,48 @@ export const countries = [
         timeZones: [
             "Africa/Freetown"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "kri",
+                "men",
+                "tem"
+            ],
+            localCommunities: [
+                "lif",
+                "kor",
+                "sus"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-SL"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2403846
+            geoNamesOrg: 2403846,
+            wikidata: "Q1044",
+            openStreetMap: {
+                type: "relation",
+                id: 192781
+            }
         }
     },
     {
         officialName: {
-            it: "Repubblica di San Marino"
+            ita: "Repubblica di San Marino"
         },
         alpha2: "SM",
         alpha3: "SMR",
@@ -10154,12 +18070,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                la: "Libertas"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        lat: "Libertas"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -10168,9 +18091,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+378"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".sm",
@@ -10178,19 +18102,42 @@ export const countries = [
         timeZones: [
             "Europe/San_Marino"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "ita"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "rgn"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "it",
             "it-SM"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3168068
+            geoNamesOrg: 3168068,
+            wikidata: "Q238",
+            openStreetMap: {
+                type: "relation",
+                id: 53636
+            }
         }
     },
     {
         officialName: {
-            fr: "République du Sénégal",
-            wo: "Réewum Senegaal"
+            fra: "République du Sénégal"
         },
         alpha2: "SN",
         alpha3: "SEN",
@@ -10201,12 +18148,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                fr: "Un Peuple, Un But, Une Foi"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        fra: "Un Peuple, Un But, Une Foi"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -10215,9 +18169,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+221"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".sn",
@@ -10225,7 +18180,32 @@ export const countries = [
         timeZones: [
             "Africa/Dakar"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "fra"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "wol",
+                "fuc",
+                "srr",
+                "dyo"
+            ],
+            localCommunities: [
+                "mnk",
+                "snk"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "ff",
             "ff-SN",
@@ -10235,13 +18215,18 @@ export const countries = [
             "wo-SN"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2245662
+            geoNamesOrg: 2245662,
+            wikidata: "Q1041",
+            openStreetMap: {
+                type: "relation",
+                id: 192785
+            }
         }
     },
     {
         officialName: {
-            so: "Jamhuuriyadda Federaalka Soomaaliya",
-            ar: "جمهورية الصومال الفدرالية"
+            som: "Jamhuuriyadda Federaalka Soomaaliya",
+            ara: "جمهورية الصومال الفدرالية"
         },
         alpha2: "SO",
         alpha3: "SOM",
@@ -10252,10 +18237,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -10264,9 +18252,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+252"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".so",
@@ -10274,18 +18263,44 @@ export const countries = [
         timeZones: [
             "Africa/Mogadishu"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "som",
+                    "ara"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "ita",
+                "eng"
+            ],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "ar",
             "ar-SO"
         ],
         otherAppsIds: {
-            geoNamesOrg: 51537
+            geoNamesOrg: 51537,
+            wikidata: "Q1045",
+            openStreetMap: {
+                type: "relation",
+                id: 192799
+            }
         }
     },
     {
         officialName: {
-            nl: "Republiek Suriname"
+            nld: "Republiek Suriname"
         },
         alpha2: "SR",
         alpha3: "SUR",
@@ -10296,12 +18311,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                la: "Justitia – Pietas – Fides"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        lat: "Justitia – Pietas – Fides"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -10310,37 +18332,60 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+597"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".sr",
-        ccIdn: [
-            {
-                unicode: ".срб",
-                punycode: ".xn--90a3ac",
-                language: "sr",
-                regionsOfUse: [
-                    "RS"
-                ]
-            }
-        ],
+        ccIdn: [],
         timeZones: [
             "America/Paramaribo"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "nld"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "srn",
+                "hns",
+                "jav"
+            ],
+            localCommunities: [
+                "srm",
+                "djk",
+                "way",
+                "tri"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "nl",
             "nl-SR"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3382998
+            geoNamesOrg: 3382998,
+            wikidata: "Q730",
+            openStreetMap: {
+                type: "relation",
+                id: 287082
+            }
         }
     },
     {
         officialName: {
-            en: "Republic of South Sudan"
+            eng: "Republic of South Sudan"
         },
         alpha2: "SS",
         alpha3: "SSD",
@@ -10351,12 +18396,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                en: "Justice, Liberty, Prosperity"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        eng: "Justice, Liberty, Prosperity"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -10365,17 +18417,43 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+211"
             ],
+            deFacto: [],
             exceptions: []
         },
-        ccTld: null,
+        ccTld: ".ss",
         ccIdn: [],
         timeZones: [
             "Africa/Juba"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "din",
+                "nus",
+                "bfa"
+            ],
+            localCommunities: [
+                "zne",
+                "shk",
+                "toq"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "ar",
             "ar-SS",
@@ -10383,12 +18461,17 @@ export const countries = [
             "en-SS"
         ],
         otherAppsIds: {
-            geoNamesOrg: 7909807
+            geoNamesOrg: 7909807,
+            wikidata: "Q958",
+            openStreetMap: {
+                type: "relation",
+                id: 54094
+            }
         }
     },
     {
         officialName: {
-            pt: "República Democrática de São Tomé e Príncipe"
+            por: "República Democrática de São Tomé e Príncipe"
         },
         alpha2: "ST",
         alpha3: "STP",
@@ -10399,12 +18482,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                pt: "Unidade, Disciplina, Trabalho"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        por: "Unidade, Disciplina, Trabalho"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -10413,9 +18503,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+239"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".st",
@@ -10423,18 +18514,45 @@ export const countries = [
         timeZones: [
             "Africa/Sao_Tome"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "por"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "for"
+            ],
+            localCommunities: [
+                "aoa",
+                "pre"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "pt",
             "pt-ST"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2410758
+            geoNamesOrg: 2410758,
+            wikidata: "Q1039",
+            openStreetMap: {
+                type: "relation",
+                id: 192793
+            }
         }
     },
     {
         officialName: {
-            es: "República de El Salvador"
+            spa: "República de El Salvador"
         },
         alpha2: "SV",
         alpha3: "SLV",
@@ -10445,12 +18563,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                es: "Dios, Union y Libertad"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        spa: "Dios, Union y Libertad"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -10459,9 +18584,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+503"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".sv",
@@ -10469,18 +18595,44 @@ export const countries = [
         timeZones: [
             "America/El_Salvador"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "spa"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "ppl"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "esn"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "es",
             "es-SV"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3585968
+            geoNamesOrg: 3585968,
+            wikidata: "Q792",
+            openStreetMap: {
+                type: "relation",
+                id: 1520612
+            }
         }
     },
     {
         officialName: {
-            nl: "Sint Maarten"
+            nld: "Sint Maarten"
         },
         alpha2: "SX",
         alpha3: "SXM",
@@ -10491,14 +18643,25 @@ export const countries = [
         },
         dependency: "NL",
         mottos: {
-            official: {
-                la: "Semper progrediens"
-            },
-            popular: {},
-            royal: {
-                fr: "Je maintiendrai"
-            },
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        lat: "Semper progrediens"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [
+                {
+                    text: {
+                        fra: "Je maintiendrai"
+                    }
+                }
+            ],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -10507,9 +18670,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+1721"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".sx",
@@ -10517,7 +18681,28 @@ export const countries = [
         timeZones: [
             "America/Lower_Princes"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "nld"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "eng"
+            ],
+            localCommunities: [
+                "pap"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-SX",
@@ -10525,12 +18710,17 @@ export const countries = [
             "nl-SX"
         ],
         otherAppsIds: {
-            geoNamesOrg: 7609695
+            geoNamesOrg: 7609695,
+            wikidata: "Q26273",
+            openStreetMap: {
+                type: "relation",
+                id: 85036
+            }
         }
     },
     {
         officialName: {
-            ar: "الجمهوريّة العربيّة السّوريّة"
+            ara: "الجمهوريّة العربيّة السّوريّة"
         },
         alpha2: "SY",
         alpha3: "SYR",
@@ -10541,12 +18731,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                ar: "وَحْدَةٌ ، حُرِّيَّةٌ ، اِشْتِرَاكِيَّةٌ"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        ara: "وَحْدَةٌ ، حُرِّيَّةٌ ، اِشْتِرَاكِيَّةٌ"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -10555,9 +18752,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+963"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".sy",
@@ -10574,7 +18772,29 @@ export const countries = [
         timeZones: [
             "Asia/Damascus"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "ara"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "kur",
+                "hye",
+                "tuk",
+                "aii"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "ar",
             "ar-SY",
@@ -10582,13 +18802,18 @@ export const countries = [
             "fr-SY"
         ],
         otherAppsIds: {
-            geoNamesOrg: 163843
+            geoNamesOrg: 163843,
+            wikidata: "Q858",
+            openStreetMap: {
+                type: "relation",
+                id: 184840
+            }
         }
     },
     {
         officialName: {
-            ss: "Umbuso weSwatini",
-            en: "Kingdom of eSwatini"
+            ssw: "Umbuso weSwatini",
+            eng: "Kingdom of eSwatini"
         },
         alpha2: "SZ",
         alpha3: "SWZ",
@@ -10599,12 +18824,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                ss: "Siyinqaba"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        ssw: "Siyinqaba"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -10613,9 +18845,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+268"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".sz",
@@ -10623,18 +18856,43 @@ export const countries = [
         timeZones: [
             "Africa/Mbabane"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "ssw",
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "zul"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-SZ"
         ],
         otherAppsIds: {
-            geoNamesOrg: 934841
+            geoNamesOrg: 934841,
+            wikidata: "Q1050",
+            openStreetMap: {
+                type: "relation",
+                id: 88210
+            }
         }
     },
     {
         officialName: {
-            en: "Turks and Caicos"
+            eng: "Turks and Caicos Islands"
         },
         alpha2: "TC",
         alpha3: "TCA",
@@ -10645,12 +18903,19 @@ export const countries = [
         },
         dependency: "GB",
         mottos: {
-            official: {
-                en: "One people, one nation, one destiny"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        eng: "One people, one nation, one destiny"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -10659,9 +18924,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+1649"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".tc",
@@ -10669,19 +18935,41 @@ export const countries = [
         timeZones: [
             "America/Grand_Turk"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-TC"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3576916
+            geoNamesOrg: 3576916,
+            wikidata: "Q18221",
+            openStreetMap: {
+                type: "relation",
+                id: 547469
+            }
         }
     },
     {
         officialName: {
-            ar: "جمهورية تشاد",
-            fr: "République du Tchad"
+            ara: "جمهورية تشاد",
+            fra: "République du Tchad"
         },
         alpha2: "TD",
         alpha3: "TCD",
@@ -10692,13 +18980,20 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                ar: "الاتحاد، العمل، التقدم",
-                fr: "Unité, Travail, Progrès"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        ara: "الاتحاد، العمل، التقدم",
+                        fra: "Unité, Travail, Progrès"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -10707,9 +19002,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+235"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".td",
@@ -10717,7 +19013,35 @@ export const countries = [
         timeZones: [
             "Africa/Ndjamena"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "ara",
+                    "fra"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "sre"
+            ],
+            localCommunities: [
+                "kbl",
+                "mde",
+                "tma",
+                "dzg"
+            ],
+            extraTerritorialCommunities: [
+                "hau",
+                "ful"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "ar",
             "ar-TD",
@@ -10725,12 +19049,17 @@ export const countries = [
             "fr-TD"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2434508
+            geoNamesOrg: 2434508,
+            wikidata: "Q657",
+            openStreetMap: {
+                type: "relation",
+                id: 192789
+            }
         }
     },
     {
         officialName: {
-            fr: "Territoire des Terres australes et antarctiques françaises"
+            fra: "Territoire des Terres australes et antarctiques françaises"
         },
         alpha2: "TF",
         alpha3: "ATF",
@@ -10741,12 +19070,19 @@ export const countries = [
         },
         dependency: "FR",
         mottos: {
-            official: {
-                fr: "Liberté, égalité, fraternité"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        fra: "Liberté, égalité, fraternité"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -10755,9 +19091,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+262"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".tf",
@@ -10765,7 +19102,24 @@ export const countries = [
         timeZones: [
             "Indian/Kerguelen"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "fra"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "br",
             "br-FR",
@@ -10775,12 +19129,17 @@ export const countries = [
             "fr-FR"
         ],
         otherAppsIds: {
-            geoNamesOrg: 1546748
+            geoNamesOrg: 1546748,
+            wikidata: "Q129003",
+            openStreetMap: {
+                type: "relation",
+                id: 1269755
+            }
         }
     },
     {
         officialName: {
-            fr: "République Togolaise"
+            fra: "République Togolaise"
         },
         alpha2: "TG",
         alpha3: "TGO",
@@ -10791,12 +19150,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                fr: "Travail, Liberté, Patrie"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        fra: "Travail, Liberté, Patrie"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -10805,9 +19171,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+228"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".tg",
@@ -10815,7 +19182,31 @@ export const countries = [
         timeZones: [
             "Africa/Lome"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "fra"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "ewe",
+                "kbp"
+            ],
+            localCommunities: [
+                "ifb",
+                "kdh",
+                "kpo"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "ee",
             "ee-TG",
@@ -10823,12 +19214,17 @@ export const countries = [
             "fr-TG"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2363686
+            geoNamesOrg: 2363686,
+            wikidata: "Q945",
+            openStreetMap: {
+                type: "relation",
+                id: 192784
+            }
         }
     },
     {
         officialName: {
-            th: "Ratcha Anachak Thai"
+            tha: "Ratcha Anachak Thai"
         },
         alpha2: "TH",
         alpha3: "THA",
@@ -10839,12 +19235,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                th: "ชาติ ศาสนา พระมหากษัตริย์"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        tha: "ชาติ ศาสนา พระมหากษัตริย์"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -10853,9 +19256,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+66"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".th",
@@ -10872,18 +19276,51 @@ export const countries = [
         timeZones: [
             "Asia/Bangkok"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "tha"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "tts",
+                "nod",
+                "sou"
+            ],
+            localCommunities: [
+                "ksw",
+                "kjp",
+                "kxm",
+                "hmn"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "tsq"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "th",
             "th-TH"
         ],
         otherAppsIds: {
-            geoNamesOrg: 1605651
+            geoNamesOrg: 1605651,
+            wikidata: "Q869",
+            openStreetMap: {
+                type: "relation",
+                id: 2067731
+            }
         }
     },
     {
         officialName: {
-            tg: "Ҷумҳурии Тоҷикистон"
+            tgk: "Ҷумҳурии Тоҷикистон"
         },
         alpha2: "TJ",
         alpha3: "TJK",
@@ -10894,12 +19331,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                tg: "Истиқлол, Озодӣ, Ватан"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        tgk: "Истиқлол, Озодӣ, Ватан"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -10908,9 +19352,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+992"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".tj",
@@ -10918,15 +19363,46 @@ export const countries = [
         timeZones: [
             "Asia/Dushanbe"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "tgk"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "rus",
+                "uzb"
+            ],
+            localCommunities: [
+                "kir",
+                "tuk"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "rsl"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [],
         otherAppsIds: {
-            geoNamesOrg: 1220409
+            geoNamesOrg: 1220409,
+            wikidata: "Q863",
+            openStreetMap: {
+                type: "relation",
+                id: 214626
+            }
         }
     },
     {
         officialName: {
-            en: "Tokelau"
+            eng: "Tokelau",
+            tkl: "Tokelau"
         },
         alpha2: "TK",
         alpha3: "TKL",
@@ -10937,12 +19413,19 @@ export const countries = [
         },
         dependency: "NZ",
         mottos: {
-            official: {
-                tkl: "Tokelau Mo Te Atua"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        tkl: "Tokelau Mo Te Atua"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -10951,9 +19434,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+690"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".tk",
@@ -10961,19 +19445,44 @@ export const countries = [
         timeZones: [
             "Pacific/Fakaofo"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "tkl",
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "smo"
+            ],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-TK"
         ],
         otherAppsIds: {
-            geoNamesOrg: 4031074
+            geoNamesOrg: 4031074,
+            wikidata: "Q33707",
+            openStreetMap: {
+                type: "relation",
+                id: 2186648
+            }
         }
     },
     {
         officialName: {
             tet: "Repúblika Demokrátika Timór Lorosa'e",
-            pt: "República Democrática de Timor-Leste"
+            por: "República Democrática de Timor-Leste"
         },
         alpha2: "TL",
         alpha3: "TLS",
@@ -10984,12 +19493,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                pt: "Unidade, Acção, Progresso"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        por: "Unidade, Acção, Progresso"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -10998,9 +19514,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+670"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".tl",
@@ -11008,18 +19525,49 @@ export const countries = [
         timeZones: [
             "Asia/Dili"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "tet",
+                    "por"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "mav",
+                "mkz"
+            ],
+            localCommunities: [
+                "ddg",
+                "bfn",
+                "kem",
+                "gal"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "pt",
             "pt-TL"
         ],
         otherAppsIds: {
-            geoNamesOrg: 1966436
+            geoNamesOrg: 1966436,
+            wikidata: "Q574",
+            openStreetMap: {
+                type: "relation",
+                id: 1221918
+            }
         }
     },
     {
         officialName: {
-            tk: "Türkmenistan Respublikasy"
+            tuk: "Türkmenistan Respublikasy"
         },
         alpha2: "TM",
         alpha3: "TKM",
@@ -11030,12 +19578,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                tk: "Türkmenistan Bitaraplygyň watanydyr"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        tuk: "Türkmenistan Bitaraplygyň watanydyr"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -11044,9 +19599,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+993"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".tm",
@@ -11055,18 +19611,47 @@ export const countries = [
             "Asia/Ashgabat",
             "Asia/Ashkhabad"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "tuk"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "rus",
+                "uzb"
+            ],
+            localCommunities: [
+                "kaz",
+                "aze",
+                "hye"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "tk",
             "tk-TM"
         ],
         otherAppsIds: {
-            geoNamesOrg: 1218197
+            geoNamesOrg: 1218197,
+            wikidata: "Q874",
+            openStreetMap: {
+                type: "relation",
+                id: 223026
+            }
         }
     },
     {
         officialName: {
-            ar: "الجمهورية التونسية"
+            ara: "الجمهورية التونسية"
         },
         alpha2: "TN",
         alpha3: "TUN",
@@ -11077,12 +19662,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                ar: "حرية، نظام، عدالة"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        ara: "حرية، نظام، عدالة"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -11091,9 +19683,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+216"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".tn",
@@ -11101,7 +19694,28 @@ export const countries = [
         timeZones: [
             "Africa/Tunis"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "ara"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "fra"
+            ],
+            localCommunities: [
+                "aeb"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "ar",
             "ar-TN",
@@ -11109,13 +19723,18 @@ export const countries = [
             "fr-TN"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2464461
+            geoNamesOrg: 2464461,
+            wikidata: "Q948",
+            openStreetMap: {
+                type: "relation",
+                id: 192757
+            }
         }
     },
     {
         officialName: {
-            to: "Pule'anga Fakatu'i 'o Tonga",
-            en: "Kingdom of Tonga"
+            ton: "Pule'anga Fakatu'i 'o Tonga",
+            eng: "Kingdom of Tonga"
         },
         alpha2: "TO",
         alpha3: "TON",
@@ -11126,13 +19745,20 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                to: "Ko e Otua mo Tonga ko hoku tofi'a",
-                en: "God and Tonga are my heritage"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        ton: "Ko e Otua mo Tonga ko hoku tofi'a",
+                        eng: "God and Tonga are my heritage"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -11141,9 +19767,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+676"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".to",
@@ -11151,7 +19778,25 @@ export const countries = [
         timeZones: [
             "Pacific/Tongatapu"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "ton",
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-TO",
@@ -11159,12 +19804,17 @@ export const countries = [
             "to-TO"
         ],
         otherAppsIds: {
-            geoNamesOrg: 4032283
+            geoNamesOrg: 4032283,
+            wikidata: "Q678",
+            openStreetMap: {
+                type: "relation",
+                id: 2186658
+            }
         }
     },
     {
         officialName: {
-            tr: "Türkiye Cumhuriyeti"
+            tur: "Türkiye Cumhuriyeti"
         },
         alpha2: "TR",
         alpha3: "TUR",
@@ -11175,12 +19825,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                tr: "Yurtta sulh, cihanda sulh"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        tur: "Yurtta sulh, cihanda sulh"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -11189,18 +19846,54 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+90"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".tr",
         ccIdn: [],
         timeZones: [
-            "Europe/Istanbul",
-            "Asia/Istanbul"
+            "Europe/Istanbul"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "tur"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "kmr",
+                "ckb"
+            ],
+            localCommunities: [
+                "hye",
+                "ara",
+                "lzz",
+                "zza"
+            ],
+            extraTerritorialCommunities: [
+                "apc",
+                "fas",
+                "pus",
+                "rus",
+                "azb",
+                "tuk",
+                "uzb",
+                "kaz"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "tsm"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "ku",
             "ku-TR",
@@ -11208,12 +19901,17 @@ export const countries = [
             "tr-TR"
         ],
         otherAppsIds: {
-            geoNamesOrg: 298795
+            geoNamesOrg: 298795,
+            wikidata: "Q43",
+            openStreetMap: {
+                type: "relation",
+                id: 174737
+            }
         }
     },
     {
         officialName: {
-            en: "Republic of Trinidad and Tobago"
+            eng: "Republic of Trinidad and Tobago"
         },
         alpha2: "TT",
         alpha3: "TTO",
@@ -11224,12 +19922,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                en: "Together We Aspire, Together We Achieve"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        eng: "Together We Aspire, Together We Achieve"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -11238,9 +19943,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+1868"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".tt",
@@ -11248,19 +19954,48 @@ export const countries = [
         timeZones: [
             "America/Port_of_Spain"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "bho",
+                "spa"
+            ],
+            extraTerritorialCommunities: [
+                "hin",
+                "urd",
+                "zhd"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-TT"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3573591
+            geoNamesOrg: 3573591,
+            wikidata: "Q754",
+            openStreetMap: {
+                type: "relation",
+                id: 555717
+            }
         }
     },
     {
         officialName: {
             tuv: "Tuvalu",
-            en: "Tuvalu"
+            eng: "Tuvalu"
         },
         alpha2: "TV",
         alpha3: "TUV",
@@ -11271,13 +20006,20 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                tuv: "Tuvalu mo te Atua",
-                en: "Tuvalu for the Almighty"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        tuv: "Tuvalu mo te Atua",
+                        eng: "Tuvalu for the Almighty"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -11286,9 +20028,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+688"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".tv",
@@ -11296,18 +20039,44 @@ export const countries = [
         timeZones: [
             "Pacific/Funafuti"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "tuv",
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "gil"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-TV"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2110297
+            geoNamesOrg: 2110297,
+            wikidata: "Q672",
+            openStreetMap: {
+                type: "relation",
+                id: 2177266
+            }
         }
     },
     {
         officialName: {
-            zh: "中華民國"
+            "cmn-Hans": "中华人民共和国台湾省",
+            "cmn-Hant": "中華民國"
         },
         alpha2: "TW",
         alpha3: "TWN",
@@ -11318,10 +20087,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -11330,9 +20102,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+886"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".tw",
@@ -11357,19 +20130,58 @@ export const countries = [
         timeZones: [
             "Asia/Taipei"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "cmn"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "nan",
+                "hak"
+            ],
+            localCommunities: [
+                "ami",
+                "pwn",
+                "bnn",
+                "tay",
+                "tsu",
+                "ckv"
+            ],
+            extraTerritorialCommunities: [
+                "vie",
+                "ind",
+                "eng",
+                "fil"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "tss"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "zh",
             "zh-TW"
         ],
         otherAppsIds: {
-            geoNamesOrg: 1668284
+            geoNamesOrg: 1668284,
+            wikidata: "Q865",
+            openStreetMap: {
+                type: "relation",
+                id: 449220
+            }
         }
     },
     {
         officialName: {
-            sw: "Jamhuri ya Muungano wa Tanzania",
-            en: "United Republic of Tanzania"
+            swa: "Jamhuri ya Muungano wa Tanzania",
+            eng: "United Republic of Tanzania"
         },
         alpha2: "TZ",
         alpha3: "TZA",
@@ -11380,10 +20192,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -11392,17 +20207,60 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+255"
             ],
-            exceptions: []
+            deFacto: [],
+            exceptions: [
+                {
+                    code: "007",
+                    origin: "UG"
+                },
+                {
+                    code: "007",
+                    origin: "KE"
+                }
+            ]
         },
         ccTld: ".tz",
         ccIdn: [],
         timeZones: [
             "Africa/Dar_es_Salaam"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "swa",
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "suk",
+                "nym",
+                "chj"
+            ],
+            localCommunities: [
+                "mas",
+                "irk",
+                "hts"
+            ],
+            extraTerritorialCommunities: [
+                "guj",
+                "urd",
+                "hin",
+                "ara"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "tza"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-TZ",
@@ -11410,12 +20268,17 @@ export const countries = [
             "sw-TZ"
         ],
         otherAppsIds: {
-            geoNamesOrg: 149590
+            geoNamesOrg: 149590,
+            wikidata: "Q924",
+            openStreetMap: {
+                type: "relation",
+                id: 195270
+            }
         }
     },
     {
         officialName: {
-            uk: "Україна"
+            ukr: "Україна"
         },
         alpha2: "UA",
         alpha3: "UKR",
@@ -11426,10 +20289,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -11438,9 +20304,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+380"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".ua",
@@ -11459,7 +20326,38 @@ export const countries = [
             "Europe/Uzhgorod",
             "Europe/Zaporozhye"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "ukr"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "rus"
+            ],
+            localCommunities: [
+                "crh",
+                "ron",
+                "hun",
+                "pol"
+            ],
+            extraTerritorialCommunities: [
+                "arm",
+                "aze",
+                "heb",
+                "tat"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "ukl"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "ru",
             "ru-UA",
@@ -11467,13 +20365,18 @@ export const countries = [
             "uk-UA"
         ],
         otherAppsIds: {
-            geoNamesOrg: 690791
+            geoNamesOrg: 690791,
+            wikidata: "Q212",
+            openStreetMap: {
+                type: "relation",
+                id: 60199
+            }
         }
     },
     {
         officialName: {
-            sw: "Jamhuri ya Uganda",
-            en: "Republic of Uganda"
+            swa: "Jamhuri ya Uganda",
+            eng: "Republic of Uganda"
         },
         alpha2: "UG",
         alpha3: "UGA",
@@ -11484,12 +20387,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                en: "For God and My Country"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        eng: "For God and My Country"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -11498,17 +20408,59 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+256"
             ],
-            exceptions: []
+            deFacto: [],
+            exceptions: [
+                {
+                    code: "006",
+                    origin: "TZ"
+                },
+                {
+                    code: "006",
+                    origin: "KE"
+                }
+            ]
         },
         ccTld: ".ug",
         ccIdn: [],
         timeZones: [
             "Africa/Kampala"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng",
+                    "swa"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "lug",
+                "nyn",
+                "teo"
+            ],
+            localCommunities: [
+                "ach",
+                "laj"
+            ],
+            extraTerritorialCommunities: [
+                "som",
+                "hin",
+                "urd",
+                "ara"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "ugn"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-UG",
@@ -11516,12 +20468,17 @@ export const countries = [
             "sw-UG"
         ],
         otherAppsIds: {
-            geoNamesOrg: 226074
+            geoNamesOrg: 226074,
+            wikidata: "Q1036",
+            openStreetMap: {
+                type: "relation",
+                id: 192796
+            }
         }
     },
     {
         officialName: {
-            en: "United States Minor Outlying Islands"
+            eng: "United States Minor Outlying Islands"
         },
         alpha2: "UM",
         alpha3: "UMI",
@@ -11532,14 +20489,25 @@ export const countries = [
         },
         dependency: "US",
         mottos: {
-            official: {
-                en: "In God We Trust"
-            },
-            popular: {},
-            royal: {},
-            presidential: {
-                la: "E pluribus unum"
-            }
+            official: [
+                {
+                    text: {
+                        eng: "In God We Trust"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [
+                {
+                    text: {
+                        lat: "E pluribus unum"
+                    }
+                }
+            ],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -11548,9 +20516,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+1"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".um",
@@ -11560,18 +20529,40 @@ export const countries = [
             "Pacific/Wake",
             "Pacific/Johnston"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [],
+                deFacto: [
+                    "eng"
+                ]
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-UM"
         ],
         otherAppsIds: {
-            geoNamesOrg: 5854968
+            geoNamesOrg: 5854968,
+            wikidata: "Q16644",
+            openStreetMap: {
+                type: "relation",
+                id: 306001
+            }
         }
     },
     {
         officialName: {
-            en: "United States of America"
+            eng: "United States of America"
         },
         alpha2: "US",
         alpha3: "USA",
@@ -11582,14 +20573,25 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                en: "In God We Trust"
-            },
-            popular: {},
-            royal: {},
-            presidential: {
-                la: "E pluribus unum"
-            }
+            official: [
+                {
+                    text: {
+                        eng: "In God We Trust"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [
+                {
+                    text: {
+                        lat: "E pluribus unum"
+                    }
+                }
+            ],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -11598,9 +20600,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+1"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".us",
@@ -11634,28 +20637,49 @@ export const countries = [
             "America/Phoenix",
             "America/Sitka",
             "America/Yakutat",
-            "Pacific/Honolulu",
-            "America/Atka",
-            "America/Fort_Wayne",
-            "America/Indianapolis",
-            "America/Knox_IN",
-            "America/Louisville",
-            "America/Shiprock",
-            "America/Virgin",
-            "US/Alaska",
-            "US/Aleutian",
-            "US/Arizona",
-            "US/Central",
-            "US/East-Indiana",
-            "US/Eastern",
-            "US/Hawaii",
-            "US/Indiana-Starke",
-            "US/Michigan",
-            "US/Mountain",
-            "US/Pacific",
-            "US/Samoa"
+            "Pacific/Honolulu"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [],
+                deFacto: [
+                    "eng"
+                ]
+            },
+            regional: [],
+            widelySpoken: [
+                "spa",
+                "cmn",
+                "yue",
+                "tgl",
+                "vie"
+            ],
+            localCommunities: [
+                "nav",
+                "dak",
+                "chr",
+                "esu"
+            ],
+            extraTerritorialCommunities: [
+                "ara",
+                "hin",
+                "ben",
+                "kor",
+                "rus",
+                "fra",
+                "deu",
+                "it",
+                "pt"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "ase"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "chr",
             "chr-US",
@@ -11669,12 +20693,17 @@ export const countries = [
             "lkt-US"
         ],
         otherAppsIds: {
-            geoNamesOrg: 6252001
+            geoNamesOrg: 6252001,
+            wikidata: "Q30",
+            openStreetMap: {
+                type: "relation",
+                id: 148838
+            }
         }
     },
     {
         officialName: {
-            es: "República Oriental del Uruguay"
+            spa: "República Oriental del Uruguay"
         },
         alpha2: "UY",
         alpha3: "URY",
@@ -11685,12 +20714,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                es: "Libertad o Muerte"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        spa: "Libertad o Muerte"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -11699,9 +20735,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+598"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".uy",
@@ -11709,19 +20746,45 @@ export const countries = [
         timeZones: [
             "America/Montevideo"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "spa"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "por"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "uls"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "es",
             "es-UY"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3439705
+            geoNamesOrg: 3439705,
+            wikidata: "Q77",
+            openStreetMap: {
+                type: "relation",
+                id: 287827
+            }
         }
     },
     {
         officialName: {
-            "uz-Latn": "Uzbekistan Respublikasi",
-            "uz-Cyrl": "Ўзбекистон Республикаси"
+            "uzb-Latn": "Uzbekistan Respublikasi",
+            "uzb-Cyrl": "Ўзбекистон Республикаси"
         },
         alpha2: "UZ",
         alpha3: "UZB",
@@ -11732,10 +20795,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -11744,9 +20810,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+998"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".uz",
@@ -11755,7 +20822,35 @@ export const countries = [
             "Asia/Samarkand",
             "Asia/Tashkent"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "uzb"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "rus"
+            ],
+            localCommunities: [
+                "kaa"
+            ],
+            extraTerritorialCommunities: [
+                "tgk",
+                "aze",
+                "tat",
+                "kaz"
+            ],
+            signs: {
+                official: [],
+                recognized: [],
+                used: [
+                    "uzs"
+                ]
+            },
+            dialects: []
+        },
         localesIcu: [
             "uz",
             "uz-Cyrl",
@@ -11764,13 +20859,18 @@ export const countries = [
             "uz-Latn-UZ"
         ],
         otherAppsIds: {
-            geoNamesOrg: 1512440
+            geoNamesOrg: 1512440,
+            wikidata: "Q265",
+            openStreetMap: {
+                type: "relation",
+                id: 196240
+            }
         }
     },
     {
         officialName: {
-            la: "Status Civitatis Vaticanae",
-            it: "Stato della Città del Vaticano"
+            lat: "Status Civitatis Vaticanae",
+            ita: "Stato della Città del Vaticano"
         },
         alpha2: "VA",
         alpha3: "VAT",
@@ -11781,10 +20881,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -11793,28 +20896,60 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
+                "+379"
+            ],
+            deFacto: [
                 "+3906698"
             ],
-            exceptions: []
+            exceptions: [
+                {
+                    code: "06698",
+                    origin: "IT"
+                }
+            ]
         },
         ccTld: ".va",
         ccIdn: [],
         timeZones: [
             "Europe/Vatican"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "lat"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "ita"
+            ],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "it",
             "it-VA"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3164670
+            geoNamesOrg: 3164670,
+            wikidata: "Q237",
+            openStreetMap: {
+                type: "relation",
+                id: 36989
+            }
         }
     },
     {
         officialName: {
-            en: "Saint Vincent and the Grenadines"
+            eng: "Saint Vincent and the Grenadines"
         },
         alpha2: "VC",
         alpha3: "VCT",
@@ -11825,12 +20960,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                la: "Pax et Justitia"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        lat: "Pax et Justitia"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -11839,9 +20981,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+1784"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".vc",
@@ -11849,18 +20992,42 @@ export const countries = [
         timeZones: [
             "America/St_Vincent"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "svc"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-VC"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3577815
+            geoNamesOrg: 3577815,
+            wikidata: "Q757",
+            openStreetMap: {
+                type: "relation",
+                id: 536900
+            }
         }
     },
     {
         officialName: {
-            es: "República Bolivariana de Venezuela"
+            spa: "República Bolivariana de Venezuela"
         },
         alpha2: "VE",
         alpha3: "VEN",
@@ -11871,12 +21038,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                es: "Dios y Federación"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        spa: "Dios y Federación"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -11885,9 +21059,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+58"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".ve",
@@ -11895,18 +21070,45 @@ export const countries = [
         timeZones: [
             "America/Caracas"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "spa"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "wba",
+                "guc",
+                "aoc",
+                "guu"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "es",
             "es-VE"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3625428
+            geoNamesOrg: 3625428,
+            wikidata: "Q717",
+            openStreetMap: {
+                type: "relation",
+                id: 272644
+            }
         }
     },
     {
         officialName: {
-            en: "British Virgin Islands"
+            eng: "British Virgin Islands"
         },
         alpha2: "VG",
         alpha3: "VGB",
@@ -11917,12 +21119,19 @@ export const countries = [
         },
         dependency: "GB",
         mottos: {
-            official: {
-                la: "Vigilate"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        lat: "Vigilate"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -11931,9 +21140,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+1284"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".vg",
@@ -11941,18 +21151,42 @@ export const countries = [
         timeZones: [
             "America/Tortola"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "vic"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-VG"
         ],
         otherAppsIds: {
-            geoNamesOrg: 3577718
+            geoNamesOrg: 3577718,
+            wikidata: "Q25305",
+            openStreetMap: {
+                type: "relation",
+                id: 537742
+            }
         }
     },
     {
         officialName: {
-            en: "Virgin Islands of the United States"
+            eng: "Virgin Islands of the United States"
         },
         alpha2: "VI",
         alpha3: "VIR",
@@ -11963,12 +21197,19 @@ export const countries = [
         },
         dependency: "US",
         mottos: {
-            official: {
-                en: "United in Pride and Hope"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        eng: "United in Pride and Hope"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -11977,9 +21218,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+1340"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".vi",
@@ -11987,18 +21229,44 @@ export const countries = [
         timeZones: [
             "America/St_Thomas"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "spa"
+            ],
+            localCommunities: [
+                "vic"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-VI"
         ],
         otherAppsIds: {
-            geoNamesOrg: 4796775
+            geoNamesOrg: 4796775,
+            wikidata: "Q11703",
+            openStreetMap: {
+                type: "relation",
+                id: 306065
+            }
         }
     },
     {
         officialName: {
-            vi: "Cộng hòa xã hội chủ nghĩa Việt Nam"
+            vie: "Cộng hòa xã hội chủ nghĩa Việt Nam"
         },
         alpha2: "VN",
         alpha3: "VNM",
@@ -12009,12 +21277,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                vi: "Độc lập – Tự do – Hạnh phúc"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        vie: "Độc lập – Tự do – Hạnh phúc"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -12023,9 +21298,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+84"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".vn",
@@ -12034,20 +21310,47 @@ export const countries = [
             "Asia/Ho_Chi_Minh",
             "Asia/Saigon"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "vie"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "hmn",
+                "khm",
+                "mtq",
+                "tyv"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "vi",
             "vi-VN"
         ],
         otherAppsIds: {
-            geoNamesOrg: 1562822
+            geoNamesOrg: 1562822,
+            wikidata: "Q881",
+            openStreetMap: {
+                type: "relation",
+                id: 49915
+            }
         }
     },
     {
         officialName: {
-            bi: "Ripablik blong Vanuatu",
-            fr: "République de Vanuatu",
-            en: "Republic of Vanuatu"
+            bis: "Ripablik blong Vanuatu",
+            fra: "République de Vanuatu",
+            eng: "Republic of Vanuatu"
         },
         alpha2: "VU",
         alpha3: "VUT",
@@ -12058,14 +21361,21 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                bi: "Long God yumi stanap",
-                fr: "Nous nous tenons devant Dieu",
-                en: "With God we stand"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        bis: "Long God yumi stanap",
+                        fra: "Nous nous tenons devant Dieu",
+                        eng: "With God we stand"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -12074,9 +21384,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+678"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".vu",
@@ -12084,7 +21395,31 @@ export const countries = [
         timeZones: [
             "Pacific/Efate"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "bis",
+                    "eng",
+                    "fra"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "app",
+                "pma",
+                "lml",
+                "aty"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-VU",
@@ -12092,13 +21427,17 @@ export const countries = [
             "fr-VU"
         ],
         otherAppsIds: {
-            geoNamesOrg: 2134431
+            geoNamesOrg: 2134431,
+            wikidata: "Q686",
+            openStreetMap: {
+                type: "relation",
+                id: 2177266
+            }
         }
     },
     {
         officialName: {
-            fr: "Collectivité d'outre-mer de Wallis-et-Futuna",
-            wls: "‘Uvea mo Futuna"
+            fra: "Collectivité d'outre-mer de Wallis-et-Futuna"
         },
         alpha2: "WF",
         alpha3: "WLF",
@@ -12109,12 +21448,19 @@ export const countries = [
         },
         dependency: "FR",
         mottos: {
-            official: {
-                fr: "Liberté, égalité, fraternité"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        fra: "Liberté, égalité, fraternité"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -12123,9 +21469,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+681"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".wf",
@@ -12133,18 +21480,44 @@ export const countries = [
         timeZones: [
             "Pacific/Wallis"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "fra"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "wls",
+                "fud"
+            ],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "fr",
             "fr-WF"
         ],
         otherAppsIds: {
-            geoNamesOrg: 4034749
+            geoNamesOrg: 4034749,
+            wikidata: "Q35555",
+            openStreetMap: {
+                type: "relation",
+                id: 3411136
+            }
         }
     },
     {
         officialName: {
-            sm: "Malo Sa'oloto Tuto'atasi o Samoa"
+            smo: "Malo Sa'oloto Tuto'atasi o Samoa",
+            eng: "Independent State of Samoa"
         },
         alpha2: "WS",
         alpha3: "WSM",
@@ -12155,12 +21528,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                sm: "Fa'avaei le Atua Samoa"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        smo: "Fa'avaei le Atua Samoa"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -12169,9 +21549,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+685"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".ws",
@@ -12180,19 +21561,43 @@ export const countries = [
             "Pacific/Apia",
             "Pacific/Samoa"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "smo",
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-WS"
         ],
         otherAppsIds: {
-            geoNamesOrg: 4034894
+            geoNamesOrg: 4034894,
+            wikidata: "Q683",
+            openStreetMap: {
+                type: "relation",
+                id: 2186601
+            }
         }
     },
     {
         officialName: {
-            sq: "Republika e Kosovës",
-            sr: "Република Косово"
+            sqi: "Republika e Kosovës",
+            "srp-Cyrl": "Република Косово",
+            "srp-Latn": "Republika Kosovo"
         },
         alpha2: "XK",
         alpha3: "XKX",
@@ -12203,10 +21608,13 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {},
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -12217,9 +21625,10 @@ export const countries = [
             ]
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+383"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: null,
@@ -12227,7 +21636,29 @@ export const countries = [
         timeZones: [
             "Europe/Belgrade"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "sqi",
+                    "srp"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "bos",
+                "tur",
+                "rom"
+            ],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "sq",
             "sq-AL",
@@ -12238,12 +21669,17 @@ export const countries = [
             "sr-Latn-RS"
         ],
         otherAppsIds: {
-            geoNamesOrg: 831053
+            geoNamesOrg: 831053,
+            wikidata: "Q1246",
+            openStreetMap: {
+                type: "relation",
+                id: 53292
+            }
         }
     },
     {
         officialName: {
-            ar: "الجمهوريّة اليمنية"
+            ara: "الجمهوريّة اليمنية"
         },
         alpha2: "YE",
         alpha3: "YEM",
@@ -12254,12 +21690,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                ar: "اَللهُ، ٱلْوَطَنُ، ٱلثَوْرَةُ، ٱلْوَحْدَةُ"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        ara: "اَللهُ، ٱلْوَطَنُ، ٱلثَوْرَةُ، ٱلْوَحْدَةُ"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -12268,9 +21711,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+967"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".ye",
@@ -12287,18 +21731,46 @@ export const countries = [
         timeZones: [
             "Asia/Aden"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "ara"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [
+                "meh",
+                "soc"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: [
+                "ayh",
+                "ars"
+            ]
+        },
         localesIcu: [
             "ar",
             "ar-YE"
         ],
         otherAppsIds: {
-            geoNamesOrg: 69543
+            geoNamesOrg: 69543,
+            wikidata: "Q805",
+            openStreetMap: {
+                type: "relation",
+                id: 305092
+            }
         }
     },
     {
         officialName: {
-            fr: "Collectivité départementale de Mayotte"
+            fra: "Collectivité départementale de Mayotte"
         },
         alpha2: "YT",
         alpha3: "MYT",
@@ -12309,12 +21781,25 @@ export const countries = [
         },
         dependency: "FR",
         mottos: {
-            official: {
-                swb: "Ra Hachiri"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        fra: "Liberté, égalité, fraternité"
+                    }
+                }
+            ],
+            popular: [
+                {
+                    text: {
+                        swb: "Ra Hachiri"
+                    }
+                }
+            ],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -12323,9 +21808,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+262"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".yt",
@@ -12333,27 +21819,52 @@ export const countries = [
         timeZones: [
             "Indian/Mayotte"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "fra"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "swb",
+                "zdj"
+            ],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "fr",
             "fr-YT"
         ],
         otherAppsIds: {
-            geoNamesOrg: 1024031
+            geoNamesOrg: 1024031,
+            wikidata: "Q17063",
+            openStreetMap: {
+                type: "relation",
+                id: 3416822
+            }
         }
     },
     {
         officialName: {
-            af: "Republiek van Suid-Afrika",
-            en: "Republic of South Africa",
-            nr: "iRiphabliki yeSewula Afrika",
-            ss: "iRiphabhulikhi yeNingizimu Afrika",
-            st: "Rephaboliki ya Afrika Borwa",
-            tn: "Rephaboliki ya Aforika Borwa",
-            ts: "Riphabliki ra Afrika Dzonga",
-            ve: "Riphabuḽiki ya Afurika Tshipembe",
-            xh: "iRiphabliki yomZantsi Afrika",
-            zu: "iRiphabhuliki yaseNingizimu Afrika",
+            afr: "Republiek van Suid-Afrika",
+            eng: "Republic of South Africa",
+            nbl: "iRiphabliki yeSewula Afrika",
+            ssw: "iRiphabhulikhi yeNingizimu Afrika",
+            sot: "Rephaboliki ya Afrika Borwa",
+            tsn: "Rephaboliki ya Aforika Borwa",
+            tso: "Riphabliki ra Afrika Dzonga",
+            ven: "Riphabuḽiki ya Afurika Tshipembe",
+            xho: "iRiphabliki yomZantsi Afrika",
+            zul: "iRiphabhuliki yaseNingizimu Afrika",
             nso: "Repabliki ya Afrika-Borwa"
         },
         alpha2: "ZA",
@@ -12365,12 +21876,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                xam: "ǃke e: ǀxarra ǁke"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        xam: "ǃke e: ǀxarra ǁke"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -12379,9 +21897,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+27"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".za",
@@ -12389,7 +21908,48 @@ export const countries = [
         timeZones: [
             "Africa/Johannesburg"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "afr",
+                    "eng",
+                    "nbl",
+                    "ssw",
+                    "sot",
+                    "tsn",
+                    "tso",
+                    "ven",
+                    "xho",
+                    "zul",
+                    "nso"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [
+                "sna",
+                "nya",
+                "lin",
+                "fra",
+                "som",
+                "amh",
+                "guj",
+                "tam",
+                "hin",
+                "urd",
+                "ben"
+            ],
+            signs: {
+                official: [
+                    "sfs"
+                ],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "af",
             "af-ZA",
@@ -12401,12 +21961,17 @@ export const countries = [
             "zu-ZA"
         ],
         otherAppsIds: {
-            geoNamesOrg: 953987
+            geoNamesOrg: 953987,
+            wikidata: "Q258",
+            openStreetMap: {
+                type: "relation",
+                id: 87565
+            }
         }
     },
     {
         officialName: {
-            en: "Republic of Zambia"
+            eng: "Republic of Zambia"
         },
         alpha2: "ZM",
         alpha3: "ZMB",
@@ -12417,12 +21982,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                en: "One Zambia, One Nation"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        eng: "One Zambia, One Nation"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -12431,9 +22003,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+260"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".zm",
@@ -12441,31 +22014,66 @@ export const countries = [
         timeZones: [
             "Africa/Lusaka"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "eng"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [
+                "bem",
+                "nya",
+                "toi",
+                "loz",
+                "lun",
+                "kqn",
+                "kdo"
+            ],
+            localCommunities: [
+                "lch",
+                "cce",
+                "xuj",
+                "bmy"
+            ],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-ZM"
         ],
         otherAppsIds: {
-            geoNamesOrg: 895949
+            geoNamesOrg: 895949,
+            wikidata: "Q953",
+            openStreetMap: {
+                type: "relation",
+                id: 195271
+            }
         }
     },
     {
         officialName: {
-            en: "Republic of Zimbabwe",
-            sn: "Nyika yeZimbabwe",
-            nd: "Ilizwe leZimbabwe",
-            ny: "Dziko la Zimbabwe",
+            eng: "Republic of Zimbabwe",
+            sna: "Nyika yeZimbabwe",
+            nde: "Ilizwe leZimbabwe",
+            nya: "Dziko la Zimbabwe",
             bwg: "Dziko la Zimbabwe",
             twx: "Hango yeZimbabwe",
             hio: "Zimbabwe Nù",
             nmq: "Inyika yeZimbabwe",
             mxc: "Nyika yeZimbabwe",
-            ts: "Tiko ra Zimbabwe",
+            tso: "Tiko ra Zimbabwe",
             nso: "Naha ya Zimbabwe",
             toi: "Cisi ca Zimbabwe",
-            ve: "Shango ḽa Zimbabwe",
-            xh: "Ilizwe leZimbabwe"
+            ven: "Shango ḽa Zimbabwe",
+            xho: "Ilizwe leZimbabwe"
         },
         alpha2: "ZW",
         alpha3: "ZWE",
@@ -12476,12 +22084,19 @@ export const countries = [
         },
         dependency: null,
         mottos: {
-            official: {
-                en: "Unity, Freedom, Work"
-            },
-            popular: {},
-            royal: {},
-            presidential: {}
+            official: [
+                {
+                    text: {
+                        eng: "Unity, Freedom, Work"
+                    }
+                }
+            ],
+            popular: [],
+            founding: [],
+            presidential: [],
+            royal: [],
+            military: [],
+            historical: []
         },
         currencies: {
             legalTenders: [
@@ -12490,9 +22105,10 @@ export const countries = [
             widelyAccepted: []
         },
         dialCodes: {
-            main: [
+            deJure: [
                 "+263"
             ],
+            deFacto: [],
             exceptions: []
         },
         ccTld: ".zw",
@@ -12500,13 +22116,50 @@ export const countries = [
         timeZones: [
             "Africa/Harare"
         ],
-        languages: [],
+        languages: {
+            official: {
+                deJure: [
+                    "sna",
+                    "nde",
+                    "eng",
+                    "nya",
+                    "toi",
+                    "tso",
+                    "ven",
+                    "xho",
+                    "nso",
+                    "bwg",
+                    "twx",
+                    "hio",
+                    "nmq",
+                    "mxc"
+                ],
+                deFacto: []
+            },
+            regional: [],
+            widelySpoken: [],
+            localCommunities: [],
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [
+                    "zib"
+                ],
+                recognized: [],
+                used: []
+            },
+            dialects: []
+        },
         localesIcu: [
             "en",
             "en-ZW"
         ],
         otherAppsIds: {
-            geoNamesOrg: 878675
+            geoNamesOrg: 878675,
+            wikidata: "Q954",
+            openStreetMap: {
+                type: "relation",
+                id: 195270
+            }
         }
     }
 ];
