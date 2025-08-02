@@ -2985,9 +2985,8 @@
             ],
             "exceptions": [
                 {
-                    "from": "AU",
-                    "to": "CC",
-                    "code": "08 9162"
+                    "code": "089162",
+                    "origin": "AU"
                 }
             ]
         },
@@ -4212,8 +4211,7 @@
             "exceptions": [
                 {
                     "code": "089164",
-                    "origin": "AU",
-                    "target": "CX"
+                    "origin": "AU"
                 }
             ]
         },
@@ -6260,18 +6258,15 @@
             "exceptions": [
                 {
                     "code": "01481",
-                    "origin": "GB",
-                    "target": "IM"
+                    "origin": "GB"
                 },
                 {
                     "code": "01481",
-                    "origin": "IM",
-                    "target": "GG"
+                    "origin": "IM"
                 },
                 {
                     "code": "01481",
-                    "origin": "JE",
-                    "target": "GG"
+                    "origin": "JE"
                 }
             ]
         },
@@ -7542,7 +7537,7 @@
             "emoji": "🇭🇷"
         },
         "dependency": null,
-        "mottos": [],
+        "mottos": {},
         "currencies": {
             "legalTenders": ["EUR"],
             "widelyAccepted": []
@@ -8015,18 +8010,15 @@
             "exceptions": [
                 {
                     "code": "01624",
-                    "origin": "GB",
-                    "target": "IM"
+                    "origin": "GB"
                 },
                 {
                     "code": "01624",
-                    "origin": "GG",
-                    "target": "IM"
+                    "origin": "GG"
                 },
                 {
                     "code": "01624",
-                    "origin": "JE",
-                    "target": "IM"
+                    "origin": "JE"
                 }
             ]
         },
@@ -8194,9 +8186,13 @@
         },
         "dependency": "GB",
         "mottos": {
-            "official": {
-                "eng": "Limuria is in our trust"
-            }
+            "official": [
+                {
+                    "text": {
+                        "eng": "Limuria is in our trust"
+                    }
+                }
+            ]
         },
         "currencies": {
             "legalTenders": [
@@ -8584,18 +8580,15 @@
             "exceptions": [
                 {
                     "code": "01534",
-                    "origin": "GB",
-                    "target": "JE"
+                    "origin": "GB"
                 },
                 {
                     "code": "01534",
-                    "origin": "GG",
-                    "target": "JE"
+                    "origin": "GG"
                 },
                 {
                     "code": "01534",
-                    "origin": "IM",
-                    "target": "JE"
+                    "origin": "IM"
                 }
             ]
         },
@@ -8917,13 +8910,11 @@
             "exceptions": [
                 {
                     "code": "020",
-                    "origin": "TZ",
-                    "target": "KE"
+                    "origin": "TZ"
                 },
                 {
                     "code": "020",
-                    "origin": "UG",
-                    "target": "KE"
+                    "origin": "UG"
                 }
             ]
         },
@@ -9611,9 +9602,13 @@
         },
         "dependency": "GB",
         "mottos": {
-            "official": {
-                "eng": "He hath founded it upon the seas"
-            }
+            "official": [
+                {
+                    "text": {
+                        "eng": "He hath founded it upon the seas"
+                    }
+                }
+            ]
         },
         "currencies": {
             "legalTenders": [
@@ -15244,16 +15239,21 @@
         "ccTld": ".sg",
         "ccIdn": [
             {
-                "unicode": "․新加坡",
+                "unicode": ".新加坡",
                 "punycode": ".xn--yfro4i67o",
-                "language": "zho-Hans",
-                "regionsOfUse": ["SG"]
+                "language": "zh-Hans",
+                "regionsOfUse": [
+                    "SG"
+                ]
             },
             {
-                "unicode": "․சிங்கப்பூர்",
+                "unicode": ".சிங்கப்பூர்",
                 "punycode": ".xn--clchc0ea0b2g2a9gcd",
-                "language": "tam",
-                "regionsOfUse": ["SG", "IN"]
+                "language": "ta",
+                "regionsOfUse": [
+                    "SG",
+                    "IN"
+                ]
             }
         ],
         "timeZones": ["Asia/Singapore"],
@@ -17588,13 +17588,11 @@
             "exceptions": [
                 {
                     "code": "007",
-                    "origin": "UG",
-                    "target": "TZ"
+                    "origin": "UG"
                 },
                 {
                     "code": "007",
-                    "origin": "KE",
-                    "target": "TZ"
+                    "origin": "KE"
                 }
             ]
         },
@@ -17759,13 +17757,11 @@
             "exceptions": [
                 {
                     "code": "006",
-                    "origin": "TZ",
-                    "target": "UG"
+                    "origin": "TZ"
                 },
                 {
                     "code": "006",
-                    "origin": "KE",
-                    "target": "UG"
+                    "origin": "KE"
                 }
             ]
         },
@@ -18205,8 +18201,7 @@
             "exceptions": [
                 {
                     "code": "06698",
-                    "origin": "IT",
-                    "target": "VA"
+                    "origin": "IT"
                 }
             ]
         },
@@ -18873,12 +18868,12 @@
         },
         "localesIcu": [
             "sq",
-            "sq-XK",
+            "sq-AL",
             "sr",
             "sr-Cyrl",
-            "sr-Cyrl-XK",
+            "sr-Cyrl-RS",
             "sr-Latn",
-            "sr-Latn-XK"
+            "sr-Latn-RS"
         ],
         "otherAppsIds": {
             "geoNamesOrg": 831053,
