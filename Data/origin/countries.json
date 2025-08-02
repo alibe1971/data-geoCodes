@@ -1092,7 +1092,7 @@
             },
             "regional": [],
             "widelySpoken": [],
-            "localCommunities": ["zxx", "itk", "warl", "pny", "aly", "kri", "yol", "pit", "cmn", "arb", "ell", "vnm", "hin"],
+            "localCommunities": ["zxx", "itk", "wbp", "pny", "aly", "kri", "yol", "pit", "cmn", "arb", "ell", "vnm", "hin"],
             "extraTerritorialCommunities": [],
             "signs": {
                 "official": [],
@@ -5339,7 +5339,7 @@
             },
             "regional": [],
             "widelySpoken": ["orm", "tir", "som", "sid", "tgn", "wal", "sgw"],
-            "localCommunities": ["gax", "bgn", "bench", "dwr", "gez", "mtc", "guz", "had", "afa"],
+            "localCommunities": ["gax", "bcq", "dwr", "gez", "mtc"],
             "extraTerritorialCommunities": [],
             "signs": {
                 "official": [],
@@ -12795,7 +12795,7 @@
             "regional": [],
             "widelySpoken": ["eng"],
             "localCommunities": ["zea"],
-            "extraTerritorialCommunities": ["tur", "ara", "tam", "sran", "hin", "ind", "por", "pol", "rum", "bul"],
+            "extraTerritorialCommunities": ["tur", "ara", "tam", "hin", "ind", "por", "pol", "rum", "bul"],
             "signs": {
                 "official": ["dse"],
                 "recognized": [],
