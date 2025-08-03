@@ -2725,6 +2725,7 @@ return [
                 ],
                 'deFacto' => []
             ],
+            'regional' => [],
             'widelySpoken' => [],
             'localCommunities' => [],
             'extraTerritorialCommunities' => [],
@@ -2735,8 +2736,7 @@ return [
                 'recognized' => [],
                 'used' => []
             ],
-            'dialects' => [],
-            'regional' => []
+            'dialects' => []
         ],
         'localesIcu' => [
             'es',
@@ -2812,6 +2812,7 @@ return [
                 ],
                 'deFacto' => []
             ],
+            'regional' => [],
             'widelySpoken' => [
                 'pap',
                 'eng'
@@ -2825,8 +2826,7 @@ return [
                 'recognized' => [],
                 'used' => []
             ],
-            'dialects' => [],
-            'regional' => []
+            'dialects' => []
         ],
         'localesIcu' => [
             'nl',
@@ -2913,6 +2913,7 @@ return [
                 ],
                 'deFacto' => []
             ],
+            'regional' => [],
             'widelySpoken' => [
                 'pov',
                 'yrl'
@@ -2950,8 +2951,7 @@ return [
                 'recognized' => [],
                 'used' => []
             ],
-            'dialects' => [],
-            'regional' => []
+            'dialects' => []
         ],
         'localesIcu' => [
             'es',
@@ -3020,8 +3020,10 @@ return [
                 ],
                 'deFacto' => []
             ],
+            'regional' => [],
             'widelySpoken' => [],
             'localCommunities' => [],
+            'extraTerritorialCommunities' => [],
             'signs' => [
                 'official' => [],
                 'recognized' => [
@@ -3029,9 +3031,7 @@ return [
                 ],
                 'used' => []
             ],
-            'dialects' => [],
-            'regional' => [],
-            'extraTerritorialCommunities' => []
+            'dialects' => []
         ],
         'localesIcu' => [
             'en',
@@ -3361,6 +3361,7 @@ return [
                 'ces',
                 'lav'
             ],
+            'extraTerritorialCommunities' => [],
             'signs' => [
                 'official' => [],
                 'recognized' => [
@@ -3368,7 +3369,6 @@ return [
                 ],
                 'used' => []
             ],
-            'extraTerritorialCommunities' => [],
             'dialects' => []
         ],
         'localesIcu' => [
@@ -3453,6 +3453,7 @@ return [
                 'yua',
                 'tzj'
             ],
+            'extraTerritorialCommunities' => [],
             'signs' => [
                 'official' => [],
                 'recognized' => [
@@ -3460,7 +3461,6 @@ return [
                 ],
                 'used' => []
             ],
-            'extraTerritorialCommunities' => [],
             'dialects' => []
         ],
         'localesIcu' => [
@@ -3689,6 +3689,7 @@ return [
                 'zlm'
             ],
             'localCommunities' => [],
+            'extraTerritorialCommunities' => [],
             'signs' => [
                 'official' => [],
                 'recognized' => [],
@@ -3696,7 +3697,6 @@ return [
                     'aus'
                 ]
             ],
-            'extraTerritorialCommunities' => [],
             'dialects' => []
         ],
         'localesIcu' => [
@@ -3786,6 +3786,7 @@ return [
                 'bmb',
                 'blz'
             ],
+            'extraTerritorialCommunities' => [],
             'signs' => [
                 'official' => [],
                 'recognized' => [],
@@ -3793,7 +3794,6 @@ return [
                     'fsl'
                 ]
             ],
-            'extraTerritorialCommunities' => [],
             'dialects' => []
         ],
         'localesIcu' => [
@@ -3881,6 +3881,7 @@ return [
                 'kwy',
                 'bfl'
             ],
+            'extraTerritorialCommunities' => [],
             'signs' => [
                 'official' => [],
                 'recognized' => [],
@@ -3888,7 +3889,6 @@ return [
                     'csf'
                 ]
             ],
-            'extraTerritorialCommunities' => [],
             'dialects' => []
         ],
         'localesIcu' => [
@@ -3974,6 +3974,7 @@ return [
                 'mho',
                 'ymg'
             ],
+            'extraTerritorialCommunities' => [],
             'signs' => [
                 'official' => [],
                 'recognized' => [],
@@ -3981,7 +3982,6 @@ return [
                     'fcs'
                 ]
             ],
-            'extraTerritorialCommunities' => [],
             'dialects' => []
         ],
         'localesIcu' => [
@@ -4072,6 +4072,7 @@ return [
                 'alb',
                 'tur'
             ],
+            'extraTerritorialCommunities' => [],
             'signs' => [
                 'official' => [],
                 'recognized' => [],
@@ -4079,7 +4080,6 @@ return [
                     'sgg'
                 ]
             ],
-            'extraTerritorialCommunities' => [],
             'dialects' => []
         ],
         'localesIcu' => [
@@ -4180,6 +4180,7 @@ return [
                 'kpe',
                 'loo'
             ],
+            'extraTerritorialCommunities' => [],
             'signs' => [
                 'official' => [],
                 'recognized' => [],
@@ -4187,7 +4188,6 @@ return [
                     'fcs'
                 ]
             ],
-            'extraTerritorialCommunities' => [],
             'dialects' => []
         ],
         'localesIcu' => [
@@ -4259,12 +4259,12 @@ return [
                 'pau',
                 'tah'
             ],
+            'extraTerritorialCommunities' => [],
             'signs' => [
                 'official' => [],
                 'recognized' => [],
                 'used' => []
             ],
-            'extraTerritorialCommunities' => [],
             'dialects' => []
         ],
         'localesIcu' => [
@@ -4345,6 +4345,7 @@ return [
                 'que',
                 'rap'
             ],
+            'extraTerritorialCommunities' => [],
             'signs' => [
                 'official' => [],
                 'recognized' => [],
@@ -4352,7 +4353,6 @@ return [
                     'csg'
                 ]
             ],
-            'extraTerritorialCommunities' => [],
             'dialects' => []
         ],
         'localesIcu' => [
@@ -4445,6 +4445,7 @@ return [
                 'azo',
                 'bss'
             ],
+            'extraTerritorialCommunities' => [],
             'signs' => [
                 'official' => [],
                 'recognized' => [],
@@ -4452,7 +4453,6 @@ return [
                     'csn'
                 ]
             ],
-            'extraTerritorialCommunities' => [],
             'dialects' => []
         ],
         'localesIcu' => [
@@ -9709,14 +9709,19 @@ return [
         ],
         'languages' => [
             'official' => [
-                'eng'
+                'deJure' => [],
+                'deFacto' => []
             ],
+            'regional' => [],
             'widelySpoken' => [],
             'localCommunities' => [],
-            'signs' => [],
-            'dialects' => [],
-            'regional' => [],
-            'extraTerritorialCommunities' => []
+            'extraTerritorialCommunities' => [],
+            'signs' => [
+                'official' => [],
+                'recognized' => [],
+                'used' => []
+            ],
+            'dialects' => []
         ],
         'localesIcu' => [
             'en',

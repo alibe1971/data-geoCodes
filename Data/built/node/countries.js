@@ -2726,6 +2726,7 @@ export const countries = [
                 ],
                 deFacto: []
             },
+            regional: [],
             widelySpoken: [],
             localCommunities: [],
             extraTerritorialCommunities: [],
@@ -2736,8 +2737,7 @@ export const countries = [
                 recognized: [],
                 used: []
             },
-            dialects: [],
-            regional: []
+            dialects: []
         },
         localesIcu: [
             "es",
@@ -2813,6 +2813,7 @@ export const countries = [
                 ],
                 deFacto: []
             },
+            regional: [],
             widelySpoken: [
                 "pap",
                 "eng"
@@ -2826,8 +2827,7 @@ export const countries = [
                 recognized: [],
                 used: []
             },
-            dialects: [],
-            regional: []
+            dialects: []
         },
         localesIcu: [
             "nl",
@@ -2914,6 +2914,7 @@ export const countries = [
                 ],
                 deFacto: []
             },
+            regional: [],
             widelySpoken: [
                 "pov",
                 "yrl"
@@ -2951,8 +2952,7 @@ export const countries = [
                 recognized: [],
                 used: []
             },
-            dialects: [],
-            regional: []
+            dialects: []
         },
         localesIcu: [
             "es",
@@ -3021,8 +3021,10 @@ export const countries = [
                 ],
                 deFacto: []
             },
+            regional: [],
             widelySpoken: [],
             localCommunities: [],
+            extraTerritorialCommunities: [],
             signs: {
                 official: [],
                 recognized: [
@@ -3030,9 +3032,7 @@ export const countries = [
                 ],
                 used: []
             },
-            dialects: [],
-            regional: [],
-            extraTerritorialCommunities: []
+            dialects: []
         },
         localesIcu: [
             "en",
@@ -3362,6 +3362,7 @@ export const countries = [
                 "ces",
                 "lav"
             ],
+            extraTerritorialCommunities: [],
             signs: {
                 official: [],
                 recognized: [
@@ -3369,7 +3370,6 @@ export const countries = [
                 ],
                 used: []
             },
-            extraTerritorialCommunities: [],
             dialects: []
         },
         localesIcu: [
@@ -3454,6 +3454,7 @@ export const countries = [
                 "yua",
                 "tzj"
             ],
+            extraTerritorialCommunities: [],
             signs: {
                 official: [],
                 recognized: [
@@ -3461,7 +3462,6 @@ export const countries = [
                 ],
                 used: []
             },
-            extraTerritorialCommunities: [],
             dialects: []
         },
         localesIcu: [
@@ -3690,6 +3690,7 @@ export const countries = [
                 "zlm"
             ],
             localCommunities: [],
+            extraTerritorialCommunities: [],
             signs: {
                 official: [],
                 recognized: [],
@@ -3697,7 +3698,6 @@ export const countries = [
                     "aus"
                 ]
             },
-            extraTerritorialCommunities: [],
             dialects: []
         },
         localesIcu: [
@@ -3787,6 +3787,7 @@ export const countries = [
                 "bmb",
                 "blz"
             ],
+            extraTerritorialCommunities: [],
             signs: {
                 official: [],
                 recognized: [],
@@ -3794,7 +3795,6 @@ export const countries = [
                     "fsl"
                 ]
             },
-            extraTerritorialCommunities: [],
             dialects: []
         },
         localesIcu: [
@@ -3882,6 +3882,7 @@ export const countries = [
                 "kwy",
                 "bfl"
             ],
+            extraTerritorialCommunities: [],
             signs: {
                 official: [],
                 recognized: [],
@@ -3889,7 +3890,6 @@ export const countries = [
                     "csf"
                 ]
             },
-            extraTerritorialCommunities: [],
             dialects: []
         },
         localesIcu: [
@@ -3975,6 +3975,7 @@ export const countries = [
                 "mho",
                 "ymg"
             ],
+            extraTerritorialCommunities: [],
             signs: {
                 official: [],
                 recognized: [],
@@ -3982,7 +3983,6 @@ export const countries = [
                     "fcs"
                 ]
             },
-            extraTerritorialCommunities: [],
             dialects: []
         },
         localesIcu: [
@@ -4073,6 +4073,7 @@ export const countries = [
                 "alb",
                 "tur"
             ],
+            extraTerritorialCommunities: [],
             signs: {
                 official: [],
                 recognized: [],
@@ -4080,7 +4081,6 @@ export const countries = [
                     "sgg"
                 ]
             },
-            extraTerritorialCommunities: [],
             dialects: []
         },
         localesIcu: [
@@ -4181,6 +4181,7 @@ export const countries = [
                 "kpe",
                 "loo"
             ],
+            extraTerritorialCommunities: [],
             signs: {
                 official: [],
                 recognized: [],
@@ -4188,7 +4189,6 @@ export const countries = [
                     "fcs"
                 ]
             },
-            extraTerritorialCommunities: [],
             dialects: []
         },
         localesIcu: [
@@ -4260,12 +4260,12 @@ export const countries = [
                 "pau",
                 "tah"
             ],
+            extraTerritorialCommunities: [],
             signs: {
                 official: [],
                 recognized: [],
                 used: []
             },
-            extraTerritorialCommunities: [],
             dialects: []
         },
         localesIcu: [
@@ -4346,6 +4346,7 @@ export const countries = [
                 "que",
                 "rap"
             ],
+            extraTerritorialCommunities: [],
             signs: {
                 official: [],
                 recognized: [],
@@ -4353,7 +4354,6 @@ export const countries = [
                     "csg"
                 ]
             },
-            extraTerritorialCommunities: [],
             dialects: []
         },
         localesIcu: [
@@ -4446,6 +4446,7 @@ export const countries = [
                 "azo",
                 "bss"
             ],
+            extraTerritorialCommunities: [],
             signs: {
                 official: [],
                 recognized: [],
@@ -4453,7 +4454,6 @@ export const countries = [
                     "csn"
                 ]
             },
-            extraTerritorialCommunities: [],
             dialects: []
         },
         localesIcu: [
@@ -9709,15 +9709,20 @@ export const countries = [
             "Indian/Chagos"
         ],
         languages: {
-            official: [
-                "eng"
-            ],
+            official: {
+                deJure: [],
+                deFacto: []
+            },
+            regional: [],
             widelySpoken: [],
             localCommunities: [],
-            signs: [],
-            dialects: [],
-            regional: [],
-            extraTerritorialCommunities: []
+            extraTerritorialCommunities: [],
+            signs: {
+                official: [],
+                recognized: [],
+                used: []
+            },
+            dialects: []
         },
         localesIcu: [
             "en",

@@ -7776,6 +7776,7 @@
         - nnk
         - bvl
       deFacto: []
+    regional: []
     widelySpoken: []
     localCommunities: []
     extraTerritorialCommunities: []
@@ -7785,7 +7786,6 @@
       recognized: []
       used: []
     dialects: []
-    regional: []
   localesIcu:
     - es
     - es-BO
@@ -7842,6 +7842,7 @@
       deJure:
         - nld
       deFacto: []
+    regional: []
     widelySpoken:
       - pap
       - eng
@@ -7853,7 +7854,6 @@
       recognized: []
       used: []
     dialects: []
-    regional: []
   localesIcu:
     - nl
     - nl-BQ
@@ -7986,6 +7986,7 @@
       deJure:
         - por
       deFacto: []
+    regional: []
     widelySpoken:
       - pov
       - yrl
@@ -8019,7 +8020,6 @@
       recognized: []
       used: []
     dialects: []
-    regional: []
   localesIcu:
     - es
     - es-BR
@@ -8074,16 +8074,16 @@
       deJure:
         - eng
       deFacto: []
+    regional: []
     widelySpoken: []
     localCommunities: []
+    extraTerritorialCommunities: []
     signs:
       official: []
       recognized:
         - ase
       used: []
     dialects: []
-    regional: []
-    extraTerritorialCommunities: []
   localesIcu:
     - en
     - en-BS
@@ -8969,12 +8969,12 @@
       - tat
       - ces
       - lav
+    extraTerritorialCommunities: []
     signs:
       official: []
       recognized:
         - rsl
       used: []
-    extraTerritorialCommunities: []
     dialects: []
   localesIcu:
     - be
@@ -9935,12 +9935,12 @@
       - gym
       - yua
       - tzj
+    extraTerritorialCommunities: []
     signs:
       official: []
       recognized:
         - bzs
       used: []
-    extraTerritorialCommunities: []
     dialects: []
   localesIcu:
     - en
@@ -10209,12 +10209,12 @@
     widelySpoken:
       - zlm
     localCommunities: []
+    extraTerritorialCommunities: []
     signs:
       official: []
       recognized: []
       used:
         - aus
-    extraTerritorialCommunities: []
     dialects: []
   localesIcu:
     - en
@@ -10290,12 +10290,12 @@
       - ngc
       - bmb
       - blz
+    extraTerritorialCommunities: []
     signs:
       official: []
       recognized: []
       used:
         - fsl
-    extraTerritorialCommunities: []
     dialects: []
   localesIcu:
     - fr
@@ -10375,12 +10375,12 @@
       - bjo
       - kwy
       - bfl
+    extraTerritorialCommunities: []
     signs:
       official: []
       recognized: []
       used:
         - csf
-    extraTerritorialCommunities: []
     dialects: []
   localesIcu:
     - fr
@@ -10449,12 +10449,12 @@
       - bzv
       - mho
       - ymg
+    extraTerritorialCommunities: []
     signs:
       official: []
       recognized: []
       used:
         - fcs
-    extraTerritorialCommunities: []
     dialects: []
   localesIcu:
     - fr
@@ -10528,12 +10528,12 @@
       - srp
       - alb
       - tur
+    extraTerritorialCommunities: []
     signs:
       official: []
       recognized: []
       used:
         - sgg
-    extraTerritorialCommunities: []
     dialects: []
   localesIcu:
     - de
@@ -10619,12 +10619,12 @@
       - agv
       - kpe
       - loo
+    extraTerritorialCommunities: []
     signs:
       official: []
       recognized: []
       used:
         - fcs
-    extraTerritorialCommunities: []
     dialects: []
   localesIcu:
     - fr
@@ -10711,11 +10711,11 @@
       - mri
       - pau
       - tah
+    extraTerritorialCommunities: []
     signs:
       official: []
       recognized: []
       used: []
-    extraTerritorialCommunities: []
     dialects: []
   localesIcu:
     - en
@@ -10789,12 +10789,12 @@
       - aym
       - que
       - rap
+    extraTerritorialCommunities: []
     signs:
       official: []
       recognized: []
       used:
         - csg
-    extraTerritorialCommunities: []
     dialects: []
   localesIcu:
     - es
@@ -10879,12 +10879,12 @@
       - mcp
       - azo
       - bss
+    extraTerritorialCommunities: []
     signs:
       official: []
       recognized: []
       used:
         - csn
-    extraTerritorialCommunities: []
     dialects: []
   localesIcu:
     - en
@@ -27166,13 +27166,17 @@
     - Indian/Chagos
   languages:
     official:
-      - eng
+      deJure: []
+      deFacto: []
+    regional: []
     widelySpoken: []
     localCommunities: []
-    signs: []
-    dialects: []
-    regional: []
     extraTerritorialCommunities: []
+    signs:
+      official: []
+      recognized: []
+      used: []
+    dialects: []
   localesIcu:
     - en
     - en-IO

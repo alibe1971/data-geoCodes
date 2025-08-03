@@ -2706,6 +2706,7 @@
                 </deJure>
                 <deFacto/>
             </official>
+            <regional/>
             <widelySpoken/>
             <localCommunities/>
             <extraTerritorialCommunities/>
@@ -2717,7 +2718,6 @@
                 <used/>
             </signs>
             <dialects/>
-            <regional/>
         </languages>
         <localesIcu>
             <locale>es</locale>
@@ -2793,6 +2793,7 @@
                 </deJure>
                 <deFacto/>
             </official>
+            <regional/>
             <widelySpoken>
                 <0>pap</0>
                 <1>eng</1>
@@ -2807,7 +2808,6 @@
                 <used/>
             </signs>
             <dialects/>
-            <regional/>
         </languages>
         <localesIcu>
             <locale>nl</locale>
@@ -2894,6 +2894,7 @@
                 </deJure>
                 <deFacto/>
             </official>
+            <regional/>
             <widelySpoken>
                 <0>pov</0>
                 <1>yrl</1>
@@ -2932,7 +2933,6 @@
                 <used/>
             </signs>
             <dialects/>
-            <regional/>
         </languages>
         <localesIcu>
             <locale>es</locale>
@@ -3001,8 +3001,10 @@
                 </deJure>
                 <deFacto/>
             </official>
+            <regional/>
             <widelySpoken/>
             <localCommunities/>
+            <extraTerritorialCommunities/>
             <signs>
                 <official/>
                 <recognized>
@@ -3011,8 +3013,6 @@
                 <used/>
             </signs>
             <dialects/>
-            <regional/>
-            <extraTerritorialCommunities/>
         </languages>
         <localesIcu>
             <locale>en</locale>
@@ -3342,6 +3342,7 @@
                 <7>ces</7>
                 <8>lav</8>
             </localCommunities>
+            <extraTerritorialCommunities/>
             <signs>
                 <official/>
                 <recognized>
@@ -3349,7 +3350,6 @@
                 </recognized>
                 <used/>
             </signs>
-            <extraTerritorialCommunities/>
             <dialects/>
         </languages>
         <localesIcu>
@@ -3434,6 +3434,7 @@
                 <4>yua</4>
                 <5>tzj</5>
             </localCommunities>
+            <extraTerritorialCommunities/>
             <signs>
                 <official/>
                 <recognized>
@@ -3441,7 +3442,6 @@
                 </recognized>
                 <used/>
             </signs>
-            <extraTerritorialCommunities/>
             <dialects/>
         </languages>
         <localesIcu>
@@ -3670,6 +3670,7 @@
                 <0>zlm</0>
             </widelySpoken>
             <localCommunities/>
+            <extraTerritorialCommunities/>
             <signs>
                 <official/>
                 <recognized/>
@@ -3677,7 +3678,6 @@
                     <0>aus</0>
                 </used>
             </signs>
-            <extraTerritorialCommunities/>
             <dialects/>
         </languages>
         <localesIcu>
@@ -3767,6 +3767,7 @@
                 <10>bmb</10>
                 <11>blz</11>
             </localCommunities>
+            <extraTerritorialCommunities/>
             <signs>
                 <official/>
                 <recognized/>
@@ -3774,7 +3775,6 @@
                     <0>fsl</0>
                 </used>
             </signs>
-            <extraTerritorialCommunities/>
             <dialects/>
         </languages>
         <localesIcu>
@@ -3862,6 +3862,7 @@
                 <8>kwy</8>
                 <9>bfl</9>
             </localCommunities>
+            <extraTerritorialCommunities/>
             <signs>
                 <official/>
                 <recognized/>
@@ -3869,7 +3870,6 @@
                     <0>csf</0>
                 </used>
             </signs>
-            <extraTerritorialCommunities/>
             <dialects/>
         </languages>
         <localesIcu>
@@ -3955,6 +3955,7 @@
                 <7>mho</7>
                 <8>ymg</8>
             </localCommunities>
+            <extraTerritorialCommunities/>
             <signs>
                 <official/>
                 <recognized/>
@@ -3962,7 +3963,6 @@
                     <0>fcs</0>
                 </used>
             </signs>
-            <extraTerritorialCommunities/>
             <dialects/>
         </languages>
         <localesIcu>
@@ -4053,6 +4053,7 @@
                 <5>alb</5>
                 <6>tur</6>
             </localCommunities>
+            <extraTerritorialCommunities/>
             <signs>
                 <official/>
                 <recognized/>
@@ -4060,7 +4061,6 @@
                     <0>sgg</0>
                 </used>
             </signs>
-            <extraTerritorialCommunities/>
             <dialects/>
         </languages>
         <localesIcu>
@@ -4161,6 +4161,7 @@
                 <11>kpe</11>
                 <12>loo</12>
             </localCommunities>
+            <extraTerritorialCommunities/>
             <signs>
                 <official/>
                 <recognized/>
@@ -4168,7 +4169,6 @@
                     <0>fcs</0>
                 </used>
             </signs>
-            <extraTerritorialCommunities/>
             <dialects/>
         </languages>
         <localesIcu>
@@ -4240,12 +4240,12 @@
                 <2>pau</2>
                 <3>tah</3>
             </localCommunities>
+            <extraTerritorialCommunities/>
             <signs>
                 <official/>
                 <recognized/>
                 <used/>
             </signs>
-            <extraTerritorialCommunities/>
             <dialects/>
         </languages>
         <localesIcu>
@@ -4326,6 +4326,7 @@
                 <3>que</3>
                 <4>rap</4>
             </localCommunities>
+            <extraTerritorialCommunities/>
             <signs>
                 <official/>
                 <recognized/>
@@ -4333,7 +4334,6 @@
                     <0>csg</0>
                 </used>
             </signs>
-            <extraTerritorialCommunities/>
             <dialects/>
         </languages>
         <localesIcu>
@@ -4426,6 +4426,7 @@
                 <11>azo</11>
                 <12>bss</12>
             </localCommunities>
+            <extraTerritorialCommunities/>
             <signs>
                 <official/>
                 <recognized/>
@@ -4433,7 +4434,6 @@
                     <0>csn</0>
                 </used>
             </signs>
-            <extraTerritorialCommunities/>
             <dialects/>
         </languages>
         <localesIcu>
@@ -9740,20 +9740,19 @@
         </timeZones>
         <languages>
             <official>
-                <0>eng</0>
                 <deJure/>
                 <deFacto/>
             </official>
+            <regional/>
             <widelySpoken/>
             <localCommunities/>
+            <extraTerritorialCommunities/>
             <signs>
                 <official/>
                 <recognized/>
                 <used/>
             </signs>
             <dialects/>
-            <regional/>
-            <extraTerritorialCommunities/>
         </languages>
         <localesIcu>
             <locale>en</locale>
