@@ -583,24 +583,24 @@ export const countriesFunctions = {
                 }
             }
 
-            // wikidata
-            if(!Object.prototype.hasOwnProperty.call(item.otherAppsIds, 'wikidata')) {
-                item.otherAppsIds.wikidata = null;
+            // wikiData
+            if(!Object.prototype.hasOwnProperty.call(item.otherAppsIds, 'wikiData')) {
+                item.otherAppsIds.wikiData = null;
             } else {
                 if (
-                    !requirements(item.otherAppsIds.wikidata, 'mustBeString') ||
-                    !requirements(item.otherAppsIds.wikidata, 'cannotBeEmpty')
+                    !requirements(item.otherAppsIds.wikiData, 'mustBeString') ||
+                    !requirements(item.otherAppsIds.wikiData, 'cannotBeEmpty')
                 ) {
-                    throwMex('otherAppsIds.wikidata', item[mainKey],
+                    throwMex('otherAppsIds.wikiData', item[mainKey],
                         'The property must be null or a not empty string');
                 }
                 if(
-                    !requirements(item.otherAppsIds.wikidata, 'regex', /^Q[1-9][0-9]*$/i)
+                    !requirements(item.otherAppsIds.wikiData, 'regex', /^Q[1-9][0-9]*$/i)
                 ) {
-                    throwMex('otherAppsIds.wikidata', item[mainKey],
-                        'The value for the property (' + item.otherAppsIds.wikidata + ') has not the correct format');
+                    throwMex('otherAppsIds.wikiData', item[mainKey],
+                        'The value for the property (' + item.otherAppsIds.wikiData + ') has not the correct format');
                 }
-                item.otherAppsIds.wikidata = item.otherAppsIds.wikidata.toUpperCase();
+                item.otherAppsIds.wikiData = item.otherAppsIds.wikiData.toUpperCase();
             }
 
             // Open Street Map
