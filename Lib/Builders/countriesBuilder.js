@@ -646,7 +646,7 @@ export const countriesFunctions = {
 
             country.otherAppsIds = {
                 geoNamesOrg: item.otherAppsIds.geoNamesOrg,
-                wikidata: item.otherAppsIds.wikidata,
+                wikiData: item.otherAppsIds.wikiData,
                 openStreetMap: item.otherAppsIds.openStreetMap
             };
 
