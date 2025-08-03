@@ -621,23 +621,26 @@ export const countriesFunctions = {
                 if(!Object.prototype.hasOwnProperty.call(item.otherAppsIds.openStreetMap, 'type')) {
                     throwMex('otherAppsIds.openStreetMap.type', item[mainKey], 'Required property is missing');
                 }
-                if(
-                    !requirements(item.otherAppsIds.openStreetMap.type, 'mustBeString') ||
-                    !requirements(item.otherAppsIds.openStreetMap.type, 'regex', /^(node|way|relation)$/i)
-                ) {
-                    throwMex('otherAppsIds.openStreetMap.type', item[mainKey],
-                        'The value for the property (' + item.otherAppsIds.openStreetMap.type + ') ' +
-                        'has not the correct format (`node` or `way` or `relation`, case insensitive)'
-                    );
+                if (item.otherAppsIds.openStreetMap.type !== null) {
+                    if(
+                        !requirements(item.otherAppsIds.openStreetMap.type, 'mustBeString') ||
+                        !requirements(item.otherAppsIds.openStreetMap.type, 'regex', /^(node|way|relation)$/i)
+                    ) {
+                        throwMex('otherAppsIds.openStreetMap.type', item[mainKey],
+                            'The value for the property (' + item.otherAppsIds.openStreetMap.type + ') ' +
+                            'has not the correct format (`node` or `way` or `relation`, case insensitive)'
+                        );
+                    }
+                    item.otherAppsIds.openStreetMap.type = item.otherAppsIds.openStreetMap.type.toLowerCase();
                 }
-                item.otherAppsIds.openStreetMap.type = item.otherAppsIds.openStreetMap.type.toLowerCase();
-
                 if(!Object.prototype.hasOwnProperty.call(item.otherAppsIds.openStreetMap, 'id')) {
                     throwMex('otherAppsIds.openStreetMap.id', item[mainKey], 'Required property is missing');
                 }
-                if( !requirements(item.otherAppsIds.openStreetMap.id, 'mustBePositiveIntegerNotZero') ) {
-                    throwMex('otherAppsIds.geoNamesOrg.id', item[mainKey],
-                        'The property must be null or a positive integer greater then zero');
+                if (item.otherAppsIds.openStreetMap.id !== null) {
+                    if (!requirements(item.otherAppsIds.openStreetMap.id, 'mustBePositiveIntegerNotZero')) {
+                        throwMex('otherAppsIds.geoNamesOrg.id', item[mainKey],
+                            'The property must be null or a positive integer greater then zero');
+                    }
                 }
             }
 
