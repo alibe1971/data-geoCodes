@@ -95,7 +95,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3041565,
-            "wikidata": "Q228",
+            "wikiData": "Q228",
             "openStreetMap": {
                 "type": "relation",
                 "id": 9407
@@ -180,7 +180,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 290557,
-            "wikidata": "Q878",
+            "wikiData": "Q878",
             "openStreetMap": {
                 "type": "relation",
                 "id": 307763
@@ -273,7 +273,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1149361,
-            "wikidata": "Q889",
+            "wikiData": "Q889",
             "openStreetMap": {
                 "type": "relation",
                 "id": 303427
@@ -353,7 +353,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3576396,
-            "wikidata": "Q781",
+            "wikiData": "Q781",
             "openStreetMap": {
                 "type": "relation",
                 "id": 536900
@@ -433,7 +433,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3573511,
-            "wikidata": "Q25228",
+            "wikiData": "Q25228",
             "openStreetMap": {
                 "type": "relation",
                 "id": 536904
@@ -520,7 +520,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 783754,
-            "wikidata": "Q222",
+            "wikiData": "Q222",
             "openStreetMap": {
                 "type": "relation",
                 "id": 53292
@@ -616,7 +616,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 174982,
-            "wikidata": "Q399",
+            "wikiData": "Q399",
             "openStreetMap": {
                 "type": "relation",
                 "id": 36466
@@ -711,7 +711,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3351879,
-            "wikidata": "Q916",
+            "wikiData": "Q916",
             "openStreetMap": {
                 "type": "relation",
                 "id": 195267
@@ -908,7 +908,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 6697173,
-            "wikidata": "Q21590062",
+            "wikiData": "Q21590062",
             "openStreetMap": {
                 "type": "relation",
                 "id": 2708953
@@ -1014,7 +1014,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3865483,
-            "wikidata": "Q414",
+            "wikiData": "Q414",
             "openStreetMap": {
                 "type": "relation",
                 "id": 286393
@@ -1094,7 +1094,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 5880801,
-            "wikidata": "Q16641",
+            "wikiData": "Q16641",
             "openStreetMap": {
                 "type": "relation",
                 "id": 587232
@@ -1181,7 +1181,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2782113,
-            "wikidata": "Q40",
+            "wikiData": "Q40",
             "openStreetMap": {
                 "type": "relation",
                 "id": 16239
@@ -1289,7 +1289,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2077456,
-            "wikidata": "Q408",
+            "wikiData": "Q408",
             "openStreetMap": {
                 "type": "relation",
                 "id": 80500
@@ -1372,7 +1372,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3577279,
-            "wikidata": "Q21203",
+            "wikiData": "Q21203",
             "openStreetMap": {
                 "type": "relation",
                 "id": 1703814
@@ -1446,7 +1446,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 661882,
-            "wikidata": "Q5689",
+            "wikiData": "Q5689",
             "openStreetMap": {
                 "type": "relation",
                 "id": 1650407
@@ -1537,7 +1537,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 587116,
-            "wikidata": "Q227",
+            "wikiData": "Q227",
             "openStreetMap": {
                 "type": "relation",
                 "id": 364110
@@ -1628,7 +1628,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3277605,
-            "wikidata": "Q225",
+            "wikiData": "Q225",
             "openStreetMap": {
                 "type": "relation",
                 "id": 2528142
@@ -1708,7 +1708,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3374084,
-            "wikidata": "Q244",
+            "wikiData": "Q244",
             "openStreetMap": {
                 "type": "relation",
                 "id": 547511
@@ -1810,7 +1810,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1210997,
-            "wikidata": "Q902",
+            "wikiData": "Q902",
             "openStreetMap": {
                 "type": "relation",
                 "id": 184640
@@ -1914,7 +1914,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2802361,
-            "wikidata": "Q31",
+            "wikiData": "Q31",
             "openStreetMap": {
                 "type": "relation",
                 "id": 52411
@@ -2005,7 +2005,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2361809,
-            "wikidata": "Q965",
+            "wikiData": "Q965",
             "openStreetMap": {
                 "type": "relation",
                 "id": 192783
@@ -2103,7 +2103,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 732800,
-            "wikidata": "Q219",
+            "wikiData": "Q219",
             "openStreetMap": {
                 "type": "relation",
                 "id": 186382
@@ -2197,7 +2197,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 290291,
-            "wikidata": "Q398",
+            "wikiData": "Q398",
             "openStreetMap": {
                 "type": "relation",
                 "id": 378734
@@ -2285,7 +2285,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 433561,
-            "wikidata": "Q967",
+            "wikiData": "Q967",
             "openStreetMap": {
                 "type": "relation",
                 "id": 195266
@@ -2376,7 +2376,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2395170,
-            "wikidata": "Q962",
+            "wikiData": "Q962",
             "openStreetMap": {
                 "type": "relation",
                 "id": 192782
@@ -2458,7 +2458,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3578476,
-            "wikidata": "Q25305",
+            "wikiData": "Q25305",
             "openStreetMap": {
                 "type": "relation",
                 "id": 1265297
@@ -2538,7 +2538,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3573345,
-            "wikidata": "Q23635",
+            "wikiData": "Q23635",
             "openStreetMap": {
                 "type": "relation",
                 "id": 1993209
@@ -2629,7 +2629,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1820814,
-            "wikidata": "Q921",
+            "wikiData": "Q921",
             "openStreetMap": {
                 "type": "relation",
                 "id": 1993209
@@ -2744,7 +2744,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3923057,
-            "wikidata": "Q750",
+            "wikiData": "Q750",
             "openStreetMap": {
                 "type": "relation",
                 "id": 195267
@@ -2834,7 +2834,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 7626844,
-            "wikidata": "Q25279",
+            "wikiData": "Q25279",
             "openStreetMap": {
                 "type": "relation",
                 "id": 1216720
@@ -2961,7 +2961,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3469034,
-            "wikidata": "Q155",
+            "wikiData": "Q155",
             "openStreetMap": {
                 "type": "relation",
                 "id": 59470
@@ -3039,7 +3039,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3572887,
-            "wikidata": "Q778",
+            "wikiData": "Q778",
             "openStreetMap": {
                 "type": "relation",
                 "id": 547469
@@ -3123,7 +3123,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1252634,
-            "wikidata": "Q917",
+            "wikiData": "Q917",
             "openStreetMap": {
                 "type": "relation",
                 "id": 184629
@@ -3193,7 +3193,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3371123,
-            "wikidata": "Q244",
+            "wikiData": "Q244",
             "openStreetMap": {
                 "type": "relation",
                 "id": 1749828
@@ -3284,7 +3284,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 933860,
-            "wikidata": "Q963",
+            "wikiData": "Q963",
             "openStreetMap": {
                 "type": "relation",
                 "id": 1889339
@@ -3379,7 +3379,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 630336,
-            "wikidata": "Q184",
+            "wikiData": "Q184",
             "openStreetMap": {
                 "type": "relation",
                 "id": 59065
@@ -3471,7 +3471,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3582678,
-            "wikidata": "Q242",
+            "wikiData": "Q242",
             "openStreetMap": {
                 "type": "relation",
                 "id": 287827
@@ -3620,7 +3620,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 6251999,
-            "wikidata": "Q16",
+            "wikiData": "Q16",
             "openStreetMap": {
                 "type": "relation",
                 "id": 1428125
@@ -3705,7 +3705,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1547376,
-            "wikidata": "Q26988",
+            "wikiData": "Q26988",
             "openStreetMap": {
                 "type": "relation",
                 "id": 82610
@@ -3806,7 +3806,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 203312,
-            "wikidata": "Q974",
+            "wikiData": "Q974",
             "openStreetMap": {
                 "type": "relation",
                 "id": 192795
@@ -3899,7 +3899,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 239880,
-            "wikidata": "Q929",
+            "wikiData": "Q929",
             "openStreetMap": {
                 "type": "relation",
                 "id": 192793
@@ -3992,7 +3992,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2260494,
-            "wikidata": "Q971",
+            "wikiData": "Q971",
             "openStreetMap": {
                 "type": "relation",
                 "id": 192790
@@ -4098,7 +4098,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2658434,
-            "wikidata": "Q39",
+            "wikiData": "Q39",
             "openStreetMap": {
                 "type": "relation",
                 "id": 51701
@@ -4196,7 +4196,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2287781,
-            "wikidata": "Q1008",
+            "wikiData": "Q1008",
             "openStreetMap": {
                 "type": "relation",
                 "id": 192780
@@ -4273,7 +4273,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1899402,
-            "wikidata": "Q26988",
+            "wikiData": "Q26988",
             "openStreetMap": {
                 "type": "relation",
                 "id": 2186648
@@ -4361,7 +4361,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3895114,
-            "wikidata": "Q298",
+            "wikiData": "Q298",
             "openStreetMap": {
                 "type": "relation",
                 "id": 167454
@@ -4465,7 +4465,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2233387,
-            "wikidata": "Q1009",
+            "wikiData": "Q1009",
             "openStreetMap": {
                 "type": "relation",
                 "id": 192830
@@ -4578,7 +4578,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1814991,
-            "wikidata": "Q148",
+            "wikiData": "Q148",
             "openStreetMap": {
                 "type": "relation",
                 "id": 270056
@@ -4668,7 +4668,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3686110,
-            "wikidata": "Q739",
+            "wikiData": "Q739",
             "openStreetMap": {
                 "type": "relation",
                 "id": 120027
@@ -4752,7 +4752,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3624060,
-            "wikidata": "Q800",
+            "wikiData": "Q800",
             "openStreetMap": {
                 "type": "relation",
                 "id": 121760
@@ -4833,7 +4833,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3562981,
-            "wikidata": "Q241",
+            "wikiData": "Q241",
             "openStreetMap": {
                 "type": "relation",
                 "id": 307833
@@ -4911,7 +4911,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3374766,
-            "wikidata": "Q1011",
+            "wikiData": "Q1011",
             "openStreetMap": {
                 "type": "relation",
                 "id": 536765
@@ -4992,7 +4992,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 7626836,
-            "wikidata": "Q25279",
+            "wikiData": "Q25279",
             "openStreetMap": {
                 "type": "relation",
                 "id": 1273856
@@ -5072,7 +5072,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2078138,
-            "wikidata": "Q31063",
+            "wikiData": "Q31063",
             "openStreetMap": {
                 "type": "relation",
                 "id": 82637
@@ -5161,7 +5161,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 146669,
-            "wikidata": "Q229",
+            "wikiData": "Q229",
             "openStreetMap": {
                 "type": "relation",
                 "id": 307787
@@ -5251,7 +5251,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3077311,
-            "wikidata": "Q213",
+            "wikiData": "Q213",
             "openStreetMap": {
                 "type": "relation",
                 "id": 51684
@@ -5348,7 +5348,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2921044,
-            "wikidata": "Q183",
+            "wikiData": "Q183",
             "openStreetMap": {
                 "type": "relation",
                 "id": 51477
@@ -5432,7 +5432,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 223816,
-            "wikidata": "Q977",
+            "wikiData": "Q977",
             "openStreetMap": {
                 "type": "relation",
                 "id": 192789
@@ -5527,7 +5527,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2623032,
-            "wikidata": "Q35",
+            "wikiData": "Q35",
             "openStreetMap": {
                 "type": "relation",
                 "id": 50046
@@ -5605,7 +5605,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3575830,
-            "wikidata": "Q784",
+            "wikiData": "Q784",
             "openStreetMap": {
                 "type": "relation",
                 "id": 307828
@@ -5687,7 +5687,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3508796,
-            "wikidata": "Q786",
+            "wikiData": "Q786",
             "openStreetMap": {
                 "type": "relation",
                 "id": 307829
@@ -5777,7 +5777,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2589581,
-            "wikidata": "Q262",
+            "wikiData": "Q262",
             "openStreetMap": {
                 "type": "relation",
                 "id": 192756
@@ -5871,7 +5871,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3658394,
-            "wikidata": "Q736",
+            "wikiData": "Q736",
             "openStreetMap": {
                 "type": "relation",
                 "id": 307786
@@ -5952,7 +5952,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 453733,
-            "wikidata": "Q191",
+            "wikiData": "Q191",
             "openStreetMap": {
                 "type": "relation",
                 "id": 79510
@@ -6048,7 +6048,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 357994,
-            "wikidata": "Q79",
+            "wikiData": "Q79",
             "openStreetMap": {
                 "type": "relation",
                 "id": 1473946
@@ -6128,7 +6128,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2461445,
-            "wikidata": "Q6250",
+            "wikiData": "Q6250",
             "openStreetMap": {
                 "type": "relation",
                 "id": 5441969
@@ -6217,7 +6217,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 338010,
-            "wikidata": "Q986",
+            "wikiData": "Q986",
             "openStreetMap": {
                 "type": "relation",
                 "id": 1620601
@@ -6327,7 +6327,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2510769,
-            "wikidata": "Q29",
+            "wikiData": "Q29",
             "openStreetMap": {
                 "type": "relation",
                 "id": 1311341
@@ -6421,7 +6421,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 337996,
-            "wikidata": "Q115",
+            "wikiData": "Q115",
             "openStreetMap": {
                 "type": "relation",
                 "id": 192800
@@ -6521,7 +6521,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 660013,
-            "wikidata": "Q33",
+            "wikiData": "Q33",
             "openStreetMap": {
                 "type": "relation",
                 "id": 54224
@@ -6607,7 +6607,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2205218,
-            "wikidata": "Q712",
+            "wikiData": "Q712",
             "openStreetMap": {
                 "type": "relation",
                 "id": 2157446
@@ -6683,7 +6683,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3474414,
-            "wikidata": "Q9648",
+            "wikiData": "Q9648",
             "openStreetMap": {
                 "type": "relation",
                 "id": 1993867
@@ -6777,7 +6777,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2081918,
-            "wikidata": "Q702",
+            "wikiData": "Q702",
             "openStreetMap": {
                 "type": "relation",
                 "id": 571824
@@ -6850,7 +6850,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2622320,
-            "wikidata": "Q4628",
+            "wikiData": "Q4628",
             "openStreetMap": {
                 "type": "relation",
                 "id": 52939
@@ -6956,7 +6956,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3017382,
-            "wikidata": "Q142",
+            "wikiData": "Q142",
             "openStreetMap": {
                 "type": "relation",
                 "id": 1403916
@@ -7043,7 +7043,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2400553,
-            "wikidata": "Q1000",
+            "wikiData": "Q1000",
             "openStreetMap": {
                 "type": "relation",
                 "id": 192794
@@ -7150,7 +7150,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2635167,
-            "wikidata": "Q145",
+            "wikiData": "Q145",
             "openStreetMap": {
                 "type": "relation",
                 "id": 62149
@@ -7230,7 +7230,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3580239,
-            "wikidata": "Q769",
+            "wikiData": "Q769",
             "openStreetMap": {
                 "type": "relation",
                 "id": 536899
@@ -7327,7 +7327,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 614540,
-            "wikidata": "Q230",
+            "wikiData": "Q230",
             "openStreetMap": {
                 "type": "relation",
                 "id": 28699
@@ -7416,7 +7416,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3381670,
-            "wikidata": "Q3769",
+            "wikiData": "Q3769",
             "openStreetMap": {
                 "type": "relation",
                 "id": 3407760
@@ -7446,8 +7446,7 @@ const Countries = `[
         },
         "currencies": {
             "legalTenders": [
-                "GBP",
-                "GGP"
+                "GBP"
             ],
             "widelyAccepted": []
         },
@@ -7502,7 +7501,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3042362,
-            "wikidata": "Q25230",
+            "wikiData": "Q25230",
             "openStreetMap": {
                 "type": "relation",
                 "id": 93636
@@ -7604,7 +7603,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2300660,
-            "wikidata": "Q117",
+            "wikiData": "Q117",
             "openStreetMap": {
                 "type": "relation",
                 "id": 192781
@@ -7690,7 +7689,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2411586,
-            "wikidata": "Q1410",
+            "wikiData": "Q1410",
             "openStreetMap": {
                 "type": "relation",
                 "id": 1278737
@@ -7774,7 +7773,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3425505,
-            "wikidata": "Q223",
+            "wikiData": "Q223",
             "openStreetMap": {
                 "type": "relation",
                 "id": 2184073
@@ -7861,7 +7860,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2413451,
-            "wikidata": "Q1005",
+            "wikiData": "Q1005",
             "openStreetMap": {
                 "type": "relation",
                 "id": 192781
@@ -7952,7 +7951,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2420477,
-            "wikidata": "Q1006",
+            "wikiData": "Q1006",
             "openStreetMap": {
                 "type": "relation",
                 "id": 192778
@@ -8024,7 +8023,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3579143,
-            "wikidata": "Q17012",
+            "wikiData": "Q17012",
             "openStreetMap": {
                 "type": "relation",
                 "id": 3407643
@@ -8116,7 +8115,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2309096,
-            "wikidata": "Q983",
+            "wikiData": "Q983",
             "openStreetMap": {
                 "type": "relation",
                 "id": 192781
@@ -8209,7 +8208,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 390903,
-            "wikidata": "Q41",
+            "wikiData": "Q41",
             "openStreetMap": {
                 "type": "relation",
                 "id": 192782
@@ -8287,7 +8286,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3474415,
-            "wikidata": "Q35086",
+            "wikiData": "Q35086",
             "openStreetMap": {
                 "type": "relation",
                 "id": 1983626
@@ -8388,7 +8387,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3595528,
-            "wikidata": "Q774",
+            "wikiData": "Q774",
             "openStreetMap": {
                 "type": "relation",
                 "id": 1521463
@@ -8475,7 +8474,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 4043988,
-            "wikidata": "Q16635",
+            "wikiData": "Q16635",
             "openStreetMap": {
                 "type": "relation",
                 "id": 306001
@@ -8567,7 +8566,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2372248,
-            "wikidata": "Q1007",
+            "wikiData": "Q1007",
             "openStreetMap": {
                 "type": "relation",
                 "id": 192776
@@ -8654,7 +8653,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3378535,
-            "wikidata": "Q734",
+            "wikiData": "Q734",
             "openStreetMap": {
                 "type": "relation",
                 "id": 192781
@@ -8748,7 +8747,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1819730,
-            "wikidata": "Q8646",
+            "wikiData": "Q8646",
             "openStreetMap": {
                 "type": "relation",
                 "id": 913110
@@ -8816,7 +8815,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1547314,
-            "wikidata": "Q131198",
+            "wikiData": "Q131198",
             "openStreetMap": {
                 "type": "relation",
                 "id": 2177227
@@ -8904,7 +8903,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3608932,
-            "wikidata": "Q783",
+            "wikiData": "Q783",
             "openStreetMap": {
                 "type": "relation",
                 "id": 287670
@@ -8985,7 +8984,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3202326,
-            "wikidata": "Q224",
+            "wikiData": "Q224",
             "openStreetMap": {
                 "type": "relation",
                 "id": 214885
@@ -9065,7 +9064,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3723988,
-            "wikidata": "Q790",
+            "wikiData": "Q790",
             "openStreetMap": {
                 "type": "relation",
                 "id": 307833
@@ -9149,7 +9148,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 719819,
-            "wikidata": "Q28",
+            "wikiData": "Q28",
             "openStreetMap": {
                 "type": "relation",
                 "id": 21335
@@ -9254,7 +9253,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1643084,
-            "wikidata": "Q252",
+            "wikiData": "Q252",
             "openStreetMap": {
                 "type": "relation",
                 "id": 2134181
@@ -9333,7 +9332,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2963597,
-            "wikidata": "Q27",
+            "wikiData": "Q27",
             "openStreetMap": {
                 "type": "relation",
                 "id": 62273
@@ -9424,7 +9423,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 294640,
-            "wikidata": "Q801",
+            "wikiData": "Q801",
             "openStreetMap": {
                 "type": "relation",
                 "id": 1473946
@@ -9518,7 +9517,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3042225,
-            "wikidata": "Q9676",
+            "wikiData": "Q9676",
             "openStreetMap": {
                 "type": "relation",
                 "id": 62000
@@ -9658,7 +9657,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1269750,
-            "wikidata": "Q668",
+            "wikiData": "Q668",
             "openStreetMap": {
                 "type": "relation",
                 "id": 304716
@@ -9725,7 +9724,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1282588,
-            "wikidata": "Q43448",
+            "wikiData": "Q43448",
             "openStreetMap": {
                 "type": "relation",
                 "id": 1993867
@@ -9808,7 +9807,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 99237,
-            "wikidata": "Q796",
+            "wikiData": "Q796",
             "openStreetMap": {
                 "type": "relation",
                 "id": 304934
@@ -9910,7 +9909,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 130758,
-            "wikidata": "Q794",
+            "wikiData": "Q794",
             "openStreetMap": {
                 "type": "relation",
                 "id": 304938
@@ -9987,7 +9986,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2629691,
-            "wikidata": "Q189",
+            "wikiData": "Q189",
             "openStreetMap": {
                 "type": "relation",
                 "id": 299133
@@ -10085,7 +10084,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3175395,
-            "wikidata": "Q38",
+            "wikiData": "Q38",
             "openStreetMap": {
                 "type": "relation",
                 "id": 365331
@@ -10178,7 +10177,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3042142,
-            "wikidata": "Q785",
+            "wikiData": "Q785",
             "openStreetMap": {
                 "type": "relation",
                 "id": 367988
@@ -10257,7 +10256,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3489940,
-            "wikidata": "Q766",
+            "wikiData": "Q766",
             "openStreetMap": {
                 "type": "relation",
                 "id": 53644
@@ -10352,7 +10351,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 248816,
-            "wikidata": "Q810",
+            "wikiData": "Q810",
             "openStreetMap": {
                 "type": "relation",
                 "id": 1848181
@@ -10431,7 +10430,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1861060,
-            "wikidata": "Q17",
+            "wikiData": "Q17",
             "openStreetMap": {
                 "type": "relation",
                 "id": 382313
@@ -10537,7 +10536,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 192950,
-            "wikidata": "Q114",
+            "wikiData": "Q114",
             "openStreetMap": {
                 "type": "relation",
                 "id": 195271
@@ -10623,7 +10622,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1527747,
-            "wikidata": "Q813",
+            "wikiData": "Q813",
             "openStreetMap": {
                 "type": "relation",
                 "id": 178009
@@ -10715,7 +10714,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1831722,
-            "wikidata": "Q424",
+            "wikiData": "Q424",
             "openStreetMap": {
                 "type": "relation",
                 "id": 49898
@@ -10795,7 +10794,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 4030945,
-            "wikidata": "Q710",
+            "wikiData": "Q710",
             "openStreetMap": {
                 "type": "relation",
                 "id": 2186468
@@ -10877,7 +10876,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 921929,
-            "wikidata": "Q970",
+            "wikiData": "Q970",
             "openStreetMap": {
                 "type": "relation",
                 "id": 5357741
@@ -10955,7 +10954,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3575174,
-            "wikidata": "Q763",
+            "wikiData": "Q763",
             "openStreetMap": {
                 "type": "relation",
                 "id": 536780
@@ -11031,7 +11030,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1873107,
-            "wikidata": "Q423",
+            "wikiData": "Q423",
             "openStreetMap": {
                 "type": "relation",
                 "id": 192734
@@ -11128,7 +11127,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1835841,
-            "wikidata": "Q884",
+            "wikiData": "Q884",
             "openStreetMap": {
                 "type": "relation",
                 "id": 307756
@@ -11213,7 +11212,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 285570,
-            "wikidata": "Q817",
+            "wikiData": "Q817",
             "openStreetMap": {
                 "type": "relation",
                 "id": 305099
@@ -11289,7 +11288,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3580718,
-            "wikidata": "Q5785",
+            "wikiData": "Q5785",
             "openStreetMap": {
                 "type": "relation",
                 "id": 536900
@@ -11390,7 +11389,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1522867,
-            "wikidata": "Q232",
+            "wikiData": "Q232",
             "openStreetMap": {
                 "type": "relation",
                 "id": 214665
@@ -11473,7 +11472,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1655842,
-            "wikidata": "Q819",
+            "wikiData": "Q819",
             "openStreetMap": {
                 "type": "relation",
                 "id": 49903
@@ -11558,7 +11557,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 272103,
-            "wikidata": "Q822",
+            "wikiData": "Q822",
             "openStreetMap": {
                 "type": "relation",
                 "id": 184843
@@ -11636,7 +11635,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3576468,
-            "wikidata": "Q760",
+            "wikiData": "Q760",
             "openStreetMap": {
                 "type": "relation",
                 "id": 536900
@@ -11716,7 +11715,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3042058,
-            "wikidata": "Q347",
+            "wikiData": "Q347",
             "openStreetMap": {
                 "type": "relation",
                 "id": 1155955
@@ -11801,7 +11800,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1227603,
-            "wikidata": "Q854",
+            "wikiData": "Q854",
             "openStreetMap": {
                 "type": "relation",
                 "id": 536807
@@ -11889,7 +11888,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2275384,
-            "wikidata": "Q1014",
+            "wikiData": "Q1014",
             "openStreetMap": {
                 "type": "relation",
                 "id": 192780
@@ -11970,7 +11969,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 932692,
-            "wikidata": "Q1015",
+            "wikiData": "Q1015",
             "openStreetMap": {
                 "type": "relation",
                 "id": 192781
@@ -12053,7 +12052,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 597427,
-            "wikidata": "Q37",
+            "wikiData": "Q37",
             "openStreetMap": {
                 "type": "relation",
                 "id": 72594
@@ -12145,7 +12144,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2960313,
-            "wikidata": "Q32",
+            "wikiData": "Q32",
             "openStreetMap": {
                 "type": "relation",
                 "id": 2171347
@@ -12222,7 +12221,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 458258,
-            "wikidata": "Q211",
+            "wikiData": "Q211",
             "openStreetMap": {
                 "type": "relation",
                 "id": 72594
@@ -12299,7 +12298,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2215636,
-            "wikidata": "Q1016",
+            "wikiData": "Q1016",
             "openStreetMap": {
                 "type": "relation",
                 "id": 192758
@@ -12390,7 +12389,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2542007,
-            "wikidata": "Q1028",
+            "wikiData": "Q1028",
             "openStreetMap": {
                 "type": "relation",
                 "id": 363043
@@ -12474,7 +12473,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2993457,
-            "wikidata": "Q235",
+            "wikiData": "Q235",
             "openStreetMap": {
                 "type": "relation",
                 "id": 1124038
@@ -12553,7 +12552,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 617790,
-            "wikidata": "Q217",
+            "wikiData": "Q217",
             "openStreetMap": {
                 "type": "relation",
                 "id": 58974
@@ -12638,7 +12637,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3194884,
-            "wikidata": "Q236",
+            "wikiData": "Q236",
             "openStreetMap": {
                 "type": "relation",
                 "id": 53296
@@ -12715,7 +12714,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3578421,
-            "wikidata": "Q34617",
+            "wikiData": "Q34617",
             "openStreetMap": {
                 "type": "relation",
                 "id": 307828
@@ -12795,7 +12794,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1062947,
-            "wikidata": "Q1019",
+            "wikiData": "Q1019",
             "openStreetMap": {
                 "type": "relation",
                 "id": 2555066
@@ -12874,7 +12873,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2080185,
-            "wikidata": "Q709",
+            "wikiData": "Q709",
             "openStreetMap": {
                 "type": "relation",
                 "id": 571780
@@ -12954,7 +12953,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 718075,
-            "wikidata": "Q221",
+            "wikiData": "Q221",
             "openStreetMap": {
                 "type": "relation",
                 "id": 53294
@@ -13042,7 +13041,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2453866,
-            "wikidata": "Q912",
+            "wikiData": "Q912",
             "openStreetMap": {
                 "type": "relation",
                 "id": 192785
@@ -13123,7 +13122,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1327865,
-            "wikidata": "Q836",
+            "wikiData": "Q836",
             "openStreetMap": {
                 "type": "relation",
                 "id": 50371
@@ -13212,7 +13211,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2029969,
-            "wikidata": "Q711",
+            "wikiData": "Q711",
             "openStreetMap": {
                 "type": "relation",
                 "id": 161033
@@ -13294,7 +13293,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1821275,
-            "wikidata": "Q14773",
+            "wikiData": "Q14773",
             "openStreetMap": {
                 "type": "relation",
                 "id": 102199
@@ -13372,7 +13371,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 4041468,
-            "wikidata": "Q16641",
+            "wikiData": "Q16641",
             "openStreetMap": {
                 "type": "relation",
                 "id": 306004
@@ -13447,7 +13446,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3570311,
-            "wikidata": "Q17054",
+            "wikiData": "Q17054",
             "openStreetMap": {
                 "type": "relation",
                 "id": 2473087
@@ -13540,7 +13539,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2378080,
-            "wikidata": "Q1025",
+            "wikiData": "Q1025",
             "openStreetMap": {
                 "type": "relation",
                 "id": 192763
@@ -13618,7 +13617,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3578097,
-            "wikidata": "Q13353",
+            "wikiData": "Q13353",
             "openStreetMap": {
                 "type": "relation",
                 "id": 537077
@@ -13698,7 +13697,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2562770,
-            "wikidata": "Q233",
+            "wikiData": "Q233",
             "openStreetMap": {
                 "type": "relation",
                 "id": 365307
@@ -13789,7 +13788,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 934292,
-            "wikidata": "Q1027",
+            "wikiData": "Q1027",
             "openStreetMap": {
                 "type": "relation",
                 "id": 535682
@@ -13867,7 +13866,7 @@ const Countries = `[
         "localesIcu": [],
         "otherAppsIds": {
             "geoNamesOrg": 1282028,
-            "wikidata": "Q912",
+            "wikiData": "Q912",
             "openStreetMap": {
                 "type": "relation",
                 "id": 536765
@@ -13953,7 +13952,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 927384,
-            "wikidata": "Q1020",
+            "wikiData": "Q1020",
             "openStreetMap": {
                 "type": "relation",
                 "id": 195270
@@ -14047,7 +14046,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3996063,
-            "wikidata": "Q96",
+            "wikiData": "Q96",
             "openStreetMap": {
                 "type": "relation",
                 "id": 114686
@@ -14143,7 +14142,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1733045,
-            "wikidata": "Q833",
+            "wikiData": "Q833",
             "openStreetMap": {
                 "type": "relation",
                 "id": 2108121
@@ -14223,7 +14222,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1036973,
-            "wikidata": "Q1029",
+            "wikiData": "Q1029",
             "openStreetMap": {
                 "type": "relation",
                 "id": 195270
@@ -14315,7 +14314,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3355338,
-            "wikidata": "Q1030",
+            "wikiData": "Q1030",
             "openStreetMap": {
                 "type": "relation",
                 "id": 195273
@@ -14392,7 +14391,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2139685,
-            "wikidata": "Q33788",
+            "wikiData": "Q33788",
             "openStreetMap": {
                 "type": "relation",
                 "id": 341129
@@ -14482,7 +14481,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2440476,
-            "wikidata": "Q1032",
+            "wikiData": "Q1032",
             "openStreetMap": {
                 "type": "relation",
                 "id": 192785
@@ -14558,7 +14557,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2155115,
-            "wikidata": "Q31057",
+            "wikiData": "Q31057",
             "openStreetMap": {
                 "type": "relation",
                 "id": 2177248
@@ -14656,7 +14655,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2328926,
-            "wikidata": "Q1033",
+            "wikiData": "Q1033",
             "openStreetMap": {
                 "type": "relation",
                 "id": 192785
@@ -14741,7 +14740,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3617476,
-            "wikidata": "Q811",
+            "wikiData": "Q811",
             "openStreetMap": {
                 "type": "relation",
                 "id": 287666
@@ -14847,7 +14846,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2750405,
-            "wikidata": "Q55",
+            "wikiData": "Q55",
             "openStreetMap": {
                 "type": "relation",
                 "id": 47796
@@ -14940,7 +14939,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3144096,
-            "wikidata": "Q20",
+            "wikiData": "Q20",
             "openStreetMap": {
                 "type": "relation",
                 "id": 2978650
@@ -15032,7 +15031,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1282988,
-            "wikidata": "Q837",
+            "wikiData": "Q837",
             "openStreetMap": {
                 "type": "relation",
                 "id": 184633
@@ -15110,7 +15109,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2110425,
-            "wikidata": "Q697",
+            "wikiData": "Q697",
             "openStreetMap": {
                 "type": "relation",
                 "id": 571805
@@ -15188,7 +15187,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 4036232,
-            "wikidata": "Q34020",
+            "wikiData": "Q34020",
             "openStreetMap": {
                 "type": "relation",
                 "id": 2177229
@@ -15274,7 +15273,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2186224,
-            "wikidata": "Q664",
+            "wikiData": "Q664",
             "openStreetMap": {
                 "type": "relation",
                 "id": 556706
@@ -15352,7 +15351,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 286963,
-            "wikidata": "Q842",
+            "wikiData": "Q842",
             "openStreetMap": {
                 "type": "relation",
                 "id": 305138
@@ -15435,7 +15434,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3703430,
-            "wikidata": "Q804",
+            "wikiData": "Q804",
             "openStreetMap": {
                 "type": "relation",
                 "id": 287668
@@ -15522,7 +15521,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3932488,
-            "wikidata": "Q419",
+            "wikiData": "Q419",
             "openStreetMap": {
                 "type": "relation",
                 "id": 288247
@@ -15611,7 +15610,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 4030656,
-            "wikidata": "Q30971",
+            "wikiData": "Q30971",
             "openStreetMap": {
                 "type": "relation",
                 "id": 3412620
@@ -15695,7 +15694,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2088628,
-            "wikidata": "Q691",
+            "wikiData": "Q691",
             "openStreetMap": {
                 "type": "relation",
                 "id": 288084
@@ -15792,7 +15791,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1694008,
-            "wikidata": "Q928",
+            "wikiData": "Q928",
             "openStreetMap": {
                 "type": "relation",
                 "id": 443174
@@ -15896,7 +15895,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1168579,
-            "wikidata": "Q843",
+            "wikiData": "Q843",
             "openStreetMap": {
                 "type": "relation",
                 "id": 307573
@@ -15978,7 +15977,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 798544,
-            "wikidata": "Q36",
+            "wikiData": "Q36",
             "openStreetMap": {
                 "type": "relation",
                 "id": 49715
@@ -16054,7 +16053,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3424932,
-            "wikidata": "Q34617",
+            "wikiData": "Q34617",
             "openStreetMap": {
                 "type": "relation",
                 "id": 3406825
@@ -16132,7 +16131,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 4030699,
-            "wikidata": "Q35672",
+            "wikiData": "Q35672",
             "openStreetMap": {
                 "type": "relation",
                 "id": 2185373
@@ -16213,7 +16212,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 4566966,
-            "wikidata": "Q1183",
+            "wikiData": "Q1183",
             "openStreetMap": {
                 "type": "relation",
                 "id": 442260
@@ -16284,7 +16283,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 6254930,
-            "wikidata": "Q219060",
+            "wikiData": "Q219060",
             "openStreetMap": {
                 "type": "relation",
                 "id": 1703814
@@ -16364,7 +16363,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2264397,
-            "wikidata": "Q45",
+            "wikiData": "Q45",
             "openStreetMap": {
                 "type": "relation",
                 "id": 295480
@@ -16448,7 +16447,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1559582,
-            "wikidata": "Q695",
+            "wikiData": "Q695",
             "openStreetMap": {
                 "type": "relation",
                 "id": 571802
@@ -16529,7 +16528,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3437598,
-            "wikidata": "Q733",
+            "wikiData": "Q733",
             "openStreetMap": {
                 "type": "relation",
                 "id": 287077
@@ -16621,7 +16620,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 289688,
-            "wikidata": "Q846",
+            "wikiData": "Q846",
             "openStreetMap": {
                 "type": "relation",
                 "id": 305091
@@ -16699,7 +16698,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 935317,
-            "wikidata": "Q2181",
+            "wikiData": "Q2181",
             "openStreetMap": {
                 "type": "relation",
                 "id": 935317
@@ -16779,7 +16778,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 798549,
-            "wikidata": "Q218",
+            "wikiData": "Q218",
             "openStreetMap": {
                 "type": "relation",
                 "id": 90689
@@ -16870,7 +16869,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 6290252,
-            "wikidata": "Q403",
+            "wikiData": "Q403",
             "openStreetMap": {
                 "type": "relation",
                 "id": 1741311
@@ -16999,7 +16998,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2017370,
-            "wikidata": "Q159",
+            "wikiData": "Q159",
             "openStreetMap": {
                 "type": "relation",
                 "id": 60189
@@ -17083,7 +17082,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 49518,
-            "wikidata": "Q1037",
+            "wikiData": "Q1037",
             "openStreetMap": {
                 "type": "relation",
                 "id": 171496
@@ -17178,7 +17177,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 102358,
-            "wikidata": "Q851",
+            "wikiData": "Q851",
             "openStreetMap": {
                 "type": "relation",
                 "id": 307584
@@ -17259,7 +17258,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2103350,
-            "wikidata": "Q685",
+            "wikiData": "Q685",
             "openStreetMap": {
                 "type": "relation",
                 "id": 2851649
@@ -17341,7 +17340,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 241170,
-            "wikidata": "Q1042",
+            "wikiData": "Q1042",
             "openStreetMap": {
                 "type": "relation",
                 "id": 536765
@@ -17431,7 +17430,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 366755,
-            "wikidata": "Q1049",
+            "wikiData": "Q1049",
             "openStreetMap": {
                 "type": "relation",
                 "id": 192789
@@ -17529,7 +17528,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2661886,
-            "wikidata": "Q34",
+            "wikiData": "Q34",
             "openStreetMap": {
                 "type": "relation",
                 "id": 52822
@@ -17646,7 +17645,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1880251,
-            "wikidata": "Q334",
+            "wikiData": "Q334",
             "openStreetMap": {
                 "type": "relation",
                 "id": 536780
@@ -17722,7 +17721,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3370751,
-            "wikidata": "Q192184",
+            "wikiData": "Q192184",
             "openStreetMap": {
                 "type": "relation",
                 "id": 1964272
@@ -17803,7 +17802,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3190538,
-            "wikidata": "Q215",
+            "wikiData": "Q215",
             "openStreetMap": {
                 "type": "relation",
                 "id": 218657
@@ -17882,7 +17881,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 607072,
-            "wikidata": "Q104235",
+            "wikiData": "Q104235",
             "openStreetMap": {
                 "type": "relation",
                 "id": 1229689
@@ -17964,7 +17963,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3057568,
-            "wikidata": "Q214",
+            "wikiData": "Q214",
             "openStreetMap": {
                 "type": "relation",
                 "id": 14296
@@ -18049,7 +18048,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2403846,
-            "wikidata": "Q1044",
+            "wikiData": "Q1044",
             "openStreetMap": {
                 "type": "relation",
                 "id": 192781
@@ -18127,7 +18126,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3168068,
-            "wikidata": "Q238",
+            "wikiData": "Q238",
             "openStreetMap": {
                 "type": "relation",
                 "id": 53636
@@ -18215,7 +18214,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2245662,
-            "wikidata": "Q1041",
+            "wikiData": "Q1041",
             "openStreetMap": {
                 "type": "relation",
                 "id": 192785
@@ -18290,7 +18289,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 51537,
-            "wikidata": "Q1045",
+            "wikiData": "Q1045",
             "openStreetMap": {
                 "type": "relation",
                 "id": 192799
@@ -18375,7 +18374,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3382998,
-            "wikidata": "Q730",
+            "wikiData": "Q730",
             "openStreetMap": {
                 "type": "relation",
                 "id": 287082
@@ -18461,7 +18460,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 7909807,
-            "wikidata": "Q958",
+            "wikiData": "Q958",
             "openStreetMap": {
                 "type": "relation",
                 "id": 54094
@@ -18542,7 +18541,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2410758,
-            "wikidata": "Q1039",
+            "wikiData": "Q1039",
             "openStreetMap": {
                 "type": "relation",
                 "id": 192793
@@ -18622,7 +18621,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3585968,
-            "wikidata": "Q792",
+            "wikiData": "Q792",
             "openStreetMap": {
                 "type": "relation",
                 "id": 1520612
@@ -18710,7 +18709,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 7609695,
-            "wikidata": "Q26273",
+            "wikiData": "Q26273",
             "openStreetMap": {
                 "type": "relation",
                 "id": 85036
@@ -18802,7 +18801,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 163843,
-            "wikidata": "Q858",
+            "wikiData": "Q858",
             "openStreetMap": {
                 "type": "relation",
                 "id": 184840
@@ -18882,7 +18881,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 934841,
-            "wikidata": "Q1050",
+            "wikiData": "Q1050",
             "openStreetMap": {
                 "type": "relation",
                 "id": 88210
@@ -18958,7 +18957,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3576916,
-            "wikidata": "Q18221",
+            "wikiData": "Q18221",
             "openStreetMap": {
                 "type": "relation",
                 "id": 547469
@@ -19049,7 +19048,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2434508,
-            "wikidata": "Q657",
+            "wikiData": "Q657",
             "openStreetMap": {
                 "type": "relation",
                 "id": 192789
@@ -19129,7 +19128,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1546748,
-            "wikidata": "Q129003",
+            "wikiData": "Q129003",
             "openStreetMap": {
                 "type": "relation",
                 "id": 1269755
@@ -19214,7 +19213,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2363686,
-            "wikidata": "Q945",
+            "wikiData": "Q945",
             "openStreetMap": {
                 "type": "relation",
                 "id": 192784
@@ -19310,7 +19309,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1605651,
-            "wikidata": "Q869",
+            "wikiData": "Q869",
             "openStreetMap": {
                 "type": "relation",
                 "id": 2067731
@@ -19391,7 +19390,7 @@ const Countries = `[
         "localesIcu": [],
         "otherAppsIds": {
             "geoNamesOrg": 1220409,
-            "wikidata": "Q863",
+            "wikiData": "Q863",
             "openStreetMap": {
                 "type": "relation",
                 "id": 214626
@@ -19471,7 +19470,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 4031074,
-            "wikidata": "Q33707",
+            "wikiData": "Q33707",
             "openStreetMap": {
                 "type": "relation",
                 "id": 2186648
@@ -19557,7 +19556,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1966436,
-            "wikidata": "Q574",
+            "wikiData": "Q574",
             "openStreetMap": {
                 "type": "relation",
                 "id": 1221918
@@ -19641,7 +19640,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1218197,
-            "wikidata": "Q874",
+            "wikiData": "Q874",
             "openStreetMap": {
                 "type": "relation",
                 "id": 223026
@@ -19723,7 +19722,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2464461,
-            "wikidata": "Q948",
+            "wikiData": "Q948",
             "openStreetMap": {
                 "type": "relation",
                 "id": 192757
@@ -19804,7 +19803,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 4032283,
-            "wikidata": "Q678",
+            "wikiData": "Q678",
             "openStreetMap": {
                 "type": "relation",
                 "id": 2186658
@@ -19901,7 +19900,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 298795,
-            "wikidata": "Q43",
+            "wikiData": "Q43",
             "openStreetMap": {
                 "type": "relation",
                 "id": 174737
@@ -19984,7 +19983,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3573591,
-            "wikidata": "Q754",
+            "wikiData": "Q754",
             "openStreetMap": {
                 "type": "relation",
                 "id": 555717
@@ -20065,7 +20064,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2110297,
-            "wikidata": "Q672",
+            "wikiData": "Q672",
             "openStreetMap": {
                 "type": "relation",
                 "id": 2177266
@@ -20170,7 +20169,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1668284,
-            "wikidata": "Q865",
+            "wikiData": "Q865",
             "openStreetMap": {
                 "type": "relation",
                 "id": 449220
@@ -20268,7 +20267,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 149590,
-            "wikidata": "Q924",
+            "wikiData": "Q924",
             "openStreetMap": {
                 "type": "relation",
                 "id": 195270
@@ -20365,7 +20364,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 690791,
-            "wikidata": "Q212",
+            "wikiData": "Q212",
             "openStreetMap": {
                 "type": "relation",
                 "id": 60199
@@ -20468,7 +20467,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 226074,
-            "wikidata": "Q1036",
+            "wikiData": "Q1036",
             "openStreetMap": {
                 "type": "relation",
                 "id": 192796
@@ -20552,7 +20551,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 5854968,
-            "wikidata": "Q16644",
+            "wikiData": "Q16644",
             "openStreetMap": {
                 "type": "relation",
                 "id": 306001
@@ -20693,7 +20692,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 6252001,
-            "wikidata": "Q30",
+            "wikiData": "Q30",
             "openStreetMap": {
                 "type": "relation",
                 "id": 148838
@@ -20773,7 +20772,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3439705,
-            "wikidata": "Q77",
+            "wikiData": "Q77",
             "openStreetMap": {
                 "type": "relation",
                 "id": 287827
@@ -20859,7 +20858,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1512440,
-            "wikidata": "Q265",
+            "wikiData": "Q265",
             "openStreetMap": {
                 "type": "relation",
                 "id": 196240
@@ -20939,7 +20938,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3164670,
-            "wikidata": "Q237",
+            "wikiData": "Q237",
             "openStreetMap": {
                 "type": "relation",
                 "id": 36989
@@ -21017,7 +21016,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3577815,
-            "wikidata": "Q757",
+            "wikiData": "Q757",
             "openStreetMap": {
                 "type": "relation",
                 "id": 536900
@@ -21098,7 +21097,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3625428,
-            "wikidata": "Q717",
+            "wikiData": "Q717",
             "openStreetMap": {
                 "type": "relation",
                 "id": 272644
@@ -21176,7 +21175,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 3577718,
-            "wikidata": "Q25305",
+            "wikiData": "Q25305",
             "openStreetMap": {
                 "type": "relation",
                 "id": 537742
@@ -21256,7 +21255,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 4796775,
-            "wikidata": "Q11703",
+            "wikiData": "Q11703",
             "openStreetMap": {
                 "type": "relation",
                 "id": 306065
@@ -21338,7 +21337,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1562822,
-            "wikidata": "Q881",
+            "wikiData": "Q881",
             "openStreetMap": {
                 "type": "relation",
                 "id": 49915
@@ -21427,7 +21426,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 2134431,
-            "wikidata": "Q686",
+            "wikiData": "Q686",
             "openStreetMap": {
                 "type": "relation",
                 "id": 2177266
@@ -21506,7 +21505,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 4034749,
-            "wikidata": "Q35555",
+            "wikiData": "Q35555",
             "openStreetMap": {
                 "type": "relation",
                 "id": 3411136
@@ -21585,7 +21584,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 4034894,
-            "wikidata": "Q683",
+            "wikiData": "Q683",
             "openStreetMap": {
                 "type": "relation",
                 "id": 2186601
@@ -21669,7 +21668,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 831053,
-            "wikidata": "Q1246",
+            "wikiData": "Q1246",
             "openStreetMap": {
                 "type": "relation",
                 "id": 53292
@@ -21760,7 +21759,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 69543,
-            "wikidata": "Q805",
+            "wikiData": "Q805",
             "openStreetMap": {
                 "type": "relation",
                 "id": 305092
@@ -21845,7 +21844,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 1024031,
-            "wikidata": "Q17063",
+            "wikiData": "Q17063",
             "openStreetMap": {
                 "type": "relation",
                 "id": 3416822
@@ -21961,7 +21960,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 953987,
-            "wikidata": "Q258",
+            "wikiData": "Q258",
             "openStreetMap": {
                 "type": "relation",
                 "id": 87565
@@ -22050,7 +22049,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 895949,
-            "wikidata": "Q953",
+            "wikiData": "Q953",
             "openStreetMap": {
                 "type": "relation",
                 "id": 195271
@@ -22154,7 +22153,7 @@ const Countries = `[
         ],
         "otherAppsIds": {
             "geoNamesOrg": 878675,
-            "wikidata": "Q954",
+            "wikiData": "Q954",
             "openStreetMap": {
                 "type": "relation",
                 "id": 195270

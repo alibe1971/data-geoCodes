@@ -76,7 +76,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3041565</geoNamesOrg>
-            <wikidata>Q228</wikidata>
+            <wikiData>Q228</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>9407</id>
@@ -161,7 +161,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>290557</geoNamesOrg>
-            <wikidata>Q878</wikidata>
+            <wikiData>Q878</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>307763</id>
@@ -254,7 +254,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1149361</geoNamesOrg>
-            <wikidata>Q889</wikidata>
+            <wikiData>Q889</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>303427</id>
@@ -334,7 +334,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3576396</geoNamesOrg>
-            <wikidata>Q781</wikidata>
+            <wikiData>Q781</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>536900</id>
@@ -414,7 +414,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3573511</geoNamesOrg>
-            <wikidata>Q25228</wikidata>
+            <wikiData>Q25228</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>536904</id>
@@ -501,7 +501,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>783754</geoNamesOrg>
-            <wikidata>Q222</wikidata>
+            <wikiData>Q222</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>53292</id>
@@ -597,7 +597,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>174982</geoNamesOrg>
-            <wikidata>Q399</wikidata>
+            <wikiData>Q399</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>36466</id>
@@ -692,7 +692,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3351879</geoNamesOrg>
-            <wikidata>Q916</wikidata>
+            <wikiData>Q916</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>195267</id>
@@ -889,7 +889,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>6697173</geoNamesOrg>
-            <wikidata>Q21590062</wikidata>
+            <wikiData>Q21590062</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>2708953</id>
@@ -995,7 +995,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3865483</geoNamesOrg>
-            <wikidata>Q414</wikidata>
+            <wikiData>Q414</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>286393</id>
@@ -1075,7 +1075,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>5880801</geoNamesOrg>
-            <wikidata>Q16641</wikidata>
+            <wikiData>Q16641</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>587232</id>
@@ -1162,7 +1162,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2782113</geoNamesOrg>
-            <wikidata>Q40</wikidata>
+            <wikiData>Q40</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>16239</id>
@@ -1270,7 +1270,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2077456</geoNamesOrg>
-            <wikidata>Q408</wikidata>
+            <wikiData>Q408</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>80500</id>
@@ -1353,7 +1353,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3577279</geoNamesOrg>
-            <wikidata>Q21203</wikidata>
+            <wikiData>Q21203</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>1703814</id>
@@ -1427,7 +1427,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>661882</geoNamesOrg>
-            <wikidata>Q5689</wikidata>
+            <wikiData>Q5689</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>1650407</id>
@@ -1518,7 +1518,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>587116</geoNamesOrg>
-            <wikidata>Q227</wikidata>
+            <wikiData>Q227</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>364110</id>
@@ -1609,7 +1609,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3277605</geoNamesOrg>
-            <wikidata>Q225</wikidata>
+            <wikiData>Q225</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>2528142</id>
@@ -1689,7 +1689,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3374084</geoNamesOrg>
-            <wikidata>Q244</wikidata>
+            <wikiData>Q244</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>547511</id>
@@ -1791,7 +1791,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1210997</geoNamesOrg>
-            <wikidata>Q902</wikidata>
+            <wikiData>Q902</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>184640</id>
@@ -1895,7 +1895,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2802361</geoNamesOrg>
-            <wikidata>Q31</wikidata>
+            <wikiData>Q31</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>52411</id>
@@ -1986,7 +1986,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2361809</geoNamesOrg>
-            <wikidata>Q965</wikidata>
+            <wikiData>Q965</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>192783</id>
@@ -2084,7 +2084,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>732800</geoNamesOrg>
-            <wikidata>Q219</wikidata>
+            <wikiData>Q219</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>186382</id>
@@ -2178,7 +2178,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>290291</geoNamesOrg>
-            <wikidata>Q398</wikidata>
+            <wikiData>Q398</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>378734</id>
@@ -2266,7 +2266,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>433561</geoNamesOrg>
-            <wikidata>Q967</wikidata>
+            <wikiData>Q967</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>195266</id>
@@ -2357,7 +2357,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2395170</geoNamesOrg>
-            <wikidata>Q962</wikidata>
+            <wikiData>Q962</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>192782</id>
@@ -2439,7 +2439,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3578476</geoNamesOrg>
-            <wikidata>Q25305</wikidata>
+            <wikiData>Q25305</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>1265297</id>
@@ -2519,7 +2519,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3573345</geoNamesOrg>
-            <wikidata>Q23635</wikidata>
+            <wikiData>Q23635</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>1993209</id>
@@ -2610,7 +2610,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1820814</geoNamesOrg>
-            <wikidata>Q921</wikidata>
+            <wikiData>Q921</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>1993209</id>
@@ -2725,7 +2725,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3923057</geoNamesOrg>
-            <wikidata>Q750</wikidata>
+            <wikiData>Q750</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>195267</id>
@@ -2815,7 +2815,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>7626844</geoNamesOrg>
-            <wikidata>Q25279</wikidata>
+            <wikiData>Q25279</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>1216720</id>
@@ -2942,7 +2942,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3469034</geoNamesOrg>
-            <wikidata>Q155</wikidata>
+            <wikiData>Q155</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>59470</id>
@@ -3020,7 +3020,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3572887</geoNamesOrg>
-            <wikidata>Q778</wikidata>
+            <wikiData>Q778</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>547469</id>
@@ -3104,7 +3104,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1252634</geoNamesOrg>
-            <wikidata>Q917</wikidata>
+            <wikiData>Q917</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>184629</id>
@@ -3174,7 +3174,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3371123</geoNamesOrg>
-            <wikidata>Q244</wikidata>
+            <wikiData>Q244</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>1749828</id>
@@ -3265,7 +3265,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>933860</geoNamesOrg>
-            <wikidata>Q963</wikidata>
+            <wikiData>Q963</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>1889339</id>
@@ -3360,7 +3360,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>630336</geoNamesOrg>
-            <wikidata>Q184</wikidata>
+            <wikiData>Q184</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>59065</id>
@@ -3452,7 +3452,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3582678</geoNamesOrg>
-            <wikidata>Q242</wikidata>
+            <wikiData>Q242</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>287827</id>
@@ -3601,7 +3601,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>6251999</geoNamesOrg>
-            <wikidata>Q16</wikidata>
+            <wikiData>Q16</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>1428125</id>
@@ -3686,7 +3686,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1547376</geoNamesOrg>
-            <wikidata>Q26988</wikidata>
+            <wikiData>Q26988</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>82610</id>
@@ -3787,7 +3787,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>203312</geoNamesOrg>
-            <wikidata>Q974</wikidata>
+            <wikiData>Q974</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>192795</id>
@@ -3880,7 +3880,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>239880</geoNamesOrg>
-            <wikidata>Q929</wikidata>
+            <wikiData>Q929</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>192793</id>
@@ -3973,7 +3973,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2260494</geoNamesOrg>
-            <wikidata>Q971</wikidata>
+            <wikiData>Q971</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>192790</id>
@@ -4079,7 +4079,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2658434</geoNamesOrg>
-            <wikidata>Q39</wikidata>
+            <wikiData>Q39</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>51701</id>
@@ -4177,7 +4177,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2287781</geoNamesOrg>
-            <wikidata>Q1008</wikidata>
+            <wikiData>Q1008</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>192780</id>
@@ -4254,7 +4254,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1899402</geoNamesOrg>
-            <wikidata>Q26988</wikidata>
+            <wikiData>Q26988</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>2186648</id>
@@ -4342,7 +4342,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3895114</geoNamesOrg>
-            <wikidata>Q298</wikidata>
+            <wikiData>Q298</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>167454</id>
@@ -4446,7 +4446,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2233387</geoNamesOrg>
-            <wikidata>Q1009</wikidata>
+            <wikiData>Q1009</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>192830</id>
@@ -4559,7 +4559,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1814991</geoNamesOrg>
-            <wikidata>Q148</wikidata>
+            <wikiData>Q148</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>270056</id>
@@ -4649,7 +4649,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3686110</geoNamesOrg>
-            <wikidata>Q739</wikidata>
+            <wikiData>Q739</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>120027</id>
@@ -4733,7 +4733,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3624060</geoNamesOrg>
-            <wikidata>Q800</wikidata>
+            <wikiData>Q800</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>121760</id>
@@ -4814,7 +4814,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3562981</geoNamesOrg>
-            <wikidata>Q241</wikidata>
+            <wikiData>Q241</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>307833</id>
@@ -4892,7 +4892,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3374766</geoNamesOrg>
-            <wikidata>Q1011</wikidata>
+            <wikiData>Q1011</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>536765</id>
@@ -4973,7 +4973,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>7626836</geoNamesOrg>
-            <wikidata>Q25279</wikidata>
+            <wikiData>Q25279</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>1273856</id>
@@ -5053,7 +5053,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2078138</geoNamesOrg>
-            <wikidata>Q31063</wikidata>
+            <wikiData>Q31063</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>82637</id>
@@ -5142,7 +5142,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>146669</geoNamesOrg>
-            <wikidata>Q229</wikidata>
+            <wikiData>Q229</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>307787</id>
@@ -5232,7 +5232,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3077311</geoNamesOrg>
-            <wikidata>Q213</wikidata>
+            <wikiData>Q213</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>51684</id>
@@ -5329,7 +5329,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2921044</geoNamesOrg>
-            <wikidata>Q183</wikidata>
+            <wikiData>Q183</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>51477</id>
@@ -5413,7 +5413,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>223816</geoNamesOrg>
-            <wikidata>Q977</wikidata>
+            <wikiData>Q977</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>192789</id>
@@ -5508,7 +5508,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2623032</geoNamesOrg>
-            <wikidata>Q35</wikidata>
+            <wikiData>Q35</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>50046</id>
@@ -5586,7 +5586,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3575830</geoNamesOrg>
-            <wikidata>Q784</wikidata>
+            <wikiData>Q784</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>307828</id>
@@ -5668,7 +5668,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3508796</geoNamesOrg>
-            <wikidata>Q786</wikidata>
+            <wikiData>Q786</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>307829</id>
@@ -5758,7 +5758,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2589581</geoNamesOrg>
-            <wikidata>Q262</wikidata>
+            <wikiData>Q262</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>192756</id>
@@ -5852,7 +5852,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3658394</geoNamesOrg>
-            <wikidata>Q736</wikidata>
+            <wikiData>Q736</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>307786</id>
@@ -5933,7 +5933,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>453733</geoNamesOrg>
-            <wikidata>Q191</wikidata>
+            <wikiData>Q191</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>79510</id>
@@ -6029,7 +6029,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>357994</geoNamesOrg>
-            <wikidata>Q79</wikidata>
+            <wikiData>Q79</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>1473946</id>
@@ -6109,7 +6109,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2461445</geoNamesOrg>
-            <wikidata>Q6250</wikidata>
+            <wikiData>Q6250</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>5441969</id>
@@ -6198,7 +6198,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>338010</geoNamesOrg>
-            <wikidata>Q986</wikidata>
+            <wikiData>Q986</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>1620601</id>
@@ -6308,7 +6308,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2510769</geoNamesOrg>
-            <wikidata>Q29</wikidata>
+            <wikiData>Q29</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>1311341</id>
@@ -6402,7 +6402,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>337996</geoNamesOrg>
-            <wikidata>Q115</wikidata>
+            <wikiData>Q115</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>192800</id>
@@ -6502,7 +6502,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>660013</geoNamesOrg>
-            <wikidata>Q33</wikidata>
+            <wikiData>Q33</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>54224</id>
@@ -6588,7 +6588,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2205218</geoNamesOrg>
-            <wikidata>Q712</wikidata>
+            <wikiData>Q712</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>2157446</id>
@@ -6664,7 +6664,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3474414</geoNamesOrg>
-            <wikidata>Q9648</wikidata>
+            <wikiData>Q9648</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>1993867</id>
@@ -6758,7 +6758,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2081918</geoNamesOrg>
-            <wikidata>Q702</wikidata>
+            <wikiData>Q702</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>571824</id>
@@ -6831,7 +6831,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2622320</geoNamesOrg>
-            <wikidata>Q4628</wikidata>
+            <wikiData>Q4628</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>52939</id>
@@ -6937,7 +6937,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3017382</geoNamesOrg>
-            <wikidata>Q142</wikidata>
+            <wikiData>Q142</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>1403916</id>
@@ -7024,7 +7024,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2400553</geoNamesOrg>
-            <wikidata>Q1000</wikidata>
+            <wikiData>Q1000</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>192794</id>
@@ -7131,7 +7131,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2635167</geoNamesOrg>
-            <wikidata>Q145</wikidata>
+            <wikiData>Q145</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>62149</id>
@@ -7211,7 +7211,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3580239</geoNamesOrg>
-            <wikidata>Q769</wikidata>
+            <wikiData>Q769</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>536899</id>
@@ -7308,7 +7308,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>614540</geoNamesOrg>
-            <wikidata>Q230</wikidata>
+            <wikiData>Q230</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>28699</id>
@@ -7397,7 +7397,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3381670</geoNamesOrg>
-            <wikidata>Q3769</wikidata>
+            <wikiData>Q3769</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>3407760</id>
@@ -7428,7 +7428,6 @@
         <currencies>
             <legalTenders>
                 <currency>GBP</currency>
-                <currency>GGP</currency>
             </legalTenders>
             <widelyAccepted/>
         </currencies>
@@ -7483,7 +7482,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3042362</geoNamesOrg>
-            <wikidata>Q25230</wikidata>
+            <wikiData>Q25230</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>93636</id>
@@ -7585,7 +7584,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2300660</geoNamesOrg>
-            <wikidata>Q117</wikidata>
+            <wikiData>Q117</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>192781</id>
@@ -7671,7 +7670,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2411586</geoNamesOrg>
-            <wikidata>Q1410</wikidata>
+            <wikiData>Q1410</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>1278737</id>
@@ -7755,7 +7754,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3425505</geoNamesOrg>
-            <wikidata>Q223</wikidata>
+            <wikiData>Q223</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>2184073</id>
@@ -7842,7 +7841,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2413451</geoNamesOrg>
-            <wikidata>Q1005</wikidata>
+            <wikiData>Q1005</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>192781</id>
@@ -7933,7 +7932,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2420477</geoNamesOrg>
-            <wikidata>Q1006</wikidata>
+            <wikiData>Q1006</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>192778</id>
@@ -8005,7 +8004,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3579143</geoNamesOrg>
-            <wikidata>Q17012</wikidata>
+            <wikiData>Q17012</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>3407643</id>
@@ -8097,7 +8096,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2309096</geoNamesOrg>
-            <wikidata>Q983</wikidata>
+            <wikiData>Q983</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>192781</id>
@@ -8190,7 +8189,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>390903</geoNamesOrg>
-            <wikidata>Q41</wikidata>
+            <wikiData>Q41</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>192782</id>
@@ -8318,7 +8317,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3474415</geoNamesOrg>
-            <wikidata>Q35086</wikidata>
+            <wikiData>Q35086</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>1983626</id>
@@ -8419,7 +8418,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3595528</geoNamesOrg>
-            <wikidata>Q774</wikidata>
+            <wikiData>Q774</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>1521463</id>
@@ -8506,7 +8505,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>4043988</geoNamesOrg>
-            <wikidata>Q16635</wikidata>
+            <wikiData>Q16635</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>306001</id>
@@ -8598,7 +8597,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2372248</geoNamesOrg>
-            <wikidata>Q1007</wikidata>
+            <wikiData>Q1007</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>192776</id>
@@ -8685,7 +8684,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3378535</geoNamesOrg>
-            <wikidata>Q734</wikidata>
+            <wikiData>Q734</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>192781</id>
@@ -8779,7 +8778,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1819730</geoNamesOrg>
-            <wikidata>Q8646</wikidata>
+            <wikiData>Q8646</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>913110</id>
@@ -8847,7 +8846,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1547314</geoNamesOrg>
-            <wikidata>Q131198</wikidata>
+            <wikiData>Q131198</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>2177227</id>
@@ -8935,7 +8934,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3608932</geoNamesOrg>
-            <wikidata>Q783</wikidata>
+            <wikiData>Q783</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>287670</id>
@@ -9016,7 +9015,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3202326</geoNamesOrg>
-            <wikidata>Q224</wikidata>
+            <wikiData>Q224</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>214885</id>
@@ -9096,7 +9095,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3723988</geoNamesOrg>
-            <wikidata>Q790</wikidata>
+            <wikiData>Q790</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>307833</id>
@@ -9180,7 +9179,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>719819</geoNamesOrg>
-            <wikidata>Q28</wikidata>
+            <wikiData>Q28</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>21335</id>
@@ -9285,7 +9284,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1643084</geoNamesOrg>
-            <wikidata>Q252</wikidata>
+            <wikiData>Q252</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>2134181</id>
@@ -9364,7 +9363,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2963597</geoNamesOrg>
-            <wikidata>Q27</wikidata>
+            <wikiData>Q27</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>62273</id>
@@ -9455,7 +9454,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>294640</geoNamesOrg>
-            <wikidata>Q801</wikidata>
+            <wikiData>Q801</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>1473946</id>
@@ -9549,7 +9548,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3042225</geoNamesOrg>
-            <wikidata>Q9676</wikidata>
+            <wikiData>Q9676</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>62000</id>
@@ -9689,7 +9688,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1269750</geoNamesOrg>
-            <wikidata>Q668</wikidata>
+            <wikiData>Q668</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>304716</id>
@@ -9762,7 +9761,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1282588</geoNamesOrg>
-            <wikidata>Q43448</wikidata>
+            <wikiData>Q43448</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>1993867</id>
@@ -9845,7 +9844,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>99237</geoNamesOrg>
-            <wikidata>Q796</wikidata>
+            <wikiData>Q796</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>304934</id>
@@ -9947,7 +9946,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>130758</geoNamesOrg>
-            <wikidata>Q794</wikidata>
+            <wikiData>Q794</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>304938</id>
@@ -10024,7 +10023,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2629691</geoNamesOrg>
-            <wikidata>Q189</wikidata>
+            <wikiData>Q189</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>299133</id>
@@ -10122,7 +10121,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3175395</geoNamesOrg>
-            <wikidata>Q38</wikidata>
+            <wikiData>Q38</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>365331</id>
@@ -10215,7 +10214,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3042142</geoNamesOrg>
-            <wikidata>Q785</wikidata>
+            <wikiData>Q785</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>367988</id>
@@ -10294,7 +10293,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3489940</geoNamesOrg>
-            <wikidata>Q766</wikidata>
+            <wikiData>Q766</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>53644</id>
@@ -10389,7 +10388,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>248816</geoNamesOrg>
-            <wikidata>Q810</wikidata>
+            <wikiData>Q810</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>1848181</id>
@@ -10468,7 +10467,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1861060</geoNamesOrg>
-            <wikidata>Q17</wikidata>
+            <wikiData>Q17</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>382313</id>
@@ -10574,7 +10573,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>192950</geoNamesOrg>
-            <wikidata>Q114</wikidata>
+            <wikiData>Q114</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>195271</id>
@@ -10660,7 +10659,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1527747</geoNamesOrg>
-            <wikidata>Q813</wikidata>
+            <wikiData>Q813</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>178009</id>
@@ -10752,7 +10751,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1831722</geoNamesOrg>
-            <wikidata>Q424</wikidata>
+            <wikiData>Q424</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>49898</id>
@@ -10832,7 +10831,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>4030945</geoNamesOrg>
-            <wikidata>Q710</wikidata>
+            <wikiData>Q710</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>2186468</id>
@@ -10914,7 +10913,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>921929</geoNamesOrg>
-            <wikidata>Q970</wikidata>
+            <wikiData>Q970</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>5357741</id>
@@ -10992,7 +10991,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3575174</geoNamesOrg>
-            <wikidata>Q763</wikidata>
+            <wikiData>Q763</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>536780</id>
@@ -11068,7 +11067,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1873107</geoNamesOrg>
-            <wikidata>Q423</wikidata>
+            <wikiData>Q423</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>192734</id>
@@ -11165,7 +11164,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1835841</geoNamesOrg>
-            <wikidata>Q884</wikidata>
+            <wikiData>Q884</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>307756</id>
@@ -11250,7 +11249,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>285570</geoNamesOrg>
-            <wikidata>Q817</wikidata>
+            <wikiData>Q817</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>305099</id>
@@ -11326,7 +11325,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3580718</geoNamesOrg>
-            <wikidata>Q5785</wikidata>
+            <wikiData>Q5785</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>536900</id>
@@ -11427,7 +11426,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1522867</geoNamesOrg>
-            <wikidata>Q232</wikidata>
+            <wikiData>Q232</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>214665</id>
@@ -11510,7 +11509,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1655842</geoNamesOrg>
-            <wikidata>Q819</wikidata>
+            <wikiData>Q819</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>49903</id>
@@ -11595,7 +11594,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>272103</geoNamesOrg>
-            <wikidata>Q822</wikidata>
+            <wikiData>Q822</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>184843</id>
@@ -11673,7 +11672,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3576468</geoNamesOrg>
-            <wikidata>Q760</wikidata>
+            <wikiData>Q760</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>536900</id>
@@ -11753,7 +11752,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3042058</geoNamesOrg>
-            <wikidata>Q347</wikidata>
+            <wikiData>Q347</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>1155955</id>
@@ -11838,7 +11837,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1227603</geoNamesOrg>
-            <wikidata>Q854</wikidata>
+            <wikiData>Q854</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>536807</id>
@@ -11926,7 +11925,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2275384</geoNamesOrg>
-            <wikidata>Q1014</wikidata>
+            <wikiData>Q1014</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>192780</id>
@@ -12007,7 +12006,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>932692</geoNamesOrg>
-            <wikidata>Q1015</wikidata>
+            <wikiData>Q1015</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>192781</id>
@@ -12090,7 +12089,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>597427</geoNamesOrg>
-            <wikidata>Q37</wikidata>
+            <wikiData>Q37</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>72594</id>
@@ -12182,7 +12181,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2960313</geoNamesOrg>
-            <wikidata>Q32</wikidata>
+            <wikiData>Q32</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>2171347</id>
@@ -12259,7 +12258,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>458258</geoNamesOrg>
-            <wikidata>Q211</wikidata>
+            <wikiData>Q211</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>72594</id>
@@ -12336,7 +12335,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2215636</geoNamesOrg>
-            <wikidata>Q1016</wikidata>
+            <wikiData>Q1016</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>192758</id>
@@ -12427,7 +12426,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2542007</geoNamesOrg>
-            <wikidata>Q1028</wikidata>
+            <wikiData>Q1028</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>363043</id>
@@ -12511,7 +12510,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2993457</geoNamesOrg>
-            <wikidata>Q235</wikidata>
+            <wikiData>Q235</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>1124038</id>
@@ -12590,7 +12589,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>617790</geoNamesOrg>
-            <wikidata>Q217</wikidata>
+            <wikiData>Q217</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>58974</id>
@@ -12675,7 +12674,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3194884</geoNamesOrg>
-            <wikidata>Q236</wikidata>
+            <wikiData>Q236</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>53296</id>
@@ -12752,7 +12751,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3578421</geoNamesOrg>
-            <wikidata>Q34617</wikidata>
+            <wikiData>Q34617</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>307828</id>
@@ -12832,7 +12831,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1062947</geoNamesOrg>
-            <wikidata>Q1019</wikidata>
+            <wikiData>Q1019</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>2555066</id>
@@ -12911,7 +12910,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2080185</geoNamesOrg>
-            <wikidata>Q709</wikidata>
+            <wikiData>Q709</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>571780</id>
@@ -12991,7 +12990,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>718075</geoNamesOrg>
-            <wikidata>Q221</wikidata>
+            <wikiData>Q221</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>53294</id>
@@ -13079,7 +13078,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2453866</geoNamesOrg>
-            <wikidata>Q912</wikidata>
+            <wikiData>Q912</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>192785</id>
@@ -13160,7 +13159,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1327865</geoNamesOrg>
-            <wikidata>Q836</wikidata>
+            <wikiData>Q836</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>50371</id>
@@ -13249,7 +13248,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2029969</geoNamesOrg>
-            <wikidata>Q711</wikidata>
+            <wikiData>Q711</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>161033</id>
@@ -13331,7 +13330,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1821275</geoNamesOrg>
-            <wikidata>Q14773</wikidata>
+            <wikiData>Q14773</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>102199</id>
@@ -13409,7 +13408,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>4041468</geoNamesOrg>
-            <wikidata>Q16641</wikidata>
+            <wikiData>Q16641</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>306004</id>
@@ -13484,7 +13483,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3570311</geoNamesOrg>
-            <wikidata>Q17054</wikidata>
+            <wikiData>Q17054</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>2473087</id>
@@ -13577,7 +13576,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2378080</geoNamesOrg>
-            <wikidata>Q1025</wikidata>
+            <wikiData>Q1025</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>192763</id>
@@ -13655,7 +13654,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3578097</geoNamesOrg>
-            <wikidata>Q13353</wikidata>
+            <wikiData>Q13353</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>537077</id>
@@ -13735,7 +13734,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2562770</geoNamesOrg>
-            <wikidata>Q233</wikidata>
+            <wikiData>Q233</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>365307</id>
@@ -13826,7 +13825,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>934292</geoNamesOrg>
-            <wikidata>Q1027</wikidata>
+            <wikiData>Q1027</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>535682</id>
@@ -13904,7 +13903,7 @@
         <localesIcu/>
         <otherAppsIds>
             <geoNamesOrg>1282028</geoNamesOrg>
-            <wikidata>Q912</wikidata>
+            <wikiData>Q912</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>536765</id>
@@ -13990,7 +13989,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>927384</geoNamesOrg>
-            <wikidata>Q1020</wikidata>
+            <wikiData>Q1020</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>195270</id>
@@ -14084,7 +14083,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3996063</geoNamesOrg>
-            <wikidata>Q96</wikidata>
+            <wikiData>Q96</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>114686</id>
@@ -14180,7 +14179,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1733045</geoNamesOrg>
-            <wikidata>Q833</wikidata>
+            <wikiData>Q833</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>2108121</id>
@@ -14260,7 +14259,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1036973</geoNamesOrg>
-            <wikidata>Q1029</wikidata>
+            <wikiData>Q1029</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>195270</id>
@@ -14352,7 +14351,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3355338</geoNamesOrg>
-            <wikidata>Q1030</wikidata>
+            <wikiData>Q1030</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>195273</id>
@@ -14429,7 +14428,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2139685</geoNamesOrg>
-            <wikidata>Q33788</wikidata>
+            <wikiData>Q33788</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>341129</id>
@@ -14519,7 +14518,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2440476</geoNamesOrg>
-            <wikidata>Q1032</wikidata>
+            <wikiData>Q1032</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>192785</id>
@@ -14595,7 +14594,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2155115</geoNamesOrg>
-            <wikidata>Q31057</wikidata>
+            <wikiData>Q31057</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>2177248</id>
@@ -14693,7 +14692,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2328926</geoNamesOrg>
-            <wikidata>Q1033</wikidata>
+            <wikiData>Q1033</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>192785</id>
@@ -14778,7 +14777,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3617476</geoNamesOrg>
-            <wikidata>Q811</wikidata>
+            <wikiData>Q811</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>287666</id>
@@ -14884,7 +14883,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2750405</geoNamesOrg>
-            <wikidata>Q55</wikidata>
+            <wikiData>Q55</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>47796</id>
@@ -14977,7 +14976,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3144096</geoNamesOrg>
-            <wikidata>Q20</wikidata>
+            <wikiData>Q20</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>2978650</id>
@@ -15069,7 +15068,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1282988</geoNamesOrg>
-            <wikidata>Q837</wikidata>
+            <wikiData>Q837</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>184633</id>
@@ -15147,7 +15146,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2110425</geoNamesOrg>
-            <wikidata>Q697</wikidata>
+            <wikiData>Q697</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>571805</id>
@@ -15225,7 +15224,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>4036232</geoNamesOrg>
-            <wikidata>Q34020</wikidata>
+            <wikiData>Q34020</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>2177229</id>
@@ -15311,7 +15310,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2186224</geoNamesOrg>
-            <wikidata>Q664</wikidata>
+            <wikiData>Q664</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>556706</id>
@@ -15389,7 +15388,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>286963</geoNamesOrg>
-            <wikidata>Q842</wikidata>
+            <wikiData>Q842</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>305138</id>
@@ -15472,7 +15471,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3703430</geoNamesOrg>
-            <wikidata>Q804</wikidata>
+            <wikiData>Q804</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>287668</id>
@@ -15559,7 +15558,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3932488</geoNamesOrg>
-            <wikidata>Q419</wikidata>
+            <wikiData>Q419</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>288247</id>
@@ -15648,7 +15647,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>4030656</geoNamesOrg>
-            <wikidata>Q30971</wikidata>
+            <wikiData>Q30971</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>3412620</id>
@@ -15732,7 +15731,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2088628</geoNamesOrg>
-            <wikidata>Q691</wikidata>
+            <wikiData>Q691</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>288084</id>
@@ -15829,7 +15828,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1694008</geoNamesOrg>
-            <wikidata>Q928</wikidata>
+            <wikiData>Q928</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>443174</id>
@@ -15933,7 +15932,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1168579</geoNamesOrg>
-            <wikidata>Q843</wikidata>
+            <wikiData>Q843</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>307573</id>
@@ -16015,7 +16014,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>798544</geoNamesOrg>
-            <wikidata>Q36</wikidata>
+            <wikiData>Q36</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>49715</id>
@@ -16091,7 +16090,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3424932</geoNamesOrg>
-            <wikidata>Q34617</wikidata>
+            <wikiData>Q34617</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>3406825</id>
@@ -16169,7 +16168,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>4030699</geoNamesOrg>
-            <wikidata>Q35672</wikidata>
+            <wikiData>Q35672</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>2185373</id>
@@ -16250,7 +16249,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>4566966</geoNamesOrg>
-            <wikidata>Q1183</wikidata>
+            <wikiData>Q1183</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>442260</id>
@@ -16321,7 +16320,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>6254930</geoNamesOrg>
-            <wikidata>Q219060</wikidata>
+            <wikiData>Q219060</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>1703814</id>
@@ -16401,7 +16400,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2264397</geoNamesOrg>
-            <wikidata>Q45</wikidata>
+            <wikiData>Q45</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>295480</id>
@@ -16485,7 +16484,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1559582</geoNamesOrg>
-            <wikidata>Q695</wikidata>
+            <wikiData>Q695</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>571802</id>
@@ -16566,7 +16565,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3437598</geoNamesOrg>
-            <wikidata>Q733</wikidata>
+            <wikiData>Q733</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>287077</id>
@@ -16658,7 +16657,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>289688</geoNamesOrg>
-            <wikidata>Q846</wikidata>
+            <wikiData>Q846</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>305091</id>
@@ -16736,7 +16735,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>935317</geoNamesOrg>
-            <wikidata>Q2181</wikidata>
+            <wikiData>Q2181</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>935317</id>
@@ -16816,7 +16815,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>798549</geoNamesOrg>
-            <wikidata>Q218</wikidata>
+            <wikiData>Q218</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>90689</id>
@@ -16907,7 +16906,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>6290252</geoNamesOrg>
-            <wikidata>Q403</wikidata>
+            <wikiData>Q403</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>1741311</id>
@@ -17036,7 +17035,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2017370</geoNamesOrg>
-            <wikidata>Q159</wikidata>
+            <wikiData>Q159</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>60189</id>
@@ -17120,7 +17119,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>49518</geoNamesOrg>
-            <wikidata>Q1037</wikidata>
+            <wikiData>Q1037</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>171496</id>
@@ -17215,7 +17214,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>102358</geoNamesOrg>
-            <wikidata>Q851</wikidata>
+            <wikiData>Q851</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>307584</id>
@@ -17296,7 +17295,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2103350</geoNamesOrg>
-            <wikidata>Q685</wikidata>
+            <wikiData>Q685</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>2851649</id>
@@ -17378,7 +17377,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>241170</geoNamesOrg>
-            <wikidata>Q1042</wikidata>
+            <wikiData>Q1042</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>536765</id>
@@ -17468,7 +17467,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>366755</geoNamesOrg>
-            <wikidata>Q1049</wikidata>
+            <wikiData>Q1049</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>192789</id>
@@ -17566,7 +17565,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2661886</geoNamesOrg>
-            <wikidata>Q34</wikidata>
+            <wikiData>Q34</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>52822</id>
@@ -17683,7 +17682,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1880251</geoNamesOrg>
-            <wikidata>Q334</wikidata>
+            <wikiData>Q334</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>536780</id>
@@ -17759,7 +17758,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3370751</geoNamesOrg>
-            <wikidata>Q192184</wikidata>
+            <wikiData>Q192184</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>1964272</id>
@@ -17840,7 +17839,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3190538</geoNamesOrg>
-            <wikidata>Q215</wikidata>
+            <wikiData>Q215</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>218657</id>
@@ -17919,7 +17918,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>607072</geoNamesOrg>
-            <wikidata>Q104235</wikidata>
+            <wikiData>Q104235</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>1229689</id>
@@ -18001,7 +18000,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3057568</geoNamesOrg>
-            <wikidata>Q214</wikidata>
+            <wikiData>Q214</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>14296</id>
@@ -18086,7 +18085,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2403846</geoNamesOrg>
-            <wikidata>Q1044</wikidata>
+            <wikiData>Q1044</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>192781</id>
@@ -18164,7 +18163,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3168068</geoNamesOrg>
-            <wikidata>Q238</wikidata>
+            <wikiData>Q238</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>53636</id>
@@ -18252,7 +18251,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2245662</geoNamesOrg>
-            <wikidata>Q1041</wikidata>
+            <wikiData>Q1041</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>192785</id>
@@ -18327,7 +18326,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>51537</geoNamesOrg>
-            <wikidata>Q1045</wikidata>
+            <wikiData>Q1045</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>192799</id>
@@ -18412,7 +18411,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3382998</geoNamesOrg>
-            <wikidata>Q730</wikidata>
+            <wikiData>Q730</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>287082</id>
@@ -18498,7 +18497,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>7909807</geoNamesOrg>
-            <wikidata>Q958</wikidata>
+            <wikiData>Q958</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>54094</id>
@@ -18579,7 +18578,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2410758</geoNamesOrg>
-            <wikidata>Q1039</wikidata>
+            <wikiData>Q1039</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>192793</id>
@@ -18659,7 +18658,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3585968</geoNamesOrg>
-            <wikidata>Q792</wikidata>
+            <wikiData>Q792</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>1520612</id>
@@ -18747,7 +18746,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>7609695</geoNamesOrg>
-            <wikidata>Q26273</wikidata>
+            <wikiData>Q26273</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>85036</id>
@@ -18839,7 +18838,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>163843</geoNamesOrg>
-            <wikidata>Q858</wikidata>
+            <wikiData>Q858</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>184840</id>
@@ -18919,7 +18918,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>934841</geoNamesOrg>
-            <wikidata>Q1050</wikidata>
+            <wikiData>Q1050</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>88210</id>
@@ -18995,7 +18994,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3576916</geoNamesOrg>
-            <wikidata>Q18221</wikidata>
+            <wikiData>Q18221</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>547469</id>
@@ -19086,7 +19085,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2434508</geoNamesOrg>
-            <wikidata>Q657</wikidata>
+            <wikiData>Q657</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>192789</id>
@@ -19166,7 +19165,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1546748</geoNamesOrg>
-            <wikidata>Q129003</wikidata>
+            <wikiData>Q129003</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>1269755</id>
@@ -19251,7 +19250,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2363686</geoNamesOrg>
-            <wikidata>Q945</wikidata>
+            <wikiData>Q945</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>192784</id>
@@ -19347,7 +19346,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1605651</geoNamesOrg>
-            <wikidata>Q869</wikidata>
+            <wikiData>Q869</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>2067731</id>
@@ -19428,7 +19427,7 @@
         <localesIcu/>
         <otherAppsIds>
             <geoNamesOrg>1220409</geoNamesOrg>
-            <wikidata>Q863</wikidata>
+            <wikiData>Q863</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>214626</id>
@@ -19508,7 +19507,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>4031074</geoNamesOrg>
-            <wikidata>Q33707</wikidata>
+            <wikiData>Q33707</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>2186648</id>
@@ -19594,7 +19593,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1966436</geoNamesOrg>
-            <wikidata>Q574</wikidata>
+            <wikiData>Q574</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>1221918</id>
@@ -19678,7 +19677,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1218197</geoNamesOrg>
-            <wikidata>Q874</wikidata>
+            <wikiData>Q874</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>223026</id>
@@ -19760,7 +19759,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2464461</geoNamesOrg>
-            <wikidata>Q948</wikidata>
+            <wikiData>Q948</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>192757</id>
@@ -19841,7 +19840,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>4032283</geoNamesOrg>
-            <wikidata>Q678</wikidata>
+            <wikiData>Q678</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>2186658</id>
@@ -19938,7 +19937,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>298795</geoNamesOrg>
-            <wikidata>Q43</wikidata>
+            <wikiData>Q43</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>174737</id>
@@ -20021,7 +20020,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3573591</geoNamesOrg>
-            <wikidata>Q754</wikidata>
+            <wikiData>Q754</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>555717</id>
@@ -20102,7 +20101,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2110297</geoNamesOrg>
-            <wikidata>Q672</wikidata>
+            <wikiData>Q672</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>2177266</id>
@@ -20207,7 +20206,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1668284</geoNamesOrg>
-            <wikidata>Q865</wikidata>
+            <wikiData>Q865</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>449220</id>
@@ -20305,7 +20304,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>149590</geoNamesOrg>
-            <wikidata>Q924</wikidata>
+            <wikiData>Q924</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>195270</id>
@@ -20402,7 +20401,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>690791</geoNamesOrg>
-            <wikidata>Q212</wikidata>
+            <wikiData>Q212</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>60199</id>
@@ -20505,7 +20504,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>226074</geoNamesOrg>
-            <wikidata>Q1036</wikidata>
+            <wikiData>Q1036</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>192796</id>
@@ -20589,7 +20588,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>5854968</geoNamesOrg>
-            <wikidata>Q16644</wikidata>
+            <wikiData>Q16644</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>306001</id>
@@ -20730,7 +20729,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>6252001</geoNamesOrg>
-            <wikidata>Q30</wikidata>
+            <wikiData>Q30</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>148838</id>
@@ -20810,7 +20809,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3439705</geoNamesOrg>
-            <wikidata>Q77</wikidata>
+            <wikiData>Q77</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>287827</id>
@@ -20896,7 +20895,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1512440</geoNamesOrg>
-            <wikidata>Q265</wikidata>
+            <wikiData>Q265</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>196240</id>
@@ -20976,7 +20975,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3164670</geoNamesOrg>
-            <wikidata>Q237</wikidata>
+            <wikiData>Q237</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>36989</id>
@@ -21054,7 +21053,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3577815</geoNamesOrg>
-            <wikidata>Q757</wikidata>
+            <wikiData>Q757</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>536900</id>
@@ -21135,7 +21134,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3625428</geoNamesOrg>
-            <wikidata>Q717</wikidata>
+            <wikiData>Q717</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>272644</id>
@@ -21213,7 +21212,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3577718</geoNamesOrg>
-            <wikidata>Q25305</wikidata>
+            <wikiData>Q25305</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>537742</id>
@@ -21293,7 +21292,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>4796775</geoNamesOrg>
-            <wikidata>Q11703</wikidata>
+            <wikiData>Q11703</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>306065</id>
@@ -21375,7 +21374,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1562822</geoNamesOrg>
-            <wikidata>Q881</wikidata>
+            <wikiData>Q881</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>49915</id>
@@ -21464,7 +21463,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>2134431</geoNamesOrg>
-            <wikidata>Q686</wikidata>
+            <wikiData>Q686</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>2177266</id>
@@ -21543,7 +21542,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>4034749</geoNamesOrg>
-            <wikidata>Q35555</wikidata>
+            <wikiData>Q35555</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>3411136</id>
@@ -21622,7 +21621,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>4034894</geoNamesOrg>
-            <wikidata>Q683</wikidata>
+            <wikiData>Q683</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>2186601</id>
@@ -21706,7 +21705,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>831053</geoNamesOrg>
-            <wikidata>Q1246</wikidata>
+            <wikiData>Q1246</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>53292</id>
@@ -21797,7 +21796,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>69543</geoNamesOrg>
-            <wikidata>Q805</wikidata>
+            <wikiData>Q805</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>305092</id>
@@ -21882,7 +21881,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1024031</geoNamesOrg>
-            <wikidata>Q17063</wikidata>
+            <wikiData>Q17063</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>3416822</id>
@@ -21998,7 +21997,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>953987</geoNamesOrg>
-            <wikidata>Q258</wikidata>
+            <wikiData>Q258</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>87565</id>
@@ -22087,7 +22086,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>895949</geoNamesOrg>
-            <wikidata>Q953</wikidata>
+            <wikiData>Q953</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>195271</id>
@@ -22191,7 +22190,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>878675</geoNamesOrg>
-            <wikidata>Q954</wikidata>
+            <wikiData>Q954</wikiData>
             <openStreetMap>
                 <type>relation</type>
                 <id>195270</id>
