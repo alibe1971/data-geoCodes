@@ -50,6 +50,14 @@ global.APP = {
                     'text'
                 ]
             },
+            ccIdn: {
+                internalProperties: [
+                    'unicode',
+                    'punycode',
+                    'language',
+                    'regionsOfUse'
+                ]
+            },
             languages: {
                 categories: [
                     'official',

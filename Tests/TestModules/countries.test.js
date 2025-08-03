@@ -1,5 +1,7 @@
 import { setupApp } from '../setupTests';
 import {countries} from "../../Data/built/node/countries";
+// import {requirements} from "../../Lib/utils";
+// import {configBuild} from "../../Lib/configBuild";
 
 let defTranslation;
 let defLang;
@@ -276,6 +278,36 @@ for (const country of Object.values(countries)) {
             ).toBe(true);
         });
 
+        /** ccIdn **/
+        test(`Test that the country '${country.alpha2}' has the property 'ccIdn' as array`, () => {
+            expect(Array.isArray(country.ccIdn)).toBe(true);
+        });
+        test(`Test that the country '${country.alpha2}' has the property 'ccIdn' well formatted`, () => {
+            for (const ccIdnGr of Object.values(country.ccIdn)) {
+                expect(
+                    typeof ccIdnGr === 'object' && ccIdnGr !== null &&
+                    !Array.isArray(ccIdnGr) && Object.entries(ccIdnGr).length !== 0
+                ).toBe(true);
+                for (const intVals of Object.values(global.APP.extra.countries.ccIdn.internalProperties)) {
+                    expect(ccIdnGr.hasOwnProperty(intVals)).toBe(true);
+                    switch (intVals) {
+                    case 'unicode':
+                    case 'punycode':
+                    case 'language':
+                        expect(
+                            typeof ccIdnGr[intVals] === 'string' && ccIdnGr[intVals].length !=0
+                        ).toBe(true);
+                        break;
+                    case 'regionsOfUse':
+                        expect(Array.isArray(ccIdnGr[intVals]) && Object.entries(ccIdnGr[intVals]).length != 0)
+                        break;
+                    default:
+                        // nothing
+                    }
+                }
+            }
+        });
+
         /** timeZones **/
         test(`Test that the country '${country.alpha2}' has the property 'timeZones' as not empty array`, () => {
             expect(
@@ -293,29 +325,31 @@ for (const country of Object.values(countries)) {
                 Object.entries(country.languages).length == Object.entries(global.APP.extra.countries.languages.categories).length
             ).toBe(true);
         });
-        // test(`Test that the country '${country.alpha2}' has the property 'mottos' well formatted`, () => {
-        //     for (const cat of global.APP.extra.countries.mottos.categories) {
-        //         expect(
-        //             country.mottos.hasOwnProperty(cat) &&
-        //             typeof country.mottos[cat] == 'object' &&
-        //             country.mottos[cat] !== null &&
-        //             Array.isArray(country.mottos[cat])
-        //         ).toBe(true);
-        //         if (country.mottos[cat].length != 0) {
-        //             for (const mottosGr of country.mottos[cat]) {
-        //                 expect(typeof mottosGr === 'object' && mottosGr !== null).toBe(true);
-        //                 expect(
-        //                     mottosGr.hasOwnProperty('text') &&
-        //                     typeof mottosGr.text === 'object' && mottosGr.text !== null &&
-        //                     Object.entries(mottosGr.text).length != 0
-        //                 ).toBe(true);
-        //                 for ( const [lang, motto] of Object.entries(mottosGr.text) ) {
-        //                     expect(typeof motto === 'string' && motto.length != 0).toBe(true);
-        //                 }
-        //             }
-        //         }
-        //     }
-        // });
+        test(`Test that the country '${country.alpha2}' has the property 'languages' well formatted`, () => {
+            for (const cat of global.APP.extra.countries.languages.categories) {
+                expect(
+                    country.languages.hasOwnProperty(cat) &&
+                    typeof country.languages[cat] == 'object' &&
+                    country.languages[cat] !== null
+                ).toBe(true);
+                if (Object.prototype.hasOwnProperty.call(global.APP.extra.countries.languages.subCategories, cat)) {
+                    for (const sub of Object.values(global.APP.extra.countries.languages.subCategories[cat])) {
+                        expect(
+                            country.languages[cat].hasOwnProperty(sub) &&
+                            Array.isArray(country.languages[cat][sub])
+                        ).toBe(true);
+                        for (const lang of Object.values(country.languages[cat][sub])) {
+                            expect(typeof lang === 'string' && lang.length != 0).toBe(true);
+                        }
+                    }
+                } else {
+                    expect(Array.isArray(country.languages[cat])).toBe(true);
+                    for (const lang of Object.values(country.languages[cat])) {
+                        expect(typeof lang === 'string' && lang.length != 0).toBe(true);
+                    }
+                }
+            }
+        });
 
         /** localesIcu **/
         test(`Test that the country '${country.alpha2}' has the property 'localesIcu' as array`, () => {
