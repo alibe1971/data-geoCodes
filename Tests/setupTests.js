@@ -33,6 +33,46 @@ global.APP = {
         countries: {},
         currencies: {},
         geoSets: {}
+    },
+    extra: {
+        countries: {
+            mottos: {
+                categories: [
+                    'official',
+                    'popular',
+                    'founding',
+                    'presidential',
+                    'royal',
+                    'military',
+                    'historical'
+                ],
+                subCategories: [
+                    'text'
+                ]
+            },
+            languages: {
+                categories: [
+                    'official',
+                    'regional',
+                    'widelySpoken',
+                    'localCommunities',
+                    'extraTerritorialCommunities',
+                    'signs',
+                    'dialects'
+                ],
+                subCategories: {
+                    official: [
+                        'deJure',
+                        'deFacto'
+                    ],
+                    signs: [
+                        'official',
+                        'recognized',
+                        'used'
+                    ]
+                }
+            }
+        }
     }
 };
 

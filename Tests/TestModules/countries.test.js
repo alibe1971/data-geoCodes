@@ -145,8 +145,32 @@ for (const country of Object.values(countries)) {
         test(`Test that the country '${country.alpha2}' has the property 'mottos' as object`, () => {
             expect(
                 country.hasOwnProperty('mottos') &&
-                typeof country.mottos === 'object' && country.mottos !== null
+                typeof country.mottos === 'object' && country.mottos !== null &&
+                Object.entries(country.mottos).length == Object.entries(global.APP.extra.countries.mottos.categories).length
             ).toBe(true);
+        });
+        test(`Test that the country '${country.alpha2}' has the property 'mottos' well formatted`, () => {
+            for (const cat of global.APP.extra.countries.mottos.categories) {
+                expect(
+                    country.mottos.hasOwnProperty(cat) &&
+                    typeof country.mottos[cat] == 'object' &&
+                    country.mottos[cat] !== null &&
+                    Array.isArray(country.mottos[cat])
+                ).toBe(true);
+                if (country.mottos[cat].length != 0) {
+                    for (const mottosGr of country.mottos[cat]) {
+                        expect(typeof mottosGr === 'object' && mottosGr !== null).toBe(true);
+                        expect(
+                            mottosGr.hasOwnProperty('text') &&
+                            typeof mottosGr.text === 'object' && mottosGr.text !== null &&
+                            Object.entries(mottosGr.text).length != 0
+                        ).toBe(true);
+                        for ( const [lang, motto] of Object.entries(mottosGr.text) ) {
+                            expect(typeof motto === 'string' && motto.length != 0).toBe(true);
+                        }
+                    }
+                }
+            }
         });
 
         /** currencies **/
@@ -197,13 +221,25 @@ for (const country of Object.values(countries)) {
                 !Array.isArray(country.dialCodes)
             ).toBe(true);
         });
-        test(`Test that the country '${country.alpha2}' has the property 'dialCodes.main' as array`, () => {
+        test(`Test that the country '${country.alpha2}' has the property 'dialCodes.deJure' as array`, () => {
             expect(
-                country.dialCodes.hasOwnProperty('main') && Array.isArray(country.dialCodes.main)
+                country.dialCodes.hasOwnProperty('deJure') && Array.isArray(country.dialCodes.deJure)
             ).toBe(true);
         });
-        test(`Test that the country '${country.alpha2}' has the 'dialCodes.main' values with the right format`, () => {
-            for (const phone of country.dialCodes.main) {
+        test(`Test that the country '${country.alpha2}' has the 'dialCodes.deJure' values with the right format`, () => {
+            for (const phone of country.dialCodes.deJure) {
+                expect(
+                    typeof phone === 'string' && /^\+\d+$/.test(phone)
+                ).toBe(true);
+            }
+        });
+        test(`Test that the country '${country.alpha2}' has the property 'dialCodes.deFacto' as array`, () => {
+            expect(
+                country.dialCodes.hasOwnProperty('deFacto') && Array.isArray(country.dialCodes.deFacto)
+            ).toBe(true);
+        });
+        test(`Test that the country '${country.alpha2}' has the 'dialCodes.deFacto' values with the right format`, () => {
+            for (const phone of country.dialCodes.deFacto) {
                 expect(
                     typeof phone === 'string' && /^\+\d+$/.test(phone)
                 ).toBe(true);
@@ -215,9 +251,18 @@ for (const country of Object.values(countries)) {
             ).toBe(true);
         });
         test(`Test that the country '${country.alpha2}' has the 'dialCodes.exceptions' values with the right format`, () => {
-            for (const phone of country.dialCodes.exceptions) {
+            for (const phoneExc of country.dialCodes.exceptions) {
+                expect(typeof phoneExc === 'object' && phoneExc !== null ).toBe(true);
                 expect(
-                    typeof phone === 'string' && /^\+\d+$/.test(phone)
+                    phoneExc.hasOwnProperty('code') &&
+                    typeof phoneExc.code === 'string' &&
+                    /^(\d+)$/.test(phoneExc.code)
+                ).toBe(true);
+                expect(
+                    phoneExc.hasOwnProperty('origin') &&
+                    typeof phoneExc.origin === 'string' &&
+                    /^[A-Z]{2}$/.test(phoneExc.origin) &&
+                    typeof countries.find(item => item['alpha2'] === phoneExc.origin) !== 'undefined'
                 ).toBe(true);
             }
         });
@@ -241,7 +286,36 @@ for (const country of Object.values(countries)) {
         });
 
         /** languages **/
-        // [TODO]
+        test(`Test that the country '${country.alpha2}' has the property 'languages' as object`, () => {
+            expect(
+                country.hasOwnProperty('languages') &&
+                typeof country.languages === 'object' && country.languages !== null &&
+                Object.entries(country.languages).length == Object.entries(global.APP.extra.countries.languages.categories).length
+            ).toBe(true);
+        });
+        // test(`Test that the country '${country.alpha2}' has the property 'mottos' well formatted`, () => {
+        //     for (const cat of global.APP.extra.countries.mottos.categories) {
+        //         expect(
+        //             country.mottos.hasOwnProperty(cat) &&
+        //             typeof country.mottos[cat] == 'object' &&
+        //             country.mottos[cat] !== null &&
+        //             Array.isArray(country.mottos[cat])
+        //         ).toBe(true);
+        //         if (country.mottos[cat].length != 0) {
+        //             for (const mottosGr of country.mottos[cat]) {
+        //                 expect(typeof mottosGr === 'object' && mottosGr !== null).toBe(true);
+        //                 expect(
+        //                     mottosGr.hasOwnProperty('text') &&
+        //                     typeof mottosGr.text === 'object' && mottosGr.text !== null &&
+        //                     Object.entries(mottosGr.text).length != 0
+        //                 ).toBe(true);
+        //                 for ( const [lang, motto] of Object.entries(mottosGr.text) ) {
+        //                     expect(typeof motto === 'string' && motto.length != 0).toBe(true);
+        //                 }
+        //             }
+        //         }
+        //     }
+        // });
 
         /** localesIcu **/
         test(`Test that the country '${country.alpha2}' has the property 'localesIcu' as array`, () => {
@@ -266,6 +340,47 @@ for (const country of Object.values(countries)) {
                 (
                     (Number.isInteger(country.otherAppsIds.geoNamesOrg) && country.otherAppsIds.geoNamesOrg != 0) ||
                     country.otherAppsIds.geoNamesOrg === null
+                )
+            ).toBe(true);
+        });
+        test(`Test that for the country '${country.alpha2}', 'otherAppsIds' has property 'wikiData' as null or string`, () => {
+            expect(
+                country.otherAppsIds.hasOwnProperty('wikiData') &&
+                (
+                    (
+                        typeof country.otherAppsIds.wikiData === 'string' &&
+                        /^Q[1-9][0-9]*$/.test(country.otherAppsIds.wikiData)
+                    ) ||
+                    country.otherAppsIds.wikiData === null
+                )
+            ).toBe(true);
+        });
+        test(`Test that for the country '${country.alpha2}', 'otherAppsIds' has property 'openStreetMap' as object`, () => {
+            expect(
+                country.otherAppsIds.hasOwnProperty('openStreetMap') &&
+                typeof country.otherAppsIds.openStreetMap === 'object' &&
+                country.otherAppsIds.openStreetMap !== null
+            ).toBe(true);
+        });
+        test(`Test that for the country '${country.alpha2}', 'otherAppsIds.openStreetMap' is correctly formatted`, () => {
+            expect(
+                country.otherAppsIds.openStreetMap.hasOwnProperty('type') &&
+                (
+                    (
+                        typeof country.otherAppsIds.openStreetMap.type === 'string' &&
+                        /^(node|way|relation)$/.test(country.otherAppsIds.openStreetMap.type)
+                    ) ||
+                    country.otherAppsIds.openStreetMap.type === null
+                )
+            ).toBe(true);
+            expect(
+                country.otherAppsIds.openStreetMap.hasOwnProperty('id') &&
+                (
+                    (
+                        Number.isInteger(country.otherAppsIds.openStreetMap.id) &&
+                        country.otherAppsIds.openStreetMap.id != 0
+                    ) ||
+                    country.otherAppsIds.openStreetMap.id === null
                 )
             ).toBe(true);
         });

@@ -476,15 +476,16 @@ export const countriesFunctions = {
             country.timeZones = item.timeZones;
 
             /** languages: */
+            let languages = {};
             if (!Object.prototype.hasOwnProperty.call(item, 'languages')) {
                 item.languages = {};
             }
             for (const cat of configBuild.extra.countries.languages.categories) {
-                if (cat === 'official' || cat === 'signs') {
+                if (Object.prototype.hasOwnProperty.call(configBuild.extra.countries.languages.subCategories, cat)) {
+                    languages[cat] = {};
                     if (!Object.prototype.hasOwnProperty.call(item.languages, cat)) {
                         item.languages[cat] = {};
                     }
-
                     for (const sub of configBuild.extra.countries.languages.subCategories[cat]) {
                         if (!Object.prototype.hasOwnProperty.call(item.languages[cat], sub)) {
                             item.languages[cat][sub] = [];
@@ -505,13 +506,12 @@ export const countriesFunctions = {
                                     `The value '${lang}' has not a ISO 639 valid format`);
                             }
                         });
-                        item.languages[cat][sub] = list;
+                        languages[cat][sub] = list;
                     }
                 } else {
                     if (!Object.prototype.hasOwnProperty.call(item.languages, cat)) {
                         item.languages[cat] = [];
                     }
-
                     let list = item.languages[cat]
                         .map(lang => lang.toLowerCase())
                         .filter((lang, index, self) => self.indexOf(lang) === index);
@@ -529,12 +529,10 @@ export const countriesFunctions = {
                                 `The value '${lang}' has not a ISO 639 valid format`);
                         }
                     });
-
-                    item.languages[cat] = list;
+                    languages[cat] = list;
                 }
             }
-
-            country.languages = item.languages;
+            country.languages = languages;
 
             /** localesIcu: must be present and must be a not empty array */
             let localesIcu = [];

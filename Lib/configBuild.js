@@ -111,7 +111,8 @@ export const configBuild = {
                     'widelySpoken',
                     'localCommunities',
                     'extraTerritorialCommunities',
-                    'signs'
+                    'signs',
+                    'dialects'
                 ],
                 subCategories: {
                     official: [
