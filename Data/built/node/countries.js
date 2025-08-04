@@ -97,10 +97,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3041565,
             wikiData: "Q228",
-            openStreetMap: {
-                type: "relation",
-                id: 9407
-            }
+            openStreetMapRelation: 9407
         }
     },
     {
@@ -182,10 +179,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 290557,
             wikiData: "Q878",
-            openStreetMap: {
-                type: "relation",
-                id: 307763
-            }
+            openStreetMapRelation: 307763
         }
     },
     {
@@ -275,10 +269,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1149361,
             wikiData: "Q889",
-            openStreetMap: {
-                type: "relation",
-                id: 303427
-            }
+            openStreetMapRelation: 303427
         }
     },
     {
@@ -355,10 +346,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3576396,
             wikiData: "Q781",
-            openStreetMap: {
-                type: "relation",
-                id: 536900
-            }
+            openStreetMapRelation: 536900
         }
     },
     {
@@ -435,10 +423,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3573511,
             wikiData: "Q25228",
-            openStreetMap: {
-                type: "relation",
-                id: 536904
-            }
+            openStreetMapRelation: 536904
         }
     },
     {
@@ -522,10 +507,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 783754,
             wikiData: "Q222",
-            openStreetMap: {
-                type: "relation",
-                id: 53292
-            }
+            openStreetMapRelation: 53292
         }
     },
     {
@@ -618,10 +600,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 174982,
             wikiData: "Q399",
-            openStreetMap: {
-                type: "relation",
-                id: 36466
-            }
+            openStreetMapRelation: 36466
         }
     },
     {
@@ -713,10 +692,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3351879,
             wikiData: "Q916",
-            openStreetMap: {
-                type: "relation",
-                id: 195267
-            }
+            openStreetMapRelation: 195267
         }
     },
     {
@@ -910,10 +886,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 6697173,
             wikiData: "Q21590062",
-            openStreetMap: {
-                type: "relation",
-                id: 2708953
-            }
+            openStreetMapRelation: 2708953
         }
     },
     {
@@ -1016,10 +989,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3865483,
             wikiData: "Q414",
-            openStreetMap: {
-                type: "relation",
-                id: 286393
-            }
+            openStreetMapRelation: 286393
         }
     },
     {
@@ -1096,10 +1066,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 5880801,
             wikiData: "Q16641",
-            openStreetMap: {
-                type: "relation",
-                id: 587232
-            }
+            openStreetMapRelation: 587232
         }
     },
     {
@@ -1183,10 +1150,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2782113,
             wikiData: "Q40",
-            openStreetMap: {
-                type: "relation",
-                id: 16239
-            }
+            openStreetMapRelation: 16239
         }
     },
     {
@@ -1291,10 +1255,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2077456,
             wikiData: "Q408",
-            openStreetMap: {
-                type: "relation",
-                id: 80500
-            }
+            openStreetMapRelation: 80500
         }
     },
     {
@@ -1374,10 +1335,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3577279,
             wikiData: "Q21203",
-            openStreetMap: {
-                type: "relation",
-                id: 1703814
-            }
+            openStreetMapRelation: 1703814
         }
     },
     {
@@ -1448,10 +1406,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 661882,
             wikiData: "Q5689",
-            openStreetMap: {
-                type: "relation",
-                id: 1650407
-            }
+            openStreetMapRelation: 1650407
         }
     },
     {
@@ -1539,10 +1494,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 587116,
             wikiData: "Q227",
-            openStreetMap: {
-                type: "relation",
-                id: 364110
-            }
+            openStreetMapRelation: 364110
         }
     },
     {
@@ -1630,10 +1582,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3277605,
             wikiData: "Q225",
-            openStreetMap: {
-                type: "relation",
-                id: 2528142
-            }
+            openStreetMapRelation: 2528142
         }
     },
     {
@@ -1710,10 +1659,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3374084,
             wikiData: "Q244",
-            openStreetMap: {
-                type: "relation",
-                id: 547511
-            }
+            openStreetMapRelation: 547511
         }
     },
     {
@@ -1812,10 +1758,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1210997,
             wikiData: "Q902",
-            openStreetMap: {
-                type: "relation",
-                id: 184640
-            }
+            openStreetMapRelation: 184640
         }
     },
     {
@@ -1916,10 +1859,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2802361,
             wikiData: "Q31",
-            openStreetMap: {
-                type: "relation",
-                id: 52411
-            }
+            openStreetMapRelation: 52411
         }
     },
     {
@@ -2007,10 +1947,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2361809,
             wikiData: "Q965",
-            openStreetMap: {
-                type: "relation",
-                id: 192783
-            }
+            openStreetMapRelation: 192783
         }
     },
     {
@@ -2105,10 +2042,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 732800,
             wikiData: "Q219",
-            openStreetMap: {
-                type: "relation",
-                id: 186382
-            }
+            openStreetMapRelation: 186382
         }
     },
     {
@@ -2199,10 +2133,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 290291,
             wikiData: "Q398",
-            openStreetMap: {
-                type: "relation",
-                id: 378734
-            }
+            openStreetMapRelation: 378734
         }
     },
     {
@@ -2287,10 +2218,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 433561,
             wikiData: "Q967",
-            openStreetMap: {
-                type: "relation",
-                id: 195266
-            }
+            openStreetMapRelation: 195266
         }
     },
     {
@@ -2378,10 +2306,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2395170,
             wikiData: "Q962",
-            openStreetMap: {
-                type: "relation",
-                id: 192782
-            }
+            openStreetMapRelation: 192782
         }
     },
     {
@@ -2460,10 +2385,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3578476,
             wikiData: "Q25305",
-            openStreetMap: {
-                type: "relation",
-                id: 1265297
-            }
+            openStreetMapRelation: 1265297
         }
     },
     {
@@ -2540,10 +2462,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3573345,
             wikiData: "Q23635",
-            openStreetMap: {
-                type: "relation",
-                id: 1993209
-            }
+            openStreetMapRelation: 1993209
         }
     },
     {
@@ -2631,10 +2550,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1820814,
             wikiData: "Q921",
-            openStreetMap: {
-                type: "relation",
-                id: 1993209
-            }
+            openStreetMapRelation: 1993209
         }
     },
     {
@@ -2746,10 +2662,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3923057,
             wikiData: "Q750",
-            openStreetMap: {
-                type: "relation",
-                id: 195267
-            }
+            openStreetMapRelation: 195267
         }
     },
     {
@@ -2836,10 +2749,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 7626844,
             wikiData: "Q25279",
-            openStreetMap: {
-                type: "relation",
-                id: 1216720
-            }
+            openStreetMapRelation: 1216720
         }
     },
     {
@@ -2963,10 +2873,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3469034,
             wikiData: "Q155",
-            openStreetMap: {
-                type: "relation",
-                id: 59470
-            }
+            openStreetMapRelation: 59470
         }
     },
     {
@@ -3041,10 +2948,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3572887,
             wikiData: "Q778",
-            openStreetMap: {
-                type: "relation",
-                id: 547469
-            }
+            openStreetMapRelation: 547469
         }
     },
     {
@@ -3125,10 +3029,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1252634,
             wikiData: "Q917",
-            openStreetMap: {
-                type: "relation",
-                id: 184629
-            }
+            openStreetMapRelation: 184629
         }
     },
     {
@@ -3195,10 +3096,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3371123,
             wikiData: "Q244",
-            openStreetMap: {
-                type: "relation",
-                id: 1749828
-            }
+            openStreetMapRelation: 1749828
         }
     },
     {
@@ -3286,10 +3184,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 933860,
             wikiData: "Q963",
-            openStreetMap: {
-                type: "relation",
-                id: 1889339
-            }
+            openStreetMapRelation: 1889339
         }
     },
     {
@@ -3381,10 +3276,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 630336,
             wikiData: "Q184",
-            openStreetMap: {
-                type: "relation",
-                id: 59065
-            }
+            openStreetMapRelation: 59065
         }
     },
     {
@@ -3473,10 +3365,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3582678,
             wikiData: "Q242",
-            openStreetMap: {
-                type: "relation",
-                id: 287827
-            }
+            openStreetMapRelation: 287827
         }
     },
     {
@@ -3622,10 +3511,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 6251999,
             wikiData: "Q16",
-            openStreetMap: {
-                type: "relation",
-                id: 1428125
-            }
+            openStreetMapRelation: 1428125
         }
     },
     {
@@ -3707,10 +3593,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1547376,
             wikiData: "Q26988",
-            openStreetMap: {
-                type: "relation",
-                id: 82610
-            }
+            openStreetMapRelation: 82610
         }
     },
     {
@@ -3808,10 +3691,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 203312,
             wikiData: "Q974",
-            openStreetMap: {
-                type: "relation",
-                id: 192795
-            }
+            openStreetMapRelation: 192795
         }
     },
     {
@@ -3901,10 +3781,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 239880,
             wikiData: "Q929",
-            openStreetMap: {
-                type: "relation",
-                id: 192793
-            }
+            openStreetMapRelation: 192793
         }
     },
     {
@@ -3994,10 +3871,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2260494,
             wikiData: "Q971",
-            openStreetMap: {
-                type: "relation",
-                id: 192790
-            }
+            openStreetMapRelation: 192790
         }
     },
     {
@@ -4100,10 +3974,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2658434,
             wikiData: "Q39",
-            openStreetMap: {
-                type: "relation",
-                id: 51701
-            }
+            openStreetMapRelation: 51701
         }
     },
     {
@@ -4198,10 +4069,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2287781,
             wikiData: "Q1008",
-            openStreetMap: {
-                type: "relation",
-                id: 192780
-            }
+            openStreetMapRelation: 192780
         }
     },
     {
@@ -4275,10 +4143,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1899402,
             wikiData: "Q26988",
-            openStreetMap: {
-                type: "relation",
-                id: 2186648
-            }
+            openStreetMapRelation: 2186648
         }
     },
     {
@@ -4363,10 +4228,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3895114,
             wikiData: "Q298",
-            openStreetMap: {
-                type: "relation",
-                id: 167454
-            }
+            openStreetMapRelation: 167454
         }
     },
     {
@@ -4467,10 +4329,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2233387,
             wikiData: "Q1009",
-            openStreetMap: {
-                type: "relation",
-                id: 192830
-            }
+            openStreetMapRelation: 192830
         }
     },
     {
@@ -4580,10 +4439,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1814991,
             wikiData: "Q148",
-            openStreetMap: {
-                type: "relation",
-                id: 270056
-            }
+            openStreetMapRelation: 270056
         }
     },
     {
@@ -4670,10 +4526,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3686110,
             wikiData: "Q739",
-            openStreetMap: {
-                type: "relation",
-                id: 120027
-            }
+            openStreetMapRelation: 120027
         }
     },
     {
@@ -4754,10 +4607,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3624060,
             wikiData: "Q800",
-            openStreetMap: {
-                type: "relation",
-                id: 121760
-            }
+            openStreetMapRelation: 121760
         }
     },
     {
@@ -4835,10 +4685,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3562981,
             wikiData: "Q241",
-            openStreetMap: {
-                type: "relation",
-                id: 307833
-            }
+            openStreetMapRelation: 307833
         }
     },
     {
@@ -4913,10 +4760,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3374766,
             wikiData: "Q1011",
-            openStreetMap: {
-                type: "relation",
-                id: 536765
-            }
+            openStreetMapRelation: 536765
         }
     },
     {
@@ -4994,10 +4838,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 7626836,
             wikiData: "Q25279",
-            openStreetMap: {
-                type: "relation",
-                id: 1273856
-            }
+            openStreetMapRelation: 1273856
         }
     },
     {
@@ -5074,10 +4915,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2078138,
             wikiData: "Q31063",
-            openStreetMap: {
-                type: "relation",
-                id: 82637
-            }
+            openStreetMapRelation: 82637
         }
     },
     {
@@ -5163,10 +5001,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 146669,
             wikiData: "Q229",
-            openStreetMap: {
-                type: "relation",
-                id: 307787
-            }
+            openStreetMapRelation: 307787
         }
     },
     {
@@ -5253,10 +5088,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3077311,
             wikiData: "Q213",
-            openStreetMap: {
-                type: "relation",
-                id: 51684
-            }
+            openStreetMapRelation: 51684
         }
     },
     {
@@ -5350,10 +5182,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2921044,
             wikiData: "Q183",
-            openStreetMap: {
-                type: "relation",
-                id: 51477
-            }
+            openStreetMapRelation: 51477
         }
     },
     {
@@ -5434,10 +5263,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 223816,
             wikiData: "Q977",
-            openStreetMap: {
-                type: "relation",
-                id: 192789
-            }
+            openStreetMapRelation: 192789
         }
     },
     {
@@ -5529,10 +5355,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2623032,
             wikiData: "Q35",
-            openStreetMap: {
-                type: "relation",
-                id: 50046
-            }
+            openStreetMapRelation: 50046
         }
     },
     {
@@ -5607,10 +5430,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3575830,
             wikiData: "Q784",
-            openStreetMap: {
-                type: "relation",
-                id: 307828
-            }
+            openStreetMapRelation: 307828
         }
     },
     {
@@ -5689,10 +5509,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3508796,
             wikiData: "Q786",
-            openStreetMap: {
-                type: "relation",
-                id: 307829
-            }
+            openStreetMapRelation: 307829
         }
     },
     {
@@ -5779,10 +5596,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2589581,
             wikiData: "Q262",
-            openStreetMap: {
-                type: "relation",
-                id: 192756
-            }
+            openStreetMapRelation: 192756
         }
     },
     {
@@ -5873,10 +5687,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3658394,
             wikiData: "Q736",
-            openStreetMap: {
-                type: "relation",
-                id: 307786
-            }
+            openStreetMapRelation: 307786
         }
     },
     {
@@ -5954,10 +5765,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 453733,
             wikiData: "Q191",
-            openStreetMap: {
-                type: "relation",
-                id: 79510
-            }
+            openStreetMapRelation: 79510
         }
     },
     {
@@ -6050,10 +5858,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 357994,
             wikiData: "Q79",
-            openStreetMap: {
-                type: "relation",
-                id: 1473946
-            }
+            openStreetMapRelation: 1473946
         }
     },
     {
@@ -6130,10 +5935,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2461445,
             wikiData: "Q6250",
-            openStreetMap: {
-                type: "relation",
-                id: 5441969
-            }
+            openStreetMapRelation: 5441969
         }
     },
     {
@@ -6219,10 +6021,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 338010,
             wikiData: "Q986",
-            openStreetMap: {
-                type: "relation",
-                id: 1620601
-            }
+            openStreetMapRelation: 1620601
         }
     },
     {
@@ -6329,10 +6128,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2510769,
             wikiData: "Q29",
-            openStreetMap: {
-                type: "relation",
-                id: 1311341
-            }
+            openStreetMapRelation: 1311341
         }
     },
     {
@@ -6423,10 +6219,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 337996,
             wikiData: "Q115",
-            openStreetMap: {
-                type: "relation",
-                id: 192800
-            }
+            openStreetMapRelation: 192800
         }
     },
     {
@@ -6523,10 +6316,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 660013,
             wikiData: "Q33",
-            openStreetMap: {
-                type: "relation",
-                id: 54224
-            }
+            openStreetMapRelation: 54224
         }
     },
     {
@@ -6609,10 +6399,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2205218,
             wikiData: "Q712",
-            openStreetMap: {
-                type: "relation",
-                id: 2157446
-            }
+            openStreetMapRelation: 2157446
         }
     },
     {
@@ -6685,10 +6472,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3474414,
             wikiData: "Q9648",
-            openStreetMap: {
-                type: "relation",
-                id: 1993867
-            }
+            openStreetMapRelation: 1993867
         }
     },
     {
@@ -6779,10 +6563,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2081918,
             wikiData: "Q702",
-            openStreetMap: {
-                type: "relation",
-                id: 571824
-            }
+            openStreetMapRelation: 571824
         }
     },
     {
@@ -6852,10 +6633,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2622320,
             wikiData: "Q4628",
-            openStreetMap: {
-                type: "relation",
-                id: 52939
-            }
+            openStreetMapRelation: 52939
         }
     },
     {
@@ -6958,10 +6736,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3017382,
             wikiData: "Q142",
-            openStreetMap: {
-                type: "relation",
-                id: 1403916
-            }
+            openStreetMapRelation: 1403916
         }
     },
     {
@@ -7045,10 +6820,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2400553,
             wikiData: "Q1000",
-            openStreetMap: {
-                type: "relation",
-                id: 192794
-            }
+            openStreetMapRelation: 192794
         }
     },
     {
@@ -7152,10 +6924,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2635167,
             wikiData: "Q145",
-            openStreetMap: {
-                type: "relation",
-                id: 62149
-            }
+            openStreetMapRelation: 62149
         }
     },
     {
@@ -7232,10 +7001,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3580239,
             wikiData: "Q769",
-            openStreetMap: {
-                type: "relation",
-                id: 536899
-            }
+            openStreetMapRelation: 536899
         }
     },
     {
@@ -7329,10 +7095,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 614540,
             wikiData: "Q230",
-            openStreetMap: {
-                type: "relation",
-                id: 28699
-            }
+            openStreetMapRelation: 28699
         }
     },
     {
@@ -7418,10 +7181,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3381670,
             wikiData: "Q3769",
-            openStreetMap: {
-                type: "relation",
-                id: 3407760
-            }
+            openStreetMapRelation: 3407760
         }
     },
     {
@@ -7503,10 +7263,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3042362,
             wikiData: "Q25230",
-            openStreetMap: {
-                type: "relation",
-                id: 93636
-            }
+            openStreetMapRelation: 93636
         }
     },
     {
@@ -7605,10 +7362,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2300660,
             wikiData: "Q117",
-            openStreetMap: {
-                type: "relation",
-                id: 192781
-            }
+            openStreetMapRelation: 192781
         }
     },
     {
@@ -7691,10 +7445,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2411586,
             wikiData: "Q1410",
-            openStreetMap: {
-                type: "relation",
-                id: 1278737
-            }
+            openStreetMapRelation: 1278737
         }
     },
     {
@@ -7775,10 +7526,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3425505,
             wikiData: "Q223",
-            openStreetMap: {
-                type: "relation",
-                id: 2184073
-            }
+            openStreetMapRelation: 2184073
         }
     },
     {
@@ -7862,10 +7610,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2413451,
             wikiData: "Q1005",
-            openStreetMap: {
-                type: "relation",
-                id: 192781
-            }
+            openStreetMapRelation: 192781
         }
     },
     {
@@ -7953,10 +7698,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2420477,
             wikiData: "Q1006",
-            openStreetMap: {
-                type: "relation",
-                id: 192778
-            }
+            openStreetMapRelation: 192778
         }
     },
     {
@@ -8025,10 +7767,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3579143,
             wikiData: "Q17012",
-            openStreetMap: {
-                type: "relation",
-                id: 3407643
-            }
+            openStreetMapRelation: 3407643
         }
     },
     {
@@ -8117,10 +7856,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2309096,
             wikiData: "Q983",
-            openStreetMap: {
-                type: "relation",
-                id: 192781
-            }
+            openStreetMapRelation: 192781
         }
     },
     {
@@ -8210,10 +7946,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 390903,
             wikiData: "Q41",
-            openStreetMap: {
-                type: "relation",
-                id: 192782
-            }
+            openStreetMapRelation: 192782
         }
     },
     {
@@ -8288,10 +8021,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3474415,
             wikiData: "Q35086",
-            openStreetMap: {
-                type: "relation",
-                id: 1983626
-            }
+            openStreetMapRelation: 1983626
         }
     },
     {
@@ -8389,10 +8119,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3595528,
             wikiData: "Q774",
-            openStreetMap: {
-                type: "relation",
-                id: 1521463
-            }
+            openStreetMapRelation: 1521463
         }
     },
     {
@@ -8476,10 +8203,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 4043988,
             wikiData: "Q16635",
-            openStreetMap: {
-                type: "relation",
-                id: 306001
-            }
+            openStreetMapRelation: 306001
         }
     },
     {
@@ -8568,10 +8292,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2372248,
             wikiData: "Q1007",
-            openStreetMap: {
-                type: "relation",
-                id: 192776
-            }
+            openStreetMapRelation: 192776
         }
     },
     {
@@ -8655,10 +8376,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3378535,
             wikiData: "Q734",
-            openStreetMap: {
-                type: "relation",
-                id: 192781
-            }
+            openStreetMapRelation: 192781
         }
     },
     {
@@ -8749,10 +8467,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1819730,
             wikiData: "Q8646",
-            openStreetMap: {
-                type: "relation",
-                id: 913110
-            }
+            openStreetMapRelation: 913110
         }
     },
     {
@@ -8817,10 +8532,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1547314,
             wikiData: "Q131198",
-            openStreetMap: {
-                type: "relation",
-                id: 2177227
-            }
+            openStreetMapRelation: 2177227
         }
     },
     {
@@ -8905,10 +8617,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3608932,
             wikiData: "Q783",
-            openStreetMap: {
-                type: "relation",
-                id: 287670
-            }
+            openStreetMapRelation: 287670
         }
     },
     {
@@ -8986,10 +8695,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3202326,
             wikiData: "Q224",
-            openStreetMap: {
-                type: "relation",
-                id: 214885
-            }
+            openStreetMapRelation: 214885
         }
     },
     {
@@ -9066,10 +8772,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3723988,
             wikiData: "Q790",
-            openStreetMap: {
-                type: "relation",
-                id: 307833
-            }
+            openStreetMapRelation: 307833
         }
     },
     {
@@ -9150,10 +8853,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 719819,
             wikiData: "Q28",
-            openStreetMap: {
-                type: "relation",
-                id: 21335
-            }
+            openStreetMapRelation: 21335
         }
     },
     {
@@ -9255,10 +8955,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1643084,
             wikiData: "Q252",
-            openStreetMap: {
-                type: "relation",
-                id: 2134181
-            }
+            openStreetMapRelation: 2134181
         }
     },
     {
@@ -9334,10 +9031,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2963597,
             wikiData: "Q27",
-            openStreetMap: {
-                type: "relation",
-                id: 62273
-            }
+            openStreetMapRelation: 62273
         }
     },
     {
@@ -9425,10 +9119,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 294640,
             wikiData: "Q801",
-            openStreetMap: {
-                type: "relation",
-                id: 1473946
-            }
+            openStreetMapRelation: 1473946
         }
     },
     {
@@ -9519,10 +9210,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3042225,
             wikiData: "Q9676",
-            openStreetMap: {
-                type: "relation",
-                id: 62000
-            }
+            openStreetMapRelation: 62000
         }
     },
     {
@@ -9659,10 +9347,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1269750,
             wikiData: "Q668",
-            openStreetMap: {
-                type: "relation",
-                id: 304716
-            }
+            openStreetMapRelation: 304716
         }
     },
     {
@@ -9731,10 +9416,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1282588,
             wikiData: "Q43448",
-            openStreetMap: {
-                type: "relation",
-                id: 1993867
-            }
+            openStreetMapRelation: 1993867
         }
     },
     {
@@ -9814,10 +9496,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 99237,
             wikiData: "Q796",
-            openStreetMap: {
-                type: "relation",
-                id: 304934
-            }
+            openStreetMapRelation: 304934
         }
     },
     {
@@ -9916,10 +9595,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 130758,
             wikiData: "Q794",
-            openStreetMap: {
-                type: "relation",
-                id: 304938
-            }
+            openStreetMapRelation: 304938
         }
     },
     {
@@ -9993,10 +9669,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2629691,
             wikiData: "Q189",
-            openStreetMap: {
-                type: "relation",
-                id: 299133
-            }
+            openStreetMapRelation: 299133
         }
     },
     {
@@ -10091,10 +9764,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3175395,
             wikiData: "Q38",
-            openStreetMap: {
-                type: "relation",
-                id: 365331
-            }
+            openStreetMapRelation: 365331
         }
     },
     {
@@ -10184,10 +9854,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3042142,
             wikiData: "Q785",
-            openStreetMap: {
-                type: "relation",
-                id: 367988
-            }
+            openStreetMapRelation: 367988
         }
     },
     {
@@ -10263,10 +9930,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3489940,
             wikiData: "Q766",
-            openStreetMap: {
-                type: "relation",
-                id: 53644
-            }
+            openStreetMapRelation: 53644
         }
     },
     {
@@ -10358,10 +10022,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 248816,
             wikiData: "Q810",
-            openStreetMap: {
-                type: "relation",
-                id: 1848181
-            }
+            openStreetMapRelation: 1848181
         }
     },
     {
@@ -10437,10 +10098,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1861060,
             wikiData: "Q17",
-            openStreetMap: {
-                type: "relation",
-                id: 382313
-            }
+            openStreetMapRelation: 382313
         }
     },
     {
@@ -10543,10 +10201,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 192950,
             wikiData: "Q114",
-            openStreetMap: {
-                type: "relation",
-                id: 195271
-            }
+            openStreetMapRelation: 195271
         }
     },
     {
@@ -10629,10 +10284,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1527747,
             wikiData: "Q813",
-            openStreetMap: {
-                type: "relation",
-                id: 178009
-            }
+            openStreetMapRelation: 178009
         }
     },
     {
@@ -10721,10 +10373,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1831722,
             wikiData: "Q424",
-            openStreetMap: {
-                type: "relation",
-                id: 49898
-            }
+            openStreetMapRelation: 49898
         }
     },
     {
@@ -10801,10 +10450,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 4030945,
             wikiData: "Q710",
-            openStreetMap: {
-                type: "relation",
-                id: 2186468
-            }
+            openStreetMapRelation: 2186468
         }
     },
     {
@@ -10883,10 +10529,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 921929,
             wikiData: "Q970",
-            openStreetMap: {
-                type: "relation",
-                id: 5357741
-            }
+            openStreetMapRelation: 5357741
         }
     },
     {
@@ -10961,10 +10604,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3575174,
             wikiData: "Q763",
-            openStreetMap: {
-                type: "relation",
-                id: 536780
-            }
+            openStreetMapRelation: 536780
         }
     },
     {
@@ -11037,10 +10677,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1873107,
             wikiData: "Q423",
-            openStreetMap: {
-                type: "relation",
-                id: 192734
-            }
+            openStreetMapRelation: 192734
         }
     },
     {
@@ -11134,10 +10771,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1835841,
             wikiData: "Q884",
-            openStreetMap: {
-                type: "relation",
-                id: 307756
-            }
+            openStreetMapRelation: 307756
         }
     },
     {
@@ -11219,10 +10853,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 285570,
             wikiData: "Q817",
-            openStreetMap: {
-                type: "relation",
-                id: 305099
-            }
+            openStreetMapRelation: 305099
         }
     },
     {
@@ -11295,10 +10926,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3580718,
             wikiData: "Q5785",
-            openStreetMap: {
-                type: "relation",
-                id: 536900
-            }
+            openStreetMapRelation: 536900
         }
     },
     {
@@ -11396,10 +11024,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1522867,
             wikiData: "Q232",
-            openStreetMap: {
-                type: "relation",
-                id: 214665
-            }
+            openStreetMapRelation: 214665
         }
     },
     {
@@ -11479,10 +11104,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1655842,
             wikiData: "Q819",
-            openStreetMap: {
-                type: "relation",
-                id: 49903
-            }
+            openStreetMapRelation: 49903
         }
     },
     {
@@ -11564,10 +11186,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 272103,
             wikiData: "Q822",
-            openStreetMap: {
-                type: "relation",
-                id: 184843
-            }
+            openStreetMapRelation: 184843
         }
     },
     {
@@ -11642,10 +11261,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3576468,
             wikiData: "Q760",
-            openStreetMap: {
-                type: "relation",
-                id: 536900
-            }
+            openStreetMapRelation: 536900
         }
     },
     {
@@ -11722,10 +11338,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3042058,
             wikiData: "Q347",
-            openStreetMap: {
-                type: "relation",
-                id: 1155955
-            }
+            openStreetMapRelation: 1155955
         }
     },
     {
@@ -11807,10 +11420,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1227603,
             wikiData: "Q854",
-            openStreetMap: {
-                type: "relation",
-                id: 536807
-            }
+            openStreetMapRelation: 536807
         }
     },
     {
@@ -11895,10 +11505,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2275384,
             wikiData: "Q1014",
-            openStreetMap: {
-                type: "relation",
-                id: 192780
-            }
+            openStreetMapRelation: 192780
         }
     },
     {
@@ -11976,10 +11583,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 932692,
             wikiData: "Q1015",
-            openStreetMap: {
-                type: "relation",
-                id: 192781
-            }
+            openStreetMapRelation: 192781
         }
     },
     {
@@ -12059,10 +11663,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 597427,
             wikiData: "Q37",
-            openStreetMap: {
-                type: "relation",
-                id: 72594
-            }
+            openStreetMapRelation: 72594
         }
     },
     {
@@ -12151,10 +11752,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2960313,
             wikiData: "Q32",
-            openStreetMap: {
-                type: "relation",
-                id: 2171347
-            }
+            openStreetMapRelation: 2171347
         }
     },
     {
@@ -12228,10 +11826,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 458258,
             wikiData: "Q211",
-            openStreetMap: {
-                type: "relation",
-                id: 72594
-            }
+            openStreetMapRelation: 72594
         }
     },
     {
@@ -12305,10 +11900,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2215636,
             wikiData: "Q1016",
-            openStreetMap: {
-                type: "relation",
-                id: 192758
-            }
+            openStreetMapRelation: 192758
         }
     },
     {
@@ -12396,10 +11988,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2542007,
             wikiData: "Q1028",
-            openStreetMap: {
-                type: "relation",
-                id: 363043
-            }
+            openStreetMapRelation: 363043
         }
     },
     {
@@ -12480,10 +12069,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2993457,
             wikiData: "Q235",
-            openStreetMap: {
-                type: "relation",
-                id: 1124038
-            }
+            openStreetMapRelation: 1124038
         }
     },
     {
@@ -12559,10 +12145,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 617790,
             wikiData: "Q217",
-            openStreetMap: {
-                type: "relation",
-                id: 58974
-            }
+            openStreetMapRelation: 58974
         }
     },
     {
@@ -12644,10 +12227,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3194884,
             wikiData: "Q236",
-            openStreetMap: {
-                type: "relation",
-                id: 53296
-            }
+            openStreetMapRelation: 53296
         }
     },
     {
@@ -12721,10 +12301,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3578421,
             wikiData: "Q34617",
-            openStreetMap: {
-                type: "relation",
-                id: 307828
-            }
+            openStreetMapRelation: 307828
         }
     },
     {
@@ -12801,10 +12378,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1062947,
             wikiData: "Q1019",
-            openStreetMap: {
-                type: "relation",
-                id: 2555066
-            }
+            openStreetMapRelation: 2555066
         }
     },
     {
@@ -12880,10 +12454,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2080185,
             wikiData: "Q709",
-            openStreetMap: {
-                type: "relation",
-                id: 571780
-            }
+            openStreetMapRelation: 571780
         }
     },
     {
@@ -12960,10 +12531,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 718075,
             wikiData: "Q221",
-            openStreetMap: {
-                type: "relation",
-                id: 53294
-            }
+            openStreetMapRelation: 53294
         }
     },
     {
@@ -13048,10 +12616,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2453866,
             wikiData: "Q912",
-            openStreetMap: {
-                type: "relation",
-                id: 192785
-            }
+            openStreetMapRelation: 192785
         }
     },
     {
@@ -13129,10 +12694,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1327865,
             wikiData: "Q836",
-            openStreetMap: {
-                type: "relation",
-                id: 50371
-            }
+            openStreetMapRelation: 50371
         }
     },
     {
@@ -13218,10 +12780,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2029969,
             wikiData: "Q711",
-            openStreetMap: {
-                type: "relation",
-                id: 161033
-            }
+            openStreetMapRelation: 161033
         }
     },
     {
@@ -13300,10 +12859,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1821275,
             wikiData: "Q14773",
-            openStreetMap: {
-                type: "relation",
-                id: 102199
-            }
+            openStreetMapRelation: 102199
         }
     },
     {
@@ -13378,10 +12934,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 4041468,
             wikiData: "Q16641",
-            openStreetMap: {
-                type: "relation",
-                id: 306004
-            }
+            openStreetMapRelation: 306004
         }
     },
     {
@@ -13453,10 +13006,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3570311,
             wikiData: "Q17054",
-            openStreetMap: {
-                type: "relation",
-                id: 2473087
-            }
+            openStreetMapRelation: 2473087
         }
     },
     {
@@ -13546,10 +13096,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2378080,
             wikiData: "Q1025",
-            openStreetMap: {
-                type: "relation",
-                id: 192763
-            }
+            openStreetMapRelation: 192763
         }
     },
     {
@@ -13624,10 +13171,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3578097,
             wikiData: "Q13353",
-            openStreetMap: {
-                type: "relation",
-                id: 537077
-            }
+            openStreetMapRelation: 537077
         }
     },
     {
@@ -13704,10 +13248,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2562770,
             wikiData: "Q233",
-            openStreetMap: {
-                type: "relation",
-                id: 365307
-            }
+            openStreetMapRelation: 365307
         }
     },
     {
@@ -13795,10 +13336,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 934292,
             wikiData: "Q1027",
-            openStreetMap: {
-                type: "relation",
-                id: 535682
-            }
+            openStreetMapRelation: 535682
         }
     },
     {
@@ -13873,10 +13411,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1282028,
             wikiData: "Q912",
-            openStreetMap: {
-                type: "relation",
-                id: 536765
-            }
+            openStreetMapRelation: 536765
         }
     },
     {
@@ -13959,10 +13494,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 927384,
             wikiData: "Q1020",
-            openStreetMap: {
-                type: "relation",
-                id: 195270
-            }
+            openStreetMapRelation: 195270
         }
     },
     {
@@ -14053,10 +13585,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3996063,
             wikiData: "Q96",
-            openStreetMap: {
-                type: "relation",
-                id: 114686
-            }
+            openStreetMapRelation: 114686
         }
     },
     {
@@ -14149,10 +13678,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1733045,
             wikiData: "Q833",
-            openStreetMap: {
-                type: "relation",
-                id: 2108121
-            }
+            openStreetMapRelation: 2108121
         }
     },
     {
@@ -14229,10 +13755,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1036973,
             wikiData: "Q1029",
-            openStreetMap: {
-                type: "relation",
-                id: 195270
-            }
+            openStreetMapRelation: 195270
         }
     },
     {
@@ -14321,10 +13844,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3355338,
             wikiData: "Q1030",
-            openStreetMap: {
-                type: "relation",
-                id: 195273
-            }
+            openStreetMapRelation: 195273
         }
     },
     {
@@ -14398,10 +13918,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2139685,
             wikiData: "Q33788",
-            openStreetMap: {
-                type: "relation",
-                id: 341129
-            }
+            openStreetMapRelation: 341129
         }
     },
     {
@@ -14488,10 +14005,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2440476,
             wikiData: "Q1032",
-            openStreetMap: {
-                type: "relation",
-                id: 192785
-            }
+            openStreetMapRelation: 192785
         }
     },
     {
@@ -14564,10 +14078,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2155115,
             wikiData: "Q31057",
-            openStreetMap: {
-                type: "relation",
-                id: 2177248
-            }
+            openStreetMapRelation: 2177248
         }
     },
     {
@@ -14662,10 +14173,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2328926,
             wikiData: "Q1033",
-            openStreetMap: {
-                type: "relation",
-                id: 192785
-            }
+            openStreetMapRelation: 192785
         }
     },
     {
@@ -14747,10 +14255,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3617476,
             wikiData: "Q811",
-            openStreetMap: {
-                type: "relation",
-                id: 287666
-            }
+            openStreetMapRelation: 287666
         }
     },
     {
@@ -14853,10 +14358,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2750405,
             wikiData: "Q55",
-            openStreetMap: {
-                type: "relation",
-                id: 47796
-            }
+            openStreetMapRelation: 47796
         }
     },
     {
@@ -14946,10 +14448,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3144096,
             wikiData: "Q20",
-            openStreetMap: {
-                type: "relation",
-                id: 2978650
-            }
+            openStreetMapRelation: 2978650
         }
     },
     {
@@ -15038,10 +14537,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1282988,
             wikiData: "Q837",
-            openStreetMap: {
-                type: "relation",
-                id: 184633
-            }
+            openStreetMapRelation: 184633
         }
     },
     {
@@ -15116,10 +14612,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2110425,
             wikiData: "Q697",
-            openStreetMap: {
-                type: "relation",
-                id: 571805
-            }
+            openStreetMapRelation: 571805
         }
     },
     {
@@ -15194,10 +14687,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 4036232,
             wikiData: "Q34020",
-            openStreetMap: {
-                type: "relation",
-                id: 2177229
-            }
+            openStreetMapRelation: 2177229
         }
     },
     {
@@ -15280,10 +14770,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2186224,
             wikiData: "Q664",
-            openStreetMap: {
-                type: "relation",
-                id: 556706
-            }
+            openStreetMapRelation: 556706
         }
     },
     {
@@ -15358,10 +14845,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 286963,
             wikiData: "Q842",
-            openStreetMap: {
-                type: "relation",
-                id: 305138
-            }
+            openStreetMapRelation: 305138
         }
     },
     {
@@ -15441,10 +14925,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3703430,
             wikiData: "Q804",
-            openStreetMap: {
-                type: "relation",
-                id: 287668
-            }
+            openStreetMapRelation: 287668
         }
     },
     {
@@ -15528,10 +15009,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3932488,
             wikiData: "Q419",
-            openStreetMap: {
-                type: "relation",
-                id: 288247
-            }
+            openStreetMapRelation: 288247
         }
     },
     {
@@ -15617,10 +15095,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 4030656,
             wikiData: "Q30971",
-            openStreetMap: {
-                type: "relation",
-                id: 3412620
-            }
+            openStreetMapRelation: 3412620
         }
     },
     {
@@ -15701,10 +15176,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2088628,
             wikiData: "Q691",
-            openStreetMap: {
-                type: "relation",
-                id: 288084
-            }
+            openStreetMapRelation: 288084
         }
     },
     {
@@ -15798,10 +15270,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1694008,
             wikiData: "Q928",
-            openStreetMap: {
-                type: "relation",
-                id: 443174
-            }
+            openStreetMapRelation: 443174
         }
     },
     {
@@ -15902,10 +15371,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1168579,
             wikiData: "Q843",
-            openStreetMap: {
-                type: "relation",
-                id: 307573
-            }
+            openStreetMapRelation: 307573
         }
     },
     {
@@ -15984,10 +15450,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 798544,
             wikiData: "Q36",
-            openStreetMap: {
-                type: "relation",
-                id: 49715
-            }
+            openStreetMapRelation: 49715
         }
     },
     {
@@ -16060,10 +15523,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3424932,
             wikiData: "Q34617",
-            openStreetMap: {
-                type: "relation",
-                id: 3406825
-            }
+            openStreetMapRelation: 3406825
         }
     },
     {
@@ -16138,10 +15598,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 4030699,
             wikiData: "Q35672",
-            openStreetMap: {
-                type: "relation",
-                id: 2185373
-            }
+            openStreetMapRelation: 2185373
         }
     },
     {
@@ -16219,10 +15676,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 4566966,
             wikiData: "Q1183",
-            openStreetMap: {
-                type: "relation",
-                id: 442260
-            }
+            openStreetMapRelation: 442260
         }
     },
     {
@@ -16290,10 +15744,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 6254930,
             wikiData: "Q219060",
-            openStreetMap: {
-                type: "relation",
-                id: 1703814
-            }
+            openStreetMapRelation: 1703814
         }
     },
     {
@@ -16370,10 +15821,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2264397,
             wikiData: "Q45",
-            openStreetMap: {
-                type: "relation",
-                id: 295480
-            }
+            openStreetMapRelation: 295480
         }
     },
     {
@@ -16454,10 +15902,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1559582,
             wikiData: "Q695",
-            openStreetMap: {
-                type: "relation",
-                id: 571802
-            }
+            openStreetMapRelation: 571802
         }
     },
     {
@@ -16535,10 +15980,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3437598,
             wikiData: "Q733",
-            openStreetMap: {
-                type: "relation",
-                id: 287077
-            }
+            openStreetMapRelation: 287077
         }
     },
     {
@@ -16627,10 +16069,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 289688,
             wikiData: "Q846",
-            openStreetMap: {
-                type: "relation",
-                id: 305091
-            }
+            openStreetMapRelation: 305091
         }
     },
     {
@@ -16705,10 +16144,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 935317,
             wikiData: "Q2181",
-            openStreetMap: {
-                type: "relation",
-                id: 935317
-            }
+            openStreetMapRelation: 935317
         }
     },
     {
@@ -16785,10 +16221,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 798549,
             wikiData: "Q218",
-            openStreetMap: {
-                type: "relation",
-                id: 90689
-            }
+            openStreetMapRelation: 90689
         }
     },
     {
@@ -16876,10 +16309,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 6290252,
             wikiData: "Q403",
-            openStreetMap: {
-                type: "relation",
-                id: 1741311
-            }
+            openStreetMapRelation: 1741311
         }
     },
     {
@@ -17005,10 +16435,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2017370,
             wikiData: "Q159",
-            openStreetMap: {
-                type: "relation",
-                id: 60189
-            }
+            openStreetMapRelation: 60189
         }
     },
     {
@@ -17089,10 +16516,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 49518,
             wikiData: "Q1037",
-            openStreetMap: {
-                type: "relation",
-                id: 171496
-            }
+            openStreetMapRelation: 171496
         }
     },
     {
@@ -17184,10 +16608,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 102358,
             wikiData: "Q851",
-            openStreetMap: {
-                type: "relation",
-                id: 307584
-            }
+            openStreetMapRelation: 307584
         }
     },
     {
@@ -17265,10 +16686,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2103350,
             wikiData: "Q685",
-            openStreetMap: {
-                type: "relation",
-                id: 2851649
-            }
+            openStreetMapRelation: 2851649
         }
     },
     {
@@ -17347,10 +16765,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 241170,
             wikiData: "Q1042",
-            openStreetMap: {
-                type: "relation",
-                id: 536765
-            }
+            openStreetMapRelation: 536765
         }
     },
     {
@@ -17437,10 +16852,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 366755,
             wikiData: "Q1049",
-            openStreetMap: {
-                type: "relation",
-                id: 192789
-            }
+            openStreetMapRelation: 192789
         }
     },
     {
@@ -17535,10 +16947,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2661886,
             wikiData: "Q34",
-            openStreetMap: {
-                type: "relation",
-                id: 52822
-            }
+            openStreetMapRelation: 52822
         }
     },
     {
@@ -17652,10 +17061,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1880251,
             wikiData: "Q334",
-            openStreetMap: {
-                type: "relation",
-                id: 536780
-            }
+            openStreetMapRelation: 536780
         }
     },
     {
@@ -17728,10 +17134,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3370751,
             wikiData: "Q192184",
-            openStreetMap: {
-                type: "relation",
-                id: 1964272
-            }
+            openStreetMapRelation: 1964272
         }
     },
     {
@@ -17809,10 +17212,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3190538,
             wikiData: "Q215",
-            openStreetMap: {
-                type: "relation",
-                id: 218657
-            }
+            openStreetMapRelation: 218657
         }
     },
     {
@@ -17888,10 +17288,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 607072,
             wikiData: "Q104235",
-            openStreetMap: {
-                type: "relation",
-                id: 1229689
-            }
+            openStreetMapRelation: 1229689
         }
     },
     {
@@ -17970,10 +17367,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3057568,
             wikiData: "Q214",
-            openStreetMap: {
-                type: "relation",
-                id: 14296
-            }
+            openStreetMapRelation: 14296
         }
     },
     {
@@ -18055,10 +17449,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2403846,
             wikiData: "Q1044",
-            openStreetMap: {
-                type: "relation",
-                id: 192781
-            }
+            openStreetMapRelation: 192781
         }
     },
     {
@@ -18133,10 +17524,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3168068,
             wikiData: "Q238",
-            openStreetMap: {
-                type: "relation",
-                id: 53636
-            }
+            openStreetMapRelation: 53636
         }
     },
     {
@@ -18221,10 +17609,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2245662,
             wikiData: "Q1041",
-            openStreetMap: {
-                type: "relation",
-                id: 192785
-            }
+            openStreetMapRelation: 192785
         }
     },
     {
@@ -18296,10 +17681,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 51537,
             wikiData: "Q1045",
-            openStreetMap: {
-                type: "relation",
-                id: 192799
-            }
+            openStreetMapRelation: 192799
         }
     },
     {
@@ -18381,10 +17763,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3382998,
             wikiData: "Q730",
-            openStreetMap: {
-                type: "relation",
-                id: 287082
-            }
+            openStreetMapRelation: 287082
         }
     },
     {
@@ -18467,10 +17846,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 7909807,
             wikiData: "Q958",
-            openStreetMap: {
-                type: "relation",
-                id: 54094
-            }
+            openStreetMapRelation: 54094
         }
     },
     {
@@ -18548,10 +17924,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2410758,
             wikiData: "Q1039",
-            openStreetMap: {
-                type: "relation",
-                id: 192793
-            }
+            openStreetMapRelation: 192793
         }
     },
     {
@@ -18628,10 +18001,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3585968,
             wikiData: "Q792",
-            openStreetMap: {
-                type: "relation",
-                id: 1520612
-            }
+            openStreetMapRelation: 1520612
         }
     },
     {
@@ -18716,10 +18086,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 7609695,
             wikiData: "Q26273",
-            openStreetMap: {
-                type: "relation",
-                id: 85036
-            }
+            openStreetMapRelation: 85036
         }
     },
     {
@@ -18808,10 +18175,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 163843,
             wikiData: "Q858",
-            openStreetMap: {
-                type: "relation",
-                id: 184840
-            }
+            openStreetMapRelation: 184840
         }
     },
     {
@@ -18888,10 +18252,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 934841,
             wikiData: "Q1050",
-            openStreetMap: {
-                type: "relation",
-                id: 88210
-            }
+            openStreetMapRelation: 88210
         }
     },
     {
@@ -18964,10 +18325,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3576916,
             wikiData: "Q18221",
-            openStreetMap: {
-                type: "relation",
-                id: 547469
-            }
+            openStreetMapRelation: 547469
         }
     },
     {
@@ -19055,10 +18413,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2434508,
             wikiData: "Q657",
-            openStreetMap: {
-                type: "relation",
-                id: 192789
-            }
+            openStreetMapRelation: 192789
         }
     },
     {
@@ -19135,10 +18490,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1546748,
             wikiData: "Q129003",
-            openStreetMap: {
-                type: "relation",
-                id: 1269755
-            }
+            openStreetMapRelation: 1269755
         }
     },
     {
@@ -19220,10 +18572,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2363686,
             wikiData: "Q945",
-            openStreetMap: {
-                type: "relation",
-                id: 192784
-            }
+            openStreetMapRelation: 192784
         }
     },
     {
@@ -19316,10 +18665,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1605651,
             wikiData: "Q869",
-            openStreetMap: {
-                type: "relation",
-                id: 2067731
-            }
+            openStreetMapRelation: 2067731
         }
     },
     {
@@ -19397,10 +18743,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1220409,
             wikiData: "Q863",
-            openStreetMap: {
-                type: "relation",
-                id: 214626
-            }
+            openStreetMapRelation: 214626
         }
     },
     {
@@ -19477,10 +18820,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 4031074,
             wikiData: "Q33707",
-            openStreetMap: {
-                type: "relation",
-                id: 2186648
-            }
+            openStreetMapRelation: 2186648
         }
     },
     {
@@ -19563,10 +18903,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1966436,
             wikiData: "Q574",
-            openStreetMap: {
-                type: "relation",
-                id: 1221918
-            }
+            openStreetMapRelation: 1221918
         }
     },
     {
@@ -19647,10 +18984,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1218197,
             wikiData: "Q874",
-            openStreetMap: {
-                type: "relation",
-                id: 223026
-            }
+            openStreetMapRelation: 223026
         }
     },
     {
@@ -19729,10 +19063,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2464461,
             wikiData: "Q948",
-            openStreetMap: {
-                type: "relation",
-                id: 192757
-            }
+            openStreetMapRelation: 192757
         }
     },
     {
@@ -19810,10 +19141,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 4032283,
             wikiData: "Q678",
-            openStreetMap: {
-                type: "relation",
-                id: 2186658
-            }
+            openStreetMapRelation: 2186658
         }
     },
     {
@@ -19907,10 +19235,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 298795,
             wikiData: "Q43",
-            openStreetMap: {
-                type: "relation",
-                id: 174737
-            }
+            openStreetMapRelation: 174737
         }
     },
     {
@@ -19990,10 +19315,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3573591,
             wikiData: "Q754",
-            openStreetMap: {
-                type: "relation",
-                id: 555717
-            }
+            openStreetMapRelation: 555717
         }
     },
     {
@@ -20071,10 +19393,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2110297,
             wikiData: "Q672",
-            openStreetMap: {
-                type: "relation",
-                id: 2177266
-            }
+            openStreetMapRelation: 2177266
         }
     },
     {
@@ -20176,10 +19495,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1668284,
             wikiData: "Q865",
-            openStreetMap: {
-                type: "relation",
-                id: 449220
-            }
+            openStreetMapRelation: 449220
         }
     },
     {
@@ -20274,10 +19590,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 149590,
             wikiData: "Q924",
-            openStreetMap: {
-                type: "relation",
-                id: 195270
-            }
+            openStreetMapRelation: 195270
         }
     },
     {
@@ -20371,10 +19684,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 690791,
             wikiData: "Q212",
-            openStreetMap: {
-                type: "relation",
-                id: 60199
-            }
+            openStreetMapRelation: 60199
         }
     },
     {
@@ -20474,10 +19784,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 226074,
             wikiData: "Q1036",
-            openStreetMap: {
-                type: "relation",
-                id: 192796
-            }
+            openStreetMapRelation: 192796
         }
     },
     {
@@ -20558,10 +19865,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 5854968,
             wikiData: "Q16644",
-            openStreetMap: {
-                type: "relation",
-                id: 306001
-            }
+            openStreetMapRelation: 306001
         }
     },
     {
@@ -20699,10 +20003,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 6252001,
             wikiData: "Q30",
-            openStreetMap: {
-                type: "relation",
-                id: 148838
-            }
+            openStreetMapRelation: 148838
         }
     },
     {
@@ -20779,10 +20080,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3439705,
             wikiData: "Q77",
-            openStreetMap: {
-                type: "relation",
-                id: 287827
-            }
+            openStreetMapRelation: 287827
         }
     },
     {
@@ -20865,10 +20163,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1512440,
             wikiData: "Q265",
-            openStreetMap: {
-                type: "relation",
-                id: 196240
-            }
+            openStreetMapRelation: 196240
         }
     },
     {
@@ -20945,10 +20240,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3164670,
             wikiData: "Q237",
-            openStreetMap: {
-                type: "relation",
-                id: 36989
-            }
+            openStreetMapRelation: 36989
         }
     },
     {
@@ -21023,10 +20315,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3577815,
             wikiData: "Q757",
-            openStreetMap: {
-                type: "relation",
-                id: 536900
-            }
+            openStreetMapRelation: 536900
         }
     },
     {
@@ -21104,10 +20393,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3625428,
             wikiData: "Q717",
-            openStreetMap: {
-                type: "relation",
-                id: 272644
-            }
+            openStreetMapRelation: 272644
         }
     },
     {
@@ -21182,10 +20468,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 3577718,
             wikiData: "Q25305",
-            openStreetMap: {
-                type: "relation",
-                id: 537742
-            }
+            openStreetMapRelation: 537742
         }
     },
     {
@@ -21262,10 +20545,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 4796775,
             wikiData: "Q11703",
-            openStreetMap: {
-                type: "relation",
-                id: 306065
-            }
+            openStreetMapRelation: 306065
         }
     },
     {
@@ -21344,10 +20624,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1562822,
             wikiData: "Q881",
-            openStreetMap: {
-                type: "relation",
-                id: 49915
-            }
+            openStreetMapRelation: 49915
         }
     },
     {
@@ -21433,10 +20710,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 2134431,
             wikiData: "Q686",
-            openStreetMap: {
-                type: "relation",
-                id: 2177266
-            }
+            openStreetMapRelation: 2177266
         }
     },
     {
@@ -21512,10 +20786,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 4034749,
             wikiData: "Q35555",
-            openStreetMap: {
-                type: "relation",
-                id: 3411136
-            }
+            openStreetMapRelation: 3411136
         }
     },
     {
@@ -21591,10 +20862,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 4034894,
             wikiData: "Q683",
-            openStreetMap: {
-                type: "relation",
-                id: 2186601
-            }
+            openStreetMapRelation: 2186601
         }
     },
     {
@@ -21675,10 +20943,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 831053,
             wikiData: "Q1246",
-            openStreetMap: {
-                type: "relation",
-                id: 53292
-            }
+            openStreetMapRelation: 53292
         }
     },
     {
@@ -21766,10 +21031,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 69543,
             wikiData: "Q805",
-            openStreetMap: {
-                type: "relation",
-                id: 305092
-            }
+            openStreetMapRelation: 305092
         }
     },
     {
@@ -21851,10 +21113,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 1024031,
             wikiData: "Q17063",
-            openStreetMap: {
-                type: "relation",
-                id: 3416822
-            }
+            openStreetMapRelation: 3416822
         }
     },
     {
@@ -21967,10 +21226,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 953987,
             wikiData: "Q258",
-            openStreetMap: {
-                type: "relation",
-                id: 87565
-            }
+            openStreetMapRelation: 87565
         }
     },
     {
@@ -22056,10 +21312,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 895949,
             wikiData: "Q953",
-            openStreetMap: {
-                type: "relation",
-                id: 195271
-            }
+            openStreetMapRelation: 195271
         }
     },
     {
@@ -22160,10 +21413,7 @@ export const countries = [
         otherAppsIds: {
             geoNamesOrg: 878675,
             wikiData: "Q954",
-            openStreetMap: {
-                type: "relation",
-                id: 195270
-            }
+            openStreetMapRelation: 195270
         }
     }
 ];

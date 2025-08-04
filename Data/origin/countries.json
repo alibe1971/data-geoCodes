@@ -65,10 +65,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3041565,
             "wikiData": "Q228",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 9407
-            }
+            "openStreetMapRelation": 9407
         },
         "NOTES": []
     },
@@ -138,10 +135,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 290557,
             "wikiData": "Q878",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 307763
-            }
+            "openStreetMapRelation": 307763
         },
         "NOTES": [
             "[languages] 'eng', 'hin', 'fil', 'mal', 'tam', 'urd' are considered widelySpoken due to systemic and ",
@@ -220,10 +214,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1149361,
             "wikiData": "Q889",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 303427
-            }
+            "openStreetMapRelation": 303427
         },
         "NOTES": [
             "[flags] Flag emoji does not represent current government recognition."
@@ -295,10 +286,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3576396,
             "wikiData": "Q781",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 536900
-            }
+            "openStreetMapRelation": 536900
         },
         "NOTES": [
             "[languages] No official language declared by law, but English is used in administration (deFacto)."
@@ -370,10 +358,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3573511,
             "wikiData": "Q25228",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 536904
-            }
+            "openStreetMapRelation": 536904
         },
         "NOTES": [
             "[languages] No official language declared by law, but English is used in administration (deFacto)."
@@ -445,10 +430,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 783754,
             "wikiData": "Q222",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 53292
-            }
+            "openStreetMapRelation": 53292
         },
         "NOTES": []
     },
@@ -525,10 +507,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 174982,
             "wikiData": "Q399",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 36466
-            }
+            "openStreetMapRelation": 36466
         },
         "NOTES": []
     },
@@ -600,10 +579,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3351879,
             "wikiData": "Q916",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 195267
-            }
+            "openStreetMapRelation": 195267
         },
         "NOTES": []
     },
@@ -796,10 +772,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 6697173,
             "wikiData": "Q21590062",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 2708953
-            }
+            "openStreetMapRelation": 2708953
         },
         "NOTES": []
     },
@@ -887,10 +860,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3865483,
             "wikiData": "Q414",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 286393
-            }
+            "openStreetMapRelation": 286393
         },
         "NOTES": []
     },
@@ -961,10 +931,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 5880801,
             "wikiData": "Q16641",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 587232
-            }
+            "openStreetMapRelation": 587232
         },
         "NOTES": []
     },
@@ -1021,10 +988,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2782113,
             "wikiData": "Q40",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 16239
-            }
+            "openStreetMapRelation": 16239
         },
         "NOTES": []
     },
@@ -1105,10 +1069,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2077456,
             "wikiData": "Q408",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 80500
-            }
+            "openStreetMapRelation": 80500
         },
         "NOTES": []
     },
@@ -1172,10 +1133,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3577279,
             "wikiData": "Q21203",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 1703814
-            }
+            "openStreetMapRelation": 1703814
         },
         "NOTES": []
     },
@@ -1232,10 +1190,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 661882,
             "wikiData": "Q5689",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 1650407
-            }
+            "openStreetMapRelation": 1650407
         },
         "NOTES": []
     },
@@ -1298,10 +1253,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 587116,
             "wikiData": "Q227",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 364110
-            }
+            "openStreetMapRelation": 364110
         },
         "NOTES": []
     },
@@ -1372,10 +1324,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3277605,
             "wikiData": "Q225",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 2528142
-            }
+            "openStreetMapRelation": 2528142
         },
         "NOTES": []
     },
@@ -1441,10 +1390,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3374084,
             "wikiData": "Q244",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 547511
-            }
+            "openStreetMapRelation": 547511
         },
         "NOTES": []
     },
@@ -1516,10 +1462,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1210997,
             "wikiData": "Q902",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 184640
-            }
+            "openStreetMapRelation": 184640
         },
         "NOTES": []
     },
@@ -1586,10 +1529,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2802361,
             "wikiData": "Q31",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 52411
-            }
+            "openStreetMapRelation": 52411
         },
         "NOTES": []
     },
@@ -1652,10 +1592,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2361809,
             "wikiData": "Q965",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 192783
-            }
+            "openStreetMapRelation": 192783
         },
         "NOTES": []
     },
@@ -1727,10 +1664,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 732800,
             "wikiData": "Q219",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 186382
-            }
+            "openStreetMapRelation": 186382
         },
         "NOTES": []
     },
@@ -1796,10 +1730,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 290291,
             "wikiData": "Q398",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 378734
-            }
+            "openStreetMapRelation": 378734
         },
         "NOTES": []
     },
@@ -1865,10 +1796,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 433561,
             "wikiData": "Q967",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 195266
-            }
+            "openStreetMapRelation": 195266
         },
         "NOTES": []
     },
@@ -1931,10 +1859,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2395170,
             "wikiData": "Q962",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 192782
-            }
+            "openStreetMapRelation": 192782
         },
         "NOTES": []
     },
@@ -1997,10 +1922,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3578476,
             "wikiData": "Q25305",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 1265297
-            }
+            "openStreetMapRelation": 1265297
         },
         "NOTES": []
     },
@@ -2063,10 +1985,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3573345,
             "wikiData": "Q23635",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 1993209
-            }
+            "openStreetMapRelation": 1993209
         },
         "NOTES": [
             "[languages] No language declared as official, neither de jure nor de facto. English is used administratively."
@@ -2132,10 +2051,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1820814,
             "wikiData": "Q921",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 1993209
-            }
+            "openStreetMapRelation": 1993209
         },
         "NOTES": [
             "[languages] The Brunei language also has a different alphabet called 'Jawi', which does not have a",
@@ -2210,10 +2126,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3923057,
             "wikiData": "Q750",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 195267
-            }
+            "openStreetMapRelation": 195267
         },
         "NOTES": [
             "[languages] MANY OFFICIAL LANGUAGES — Bolivia recognizes 37 official languages.",
@@ -2297,10 +2210,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 7626844,
             "wikiData": "Q25279",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 1216720
-            }
+            "openStreetMapRelation": 1216720
         },
         "NOTES": []
     },
@@ -2391,10 +2301,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3469034,
             "wikiData": "Q155",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 59470
-            }
+            "openStreetMapRelation": 59470
         },
         "NOTES": []
     },
@@ -2456,10 +2363,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3572887,
             "wikiData": "Q778",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 547469
-            }
+            "openStreetMapRelation": 547469
         },
         "NOTES": [
             "[languages] ase is American Sign Language, used in education and interpretation."
@@ -2526,10 +2430,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1252634,
             "wikiData": "Q917",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 184629
-            }
+            "openStreetMapRelation": 184629
         },
         "NOTES": []
     },
@@ -2597,10 +2498,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3371123,
             "wikiData": "Q244",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 1749828
-            }
+            "openStreetMapRelation": 1749828
         },
         "NOTES": [
             "The island has population 0 and no area dial code"
@@ -2673,10 +2571,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 933860,
             "wikiData": "Q963",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 1889339
-            }
+            "openStreetMapRelation": 1889339
         },
         "NOTES": []
     },
@@ -2752,10 +2647,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 630336,
             "wikiData": "Q184",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 59065
-            }
+            "openStreetMapRelation": 59065
         },
         "NOTES": []
     },
@@ -2827,10 +2719,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3582678,
             "wikiData": "Q242",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 287827
-            }
+            "openStreetMapRelation": 287827
         },
         "NOTES": []
     },
@@ -2938,10 +2827,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 6251999,
             "wikiData": "Q16",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 1428125
-            }
+            "openStreetMapRelation": 1428125
         },
         "NOTES": []
     },
@@ -3018,10 +2904,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1547376,
             "wikiData": "Q26988",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 82610
-            }
+            "openStreetMapRelation": 82610
         },
         "NOTES": [
             "[languages] 'zlm' refers to the local variant of colloquial Malay spoken by the Cocos Malay community,",
@@ -3101,10 +2984,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 203312,
             "wikiData": "Q974",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 192795
-            }
+            "openStreetMapRelation": 192795
         },
         "NOTES": [
             "[languages] 'fra' is the only de jure official language as per the 2006 Constitution.",
@@ -3181,10 +3061,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 239880,
             "wikiData": "Q929",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 192793
-            }
+            "openStreetMapRelation": 192793
         },
         "NOTES": [
             "[languages] 'fra' and 'sgb' are both official languages according to the 2004 Constitution (Article 9).",
@@ -3261,10 +3138,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2260494,
             "wikiData": "Q971",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 192790
-            }
+            "openStreetMapRelation": 192790
         },
         "NOTES": [
             "[languages] 'fra' is the only official language by law (de jure).",
@@ -3357,10 +3231,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2658434,
             "wikiData": "Q39",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 51701
-            }
+            "openStreetMapRelation": 51701
         },
         "NOTES": [
             "[languages] 'deu', 'fra', 'ita', and 'roh' are official at the federal level as per the Swiss Constitution (Art. 70).",
@@ -3434,10 +3305,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2287781,
             "wikiData": "Q1008",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 192780
-            }
+            "openStreetMapRelation": 192780
         },
         "NOTES": [
             "[languages] 'fra' is the only official language recognized by the Constitution (Art. 1).",
@@ -3508,10 +3376,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1899402,
             "wikiData": "Q26988",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 2186648
-            }
+            "openStreetMapRelation": 2186648
         },
         "NOTES": [
             "[languages] 'eng' and 'rar' are the official languages under the Cook Islands Constitution (Art. 64).",
@@ -3591,10 +3456,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3895114,
             "wikiData": "Q298",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 167454
-            }
+            "openStreetMapRelation": 167454
         },
         "NOTES": [
             "[languages] 'spa' is the only official language per Chilean legislation.",
@@ -3675,10 +3537,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2233387,
             "wikiData": "Q1009",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 192830
-            }
+            "openStreetMapRelation": 192830
         },
         "NOTES": [
             "[languages] Cameroon has two de jure official languages: French and English.",
@@ -3766,10 +3625,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1814991,
             "wikiData": "Q148",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 270056
-            }
+            "openStreetMapRelation": 270056
         },
         "NOTES": [
             "[languages] 'cmn' (Mandarin) is the sole de jure official language in China.",
@@ -3850,10 +3706,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3686110,
             "wikiData": "Q739",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 120027
-            }
+            "openStreetMapRelation": 120027
         },
         "NOTES": [
             "[languages] 'spa' (Spanish) is the only de jure official language, according to the Colombian Constitution.",
@@ -3929,10 +3782,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3624060,
             "wikiData": "Q800",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 121760
-            }
+            "openStreetMapRelation": 121760
         },
         "NOTES": [
             "[languages] 'spa' (Spanish) is the sole official language of Costa Rica as per the Constitution.",
@@ -4008,10 +3858,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3562981,
             "wikiData": "Q241",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 307833
-            }
+            "openStreetMapRelation": 307833
         },
         "NOTES": [
             "[languages] 'spa' (Spanish) is the only official language of Cuba, enshrined in the Constitution.",
@@ -4087,10 +3934,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3374766,
             "wikiData": "Q1011",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 536765
-            }
+            "openStreetMapRelation": 536765
         },
         "NOTES": [
             "[languages] 'por' (Portuguese) is the only official language of Cabo Verde, constitutionally established.",
@@ -4165,10 +4009,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 7626836,
             "wikiData": "Q25279",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 1273856
-            }
+            "openStreetMapRelation": 1273856
         },
         "NOTES": [
             "[languages] Dutch, Papiamento, and English are co-official languages of Curaçao, established in legal and",
@@ -4243,10 +4084,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2078138,
             "wikiData": "Q31063",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 82637
-            }
+            "openStreetMapRelation": 82637
         },
         "NOTES": [
             "[languages] English is the only official language under Australian jurisdiction.",
@@ -4324,10 +4162,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 146669,
             "wikiData": "Q229",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 307787
-            }
+            "openStreetMapRelation": 307787
         },
         "NOTES": [
             "[languages] Greek and Turkish are the only official languages recognized in the Constitution of Cyprus.",
@@ -4405,10 +4240,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3077311,
             "wikiData": "Q213",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 51684
-            }
+            "openStreetMapRelation": 51684
         },
         "NOTES": [
             "[languages] Czech ('ces') is the only official language enshrined in the Constitution.",
@@ -4491,10 +4323,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2921044,
             "wikiData": "Q183",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 51477
-            }
+            "openStreetMapRelation": 51477
         },
         "NOTES": [
             "[languages] German ('deu') is the only official language at federal level.",
@@ -4569,10 +4398,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 223816,
             "wikiData": "Q977",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 192789
-            }
+            "openStreetMapRelation": 192789
         },
         "NOTES": []
     },
@@ -4635,10 +4461,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2623032,
             "wikiData": "Q35",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 50046
-            }
+            "openStreetMapRelation": 50046
         },
         "NOTES": []
     },
@@ -4701,10 +4524,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3575830,
             "wikiData": "Q784",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 307828
-            }
+            "openStreetMapRelation": 307828
         },
         "NOTES": []
     },
@@ -4767,10 +4587,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3508796,
             "wikiData": "Q786",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 307829
-            }
+            "openStreetMapRelation": 307829
         },
         "NOTES": []
     },
@@ -4835,10 +4652,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2589581,
             "wikiData": "Q262",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 192756
-            }
+            "openStreetMapRelation": 192756
         },
         "NOTES": [
             "[languages] Tamazight is officially recognized as a national and official language.",
@@ -4907,10 +4721,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3658394,
             "wikiData": "Q736",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 307786
-            }
+            "openStreetMapRelation": 307786
         },
         "NOTES": [
             "[languages] Ecuador recognizes both Spanish and Kichwa (que) as official languages, and Shuar as a",
@@ -4972,10 +4783,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 453733,
             "wikiData": "Q191",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 79510
-            }
+            "openStreetMapRelation": 79510
         },
         "NOTES": [
             "[languages] Russian and English are widely spoken, especially in urban and border regions.",
@@ -5048,10 +4856,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 357994,
             "wikiData": "Q79",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 1473946
-            }
+            "openStreetMapRelation": 1473946
         },
         "NOTES": [
             "[languages] Modern Standard Arabic (arb) is the sole official language by law.",
@@ -5121,10 +4926,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2461445,
             "wikiData": "Q6250",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 5441969
-            }
+            "openStreetMapRelation": 5441969
         },
         "NOTES": [
             "[languages] Arabic (arb) and Spanish (spa) are declared official by the Sahrawi Arab Democratic Republic,",
@@ -5198,10 +5000,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 338010,
             "wikiData": "Q986",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 1620601
-            }
+            "openStreetMapRelation": 1620601
         },
         "NOTES": [
             "[languages] Eritrea has no constitutionally defined official language. Tigrinya, Arabic, and English are",
@@ -5274,10 +5073,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2510769,
             "wikiData": "Q29",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 1311341
-            }
+            "openStreetMapRelation": 1311341
         },
         "NOTES": [
             "[languages] Spanish (spa) is the sole official language of the state, while Catalan (cat), Basque (eus),",
@@ -5352,10 +5148,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 337996,
             "wikiData": "Q115",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 192800
-            }
+            "openStreetMapRelation": 192800
         },
         "NOTES": [
             "[languages] Amharic (amh) is the sole federal working language of Ethiopia and holds official status",
@@ -5429,10 +5222,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 660013,
             "wikiData": "Q33",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 54224
-            }
+            "openStreetMapRelation": 54224
         },
         "NOTES": [
             "[languages] Finnish (fin) and Swedish (swe) are the two official national languages of Finland by",
@@ -5512,10 +5302,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2205218,
             "wikiData": "Q712",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 2157446
-            }
+            "openStreetMapRelation": 2157446
         },
         "NOTES": [
             "[languages] English (eng), Fijian (fij), and Fiji Hindi (hif) are co-official languages as per the",
@@ -5587,10 +5374,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3474414,
             "wikiData": "Q9648",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 1993867
-            }
+            "openStreetMapRelation": 1993867
         },
         "NOTES": [
             "[dependency] The Falkland Islands (Malvinas) are a British Overseas Territory claimed by Argentina.",
@@ -5667,10 +5451,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2081918,
             "wikiData": "Q702",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 571824
-            }
+            "openStreetMapRelation": 571824
         },
         "NOTES": [
             "[languages] English (eng) is the sole official language at the federal level, while local indigenous",
@@ -5741,10 +5522,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2622320,
             "wikiData": "Q4628",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 52939
-            }
+            "openStreetMapRelation": 52939
         },
         "NOTES": [
             "[dependency] The Faroe Islands are a self-governing archipelago under the sovereignty of the Kingdom",
@@ -5819,10 +5597,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3017382,
             "wikiData": "Q142",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 1403916
-            }
+            "openStreetMapRelation": 1403916
         },
         "NOTES": [
             "[languages] French (fra) is the only official language nationwide, with several regional languages",
@@ -5896,10 +5671,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2400553,
             "wikiData": "Q1000",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 192794
-            }
+            "openStreetMapRelation": 192794
         },
         "NOTES": [
             "[languages] French (fra) is the only official language of Gabon.",
@@ -5980,10 +5752,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2635167,
             "wikiData": "Q145",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 62149
-            }
+            "openStreetMapRelation": 62149
         },
         "NOTES": [
             "[languages] English (eng) is the only official language de jure at the national level.",
@@ -6058,10 +5827,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3580239,
             "wikiData": "Q769",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 536899
-            }
+            "openStreetMapRelation": 536899
         },
         "NOTES": [
             "[languages] English (eng) is the sole official language of Grenada.",
@@ -6138,10 +5904,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 614540,
             "wikiData": "Q230",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 28699
-            }
+            "openStreetMapRelation": 28699
         },
         "NOTES": [
             "[languages] Georgian (kat) is the sole official language de jure.",
@@ -6215,10 +5978,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3381670,
             "wikiData": "Q3769",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 3407760
-            }
+            "openStreetMapRelation": 3407760
         },
         "NOTES": [
             "[languages] French (fra) is the sole official language de jure.",
@@ -6298,10 +6058,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3042362,
             "wikiData": "Q25230",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 93636
-            }
+            "openStreetMapRelation": 93636
         },
         "NOTES": [
             "[languages] Guernésiais (nrf) is a Norman language variety spoken by a small segment of the local",
@@ -6379,10 +6136,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2300660,
             "wikiData": "Q117",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 192781
-            }
+            "openStreetMapRelation": 192781
         },
         "NOTES": [
             "[languages] English is the sole official language of Ghana, used in government, education, and media.",
@@ -6463,10 +6217,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2411586,
             "wikiData": "Q1410",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 1278737
-            }
+            "openStreetMapRelation": 1278737
         },
         "NOTES": [
             "[mottos] The Latin phrase 'Nulli Expugnabilis Hosti' (Military) appears on Gibraltar's coat of arms and",
@@ -6539,10 +6290,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3425505,
             "wikiData": "Q223",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 2184073
-            }
+            "openStreetMapRelation": 2184073
         },
         "NOTES": [
             "[languages] Greenlandic (Kalaallisut) is the only official language of Greenland since 2009.",
@@ -6614,10 +6362,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2413451,
             "wikiData": "Q1005",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 192781
-            }
+            "openStreetMapRelation": 192781
         },
         "NOTES": [
             "[languages] English is the only official language of The Gambia, with full de jure status.",
@@ -6691,10 +6436,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2420477,
             "wikiData": "Q1006",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 192778
-            }
+            "openStreetMapRelation": 192778
         },
         "NOTES": [
             "[languages] French is the official language of Guinea by constitutional mandate.",
@@ -6761,10 +6503,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3579143,
             "wikiData": "Q17012",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 3407643
-            }
+            "openStreetMapRelation": 3407643
         },
         "NOTES": [
             "[languages] French is the sole official language in Guadeloupe as an overseas department of France.",
@@ -6841,10 +6580,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2309096,
             "wikiData": "Q983",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 192781
-            }
+            "openStreetMapRelation": 192781
         },
         "NOTES": [
             "[languages] Equatorial Guinea is the only country in Africa with Spanish as an official language.",
@@ -6916,10 +6652,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 390903,
             "wikiData": "Q41",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 192782
-            }
+            "openStreetMapRelation": 192782
         },
         "NOTES": [
             "[languages] Turkish is officially recognized in Western Thrace as a regional language for the Muslim",
@@ -6997,10 +6730,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3474415,
             "wikiData": "Q35086",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 1983626
-            }
+            "openStreetMapRelation": 1983626
         },
         "NOTES": [
             "[languages] English is the official language by administrative function, despite the absence of permanent",
@@ -7079,10 +6809,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3595528,
             "wikiData": "Q774",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 1521463
-            }
+            "openStreetMapRelation": 1521463
         },
         "NOTES": [
             "[languages] Spanish is the only de jure official language.",
@@ -7156,10 +6883,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 4043988,
             "wikiData": "Q16635",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 306001
-            }
+            "openStreetMapRelation": 306001
         },
         "NOTES": [
             "[languages] English and Chamorro are both official languages by law.",
@@ -7232,10 +6956,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2372248,
             "wikiData": "Q1007",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 192776
-            }
+            "openStreetMapRelation": 192776
         },
         "NOTES": [
             "[languages] Portuguese is the only language with legal official status.",
@@ -7307,10 +7028,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3378535,
             "wikiData": "Q734",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 192781
-            }
+            "openStreetMapRelation": 192781
         },
         "NOTES": [
             "[languages] English is the sole official language and is used in government and education.",
@@ -7380,10 +7098,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1819730,
             "wikiData": "Q8646",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 913110
-            }
+            "openStreetMapRelation": 913110
         },
         "NOTES": [
             "[languages] English and Cantonese (yue) are official in practice; only English is de jure.",
@@ -7444,10 +7159,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1547314,
             "wikiData": "Q131198",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 2177227
-            }
+            "openStreetMapRelation": 2177227
         },
         "NOTES": [
             "[status] The territory is uninhabited and administered by Australia.",
@@ -7513,10 +7225,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3608932,
             "wikiData": "Q783",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 287670
-            }
+            "openStreetMapRelation": 287670
         },
         "NOTES": [
             "[languages] Spanish is the only de jure official language as per the Constitution.",
@@ -7576,10 +7285,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3202326,
             "wikiData": "Q224",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 214885
-            }
+            "openStreetMapRelation": 214885
         },
         "NOTES": [
             "[languages] Croatian is the only de jure official language of Croatia, according to its constitution.",
@@ -7650,10 +7356,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3723988,
             "wikiData": "Q790",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 307833
-            }
+            "openStreetMapRelation": 307833
         },
         "NOTES": [
             "[languages] Haitian Creole (hat) and French (fra) are both official languages under the Constitution",
@@ -7714,10 +7417,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 719819,
             "wikiData": "Q28",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 21335
-            }
+            "openStreetMapRelation": 21335
         },
         "NOTES": [
             "[languages] Hungarian (hun) is the sole official language of Hungary, defined by the Constitution.",
@@ -7799,10 +7499,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1643084,
             "wikiData": "Q252",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 2134181
-            }
+            "openStreetMapRelation": 2134181
         },
         "NOTES": [
             "[languages] Indonesian is the only official language with legal status in the country.",
@@ -7878,10 +7575,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2963597,
             "wikiData": "Q27",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 62273
-            }
+            "openStreetMapRelation": 62273
         },
         "NOTES": [
             "[languages] Irish is the only official language de jure in the Constitution.",
@@ -7957,10 +7651,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 294640,
             "wikiData": "Q801",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 1473946
-            }
+            "openStreetMapRelation": 1473946
         },
         "NOTES": [
             "[languages] Hebrew is the only official language since the 2018 Basic Law.",
@@ -8051,10 +7742,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3042225,
             "wikiData": "Q9676",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 62000
-            }
+            "openStreetMapRelation": 62000
         },
         "NOTES": [
             "[languages] English is the official language used in administration and public life.",
@@ -8161,10 +7849,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1269750,
             "wikiData": "Q668",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 304716
-            }
+            "openStreetMapRelation": 304716
         },
         "NOTES": [
             "[languages] Hindi and English are the official languages at the federal level.",
@@ -8226,10 +7911,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1282588,
             "wikiData": "Q43448",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 1993867
-            }
+            "openStreetMapRelation": 1993867
         },
         "NOTES": [
             "[languages] The British Indian Ocean Territory has no permanent civilian population.",
@@ -8298,10 +7980,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 99237,
             "wikiData": "Q796",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 304934
-            }
+            "openStreetMapRelation": 304934
         },
         "NOTES": [
             "[languages] Arabic and Kurdish are co-official under the 2005 Constitution (Art. 4).",
@@ -8384,10 +8063,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 130758,
             "wikiData": "Q794",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 304938
-            }
+            "openStreetMapRelation": 304938
         },
         "NOTES": [
             "[languages] Persian (fas) is the sole official language of the Islamic Republic of Iran.",
@@ -8456,10 +8132,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2629691,
             "wikiData": "Q189",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 299133
-            }
+            "openStreetMapRelation": 299133
         },
         "NOTES": [
             "[languages] Icelandic is the only official language under national law.",
@@ -8533,10 +8206,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3175395,
             "wikiData": "Q38",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 365331
-            }
+            "openStreetMapRelation": 365331
         },
         "NOTES": [
             "[languages] Italian is the only official language of the Republic.",
@@ -8626,10 +8296,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3042142,
             "wikiData": "Q785",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 367988
-            }
+            "openStreetMapRelation": 367988
         },
         "NOTES": [
             "[languages] English is the official language of Jersey.",
@@ -8705,10 +8372,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3489940,
             "wikiData": "Q766",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 53644
-            }
+            "openStreetMapRelation": 53644
         },
         "NOTES": [
             "[languages] English is the only official language of Jamaica.",
@@ -8791,10 +8455,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 248816,
             "wikiData": "Q810",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 1848181
-            }
+            "openStreetMapRelation": 1848181
         },
         "NOTES": [
             "[languages] Arabic is the only official language of the Hashemite Kingdom of Jordan.",
@@ -8863,10 +8524,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1861060,
             "wikiData": "Q17",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 382313
-            }
+            "openStreetMapRelation": 382313
         },
         "NOTES": [
             "[languages] Japanese is the national language de facto, without constitutional status.",
@@ -8956,10 +8614,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 192950,
             "wikiData": "Q114",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 195271
-            }
+            "openStreetMapRelation": 195271
         },
         "NOTES": [
             "[languages] English and Swahili are co-official per Constitution (Article 7).",
@@ -9034,10 +8689,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1527747,
             "wikiData": "Q813",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 178009
-            }
+            "openStreetMapRelation": 178009
         },
         "NOTES": [
             "[languages] Kirghiz is the State language as defined by the Constitution.",
@@ -9112,10 +8764,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1831722,
             "wikiData": "Q424",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 49898
-            }
+            "openStreetMapRelation": 49898
         },
         "NOTES": [
             "[languages] Khmer is the sole official language of Cambodia (Constitution, Article 5).",
@@ -9194,10 +8843,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 4030945,
             "wikiData": "Q710",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 2186468
-            }
+            "openStreetMapRelation": 2186468
         },
         "NOTES": [
             "[languages] English and Gilbertese (gil) are co-official languages of Kiribati.",
@@ -9276,10 +8922,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 921929,
             "wikiData": "Q970",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 5357741
-            }
+            "openStreetMapRelation": 5357741
         },
         "NOTES": [
             "[languages] Comorian (swb), French and Arabic are co-official languages under the Constitution.",
@@ -9352,10 +8995,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3575174,
             "wikiData": "Q763",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 536780
-            }
+            "openStreetMapRelation": 536780
         },
         "NOTES": [
             "[languages] English is the sole official language. Jamaican Creole (jam) is widely spoken.",
@@ -9428,10 +9068,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1873107,
             "wikiData": "Q423",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 192734
-            }
+            "openStreetMapRelation": 192734
         },
         "NOTES": [
             "[languages] Korean is the sole official language of the DPRK.",
@@ -9513,10 +9150,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1835841,
             "wikiData": "Q884",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 307756
-            }
+            "openStreetMapRelation": 307756
         },
         "NOTES": [
             "[languages] Korean is the sole de jure official language of South Korea.",
@@ -9580,10 +9214,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 285570,
             "wikiData": "Q817",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 305099
-            }
+            "openStreetMapRelation": 305099
         },
         "NOTES": [
             "[languages] Arabic is the only official language of Kuwait.",
@@ -9655,10 +9286,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3580718,
             "wikiData": "Q5785",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 536900
-            }
+            "openStreetMapRelation": 536900
         },
         "NOTES": [
             "[languages] English is the official language of the Cayman Islands.",
@@ -9737,10 +9365,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1522867,
             "wikiData": "Q232",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 214665
-            }
+            "openStreetMapRelation": 214665
         },
         "NOTES": [
             "[languages] Kazakh is the state language as defined by the Constitution.",
@@ -9812,10 +9437,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1655842,
             "wikiData": "Q819",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 49903
-            }
+            "openStreetMapRelation": 49903
         },
         "NOTES": [
             "[languages] Lao is the only official language of Laos (Article 89 of the Constitution).",
@@ -9883,10 +9505,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 272103,
             "wikiData": "Q822",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 184843
-            }
+            "openStreetMapRelation": 184843
         },
         "NOTES": [
             "[languages] Arabic is the only official language of Lebanon (Article 11 of the Constitution).",
@@ -9955,10 +9574,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3576468,
             "wikiData": "Q760",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 536900
-            }
+            "openStreetMapRelation": 536900
         },
         "NOTES": [
             "[languages] English is the only official language of Saint Lucia.",
@@ -10025,10 +9641,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3042058,
             "wikiData": "Q347",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 1155955
-            }
+            "openStreetMapRelation": 1155955
         },
         "NOTES": [
             "[languages] German (deu) is the sole official language of Liechtenstein.",
@@ -10100,10 +9713,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1227603,
             "wikiData": "Q854",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 536807
-            }
+            "openStreetMapRelation": 536807
         },
         "NOTES": [
             "[languages] Sinhala and Tamil are both official languages of Sri Lanka.",
@@ -10171,10 +9781,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2275384,
             "wikiData": "Q1014",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 192780
-            }
+            "openStreetMapRelation": 192780
         },
         "NOTES": [
             "[languages] English is the sole official language of Liberia.",
@@ -10243,10 +9850,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 932692,
             "wikiData": "Q1015",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 192781
-            }
+            "openStreetMapRelation": 192781
         },
         "NOTES": [
             "[languages] Sesotho and English are co-official languages of Lesotho.",
@@ -10313,10 +9917,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 597427,
             "wikiData": "Q37",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 72594
-            }
+            "openStreetMapRelation": 72594
         },
         "NOTES": [
             "[languages] Lithuanian is the sole official language (Constitution, Article 14).",
@@ -10394,10 +9995,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2960313,
             "wikiData": "Q32",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 2171347
-            }
+            "openStreetMapRelation": 2171347
         },
         "NOTES": [
             "[languages] Luxembourgish, French, and German are official languages under the 1984 language law.",
@@ -10456,10 +10054,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 458258,
             "wikiData": "Q211",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 72594
-            }
+            "openStreetMapRelation": 72594
         },
         "NOTES": [
             "[languages] Latvian is the sole official language. Russian is widely spoken, especially in urban areas.",
@@ -10518,10 +10113,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2215636,
             "wikiData": "Q1016",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 192758
-            }
+            "openStreetMapRelation": 192758
         },
         "NOTES": [
             "[languages] Arabic is the sole official language in Libya.",
@@ -10590,10 +10182,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2542007,
             "wikiData": "Q1028",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 363043
-            }
+            "openStreetMapRelation": 363043
         },
         "NOTES": [
             "[languages] Arabic and Standard Amazigh are the only de jure official languages.",
@@ -10670,10 +10259,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2993457,
             "wikiData": "Q235",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 1124038
-            }
+            "openStreetMapRelation": 1124038
         },
         "NOTES": [
             "[languages] French is the only official language by constitutional law.",
@@ -10746,10 +10332,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 617790,
             "wikiData": "Q217",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 58974
-            }
+            "openStreetMapRelation": 58974
         },
         "NOTES": [
             "[languages] Romanian is the only de jure official language.",
@@ -10829,10 +10412,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3194884,
             "wikiData": "Q236",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 53296
-            }
+            "openStreetMapRelation": 53296
         },
         "NOTES": [
             "[languages] Montenegrin is the only de jure official language.",
@@ -10902,10 +10482,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3578421,
             "wikiData": "Q34617",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 307828
-            }
+            "openStreetMapRelation": 307828
         },
         "NOTES": [
             "[languages] French is the only de jure official language.",
@@ -10984,10 +10561,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1062947,
             "wikiData": "Q1019",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 2555066
-            }
+            "openStreetMapRelation": 2555066
         },
         "NOTES": [
             "[languages] Malagasy and French are the two official languages by constitutional law.",
@@ -11065,10 +10639,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2080185,
             "wikiData": "Q709",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 571780
-            }
+            "openStreetMapRelation": 571780
         },
         "NOTES": [
             "[languages] Marshallese and English are the official languages by constitutional law."
@@ -11137,10 +10708,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 718075,
             "wikiData": "Q221",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 53294
-            }
+            "openStreetMapRelation": 53294
         },
         "NOTES": [
             "[languages] Macedonian and Albanian are de jure official languages.",
@@ -11215,10 +10783,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2453866,
             "wikiData": "Q912",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 192785
-            }
+            "openStreetMapRelation": 192785
         },
         "NOTES": [
             "[languages] French is the only official language by constitutional law.",
@@ -11287,10 +10852,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1327865,
             "wikiData": "Q836",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 50371
-            }
+            "openStreetMapRelation": 50371
         },
         "NOTES": [
             "[languages] Burmese is the only official language by constitutional law.",
@@ -11365,10 +10927,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2029969,
             "wikiData": "Q711",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 161033
-            }
+            "openStreetMapRelation": 161033
         },
         "NOTES": [
             "[languages] Mongolian is the only official language by constitutional law.",
@@ -11442,10 +11001,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1821275,
             "wikiData": "Q14773",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 102199
-            }
+            "openStreetMapRelation": 102199
         },
         "NOTES": [
             "[languages] Yue Chinese (Cantonese) and Portuguese are the only official languages by Basic Law.",
@@ -11513,10 +11069,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 4041468,
             "wikiData": "Q16641",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 306004
-            }
+            "openStreetMapRelation": 306004
         },
         "NOTES": [
             "[languages] English, Chamorro, and Carolinian are the official languages by local constitution.",
@@ -11582,10 +11135,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3570311,
             "wikiData": "Q17054",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 2473087
-            }
+            "openStreetMapRelation": 2473087
         },
         "NOTES": [
             "[languages] French is the only official language by French national law.",
@@ -11664,10 +11214,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2378080,
             "wikiData": "Q1025",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 192763
-            }
+            "openStreetMapRelation": 192763
         },
         "NOTES": [
             "[languages] Arabic is the only official language by constitutional law.",
@@ -11741,10 +11288,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3578097,
             "wikiData": "Q13353",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 537077
-            }
+            "openStreetMapRelation": 537077
         },
         "NOTES": [
             "[languages] English is the only official language by constitutional status.",
@@ -11819,10 +11363,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2562770,
             "wikiData": "Q233",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 365307
-            }
+            "openStreetMapRelation": 365307
         },
         "NOTES": []
     },
@@ -11893,10 +11434,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 934292,
             "wikiData": "Q1027",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 535682
-            }
+            "openStreetMapRelation": 535682
         },
         "NOTES": [
             "[languages] English is the only de jure official language by law in Mauritius.",
@@ -11967,10 +11505,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1282028,
             "wikiData": "Q912",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 536765
-            }
+            "openStreetMapRelation": 536765
         },
         "NOTES": [
             "[languages] Dhivehi is the only official language by constitutional law.",
@@ -12043,10 +11578,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 927384,
             "wikiData": "Q1020",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 195270
-            }
+            "openStreetMapRelation": 195270
         },
         "NOTES": [
             "[languages] Chichewa (Nyanja) and English are the two official languages of Malawi.",
@@ -12125,10 +11657,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3996063,
             "wikiData": "Q96",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 114686
-            }
+            "openStreetMapRelation": 114686
         },
         "NOTES": [
             "[languages] Mexico recognizes 68 indigenous languages as national languages per LGDLPI (2003).",
@@ -12206,10 +11735,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1733045,
             "wikiData": "Q833",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 2108121
-            }
+            "openStreetMapRelation": 2108121
         },
         "NOTES": [
             "[languages] Malaysia recognizes Malay (zsm) as the only official language according to Article 152 of the",
@@ -12279,10 +11805,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1036973,
             "wikiData": "Q1029",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 195270
-            }
+            "openStreetMapRelation": 195270
         },
         "NOTES": [
             "[languages] Portuguese is the only official language. Bantu languages are widely used in local communities.",
@@ -12355,10 +11878,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3355338,
             "wikiData": "Q1030",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 195273
-            }
+            "openStreetMapRelation": 195273
         },
         "NOTES": [
             "[languages] English is the only official language.",
@@ -12424,10 +11944,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2139685,
             "wikiData": "Q33788",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 341129
-            }
+            "openStreetMapRelation": 341129
         },
         "NOTES": [
             "[languages] French is the only official language. Kanak languages like Ajië and Drehu are used in local education.",
@@ -12501,10 +12018,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2440476,
             "wikiData": "Q1032",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 192785
-            }
+            "openStreetMapRelation": 192785
         },
         "NOTES": [
             "[languages] French is the only official language. Hausa and Tamajeq are widely used regionally.",
@@ -12576,10 +12090,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2155115,
             "wikiData": "Q31057",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 2177248
-            }
+            "openStreetMapRelation": 2177248
         },
         "NOTES": [
             "[languages] Norfuk is legally protected and used locally, but lacks an ISO 639-3 code. Excluded.",
@@ -12656,10 +12167,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2328926,
             "wikiData": "Q1033",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 192785
-            }
+            "openStreetMapRelation": 192785
         },
         "NOTES": []
     },
@@ -12727,10 +12235,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3617476,
             "wikiData": "Q811",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 287666
-            }
+            "openStreetMapRelation": 287666
         },
         "NOTES": [
             "[languages] 'ncs' (Nicaraguan Sign Language) is recognized and used especially in the capital and among",
@@ -12815,10 +12320,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2750405,
             "wikiData": "Q55",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 47796
-            }
+            "openStreetMapRelation": 47796
         },
         "NOTES": [
             "[languages] Dutch Sign Language (dse) has been officially recognized since 2020.",
@@ -12894,10 +12396,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3144096,
             "wikiData": "Q20",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 2978650
-            }
+            "openStreetMapRelation": 2978650
         },
         "NOTES": [
             "[languages] Norwegian Bokmål (nob) and Nynorsk (nno) are the two written standards of Norwegian.",
@@ -12973,10 +12472,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1282988,
             "wikiData": "Q837",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 184633
-            }
+            "openStreetMapRelation": 184633
         },
         "NOTES": [
             "[languages] Nepali is the only official language by constitutional provision.",
@@ -13053,10 +12549,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2110425,
             "wikiData": "Q697",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 571805
-            }
+            "openStreetMapRelation": 571805
         },
         "NOTES": [
             "[languages] Nauruan and English are both official languages by law."
@@ -13129,10 +12622,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 4036232,
             "wikiData": "Q34020",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 2177229
-            }
+            "openStreetMapRelation": 2177229
         },
         "NOTES": []
     },
@@ -13198,10 +12688,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2186224,
             "wikiData": "Q664",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 556706
-            }
+            "openStreetMapRelation": 556706
         },
         "NOTES": [
             "[languages] English, Māori and New Zealand Sign Language are official languages by law.",
@@ -13271,10 +12758,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 286963,
             "wikiData": "Q842",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 305138
-            }
+            "openStreetMapRelation": 305138
         },
         "NOTES": [
             "[languages] Arabic is the only official language according to the constitution.",
@@ -13350,10 +12834,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3703430,
             "wikiData": "Q804",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 287668
-            }
+            "openStreetMapRelation": 287668
         },
         "NOTES": [
             "[languages] Spanish is the only official language of Panama.",
@@ -13432,10 +12913,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3932488,
             "wikiData": "Q419",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 288247
-            }
+            "openStreetMapRelation": 288247
         },
         "NOTES": [
             "[languages] Spanish is the only nationwide official language of Peru.",
@@ -13517,10 +12995,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 4030656,
             "wikiData": "Q30971",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 3412620
-            }
+            "openStreetMapRelation": 3412620
         },
         "NOTES": [
             "[languages] French is the only official language under French jurisdiction.",
@@ -13597,10 +13072,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2088628,
             "wikiData": "Q691",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 288084
-            }
+            "openStreetMapRelation": 288084
         },
         "NOTES": [
             "[languages] English and Hiri Motu are the only official languages by law.",
@@ -13680,10 +13152,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1694008,
             "wikiData": "Q928",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 443174
-            }
+            "openStreetMapRelation": 443174
         },
         "NOTES": [
             "[languages] Filipino and English are the only official languages by law.",
@@ -13775,10 +13244,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1168579,
             "wikiData": "Q843",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 307573
-            }
+            "openStreetMapRelation": 307573
         },
         "NOTES": [
             "[languages] Urdu is the only official language by law.",
@@ -13847,10 +13313,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 798544,
             "wikiData": "Q36",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 49715
-            }
+            "openStreetMapRelation": 49715
         },
         "NOTES": [
             "[languages] Polish is the only official language by law.",
@@ -13927,10 +13390,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3424932,
             "wikiData": "Q34617",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 3406825
-            }
+            "openStreetMapRelation": 3406825
         },
         "NOTES": []
     },
@@ -14000,10 +13460,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 4030699,
             "wikiData": "Q35672",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 2185373
-            }
+            "openStreetMapRelation": 2185373
         },
         "NOTES": [
             "[languages] English is the only official language under British jurisdiction.",
@@ -14079,10 +13536,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 4566966,
             "wikiData": "Q1183",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 442260
-            }
+            "openStreetMapRelation": 442260
         },
         "NOTES": [
             "[languages] Both Spanish and English are official by law in Puerto Rico.",
@@ -14150,10 +13604,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 6254930,
             "wikiData": "Q219060",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 1703814
-            }
+            "openStreetMapRelation": 1703814
         },
         "NOTES": [
             "[languages] Arabic is the only official language by law.",
@@ -14222,10 +13673,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2264397,
             "wikiData": "Q45",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 295480
-            }
+            "openStreetMapRelation": 295480
         },
         "NOTES": [
             "[languages] Portuguese is the only national official language.",
@@ -14301,10 +13749,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1559582,
             "wikiData": "Q695",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 571802
-            }
+            "openStreetMapRelation": 571802
         },
         "NOTES": [
             "[languages] Palauan and English are official languages by law.",
@@ -14377,10 +13822,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3437598,
             "wikiData": "Q733",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 287077
-            }
+            "openStreetMapRelation": 287077
         },
         "NOTES": [
             "[languages] Spanish and Guaraní are co-official languages according to the Constitution.",
@@ -14456,10 +13898,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 289688,
             "wikiData": "Q846",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 305091
-            }
+            "openStreetMapRelation": 305091
         },
         "NOTES": [
             "[languages] Arabic is the only official language by law.",
@@ -14528,10 +13967,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 935317,
             "wikiData": "Q2181",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 935317
-            }
+            "openStreetMapRelation": 935317
         },
         "NOTES": [
             "[languages] French is the only official language. Réunion Creole (rcf) is spoken by most of the population.",
@@ -14591,10 +14027,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 798549,
             "wikiData": "Q218",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 90689
-            }
+            "openStreetMapRelation": 90689
         },
         "NOTES": [
             "[languages] Romanian is the only official language by law.",
@@ -14673,10 +14106,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 6290252,
             "wikiData": "Q403",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 1741311
-            }
+            "openStreetMapRelation": 1741311
         },
         "NOTES": [
             "[languages] Serbian (srp) is the only official language.",
@@ -14751,10 +14181,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2017370,
             "wikiData": "Q159",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 60189
-            }
+            "openStreetMapRelation": 60189
         },
         "NOTES": [
             "[languages] Russian (rus) is the only de jure official language.",
@@ -14829,10 +14256,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 49518,
             "wikiData": "Q1037",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 171496
-            }
+            "openStreetMapRelation": 171496
         },
         "NOTES": [
             "[languages] Kinyarwanda (kin), English, French and Swahili are all de jure official languages by constitutional law.",
@@ -14905,10 +14329,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 102358,
             "wikiData": "Q851",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 307584
-            }
+            "openStreetMapRelation": 307584
         },
         "NOTES": [
             "[languages] Arabic (ara) is the only de jure official language.",
@@ -14977,10 +14398,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2103350,
             "wikiData": "Q685",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 2851649
-            }
+            "openStreetMapRelation": 2851649
         },
         "NOTES": [
             "[languages] English is the only official language by law.",
@@ -15050,10 +14468,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 241170,
             "wikiData": "Q1042",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 536765
-            }
+            "openStreetMapRelation": 536765
         },
         "NOTES": []
     },
@@ -15117,10 +14532,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 366755,
             "wikiData": "Q1049",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 192789
-            }
+            "openStreetMapRelation": 192789
         },
         "NOTES": [
             "[languages] Arabic and English are co-official by constitutional provisions.",
@@ -15188,10 +14600,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2661886,
             "wikiData": "Q34",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 52822
-            }
+            "openStreetMapRelation": 52822
         },
         "NOTES": [
             "[languages] Swedish (swe) is the only official language. Sámi languages (sme, sma, sju) are protected and",
@@ -15294,10 +14703,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1880251,
             "wikiData": "Q334",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 536780
-            }
+            "openStreetMapRelation": 536780
         },
         "NOTES": [
             "[languages] Singapore has four de jure official languages: Malay (msa), English (eng), Mandarin Chinese",
@@ -15371,10 +14777,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3370751,
             "wikiData": "Q192184",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 1964272
-            }
+            "openStreetMapRelation": 1964272
         },
         "NOTES": [
             "Ref: https://it.wikipedia.org/wiki/Sant%27Elena,_Ascensione_e_Tristan_da_Cunha",
@@ -15453,10 +14856,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3190538,
             "wikiData": "Q215",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 218657
-            }
+            "openStreetMapRelation": 218657
         },
         "NOTES": [
             "[languages] Slovene (slv) is the sole official language.",
@@ -15529,10 +14929,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 607072,
             "wikiData": "Q104235",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 1229689
-            }
+            "openStreetMapRelation": 1229689
         },
         "NOTES": [
             "[languages] Norwegian (nor) is the only official language in both Svalbard and Jan Mayen.",
@@ -15590,10 +14987,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3057568,
             "wikiData": "Q214",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 14296
-            }
+            "openStreetMapRelation": 14296
         },
         "NOTES": [
             "[languages] Hungarian (hun) and Czech (ces) are widely spoken, especially in border areas.",
@@ -15662,10 +15056,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2403846,
             "wikiData": "Q1044",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 192781
-            }
+            "openStreetMapRelation": 192781
         },
         "NOTES": [
             "[languages] English is the only official language under constitutional law.",
@@ -15739,10 +15130,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3168068,
             "wikiData": "Q238",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 53636
-            }
+            "openStreetMapRelation": 53636
         },
         "NOTES": [
             "[languages] Italian is the only official language by law.",
@@ -15817,10 +15205,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2245662,
             "wikiData": "Q1041",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 192785
-            }
+            "openStreetMapRelation": 192785
         },
         "NOTES": [
             "[languages] French is the only official language by law.",
@@ -15885,10 +15270,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 51537,
             "wikiData": "Q1045",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 192799
-            }
+            "openStreetMapRelation": 192799
         },
         "NOTES": [
             "[languages] Somali and Arabic are the official languages by law.",
@@ -15957,10 +15339,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3382998,
             "wikiData": "Q730",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 287082
-            }
+            "openStreetMapRelation": 287082
         },
         "NOTES": [
             "[languages] Dutch (nld) is the only official language.",
@@ -16033,10 +15412,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 7909807,
             "wikiData": "Q958",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 54094
-            }
+            "openStreetMapRelation": 54094
         },
         "NOTES": [
             "[languages] English is the only official language by law.",
@@ -16106,10 +15482,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2410758,
             "wikiData": "Q1039",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 192793
-            }
+            "openStreetMapRelation": 192793
         },
         "NOTES": [
             "[languages] Portuguese is the only official language by law.",
@@ -16181,10 +15554,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3585968,
             "wikiData": "Q792",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 1520612
-            }
+            "openStreetMapRelation": 1520612
         },
         "NOTES": [
             "[languages] Spanish is the only official language by law.",
@@ -16264,10 +15634,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 7609695,
             "wikiData": "Q26273",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 85036
-            }
+            "openStreetMapRelation": 85036
         },
         "NOTES": [
             "[languages] Dutch is the only official language by law.",
@@ -16348,10 +15715,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 163843,
             "wikiData": "Q858",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 184840
-            }
+            "openStreetMapRelation": 184840
         },
         "NOTES": [
             "[languages] Arabic is the only official language by law.",
@@ -16422,10 +15786,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 934841,
             "wikiData": "Q1050",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 88210
-            }
+            "openStreetMapRelation": 88210
         },
         "NOTES": [
             "Former Swaziland.",
@@ -16495,10 +15856,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3576916,
             "wikiData": "Q18221",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 547469
-            }
+            "openStreetMapRelation": 547469
         },
         "NOTES": []
     },
@@ -16568,10 +15926,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2434508,
             "wikiData": "Q657",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 192789
-            }
+            "openStreetMapRelation": 192789
         },
         "NOTES": [
             "[languages] Arabic and French are both official languages by constitutional law.",
@@ -16646,10 +16001,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1546748,
             "wikiData": "Q129003",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 1269755
-            }
+            "openStreetMapRelation": 1269755
         },
         "NOTES": [
             "[dependency] This is a French overseas territory with no permanent population."
@@ -16719,10 +16071,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2363686,
             "wikiData": "Q945",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 192784
-            }
+            "openStreetMapRelation": 192784
         },
         "NOTES": [
             "[languages] French is the only official language by law.",
@@ -16801,10 +16150,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1605651,
             "wikiData": "Q869",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 2067731
-            }
+            "openStreetMapRelation": 2067731
         },
         "NOTES": [
             "[languages] Thai (tha) is the only official language by law.",
@@ -16873,10 +16219,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1220409,
             "wikiData": "Q863",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 214626
-            }
+            "openStreetMapRelation": 214626
         },
         "NOTES": [
             "[languages] Tajik (tgk) is the only official language according to the Constitution.",
@@ -16950,10 +16293,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 4031074,
             "wikiData": "Q33707",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 2186648
-            }
+            "openStreetMapRelation": 2186648
         },
         "NOTES": [
             "[languages] Tokelauan (tkl) and English (eng) are both official languages.",
@@ -17023,10 +16363,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1966436,
             "wikiData": "Q574",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 1221918
-            }
+            "openStreetMapRelation": 1221918
         },
         "NOTES": [
             "[languages] Tetum (tet) and Portuguese (por) are both official languages.",
@@ -17096,10 +16433,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1218197,
             "wikiData": "Q874",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 223026
-            }
+            "openStreetMapRelation": 223026
         },
         "NOTES": [
             "[languages] Turkmen (tuk) is the only official language by constitutional definition.",
@@ -17171,10 +16505,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2464461,
             "wikiData": "Q948",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 192757
-            }
+            "openStreetMapRelation": 192757
         },
         "NOTES": [
             "[languages] Arabic (ara) is the only official language according to the Tunisian Constitution.",
@@ -17244,10 +16575,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 4032283,
             "wikiData": "Q678",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 2186658
-            }
+            "openStreetMapRelation": 2186658
         },
         "NOTES": [
             "[languages] Tongan (ton) and English (eng) are both official languages according to the Constitution."
@@ -17317,10 +16645,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 298795,
             "wikiData": "Q43",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 174737
-            }
+            "openStreetMapRelation": 174737
         },
         "NOTES": [
             "[languages] Turkish is the only official language under Turkish law.",
@@ -17396,10 +16721,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3573591,
             "wikiData": "Q754",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 555717
-            }
+            "openStreetMapRelation": 555717
         },
         "NOTES": []
     },
@@ -17473,10 +16795,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2110297,
             "wikiData": "Q672",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 2177266
-            }
+            "openStreetMapRelation": 2177266
         },
         "NOTES": []
     },
@@ -17549,10 +16868,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1668284,
             "wikiData": "Q865",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 449220
-            }
+            "openStreetMapRelation": 449220
         },
         "NOTES": [
             "[languages] Mandarin Chinese is the only official language in law.",
@@ -17630,10 +16946,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 149590,
             "wikiData": "Q924",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 195270
-            }
+            "openStreetMapRelation": 195270
         },
         "NOTES": [
             "[languages] Swahili and English are both official languages of Tanzania.",
@@ -17712,10 +17025,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 690791,
             "wikiData": "Q212",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 60199
-            }
+            "openStreetMapRelation": 60199
         },
         "NOTES": [
             "[languages] Ukrainian is the only official language under Ukrainian law.",
@@ -17799,10 +17109,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 226074,
             "wikiData": "Q1036",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 192796
-            }
+            "openStreetMapRelation": 192796
         },
         "NOTES": [
             "[languages] English and Swahili are the official languages of Uganda.",
@@ -17888,10 +17195,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 5854968,
             "wikiData": "Q16644",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 306001
-            }
+            "openStreetMapRelation": 306001
         },
         "NOTES": [
             "[languages] English is used de facto in all official contexts but has no de jure status.",
@@ -18009,10 +17313,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 6252001,
             "wikiData": "Q30",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 148838
-            }
+            "openStreetMapRelation": 148838
         },
         "NOTES": [
             "[languages] English is used de facto in all federal and administrative functions, but has no de jure status.",
@@ -18088,10 +17389,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3439705,
             "wikiData": "Q77",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 287827
-            }
+            "openStreetMapRelation": 287827
         },
         "NOTES": [
             "[languages] Spanish is the only official language of Uruguay by law.",
@@ -18162,10 +17460,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1512440,
             "wikiData": "Q265",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 196240
-            }
+            "openStreetMapRelation": 196240
         },
         "NOTES": [
             "[languages] Uzbek is the only official language by law (uzb).",
@@ -18237,10 +17532,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3164670,
             "wikiData": "Q237",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 36989
-            }
+            "openStreetMapRelation": 36989
         },
         "NOTES": [
             "[languages] Latin is the only official language by law in the Vatican City State.",
@@ -18312,10 +17604,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3577815,
             "wikiData": "Q757",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 536900
-            }
+            "openStreetMapRelation": 536900
         },
         "NOTES": []
     },
@@ -18381,10 +17670,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3625428,
             "wikiData": "Q717",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 272644
-            }
+            "openStreetMapRelation": 272644
         },
         "NOTES": [
             "[languages] Spanish (spa) is the only official language of Venezuela.",
@@ -18456,10 +17742,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 3577718,
             "wikiData": "Q25305",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 537742
-            }
+            "openStreetMapRelation": 537742
         },
         "NOTES": []
     },
@@ -18525,10 +17808,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 4796775,
             "wikiData": "Q11703",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 306065
-            }
+            "openStreetMapRelation": 306065
         },
         "NOTES": [
             "[languages] English (eng) is the only de jure official language of the U.S. Virgin Islands.",
@@ -18599,10 +17879,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1562822,
             "wikiData": "Q881",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 49915
-            }
+            "openStreetMapRelation": 49915
         },
         "NOTES": [
             "[languages] Vietnamese (vie) is the only official language of the country.",
@@ -18674,10 +17951,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 2134431,
             "wikiData": "Q686",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 2177266
-            }
+            "openStreetMapRelation": 2177266
         },
         "NOTES": [
             "[languages] Bislama (bis), English (eng), and French (fra) are official languages by law.",
@@ -18744,10 +18018,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 4034749,
             "wikiData": "Q35555",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 3411136
-            }
+            "openStreetMapRelation": 3411136
         },
         "NOTES": [
             "[languages] French (fra) is the only official language by French law.",
@@ -18814,10 +18085,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 4034894,
             "wikiData": "Q683",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 2186601
-            }
+            "openStreetMapRelation": 2186601
         },
         "NOTES": []
     },
@@ -18884,10 +18152,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 831053,
             "wikiData": "Q1246",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 53292
-            }
+            "openStreetMapRelation": 53292
         },
         "NOTES": [
             "Kosovo is not a fully recognized sovereign state.",
@@ -18964,10 +18229,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 69543,
             "wikiData": "Q805",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 305092
-            }
+            "openStreetMapRelation": 305092
         },
         "NOTES": [
             "[languages] Arabic (ara) is the sole official language.",
@@ -19041,10 +18303,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 1024031,
             "wikiData": "Q17063",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 3416822
-            }
+            "openStreetMapRelation": 3416822
         },
         "NOTES": [
             "[languages] French (fra) is the sole official language; Shimaore (swb) and Kibushi (zdj) are widely spoken.",
@@ -19131,10 +18390,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 953987,
             "wikiData": "Q258",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 87565
-            }
+            "openStreetMapRelation": 87565
         },
         "NOTES": [
             "[languages] South Africa recognizes 11 official languages across diverse communities, all ISO 639-3 valid.",
@@ -19206,10 +18462,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 895949,
             "wikiData": "Q953",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 195271
-            }
+            "openStreetMapRelation": 195271
         },
         "NOTES": [
             "[languages] English (eng) is the only official language by law, but multiple Bantu languages are widely spoken.",
@@ -19296,10 +18549,7 @@
         "otherAppsIds": {
             "geoNamesOrg": 878675,
             "wikiData": "Q954",
-            "openStreetMap": {
-                "type": "relation",
-                "id": 195270
-            }
+            "openStreetMapRelation": 195270
         },
         "NOTES": [
             "[languages] Zimbabwe constitutionally recognizes 16 official languages; 14 are listed here with ISO 639-3 codes.",

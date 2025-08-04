@@ -601,51 +601,20 @@ export const countriesFunctions = {
                 item.otherAppsIds.wikiData = item.otherAppsIds.wikiData.toUpperCase();
             }
 
-            // Open Street Map
-            if(!Object.prototype.hasOwnProperty.call(item.otherAppsIds, 'openStreetMap')) {
-                item.otherAppsIds.openStreetMap = {
-                    type: null,
-                    id: null
-                };
+            // Open Street Map Relation
+            if(!Object.prototype.hasOwnProperty.call(item.otherAppsIds, 'openStreetMapRelation')) {
+                item.otherAppsIds.openStreetMapRelation = null;
             } else {
-                if (
-                    !requirements(item.otherAppsIds.openStreetMap, 'mustBeObject') ||
-                    !requirements(item.otherAppsIds.openStreetMap, 'cannotBeEmpty')
-                ) {
-                    throwMex('otherAppsIds.openStreetMap', item[mainKey],
-                        'The property must be null or a not empty object');
-                }
-
-                if(!Object.prototype.hasOwnProperty.call(item.otherAppsIds.openStreetMap, 'type')) {
-                    throwMex('otherAppsIds.openStreetMap.type', item[mainKey], 'Required property is missing');
-                }
-                if (item.otherAppsIds.openStreetMap.type !== null) {
-                    if(
-                        !requirements(item.otherAppsIds.openStreetMap.type, 'mustBeString') ||
-                        !requirements(item.otherAppsIds.openStreetMap.type, 'regex', /^(node|way|relation)$/i)
-                    ) {
-                        throwMex('otherAppsIds.openStreetMap.type', item[mainKey],
-                            'The value for the property (' + item.otherAppsIds.openStreetMap.type + ') ' +
-                            'has not the correct format (`node` or `way` or `relation`, case insensitive)'
-                        );
-                    }
-                    item.otherAppsIds.openStreetMap.type = item.otherAppsIds.openStreetMap.type.toLowerCase();
-                }
-                if(!Object.prototype.hasOwnProperty.call(item.otherAppsIds.openStreetMap, 'id')) {
-                    throwMex('otherAppsIds.openStreetMap.id', item[mainKey], 'Required property is missing');
-                }
-                if (item.otherAppsIds.openStreetMap.id !== null) {
-                    if (!requirements(item.otherAppsIds.openStreetMap.id, 'mustBePositiveIntegerNotZero')) {
-                        throwMex('otherAppsIds.geoNamesOrg.id', item[mainKey],
-                            'The property must be null or a positive integer greater then zero');
-                    }
+                if( !requirements(item.otherAppsIds.openStreetMapRelation, 'mustBePositiveIntegerNotZero') ) {
+                    throwMex('otherAppsIds.openStreetMapRelation', item[mainKey],
+                        'The property must be null or a positive integer greater then zero');
                 }
             }
 
             country.otherAppsIds = {
                 geoNamesOrg: item.otherAppsIds.geoNamesOrg,
                 wikiData: item.otherAppsIds.wikiData,
-                openStreetMap: item.otherAppsIds.openStreetMap
+                openStreetMapRelation: item.otherAppsIds.openStreetMapRelation
             };
 
             /** ---- **/

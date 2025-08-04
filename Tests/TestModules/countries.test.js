@@ -389,35 +389,16 @@ for (const country of Object.values(countries)) {
                 )
             ).toBe(true);
         });
-        test(`Test that for the country '${country.alpha2}', 'otherAppsIds' has property 'openStreetMap' as object`, () => {
+        test(`Test that for the country '${country.alpha2}', 'otherAppsIds' has property 'openStreetMapRelation' as null or integer`, () => {
             expect(
-                country.otherAppsIds.hasOwnProperty('openStreetMap') &&
-                typeof country.otherAppsIds.openStreetMap === 'object' &&
-                country.otherAppsIds.openStreetMap !== null
-            ).toBe(true);
-        });
-        test(`Test that for the country '${country.alpha2}', 'otherAppsIds.openStreetMap' is correctly formatted`, () => {
-            expect(
-                country.otherAppsIds.openStreetMap.hasOwnProperty('type') &&
+                country.otherAppsIds.hasOwnProperty('openStreetMapRelation') &&
                 (
-                    (
-                        typeof country.otherAppsIds.openStreetMap.type === 'string' &&
-                        /^(node|way|relation)$/.test(country.otherAppsIds.openStreetMap.type)
-                    ) ||
-                    country.otherAppsIds.openStreetMap.type === null
-                )
-            ).toBe(true);
-            expect(
-                country.otherAppsIds.openStreetMap.hasOwnProperty('id') &&
-                (
-                    (
-                        Number.isInteger(country.otherAppsIds.openStreetMap.id) &&
-                        country.otherAppsIds.openStreetMap.id != 0
-                    ) ||
-                    country.otherAppsIds.openStreetMap.id === null
+                    (Number.isInteger(country.otherAppsIds.openStreetMapRelation) && country.otherAppsIds.openStreetMapRelation != 0) ||
+                    country.otherAppsIds.openStreetMapRelation === null
                 )
             ).toBe(true);
         });
+        
 
         /**
          * DEFAULT TRANSLATION DATA

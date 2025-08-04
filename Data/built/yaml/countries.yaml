@@ -870,9 +870,7 @@
   otherAppsIds:
     geoNamesOrg: 3041565
     wikiData: Q228
-    openStreetMap:
-      type: relation
-      id: 9407
+    openStreetMapRelation: 9407
 - officialName:
     arb: دولة الإمارات العربية المتحدة
   alpha2: AE
@@ -938,9 +936,7 @@
   otherAppsIds:
     geoNamesOrg: 290557
     wikiData: Q878
-    openStreetMap:
-      type: relation
-      id: 307763
+    openStreetMapRelation: 307763
 - officialName:
     pus: د افغانستان اسلامي امارت
     prs: امارت اسلامی افغانستان
@@ -1252,9 +1248,7 @@
   otherAppsIds:
     geoNamesOrg: 1149361
     wikiData: Q889
-    openStreetMap:
-      type: relation
-      id: 303427
+    openStreetMapRelation: 303427
 - officialName:
     eng: Antigua and Barbuda
   alpha2: AG
@@ -1321,9 +1315,7 @@
   otherAppsIds:
     geoNamesOrg: 3576396
     wikiData: Q781
-    openStreetMap:
-      type: relation
-      id: 536900
+    openStreetMapRelation: 536900
 - officialName:
     eng: Anguilla
   alpha2: AI
@@ -1436,9 +1428,7 @@
   otherAppsIds:
     geoNamesOrg: 3573511
     wikiData: Q25228
-    openStreetMap:
-      type: relation
-      id: 536904
+    openStreetMapRelation: 536904
 - officialName:
     sqi: Republika e Shqipërisë
   alpha2: AL
@@ -1572,9 +1562,7 @@
   otherAppsIds:
     geoNamesOrg: 783754
     wikiData: Q222
-    openStreetMap:
-      type: relation
-      id: 53292
+    openStreetMapRelation: 53292
 - officialName:
     hye: Հայաստանի Հանրապետություն
   alpha2: AM
@@ -1647,9 +1635,7 @@
   otherAppsIds:
     geoNamesOrg: 174982
     wikiData: Q399
-    openStreetMap:
-      type: relation
-      id: 36466
+    openStreetMapRelation: 36466
 - officialName:
     por: República de Angola
   alpha2: AO
@@ -1742,9 +1728,7 @@
   otherAppsIds:
     geoNamesOrg: 3351879
     wikiData: Q916
-    openStreetMap:
-      type: relation
-      id: 195267
+    openStreetMapRelation: 195267
 - officialName: {}
   alpha2: AQ
   alpha3: ATA
@@ -1993,9 +1977,7 @@
   otherAppsIds:
     geoNamesOrg: 6697173
     wikiData: Q21590062
-    openStreetMap:
-      type: relation
-      id: 2708953
+    openStreetMapRelation: 2708953
 - officialName:
     spa: República Argentina
   alpha2: AR
@@ -2150,9 +2132,7 @@
   otherAppsIds:
     geoNamesOrg: 3865483
     wikiData: Q414
-    openStreetMap:
-      type: relation
-      id: 286393
+    openStreetMapRelation: 286393
 - officialName:
     eng: American Samoa
     smo: Amerika Sāmoa
@@ -2388,9 +2368,7 @@
   otherAppsIds:
     geoNamesOrg: 5880801
     wikiData: Q16641
-    openStreetMap:
-      type: relation
-      id: 587232
+    openStreetMapRelation: 587232
 - officialName:
     deu: Republik Österreich
   alpha2: AT
@@ -2460,9 +2438,7 @@
   otherAppsIds:
     geoNamesOrg: 2782113
     wikiData: Q40
-    openStreetMap:
-      type: relation
-      id: 16239
+    openStreetMapRelation: 16239
 - officialName:
     eng: Commonwealth of Australia
   alpha2: AU
@@ -2584,9 +2560,7 @@
   otherAppsIds:
     geoNamesOrg: 2077456
     wikiData: Q408
-    openStreetMap:
-      type: relation
-      id: 80500
+    openStreetMapRelation: 80500
 - officialName:
     nld: Land Aruba
     pap: Pais Aruba
@@ -2650,9 +2624,7 @@
   otherAppsIds:
     geoNamesOrg: 3577279
     wikiData: Q21203
-    openStreetMap:
-      type: relation
-      id: 1703814
+    openStreetMapRelation: 1703814
 - officialName:
     swe: Landskapet Åland
   alpha2: AX
@@ -2714,9 +2686,7 @@
   otherAppsIds:
     geoNamesOrg: 661882
     wikiData: Q5689
-    openStreetMap:
-      type: relation
-      id: 1650407
+    openStreetMapRelation: 1650407
 - officialName:
     aze: Azərbaycan Respublikası
   alpha2: AZ
@@ -2799,9 +2769,7 @@
   otherAppsIds:
     geoNamesOrg: 587116
     wikiData: Q227
-    openStreetMap:
-      type: relation
-      id: 364110
+    openStreetMapRelation: 364110
 - officialName:
     sr-Cyrl: Босна и Херцеговина
     bs-Cyrl: Босна и Херцеговина
@@ -2884,9 +2852,7 @@
   otherAppsIds:
     geoNamesOrg: 3277605
     wikiData: Q225
-    openStreetMap:
-      type: relation
-      id: 2528142
+    openStreetMapRelation: 2528142
 - officialName:
     eng: Barbados
   alpha2: BB
@@ -2954,9 +2920,7 @@
   otherAppsIds:
     geoNamesOrg: 3374084
     wikiData: Q244
-    openStreetMap:
-      type: relation
-      id: 547511
+    openStreetMapRelation: 547511
 - officialName:
     ben: গণপ্রজাতন্ত্রী বাংলাদেশ
   alpha2: BD
@@ -3033,9 +2997,7 @@
   otherAppsIds:
     geoNamesOrg: 1210997
     wikiData: Q902
-    openStreetMap:
-      type: relation
-      id: 184640
+    openStreetMapRelation: 184640
 - officialName:
     nld: Koninkrijk België
     fra: Royaume de Belgique
@@ -3117,9 +3079,7 @@
   otherAppsIds:
     geoNamesOrg: 2802361
     wikiData: Q31
-    openStreetMap:
-      type: relation
-      id: 52411
+    openStreetMapRelation: 52411
 - officialName:
     fra: Burkina Faso
   alpha2: BF
@@ -3196,9 +3156,7 @@
   otherAppsIds:
     geoNamesOrg: 2361809
     wikiData: Q965
-    openStreetMap:
-      type: relation
-      id: 192783
+    openStreetMapRelation: 192783
 - officialName:
     bul: Република България
   alpha2: BG
@@ -3272,9 +3230,7 @@
   otherAppsIds:
     geoNamesOrg: 732800
     wikiData: Q219
-    openStreetMap:
-      type: relation
-      id: 186382
+    openStreetMapRelation: 186382
 - officialName:
     arb: مملكة البحرين
   alpha2: BH
@@ -3347,9 +3303,7 @@
   otherAppsIds:
     geoNamesOrg: 290291
     wikiData: Q398
-    openStreetMap:
-      type: relation
-      id: 378734
+    openStreetMapRelation: 378734
 - officialName:
     run: Repubulika y’Uburunde
     fra: République du Burundi
@@ -3430,9 +3384,7 @@
   otherAppsIds:
     geoNamesOrg: 433561
     wikiData: Q967
-    openStreetMap:
-      type: relation
-      id: 195266
+    openStreetMapRelation: 195266
 - officialName:
     fra: République du Bénin
   alpha2: BJ
@@ -3504,9 +3456,7 @@
   otherAppsIds:
     geoNamesOrg: 2395170
     wikiData: Q962
-    openStreetMap:
-      type: relation
-      id: 192782
+    openStreetMapRelation: 192782
 - officialName:
     fra: Collectivité d'outre-mer de Saint-Barthélemy
   alpha2: BL
@@ -3569,9 +3519,7 @@
   otherAppsIds:
     geoNamesOrg: 3578476
     wikiData: Q25305
-    openStreetMap:
-      type: relation
-      id: 1265297
+    openStreetMapRelation: 1265297
 - officialName:
     eng: Bermuda
   alpha2: BM
@@ -4320,9 +4268,7 @@
   otherAppsIds:
     geoNamesOrg: 3573345
     wikiData: Q23635
-    openStreetMap:
-      type: relation
-      id: 1993209
+    openStreetMapRelation: 1993209
 - officialName:
     msa: Negara Brunei Darussalam
     eng: Brunei Darussalam
@@ -4726,9 +4672,7 @@
   otherAppsIds:
     geoNamesOrg: 1820814
     wikiData: Q921
-    openStreetMap:
-      type: relation
-      id: 1993209
+    openStreetMapRelation: 1993209
 - officialName:
     spa: Estado Plurinacional de Bolivia
     grn: Tetã Hetãvoregua Volívia
@@ -7792,9 +7736,7 @@
   otherAppsIds:
     geoNamesOrg: 3923057
     wikiData: Q750
-    openStreetMap:
-      type: relation
-      id: 195267
+    openStreetMapRelation: 195267
 - officialName:
     nld: Caribisch Nederland
   alpha2: BQ
@@ -7860,9 +7802,7 @@
   otherAppsIds:
     geoNamesOrg: 7626844
     wikiData: Q25279
-    openStreetMap:
-      type: relation
-      id: 1216720
+    openStreetMapRelation: 1216720
 - officialName:
     por: República Federativa do Brasil
   alpha2: BR
@@ -8028,9 +7968,7 @@
   otherAppsIds:
     geoNamesOrg: 3469034
     wikiData: Q155
-    openStreetMap:
-      type: relation
-      id: 59470
+    openStreetMapRelation: 59470
 - officialName:
     eng: Commonwealth of the Bahamas
   alpha2: BS
@@ -8090,9 +8028,7 @@
   otherAppsIds:
     geoNamesOrg: 3572887
     wikiData: Q778
-    openStreetMap:
-      type: relation
-      id: 547469
+    openStreetMapRelation: 547469
 - officialName:
     dzo: འབྲུག་ཡུལ
   alpha2: BT
@@ -8754,9 +8690,7 @@
   otherAppsIds:
     geoNamesOrg: 1252634
     wikiData: Q917
-    openStreetMap:
-      type: relation
-      id: 184629
+    openStreetMapRelation: 184629
 - officialName:
     nor: Bouvetøya
   alpha2: BV
@@ -8817,9 +8751,7 @@
   otherAppsIds:
     geoNamesOrg: 3371123
     wikiData: Q244
-    openStreetMap:
-      type: relation
-      id: 1749828
+    openStreetMapRelation: 1749828
 - officialName:
     tsn: Lefatshe la Botswana
     eng: Republic of Botswana
@@ -8891,9 +8823,7 @@
   otherAppsIds:
     geoNamesOrg: 933860
     wikiData: Q963
-    openStreetMap:
-      type: relation
-      id: 1889339
+    openStreetMapRelation: 1889339
 - officialName:
     bel: Рэспубліка Беларусь
     rus: Республика Беларусь
@@ -8984,9 +8914,7 @@
   otherAppsIds:
     geoNamesOrg: 630336
     wikiData: Q184
-    openStreetMap:
-      type: relation
-      id: 59065
+    openStreetMapRelation: 59065
 - officialName:
     eng: Belize
   alpha2: BZ
@@ -9950,9 +9878,7 @@
   otherAppsIds:
     geoNamesOrg: 3582678
     wikiData: Q242
-    openStreetMap:
-      type: relation
-      id: 287827
+    openStreetMapRelation: 287827
 - officialName:
     fra: Canada
     eng: Canada
@@ -10091,9 +10017,7 @@
   otherAppsIds:
     geoNamesOrg: 6251999
     wikiData: Q16
-    openStreetMap:
-      type: relation
-      id: 1428125
+    openStreetMapRelation: 1428125
 - officialName:
     eng: Territory of Cocos (Keeling) Islands
   alpha2: CC
@@ -10222,9 +10146,7 @@
   otherAppsIds:
     geoNamesOrg: 1547376
     wikiData: Q26988
-    openStreetMap:
-      type: relation
-      id: 82610
+    openStreetMapRelation: 82610
 - officialName:
     fra: République démocratique du Congo
   alpha2: CD
@@ -10307,9 +10229,7 @@
   otherAppsIds:
     geoNamesOrg: 203312
     wikiData: Q974
-    openStreetMap:
-      type: relation
-      id: 192795
+    openStreetMapRelation: 192795
 - officialName:
     fra: République centrafricaine
     sgb: Ködörösêse tî Bêafrîka
@@ -10390,9 +10310,7 @@
   otherAppsIds:
     geoNamesOrg: 239880
     wikiData: Q929
-    openStreetMap:
-      type: relation
-      id: 192793
+    openStreetMapRelation: 192793
 - officialName:
     fra: République du Congo
   alpha2: CG
@@ -10464,9 +10382,7 @@
   otherAppsIds:
     geoNamesOrg: 2260494
     wikiData: Q971
-    openStreetMap:
-      type: relation
-      id: 192790
+    openStreetMapRelation: 192790
 - officialName:
     deu: Schweizerische Eidgenossenschaft
     fra: Confédération suisse
@@ -10551,9 +10467,7 @@
   otherAppsIds:
     geoNamesOrg: 2658434
     wikiData: Q39
-    openStreetMap:
-      type: relation
-      id: 51701
+    openStreetMapRelation: 51701
 - officialName:
     fra: République de Côte d'Ivoire
   alpha2: CI
@@ -10632,9 +10546,7 @@
   otherAppsIds:
     geoNamesOrg: 2287781
     wikiData: Q1008
-    openStreetMap:
-      type: relation
-      id: 192780
+    openStreetMapRelation: 192780
 - officialName:
     rar: Kūki ‘Airani
     tzh: Kūki Airani
@@ -10723,9 +10635,7 @@
   otherAppsIds:
     geoNamesOrg: 1899402
     wikiData: Q26988
-    openStreetMap:
-      type: relation
-      id: 2186648
+    openStreetMapRelation: 2186648
 - officialName:
     spa: República de Chile
   alpha2: CL
@@ -10802,9 +10712,7 @@
   otherAppsIds:
     geoNamesOrg: 3895114
     wikiData: Q298
-    openStreetMap:
-      type: relation
-      id: 167454
+    openStreetMapRelation: 167454
 - officialName:
     fra: République du Cameroun
     eng: Republic of Cameroon
@@ -10896,9 +10804,7 @@
   otherAppsIds:
     geoNamesOrg: 2233387
     wikiData: Q1009
-    openStreetMap:
-      type: relation
-      id: 192830
+    openStreetMapRelation: 192830
 - officialName:
     cmn: 中华人民共和国
   alpha2: CN
@@ -10994,9 +10900,7 @@
   otherAppsIds:
     geoNamesOrg: 1814991
     wikiData: Q148
-    openStreetMap:
-      type: relation
-      id: 270056
+    openStreetMapRelation: 270056
 - officialName:
     spa: República de Colombia
   alpha2: CO
@@ -11066,9 +10970,7 @@
   otherAppsIds:
     geoNamesOrg: 3686110
     wikiData: Q739
-    openStreetMap:
-      type: relation
-      id: 120027
+    openStreetMapRelation: 120027
 - officialName:
     spa: República de Costa Rica
   alpha2: CR
@@ -12165,9 +12067,7 @@
   otherAppsIds:
     geoNamesOrg: 3624060
     wikiData: Q800
-    openStreetMap:
-      type: relation
-      id: 121760
+    openStreetMapRelation: 121760
 - officialName:
     spa: República de Cuba
   alpha2: CU
@@ -12231,9 +12131,7 @@
   otherAppsIds:
     geoNamesOrg: 3562981
     wikiData: Q241
-    openStreetMap:
-      type: relation
-      id: 307833
+    openStreetMapRelation: 307833
 - officialName:
     por: República de Cabo Verde
   alpha2: CV
@@ -12303,9 +12201,7 @@
   otherAppsIds:
     geoNamesOrg: 3374766
     wikiData: Q1011
-    openStreetMap:
-      type: relation
-      id: 536765
+    openStreetMapRelation: 536765
 - officialName:
     pap: Pais Kòrsou
     nld: Land Curaçao
@@ -12372,9 +12268,7 @@
   otherAppsIds:
     geoNamesOrg: 7626836
     wikiData: Q25279
-    openStreetMap:
-      type: relation
-      id: 1273856
+    openStreetMapRelation: 1273856
 - officialName:
     eng: Territory of Christmas Island
   alpha2: CX
@@ -12485,9 +12379,7 @@
   otherAppsIds:
     geoNamesOrg: 2078138
     wikiData: Q31063
-    openStreetMap:
-      type: relation
-      id: 82637
+    openStreetMapRelation: 82637
 - officialName:
     ell: Κυπριακή Δημοκρατία
     tur: Kıbrıs Cumhuriyeti
@@ -12696,9 +12588,7 @@
   otherAppsIds:
     geoNamesOrg: 146669
     wikiData: Q229
-    openStreetMap:
-      type: relation
-      id: 307787
+    openStreetMapRelation: 307787
 - officialName:
     ces: Česká republika
   alpha2: CZ
@@ -12766,9 +12656,7 @@
   otherAppsIds:
     geoNamesOrg: 3077311
     wikiData: Q213
-    openStreetMap:
-      type: relation
-      id: 51684
+    openStreetMapRelation: 51684
 - officialName:
     deu: Bundesrepublik Deutschland
   alpha2: DE
@@ -12846,9 +12734,7 @@
   otherAppsIds:
     geoNamesOrg: 2921044
     wikiData: Q183
-    openStreetMap:
-      type: relation
-      id: 51477
+    openStreetMapRelation: 51477
 - officialName:
     arb: جمهورية جيبوتي
     fra: République de Djibouti
@@ -12916,9 +12802,7 @@
   otherAppsIds:
     geoNamesOrg: 223816
     wikiData: Q977
-    openStreetMap:
-      type: relation
-      id: 192789
+    openStreetMapRelation: 192789
 - officialName:
     dan: Kongeriget Danmark
   alpha2: DK
@@ -12991,9 +12875,7 @@
   otherAppsIds:
     geoNamesOrg: 2623032
     wikiData: Q35
-    openStreetMap:
-      type: relation
-      id: 50046
+    openStreetMapRelation: 50046
 - officialName:
     eng: Commonwealth of Dominica
   alpha2: DM
@@ -13213,9 +13095,7 @@
   otherAppsIds:
     geoNamesOrg: 3575830
     wikiData: Q784
-    openStreetMap:
-      type: relation
-      id: 307828
+    openStreetMapRelation: 307828
 - officialName:
     spa: República Dominicana
   alpha2: DO
@@ -14906,9 +14786,7 @@
   otherAppsIds:
     geoNamesOrg: 3508796
     wikiData: Q786
-    openStreetMap:
-      type: relation
-      id: 307829
+    openStreetMapRelation: 307829
 - officialName:
     arb: الجمهورية الجزائرية الديمقراطية الشعبية
     kab: ⴰⵎⴻⴳⴷⴰⵣⵉⵜ ⴷⴰⵎⵙⵉⵙⵖⵔⵉⴷⴰ ⵏ ⴰⵍⵊⵉⵔⵉⴰ
@@ -14979,9 +14857,7 @@
   otherAppsIds:
     geoNamesOrg: 2589581
     wikiData: Q262
-    openStreetMap:
-      type: relation
-      id: 192756
+    openStreetMapRelation: 192756
 - officialName:
     spa: República del Ecuador
   alpha2: EC
@@ -17764,9 +17640,7 @@
   otherAppsIds:
     geoNamesOrg: 3658394
     wikiData: Q736
-    openStreetMap:
-      type: relation
-      id: 307786
+    openStreetMapRelation: 307786
 - officialName:
     est: Eesti Vabariik
   alpha2: EE
@@ -17830,9 +17704,7 @@
   otherAppsIds:
     geoNamesOrg: 453733
     wikiData: Q191
-    openStreetMap:
-      type: relation
-      id: 79510
+    openStreetMapRelation: 79510
 - officialName:
     arb: جمهورية مصر العربية
   alpha2: EG
@@ -18117,9 +17989,7 @@
   otherAppsIds:
     geoNamesOrg: 357994
     wikiData: Q79
-    openStreetMap:
-      type: relation
-      id: 1473946
+    openStreetMapRelation: 1473946
 - officialName:
     arb: الجمهورية العربية الصحراوية الديمقراطية
   alpha2: EH
@@ -18188,9 +18058,7 @@
   otherAppsIds:
     geoNamesOrg: 2461445
     wikiData: Q6250
-    openStreetMap:
-      type: relation
-      id: 5441969
+    openStreetMapRelation: 5441969
 - officialName:
     ara: دولة إريتريا
     tir: ኤርትራ
@@ -18331,9 +18199,7 @@
   otherAppsIds:
     geoNamesOrg: 338010
     wikiData: Q986
-    openStreetMap:
-      type: relation
-      id: 1620601
+    openStreetMapRelation: 1620601
 - officialName:
     spa: Reino de España
   alpha2: ES
@@ -20221,9 +20087,7 @@
   otherAppsIds:
     geoNamesOrg: 2510769
     wikiData: Q29
-    openStreetMap:
-      type: relation
-      id: 1311341
+    openStreetMapRelation: 1311341
 - officialName:
     amh: የኢትዮጵያ ፌዴራላዊ ዴሞክራሲያዊ ሪፐብሊክ
   alpha2: ET
@@ -20306,9 +20170,7 @@
   otherAppsIds:
     geoNamesOrg: 337996
     wikiData: Q115
-    openStreetMap:
-      type: relation
-      id: 192800
+    openStreetMapRelation: 192800
 - officialName:
     fin: Suomen tasavalta
     swe: Republiken Finland
@@ -20391,9 +20253,7 @@
   otherAppsIds:
     geoNamesOrg: 660013
     wikiData: Q33
-    openStreetMap:
-      type: relation
-      id: 54224
+    openStreetMapRelation: 54224
 - officialName:
     eng: Republic of Fiji
     fij: Matanitu Tugalala o Viti
@@ -21077,9 +20937,7 @@
   otherAppsIds:
     geoNamesOrg: 2205218
     wikiData: Q712
-    openStreetMap:
-      type: relation
-      id: 2157446
+    openStreetMapRelation: 2157446
 - officialName:
     eng: Falkland Islands
   alpha2: FK
@@ -21656,9 +21514,7 @@
   otherAppsIds:
     geoNamesOrg: 3474414
     wikiData: Q9648
-    openStreetMap:
-      type: relation
-      id: 1993867
+    openStreetMapRelation: 1993867
 - officialName:
     eng: Federated States of Micronesia
   alpha2: FM
@@ -21739,9 +21595,7 @@
   otherAppsIds:
     geoNamesOrg: 2081918
     wikiData: Q702
-    openStreetMap:
-      type: relation
-      id: 571824
+    openStreetMapRelation: 571824
 - officialName:
     fao: Føroyar
     dan: Færøerne
@@ -21801,9 +21655,7 @@
   otherAppsIds:
     geoNamesOrg: 2622320
     wikiData: Q4628
-    openStreetMap:
-      type: relation
-      id: 52939
+    openStreetMapRelation: 52939
 - officialName:
     fra: République française
   alpha2: FR
@@ -21889,9 +21741,7 @@
   otherAppsIds:
     geoNamesOrg: 3017382
     wikiData: Q142
-    openStreetMap:
-      type: relation
-      id: 1403916
+    openStreetMapRelation: 1403916
 - officialName:
     fra: République gabonaise
   alpha2: GA
@@ -21960,9 +21810,7 @@
   otherAppsIds:
     geoNamesOrg: 2400553
     wikiData: Q1000
-    openStreetMap:
-      type: relation
-      id: 192794
+    openStreetMapRelation: 192794
 - officialName:
     eng: United Kingdom of Great Britain and Northern Ireland
   alpha2: GB
@@ -22055,9 +21903,7 @@
   otherAppsIds:
     geoNamesOrg: 2635167
     wikiData: Q145
-    openStreetMap:
-      type: relation
-      id: 62149
+    openStreetMapRelation: 62149
 - officialName:
     eng: Grenada
   alpha2: GD
@@ -22140,9 +21986,7 @@
   otherAppsIds:
     geoNamesOrg: 3580239
     wikiData: Q769
-    openStreetMap:
-      type: relation
-      id: 536899
+    openStreetMapRelation: 536899
 - officialName:
     kat: საქართველოს რესპუბლიკა
   alpha2: GE
@@ -22223,9 +22067,7 @@
   otherAppsIds:
     geoNamesOrg: 614540
     wikiData: Q230
-    openStreetMap:
-      type: relation
-      id: 28699
+    openStreetMapRelation: 28699
 - officialName:
     fra: Département de la Guyane
   alpha2: GF
@@ -22296,9 +22138,7 @@
   otherAppsIds:
     geoNamesOrg: 3381670
     wikiData: Q3769
-    openStreetMap:
-      type: relation
-      id: 3407760
+    openStreetMapRelation: 3407760
 - officialName:
     eng: Bailiwick of Guernsey
   alpha2: GG
@@ -22367,9 +22207,7 @@
   otherAppsIds:
     geoNamesOrg: 3042362
     wikiData: Q25230
-    openStreetMap:
-      type: relation
-      id: 93636
+    openStreetMapRelation: 93636
 - officialName:
     eng: Republic of Ghana
   alpha2: GH
@@ -22454,9 +22292,7 @@
   otherAppsIds:
     geoNamesOrg: 2300660
     wikiData: Q117
-    openStreetMap:
-      type: relation
-      id: 192781
+    openStreetMapRelation: 192781
 - officialName:
     eng: Gibraltar
   alpha2: GI
@@ -22579,9 +22415,7 @@
   otherAppsIds:
     geoNamesOrg: 2411586
     wikiData: Q1410
-    openStreetMap:
-      type: relation
-      id: 1278737
+    openStreetMapRelation: 1278737
 - officialName:
     kal: Kalaallit Nunaat
     dan: Grønland
@@ -22648,9 +22482,7 @@
   otherAppsIds:
     geoNamesOrg: 3425505
     wikiData: Q223
-    openStreetMap:
-      type: relation
-      id: 2184073
+    openStreetMapRelation: 2184073
 - officialName:
     eng: Republic of The Gambia
   alpha2: GM
@@ -22719,9 +22551,7 @@
   otherAppsIds:
     geoNamesOrg: 2413451
     wikiData: Q1005
-    openStreetMap:
-      type: relation
-      id: 192781
+    openStreetMapRelation: 192781
 - officialName:
     fra: République de Guinée
   alpha2: GN
@@ -22792,9 +22622,7 @@
   otherAppsIds:
     geoNamesOrg: 2420477
     wikiData: Q1006
-    openStreetMap:
-      type: relation
-      id: 192778
+    openStreetMapRelation: 192778
 - officialName:
     fra: Region Guadeloupe
   alpha2: GP
@@ -22853,9 +22681,7 @@
   otherAppsIds:
     geoNamesOrg: 3579143
     wikiData: Q17012
-    openStreetMap:
-      type: relation
-      id: 3407643
+    openStreetMapRelation: 3407643
 - officialName:
     spa: República de Guinea Ecuatorial
     fra: République de Guinée équatoriale
@@ -23007,9 +22833,7 @@
   otherAppsIds:
     geoNamesOrg: 2309096
     wikiData: Q983
-    openStreetMap:
-      type: relation
-      id: 192781
+    openStreetMapRelation: 192781
 - officialName:
     ell: Ελληνική Δημοκρατία
   alpha2: GR
@@ -23081,9 +22905,7 @@
   otherAppsIds:
     geoNamesOrg: 390903
     wikiData: Q41
-    openStreetMap:
-      type: relation
-      id: 192782
+    openStreetMapRelation: 192782
 - officialName:
     eng: South Georgia and the South Sandwich Islands
   alpha2: GS
@@ -23526,9 +23348,7 @@
   otherAppsIds:
     geoNamesOrg: 3474415
     wikiData: Q35086
-    openStreetMap:
-      type: relation
-      id: 1983626
+    openStreetMapRelation: 1983626
 - officialName:
     spa: República de Guatemala
   alpha2: GT
@@ -24255,9 +24075,7 @@
   otherAppsIds:
     geoNamesOrg: 3595528
     wikiData: Q774
-    openStreetMap:
-      type: relation
-      id: 1521463
+    openStreetMapRelation: 1521463
 - officialName:
     eng: Guam
     cha: Guåhan
@@ -24410,9 +24228,7 @@
   otherAppsIds:
     geoNamesOrg: 4043988
     wikiData: Q16635
-    openStreetMap:
-      type: relation
-      id: 306001
+    openStreetMapRelation: 306001
 - officialName:
     por: República da Guiné-Bissau
   alpha2: GW
@@ -24490,9 +24306,7 @@
   otherAppsIds:
     geoNamesOrg: 2372248
     wikiData: Q1007
-    openStreetMap:
-      type: relation
-      id: 192776
+    openStreetMapRelation: 192776
 - officialName:
     eng: Co-operative Republic of Guyana
   alpha2: GY
@@ -24563,9 +24377,7 @@
   otherAppsIds:
     geoNamesOrg: 3378535
     wikiData: Q734
-    openStreetMap:
-      type: relation
-      id: 192781
+    openStreetMapRelation: 192781
 - officialName:
     yue-Hant: 中華人民共和國香港特別行政區
     cmn-Hans: 中华人民共和国香港特别行政区
@@ -24648,9 +24460,7 @@
   otherAppsIds:
     geoNamesOrg: 1819730
     wikiData: Q8646
-    openStreetMap:
-      type: relation
-      id: 913110
+    openStreetMapRelation: 913110
 - officialName:
     eng: Heard Island and McDonald Islands
   alpha2: HM
@@ -24735,9 +24545,7 @@
   otherAppsIds:
     geoNamesOrg: 1547314
     wikiData: Q131198
-    openStreetMap:
-      type: relation
-      id: 2177227
+    openStreetMapRelation: 2177227
 - officialName:
     spa: República de Honduras
   alpha2: HN
@@ -24818,9 +24626,7 @@
   otherAppsIds:
     geoNamesOrg: 3608932
     wikiData: Q783
-    openStreetMap:
-      type: relation
-      id: 287670
+    openStreetMapRelation: 287670
 - officialName:
     hrv: Republika Hrvatska
   alpha2: HR
@@ -26003,9 +25809,7 @@
   otherAppsIds:
     geoNamesOrg: 3202326
     wikiData: Q224
-    openStreetMap:
-      type: relation
-      id: 214885
+    openStreetMapRelation: 214885
 - officialName:
     fra: République d'Haïti
     hat: Repiblik Ayiti
@@ -26066,9 +25870,7 @@
   otherAppsIds:
     geoNamesOrg: 3723988
     wikiData: Q790
-    openStreetMap:
-      type: relation
-      id: 307833
+    openStreetMapRelation: 307833
 - officialName:
     hun: Magyarország
   alpha2: HU
@@ -26133,9 +25935,7 @@
   otherAppsIds:
     geoNamesOrg: 719819
     wikiData: Q28
-    openStreetMap:
-      type: relation
-      id: 21335
+    openStreetMapRelation: 21335
 - officialName:
     ind: Republik Indonesia
   alpha2: ID
@@ -26217,9 +26017,7 @@
   otherAppsIds:
     geoNamesOrg: 1643084
     wikiData: Q252
-    openStreetMap:
-      type: relation
-      id: 2134181
+    openStreetMapRelation: 2134181
 - officialName:
     gle: Poblacht na hÉireann
     eng: Republic of Ireland
@@ -26284,9 +26082,7 @@
   otherAppsIds:
     geoNamesOrg: 2963597
     wikiData: Q27
-    openStreetMap:
-      type: relation
-      id: 62273
+    openStreetMapRelation: 62273
 - officialName:
     heb: מְדִינַת יִשְרָאֵל
     ara: دولة إسرائيل
@@ -26365,9 +26161,7 @@
   otherAppsIds:
     geoNamesOrg: 294640
     wikiData: Q801
-    openStreetMap:
-      type: relation
-      id: 1473946
+    openStreetMapRelation: 1473946
 - officialName:
     eng: Isle of Man
     glv: Ellan Vannin
@@ -26672,9 +26466,7 @@
   otherAppsIds:
     geoNamesOrg: 3042225
     wikiData: Q9676
-    openStreetMap:
-      type: relation
-      id: 62000
+    openStreetMapRelation: 62000
 - officialName:
     hin: भारत गणराज्य
     eng: Republic of India
@@ -26806,9 +26598,7 @@
   otherAppsIds:
     geoNamesOrg: 1269750
     wikiData: Q668
-    openStreetMap:
-      type: relation
-      id: 304716
+    openStreetMapRelation: 304716
 - officialName:
     eng: British Indian Ocean Territory
   alpha2: IO
@@ -27183,9 +26973,7 @@
   otherAppsIds:
     geoNamesOrg: 1282588
     wikiData: Q43448
-    openStreetMap:
-      type: relation
-      id: 1993867
+    openStreetMapRelation: 1993867
 - officialName:
     ara: جمهورية العراق
     kur: کۆمارا ىراقێ
@@ -27292,9 +27080,7 @@
   otherAppsIds:
     geoNamesOrg: 99237
     wikiData: Q796
-    openStreetMap:
-      type: relation
-      id: 304934
+    openStreetMapRelation: 304934
 - officialName:
     fas: جمهوری اسلامی ایران
   alpha2: IR
@@ -27391,9 +27177,7 @@
   otherAppsIds:
     geoNamesOrg: 130758
     wikiData: Q794
-    openStreetMap:
-      type: relation
-      id: 304938
+    openStreetMapRelation: 304938
 - officialName:
     isl: Lýðveldið Ísland
   alpha2: IS
@@ -27455,9 +27239,7 @@
   otherAppsIds:
     geoNamesOrg: 2629691
     wikiData: Q189
-    openStreetMap:
-      type: relation
-      id: 299133
+    openStreetMapRelation: 299133
 - officialName:
     ita: Repubblica Italiana
   alpha2: IT
@@ -27537,9 +27319,7 @@
   otherAppsIds:
     geoNamesOrg: 3175395
     wikiData: Q38
-    openStreetMap:
-      type: relation
-      id: 365331
+    openStreetMapRelation: 365331
 - officialName:
     eng: Bailiwick of Jersey
   alpha2: JE
@@ -27679,9 +27459,7 @@
   otherAppsIds:
     geoNamesOrg: 3042142
     wikiData: Q785
-    openStreetMap:
-      type: relation
-      id: 367988
+    openStreetMapRelation: 367988
 - officialName:
     eng: Jamaica
   alpha2: JM
@@ -27741,9 +27519,7 @@
   otherAppsIds:
     geoNamesOrg: 3489940
     wikiData: Q766
-    openStreetMap:
-      type: relation
-      id: 53644
+    openStreetMapRelation: 53644
 - officialName:
     arb: المملكة الأردنية الهاشمية
   alpha2: JO
@@ -27822,9 +27598,7 @@
   otherAppsIds:
     geoNamesOrg: 248816
     wikiData: Q810
-    openStreetMap:
-      type: relation
-      id: 1848181
+    openStreetMapRelation: 1848181
 - officialName:
     jpn: 日本国
   alpha2: JP
@@ -27885,9 +27659,7 @@
   otherAppsIds:
     geoNamesOrg: 1861060
     wikiData: Q17
-    openStreetMap:
-      type: relation
-      id: 382313
+    openStreetMapRelation: 382313
 - officialName:
     swa: Jamuhuri ya Kenya
     eng: Republic of Kenya
@@ -27981,9 +27753,7 @@
   otherAppsIds:
     geoNamesOrg: 192950
     wikiData: Q114
-    openStreetMap:
-      type: relation
-      id: 195271
+    openStreetMapRelation: 195271
 - officialName:
     kir: Кыргыз Республикасы
     rus: Кирги́зская Респу́блика
@@ -28067,9 +27837,7 @@
   otherAppsIds:
     geoNamesOrg: 1527747
     wikiData: Q813
-    openStreetMap:
-      type: relation
-      id: 178009
+    openStreetMapRelation: 178009
 - officialName:
     khm: ព្រះរាជាណាចក្រ កម្ពុជា
   alpha2: KH
@@ -28302,9 +28070,7 @@
   otherAppsIds:
     geoNamesOrg: 1831722
     wikiData: Q424
-    openStreetMap:
-      type: relation
-      id: 49898
+    openStreetMapRelation: 49898
 - officialName:
     eng: Republic of Kiribati
     gil: Kiribati
@@ -28408,9 +28174,7 @@
   otherAppsIds:
     geoNamesOrg: 4030945
     wikiData: Q710
-    openStreetMap:
-      type: relation
-      id: 2186468
+    openStreetMapRelation: 2186468
 - officialName:
     fra: Union des Comores
     swb: Udzima wa Komori
@@ -28486,9 +28250,7 @@
   otherAppsIds:
     geoNamesOrg: 921929
     wikiData: Q970
-    openStreetMap:
-      type: relation
-      id: 5357741
+    openStreetMapRelation: 5357741
 - officialName:
     eng: Federation of Saint Christopher and Nevis
   alpha2: KN
@@ -28556,9 +28318,7 @@
   otherAppsIds:
     geoNamesOrg: 3575174
     wikiData: Q763
-    openStreetMap:
-      type: relation
-      id: 536780
+    openStreetMapRelation: 536780
 - officialName:
     kor: 조선민주주의인민공화국
   alpha2: KP
@@ -28627,9 +28387,7 @@
   otherAppsIds:
     geoNamesOrg: 1873107
     wikiData: Q423
-    openStreetMap:
-      type: relation
-      id: 192734
+    openStreetMapRelation: 192734
 - officialName:
     kor: 대한민국
   alpha2: KR
@@ -28706,9 +28464,7 @@
   otherAppsIds:
     geoNamesOrg: 1835841
     wikiData: Q884
-    openStreetMap:
-      type: relation
-      id: 307756
+    openStreetMapRelation: 307756
 - officialName:
     ara: دولة الكويت
   alpha2: KW
@@ -28776,9 +28532,7 @@
   otherAppsIds:
     geoNamesOrg: 285570
     wikiData: Q817
-    openStreetMap:
-      type: relation
-      id: 305099
+    openStreetMapRelation: 305099
 - officialName:
     eng: Cayman Islands
   alpha2: KY
@@ -29389,9 +29143,7 @@
   otherAppsIds:
     geoNamesOrg: 3580718
     wikiData: Q5785
-    openStreetMap:
-      type: relation
-      id: 536900
+    openStreetMapRelation: 536900
 - officialName:
     kaz: Қазақстан Республикасы
     rus: Республика Казахстан
@@ -29616,9 +29368,7 @@
   otherAppsIds:
     geoNamesOrg: 1522867
     wikiData: Q232
-    openStreetMap:
-      type: relation
-      id: 214665
+    openStreetMapRelation: 214665
 - officialName:
     lao: ສາທາລະນະລັດ ປະຊາທິປະໄຕ ປະຊາຊົນລາວ
   alpha2: LA
@@ -29683,9 +29433,7 @@
   otherAppsIds:
     geoNamesOrg: 1655842
     wikiData: Q819
-    openStreetMap:
-      type: relation
-      id: 49903
+    openStreetMapRelation: 49903
 - officialName:
     ara: الجمهورية اللبنانية
   alpha2: LB
@@ -29832,9 +29580,7 @@
   otherAppsIds:
     geoNamesOrg: 272103
     wikiData: Q822
-    openStreetMap:
-      type: relation
-      id: 184843
+    openStreetMapRelation: 184843
 - officialName:
     eng: Saint Lucia
   alpha2: LC
@@ -29893,9 +29639,7 @@
   otherAppsIds:
     geoNamesOrg: 3576468
     wikiData: Q760
-    openStreetMap:
-      type: relation
-      id: 536900
+    openStreetMapRelation: 536900
 - officialName:
     deu: Fürstentum Liechtenstein
   alpha2: LI
@@ -30145,9 +29889,7 @@
   otherAppsIds:
     geoNamesOrg: 3042058
     wikiData: Q347
-    openStreetMap:
-      type: relation
-      id: 1155955
+    openStreetMapRelation: 1155955
 - officialName:
     sin: ශ්‍රී ලංකා ප්‍රජාතාන්ත්‍රික සමාජවාදී ජනරජය
     tam: இலங்கை ஜனநாயக சோசலிச குடியரசு
@@ -30495,9 +30237,7 @@
   otherAppsIds:
     geoNamesOrg: 1227603
     wikiData: Q854
-    openStreetMap:
-      type: relation
-      id: 536807
+    openStreetMapRelation: 536807
 - officialName:
     eng: Republic of Liberia
   alpha2: LR
@@ -30576,9 +30316,7 @@
   otherAppsIds:
     geoNamesOrg: 2275384
     wikiData: Q1014
-    openStreetMap:
-      type: relation
-      id: 192780
+    openStreetMapRelation: 192780
 - officialName:
     sot: Muso oa Lesotho
     eng: Kingdom of Lesotho
@@ -30661,9 +30399,7 @@
   otherAppsIds:
     geoNamesOrg: 932692
     wikiData: Q1015
-    openStreetMap:
-      type: relation
-      id: 192781
+    openStreetMapRelation: 192781
 - officialName:
     lit: Lietuvos Respublika
   alpha2: LT
@@ -30726,9 +30462,7 @@
   otherAppsIds:
     geoNamesOrg: 597427
     wikiData: Q37
-    openStreetMap:
-      type: relation
-      id: 72594
+    openStreetMapRelation: 72594
 - officialName:
     ltz: Groussherzogtum Lëtzebuerg
     fra: Grand-Duché de Luxembourg
@@ -30802,9 +30536,7 @@
   otherAppsIds:
     geoNamesOrg: 2960313
     wikiData: Q32
-    openStreetMap:
-      type: relation
-      id: 2171347
+    openStreetMapRelation: 2171347
 - officialName:
     lav: Latvijas Republika
   alpha2: LV
@@ -30864,9 +30596,7 @@
   otherAppsIds:
     geoNamesOrg: 458258
     wikiData: Q211
-    openStreetMap:
-      type: relation
-      id: 72594
+    openStreetMapRelation: 72594
 - officialName:
     ara: دولة ليبيا
   alpha2: LY
@@ -30934,9 +30664,7 @@
   otherAppsIds:
     geoNamesOrg: 2215636
     wikiData: Q1016
-    openStreetMap:
-      type: relation
-      id: 192758
+    openStreetMapRelation: 192758
 - officialName:
     ara: المملكة المغربية
     zgh: ⵜⴰⴳⴻⵍⴷⵉⵜ ⵏ ⵍⵎⴻⵖⵔⵉⴱ
@@ -31006,9 +30734,7 @@
   otherAppsIds:
     geoNamesOrg: 2542007
     wikiData: Q1028
-    openStreetMap:
-      type: relation
-      id: 363043
+    openStreetMapRelation: 363043
 - officialName:
     fra: Principauté de Monaco
   alpha2: MC
@@ -31071,9 +30797,7 @@
   otherAppsIds:
     geoNamesOrg: 2993457
     wikiData: Q235
-    openStreetMap:
-      type: relation
-      id: 1124038
+    openStreetMapRelation: 1124038
 - officialName:
     ron: Republica Moldova
   alpha2: MD
@@ -31543,9 +31267,7 @@
   otherAppsIds:
     geoNamesOrg: 617790
     wikiData: Q217
-    openStreetMap:
-      type: relation
-      id: 58974
+    openStreetMapRelation: 58974
 - officialName:
     cnr: Crna Gora
   alpha2: ME
@@ -32466,9 +32188,7 @@
   otherAppsIds:
     geoNamesOrg: 3194884
     wikiData: Q236
-    openStreetMap:
-      type: relation
-      id: 53296
+    openStreetMapRelation: 53296
 - officialName:
     fra: Collectivité d'outre-mer de Saint-Martin
   alpha2: MF
@@ -32530,9 +32250,7 @@
   otherAppsIds:
     geoNamesOrg: 3578421
     wikiData: Q34617
-    openStreetMap:
-      type: relation
-      id: 307828
+    openStreetMapRelation: 307828
 - officialName:
     mlg: Repoblikan'i Madagasikara
     fra: République de Madagascar
@@ -32596,9 +32314,7 @@
   otherAppsIds:
     geoNamesOrg: 1062947
     wikiData: Q1019
-    openStreetMap:
-      type: relation
-      id: 2555066
+    openStreetMapRelation: 2555066
 - officialName:
     mah: Aolepān Aorōkin M̧ajeļ
     eng: Republic of the Marshall Islands
@@ -32668,9 +32384,7 @@
   otherAppsIds:
     geoNamesOrg: 2080185
     wikiData: Q709
-    openStreetMap:
-      type: relation
-      id: 571780
+    openStreetMapRelation: 571780
 - officialName:
     mkd: Република Северна Македонија
     sqi: Republika e Maqedonisë së Veriut
@@ -32738,9 +32452,7 @@
   otherAppsIds:
     geoNamesOrg: 718075
     wikiData: Q221
-    openStreetMap:
-      type: relation
-      id: 53294
+    openStreetMapRelation: 53294
 - officialName:
     fra: République du Mali
   alpha2: ML
@@ -32810,9 +32522,7 @@
   otherAppsIds:
     geoNamesOrg: 2453866
     wikiData: Q912
-    openStreetMap:
-      type: relation
-      id: 192785
+    openStreetMapRelation: 192785
 - officialName:
     mya: ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်
   alpha2: MM
@@ -32883,9 +32593,7 @@
   otherAppsIds:
     geoNamesOrg: 1327865
     wikiData: Q836
-    openStreetMap:
-      type: relation
-      id: 50371
+    openStreetMapRelation: 50371
 - officialName:
     mon: ᠮᠣᠩᠭᠣᠯ ᠤᠯᠤᠰ
   alpha2: MN
@@ -32983,9 +32691,7 @@
   otherAppsIds:
     geoNamesOrg: 2029969
     wikiData: Q711
-    openStreetMap:
-      type: relation
-      id: 161033
+    openStreetMapRelation: 161033
 - officialName:
     cmn-Hans: 中华人民共和国澳门特别行政区
     yue-Hant: 中華人民共和國澳門特別行政區
@@ -33078,9 +32784,7 @@
   otherAppsIds:
     geoNamesOrg: 1821275
     wikiData: Q14773
-    openStreetMap:
-      type: relation
-      id: 102199
+    openStreetMapRelation: 102199
 - officialName:
     eng: Commonwealth of the Northern Mariana Islands
   alpha2: MP
@@ -33573,9 +33277,7 @@
   otherAppsIds:
     geoNamesOrg: 4041468
     wikiData: Q16641
-    openStreetMap:
-      type: relation
-      id: 306004
+    openStreetMapRelation: 306004
 - officialName:
     fra: Collectivité territoriale de Martinique
   alpha2: MQ
@@ -33651,9 +33353,7 @@
   otherAppsIds:
     geoNamesOrg: 3570311
     wikiData: Q17054
-    openStreetMap:
-      type: relation
-      id: 2473087
+    openStreetMapRelation: 2473087
 - officialName:
     ara: الجمهورية الإسلامية الموريتانية
     fra: Republique Islamique de Mauritanie
@@ -33730,9 +33430,7 @@
   otherAppsIds:
     geoNamesOrg: 2378080
     wikiData: Q1025
-    openStreetMap:
-      type: relation
-      id: 192763
+    openStreetMapRelation: 192763
 - officialName:
     eng: Colony of Montserrat
   alpha2: MS
@@ -33940,9 +33638,7 @@
   otherAppsIds:
     geoNamesOrg: 3578097
     wikiData: Q13353
-    openStreetMap:
-      type: relation
-      id: 537077
+    openStreetMapRelation: 537077
 - officialName:
     mlt: Repubblika ta' Malta
     eng: Republic of Malta
@@ -34192,9 +33888,7 @@
   otherAppsIds:
     geoNamesOrg: 2562770
     wikiData: Q233
-    openStreetMap:
-      type: relation
-      id: 365307
+    openStreetMapRelation: 365307
 - officialName:
     eng: Republic of Mauritius
     fra: République de Maurice
@@ -34265,9 +33959,7 @@
   otherAppsIds:
     geoNamesOrg: 934292
     wikiData: Q1027
-    openStreetMap:
-      type: relation
-      id: 535682
+    openStreetMapRelation: 535682
 - officialName:
     div: ދިވެހިރާއްޖޭގެ ޖުމްހޫރިއްޔާ
   alpha2: MV
@@ -34326,9 +34018,7 @@
   otherAppsIds:
     geoNamesOrg: 1282028
     wikiData: Q912
-    openStreetMap:
-      type: relation
-      id: 536765
+    openStreetMapRelation: 536765
 - officialName:
     nya: Dziko la Malaŵi
     eng: Republic of Malawi
@@ -34403,9 +34093,7 @@
   otherAppsIds:
     geoNamesOrg: 927384
     wikiData: Q1020
-    openStreetMap:
-      type: relation
-      id: 195270
+    openStreetMapRelation: 195270
 - officialName:
     spa: Estados Unidos Mexicanos
   alpha2: MX
@@ -36419,9 +36107,7 @@
   otherAppsIds:
     geoNamesOrg: 3996063
     wikiData: Q96
-    openStreetMap:
-      type: relation
-      id: 114686
+    openStreetMapRelation: 114686
 - officialName:
     msa: Malaysia
   alpha2: MY
@@ -36518,9 +36204,7 @@
   otherAppsIds:
     geoNamesOrg: 1733045
     wikiData: Q833
-    openStreetMap:
-      type: relation
-      id: 2108121
+    openStreetMapRelation: 2108121
 - officialName:
     por: República de Moçambique
   alpha2: MZ
@@ -36635,9 +36319,7 @@
   otherAppsIds:
     geoNamesOrg: 1036973
     wikiData: Q1029
-    openStreetMap:
-      type: relation
-      id: 195270
+    openStreetMapRelation: 195270
 - officialName:
     eng: Republic of Namibia
   alpha2: NA
@@ -36717,9 +36399,7 @@
   otherAppsIds:
     geoNamesOrg: 3355338
     wikiData: Q1030
-    openStreetMap:
-      type: relation
-      id: 195273
+    openStreetMapRelation: 195273
 - officialName:
     fra: Gouvernement de la Nouvelle-Calédonie
   alpha2: NC
@@ -36806,9 +36486,7 @@
   otherAppsIds:
     geoNamesOrg: 2139685
     wikiData: Q33788
-    openStreetMap:
-      type: relation
-      id: 341129
+    openStreetMapRelation: 341129
 - officialName:
     fra: République du Niger
   alpha2: NE
@@ -36880,9 +36558,7 @@
   otherAppsIds:
     geoNamesOrg: 2440476
     wikiData: Q1032
-    openStreetMap:
-      type: relation
-      id: 192785
+    openStreetMapRelation: 192785
 - officialName:
     eng: Territory of Norfolk Island
   alpha2: NF
@@ -37175,9 +36851,7 @@
   otherAppsIds:
     geoNamesOrg: 2155115
     wikiData: Q31057
-    openStreetMap:
-      type: relation
-      id: 2177248
+    openStreetMapRelation: 2177248
 - officialName:
     eng: Federal Republic of Nigeria
   alpha2: NG
@@ -37254,9 +36928,7 @@
   otherAppsIds:
     geoNamesOrg: 2328926
     wikiData: Q1033
-    openStreetMap:
-      type: relation
-      id: 192785
+    openStreetMapRelation: 192785
 - officialName:
     spa: República de Nicaragua
   alpha2: NI
@@ -37697,9 +37369,7 @@
   otherAppsIds:
     geoNamesOrg: 3617476
     wikiData: Q811
-    openStreetMap:
-      type: relation
-      id: 287666
+    openStreetMapRelation: 287666
 - officialName:
     nld: Koninkrijk der Nederlanden
     fry: Keninkryk fan de Nederlannen
@@ -37779,9 +37449,7 @@
   otherAppsIds:
     geoNamesOrg: 2750405
     wikiData: Q55
-    openStreetMap:
-      type: relation
-      id: 47796
+    openStreetMapRelation: 47796
 - officialName:
     nob: Kongeriket Norge
     nno: Kongeriket Noreg
@@ -37860,9 +37528,7 @@
   otherAppsIds:
     geoNamesOrg: 3144096
     wikiData: Q20
-    openStreetMap:
-      type: relation
-      id: 2978650
+    openStreetMapRelation: 2978650
 - officialName:
     nep: सङ्घीय लोकतान्त्रिक गणतन्त्र नेपाल
   alpha2: NP
@@ -37949,9 +37615,7 @@
   otherAppsIds:
     geoNamesOrg: 1282988
     wikiData: Q837
-    openStreetMap:
-      type: relation
-      id: 184633
+    openStreetMapRelation: 184633
 - officialName:
     nau: Ripublik Naoero
     eng: Republic of Nauru
@@ -38016,9 +37680,7 @@
   otherAppsIds:
     geoNamesOrg: 2110425
     wikiData: Q697
-    openStreetMap:
-      type: relation
-      id: 571805
+    openStreetMapRelation: 571805
 - officialName:
     eng: Niue
     niu: Fakamotu Niue
@@ -38094,9 +37756,7 @@
   otherAppsIds:
     geoNamesOrg: 4036232
     wikiData: Q34020
-    openStreetMap:
-      type: relation
-      id: 2177229
+    openStreetMapRelation: 2177229
 - officialName:
     mri: Aotearoa
     eng: New Zealand
@@ -38196,9 +37856,7 @@
   otherAppsIds:
     geoNamesOrg: 2186224
     wikiData: Q664
-    openStreetMap:
-      type: relation
-      id: 556706
+    openStreetMapRelation: 556706
 - officialName:
     ara: سلطنة عُمان
   alpha2: OM
@@ -38519,9 +38177,7 @@
   otherAppsIds:
     geoNamesOrg: 286963
     wikiData: Q842
-    openStreetMap:
-      type: relation
-      id: 305138
+    openStreetMapRelation: 305138
 - officialName:
     spa: República de Panamá
   alpha2: PA
@@ -38595,9 +38251,7 @@
   otherAppsIds:
     geoNamesOrg: 3703430
     wikiData: Q804
-    openStreetMap:
-      type: relation
-      id: 287668
+    openStreetMapRelation: 287668
 - officialName:
     spa: República del Perú
     que: Piruw Ripuwlika
@@ -40325,9 +39979,7 @@
   otherAppsIds:
     geoNamesOrg: 3932488
     wikiData: Q419
-    openStreetMap:
-      type: relation
-      id: 288247
+    openStreetMapRelation: 288247
 - officialName:
     fra: Polynésie française
   alpha2: PF
@@ -40482,9 +40134,7 @@
   otherAppsIds:
     geoNamesOrg: 4030656
     wikiData: Q30971
-    openStreetMap:
-      type: relation
-      id: 3412620
+    openStreetMapRelation: 3412620
 - officialName:
     eng: Independent State of Papua New Guinea
     hmo: Independen Stet bilong Papua Niu Gini
@@ -40587,9 +40237,7 @@
   otherAppsIds:
     geoNamesOrg: 2088628
     wikiData: Q691
-    openStreetMap:
-      type: relation
-      id: 288084
+    openStreetMapRelation: 288084
 - officialName:
     fil: Repúbliká ng Pilipinas
     eng: Republic of the Philippines
@@ -40684,9 +40332,7 @@
   otherAppsIds:
     geoNamesOrg: 1694008
     wikiData: Q928
-    openStreetMap:
-      type: relation
-      id: 443174
+    openStreetMapRelation: 443174
 - officialName:
     urd: اِسلامی جمہوریہ پاكِستان
   alpha2: PK
@@ -40768,9 +40414,7 @@
   otherAppsIds:
     geoNamesOrg: 1168579
     wikiData: Q843
-    openStreetMap:
-      type: relation
-      id: 307573
+    openStreetMapRelation: 307573
 - officialName:
     pol: Rzeczpospolita Polska
   alpha2: PL
@@ -40834,9 +40478,7 @@
   otherAppsIds:
     geoNamesOrg: 798544
     wikiData: Q36
-    openStreetMap:
-      type: relation
-      id: 49715
+    openStreetMapRelation: 49715
 - officialName:
     fra: Collectivité d'outre-mer de Saint-Pierre-et-Miquelon
   alpha2: PM
@@ -40896,9 +40538,7 @@
   otherAppsIds:
     geoNamesOrg: 3424932
     wikiData: Q34617
-    openStreetMap:
-      type: relation
-      id: 3406825
+    openStreetMapRelation: 3406825
 - officialName:
     eng: Pitcairn, Henderson, Ducie and Oeno Islands
   alpha2: PN
@@ -41202,9 +40842,7 @@
   otherAppsIds:
     geoNamesOrg: 4030699
     wikiData: Q35672
-    openStreetMap:
-      type: relation
-      id: 2185373
+    openStreetMapRelation: 2185373
 - officialName:
     eng: Commonwealth of Puerto Rico
     spa: Estado Libre Asociado de Puerto Rico
@@ -41274,9 +40912,7 @@
   otherAppsIds:
     geoNamesOrg: 4566966
     wikiData: Q1183
-    openStreetMap:
-      type: relation
-      id: 442260
+    openStreetMapRelation: 442260
 - officialName:
     ara: دولة فلسطين
   alpha2: PS
@@ -41334,9 +40970,7 @@
   otherAppsIds:
     geoNamesOrg: 6254930
     wikiData: Q219060
-    openStreetMap:
-      type: relation
-      id: 1703814
+    openStreetMapRelation: 1703814
 - officialName:
     por: República Portuguesa
   alpha2: PT
@@ -41560,9 +41194,7 @@
   otherAppsIds:
     geoNamesOrg: 2264397
     wikiData: Q45
-    openStreetMap:
-      type: relation
-      id: 295480
+    openStreetMapRelation: 295480
 - officialName:
     pau: 'Beluu er a Palau '
     eng: Republic of Palau
@@ -41624,9 +41256,7 @@
   otherAppsIds:
     geoNamesOrg: 1559582
     wikiData: Q695
-    openStreetMap:
-      type: relation
-      id: 571802
+    openStreetMapRelation: 571802
 - officialName:
     spa: República del Paraguay
     grn: Tetã Paraguái
@@ -42168,9 +41798,7 @@
   otherAppsIds:
     geoNamesOrg: 3437598
     wikiData: Q733
-    openStreetMap:
-      type: relation
-      id: 287077
+    openStreetMapRelation: 287077
 - officialName:
     ara: دولة قطر
   alpha2: QA
@@ -42237,9 +41865,7 @@
   otherAppsIds:
     geoNamesOrg: 289688
     wikiData: Q846
-    openStreetMap:
-      type: relation
-      id: 305091
+    openStreetMapRelation: 305091
 - officialName:
     fra: Département de La Réunion
   alpha2: RE
@@ -42300,9 +41926,7 @@
   otherAppsIds:
     geoNamesOrg: 935317
     wikiData: Q2181
-    openStreetMap:
-      type: relation
-      id: 935317
+    openStreetMapRelation: 935317
 - officialName:
     ron: România
   alpha2: RO
@@ -42366,9 +41990,7 @@
   otherAppsIds:
     geoNamesOrg: 798549
     wikiData: Q218
-    openStreetMap:
-      type: relation
-      id: 90689
+    openStreetMapRelation: 90689
 - officialName:
     srp-Cyrl: Република Србија
     srp-Latn: Republika Srbija
@@ -44596,9 +44218,7 @@
   otherAppsIds:
     geoNamesOrg: 6290252
     wikiData: Q403
-    openStreetMap:
-      type: relation
-      id: 1741311
+    openStreetMapRelation: 1741311
 - officialName:
     rus: Росси́йская Федера́ция
   alpha2: RU
@@ -44707,9 +44327,7 @@
   otherAppsIds:
     geoNamesOrg: 2017370
     wikiData: Q159
-    openStreetMap:
-      type: relation
-      id: 60189
+    openStreetMapRelation: 60189
 - officialName:
     kin: Repubulika y'u Rwanda
     swa: Jamhuri ya Rwanda
@@ -44785,9 +44403,7 @@
   otherAppsIds:
     geoNamesOrg: 49518
     wikiData: Q1037
-    openStreetMap:
-      type: relation
-      id: 171496
+    openStreetMapRelation: 171496
 - officialName:
     ara: المملكة العربية السعودية
   alpha2: SA
@@ -45130,9 +44746,7 @@
   otherAppsIds:
     geoNamesOrg: 102358
     wikiData: Q851
-    openStreetMap:
-      type: relation
-      id: 307584
+    openStreetMapRelation: 307584
 - officialName:
     eng: Solomon Islands
   alpha2: SB
@@ -45206,9 +44820,7 @@
   otherAppsIds:
     geoNamesOrg: 2103350
     wikiData: Q685
-    openStreetMap:
-      type: relation
-      id: 2851649
+    openStreetMapRelation: 2851649
 - officialName:
     crs: Repiblik Sesel
     eng: Republic of Seychelles
@@ -45274,9 +44886,7 @@
   otherAppsIds:
     geoNamesOrg: 241170
     wikiData: Q1042
-    openStreetMap:
-      type: relation
-      id: 536765
+    openStreetMapRelation: 536765
 - officialName:
     ara: جمهورية السودان
     eng: Republic of the Sudan
@@ -45348,9 +44958,7 @@
   otherAppsIds:
     geoNamesOrg: 366755
     wikiData: Q1049
-    openStreetMap:
-      type: relation
-      id: 192789
+    openStreetMapRelation: 192789
 - officialName:
     swe: Konungariket Sverige
   alpha2: SE
@@ -45426,9 +45034,7 @@
   otherAppsIds:
     geoNamesOrg: 2661886
     wikiData: Q34
-    openStreetMap:
-      type: relation
-      id: 52822
+    openStreetMapRelation: 52822
 - officialName:
     msa: Republik Singapura
     eng: Republic of Singapore
@@ -45527,9 +45133,7 @@
   otherAppsIds:
     geoNamesOrg: 1880251
     wikiData: Q334
-    openStreetMap:
-      type: relation
-      id: 536780
+    openStreetMapRelation: 536780
 - officialName:
     eng: Saint Helena, Ascension and Tristan da Cunha
   alpha2: SH
@@ -46611,9 +46215,7 @@
   otherAppsIds:
     geoNamesOrg: 3370751
     wikiData: Q192184
-    openStreetMap:
-      type: relation
-      id: 1964272
+    openStreetMapRelation: 1964272
 - officialName:
     slv: Republika Slovenija
   alpha2: SI
@@ -46699,9 +46301,7 @@
   otherAppsIds:
     geoNamesOrg: 3190538
     wikiData: Q215
-    openStreetMap:
-      type: relation
-      id: 218657
+    openStreetMapRelation: 218657
 - officialName:
     nor: Svalbard og Jan Mayen
   alpha2: SJ
@@ -46764,9 +46364,7 @@
   otherAppsIds:
     geoNamesOrg: 607072
     wikiData: Q104235
-    openStreetMap:
-      type: relation
-      id: 1229689
+    openStreetMapRelation: 1229689
 - officialName:
     slk: Slovenská Republika
   alpha2: SK
@@ -46849,9 +46447,7 @@
   otherAppsIds:
     geoNamesOrg: 3057568
     wikiData: Q214
-    openStreetMap:
-      type: relation
-      id: 14296
+    openStreetMapRelation: 14296
 - officialName:
     eng: Republic of Sierra Leone
   alpha2: SL
@@ -46918,9 +46514,7 @@
   otherAppsIds:
     geoNamesOrg: 2403846
     wikiData: Q1044
-    openStreetMap:
-      type: relation
-      id: 192781
+    openStreetMapRelation: 192781
 - officialName:
     ita: Repubblica di San Marino
   alpha2: SM
@@ -48145,9 +47739,7 @@
   otherAppsIds:
     geoNamesOrg: 3168068
     wikiData: Q238
-    openStreetMap:
-      type: relation
-      id: 53636
+    openStreetMapRelation: 53636
 - officialName:
     fra: République du Sénégal
   alpha2: SN
@@ -48224,9 +47816,7 @@
   otherAppsIds:
     geoNamesOrg: 2245662
     wikiData: Q1041
-    openStreetMap:
-      type: relation
-      id: 192785
+    openStreetMapRelation: 192785
 - officialName:
     som: Jamhuuriyadda Federaalka Soomaaliya
     ara: جمهورية الصومال الفدرالية
@@ -48291,9 +47881,7 @@
   otherAppsIds:
     geoNamesOrg: 51537
     wikiData: Q1045
-    openStreetMap:
-      type: relation
-      id: 192799
+    openStreetMapRelation: 192799
 - officialName:
     nld: Republiek Suriname
   alpha2: SR
@@ -48359,9 +47947,7 @@
   otherAppsIds:
     geoNamesOrg: 3382998
     wikiData: Q730
-    openStreetMap:
-      type: relation
-      id: 287082
+    openStreetMapRelation: 287082
 - officialName:
     eng: Republic of South Sudan
   alpha2: SS
@@ -48431,9 +48017,7 @@
   otherAppsIds:
     geoNamesOrg: 7909807
     wikiData: Q958
-    openStreetMap:
-      type: relation
-      id: 54094
+    openStreetMapRelation: 54094
 - officialName:
     por: República Democrática de São Tomé e Príncipe
   alpha2: ST
@@ -48505,9 +48089,7 @@
   otherAppsIds:
     geoNamesOrg: 2410758
     wikiData: Q1039
-    openStreetMap:
-      type: relation
-      id: 192793
+    openStreetMapRelation: 192793
 - officialName:
     spa: República de El Salvador
   alpha2: SV
@@ -50144,9 +49726,7 @@
   otherAppsIds:
     geoNamesOrg: 3585968
     wikiData: Q792
-    openStreetMap:
-      type: relation
-      id: 1520612
+    openStreetMapRelation: 1520612
 - officialName:
     nld: Sint Maarten
   alpha2: SX
@@ -50502,9 +50082,7 @@
   otherAppsIds:
     geoNamesOrg: 7609695
     wikiData: Q26273
-    openStreetMap:
-      type: relation
-      id: 85036
+    openStreetMapRelation: 85036
 - officialName:
     ara: الجمهوريّة العربيّة السّوريّة
   alpha2: SY
@@ -50581,9 +50159,7 @@
   otherAppsIds:
     geoNamesOrg: 163843
     wikiData: Q858
-    openStreetMap:
-      type: relation
-      id: 184840
+    openStreetMapRelation: 184840
 - officialName:
     ssw: Umbuso weSwatini
     eng: Kingdom of eSwatini
@@ -50732,9 +50308,7 @@
   otherAppsIds:
     geoNamesOrg: 934841
     wikiData: Q1050
-    openStreetMap:
-      type: relation
-      id: 88210
+    openStreetMapRelation: 88210
 - officialName:
     eng: Turks and Caicos Islands
   alpha2: TC
@@ -51047,9 +50621,7 @@
   otherAppsIds:
     geoNamesOrg: 3576916
     wikiData: Q18221
-    openStreetMap:
-      type: relation
-      id: 547469
+    openStreetMapRelation: 547469
 - officialName:
     ara: جمهورية تشاد
     fra: République du Tchad
@@ -51121,9 +50693,7 @@
   otherAppsIds:
     geoNamesOrg: 2434508
     wikiData: Q657
-    openStreetMap:
-      type: relation
-      id: 192789
+    openStreetMapRelation: 192789
 - officialName:
     fra: Territoire des Terres australes et antarctiques françaises
   alpha2: TF
@@ -51194,9 +50764,7 @@
   otherAppsIds:
     geoNamesOrg: 1546748
     wikiData: Q129003
-    openStreetMap:
-      type: relation
-      id: 1269755
+    openStreetMapRelation: 1269755
 - officialName:
     fra: République Togolaise
   alpha2: TG
@@ -51271,9 +50839,7 @@
   otherAppsIds:
     geoNamesOrg: 2363686
     wikiData: Q945
-    openStreetMap:
-      type: relation
-      id: 192784
+    openStreetMapRelation: 192784
 - officialName:
     tha: Ratcha Anachak Thai
   alpha2: TH
@@ -51345,9 +50911,7 @@
   otherAppsIds:
     geoNamesOrg: 1605651
     wikiData: Q869
-    openStreetMap:
-      type: relation
-      id: 2067731
+    openStreetMapRelation: 2067731
 - officialName:
     tgk: Ҷумҳурии Тоҷикистон
   alpha2: TJ
@@ -51434,9 +50998,7 @@
   otherAppsIds:
     geoNamesOrg: 1220409
     wikiData: Q863
-    openStreetMap:
-      type: relation
-      id: 214626
+    openStreetMapRelation: 214626
 - officialName:
     eng: Tokelau
     tkl: Tokelau
@@ -51511,9 +51073,7 @@
   otherAppsIds:
     geoNamesOrg: 4031074
     wikiData: Q33707
-    openStreetMap:
-      type: relation
-      id: 2186648
+    openStreetMapRelation: 2186648
 - officialName:
     tet: Repúblika Demokrátika Timór Lorosa'e
     por: República Democrática de Timor-Leste
@@ -51587,9 +51147,7 @@
   otherAppsIds:
     geoNamesOrg: 1966436
     wikiData: Q574
-    openStreetMap:
-      type: relation
-      id: 1221918
+    openStreetMapRelation: 1221918
 - officialName:
     tuk: Türkmenistan Respublikasy
   alpha2: TM
@@ -52231,9 +51789,7 @@
   otherAppsIds:
     geoNamesOrg: 1218197
     wikiData: Q874
-    openStreetMap:
-      type: relation
-      id: 223026
+    openStreetMapRelation: 223026
 - officialName:
     ara: الجمهورية التونسية
   alpha2: TN
@@ -52296,9 +51852,7 @@
   otherAppsIds:
     geoNamesOrg: 2464461
     wikiData: Q948
-    openStreetMap:
-      type: relation
-      id: 192757
+    openStreetMapRelation: 192757
 - officialName:
     ton: Pule'anga Fakatu'i 'o Tonga
     eng: Kingdom of Tonga
@@ -52363,9 +51917,7 @@
   otherAppsIds:
     geoNamesOrg: 4032283
     wikiData: Q678
-    openStreetMap:
-      type: relation
-      id: 2186658
+    openStreetMapRelation: 2186658
 - officialName:
     tur: Türkiye Cumhuriyeti
   alpha2: TR
@@ -52441,9 +51993,7 @@
   otherAppsIds:
     geoNamesOrg: 298795
     wikiData: Q43
-    openStreetMap:
-      type: relation
-      id: 174737
+    openStreetMapRelation: 174737
 - officialName:
     eng: Republic of Trinidad and Tobago
   alpha2: TT
@@ -52506,9 +52056,7 @@
   otherAppsIds:
     geoNamesOrg: 3573591
     wikiData: Q754
-    openStreetMap:
-      type: relation
-      id: 555717
+    openStreetMapRelation: 555717
 - officialName:
     tuv: Tuvalu
     eng: Tuvalu
@@ -52595,9 +52143,7 @@
   otherAppsIds:
     geoNamesOrg: 2110297
     wikiData: Q672
-    openStreetMap:
-      type: relation
-      id: 2177266
+    openStreetMapRelation: 2177266
 - officialName:
     cmn-Hans: 中华人民共和国台湾省
     cmn-Hant: 中華民國
@@ -52682,9 +52228,7 @@
   otherAppsIds:
     geoNamesOrg: 1668284
     wikiData: Q865
-    openStreetMap:
-      type: relation
-      id: 449220
+    openStreetMapRelation: 449220
 - officialName:
     swa: Jamhuri ya Muungano wa Tanzania
     eng: United Republic of Tanzania
@@ -52760,9 +52304,7 @@
   otherAppsIds:
     geoNamesOrg: 149590
     wikiData: Q924
-    openStreetMap:
-      type: relation
-      id: 195270
+    openStreetMapRelation: 195270
 - officialName:
     ukr: Україна
   alpha2: UA
@@ -52837,9 +52379,7 @@
   otherAppsIds:
     geoNamesOrg: 690791
     wikiData: Q212
-    openStreetMap:
-      type: relation
-      id: 60199
+    openStreetMapRelation: 60199
 - officialName:
     swa: Jamhuri ya Uganda
     eng: Republic of Uganda
@@ -52975,9 +52515,7 @@
   otherAppsIds:
     geoNamesOrg: 226074
     wikiData: Q1036
-    openStreetMap:
-      type: relation
-      id: 192796
+    openStreetMapRelation: 192796
 - officialName:
     eng: United States Minor Outlying Islands
   alpha2: UM
@@ -53054,9 +52592,7 @@
   otherAppsIds:
     geoNamesOrg: 5854968
     wikiData: Q16644
-    openStreetMap:
-      type: relation
-      id: 306001
+    openStreetMapRelation: 306001
 - officialName:
     eng: United States of America
   alpha2: US
@@ -53186,9 +52722,7 @@
   otherAppsIds:
     geoNamesOrg: 6252001
     wikiData: Q30
-    openStreetMap:
-      type: relation
-      id: 148838
+    openStreetMapRelation: 148838
 - officialName:
     spa: República Oriental del Uruguay
   alpha2: UY
@@ -53267,9 +52801,7 @@
   otherAppsIds:
     geoNamesOrg: 3439705
     wikiData: Q77
-    openStreetMap:
-      type: relation
-      id: 287827
+    openStreetMapRelation: 287827
 - officialName:
     uzb-Latn: Uzbekistan Respublikasi
     uzb-Cyrl: Ўзбекистон Республикаси
@@ -53357,9 +52889,7 @@
   otherAppsIds:
     geoNamesOrg: 1512440
     wikiData: Q265
-    openStreetMap:
-      type: relation
-      id: 196240
+    openStreetMapRelation: 196240
 - officialName:
     lat: Status Civitatis Vaticanae
     ita: Stato della Città del Vaticano
@@ -53966,9 +53496,7 @@
   otherAppsIds:
     geoNamesOrg: 3164670
     wikiData: Q237
-    openStreetMap:
-      type: relation
-      id: 36989
+    openStreetMapRelation: 36989
 - officialName:
     eng: Saint Vincent and the Grenadines
   alpha2: VC
@@ -54030,9 +53558,7 @@
   otherAppsIds:
     geoNamesOrg: 3577815
     wikiData: Q757
-    openStreetMap:
-      type: relation
-      id: 536900
+    openStreetMapRelation: 536900
 - officialName:
     spa: República Bolivariana de Venezuela
   alpha2: VE
@@ -54107,9 +53633,7 @@
   otherAppsIds:
     geoNamesOrg: 3625428
     wikiData: Q717
-    openStreetMap:
-      type: relation
-      id: 272644
+    openStreetMapRelation: 272644
 - officialName:
     eng: British Virgin Islands
   alpha2: VG
@@ -54400,9 +53924,7 @@
   otherAppsIds:
     geoNamesOrg: 3577718
     wikiData: Q25305
-    openStreetMap:
-      type: relation
-      id: 537742
+    openStreetMapRelation: 537742
 - officialName:
     eng: Virgin Islands of the United States
   alpha2: VI
@@ -54757,9 +54279,7 @@
   otherAppsIds:
     geoNamesOrg: 4796775
     wikiData: Q11703
-    openStreetMap:
-      type: relation
-      id: 306065
+    openStreetMapRelation: 306065
 - officialName:
     vie: Cộng hòa xã hội chủ nghĩa Việt Nam
   alpha2: VN
@@ -54825,9 +54345,7 @@
   otherAppsIds:
     geoNamesOrg: 1562822
     wikiData: Q881
-    openStreetMap:
-      type: relation
-      id: 49915
+    openStreetMapRelation: 49915
 - officialName:
     bis: Ripablik blong Vanuatu
     fra: République de Vanuatu
@@ -54934,9 +54452,7 @@
   otherAppsIds:
     geoNamesOrg: 2134431
     wikiData: Q686
-    openStreetMap:
-      type: relation
-      id: 2177266
+    openStreetMapRelation: 2177266
 - officialName:
     fra: Collectivité d'outre-mer de Wallis-et-Futuna
   alpha2: WF
@@ -54998,9 +54514,7 @@
   otherAppsIds:
     geoNamesOrg: 4034749
     wikiData: Q35555
-    openStreetMap:
-      type: relation
-      id: 3411136
+    openStreetMapRelation: 3411136
 - officialName:
     smo: Malo Sa'oloto Tuto'atasi o Samoa
     eng: Independent State of Samoa
@@ -55071,9 +54585,7 @@
   otherAppsIds:
     geoNamesOrg: 4034894
     wikiData: Q683
-    openStreetMap:
-      type: relation
-      id: 2186601
+    openStreetMapRelation: 2186601
 - officialName:
     sqi: Republika e Kosovës
     srp-Cyrl: Република Косово
@@ -55384,9 +54896,7 @@
   otherAppsIds:
     geoNamesOrg: 831053
     wikiData: Q1246
-    openStreetMap:
-      type: relation
-      id: 53292
+    openStreetMapRelation: 53292
 - officialName:
     ara: الجمهوريّة اليمنية
   alpha2: YE
@@ -55454,9 +54964,7 @@
   otherAppsIds:
     geoNamesOrg: 69543
     wikiData: Q805
-    openStreetMap:
-      type: relation
-      id: 305092
+    openStreetMapRelation: 305092
 - officialName:
     fra: Collectivité départementale de Mayotte
   alpha2: YT
@@ -55520,9 +55028,7 @@
   otherAppsIds:
     geoNamesOrg: 1024031
     wikiData: Q17063
-    openStreetMap:
-      type: relation
-      id: 3416822
+    openStreetMapRelation: 3416822
 - officialName:
     afr: Republiek van Suid-Afrika
     eng: Republic of South Africa
@@ -55632,9 +55138,7 @@
   otherAppsIds:
     geoNamesOrg: 953987
     wikiData: Q258
-    openStreetMap:
-      type: relation
-      id: 87565
+    openStreetMapRelation: 87565
 - officialName:
     eng: Republic of Zambia
   alpha2: ZM
@@ -55818,9 +55322,7 @@
   otherAppsIds:
     geoNamesOrg: 895949
     wikiData: Q953
-    openStreetMap:
-      type: relation
-      id: 195271
+    openStreetMapRelation: 195271
 - officialName:
     eng: Republic of Zimbabwe
     sna: Nyika yeZimbabwe
@@ -55944,6 +55446,4 @@
   otherAppsIds:
     geoNamesOrg: 878675
     wikiData: Q954
-    openStreetMap:
-      type: relation
-      id: 195270
+    openStreetMapRelation: 195270
