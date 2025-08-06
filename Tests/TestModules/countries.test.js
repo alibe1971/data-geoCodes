@@ -398,7 +398,7 @@ for (const country of Object.values(countries)) {
                 )
             ).toBe(true);
         });
-        
+
 
         /**
          * DEFAULT TRANSLATION DATA

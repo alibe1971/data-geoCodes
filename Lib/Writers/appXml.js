@@ -51,20 +51,53 @@ const xmlMap = {
             },
             mottos: {
                 official: {
-                    "@tag": "motto",
-                    "@attribute": "lang",
+                    "@tag": "entry",
+                    text: {
+                        "@tag": "motto",
+                        "@attribute": "lang",
+                    }
                 },
                 popular: {
-                    "@tag": "motto",
-                    "@attribute": "lang",
+                    "@tag": "entry",
+                    text: {
+                        "@tag": "motto",
+                        "@attribute": "lang",
+                    }
+                },
+                founding: {
+                    "@tag": "entry",
+                    text: {
+                        "@tag": "motto",
+                        "@attribute": "lang",
+                    }
                 },
                 royal: {
-                    "@tag": "motto",
-                    "@attribute": "lang",
+                    "@tag": "entry",
+                    text: {
+                        "@tag": "motto",
+                        "@attribute": "lang",
+                    }
                 },
                 presidential: {
-                    "@tag": "motto",
-                    "@attribute": "lang",
+                    "@tag": "entry",
+                    text: {
+                        "@tag": "motto",
+                        "@attribute": "lang",
+                    }
+                },
+                military: {
+                    "@tag": "entry",
+                    text: {
+                        "@tag": "motto",
+                        "@attribute": "lang",
+                    }
+                },
+                historical: {
+                    "@tag": "entry",
+                    text: {
+                        "@tag": "motto",
+                        "@attribute": "lang",
+                    }
                 }
             },
             currencies: {
@@ -82,7 +115,10 @@ const xmlMap = {
                 }
             },
             dialCodes: {
-                main: {
+                deJure: {
+                    "@tag": "dial"
+                },
+                deFacto: {
                     "@tag": "dial"
                 },
                 exceptions: {
@@ -94,6 +130,42 @@ const xmlMap = {
             },
             localesIcu: {
                 "@tag": "locale"
+            },
+            languages: {
+                official: {
+                    deJure: {
+                        "@tag": "language"
+                    },
+                    deFacto: {
+                        "@tag": "language"
+                    }
+                },
+                regional: {
+                    "@tag": "language"
+                },
+                widelySpoken: {
+                    "@tag": "language"
+                },
+                localCommunities: {
+                    "@tag": "language"
+                },
+                extraTerritorialCommunities: {
+                    "@tag": "language"
+                },
+                dialects: {
+                    "@tag": "language"
+                },
+                signs: {
+                    official: {
+                        "@tag": "language"
+                    },
+                    recognized: {
+                        "@tag": "language"
+                    },
+                    used: {
+                        "@tag": "language"
+                    }
+                }
             }
         }
     },
