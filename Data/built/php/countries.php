@@ -19397,7 +19397,6 @@ return [
     ],
     [
         'officialName' => [
-            'cmn-Hans' => '中华人民共和国台湾省',
             'cmn-Hant' => '中華民國'
         ],
         'alpha2' => 'TW',
