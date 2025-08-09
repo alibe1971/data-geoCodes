@@ -43,3 +43,8 @@ var Languages = map[string]string{
 	"it": it.Languages,
 }
 
+var Scripts = map[string]string{
+	"en": en.Scripts,
+	"it": it.Scripts,
+}
+

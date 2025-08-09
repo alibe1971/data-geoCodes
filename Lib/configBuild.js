@@ -3,6 +3,7 @@ import { countriesFunctions } from './Builders/countriesBuilder.js';
 import { geoSetsFunctions } from './Builders/geoSetsBuilder.js';
 import { currenciesFunctions } from './Builders/currenciesBuilder.js';
 import {languagesFunctions} from "./Builders/languagesBuilder.js";
+import {scriptsFunctions} from "./Builders/scriptsBuilder.js";
 
 import { saveDataForJson } from './Writers/appJson.js';
 import { saveDataForNode } from './Writers/appNode.js';
@@ -44,6 +45,9 @@ export const configBuild = {
         },
         languages: {
             name: 'langNames'
+        },
+        scripts: {
+            name: 'scripts'
         }
     },
     appConfig: 'config.json',
@@ -52,7 +56,8 @@ export const configBuild = {
         countries: countriesFunctions,
         currencies: currenciesFunctions,
         geoSets: geoSetsFunctions,
-        languages: languagesFunctions
+        languages: languagesFunctions,
+        scripts: scriptsFunctions
     },
     extra: {
         countries: {
@@ -149,6 +154,11 @@ export const configBuild = {
                 'S'
             ]
         },
-
+        scripts: {
+            direction: [
+                'ltr',
+                'rtl'
+            ]
+        },
     }
 };
