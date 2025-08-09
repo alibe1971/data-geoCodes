@@ -8,25 +8,25 @@
                         <xs:sequence>
 
                             <!-- main node <internalCode> -->
-                            <xs:element name="internalCode" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                            <xs:element name="internalCode" type="xs:string"/>
 
                             <!-- main node <unM49> -->
-                            <xs:element name="unM49" type="xs:string" minOccurs="1" maxOccurs="1" nillable="true"/>
+                            <xs:element name="unM49" type="xs:string" nillable="true"/>
 
                             <!-- main node <tags> -->
-                            <xs:element name="tags" minOccurs="1" maxOccurs="1">
+                            <xs:element name="tags">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="tag" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+                                        <xs:element name="tag" type="xs:string" maxOccurs="unbounded"/>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
 
                             <!-- main node <countryCodes> -->
-                            <xs:element name="countryCodes" minOccurs="1" maxOccurs="1">
+                            <xs:element name="countryCodes">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="cc" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+                                        <xs:element name="cc" type="xs:string" maxOccurs="unbounded"/>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>

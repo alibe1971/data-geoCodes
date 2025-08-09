@@ -43,7 +43,7 @@ export const configBuild = {
             name: 'currencies'
         },
         languages: {
-            name: 'languages'
+            name: 'langNames'
         }
     },
     appConfig: 'config.json',
@@ -133,7 +133,22 @@ export const configBuild = {
                 'CONV',
                 'ORGS'
             ]
-        }
+        },
+        languages: {
+            scope: [
+                'I',
+                'M',
+                'S'
+            ],
+            type:[
+                'A',
+                'C',
+                'E',
+                'H',
+                'L',
+                'S'
+            ]
+        },
 
     }
 };

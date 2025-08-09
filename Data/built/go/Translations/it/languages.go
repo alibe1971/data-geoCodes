@@ -19,287 +19,32018 @@
 package geoCodes
 
 const Languages = `{
-    "aa": "Afar",
-    "ab": "Abcaso",
-    "af": "Afrikaans",
-    "agq": "Aghem",
-    "ak": "Akan",
-    "am": "Amarico",
-    "an": "Aragonese",
-    "ar": "Arabo",
-    "as": "Assamese",
-    "asa": "Pare, Asu",
-    "ast": "Asturiano",
-    "av": "Avar",
-    "ay": "Aymara",
-    "az": "Azero",
-    "ba": "Bashkir",
-    "bas": "Basa",
-    "be": "Bielorusso",
-    "bem": "Bemba",
-    "ber": "Berbero",
-    "bez": "Bena",
-    "bg": "Bulgaro",
-    "bh": "Bihari",
-    "bi": "Bislama",
-    "bm": "Bambara",
-    "bn": "Bengalese",
-    "bo": "Tibetano",
-    "br": "Bretone",
-    "brx": "Bodo",
-    "bs": "Bosniaco",
-    "bwg": "Sena Barwe",
-    "ca": "Catalano",
-    "ce": "Ceceno",
-    "cgg": "Chiga",
-    "ch": "Chamorro",
-    "chr": "Cherokee",
-    "ckb": "Curdo soranî",
-    "cmn": "Mandarino",
-    "co": "Corso",
-    "cr": "Cree",
-    "crs": "Creolo delle Seychelles",
-    "cs": "Ceco",
-    "cu": "Slavo ecclesiastico",
-    "cv": "Chuvash",
-    "cy": "Gallese",
-    "da": "Danese",
-    "dav": "Taita",
-    "de": "Tedesco",
-    "dje": "Zarma",
-    "dsb": "Sorbo inferiore",
-    "dua": "Douala",
-    "dv": "Divehi",
-    "dyo": "Jola-Fonyi",
-    "dz": "Dzongkha",
-    "ebu": "Embu",
-    "ee": "Ewe",
-    "el": "Greco",
-    "en": "Inglese",
-    "eo": "Esperanto",
-    "es": "Spagnolo",
-    "et": "Estone",
-    "eu": "Basco",
-    "ewo": "Ewondo",
-    "fa": "Persiano",
-    "ff": "Fulfulde",
-    "fi": "Finlandese",
-    "fil": "Filippino",
-    "fj": "Figiano",
-    "fo": "Faroese",
-    "fr": "Francese",
-    "fur": "Friulano",
-    "fy": "Frisone occidentale",
-    "ga": "Irlandese",
-    "gd": "Gaelico scozzese",
-    "gil": "Gilbertese",
-    "gl": "Gallego",
-    "gn": "Guaraní",
-    "gsw": "Svizzero Tedesco",
-    "gu": "Gujarati",
-    "guz": "Gusii, Ekegusii",
-    "gv": "Manx",
-    "ha": "Hausa",
-    "haw": "Hawaiano",
-    "he": "Ebraico",
-    "hi": "Hindi",
-    "hif": "Hindi delle Fiji",
-    "hio": "Tsoa",
-    "ho": "Hiri Motu",
-    "hr": "Croato",
-    "hsb": "Sorbo superiore",
-    "ht": "Haitiano",
-    "hu": "Ungherese",
-    "hy": "Armeno",
-    "hz": "Herero",
-    "ia": "Interlingua",
-    "id": "Indonesiano",
-    "ie": "Interlingue",
-    "ig": "Igbo",
-    "ii": "Sichuan Yi",
-    "ik": "Inupiak",
-    "io": "Ido",
-    "is": "Islandese",
-    "it": "Italiano",
-    "iu": "Inuktitut",
-    "ja": "Giapponese",
-    "jgo": "Ngomba, Nguemba",
-    "jmc": "Kilimanjaro dell'Ovest, Chaga dell'Ovest",
-    "jv": "Giavanese",
-    "ka": "Georgiano",
-    "kab": "Cabilo",
-    "kam": "Kamba,Kikamba",
-    "kaw": "Kawi",
-    "kde": "Makonde",
-    "kea": "Creolo capoverdiano",
-    "kg": "Kongo",
-    "khq": "Koyra Chiini",
-    "ki": "Kikuyu",
-    "kj": "Kwanyama",
-    "kk": "Kazako",
-    "kkj": "Kako",
-    "kl": "Groenlandese",
-    "kln": "Elgeyo, Kalenjin autentico",
-    "km": "Khmer",
-    "kn": "Kannada",
-    "ko": "Coreano",
-    "kok": "Konkani",
-    "kr": "Kanuri",
-    "kri": "Krio",
-    "ks": "Kashmiri",
-    "ksb": "Shambala, Shambaa",
-    "ksf": "Bafia",
-    "ksh": "Coloniese",
-    "ku": "Curdo",
-    "kv": "Komi",
-    "kw": "Cornico",
-    "ky": "Kirghiso",
-    "la": "Latino",
-    "lag": "Rangi, Langi",
-    "lb": "Lussemburghese",
-    "lg": "Ganda",
-    "li": "Limburghese",
-    "lkt": "Lakota",
-    "ln": "Lingala",
-    "lo": "Lao",
-    "lrc": "Luri del Nord",
-    "lt": "Lituano",
-    "lu": "Luba-Katanga",
-    "luo": "Luo",
-    "luy": "Luyia",
-    "lv": "Lettone",
-    "mas": "Masai",
-    "mer": "Meru",
-    "mfe": "Creolo mauriziano",
-    "mg": "Malgascio",
-    "mgh": "Makhuwa",
-    "mgo": "Metaʼ",
-    "mh": "Marshallese",
-    "mi": "Maori",
-    "mk": "Macedone",
-    "ml": "Malayalam",
-    "mn": "Mongolo",
-    "mr": "Marathi",
-    "ms": "Malese",
-    "mt": "Maltese",
-    "mua": "Mundang",
-    "mxc": "Manyika",
-    "my": "Birmano",
-    "na": "Nauruano",
-    "naq": "Nama",
-    "nb": "Norvegese Bokmål",
-    "nd": "Ndebele del nord",
-    "ne": "Nepalese",
-    "ng": "Ndonga",
-    "niu": "Niueano",
-    "nl": "Olandese",
-    "nmg": "Kwasio",
-    "nmq": "Kalanga",
-    "nn": "Norvegese Nynorsk",
-    "nnh": "Ngiemboon",
-    "no": "Norvegese",
-    "nr": "Ndebele del sud",
-    "nso": "Sepedi",
-    "nus": "Nuer",
-    "nv": "Navajo",
-    "ny": "Chewa",
-    "nyn": "Nkore, Nkole",
-    "oc": "Occitano",
-    "oj": "Ojibwa",
-    "om": "Oromo",
-    "or": "Oriya",
-    "os": "Osseto",
-    "pa": "Panjabi",
-    "pap": "Papiamento",
-    "pau": "Palauano",
-    "pi": "Pali",
-    "pih": "Pitcairnese",
-    "pl": "Polacco",
-    "prs": "Dari",
-    "ps": "Pashto",
-    "pt": "Portoghese",
-    "qu": "Quechua",
-    "rm": "Romancio",
-    "rn": "Kirundi",
-    "ro": "Rumeno",
-    "rof": "Rombo, Kirombo",
-    "ru": "Russo",
-    "rw": "Kinyarwanda",
-    "rwk": "Kilimanjaro dell'Ovest, Chaga dell'Ovest",
-    "sa": "Sanscrito",
-    "sah": "Sacha, Jacuto",
-    "saq": "Samburu",
-    "sbp": "Sangu",
-    "sc": "Sardo",
-    "sd": "Sindhi",
-    "se": "Sami del nord",
-    "seh": "Sena",
-    "ses": "Koyraboro Senni",
-    "sg": "Sango",
-    "shi": "Tashelhit",
-    "si": "Singalese",
-    "sk": "Slovacco",
-    "sl": "Sloveno",
-    "sm": "Samoano",
-    "sma": "Sami Meridionale",
-    "smj": "Sami di Lule",
-    "smn": "Sami di Inari",
-    "sn": "Shona",
-    "so": "Somalo",
-    "sq": "Albanese",
-    "sr": "Serbo",
-    "ss": "Swazi",
-    "st": "Sotho del sud",
-    "su": "Sundanese",
-    "sv": "Svedese",
-    "sw": "Swahili",
-    "swb": "Maorese",
-    "ta": "Tamil",
-    "te": "Telugu",
-    "teo": "Teso",
-    "tet": "Tetum",
-    "tg": "Tagico",
-    "th": "Tailandese",
-    "ti": "Tigrinya",
-    "tk": "Turkmeno",
-    "tkl": "Tokelauano",
-    "tl": "Filippino",
-    "tn": "Tswana",
-    "tnq": "Taíno",
-    "to": "Tongano",
-    "toi": "Tonga",
-    "tr": "Turco",
-    "ts": "Tsonga",
-    "tt": "Tataro",
-    "tuv": "Tuvaluano",
-    "tw": "Twi",
-    "twq": "Tasawaq",
-    "twx": "Manyika",
-    "ty": "Tahitiano",
-    "tzm": "Tamazight del Marocco centrale",
-    "ug": "Uiguro",
-    "uk": "Ucraino",
-    "ur": "Urdu",
-    "uz": "Uzbeco",
-    "vai": "Vai",
-    "ve": "Venda",
-    "vi": "Vietnamita",
-    "vo": "Volapük",
-    "vun": "Kilimanjaro del Centro, Chaga del Centro",
-    "wa": "Vallone",
-    "wae": "Walser German",
-    "wls": "Uveano",
-    "wo": "Wolof",
-    "xam": "ǀXam",
-    "xh": "Xhosa",
-    "xog": "Soga, Lusoga",
-    "yav": "Yambasa",
-    "yi": "Yiddish",
-    "yo": "Yoruba",
-    "yue": "Cantonese",
-    "za": "Zhuang",
-    "zd": "Comoriano",
-    "zgh": "Tamazight standard del Marocco",
-    "zh": "Cinese",
-    "zu": "Zulu"
+    "aaa": {
+        "name": null,
+        "NOTES": []
+    },
+    "aab": {
+        "name": null,
+        "NOTES": []
+    },
+    "aac": {
+        "name": null,
+        "NOTES": []
+    },
+    "aad": {
+        "name": null,
+        "NOTES": []
+    },
+    "aae": {
+        "name": null,
+        "NOTES": []
+    },
+    "aaf": {
+        "name": null,
+        "NOTES": []
+    },
+    "aag": {
+        "name": null,
+        "NOTES": []
+    },
+    "aah": {
+        "name": null,
+        "NOTES": []
+    },
+    "aai": {
+        "name": null,
+        "NOTES": []
+    },
+    "aak": {
+        "name": null,
+        "NOTES": []
+    },
+    "aal": {
+        "name": null,
+        "NOTES": []
+    },
+    "aan": {
+        "name": null,
+        "NOTES": []
+    },
+    "aao": {
+        "name": null,
+        "NOTES": []
+    },
+    "aap": {
+        "name": null,
+        "NOTES": []
+    },
+    "aaq": {
+        "name": null,
+        "NOTES": []
+    },
+    "aar": {
+        "name": "Afar",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_afar"
+        ]
+    },
+    "aas": {
+        "name": null,
+        "NOTES": []
+    },
+    "aat": {
+        "name": null,
+        "NOTES": []
+    },
+    "aau": {
+        "name": null,
+        "NOTES": []
+    },
+    "aaw": {
+        "name": null,
+        "NOTES": []
+    },
+    "aax": {
+        "name": null,
+        "NOTES": []
+    },
+    "aaz": {
+        "name": null,
+        "NOTES": []
+    },
+    "aba": {
+        "name": null,
+        "NOTES": []
+    },
+    "abb": {
+        "name": null,
+        "NOTES": []
+    },
+    "abc": {
+        "name": null,
+        "NOTES": []
+    },
+    "abd": {
+        "name": null,
+        "NOTES": []
+    },
+    "abe": {
+        "name": null,
+        "NOTES": []
+    },
+    "abf": {
+        "name": null,
+        "NOTES": []
+    },
+    "abg": {
+        "name": null,
+        "NOTES": []
+    },
+    "abh": {
+        "name": null,
+        "NOTES": []
+    },
+    "abi": {
+        "name": null,
+        "NOTES": []
+    },
+    "abj": {
+        "name": null,
+        "NOTES": []
+    },
+    "abk": {
+        "name": "Abcaso",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_abcasa"
+        ]
+    },
+    "abl": {
+        "name": null,
+        "NOTES": []
+    },
+    "abm": {
+        "name": null,
+        "NOTES": []
+    },
+    "abn": {
+        "name": null,
+        "NOTES": []
+    },
+    "abo": {
+        "name": null,
+        "NOTES": []
+    },
+    "abp": {
+        "name": null,
+        "NOTES": []
+    },
+    "abq": {
+        "name": null,
+        "NOTES": []
+    },
+    "abr": {
+        "name": null,
+        "NOTES": []
+    },
+    "abs": {
+        "name": null,
+        "NOTES": []
+    },
+    "abt": {
+        "name": null,
+        "NOTES": []
+    },
+    "abu": {
+        "name": null,
+        "NOTES": []
+    },
+    "abv": {
+        "name": null,
+        "NOTES": []
+    },
+    "abw": {
+        "name": null,
+        "NOTES": []
+    },
+    "abx": {
+        "name": null,
+        "NOTES": []
+    },
+    "aby": {
+        "name": null,
+        "NOTES": []
+    },
+    "abz": {
+        "name": null,
+        "NOTES": []
+    },
+    "aca": {
+        "name": null,
+        "NOTES": []
+    },
+    "acb": {
+        "name": null,
+        "NOTES": []
+    },
+    "acd": {
+        "name": null,
+        "NOTES": []
+    },
+    "ace": {
+        "name": null,
+        "NOTES": []
+    },
+    "acf": {
+        "name": null,
+        "NOTES": []
+    },
+    "ach": {
+        "name": null,
+        "NOTES": []
+    },
+    "aci": {
+        "name": null,
+        "NOTES": []
+    },
+    "ack": {
+        "name": null,
+        "NOTES": []
+    },
+    "acl": {
+        "name": null,
+        "NOTES": []
+    },
+    "acm": {
+        "name": null,
+        "NOTES": []
+    },
+    "acn": {
+        "name": null,
+        "NOTES": []
+    },
+    "acp": {
+        "name": null,
+        "NOTES": []
+    },
+    "acq": {
+        "name": null,
+        "NOTES": []
+    },
+    "acr": {
+        "name": null,
+        "NOTES": []
+    },
+    "acs": {
+        "name": null,
+        "NOTES": []
+    },
+    "act": {
+        "name": null,
+        "NOTES": []
+    },
+    "acu": {
+        "name": null,
+        "NOTES": []
+    },
+    "acv": {
+        "name": null,
+        "NOTES": []
+    },
+    "acw": {
+        "name": null,
+        "NOTES": []
+    },
+    "acx": {
+        "name": null,
+        "NOTES": []
+    },
+    "acy": {
+        "name": null,
+        "NOTES": []
+    },
+    "acz": {
+        "name": null,
+        "NOTES": []
+    },
+    "ada": {
+        "name": null,
+        "NOTES": []
+    },
+    "adb": {
+        "name": null,
+        "NOTES": []
+    },
+    "add": {
+        "name": null,
+        "NOTES": []
+    },
+    "ade": {
+        "name": null,
+        "NOTES": []
+    },
+    "adf": {
+        "name": null,
+        "NOTES": []
+    },
+    "adg": {
+        "name": null,
+        "NOTES": []
+    },
+    "adh": {
+        "name": null,
+        "NOTES": []
+    },
+    "adi": {
+        "name": null,
+        "NOTES": []
+    },
+    "adj": {
+        "name": null,
+        "NOTES": []
+    },
+    "adl": {
+        "name": null,
+        "NOTES": []
+    },
+    "adn": {
+        "name": null,
+        "NOTES": []
+    },
+    "ado": {
+        "name": null,
+        "NOTES": []
+    },
+    "adq": {
+        "name": null,
+        "NOTES": []
+    },
+    "adr": {
+        "name": null,
+        "NOTES": []
+    },
+    "ads": {
+        "name": null,
+        "NOTES": []
+    },
+    "adt": {
+        "name": null,
+        "NOTES": []
+    },
+    "adu": {
+        "name": null,
+        "NOTES": []
+    },
+    "adw": {
+        "name": null,
+        "NOTES": []
+    },
+    "adx": {
+        "name": null,
+        "NOTES": []
+    },
+    "ady": {
+        "name": null,
+        "NOTES": []
+    },
+    "adz": {
+        "name": null,
+        "NOTES": []
+    },
+    "aea": {
+        "name": null,
+        "NOTES": []
+    },
+    "aeb": {
+        "name": null,
+        "NOTES": []
+    },
+    "aec": {
+        "name": null,
+        "NOTES": []
+    },
+    "aed": {
+        "name": null,
+        "NOTES": []
+    },
+    "aee": {
+        "name": null,
+        "NOTES": []
+    },
+    "aek": {
+        "name": null,
+        "NOTES": []
+    },
+    "ael": {
+        "name": null,
+        "NOTES": []
+    },
+    "aem": {
+        "name": null,
+        "NOTES": []
+    },
+    "aen": {
+        "name": null,
+        "NOTES": []
+    },
+    "aeq": {
+        "name": null,
+        "NOTES": []
+    },
+    "aer": {
+        "name": null,
+        "NOTES": []
+    },
+    "aes": {
+        "name": null,
+        "NOTES": []
+    },
+    "aeu": {
+        "name": null,
+        "NOTES": []
+    },
+    "aew": {
+        "name": null,
+        "NOTES": []
+    },
+    "aey": {
+        "name": null,
+        "NOTES": []
+    },
+    "aez": {
+        "name": null,
+        "NOTES": []
+    },
+    "afb": {
+        "name": null,
+        "NOTES": []
+    },
+    "afd": {
+        "name": null,
+        "NOTES": []
+    },
+    "afe": {
+        "name": null,
+        "NOTES": []
+    },
+    "afg": {
+        "name": null,
+        "NOTES": []
+    },
+    "afh": {
+        "name": null,
+        "NOTES": []
+    },
+    "afi": {
+        "name": null,
+        "NOTES": []
+    },
+    "afk": {
+        "name": null,
+        "NOTES": []
+    },
+    "afn": {
+        "name": null,
+        "NOTES": []
+    },
+    "afo": {
+        "name": null,
+        "NOTES": []
+    },
+    "afp": {
+        "name": null,
+        "NOTES": []
+    },
+    "afr": {
+        "name": "Afrikaans",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_afrikaans"
+        ]
+    },
+    "afs": {
+        "name": null,
+        "NOTES": []
+    },
+    "aft": {
+        "name": null,
+        "NOTES": []
+    },
+    "afu": {
+        "name": null,
+        "NOTES": []
+    },
+    "afz": {
+        "name": null,
+        "NOTES": []
+    },
+    "aga": {
+        "name": null,
+        "NOTES": []
+    },
+    "agb": {
+        "name": null,
+        "NOTES": []
+    },
+    "agc": {
+        "name": null,
+        "NOTES": []
+    },
+    "agd": {
+        "name": null,
+        "NOTES": []
+    },
+    "age": {
+        "name": null,
+        "NOTES": []
+    },
+    "agf": {
+        "name": null,
+        "NOTES": []
+    },
+    "agg": {
+        "name": null,
+        "NOTES": []
+    },
+    "agh": {
+        "name": null,
+        "NOTES": []
+    },
+    "agi": {
+        "name": null,
+        "NOTES": []
+    },
+    "agj": {
+        "name": null,
+        "NOTES": []
+    },
+    "agk": {
+        "name": null,
+        "NOTES": []
+    },
+    "agl": {
+        "name": null,
+        "NOTES": []
+    },
+    "agm": {
+        "name": null,
+        "NOTES": []
+    },
+    "agn": {
+        "name": null,
+        "NOTES": []
+    },
+    "ago": {
+        "name": null,
+        "NOTES": []
+    },
+    "agq": {
+        "name": "Aghem",
+        "NOTES": []
+    },
+    "agr": {
+        "name": null,
+        "NOTES": []
+    },
+    "ags": {
+        "name": null,
+        "NOTES": []
+    },
+    "agt": {
+        "name": null,
+        "NOTES": []
+    },
+    "agu": {
+        "name": null,
+        "NOTES": []
+    },
+    "agv": {
+        "name": null,
+        "NOTES": []
+    },
+    "agw": {
+        "name": null,
+        "NOTES": []
+    },
+    "agx": {
+        "name": null,
+        "NOTES": []
+    },
+    "agy": {
+        "name": null,
+        "NOTES": []
+    },
+    "agz": {
+        "name": null,
+        "NOTES": []
+    },
+    "aha": {
+        "name": null,
+        "NOTES": []
+    },
+    "ahb": {
+        "name": null,
+        "NOTES": []
+    },
+    "ahg": {
+        "name": null,
+        "NOTES": []
+    },
+    "ahh": {
+        "name": null,
+        "NOTES": []
+    },
+    "ahi": {
+        "name": null,
+        "NOTES": []
+    },
+    "ahk": {
+        "name": null,
+        "NOTES": []
+    },
+    "ahl": {
+        "name": null,
+        "NOTES": []
+    },
+    "ahm": {
+        "name": null,
+        "NOTES": []
+    },
+    "ahn": {
+        "name": null,
+        "NOTES": []
+    },
+    "aho": {
+        "name": null,
+        "NOTES": []
+    },
+    "ahp": {
+        "name": null,
+        "NOTES": []
+    },
+    "ahr": {
+        "name": null,
+        "NOTES": []
+    },
+    "ahs": {
+        "name": null,
+        "NOTES": []
+    },
+    "aht": {
+        "name": null,
+        "NOTES": []
+    },
+    "aia": {
+        "name": null,
+        "NOTES": []
+    },
+    "aib": {
+        "name": null,
+        "NOTES": []
+    },
+    "aic": {
+        "name": null,
+        "NOTES": []
+    },
+    "aid": {
+        "name": null,
+        "NOTES": []
+    },
+    "aie": {
+        "name": null,
+        "NOTES": []
+    },
+    "aif": {
+        "name": null,
+        "NOTES": []
+    },
+    "aig": {
+        "name": null,
+        "NOTES": []
+    },
+    "aih": {
+        "name": null,
+        "NOTES": []
+    },
+    "aii": {
+        "name": null,
+        "NOTES": []
+    },
+    "aij": {
+        "name": null,
+        "NOTES": []
+    },
+    "aik": {
+        "name": null,
+        "NOTES": []
+    },
+    "ail": {
+        "name": null,
+        "NOTES": []
+    },
+    "aim": {
+        "name": null,
+        "NOTES": []
+    },
+    "ain": {
+        "name": null,
+        "NOTES": []
+    },
+    "aio": {
+        "name": null,
+        "NOTES": []
+    },
+    "aip": {
+        "name": null,
+        "NOTES": []
+    },
+    "aiq": {
+        "name": null,
+        "NOTES": []
+    },
+    "air": {
+        "name": null,
+        "NOTES": []
+    },
+    "ait": {
+        "name": null,
+        "NOTES": []
+    },
+    "aiw": {
+        "name": null,
+        "NOTES": []
+    },
+    "aix": {
+        "name": null,
+        "NOTES": []
+    },
+    "aiy": {
+        "name": null,
+        "NOTES": []
+    },
+    "aja": {
+        "name": null,
+        "NOTES": []
+    },
+    "ajg": {
+        "name": null,
+        "NOTES": []
+    },
+    "aji": {
+        "name": null,
+        "NOTES": []
+    },
+    "ajn": {
+        "name": null,
+        "NOTES": []
+    },
+    "ajs": {
+        "name": null,
+        "NOTES": []
+    },
+    "aju": {
+        "name": null,
+        "NOTES": []
+    },
+    "ajw": {
+        "name": null,
+        "NOTES": []
+    },
+    "ajz": {
+        "name": null,
+        "NOTES": []
+    },
+    "aka": {
+        "name": "Akan",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_akan"
+        ]
+    },
+    "akb": {
+        "name": null,
+        "NOTES": []
+    },
+    "akc": {
+        "name": null,
+        "NOTES": []
+    },
+    "akd": {
+        "name": null,
+        "NOTES": []
+    },
+    "ake": {
+        "name": null,
+        "NOTES": []
+    },
+    "akf": {
+        "name": null,
+        "NOTES": []
+    },
+    "akg": {
+        "name": null,
+        "NOTES": []
+    },
+    "akh": {
+        "name": null,
+        "NOTES": []
+    },
+    "aki": {
+        "name": null,
+        "NOTES": []
+    },
+    "akj": {
+        "name": null,
+        "NOTES": []
+    },
+    "akk": {
+        "name": null,
+        "NOTES": []
+    },
+    "akl": {
+        "name": null,
+        "NOTES": []
+    },
+    "akm": {
+        "name": null,
+        "NOTES": []
+    },
+    "ako": {
+        "name": null,
+        "NOTES": []
+    },
+    "akp": {
+        "name": null,
+        "NOTES": []
+    },
+    "akq": {
+        "name": null,
+        "NOTES": []
+    },
+    "akr": {
+        "name": null,
+        "NOTES": []
+    },
+    "aks": {
+        "name": null,
+        "NOTES": []
+    },
+    "akt": {
+        "name": null,
+        "NOTES": []
+    },
+    "aku": {
+        "name": null,
+        "NOTES": []
+    },
+    "akv": {
+        "name": null,
+        "NOTES": []
+    },
+    "akw": {
+        "name": null,
+        "NOTES": []
+    },
+    "akx": {
+        "name": null,
+        "NOTES": []
+    },
+    "aky": {
+        "name": null,
+        "NOTES": []
+    },
+    "akz": {
+        "name": null,
+        "NOTES": []
+    },
+    "ala": {
+        "name": null,
+        "NOTES": []
+    },
+    "alc": {
+        "name": null,
+        "NOTES": []
+    },
+    "ald": {
+        "name": null,
+        "NOTES": []
+    },
+    "ale": {
+        "name": null,
+        "NOTES": []
+    },
+    "alf": {
+        "name": null,
+        "NOTES": []
+    },
+    "alh": {
+        "name": null,
+        "NOTES": []
+    },
+    "ali": {
+        "name": null,
+        "NOTES": []
+    },
+    "alj": {
+        "name": null,
+        "NOTES": []
+    },
+    "alk": {
+        "name": null,
+        "NOTES": []
+    },
+    "all": {
+        "name": null,
+        "NOTES": []
+    },
+    "alm": {
+        "name": null,
+        "NOTES": []
+    },
+    "aln": {
+        "name": null,
+        "NOTES": []
+    },
+    "alo": {
+        "name": null,
+        "NOTES": []
+    },
+    "alp": {
+        "name": null,
+        "NOTES": []
+    },
+    "alq": {
+        "name": null,
+        "NOTES": []
+    },
+    "alr": {
+        "name": null,
+        "NOTES": []
+    },
+    "als": {
+        "name": null,
+        "NOTES": []
+    },
+    "alt": {
+        "name": null,
+        "NOTES": []
+    },
+    "alu": {
+        "name": null,
+        "NOTES": []
+    },
+    "alw": {
+        "name": null,
+        "NOTES": []
+    },
+    "alx": {
+        "name": null,
+        "NOTES": []
+    },
+    "aly": {
+        "name": null,
+        "NOTES": []
+    },
+    "alz": {
+        "name": null,
+        "NOTES": []
+    },
+    "ama": {
+        "name": null,
+        "NOTES": []
+    },
+    "amb": {
+        "name": null,
+        "NOTES": []
+    },
+    "amc": {
+        "name": null,
+        "NOTES": []
+    },
+    "ame": {
+        "name": null,
+        "NOTES": []
+    },
+    "amf": {
+        "name": null,
+        "NOTES": []
+    },
+    "amg": {
+        "name": null,
+        "NOTES": []
+    },
+    "amh": {
+        "name": "Amarico",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_amarica"
+        ]
+    },
+    "ami": {
+        "name": null,
+        "NOTES": []
+    },
+    "amj": {
+        "name": null,
+        "NOTES": []
+    },
+    "amk": {
+        "name": null,
+        "NOTES": []
+    },
+    "aml": {
+        "name": null,
+        "NOTES": []
+    },
+    "amm": {
+        "name": null,
+        "NOTES": []
+    },
+    "amn": {
+        "name": null,
+        "NOTES": []
+    },
+    "amo": {
+        "name": null,
+        "NOTES": []
+    },
+    "amp": {
+        "name": null,
+        "NOTES": []
+    },
+    "amq": {
+        "name": null,
+        "NOTES": []
+    },
+    "amr": {
+        "name": null,
+        "NOTES": []
+    },
+    "ams": {
+        "name": null,
+        "NOTES": []
+    },
+    "amt": {
+        "name": null,
+        "NOTES": []
+    },
+    "amu": {
+        "name": null,
+        "NOTES": []
+    },
+    "amv": {
+        "name": null,
+        "NOTES": []
+    },
+    "amw": {
+        "name": null,
+        "NOTES": []
+    },
+    "amx": {
+        "name": null,
+        "NOTES": []
+    },
+    "amy": {
+        "name": null,
+        "NOTES": []
+    },
+    "amz": {
+        "name": null,
+        "NOTES": []
+    },
+    "ana": {
+        "name": null,
+        "NOTES": []
+    },
+    "anb": {
+        "name": null,
+        "NOTES": []
+    },
+    "anc": {
+        "name": null,
+        "NOTES": []
+    },
+    "and": {
+        "name": null,
+        "NOTES": []
+    },
+    "ane": {
+        "name": null,
+        "NOTES": []
+    },
+    "anf": {
+        "name": null,
+        "NOTES": []
+    },
+    "ang": {
+        "name": null,
+        "NOTES": []
+    },
+    "anh": {
+        "name": null,
+        "NOTES": []
+    },
+    "ani": {
+        "name": null,
+        "NOTES": []
+    },
+    "anj": {
+        "name": null,
+        "NOTES": []
+    },
+    "ank": {
+        "name": null,
+        "NOTES": []
+    },
+    "anl": {
+        "name": null,
+        "NOTES": []
+    },
+    "anm": {
+        "name": null,
+        "NOTES": []
+    },
+    "ann": {
+        "name": null,
+        "NOTES": []
+    },
+    "ano": {
+        "name": null,
+        "NOTES": []
+    },
+    "anp": {
+        "name": null,
+        "NOTES": []
+    },
+    "anq": {
+        "name": null,
+        "NOTES": []
+    },
+    "anr": {
+        "name": null,
+        "NOTES": []
+    },
+    "ans": {
+        "name": null,
+        "NOTES": []
+    },
+    "ant": {
+        "name": null,
+        "NOTES": []
+    },
+    "anu": {
+        "name": null,
+        "NOTES": []
+    },
+    "anv": {
+        "name": null,
+        "NOTES": []
+    },
+    "anw": {
+        "name": null,
+        "NOTES": []
+    },
+    "anx": {
+        "name": null,
+        "NOTES": []
+    },
+    "any": {
+        "name": null,
+        "NOTES": []
+    },
+    "anz": {
+        "name": null,
+        "NOTES": []
+    },
+    "aoa": {
+        "name": null,
+        "NOTES": []
+    },
+    "aob": {
+        "name": null,
+        "NOTES": []
+    },
+    "aoc": {
+        "name": null,
+        "NOTES": []
+    },
+    "aod": {
+        "name": null,
+        "NOTES": []
+    },
+    "aoe": {
+        "name": null,
+        "NOTES": []
+    },
+    "aof": {
+        "name": null,
+        "NOTES": []
+    },
+    "aog": {
+        "name": null,
+        "NOTES": []
+    },
+    "aoi": {
+        "name": null,
+        "NOTES": []
+    },
+    "aoj": {
+        "name": null,
+        "NOTES": []
+    },
+    "aok": {
+        "name": null,
+        "NOTES": []
+    },
+    "aol": {
+        "name": null,
+        "NOTES": []
+    },
+    "aom": {
+        "name": null,
+        "NOTES": []
+    },
+    "aon": {
+        "name": null,
+        "NOTES": []
+    },
+    "aor": {
+        "name": null,
+        "NOTES": []
+    },
+    "aos": {
+        "name": null,
+        "NOTES": []
+    },
+    "aot": {
+        "name": null,
+        "NOTES": []
+    },
+    "aou": {
+        "name": null,
+        "NOTES": []
+    },
+    "aox": {
+        "name": null,
+        "NOTES": []
+    },
+    "aoz": {
+        "name": null,
+        "NOTES": []
+    },
+    "apb": {
+        "name": null,
+        "NOTES": []
+    },
+    "apc": {
+        "name": null,
+        "NOTES": []
+    },
+    "apd": {
+        "name": null,
+        "NOTES": []
+    },
+    "ape": {
+        "name": null,
+        "NOTES": []
+    },
+    "apf": {
+        "name": null,
+        "NOTES": []
+    },
+    "apg": {
+        "name": null,
+        "NOTES": []
+    },
+    "aph": {
+        "name": null,
+        "NOTES": []
+    },
+    "api": {
+        "name": null,
+        "NOTES": []
+    },
+    "apj": {
+        "name": null,
+        "NOTES": []
+    },
+    "apk": {
+        "name": null,
+        "NOTES": []
+    },
+    "apl": {
+        "name": null,
+        "NOTES": []
+    },
+    "apm": {
+        "name": null,
+        "NOTES": []
+    },
+    "apn": {
+        "name": null,
+        "NOTES": []
+    },
+    "apo": {
+        "name": null,
+        "NOTES": []
+    },
+    "app": {
+        "name": null,
+        "NOTES": []
+    },
+    "apq": {
+        "name": null,
+        "NOTES": []
+    },
+    "apr": {
+        "name": null,
+        "NOTES": []
+    },
+    "aps": {
+        "name": null,
+        "NOTES": []
+    },
+    "apt": {
+        "name": null,
+        "NOTES": []
+    },
+    "apu": {
+        "name": null,
+        "NOTES": []
+    },
+    "apv": {
+        "name": null,
+        "NOTES": []
+    },
+    "apw": {
+        "name": null,
+        "NOTES": []
+    },
+    "apx": {
+        "name": null,
+        "NOTES": []
+    },
+    "apy": {
+        "name": null,
+        "NOTES": []
+    },
+    "apz": {
+        "name": null,
+        "NOTES": []
+    },
+    "aqc": {
+        "name": null,
+        "NOTES": []
+    },
+    "aqd": {
+        "name": null,
+        "NOTES": []
+    },
+    "aqg": {
+        "name": null,
+        "NOTES": []
+    },
+    "aqk": {
+        "name": null,
+        "NOTES": []
+    },
+    "aqm": {
+        "name": null,
+        "NOTES": []
+    },
+    "aqn": {
+        "name": null,
+        "NOTES": []
+    },
+    "aqp": {
+        "name": null,
+        "NOTES": []
+    },
+    "aqr": {
+        "name": null,
+        "NOTES": []
+    },
+    "aqt": {
+        "name": null,
+        "NOTES": []
+    },
+    "aqz": {
+        "name": null,
+        "NOTES": []
+    },
+    "ara": {
+        "name": "Arabo",
+        "NOTES": []
+    },
+    "arb": {
+        "name": null,
+        "NOTES": []
+    },
+    "arc": {
+        "name": null,
+        "NOTES": []
+    },
+    "ard": {
+        "name": null,
+        "NOTES": []
+    },
+    "are": {
+        "name": null,
+        "NOTES": []
+    },
+    "arg": {
+        "name": "Aragonese",
+        "NOTES": []
+    },
+    "arh": {
+        "name": null,
+        "NOTES": []
+    },
+    "ari": {
+        "name": null,
+        "NOTES": []
+    },
+    "arj": {
+        "name": null,
+        "NOTES": []
+    },
+    "ark": {
+        "name": null,
+        "NOTES": []
+    },
+    "arl": {
+        "name": null,
+        "NOTES": []
+    },
+    "arn": {
+        "name": null,
+        "NOTES": []
+    },
+    "aro": {
+        "name": null,
+        "NOTES": []
+    },
+    "arp": {
+        "name": null,
+        "NOTES": []
+    },
+    "arq": {
+        "name": null,
+        "NOTES": []
+    },
+    "arr": {
+        "name": null,
+        "NOTES": []
+    },
+    "ars": {
+        "name": null,
+        "NOTES": []
+    },
+    "aru": {
+        "name": null,
+        "NOTES": []
+    },
+    "arv": {
+        "name": null,
+        "NOTES": []
+    },
+    "arw": {
+        "name": null,
+        "NOTES": []
+    },
+    "arx": {
+        "name": null,
+        "NOTES": []
+    },
+    "ary": {
+        "name": null,
+        "NOTES": []
+    },
+    "arz": {
+        "name": null,
+        "NOTES": []
+    },
+    "asa": {
+        "name": "Pare, Asu",
+        "NOTES": []
+    },
+    "asb": {
+        "name": null,
+        "NOTES": []
+    },
+    "asc": {
+        "name": null,
+        "NOTES": []
+    },
+    "ase": {
+        "name": null,
+        "NOTES": []
+    },
+    "asf": {
+        "name": null,
+        "NOTES": []
+    },
+    "asg": {
+        "name": null,
+        "NOTES": []
+    },
+    "ash": {
+        "name": null,
+        "NOTES": []
+    },
+    "asi": {
+        "name": null,
+        "NOTES": []
+    },
+    "asj": {
+        "name": null,
+        "NOTES": []
+    },
+    "ask": {
+        "name": null,
+        "NOTES": []
+    },
+    "asl": {
+        "name": null,
+        "NOTES": []
+    },
+    "asm": {
+        "name": "Assamese",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_assamese"
+        ]
+    },
+    "asn": {
+        "name": null,
+        "NOTES": []
+    },
+    "aso": {
+        "name": null,
+        "NOTES": []
+    },
+    "asp": {
+        "name": null,
+        "NOTES": []
+    },
+    "asq": {
+        "name": null,
+        "NOTES": []
+    },
+    "asr": {
+        "name": null,
+        "NOTES": []
+    },
+    "ass": {
+        "name": null,
+        "NOTES": []
+    },
+    "ast": {
+        "name": "Asturiano",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_asturiana"
+        ]
+    },
+    "asu": {
+        "name": null,
+        "NOTES": []
+    },
+    "asv": {
+        "name": null,
+        "NOTES": []
+    },
+    "asw": {
+        "name": null,
+        "NOTES": []
+    },
+    "asx": {
+        "name": null,
+        "NOTES": []
+    },
+    "asy": {
+        "name": null,
+        "NOTES": []
+    },
+    "asz": {
+        "name": null,
+        "NOTES": []
+    },
+    "ata": {
+        "name": null,
+        "NOTES": []
+    },
+    "atb": {
+        "name": null,
+        "NOTES": []
+    },
+    "atc": {
+        "name": null,
+        "NOTES": []
+    },
+    "atd": {
+        "name": null,
+        "NOTES": []
+    },
+    "ate": {
+        "name": null,
+        "NOTES": []
+    },
+    "atg": {
+        "name": null,
+        "NOTES": []
+    },
+    "ati": {
+        "name": null,
+        "NOTES": []
+    },
+    "atj": {
+        "name": null,
+        "NOTES": []
+    },
+    "atk": {
+        "name": null,
+        "NOTES": []
+    },
+    "atl": {
+        "name": null,
+        "NOTES": []
+    },
+    "atm": {
+        "name": null,
+        "NOTES": []
+    },
+    "atn": {
+        "name": null,
+        "NOTES": []
+    },
+    "ato": {
+        "name": null,
+        "NOTES": []
+    },
+    "atp": {
+        "name": null,
+        "NOTES": []
+    },
+    "atq": {
+        "name": null,
+        "NOTES": []
+    },
+    "atr": {
+        "name": null,
+        "NOTES": []
+    },
+    "ats": {
+        "name": null,
+        "NOTES": []
+    },
+    "att": {
+        "name": null,
+        "NOTES": []
+    },
+    "atu": {
+        "name": null,
+        "NOTES": []
+    },
+    "atv": {
+        "name": null,
+        "NOTES": []
+    },
+    "atw": {
+        "name": null,
+        "NOTES": []
+    },
+    "atx": {
+        "name": null,
+        "NOTES": []
+    },
+    "aty": {
+        "name": null,
+        "NOTES": []
+    },
+    "atz": {
+        "name": null,
+        "NOTES": []
+    },
+    "aua": {
+        "name": null,
+        "NOTES": []
+    },
+    "aub": {
+        "name": null,
+        "NOTES": []
+    },
+    "auc": {
+        "name": null,
+        "NOTES": []
+    },
+    "aud": {
+        "name": null,
+        "NOTES": []
+    },
+    "aug": {
+        "name": null,
+        "NOTES": []
+    },
+    "auh": {
+        "name": null,
+        "NOTES": []
+    },
+    "aui": {
+        "name": null,
+        "NOTES": []
+    },
+    "auj": {
+        "name": null,
+        "NOTES": []
+    },
+    "auk": {
+        "name": null,
+        "NOTES": []
+    },
+    "aul": {
+        "name": null,
+        "NOTES": []
+    },
+    "aum": {
+        "name": null,
+        "NOTES": []
+    },
+    "aun": {
+        "name": null,
+        "NOTES": []
+    },
+    "auo": {
+        "name": null,
+        "NOTES": []
+    },
+    "aup": {
+        "name": null,
+        "NOTES": []
+    },
+    "auq": {
+        "name": null,
+        "NOTES": []
+    },
+    "aur": {
+        "name": null,
+        "NOTES": []
+    },
+    "aut": {
+        "name": null,
+        "NOTES": []
+    },
+    "auu": {
+        "name": null,
+        "NOTES": []
+    },
+    "auw": {
+        "name": null,
+        "NOTES": []
+    },
+    "aux": {
+        "name": null,
+        "NOTES": []
+    },
+    "auy": {
+        "name": null,
+        "NOTES": []
+    },
+    "auz": {
+        "name": null,
+        "NOTES": []
+    },
+    "ava": {
+        "name": "Avàro",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_avara"
+        ]
+    },
+    "avb": {
+        "name": null,
+        "NOTES": []
+    },
+    "avd": {
+        "name": null,
+        "NOTES": []
+    },
+    "ave": {
+        "name": null,
+        "NOTES": []
+    },
+    "avi": {
+        "name": null,
+        "NOTES": []
+    },
+    "avk": {
+        "name": null,
+        "NOTES": []
+    },
+    "avl": {
+        "name": null,
+        "NOTES": []
+    },
+    "avm": {
+        "name": null,
+        "NOTES": []
+    },
+    "avn": {
+        "name": null,
+        "NOTES": []
+    },
+    "avo": {
+        "name": null,
+        "NOTES": []
+    },
+    "avs": {
+        "name": null,
+        "NOTES": []
+    },
+    "avt": {
+        "name": null,
+        "NOTES": []
+    },
+    "avu": {
+        "name": null,
+        "NOTES": []
+    },
+    "avv": {
+        "name": null,
+        "NOTES": []
+    },
+    "awa": {
+        "name": null,
+        "NOTES": []
+    },
+    "awb": {
+        "name": null,
+        "NOTES": []
+    },
+    "awc": {
+        "name": null,
+        "NOTES": []
+    },
+    "awe": {
+        "name": null,
+        "NOTES": []
+    },
+    "awg": {
+        "name": null,
+        "NOTES": []
+    },
+    "awh": {
+        "name": null,
+        "NOTES": []
+    },
+    "awi": {
+        "name": null,
+        "NOTES": []
+    },
+    "awk": {
+        "name": null,
+        "NOTES": []
+    },
+    "awm": {
+        "name": null,
+        "NOTES": []
+    },
+    "awn": {
+        "name": null,
+        "NOTES": []
+    },
+    "awo": {
+        "name": null,
+        "NOTES": []
+    },
+    "awr": {
+        "name": null,
+        "NOTES": []
+    },
+    "aws": {
+        "name": null,
+        "NOTES": []
+    },
+    "awt": {
+        "name": null,
+        "NOTES": []
+    },
+    "awu": {
+        "name": null,
+        "NOTES": []
+    },
+    "awv": {
+        "name": null,
+        "NOTES": []
+    },
+    "aww": {
+        "name": null,
+        "NOTES": []
+    },
+    "awx": {
+        "name": null,
+        "NOTES": []
+    },
+    "awy": {
+        "name": null,
+        "NOTES": []
+    },
+    "axb": {
+        "name": null,
+        "NOTES": []
+    },
+    "axe": {
+        "name": null,
+        "NOTES": []
+    },
+    "axg": {
+        "name": null,
+        "NOTES": []
+    },
+    "axk": {
+        "name": null,
+        "NOTES": []
+    },
+    "axl": {
+        "name": null,
+        "NOTES": []
+    },
+    "axm": {
+        "name": null,
+        "NOTES": []
+    },
+    "axx": {
+        "name": null,
+        "NOTES": []
+    },
+    "aya": {
+        "name": null,
+        "NOTES": []
+    },
+    "ayb": {
+        "name": null,
+        "NOTES": []
+    },
+    "ayc": {
+        "name": null,
+        "NOTES": []
+    },
+    "ayd": {
+        "name": null,
+        "NOTES": []
+    },
+    "aye": {
+        "name": null,
+        "NOTES": []
+    },
+    "ayg": {
+        "name": null,
+        "NOTES": []
+    },
+    "ayh": {
+        "name": null,
+        "NOTES": []
+    },
+    "ayi": {
+        "name": null,
+        "NOTES": []
+    },
+    "ayk": {
+        "name": null,
+        "NOTES": []
+    },
+    "ayl": {
+        "name": null,
+        "NOTES": []
+    },
+    "aym": {
+        "name": "Aymarà",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_aymara",
+            "https://www.treccani.it/vocabolario/aymara/?search=Aymara%2F"
+        ]
+    },
+    "ayn": {
+        "name": null,
+        "NOTES": []
+    },
+    "ayo": {
+        "name": null,
+        "NOTES": []
+    },
+    "ayp": {
+        "name": null,
+        "NOTES": []
+    },
+    "ayq": {
+        "name": null,
+        "NOTES": []
+    },
+    "ayr": {
+        "name": null,
+        "NOTES": []
+    },
+    "ays": {
+        "name": null,
+        "NOTES": []
+    },
+    "ayt": {
+        "name": null,
+        "NOTES": []
+    },
+    "ayu": {
+        "name": null,
+        "NOTES": []
+    },
+    "ayz": {
+        "name": null,
+        "NOTES": []
+    },
+    "aza": {
+        "name": null,
+        "NOTES": []
+    },
+    "azb": {
+        "name": null,
+        "NOTES": []
+    },
+    "azd": {
+        "name": null,
+        "NOTES": []
+    },
+    "aze": {
+        "name": "Azero",
+        "NOTES": []
+    },
+    "azg": {
+        "name": null,
+        "NOTES": []
+    },
+    "azj": {
+        "name": null,
+        "NOTES": []
+    },
+    "azm": {
+        "name": null,
+        "NOTES": []
+    },
+    "azn": {
+        "name": null,
+        "NOTES": []
+    },
+    "azo": {
+        "name": null,
+        "NOTES": []
+    },
+    "azt": {
+        "name": null,
+        "NOTES": []
+    },
+    "azz": {
+        "name": null,
+        "NOTES": []
+    },
+    "baa": {
+        "name": null,
+        "NOTES": []
+    },
+    "bab": {
+        "name": null,
+        "NOTES": []
+    },
+    "bac": {
+        "name": null,
+        "NOTES": []
+    },
+    "bae": {
+        "name": null,
+        "NOTES": []
+    },
+    "baf": {
+        "name": null,
+        "NOTES": []
+    },
+    "bag": {
+        "name": null,
+        "NOTES": []
+    },
+    "bah": {
+        "name": null,
+        "NOTES": []
+    },
+    "baj": {
+        "name": null,
+        "NOTES": []
+    },
+    "bak": {
+        "name": "Baschiro o Baškiro",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_baschira",
+            "https://www.treccani.it/vocabolario/baschiro/?search=baschiro%2F"
+        ]
+    },
+    "bal": {
+        "name": null,
+        "NOTES": []
+    },
+    "bam": {
+        "name": "Bambara",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_bambara",
+            "https://www.treccani.it/enciclopedia/bambara/?search=Bambara%2F"
+        ]
+    },
+    "ban": {
+        "name": null,
+        "NOTES": []
+    },
+    "bao": {
+        "name": null,
+        "NOTES": []
+    },
+    "bap": {
+        "name": null,
+        "NOTES": []
+    },
+    "bar": {
+        "name": null,
+        "NOTES": []
+    },
+    "bas": {
+        "name": "Basaa",
+        "NOTES": []
+    },
+    "bau": {
+        "name": null,
+        "NOTES": []
+    },
+    "bav": {
+        "name": null,
+        "NOTES": []
+    },
+    "baw": {
+        "name": null,
+        "NOTES": []
+    },
+    "bax": {
+        "name": null,
+        "NOTES": []
+    },
+    "bay": {
+        "name": null,
+        "NOTES": []
+    },
+    "bba": {
+        "name": null,
+        "NOTES": []
+    },
+    "bbb": {
+        "name": null,
+        "NOTES": []
+    },
+    "bbc": {
+        "name": null,
+        "NOTES": []
+    },
+    "bbd": {
+        "name": null,
+        "NOTES": []
+    },
+    "bbe": {
+        "name": null,
+        "NOTES": []
+    },
+    "bbf": {
+        "name": null,
+        "NOTES": []
+    },
+    "bbg": {
+        "name": null,
+        "NOTES": []
+    },
+    "bbh": {
+        "name": null,
+        "NOTES": []
+    },
+    "bbi": {
+        "name": null,
+        "NOTES": []
+    },
+    "bbj": {
+        "name": null,
+        "NOTES": []
+    },
+    "bbk": {
+        "name": null,
+        "NOTES": []
+    },
+    "bbl": {
+        "name": null,
+        "NOTES": []
+    },
+    "bbm": {
+        "name": null,
+        "NOTES": []
+    },
+    "bbn": {
+        "name": null,
+        "NOTES": []
+    },
+    "bbo": {
+        "name": null,
+        "NOTES": []
+    },
+    "bbp": {
+        "name": null,
+        "NOTES": []
+    },
+    "bbq": {
+        "name": null,
+        "NOTES": []
+    },
+    "bbr": {
+        "name": null,
+        "NOTES": []
+    },
+    "bbs": {
+        "name": null,
+        "NOTES": []
+    },
+    "bbt": {
+        "name": null,
+        "NOTES": []
+    },
+    "bbu": {
+        "name": null,
+        "NOTES": []
+    },
+    "bbv": {
+        "name": null,
+        "NOTES": []
+    },
+    "bbw": {
+        "name": null,
+        "NOTES": []
+    },
+    "bbx": {
+        "name": null,
+        "NOTES": []
+    },
+    "bby": {
+        "name": null,
+        "NOTES": []
+    },
+    "bca": {
+        "name": null,
+        "NOTES": []
+    },
+    "bcb": {
+        "name": null,
+        "NOTES": []
+    },
+    "bcc": {
+        "name": null,
+        "NOTES": []
+    },
+    "bcd": {
+        "name": null,
+        "NOTES": []
+    },
+    "bce": {
+        "name": null,
+        "NOTES": []
+    },
+    "bcf": {
+        "name": null,
+        "NOTES": []
+    },
+    "bcg": {
+        "name": null,
+        "NOTES": []
+    },
+    "bch": {
+        "name": null,
+        "NOTES": []
+    },
+    "bci": {
+        "name": null,
+        "NOTES": []
+    },
+    "bcj": {
+        "name": null,
+        "NOTES": []
+    },
+    "bck": {
+        "name": null,
+        "NOTES": []
+    },
+    "bcl": {
+        "name": null,
+        "NOTES": []
+    },
+    "bcm": {
+        "name": null,
+        "NOTES": []
+    },
+    "bcn": {
+        "name": null,
+        "NOTES": []
+    },
+    "bco": {
+        "name": null,
+        "NOTES": []
+    },
+    "bcp": {
+        "name": null,
+        "NOTES": []
+    },
+    "bcq": {
+        "name": null,
+        "NOTES": []
+    },
+    "bcr": {
+        "name": null,
+        "NOTES": []
+    },
+    "bcs": {
+        "name": null,
+        "NOTES": []
+    },
+    "bct": {
+        "name": null,
+        "NOTES": []
+    },
+    "bcu": {
+        "name": null,
+        "NOTES": []
+    },
+    "bcv": {
+        "name": null,
+        "NOTES": []
+    },
+    "bcw": {
+        "name": null,
+        "NOTES": []
+    },
+    "bcy": {
+        "name": null,
+        "NOTES": []
+    },
+    "bcz": {
+        "name": null,
+        "NOTES": []
+    },
+    "bda": {
+        "name": null,
+        "NOTES": []
+    },
+    "bdb": {
+        "name": null,
+        "NOTES": []
+    },
+    "bdc": {
+        "name": null,
+        "NOTES": []
+    },
+    "bdd": {
+        "name": null,
+        "NOTES": []
+    },
+    "bde": {
+        "name": null,
+        "NOTES": []
+    },
+    "bdf": {
+        "name": null,
+        "NOTES": []
+    },
+    "bdg": {
+        "name": null,
+        "NOTES": []
+    },
+    "bdh": {
+        "name": null,
+        "NOTES": []
+    },
+    "bdi": {
+        "name": null,
+        "NOTES": []
+    },
+    "bdj": {
+        "name": null,
+        "NOTES": []
+    },
+    "bdk": {
+        "name": null,
+        "NOTES": []
+    },
+    "bdl": {
+        "name": null,
+        "NOTES": []
+    },
+    "bdm": {
+        "name": null,
+        "NOTES": []
+    },
+    "bdn": {
+        "name": null,
+        "NOTES": []
+    },
+    "bdo": {
+        "name": null,
+        "NOTES": []
+    },
+    "bdp": {
+        "name": null,
+        "NOTES": []
+    },
+    "bdq": {
+        "name": null,
+        "NOTES": []
+    },
+    "bdr": {
+        "name": null,
+        "NOTES": []
+    },
+    "bds": {
+        "name": null,
+        "NOTES": []
+    },
+    "bdt": {
+        "name": null,
+        "NOTES": []
+    },
+    "bdu": {
+        "name": null,
+        "NOTES": []
+    },
+    "bdv": {
+        "name": null,
+        "NOTES": []
+    },
+    "bdw": {
+        "name": null,
+        "NOTES": []
+    },
+    "bdx": {
+        "name": null,
+        "NOTES": []
+    },
+    "bdy": {
+        "name": null,
+        "NOTES": []
+    },
+    "bdz": {
+        "name": null,
+        "NOTES": []
+    },
+    "bea": {
+        "name": null,
+        "NOTES": []
+    },
+    "beb": {
+        "name": null,
+        "NOTES": []
+    },
+    "bec": {
+        "name": null,
+        "NOTES": []
+    },
+    "bed": {
+        "name": null,
+        "NOTES": []
+    },
+    "bee": {
+        "name": null,
+        "NOTES": []
+    },
+    "bef": {
+        "name": null,
+        "NOTES": []
+    },
+    "beg": {
+        "name": null,
+        "NOTES": []
+    },
+    "beh": {
+        "name": null,
+        "NOTES": []
+    },
+    "bei": {
+        "name": null,
+        "NOTES": []
+    },
+    "bej": {
+        "name": null,
+        "NOTES": []
+    },
+    "bek": {
+        "name": null,
+        "NOTES": []
+    },
+    "bel": {
+        "name": "Bielorusso",
+        "NOTES": []
+    },
+    "bem": {
+        "name": "Bemba",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_bemba"
+        ]
+    },
+    "ben": {
+        "name": "Bengalese",
+        "NOTES": []
+    },
+    "beo": {
+        "name": null,
+        "NOTES": []
+    },
+    "bep": {
+        "name": null,
+        "NOTES": []
+    },
+    "beq": {
+        "name": null,
+        "NOTES": []
+    },
+    "bes": {
+        "name": null,
+        "NOTES": []
+    },
+    "bet": {
+        "name": null,
+        "NOTES": []
+    },
+    "beu": {
+        "name": null,
+        "NOTES": []
+    },
+    "bev": {
+        "name": null,
+        "NOTES": []
+    },
+    "bew": {
+        "name": null,
+        "NOTES": []
+    },
+    "bex": {
+        "name": null,
+        "NOTES": []
+    },
+    "bey": {
+        "name": null,
+        "NOTES": []
+    },
+    "bez": {
+        "name": "Bena",
+        "NOTES": []
+    },
+    "bfa": {
+        "name": null,
+        "NOTES": []
+    },
+    "bfb": {
+        "name": null,
+        "NOTES": []
+    },
+    "bfc": {
+        "name": null,
+        "NOTES": []
+    },
+    "bfd": {
+        "name": null,
+        "NOTES": []
+    },
+    "bfe": {
+        "name": null,
+        "NOTES": []
+    },
+    "bff": {
+        "name": null,
+        "NOTES": []
+    },
+    "bfg": {
+        "name": null,
+        "NOTES": []
+    },
+    "bfh": {
+        "name": null,
+        "NOTES": []
+    },
+    "bfi": {
+        "name": null,
+        "NOTES": []
+    },
+    "bfj": {
+        "name": null,
+        "NOTES": []
+    },
+    "bfk": {
+        "name": null,
+        "NOTES": []
+    },
+    "bfl": {
+        "name": null,
+        "NOTES": []
+    },
+    "bfm": {
+        "name": null,
+        "NOTES": []
+    },
+    "bfn": {
+        "name": null,
+        "NOTES": []
+    },
+    "bfo": {
+        "name": null,
+        "NOTES": []
+    },
+    "bfp": {
+        "name": null,
+        "NOTES": []
+    },
+    "bfq": {
+        "name": null,
+        "NOTES": []
+    },
+    "bfr": {
+        "name": null,
+        "NOTES": []
+    },
+    "bfs": {
+        "name": null,
+        "NOTES": []
+    },
+    "bft": {
+        "name": null,
+        "NOTES": []
+    },
+    "bfu": {
+        "name": null,
+        "NOTES": []
+    },
+    "bfw": {
+        "name": null,
+        "NOTES": []
+    },
+    "bfx": {
+        "name": null,
+        "NOTES": []
+    },
+    "bfy": {
+        "name": null,
+        "NOTES": []
+    },
+    "bfz": {
+        "name": null,
+        "NOTES": []
+    },
+    "bga": {
+        "name": null,
+        "NOTES": []
+    },
+    "bgb": {
+        "name": null,
+        "NOTES": []
+    },
+    "bgc": {
+        "name": null,
+        "NOTES": []
+    },
+    "bgd": {
+        "name": null,
+        "NOTES": []
+    },
+    "bge": {
+        "name": null,
+        "NOTES": []
+    },
+    "bgf": {
+        "name": null,
+        "NOTES": []
+    },
+    "bgg": {
+        "name": null,
+        "NOTES": []
+    },
+    "bgi": {
+        "name": null,
+        "NOTES": []
+    },
+    "bgj": {
+        "name": null,
+        "NOTES": []
+    },
+    "bgk": {
+        "name": null,
+        "NOTES": []
+    },
+    "bgl": {
+        "name": null,
+        "NOTES": []
+    },
+    "bgn": {
+        "name": null,
+        "NOTES": []
+    },
+    "bgo": {
+        "name": null,
+        "NOTES": []
+    },
+    "bgp": {
+        "name": null,
+        "NOTES": []
+    },
+    "bgq": {
+        "name": null,
+        "NOTES": []
+    },
+    "bgr": {
+        "name": null,
+        "NOTES": []
+    },
+    "bgs": {
+        "name": null,
+        "NOTES": []
+    },
+    "bgt": {
+        "name": null,
+        "NOTES": []
+    },
+    "bgu": {
+        "name": null,
+        "NOTES": []
+    },
+    "bgv": {
+        "name": null,
+        "NOTES": []
+    },
+    "bgw": {
+        "name": null,
+        "NOTES": []
+    },
+    "bgx": {
+        "name": null,
+        "NOTES": []
+    },
+    "bgy": {
+        "name": null,
+        "NOTES": []
+    },
+    "bgz": {
+        "name": null,
+        "NOTES": []
+    },
+    "bha": {
+        "name": null,
+        "NOTES": []
+    },
+    "bhb": {
+        "name": null,
+        "NOTES": []
+    },
+    "bhc": {
+        "name": null,
+        "NOTES": []
+    },
+    "bhd": {
+        "name": null,
+        "NOTES": []
+    },
+    "bhe": {
+        "name": null,
+        "NOTES": []
+    },
+    "bhf": {
+        "name": null,
+        "NOTES": []
+    },
+    "bhg": {
+        "name": null,
+        "NOTES": []
+    },
+    "bhh": {
+        "name": null,
+        "NOTES": []
+    },
+    "bhi": {
+        "name": null,
+        "NOTES": []
+    },
+    "bhj": {
+        "name": null,
+        "NOTES": []
+    },
+    "bhl": {
+        "name": null,
+        "NOTES": []
+    },
+    "bhm": {
+        "name": null,
+        "NOTES": []
+    },
+    "bhn": {
+        "name": null,
+        "NOTES": []
+    },
+    "bho": {
+        "name": null,
+        "NOTES": []
+    },
+    "bhp": {
+        "name": null,
+        "NOTES": []
+    },
+    "bhq": {
+        "name": null,
+        "NOTES": []
+    },
+    "bhr": {
+        "name": "Malgascio dei Bara",
+        "NOTES": [
+            "https://www.treccani.it/vocabolario/malgascio/?search=malg%C3%A0scio%2F",
+            "https://it.wikipedia.org/wiki/Lingua_malgascia",
+            "https://it.wikipedia.org/wiki/Bara_(popolo)"
+        ]
+    },
+    "bhs": {
+        "name": null,
+        "NOTES": []
+    },
+    "bht": {
+        "name": null,
+        "NOTES": []
+    },
+    "bhu": {
+        "name": null,
+        "NOTES": []
+    },
+    "bhv": {
+        "name": null,
+        "NOTES": []
+    },
+    "bhw": {
+        "name": null,
+        "NOTES": []
+    },
+    "bhx": {
+        "name": null,
+        "NOTES": []
+    },
+    "bhy": {
+        "name": null,
+        "NOTES": []
+    },
+    "bhz": {
+        "name": null,
+        "NOTES": []
+    },
+    "bia": {
+        "name": null,
+        "NOTES": []
+    },
+    "bib": {
+        "name": null,
+        "NOTES": []
+    },
+    "bid": {
+        "name": null,
+        "NOTES": []
+    },
+    "bie": {
+        "name": null,
+        "NOTES": []
+    },
+    "bif": {
+        "name": null,
+        "NOTES": []
+    },
+    "big": {
+        "name": null,
+        "NOTES": []
+    },
+    "bik": {
+        "name": null,
+        "NOTES": []
+    },
+    "bil": {
+        "name": null,
+        "NOTES": []
+    },
+    "bim": {
+        "name": null,
+        "NOTES": []
+    },
+    "bin": {
+        "name": null,
+        "NOTES": []
+    },
+    "bio": {
+        "name": null,
+        "NOTES": []
+    },
+    "bip": {
+        "name": null,
+        "NOTES": []
+    },
+    "biq": {
+        "name": null,
+        "NOTES": []
+    },
+    "bir": {
+        "name": null,
+        "NOTES": []
+    },
+    "bis": {
+        "name": "Bislama",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_bislama"
+        ]
+    },
+    "bit": {
+        "name": null,
+        "NOTES": []
+    },
+    "biu": {
+        "name": null,
+        "NOTES": []
+    },
+    "biv": {
+        "name": null,
+        "NOTES": []
+    },
+    "biw": {
+        "name": null,
+        "NOTES": []
+    },
+    "bix": {
+        "name": null,
+        "NOTES": []
+    },
+    "biy": {
+        "name": null,
+        "NOTES": []
+    },
+    "biz": {
+        "name": null,
+        "NOTES": []
+    },
+    "bja": {
+        "name": null,
+        "NOTES": []
+    },
+    "bjb": {
+        "name": null,
+        "NOTES": []
+    },
+    "bjc": {
+        "name": null,
+        "NOTES": []
+    },
+    "bje": {
+        "name": null,
+        "NOTES": []
+    },
+    "bjf": {
+        "name": null,
+        "NOTES": []
+    },
+    "bjg": {
+        "name": null,
+        "NOTES": []
+    },
+    "bjh": {
+        "name": null,
+        "NOTES": []
+    },
+    "bji": {
+        "name": null,
+        "NOTES": []
+    },
+    "bjj": {
+        "name": null,
+        "NOTES": []
+    },
+    "bjk": {
+        "name": null,
+        "NOTES": []
+    },
+    "bjl": {
+        "name": null,
+        "NOTES": []
+    },
+    "bjm": {
+        "name": null,
+        "NOTES": []
+    },
+    "bjn": {
+        "name": null,
+        "NOTES": []
+    },
+    "bjo": {
+        "name": null,
+        "NOTES": []
+    },
+    "bjp": {
+        "name": null,
+        "NOTES": []
+    },
+    "bjr": {
+        "name": null,
+        "NOTES": []
+    },
+    "bjs": {
+        "name": null,
+        "NOTES": []
+    },
+    "bjt": {
+        "name": null,
+        "NOTES": []
+    },
+    "bju": {
+        "name": null,
+        "NOTES": []
+    },
+    "bjv": {
+        "name": null,
+        "NOTES": []
+    },
+    "bjw": {
+        "name": null,
+        "NOTES": []
+    },
+    "bjx": {
+        "name": null,
+        "NOTES": []
+    },
+    "bjy": {
+        "name": null,
+        "NOTES": []
+    },
+    "bjz": {
+        "name": null,
+        "NOTES": []
+    },
+    "bka": {
+        "name": null,
+        "NOTES": []
+    },
+    "bkc": {
+        "name": null,
+        "NOTES": []
+    },
+    "bkd": {
+        "name": null,
+        "NOTES": []
+    },
+    "bkf": {
+        "name": null,
+        "NOTES": []
+    },
+    "bkg": {
+        "name": null,
+        "NOTES": []
+    },
+    "bkh": {
+        "name": null,
+        "NOTES": []
+    },
+    "bki": {
+        "name": null,
+        "NOTES": []
+    },
+    "bkj": {
+        "name": null,
+        "NOTES": []
+    },
+    "bkk": {
+        "name": null,
+        "NOTES": []
+    },
+    "bkl": {
+        "name": null,
+        "NOTES": []
+    },
+    "bkm": {
+        "name": null,
+        "NOTES": []
+    },
+    "bkn": {
+        "name": null,
+        "NOTES": []
+    },
+    "bko": {
+        "name": null,
+        "NOTES": []
+    },
+    "bkp": {
+        "name": null,
+        "NOTES": []
+    },
+    "bkq": {
+        "name": null,
+        "NOTES": []
+    },
+    "bkr": {
+        "name": null,
+        "NOTES": []
+    },
+    "bks": {
+        "name": null,
+        "NOTES": []
+    },
+    "bkt": {
+        "name": null,
+        "NOTES": []
+    },
+    "bku": {
+        "name": null,
+        "NOTES": []
+    },
+    "bkv": {
+        "name": null,
+        "NOTES": []
+    },
+    "bkw": {
+        "name": null,
+        "NOTES": []
+    },
+    "bkx": {
+        "name": null,
+        "NOTES": []
+    },
+    "bky": {
+        "name": null,
+        "NOTES": []
+    },
+    "bkz": {
+        "name": null,
+        "NOTES": []
+    },
+    "bla": {
+        "name": null,
+        "NOTES": []
+    },
+    "blb": {
+        "name": null,
+        "NOTES": []
+    },
+    "blc": {
+        "name": null,
+        "NOTES": []
+    },
+    "bld": {
+        "name": null,
+        "NOTES": []
+    },
+    "ble": {
+        "name": null,
+        "NOTES": []
+    },
+    "blf": {
+        "name": null,
+        "NOTES": []
+    },
+    "blh": {
+        "name": null,
+        "NOTES": []
+    },
+    "bli": {
+        "name": null,
+        "NOTES": []
+    },
+    "blj": {
+        "name": null,
+        "NOTES": []
+    },
+    "blk": {
+        "name": null,
+        "NOTES": []
+    },
+    "bll": {
+        "name": null,
+        "NOTES": []
+    },
+    "blm": {
+        "name": null,
+        "NOTES": []
+    },
+    "bln": {
+        "name": null,
+        "NOTES": []
+    },
+    "blo": {
+        "name": null,
+        "NOTES": []
+    },
+    "blp": {
+        "name": null,
+        "NOTES": []
+    },
+    "blq": {
+        "name": null,
+        "NOTES": []
+    },
+    "blr": {
+        "name": null,
+        "NOTES": []
+    },
+    "bls": {
+        "name": null,
+        "NOTES": []
+    },
+    "blt": {
+        "name": null,
+        "NOTES": []
+    },
+    "blv": {
+        "name": null,
+        "NOTES": []
+    },
+    "blw": {
+        "name": null,
+        "NOTES": []
+    },
+    "blx": {
+        "name": null,
+        "NOTES": []
+    },
+    "bly": {
+        "name": null,
+        "NOTES": []
+    },
+    "blz": {
+        "name": null,
+        "NOTES": []
+    },
+    "bma": {
+        "name": null,
+        "NOTES": []
+    },
+    "bmb": {
+        "name": null,
+        "NOTES": []
+    },
+    "bmc": {
+        "name": null,
+        "NOTES": []
+    },
+    "bmd": {
+        "name": null,
+        "NOTES": []
+    },
+    "bme": {
+        "name": null,
+        "NOTES": []
+    },
+    "bmf": {
+        "name": null,
+        "NOTES": []
+    },
+    "bmg": {
+        "name": null,
+        "NOTES": []
+    },
+    "bmh": {
+        "name": null,
+        "NOTES": []
+    },
+    "bmi": {
+        "name": null,
+        "NOTES": []
+    },
+    "bmj": {
+        "name": null,
+        "NOTES": []
+    },
+    "bmk": {
+        "name": null,
+        "NOTES": []
+    },
+    "bml": {
+        "name": null,
+        "NOTES": []
+    },
+    "bmm": {
+        "name": "Malgascio del Betsimisaraka settentrionale",
+        "NOTES": [
+            "https://www.treccani.it/vocabolario/malgascio/?search=malg%C3%A0scio%2F",
+            "https://it.wikipedia.org/wiki/Lingua_malgascia"
+        ]
+    },
+    "bmn": {
+        "name": null,
+        "NOTES": []
+    },
+    "bmo": {
+        "name": null,
+        "NOTES": []
+    },
+    "bmp": {
+        "name": null,
+        "NOTES": []
+    },
+    "bmq": {
+        "name": null,
+        "NOTES": []
+    },
+    "bmr": {
+        "name": null,
+        "NOTES": []
+    },
+    "bms": {
+        "name": null,
+        "NOTES": []
+    },
+    "bmt": {
+        "name": null,
+        "NOTES": []
+    },
+    "bmu": {
+        "name": null,
+        "NOTES": []
+    },
+    "bmv": {
+        "name": null,
+        "NOTES": []
+    },
+    "bmw": {
+        "name": null,
+        "NOTES": []
+    },
+    "bmx": {
+        "name": null,
+        "NOTES": []
+    },
+    "bmz": {
+        "name": null,
+        "NOTES": []
+    },
+    "bna": {
+        "name": null,
+        "NOTES": []
+    },
+    "bnb": {
+        "name": null,
+        "NOTES": []
+    },
+    "bnc": {
+        "name": null,
+        "NOTES": []
+    },
+    "bnd": {
+        "name": null,
+        "NOTES": []
+    },
+    "bne": {
+        "name": null,
+        "NOTES": []
+    },
+    "bnf": {
+        "name": null,
+        "NOTES": []
+    },
+    "bng": {
+        "name": null,
+        "NOTES": []
+    },
+    "bni": {
+        "name": null,
+        "NOTES": []
+    },
+    "bnj": {
+        "name": null,
+        "NOTES": []
+    },
+    "bnk": {
+        "name": null,
+        "NOTES": []
+    },
+    "bnl": {
+        "name": null,
+        "NOTES": []
+    },
+    "bnm": {
+        "name": null,
+        "NOTES": []
+    },
+    "bnn": {
+        "name": null,
+        "NOTES": []
+    },
+    "bno": {
+        "name": null,
+        "NOTES": []
+    },
+    "bnp": {
+        "name": null,
+        "NOTES": []
+    },
+    "bnq": {
+        "name": null,
+        "NOTES": []
+    },
+    "bnr": {
+        "name": null,
+        "NOTES": []
+    },
+    "bns": {
+        "name": null,
+        "NOTES": []
+    },
+    "bnu": {
+        "name": null,
+        "NOTES": []
+    },
+    "bnv": {
+        "name": null,
+        "NOTES": []
+    },
+    "bnw": {
+        "name": null,
+        "NOTES": []
+    },
+    "bnx": {
+        "name": null,
+        "NOTES": []
+    },
+    "bny": {
+        "name": null,
+        "NOTES": []
+    },
+    "bnz": {
+        "name": null,
+        "NOTES": []
+    },
+    "boa": {
+        "name": null,
+        "NOTES": []
+    },
+    "bob": {
+        "name": null,
+        "NOTES": []
+    },
+    "bod": {
+        "name": "Tibetano",
+        "NOTES": []
+    },
+    "boe": {
+        "name": null,
+        "NOTES": []
+    },
+    "bof": {
+        "name": null,
+        "NOTES": []
+    },
+    "bog": {
+        "name": null,
+        "NOTES": []
+    },
+    "boh": {
+        "name": null,
+        "NOTES": []
+    },
+    "boi": {
+        "name": null,
+        "NOTES": []
+    },
+    "boj": {
+        "name": null,
+        "NOTES": []
+    },
+    "bok": {
+        "name": null,
+        "NOTES": []
+    },
+    "bol": {
+        "name": null,
+        "NOTES": []
+    },
+    "bom": {
+        "name": null,
+        "NOTES": []
+    },
+    "bon": {
+        "name": null,
+        "NOTES": []
+    },
+    "boo": {
+        "name": null,
+        "NOTES": []
+    },
+    "bop": {
+        "name": null,
+        "NOTES": []
+    },
+    "boq": {
+        "name": null,
+        "NOTES": []
+    },
+    "bor": {
+        "name": null,
+        "NOTES": []
+    },
+    "bos": {
+        "name": "Bosniaco",
+        "NOTES": []
+    },
+    "bot": {
+        "name": null,
+        "NOTES": []
+    },
+    "bou": {
+        "name": null,
+        "NOTES": []
+    },
+    "bov": {
+        "name": null,
+        "NOTES": []
+    },
+    "bow": {
+        "name": null,
+        "NOTES": []
+    },
+    "box": {
+        "name": null,
+        "NOTES": []
+    },
+    "boy": {
+        "name": null,
+        "NOTES": []
+    },
+    "boz": {
+        "name": null,
+        "NOTES": []
+    },
+    "bpa": {
+        "name": null,
+        "NOTES": []
+    },
+    "bpc": {
+        "name": null,
+        "NOTES": []
+    },
+    "bpd": {
+        "name": null,
+        "NOTES": []
+    },
+    "bpe": {
+        "name": null,
+        "NOTES": []
+    },
+    "bpg": {
+        "name": null,
+        "NOTES": []
+    },
+    "bph": {
+        "name": null,
+        "NOTES": []
+    },
+    "bpi": {
+        "name": null,
+        "NOTES": []
+    },
+    "bpj": {
+        "name": null,
+        "NOTES": []
+    },
+    "bpk": {
+        "name": null,
+        "NOTES": []
+    },
+    "bpl": {
+        "name": null,
+        "NOTES": []
+    },
+    "bpm": {
+        "name": null,
+        "NOTES": []
+    },
+    "bpn": {
+        "name": null,
+        "NOTES": []
+    },
+    "bpo": {
+        "name": null,
+        "NOTES": []
+    },
+    "bpp": {
+        "name": null,
+        "NOTES": []
+    },
+    "bpq": {
+        "name": null,
+        "NOTES": []
+    },
+    "bpr": {
+        "name": null,
+        "NOTES": []
+    },
+    "bps": {
+        "name": null,
+        "NOTES": []
+    },
+    "bpt": {
+        "name": null,
+        "NOTES": []
+    },
+    "bpu": {
+        "name": null,
+        "NOTES": []
+    },
+    "bpv": {
+        "name": null,
+        "NOTES": []
+    },
+    "bpw": {
+        "name": null,
+        "NOTES": []
+    },
+    "bpx": {
+        "name": null,
+        "NOTES": []
+    },
+    "bpy": {
+        "name": null,
+        "NOTES": []
+    },
+    "bpz": {
+        "name": null,
+        "NOTES": []
+    },
+    "bqa": {
+        "name": null,
+        "NOTES": []
+    },
+    "bqb": {
+        "name": null,
+        "NOTES": []
+    },
+    "bqc": {
+        "name": null,
+        "NOTES": []
+    },
+    "bqd": {
+        "name": null,
+        "NOTES": []
+    },
+    "bqf": {
+        "name": null,
+        "NOTES": []
+    },
+    "bqg": {
+        "name": null,
+        "NOTES": []
+    },
+    "bqh": {
+        "name": null,
+        "NOTES": []
+    },
+    "bqi": {
+        "name": null,
+        "NOTES": []
+    },
+    "bqj": {
+        "name": null,
+        "NOTES": []
+    },
+    "bqk": {
+        "name": null,
+        "NOTES": []
+    },
+    "bql": {
+        "name": null,
+        "NOTES": []
+    },
+    "bqm": {
+        "name": null,
+        "NOTES": []
+    },
+    "bqn": {
+        "name": null,
+        "NOTES": []
+    },
+    "bqo": {
+        "name": null,
+        "NOTES": []
+    },
+    "bqp": {
+        "name": null,
+        "NOTES": []
+    },
+    "bqq": {
+        "name": null,
+        "NOTES": []
+    },
+    "bqr": {
+        "name": null,
+        "NOTES": []
+    },
+    "bqs": {
+        "name": null,
+        "NOTES": []
+    },
+    "bqt": {
+        "name": null,
+        "NOTES": []
+    },
+    "bqu": {
+        "name": null,
+        "NOTES": []
+    },
+    "bqv": {
+        "name": null,
+        "NOTES": []
+    },
+    "bqw": {
+        "name": null,
+        "NOTES": []
+    },
+    "bqx": {
+        "name": null,
+        "NOTES": []
+    },
+    "bqy": {
+        "name": null,
+        "NOTES": []
+    },
+    "bqz": {
+        "name": null,
+        "NOTES": []
+    },
+    "bra": {
+        "name": null,
+        "NOTES": []
+    },
+    "brb": {
+        "name": null,
+        "NOTES": []
+    },
+    "brc": {
+        "name": null,
+        "NOTES": []
+    },
+    "brd": {
+        "name": null,
+        "NOTES": []
+    },
+    "bre": {
+        "name": "Bretone",
+        "NOTES": []
+    },
+    "brf": {
+        "name": null,
+        "NOTES": []
+    },
+    "brg": {
+        "name": null,
+        "NOTES": []
+    },
+    "brh": {
+        "name": null,
+        "NOTES": []
+    },
+    "bri": {
+        "name": null,
+        "NOTES": []
+    },
+    "brj": {
+        "name": null,
+        "NOTES": []
+    },
+    "brk": {
+        "name": null,
+        "NOTES": []
+    },
+    "brl": {
+        "name": null,
+        "NOTES": []
+    },
+    "brm": {
+        "name": null,
+        "NOTES": []
+    },
+    "brn": {
+        "name": null,
+        "NOTES": []
+    },
+    "bro": {
+        "name": null,
+        "NOTES": []
+    },
+    "brp": {
+        "name": null,
+        "NOTES": []
+    },
+    "brq": {
+        "name": null,
+        "NOTES": []
+    },
+    "brr": {
+        "name": null,
+        "NOTES": []
+    },
+    "brs": {
+        "name": null,
+        "NOTES": []
+    },
+    "brt": {
+        "name": null,
+        "NOTES": []
+    },
+    "bru": {
+        "name": null,
+        "NOTES": []
+    },
+    "brv": {
+        "name": null,
+        "NOTES": []
+    },
+    "brw": {
+        "name": null,
+        "NOTES": []
+    },
+    "brx": {
+        "name": "Bodo",
+        "NOTES": [
+            "https://www.treccani.it/enciclopedia/bodo_res-8dfee353-1d59-11de-bb24-0016357eee51/?search=Bodo%2F",
+            "https://it.wikipedia.org/wiki/Lingua_bodo"
+        ]
+    },
+    "bry": {
+        "name": null,
+        "NOTES": []
+    },
+    "brz": {
+        "name": null,
+        "NOTES": []
+    },
+    "bsa": {
+        "name": null,
+        "NOTES": []
+    },
+    "bsb": {
+        "name": null,
+        "NOTES": []
+    },
+    "bsc": {
+        "name": null,
+        "NOTES": []
+    },
+    "bse": {
+        "name": null,
+        "NOTES": []
+    },
+    "bsf": {
+        "name": null,
+        "NOTES": []
+    },
+    "bsg": {
+        "name": null,
+        "NOTES": []
+    },
+    "bsh": {
+        "name": null,
+        "NOTES": []
+    },
+    "bsi": {
+        "name": null,
+        "NOTES": []
+    },
+    "bsj": {
+        "name": null,
+        "NOTES": []
+    },
+    "bsk": {
+        "name": null,
+        "NOTES": []
+    },
+    "bsl": {
+        "name": null,
+        "NOTES": []
+    },
+    "bsm": {
+        "name": null,
+        "NOTES": []
+    },
+    "bsn": {
+        "name": null,
+        "NOTES": []
+    },
+    "bso": {
+        "name": null,
+        "NOTES": []
+    },
+    "bsp": {
+        "name": null,
+        "NOTES": []
+    },
+    "bsq": {
+        "name": null,
+        "NOTES": []
+    },
+    "bsr": {
+        "name": null,
+        "NOTES": []
+    },
+    "bss": {
+        "name": null,
+        "NOTES": []
+    },
+    "bst": {
+        "name": null,
+        "NOTES": []
+    },
+    "bsu": {
+        "name": null,
+        "NOTES": []
+    },
+    "bsv": {
+        "name": null,
+        "NOTES": []
+    },
+    "bsw": {
+        "name": null,
+        "NOTES": []
+    },
+    "bsx": {
+        "name": null,
+        "NOTES": []
+    },
+    "bsy": {
+        "name": null,
+        "NOTES": []
+    },
+    "bta": {
+        "name": null,
+        "NOTES": []
+    },
+    "btc": {
+        "name": null,
+        "NOTES": []
+    },
+    "btd": {
+        "name": null,
+        "NOTES": []
+    },
+    "bte": {
+        "name": null,
+        "NOTES": []
+    },
+    "btf": {
+        "name": null,
+        "NOTES": []
+    },
+    "btg": {
+        "name": null,
+        "NOTES": []
+    },
+    "bth": {
+        "name": null,
+        "NOTES": []
+    },
+    "bti": {
+        "name": null,
+        "NOTES": []
+    },
+    "btj": {
+        "name": null,
+        "NOTES": []
+    },
+    "btm": {
+        "name": null,
+        "NOTES": []
+    },
+    "btn": {
+        "name": null,
+        "NOTES": []
+    },
+    "bto": {
+        "name": null,
+        "NOTES": []
+    },
+    "btp": {
+        "name": null,
+        "NOTES": []
+    },
+    "btq": {
+        "name": null,
+        "NOTES": []
+    },
+    "btr": {
+        "name": null,
+        "NOTES": []
+    },
+    "bts": {
+        "name": null,
+        "NOTES": []
+    },
+    "btt": {
+        "name": null,
+        "NOTES": []
+    },
+    "btu": {
+        "name": null,
+        "NOTES": []
+    },
+    "btv": {
+        "name": null,
+        "NOTES": []
+    },
+    "btw": {
+        "name": null,
+        "NOTES": []
+    },
+    "btx": {
+        "name": null,
+        "NOTES": []
+    },
+    "bty": {
+        "name": null,
+        "NOTES": []
+    },
+    "btz": {
+        "name": null,
+        "NOTES": []
+    },
+    "bua": {
+        "name": null,
+        "NOTES": []
+    },
+    "bub": {
+        "name": null,
+        "NOTES": []
+    },
+    "buc": {
+        "name": null,
+        "NOTES": []
+    },
+    "bud": {
+        "name": null,
+        "NOTES": []
+    },
+    "bue": {
+        "name": null,
+        "NOTES": []
+    },
+    "buf": {
+        "name": null,
+        "NOTES": []
+    },
+    "bug": {
+        "name": null,
+        "NOTES": []
+    },
+    "buh": {
+        "name": null,
+        "NOTES": []
+    },
+    "bui": {
+        "name": null,
+        "NOTES": []
+    },
+    "buj": {
+        "name": null,
+        "NOTES": []
+    },
+    "buk": {
+        "name": null,
+        "NOTES": []
+    },
+    "bul": {
+        "name": "Bulgaro",
+        "NOTES": []
+    },
+    "bum": {
+        "name": null,
+        "NOTES": []
+    },
+    "bun": {
+        "name": null,
+        "NOTES": []
+    },
+    "buo": {
+        "name": null,
+        "NOTES": []
+    },
+    "bup": {
+        "name": null,
+        "NOTES": []
+    },
+    "buq": {
+        "name": null,
+        "NOTES": []
+    },
+    "bus": {
+        "name": null,
+        "NOTES": []
+    },
+    "but": {
+        "name": null,
+        "NOTES": []
+    },
+    "buu": {
+        "name": null,
+        "NOTES": []
+    },
+    "buv": {
+        "name": null,
+        "NOTES": []
+    },
+    "buw": {
+        "name": null,
+        "NOTES": []
+    },
+    "bux": {
+        "name": null,
+        "NOTES": []
+    },
+    "buy": {
+        "name": null,
+        "NOTES": []
+    },
+    "buz": {
+        "name": null,
+        "NOTES": []
+    },
+    "bva": {
+        "name": null,
+        "NOTES": []
+    },
+    "bvb": {
+        "name": null,
+        "NOTES": []
+    },
+    "bvc": {
+        "name": null,
+        "NOTES": []
+    },
+    "bvd": {
+        "name": null,
+        "NOTES": []
+    },
+    "bve": {
+        "name": null,
+        "NOTES": []
+    },
+    "bvf": {
+        "name": null,
+        "NOTES": []
+    },
+    "bvg": {
+        "name": null,
+        "NOTES": []
+    },
+    "bvh": {
+        "name": null,
+        "NOTES": []
+    },
+    "bvi": {
+        "name": null,
+        "NOTES": []
+    },
+    "bvj": {
+        "name": null,
+        "NOTES": []
+    },
+    "bvk": {
+        "name": null,
+        "NOTES": []
+    },
+    "bvl": {
+        "name": null,
+        "NOTES": []
+    },
+    "bvm": {
+        "name": null,
+        "NOTES": []
+    },
+    "bvn": {
+        "name": null,
+        "NOTES": []
+    },
+    "bvo": {
+        "name": null,
+        "NOTES": []
+    },
+    "bvp": {
+        "name": null,
+        "NOTES": []
+    },
+    "bvq": {
+        "name": null,
+        "NOTES": []
+    },
+    "bvr": {
+        "name": null,
+        "NOTES": []
+    },
+    "bvt": {
+        "name": null,
+        "NOTES": []
+    },
+    "bvu": {
+        "name": null,
+        "NOTES": []
+    },
+    "bvv": {
+        "name": null,
+        "NOTES": []
+    },
+    "bvw": {
+        "name": null,
+        "NOTES": []
+    },
+    "bvx": {
+        "name": null,
+        "NOTES": []
+    },
+    "bvy": {
+        "name": null,
+        "NOTES": []
+    },
+    "bvz": {
+        "name": null,
+        "NOTES": []
+    },
+    "bwa": {
+        "name": null,
+        "NOTES": []
+    },
+    "bwb": {
+        "name": null,
+        "NOTES": []
+    },
+    "bwc": {
+        "name": null,
+        "NOTES": []
+    },
+    "bwd": {
+        "name": null,
+        "NOTES": []
+    },
+    "bwe": {
+        "name": null,
+        "NOTES": []
+    },
+    "bwf": {
+        "name": null,
+        "NOTES": []
+    },
+    "bwg": {
+        "name": "Sena Barwe",
+        "NOTES": []
+    },
+    "bwh": {
+        "name": null,
+        "NOTES": []
+    },
+    "bwi": {
+        "name": null,
+        "NOTES": []
+    },
+    "bwj": {
+        "name": null,
+        "NOTES": []
+    },
+    "bwk": {
+        "name": null,
+        "NOTES": []
+    },
+    "bwl": {
+        "name": null,
+        "NOTES": []
+    },
+    "bwm": {
+        "name": null,
+        "NOTES": []
+    },
+    "bwn": {
+        "name": null,
+        "NOTES": []
+    },
+    "bwo": {
+        "name": null,
+        "NOTES": []
+    },
+    "bwp": {
+        "name": null,
+        "NOTES": []
+    },
+    "bwq": {
+        "name": null,
+        "NOTES": []
+    },
+    "bwr": {
+        "name": null,
+        "NOTES": []
+    },
+    "bws": {
+        "name": null,
+        "NOTES": []
+    },
+    "bwt": {
+        "name": null,
+        "NOTES": []
+    },
+    "bwu": {
+        "name": null,
+        "NOTES": []
+    },
+    "bww": {
+        "name": null,
+        "NOTES": []
+    },
+    "bwx": {
+        "name": null,
+        "NOTES": []
+    },
+    "bwy": {
+        "name": null,
+        "NOTES": []
+    },
+    "bwz": {
+        "name": null,
+        "NOTES": []
+    },
+    "bxa": {
+        "name": null,
+        "NOTES": []
+    },
+    "bxb": {
+        "name": null,
+        "NOTES": []
+    },
+    "bxc": {
+        "name": null,
+        "NOTES": []
+    },
+    "bxd": {
+        "name": null,
+        "NOTES": []
+    },
+    "bxe": {
+        "name": null,
+        "NOTES": []
+    },
+    "bxf": {
+        "name": null,
+        "NOTES": []
+    },
+    "bxg": {
+        "name": null,
+        "NOTES": []
+    },
+    "bxh": {
+        "name": null,
+        "NOTES": []
+    },
+    "bxi": {
+        "name": null,
+        "NOTES": []
+    },
+    "bxj": {
+        "name": null,
+        "NOTES": []
+    },
+    "bxk": {
+        "name": null,
+        "NOTES": []
+    },
+    "bxl": {
+        "name": null,
+        "NOTES": []
+    },
+    "bxm": {
+        "name": null,
+        "NOTES": []
+    },
+    "bxn": {
+        "name": null,
+        "NOTES": []
+    },
+    "bxo": {
+        "name": null,
+        "NOTES": []
+    },
+    "bxp": {
+        "name": null,
+        "NOTES": []
+    },
+    "bxq": {
+        "name": null,
+        "NOTES": []
+    },
+    "bxr": {
+        "name": null,
+        "NOTES": []
+    },
+    "bxs": {
+        "name": null,
+        "NOTES": []
+    },
+    "bxu": {
+        "name": null,
+        "NOTES": []
+    },
+    "bxv": {
+        "name": null,
+        "NOTES": []
+    },
+    "bxw": {
+        "name": null,
+        "NOTES": []
+    },
+    "bxz": {
+        "name": null,
+        "NOTES": []
+    },
+    "bya": {
+        "name": null,
+        "NOTES": []
+    },
+    "byb": {
+        "name": null,
+        "NOTES": []
+    },
+    "byc": {
+        "name": null,
+        "NOTES": []
+    },
+    "byd": {
+        "name": null,
+        "NOTES": []
+    },
+    "bye": {
+        "name": null,
+        "NOTES": []
+    },
+    "byf": {
+        "name": null,
+        "NOTES": []
+    },
+    "byg": {
+        "name": null,
+        "NOTES": []
+    },
+    "byh": {
+        "name": null,
+        "NOTES": []
+    },
+    "byi": {
+        "name": null,
+        "NOTES": []
+    },
+    "byj": {
+        "name": null,
+        "NOTES": []
+    },
+    "byk": {
+        "name": null,
+        "NOTES": []
+    },
+    "byl": {
+        "name": null,
+        "NOTES": []
+    },
+    "bym": {
+        "name": null,
+        "NOTES": []
+    },
+    "byn": {
+        "name": null,
+        "NOTES": []
+    },
+    "byo": {
+        "name": null,
+        "NOTES": []
+    },
+    "byp": {
+        "name": null,
+        "NOTES": []
+    },
+    "byq": {
+        "name": null,
+        "NOTES": []
+    },
+    "byr": {
+        "name": null,
+        "NOTES": []
+    },
+    "bys": {
+        "name": null,
+        "NOTES": []
+    },
+    "byt": {
+        "name": null,
+        "NOTES": []
+    },
+    "byv": {
+        "name": null,
+        "NOTES": []
+    },
+    "byw": {
+        "name": null,
+        "NOTES": []
+    },
+    "byx": {
+        "name": null,
+        "NOTES": []
+    },
+    "byz": {
+        "name": null,
+        "NOTES": []
+    },
+    "bza": {
+        "name": null,
+        "NOTES": []
+    },
+    "bzb": {
+        "name": null,
+        "NOTES": []
+    },
+    "bzc": {
+        "name": "Malgascio del Betsimisaraka meridionale",
+        "NOTES": [
+            "https://www.treccani.it/vocabolario/malgascio/?search=malg%C3%A0scio%2F",
+            "https://it.wikipedia.org/wiki/Lingua_malgascia"
+        ]
+    },
+    "bzd": {
+        "name": null,
+        "NOTES": []
+    },
+    "bze": {
+        "name": null,
+        "NOTES": []
+    },
+    "bzf": {
+        "name": null,
+        "NOTES": []
+    },
+    "bzg": {
+        "name": null,
+        "NOTES": []
+    },
+    "bzh": {
+        "name": null,
+        "NOTES": []
+    },
+    "bzi": {
+        "name": null,
+        "NOTES": []
+    },
+    "bzj": {
+        "name": null,
+        "NOTES": []
+    },
+    "bzk": {
+        "name": null,
+        "NOTES": []
+    },
+    "bzl": {
+        "name": null,
+        "NOTES": []
+    },
+    "bzm": {
+        "name": null,
+        "NOTES": []
+    },
+    "bzn": {
+        "name": null,
+        "NOTES": []
+    },
+    "bzo": {
+        "name": null,
+        "NOTES": []
+    },
+    "bzp": {
+        "name": null,
+        "NOTES": []
+    },
+    "bzq": {
+        "name": null,
+        "NOTES": []
+    },
+    "bzr": {
+        "name": null,
+        "NOTES": []
+    },
+    "bzs": {
+        "name": null,
+        "NOTES": []
+    },
+    "bzt": {
+        "name": null,
+        "NOTES": []
+    },
+    "bzu": {
+        "name": null,
+        "NOTES": []
+    },
+    "bzv": {
+        "name": null,
+        "NOTES": []
+    },
+    "bzw": {
+        "name": null,
+        "NOTES": []
+    },
+    "bzx": {
+        "name": null,
+        "NOTES": []
+    },
+    "bzy": {
+        "name": null,
+        "NOTES": []
+    },
+    "bzz": {
+        "name": null,
+        "NOTES": []
+    },
+    "caa": {
+        "name": null,
+        "NOTES": []
+    },
+    "cab": {
+        "name": null,
+        "NOTES": []
+    },
+    "cac": {
+        "name": null,
+        "NOTES": []
+    },
+    "cad": {
+        "name": null,
+        "NOTES": []
+    },
+    "cae": {
+        "name": null,
+        "NOTES": []
+    },
+    "caf": {
+        "name": null,
+        "NOTES": []
+    },
+    "cag": {
+        "name": null,
+        "NOTES": []
+    },
+    "cah": {
+        "name": null,
+        "NOTES": []
+    },
+    "caj": {
+        "name": null,
+        "NOTES": []
+    },
+    "cak": {
+        "name": null,
+        "NOTES": []
+    },
+    "cal": {
+        "name": null,
+        "NOTES": []
+    },
+    "cam": {
+        "name": null,
+        "NOTES": []
+    },
+    "can": {
+        "name": null,
+        "NOTES": []
+    },
+    "cao": {
+        "name": null,
+        "NOTES": []
+    },
+    "cap": {
+        "name": null,
+        "NOTES": []
+    },
+    "caq": {
+        "name": null,
+        "NOTES": []
+    },
+    "car": {
+        "name": null,
+        "NOTES": []
+    },
+    "cas": {
+        "name": null,
+        "NOTES": []
+    },
+    "cat": {
+        "name": "Catalano",
+        "NOTES": []
+    },
+    "cav": {
+        "name": null,
+        "NOTES": []
+    },
+    "caw": {
+        "name": null,
+        "NOTES": []
+    },
+    "cax": {
+        "name": null,
+        "NOTES": []
+    },
+    "cay": {
+        "name": null,
+        "NOTES": []
+    },
+    "caz": {
+        "name": null,
+        "NOTES": []
+    },
+    "cbb": {
+        "name": null,
+        "NOTES": []
+    },
+    "cbc": {
+        "name": null,
+        "NOTES": []
+    },
+    "cbd": {
+        "name": null,
+        "NOTES": []
+    },
+    "cbg": {
+        "name": null,
+        "NOTES": []
+    },
+    "cbi": {
+        "name": null,
+        "NOTES": []
+    },
+    "cbj": {
+        "name": null,
+        "NOTES": []
+    },
+    "cbk": {
+        "name": null,
+        "NOTES": []
+    },
+    "cbl": {
+        "name": null,
+        "NOTES": []
+    },
+    "cbn": {
+        "name": null,
+        "NOTES": []
+    },
+    "cbo": {
+        "name": null,
+        "NOTES": []
+    },
+    "cbq": {
+        "name": null,
+        "NOTES": []
+    },
+    "cbr": {
+        "name": null,
+        "NOTES": []
+    },
+    "cbs": {
+        "name": null,
+        "NOTES": []
+    },
+    "cbt": {
+        "name": null,
+        "NOTES": []
+    },
+    "cbu": {
+        "name": null,
+        "NOTES": []
+    },
+    "cbv": {
+        "name": null,
+        "NOTES": []
+    },
+    "cbw": {
+        "name": null,
+        "NOTES": []
+    },
+    "cby": {
+        "name": null,
+        "NOTES": []
+    },
+    "ccc": {
+        "name": null,
+        "NOTES": []
+    },
+    "ccd": {
+        "name": null,
+        "NOTES": []
+    },
+    "cce": {
+        "name": null,
+        "NOTES": []
+    },
+    "ccg": {
+        "name": null,
+        "NOTES": []
+    },
+    "cch": {
+        "name": null,
+        "NOTES": []
+    },
+    "ccj": {
+        "name": null,
+        "NOTES": []
+    },
+    "ccl": {
+        "name": null,
+        "NOTES": []
+    },
+    "ccm": {
+        "name": null,
+        "NOTES": []
+    },
+    "cco": {
+        "name": null,
+        "NOTES": []
+    },
+    "ccp": {
+        "name": null,
+        "NOTES": []
+    },
+    "ccr": {
+        "name": null,
+        "NOTES": []
+    },
+    "cda": {
+        "name": null,
+        "NOTES": []
+    },
+    "cde": {
+        "name": null,
+        "NOTES": []
+    },
+    "cdf": {
+        "name": null,
+        "NOTES": []
+    },
+    "cdh": {
+        "name": null,
+        "NOTES": []
+    },
+    "cdi": {
+        "name": null,
+        "NOTES": []
+    },
+    "cdj": {
+        "name": null,
+        "NOTES": []
+    },
+    "cdm": {
+        "name": null,
+        "NOTES": []
+    },
+    "cdn": {
+        "name": null,
+        "NOTES": []
+    },
+    "cdo": {
+        "name": null,
+        "NOTES": []
+    },
+    "cdr": {
+        "name": null,
+        "NOTES": []
+    },
+    "cds": {
+        "name": null,
+        "NOTES": []
+    },
+    "cdy": {
+        "name": null,
+        "NOTES": []
+    },
+    "cdz": {
+        "name": null,
+        "NOTES": []
+    },
+    "cea": {
+        "name": null,
+        "NOTES": []
+    },
+    "ceb": {
+        "name": null,
+        "NOTES": []
+    },
+    "ceg": {
+        "name": null,
+        "NOTES": []
+    },
+    "cek": {
+        "name": null,
+        "NOTES": []
+    },
+    "cen": {
+        "name": null,
+        "NOTES": []
+    },
+    "ces": {
+        "name": "Ceco",
+        "NOTES": []
+    },
+    "cet": {
+        "name": null,
+        "NOTES": []
+    },
+    "cey": {
+        "name": null,
+        "NOTES": []
+    },
+    "cfa": {
+        "name": null,
+        "NOTES": []
+    },
+    "cfd": {
+        "name": null,
+        "NOTES": []
+    },
+    "cfg": {
+        "name": null,
+        "NOTES": []
+    },
+    "cfm": {
+        "name": null,
+        "NOTES": []
+    },
+    "cga": {
+        "name": null,
+        "NOTES": []
+    },
+    "cgc": {
+        "name": null,
+        "NOTES": []
+    },
+    "cgg": {
+        "name": "Chiga, Bakiga",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Bakiga"
+        ]
+    },
+    "cgk": {
+        "name": null,
+        "NOTES": []
+    },
+    "cha": {
+        "name": "Chamorro",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_chamorro"
+        ]
+    },
+    "chb": {
+        "name": null,
+        "NOTES": []
+    },
+    "chc": {
+        "name": null,
+        "NOTES": []
+    },
+    "chd": {
+        "name": null,
+        "NOTES": []
+    },
+    "che": {
+        "name": "Ceceno",
+        "NOTES": []
+    },
+    "chf": {
+        "name": null,
+        "NOTES": []
+    },
+    "chg": {
+        "name": null,
+        "NOTES": []
+    },
+    "chh": {
+        "name": null,
+        "NOTES": []
+    },
+    "chj": {
+        "name": null,
+        "NOTES": []
+    },
+    "chk": {
+        "name": null,
+        "NOTES": []
+    },
+    "chl": {
+        "name": null,
+        "NOTES": []
+    },
+    "chm": {
+        "name": null,
+        "NOTES": []
+    },
+    "chn": {
+        "name": null,
+        "NOTES": []
+    },
+    "cho": {
+        "name": null,
+        "NOTES": []
+    },
+    "chp": {
+        "name": null,
+        "NOTES": []
+    },
+    "chq": {
+        "name": null,
+        "NOTES": []
+    },
+    "chr": {
+        "name": "Cherokee",
+        "NOTES": []
+    },
+    "cht": {
+        "name": null,
+        "NOTES": []
+    },
+    "chu": {
+        "name": "Slavo ecclesiastico",
+        "NOTES": []
+    },
+    "chv": {
+        "name": "Ciuvascio, Ciuvasso",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_ciuvascia",
+            "https://www.treccani.it/vocabolario/ciuvascio/?search=ciuv%C3%A0scio%2F"
+        ]
+    },
+    "chw": {
+        "name": null,
+        "NOTES": []
+    },
+    "chx": {
+        "name": null,
+        "NOTES": []
+    },
+    "chy": {
+        "name": null,
+        "NOTES": []
+    },
+    "chz": {
+        "name": null,
+        "NOTES": []
+    },
+    "cia": {
+        "name": null,
+        "NOTES": []
+    },
+    "cib": {
+        "name": null,
+        "NOTES": []
+    },
+    "cic": {
+        "name": null,
+        "NOTES": []
+    },
+    "cid": {
+        "name": null,
+        "NOTES": []
+    },
+    "cie": {
+        "name": null,
+        "NOTES": []
+    },
+    "cih": {
+        "name": null,
+        "NOTES": []
+    },
+    "cik": {
+        "name": null,
+        "NOTES": []
+    },
+    "cim": {
+        "name": null,
+        "NOTES": []
+    },
+    "cin": {
+        "name": null,
+        "NOTES": []
+    },
+    "cip": {
+        "name": null,
+        "NOTES": []
+    },
+    "cir": {
+        "name": null,
+        "NOTES": []
+    },
+    "ciw": {
+        "name": null,
+        "NOTES": []
+    },
+    "ciy": {
+        "name": null,
+        "NOTES": []
+    },
+    "cja": {
+        "name": null,
+        "NOTES": []
+    },
+    "cje": {
+        "name": null,
+        "NOTES": []
+    },
+    "cjh": {
+        "name": null,
+        "NOTES": []
+    },
+    "cji": {
+        "name": null,
+        "NOTES": []
+    },
+    "cjk": {
+        "name": null,
+        "NOTES": []
+    },
+    "cjm": {
+        "name": null,
+        "NOTES": []
+    },
+    "cjn": {
+        "name": null,
+        "NOTES": []
+    },
+    "cjo": {
+        "name": null,
+        "NOTES": []
+    },
+    "cjp": {
+        "name": null,
+        "NOTES": []
+    },
+    "cjs": {
+        "name": null,
+        "NOTES": []
+    },
+    "cjv": {
+        "name": null,
+        "NOTES": []
+    },
+    "cjy": {
+        "name": null,
+        "NOTES": []
+    },
+    "ckb": {
+        "name": "Curdo Soranî",
+        "NOTES": []
+    },
+    "ckh": {
+        "name": null,
+        "NOTES": []
+    },
+    "ckl": {
+        "name": null,
+        "NOTES": []
+    },
+    "ckm": {
+        "name": null,
+        "NOTES": []
+    },
+    "ckn": {
+        "name": null,
+        "NOTES": []
+    },
+    "cko": {
+        "name": null,
+        "NOTES": []
+    },
+    "ckq": {
+        "name": null,
+        "NOTES": []
+    },
+    "ckr": {
+        "name": null,
+        "NOTES": []
+    },
+    "cks": {
+        "name": null,
+        "NOTES": []
+    },
+    "ckt": {
+        "name": null,
+        "NOTES": []
+    },
+    "cku": {
+        "name": null,
+        "NOTES": []
+    },
+    "ckv": {
+        "name": null,
+        "NOTES": []
+    },
+    "ckx": {
+        "name": null,
+        "NOTES": []
+    },
+    "cky": {
+        "name": null,
+        "NOTES": []
+    },
+    "ckz": {
+        "name": null,
+        "NOTES": []
+    },
+    "cla": {
+        "name": null,
+        "NOTES": []
+    },
+    "clc": {
+        "name": null,
+        "NOTES": []
+    },
+    "cld": {
+        "name": null,
+        "NOTES": []
+    },
+    "cle": {
+        "name": null,
+        "NOTES": []
+    },
+    "clh": {
+        "name": null,
+        "NOTES": []
+    },
+    "cli": {
+        "name": null,
+        "NOTES": []
+    },
+    "clj": {
+        "name": null,
+        "NOTES": []
+    },
+    "clk": {
+        "name": null,
+        "NOTES": []
+    },
+    "cll": {
+        "name": null,
+        "NOTES": []
+    },
+    "clm": {
+        "name": null,
+        "NOTES": []
+    },
+    "clo": {
+        "name": null,
+        "NOTES": []
+    },
+    "cls": {
+        "name": null,
+        "NOTES": []
+    },
+    "clt": {
+        "name": null,
+        "NOTES": []
+    },
+    "clu": {
+        "name": null,
+        "NOTES": []
+    },
+    "clw": {
+        "name": null,
+        "NOTES": []
+    },
+    "cly": {
+        "name": null,
+        "NOTES": []
+    },
+    "cma": {
+        "name": null,
+        "NOTES": []
+    },
+    "cme": {
+        "name": null,
+        "NOTES": []
+    },
+    "cmg": {
+        "name": null,
+        "NOTES": []
+    },
+    "cmi": {
+        "name": null,
+        "NOTES": []
+    },
+    "cml": {
+        "name": null,
+        "NOTES": []
+    },
+    "cmm": {
+        "name": null,
+        "NOTES": []
+    },
+    "cmn": {
+        "name": "Mandarino",
+        "NOTES": []
+    },
+    "cmo": {
+        "name": null,
+        "NOTES": []
+    },
+    "cmr": {
+        "name": null,
+        "NOTES": []
+    },
+    "cms": {
+        "name": null,
+        "NOTES": []
+    },
+    "cmt": {
+        "name": null,
+        "NOTES": []
+    },
+    "cna": {
+        "name": null,
+        "NOTES": []
+    },
+    "cnb": {
+        "name": null,
+        "NOTES": []
+    },
+    "cnc": {
+        "name": null,
+        "NOTES": []
+    },
+    "cng": {
+        "name": null,
+        "NOTES": []
+    },
+    "cnh": {
+        "name": null,
+        "NOTES": []
+    },
+    "cni": {
+        "name": null,
+        "NOTES": []
+    },
+    "cnk": {
+        "name": null,
+        "NOTES": []
+    },
+    "cnl": {
+        "name": null,
+        "NOTES": []
+    },
+    "cno": {
+        "name": null,
+        "NOTES": []
+    },
+    "cnp": {
+        "name": null,
+        "NOTES": []
+    },
+    "cnq": {
+        "name": null,
+        "NOTES": []
+    },
+    "cnr": {
+        "name": null,
+        "NOTES": []
+    },
+    "cns": {
+        "name": null,
+        "NOTES": []
+    },
+    "cnt": {
+        "name": null,
+        "NOTES": []
+    },
+    "cnu": {
+        "name": null,
+        "NOTES": []
+    },
+    "cnw": {
+        "name": null,
+        "NOTES": []
+    },
+    "cnx": {
+        "name": null,
+        "NOTES": []
+    },
+    "coa": {
+        "name": null,
+        "NOTES": []
+    },
+    "cob": {
+        "name": null,
+        "NOTES": []
+    },
+    "coc": {
+        "name": null,
+        "NOTES": []
+    },
+    "cod": {
+        "name": null,
+        "NOTES": []
+    },
+    "coe": {
+        "name": null,
+        "NOTES": []
+    },
+    "cof": {
+        "name": null,
+        "NOTES": []
+    },
+    "cog": {
+        "name": null,
+        "NOTES": []
+    },
+    "coh": {
+        "name": null,
+        "NOTES": []
+    },
+    "coj": {
+        "name": null,
+        "NOTES": []
+    },
+    "cok": {
+        "name": null,
+        "NOTES": []
+    },
+    "col": {
+        "name": null,
+        "NOTES": []
+    },
+    "com": {
+        "name": null,
+        "NOTES": []
+    },
+    "con": {
+        "name": null,
+        "NOTES": []
+    },
+    "coo": {
+        "name": null,
+        "NOTES": []
+    },
+    "cop": {
+        "name": null,
+        "NOTES": []
+    },
+    "coq": {
+        "name": null,
+        "NOTES": []
+    },
+    "cor": {
+        "name": "Còrnico",
+        "NOTES": [
+            "https://www.treccani.it/enciclopedia/cornico/?search=Cornico%2F"
+        ]
+    },
+    "cos": {
+        "name": "Corso",
+        "NOTES": []
+    },
+    "cot": {
+        "name": null,
+        "NOTES": []
+    },
+    "cou": {
+        "name": null,
+        "NOTES": []
+    },
+    "cov": {
+        "name": null,
+        "NOTES": []
+    },
+    "cow": {
+        "name": null,
+        "NOTES": []
+    },
+    "cox": {
+        "name": null,
+        "NOTES": []
+    },
+    "coz": {
+        "name": null,
+        "NOTES": []
+    },
+    "cpa": {
+        "name": null,
+        "NOTES": []
+    },
+    "cpb": {
+        "name": null,
+        "NOTES": []
+    },
+    "cpc": {
+        "name": null,
+        "NOTES": []
+    },
+    "cpg": {
+        "name": null,
+        "NOTES": []
+    },
+    "cpi": {
+        "name": null,
+        "NOTES": []
+    },
+    "cpn": {
+        "name": null,
+        "NOTES": []
+    },
+    "cpo": {
+        "name": null,
+        "NOTES": []
+    },
+    "cps": {
+        "name": null,
+        "NOTES": []
+    },
+    "cpu": {
+        "name": null,
+        "NOTES": []
+    },
+    "cpx": {
+        "name": null,
+        "NOTES": []
+    },
+    "cpy": {
+        "name": null,
+        "NOTES": []
+    },
+    "cqd": {
+        "name": null,
+        "NOTES": []
+    },
+    "cra": {
+        "name": null,
+        "NOTES": []
+    },
+    "crb": {
+        "name": null,
+        "NOTES": []
+    },
+    "crc": {
+        "name": null,
+        "NOTES": []
+    },
+    "crd": {
+        "name": null,
+        "NOTES": []
+    },
+    "cre": {
+        "name": "Cree",
+        "NOTES": [
+            "https://www.treccani.it/enciclopedia/cree/?search=Cree%2F",
+            "https://it.wikipedia.org/wiki/Lingua_cree"
+        ]
+    },
+    "crf": {
+        "name": null,
+        "NOTES": []
+    },
+    "crg": {
+        "name": null,
+        "NOTES": []
+    },
+    "crh": {
+        "name": null,
+        "NOTES": []
+    },
+    "cri": {
+        "name": null,
+        "NOTES": []
+    },
+    "crj": {
+        "name": null,
+        "NOTES": []
+    },
+    "crk": {
+        "name": null,
+        "NOTES": []
+    },
+    "crl": {
+        "name": null,
+        "NOTES": []
+    },
+    "crm": {
+        "name": null,
+        "NOTES": []
+    },
+    "crn": {
+        "name": null,
+        "NOTES": []
+    },
+    "cro": {
+        "name": null,
+        "NOTES": []
+    },
+    "crq": {
+        "name": null,
+        "NOTES": []
+    },
+    "crr": {
+        "name": null,
+        "NOTES": []
+    },
+    "crs": {
+        "name": "Creolo delle Seychelles",
+        "NOTES": []
+    },
+    "crt": {
+        "name": null,
+        "NOTES": []
+    },
+    "crv": {
+        "name": null,
+        "NOTES": []
+    },
+    "crw": {
+        "name": null,
+        "NOTES": []
+    },
+    "crx": {
+        "name": null,
+        "NOTES": []
+    },
+    "cry": {
+        "name": null,
+        "NOTES": []
+    },
+    "crz": {
+        "name": null,
+        "NOTES": []
+    },
+    "csa": {
+        "name": null,
+        "NOTES": []
+    },
+    "csb": {
+        "name": null,
+        "NOTES": []
+    },
+    "csc": {
+        "name": null,
+        "NOTES": []
+    },
+    "csd": {
+        "name": null,
+        "NOTES": []
+    },
+    "cse": {
+        "name": null,
+        "NOTES": []
+    },
+    "csf": {
+        "name": null,
+        "NOTES": []
+    },
+    "csg": {
+        "name": null,
+        "NOTES": []
+    },
+    "csh": {
+        "name": null,
+        "NOTES": []
+    },
+    "csi": {
+        "name": null,
+        "NOTES": []
+    },
+    "csj": {
+        "name": null,
+        "NOTES": []
+    },
+    "csk": {
+        "name": null,
+        "NOTES": []
+    },
+    "csl": {
+        "name": null,
+        "NOTES": []
+    },
+    "csm": {
+        "name": null,
+        "NOTES": []
+    },
+    "csn": {
+        "name": null,
+        "NOTES": []
+    },
+    "cso": {
+        "name": null,
+        "NOTES": []
+    },
+    "csp": {
+        "name": null,
+        "NOTES": []
+    },
+    "csq": {
+        "name": null,
+        "NOTES": []
+    },
+    "csr": {
+        "name": null,
+        "NOTES": []
+    },
+    "css": {
+        "name": null,
+        "NOTES": []
+    },
+    "cst": {
+        "name": null,
+        "NOTES": []
+    },
+    "csv": {
+        "name": null,
+        "NOTES": []
+    },
+    "csw": {
+        "name": null,
+        "NOTES": []
+    },
+    "csx": {
+        "name": null,
+        "NOTES": []
+    },
+    "csy": {
+        "name": null,
+        "NOTES": []
+    },
+    "csz": {
+        "name": null,
+        "NOTES": []
+    },
+    "cta": {
+        "name": null,
+        "NOTES": []
+    },
+    "ctc": {
+        "name": null,
+        "NOTES": []
+    },
+    "ctd": {
+        "name": null,
+        "NOTES": []
+    },
+    "cte": {
+        "name": null,
+        "NOTES": []
+    },
+    "ctg": {
+        "name": null,
+        "NOTES": []
+    },
+    "cth": {
+        "name": null,
+        "NOTES": []
+    },
+    "ctl": {
+        "name": null,
+        "NOTES": []
+    },
+    "ctm": {
+        "name": null,
+        "NOTES": []
+    },
+    "ctn": {
+        "name": null,
+        "NOTES": []
+    },
+    "cto": {
+        "name": null,
+        "NOTES": []
+    },
+    "ctp": {
+        "name": null,
+        "NOTES": []
+    },
+    "cts": {
+        "name": null,
+        "NOTES": []
+    },
+    "ctt": {
+        "name": null,
+        "NOTES": []
+    },
+    "ctu": {
+        "name": null,
+        "NOTES": []
+    },
+    "cty": {
+        "name": null,
+        "NOTES": []
+    },
+    "ctz": {
+        "name": null,
+        "NOTES": []
+    },
+    "cua": {
+        "name": null,
+        "NOTES": []
+    },
+    "cub": {
+        "name": null,
+        "NOTES": []
+    },
+    "cuc": {
+        "name": null,
+        "NOTES": []
+    },
+    "cuh": {
+        "name": null,
+        "NOTES": []
+    },
+    "cui": {
+        "name": null,
+        "NOTES": []
+    },
+    "cuj": {
+        "name": null,
+        "NOTES": []
+    },
+    "cuk": {
+        "name": null,
+        "NOTES": []
+    },
+    "cul": {
+        "name": null,
+        "NOTES": []
+    },
+    "cuo": {
+        "name": null,
+        "NOTES": []
+    },
+    "cup": {
+        "name": null,
+        "NOTES": []
+    },
+    "cuq": {
+        "name": null,
+        "NOTES": []
+    },
+    "cur": {
+        "name": null,
+        "NOTES": []
+    },
+    "cut": {
+        "name": null,
+        "NOTES": []
+    },
+    "cuu": {
+        "name": null,
+        "NOTES": []
+    },
+    "cuv": {
+        "name": null,
+        "NOTES": []
+    },
+    "cuw": {
+        "name": null,
+        "NOTES": []
+    },
+    "cux": {
+        "name": null,
+        "NOTES": []
+    },
+    "cuy": {
+        "name": null,
+        "NOTES": []
+    },
+    "cvg": {
+        "name": null,
+        "NOTES": []
+    },
+    "cvn": {
+        "name": null,
+        "NOTES": []
+    },
+    "cwa": {
+        "name": null,
+        "NOTES": []
+    },
+    "cwb": {
+        "name": null,
+        "NOTES": []
+    },
+    "cwd": {
+        "name": null,
+        "NOTES": []
+    },
+    "cwe": {
+        "name": null,
+        "NOTES": []
+    },
+    "cwg": {
+        "name": null,
+        "NOTES": []
+    },
+    "cwt": {
+        "name": null,
+        "NOTES": []
+    },
+    "cxh": {
+        "name": null,
+        "NOTES": []
+    },
+    "cya": {
+        "name": null,
+        "NOTES": []
+    },
+    "cyb": {
+        "name": null,
+        "NOTES": []
+    },
+    "cym": {
+        "name": "Gallese",
+        "NOTES": []
+    },
+    "cyo": {
+        "name": null,
+        "NOTES": []
+    },
+    "czh": {
+        "name": null,
+        "NOTES": []
+    },
+    "czk": {
+        "name": null,
+        "NOTES": []
+    },
+    "czn": {
+        "name": null,
+        "NOTES": []
+    },
+    "czo": {
+        "name": null,
+        "NOTES": []
+    },
+    "czt": {
+        "name": null,
+        "NOTES": []
+    },
+    "daa": {
+        "name": null,
+        "NOTES": []
+    },
+    "dac": {
+        "name": null,
+        "NOTES": []
+    },
+    "dad": {
+        "name": null,
+        "NOTES": []
+    },
+    "dae": {
+        "name": null,
+        "NOTES": []
+    },
+    "dag": {
+        "name": null,
+        "NOTES": []
+    },
+    "dah": {
+        "name": null,
+        "NOTES": []
+    },
+    "dai": {
+        "name": null,
+        "NOTES": []
+    },
+    "daj": {
+        "name": null,
+        "NOTES": []
+    },
+    "dak": {
+        "name": null,
+        "NOTES": []
+    },
+    "dal": {
+        "name": null,
+        "NOTES": []
+    },
+    "dam": {
+        "name": null,
+        "NOTES": []
+    },
+    "dan": {
+        "name": "Danese",
+        "NOTES": []
+    },
+    "dao": {
+        "name": null,
+        "NOTES": []
+    },
+    "daq": {
+        "name": null,
+        "NOTES": []
+    },
+    "dar": {
+        "name": null,
+        "NOTES": []
+    },
+    "das": {
+        "name": null,
+        "NOTES": []
+    },
+    "dau": {
+        "name": null,
+        "NOTES": []
+    },
+    "dav": {
+        "name": "Taita",
+        "NOTES": []
+    },
+    "daw": {
+        "name": null,
+        "NOTES": []
+    },
+    "dax": {
+        "name": null,
+        "NOTES": []
+    },
+    "daz": {
+        "name": null,
+        "NOTES": []
+    },
+    "dba": {
+        "name": null,
+        "NOTES": []
+    },
+    "dbb": {
+        "name": null,
+        "NOTES": []
+    },
+    "dbd": {
+        "name": null,
+        "NOTES": []
+    },
+    "dbe": {
+        "name": null,
+        "NOTES": []
+    },
+    "dbf": {
+        "name": null,
+        "NOTES": []
+    },
+    "dbg": {
+        "name": null,
+        "NOTES": []
+    },
+    "dbi": {
+        "name": null,
+        "NOTES": []
+    },
+    "dbj": {
+        "name": null,
+        "NOTES": []
+    },
+    "dbl": {
+        "name": null,
+        "NOTES": []
+    },
+    "dbm": {
+        "name": null,
+        "NOTES": []
+    },
+    "dbn": {
+        "name": null,
+        "NOTES": []
+    },
+    "dbo": {
+        "name": null,
+        "NOTES": []
+    },
+    "dbp": {
+        "name": null,
+        "NOTES": []
+    },
+    "dbq": {
+        "name": null,
+        "NOTES": []
+    },
+    "dbr": {
+        "name": null,
+        "NOTES": []
+    },
+    "dbt": {
+        "name": null,
+        "NOTES": []
+    },
+    "dbu": {
+        "name": null,
+        "NOTES": []
+    },
+    "dbv": {
+        "name": null,
+        "NOTES": []
+    },
+    "dbw": {
+        "name": null,
+        "NOTES": []
+    },
+    "dby": {
+        "name": null,
+        "NOTES": []
+    },
+    "dcc": {
+        "name": null,
+        "NOTES": []
+    },
+    "dcr": {
+        "name": null,
+        "NOTES": []
+    },
+    "dda": {
+        "name": null,
+        "NOTES": []
+    },
+    "ddd": {
+        "name": null,
+        "NOTES": []
+    },
+    "dde": {
+        "name": null,
+        "NOTES": []
+    },
+    "ddg": {
+        "name": null,
+        "NOTES": []
+    },
+    "ddi": {
+        "name": null,
+        "NOTES": []
+    },
+    "ddj": {
+        "name": null,
+        "NOTES": []
+    },
+    "ddn": {
+        "name": null,
+        "NOTES": []
+    },
+    "ddo": {
+        "name": null,
+        "NOTES": []
+    },
+    "ddr": {
+        "name": null,
+        "NOTES": []
+    },
+    "dds": {
+        "name": null,
+        "NOTES": []
+    },
+    "ddw": {
+        "name": null,
+        "NOTES": []
+    },
+    "dec": {
+        "name": null,
+        "NOTES": []
+    },
+    "ded": {
+        "name": null,
+        "NOTES": []
+    },
+    "dee": {
+        "name": null,
+        "NOTES": []
+    },
+    "def": {
+        "name": null,
+        "NOTES": []
+    },
+    "deg": {
+        "name": null,
+        "NOTES": []
+    },
+    "deh": {
+        "name": null,
+        "NOTES": []
+    },
+    "dei": {
+        "name": null,
+        "NOTES": []
+    },
+    "del": {
+        "name": null,
+        "NOTES": []
+    },
+    "dem": {
+        "name": null,
+        "NOTES": []
+    },
+    "den": {
+        "name": null,
+        "NOTES": []
+    },
+    "dep": {
+        "name": null,
+        "NOTES": []
+    },
+    "deq": {
+        "name": null,
+        "NOTES": []
+    },
+    "der": {
+        "name": null,
+        "NOTES": []
+    },
+    "des": {
+        "name": null,
+        "NOTES": []
+    },
+    "deu": {
+        "name": "Tedesco",
+        "NOTES": []
+    },
+    "dev": {
+        "name": null,
+        "NOTES": []
+    },
+    "dez": {
+        "name": null,
+        "NOTES": []
+    },
+    "dga": {
+        "name": null,
+        "NOTES": []
+    },
+    "dgb": {
+        "name": null,
+        "NOTES": []
+    },
+    "dgc": {
+        "name": null,
+        "NOTES": []
+    },
+    "dgd": {
+        "name": null,
+        "NOTES": []
+    },
+    "dge": {
+        "name": null,
+        "NOTES": []
+    },
+    "dgg": {
+        "name": null,
+        "NOTES": []
+    },
+    "dgh": {
+        "name": null,
+        "NOTES": []
+    },
+    "dgi": {
+        "name": null,
+        "NOTES": []
+    },
+    "dgk": {
+        "name": null,
+        "NOTES": []
+    },
+    "dgl": {
+        "name": null,
+        "NOTES": []
+    },
+    "dgn": {
+        "name": null,
+        "NOTES": []
+    },
+    "dgo": {
+        "name": null,
+        "NOTES": []
+    },
+    "dgr": {
+        "name": null,
+        "NOTES": []
+    },
+    "dgs": {
+        "name": null,
+        "NOTES": []
+    },
+    "dgt": {
+        "name": null,
+        "NOTES": []
+    },
+    "dgw": {
+        "name": null,
+        "NOTES": []
+    },
+    "dgx": {
+        "name": null,
+        "NOTES": []
+    },
+    "dgz": {
+        "name": null,
+        "NOTES": []
+    },
+    "dhd": {
+        "name": null,
+        "NOTES": []
+    },
+    "dhg": {
+        "name": null,
+        "NOTES": []
+    },
+    "dhi": {
+        "name": null,
+        "NOTES": []
+    },
+    "dhl": {
+        "name": null,
+        "NOTES": []
+    },
+    "dhm": {
+        "name": null,
+        "NOTES": []
+    },
+    "dhn": {
+        "name": null,
+        "NOTES": []
+    },
+    "dho": {
+        "name": null,
+        "NOTES": []
+    },
+    "dhr": {
+        "name": null,
+        "NOTES": []
+    },
+    "dhs": {
+        "name": null,
+        "NOTES": []
+    },
+    "dhu": {
+        "name": null,
+        "NOTES": []
+    },
+    "dhv": {
+        "name": null,
+        "NOTES": []
+    },
+    "dhw": {
+        "name": null,
+        "NOTES": []
+    },
+    "dhx": {
+        "name": null,
+        "NOTES": []
+    },
+    "dia": {
+        "name": null,
+        "NOTES": []
+    },
+    "dib": {
+        "name": null,
+        "NOTES": []
+    },
+    "dic": {
+        "name": null,
+        "NOTES": []
+    },
+    "did": {
+        "name": null,
+        "NOTES": []
+    },
+    "dif": {
+        "name": null,
+        "NOTES": []
+    },
+    "dig": {
+        "name": null,
+        "NOTES": []
+    },
+    "dih": {
+        "name": null,
+        "NOTES": []
+    },
+    "dii": {
+        "name": null,
+        "NOTES": []
+    },
+    "dij": {
+        "name": null,
+        "NOTES": []
+    },
+    "dik": {
+        "name": null,
+        "NOTES": []
+    },
+    "dil": {
+        "name": null,
+        "NOTES": []
+    },
+    "dim": {
+        "name": null,
+        "NOTES": []
+    },
+    "din": {
+        "name": null,
+        "NOTES": []
+    },
+    "dio": {
+        "name": null,
+        "NOTES": []
+    },
+    "dip": {
+        "name": null,
+        "NOTES": []
+    },
+    "diq": {
+        "name": null,
+        "NOTES": []
+    },
+    "dir": {
+        "name": null,
+        "NOTES": []
+    },
+    "dis": {
+        "name": null,
+        "NOTES": []
+    },
+    "diu": {
+        "name": null,
+        "NOTES": []
+    },
+    "div": {
+        "name": "Maldiviano",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_maldiviana"
+        ]
+    },
+    "diw": {
+        "name": null,
+        "NOTES": []
+    },
+    "dix": {
+        "name": null,
+        "NOTES": []
+    },
+    "diy": {
+        "name": null,
+        "NOTES": []
+    },
+    "diz": {
+        "name": null,
+        "NOTES": []
+    },
+    "dja": {
+        "name": null,
+        "NOTES": []
+    },
+    "djb": {
+        "name": null,
+        "NOTES": []
+    },
+    "djc": {
+        "name": null,
+        "NOTES": []
+    },
+    "djd": {
+        "name": null,
+        "NOTES": []
+    },
+    "dje": {
+        "name": "Zarma",
+        "NOTES": []
+    },
+    "djf": {
+        "name": null,
+        "NOTES": []
+    },
+    "dji": {
+        "name": null,
+        "NOTES": []
+    },
+    "djj": {
+        "name": null,
+        "NOTES": []
+    },
+    "djk": {
+        "name": null,
+        "NOTES": []
+    },
+    "djm": {
+        "name": null,
+        "NOTES": []
+    },
+    "djn": {
+        "name": null,
+        "NOTES": []
+    },
+    "djo": {
+        "name": null,
+        "NOTES": []
+    },
+    "djr": {
+        "name": null,
+        "NOTES": []
+    },
+    "dju": {
+        "name": null,
+        "NOTES": []
+    },
+    "djw": {
+        "name": null,
+        "NOTES": []
+    },
+    "dka": {
+        "name": null,
+        "NOTES": []
+    },
+    "dkg": {
+        "name": null,
+        "NOTES": []
+    },
+    "dkk": {
+        "name": null,
+        "NOTES": []
+    },
+    "dkr": {
+        "name": null,
+        "NOTES": []
+    },
+    "dks": {
+        "name": null,
+        "NOTES": []
+    },
+    "dkx": {
+        "name": null,
+        "NOTES": []
+    },
+    "dlg": {
+        "name": null,
+        "NOTES": []
+    },
+    "dlk": {
+        "name": null,
+        "NOTES": []
+    },
+    "dlm": {
+        "name": null,
+        "NOTES": []
+    },
+    "dln": {
+        "name": null,
+        "NOTES": []
+    },
+    "dma": {
+        "name": null,
+        "NOTES": []
+    },
+    "dmb": {
+        "name": null,
+        "NOTES": []
+    },
+    "dmc": {
+        "name": null,
+        "NOTES": []
+    },
+    "dmd": {
+        "name": null,
+        "NOTES": []
+    },
+    "dme": {
+        "name": null,
+        "NOTES": []
+    },
+    "dmf": {
+        "name": null,
+        "NOTES": []
+    },
+    "dmg": {
+        "name": null,
+        "NOTES": []
+    },
+    "dmk": {
+        "name": null,
+        "NOTES": []
+    },
+    "dml": {
+        "name": null,
+        "NOTES": []
+    },
+    "dmm": {
+        "name": null,
+        "NOTES": []
+    },
+    "dmo": {
+        "name": null,
+        "NOTES": []
+    },
+    "dmr": {
+        "name": null,
+        "NOTES": []
+    },
+    "dms": {
+        "name": null,
+        "NOTES": []
+    },
+    "dmu": {
+        "name": null,
+        "NOTES": []
+    },
+    "dmv": {
+        "name": null,
+        "NOTES": []
+    },
+    "dmw": {
+        "name": null,
+        "NOTES": []
+    },
+    "dmx": {
+        "name": null,
+        "NOTES": []
+    },
+    "dmy": {
+        "name": null,
+        "NOTES": []
+    },
+    "dna": {
+        "name": null,
+        "NOTES": []
+    },
+    "dnd": {
+        "name": null,
+        "NOTES": []
+    },
+    "dne": {
+        "name": null,
+        "NOTES": []
+    },
+    "dng": {
+        "name": null,
+        "NOTES": []
+    },
+    "dni": {
+        "name": null,
+        "NOTES": []
+    },
+    "dnj": {
+        "name": null,
+        "NOTES": []
+    },
+    "dnk": {
+        "name": null,
+        "NOTES": []
+    },
+    "dnn": {
+        "name": null,
+        "NOTES": []
+    },
+    "dno": {
+        "name": null,
+        "NOTES": []
+    },
+    "dnr": {
+        "name": null,
+        "NOTES": []
+    },
+    "dnt": {
+        "name": null,
+        "NOTES": []
+    },
+    "dnu": {
+        "name": null,
+        "NOTES": []
+    },
+    "dnv": {
+        "name": null,
+        "NOTES": []
+    },
+    "dnw": {
+        "name": null,
+        "NOTES": []
+    },
+    "dny": {
+        "name": null,
+        "NOTES": []
+    },
+    "doa": {
+        "name": null,
+        "NOTES": []
+    },
+    "dob": {
+        "name": null,
+        "NOTES": []
+    },
+    "doc": {
+        "name": null,
+        "NOTES": []
+    },
+    "doe": {
+        "name": null,
+        "NOTES": []
+    },
+    "dof": {
+        "name": null,
+        "NOTES": []
+    },
+    "doh": {
+        "name": null,
+        "NOTES": []
+    },
+    "doi": {
+        "name": null,
+        "NOTES": []
+    },
+    "dok": {
+        "name": null,
+        "NOTES": []
+    },
+    "dol": {
+        "name": null,
+        "NOTES": []
+    },
+    "don": {
+        "name": null,
+        "NOTES": []
+    },
+    "doo": {
+        "name": null,
+        "NOTES": []
+    },
+    "dop": {
+        "name": null,
+        "NOTES": []
+    },
+    "doq": {
+        "name": null,
+        "NOTES": []
+    },
+    "dor": {
+        "name": null,
+        "NOTES": []
+    },
+    "dos": {
+        "name": null,
+        "NOTES": []
+    },
+    "dot": {
+        "name": null,
+        "NOTES": []
+    },
+    "dov": {
+        "name": null,
+        "NOTES": []
+    },
+    "dow": {
+        "name": null,
+        "NOTES": []
+    },
+    "dox": {
+        "name": null,
+        "NOTES": []
+    },
+    "doy": {
+        "name": null,
+        "NOTES": []
+    },
+    "doz": {
+        "name": null,
+        "NOTES": []
+    },
+    "dpp": {
+        "name": null,
+        "NOTES": []
+    },
+    "drb": {
+        "name": null,
+        "NOTES": []
+    },
+    "drc": {
+        "name": null,
+        "NOTES": []
+    },
+    "drd": {
+        "name": null,
+        "NOTES": []
+    },
+    "dre": {
+        "name": null,
+        "NOTES": []
+    },
+    "drg": {
+        "name": null,
+        "NOTES": []
+    },
+    "dri": {
+        "name": null,
+        "NOTES": []
+    },
+    "drl": {
+        "name": null,
+        "NOTES": []
+    },
+    "drn": {
+        "name": null,
+        "NOTES": []
+    },
+    "dro": {
+        "name": null,
+        "NOTES": []
+    },
+    "drq": {
+        "name": null,
+        "NOTES": []
+    },
+    "drs": {
+        "name": null,
+        "NOTES": []
+    },
+    "drt": {
+        "name": null,
+        "NOTES": []
+    },
+    "dru": {
+        "name": null,
+        "NOTES": []
+    },
+    "dry": {
+        "name": null,
+        "NOTES": []
+    },
+    "dsb": {
+        "name": "Sòrabo inferiore, Basso sòrabo,  Lusaziano inferiore",
+        "NOTES": [
+            "https://www.treccani.it/vocabolario/sorabo/?search=s%C3%B2rabo%2F",
+            "https://it.wikipedia.org/wiki/Lingua_soraba_inferiore"
+        ]
+    },
+    "dse": {
+        "name": null,
+        "NOTES": []
+    },
+    "dsh": {
+        "name": null,
+        "NOTES": []
+    },
+    "dsi": {
+        "name": null,
+        "NOTES": []
+    },
+    "dsk": {
+        "name": null,
+        "NOTES": []
+    },
+    "dsl": {
+        "name": null,
+        "NOTES": []
+    },
+    "dsn": {
+        "name": null,
+        "NOTES": []
+    },
+    "dso": {
+        "name": null,
+        "NOTES": []
+    },
+    "dsq": {
+        "name": null,
+        "NOTES": []
+    },
+    "dsz": {
+        "name": null,
+        "NOTES": []
+    },
+    "dta": {
+        "name": null,
+        "NOTES": []
+    },
+    "dtb": {
+        "name": null,
+        "NOTES": []
+    },
+    "dtd": {
+        "name": null,
+        "NOTES": []
+    },
+    "dth": {
+        "name": null,
+        "NOTES": []
+    },
+    "dti": {
+        "name": null,
+        "NOTES": []
+    },
+    "dtk": {
+        "name": null,
+        "NOTES": []
+    },
+    "dtm": {
+        "name": null,
+        "NOTES": []
+    },
+    "dtn": {
+        "name": null,
+        "NOTES": []
+    },
+    "dto": {
+        "name": null,
+        "NOTES": []
+    },
+    "dtp": {
+        "name": null,
+        "NOTES": []
+    },
+    "dtr": {
+        "name": null,
+        "NOTES": []
+    },
+    "dts": {
+        "name": null,
+        "NOTES": []
+    },
+    "dtt": {
+        "name": null,
+        "NOTES": []
+    },
+    "dtu": {
+        "name": null,
+        "NOTES": []
+    },
+    "dty": {
+        "name": null,
+        "NOTES": []
+    },
+    "dua": {
+        "name": "Douala",
+        "NOTES": []
+    },
+    "dub": {
+        "name": null,
+        "NOTES": []
+    },
+    "duc": {
+        "name": null,
+        "NOTES": []
+    },
+    "due": {
+        "name": null,
+        "NOTES": []
+    },
+    "duf": {
+        "name": null,
+        "NOTES": []
+    },
+    "dug": {
+        "name": null,
+        "NOTES": []
+    },
+    "duh": {
+        "name": null,
+        "NOTES": []
+    },
+    "dui": {
+        "name": null,
+        "NOTES": []
+    },
+    "duk": {
+        "name": null,
+        "NOTES": []
+    },
+    "dul": {
+        "name": null,
+        "NOTES": []
+    },
+    "dum": {
+        "name": null,
+        "NOTES": []
+    },
+    "dun": {
+        "name": null,
+        "NOTES": []
+    },
+    "duo": {
+        "name": null,
+        "NOTES": []
+    },
+    "dup": {
+        "name": null,
+        "NOTES": []
+    },
+    "duq": {
+        "name": null,
+        "NOTES": []
+    },
+    "dur": {
+        "name": null,
+        "NOTES": []
+    },
+    "dus": {
+        "name": null,
+        "NOTES": []
+    },
+    "duu": {
+        "name": null,
+        "NOTES": []
+    },
+    "duv": {
+        "name": null,
+        "NOTES": []
+    },
+    "duw": {
+        "name": null,
+        "NOTES": []
+    },
+    "dux": {
+        "name": null,
+        "NOTES": []
+    },
+    "duy": {
+        "name": null,
+        "NOTES": []
+    },
+    "duz": {
+        "name": null,
+        "NOTES": []
+    },
+    "dva": {
+        "name": null,
+        "NOTES": []
+    },
+    "dwa": {
+        "name": null,
+        "NOTES": []
+    },
+    "dwk": {
+        "name": null,
+        "NOTES": []
+    },
+    "dwr": {
+        "name": null,
+        "NOTES": []
+    },
+    "dws": {
+        "name": null,
+        "NOTES": []
+    },
+    "dwu": {
+        "name": null,
+        "NOTES": []
+    },
+    "dww": {
+        "name": null,
+        "NOTES": []
+    },
+    "dwy": {
+        "name": null,
+        "NOTES": []
+    },
+    "dwz": {
+        "name": null,
+        "NOTES": []
+    },
+    "dya": {
+        "name": null,
+        "NOTES": []
+    },
+    "dyb": {
+        "name": null,
+        "NOTES": []
+    },
+    "dyd": {
+        "name": null,
+        "NOTES": []
+    },
+    "dyg": {
+        "name": null,
+        "NOTES": []
+    },
+    "dyi": {
+        "name": null,
+        "NOTES": []
+    },
+    "dym": {
+        "name": null,
+        "NOTES": []
+    },
+    "dyn": {
+        "name": null,
+        "NOTES": []
+    },
+    "dyo": {
+        "name": "Jola-Fonyi",
+        "NOTES": []
+    },
+    "dyr": {
+        "name": null,
+        "NOTES": []
+    },
+    "dyu": {
+        "name": null,
+        "NOTES": []
+    },
+    "dyy": {
+        "name": null,
+        "NOTES": []
+    },
+    "dza": {
+        "name": null,
+        "NOTES": []
+    },
+    "dzd": {
+        "name": null,
+        "NOTES": []
+    },
+    "dze": {
+        "name": null,
+        "NOTES": []
+    },
+    "dzg": {
+        "name": null,
+        "NOTES": []
+    },
+    "dzl": {
+        "name": null,
+        "NOTES": []
+    },
+    "dzn": {
+        "name": null,
+        "NOTES": []
+    },
+    "dzo": {
+        "name": "Dzongkha",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_dzongkha"
+        ]
+    },
+    "eaa": {
+        "name": null,
+        "NOTES": []
+    },
+    "ebc": {
+        "name": null,
+        "NOTES": []
+    },
+    "ebg": {
+        "name": null,
+        "NOTES": []
+    },
+    "ebk": {
+        "name": null,
+        "NOTES": []
+    },
+    "ebo": {
+        "name": null,
+        "NOTES": []
+    },
+    "ebr": {
+        "name": null,
+        "NOTES": []
+    },
+    "ebu": {
+        "name": "Embu, Kîembu",
+        "NOTES": []
+    },
+    "ecr": {
+        "name": null,
+        "NOTES": []
+    },
+    "ecs": {
+        "name": null,
+        "NOTES": []
+    },
+    "ecy": {
+        "name": null,
+        "NOTES": []
+    },
+    "eee": {
+        "name": null,
+        "NOTES": []
+    },
+    "efa": {
+        "name": null,
+        "NOTES": []
+    },
+    "efe": {
+        "name": null,
+        "NOTES": []
+    },
+    "efi": {
+        "name": null,
+        "NOTES": []
+    },
+    "ega": {
+        "name": null,
+        "NOTES": []
+    },
+    "egl": {
+        "name": null,
+        "NOTES": []
+    },
+    "egm": {
+        "name": null,
+        "NOTES": []
+    },
+    "ego": {
+        "name": null,
+        "NOTES": []
+    },
+    "egy": {
+        "name": null,
+        "NOTES": []
+    },
+    "ehs": {
+        "name": null,
+        "NOTES": []
+    },
+    "ehu": {
+        "name": null,
+        "NOTES": []
+    },
+    "eip": {
+        "name": null,
+        "NOTES": []
+    },
+    "eit": {
+        "name": null,
+        "NOTES": []
+    },
+    "eiv": {
+        "name": null,
+        "NOTES": []
+    },
+    "eja": {
+        "name": null,
+        "NOTES": []
+    },
+    "eka": {
+        "name": null,
+        "NOTES": []
+    },
+    "eke": {
+        "name": null,
+        "NOTES": []
+    },
+    "ekg": {
+        "name": null,
+        "NOTES": []
+    },
+    "eki": {
+        "name": null,
+        "NOTES": []
+    },
+    "ekk": {
+        "name": null,
+        "NOTES": []
+    },
+    "ekl": {
+        "name": null,
+        "NOTES": []
+    },
+    "ekm": {
+        "name": null,
+        "NOTES": []
+    },
+    "eko": {
+        "name": null,
+        "NOTES": []
+    },
+    "ekp": {
+        "name": null,
+        "NOTES": []
+    },
+    "ekr": {
+        "name": null,
+        "NOTES": []
+    },
+    "eky": {
+        "name": null,
+        "NOTES": []
+    },
+    "ele": {
+        "name": null,
+        "NOTES": []
+    },
+    "elh": {
+        "name": null,
+        "NOTES": []
+    },
+    "eli": {
+        "name": null,
+        "NOTES": []
+    },
+    "elk": {
+        "name": null,
+        "NOTES": []
+    },
+    "ell": {
+        "name": "Greco",
+        "NOTES": []
+    },
+    "elm": {
+        "name": null,
+        "NOTES": []
+    },
+    "elo": {
+        "name": null,
+        "NOTES": []
+    },
+    "elu": {
+        "name": null,
+        "NOTES": []
+    },
+    "elx": {
+        "name": null,
+        "NOTES": []
+    },
+    "ema": {
+        "name": null,
+        "NOTES": []
+    },
+    "emb": {
+        "name": null,
+        "NOTES": []
+    },
+    "eme": {
+        "name": null,
+        "NOTES": []
+    },
+    "emg": {
+        "name": null,
+        "NOTES": []
+    },
+    "emi": {
+        "name": null,
+        "NOTES": []
+    },
+    "emk": {
+        "name": null,
+        "NOTES": []
+    },
+    "emm": {
+        "name": null,
+        "NOTES": []
+    },
+    "emn": {
+        "name": null,
+        "NOTES": []
+    },
+    "emp": {
+        "name": null,
+        "NOTES": []
+    },
+    "emq": {
+        "name": null,
+        "NOTES": []
+    },
+    "ems": {
+        "name": null,
+        "NOTES": []
+    },
+    "emu": {
+        "name": null,
+        "NOTES": []
+    },
+    "emw": {
+        "name": null,
+        "NOTES": []
+    },
+    "emx": {
+        "name": null,
+        "NOTES": []
+    },
+    "emy": {
+        "name": null,
+        "NOTES": []
+    },
+    "emz": {
+        "name": null,
+        "NOTES": []
+    },
+    "ena": {
+        "name": null,
+        "NOTES": []
+    },
+    "enb": {
+        "name": "Markweeta, Markwet",
+        "NOTES": [
+            "Direct reference not found"
+        ]
+    },
+    "enc": {
+        "name": null,
+        "NOTES": []
+    },
+    "end": {
+        "name": null,
+        "NOTES": []
+    },
+    "enf": {
+        "name": null,
+        "NOTES": []
+    },
+    "eng": {
+        "name": "Inglese",
+        "NOTES": []
+    },
+    "enh": {
+        "name": null,
+        "NOTES": []
+    },
+    "enl": {
+        "name": null,
+        "NOTES": []
+    },
+    "enm": {
+        "name": null,
+        "NOTES": []
+    },
+    "enn": {
+        "name": null,
+        "NOTES": []
+    },
+    "eno": {
+        "name": null,
+        "NOTES": []
+    },
+    "enq": {
+        "name": null,
+        "NOTES": []
+    },
+    "enr": {
+        "name": null,
+        "NOTES": []
+    },
+    "enu": {
+        "name": null,
+        "NOTES": []
+    },
+    "env": {
+        "name": null,
+        "NOTES": []
+    },
+    "enw": {
+        "name": null,
+        "NOTES": []
+    },
+    "enx": {
+        "name": null,
+        "NOTES": []
+    },
+    "eot": {
+        "name": null,
+        "NOTES": []
+    },
+    "epi": {
+        "name": null,
+        "NOTES": []
+    },
+    "epo": {
+        "name": "Esperanto",
+        "NOTES": []
+    },
+    "era": {
+        "name": null,
+        "NOTES": []
+    },
+    "erg": {
+        "name": null,
+        "NOTES": []
+    },
+    "erh": {
+        "name": null,
+        "NOTES": []
+    },
+    "eri": {
+        "name": null,
+        "NOTES": []
+    },
+    "erk": {
+        "name": null,
+        "NOTES": []
+    },
+    "ero": {
+        "name": null,
+        "NOTES": []
+    },
+    "err": {
+        "name": null,
+        "NOTES": []
+    },
+    "ers": {
+        "name": null,
+        "NOTES": []
+    },
+    "ert": {
+        "name": null,
+        "NOTES": []
+    },
+    "erw": {
+        "name": null,
+        "NOTES": []
+    },
+    "ese": {
+        "name": null,
+        "NOTES": []
+    },
+    "esg": {
+        "name": null,
+        "NOTES": []
+    },
+    "esh": {
+        "name": null,
+        "NOTES": []
+    },
+    "esi": {
+        "name": "Inupiaq del Nord Alaska",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_inupiaq"
+        ]
+    },
+    "esk": {
+        "name": "Inupiaq dell'Alaska nord-ovest",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_inupiaq"
+        ]
+    },
+    "esl": {
+        "name": null,
+        "NOTES": []
+    },
+    "esm": {
+        "name": null,
+        "NOTES": []
+    },
+    "esn": {
+        "name": null,
+        "NOTES": []
+    },
+    "eso": {
+        "name": null,
+        "NOTES": []
+    },
+    "esq": {
+        "name": null,
+        "NOTES": []
+    },
+    "ess": {
+        "name": null,
+        "NOTES": []
+    },
+    "est": {
+        "name": "Estone",
+        "NOTES": []
+    },
+    "esu": {
+        "name": null,
+        "NOTES": []
+    },
+    "esy": {
+        "name": null,
+        "NOTES": []
+    },
+    "etb": {
+        "name": null,
+        "NOTES": []
+    },
+    "etc": {
+        "name": null,
+        "NOTES": []
+    },
+    "eth": {
+        "name": null,
+        "NOTES": []
+    },
+    "etn": {
+        "name": null,
+        "NOTES": []
+    },
+    "eto": {
+        "name": null,
+        "NOTES": []
+    },
+    "etr": {
+        "name": null,
+        "NOTES": []
+    },
+    "ets": {
+        "name": null,
+        "NOTES": []
+    },
+    "ett": {
+        "name": null,
+        "NOTES": []
+    },
+    "etu": {
+        "name": null,
+        "NOTES": []
+    },
+    "etx": {
+        "name": null,
+        "NOTES": []
+    },
+    "etz": {
+        "name": null,
+        "NOTES": []
+    },
+    "eud": {
+        "name": null,
+        "NOTES": []
+    },
+    "eus": {
+        "name": "Basco",
+        "NOTES": []
+    },
+    "eve": {
+        "name": null,
+        "NOTES": []
+    },
+    "evh": {
+        "name": null,
+        "NOTES": []
+    },
+    "evn": {
+        "name": null,
+        "NOTES": []
+    },
+    "ewe": {
+        "name": "Ewe",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_ewe",
+            "https://www.treccani.it/enciclopedia/ewe/?search=Ewe%2F"
+        ]
+    },
+    "ewo": {
+        "name": "Ewondo, Kolo",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_ewondo"
+        ]
+    },
+    "ext": {
+        "name": null,
+        "NOTES": []
+    },
+    "eya": {
+        "name": null,
+        "NOTES": []
+    },
+    "eyo": {
+        "name": "Keiyo, Elgeyo",
+        "NOTES": [
+            "Direct reference not found"
+        ]
+    },
+    "eza": {
+        "name": null,
+        "NOTES": []
+    },
+    "eze": {
+        "name": null,
+        "NOTES": []
+    },
+    "faa": {
+        "name": null,
+        "NOTES": []
+    },
+    "fab": {
+        "name": null,
+        "NOTES": []
+    },
+    "fad": {
+        "name": null,
+        "NOTES": []
+    },
+    "faf": {
+        "name": null,
+        "NOTES": []
+    },
+    "fag": {
+        "name": null,
+        "NOTES": []
+    },
+    "fah": {
+        "name": null,
+        "NOTES": []
+    },
+    "fai": {
+        "name": null,
+        "NOTES": []
+    },
+    "faj": {
+        "name": null,
+        "NOTES": []
+    },
+    "fak": {
+        "name": null,
+        "NOTES": []
+    },
+    "fal": {
+        "name": null,
+        "NOTES": []
+    },
+    "fam": {
+        "name": null,
+        "NOTES": []
+    },
+    "fan": {
+        "name": null,
+        "NOTES": []
+    },
+    "fao": {
+        "name": "Faroese",
+        "NOTES": []
+    },
+    "fap": {
+        "name": null,
+        "NOTES": []
+    },
+    "far": {
+        "name": null,
+        "NOTES": []
+    },
+    "fas": {
+        "name": "Persiano",
+        "NOTES": []
+    },
+    "fat": {
+        "name": null,
+        "NOTES": []
+    },
+    "fau": {
+        "name": null,
+        "NOTES": []
+    },
+    "fax": {
+        "name": null,
+        "NOTES": []
+    },
+    "fay": {
+        "name": null,
+        "NOTES": []
+    },
+    "faz": {
+        "name": null,
+        "NOTES": []
+    },
+    "fbl": {
+        "name": null,
+        "NOTES": []
+    },
+    "fcs": {
+        "name": null,
+        "NOTES": []
+    },
+    "fer": {
+        "name": null,
+        "NOTES": []
+    },
+    "ffi": {
+        "name": null,
+        "NOTES": []
+    },
+    "ffm": {
+        "name": "Fulfulde maasina",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_fula"
+        ]
+    },
+    "fgr": {
+        "name": null,
+        "NOTES": []
+    },
+    "fia": {
+        "name": null,
+        "NOTES": []
+    },
+    "fie": {
+        "name": null,
+        "NOTES": []
+    },
+    "fif": {
+        "name": null,
+        "NOTES": []
+    },
+    "fij": {
+        "name": "Figiano",
+        "NOTES": []
+    },
+    "fil": {
+        "name": "Filippino",
+        "NOTES": []
+    },
+    "fin": {
+        "name": "Finlandese",
+        "NOTES": []
+    },
+    "fip": {
+        "name": null,
+        "NOTES": []
+    },
+    "fir": {
+        "name": null,
+        "NOTES": []
+    },
+    "fit": {
+        "name": null,
+        "NOTES": []
+    },
+    "fiw": {
+        "name": null,
+        "NOTES": []
+    },
+    "fkk": {
+        "name": null,
+        "NOTES": []
+    },
+    "fkv": {
+        "name": null,
+        "NOTES": []
+    },
+    "fla": {
+        "name": null,
+        "NOTES": []
+    },
+    "flh": {
+        "name": null,
+        "NOTES": []
+    },
+    "fli": {
+        "name": null,
+        "NOTES": []
+    },
+    "fll": {
+        "name": null,
+        "NOTES": []
+    },
+    "fln": {
+        "name": null,
+        "NOTES": []
+    },
+    "flr": {
+        "name": null,
+        "NOTES": []
+    },
+    "fly": {
+        "name": null,
+        "NOTES": []
+    },
+    "fmp": {
+        "name": null,
+        "NOTES": []
+    },
+    "fmu": {
+        "name": null,
+        "NOTES": []
+    },
+    "fnb": {
+        "name": null,
+        "NOTES": []
+    },
+    "fng": {
+        "name": null,
+        "NOTES": []
+    },
+    "fni": {
+        "name": null,
+        "NOTES": []
+    },
+    "fod": {
+        "name": null,
+        "NOTES": []
+    },
+    "foi": {
+        "name": null,
+        "NOTES": []
+    },
+    "fom": {
+        "name": null,
+        "NOTES": []
+    },
+    "fon": {
+        "name": null,
+        "NOTES": []
+    },
+    "for": {
+        "name": null,
+        "NOTES": []
+    },
+    "fos": {
+        "name": null,
+        "NOTES": []
+    },
+    "fpe": {
+        "name": null,
+        "NOTES": []
+    },
+    "fqs": {
+        "name": null,
+        "NOTES": []
+    },
+    "fra": {
+        "name": "Francese",
+        "NOTES": []
+    },
+    "frc": {
+        "name": null,
+        "NOTES": []
+    },
+    "frd": {
+        "name": null,
+        "NOTES": []
+    },
+    "frk": {
+        "name": null,
+        "NOTES": []
+    },
+    "frm": {
+        "name": null,
+        "NOTES": []
+    },
+    "fro": {
+        "name": null,
+        "NOTES": []
+    },
+    "frp": {
+        "name": null,
+        "NOTES": []
+    },
+    "frq": {
+        "name": null,
+        "NOTES": []
+    },
+    "frr": {
+        "name": null,
+        "NOTES": []
+    },
+    "frs": {
+        "name": null,
+        "NOTES": []
+    },
+    "frt": {
+        "name": null,
+        "NOTES": []
+    },
+    "fry": {
+        "name": "Frisone occidentale",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_frisone_occidentale"
+        ]
+    },
+    "fse": {
+        "name": null,
+        "NOTES": []
+    },
+    "fsl": {
+        "name": null,
+        "NOTES": []
+    },
+    "fss": {
+        "name": null,
+        "NOTES": []
+    },
+    "fub": {
+        "name": "Fulfulde adamawa",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_fula"
+        ]
+    },
+    "fuc": {
+        "name": "Pulaar",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_pulaar"
+        ]
+    },
+    "fud": {
+        "name": null,
+        "NOTES": []
+    },
+    "fue": {
+        "name": "Fulfulde borgu",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_fula"
+        ]
+    },
+    "fuf": {
+        "name": "Pular",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_fula"
+        ]
+    },
+    "fuh": {
+        "name": "fulfulde del Niger occidentale",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_fula"
+        ]
+    },
+    "fui": {
+        "name": "Fulfulde bagirmi",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_fula"
+        ]
+    },
+    "fuj": {
+        "name": null,
+        "NOTES": []
+    },
+    "ful": {
+        "name": "Fula, Fulani, Fulfulde",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_fula"
+        ]
+    },
+    "fum": {
+        "name": null,
+        "NOTES": []
+    },
+    "fun": {
+        "name": null,
+        "NOTES": []
+    },
+    "fuq": {
+        "name": "Fulfulde del Niger centro-orientale",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_fula"
+        ]
+    },
+    "fur": {
+        "name": "Friulano",
+        "NOTES": []
+    },
+    "fut": {
+        "name": null,
+        "NOTES": []
+    },
+    "fuu": {
+        "name": null,
+        "NOTES": []
+    },
+    "fuv": {
+        "name": "Fulfulde nigeriana",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_fula"
+        ]
+    },
+    "fuy": {
+        "name": null,
+        "NOTES": []
+    },
+    "fvr": {
+        "name": null,
+        "NOTES": []
+    },
+    "fwa": {
+        "name": null,
+        "NOTES": []
+    },
+    "fwe": {
+        "name": null,
+        "NOTES": []
+    },
+    "gaa": {
+        "name": null,
+        "NOTES": []
+    },
+    "gab": {
+        "name": null,
+        "NOTES": []
+    },
+    "gac": {
+        "name": null,
+        "NOTES": []
+    },
+    "gad": {
+        "name": null,
+        "NOTES": []
+    },
+    "gae": {
+        "name": null,
+        "NOTES": []
+    },
+    "gaf": {
+        "name": null,
+        "NOTES": []
+    },
+    "gag": {
+        "name": null,
+        "NOTES": []
+    },
+    "gah": {
+        "name": null,
+        "NOTES": []
+    },
+    "gai": {
+        "name": null,
+        "NOTES": []
+    },
+    "gaj": {
+        "name": null,
+        "NOTES": []
+    },
+    "gak": {
+        "name": null,
+        "NOTES": []
+    },
+    "gal": {
+        "name": null,
+        "NOTES": []
+    },
+    "gam": {
+        "name": null,
+        "NOTES": []
+    },
+    "gan": {
+        "name": null,
+        "NOTES": []
+    },
+    "gao": {
+        "name": null,
+        "NOTES": []
+    },
+    "gap": {
+        "name": null,
+        "NOTES": []
+    },
+    "gaq": {
+        "name": null,
+        "NOTES": []
+    },
+    "gar": {
+        "name": null,
+        "NOTES": []
+    },
+    "gas": {
+        "name": null,
+        "NOTES": []
+    },
+    "gat": {
+        "name": null,
+        "NOTES": []
+    },
+    "gau": {
+        "name": null,
+        "NOTES": []
+    },
+    "gaw": {
+        "name": null,
+        "NOTES": []
+    },
+    "gax": {
+        "name": null,
+        "NOTES": []
+    },
+    "gay": {
+        "name": null,
+        "NOTES": []
+    },
+    "gaz": {
+        "name": null,
+        "NOTES": []
+    },
+    "gba": {
+        "name": null,
+        "NOTES": []
+    },
+    "gbb": {
+        "name": null,
+        "NOTES": []
+    },
+    "gbd": {
+        "name": null,
+        "NOTES": []
+    },
+    "gbe": {
+        "name": null,
+        "NOTES": []
+    },
+    "gbf": {
+        "name": null,
+        "NOTES": []
+    },
+    "gbg": {
+        "name": null,
+        "NOTES": []
+    },
+    "gbh": {
+        "name": null,
+        "NOTES": []
+    },
+    "gbi": {
+        "name": null,
+        "NOTES": []
+    },
+    "gbj": {
+        "name": null,
+        "NOTES": []
+    },
+    "gbk": {
+        "name": null,
+        "NOTES": []
+    },
+    "gbl": {
+        "name": null,
+        "NOTES": []
+    },
+    "gbm": {
+        "name": null,
+        "NOTES": []
+    },
+    "gbn": {
+        "name": null,
+        "NOTES": []
+    },
+    "gbo": {
+        "name": null,
+        "NOTES": []
+    },
+    "gbp": {
+        "name": null,
+        "NOTES": []
+    },
+    "gbq": {
+        "name": null,
+        "NOTES": []
+    },
+    "gbr": {
+        "name": null,
+        "NOTES": []
+    },
+    "gbs": {
+        "name": null,
+        "NOTES": []
+    },
+    "gbu": {
+        "name": null,
+        "NOTES": []
+    },
+    "gbv": {
+        "name": null,
+        "NOTES": []
+    },
+    "gbw": {
+        "name": null,
+        "NOTES": []
+    },
+    "gbx": {
+        "name": null,
+        "NOTES": []
+    },
+    "gby": {
+        "name": null,
+        "NOTES": []
+    },
+    "gbz": {
+        "name": null,
+        "NOTES": []
+    },
+    "gcc": {
+        "name": null,
+        "NOTES": []
+    },
+    "gcd": {
+        "name": null,
+        "NOTES": []
+    },
+    "gce": {
+        "name": null,
+        "NOTES": []
+    },
+    "gcf": {
+        "name": null,
+        "NOTES": []
+    },
+    "gcl": {
+        "name": null,
+        "NOTES": []
+    },
+    "gcn": {
+        "name": null,
+        "NOTES": []
+    },
+    "gcr": {
+        "name": null,
+        "NOTES": []
+    },
+    "gct": {
+        "name": null,
+        "NOTES": []
+    },
+    "gda": {
+        "name": null,
+        "NOTES": []
+    },
+    "gdb": {
+        "name": null,
+        "NOTES": []
+    },
+    "gdc": {
+        "name": null,
+        "NOTES": []
+    },
+    "gdd": {
+        "name": null,
+        "NOTES": []
+    },
+    "gde": {
+        "name": null,
+        "NOTES": []
+    },
+    "gdf": {
+        "name": null,
+        "NOTES": []
+    },
+    "gdg": {
+        "name": null,
+        "NOTES": []
+    },
+    "gdh": {
+        "name": null,
+        "NOTES": []
+    },
+    "gdi": {
+        "name": null,
+        "NOTES": []
+    },
+    "gdj": {
+        "name": null,
+        "NOTES": []
+    },
+    "gdk": {
+        "name": null,
+        "NOTES": []
+    },
+    "gdl": {
+        "name": null,
+        "NOTES": []
+    },
+    "gdm": {
+        "name": null,
+        "NOTES": []
+    },
+    "gdn": {
+        "name": null,
+        "NOTES": []
+    },
+    "gdo": {
+        "name": null,
+        "NOTES": []
+    },
+    "gdq": {
+        "name": null,
+        "NOTES": []
+    },
+    "gdr": {
+        "name": null,
+        "NOTES": []
+    },
+    "gds": {
+        "name": null,
+        "NOTES": []
+    },
+    "gdt": {
+        "name": null,
+        "NOTES": []
+    },
+    "gdu": {
+        "name": null,
+        "NOTES": []
+    },
+    "gdx": {
+        "name": null,
+        "NOTES": []
+    },
+    "gea": {
+        "name": null,
+        "NOTES": []
+    },
+    "geb": {
+        "name": null,
+        "NOTES": []
+    },
+    "gec": {
+        "name": null,
+        "NOTES": []
+    },
+    "ged": {
+        "name": null,
+        "NOTES": []
+    },
+    "gef": {
+        "name": null,
+        "NOTES": []
+    },
+    "geg": {
+        "name": null,
+        "NOTES": []
+    },
+    "geh": {
+        "name": null,
+        "NOTES": []
+    },
+    "gei": {
+        "name": null,
+        "NOTES": []
+    },
+    "gej": {
+        "name": null,
+        "NOTES": []
+    },
+    "gek": {
+        "name": null,
+        "NOTES": []
+    },
+    "gel": {
+        "name": null,
+        "NOTES": []
+    },
+    "geq": {
+        "name": null,
+        "NOTES": []
+    },
+    "ges": {
+        "name": null,
+        "NOTES": []
+    },
+    "gev": {
+        "name": null,
+        "NOTES": []
+    },
+    "gew": {
+        "name": null,
+        "NOTES": []
+    },
+    "gex": {
+        "name": null,
+        "NOTES": []
+    },
+    "gey": {
+        "name": null,
+        "NOTES": []
+    },
+    "gez": {
+        "name": null,
+        "NOTES": []
+    },
+    "gfk": {
+        "name": null,
+        "NOTES": []
+    },
+    "gft": {
+        "name": null,
+        "NOTES": []
+    },
+    "gga": {
+        "name": null,
+        "NOTES": []
+    },
+    "ggb": {
+        "name": null,
+        "NOTES": []
+    },
+    "ggd": {
+        "name": null,
+        "NOTES": []
+    },
+    "gge": {
+        "name": null,
+        "NOTES": []
+    },
+    "ggg": {
+        "name": null,
+        "NOTES": []
+    },
+    "ggk": {
+        "name": null,
+        "NOTES": []
+    },
+    "ggl": {
+        "name": null,
+        "NOTES": []
+    },
+    "ggt": {
+        "name": null,
+        "NOTES": []
+    },
+    "ggu": {
+        "name": null,
+        "NOTES": []
+    },
+    "ggw": {
+        "name": null,
+        "NOTES": []
+    },
+    "gha": {
+        "name": null,
+        "NOTES": []
+    },
+    "ghc": {
+        "name": null,
+        "NOTES": []
+    },
+    "ghe": {
+        "name": null,
+        "NOTES": []
+    },
+    "ghh": {
+        "name": null,
+        "NOTES": []
+    },
+    "ghk": {
+        "name": null,
+        "NOTES": []
+    },
+    "ghl": {
+        "name": null,
+        "NOTES": []
+    },
+    "ghn": {
+        "name": null,
+        "NOTES": []
+    },
+    "gho": {
+        "name": null,
+        "NOTES": []
+    },
+    "ghr": {
+        "name": null,
+        "NOTES": []
+    },
+    "ghs": {
+        "name": null,
+        "NOTES": []
+    },
+    "ght": {
+        "name": null,
+        "NOTES": []
+    },
+    "gia": {
+        "name": null,
+        "NOTES": []
+    },
+    "gib": {
+        "name": null,
+        "NOTES": []
+    },
+    "gic": {
+        "name": null,
+        "NOTES": []
+    },
+    "gid": {
+        "name": null,
+        "NOTES": []
+    },
+    "gie": {
+        "name": null,
+        "NOTES": []
+    },
+    "gig": {
+        "name": null,
+        "NOTES": []
+    },
+    "gih": {
+        "name": null,
+        "NOTES": []
+    },
+    "gii": {
+        "name": null,
+        "NOTES": []
+    },
+    "gil": {
+        "name": "Gilbertese",
+        "NOTES": []
+    },
+    "gim": {
+        "name": null,
+        "NOTES": []
+    },
+    "gin": {
+        "name": null,
+        "NOTES": []
+    },
+    "gip": {
+        "name": null,
+        "NOTES": []
+    },
+    "giq": {
+        "name": null,
+        "NOTES": []
+    },
+    "gir": {
+        "name": null,
+        "NOTES": []
+    },
+    "gis": {
+        "name": null,
+        "NOTES": []
+    },
+    "git": {
+        "name": null,
+        "NOTES": []
+    },
+    "giu": {
+        "name": null,
+        "NOTES": []
+    },
+    "giw": {
+        "name": null,
+        "NOTES": []
+    },
+    "gix": {
+        "name": null,
+        "NOTES": []
+    },
+    "giy": {
+        "name": null,
+        "NOTES": []
+    },
+    "giz": {
+        "name": null,
+        "NOTES": []
+    },
+    "gjk": {
+        "name": null,
+        "NOTES": []
+    },
+    "gjm": {
+        "name": null,
+        "NOTES": []
+    },
+    "gjn": {
+        "name": null,
+        "NOTES": []
+    },
+    "gjr": {
+        "name": null,
+        "NOTES": []
+    },
+    "gju": {
+        "name": null,
+        "NOTES": []
+    },
+    "gka": {
+        "name": null,
+        "NOTES": []
+    },
+    "gkd": {
+        "name": null,
+        "NOTES": []
+    },
+    "gke": {
+        "name": null,
+        "NOTES": []
+    },
+    "gkn": {
+        "name": null,
+        "NOTES": []
+    },
+    "gko": {
+        "name": null,
+        "NOTES": []
+    },
+    "gkp": {
+        "name": null,
+        "NOTES": []
+    },
+    "gku": {
+        "name": null,
+        "NOTES": []
+    },
+    "gla": {
+        "name": "Gaelico scozzese",
+        "NOTES": []
+    },
+    "glb": {
+        "name": null,
+        "NOTES": []
+    },
+    "glc": {
+        "name": null,
+        "NOTES": []
+    },
+    "gld": {
+        "name": null,
+        "NOTES": []
+    },
+    "gle": {
+        "name": "Irlandese",
+        "NOTES": []
+    },
+    "glg": {
+        "name": "Gallègo",
+        "NOTES": [
+            "https://www.treccani.it/enciclopedia/gallego/?search=gall%C3%A8go%2F"
+        ]
+    },
+    "glh": {
+        "name": null,
+        "NOTES": []
+    },
+    "glj": {
+        "name": null,
+        "NOTES": []
+    },
+    "glk": {
+        "name": null,
+        "NOTES": []
+    },
+    "gll": {
+        "name": null,
+        "NOTES": []
+    },
+    "glo": {
+        "name": null,
+        "NOTES": []
+    },
+    "glr": {
+        "name": null,
+        "NOTES": []
+    },
+    "glu": {
+        "name": null,
+        "NOTES": []
+    },
+    "glv": {
+        "name": "Mannése, Gaelico mannése",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_mannese",
+            "https://www.treccani.it/vocabolario/mannese/?search=mann%C3%A9se%2F"
+        ]
+    },
+    "glw": {
+        "name": null,
+        "NOTES": []
+    },
+    "gly": {
+        "name": null,
+        "NOTES": []
+    },
+    "gma": {
+        "name": null,
+        "NOTES": []
+    },
+    "gmb": {
+        "name": null,
+        "NOTES": []
+    },
+    "gmd": {
+        "name": null,
+        "NOTES": []
+    },
+    "gmg": {
+        "name": null,
+        "NOTES": []
+    },
+    "gmh": {
+        "name": null,
+        "NOTES": []
+    },
+    "gml": {
+        "name": null,
+        "NOTES": []
+    },
+    "gmm": {
+        "name": null,
+        "NOTES": []
+    },
+    "gmn": {
+        "name": null,
+        "NOTES": []
+    },
+    "gmr": {
+        "name": null,
+        "NOTES": []
+    },
+    "gmu": {
+        "name": null,
+        "NOTES": []
+    },
+    "gmv": {
+        "name": null,
+        "NOTES": []
+    },
+    "gmx": {
+        "name": null,
+        "NOTES": []
+    },
+    "gmy": {
+        "name": null,
+        "NOTES": []
+    },
+    "gmz": {
+        "name": null,
+        "NOTES": []
+    },
+    "gna": {
+        "name": null,
+        "NOTES": []
+    },
+    "gnb": {
+        "name": null,
+        "NOTES": []
+    },
+    "gnc": {
+        "name": null,
+        "NOTES": []
+    },
+    "gnd": {
+        "name": null,
+        "NOTES": []
+    },
+    "gne": {
+        "name": null,
+        "NOTES": []
+    },
+    "gng": {
+        "name": null,
+        "NOTES": []
+    },
+    "gnh": {
+        "name": null,
+        "NOTES": []
+    },
+    "gni": {
+        "name": null,
+        "NOTES": []
+    },
+    "gnj": {
+        "name": null,
+        "NOTES": []
+    },
+    "gnk": {
+        "name": null,
+        "NOTES": []
+    },
+    "gnl": {
+        "name": null,
+        "NOTES": []
+    },
+    "gnm": {
+        "name": null,
+        "NOTES": []
+    },
+    "gnn": {
+        "name": null,
+        "NOTES": []
+    },
+    "gno": {
+        "name": null,
+        "NOTES": []
+    },
+    "gnq": {
+        "name": null,
+        "NOTES": []
+    },
+    "gnr": {
+        "name": null,
+        "NOTES": []
+    },
+    "gnt": {
+        "name": null,
+        "NOTES": []
+    },
+    "gnu": {
+        "name": null,
+        "NOTES": []
+    },
+    "gnw": {
+        "name": null,
+        "NOTES": []
+    },
+    "gnz": {
+        "name": null,
+        "NOTES": []
+    },
+    "goa": {
+        "name": null,
+        "NOTES": []
+    },
+    "gob": {
+        "name": null,
+        "NOTES": []
+    },
+    "goc": {
+        "name": null,
+        "NOTES": []
+    },
+    "god": {
+        "name": null,
+        "NOTES": []
+    },
+    "goe": {
+        "name": null,
+        "NOTES": []
+    },
+    "gof": {
+        "name": null,
+        "NOTES": []
+    },
+    "gog": {
+        "name": null,
+        "NOTES": []
+    },
+    "goh": {
+        "name": null,
+        "NOTES": []
+    },
+    "goi": {
+        "name": null,
+        "NOTES": []
+    },
+    "goj": {
+        "name": null,
+        "NOTES": []
+    },
+    "gok": {
+        "name": null,
+        "NOTES": []
+    },
+    "gol": {
+        "name": null,
+        "NOTES": []
+    },
+    "gom": {
+        "name": null,
+        "NOTES": []
+    },
+    "gon": {
+        "name": null,
+        "NOTES": []
+    },
+    "goo": {
+        "name": null,
+        "NOTES": []
+    },
+    "gop": {
+        "name": null,
+        "NOTES": []
+    },
+    "goq": {
+        "name": null,
+        "NOTES": []
+    },
+    "gor": {
+        "name": null,
+        "NOTES": []
+    },
+    "gos": {
+        "name": null,
+        "NOTES": []
+    },
+    "got": {
+        "name": null,
+        "NOTES": []
+    },
+    "gou": {
+        "name": null,
+        "NOTES": []
+    },
+    "gov": {
+        "name": null,
+        "NOTES": []
+    },
+    "gow": {
+        "name": null,
+        "NOTES": []
+    },
+    "gox": {
+        "name": null,
+        "NOTES": []
+    },
+    "goy": {
+        "name": null,
+        "NOTES": []
+    },
+    "goz": {
+        "name": null,
+        "NOTES": []
+    },
+    "gpa": {
+        "name": null,
+        "NOTES": []
+    },
+    "gpe": {
+        "name": null,
+        "NOTES": []
+    },
+    "gpn": {
+        "name": null,
+        "NOTES": []
+    },
+    "gqa": {
+        "name": null,
+        "NOTES": []
+    },
+    "gqi": {
+        "name": null,
+        "NOTES": []
+    },
+    "gqn": {
+        "name": null,
+        "NOTES": []
+    },
+    "gqr": {
+        "name": null,
+        "NOTES": []
+    },
+    "gqu": {
+        "name": null,
+        "NOTES": []
+    },
+    "gra": {
+        "name": null,
+        "NOTES": []
+    },
+    "grb": {
+        "name": null,
+        "NOTES": []
+    },
+    "grc": {
+        "name": null,
+        "NOTES": []
+    },
+    "grd": {
+        "name": null,
+        "NOTES": []
+    },
+    "grg": {
+        "name": null,
+        "NOTES": []
+    },
+    "grh": {
+        "name": null,
+        "NOTES": []
+    },
+    "gri": {
+        "name": null,
+        "NOTES": []
+    },
+    "grj": {
+        "name": null,
+        "NOTES": []
+    },
+    "grm": {
+        "name": null,
+        "NOTES": []
+    },
+    "grn": {
+        "name": "Guaraní",
+        "NOTES": [
+            "https://www.treccani.it/vocabolario/guarani/?search=guarani%2F"
+        ]
+    },
+    "gro": {
+        "name": null,
+        "NOTES": []
+    },
+    "grq": {
+        "name": null,
+        "NOTES": []
+    },
+    "grr": {
+        "name": null,
+        "NOTES": []
+    },
+    "grs": {
+        "name": null,
+        "NOTES": []
+    },
+    "grt": {
+        "name": null,
+        "NOTES": []
+    },
+    "gru": {
+        "name": null,
+        "NOTES": []
+    },
+    "grv": {
+        "name": null,
+        "NOTES": []
+    },
+    "grw": {
+        "name": null,
+        "NOTES": []
+    },
+    "grx": {
+        "name": null,
+        "NOTES": []
+    },
+    "gry": {
+        "name": null,
+        "NOTES": []
+    },
+    "grz": {
+        "name": null,
+        "NOTES": []
+    },
+    "gse": {
+        "name": null,
+        "NOTES": []
+    },
+    "gsg": {
+        "name": null,
+        "NOTES": []
+    },
+    "gsl": {
+        "name": null,
+        "NOTES": []
+    },
+    "gsm": {
+        "name": null,
+        "NOTES": []
+    },
+    "gsn": {
+        "name": null,
+        "NOTES": []
+    },
+    "gso": {
+        "name": null,
+        "NOTES": []
+    },
+    "gsp": {
+        "name": null,
+        "NOTES": []
+    },
+    "gss": {
+        "name": null,
+        "NOTES": []
+    },
+    "gsw": {
+        "name": "Svizzero Tedesco",
+        "NOTES": []
+    },
+    "gta": {
+        "name": null,
+        "NOTES": []
+    },
+    "gtu": {
+        "name": null,
+        "NOTES": []
+    },
+    "gua": {
+        "name": null,
+        "NOTES": []
+    },
+    "gub": {
+        "name": null,
+        "NOTES": []
+    },
+    "guc": {
+        "name": null,
+        "NOTES": []
+    },
+    "gud": {
+        "name": null,
+        "NOTES": []
+    },
+    "gue": {
+        "name": null,
+        "NOTES": []
+    },
+    "guf": {
+        "name": null,
+        "NOTES": []
+    },
+    "gug": {
+        "name": null,
+        "NOTES": []
+    },
+    "guh": {
+        "name": null,
+        "NOTES": []
+    },
+    "gui": {
+        "name": null,
+        "NOTES": []
+    },
+    "guj": {
+        "name": "Gujarati",
+        "NOTES": [
+            "https://www.treccani.it/vocabolario/gujarati/?search=gujar%C4%81t%C4%AB%2F"
+        ]
+    },
+    "guk": {
+        "name": null,
+        "NOTES": []
+    },
+    "gul": {
+        "name": null,
+        "NOTES": []
+    },
+    "gum": {
+        "name": null,
+        "NOTES": []
+    },
+    "gun": {
+        "name": null,
+        "NOTES": []
+    },
+    "guo": {
+        "name": null,
+        "NOTES": []
+    },
+    "gup": {
+        "name": null,
+        "NOTES": []
+    },
+    "guq": {
+        "name": null,
+        "NOTES": []
+    },
+    "gur": {
+        "name": null,
+        "NOTES": []
+    },
+    "gus": {
+        "name": null,
+        "NOTES": []
+    },
+    "gut": {
+        "name": null,
+        "NOTES": []
+    },
+    "guu": {
+        "name": null,
+        "NOTES": []
+    },
+    "guw": {
+        "name": null,
+        "NOTES": []
+    },
+    "gux": {
+        "name": null,
+        "NOTES": []
+    },
+    "guz": {
+        "name": "Gusii, Ekegusii",
+        "NOTES": []
+    },
+    "gva": {
+        "name": null,
+        "NOTES": []
+    },
+    "gvc": {
+        "name": null,
+        "NOTES": []
+    },
+    "gve": {
+        "name": null,
+        "NOTES": []
+    },
+    "gvf": {
+        "name": null,
+        "NOTES": []
+    },
+    "gvj": {
+        "name": null,
+        "NOTES": []
+    },
+    "gvl": {
+        "name": null,
+        "NOTES": []
+    },
+    "gvm": {
+        "name": null,
+        "NOTES": []
+    },
+    "gvn": {
+        "name": null,
+        "NOTES": []
+    },
+    "gvo": {
+        "name": null,
+        "NOTES": []
+    },
+    "gvp": {
+        "name": null,
+        "NOTES": []
+    },
+    "gvr": {
+        "name": null,
+        "NOTES": []
+    },
+    "gvs": {
+        "name": null,
+        "NOTES": []
+    },
+    "gvy": {
+        "name": null,
+        "NOTES": []
+    },
+    "gwa": {
+        "name": null,
+        "NOTES": []
+    },
+    "gwb": {
+        "name": null,
+        "NOTES": []
+    },
+    "gwc": {
+        "name": null,
+        "NOTES": []
+    },
+    "gwd": {
+        "name": null,
+        "NOTES": []
+    },
+    "gwe": {
+        "name": null,
+        "NOTES": []
+    },
+    "gwf": {
+        "name": null,
+        "NOTES": []
+    },
+    "gwg": {
+        "name": null,
+        "NOTES": []
+    },
+    "gwi": {
+        "name": null,
+        "NOTES": []
+    },
+    "gwj": {
+        "name": null,
+        "NOTES": []
+    },
+    "gwm": {
+        "name": null,
+        "NOTES": []
+    },
+    "gwn": {
+        "name": null,
+        "NOTES": []
+    },
+    "gwr": {
+        "name": null,
+        "NOTES": []
+    },
+    "gwt": {
+        "name": null,
+        "NOTES": []
+    },
+    "gwu": {
+        "name": null,
+        "NOTES": []
+    },
+    "gww": {
+        "name": null,
+        "NOTES": []
+    },
+    "gwx": {
+        "name": null,
+        "NOTES": []
+    },
+    "gxx": {
+        "name": null,
+        "NOTES": []
+    },
+    "gya": {
+        "name": null,
+        "NOTES": []
+    },
+    "gyb": {
+        "name": null,
+        "NOTES": []
+    },
+    "gyd": {
+        "name": null,
+        "NOTES": []
+    },
+    "gye": {
+        "name": null,
+        "NOTES": []
+    },
+    "gyf": {
+        "name": null,
+        "NOTES": []
+    },
+    "gyg": {
+        "name": null,
+        "NOTES": []
+    },
+    "gyi": {
+        "name": null,
+        "NOTES": []
+    },
+    "gyl": {
+        "name": null,
+        "NOTES": []
+    },
+    "gym": {
+        "name": null,
+        "NOTES": []
+    },
+    "gyn": {
+        "name": null,
+        "NOTES": []
+    },
+    "gyo": {
+        "name": null,
+        "NOTES": []
+    },
+    "gyr": {
+        "name": null,
+        "NOTES": []
+    },
+    "gyy": {
+        "name": null,
+        "NOTES": []
+    },
+    "gyz": {
+        "name": null,
+        "NOTES": []
+    },
+    "gza": {
+        "name": null,
+        "NOTES": []
+    },
+    "gzi": {
+        "name": null,
+        "NOTES": []
+    },
+    "gzn": {
+        "name": null,
+        "NOTES": []
+    },
+    "haa": {
+        "name": null,
+        "NOTES": []
+    },
+    "hab": {
+        "name": null,
+        "NOTES": []
+    },
+    "hac": {
+        "name": null,
+        "NOTES": []
+    },
+    "had": {
+        "name": null,
+        "NOTES": []
+    },
+    "hae": {
+        "name": null,
+        "NOTES": []
+    },
+    "haf": {
+        "name": null,
+        "NOTES": []
+    },
+    "hag": {
+        "name": null,
+        "NOTES": []
+    },
+    "hah": {
+        "name": null,
+        "NOTES": []
+    },
+    "hai": {
+        "name": null,
+        "NOTES": []
+    },
+    "haj": {
+        "name": null,
+        "NOTES": []
+    },
+    "hak": {
+        "name": null,
+        "NOTES": []
+    },
+    "hal": {
+        "name": null,
+        "NOTES": []
+    },
+    "ham": {
+        "name": null,
+        "NOTES": []
+    },
+    "han": {
+        "name": null,
+        "NOTES": []
+    },
+    "hao": {
+        "name": null,
+        "NOTES": []
+    },
+    "hap": {
+        "name": null,
+        "NOTES": []
+    },
+    "haq": {
+        "name": null,
+        "NOTES": []
+    },
+    "har": {
+        "name": null,
+        "NOTES": []
+    },
+    "has": {
+        "name": null,
+        "NOTES": []
+    },
+    "hat": {
+        "name": "Haitiano",
+        "NOTES": []
+    },
+    "hau": {
+        "name": "Hausa",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_hausa"
+        ]
+    },
+    "hav": {
+        "name": null,
+        "NOTES": []
+    },
+    "haw": {
+        "name": "Hawaiano",
+        "NOTES": []
+    },
+    "hax": {
+        "name": null,
+        "NOTES": []
+    },
+    "hay": {
+        "name": null,
+        "NOTES": []
+    },
+    "haz": {
+        "name": null,
+        "NOTES": []
+    },
+    "hba": {
+        "name": null,
+        "NOTES": []
+    },
+    "hbb": {
+        "name": null,
+        "NOTES": []
+    },
+    "hbn": {
+        "name": null,
+        "NOTES": []
+    },
+    "hbo": {
+        "name": null,
+        "NOTES": []
+    },
+    "hbs": {
+        "name": null,
+        "NOTES": []
+    },
+    "hbu": {
+        "name": null,
+        "NOTES": []
+    },
+    "hca": {
+        "name": null,
+        "NOTES": []
+    },
+    "hch": {
+        "name": null,
+        "NOTES": []
+    },
+    "hdn": {
+        "name": null,
+        "NOTES": []
+    },
+    "hds": {
+        "name": null,
+        "NOTES": []
+    },
+    "hdy": {
+        "name": null,
+        "NOTES": []
+    },
+    "hea": {
+        "name": null,
+        "NOTES": []
+    },
+    "heb": {
+        "name": "Ebraico",
+        "NOTES": []
+    },
+    "hed": {
+        "name": null,
+        "NOTES": []
+    },
+    "heg": {
+        "name": null,
+        "NOTES": []
+    },
+    "heh": {
+        "name": null,
+        "NOTES": []
+    },
+    "hei": {
+        "name": null,
+        "NOTES": []
+    },
+    "hem": {
+        "name": null,
+        "NOTES": []
+    },
+    "her": {
+        "name": "Herero, Otjiherero",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_herero"
+        ]
+    },
+    "hgm": {
+        "name": null,
+        "NOTES": []
+    },
+    "hgw": {
+        "name": null,
+        "NOTES": []
+    },
+    "hhi": {
+        "name": null,
+        "NOTES": []
+    },
+    "hhr": {
+        "name": null,
+        "NOTES": []
+    },
+    "hhy": {
+        "name": null,
+        "NOTES": []
+    },
+    "hia": {
+        "name": null,
+        "NOTES": []
+    },
+    "hib": {
+        "name": null,
+        "NOTES": []
+    },
+    "hid": {
+        "name": null,
+        "NOTES": []
+    },
+    "hif": {
+        "name": "Hindi delle Fiji",
+        "NOTES": []
+    },
+    "hig": {
+        "name": null,
+        "NOTES": []
+    },
+    "hih": {
+        "name": null,
+        "NOTES": []
+    },
+    "hii": {
+        "name": null,
+        "NOTES": []
+    },
+    "hij": {
+        "name": null,
+        "NOTES": []
+    },
+    "hik": {
+        "name": null,
+        "NOTES": []
+    },
+    "hil": {
+        "name": null,
+        "NOTES": []
+    },
+    "hin": {
+        "name": "Hindi",
+        "NOTES": []
+    },
+    "hio": {
+        "name": "Tsoa, Tshwa",
+        "NOTES": []
+    },
+    "hir": {
+        "name": null,
+        "NOTES": []
+    },
+    "hit": {
+        "name": null,
+        "NOTES": []
+    },
+    "hiw": {
+        "name": null,
+        "NOTES": []
+    },
+    "hix": {
+        "name": null,
+        "NOTES": []
+    },
+    "hji": {
+        "name": null,
+        "NOTES": []
+    },
+    "hka": {
+        "name": null,
+        "NOTES": []
+    },
+    "hke": {
+        "name": null,
+        "NOTES": []
+    },
+    "hkh": {
+        "name": null,
+        "NOTES": []
+    },
+    "hkk": {
+        "name": null,
+        "NOTES": []
+    },
+    "hkn": {
+        "name": null,
+        "NOTES": []
+    },
+    "hks": {
+        "name": null,
+        "NOTES": []
+    },
+    "hla": {
+        "name": null,
+        "NOTES": []
+    },
+    "hlb": {
+        "name": null,
+        "NOTES": []
+    },
+    "hld": {
+        "name": null,
+        "NOTES": []
+    },
+    "hle": {
+        "name": null,
+        "NOTES": []
+    },
+    "hlt": {
+        "name": null,
+        "NOTES": []
+    },
+    "hlu": {
+        "name": null,
+        "NOTES": []
+    },
+    "hma": {
+        "name": null,
+        "NOTES": []
+    },
+    "hmb": {
+        "name": null,
+        "NOTES": []
+    },
+    "hmc": {
+        "name": null,
+        "NOTES": []
+    },
+    "hmd": {
+        "name": null,
+        "NOTES": []
+    },
+    "hme": {
+        "name": null,
+        "NOTES": []
+    },
+    "hmf": {
+        "name": null,
+        "NOTES": []
+    },
+    "hmg": {
+        "name": null,
+        "NOTES": []
+    },
+    "hmh": {
+        "name": null,
+        "NOTES": []
+    },
+    "hmi": {
+        "name": null,
+        "NOTES": []
+    },
+    "hmj": {
+        "name": null,
+        "NOTES": []
+    },
+    "hmk": {
+        "name": null,
+        "NOTES": []
+    },
+    "hml": {
+        "name": null,
+        "NOTES": []
+    },
+    "hmm": {
+        "name": null,
+        "NOTES": []
+    },
+    "hmn": {
+        "name": null,
+        "NOTES": []
+    },
+    "hmo": {
+        "name": "Hiri, Hiri Motu, Police Motu, Pidgin Motu",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_hiri_motu"
+        ]
+    },
+    "hmp": {
+        "name": null,
+        "NOTES": []
+    },
+    "hmq": {
+        "name": null,
+        "NOTES": []
+    },
+    "hmr": {
+        "name": null,
+        "NOTES": []
+    },
+    "hms": {
+        "name": null,
+        "NOTES": []
+    },
+    "hmt": {
+        "name": null,
+        "NOTES": []
+    },
+    "hmu": {
+        "name": null,
+        "NOTES": []
+    },
+    "hmv": {
+        "name": null,
+        "NOTES": []
+    },
+    "hmw": {
+        "name": null,
+        "NOTES": []
+    },
+    "hmy": {
+        "name": null,
+        "NOTES": []
+    },
+    "hmz": {
+        "name": null,
+        "NOTES": []
+    },
+    "hna": {
+        "name": null,
+        "NOTES": []
+    },
+    "hnd": {
+        "name": null,
+        "NOTES": []
+    },
+    "hne": {
+        "name": null,
+        "NOTES": []
+    },
+    "hng": {
+        "name": null,
+        "NOTES": []
+    },
+    "hnh": {
+        "name": null,
+        "NOTES": []
+    },
+    "hni": {
+        "name": null,
+        "NOTES": []
+    },
+    "hnj": {
+        "name": null,
+        "NOTES": []
+    },
+    "hnm": {
+        "name": null,
+        "NOTES": []
+    },
+    "hnn": {
+        "name": null,
+        "NOTES": []
+    },
+    "hno": {
+        "name": null,
+        "NOTES": []
+    },
+    "hns": {
+        "name": null,
+        "NOTES": []
+    },
+    "hnu": {
+        "name": null,
+        "NOTES": []
+    },
+    "hoa": {
+        "name": null,
+        "NOTES": []
+    },
+    "hob": {
+        "name": null,
+        "NOTES": []
+    },
+    "hoc": {
+        "name": null,
+        "NOTES": []
+    },
+    "hod": {
+        "name": null,
+        "NOTES": []
+    },
+    "hoe": {
+        "name": null,
+        "NOTES": []
+    },
+    "hoh": {
+        "name": null,
+        "NOTES": []
+    },
+    "hoi": {
+        "name": null,
+        "NOTES": []
+    },
+    "hoj": {
+        "name": null,
+        "NOTES": []
+    },
+    "hol": {
+        "name": null,
+        "NOTES": []
+    },
+    "hom": {
+        "name": null,
+        "NOTES": []
+    },
+    "hoo": {
+        "name": null,
+        "NOTES": []
+    },
+    "hop": {
+        "name": null,
+        "NOTES": []
+    },
+    "hor": {
+        "name": null,
+        "NOTES": []
+    },
+    "hos": {
+        "name": null,
+        "NOTES": []
+    },
+    "hot": {
+        "name": null,
+        "NOTES": []
+    },
+    "hov": {
+        "name": null,
+        "NOTES": []
+    },
+    "how": {
+        "name": null,
+        "NOTES": []
+    },
+    "hoy": {
+        "name": null,
+        "NOTES": []
+    },
+    "hoz": {
+        "name": null,
+        "NOTES": []
+    },
+    "hpo": {
+        "name": null,
+        "NOTES": []
+    },
+    "hps": {
+        "name": null,
+        "NOTES": []
+    },
+    "hra": {
+        "name": null,
+        "NOTES": []
+    },
+    "hrc": {
+        "name": null,
+        "NOTES": []
+    },
+    "hre": {
+        "name": null,
+        "NOTES": []
+    },
+    "hrk": {
+        "name": null,
+        "NOTES": []
+    },
+    "hrm": {
+        "name": null,
+        "NOTES": []
+    },
+    "hro": {
+        "name": null,
+        "NOTES": []
+    },
+    "hrp": {
+        "name": null,
+        "NOTES": []
+    },
+    "hrt": {
+        "name": null,
+        "NOTES": []
+    },
+    "hru": {
+        "name": null,
+        "NOTES": []
+    },
+    "hrv": {
+        "name": "Croato",
+        "NOTES": []
+    },
+    "hrw": {
+        "name": null,
+        "NOTES": []
+    },
+    "hrx": {
+        "name": null,
+        "NOTES": []
+    },
+    "hrz": {
+        "name": null,
+        "NOTES": []
+    },
+    "hsb": {
+        "name": "Sòrabo superiore, Alto sòrabo, Serbo-lusaziano superiore, Lusaziano superiore",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_soraba_superiore",
+            "https://www.treccani.it/vocabolario/sorabo/?search=s%C3%B2rabo%2F"
+        ]
+    },
+    "hsh": {
+        "name": null,
+        "NOTES": []
+    },
+    "hsl": {
+        "name": null,
+        "NOTES": []
+    },
+    "hsn": {
+        "name": null,
+        "NOTES": []
+    },
+    "hss": {
+        "name": null,
+        "NOTES": []
+    },
+    "hti": {
+        "name": null,
+        "NOTES": []
+    },
+    "hto": {
+        "name": null,
+        "NOTES": []
+    },
+    "hts": {
+        "name": null,
+        "NOTES": []
+    },
+    "htu": {
+        "name": null,
+        "NOTES": []
+    },
+    "htx": {
+        "name": null,
+        "NOTES": []
+    },
+    "hub": {
+        "name": null,
+        "NOTES": []
+    },
+    "huc": {
+        "name": null,
+        "NOTES": []
+    },
+    "hud": {
+        "name": null,
+        "NOTES": []
+    },
+    "hue": {
+        "name": null,
+        "NOTES": []
+    },
+    "huf": {
+        "name": null,
+        "NOTES": []
+    },
+    "hug": {
+        "name": null,
+        "NOTES": []
+    },
+    "huh": {
+        "name": null,
+        "NOTES": []
+    },
+    "hui": {
+        "name": null,
+        "NOTES": []
+    },
+    "huj": {
+        "name": null,
+        "NOTES": []
+    },
+    "huk": {
+        "name": null,
+        "NOTES": []
+    },
+    "hul": {
+        "name": null,
+        "NOTES": []
+    },
+    "hum": {
+        "name": null,
+        "NOTES": []
+    },
+    "hun": {
+        "name": "Ungherese",
+        "NOTES": []
+    },
+    "huo": {
+        "name": null,
+        "NOTES": []
+    },
+    "hup": {
+        "name": null,
+        "NOTES": []
+    },
+    "huq": {
+        "name": null,
+        "NOTES": []
+    },
+    "hur": {
+        "name": null,
+        "NOTES": []
+    },
+    "hus": {
+        "name": null,
+        "NOTES": []
+    },
+    "hut": {
+        "name": null,
+        "NOTES": []
+    },
+    "huu": {
+        "name": null,
+        "NOTES": []
+    },
+    "huv": {
+        "name": null,
+        "NOTES": []
+    },
+    "huw": {
+        "name": null,
+        "NOTES": []
+    },
+    "hux": {
+        "name": null,
+        "NOTES": []
+    },
+    "huy": {
+        "name": null,
+        "NOTES": []
+    },
+    "huz": {
+        "name": null,
+        "NOTES": []
+    },
+    "hvc": {
+        "name": null,
+        "NOTES": []
+    },
+    "hve": {
+        "name": null,
+        "NOTES": []
+    },
+    "hvk": {
+        "name": null,
+        "NOTES": []
+    },
+    "hvn": {
+        "name": null,
+        "NOTES": []
+    },
+    "hvv": {
+        "name": null,
+        "NOTES": []
+    },
+    "hwa": {
+        "name": null,
+        "NOTES": []
+    },
+    "hwc": {
+        "name": null,
+        "NOTES": []
+    },
+    "hwo": {
+        "name": null,
+        "NOTES": []
+    },
+    "hya": {
+        "name": null,
+        "NOTES": []
+    },
+    "hye": {
+        "name": "Armeno",
+        "NOTES": []
+    },
+    "hyw": {
+        "name": null,
+        "NOTES": []
+    },
+    "iai": {
+        "name": null,
+        "NOTES": []
+    },
+    "ian": {
+        "name": null,
+        "NOTES": []
+    },
+    "iar": {
+        "name": null,
+        "NOTES": []
+    },
+    "iba": {
+        "name": null,
+        "NOTES": []
+    },
+    "ibb": {
+        "name": null,
+        "NOTES": []
+    },
+    "ibd": {
+        "name": null,
+        "NOTES": []
+    },
+    "ibe": {
+        "name": null,
+        "NOTES": []
+    },
+    "ibg": {
+        "name": null,
+        "NOTES": []
+    },
+    "ibh": {
+        "name": null,
+        "NOTES": []
+    },
+    "ibl": {
+        "name": null,
+        "NOTES": []
+    },
+    "ibm": {
+        "name": null,
+        "NOTES": []
+    },
+    "ibn": {
+        "name": null,
+        "NOTES": []
+    },
+    "ibo": {
+        "name": "Igbo",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_igbo"
+        ]
+    },
+    "ibr": {
+        "name": null,
+        "NOTES": []
+    },
+    "ibu": {
+        "name": null,
+        "NOTES": []
+    },
+    "iby": {
+        "name": null,
+        "NOTES": []
+    },
+    "ica": {
+        "name": null,
+        "NOTES": []
+    },
+    "ich": {
+        "name": null,
+        "NOTES": []
+    },
+    "icl": {
+        "name": null,
+        "NOTES": []
+    },
+    "icr": {
+        "name": null,
+        "NOTES": []
+    },
+    "ida": {
+        "name": null,
+        "NOTES": []
+    },
+    "idb": {
+        "name": null,
+        "NOTES": []
+    },
+    "idc": {
+        "name": null,
+        "NOTES": []
+    },
+    "idd": {
+        "name": null,
+        "NOTES": []
+    },
+    "ide": {
+        "name": null,
+        "NOTES": []
+    },
+    "idi": {
+        "name": null,
+        "NOTES": []
+    },
+    "ido": {
+        "name": "Ido",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_ido"
+        ]
+    },
+    "idr": {
+        "name": null,
+        "NOTES": []
+    },
+    "ids": {
+        "name": null,
+        "NOTES": []
+    },
+    "idt": {
+        "name": null,
+        "NOTES": []
+    },
+    "idu": {
+        "name": null,
+        "NOTES": []
+    },
+    "ifa": {
+        "name": null,
+        "NOTES": []
+    },
+    "ifb": {
+        "name": null,
+        "NOTES": []
+    },
+    "ife": {
+        "name": null,
+        "NOTES": []
+    },
+    "iff": {
+        "name": null,
+        "NOTES": []
+    },
+    "ifk": {
+        "name": null,
+        "NOTES": []
+    },
+    "ifm": {
+        "name": null,
+        "NOTES": []
+    },
+    "ifu": {
+        "name": null,
+        "NOTES": []
+    },
+    "ify": {
+        "name": null,
+        "NOTES": []
+    },
+    "igb": {
+        "name": null,
+        "NOTES": []
+    },
+    "ige": {
+        "name": null,
+        "NOTES": []
+    },
+    "igg": {
+        "name": null,
+        "NOTES": []
+    },
+    "igl": {
+        "name": null,
+        "NOTES": []
+    },
+    "igm": {
+        "name": null,
+        "NOTES": []
+    },
+    "ign": {
+        "name": null,
+        "NOTES": []
+    },
+    "igo": {
+        "name": null,
+        "NOTES": []
+    },
+    "igs": {
+        "name": null,
+        "NOTES": []
+    },
+    "igw": {
+        "name": null,
+        "NOTES": []
+    },
+    "ihb": {
+        "name": null,
+        "NOTES": []
+    },
+    "ihi": {
+        "name": null,
+        "NOTES": []
+    },
+    "ihp": {
+        "name": null,
+        "NOTES": []
+    },
+    "ihw": {
+        "name": null,
+        "NOTES": []
+    },
+    "iii": {
+        "name": "Sichuan Yi, Nuosu, Nosu",
+        "NOTES": []
+    },
+    "iin": {
+        "name": null,
+        "NOTES": []
+    },
+    "ijc": {
+        "name": null,
+        "NOTES": []
+    },
+    "ije": {
+        "name": null,
+        "NOTES": []
+    },
+    "ijj": {
+        "name": null,
+        "NOTES": []
+    },
+    "ijn": {
+        "name": null,
+        "NOTES": []
+    },
+    "ijs": {
+        "name": null,
+        "NOTES": []
+    },
+    "ike": {
+        "name": "Inuktitut canadese orientale",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_inuktitut"
+        ]
+    },
+    "ikh": {
+        "name": null,
+        "NOTES": []
+    },
+    "iki": {
+        "name": null,
+        "NOTES": []
+    },
+    "ikk": {
+        "name": null,
+        "NOTES": []
+    },
+    "ikl": {
+        "name": null,
+        "NOTES": []
+    },
+    "iko": {
+        "name": null,
+        "NOTES": []
+    },
+    "ikp": {
+        "name": null,
+        "NOTES": []
+    },
+    "ikr": {
+        "name": null,
+        "NOTES": []
+    },
+    "iks": {
+        "name": null,
+        "NOTES": []
+    },
+    "ikt": {
+        "name": "Inuinnaqtun, Inuktitut canadese occidentale",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_inuktitut"
+        ]
+    },
+    "iku": {
+        "name": "Inuktitut",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_inuktitut"
+        ]
+    },
+    "ikv": {
+        "name": null,
+        "NOTES": []
+    },
+    "ikw": {
+        "name": null,
+        "NOTES": []
+    },
+    "ikx": {
+        "name": null,
+        "NOTES": []
+    },
+    "ikz": {
+        "name": null,
+        "NOTES": []
+    },
+    "ila": {
+        "name": null,
+        "NOTES": []
+    },
+    "ilb": {
+        "name": null,
+        "NOTES": []
+    },
+    "ile": {
+        "name": "Interlingue, Occidental",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Occidental"
+        ]
+    },
+    "ilg": {
+        "name": null,
+        "NOTES": []
+    },
+    "ili": {
+        "name": null,
+        "NOTES": []
+    },
+    "ilk": {
+        "name": null,
+        "NOTES": []
+    },
+    "ilm": {
+        "name": null,
+        "NOTES": []
+    },
+    "ilo": {
+        "name": null,
+        "NOTES": []
+    },
+    "ilp": {
+        "name": null,
+        "NOTES": []
+    },
+    "ils": {
+        "name": null,
+        "NOTES": []
+    },
+    "ilu": {
+        "name": null,
+        "NOTES": []
+    },
+    "ilv": {
+        "name": null,
+        "NOTES": []
+    },
+    "ima": {
+        "name": null,
+        "NOTES": []
+    },
+    "imi": {
+        "name": null,
+        "NOTES": []
+    },
+    "iml": {
+        "name": null,
+        "NOTES": []
+    },
+    "imn": {
+        "name": null,
+        "NOTES": []
+    },
+    "imo": {
+        "name": null,
+        "NOTES": []
+    },
+    "imr": {
+        "name": null,
+        "NOTES": []
+    },
+    "ims": {
+        "name": null,
+        "NOTES": []
+    },
+    "imt": {
+        "name": null,
+        "NOTES": []
+    },
+    "imy": {
+        "name": null,
+        "NOTES": []
+    },
+    "ina": {
+        "name": "Interlingua (IALA)",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Interlingua_(IALA)"
+        ]
+    },
+    "inb": {
+        "name": null,
+        "NOTES": []
+    },
+    "ind": {
+        "name": "Indonesiano",
+        "NOTES": []
+    },
+    "ing": {
+        "name": null,
+        "NOTES": []
+    },
+    "inh": {
+        "name": null,
+        "NOTES": []
+    },
+    "inj": {
+        "name": null,
+        "NOTES": []
+    },
+    "inl": {
+        "name": null,
+        "NOTES": []
+    },
+    "inm": {
+        "name": null,
+        "NOTES": []
+    },
+    "inn": {
+        "name": null,
+        "NOTES": []
+    },
+    "ino": {
+        "name": null,
+        "NOTES": []
+    },
+    "inp": {
+        "name": null,
+        "NOTES": []
+    },
+    "ins": {
+        "name": null,
+        "NOTES": []
+    },
+    "int": {
+        "name": null,
+        "NOTES": []
+    },
+    "inz": {
+        "name": null,
+        "NOTES": []
+    },
+    "ior": {
+        "name": null,
+        "NOTES": []
+    },
+    "iou": {
+        "name": null,
+        "NOTES": []
+    },
+    "iow": {
+        "name": null,
+        "NOTES": []
+    },
+    "ipi": {
+        "name": null,
+        "NOTES": []
+    },
+    "ipk": {
+        "name": "Inupiak",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_inupiaq"
+        ]
+    },
+    "ipo": {
+        "name": null,
+        "NOTES": []
+    },
+    "iqu": {
+        "name": null,
+        "NOTES": []
+    },
+    "iqw": {
+        "name": null,
+        "NOTES": []
+    },
+    "ire": {
+        "name": null,
+        "NOTES": []
+    },
+    "irh": {
+        "name": null,
+        "NOTES": []
+    },
+    "iri": {
+        "name": null,
+        "NOTES": []
+    },
+    "irk": {
+        "name": null,
+        "NOTES": []
+    },
+    "irn": {
+        "name": null,
+        "NOTES": []
+    },
+    "irr": {
+        "name": null,
+        "NOTES": []
+    },
+    "iru": {
+        "name": null,
+        "NOTES": []
+    },
+    "irx": {
+        "name": null,
+        "NOTES": []
+    },
+    "iry": {
+        "name": null,
+        "NOTES": []
+    },
+    "isa": {
+        "name": null,
+        "NOTES": []
+    },
+    "isc": {
+        "name": null,
+        "NOTES": []
+    },
+    "isd": {
+        "name": null,
+        "NOTES": []
+    },
+    "ise": {
+        "name": null,
+        "NOTES": []
+    },
+    "isg": {
+        "name": null,
+        "NOTES": []
+    },
+    "ish": {
+        "name": null,
+        "NOTES": []
+    },
+    "isi": {
+        "name": null,
+        "NOTES": []
+    },
+    "isk": {
+        "name": null,
+        "NOTES": []
+    },
+    "isl": {
+        "name": "Islandese",
+        "NOTES": []
+    },
+    "ism": {
+        "name": null,
+        "NOTES": []
+    },
+    "isn": {
+        "name": null,
+        "NOTES": []
+    },
+    "iso": {
+        "name": null,
+        "NOTES": []
+    },
+    "isr": {
+        "name": null,
+        "NOTES": []
+    },
+    "ist": {
+        "name": null,
+        "NOTES": []
+    },
+    "isu": {
+        "name": null,
+        "NOTES": []
+    },
+    "isv": {
+        "name": null,
+        "NOTES": []
+    },
+    "ita": {
+        "name": "Italiano",
+        "NOTES": []
+    },
+    "itb": {
+        "name": null,
+        "NOTES": []
+    },
+    "itd": {
+        "name": null,
+        "NOTES": []
+    },
+    "ite": {
+        "name": null,
+        "NOTES": []
+    },
+    "iti": {
+        "name": null,
+        "NOTES": []
+    },
+    "itk": {
+        "name": null,
+        "NOTES": []
+    },
+    "itl": {
+        "name": null,
+        "NOTES": []
+    },
+    "itm": {
+        "name": null,
+        "NOTES": []
+    },
+    "ito": {
+        "name": null,
+        "NOTES": []
+    },
+    "itr": {
+        "name": null,
+        "NOTES": []
+    },
+    "its": {
+        "name": null,
+        "NOTES": []
+    },
+    "itt": {
+        "name": null,
+        "NOTES": []
+    },
+    "itv": {
+        "name": null,
+        "NOTES": []
+    },
+    "itw": {
+        "name": null,
+        "NOTES": []
+    },
+    "itx": {
+        "name": null,
+        "NOTES": []
+    },
+    "ity": {
+        "name": null,
+        "NOTES": []
+    },
+    "itz": {
+        "name": null,
+        "NOTES": []
+    },
+    "ium": {
+        "name": null,
+        "NOTES": []
+    },
+    "ivb": {
+        "name": null,
+        "NOTES": []
+    },
+    "ivv": {
+        "name": null,
+        "NOTES": []
+    },
+    "iwk": {
+        "name": null,
+        "NOTES": []
+    },
+    "iwm": {
+        "name": null,
+        "NOTES": []
+    },
+    "iwo": {
+        "name": null,
+        "NOTES": []
+    },
+    "iws": {
+        "name": null,
+        "NOTES": []
+    },
+    "ixc": {
+        "name": null,
+        "NOTES": []
+    },
+    "ixl": {
+        "name": null,
+        "NOTES": []
+    },
+    "iya": {
+        "name": null,
+        "NOTES": []
+    },
+    "iyo": {
+        "name": null,
+        "NOTES": []
+    },
+    "iyx": {
+        "name": null,
+        "NOTES": []
+    },
+    "izh": {
+        "name": null,
+        "NOTES": []
+    },
+    "izm": {
+        "name": null,
+        "NOTES": []
+    },
+    "izr": {
+        "name": null,
+        "NOTES": []
+    },
+    "izz": {
+        "name": null,
+        "NOTES": []
+    },
+    "jaa": {
+        "name": null,
+        "NOTES": []
+    },
+    "jab": {
+        "name": null,
+        "NOTES": []
+    },
+    "jac": {
+        "name": null,
+        "NOTES": []
+    },
+    "jad": {
+        "name": null,
+        "NOTES": []
+    },
+    "jae": {
+        "name": null,
+        "NOTES": []
+    },
+    "jaf": {
+        "name": null,
+        "NOTES": []
+    },
+    "jah": {
+        "name": null,
+        "NOTES": []
+    },
+    "jaj": {
+        "name": null,
+        "NOTES": []
+    },
+    "jak": {
+        "name": null,
+        "NOTES": []
+    },
+    "jal": {
+        "name": null,
+        "NOTES": []
+    },
+    "jam": {
+        "name": null,
+        "NOTES": []
+    },
+    "jan": {
+        "name": null,
+        "NOTES": []
+    },
+    "jao": {
+        "name": null,
+        "NOTES": []
+    },
+    "jaq": {
+        "name": null,
+        "NOTES": []
+    },
+    "jas": {
+        "name": null,
+        "NOTES": []
+    },
+    "jat": {
+        "name": null,
+        "NOTES": []
+    },
+    "jau": {
+        "name": null,
+        "NOTES": []
+    },
+    "jav": {
+        "name": "Giavanese",
+        "NOTES": []
+    },
+    "jax": {
+        "name": null,
+        "NOTES": []
+    },
+    "jay": {
+        "name": null,
+        "NOTES": []
+    },
+    "jaz": {
+        "name": null,
+        "NOTES": []
+    },
+    "jbe": {
+        "name": null,
+        "NOTES": []
+    },
+    "jbi": {
+        "name": null,
+        "NOTES": []
+    },
+    "jbj": {
+        "name": null,
+        "NOTES": []
+    },
+    "jbk": {
+        "name": null,
+        "NOTES": []
+    },
+    "jbm": {
+        "name": null,
+        "NOTES": []
+    },
+    "jbn": {
+        "name": null,
+        "NOTES": []
+    },
+    "jbo": {
+        "name": null,
+        "NOTES": []
+    },
+    "jbr": {
+        "name": null,
+        "NOTES": []
+    },
+    "jbt": {
+        "name": null,
+        "NOTES": []
+    },
+    "jbu": {
+        "name": null,
+        "NOTES": []
+    },
+    "jbw": {
+        "name": null,
+        "NOTES": []
+    },
+    "jcs": {
+        "name": null,
+        "NOTES": []
+    },
+    "jct": {
+        "name": null,
+        "NOTES": []
+    },
+    "jda": {
+        "name": null,
+        "NOTES": []
+    },
+    "jdg": {
+        "name": null,
+        "NOTES": []
+    },
+    "jdt": {
+        "name": null,
+        "NOTES": []
+    },
+    "jeb": {
+        "name": null,
+        "NOTES": []
+    },
+    "jee": {
+        "name": null,
+        "NOTES": []
+    },
+    "jeh": {
+        "name": null,
+        "NOTES": []
+    },
+    "jei": {
+        "name": null,
+        "NOTES": []
+    },
+    "jek": {
+        "name": null,
+        "NOTES": []
+    },
+    "jel": {
+        "name": null,
+        "NOTES": []
+    },
+    "jen": {
+        "name": null,
+        "NOTES": []
+    },
+    "jer": {
+        "name": null,
+        "NOTES": []
+    },
+    "jet": {
+        "name": null,
+        "NOTES": []
+    },
+    "jeu": {
+        "name": null,
+        "NOTES": []
+    },
+    "jgb": {
+        "name": null,
+        "NOTES": []
+    },
+    "jge": {
+        "name": null,
+        "NOTES": []
+    },
+    "jgk": {
+        "name": null,
+        "NOTES": []
+    },
+    "jgo": {
+        "name": "Ngomba, Nguemba",
+        "NOTES": []
+    },
+    "jhi": {
+        "name": null,
+        "NOTES": []
+    },
+    "jhs": {
+        "name": null,
+        "NOTES": []
+    },
+    "jia": {
+        "name": null,
+        "NOTES": []
+    },
+    "jib": {
+        "name": null,
+        "NOTES": []
+    },
+    "jic": {
+        "name": null,
+        "NOTES": []
+    },
+    "jid": {
+        "name": null,
+        "NOTES": []
+    },
+    "jie": {
+        "name": null,
+        "NOTES": []
+    },
+    "jig": {
+        "name": null,
+        "NOTES": []
+    },
+    "jih": {
+        "name": null,
+        "NOTES": []
+    },
+    "jii": {
+        "name": null,
+        "NOTES": []
+    },
+    "jil": {
+        "name": null,
+        "NOTES": []
+    },
+    "jim": {
+        "name": null,
+        "NOTES": []
+    },
+    "jio": {
+        "name": null,
+        "NOTES": []
+    },
+    "jiq": {
+        "name": null,
+        "NOTES": []
+    },
+    "jit": {
+        "name": null,
+        "NOTES": []
+    },
+    "jiu": {
+        "name": null,
+        "NOTES": []
+    },
+    "jiv": {
+        "name": null,
+        "NOTES": []
+    },
+    "jiy": {
+        "name": null,
+        "NOTES": []
+    },
+    "jje": {
+        "name": null,
+        "NOTES": []
+    },
+    "jjr": {
+        "name": null,
+        "NOTES": []
+    },
+    "jka": {
+        "name": null,
+        "NOTES": []
+    },
+    "jkm": {
+        "name": null,
+        "NOTES": []
+    },
+    "jko": {
+        "name": null,
+        "NOTES": []
+    },
+    "jkp": {
+        "name": null,
+        "NOTES": []
+    },
+    "jkr": {
+        "name": null,
+        "NOTES": []
+    },
+    "jks": {
+        "name": null,
+        "NOTES": []
+    },
+    "jku": {
+        "name": null,
+        "NOTES": []
+    },
+    "jle": {
+        "name": null,
+        "NOTES": []
+    },
+    "jls": {
+        "name": null,
+        "NOTES": []
+    },
+    "jma": {
+        "name": null,
+        "NOTES": []
+    },
+    "jmb": {
+        "name": null,
+        "NOTES": []
+    },
+    "jmc": {
+        "name": "Machame",
+        "NOTES": [
+            "Direct reference not found"
+        ]
+    },
+    "jmd": {
+        "name": null,
+        "NOTES": []
+    },
+    "jmi": {
+        "name": null,
+        "NOTES": []
+    },
+    "jml": {
+        "name": null,
+        "NOTES": []
+    },
+    "jmn": {
+        "name": null,
+        "NOTES": []
+    },
+    "jmr": {
+        "name": null,
+        "NOTES": []
+    },
+    "jms": {
+        "name": null,
+        "NOTES": []
+    },
+    "jmw": {
+        "name": null,
+        "NOTES": []
+    },
+    "jmx": {
+        "name": null,
+        "NOTES": []
+    },
+    "jna": {
+        "name": null,
+        "NOTES": []
+    },
+    "jnd": {
+        "name": null,
+        "NOTES": []
+    },
+    "jng": {
+        "name": null,
+        "NOTES": []
+    },
+    "jni": {
+        "name": null,
+        "NOTES": []
+    },
+    "jnj": {
+        "name": null,
+        "NOTES": []
+    },
+    "jnl": {
+        "name": null,
+        "NOTES": []
+    },
+    "jns": {
+        "name": null,
+        "NOTES": []
+    },
+    "job": {
+        "name": null,
+        "NOTES": []
+    },
+    "jod": {
+        "name": null,
+        "NOTES": []
+    },
+    "jog": {
+        "name": null,
+        "NOTES": []
+    },
+    "jor": {
+        "name": null,
+        "NOTES": []
+    },
+    "jos": {
+        "name": null,
+        "NOTES": []
+    },
+    "jow": {
+        "name": null,
+        "NOTES": []
+    },
+    "jpa": {
+        "name": null,
+        "NOTES": []
+    },
+    "jpn": {
+        "name": "Giapponese",
+        "NOTES": []
+    },
+    "jpr": {
+        "name": null,
+        "NOTES": []
+    },
+    "jqr": {
+        "name": null,
+        "NOTES": []
+    },
+    "jra": {
+        "name": null,
+        "NOTES": []
+    },
+    "jrb": {
+        "name": null,
+        "NOTES": []
+    },
+    "jrr": {
+        "name": null,
+        "NOTES": []
+    },
+    "jrt": {
+        "name": null,
+        "NOTES": []
+    },
+    "jru": {
+        "name": null,
+        "NOTES": []
+    },
+    "jsl": {
+        "name": null,
+        "NOTES": []
+    },
+    "jua": {
+        "name": null,
+        "NOTES": []
+    },
+    "jub": {
+        "name": null,
+        "NOTES": []
+    },
+    "juc": {
+        "name": null,
+        "NOTES": []
+    },
+    "jud": {
+        "name": null,
+        "NOTES": []
+    },
+    "juh": {
+        "name": null,
+        "NOTES": []
+    },
+    "jui": {
+        "name": null,
+        "NOTES": []
+    },
+    "juk": {
+        "name": null,
+        "NOTES": []
+    },
+    "jul": {
+        "name": null,
+        "NOTES": []
+    },
+    "jum": {
+        "name": null,
+        "NOTES": []
+    },
+    "jun": {
+        "name": null,
+        "NOTES": []
+    },
+    "juo": {
+        "name": null,
+        "NOTES": []
+    },
+    "jup": {
+        "name": null,
+        "NOTES": []
+    },
+    "jur": {
+        "name": null,
+        "NOTES": []
+    },
+    "jus": {
+        "name": null,
+        "NOTES": []
+    },
+    "jut": {
+        "name": null,
+        "NOTES": []
+    },
+    "juu": {
+        "name": null,
+        "NOTES": []
+    },
+    "juw": {
+        "name": null,
+        "NOTES": []
+    },
+    "juy": {
+        "name": null,
+        "NOTES": []
+    },
+    "jvd": {
+        "name": null,
+        "NOTES": []
+    },
+    "jvn": {
+        "name": null,
+        "NOTES": []
+    },
+    "jwi": {
+        "name": null,
+        "NOTES": []
+    },
+    "jya": {
+        "name": null,
+        "NOTES": []
+    },
+    "jye": {
+        "name": null,
+        "NOTES": []
+    },
+    "jyy": {
+        "name": null,
+        "NOTES": []
+    },
+    "kaa": {
+        "name": null,
+        "NOTES": []
+    },
+    "kab": {
+        "name": "Cabilo",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_cabila",
+            "https://www.treccani.it/vocabolario/cabila2/?search=cabila%C2%B2%2F"
+        ]
+    },
+    "kac": {
+        "name": null,
+        "NOTES": []
+    },
+    "kad": {
+        "name": null,
+        "NOTES": []
+    },
+    "kae": {
+        "name": null,
+        "NOTES": []
+    },
+    "kaf": {
+        "name": null,
+        "NOTES": []
+    },
+    "kag": {
+        "name": null,
+        "NOTES": []
+    },
+    "kah": {
+        "name": null,
+        "NOTES": []
+    },
+    "kai": {
+        "name": null,
+        "NOTES": []
+    },
+    "kaj": {
+        "name": null,
+        "NOTES": []
+    },
+    "kak": {
+        "name": null,
+        "NOTES": []
+    },
+    "kal": {
+        "name": "Groenlandese",
+        "NOTES": []
+    },
+    "kam": {
+        "name": "Kamba,Kikamba",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_kamba"
+        ]
+    },
+    "kan": {
+        "name": "Canarese, Kannada",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_kanna%E1%B8%8Da",
+            "https://www.treccani.it/vocabolario/canarese/?search=canar%C3%A9se%2F"
+        ]
+    },
+    "kao": {
+        "name": null,
+        "NOTES": []
+    },
+    "kap": {
+        "name": null,
+        "NOTES": []
+    },
+    "kaq": {
+        "name": null,
+        "NOTES": []
+    },
+    "kas": {
+        "name": "Kashmiri",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_kashmiri"
+        ]
+    },
+    "kat": {
+        "name": "Georgiano",
+        "NOTES": []
+    },
+    "kau": {
+        "name": "Kanuri",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_kanuri"
+        ]
+    },
+    "kav": {
+        "name": null,
+        "NOTES": []
+    },
+    "kaw": {
+        "name": "Giavanese antico, Kawi",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Giavanese_antico"
+        ]
+    },
+    "kax": {
+        "name": null,
+        "NOTES": []
+    },
+    "kay": {
+        "name": null,
+        "NOTES": []
+    },
+    "kaz": {
+        "name": "Kazako",
+        "NOTES": []
+    },
+    "kba": {
+        "name": null,
+        "NOTES": []
+    },
+    "kbb": {
+        "name": null,
+        "NOTES": []
+    },
+    "kbc": {
+        "name": null,
+        "NOTES": []
+    },
+    "kbd": {
+        "name": null,
+        "NOTES": []
+    },
+    "kbe": {
+        "name": null,
+        "NOTES": []
+    },
+    "kbg": {
+        "name": null,
+        "NOTES": []
+    },
+    "kbh": {
+        "name": null,
+        "NOTES": []
+    },
+    "kbi": {
+        "name": null,
+        "NOTES": []
+    },
+    "kbj": {
+        "name": null,
+        "NOTES": []
+    },
+    "kbk": {
+        "name": null,
+        "NOTES": []
+    },
+    "kbl": {
+        "name": null,
+        "NOTES": []
+    },
+    "kbm": {
+        "name": null,
+        "NOTES": []
+    },
+    "kbn": {
+        "name": null,
+        "NOTES": []
+    },
+    "kbo": {
+        "name": null,
+        "NOTES": []
+    },
+    "kbp": {
+        "name": null,
+        "NOTES": []
+    },
+    "kbq": {
+        "name": null,
+        "NOTES": []
+    },
+    "kbr": {
+        "name": null,
+        "NOTES": []
+    },
+    "kbs": {
+        "name": null,
+        "NOTES": []
+    },
+    "kbt": {
+        "name": null,
+        "NOTES": []
+    },
+    "kbu": {
+        "name": null,
+        "NOTES": []
+    },
+    "kbv": {
+        "name": null,
+        "NOTES": []
+    },
+    "kbw": {
+        "name": null,
+        "NOTES": []
+    },
+    "kbx": {
+        "name": null,
+        "NOTES": []
+    },
+    "kby": {
+        "name": "Manga Kanuri",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_kanuri"
+        ]
+    },
+    "kbz": {
+        "name": null,
+        "NOTES": []
+    },
+    "kca": {
+        "name": null,
+        "NOTES": []
+    },
+    "kcb": {
+        "name": null,
+        "NOTES": []
+    },
+    "kcc": {
+        "name": null,
+        "NOTES": []
+    },
+    "kcd": {
+        "name": null,
+        "NOTES": []
+    },
+    "kce": {
+        "name": null,
+        "NOTES": []
+    },
+    "kcf": {
+        "name": null,
+        "NOTES": []
+    },
+    "kcg": {
+        "name": null,
+        "NOTES": []
+    },
+    "kch": {
+        "name": null,
+        "NOTES": []
+    },
+    "kci": {
+        "name": null,
+        "NOTES": []
+    },
+    "kcj": {
+        "name": null,
+        "NOTES": []
+    },
+    "kck": {
+        "name": "Kalanga",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_kalanga"
+        ]
+    },
+    "kcl": {
+        "name": null,
+        "NOTES": []
+    },
+    "kcm": {
+        "name": null,
+        "NOTES": []
+    },
+    "kcn": {
+        "name": null,
+        "NOTES": []
+    },
+    "kco": {
+        "name": null,
+        "NOTES": []
+    },
+    "kcp": {
+        "name": null,
+        "NOTES": []
+    },
+    "kcq": {
+        "name": null,
+        "NOTES": []
+    },
+    "kcr": {
+        "name": null,
+        "NOTES": []
+    },
+    "kcs": {
+        "name": null,
+        "NOTES": []
+    },
+    "kct": {
+        "name": null,
+        "NOTES": []
+    },
+    "kcu": {
+        "name": null,
+        "NOTES": []
+    },
+    "kcv": {
+        "name": null,
+        "NOTES": []
+    },
+    "kcw": {
+        "name": null,
+        "NOTES": []
+    },
+    "kcx": {
+        "name": null,
+        "NOTES": []
+    },
+    "kcy": {
+        "name": null,
+        "NOTES": []
+    },
+    "kcz": {
+        "name": null,
+        "NOTES": []
+    },
+    "kda": {
+        "name": null,
+        "NOTES": []
+    },
+    "kdc": {
+        "name": null,
+        "NOTES": []
+    },
+    "kdd": {
+        "name": null,
+        "NOTES": []
+    },
+    "kde": {
+        "name": "Makonde, Kimakonde",
+        "NOTES": []
+    },
+    "kdf": {
+        "name": null,
+        "NOTES": []
+    },
+    "kdg": {
+        "name": null,
+        "NOTES": []
+    },
+    "kdh": {
+        "name": null,
+        "NOTES": []
+    },
+    "kdi": {
+        "name": null,
+        "NOTES": []
+    },
+    "kdj": {
+        "name": null,
+        "NOTES": []
+    },
+    "kdk": {
+        "name": null,
+        "NOTES": []
+    },
+    "kdl": {
+        "name": null,
+        "NOTES": []
+    },
+    "kdm": {
+        "name": null,
+        "NOTES": []
+    },
+    "kdn": {
+        "name": null,
+        "NOTES": []
+    },
+    "kdp": {
+        "name": null,
+        "NOTES": []
+    },
+    "kdq": {
+        "name": null,
+        "NOTES": []
+    },
+    "kdr": {
+        "name": null,
+        "NOTES": []
+    },
+    "kdt": {
+        "name": null,
+        "NOTES": []
+    },
+    "kdu": {
+        "name": null,
+        "NOTES": []
+    },
+    "kdw": {
+        "name": null,
+        "NOTES": []
+    },
+    "kdx": {
+        "name": null,
+        "NOTES": []
+    },
+    "kdy": {
+        "name": null,
+        "NOTES": []
+    },
+    "kdz": {
+        "name": null,
+        "NOTES": []
+    },
+    "kea": {
+        "name": "Creolo capoverdiano",
+        "NOTES": []
+    },
+    "keb": {
+        "name": null,
+        "NOTES": []
+    },
+    "kec": {
+        "name": null,
+        "NOTES": []
+    },
+    "ked": {
+        "name": null,
+        "NOTES": []
+    },
+    "kee": {
+        "name": null,
+        "NOTES": []
+    },
+    "kef": {
+        "name": null,
+        "NOTES": []
+    },
+    "keg": {
+        "name": null,
+        "NOTES": []
+    },
+    "keh": {
+        "name": null,
+        "NOTES": []
+    },
+    "kei": {
+        "name": null,
+        "NOTES": []
+    },
+    "kej": {
+        "name": null,
+        "NOTES": []
+    },
+    "kek": {
+        "name": null,
+        "NOTES": []
+    },
+    "kel": {
+        "name": null,
+        "NOTES": []
+    },
+    "kem": {
+        "name": null,
+        "NOTES": []
+    },
+    "ken": {
+        "name": null,
+        "NOTES": []
+    },
+    "keo": {
+        "name": null,
+        "NOTES": []
+    },
+    "kep": {
+        "name": null,
+        "NOTES": []
+    },
+    "keq": {
+        "name": null,
+        "NOTES": []
+    },
+    "ker": {
+        "name": null,
+        "NOTES": []
+    },
+    "kes": {
+        "name": null,
+        "NOTES": []
+    },
+    "ket": {
+        "name": null,
+        "NOTES": []
+    },
+    "keu": {
+        "name": null,
+        "NOTES": []
+    },
+    "kev": {
+        "name": null,
+        "NOTES": []
+    },
+    "kew": {
+        "name": null,
+        "NOTES": []
+    },
+    "kex": {
+        "name": null,
+        "NOTES": []
+    },
+    "key": {
+        "name": null,
+        "NOTES": []
+    },
+    "kez": {
+        "name": null,
+        "NOTES": []
+    },
+    "kfa": {
+        "name": null,
+        "NOTES": []
+    },
+    "kfb": {
+        "name": null,
+        "NOTES": []
+    },
+    "kfc": {
+        "name": null,
+        "NOTES": []
+    },
+    "kfd": {
+        "name": null,
+        "NOTES": []
+    },
+    "kfe": {
+        "name": null,
+        "NOTES": []
+    },
+    "kff": {
+        "name": null,
+        "NOTES": []
+    },
+    "kfg": {
+        "name": null,
+        "NOTES": []
+    },
+    "kfh": {
+        "name": null,
+        "NOTES": []
+    },
+    "kfi": {
+        "name": null,
+        "NOTES": []
+    },
+    "kfj": {
+        "name": null,
+        "NOTES": []
+    },
+    "kfk": {
+        "name": null,
+        "NOTES": []
+    },
+    "kfl": {
+        "name": null,
+        "NOTES": []
+    },
+    "kfm": {
+        "name": null,
+        "NOTES": []
+    },
+    "kfn": {
+        "name": null,
+        "NOTES": []
+    },
+    "kfo": {
+        "name": null,
+        "NOTES": []
+    },
+    "kfp": {
+        "name": null,
+        "NOTES": []
+    },
+    "kfq": {
+        "name": null,
+        "NOTES": []
+    },
+    "kfr": {
+        "name": null,
+        "NOTES": []
+    },
+    "kfs": {
+        "name": null,
+        "NOTES": []
+    },
+    "kft": {
+        "name": null,
+        "NOTES": []
+    },
+    "kfu": {
+        "name": null,
+        "NOTES": []
+    },
+    "kfv": {
+        "name": null,
+        "NOTES": []
+    },
+    "kfw": {
+        "name": null,
+        "NOTES": []
+    },
+    "kfx": {
+        "name": null,
+        "NOTES": []
+    },
+    "kfy": {
+        "name": null,
+        "NOTES": []
+    },
+    "kfz": {
+        "name": null,
+        "NOTES": []
+    },
+    "kga": {
+        "name": null,
+        "NOTES": []
+    },
+    "kgb": {
+        "name": null,
+        "NOTES": []
+    },
+    "kge": {
+        "name": null,
+        "NOTES": []
+    },
+    "kgf": {
+        "name": null,
+        "NOTES": []
+    },
+    "kgg": {
+        "name": null,
+        "NOTES": []
+    },
+    "kgi": {
+        "name": null,
+        "NOTES": []
+    },
+    "kgj": {
+        "name": null,
+        "NOTES": []
+    },
+    "kgk": {
+        "name": null,
+        "NOTES": []
+    },
+    "kgl": {
+        "name": null,
+        "NOTES": []
+    },
+    "kgn": {
+        "name": null,
+        "NOTES": []
+    },
+    "kgo": {
+        "name": null,
+        "NOTES": []
+    },
+    "kgp": {
+        "name": null,
+        "NOTES": []
+    },
+    "kgq": {
+        "name": null,
+        "NOTES": []
+    },
+    "kgr": {
+        "name": null,
+        "NOTES": []
+    },
+    "kgs": {
+        "name": null,
+        "NOTES": []
+    },
+    "kgt": {
+        "name": null,
+        "NOTES": []
+    },
+    "kgu": {
+        "name": null,
+        "NOTES": []
+    },
+    "kgv": {
+        "name": null,
+        "NOTES": []
+    },
+    "kgw": {
+        "name": null,
+        "NOTES": []
+    },
+    "kgx": {
+        "name": null,
+        "NOTES": []
+    },
+    "kgy": {
+        "name": null,
+        "NOTES": []
+    },
+    "kha": {
+        "name": null,
+        "NOTES": []
+    },
+    "khb": {
+        "name": null,
+        "NOTES": []
+    },
+    "khc": {
+        "name": null,
+        "NOTES": []
+    },
+    "khd": {
+        "name": null,
+        "NOTES": []
+    },
+    "khe": {
+        "name": null,
+        "NOTES": []
+    },
+    "khf": {
+        "name": null,
+        "NOTES": []
+    },
+    "khg": {
+        "name": null,
+        "NOTES": []
+    },
+    "khh": {
+        "name": null,
+        "NOTES": []
+    },
+    "khj": {
+        "name": null,
+        "NOTES": []
+    },
+    "khk": {
+        "name": null,
+        "NOTES": []
+    },
+    "khl": {
+        "name": null,
+        "NOTES": []
+    },
+    "khm": {
+        "name": "Cambogiano, Khmer",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_khmer"
+        ]
+    },
+    "khn": {
+        "name": null,
+        "NOTES": []
+    },
+    "kho": {
+        "name": null,
+        "NOTES": []
+    },
+    "khp": {
+        "name": null,
+        "NOTES": []
+    },
+    "khq": {
+        "name": "Koyra Chiini, Songhay occidentale",
+        "NOTES": []
+    },
+    "khr": {
+        "name": null,
+        "NOTES": []
+    },
+    "khs": {
+        "name": null,
+        "NOTES": []
+    },
+    "kht": {
+        "name": null,
+        "NOTES": []
+    },
+    "khu": {
+        "name": null,
+        "NOTES": []
+    },
+    "khv": {
+        "name": null,
+        "NOTES": []
+    },
+    "khw": {
+        "name": null,
+        "NOTES": []
+    },
+    "khx": {
+        "name": null,
+        "NOTES": []
+    },
+    "khy": {
+        "name": null,
+        "NOTES": []
+    },
+    "khz": {
+        "name": null,
+        "NOTES": []
+    },
+    "kia": {
+        "name": null,
+        "NOTES": []
+    },
+    "kib": {
+        "name": null,
+        "NOTES": []
+    },
+    "kic": {
+        "name": null,
+        "NOTES": []
+    },
+    "kid": {
+        "name": null,
+        "NOTES": []
+    },
+    "kie": {
+        "name": null,
+        "NOTES": []
+    },
+    "kif": {
+        "name": null,
+        "NOTES": []
+    },
+    "kig": {
+        "name": null,
+        "NOTES": []
+    },
+    "kih": {
+        "name": null,
+        "NOTES": []
+    },
+    "kii": {
+        "name": null,
+        "NOTES": []
+    },
+    "kij": {
+        "name": null,
+        "NOTES": []
+    },
+    "kik": {
+        "name": "Gikuyu, Kikuyu",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_gikuyu"
+        ]
+    },
+    "kil": {
+        "name": null,
+        "NOTES": []
+    },
+    "kim": {
+        "name": null,
+        "NOTES": []
+    },
+    "kin": {
+        "name": "Kinyarwanda",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_kinyarwanda"
+        ]
+    },
+    "kio": {
+        "name": null,
+        "NOTES": []
+    },
+    "kip": {
+        "name": null,
+        "NOTES": []
+    },
+    "kiq": {
+        "name": null,
+        "NOTES": []
+    },
+    "kir": {
+        "name": "Kirghiso",
+        "NOTES": []
+    },
+    "kis": {
+        "name": null,
+        "NOTES": []
+    },
+    "kit": {
+        "name": null,
+        "NOTES": []
+    },
+    "kiu": {
+        "name": null,
+        "NOTES": []
+    },
+    "kiv": {
+        "name": null,
+        "NOTES": []
+    },
+    "kiw": {
+        "name": null,
+        "NOTES": []
+    },
+    "kix": {
+        "name": null,
+        "NOTES": []
+    },
+    "kiy": {
+        "name": null,
+        "NOTES": []
+    },
+    "kiz": {
+        "name": null,
+        "NOTES": []
+    },
+    "kja": {
+        "name": null,
+        "NOTES": []
+    },
+    "kjb": {
+        "name": null,
+        "NOTES": []
+    },
+    "kjc": {
+        "name": null,
+        "NOTES": []
+    },
+    "kjd": {
+        "name": null,
+        "NOTES": []
+    },
+    "kje": {
+        "name": null,
+        "NOTES": []
+    },
+    "kjg": {
+        "name": null,
+        "NOTES": []
+    },
+    "kjh": {
+        "name": null,
+        "NOTES": []
+    },
+    "kji": {
+        "name": null,
+        "NOTES": []
+    },
+    "kjj": {
+        "name": null,
+        "NOTES": []
+    },
+    "kjk": {
+        "name": null,
+        "NOTES": []
+    },
+    "kjl": {
+        "name": null,
+        "NOTES": []
+    },
+    "kjm": {
+        "name": null,
+        "NOTES": []
+    },
+    "kjn": {
+        "name": null,
+        "NOTES": []
+    },
+    "kjo": {
+        "name": null,
+        "NOTES": []
+    },
+    "kjp": {
+        "name": null,
+        "NOTES": []
+    },
+    "kjq": {
+        "name": null,
+        "NOTES": []
+    },
+    "kjr": {
+        "name": null,
+        "NOTES": []
+    },
+    "kjs": {
+        "name": null,
+        "NOTES": []
+    },
+    "kjt": {
+        "name": null,
+        "NOTES": []
+    },
+    "kju": {
+        "name": null,
+        "NOTES": []
+    },
+    "kjv": {
+        "name": null,
+        "NOTES": []
+    },
+    "kjx": {
+        "name": null,
+        "NOTES": []
+    },
+    "kjy": {
+        "name": null,
+        "NOTES": []
+    },
+    "kjz": {
+        "name": null,
+        "NOTES": []
+    },
+    "kka": {
+        "name": null,
+        "NOTES": []
+    },
+    "kkb": {
+        "name": null,
+        "NOTES": []
+    },
+    "kkc": {
+        "name": null,
+        "NOTES": []
+    },
+    "kkd": {
+        "name": null,
+        "NOTES": []
+    },
+    "kke": {
+        "name": null,
+        "NOTES": []
+    },
+    "kkf": {
+        "name": null,
+        "NOTES": []
+    },
+    "kkg": {
+        "name": null,
+        "NOTES": []
+    },
+    "kkh": {
+        "name": null,
+        "NOTES": []
+    },
+    "kki": {
+        "name": null,
+        "NOTES": []
+    },
+    "kkj": {
+        "name": "Kako, Mkako, Mkaka",
+        "NOTES": []
+    },
+    "kkk": {
+        "name": null,
+        "NOTES": []
+    },
+    "kkl": {
+        "name": null,
+        "NOTES": []
+    },
+    "kkm": {
+        "name": null,
+        "NOTES": []
+    },
+    "kkn": {
+        "name": null,
+        "NOTES": []
+    },
+    "kko": {
+        "name": null,
+        "NOTES": []
+    },
+    "kkp": {
+        "name": null,
+        "NOTES": []
+    },
+    "kkq": {
+        "name": null,
+        "NOTES": []
+    },
+    "kkr": {
+        "name": null,
+        "NOTES": []
+    },
+    "kks": {
+        "name": null,
+        "NOTES": []
+    },
+    "kkt": {
+        "name": null,
+        "NOTES": []
+    },
+    "kku": {
+        "name": null,
+        "NOTES": []
+    },
+    "kkv": {
+        "name": null,
+        "NOTES": []
+    },
+    "kkw": {
+        "name": null,
+        "NOTES": []
+    },
+    "kkx": {
+        "name": null,
+        "NOTES": []
+    },
+    "kky": {
+        "name": null,
+        "NOTES": []
+    },
+    "kkz": {
+        "name": null,
+        "NOTES": []
+    },
+    "kla": {
+        "name": null,
+        "NOTES": []
+    },
+    "klb": {
+        "name": null,
+        "NOTES": []
+    },
+    "klc": {
+        "name": null,
+        "NOTES": []
+    },
+    "kld": {
+        "name": null,
+        "NOTES": []
+    },
+    "kle": {
+        "name": null,
+        "NOTES": []
+    },
+    "klf": {
+        "name": null,
+        "NOTES": []
+    },
+    "klg": {
+        "name": null,
+        "NOTES": []
+    },
+    "klh": {
+        "name": null,
+        "NOTES": []
+    },
+    "kli": {
+        "name": null,
+        "NOTES": []
+    },
+    "klj": {
+        "name": null,
+        "NOTES": []
+    },
+    "klk": {
+        "name": null,
+        "NOTES": []
+    },
+    "kll": {
+        "name": null,
+        "NOTES": []
+    },
+    "klm": {
+        "name": null,
+        "NOTES": []
+    },
+    "kln": {
+        "name": "Elgeyo, Kalenjin proprio",
+        "NOTES": [
+            "Direct reference not found"
+        ]
+    },
+    "klo": {
+        "name": null,
+        "NOTES": []
+    },
+    "klp": {
+        "name": null,
+        "NOTES": []
+    },
+    "klq": {
+        "name": null,
+        "NOTES": []
+    },
+    "klr": {
+        "name": null,
+        "NOTES": []
+    },
+    "kls": {
+        "name": null,
+        "NOTES": []
+    },
+    "klt": {
+        "name": null,
+        "NOTES": []
+    },
+    "klu": {
+        "name": null,
+        "NOTES": []
+    },
+    "klv": {
+        "name": null,
+        "NOTES": []
+    },
+    "klw": {
+        "name": null,
+        "NOTES": []
+    },
+    "klx": {
+        "name": null,
+        "NOTES": []
+    },
+    "kly": {
+        "name": null,
+        "NOTES": []
+    },
+    "klz": {
+        "name": null,
+        "NOTES": []
+    },
+    "kma": {
+        "name": null,
+        "NOTES": []
+    },
+    "kmb": {
+        "name": null,
+        "NOTES": []
+    },
+    "kmc": {
+        "name": null,
+        "NOTES": []
+    },
+    "kmd": {
+        "name": null,
+        "NOTES": []
+    },
+    "kme": {
+        "name": null,
+        "NOTES": []
+    },
+    "kmf": {
+        "name": null,
+        "NOTES": []
+    },
+    "kmg": {
+        "name": null,
+        "NOTES": []
+    },
+    "kmh": {
+        "name": null,
+        "NOTES": []
+    },
+    "kmi": {
+        "name": null,
+        "NOTES": []
+    },
+    "kmj": {
+        "name": null,
+        "NOTES": []
+    },
+    "kmk": {
+        "name": null,
+        "NOTES": []
+    },
+    "kml": {
+        "name": null,
+        "NOTES": []
+    },
+    "kmm": {
+        "name": null,
+        "NOTES": []
+    },
+    "kmn": {
+        "name": null,
+        "NOTES": []
+    },
+    "kmo": {
+        "name": null,
+        "NOTES": []
+    },
+    "kmp": {
+        "name": null,
+        "NOTES": []
+    },
+    "kmq": {
+        "name": null,
+        "NOTES": []
+    },
+    "kmr": {
+        "name": null,
+        "NOTES": []
+    },
+    "kms": {
+        "name": null,
+        "NOTES": []
+    },
+    "kmt": {
+        "name": null,
+        "NOTES": []
+    },
+    "kmu": {
+        "name": null,
+        "NOTES": []
+    },
+    "kmv": {
+        "name": null,
+        "NOTES": []
+    },
+    "kmw": {
+        "name": null,
+        "NOTES": []
+    },
+    "kmx": {
+        "name": null,
+        "NOTES": []
+    },
+    "kmy": {
+        "name": null,
+        "NOTES": []
+    },
+    "kmz": {
+        "name": null,
+        "NOTES": []
+    },
+    "kna": {
+        "name": null,
+        "NOTES": []
+    },
+    "knb": {
+        "name": null,
+        "NOTES": []
+    },
+    "knc": {
+        "name": "Kanuri centrale",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_kanuri"
+        ]
+    },
+    "knd": {
+        "name": null,
+        "NOTES": []
+    },
+    "kne": {
+        "name": null,
+        "NOTES": []
+    },
+    "knf": {
+        "name": null,
+        "NOTES": []
+    },
+    "kng": {
+        "name": "Koongo",
+        "NOTES": [
+            "Direct reference not found",
+            "Subgroup of `kon`"
+        ]
+    },
+    "kni": {
+        "name": null,
+        "NOTES": []
+    },
+    "knj": {
+        "name": null,
+        "NOTES": []
+    },
+    "knk": {
+        "name": null,
+        "NOTES": []
+    },
+    "knl": {
+        "name": null,
+        "NOTES": []
+    },
+    "knm": {
+        "name": null,
+        "NOTES": []
+    },
+    "knn": {
+        "name": null,
+        "NOTES": []
+    },
+    "kno": {
+        "name": null,
+        "NOTES": []
+    },
+    "knp": {
+        "name": null,
+        "NOTES": []
+    },
+    "knq": {
+        "name": null,
+        "NOTES": []
+    },
+    "knr": {
+        "name": null,
+        "NOTES": []
+    },
+    "kns": {
+        "name": null,
+        "NOTES": []
+    },
+    "knt": {
+        "name": null,
+        "NOTES": []
+    },
+    "knu": {
+        "name": null,
+        "NOTES": []
+    },
+    "knv": {
+        "name": null,
+        "NOTES": []
+    },
+    "knw": {
+        "name": null,
+        "NOTES": []
+    },
+    "knx": {
+        "name": null,
+        "NOTES": []
+    },
+    "kny": {
+        "name": null,
+        "NOTES": []
+    },
+    "knz": {
+        "name": null,
+        "NOTES": []
+    },
+    "koa": {
+        "name": null,
+        "NOTES": []
+    },
+    "koc": {
+        "name": null,
+        "NOTES": []
+    },
+    "kod": {
+        "name": null,
+        "NOTES": []
+    },
+    "koe": {
+        "name": null,
+        "NOTES": []
+    },
+    "kof": {
+        "name": null,
+        "NOTES": []
+    },
+    "kog": {
+        "name": null,
+        "NOTES": []
+    },
+    "koh": {
+        "name": null,
+        "NOTES": []
+    },
+    "koi": {
+        "name": null,
+        "NOTES": []
+    },
+    "kok": {
+        "name": "Konkani, Concani, Concanese",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_konkani"
+        ]
+    },
+    "kol": {
+        "name": null,
+        "NOTES": []
+    },
+    "kom": {
+        "name": "Komi, Sirieno",
+        "NOTES": [
+            "https://www.treccani.it/vocabolario/sirieno/?search=siri%C3%A8no%2F"
+        ]
+    },
+    "kon": {
+        "name": "Kikongo, Kongo",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_kongo"
+        ]
+    },
+    "koo": {
+        "name": null,
+        "NOTES": []
+    },
+    "kop": {
+        "name": null,
+        "NOTES": []
+    },
+    "koq": {
+        "name": null,
+        "NOTES": []
+    },
+    "kor": {
+        "name": "Coreano",
+        "NOTES": []
+    },
+    "kos": {
+        "name": null,
+        "NOTES": []
+    },
+    "kot": {
+        "name": null,
+        "NOTES": []
+    },
+    "kou": {
+        "name": null,
+        "NOTES": []
+    },
+    "kov": {
+        "name": null,
+        "NOTES": []
+    },
+    "kow": {
+        "name": null,
+        "NOTES": []
+    },
+    "koy": {
+        "name": null,
+        "NOTES": []
+    },
+    "koz": {
+        "name": null,
+        "NOTES": []
+    },
+    "kpa": {
+        "name": null,
+        "NOTES": []
+    },
+    "kpb": {
+        "name": null,
+        "NOTES": []
+    },
+    "kpc": {
+        "name": null,
+        "NOTES": []
+    },
+    "kpd": {
+        "name": null,
+        "NOTES": []
+    },
+    "kpe": {
+        "name": null,
+        "NOTES": []
+    },
+    "kpf": {
+        "name": null,
+        "NOTES": []
+    },
+    "kpg": {
+        "name": null,
+        "NOTES": []
+    },
+    "kph": {
+        "name": null,
+        "NOTES": []
+    },
+    "kpi": {
+        "name": null,
+        "NOTES": []
+    },
+    "kpj": {
+        "name": null,
+        "NOTES": []
+    },
+    "kpk": {
+        "name": null,
+        "NOTES": []
+    },
+    "kpl": {
+        "name": null,
+        "NOTES": []
+    },
+    "kpm": {
+        "name": null,
+        "NOTES": []
+    },
+    "kpn": {
+        "name": null,
+        "NOTES": []
+    },
+    "kpo": {
+        "name": null,
+        "NOTES": []
+    },
+    "kpq": {
+        "name": null,
+        "NOTES": []
+    },
+    "kpr": {
+        "name": null,
+        "NOTES": []
+    },
+    "kps": {
+        "name": null,
+        "NOTES": []
+    },
+    "kpt": {
+        "name": null,
+        "NOTES": []
+    },
+    "kpu": {
+        "name": null,
+        "NOTES": []
+    },
+    "kpv": {
+        "name": null,
+        "NOTES": []
+    },
+    "kpw": {
+        "name": null,
+        "NOTES": []
+    },
+    "kpx": {
+        "name": null,
+        "NOTES": []
+    },
+    "kpy": {
+        "name": null,
+        "NOTES": []
+    },
+    "kpz": {
+        "name": null,
+        "NOTES": []
+    },
+    "kqa": {
+        "name": null,
+        "NOTES": []
+    },
+    "kqb": {
+        "name": null,
+        "NOTES": []
+    },
+    "kqc": {
+        "name": null,
+        "NOTES": []
+    },
+    "kqd": {
+        "name": null,
+        "NOTES": []
+    },
+    "kqe": {
+        "name": null,
+        "NOTES": []
+    },
+    "kqf": {
+        "name": null,
+        "NOTES": []
+    },
+    "kqg": {
+        "name": null,
+        "NOTES": []
+    },
+    "kqh": {
+        "name": null,
+        "NOTES": []
+    },
+    "kqi": {
+        "name": null,
+        "NOTES": []
+    },
+    "kqj": {
+        "name": null,
+        "NOTES": []
+    },
+    "kqk": {
+        "name": null,
+        "NOTES": []
+    },
+    "kql": {
+        "name": null,
+        "NOTES": []
+    },
+    "kqm": {
+        "name": null,
+        "NOTES": []
+    },
+    "kqn": {
+        "name": null,
+        "NOTES": []
+    },
+    "kqo": {
+        "name": null,
+        "NOTES": []
+    },
+    "kqp": {
+        "name": null,
+        "NOTES": []
+    },
+    "kqq": {
+        "name": null,
+        "NOTES": []
+    },
+    "kqr": {
+        "name": null,
+        "NOTES": []
+    },
+    "kqs": {
+        "name": null,
+        "NOTES": []
+    },
+    "kqt": {
+        "name": null,
+        "NOTES": []
+    },
+    "kqu": {
+        "name": null,
+        "NOTES": []
+    },
+    "kqv": {
+        "name": null,
+        "NOTES": []
+    },
+    "kqw": {
+        "name": null,
+        "NOTES": []
+    },
+    "kqx": {
+        "name": null,
+        "NOTES": []
+    },
+    "kqy": {
+        "name": null,
+        "NOTES": []
+    },
+    "kqz": {
+        "name": null,
+        "NOTES": []
+    },
+    "kra": {
+        "name": null,
+        "NOTES": []
+    },
+    "krb": {
+        "name": null,
+        "NOTES": []
+    },
+    "krc": {
+        "name": null,
+        "NOTES": []
+    },
+    "krd": {
+        "name": null,
+        "NOTES": []
+    },
+    "kre": {
+        "name": null,
+        "NOTES": []
+    },
+    "krf": {
+        "name": null,
+        "NOTES": []
+    },
+    "krh": {
+        "name": null,
+        "NOTES": []
+    },
+    "kri": {
+        "name": "Krio",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_krio"
+        ]
+    },
+    "krj": {
+        "name": null,
+        "NOTES": []
+    },
+    "krk": {
+        "name": null,
+        "NOTES": []
+    },
+    "krl": {
+        "name": null,
+        "NOTES": []
+    },
+    "krn": {
+        "name": null,
+        "NOTES": []
+    },
+    "krp": {
+        "name": null,
+        "NOTES": []
+    },
+    "krr": {
+        "name": null,
+        "NOTES": []
+    },
+    "krs": {
+        "name": null,
+        "NOTES": []
+    },
+    "krt": {
+        "name": "Tumari Kanuri",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_kanuri"
+        ]
+    },
+    "kru": {
+        "name": null,
+        "NOTES": []
+    },
+    "krv": {
+        "name": null,
+        "NOTES": []
+    },
+    "krw": {
+        "name": null,
+        "NOTES": []
+    },
+    "krx": {
+        "name": null,
+        "NOTES": []
+    },
+    "kry": {
+        "name": null,
+        "NOTES": []
+    },
+    "krz": {
+        "name": null,
+        "NOTES": []
+    },
+    "ksb": {
+        "name": "Sambaa, Shambaa, Shambala",
+        "NOTES": [
+            "Direct reference not found"
+        ]
+    },
+    "ksc": {
+        "name": null,
+        "NOTES": []
+    },
+    "ksd": {
+        "name": null,
+        "NOTES": []
+    },
+    "kse": {
+        "name": null,
+        "NOTES": []
+    },
+    "ksf": {
+        "name": "Bafia",
+        "NOTES": [
+            "Direct reference not found"
+        ]
+    },
+    "ksg": {
+        "name": null,
+        "NOTES": []
+    },
+    "ksh": {
+        "name": "Coloniese, Kölsch",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_k%C3%B6lsch"
+        ]
+    },
+    "ksi": {
+        "name": null,
+        "NOTES": []
+    },
+    "ksj": {
+        "name": null,
+        "NOTES": []
+    },
+    "ksk": {
+        "name": null,
+        "NOTES": []
+    },
+    "ksl": {
+        "name": null,
+        "NOTES": []
+    },
+    "ksm": {
+        "name": null,
+        "NOTES": []
+    },
+    "ksn": {
+        "name": null,
+        "NOTES": []
+    },
+    "kso": {
+        "name": null,
+        "NOTES": []
+    },
+    "ksp": {
+        "name": null,
+        "NOTES": []
+    },
+    "ksq": {
+        "name": null,
+        "NOTES": []
+    },
+    "ksr": {
+        "name": null,
+        "NOTES": []
+    },
+    "kss": {
+        "name": null,
+        "NOTES": []
+    },
+    "kst": {
+        "name": null,
+        "NOTES": []
+    },
+    "ksu": {
+        "name": null,
+        "NOTES": []
+    },
+    "ksv": {
+        "name": null,
+        "NOTES": []
+    },
+    "ksw": {
+        "name": null,
+        "NOTES": []
+    },
+    "ksx": {
+        "name": null,
+        "NOTES": []
+    },
+    "ksy": {
+        "name": null,
+        "NOTES": []
+    },
+    "ksz": {
+        "name": null,
+        "NOTES": []
+    },
+    "kta": {
+        "name": null,
+        "NOTES": []
+    },
+    "ktb": {
+        "name": null,
+        "NOTES": []
+    },
+    "ktc": {
+        "name": null,
+        "NOTES": []
+    },
+    "ktd": {
+        "name": null,
+        "NOTES": []
+    },
+    "kte": {
+        "name": null,
+        "NOTES": []
+    },
+    "ktf": {
+        "name": null,
+        "NOTES": []
+    },
+    "ktg": {
+        "name": null,
+        "NOTES": []
+    },
+    "kth": {
+        "name": null,
+        "NOTES": []
+    },
+    "kti": {
+        "name": null,
+        "NOTES": []
+    },
+    "ktj": {
+        "name": null,
+        "NOTES": []
+    },
+    "ktk": {
+        "name": null,
+        "NOTES": []
+    },
+    "ktl": {
+        "name": null,
+        "NOTES": []
+    },
+    "ktm": {
+        "name": null,
+        "NOTES": []
+    },
+    "ktn": {
+        "name": null,
+        "NOTES": []
+    },
+    "kto": {
+        "name": null,
+        "NOTES": []
+    },
+    "ktp": {
+        "name": null,
+        "NOTES": []
+    },
+    "ktq": {
+        "name": null,
+        "NOTES": []
+    },
+    "kts": {
+        "name": null,
+        "NOTES": []
+    },
+    "ktt": {
+        "name": null,
+        "NOTES": []
+    },
+    "ktu": {
+        "name": null,
+        "NOTES": []
+    },
+    "ktv": {
+        "name": null,
+        "NOTES": []
+    },
+    "ktw": {
+        "name": null,
+        "NOTES": []
+    },
+    "ktx": {
+        "name": null,
+        "NOTES": []
+    },
+    "kty": {
+        "name": null,
+        "NOTES": []
+    },
+    "ktz": {
+        "name": null,
+        "NOTES": []
+    },
+    "kua": {
+        "name": "Kwanyama, Kuanyama, Cuanhama, Oshikwanyama, Oshiwambo",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_kwanyama"
+        ]
+    },
+    "kub": {
+        "name": null,
+        "NOTES": []
+    },
+    "kuc": {
+        "name": null,
+        "NOTES": []
+    },
+    "kud": {
+        "name": null,
+        "NOTES": []
+    },
+    "kue": {
+        "name": null,
+        "NOTES": []
+    },
+    "kuf": {
+        "name": null,
+        "NOTES": []
+    },
+    "kug": {
+        "name": null,
+        "NOTES": []
+    },
+    "kuh": {
+        "name": null,
+        "NOTES": []
+    },
+    "kui": {
+        "name": null,
+        "NOTES": []
+    },
+    "kuj": {
+        "name": null,
+        "NOTES": []
+    },
+    "kuk": {
+        "name": null,
+        "NOTES": []
+    },
+    "kul": {
+        "name": null,
+        "NOTES": []
+    },
+    "kum": {
+        "name": null,
+        "NOTES": []
+    },
+    "kun": {
+        "name": null,
+        "NOTES": []
+    },
+    "kuo": {
+        "name": null,
+        "NOTES": []
+    },
+    "kup": {
+        "name": null,
+        "NOTES": []
+    },
+    "kuq": {
+        "name": null,
+        "NOTES": []
+    },
+    "kur": {
+        "name": "Curdo",
+        "NOTES": []
+    },
+    "kus": {
+        "name": null,
+        "NOTES": []
+    },
+    "kut": {
+        "name": null,
+        "NOTES": []
+    },
+    "kuu": {
+        "name": null,
+        "NOTES": []
+    },
+    "kuv": {
+        "name": null,
+        "NOTES": []
+    },
+    "kuw": {
+        "name": null,
+        "NOTES": []
+    },
+    "kux": {
+        "name": null,
+        "NOTES": []
+    },
+    "kuy": {
+        "name": null,
+        "NOTES": []
+    },
+    "kuz": {
+        "name": null,
+        "NOTES": []
+    },
+    "kva": {
+        "name": null,
+        "NOTES": []
+    },
+    "kvb": {
+        "name": null,
+        "NOTES": []
+    },
+    "kvc": {
+        "name": null,
+        "NOTES": []
+    },
+    "kvd": {
+        "name": null,
+        "NOTES": []
+    },
+    "kve": {
+        "name": null,
+        "NOTES": []
+    },
+    "kvf": {
+        "name": null,
+        "NOTES": []
+    },
+    "kvg": {
+        "name": null,
+        "NOTES": []
+    },
+    "kvh": {
+        "name": null,
+        "NOTES": []
+    },
+    "kvi": {
+        "name": null,
+        "NOTES": []
+    },
+    "kvj": {
+        "name": null,
+        "NOTES": []
+    },
+    "kvk": {
+        "name": null,
+        "NOTES": []
+    },
+    "kvl": {
+        "name": null,
+        "NOTES": []
+    },
+    "kvm": {
+        "name": null,
+        "NOTES": []
+    },
+    "kvn": {
+        "name": null,
+        "NOTES": []
+    },
+    "kvo": {
+        "name": null,
+        "NOTES": []
+    },
+    "kvp": {
+        "name": null,
+        "NOTES": []
+    },
+    "kvq": {
+        "name": null,
+        "NOTES": []
+    },
+    "kvr": {
+        "name": null,
+        "NOTES": []
+    },
+    "kvt": {
+        "name": null,
+        "NOTES": []
+    },
+    "kvu": {
+        "name": null,
+        "NOTES": []
+    },
+    "kvv": {
+        "name": null,
+        "NOTES": []
+    },
+    "kvw": {
+        "name": null,
+        "NOTES": []
+    },
+    "kvx": {
+        "name": null,
+        "NOTES": []
+    },
+    "kvy": {
+        "name": null,
+        "NOTES": []
+    },
+    "kvz": {
+        "name": null,
+        "NOTES": []
+    },
+    "kwa": {
+        "name": null,
+        "NOTES": []
+    },
+    "kwb": {
+        "name": null,
+        "NOTES": []
+    },
+    "kwc": {
+        "name": null,
+        "NOTES": []
+    },
+    "kwd": {
+        "name": null,
+        "NOTES": []
+    },
+    "kwe": {
+        "name": null,
+        "NOTES": []
+    },
+    "kwf": {
+        "name": null,
+        "NOTES": []
+    },
+    "kwg": {
+        "name": null,
+        "NOTES": []
+    },
+    "kwh": {
+        "name": null,
+        "NOTES": []
+    },
+    "kwi": {
+        "name": null,
+        "NOTES": []
+    },
+    "kwj": {
+        "name": null,
+        "NOTES": []
+    },
+    "kwk": {
+        "name": null,
+        "NOTES": []
+    },
+    "kwl": {
+        "name": null,
+        "NOTES": []
+    },
+    "kwm": {
+        "name": null,
+        "NOTES": []
+    },
+    "kwn": {
+        "name": null,
+        "NOTES": []
+    },
+    "kwo": {
+        "name": null,
+        "NOTES": []
+    },
+    "kwp": {
+        "name": null,
+        "NOTES": []
+    },
+    "kwr": {
+        "name": null,
+        "NOTES": []
+    },
+    "kws": {
+        "name": null,
+        "NOTES": []
+    },
+    "kwt": {
+        "name": null,
+        "NOTES": []
+    },
+    "kwu": {
+        "name": null,
+        "NOTES": []
+    },
+    "kwv": {
+        "name": null,
+        "NOTES": []
+    },
+    "kww": {
+        "name": null,
+        "NOTES": []
+    },
+    "kwx": {
+        "name": null,
+        "NOTES": []
+    },
+    "kwy": {
+        "name": "Kongo del Sal Salvador",
+        "NOTES": [
+            "Direct reference not found",
+            "Subgroup of `kon`"
+        ]
+    },
+    "kwz": {
+        "name": null,
+        "NOTES": []
+    },
+    "kxa": {
+        "name": null,
+        "NOTES": []
+    },
+    "kxb": {
+        "name": null,
+        "NOTES": []
+    },
+    "kxc": {
+        "name": null,
+        "NOTES": []
+    },
+    "kxd": {
+        "name": null,
+        "NOTES": []
+    },
+    "kxf": {
+        "name": null,
+        "NOTES": []
+    },
+    "kxh": {
+        "name": null,
+        "NOTES": []
+    },
+    "kxi": {
+        "name": null,
+        "NOTES": []
+    },
+    "kxj": {
+        "name": null,
+        "NOTES": []
+    },
+    "kxk": {
+        "name": null,
+        "NOTES": []
+    },
+    "kxm": {
+        "name": null,
+        "NOTES": []
+    },
+    "kxn": {
+        "name": null,
+        "NOTES": []
+    },
+    "kxo": {
+        "name": null,
+        "NOTES": []
+    },
+    "kxp": {
+        "name": null,
+        "NOTES": []
+    },
+    "kxq": {
+        "name": null,
+        "NOTES": []
+    },
+    "kxr": {
+        "name": null,
+        "NOTES": []
+    },
+    "kxs": {
+        "name": null,
+        "NOTES": []
+    },
+    "kxt": {
+        "name": null,
+        "NOTES": []
+    },
+    "kxv": {
+        "name": null,
+        "NOTES": []
+    },
+    "kxw": {
+        "name": null,
+        "NOTES": []
+    },
+    "kxx": {
+        "name": null,
+        "NOTES": []
+    },
+    "kxy": {
+        "name": null,
+        "NOTES": []
+    },
+    "kxz": {
+        "name": null,
+        "NOTES": []
+    },
+    "kya": {
+        "name": null,
+        "NOTES": []
+    },
+    "kyb": {
+        "name": null,
+        "NOTES": []
+    },
+    "kyc": {
+        "name": null,
+        "NOTES": []
+    },
+    "kyd": {
+        "name": null,
+        "NOTES": []
+    },
+    "kye": {
+        "name": null,
+        "NOTES": []
+    },
+    "kyf": {
+        "name": null,
+        "NOTES": []
+    },
+    "kyg": {
+        "name": null,
+        "NOTES": []
+    },
+    "kyh": {
+        "name": null,
+        "NOTES": []
+    },
+    "kyi": {
+        "name": null,
+        "NOTES": []
+    },
+    "kyj": {
+        "name": null,
+        "NOTES": []
+    },
+    "kyk": {
+        "name": null,
+        "NOTES": []
+    },
+    "kyl": {
+        "name": null,
+        "NOTES": []
+    },
+    "kym": {
+        "name": null,
+        "NOTES": []
+    },
+    "kyn": {
+        "name": null,
+        "NOTES": []
+    },
+    "kyo": {
+        "name": null,
+        "NOTES": []
+    },
+    "kyp": {
+        "name": null,
+        "NOTES": []
+    },
+    "kyq": {
+        "name": null,
+        "NOTES": []
+    },
+    "kyr": {
+        "name": null,
+        "NOTES": []
+    },
+    "kys": {
+        "name": null,
+        "NOTES": []
+    },
+    "kyt": {
+        "name": null,
+        "NOTES": []
+    },
+    "kyu": {
+        "name": null,
+        "NOTES": []
+    },
+    "kyv": {
+        "name": null,
+        "NOTES": []
+    },
+    "kyw": {
+        "name": null,
+        "NOTES": []
+    },
+    "kyx": {
+        "name": null,
+        "NOTES": []
+    },
+    "kyy": {
+        "name": null,
+        "NOTES": []
+    },
+    "kyz": {
+        "name": null,
+        "NOTES": []
+    },
+    "kza": {
+        "name": null,
+        "NOTES": []
+    },
+    "kzb": {
+        "name": null,
+        "NOTES": []
+    },
+    "kzc": {
+        "name": null,
+        "NOTES": []
+    },
+    "kzd": {
+        "name": null,
+        "NOTES": []
+    },
+    "kze": {
+        "name": null,
+        "NOTES": []
+    },
+    "kzf": {
+        "name": null,
+        "NOTES": []
+    },
+    "kzg": {
+        "name": null,
+        "NOTES": []
+    },
+    "kzi": {
+        "name": null,
+        "NOTES": []
+    },
+    "kzk": {
+        "name": null,
+        "NOTES": []
+    },
+    "kzl": {
+        "name": null,
+        "NOTES": []
+    },
+    "kzm": {
+        "name": null,
+        "NOTES": []
+    },
+    "kzn": {
+        "name": null,
+        "NOTES": []
+    },
+    "kzo": {
+        "name": null,
+        "NOTES": []
+    },
+    "kzp": {
+        "name": null,
+        "NOTES": []
+    },
+    "kzq": {
+        "name": null,
+        "NOTES": []
+    },
+    "kzr": {
+        "name": null,
+        "NOTES": []
+    },
+    "kzs": {
+        "name": null,
+        "NOTES": []
+    },
+    "kzu": {
+        "name": null,
+        "NOTES": []
+    },
+    "kzv": {
+        "name": null,
+        "NOTES": []
+    },
+    "kzw": {
+        "name": null,
+        "NOTES": []
+    },
+    "kzx": {
+        "name": null,
+        "NOTES": []
+    },
+    "kzy": {
+        "name": null,
+        "NOTES": []
+    },
+    "kzz": {
+        "name": null,
+        "NOTES": []
+    },
+    "laa": {
+        "name": null,
+        "NOTES": []
+    },
+    "lab": {
+        "name": null,
+        "NOTES": []
+    },
+    "lac": {
+        "name": null,
+        "NOTES": []
+    },
+    "lad": {
+        "name": null,
+        "NOTES": []
+    },
+    "lae": {
+        "name": null,
+        "NOTES": []
+    },
+    "laf": {
+        "name": null,
+        "NOTES": []
+    },
+    "lag": {
+        "name": "Rangi, Langi",
+        "NOTES": [
+            "Direct reference not found"
+        ]
+    },
+    "lah": {
+        "name": null,
+        "NOTES": []
+    },
+    "lai": {
+        "name": null,
+        "NOTES": []
+    },
+    "laj": {
+        "name": null,
+        "NOTES": []
+    },
+    "lal": {
+        "name": null,
+        "NOTES": []
+    },
+    "lam": {
+        "name": null,
+        "NOTES": []
+    },
+    "lan": {
+        "name": null,
+        "NOTES": []
+    },
+    "lao": {
+        "name": "Lao, Laotiano, Laosiano",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_lao"
+        ]
+    },
+    "lap": {
+        "name": null,
+        "NOTES": []
+    },
+    "laq": {
+        "name": null,
+        "NOTES": []
+    },
+    "lar": {
+        "name": null,
+        "NOTES": []
+    },
+    "las": {
+        "name": null,
+        "NOTES": []
+    },
+    "lat": {
+        "name": "Latino",
+        "NOTES": []
+    },
+    "lau": {
+        "name": null,
+        "NOTES": []
+    },
+    "lav": {
+        "name": "Lettone",
+        "NOTES": []
+    },
+    "law": {
+        "name": null,
+        "NOTES": []
+    },
+    "lax": {
+        "name": null,
+        "NOTES": []
+    },
+    "lay": {
+        "name": null,
+        "NOTES": []
+    },
+    "laz": {
+        "name": null,
+        "NOTES": []
+    },
+    "lbb": {
+        "name": null,
+        "NOTES": []
+    },
+    "lbc": {
+        "name": null,
+        "NOTES": []
+    },
+    "lbe": {
+        "name": null,
+        "NOTES": []
+    },
+    "lbf": {
+        "name": null,
+        "NOTES": []
+    },
+    "lbg": {
+        "name": null,
+        "NOTES": []
+    },
+    "lbi": {
+        "name": null,
+        "NOTES": []
+    },
+    "lbj": {
+        "name": null,
+        "NOTES": []
+    },
+    "lbk": {
+        "name": null,
+        "NOTES": []
+    },
+    "lbl": {
+        "name": null,
+        "NOTES": []
+    },
+    "lbm": {
+        "name": null,
+        "NOTES": []
+    },
+    "lbn": {
+        "name": null,
+        "NOTES": []
+    },
+    "lbo": {
+        "name": null,
+        "NOTES": []
+    },
+    "lbq": {
+        "name": null,
+        "NOTES": []
+    },
+    "lbr": {
+        "name": null,
+        "NOTES": []
+    },
+    "lbs": {
+        "name": null,
+        "NOTES": []
+    },
+    "lbt": {
+        "name": null,
+        "NOTES": []
+    },
+    "lbu": {
+        "name": null,
+        "NOTES": []
+    },
+    "lbv": {
+        "name": null,
+        "NOTES": []
+    },
+    "lbw": {
+        "name": null,
+        "NOTES": []
+    },
+    "lbx": {
+        "name": null,
+        "NOTES": []
+    },
+    "lby": {
+        "name": null,
+        "NOTES": []
+    },
+    "lbz": {
+        "name": null,
+        "NOTES": []
+    },
+    "lcc": {
+        "name": null,
+        "NOTES": []
+    },
+    "lcd": {
+        "name": null,
+        "NOTES": []
+    },
+    "lce": {
+        "name": null,
+        "NOTES": []
+    },
+    "lcf": {
+        "name": null,
+        "NOTES": []
+    },
+    "lch": {
+        "name": null,
+        "NOTES": []
+    },
+    "lcl": {
+        "name": null,
+        "NOTES": []
+    },
+    "lcm": {
+        "name": null,
+        "NOTES": []
+    },
+    "lcp": {
+        "name": null,
+        "NOTES": []
+    },
+    "lcq": {
+        "name": null,
+        "NOTES": []
+    },
+    "lcs": {
+        "name": null,
+        "NOTES": []
+    },
+    "lda": {
+        "name": null,
+        "NOTES": []
+    },
+    "ldb": {
+        "name": null,
+        "NOTES": []
+    },
+    "ldd": {
+        "name": "Luri, Lurish",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_luri"
+        ]
+    },
+    "ldg": {
+        "name": null,
+        "NOTES": []
+    },
+    "ldh": {
+        "name": null,
+        "NOTES": []
+    },
+    "ldi": {
+        "name": "Laari",
+        "NOTES": [
+            "Direct reference not found",
+            "Subgroup of `kon`"
+        ]
+    },
+    "ldj": {
+        "name": null,
+        "NOTES": []
+    },
+    "ldk": {
+        "name": null,
+        "NOTES": []
+    },
+    "ldl": {
+        "name": null,
+        "NOTES": []
+    },
+    "ldm": {
+        "name": null,
+        "NOTES": []
+    },
+    "ldn": {
+        "name": null,
+        "NOTES": []
+    },
+    "ldo": {
+        "name": null,
+        "NOTES": []
+    },
+    "ldp": {
+        "name": null,
+        "NOTES": []
+    },
+    "ldq": {
+        "name": null,
+        "NOTES": []
+    },
+    "lea": {
+        "name": null,
+        "NOTES": []
+    },
+    "leb": {
+        "name": null,
+        "NOTES": []
+    },
+    "lec": {
+        "name": null,
+        "NOTES": []
+    },
+    "led": {
+        "name": null,
+        "NOTES": []
+    },
+    "lee": {
+        "name": null,
+        "NOTES": []
+    },
+    "lef": {
+        "name": null,
+        "NOTES": []
+    },
+    "leh": {
+        "name": null,
+        "NOTES": []
+    },
+    "lei": {
+        "name": null,
+        "NOTES": []
+    },
+    "lej": {
+        "name": null,
+        "NOTES": []
+    },
+    "lek": {
+        "name": null,
+        "NOTES": []
+    },
+    "lel": {
+        "name": null,
+        "NOTES": []
+    },
+    "lem": {
+        "name": null,
+        "NOTES": []
+    },
+    "len": {
+        "name": null,
+        "NOTES": []
+    },
+    "leo": {
+        "name": null,
+        "NOTES": []
+    },
+    "lep": {
+        "name": null,
+        "NOTES": []
+    },
+    "leq": {
+        "name": null,
+        "NOTES": []
+    },
+    "ler": {
+        "name": null,
+        "NOTES": []
+    },
+    "les": {
+        "name": null,
+        "NOTES": []
+    },
+    "let": {
+        "name": null,
+        "NOTES": []
+    },
+    "leu": {
+        "name": null,
+        "NOTES": []
+    },
+    "lev": {
+        "name": null,
+        "NOTES": []
+    },
+    "lew": {
+        "name": null,
+        "NOTES": []
+    },
+    "lex": {
+        "name": null,
+        "NOTES": []
+    },
+    "ley": {
+        "name": null,
+        "NOTES": []
+    },
+    "lez": {
+        "name": null,
+        "NOTES": []
+    },
+    "lfa": {
+        "name": null,
+        "NOTES": []
+    },
+    "lfn": {
+        "name": null,
+        "NOTES": []
+    },
+    "lga": {
+        "name": null,
+        "NOTES": []
+    },
+    "lgb": {
+        "name": null,
+        "NOTES": []
+    },
+    "lgg": {
+        "name": null,
+        "NOTES": []
+    },
+    "lgh": {
+        "name": null,
+        "NOTES": []
+    },
+    "lgi": {
+        "name": null,
+        "NOTES": []
+    },
+    "lgk": {
+        "name": null,
+        "NOTES": []
+    },
+    "lgl": {
+        "name": null,
+        "NOTES": []
+    },
+    "lgm": {
+        "name": null,
+        "NOTES": []
+    },
+    "lgn": {
+        "name": null,
+        "NOTES": []
+    },
+    "lgo": {
+        "name": null,
+        "NOTES": []
+    },
+    "lgq": {
+        "name": null,
+        "NOTES": []
+    },
+    "lgr": {
+        "name": null,
+        "NOTES": []
+    },
+    "lgs": {
+        "name": null,
+        "NOTES": []
+    },
+    "lgt": {
+        "name": null,
+        "NOTES": []
+    },
+    "lgu": {
+        "name": null,
+        "NOTES": []
+    },
+    "lgz": {
+        "name": null,
+        "NOTES": []
+    },
+    "lha": {
+        "name": null,
+        "NOTES": []
+    },
+    "lhh": {
+        "name": null,
+        "NOTES": []
+    },
+    "lhi": {
+        "name": null,
+        "NOTES": []
+    },
+    "lhl": {
+        "name": null,
+        "NOTES": []
+    },
+    "lhm": {
+        "name": null,
+        "NOTES": []
+    },
+    "lhn": {
+        "name": null,
+        "NOTES": []
+    },
+    "lhp": {
+        "name": null,
+        "NOTES": []
+    },
+    "lhs": {
+        "name": null,
+        "NOTES": []
+    },
+    "lht": {
+        "name": null,
+        "NOTES": []
+    },
+    "lhu": {
+        "name": null,
+        "NOTES": []
+    },
+    "lia": {
+        "name": null,
+        "NOTES": []
+    },
+    "lib": {
+        "name": null,
+        "NOTES": []
+    },
+    "lic": {
+        "name": null,
+        "NOTES": []
+    },
+    "lid": {
+        "name": null,
+        "NOTES": []
+    },
+    "lie": {
+        "name": null,
+        "NOTES": []
+    },
+    "lif": {
+        "name": null,
+        "NOTES": []
+    },
+    "lig": {
+        "name": null,
+        "NOTES": []
+    },
+    "lih": {
+        "name": null,
+        "NOTES": []
+    },
+    "lij": {
+        "name": null,
+        "NOTES": []
+    },
+    "lik": {
+        "name": null,
+        "NOTES": []
+    },
+    "lil": {
+        "name": null,
+        "NOTES": []
+    },
+    "lim": {
+        "name": "Limburghese",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_limburghese"
+        ]
+    },
+    "lin": {
+        "name": "Lingala, Mangala",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_lingala"
+        ]
+    },
+    "lio": {
+        "name": null,
+        "NOTES": []
+    },
+    "lip": {
+        "name": null,
+        "NOTES": []
+    },
+    "liq": {
+        "name": null,
+        "NOTES": []
+    },
+    "lir": {
+        "name": null,
+        "NOTES": []
+    },
+    "lis": {
+        "name": null,
+        "NOTES": []
+    },
+    "lit": {
+        "name": "Lituano",
+        "NOTES": []
+    },
+    "liu": {
+        "name": null,
+        "NOTES": []
+    },
+    "liv": {
+        "name": null,
+        "NOTES": []
+    },
+    "liw": {
+        "name": null,
+        "NOTES": []
+    },
+    "lix": {
+        "name": null,
+        "NOTES": []
+    },
+    "liy": {
+        "name": null,
+        "NOTES": []
+    },
+    "liz": {
+        "name": null,
+        "NOTES": []
+    },
+    "lja": {
+        "name": null,
+        "NOTES": []
+    },
+    "lje": {
+        "name": null,
+        "NOTES": []
+    },
+    "lji": {
+        "name": null,
+        "NOTES": []
+    },
+    "ljl": {
+        "name": null,
+        "NOTES": []
+    },
+    "ljp": {
+        "name": null,
+        "NOTES": []
+    },
+    "ljw": {
+        "name": null,
+        "NOTES": []
+    },
+    "ljx": {
+        "name": null,
+        "NOTES": []
+    },
+    "lka": {
+        "name": null,
+        "NOTES": []
+    },
+    "lkb": {
+        "name": null,
+        "NOTES": []
+    },
+    "lkc": {
+        "name": null,
+        "NOTES": []
+    },
+    "lkd": {
+        "name": null,
+        "NOTES": []
+    },
+    "lke": {
+        "name": null,
+        "NOTES": []
+    },
+    "lkh": {
+        "name": null,
+        "NOTES": []
+    },
+    "lki": {
+        "name": null,
+        "NOTES": []
+    },
+    "lkj": {
+        "name": null,
+        "NOTES": []
+    },
+    "lkl": {
+        "name": null,
+        "NOTES": []
+    },
+    "lkm": {
+        "name": null,
+        "NOTES": []
+    },
+    "lkn": {
+        "name": null,
+        "NOTES": []
+    },
+    "lko": {
+        "name": null,
+        "NOTES": []
+    },
+    "lkr": {
+        "name": null,
+        "NOTES": []
+    },
+    "lks": {
+        "name": null,
+        "NOTES": []
+    },
+    "lkt": {
+        "name": "Lakota, Lakhota, Lakotiyapi, Teton",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_lakota"
+        ]
+    },
+    "lku": {
+        "name": null,
+        "NOTES": []
+    },
+    "lky": {
+        "name": null,
+        "NOTES": []
+    },
+    "lla": {
+        "name": null,
+        "NOTES": []
+    },
+    "llb": {
+        "name": null,
+        "NOTES": []
+    },
+    "llc": {
+        "name": null,
+        "NOTES": []
+    },
+    "lld": {
+        "name": null,
+        "NOTES": []
+    },
+    "lle": {
+        "name": null,
+        "NOTES": []
+    },
+    "llf": {
+        "name": null,
+        "NOTES": []
+    },
+    "llg": {
+        "name": null,
+        "NOTES": []
+    },
+    "llh": {
+        "name": null,
+        "NOTES": []
+    },
+    "lli": {
+        "name": null,
+        "NOTES": []
+    },
+    "llj": {
+        "name": null,
+        "NOTES": []
+    },
+    "llk": {
+        "name": null,
+        "NOTES": []
+    },
+    "lll": {
+        "name": null,
+        "NOTES": []
+    },
+    "llm": {
+        "name": null,
+        "NOTES": []
+    },
+    "lln": {
+        "name": null,
+        "NOTES": []
+    },
+    "llp": {
+        "name": null,
+        "NOTES": []
+    },
+    "llq": {
+        "name": null,
+        "NOTES": []
+    },
+    "lls": {
+        "name": null,
+        "NOTES": []
+    },
+    "llu": {
+        "name": null,
+        "NOTES": []
+    },
+    "llx": {
+        "name": null,
+        "NOTES": []
+    },
+    "lma": {
+        "name": null,
+        "NOTES": []
+    },
+    "lmb": {
+        "name": null,
+        "NOTES": []
+    },
+    "lmc": {
+        "name": null,
+        "NOTES": []
+    },
+    "lmd": {
+        "name": null,
+        "NOTES": []
+    },
+    "lme": {
+        "name": null,
+        "NOTES": []
+    },
+    "lmf": {
+        "name": null,
+        "NOTES": []
+    },
+    "lmg": {
+        "name": null,
+        "NOTES": []
+    },
+    "lmh": {
+        "name": null,
+        "NOTES": []
+    },
+    "lmi": {
+        "name": null,
+        "NOTES": []
+    },
+    "lmj": {
+        "name": null,
+        "NOTES": []
+    },
+    "lmk": {
+        "name": null,
+        "NOTES": []
+    },
+    "lml": {
+        "name": null,
+        "NOTES": []
+    },
+    "lmn": {
+        "name": null,
+        "NOTES": []
+    },
+    "lmo": {
+        "name": null,
+        "NOTES": []
+    },
+    "lmp": {
+        "name": null,
+        "NOTES": []
+    },
+    "lmq": {
+        "name": null,
+        "NOTES": []
+    },
+    "lmr": {
+        "name": null,
+        "NOTES": []
+    },
+    "lmu": {
+        "name": null,
+        "NOTES": []
+    },
+    "lmv": {
+        "name": null,
+        "NOTES": []
+    },
+    "lmw": {
+        "name": null,
+        "NOTES": []
+    },
+    "lmx": {
+        "name": null,
+        "NOTES": []
+    },
+    "lmy": {
+        "name": null,
+        "NOTES": []
+    },
+    "lna": {
+        "name": null,
+        "NOTES": []
+    },
+    "lnb": {
+        "name": null,
+        "NOTES": []
+    },
+    "lnd": {
+        "name": null,
+        "NOTES": []
+    },
+    "lng": {
+        "name": null,
+        "NOTES": []
+    },
+    "lnh": {
+        "name": null,
+        "NOTES": []
+    },
+    "lni": {
+        "name": null,
+        "NOTES": []
+    },
+    "lnj": {
+        "name": null,
+        "NOTES": []
+    },
+    "lnl": {
+        "name": null,
+        "NOTES": []
+    },
+    "lnm": {
+        "name": null,
+        "NOTES": []
+    },
+    "lnn": {
+        "name": null,
+        "NOTES": []
+    },
+    "lns": {
+        "name": null,
+        "NOTES": []
+    },
+    "lnu": {
+        "name": null,
+        "NOTES": []
+    },
+    "lnw": {
+        "name": null,
+        "NOTES": []
+    },
+    "lnz": {
+        "name": null,
+        "NOTES": []
+    },
+    "loa": {
+        "name": null,
+        "NOTES": []
+    },
+    "lob": {
+        "name": null,
+        "NOTES": []
+    },
+    "loc": {
+        "name": null,
+        "NOTES": []
+    },
+    "loe": {
+        "name": null,
+        "NOTES": []
+    },
+    "lof": {
+        "name": null,
+        "NOTES": []
+    },
+    "log": {
+        "name": null,
+        "NOTES": []
+    },
+    "loh": {
+        "name": null,
+        "NOTES": []
+    },
+    "loi": {
+        "name": null,
+        "NOTES": []
+    },
+    "loj": {
+        "name": null,
+        "NOTES": []
+    },
+    "lok": {
+        "name": null,
+        "NOTES": []
+    },
+    "lol": {
+        "name": null,
+        "NOTES": []
+    },
+    "lom": {
+        "name": null,
+        "NOTES": []
+    },
+    "lon": {
+        "name": null,
+        "NOTES": []
+    },
+    "loo": {
+        "name": null,
+        "NOTES": []
+    },
+    "lop": {
+        "name": null,
+        "NOTES": []
+    },
+    "loq": {
+        "name": null,
+        "NOTES": []
+    },
+    "lor": {
+        "name": null,
+        "NOTES": []
+    },
+    "los": {
+        "name": null,
+        "NOTES": []
+    },
+    "lot": {
+        "name": null,
+        "NOTES": []
+    },
+    "lou": {
+        "name": null,
+        "NOTES": []
+    },
+    "lov": {
+        "name": null,
+        "NOTES": []
+    },
+    "low": {
+        "name": null,
+        "NOTES": []
+    },
+    "lox": {
+        "name": null,
+        "NOTES": []
+    },
+    "loy": {
+        "name": null,
+        "NOTES": []
+    },
+    "loz": {
+        "name": null,
+        "NOTES": []
+    },
+    "lpa": {
+        "name": null,
+        "NOTES": []
+    },
+    "lpe": {
+        "name": null,
+        "NOTES": []
+    },
+    "lpn": {
+        "name": null,
+        "NOTES": []
+    },
+    "lpo": {
+        "name": null,
+        "NOTES": []
+    },
+    "lpx": {
+        "name": null,
+        "NOTES": []
+    },
+    "lqr": {
+        "name": null,
+        "NOTES": []
+    },
+    "lra": {
+        "name": null,
+        "NOTES": []
+    },
+    "lrc": {
+        "name": "Luri (Lurish) del Nord",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_luri"
+        ]
+    },
+    "lre": {
+        "name": null,
+        "NOTES": []
+    },
+    "lrg": {
+        "name": null,
+        "NOTES": []
+    },
+    "lri": {
+        "name": null,
+        "NOTES": []
+    },
+    "lrk": {
+        "name": null,
+        "NOTES": []
+    },
+    "lrl": {
+        "name": null,
+        "NOTES": []
+    },
+    "lrm": {
+        "name": null,
+        "NOTES": []
+    },
+    "lrn": {
+        "name": null,
+        "NOTES": []
+    },
+    "lro": {
+        "name": null,
+        "NOTES": []
+    },
+    "lrr": {
+        "name": null,
+        "NOTES": []
+    },
+    "lrt": {
+        "name": null,
+        "NOTES": []
+    },
+    "lrv": {
+        "name": null,
+        "NOTES": []
+    },
+    "lrz": {
+        "name": null,
+        "NOTES": []
+    },
+    "lsa": {
+        "name": null,
+        "NOTES": []
+    },
+    "lsb": {
+        "name": null,
+        "NOTES": []
+    },
+    "lsc": {
+        "name": null,
+        "NOTES": []
+    },
+    "lsd": {
+        "name": null,
+        "NOTES": []
+    },
+    "lse": {
+        "name": null,
+        "NOTES": []
+    },
+    "lsh": {
+        "name": null,
+        "NOTES": []
+    },
+    "lsi": {
+        "name": null,
+        "NOTES": []
+    },
+    "lsl": {
+        "name": null,
+        "NOTES": []
+    },
+    "lsm": {
+        "name": null,
+        "NOTES": []
+    },
+    "lsn": {
+        "name": null,
+        "NOTES": []
+    },
+    "lso": {
+        "name": null,
+        "NOTES": []
+    },
+    "lsp": {
+        "name": null,
+        "NOTES": []
+    },
+    "lsr": {
+        "name": null,
+        "NOTES": []
+    },
+    "lss": {
+        "name": null,
+        "NOTES": []
+    },
+    "lst": {
+        "name": null,
+        "NOTES": []
+    },
+    "lsv": {
+        "name": null,
+        "NOTES": []
+    },
+    "lsw": {
+        "name": null,
+        "NOTES": []
+    },
+    "lsy": {
+        "name": null,
+        "NOTES": []
+    },
+    "ltc": {
+        "name": null,
+        "NOTES": []
+    },
+    "ltg": {
+        "name": null,
+        "NOTES": []
+    },
+    "lth": {
+        "name": null,
+        "NOTES": []
+    },
+    "lti": {
+        "name": null,
+        "NOTES": []
+    },
+    "ltn": {
+        "name": null,
+        "NOTES": []
+    },
+    "lto": {
+        "name": null,
+        "NOTES": []
+    },
+    "lts": {
+        "name": null,
+        "NOTES": []
+    },
+    "ltu": {
+        "name": null,
+        "NOTES": []
+    },
+    "ltz": {
+        "name": "Lussemburghese",
+        "NOTES": []
+    },
+    "lua": {
+        "name": "Tshiluba, Luba-Kasai",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_tshiluba"
+        ]
+    },
+    "lub": {
+        "name": "Kiluba, Luba, Luba-Katanga",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_kiluba"
+        ]
+    },
+    "luc": {
+        "name": null,
+        "NOTES": []
+    },
+    "lud": {
+        "name": null,
+        "NOTES": []
+    },
+    "lue": {
+        "name": null,
+        "NOTES": []
+    },
+    "luf": {
+        "name": null,
+        "NOTES": []
+    },
+    "lug": {
+        "name": "Ganda, Luganda, Oluganda",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_luganda"
+        ]
+    },
+    "luh": {
+        "name": null,
+        "NOTES": []
+    },
+    "lui": {
+        "name": null,
+        "NOTES": []
+    },
+    "luj": {
+        "name": null,
+        "NOTES": []
+    },
+    "luk": {
+        "name": null,
+        "NOTES": []
+    },
+    "lul": {
+        "name": null,
+        "NOTES": []
+    },
+    "lum": {
+        "name": null,
+        "NOTES": []
+    },
+    "lun": {
+        "name": null,
+        "NOTES": []
+    },
+    "luo": {
+        "name": "Luo, Dholuo",
+        "NOTES": [
+            "Direct reference not found"
+        ]
+    },
+    "lup": {
+        "name": null,
+        "NOTES": []
+    },
+    "luq": {
+        "name": null,
+        "NOTES": []
+    },
+    "lur": {
+        "name": null,
+        "NOTES": []
+    },
+    "lus": {
+        "name": null,
+        "NOTES": []
+    },
+    "lut": {
+        "name": null,
+        "NOTES": []
+    },
+    "luu": {
+        "name": null,
+        "NOTES": []
+    },
+    "luv": {
+        "name": null,
+        "NOTES": []
+    },
+    "luw": {
+        "name": null,
+        "NOTES": []
+    },
+    "luy": {
+        "name": "Luyia, Oluluyia, Luhia, Luhiya",
+        "NOTES": [
+            "Direct reference not found"
+        ]
+    },
+    "luz": {
+        "name": "Luri (Lurish) del Sud",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_luri"
+        ]
+    },
+    "lva": {
+        "name": null,
+        "NOTES": []
+    },
+    "lvi": {
+        "name": null,
+        "NOTES": []
+    },
+    "lvk": {
+        "name": null,
+        "NOTES": []
+    },
+    "lvl": {
+        "name": null,
+        "NOTES": []
+    },
+    "lvs": {
+        "name": null,
+        "NOTES": []
+    },
+    "lvu": {
+        "name": null,
+        "NOTES": []
+    },
+    "lwa": {
+        "name": null,
+        "NOTES": []
+    },
+    "lwe": {
+        "name": null,
+        "NOTES": []
+    },
+    "lwg": {
+        "name": null,
+        "NOTES": []
+    },
+    "lwh": {
+        "name": null,
+        "NOTES": []
+    },
+    "lwl": {
+        "name": null,
+        "NOTES": []
+    },
+    "lwm": {
+        "name": null,
+        "NOTES": []
+    },
+    "lwo": {
+        "name": null,
+        "NOTES": []
+    },
+    "lws": {
+        "name": null,
+        "NOTES": []
+    },
+    "lwt": {
+        "name": null,
+        "NOTES": []
+    },
+    "lwu": {
+        "name": null,
+        "NOTES": []
+    },
+    "lww": {
+        "name": null,
+        "NOTES": []
+    },
+    "lxm": {
+        "name": null,
+        "NOTES": []
+    },
+    "lya": {
+        "name": null,
+        "NOTES": []
+    },
+    "lyg": {
+        "name": null,
+        "NOTES": []
+    },
+    "lyn": {
+        "name": null,
+        "NOTES": []
+    },
+    "lzh": {
+        "name": null,
+        "NOTES": []
+    },
+    "lzl": {
+        "name": null,
+        "NOTES": []
+    },
+    "lzn": {
+        "name": null,
+        "NOTES": []
+    },
+    "lzz": {
+        "name": null,
+        "NOTES": []
+    },
+    "maa": {
+        "name": null,
+        "NOTES": []
+    },
+    "mab": {
+        "name": null,
+        "NOTES": []
+    },
+    "mad": {
+        "name": null,
+        "NOTES": []
+    },
+    "mae": {
+        "name": null,
+        "NOTES": []
+    },
+    "maf": {
+        "name": null,
+        "NOTES": []
+    },
+    "mag": {
+        "name": null,
+        "NOTES": []
+    },
+    "mah": {
+        "name": "Marshallese",
+        "NOTES": [
+            "https://www.treccani.it/vocabolario/marshallese/?search=marshall%C3%A9se%2F"
+        ]
+    },
+    "mai": {
+        "name": null,
+        "NOTES": []
+    },
+    "maj": {
+        "name": null,
+        "NOTES": []
+    },
+    "mak": {
+        "name": null,
+        "NOTES": []
+    },
+    "mal": {
+        "name": "Malayalam",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_malay%C4%81la%E1%B9%83"
+        ]
+    },
+    "mam": {
+        "name": null,
+        "NOTES": []
+    },
+    "man": {
+        "name": null,
+        "NOTES": []
+    },
+    "maq": {
+        "name": null,
+        "NOTES": []
+    },
+    "mar": {
+        "name": "Marathi, Maratti, Maratino",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_mar%C4%81%E1%B9%ADhi",
+            "https://www.treccani.it/enciclopedia/marathi/?search=Mar%C4%81%E1%B9%ADhi%2F"
+        ]
+    },
+    "mas": {
+        "name": "Masai",
+        "NOTES": []
+    },
+    "mat": {
+        "name": null,
+        "NOTES": []
+    },
+    "mau": {
+        "name": null,
+        "NOTES": []
+    },
+    "mav": {
+        "name": null,
+        "NOTES": []
+    },
+    "maw": {
+        "name": null,
+        "NOTES": []
+    },
+    "max": {
+        "name": null,
+        "NOTES": []
+    },
+    "maz": {
+        "name": null,
+        "NOTES": []
+    },
+    "mba": {
+        "name": null,
+        "NOTES": []
+    },
+    "mbb": {
+        "name": null,
+        "NOTES": []
+    },
+    "mbc": {
+        "name": null,
+        "NOTES": []
+    },
+    "mbd": {
+        "name": null,
+        "NOTES": []
+    },
+    "mbe": {
+        "name": null,
+        "NOTES": []
+    },
+    "mbf": {
+        "name": null,
+        "NOTES": []
+    },
+    "mbh": {
+        "name": null,
+        "NOTES": []
+    },
+    "mbi": {
+        "name": null,
+        "NOTES": []
+    },
+    "mbj": {
+        "name": null,
+        "NOTES": []
+    },
+    "mbk": {
+        "name": null,
+        "NOTES": []
+    },
+    "mbl": {
+        "name": null,
+        "NOTES": []
+    },
+    "mbm": {
+        "name": null,
+        "NOTES": []
+    },
+    "mbn": {
+        "name": null,
+        "NOTES": []
+    },
+    "mbo": {
+        "name": null,
+        "NOTES": []
+    },
+    "mbp": {
+        "name": null,
+        "NOTES": []
+    },
+    "mbq": {
+        "name": null,
+        "NOTES": []
+    },
+    "mbr": {
+        "name": null,
+        "NOTES": []
+    },
+    "mbs": {
+        "name": null,
+        "NOTES": []
+    },
+    "mbt": {
+        "name": null,
+        "NOTES": []
+    },
+    "mbu": {
+        "name": null,
+        "NOTES": []
+    },
+    "mbv": {
+        "name": null,
+        "NOTES": []
+    },
+    "mbw": {
+        "name": null,
+        "NOTES": []
+    },
+    "mbx": {
+        "name": null,
+        "NOTES": []
+    },
+    "mby": {
+        "name": null,
+        "NOTES": []
+    },
+    "mbz": {
+        "name": null,
+        "NOTES": []
+    },
+    "mca": {
+        "name": null,
+        "NOTES": []
+    },
+    "mcb": {
+        "name": null,
+        "NOTES": []
+    },
+    "mcc": {
+        "name": null,
+        "NOTES": []
+    },
+    "mcd": {
+        "name": null,
+        "NOTES": []
+    },
+    "mce": {
+        "name": null,
+        "NOTES": []
+    },
+    "mcf": {
+        "name": null,
+        "NOTES": []
+    },
+    "mcg": {
+        "name": null,
+        "NOTES": []
+    },
+    "mch": {
+        "name": null,
+        "NOTES": []
+    },
+    "mci": {
+        "name": null,
+        "NOTES": []
+    },
+    "mcj": {
+        "name": null,
+        "NOTES": []
+    },
+    "mck": {
+        "name": null,
+        "NOTES": []
+    },
+    "mcl": {
+        "name": null,
+        "NOTES": []
+    },
+    "mcm": {
+        "name": null,
+        "NOTES": []
+    },
+    "mcn": {
+        "name": null,
+        "NOTES": []
+    },
+    "mco": {
+        "name": null,
+        "NOTES": []
+    },
+    "mcp": {
+        "name": null,
+        "NOTES": []
+    },
+    "mcq": {
+        "name": null,
+        "NOTES": []
+    },
+    "mcr": {
+        "name": null,
+        "NOTES": []
+    },
+    "mcs": {
+        "name": null,
+        "NOTES": []
+    },
+    "mct": {
+        "name": null,
+        "NOTES": []
+    },
+    "mcu": {
+        "name": null,
+        "NOTES": []
+    },
+    "mcv": {
+        "name": null,
+        "NOTES": []
+    },
+    "mcw": {
+        "name": null,
+        "NOTES": []
+    },
+    "mcx": {
+        "name": null,
+        "NOTES": []
+    },
+    "mcy": {
+        "name": null,
+        "NOTES": []
+    },
+    "mcz": {
+        "name": null,
+        "NOTES": []
+    },
+    "mda": {
+        "name": null,
+        "NOTES": []
+    },
+    "mdb": {
+        "name": null,
+        "NOTES": []
+    },
+    "mdc": {
+        "name": null,
+        "NOTES": []
+    },
+    "mdd": {
+        "name": null,
+        "NOTES": []
+    },
+    "mde": {
+        "name": null,
+        "NOTES": []
+    },
+    "mdf": {
+        "name": null,
+        "NOTES": []
+    },
+    "mdg": {
+        "name": null,
+        "NOTES": []
+    },
+    "mdh": {
+        "name": null,
+        "NOTES": []
+    },
+    "mdi": {
+        "name": null,
+        "NOTES": []
+    },
+    "mdj": {
+        "name": null,
+        "NOTES": []
+    },
+    "mdk": {
+        "name": null,
+        "NOTES": []
+    },
+    "mdl": {
+        "name": null,
+        "NOTES": []
+    },
+    "mdm": {
+        "name": null,
+        "NOTES": []
+    },
+    "mdn": {
+        "name": null,
+        "NOTES": []
+    },
+    "mdp": {
+        "name": null,
+        "NOTES": []
+    },
+    "mdq": {
+        "name": null,
+        "NOTES": []
+    },
+    "mdr": {
+        "name": null,
+        "NOTES": []
+    },
+    "mds": {
+        "name": null,
+        "NOTES": []
+    },
+    "mdt": {
+        "name": null,
+        "NOTES": []
+    },
+    "mdu": {
+        "name": null,
+        "NOTES": []
+    },
+    "mdv": {
+        "name": null,
+        "NOTES": []
+    },
+    "mdw": {
+        "name": null,
+        "NOTES": []
+    },
+    "mdx": {
+        "name": null,
+        "NOTES": []
+    },
+    "mdy": {
+        "name": null,
+        "NOTES": []
+    },
+    "mdz": {
+        "name": null,
+        "NOTES": []
+    },
+    "mea": {
+        "name": null,
+        "NOTES": []
+    },
+    "meb": {
+        "name": null,
+        "NOTES": []
+    },
+    "mec": {
+        "name": null,
+        "NOTES": []
+    },
+    "med": {
+        "name": null,
+        "NOTES": []
+    },
+    "mee": {
+        "name": null,
+        "NOTES": []
+    },
+    "mef": {
+        "name": null,
+        "NOTES": []
+    },
+    "meh": {
+        "name": null,
+        "NOTES": []
+    },
+    "mei": {
+        "name": null,
+        "NOTES": []
+    },
+    "mej": {
+        "name": null,
+        "NOTES": []
+    },
+    "mek": {
+        "name": null,
+        "NOTES": []
+    },
+    "mel": {
+        "name": null,
+        "NOTES": []
+    },
+    "mem": {
+        "name": null,
+        "NOTES": []
+    },
+    "men": {
+        "name": null,
+        "NOTES": []
+    },
+    "meo": {
+        "name": null,
+        "NOTES": []
+    },
+    "mep": {
+        "name": null,
+        "NOTES": []
+    },
+    "meq": {
+        "name": null,
+        "NOTES": []
+    },
+    "mer": {
+        "name": "Meru",
+        "NOTES": [
+            "Direct reference not found"
+        ]
+    },
+    "mes": {
+        "name": null,
+        "NOTES": []
+    },
+    "met": {
+        "name": null,
+        "NOTES": []
+    },
+    "meu": {
+        "name": null,
+        "NOTES": []
+    },
+    "mev": {
+        "name": null,
+        "NOTES": []
+    },
+    "mew": {
+        "name": null,
+        "NOTES": []
+    },
+    "mey": {
+        "name": null,
+        "NOTES": []
+    },
+    "mez": {
+        "name": null,
+        "NOTES": []
+    },
+    "mfa": {
+        "name": null,
+        "NOTES": []
+    },
+    "mfb": {
+        "name": null,
+        "NOTES": []
+    },
+    "mfc": {
+        "name": null,
+        "NOTES": []
+    },
+    "mfd": {
+        "name": null,
+        "NOTES": []
+    },
+    "mfe": {
+        "name": "Creolo mauriziano, Morisyen",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Creolo_mauriziano"
+        ]
+    },
+    "mff": {
+        "name": null,
+        "NOTES": []
+    },
+    "mfg": {
+        "name": null,
+        "NOTES": []
+    },
+    "mfh": {
+        "name": null,
+        "NOTES": []
+    },
+    "mfi": {
+        "name": null,
+        "NOTES": []
+    },
+    "mfj": {
+        "name": null,
+        "NOTES": []
+    },
+    "mfk": {
+        "name": null,
+        "NOTES": []
+    },
+    "mfl": {
+        "name": null,
+        "NOTES": []
+    },
+    "mfm": {
+        "name": null,
+        "NOTES": []
+    },
+    "mfn": {
+        "name": null,
+        "NOTES": []
+    },
+    "mfo": {
+        "name": null,
+        "NOTES": []
+    },
+    "mfp": {
+        "name": null,
+        "NOTES": []
+    },
+    "mfq": {
+        "name": null,
+        "NOTES": []
+    },
+    "mfr": {
+        "name": null,
+        "NOTES": []
+    },
+    "mfs": {
+        "name": null,
+        "NOTES": []
+    },
+    "mft": {
+        "name": null,
+        "NOTES": []
+    },
+    "mfu": {
+        "name": null,
+        "NOTES": []
+    },
+    "mfv": {
+        "name": null,
+        "NOTES": []
+    },
+    "mfw": {
+        "name": null,
+        "NOTES": []
+    },
+    "mfx": {
+        "name": null,
+        "NOTES": []
+    },
+    "mfy": {
+        "name": null,
+        "NOTES": []
+    },
+    "mfz": {
+        "name": null,
+        "NOTES": []
+    },
+    "mga": {
+        "name": null,
+        "NOTES": []
+    },
+    "mgb": {
+        "name": null,
+        "NOTES": []
+    },
+    "mgc": {
+        "name": null,
+        "NOTES": []
+    },
+    "mgd": {
+        "name": null,
+        "NOTES": []
+    },
+    "mge": {
+        "name": null,
+        "NOTES": []
+    },
+    "mgf": {
+        "name": null,
+        "NOTES": []
+    },
+    "mgg": {
+        "name": null,
+        "NOTES": []
+    },
+    "mgh": {
+        "name": "Makhuwa, Macua",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_makhuwa"
+        ]
+    },
+    "mgi": {
+        "name": null,
+        "NOTES": []
+    },
+    "mgj": {
+        "name": null,
+        "NOTES": []
+    },
+    "mgk": {
+        "name": null,
+        "NOTES": []
+    },
+    "mgl": {
+        "name": null,
+        "NOTES": []
+    },
+    "mgm": {
+        "name": null,
+        "NOTES": []
+    },
+    "mgn": {
+        "name": null,
+        "NOTES": []
+    },
+    "mgo": {
+        "name": "Metaʼ",
+        "NOTES": [
+            "Direct reference not found"
+        ]
+    },
+    "mgp": {
+        "name": null,
+        "NOTES": []
+    },
+    "mgq": {
+        "name": null,
+        "NOTES": []
+    },
+    "mgr": {
+        "name": null,
+        "NOTES": []
+    },
+    "mgs": {
+        "name": null,
+        "NOTES": []
+    },
+    "mgt": {
+        "name": null,
+        "NOTES": []
+    },
+    "mgu": {
+        "name": null,
+        "NOTES": []
+    },
+    "mgv": {
+        "name": null,
+        "NOTES": []
+    },
+    "mgw": {
+        "name": null,
+        "NOTES": []
+    },
+    "mgy": {
+        "name": null,
+        "NOTES": []
+    },
+    "mgz": {
+        "name": null,
+        "NOTES": []
+    },
+    "mha": {
+        "name": null,
+        "NOTES": []
+    },
+    "mhb": {
+        "name": null,
+        "NOTES": []
+    },
+    "mhc": {
+        "name": null,
+        "NOTES": []
+    },
+    "mhd": {
+        "name": null,
+        "NOTES": []
+    },
+    "mhe": {
+        "name": null,
+        "NOTES": []
+    },
+    "mhf": {
+        "name": null,
+        "NOTES": []
+    },
+    "mhg": {
+        "name": null,
+        "NOTES": []
+    },
+    "mhi": {
+        "name": null,
+        "NOTES": []
+    },
+    "mhj": {
+        "name": null,
+        "NOTES": []
+    },
+    "mhk": {
+        "name": null,
+        "NOTES": []
+    },
+    "mhl": {
+        "name": null,
+        "NOTES": []
+    },
+    "mhm": {
+        "name": null,
+        "NOTES": []
+    },
+    "mhn": {
+        "name": null,
+        "NOTES": []
+    },
+    "mho": {
+        "name": null,
+        "NOTES": []
+    },
+    "mhp": {
+        "name": null,
+        "NOTES": []
+    },
+    "mhq": {
+        "name": null,
+        "NOTES": []
+    },
+    "mhr": {
+        "name": null,
+        "NOTES": []
+    },
+    "mhs": {
+        "name": null,
+        "NOTES": []
+    },
+    "mht": {
+        "name": null,
+        "NOTES": []
+    },
+    "mhu": {
+        "name": null,
+        "NOTES": []
+    },
+    "mhw": {
+        "name": null,
+        "NOTES": []
+    },
+    "mhx": {
+        "name": null,
+        "NOTES": []
+    },
+    "mhy": {
+        "name": null,
+        "NOTES": []
+    },
+    "mhz": {
+        "name": null,
+        "NOTES": []
+    },
+    "mia": {
+        "name": null,
+        "NOTES": []
+    },
+    "mib": {
+        "name": null,
+        "NOTES": []
+    },
+    "mic": {
+        "name": null,
+        "NOTES": []
+    },
+    "mid": {
+        "name": null,
+        "NOTES": []
+    },
+    "mie": {
+        "name": null,
+        "NOTES": []
+    },
+    "mif": {
+        "name": null,
+        "NOTES": []
+    },
+    "mig": {
+        "name": null,
+        "NOTES": []
+    },
+    "mih": {
+        "name": null,
+        "NOTES": []
+    },
+    "mii": {
+        "name": null,
+        "NOTES": []
+    },
+    "mij": {
+        "name": null,
+        "NOTES": []
+    },
+    "mik": {
+        "name": null,
+        "NOTES": []
+    },
+    "mil": {
+        "name": null,
+        "NOTES": []
+    },
+    "mim": {
+        "name": null,
+        "NOTES": []
+    },
+    "min": {
+        "name": null,
+        "NOTES": []
+    },
+    "mio": {
+        "name": null,
+        "NOTES": []
+    },
+    "mip": {
+        "name": null,
+        "NOTES": []
+    },
+    "miq": {
+        "name": null,
+        "NOTES": []
+    },
+    "mir": {
+        "name": null,
+        "NOTES": []
+    },
+    "mis": {
+        "name": null,
+        "NOTES": []
+    },
+    "mit": {
+        "name": null,
+        "NOTES": []
+    },
+    "miu": {
+        "name": null,
+        "NOTES": []
+    },
+    "miw": {
+        "name": null,
+        "NOTES": []
+    },
+    "mix": {
+        "name": null,
+        "NOTES": []
+    },
+    "miy": {
+        "name": null,
+        "NOTES": []
+    },
+    "miz": {
+        "name": null,
+        "NOTES": []
+    },
+    "mjb": {
+        "name": null,
+        "NOTES": []
+    },
+    "mjc": {
+        "name": null,
+        "NOTES": []
+    },
+    "mjd": {
+        "name": null,
+        "NOTES": []
+    },
+    "mje": {
+        "name": null,
+        "NOTES": []
+    },
+    "mjg": {
+        "name": null,
+        "NOTES": []
+    },
+    "mjh": {
+        "name": null,
+        "NOTES": []
+    },
+    "mji": {
+        "name": null,
+        "NOTES": []
+    },
+    "mjj": {
+        "name": null,
+        "NOTES": []
+    },
+    "mjk": {
+        "name": null,
+        "NOTES": []
+    },
+    "mjl": {
+        "name": null,
+        "NOTES": []
+    },
+    "mjm": {
+        "name": null,
+        "NOTES": []
+    },
+    "mjn": {
+        "name": null,
+        "NOTES": []
+    },
+    "mjo": {
+        "name": null,
+        "NOTES": []
+    },
+    "mjp": {
+        "name": null,
+        "NOTES": []
+    },
+    "mjq": {
+        "name": null,
+        "NOTES": []
+    },
+    "mjr": {
+        "name": null,
+        "NOTES": []
+    },
+    "mjs": {
+        "name": null,
+        "NOTES": []
+    },
+    "mjt": {
+        "name": null,
+        "NOTES": []
+    },
+    "mju": {
+        "name": null,
+        "NOTES": []
+    },
+    "mjv": {
+        "name": null,
+        "NOTES": []
+    },
+    "mjw": {
+        "name": null,
+        "NOTES": []
+    },
+    "mjx": {
+        "name": null,
+        "NOTES": []
+    },
+    "mjy": {
+        "name": null,
+        "NOTES": []
+    },
+    "mjz": {
+        "name": null,
+        "NOTES": []
+    },
+    "mka": {
+        "name": null,
+        "NOTES": []
+    },
+    "mkb": {
+        "name": null,
+        "NOTES": []
+    },
+    "mkc": {
+        "name": null,
+        "NOTES": []
+    },
+    "mkd": {
+        "name": "Macedone",
+        "NOTES": []
+    },
+    "mke": {
+        "name": null,
+        "NOTES": []
+    },
+    "mkf": {
+        "name": null,
+        "NOTES": []
+    },
+    "mkg": {
+        "name": null,
+        "NOTES": []
+    },
+    "mki": {
+        "name": null,
+        "NOTES": []
+    },
+    "mkj": {
+        "name": null,
+        "NOTES": []
+    },
+    "mkk": {
+        "name": null,
+        "NOTES": []
+    },
+    "mkl": {
+        "name": null,
+        "NOTES": []
+    },
+    "mkm": {
+        "name": null,
+        "NOTES": []
+    },
+    "mkn": {
+        "name": null,
+        "NOTES": []
+    },
+    "mko": {
+        "name": null,
+        "NOTES": []
+    },
+    "mkp": {
+        "name": null,
+        "NOTES": []
+    },
+    "mkq": {
+        "name": null,
+        "NOTES": []
+    },
+    "mkr": {
+        "name": null,
+        "NOTES": []
+    },
+    "mks": {
+        "name": null,
+        "NOTES": []
+    },
+    "mkt": {
+        "name": null,
+        "NOTES": []
+    },
+    "mku": {
+        "name": null,
+        "NOTES": []
+    },
+    "mkv": {
+        "name": null,
+        "NOTES": []
+    },
+    "mkw": {
+        "name": null,
+        "NOTES": []
+    },
+    "mkx": {
+        "name": null,
+        "NOTES": []
+    },
+    "mky": {
+        "name": null,
+        "NOTES": []
+    },
+    "mkz": {
+        "name": null,
+        "NOTES": []
+    },
+    "mla": {
+        "name": null,
+        "NOTES": []
+    },
+    "mlb": {
+        "name": null,
+        "NOTES": []
+    },
+    "mlc": {
+        "name": null,
+        "NOTES": []
+    },
+    "mle": {
+        "name": null,
+        "NOTES": []
+    },
+    "mlf": {
+        "name": null,
+        "NOTES": []
+    },
+    "mlg": {
+        "name": "Malgascio",
+        "NOTES": [
+            "https://www.treccani.it/vocabolario/malgascio/?search=malg%C3%A0scio%2F",
+            "https://it.wikipedia.org/wiki/Lingua_malgascia"
+        ]
+    },
+    "mlh": {
+        "name": null,
+        "NOTES": []
+    },
+    "mli": {
+        "name": null,
+        "NOTES": []
+    },
+    "mlj": {
+        "name": null,
+        "NOTES": []
+    },
+    "mlk": {
+        "name": null,
+        "NOTES": []
+    },
+    "mll": {
+        "name": null,
+        "NOTES": []
+    },
+    "mlm": {
+        "name": null,
+        "NOTES": []
+    },
+    "mln": {
+        "name": null,
+        "NOTES": []
+    },
+    "mlo": {
+        "name": null,
+        "NOTES": []
+    },
+    "mlp": {
+        "name": null,
+        "NOTES": []
+    },
+    "mlq": {
+        "name": null,
+        "NOTES": []
+    },
+    "mlr": {
+        "name": null,
+        "NOTES": []
+    },
+    "mls": {
+        "name": null,
+        "NOTES": []
+    },
+    "mlt": {
+        "name": "Maltese",
+        "NOTES": []
+    },
+    "mlu": {
+        "name": null,
+        "NOTES": []
+    },
+    "mlv": {
+        "name": null,
+        "NOTES": []
+    },
+    "mlw": {
+        "name": null,
+        "NOTES": []
+    },
+    "mlx": {
+        "name": null,
+        "NOTES": []
+    },
+    "mlz": {
+        "name": null,
+        "NOTES": []
+    },
+    "mma": {
+        "name": null,
+        "NOTES": []
+    },
+    "mmb": {
+        "name": null,
+        "NOTES": []
+    },
+    "mmc": {
+        "name": null,
+        "NOTES": []
+    },
+    "mmd": {
+        "name": null,
+        "NOTES": []
+    },
+    "mme": {
+        "name": null,
+        "NOTES": []
+    },
+    "mmf": {
+        "name": null,
+        "NOTES": []
+    },
+    "mmg": {
+        "name": null,
+        "NOTES": []
+    },
+    "mmh": {
+        "name": null,
+        "NOTES": []
+    },
+    "mmi": {
+        "name": null,
+        "NOTES": []
+    },
+    "mmj": {
+        "name": null,
+        "NOTES": []
+    },
+    "mmk": {
+        "name": null,
+        "NOTES": []
+    },
+    "mml": {
+        "name": null,
+        "NOTES": []
+    },
+    "mmm": {
+        "name": null,
+        "NOTES": []
+    },
+    "mmn": {
+        "name": null,
+        "NOTES": []
+    },
+    "mmo": {
+        "name": null,
+        "NOTES": []
+    },
+    "mmp": {
+        "name": null,
+        "NOTES": []
+    },
+    "mmq": {
+        "name": null,
+        "NOTES": []
+    },
+    "mmr": {
+        "name": null,
+        "NOTES": []
+    },
+    "mmt": {
+        "name": null,
+        "NOTES": []
+    },
+    "mmu": {
+        "name": null,
+        "NOTES": []
+    },
+    "mmv": {
+        "name": null,
+        "NOTES": []
+    },
+    "mmw": {
+        "name": null,
+        "NOTES": []
+    },
+    "mmx": {
+        "name": null,
+        "NOTES": []
+    },
+    "mmy": {
+        "name": null,
+        "NOTES": []
+    },
+    "mmz": {
+        "name": null,
+        "NOTES": []
+    },
+    "mna": {
+        "name": null,
+        "NOTES": []
+    },
+    "mnb": {
+        "name": null,
+        "NOTES": []
+    },
+    "mnc": {
+        "name": null,
+        "NOTES": []
+    },
+    "mnd": {
+        "name": null,
+        "NOTES": []
+    },
+    "mne": {
+        "name": null,
+        "NOTES": []
+    },
+    "mnf": {
+        "name": null,
+        "NOTES": []
+    },
+    "mng": {
+        "name": null,
+        "NOTES": []
+    },
+    "mnh": {
+        "name": null,
+        "NOTES": []
+    },
+    "mni": {
+        "name": null,
+        "NOTES": []
+    },
+    "mnj": {
+        "name": null,
+        "NOTES": []
+    },
+    "mnk": {
+        "name": null,
+        "NOTES": []
+    },
+    "mnl": {
+        "name": null,
+        "NOTES": []
+    },
+    "mnm": {
+        "name": null,
+        "NOTES": []
+    },
+    "mnn": {
+        "name": null,
+        "NOTES": []
+    },
+    "mnp": {
+        "name": null,
+        "NOTES": []
+    },
+    "mnq": {
+        "name": null,
+        "NOTES": []
+    },
+    "mnr": {
+        "name": null,
+        "NOTES": []
+    },
+    "mns": {
+        "name": null,
+        "NOTES": []
+    },
+    "mnu": {
+        "name": null,
+        "NOTES": []
+    },
+    "mnv": {
+        "name": null,
+        "NOTES": []
+    },
+    "mnw": {
+        "name": null,
+        "NOTES": []
+    },
+    "mnx": {
+        "name": null,
+        "NOTES": []
+    },
+    "mny": {
+        "name": null,
+        "NOTES": []
+    },
+    "mnz": {
+        "name": null,
+        "NOTES": []
+    },
+    "moa": {
+        "name": null,
+        "NOTES": []
+    },
+    "moc": {
+        "name": null,
+        "NOTES": []
+    },
+    "mod": {
+        "name": null,
+        "NOTES": []
+    },
+    "moe": {
+        "name": null,
+        "NOTES": []
+    },
+    "mog": {
+        "name": null,
+        "NOTES": []
+    },
+    "moh": {
+        "name": null,
+        "NOTES": []
+    },
+    "moi": {
+        "name": null,
+        "NOTES": []
+    },
+    "moj": {
+        "name": null,
+        "NOTES": []
+    },
+    "mok": {
+        "name": null,
+        "NOTES": []
+    },
+    "mom": {
+        "name": null,
+        "NOTES": []
+    },
+    "mon": {
+        "name": "Mongolo",
+        "NOTES": []
+    },
+    "moo": {
+        "name": null,
+        "NOTES": []
+    },
+    "mop": {
+        "name": null,
+        "NOTES": []
+    },
+    "moq": {
+        "name": null,
+        "NOTES": []
+    },
+    "mor": {
+        "name": null,
+        "NOTES": []
+    },
+    "mos": {
+        "name": null,
+        "NOTES": []
+    },
+    "mot": {
+        "name": null,
+        "NOTES": []
+    },
+    "mou": {
+        "name": null,
+        "NOTES": []
+    },
+    "mov": {
+        "name": null,
+        "NOTES": []
+    },
+    "mow": {
+        "name": null,
+        "NOTES": []
+    },
+    "mox": {
+        "name": null,
+        "NOTES": []
+    },
+    "moy": {
+        "name": null,
+        "NOTES": []
+    },
+    "moz": {
+        "name": null,
+        "NOTES": []
+    },
+    "mpa": {
+        "name": null,
+        "NOTES": []
+    },
+    "mpb": {
+        "name": null,
+        "NOTES": []
+    },
+    "mpc": {
+        "name": null,
+        "NOTES": []
+    },
+    "mpd": {
+        "name": null,
+        "NOTES": []
+    },
+    "mpe": {
+        "name": null,
+        "NOTES": []
+    },
+    "mpg": {
+        "name": null,
+        "NOTES": []
+    },
+    "mph": {
+        "name": null,
+        "NOTES": []
+    },
+    "mpi": {
+        "name": null,
+        "NOTES": []
+    },
+    "mpj": {
+        "name": null,
+        "NOTES": []
+    },
+    "mpk": {
+        "name": null,
+        "NOTES": []
+    },
+    "mpl": {
+        "name": null,
+        "NOTES": []
+    },
+    "mpm": {
+        "name": null,
+        "NOTES": []
+    },
+    "mpn": {
+        "name": null,
+        "NOTES": []
+    },
+    "mpo": {
+        "name": null,
+        "NOTES": []
+    },
+    "mpp": {
+        "name": null,
+        "NOTES": []
+    },
+    "mpq": {
+        "name": null,
+        "NOTES": []
+    },
+    "mpr": {
+        "name": null,
+        "NOTES": []
+    },
+    "mps": {
+        "name": null,
+        "NOTES": []
+    },
+    "mpt": {
+        "name": null,
+        "NOTES": []
+    },
+    "mpu": {
+        "name": null,
+        "NOTES": []
+    },
+    "mpv": {
+        "name": null,
+        "NOTES": []
+    },
+    "mpw": {
+        "name": null,
+        "NOTES": []
+    },
+    "mpx": {
+        "name": null,
+        "NOTES": []
+    },
+    "mpy": {
+        "name": null,
+        "NOTES": []
+    },
+    "mpz": {
+        "name": null,
+        "NOTES": []
+    },
+    "mqa": {
+        "name": null,
+        "NOTES": []
+    },
+    "mqb": {
+        "name": null,
+        "NOTES": []
+    },
+    "mqc": {
+        "name": null,
+        "NOTES": []
+    },
+    "mqe": {
+        "name": null,
+        "NOTES": []
+    },
+    "mqf": {
+        "name": null,
+        "NOTES": []
+    },
+    "mqg": {
+        "name": null,
+        "NOTES": []
+    },
+    "mqh": {
+        "name": null,
+        "NOTES": []
+    },
+    "mqi": {
+        "name": null,
+        "NOTES": []
+    },
+    "mqj": {
+        "name": null,
+        "NOTES": []
+    },
+    "mqk": {
+        "name": null,
+        "NOTES": []
+    },
+    "mql": {
+        "name": null,
+        "NOTES": []
+    },
+    "mqm": {
+        "name": null,
+        "NOTES": []
+    },
+    "mqn": {
+        "name": null,
+        "NOTES": []
+    },
+    "mqo": {
+        "name": null,
+        "NOTES": []
+    },
+    "mqp": {
+        "name": null,
+        "NOTES": []
+    },
+    "mqq": {
+        "name": null,
+        "NOTES": []
+    },
+    "mqr": {
+        "name": null,
+        "NOTES": []
+    },
+    "mqs": {
+        "name": null,
+        "NOTES": []
+    },
+    "mqt": {
+        "name": null,
+        "NOTES": []
+    },
+    "mqu": {
+        "name": null,
+        "NOTES": []
+    },
+    "mqv": {
+        "name": null,
+        "NOTES": []
+    },
+    "mqw": {
+        "name": null,
+        "NOTES": []
+    },
+    "mqx": {
+        "name": null,
+        "NOTES": []
+    },
+    "mqy": {
+        "name": null,
+        "NOTES": []
+    },
+    "mqz": {
+        "name": null,
+        "NOTES": []
+    },
+    "mra": {
+        "name": null,
+        "NOTES": []
+    },
+    "mrb": {
+        "name": null,
+        "NOTES": []
+    },
+    "mrc": {
+        "name": null,
+        "NOTES": []
+    },
+    "mrd": {
+        "name": null,
+        "NOTES": []
+    },
+    "mre": {
+        "name": null,
+        "NOTES": []
+    },
+    "mrf": {
+        "name": null,
+        "NOTES": []
+    },
+    "mrg": {
+        "name": null,
+        "NOTES": []
+    },
+    "mrh": {
+        "name": null,
+        "NOTES": []
+    },
+    "mri": {
+        "name": "Maori",
+        "NOTES": []
+    },
+    "mrj": {
+        "name": null,
+        "NOTES": []
+    },
+    "mrk": {
+        "name": null,
+        "NOTES": []
+    },
+    "mrl": {
+        "name": null,
+        "NOTES": []
+    },
+    "mrm": {
+        "name": null,
+        "NOTES": []
+    },
+    "mrn": {
+        "name": null,
+        "NOTES": []
+    },
+    "mro": {
+        "name": null,
+        "NOTES": []
+    },
+    "mrp": {
+        "name": null,
+        "NOTES": []
+    },
+    "mrq": {
+        "name": null,
+        "NOTES": []
+    },
+    "mrr": {
+        "name": null,
+        "NOTES": []
+    },
+    "mrs": {
+        "name": null,
+        "NOTES": []
+    },
+    "mrt": {
+        "name": null,
+        "NOTES": []
+    },
+    "mru": {
+        "name": null,
+        "NOTES": []
+    },
+    "mrv": {
+        "name": null,
+        "NOTES": []
+    },
+    "mrw": {
+        "name": null,
+        "NOTES": []
+    },
+    "mrx": {
+        "name": null,
+        "NOTES": []
+    },
+    "mry": {
+        "name": null,
+        "NOTES": []
+    },
+    "mrz": {
+        "name": null,
+        "NOTES": []
+    },
+    "msa": {
+        "name": "Malese",
+        "NOTES": []
+    },
+    "msb": {
+        "name": null,
+        "NOTES": []
+    },
+    "msc": {
+        "name": null,
+        "NOTES": []
+    },
+    "msd": {
+        "name": null,
+        "NOTES": []
+    },
+    "mse": {
+        "name": null,
+        "NOTES": []
+    },
+    "msf": {
+        "name": null,
+        "NOTES": []
+    },
+    "msg": {
+        "name": null,
+        "NOTES": []
+    },
+    "msh": {
+        "name": "Malgascio dei Masikoro",
+        "NOTES": [
+            "https://www.treccani.it/vocabolario/malgascio/?search=malg%C3%A0scio%2F",
+            "https://it.wikipedia.org/wiki/Lingua_malgascia"
+        ]
+    },
+    "msi": {
+        "name": null,
+        "NOTES": []
+    },
+    "msj": {
+        "name": null,
+        "NOTES": []
+    },
+    "msk": {
+        "name": null,
+        "NOTES": []
+    },
+    "msl": {
+        "name": null,
+        "NOTES": []
+    },
+    "msm": {
+        "name": null,
+        "NOTES": []
+    },
+    "msn": {
+        "name": null,
+        "NOTES": []
+    },
+    "mso": {
+        "name": null,
+        "NOTES": []
+    },
+    "msp": {
+        "name": null,
+        "NOTES": []
+    },
+    "msq": {
+        "name": null,
+        "NOTES": []
+    },
+    "msr": {
+        "name": null,
+        "NOTES": []
+    },
+    "mss": {
+        "name": null,
+        "NOTES": []
+    },
+    "msu": {
+        "name": null,
+        "NOTES": []
+    },
+    "msv": {
+        "name": null,
+        "NOTES": []
+    },
+    "msw": {
+        "name": null,
+        "NOTES": []
+    },
+    "msx": {
+        "name": null,
+        "NOTES": []
+    },
+    "msy": {
+        "name": null,
+        "NOTES": []
+    },
+    "msz": {
+        "name": null,
+        "NOTES": []
+    },
+    "mta": {
+        "name": null,
+        "NOTES": []
+    },
+    "mtb": {
+        "name": null,
+        "NOTES": []
+    },
+    "mtc": {
+        "name": null,
+        "NOTES": []
+    },
+    "mtd": {
+        "name": null,
+        "NOTES": []
+    },
+    "mte": {
+        "name": null,
+        "NOTES": []
+    },
+    "mtf": {
+        "name": null,
+        "NOTES": []
+    },
+    "mtg": {
+        "name": null,
+        "NOTES": []
+    },
+    "mth": {
+        "name": null,
+        "NOTES": []
+    },
+    "mti": {
+        "name": null,
+        "NOTES": []
+    },
+    "mtj": {
+        "name": null,
+        "NOTES": []
+    },
+    "mtk": {
+        "name": null,
+        "NOTES": []
+    },
+    "mtl": {
+        "name": null,
+        "NOTES": []
+    },
+    "mtm": {
+        "name": null,
+        "NOTES": []
+    },
+    "mtn": {
+        "name": null,
+        "NOTES": []
+    },
+    "mto": {
+        "name": null,
+        "NOTES": []
+    },
+    "mtp": {
+        "name": null,
+        "NOTES": []
+    },
+    "mtq": {
+        "name": null,
+        "NOTES": []
+    },
+    "mtr": {
+        "name": null,
+        "NOTES": []
+    },
+    "mts": {
+        "name": null,
+        "NOTES": []
+    },
+    "mtt": {
+        "name": null,
+        "NOTES": []
+    },
+    "mtu": {
+        "name": null,
+        "NOTES": []
+    },
+    "mtv": {
+        "name": null,
+        "NOTES": []
+    },
+    "mtw": {
+        "name": null,
+        "NOTES": []
+    },
+    "mtx": {
+        "name": null,
+        "NOTES": []
+    },
+    "mty": {
+        "name": null,
+        "NOTES": []
+    },
+    "mua": {
+        "name": "Mundang",
+        "NOTES": [
+            "Direct reference not found"
+        ]
+    },
+    "mub": {
+        "name": null,
+        "NOTES": []
+    },
+    "muc": {
+        "name": null,
+        "NOTES": []
+    },
+    "mud": {
+        "name": null,
+        "NOTES": []
+    },
+    "mue": {
+        "name": null,
+        "NOTES": []
+    },
+    "mug": {
+        "name": null,
+        "NOTES": []
+    },
+    "muh": {
+        "name": null,
+        "NOTES": []
+    },
+    "mui": {
+        "name": null,
+        "NOTES": []
+    },
+    "muj": {
+        "name": null,
+        "NOTES": []
+    },
+    "muk": {
+        "name": null,
+        "NOTES": []
+    },
+    "mul": {
+        "name": null,
+        "NOTES": []
+    },
+    "mum": {
+        "name": null,
+        "NOTES": []
+    },
+    "muo": {
+        "name": null,
+        "NOTES": []
+    },
+    "mup": {
+        "name": null,
+        "NOTES": []
+    },
+    "muq": {
+        "name": null,
+        "NOTES": []
+    },
+    "mur": {
+        "name": null,
+        "NOTES": []
+    },
+    "mus": {
+        "name": null,
+        "NOTES": []
+    },
+    "mut": {
+        "name": null,
+        "NOTES": []
+    },
+    "muu": {
+        "name": null,
+        "NOTES": []
+    },
+    "muv": {
+        "name": null,
+        "NOTES": []
+    },
+    "mux": {
+        "name": null,
+        "NOTES": []
+    },
+    "muy": {
+        "name": null,
+        "NOTES": []
+    },
+    "muz": {
+        "name": null,
+        "NOTES": []
+    },
+    "mva": {
+        "name": null,
+        "NOTES": []
+    },
+    "mvb": {
+        "name": null,
+        "NOTES": []
+    },
+    "mvd": {
+        "name": null,
+        "NOTES": []
+    },
+    "mve": {
+        "name": null,
+        "NOTES": []
+    },
+    "mvf": {
+        "name": null,
+        "NOTES": []
+    },
+    "mvg": {
+        "name": null,
+        "NOTES": []
+    },
+    "mvh": {
+        "name": null,
+        "NOTES": []
+    },
+    "mvi": {
+        "name": null,
+        "NOTES": []
+    },
+    "mvk": {
+        "name": null,
+        "NOTES": []
+    },
+    "mvl": {
+        "name": null,
+        "NOTES": []
+    },
+    "mvn": {
+        "name": null,
+        "NOTES": []
+    },
+    "mvo": {
+        "name": null,
+        "NOTES": []
+    },
+    "mvp": {
+        "name": null,
+        "NOTES": []
+    },
+    "mvq": {
+        "name": null,
+        "NOTES": []
+    },
+    "mvr": {
+        "name": null,
+        "NOTES": []
+    },
+    "mvs": {
+        "name": null,
+        "NOTES": []
+    },
+    "mvt": {
+        "name": null,
+        "NOTES": []
+    },
+    "mvu": {
+        "name": null,
+        "NOTES": []
+    },
+    "mvv": {
+        "name": null,
+        "NOTES": []
+    },
+    "mvw": {
+        "name": null,
+        "NOTES": []
+    },
+    "mvx": {
+        "name": null,
+        "NOTES": []
+    },
+    "mvy": {
+        "name": null,
+        "NOTES": []
+    },
+    "mvz": {
+        "name": null,
+        "NOTES": []
+    },
+    "mwa": {
+        "name": null,
+        "NOTES": []
+    },
+    "mwb": {
+        "name": null,
+        "NOTES": []
+    },
+    "mwc": {
+        "name": null,
+        "NOTES": []
+    },
+    "mwe": {
+        "name": null,
+        "NOTES": []
+    },
+    "mwf": {
+        "name": null,
+        "NOTES": []
+    },
+    "mwg": {
+        "name": null,
+        "NOTES": []
+    },
+    "mwh": {
+        "name": null,
+        "NOTES": []
+    },
+    "mwi": {
+        "name": null,
+        "NOTES": []
+    },
+    "mwk": {
+        "name": null,
+        "NOTES": []
+    },
+    "mwl": {
+        "name": null,
+        "NOTES": []
+    },
+    "mwm": {
+        "name": null,
+        "NOTES": []
+    },
+    "mwn": {
+        "name": null,
+        "NOTES": []
+    },
+    "mwo": {
+        "name": null,
+        "NOTES": []
+    },
+    "mwp": {
+        "name": null,
+        "NOTES": []
+    },
+    "mwq": {
+        "name": null,
+        "NOTES": []
+    },
+    "mwr": {
+        "name": null,
+        "NOTES": []
+    },
+    "mws": {
+        "name": null,
+        "NOTES": []
+    },
+    "mwt": {
+        "name": null,
+        "NOTES": []
+    },
+    "mwu": {
+        "name": null,
+        "NOTES": []
+    },
+    "mwv": {
+        "name": null,
+        "NOTES": []
+    },
+    "mww": {
+        "name": null,
+        "NOTES": []
+    },
+    "mwz": {
+        "name": null,
+        "NOTES": []
+    },
+    "mxa": {
+        "name": null,
+        "NOTES": []
+    },
+    "mxb": {
+        "name": null,
+        "NOTES": []
+    },
+    "mxc": {
+        "name": "Manyika, Chimanyika",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_manyika"
+        ]
+    },
+    "mxd": {
+        "name": null,
+        "NOTES": []
+    },
+    "mxe": {
+        "name": null,
+        "NOTES": []
+    },
+    "mxf": {
+        "name": null,
+        "NOTES": []
+    },
+    "mxg": {
+        "name": null,
+        "NOTES": []
+    },
+    "mxh": {
+        "name": null,
+        "NOTES": []
+    },
+    "mxi": {
+        "name": null,
+        "NOTES": []
+    },
+    "mxj": {
+        "name": null,
+        "NOTES": []
+    },
+    "mxk": {
+        "name": null,
+        "NOTES": []
+    },
+    "mxl": {
+        "name": null,
+        "NOTES": []
+    },
+    "mxm": {
+        "name": null,
+        "NOTES": []
+    },
+    "mxn": {
+        "name": null,
+        "NOTES": []
+    },
+    "mxo": {
+        "name": null,
+        "NOTES": []
+    },
+    "mxp": {
+        "name": null,
+        "NOTES": []
+    },
+    "mxq": {
+        "name": null,
+        "NOTES": []
+    },
+    "mxr": {
+        "name": null,
+        "NOTES": []
+    },
+    "mxs": {
+        "name": null,
+        "NOTES": []
+    },
+    "mxt": {
+        "name": null,
+        "NOTES": []
+    },
+    "mxu": {
+        "name": null,
+        "NOTES": []
+    },
+    "mxv": {
+        "name": null,
+        "NOTES": []
+    },
+    "mxw": {
+        "name": null,
+        "NOTES": []
+    },
+    "mxx": {
+        "name": null,
+        "NOTES": []
+    },
+    "mxy": {
+        "name": null,
+        "NOTES": []
+    },
+    "mxz": {
+        "name": null,
+        "NOTES": []
+    },
+    "mya": {
+        "name": "Birmano",
+        "NOTES": []
+    },
+    "myb": {
+        "name": null,
+        "NOTES": []
+    },
+    "myc": {
+        "name": null,
+        "NOTES": []
+    },
+    "mye": {
+        "name": null,
+        "NOTES": []
+    },
+    "myf": {
+        "name": null,
+        "NOTES": []
+    },
+    "myg": {
+        "name": null,
+        "NOTES": []
+    },
+    "myh": {
+        "name": null,
+        "NOTES": []
+    },
+    "myj": {
+        "name": null,
+        "NOTES": []
+    },
+    "myk": {
+        "name": null,
+        "NOTES": []
+    },
+    "myl": {
+        "name": null,
+        "NOTES": []
+    },
+    "mym": {
+        "name": null,
+        "NOTES": []
+    },
+    "myo": {
+        "name": null,
+        "NOTES": []
+    },
+    "myp": {
+        "name": null,
+        "NOTES": []
+    },
+    "myr": {
+        "name": null,
+        "NOTES": []
+    },
+    "mys": {
+        "name": null,
+        "NOTES": []
+    },
+    "myu": {
+        "name": null,
+        "NOTES": []
+    },
+    "myv": {
+        "name": null,
+        "NOTES": []
+    },
+    "myw": {
+        "name": null,
+        "NOTES": []
+    },
+    "myx": {
+        "name": null,
+        "NOTES": []
+    },
+    "myy": {
+        "name": null,
+        "NOTES": []
+    },
+    "myz": {
+        "name": null,
+        "NOTES": []
+    },
+    "mza": {
+        "name": null,
+        "NOTES": []
+    },
+    "mzb": {
+        "name": null,
+        "NOTES": []
+    },
+    "mzc": {
+        "name": null,
+        "NOTES": []
+    },
+    "mzd": {
+        "name": null,
+        "NOTES": []
+    },
+    "mze": {
+        "name": null,
+        "NOTES": []
+    },
+    "mzg": {
+        "name": null,
+        "NOTES": []
+    },
+    "mzh": {
+        "name": null,
+        "NOTES": []
+    },
+    "mzi": {
+        "name": null,
+        "NOTES": []
+    },
+    "mzj": {
+        "name": null,
+        "NOTES": []
+    },
+    "mzk": {
+        "name": null,
+        "NOTES": []
+    },
+    "mzl": {
+        "name": null,
+        "NOTES": []
+    },
+    "mzm": {
+        "name": null,
+        "NOTES": []
+    },
+    "mzn": {
+        "name": null,
+        "NOTES": []
+    },
+    "mzo": {
+        "name": null,
+        "NOTES": []
+    },
+    "mzp": {
+        "name": null,
+        "NOTES": []
+    },
+    "mzq": {
+        "name": null,
+        "NOTES": []
+    },
+    "mzr": {
+        "name": null,
+        "NOTES": []
+    },
+    "mzs": {
+        "name": null,
+        "NOTES": []
+    },
+    "mzt": {
+        "name": null,
+        "NOTES": []
+    },
+    "mzu": {
+        "name": null,
+        "NOTES": []
+    },
+    "mzv": {
+        "name": null,
+        "NOTES": []
+    },
+    "mzw": {
+        "name": null,
+        "NOTES": []
+    },
+    "mzx": {
+        "name": null,
+        "NOTES": []
+    },
+    "mzy": {
+        "name": null,
+        "NOTES": []
+    },
+    "mzz": {
+        "name": null,
+        "NOTES": []
+    },
+    "naa": {
+        "name": null,
+        "NOTES": []
+    },
+    "nab": {
+        "name": null,
+        "NOTES": []
+    },
+    "nac": {
+        "name": null,
+        "NOTES": []
+    },
+    "nae": {
+        "name": null,
+        "NOTES": []
+    },
+    "naf": {
+        "name": null,
+        "NOTES": []
+    },
+    "nag": {
+        "name": null,
+        "NOTES": []
+    },
+    "naj": {
+        "name": null,
+        "NOTES": []
+    },
+    "nak": {
+        "name": null,
+        "NOTES": []
+    },
+    "nal": {
+        "name": null,
+        "NOTES": []
+    },
+    "nam": {
+        "name": null,
+        "NOTES": []
+    },
+    "nan": {
+        "name": null,
+        "NOTES": []
+    },
+    "nao": {
+        "name": null,
+        "NOTES": []
+    },
+    "nap": {
+        "name": null,
+        "NOTES": []
+    },
+    "naq": {
+        "name": "Nama, Damara",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_nama"
+        ]
+    },
+    "nar": {
+        "name": null,
+        "NOTES": []
+    },
+    "nas": {
+        "name": null,
+        "NOTES": []
+    },
+    "nat": {
+        "name": null,
+        "NOTES": []
+    },
+    "nau": {
+        "name": "Nauruano",
+        "NOTES": [
+            "https://www.treccani.it/vocabolario/nauruano/?search=nauruano%2F",
+            "https://it.wikipedia.org/wiki/Lingua_nauruana"
+        ]
+    },
+    "nav": {
+        "name": "Navajo, Navaho",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_navajo"
+        ]
+    },
+    "naw": {
+        "name": null,
+        "NOTES": []
+    },
+    "nax": {
+        "name": null,
+        "NOTES": []
+    },
+    "nay": {
+        "name": null,
+        "NOTES": []
+    },
+    "naz": {
+        "name": null,
+        "NOTES": []
+    },
+    "nba": {
+        "name": null,
+        "NOTES": []
+    },
+    "nbb": {
+        "name": null,
+        "NOTES": []
+    },
+    "nbc": {
+        "name": null,
+        "NOTES": []
+    },
+    "nbd": {
+        "name": null,
+        "NOTES": []
+    },
+    "nbe": {
+        "name": null,
+        "NOTES": []
+    },
+    "nbg": {
+        "name": null,
+        "NOTES": []
+    },
+    "nbh": {
+        "name": null,
+        "NOTES": []
+    },
+    "nbi": {
+        "name": null,
+        "NOTES": []
+    },
+    "nbj": {
+        "name": null,
+        "NOTES": []
+    },
+    "nbk": {
+        "name": null,
+        "NOTES": []
+    },
+    "nbl": {
+        "name": "Ndebele del sud",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_ndebele_del_sud"
+        ]
+    },
+    "nbm": {
+        "name": null,
+        "NOTES": []
+    },
+    "nbn": {
+        "name": null,
+        "NOTES": []
+    },
+    "nbo": {
+        "name": null,
+        "NOTES": []
+    },
+    "nbp": {
+        "name": null,
+        "NOTES": []
+    },
+    "nbq": {
+        "name": null,
+        "NOTES": []
+    },
+    "nbr": {
+        "name": null,
+        "NOTES": []
+    },
+    "nbs": {
+        "name": null,
+        "NOTES": []
+    },
+    "nbt": {
+        "name": null,
+        "NOTES": []
+    },
+    "nbu": {
+        "name": null,
+        "NOTES": []
+    },
+    "nbv": {
+        "name": null,
+        "NOTES": []
+    },
+    "nbw": {
+        "name": null,
+        "NOTES": []
+    },
+    "nby": {
+        "name": null,
+        "NOTES": []
+    },
+    "nca": {
+        "name": null,
+        "NOTES": []
+    },
+    "ncb": {
+        "name": null,
+        "NOTES": []
+    },
+    "ncc": {
+        "name": null,
+        "NOTES": []
+    },
+    "ncd": {
+        "name": null,
+        "NOTES": []
+    },
+    "nce": {
+        "name": null,
+        "NOTES": []
+    },
+    "ncf": {
+        "name": null,
+        "NOTES": []
+    },
+    "ncg": {
+        "name": null,
+        "NOTES": []
+    },
+    "nch": {
+        "name": null,
+        "NOTES": []
+    },
+    "nci": {
+        "name": null,
+        "NOTES": []
+    },
+    "ncj": {
+        "name": null,
+        "NOTES": []
+    },
+    "nck": {
+        "name": null,
+        "NOTES": []
+    },
+    "ncl": {
+        "name": null,
+        "NOTES": []
+    },
+    "ncm": {
+        "name": null,
+        "NOTES": []
+    },
+    "ncn": {
+        "name": null,
+        "NOTES": []
+    },
+    "nco": {
+        "name": null,
+        "NOTES": []
+    },
+    "ncq": {
+        "name": null,
+        "NOTES": []
+    },
+    "ncr": {
+        "name": null,
+        "NOTES": []
+    },
+    "ncs": {
+        "name": null,
+        "NOTES": []
+    },
+    "nct": {
+        "name": null,
+        "NOTES": []
+    },
+    "ncu": {
+        "name": null,
+        "NOTES": []
+    },
+    "ncx": {
+        "name": null,
+        "NOTES": []
+    },
+    "ncz": {
+        "name": null,
+        "NOTES": []
+    },
+    "nda": {
+        "name": null,
+        "NOTES": []
+    },
+    "ndb": {
+        "name": null,
+        "NOTES": []
+    },
+    "ndc": {
+        "name": null,
+        "NOTES": []
+    },
+    "ndd": {
+        "name": null,
+        "NOTES": []
+    },
+    "nde": {
+        "name": "Ndebele del nord",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_ndebele_del_nord"
+        ]
+    },
+    "ndf": {
+        "name": null,
+        "NOTES": []
+    },
+    "ndg": {
+        "name": null,
+        "NOTES": []
+    },
+    "ndh": {
+        "name": null,
+        "NOTES": []
+    },
+    "ndi": {
+        "name": null,
+        "NOTES": []
+    },
+    "ndj": {
+        "name": null,
+        "NOTES": []
+    },
+    "ndk": {
+        "name": null,
+        "NOTES": []
+    },
+    "ndl": {
+        "name": null,
+        "NOTES": []
+    },
+    "ndm": {
+        "name": null,
+        "NOTES": []
+    },
+    "ndn": {
+        "name": null,
+        "NOTES": []
+    },
+    "ndo": {
+        "name": "Ndonga",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_ndonga"
+        ]
+    },
+    "ndp": {
+        "name": null,
+        "NOTES": []
+    },
+    "ndq": {
+        "name": null,
+        "NOTES": []
+    },
+    "ndr": {
+        "name": null,
+        "NOTES": []
+    },
+    "nds": {
+        "name": null,
+        "NOTES": []
+    },
+    "ndt": {
+        "name": null,
+        "NOTES": []
+    },
+    "ndu": {
+        "name": null,
+        "NOTES": []
+    },
+    "ndv": {
+        "name": null,
+        "NOTES": []
+    },
+    "ndw": {
+        "name": null,
+        "NOTES": []
+    },
+    "ndx": {
+        "name": null,
+        "NOTES": []
+    },
+    "ndy": {
+        "name": null,
+        "NOTES": []
+    },
+    "ndz": {
+        "name": null,
+        "NOTES": []
+    },
+    "nea": {
+        "name": null,
+        "NOTES": []
+    },
+    "neb": {
+        "name": null,
+        "NOTES": []
+    },
+    "nec": {
+        "name": null,
+        "NOTES": []
+    },
+    "ned": {
+        "name": null,
+        "NOTES": []
+    },
+    "nee": {
+        "name": null,
+        "NOTES": []
+    },
+    "nef": {
+        "name": null,
+        "NOTES": []
+    },
+    "neg": {
+        "name": null,
+        "NOTES": []
+    },
+    "neh": {
+        "name": null,
+        "NOTES": []
+    },
+    "nei": {
+        "name": null,
+        "NOTES": []
+    },
+    "nej": {
+        "name": null,
+        "NOTES": []
+    },
+    "nek": {
+        "name": null,
+        "NOTES": []
+    },
+    "nem": {
+        "name": null,
+        "NOTES": []
+    },
+    "nen": {
+        "name": null,
+        "NOTES": []
+    },
+    "neo": {
+        "name": null,
+        "NOTES": []
+    },
+    "nep": {
+        "name": "Nepalese",
+        "NOTES": []
+    },
+    "neq": {
+        "name": null,
+        "NOTES": []
+    },
+    "ner": {
+        "name": null,
+        "NOTES": []
+    },
+    "nes": {
+        "name": null,
+        "NOTES": []
+    },
+    "net": {
+        "name": null,
+        "NOTES": []
+    },
+    "neu": {
+        "name": null,
+        "NOTES": []
+    },
+    "nev": {
+        "name": null,
+        "NOTES": []
+    },
+    "new": {
+        "name": null,
+        "NOTES": []
+    },
+    "nex": {
+        "name": null,
+        "NOTES": []
+    },
+    "ney": {
+        "name": null,
+        "NOTES": []
+    },
+    "nez": {
+        "name": null,
+        "NOTES": []
+    },
+    "nfa": {
+        "name": null,
+        "NOTES": []
+    },
+    "nfd": {
+        "name": null,
+        "NOTES": []
+    },
+    "nfl": {
+        "name": null,
+        "NOTES": []
+    },
+    "nfr": {
+        "name": null,
+        "NOTES": []
+    },
+    "nfu": {
+        "name": null,
+        "NOTES": []
+    },
+    "nga": {
+        "name": null,
+        "NOTES": []
+    },
+    "ngb": {
+        "name": null,
+        "NOTES": []
+    },
+    "ngc": {
+        "name": null,
+        "NOTES": []
+    },
+    "ngd": {
+        "name": null,
+        "NOTES": []
+    },
+    "nge": {
+        "name": null,
+        "NOTES": []
+    },
+    "ngg": {
+        "name": null,
+        "NOTES": []
+    },
+    "ngh": {
+        "name": null,
+        "NOTES": []
+    },
+    "ngi": {
+        "name": null,
+        "NOTES": []
+    },
+    "ngj": {
+        "name": null,
+        "NOTES": []
+    },
+    "ngk": {
+        "name": null,
+        "NOTES": []
+    },
+    "ngl": {
+        "name": null,
+        "NOTES": []
+    },
+    "ngm": {
+        "name": null,
+        "NOTES": []
+    },
+    "ngn": {
+        "name": null,
+        "NOTES": []
+    },
+    "ngp": {
+        "name": null,
+        "NOTES": []
+    },
+    "ngq": {
+        "name": null,
+        "NOTES": []
+    },
+    "ngr": {
+        "name": null,
+        "NOTES": []
+    },
+    "ngs": {
+        "name": null,
+        "NOTES": []
+    },
+    "ngt": {
+        "name": null,
+        "NOTES": []
+    },
+    "ngu": {
+        "name": null,
+        "NOTES": []
+    },
+    "ngv": {
+        "name": null,
+        "NOTES": []
+    },
+    "ngw": {
+        "name": null,
+        "NOTES": []
+    },
+    "ngx": {
+        "name": null,
+        "NOTES": []
+    },
+    "ngy": {
+        "name": null,
+        "NOTES": []
+    },
+    "ngz": {
+        "name": null,
+        "NOTES": []
+    },
+    "nha": {
+        "name": null,
+        "NOTES": []
+    },
+    "nhb": {
+        "name": null,
+        "NOTES": []
+    },
+    "nhc": {
+        "name": null,
+        "NOTES": []
+    },
+    "nhd": {
+        "name": null,
+        "NOTES": []
+    },
+    "nhe": {
+        "name": null,
+        "NOTES": []
+    },
+    "nhf": {
+        "name": null,
+        "NOTES": []
+    },
+    "nhg": {
+        "name": null,
+        "NOTES": []
+    },
+    "nhh": {
+        "name": null,
+        "NOTES": []
+    },
+    "nhi": {
+        "name": null,
+        "NOTES": []
+    },
+    "nhk": {
+        "name": null,
+        "NOTES": []
+    },
+    "nhm": {
+        "name": null,
+        "NOTES": []
+    },
+    "nhn": {
+        "name": null,
+        "NOTES": []
+    },
+    "nho": {
+        "name": null,
+        "NOTES": []
+    },
+    "nhp": {
+        "name": null,
+        "NOTES": []
+    },
+    "nhq": {
+        "name": null,
+        "NOTES": []
+    },
+    "nhr": {
+        "name": null,
+        "NOTES": []
+    },
+    "nht": {
+        "name": null,
+        "NOTES": []
+    },
+    "nhu": {
+        "name": null,
+        "NOTES": []
+    },
+    "nhv": {
+        "name": null,
+        "NOTES": []
+    },
+    "nhw": {
+        "name": null,
+        "NOTES": []
+    },
+    "nhx": {
+        "name": null,
+        "NOTES": []
+    },
+    "nhy": {
+        "name": null,
+        "NOTES": []
+    },
+    "nhz": {
+        "name": null,
+        "NOTES": []
+    },
+    "nia": {
+        "name": null,
+        "NOTES": []
+    },
+    "nib": {
+        "name": null,
+        "NOTES": []
+    },
+    "nid": {
+        "name": null,
+        "NOTES": []
+    },
+    "nie": {
+        "name": null,
+        "NOTES": []
+    },
+    "nif": {
+        "name": null,
+        "NOTES": []
+    },
+    "nig": {
+        "name": null,
+        "NOTES": []
+    },
+    "nih": {
+        "name": null,
+        "NOTES": []
+    },
+    "nii": {
+        "name": null,
+        "NOTES": []
+    },
+    "nij": {
+        "name": null,
+        "NOTES": []
+    },
+    "nik": {
+        "name": null,
+        "NOTES": []
+    },
+    "nil": {
+        "name": null,
+        "NOTES": []
+    },
+    "nim": {
+        "name": null,
+        "NOTES": []
+    },
+    "nin": {
+        "name": null,
+        "NOTES": []
+    },
+    "nio": {
+        "name": null,
+        "NOTES": []
+    },
+    "niq": {
+        "name": "Nandi, Naandi, Cemual",
+        "NOTES": [
+            "Direct reference not found"
+        ]
+    },
+    "nir": {
+        "name": null,
+        "NOTES": []
+    },
+    "nis": {
+        "name": null,
+        "NOTES": []
+    },
+    "nit": {
+        "name": null,
+        "NOTES": []
+    },
+    "niu": {
+        "name": "Niueano, Niveano",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_niueana",
+            "https://www.treccani.it/vocabolario/niueano/?search=niueano%2F"
+        ]
+    },
+    "niv": {
+        "name": null,
+        "NOTES": []
+    },
+    "niw": {
+        "name": null,
+        "NOTES": []
+    },
+    "nix": {
+        "name": null,
+        "NOTES": []
+    },
+    "niy": {
+        "name": null,
+        "NOTES": []
+    },
+    "niz": {
+        "name": null,
+        "NOTES": []
+    },
+    "nja": {
+        "name": null,
+        "NOTES": []
+    },
+    "njb": {
+        "name": null,
+        "NOTES": []
+    },
+    "njd": {
+        "name": null,
+        "NOTES": []
+    },
+    "njh": {
+        "name": null,
+        "NOTES": []
+    },
+    "nji": {
+        "name": null,
+        "NOTES": []
+    },
+    "njj": {
+        "name": null,
+        "NOTES": []
+    },
+    "njl": {
+        "name": null,
+        "NOTES": []
+    },
+    "njm": {
+        "name": null,
+        "NOTES": []
+    },
+    "njn": {
+        "name": null,
+        "NOTES": []
+    },
+    "njo": {
+        "name": null,
+        "NOTES": []
+    },
+    "njr": {
+        "name": null,
+        "NOTES": []
+    },
+    "njs": {
+        "name": null,
+        "NOTES": []
+    },
+    "njt": {
+        "name": null,
+        "NOTES": []
+    },
+    "nju": {
+        "name": null,
+        "NOTES": []
+    },
+    "njx": {
+        "name": null,
+        "NOTES": []
+    },
+    "njy": {
+        "name": null,
+        "NOTES": []
+    },
+    "njz": {
+        "name": null,
+        "NOTES": []
+    },
+    "nka": {
+        "name": null,
+        "NOTES": []
+    },
+    "nkb": {
+        "name": null,
+        "NOTES": []
+    },
+    "nkc": {
+        "name": null,
+        "NOTES": []
+    },
+    "nkd": {
+        "name": null,
+        "NOTES": []
+    },
+    "nke": {
+        "name": null,
+        "NOTES": []
+    },
+    "nkf": {
+        "name": null,
+        "NOTES": []
+    },
+    "nkg": {
+        "name": null,
+        "NOTES": []
+    },
+    "nkh": {
+        "name": null,
+        "NOTES": []
+    },
+    "nki": {
+        "name": null,
+        "NOTES": []
+    },
+    "nkj": {
+        "name": null,
+        "NOTES": []
+    },
+    "nkk": {
+        "name": null,
+        "NOTES": []
+    },
+    "nkm": {
+        "name": null,
+        "NOTES": []
+    },
+    "nkn": {
+        "name": null,
+        "NOTES": []
+    },
+    "nko": {
+        "name": null,
+        "NOTES": []
+    },
+    "nkp": {
+        "name": null,
+        "NOTES": []
+    },
+    "nkq": {
+        "name": null,
+        "NOTES": []
+    },
+    "nkr": {
+        "name": null,
+        "NOTES": []
+    },
+    "nks": {
+        "name": null,
+        "NOTES": []
+    },
+    "nkt": {
+        "name": null,
+        "NOTES": []
+    },
+    "nku": {
+        "name": null,
+        "NOTES": []
+    },
+    "nkv": {
+        "name": null,
+        "NOTES": []
+    },
+    "nkw": {
+        "name": null,
+        "NOTES": []
+    },
+    "nkx": {
+        "name": null,
+        "NOTES": []
+    },
+    "nkz": {
+        "name": null,
+        "NOTES": []
+    },
+    "nla": {
+        "name": null,
+        "NOTES": []
+    },
+    "nlc": {
+        "name": null,
+        "NOTES": []
+    },
+    "nld": {
+        "name": "Olandese",
+        "NOTES": []
+    },
+    "nle": {
+        "name": null,
+        "NOTES": []
+    },
+    "nlg": {
+        "name": null,
+        "NOTES": []
+    },
+    "nli": {
+        "name": null,
+        "NOTES": []
+    },
+    "nlj": {
+        "name": null,
+        "NOTES": []
+    },
+    "nlk": {
+        "name": null,
+        "NOTES": []
+    },
+    "nll": {
+        "name": null,
+        "NOTES": []
+    },
+    "nlm": {
+        "name": null,
+        "NOTES": []
+    },
+    "nlo": {
+        "name": null,
+        "NOTES": []
+    },
+    "nlq": {
+        "name": null,
+        "NOTES": []
+    },
+    "nlu": {
+        "name": null,
+        "NOTES": []
+    },
+    "nlv": {
+        "name": null,
+        "NOTES": []
+    },
+    "nlw": {
+        "name": null,
+        "NOTES": []
+    },
+    "nlx": {
+        "name": null,
+        "NOTES": []
+    },
+    "nly": {
+        "name": null,
+        "NOTES": []
+    },
+    "nlz": {
+        "name": null,
+        "NOTES": []
+    },
+    "nma": {
+        "name": null,
+        "NOTES": []
+    },
+    "nmb": {
+        "name": null,
+        "NOTES": []
+    },
+    "nmc": {
+        "name": null,
+        "NOTES": []
+    },
+    "nmd": {
+        "name": null,
+        "NOTES": []
+    },
+    "nme": {
+        "name": null,
+        "NOTES": []
+    },
+    "nmf": {
+        "name": null,
+        "NOTES": []
+    },
+    "nmg": {
+        "name": "Kwasio, Ngumba, Mvumbo, Bujeba, Gyele, Kola",
+        "NOTES": [
+            "Direct reference not found"
+        ]
+    },
+    "nmh": {
+        "name": null,
+        "NOTES": []
+    },
+    "nmi": {
+        "name": null,
+        "NOTES": []
+    },
+    "nmj": {
+        "name": null,
+        "NOTES": []
+    },
+    "nmk": {
+        "name": null,
+        "NOTES": []
+    },
+    "nml": {
+        "name": null,
+        "NOTES": []
+    },
+    "nmm": {
+        "name": null,
+        "NOTES": []
+    },
+    "nmn": {
+        "name": null,
+        "NOTES": []
+    },
+    "nmo": {
+        "name": null,
+        "NOTES": []
+    },
+    "nmp": {
+        "name": null,
+        "NOTES": []
+    },
+    "nmq": {
+        "name": "Nambya",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_nambya"
+        ]
+    },
+    "nmr": {
+        "name": null,
+        "NOTES": []
+    },
+    "nms": {
+        "name": null,
+        "NOTES": []
+    },
+    "nmt": {
+        "name": null,
+        "NOTES": []
+    },
+    "nmu": {
+        "name": null,
+        "NOTES": []
+    },
+    "nmv": {
+        "name": null,
+        "NOTES": []
+    },
+    "nmw": {
+        "name": null,
+        "NOTES": []
+    },
+    "nmx": {
+        "name": null,
+        "NOTES": []
+    },
+    "nmy": {
+        "name": null,
+        "NOTES": []
+    },
+    "nmz": {
+        "name": null,
+        "NOTES": []
+    },
+    "nna": {
+        "name": null,
+        "NOTES": []
+    },
+    "nnb": {
+        "name": null,
+        "NOTES": []
+    },
+    "nnc": {
+        "name": null,
+        "NOTES": []
+    },
+    "nnd": {
+        "name": null,
+        "NOTES": []
+    },
+    "nne": {
+        "name": null,
+        "NOTES": []
+    },
+    "nnf": {
+        "name": null,
+        "NOTES": []
+    },
+    "nng": {
+        "name": null,
+        "NOTES": []
+    },
+    "nnh": {
+        "name": "Ngiemboon",
+        "NOTES": [
+            "Direct reference not found"
+        ]
+    },
+    "nni": {
+        "name": null,
+        "NOTES": []
+    },
+    "nnj": {
+        "name": null,
+        "NOTES": []
+    },
+    "nnk": {
+        "name": null,
+        "NOTES": []
+    },
+    "nnl": {
+        "name": null,
+        "NOTES": []
+    },
+    "nnm": {
+        "name": null,
+        "NOTES": []
+    },
+    "nnn": {
+        "name": null,
+        "NOTES": []
+    },
+    "nno": {
+        "name": "Neonorvegese, Norvegese Nynorsk, Landsmål",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Nynorsk"
+        ]
+    },
+    "nnp": {
+        "name": null,
+        "NOTES": []
+    },
+    "nnq": {
+        "name": null,
+        "NOTES": []
+    },
+    "nnr": {
+        "name": null,
+        "NOTES": []
+    },
+    "nnt": {
+        "name": null,
+        "NOTES": []
+    },
+    "nnu": {
+        "name": null,
+        "NOTES": []
+    },
+    "nnv": {
+        "name": null,
+        "NOTES": []
+    },
+    "nnw": {
+        "name": null,
+        "NOTES": []
+    },
+    "nny": {
+        "name": null,
+        "NOTES": []
+    },
+    "nnz": {
+        "name": null,
+        "NOTES": []
+    },
+    "noa": {
+        "name": null,
+        "NOTES": []
+    },
+    "nob": {
+        "name": "Norvegese Bokmål",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Bokm%C3%A5l"
+        ]
+    },
+    "noc": {
+        "name": null,
+        "NOTES": []
+    },
+    "nod": {
+        "name": null,
+        "NOTES": []
+    },
+    "noe": {
+        "name": null,
+        "NOTES": []
+    },
+    "nof": {
+        "name": null,
+        "NOTES": []
+    },
+    "nog": {
+        "name": null,
+        "NOTES": []
+    },
+    "noh": {
+        "name": null,
+        "NOTES": []
+    },
+    "noi": {
+        "name": null,
+        "NOTES": []
+    },
+    "noj": {
+        "name": null,
+        "NOTES": []
+    },
+    "nok": {
+        "name": null,
+        "NOTES": []
+    },
+    "nol": {
+        "name": null,
+        "NOTES": []
+    },
+    "non": {
+        "name": null,
+        "NOTES": []
+    },
+    "nop": {
+        "name": null,
+        "NOTES": []
+    },
+    "noq": {
+        "name": null,
+        "NOTES": []
+    },
+    "nor": {
+        "name": "Norvegese",
+        "NOTES": []
+    },
+    "nos": {
+        "name": null,
+        "NOTES": []
+    },
+    "not": {
+        "name": null,
+        "NOTES": []
+    },
+    "nou": {
+        "name": null,
+        "NOTES": []
+    },
+    "nov": {
+        "name": null,
+        "NOTES": []
+    },
+    "now": {
+        "name": null,
+        "NOTES": []
+    },
+    "noy": {
+        "name": null,
+        "NOTES": []
+    },
+    "noz": {
+        "name": null,
+        "NOTES": []
+    },
+    "npa": {
+        "name": null,
+        "NOTES": []
+    },
+    "npb": {
+        "name": null,
+        "NOTES": []
+    },
+    "npg": {
+        "name": null,
+        "NOTES": []
+    },
+    "nph": {
+        "name": null,
+        "NOTES": []
+    },
+    "npi": {
+        "name": null,
+        "NOTES": []
+    },
+    "npl": {
+        "name": null,
+        "NOTES": []
+    },
+    "npn": {
+        "name": null,
+        "NOTES": []
+    },
+    "npo": {
+        "name": null,
+        "NOTES": []
+    },
+    "nps": {
+        "name": null,
+        "NOTES": []
+    },
+    "npu": {
+        "name": null,
+        "NOTES": []
+    },
+    "npx": {
+        "name": null,
+        "NOTES": []
+    },
+    "npy": {
+        "name": null,
+        "NOTES": []
+    },
+    "nqg": {
+        "name": null,
+        "NOTES": []
+    },
+    "nqk": {
+        "name": null,
+        "NOTES": []
+    },
+    "nql": {
+        "name": null,
+        "NOTES": []
+    },
+    "nqm": {
+        "name": null,
+        "NOTES": []
+    },
+    "nqn": {
+        "name": null,
+        "NOTES": []
+    },
+    "nqo": {
+        "name": null,
+        "NOTES": []
+    },
+    "nqq": {
+        "name": null,
+        "NOTES": []
+    },
+    "nqt": {
+        "name": null,
+        "NOTES": []
+    },
+    "nqy": {
+        "name": null,
+        "NOTES": []
+    },
+    "nra": {
+        "name": null,
+        "NOTES": []
+    },
+    "nrb": {
+        "name": null,
+        "NOTES": []
+    },
+    "nrc": {
+        "name": null,
+        "NOTES": []
+    },
+    "nre": {
+        "name": null,
+        "NOTES": []
+    },
+    "nrf": {
+        "name": null,
+        "NOTES": []
+    },
+    "nrg": {
+        "name": null,
+        "NOTES": []
+    },
+    "nri": {
+        "name": null,
+        "NOTES": []
+    },
+    "nrk": {
+        "name": null,
+        "NOTES": []
+    },
+    "nrl": {
+        "name": null,
+        "NOTES": []
+    },
+    "nrm": {
+        "name": null,
+        "NOTES": []
+    },
+    "nrn": {
+        "name": null,
+        "NOTES": []
+    },
+    "nrp": {
+        "name": null,
+        "NOTES": []
+    },
+    "nrr": {
+        "name": null,
+        "NOTES": []
+    },
+    "nrt": {
+        "name": null,
+        "NOTES": []
+    },
+    "nru": {
+        "name": null,
+        "NOTES": []
+    },
+    "nrx": {
+        "name": null,
+        "NOTES": []
+    },
+    "nrz": {
+        "name": null,
+        "NOTES": []
+    },
+    "nsa": {
+        "name": null,
+        "NOTES": []
+    },
+    "nsb": {
+        "name": null,
+        "NOTES": []
+    },
+    "nsc": {
+        "name": null,
+        "NOTES": []
+    },
+    "nsd": {
+        "name": null,
+        "NOTES": []
+    },
+    "nse": {
+        "name": null,
+        "NOTES": []
+    },
+    "nsf": {
+        "name": null,
+        "NOTES": []
+    },
+    "nsg": {
+        "name": null,
+        "NOTES": []
+    },
+    "nsh": {
+        "name": null,
+        "NOTES": []
+    },
+    "nsi": {
+        "name": null,
+        "NOTES": []
+    },
+    "nsk": {
+        "name": null,
+        "NOTES": []
+    },
+    "nsl": {
+        "name": null,
+        "NOTES": []
+    },
+    "nsm": {
+        "name": null,
+        "NOTES": []
+    },
+    "nsn": {
+        "name": null,
+        "NOTES": []
+    },
+    "nso": {
+        "name": "Sotho del nord, Pedi,Sepedi, Sesotho del nord",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_sotho_del_nord"
+        ]
+    },
+    "nsp": {
+        "name": null,
+        "NOTES": []
+    },
+    "nsq": {
+        "name": null,
+        "NOTES": []
+    },
+    "nsr": {
+        "name": null,
+        "NOTES": []
+    },
+    "nss": {
+        "name": null,
+        "NOTES": []
+    },
+    "nst": {
+        "name": null,
+        "NOTES": []
+    },
+    "nsu": {
+        "name": null,
+        "NOTES": []
+    },
+    "nsv": {
+        "name": null,
+        "NOTES": []
+    },
+    "nsw": {
+        "name": null,
+        "NOTES": []
+    },
+    "nsx": {
+        "name": null,
+        "NOTES": []
+    },
+    "nsy": {
+        "name": null,
+        "NOTES": []
+    },
+    "nsz": {
+        "name": null,
+        "NOTES": []
+    },
+    "ntd": {
+        "name": null,
+        "NOTES": []
+    },
+    "ntg": {
+        "name": null,
+        "NOTES": []
+    },
+    "nti": {
+        "name": null,
+        "NOTES": []
+    },
+    "ntj": {
+        "name": null,
+        "NOTES": []
+    },
+    "ntk": {
+        "name": null,
+        "NOTES": []
+    },
+    "ntm": {
+        "name": null,
+        "NOTES": []
+    },
+    "nto": {
+        "name": null,
+        "NOTES": []
+    },
+    "ntp": {
+        "name": null,
+        "NOTES": []
+    },
+    "ntr": {
+        "name": null,
+        "NOTES": []
+    },
+    "ntu": {
+        "name": null,
+        "NOTES": []
+    },
+    "ntw": {
+        "name": null,
+        "NOTES": []
+    },
+    "ntx": {
+        "name": null,
+        "NOTES": []
+    },
+    "nty": {
+        "name": null,
+        "NOTES": []
+    },
+    "ntz": {
+        "name": null,
+        "NOTES": []
+    },
+    "nua": {
+        "name": null,
+        "NOTES": []
+    },
+    "nuc": {
+        "name": null,
+        "NOTES": []
+    },
+    "nud": {
+        "name": null,
+        "NOTES": []
+    },
+    "nue": {
+        "name": null,
+        "NOTES": []
+    },
+    "nuf": {
+        "name": null,
+        "NOTES": []
+    },
+    "nug": {
+        "name": null,
+        "NOTES": []
+    },
+    "nuh": {
+        "name": null,
+        "NOTES": []
+    },
+    "nui": {
+        "name": null,
+        "NOTES": []
+    },
+    "nuj": {
+        "name": null,
+        "NOTES": []
+    },
+    "nuk": {
+        "name": null,
+        "NOTES": []
+    },
+    "nul": {
+        "name": null,
+        "NOTES": []
+    },
+    "num": {
+        "name": null,
+        "NOTES": []
+    },
+    "nun": {
+        "name": null,
+        "NOTES": []
+    },
+    "nuo": {
+        "name": null,
+        "NOTES": []
+    },
+    "nup": {
+        "name": null,
+        "NOTES": []
+    },
+    "nuq": {
+        "name": null,
+        "NOTES": []
+    },
+    "nur": {
+        "name": null,
+        "NOTES": []
+    },
+    "nus": {
+        "name": "Nuer",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_nuer"
+        ]
+    },
+    "nut": {
+        "name": null,
+        "NOTES": []
+    },
+    "nuu": {
+        "name": null,
+        "NOTES": []
+    },
+    "nuv": {
+        "name": null,
+        "NOTES": []
+    },
+    "nuw": {
+        "name": null,
+        "NOTES": []
+    },
+    "nux": {
+        "name": null,
+        "NOTES": []
+    },
+    "nuy": {
+        "name": null,
+        "NOTES": []
+    },
+    "nuz": {
+        "name": null,
+        "NOTES": []
+    },
+    "nvh": {
+        "name": null,
+        "NOTES": []
+    },
+    "nvm": {
+        "name": null,
+        "NOTES": []
+    },
+    "nvo": {
+        "name": null,
+        "NOTES": []
+    },
+    "nwa": {
+        "name": null,
+        "NOTES": []
+    },
+    "nwb": {
+        "name": null,
+        "NOTES": []
+    },
+    "nwc": {
+        "name": null,
+        "NOTES": []
+    },
+    "nwe": {
+        "name": null,
+        "NOTES": []
+    },
+    "nwg": {
+        "name": null,
+        "NOTES": []
+    },
+    "nwi": {
+        "name": null,
+        "NOTES": []
+    },
+    "nwm": {
+        "name": null,
+        "NOTES": []
+    },
+    "nwo": {
+        "name": null,
+        "NOTES": []
+    },
+    "nwr": {
+        "name": null,
+        "NOTES": []
+    },
+    "nww": {
+        "name": null,
+        "NOTES": []
+    },
+    "nwx": {
+        "name": null,
+        "NOTES": []
+    },
+    "nwy": {
+        "name": null,
+        "NOTES": []
+    },
+    "nxa": {
+        "name": null,
+        "NOTES": []
+    },
+    "nxd": {
+        "name": null,
+        "NOTES": []
+    },
+    "nxe": {
+        "name": null,
+        "NOTES": []
+    },
+    "nxg": {
+        "name": null,
+        "NOTES": []
+    },
+    "nxi": {
+        "name": null,
+        "NOTES": []
+    },
+    "nxk": {
+        "name": null,
+        "NOTES": []
+    },
+    "nxl": {
+        "name": null,
+        "NOTES": []
+    },
+    "nxm": {
+        "name": null,
+        "NOTES": []
+    },
+    "nxn": {
+        "name": null,
+        "NOTES": []
+    },
+    "nxo": {
+        "name": null,
+        "NOTES": []
+    },
+    "nxq": {
+        "name": null,
+        "NOTES": []
+    },
+    "nxr": {
+        "name": null,
+        "NOTES": []
+    },
+    "nxx": {
+        "name": null,
+        "NOTES": []
+    },
+    "nya": {
+        "name": "Chewa, Chicheŵa, Cinyanja, Nyanja",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_chewa"
+        ]
+    },
+    "nyb": {
+        "name": null,
+        "NOTES": []
+    },
+    "nyc": {
+        "name": null,
+        "NOTES": []
+    },
+    "nyd": {
+        "name": null,
+        "NOTES": []
+    },
+    "nye": {
+        "name": null,
+        "NOTES": []
+    },
+    "nyf": {
+        "name": null,
+        "NOTES": []
+    },
+    "nyg": {
+        "name": null,
+        "NOTES": []
+    },
+    "nyh": {
+        "name": null,
+        "NOTES": []
+    },
+    "nyi": {
+        "name": null,
+        "NOTES": []
+    },
+    "nyj": {
+        "name": null,
+        "NOTES": []
+    },
+    "nyk": {
+        "name": null,
+        "NOTES": []
+    },
+    "nyl": {
+        "name": null,
+        "NOTES": []
+    },
+    "nym": {
+        "name": null,
+        "NOTES": []
+    },
+    "nyn": {
+        "name": "Nyankole, Nkore, Nkole",
+        "NOTES": [
+            "Direct reference not found"
+        ]
+    },
+    "nyo": {
+        "name": null,
+        "NOTES": []
+    },
+    "nyp": {
+        "name": null,
+        "NOTES": []
+    },
+    "nyq": {
+        "name": null,
+        "NOTES": []
+    },
+    "nyr": {
+        "name": null,
+        "NOTES": []
+    },
+    "nys": {
+        "name": null,
+        "NOTES": []
+    },
+    "nyt": {
+        "name": null,
+        "NOTES": []
+    },
+    "nyu": {
+        "name": null,
+        "NOTES": []
+    },
+    "nyv": {
+        "name": null,
+        "NOTES": []
+    },
+    "nyw": {
+        "name": null,
+        "NOTES": []
+    },
+    "nyx": {
+        "name": null,
+        "NOTES": []
+    },
+    "nyy": {
+        "name": null,
+        "NOTES": []
+    },
+    "nza": {
+        "name": null,
+        "NOTES": []
+    },
+    "nzb": {
+        "name": null,
+        "NOTES": []
+    },
+    "nzd": {
+        "name": null,
+        "NOTES": []
+    },
+    "nzi": {
+        "name": null,
+        "NOTES": []
+    },
+    "nzk": {
+        "name": null,
+        "NOTES": []
+    },
+    "nzm": {
+        "name": null,
+        "NOTES": []
+    },
+    "nzr": {
+        "name": null,
+        "NOTES": []
+    },
+    "nzs": {
+        "name": null,
+        "NOTES": []
+    },
+    "nzu": {
+        "name": null,
+        "NOTES": []
+    },
+    "nzy": {
+        "name": null,
+        "NOTES": []
+    },
+    "nzz": {
+        "name": null,
+        "NOTES": []
+    },
+    "oaa": {
+        "name": null,
+        "NOTES": []
+    },
+    "oac": {
+        "name": null,
+        "NOTES": []
+    },
+    "oak": {
+        "name": null,
+        "NOTES": []
+    },
+    "oar": {
+        "name": null,
+        "NOTES": []
+    },
+    "oav": {
+        "name": null,
+        "NOTES": []
+    },
+    "obi": {
+        "name": null,
+        "NOTES": []
+    },
+    "obk": {
+        "name": null,
+        "NOTES": []
+    },
+    "obl": {
+        "name": null,
+        "NOTES": []
+    },
+    "obm": {
+        "name": null,
+        "NOTES": []
+    },
+    "obo": {
+        "name": null,
+        "NOTES": []
+    },
+    "obr": {
+        "name": null,
+        "NOTES": []
+    },
+    "obt": {
+        "name": null,
+        "NOTES": []
+    },
+    "obu": {
+        "name": null,
+        "NOTES": []
+    },
+    "oca": {
+        "name": null,
+        "NOTES": []
+    },
+    "och": {
+        "name": null,
+        "NOTES": []
+    },
+    "oci": {
+        "name": "Occitano; Lingua d'Oc",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_occitana",
+            "https://www.treccani.it/vocabolario/occitano/"
+        ]
+    },
+    "ocm": {
+        "name": null,
+        "NOTES": []
+    },
+    "oco": {
+        "name": null,
+        "NOTES": []
+    },
+    "ocu": {
+        "name": null,
+        "NOTES": []
+    },
+    "oda": {
+        "name": null,
+        "NOTES": []
+    },
+    "odk": {
+        "name": null,
+        "NOTES": []
+    },
+    "odt": {
+        "name": null,
+        "NOTES": []
+    },
+    "odu": {
+        "name": null,
+        "NOTES": []
+    },
+    "ofo": {
+        "name": null,
+        "NOTES": []
+    },
+    "ofs": {
+        "name": null,
+        "NOTES": []
+    },
+    "ofu": {
+        "name": null,
+        "NOTES": []
+    },
+    "ogb": {
+        "name": null,
+        "NOTES": []
+    },
+    "ogc": {
+        "name": null,
+        "NOTES": []
+    },
+    "oge": {
+        "name": null,
+        "NOTES": []
+    },
+    "ogg": {
+        "name": null,
+        "NOTES": []
+    },
+    "ogo": {
+        "name": null,
+        "NOTES": []
+    },
+    "ogu": {
+        "name": null,
+        "NOTES": []
+    },
+    "oht": {
+        "name": null,
+        "NOTES": []
+    },
+    "ohu": {
+        "name": null,
+        "NOTES": []
+    },
+    "oia": {
+        "name": null,
+        "NOTES": []
+    },
+    "oie": {
+        "name": null,
+        "NOTES": []
+    },
+    "oin": {
+        "name": null,
+        "NOTES": []
+    },
+    "ojb": {
+        "name": null,
+        "NOTES": []
+    },
+    "ojc": {
+        "name": null,
+        "NOTES": []
+    },
+    "ojg": {
+        "name": null,
+        "NOTES": []
+    },
+    "oji": {
+        "name": "Ojibwa, Ojibwe, Chippewa",
+        "NOTES": [
+            "https://it.wikipedia.org/wiki/Lingua_ojibwe"
+        ]
+    },
+    "ojp": {
+        "name": null,
+        "NOTES": []
+    },
+    "ojs": {
+        "name": null,
+        "NOTES": []
+    },
+    "ojv": {
+        "name": null,
+        "NOTES": []
+    },
+    "ojw": {
+        "name": null,
+        "NOTES": []
+    },
+    "oka": {
+        "name": null,
+        "NOTES": []
+    },
+    "okb": {
+        "name": null,
+        "NOTES": []
+    },
+    "okc": {
+        "name": null,
+        "NOTES": []
+    },
+    "okd": {
+        "name": null,
+        "NOTES": []
+    },
+    "oke": {
+        "name": null,
+        "NOTES": []
+    },
+    "okg": {
+        "name": null,
+        "NOTES": []
+    },
+    "okh": {
+        "name": null,
+        "NOTES": []
+    },
+    "oki": {
+        "name": "Ogiek, Okiek, Akiek",
+        "NOTES": [
+            "Direct reference not found"
+        ]
+    },
+    "okj": {
+        "name": null,
+        "NOTES": []
+    },
+    "okk": {
+        "name": null,
+        "NOTES": []
+    },
+    "okl": {
+        "name": null,
+        "NOTES": []
+    },
+    "okm": {
+        "name": null,
+        "NOTES": []
+    },
+    "okn": {
+        "name": null,
+        "NOTES": []
+    },
+    "oko": {
+        "name": null,
+        "NOTES": []
+    },
+    "okr": {
+        "name": null,
+        "NOTES": []
+    },
+    "oks": {
+        "name": null,
+        "NOTES": []
+    },
+    "oku": {
+        "name": null,
+        "NOTES": []
+    },
+    "okv": {
+        "name": null,
+        "NOTES": []
+    },
+    "okx": {
+        "name": null,
+        "NOTES": []
+    },
+    "okz": {
+        "name": null,
+        "NOTES": []
+    },
+    "ola": {
+        "name": null,
+        "NOTES": []
+    },
+    "old": {
+        "name": null,
+        "NOTES": []
+    },
+    "ole": {
+        "name": null,
+        "NOTES": []
+    },
+    "olk": {
+        "name": null,
+        "NOTES": []
+    },
+    "olm": {
+        "name": null,
+        "NOTES": []
+    },
+    "olo": {
+        "name": null,
+        "NOTES": []
+    },
+    "olr": {
+        "name": null,
+        "NOTES": []
+    },
+    "olt": {
+        "name": null,
+        "NOTES": []
+    },
+    "olu": {
+        "name": null,
+        "NOTES": []
+    },
+    "oma": {
+        "name": null,
+        "NOTES": []
+    },
+    "omb": {
+        "name": null,
+        "NOTES": []
+    },
+    "omc": {
+        "name": null,
+        "NOTES": []
+    },
+    "omg": {
+        "name": null,
+        "NOTES": []
+    },
+    "omi": {
+        "name": null,
+        "NOTES": []
+    },
+    "omk": {
+        "name": null,
+        "NOTES": []
+    },
+    "oml": {
+        "name": null,
+        "NOTES": []
+    },
+    "omn": {
+        "name": null,
+        "NOTES": []
+    },
+    "omo": {
+        "name": null,
+        "NOTES": []
+    },
+    "omp": {
+        "name": null,
+        "NOTES": []
+    },
+    "omr": {
+        "name": null,
+        "NOTES": []
+    },
+    "omt": {
+        "name": null,
+        "NOTES": []
+    },
+    "omu": {
+        "name": null,
+        "NOTES": []
+    },
+    "omw": {
+        "name": null,
+        "NOTES": []
+    },
+    "omx": {
+        "name": null,
+        "NOTES": []
+    },
+    "omy": {
+        "name": null,
+        "NOTES": []
+    },
+    "ona": {
+        "name": null,
+        "NOTES": []
+    },
+    "onb": {
+        "name": null,
+        "NOTES": []
+    },
+    "one": {
+        "name": null,
+        "NOTES": []
+    },
+    "ong": {
+        "name": null,
+        "NOTES": []
+    },
+    "oni": {
+        "name": null,
+        "NOTES": []
+    },
+    "onj": {
+        "name": null,
+        "NOTES": []
+    },
+    "onk": {
+        "name": null,
+        "NOTES": []
+    },
+    "onn": {
+        "name": null,
+        "NOTES": []
+    },
+    "ono": {
+        "name": null,
+        "NOTES": []
+    },
+    "onp": {
+        "name": null,
+        "NOTES": []
+    },
+    "onr": {
+        "name": null,
+        "NOTES": []
+    },
+    "ons": {
+        "name": null,
+        "NOTES": []
+    },
+    "ont": {
+        "name": null,
+        "NOTES": []
+    },
+    "onu": {
+        "name": null,
+        "NOTES": []
+    },
+    "onw": {
+        "name": null,
+        "NOTES": []
+    },
+    "onx": {
+        "name": null,
+        "NOTES": []
+    },
+    "ood": {
+        "name": null,
+        "NOTES": []
+    },
+    "oog": {
+        "name": null,
+        "NOTES": []
+    },
+    "oon": {
+        "name": null,
+        "NOTES": []
+    },
+    "oor": {
+        "name": null,
+        "NOTES": []
+    },
+    "oos": {
+        "name": null,
+        "NOTES": []
+    },
+    "opa": {
+        "name": null,
+        "NOTES": []
+    },
+    "opk": {
+        "name": null,
+        "NOTES": []
+    },
+    "opm": {
+        "name": null,
+        "NOTES": []
+    },
+    "opo": {
+        "name": null,
+        "NOTES": []
+    },
+    "opt": {
+        "name": null,
+        "NOTES": []
+    },
+    "opy": {
+        "name": null,
+        "NOTES": []
+    },
+    "ora": {
+        "name": null,
+        "NOTES": []
+    },
+    "orc": {
+        "name": null,
+        "NOTES": []
+    },
+    "ore": {
+        "name": null,
+        "NOTES": []
+    },
+    "org": {
+        "name": null,
+        "NOTES": []
+    },
+    "orh": {
+        "name": null,
+        "NOTES": []
+    },
+    "ori": {
+        "name": "Oriya",
+        "NOTES": []
+    },
+    "orm": {
+        "name": "Oromo",
+        "NOTES": []
+    },
+    "orn": {
+        "name": null,
+        "NOTES": []
+    },
+    "oro": {
+        "name": null,
+        "NOTES": []
+    },
+    "orr": {
+        "name": null,
+        "NOTES": []
+    },
+    "ors": {
+        "name": null,
+        "NOTES": []
+    },
+    "ort": {
+        "name": null,
+        "NOTES": []
+    },
+    "oru": {
+        "name": null,
+        "NOTES": []
+    },
+    "orv": {
+        "name": null,
+        "NOTES": []
+    },
+    "orw": {
+        "name": null,
+        "NOTES": []
+    },
+    "orx": {
+        "name": null,
+        "NOTES": []
+    },
+    "ory": {
+        "name": null,
+        "NOTES": []
+    },
+    "orz": {
+        "name": null,
+        "NOTES": []
+    },
+    "osa": {
+        "name": null,
+        "NOTES": []
+    },
+    "osc": {
+        "name": null,
+        "NOTES": []
+    },
+    "osi": {
+        "name": null,
+        "NOTES": []
+    },
+    "osn": {
+        "name": null,
+        "NOTES": []
+    },
+    "oso": {
+        "name": null,
+        "NOTES": []
+    },
+    "osp": {
+        "name": null,
+        "NOTES": []
+    },
+    "oss": {
+        "name": "Osseto",
+        "NOTES": []
+    },
+    "ost": {
+        "name": null,
+        "NOTES": []
+    },
+    "osu": {
+        "name": null,
+        "NOTES": []
+    },
+    "osx": {
+        "name": null,
+        "NOTES": []
+    },
+    "ota": {
+        "name": null,
+        "NOTES": []
+    },
+    "otb": {
+        "name": null,
+        "NOTES": []
+    },
+    "otd": {
+        "name": null,
+        "NOTES": []
+    },
+    "ote": {
+        "name": null,
+        "NOTES": []
+    },
+    "oti": {
+        "name": null,
+        "NOTES": []
+    },
+    "otk": {
+        "name": null,
+        "NOTES": []
+    },
+    "otl": {
+        "name": null,
+        "NOTES": []
+    },
+    "otm": {
+        "name": null,
+        "NOTES": []
+    },
+    "otn": {
+        "name": null,
+        "NOTES": []
+    },
+    "otq": {
+        "name": null,
+        "NOTES": []
+    },
+    "otr": {
+        "name": null,
+        "NOTES": []
+    },
+    "ots": {
+        "name": null,
+        "NOTES": []
+    },
+    "ott": {
+        "name": null,
+        "NOTES": []
+    },
+    "otu": {
+        "name": null,
+        "NOTES": []
+    },
+    "otw": {
+        "name": null,
+        "NOTES": []
+    },
+    "otx": {
+        "name": null,
+        "NOTES": []
+    },
+    "oty": {
+        "name": null,
+        "NOTES": []
+    },
+    "otz": {
+        "name": null,
+        "NOTES": []
+    },
+    "oua": {
+        "name": null,
+        "NOTES": []
+    },
+    "oub": {
+        "name": null,
+        "NOTES": []
+    },
+    "oue": {
+        "name": null,
+        "NOTES": []
+    },
+    "oui": {
+        "name": null,
+        "NOTES": []
+    },
+    "oum": {
+        "name": null,
+        "NOTES": []
+    },
+    "ovd": {
+        "name": null,
+        "NOTES": []
+    },
+    "owi": {
+        "name": null,
+        "NOTES": []
+    },
+    "owl": {
+        "name": null,
+        "NOTES": []
+    },
+    "oyb": {
+        "name": null,
+        "NOTES": []
+    },
+    "oyd": {
+        "name": null,
+        "NOTES": []
+    },
+    "oym": {
+        "name": null,
+        "NOTES": []
+    },
+    "oyy": {
+        "name": null,
+        "NOTES": []
+    },
+    "ozm": {
+        "name": null,
+        "NOTES": []
+    },
+    "pab": {
+        "name": null,
+        "NOTES": []
+    },
+    "pac": {
+        "name": null,
+        "NOTES": []
+    },
+    "pad": {
+        "name": null,
+        "NOTES": []
+    },
+    "pae": {
+        "name": null,
+        "NOTES": []
+    },
+    "paf": {
+        "name": null,
+        "NOTES": []
+    },
+    "pag": {
+        "name": null,
+        "NOTES": []
+    },
+    "pah": {
+        "name": null,
+        "NOTES": []
+    },
+    "pai": {
+        "name": null,
+        "NOTES": []
+    },
+    "pak": {
+        "name": null,
+        "NOTES": []
+    },
+    "pal": {
+        "name": null,
+        "NOTES": []
+    },
+    "pam": {
+        "name": null,
+        "NOTES": []
+    },
+    "pan": {
+        "name": "Panjabi",
+        "NOTES": []
+    },
+    "pao": {
+        "name": null,
+        "NOTES": []
+    },
+    "pap": {
+        "name": "Papiamento",
+        "NOTES": []
+    },
+    "paq": {
+        "name": null,
+        "NOTES": []
+    },
+    "par": {
+        "name": null,
+        "NOTES": []
+    },
+    "pas": {
+        "name": null,
+        "NOTES": []
+    },
+    "pau": {
+        "name": "Palauano",
+        "NOTES": []
+    },
+    "pav": {
+        "name": null,
+        "NOTES": []
+    },
+    "paw": {
+        "name": null,
+        "NOTES": []
+    },
+    "pax": {
+        "name": null,
+        "NOTES": []
+    },
+    "pay": {
+        "name": null,
+        "NOTES": []
+    },
+    "paz": {
+        "name": null,
+        "NOTES": []
+    },
+    "pbb": {
+        "name": null,
+        "NOTES": []
+    },
+    "pbc": {
+        "name": null,
+        "NOTES": []
+    },
+    "pbe": {
+        "name": null,
+        "NOTES": []
+    },
+    "pbf": {
+        "name": null,
+        "NOTES": []
+    },
+    "pbg": {
+        "name": null,
+        "NOTES": []
+    },
+    "pbh": {
+        "name": null,
+        "NOTES": []
+    },
+    "pbi": {
+        "name": null,
+        "NOTES": []
+    },
+    "pbl": {
+        "name": null,
+        "NOTES": []
+    },
+    "pbm": {
+        "name": null,
+        "NOTES": []
+    },
+    "pbn": {
+        "name": null,
+        "NOTES": []
+    },
+    "pbo": {
+        "name": null,
+        "NOTES": []
+    },
+    "pbp": {
+        "name": null,
+        "NOTES": []
+    },
+    "pbr": {
+        "name": null,
+        "NOTES": []
+    },
+    "pbs": {
+        "name": null,
+        "NOTES": []
+    },
+    "pbt": {
+        "name": null,
+        "NOTES": []
+    },
+    "pbu": {
+        "name": null,
+        "NOTES": []
+    },
+    "pbv": {
+        "name": null,
+        "NOTES": []
+    },
+    "pby": {
+        "name": null,
+        "NOTES": []
+    },
+    "pca": {
+        "name": null,
+        "NOTES": []
+    },
+    "pcb": {
+        "name": null,
+        "NOTES": []
+    },
+    "pcc": {
+        "name": null,
+        "NOTES": []
+    },
+    "pcd": {
+        "name": null,
+        "NOTES": []
+    },
+    "pce": {
+        "name": null,
+        "NOTES": []
+    },
+    "pcf": {
+        "name": null,
+        "NOTES": []
+    },
+    "pcg": {
+        "name": null,
+        "NOTES": []
+    },
+    "pch": {
+        "name": null,
+        "NOTES": []
+    },
+    "pci": {
+        "name": null,
+        "NOTES": []
+    },
+    "pcj": {
+        "name": null,
+        "NOTES": []
+    },
+    "pck": {
+        "name": null,
+        "NOTES": []
+    },
+    "pcl": {
+        "name": null,
+        "NOTES": []
+    },
+    "pcm": {
+        "name": null,
+        "NOTES": []
+    },
+    "pcn": {
+        "name": null,
+        "NOTES": []
+    },
+    "pcp": {
+        "name": null,
+        "NOTES": []
+    },
+    "pcw": {
+        "name": null,
+        "NOTES": []
+    },
+    "pda": {
+        "name": null,
+        "NOTES": []
+    },
+    "pdc": {
+        "name": null,
+        "NOTES": []
+    },
+    "pdi": {
+        "name": null,
+        "NOTES": []
+    },
+    "pdn": {
+        "name": null,
+        "NOTES": []
+    },
+    "pdo": {
+        "name": null,
+        "NOTES": []
+    },
+    "pdt": {
+        "name": null,
+        "NOTES": []
+    },
+    "pdu": {
+        "name": null,
+        "NOTES": []
+    },
+    "pea": {
+        "name": null,
+        "NOTES": []
+    },
+    "peb": {
+        "name": null,
+        "NOTES": []
+    },
+    "ped": {
+        "name": null,
+        "NOTES": []
+    },
+    "pee": {
+        "name": null,
+        "NOTES": []
+    },
+    "pef": {
+        "name": null,
+        "NOTES": []
+    },
+    "peg": {
+        "name": null,
+        "NOTES": []
+    },
+    "peh": {
+        "name": null,
+        "NOTES": []
+    },
+    "pei": {
+        "name": null,
+        "NOTES": []
+    },
+    "pej": {
+        "name": null,
+        "NOTES": []
+    },
+    "pek": {
+        "name": null,
+        "NOTES": []
+    },
+    "pel": {
+        "name": null,
+        "NOTES": []
+    },
+    "pem": {
+        "name": null,
+        "NOTES": []
+    },
+    "peo": {
+        "name": null,
+        "NOTES": []
+    },
+    "pep": {
+        "name": null,
+        "NOTES": []
+    },
+    "peq": {
+        "name": null,
+        "NOTES": []
+    },
+    "pes": {
+        "name": null,
+        "NOTES": []
+    },
+    "pev": {
+        "name": null,
+        "NOTES": []
+    },
+    "pex": {
+        "name": null,
+        "NOTES": []
+    },
+    "pey": {
+        "name": null,
+        "NOTES": []
+    },
+    "pez": {
+        "name": null,
+        "NOTES": []
+    },
+    "pfa": {
+        "name": null,
+        "NOTES": []
+    },
+    "pfe": {
+        "name": null,
+        "NOTES": []
+    },
+    "pfl": {
+        "name": null,
+        "NOTES": []
+    },
+    "pga": {
+        "name": null,
+        "NOTES": []
+    },
+    "pgd": {
+        "name": null,
+        "NOTES": []
+    },
+    "pgg": {
+        "name": null,
+        "NOTES": []
+    },
+    "pgi": {
+        "name": null,
+        "NOTES": []
+    },
+    "pgk": {
+        "name": null,
+        "NOTES": []
+    },
+    "pgl": {
+        "name": null,
+        "NOTES": []
+    },
+    "pgn": {
+        "name": null,
+        "NOTES": []
+    },
+    "pgs": {
+        "name": null,
+        "NOTES": []
+    },
+    "pgu": {
+        "name": null,
+        "NOTES": []
+    },
+    "pgz": {
+        "name": null,
+        "NOTES": []
+    },
+    "pha": {
+        "name": null,
+        "NOTES": []
+    },
+    "phd": {
+        "name": null,
+        "NOTES": []
+    },
+    "phg": {
+        "name": null,
+        "NOTES": []
+    },
+    "phh": {
+        "name": null,
+        "NOTES": []
+    },
+    "phj": {
+        "name": null,
+        "NOTES": []
+    },
+    "phk": {
+        "name": null,
+        "NOTES": []
+    },
+    "phl": {
+        "name": null,
+        "NOTES": []
+    },
+    "phm": {
+        "name": null,
+        "NOTES": []
+    },
+    "phn": {
+        "name": null,
+        "NOTES": []
+    },
+    "pho": {
+        "name": null,
+        "NOTES": []
+    },
+    "phq": {
+        "name": null,
+        "NOTES": []
+    },
+    "phr": {
+        "name": null,
+        "NOTES": []
+    },
+    "pht": {
+        "name": null,
+        "NOTES": []
+    },
+    "phu": {
+        "name": null,
+        "NOTES": []
+    },
+    "phv": {
+        "name": null,
+        "NOTES": []
+    },
+    "phw": {
+        "name": null,
+        "NOTES": []
+    },
+    "pia": {
+        "name": null,
+        "NOTES": []
+    },
+    "pib": {
+        "name": null,
+        "NOTES": []
+    },
+    "pic": {
+        "name": null,
+        "NOTES": []
+    },
+    "pid": {
+        "name": null,
+        "NOTES": []
+    },
+    "pie": {
+        "name": null,
+        "NOTES": []
+    },
+    "pif": {
+        "name": null,
+        "NOTES": []
+    },
+    "pig": {
+        "name": null,
+        "NOTES": []
+    },
+    "pih": {
+        "name": "Pitcairnese",
+        "NOTES": []
+    },
+    "pij": {
+        "name": null,
+        "NOTES": []
+    },
+    "pil": {
+        "name": null,
+        "NOTES": []
+    },
+    "pim": {
+        "name": null,
+        "NOTES": []
+    },
+    "pin": {
+        "name": null,
+        "NOTES": []
+    },
+    "pio": {
+        "name": null,
+        "NOTES": []
+    },
+    "pip": {
+        "name": null,
+        "NOTES": []
+    },
+    "pir": {
+        "name": null,
+        "NOTES": []
+    },
+    "pis": {
+        "name": null,
+        "NOTES": []
+    },
+    "pit": {
+        "name": null,
+        "NOTES": []
+    },
+    "piu": {
+        "name": null,
+        "NOTES": []
+    },
+    "piv": {
+        "name": null,
+        "NOTES": []
+    },
+    "piw": {
+        "name": null,
+        "NOTES": []
+    },
+    "pix": {
+        "name": null,
+        "NOTES": []
+    },
+    "piy": {
+        "name": null,
+        "NOTES": []
+    },
+    "piz": {
+        "name": null,
+        "NOTES": []
+    },
+    "pjt": {
+        "name": null,
+        "NOTES": []
+    },
+    "pka": {
+        "name": null,
+        "NOTES": []
+    },
+    "pkb": {
+        "name": null,
+        "NOTES": []
+    },
+    "pkc": {
+        "name": null,
+        "NOTES": []
+    },
+    "pkg": {
+        "name": null,
+        "NOTES": []
+    },
+    "pkh": {
+        "name": null,
+        "NOTES": []
+    },
+    "pkn": {
+        "name": null,
+        "NOTES": []
+    },
+    "pko": {
+        "name": "Pökoot, Pokot, Päkot, Pökot, Suk",
+        "NOTES": [
+            "Direct reference not found"
+        ]
+    },
+    "pkp": {
+        "name": null,
+        "NOTES": []
+    },
+    "pkr": {
+        "name": null,
+        "NOTES": []
+    },
+    "pks": {
+        "name": null,
+        "NOTES": []
+    },
+    "pkt": {
+        "name": null,
+        "NOTES": []
+    },
+    "pku": {
+        "name": null,
+        "NOTES": []
+    },
+    "pla": {
+        "name": null,
+        "NOTES": []
+    },
+    "plb": {
+        "name": null,
+        "NOTES": []
+    },
+    "plc": {
+        "name": null,
+        "NOTES": []
+    },
+    "pld": {
+        "name": null,
+        "NOTES": []
+    },
+    "ple": {
+        "name": null,
+        "NOTES": []
+    },
+    "plg": {
+        "name": null,
+        "NOTES": []
+    },
+    "plh": {
+        "name": null,
+        "NOTES": []
+    },
+    "pli": {
+        "name": "Pali",
+        "NOTES": []
+    },
+    "plk": {
+        "name": null,
+        "NOTES": []
+    },
+    "pll": {
+        "name": null,
+        "NOTES": []
+    },
+    "pln": {
+        "name": null,
+        "NOTES": []
+    },
+    "plo": {
+        "name": null,
+        "NOTES": []
+    },
+    "plq": {
+        "name": null,
+        "NOTES": []
+    },
+    "plr": {
+        "name": null,
+        "NOTES": []
+    },
+    "pls": {
+        "name": null,
+        "NOTES": []
+    },
+    "plt": {
+        "name": "Malgascio di Plateau Mahafaly",
+        "NOTES": [
+            "https://www.treccani.it/vocabolario/malgascio/?search=malg%C3%A0scio%2F",
+            "https://it.wikipedia.org/wiki/Lingua_malgascia"
+        ]
+    },
+    "plu": {
+        "name": null,
+        "NOTES": []
+    },
+    "plv": {
+        "name": null,
+        "NOTES": []
+    },
+    "plw": {
+        "name": null,
+        "NOTES": []
+    },
+    "ply": {
+        "name": null,
+        "NOTES": []
+    },
+    "plz": {
+        "name": null,
+        "NOTES": []
+    },
+    "pma": {
+        "name": null,
+        "NOTES": []
+    },
+    "pmb": {
+        "name": null,
+        "NOTES": []
+    },
+    "pmd": {
+        "name": null,
+        "NOTES": []
+    },
+    "pme": {
+        "name": null,
+        "NOTES": []
+    },
+    "pmf": {
+        "name": null,
+        "NOTES": []
+    },
+    "pmh": {
+        "name": null,
+        "NOTES": []
+    },
+    "pmi": {
+        "name": null,
+        "NOTES": []
+    },
+    "pmj": {
+        "name": null,
+        "NOTES": []
+    },
+    "pml": {
+        "name": null,
+        "NOTES": []
+    },
+    "pmm": {
+        "name": null,
+        "NOTES": []
+    },
+    "pmn": {
+        "name": null,
+        "NOTES": []
+    },
+    "pmo": {
+        "name": null,
+        "NOTES": []
+    },
+    "pmq": {
+        "name": null,
+        "NOTES": []
+    },
+    "pmr": {
+        "name": null,
+        "NOTES": []
+    },
+    "pms": {
+        "name": null,
+        "NOTES": []
+    },
+    "pmt": {
+        "name": null,
+        "NOTES": []
+    },
+    "pmw": {
+        "name": null,
+        "NOTES": []
+    },
+    "pmx": {
+        "name": null,
+        "NOTES": []
+    },
+    "pmy": {
+        "name": null,
+        "NOTES": []
+    },
+    "pmz": {
+        "name": null,
+        "NOTES": []
+    },
+    "pna": {
+        "name": null,
+        "NOTES": []
+    },
+    "pnb": {
+        "name": null,
+        "NOTES": []
+    },
+    "pnc": {
+        "name": null,
+        "NOTES": []
+    },
+    "pnd": {
+        "name": null,
+        "NOTES": []
+    },
+    "pne": {
+        "name": null,
+        "NOTES": []
+    },
+    "png": {
+        "name": null,
+        "NOTES": []
+    },
+    "pnh": {
+        "name": null,
+        "NOTES": []
+    },
+    "pni": {
+        "name": null,
+        "NOTES": []
+    },
+    "pnj": {
+        "name": null,
+        "NOTES": []
+    },
+    "pnk": {
+        "name": null,
+        "NOTES": []
+    },
+    "pnl": {
+        "name": null,
+        "NOTES": []
+    },
+    "pnm": {
+        "name": null,
+        "NOTES": []
+    },
+    "pnn": {
+        "name": null,
+        "NOTES": []
+    },
+    "pno": {
+        "name": null,
+        "NOTES": []
+    },
+    "pnp": {
+        "name": null,
+        "NOTES": []
+    },
+    "pnq": {
+        "name": null,
+        "NOTES": []
+    },
+    "pnr": {
+        "name": null,
+        "NOTES": []
+    },
+    "pns": {
+        "name": null,
+        "NOTES": []
+    },
+    "pnt": {
+        "name": null,
+        "NOTES": []
+    },
+    "pnu": {
+        "name": null,
+        "NOTES": []
+    },
+    "pnv": {
+        "name": null,
+        "NOTES": []
+    },
+    "pnw": {
+        "name": null,
+        "NOTES": []
+    },
+    "pnx": {
+        "name": null,
+        "NOTES": []
+    },
+    "pny": {
+        "name": null,
+        "NOTES": []
+    },
+    "pnz": {
+        "name": null,
+        "NOTES": []
+    },
+    "poc": {
+        "name": null,
+        "NOTES": []
+    },
+    "poe": {
+        "name": null,
+        "NOTES": []
+    },
+    "pof": {
+        "name": null,
+        "NOTES": []
+    },
+    "pog": {
+        "name": null,
+        "NOTES": []
+    },
+    "poh": {
+        "name": null,
+        "NOTES": []
+    },
+    "poi": {
+        "name": null,
+        "NOTES": []
+    },
+    "pok": {
+        "name": null,
+        "NOTES": []
+    },
+    "pol": {
+        "name": "Polacco",
+        "NOTES": []
+    },
+    "pom": {
+        "name": null,
+        "NOTES": []
+    },
+    "pon": {
+        "name": null,
+        "NOTES": []
+    },
+    "poo": {
+        "name": null,
+        "NOTES": []
+    },
+    "pop": {
+        "name": null,
+        "NOTES": []
+    },
+    "poq": {
+        "name": null,
+        "NOTES": []
+    },
+    "por": {
+        "name": "Portoghese",
+        "NOTES": []
+    },
+    "pos": {
+        "name": null,
+        "NOTES": []
+    },
+    "pot": {
+        "name": null,
+        "NOTES": []
+    },
+    "pov": {
+        "name": null,
+        "NOTES": []
+    },
+    "pow": {
+        "name": null,
+        "NOTES": []
+    },
+    "pox": {
+        "name": null,
+        "NOTES": []
+    },
+    "poy": {
+        "name": null,
+        "NOTES": []
+    },
+    "ppe": {
+        "name": null,
+        "NOTES": []
+    },
+    "ppi": {
+        "name": null,
+        "NOTES": []
+    },
+    "ppk": {
+        "name": null,
+        "NOTES": []
+    },
+    "ppl": {
+        "name": null,
+        "NOTES": []
+    },
+    "ppm": {
+        "name": null,
+        "NOTES": []
+    },
+    "ppn": {
+        "name": null,
+        "NOTES": []
+    },
+    "ppo": {
+        "name": null,
+        "NOTES": []
+    },
+    "ppp": {
+        "name": null,
+        "NOTES": []
+    },
+    "ppq": {
+        "name": null,
+        "NOTES": []
+    },
+    "pps": {
+        "name": null,
+        "NOTES": []
+    },
+    "ppt": {
+        "name": null,
+        "NOTES": []
+    },
+    "ppu": {
+        "name": null,
+        "NOTES": []
+    },
+    "pqa": {
+        "name": null,
+        "NOTES": []
+    },
+    "pqm": {
+        "name": null,
+        "NOTES": []
+    },
+    "prc": {
+        "name": null,
+        "NOTES": []
+    },
+    "prd": {
+        "name": null,
+        "NOTES": []
+    },
+    "pre": {
+        "name": null,
+        "NOTES": []
+    },
+    "prf": {
+        "name": null,
+        "NOTES": []
+    },
+    "prg": {
+        "name": null,
+        "NOTES": []
+    },
+    "prh": {
+        "name": null,
+        "NOTES": []
+    },
+    "pri": {
+        "name": null,
+        "NOTES": []
+    },
+    "prk": {
+        "name": null,
+        "NOTES": []
+    },
+    "prl": {
+        "name": null,
+        "NOTES": []
+    },
+    "prm": {
+        "name": null,
+        "NOTES": []
+    },
+    "prn": {
+        "name": null,
+        "NOTES": []
+    },
+    "pro": {
+        "name": null,
+        "NOTES": []
+    },
+    "prq": {
+        "name": null,
+        "NOTES": []
+    },
+    "prr": {
+        "name": null,
+        "NOTES": []
+    },
+    "prs": {
+        "name": "Dari",
+        "NOTES": []
+    },
+    "prt": {
+        "name": null,
+        "NOTES": []
+    },
+    "pru": {
+        "name": null,
+        "NOTES": []
+    },
+    "prw": {
+        "name": null,
+        "NOTES": []
+    },
+    "prx": {
+        "name": null,
+        "NOTES": []
+    },
+    "prz": {
+        "name": null,
+        "NOTES": []
+    },
+    "psa": {
+        "name": null,
+        "NOTES": []
+    },
+    "psc": {
+        "name": null,
+        "NOTES": []
+    },
+    "psd": {
+        "name": null,
+        "NOTES": []
+    },
+    "pse": {
+        "name": null,
+        "NOTES": []
+    },
+    "psg": {
+        "name": null,
+        "NOTES": []
+    },
+    "psh": {
+        "name": null,
+        "NOTES": []
+    },
+    "psi": {
+        "name": null,
+        "NOTES": []
+    },
+    "psl": {
+        "name": null,
+        "NOTES": []
+    },
+    "psm": {
+        "name": null,
+        "NOTES": []
+    },
+    "psn": {
+        "name": null,
+        "NOTES": []
+    },
+    "pso": {
+        "name": null,
+        "NOTES": []
+    },
+    "psp": {
+        "name": null,
+        "NOTES": []
+    },
+    "psq": {
+        "name": null,
+        "NOTES": []
+    },
+    "psr": {
+        "name": null,
+        "NOTES": []
+    },
+    "pss": {
+        "name": null,
+        "NOTES": []
+    },
+    "pst": {
+        "name": null,
+        "NOTES": []
+    },
+    "psu": {
+        "name": null,
+        "NOTES": []
+    },
+    "psw": {
+        "name": null,
+        "NOTES": []
+    },
+    "psy": {
+        "name": null,
+        "NOTES": []
+    },
+    "pta": {
+        "name": null,
+        "NOTES": []
+    },
+    "pth": {
+        "name": null,
+        "NOTES": []
+    },
+    "pti": {
+        "name": null,
+        "NOTES": []
+    },
+    "ptn": {
+        "name": null,
+        "NOTES": []
+    },
+    "pto": {
+        "name": null,
+        "NOTES": []
+    },
+    "ptp": {
+        "name": null,
+        "NOTES": []
+    },
+    "ptq": {
+        "name": null,
+        "NOTES": []
+    },
+    "ptr": {
+        "name": null,
+        "NOTES": []
+    },
+    "ptt": {
+        "name": null,
+        "NOTES": []
+    },
+    "ptu": {
+        "name": null,
+        "NOTES": []
+    },
+    "ptv": {
+        "name": null,
+        "NOTES": []
+    },
+    "ptw": {
+        "name": null,
+        "NOTES": []
+    },
+    "pty": {
+        "name": null,
+        "NOTES": []
+    },
+    "pua": {
+        "name": null,
+        "NOTES": []
+    },
+    "pub": {
+        "name": null,
+        "NOTES": []
+    },
+    "puc": {
+        "name": null,
+        "NOTES": []
+    },
+    "pud": {
+        "name": null,
+        "NOTES": []
+    },
+    "pue": {
+        "name": null,
+        "NOTES": []
+    },
+    "puf": {
+        "name": null,
+        "NOTES": []
+    },
+    "pug": {
+        "name": null,
+        "NOTES": []
+    },
+    "pui": {
+        "name": null,
+        "NOTES": []
+    },
+    "puj": {
+        "name": null,
+        "NOTES": []
+    },
+    "pum": {
+        "name": null,
+        "NOTES": []
+    },
+    "puo": {
+        "name": null,
+        "NOTES": []
+    },
+    "pup": {
+        "name": null,
+        "NOTES": []
+    },
+    "puq": {
+        "name": null,
+        "NOTES": []
+    },
+    "pur": {
+        "name": null,
+        "NOTES": []
+    },
+    "pus": {
+        "name": "Pashto",
+        "NOTES": []
+    },
+    "put": {
+        "name": null,
+        "NOTES": []
+    },
+    "puu": {
+        "name": null,
+        "NOTES": []
+    },
+    "puw": {
+        "name": null,
+        "NOTES": []
+    },
+    "pux": {
+        "name": null,
+        "NOTES": []
+    },
+    "puy": {
+        "name": null,
+        "NOTES": []
+    },
+    "pwa": {
+        "name": null,
+        "NOTES": []
+    },
+    "pwb": {
+        "name": null,
+        "NOTES": []
+    },
+    "pwg": {
+        "name": null,
+        "NOTES": []
+    },
+    "pwi": {
+        "name": null,
+        "NOTES": []
+    },
+    "pwm": {
+        "name": null,
+        "NOTES": []
+    },
+    "pwn": {
+        "name": null,
+        "NOTES": []
+    },
+    "pwo": {
+        "name": null,
+        "NOTES": []
+    },
+    "pwr": {
+        "name": null,
+        "NOTES": []
+    },
+    "pww": {
+        "name": null,
+        "NOTES": []
+    },
+    "pxm": {
+        "name": null,
+        "NOTES": []
+    },
+    "pye": {
+        "name": null,
+        "NOTES": []
+    },
+    "pym": {
+        "name": null,
+        "NOTES": []
+    },
+    "pyn": {
+        "name": null,
+        "NOTES": []
+    },
+    "pys": {
+        "name": null,
+        "NOTES": []
+    },
+    "pyu": {
+        "name": null,
+        "NOTES": []
+    },
+    "pyx": {
+        "name": null,
+        "NOTES": []
+    },
+    "pyy": {
+        "name": null,
+        "NOTES": []
+    },
+    "pze": {
+        "name": null,
+        "NOTES": []
+    },
+    "pzh": {
+        "name": null,
+        "NOTES": []
+    },
+    "pzn": {
+        "name": null,
+        "NOTES": []
+    },
+    "qua": {
+        "name": null,
+        "NOTES": []
+    },
+    "qub": {
+        "name": null,
+        "NOTES": []
+    },
+    "quc": {
+        "name": null,
+        "NOTES": []
+    },
+    "qud": {
+        "name": null,
+        "NOTES": []
+    },
+    "que": {
+        "name": "Quechua",
+        "NOTES": []
+    },
+    "quf": {
+        "name": null,
+        "NOTES": []
+    },
+    "qug": {
+        "name": null,
+        "NOTES": []
+    },
+    "quh": {
+        "name": null,
+        "NOTES": []
+    },
+    "qui": {
+        "name": null,
+        "NOTES": []
+    },
+    "quk": {
+        "name": null,
+        "NOTES": []
+    },
+    "qul": {
+        "name": null,
+        "NOTES": []
+    },
+    "qum": {
+        "name": null,
+        "NOTES": []
+    },
+    "qun": {
+        "name": null,
+        "NOTES": []
+    },
+    "qup": {
+        "name": null,
+        "NOTES": []
+    },
+    "quq": {
+        "name": null,
+        "NOTES": []
+    },
+    "qur": {
+        "name": null,
+        "NOTES": []
+    },
+    "qus": {
+        "name": null,
+        "NOTES": []
+    },
+    "quv": {
+        "name": null,
+        "NOTES": []
+    },
+    "quw": {
+        "name": null,
+        "NOTES": []
+    },
+    "qux": {
+        "name": null,
+        "NOTES": []
+    },
+    "quy": {
+        "name": null,
+        "NOTES": []
+    },
+    "quz": {
+        "name": null,
+        "NOTES": []
+    },
+    "qva": {
+        "name": null,
+        "NOTES": []
+    },
+    "qvc": {
+        "name": null,
+        "NOTES": []
+    },
+    "qve": {
+        "name": null,
+        "NOTES": []
+    },
+    "qvh": {
+        "name": null,
+        "NOTES": []
+    },
+    "qvi": {
+        "name": null,
+        "NOTES": []
+    },
+    "qvj": {
+        "name": null,
+        "NOTES": []
+    },
+    "qvl": {
+        "name": null,
+        "NOTES": []
+    },
+    "qvm": {
+        "name": null,
+        "NOTES": []
+    },
+    "qvn": {
+        "name": null,
+        "NOTES": []
+    },
+    "qvo": {
+        "name": null,
+        "NOTES": []
+    },
+    "qvp": {
+        "name": null,
+        "NOTES": []
+    },
+    "qvs": {
+        "name": null,
+        "NOTES": []
+    },
+    "qvw": {
+        "name": null,
+        "NOTES": []
+    },
+    "qvy": {
+        "name": null,
+        "NOTES": []
+    },
+    "qvz": {
+        "name": null,
+        "NOTES": []
+    },
+    "qwa": {
+        "name": null,
+        "NOTES": []
+    },
+    "qwc": {
+        "name": null,
+        "NOTES": []
+    },
+    "qwh": {
+        "name": null,
+        "NOTES": []
+    },
+    "qwm": {
+        "name": null,
+        "NOTES": []
+    },
+    "qws": {
+        "name": null,
+        "NOTES": []
+    },
+    "qwt": {
+        "name": null,
+        "NOTES": []
+    },
+    "qxa": {
+        "name": null,
+        "NOTES": []
+    },
+    "qxc": {
+        "name": null,
+        "NOTES": []
+    },
+    "qxh": {
+        "name": null,
+        "NOTES": []
+    },
+    "qxl": {
+        "name": null,
+        "NOTES": []
+    },
+    "qxn": {
+        "name": null,
+        "NOTES": []
+    },
+    "qxo": {
+        "name": null,
+        "NOTES": []
+    },
+    "qxp": {
+        "name": null,
+        "NOTES": []
+    },
+    "qxq": {
+        "name": null,
+        "NOTES": []
+    },
+    "qxr": {
+        "name": null,
+        "NOTES": []
+    },
+    "qxs": {
+        "name": null,
+        "NOTES": []
+    },
+    "qxt": {
+        "name": null,
+        "NOTES": []
+    },
+    "qxu": {
+        "name": null,
+        "NOTES": []
+    },
+    "qxw": {
+        "name": null,
+        "NOTES": []
+    },
+    "qya": {
+        "name": null,
+        "NOTES": []
+    },
+    "qyp": {
+        "name": null,
+        "NOTES": []
+    },
+    "raa": {
+        "name": null,
+        "NOTES": []
+    },
+    "rab": {
+        "name": null,
+        "NOTES": []
+    },
+    "rac": {
+        "name": null,
+        "NOTES": []
+    },
+    "rad": {
+        "name": null,
+        "NOTES": []
+    },
+    "raf": {
+        "name": null,
+        "NOTES": []
+    },
+    "rag": {
+        "name": null,
+        "NOTES": []
+    },
+    "rah": {
+        "name": null,
+        "NOTES": []
+    },
+    "rai": {
+        "name": null,
+        "NOTES": []
+    },
+    "raj": {
+        "name": null,
+        "NOTES": []
+    },
+    "rak": {
+        "name": null,
+        "NOTES": []
+    },
+    "ral": {
+        "name": null,
+        "NOTES": []
+    },
+    "ram": {
+        "name": null,
+        "NOTES": []
+    },
+    "ran": {
+        "name": null,
+        "NOTES": []
+    },
+    "rao": {
+        "name": null,
+        "NOTES": []
+    },
+    "rap": {
+        "name": null,
+        "NOTES": []
+    },
+    "raq": {
+        "name": null,
+        "NOTES": []
+    },
+    "rar": {
+        "name": null,
+        "NOTES": []
+    },
+    "ras": {
+        "name": null,
+        "NOTES": []
+    },
+    "rat": {
+        "name": null,
+        "NOTES": []
+    },
+    "rau": {
+        "name": null,
+        "NOTES": []
+    },
+    "rav": {
+        "name": null,
+        "NOTES": []
+    },
+    "raw": {
+        "name": null,
+        "NOTES": []
+    },
+    "rax": {
+        "name": null,
+        "NOTES": []
+    },
+    "ray": {
+        "name": null,
+        "NOTES": []
+    },
+    "raz": {
+        "name": null,
+        "NOTES": []
+    },
+    "rbb": {
+        "name": null,
+        "NOTES": []
+    },
+    "rbk": {
+        "name": null,
+        "NOTES": []
+    },
+    "rbl": {
+        "name": null,
+        "NOTES": []
+    },
+    "rbp": {
+        "name": null,
+        "NOTES": []
+    },
+    "rcf": {
+        "name": null,
+        "NOTES": []
+    },
+    "rdb": {
+        "name": null,
+        "NOTES": []
+    },
+    "rea": {
+        "name": null,
+        "NOTES": []
+    },
+    "reb": {
+        "name": null,
+        "NOTES": []
+    },
+    "ree": {
+        "name": null,
+        "NOTES": []
+    },
+    "reg": {
+        "name": null,
+        "NOTES": []
+    },
+    "rei": {
+        "name": null,
+        "NOTES": []
+    },
+    "rej": {
+        "name": null,
+        "NOTES": []
+    },
+    "rel": {
+        "name": null,
+        "NOTES": []
+    },
+    "rem": {
+        "name": null,
+        "NOTES": []
+    },
+    "ren": {
+        "name": null,
+        "NOTES": []
+    },
+    "rer": {
+        "name": null,
+        "NOTES": []
+    },
+    "res": {
+        "name": null,
+        "NOTES": []
+    },
+    "ret": {
+        "name": null,
+        "NOTES": []
+    },
+    "rey": {
+        "name": null,
+        "NOTES": []
+    },
+    "rga": {
+        "name": null,
+        "NOTES": []
+    },
+    "rge": {
+        "name": null,
+        "NOTES": []
+    },
+    "rgk": {
+        "name": null,
+        "NOTES": []
+    },
+    "rgn": {
+        "name": null,
+        "NOTES": []
+    },
+    "rgr": {
+        "name": null,
+        "NOTES": []
+    },
+    "rgs": {
+        "name": null,
+        "NOTES": []
+    },
+    "rgu": {
+        "name": null,
+        "NOTES": []
+    },
+    "rhg": {
+        "name": null,
+        "NOTES": []
+    },
+    "rhp": {
+        "name": null,
+        "NOTES": []
+    },
+    "ria": {
+        "name": null,
+        "NOTES": []
+    },
+    "rib": {
+        "name": null,
+        "NOTES": []
+    },
+    "rif": {
+        "name": null,
+        "NOTES": []
+    },
+    "ril": {
+        "name": null,
+        "NOTES": []
+    },
+    "rim": {
+        "name": null,
+        "NOTES": []
+    },
+    "rin": {
+        "name": null,
+        "NOTES": []
+    },
+    "rir": {
+        "name": null,
+        "NOTES": []
+    },
+    "rit": {
+        "name": null,
+        "NOTES": []
+    },
+    "riu": {
+        "name": null,
+        "NOTES": []
+    },
+    "rjg": {
+        "name": null,
+        "NOTES": []
+    },
+    "rji": {
+        "name": null,
+        "NOTES": []
+    },
+    "rjs": {
+        "name": null,
+        "NOTES": []
+    },
+    "rka": {
+        "name": null,
+        "NOTES": []
+    },
+    "rkb": {
+        "name": null,
+        "NOTES": []
+    },
+    "rkh": {
+        "name": null,
+        "NOTES": []
+    },
+    "rki": {
+        "name": null,
+        "NOTES": []
+    },
+    "rkm": {
+        "name": null,
+        "NOTES": []
+    },
+    "rkt": {
+        "name": null,
+        "NOTES": []
+    },
+    "rkw": {
+        "name": null,
+        "NOTES": []
+    },
+    "rma": {
+        "name": null,
+        "NOTES": []
+    },
+    "rmb": {
+        "name": null,
+        "NOTES": []
+    },
+    "rmc": {
+        "name": null,
+        "NOTES": []
+    },
+    "rmd": {
+        "name": null,
+        "NOTES": []
+    },
+    "rme": {
+        "name": null,
+        "NOTES": []
+    },
+    "rmf": {
+        "name": null,
+        "NOTES": []
+    },
+    "rmg": {
+        "name": null,
+        "NOTES": []
+    },
+    "rmh": {
+        "name": null,
+        "NOTES": []
+    },
+    "rmi": {
+        "name": null,
+        "NOTES": []
+    },
+    "rmk": {
+        "name": null,
+        "NOTES": []
+    },
+    "rml": {
+        "name": null,
+        "NOTES": []
+    },
+    "rmm": {
+        "name": null,
+        "NOTES": []
+    },
+    "rmn": {
+        "name": null,
+        "NOTES": []
+    },
+    "rmo": {
+        "name": null,
+        "NOTES": []
+    },
+    "rmp": {
+        "name": null,
+        "NOTES": []
+    },
+    "rmq": {
+        "name": null,
+        "NOTES": []
+    },
+    "rms": {
+        "name": null,
+        "NOTES": []
+    },
+    "rmt": {
+        "name": null,
+        "NOTES": []
+    },
+    "rmu": {
+        "name": null,
+        "NOTES": []
+    },
+    "rmv": {
+        "name": null,
+        "NOTES": []
+    },
+    "rmw": {
+        "name": null,
+        "NOTES": []
+    },
+    "rmx": {
+        "name": null,
+        "NOTES": []
+    },
+    "rmy": {
+        "name": null,
+        "NOTES": []
+    },
+    "rmz": {
+        "name": null,
+        "NOTES": []
+    },
+    "rnb": {
+        "name": null,
+        "NOTES": []
+    },
+    "rnd": {
+        "name": null,
+        "NOTES": []
+    },
+    "rng": {
+        "name": null,
+        "NOTES": []
+    },
+    "rnl": {
+        "name": null,
+        "NOTES": []
+    },
+    "rnn": {
+        "name": null,
+        "NOTES": []
+    },
+    "rnp": {
+        "name": null,
+        "NOTES": []
+    },
+    "rnr": {
+        "name": null,
+        "NOTES": []
+    },
+    "rnw": {
+        "name": null,
+        "NOTES": []
+    },
+    "rob": {
+        "name": null,
+        "NOTES": []
+    },
+    "roc": {
+        "name": null,
+        "NOTES": []
+    },
+    "rod": {
+        "name": null,
+        "NOTES": []
+    },
+    "roe": {
+        "name": null,
+        "NOTES": []
+    },
+    "rof": {
+        "name": "Rombo, Kirombo",
+        "NOTES": []
+    },
+    "rog": {
+        "name": null,
+        "NOTES": []
+    },
+    "roh": {
+        "name": "Romancio",
+        "NOTES": []
+    },
+    "rol": {
+        "name": null,
+        "NOTES": []
+    },
+    "rom": {
+        "name": null,
+        "NOTES": []
+    },
+    "ron": {
+        "name": "Rumeno",
+        "NOTES": []
+    },
+    "roo": {
+        "name": null,
+        "NOTES": []
+    },
+    "rop": {
+        "name": null,
+        "NOTES": []
+    },
+    "ror": {
+        "name": null,
+        "NOTES": []
+    },
+    "rou": {
+        "name": null,
+        "NOTES": []
+    },
+    "row": {
+        "name": null,
+        "NOTES": []
+    },
+    "rpn": {
+        "name": null,
+        "NOTES": []
+    },
+    "rpt": {
+        "name": null,
+        "NOTES": []
+    },
+    "rri": {
+        "name": null,
+        "NOTES": []
+    },
+    "rrm": {
+        "name": null,
+        "NOTES": []
+    },
+    "rro": {
+        "name": null,
+        "NOTES": []
+    },
+    "rrt": {
+        "name": null,
+        "NOTES": []
+    },
+    "rsb": {
+        "name": null,
+        "NOTES": []
+    },
+    "rsk": {
+        "name": null,
+        "NOTES": []
+    },
+    "rsl": {
+        "name": null,
+        "NOTES": []
+    },
+    "rsm": {
+        "name": null,
+        "NOTES": []
+    },
+    "rsn": {
+        "name": null,
+        "NOTES": []
+    },
+    "rsw": {
+        "name": null,
+        "NOTES": []
+    },
+    "rtc": {
+        "name": null,
+        "NOTES": []
+    },
+    "rth": {
+        "name": null,
+        "NOTES": []
+    },
+    "rtm": {
+        "name": null,
+        "NOTES": []
+    },
+    "rts": {
+        "name": null,
+        "NOTES": []
+    },
+    "rtw": {
+        "name": null,
+        "NOTES": []
+    },
+    "rub": {
+        "name": null,
+        "NOTES": []
+    },
+    "ruc": {
+        "name": null,
+        "NOTES": []
+    },
+    "rue": {
+        "name": null,
+        "NOTES": []
+    },
+    "ruf": {
+        "name": null,
+        "NOTES": []
+    },
+    "rug": {
+        "name": null,
+        "NOTES": []
+    },
+    "ruh": {
+        "name": null,
+        "NOTES": []
+    },
+    "rui": {
+        "name": null,
+        "NOTES": []
+    },
+    "ruk": {
+        "name": null,
+        "NOTES": []
+    },
+    "run": {
+        "name": "Kirundi",
+        "NOTES": []
+    },
+    "ruo": {
+        "name": null,
+        "NOTES": []
+    },
+    "rup": {
+        "name": null,
+        "NOTES": []
+    },
+    "ruq": {
+        "name": null,
+        "NOTES": []
+    },
+    "rus": {
+        "name": "Russo",
+        "NOTES": []
+    },
+    "rut": {
+        "name": null,
+        "NOTES": []
+    },
+    "ruu": {
+        "name": null,
+        "NOTES": []
+    },
+    "ruy": {
+        "name": null,
+        "NOTES": []
+    },
+    "ruz": {
+        "name": null,
+        "NOTES": []
+    },
+    "rwa": {
+        "name": null,
+        "NOTES": []
+    },
+    "rwk": {
+        "name": "Rwa, Meru",
+        "NOTES": [
+            "Direct reference not found"
+        ]
+    },
+    "rwl": {
+        "name": null,
+        "NOTES": []
+    },
+    "rwm": {
+        "name": null,
+        "NOTES": []
+    },
+    "rwo": {
+        "name": null,
+        "NOTES": []
+    },
+    "rwr": {
+        "name": null,
+        "NOTES": []
+    },
+    "rxd": {
+        "name": null,
+        "NOTES": []
+    },
+    "rxw": {
+        "name": null,
+        "NOTES": []
+    },
+    "ryn": {
+        "name": null,
+        "NOTES": []
+    },
+    "rys": {
+        "name": null,
+        "NOTES": []
+    },
+    "ryu": {
+        "name": null,
+        "NOTES": []
+    },
+    "rzh": {
+        "name": null,
+        "NOTES": []
+    },
+    "saa": {
+        "name": null,
+        "NOTES": []
+    },
+    "sab": {
+        "name": null,
+        "NOTES": []
+    },
+    "sac": {
+        "name": null,
+        "NOTES": []
+    },
+    "sad": {
+        "name": null,
+        "NOTES": []
+    },
+    "sae": {
+        "name": null,
+        "NOTES": []
+    },
+    "saf": {
+        "name": null,
+        "NOTES": []
+    },
+    "sag": {
+        "name": "Sango",
+        "NOTES": []
+    },
+    "sah": {
+        "name": "Sacha, Jacuto",
+        "NOTES": []
+    },
+    "saj": {
+        "name": null,
+        "NOTES": []
+    },
+    "sak": {
+        "name": null,
+        "NOTES": []
+    },
+    "sam": {
+        "name": null,
+        "NOTES": []
+    },
+    "san": {
+        "name": "Sanscrito",
+        "NOTES": []
+    },
+    "sao": {
+        "name": null,
+        "NOTES": []
+    },
+    "saq": {
+        "name": "Samburu",
+        "NOTES": []
+    },
+    "sar": {
+        "name": null,
+        "NOTES": []
+    },
+    "sas": {
+        "name": null,
+        "NOTES": []
+    },
+    "sat": {
+        "name": null,
+        "NOTES": []
+    },
+    "sau": {
+        "name": null,
+        "NOTES": []
+    },
+    "sav": {
+        "name": null,
+        "NOTES": []
+    },
+    "saw": {
+        "name": null,
+        "NOTES": []
+    },
+    "sax": {
+        "name": null,
+        "NOTES": []
+    },
+    "say": {
+        "name": null,
+        "NOTES": []
+    },
+    "saz": {
+        "name": null,
+        "NOTES": []
+    },
+    "sba": {
+        "name": null,
+        "NOTES": []
+    },
+    "sbb": {
+        "name": null,
+        "NOTES": []
+    },
+    "sbc": {
+        "name": null,
+        "NOTES": []
+    },
+    "sbd": {
+        "name": null,
+        "NOTES": []
+    },
+    "sbe": {
+        "name": null,
+        "NOTES": []
+    },
+    "sbf": {
+        "name": null,
+        "NOTES": []
+    },
+    "sbg": {
+        "name": null,
+        "NOTES": []
+    },
+    "sbh": {
+        "name": null,
+        "NOTES": []
+    },
+    "sbi": {
+        "name": null,
+        "NOTES": []
+    },
+    "sbj": {
+        "name": null,
+        "NOTES": []
+    },
+    "sbk": {
+        "name": null,
+        "NOTES": []
+    },
+    "sbl": {
+        "name": null,
+        "NOTES": []
+    },
+    "sbm": {
+        "name": null,
+        "NOTES": []
+    },
+    "sbn": {
+        "name": null,
+        "NOTES": []
+    },
+    "sbo": {
+        "name": null,
+        "NOTES": []
+    },
+    "sbp": {
+        "name": "Sangu",
+        "NOTES": []
+    },
+    "sbq": {
+        "name": null,
+        "NOTES": []
+    },
+    "sbr": {
+        "name": null,
+        "NOTES": []
+    },
+    "sbs": {
+        "name": null,
+        "NOTES": []
+    },
+    "sbt": {
+        "name": null,
+        "NOTES": []
+    },
+    "sbu": {
+        "name": null,
+        "NOTES": []
+    },
+    "sbv": {
+        "name": null,
+        "NOTES": []
+    },
+    "sbw": {
+        "name": null,
+        "NOTES": []
+    },
+    "sbx": {
+        "name": null,
+        "NOTES": []
+    },
+    "sby": {
+        "name": null,
+        "NOTES": []
+    },
+    "sbz": {
+        "name": null,
+        "NOTES": []
+    },
+    "scb": {
+        "name": null,
+        "NOTES": []
+    },
+    "sce": {
+        "name": null,
+        "NOTES": []
+    },
+    "scf": {
+        "name": null,
+        "NOTES": []
+    },
+    "scg": {
+        "name": null,
+        "NOTES": []
+    },
+    "sch": {
+        "name": null,
+        "NOTES": []
+    },
+    "sci": {
+        "name": null,
+        "NOTES": []
+    },
+    "sck": {
+        "name": null,
+        "NOTES": []
+    },
+    "scl": {
+        "name": null,
+        "NOTES": []
+    },
+    "scn": {
+        "name": null,
+        "NOTES": []
+    },
+    "sco": {
+        "name": null,
+        "NOTES": []
+    },
+    "scp": {
+        "name": null,
+        "NOTES": []
+    },
+    "scq": {
+        "name": null,
+        "NOTES": []
+    },
+    "scs": {
+        "name": null,
+        "NOTES": []
+    },
+    "sct": {
+        "name": null,
+        "NOTES": []
+    },
+    "scu": {
+        "name": null,
+        "NOTES": []
+    },
+    "scv": {
+        "name": null,
+        "NOTES": []
+    },
+    "scw": {
+        "name": null,
+        "NOTES": []
+    },
+    "scx": {
+        "name": null,
+        "NOTES": []
+    },
+    "sda": {
+        "name": null,
+        "NOTES": []
+    },
+    "sdb": {
+        "name": null,
+        "NOTES": []
+    },
+    "sdc": {
+        "name": null,
+        "NOTES": []
+    },
+    "sde": {
+        "name": null,
+        "NOTES": []
+    },
+    "sdf": {
+        "name": null,
+        "NOTES": []
+    },
+    "sdg": {
+        "name": null,
+        "NOTES": []
+    },
+    "sdh": {
+        "name": null,
+        "NOTES": []
+    },
+    "sdj": {
+        "name": null,
+        "NOTES": []
+    },
+    "sdk": {
+        "name": null,
+        "NOTES": []
+    },
+    "sdl": {
+        "name": null,
+        "NOTES": []
+    },
+    "sdn": {
+        "name": null,
+        "NOTES": []
+    },
+    "sdo": {
+        "name": null,
+        "NOTES": []
+    },
+    "sdp": {
+        "name": null,
+        "NOTES": []
+    },
+    "sdq": {
+        "name": null,
+        "NOTES": []
+    },
+    "sdr": {
+        "name": null,
+        "NOTES": []
+    },
+    "sds": {
+        "name": null,
+        "NOTES": []
+    },
+    "sdt": {
+        "name": null,
+        "NOTES": []
+    },
+    "sdu": {
+        "name": null,
+        "NOTES": []
+    },
+    "sdx": {
+        "name": null,
+        "NOTES": []
+    },
+    "sdz": {
+        "name": null,
+        "NOTES": []
+    },
+    "sea": {
+        "name": null,
+        "NOTES": []
+    },
+    "seb": {
+        "name": null,
+        "NOTES": []
+    },
+    "sec": {
+        "name": null,
+        "NOTES": []
+    },
+    "sed": {
+        "name": null,
+        "NOTES": []
+    },
+    "see": {
+        "name": null,
+        "NOTES": []
+    },
+    "sef": {
+        "name": null,
+        "NOTES": []
+    },
+    "seg": {
+        "name": null,
+        "NOTES": []
+    },
+    "seh": {
+        "name": "Sena",
+        "NOTES": []
+    },
+    "sei": {
+        "name": null,
+        "NOTES": []
+    },
+    "sej": {
+        "name": null,
+        "NOTES": []
+    },
+    "sek": {
+        "name": null,
+        "NOTES": []
+    },
+    "sel": {
+        "name": null,
+        "NOTES": []
+    },
+    "sen": {
+        "name": null,
+        "NOTES": []
+    },
+    "seo": {
+        "name": null,
+        "NOTES": []
+    },
+    "sep": {
+        "name": null,
+        "NOTES": []
+    },
+    "seq": {
+        "name": null,
+        "NOTES": []
+    },
+    "ser": {
+        "name": null,
+        "NOTES": []
+    },
+    "ses": {
+        "name": "Koyraboro Senni",
+        "NOTES": []
+    },
+    "set": {
+        "name": null,
+        "NOTES": []
+    },
+    "seu": {
+        "name": null,
+        "NOTES": []
+    },
+    "sev": {
+        "name": null,
+        "NOTES": []
+    },
+    "sew": {
+        "name": null,
+        "NOTES": []
+    },
+    "sey": {
+        "name": null,
+        "NOTES": []
+    },
+    "sez": {
+        "name": null,
+        "NOTES": []
+    },
+    "sfb": {
+        "name": null,
+        "NOTES": []
+    },
+    "sfe": {
+        "name": null,
+        "NOTES": []
+    },
+    "sfm": {
+        "name": null,
+        "NOTES": []
+    },
+    "sfs": {
+        "name": null,
+        "NOTES": []
+    },
+    "sfw": {
+        "name": null,
+        "NOTES": []
+    },
+    "sga": {
+        "name": null,
+        "NOTES": []
+    },
+    "sgb": {
+        "name": null,
+        "NOTES": []
+    },
+    "sgc": {
+        "name": "Kipsigis, Kipsikii, Kipsikiis",
+        "NOTES": [
+            "Direct reference not found"
+        ]
+    },
+    "sgd": {
+        "name": null,
+        "NOTES": []
+    },
+    "sge": {
+        "name": null,
+        "NOTES": []
+    },
+    "sgg": {
+        "name": null,
+        "NOTES": []
+    },
+    "sgh": {
+        "name": null,
+        "NOTES": []
+    },
+    "sgi": {
+        "name": null,
+        "NOTES": []
+    },
+    "sgj": {
+        "name": null,
+        "NOTES": []
+    },
+    "sgk": {
+        "name": null,
+        "NOTES": []
+    },
+    "sgm": {
+        "name": null,
+        "NOTES": []
+    },
+    "sgp": {
+        "name": null,
+        "NOTES": []
+    },
+    "sgr": {
+        "name": null,
+        "NOTES": []
+    },
+    "sgs": {
+        "name": null,
+        "NOTES": []
+    },
+    "sgt": {
+        "name": null,
+        "NOTES": []
+    },
+    "sgu": {
+        "name": null,
+        "NOTES": []
+    },
+    "sgw": {
+        "name": null,
+        "NOTES": []
+    },
+    "sgx": {
+        "name": null,
+        "NOTES": []
+    },
+    "sgy": {
+        "name": null,
+        "NOTES": []
+    },
+    "sgz": {
+        "name": null,
+        "NOTES": []
+    },
+    "sha": {
+        "name": null,
+        "NOTES": []
+    },
+    "shb": {
+        "name": null,
+        "NOTES": []
+    },
+    "shc": {
+        "name": null,
+        "NOTES": []
+    },
+    "shd": {
+        "name": null,
+        "NOTES": []
+    },
+    "she": {
+        "name": null,
+        "NOTES": []
+    },
+    "shg": {
+        "name": null,
+        "NOTES": []
+    },
+    "shh": {
+        "name": null,
+        "NOTES": []
+    },
+    "shi": {
+        "name": "Tashelhit",
+        "NOTES": []
+    },
+    "shj": {
+        "name": null,
+        "NOTES": []
+    },
+    "shk": {
+        "name": null,
+        "NOTES": []
+    },
+    "shl": {
+        "name": null,
+        "NOTES": []
+    },
+    "shm": {
+        "name": null,
+        "NOTES": []
+    },
+    "shn": {
+        "name": null,
+        "NOTES": []
+    },
+    "sho": {
+        "name": null,
+        "NOTES": []
+    },
+    "shp": {
+        "name": null,
+        "NOTES": []
+    },
+    "shq": {
+        "name": null,
+        "NOTES": []
+    },
+    "shr": {
+        "name": null,
+        "NOTES": []
+    },
+    "shs": {
+        "name": null,
+        "NOTES": []
+    },
+    "sht": {
+        "name": null,
+        "NOTES": []
+    },
+    "shu": {
+        "name": null,
+        "NOTES": []
+    },
+    "shv": {
+        "name": null,
+        "NOTES": []
+    },
+    "shw": {
+        "name": null,
+        "NOTES": []
+    },
+    "shx": {
+        "name": null,
+        "NOTES": []
+    },
+    "shy": {
+        "name": null,
+        "NOTES": []
+    },
+    "shz": {
+        "name": null,
+        "NOTES": []
+    },
+    "sia": {
+        "name": null,
+        "NOTES": []
+    },
+    "sib": {
+        "name": null,
+        "NOTES": []
+    },
+    "sid": {
+        "name": null,
+        "NOTES": []
+    },
+    "sie": {
+        "name": null,
+        "NOTES": []
+    },
+    "sif": {
+        "name": null,
+        "NOTES": []
+    },
+    "sig": {
+        "name": null,
+        "NOTES": []
+    },
+    "sih": {
+        "name": null,
+        "NOTES": []
+    },
+    "sii": {
+        "name": null,
+        "NOTES": []
+    },
+    "sij": {
+        "name": null,
+        "NOTES": []
+    },
+    "sik": {
+        "name": null,
+        "NOTES": []
+    },
+    "sil": {
+        "name": null,
+        "NOTES": []
+    },
+    "sim": {
+        "name": null,
+        "NOTES": []
+    },
+    "sin": {
+        "name": "Singalese",
+        "NOTES": []
+    },
+    "sip": {
+        "name": null,
+        "NOTES": []
+    },
+    "siq": {
+        "name": null,
+        "NOTES": []
+    },
+    "sir": {
+        "name": null,
+        "NOTES": []
+    },
+    "sis": {
+        "name": null,
+        "NOTES": []
+    },
+    "siu": {
+        "name": null,
+        "NOTES": []
+    },
+    "siv": {
+        "name": null,
+        "NOTES": []
+    },
+    "siw": {
+        "name": null,
+        "NOTES": []
+    },
+    "six": {
+        "name": null,
+        "NOTES": []
+    },
+    "siy": {
+        "name": null,
+        "NOTES": []
+    },
+    "siz": {
+        "name": null,
+        "NOTES": []
+    },
+    "sja": {
+        "name": null,
+        "NOTES": []
+    },
+    "sjb": {
+        "name": null,
+        "NOTES": []
+    },
+    "sjc": {
+        "name": null,
+        "NOTES": []
+    },
+    "sjd": {
+        "name": null,
+        "NOTES": []
+    },
+    "sje": {
+        "name": null,
+        "NOTES": []
+    },
+    "sjg": {
+        "name": null,
+        "NOTES": []
+    },
+    "sjk": {
+        "name": null,
+        "NOTES": []
+    },
+    "sjl": {
+        "name": null,
+        "NOTES": []
+    },
+    "sjm": {
+        "name": null,
+        "NOTES": []
+    },
+    "sjn": {
+        "name": null,
+        "NOTES": []
+    },
+    "sjo": {
+        "name": null,
+        "NOTES": []
+    },
+    "sjp": {
+        "name": null,
+        "NOTES": []
+    },
+    "sjr": {
+        "name": null,
+        "NOTES": []
+    },
+    "sjs": {
+        "name": null,
+        "NOTES": []
+    },
+    "sjt": {
+        "name": null,
+        "NOTES": []
+    },
+    "sju": {
+        "name": null,
+        "NOTES": []
+    },
+    "sjw": {
+        "name": null,
+        "NOTES": []
+    },
+    "ska": {
+        "name": null,
+        "NOTES": []
+    },
+    "skb": {
+        "name": null,
+        "NOTES": []
+    },
+    "skc": {
+        "name": null,
+        "NOTES": []
+    },
+    "skd": {
+        "name": null,
+        "NOTES": []
+    },
+    "ske": {
+        "name": null,
+        "NOTES": []
+    },
+    "skf": {
+        "name": null,
+        "NOTES": []
+    },
+    "skg": {
+        "name": "Malgascio dei Sakalava",
+        "NOTES": [
+            "https://www.treccani.it/vocabolario/malgascio/?search=malg%C3%A0scio%2F",
+            "https://it.wikipedia.org/wiki/Lingua_malgascia"
+        ]
+    },
+    "skh": {
+        "name": null,
+        "NOTES": []
+    },
+    "ski": {
+        "name": null,
+        "NOTES": []
+    },
+    "skj": {
+        "name": null,
+        "NOTES": []
+    },
+    "skm": {
+        "name": null,
+        "NOTES": []
+    },
+    "skn": {
+        "name": null,
+        "NOTES": []
+    },
+    "sko": {
+        "name": null,
+        "NOTES": []
+    },
+    "skp": {
+        "name": null,
+        "NOTES": []
+    },
+    "skq": {
+        "name": null,
+        "NOTES": []
+    },
+    "skr": {
+        "name": null,
+        "NOTES": []
+    },
+    "sks": {
+        "name": null,
+        "NOTES": []
+    },
+    "skt": {
+        "name": null,
+        "NOTES": []
+    },
+    "sku": {
+        "name": null,
+        "NOTES": []
+    },
+    "skv": {
+        "name": null,
+        "NOTES": []
+    },
+    "skw": {
+        "name": null,
+        "NOTES": []
+    },
+    "skx": {
+        "name": null,
+        "NOTES": []
+    },
+    "sky": {
+        "name": null,
+        "NOTES": []
+    },
+    "skz": {
+        "name": null,
+        "NOTES": []
+    },
+    "slc": {
+        "name": null,
+        "NOTES": []
+    },
+    "sld": {
+        "name": null,
+        "NOTES": []
+    },
+    "sle": {
+        "name": null,
+        "NOTES": []
+    },
+    "slf": {
+        "name": null,
+        "NOTES": []
+    },
+    "slg": {
+        "name": null,
+        "NOTES": []
+    },
+    "slh": {
+        "name": null,
+        "NOTES": []
+    },
+    "sli": {
+        "name": null,
+        "NOTES": []
+    },
+    "slj": {
+        "name": null,
+        "NOTES": []
+    },
+    "slk": {
+        "name": "Slovacco",
+        "NOTES": []
+    },
+    "sll": {
+        "name": null,
+        "NOTES": []
+    },
+    "slm": {
+        "name": null,
+        "NOTES": []
+    },
+    "sln": {
+        "name": null,
+        "NOTES": []
+    },
+    "slp": {
+        "name": null,
+        "NOTES": []
+    },
+    "slr": {
+        "name": null,
+        "NOTES": []
+    },
+    "sls": {
+        "name": null,
+        "NOTES": []
+    },
+    "slt": {
+        "name": null,
+        "NOTES": []
+    },
+    "slu": {
+        "name": null,
+        "NOTES": []
+    },
+    "slv": {
+        "name": "Sloveno",
+        "NOTES": []
+    },
+    "slw": {
+        "name": null,
+        "NOTES": []
+    },
+    "slx": {
+        "name": null,
+        "NOTES": []
+    },
+    "sly": {
+        "name": null,
+        "NOTES": []
+    },
+    "slz": {
+        "name": null,
+        "NOTES": []
+    },
+    "sma": {
+        "name": "Sami Meridionale",
+        "NOTES": []
+    },
+    "smb": {
+        "name": null,
+        "NOTES": []
+    },
+    "smc": {
+        "name": null,
+        "NOTES": []
+    },
+    "sme": {
+        "name": "Sami del nord",
+        "NOTES": []
+    },
+    "smf": {
+        "name": null,
+        "NOTES": []
+    },
+    "smg": {
+        "name": null,
+        "NOTES": []
+    },
+    "smh": {
+        "name": null,
+        "NOTES": []
+    },
+    "smj": {
+        "name": "Sami di Lule",
+        "NOTES": []
+    },
+    "smk": {
+        "name": null,
+        "NOTES": []
+    },
+    "sml": {
+        "name": null,
+        "NOTES": []
+    },
+    "smm": {
+        "name": null,
+        "NOTES": []
+    },
+    "smn": {
+        "name": "Sami di Inari",
+        "NOTES": []
+    },
+    "smo": {
+        "name": "Samoano",
+        "NOTES": []
+    },
+    "smp": {
+        "name": null,
+        "NOTES": []
+    },
+    "smq": {
+        "name": null,
+        "NOTES": []
+    },
+    "smr": {
+        "name": null,
+        "NOTES": []
+    },
+    "sms": {
+        "name": null,
+        "NOTES": []
+    },
+    "smt": {
+        "name": null,
+        "NOTES": []
+    },
+    "smu": {
+        "name": null,
+        "NOTES": []
+    },
+    "smv": {
+        "name": null,
+        "NOTES": []
+    },
+    "smw": {
+        "name": null,
+        "NOTES": []
+    },
+    "smx": {
+        "name": null,
+        "NOTES": []
+    },
+    "smy": {
+        "name": null,
+        "NOTES": []
+    },
+    "smz": {
+        "name": null,
+        "NOTES": []
+    },
+    "sna": {
+        "name": "Shona",
+        "NOTES": []
+    },
+    "snc": {
+        "name": null,
+        "NOTES": []
+    },
+    "snd": {
+        "name": "Sindhi",
+        "NOTES": []
+    },
+    "sne": {
+        "name": null,
+        "NOTES": []
+    },
+    "snf": {
+        "name": null,
+        "NOTES": []
+    },
+    "sng": {
+        "name": null,
+        "NOTES": []
+    },
+    "sni": {
+        "name": null,
+        "NOTES": []
+    },
+    "snj": {
+        "name": null,
+        "NOTES": []
+    },
+    "snk": {
+        "name": null,
+        "NOTES": []
+    },
+    "snl": {
+        "name": null,
+        "NOTES": []
+    },
+    "snm": {
+        "name": null,
+        "NOTES": []
+    },
+    "snn": {
+        "name": null,
+        "NOTES": []
+    },
+    "sno": {
+        "name": null,
+        "NOTES": []
+    },
+    "snp": {
+        "name": null,
+        "NOTES": []
+    },
+    "snq": {
+        "name": null,
+        "NOTES": []
+    },
+    "snr": {
+        "name": null,
+        "NOTES": []
+    },
+    "sns": {
+        "name": null,
+        "NOTES": []
+    },
+    "snu": {
+        "name": null,
+        "NOTES": []
+    },
+    "snv": {
+        "name": null,
+        "NOTES": []
+    },
+    "snw": {
+        "name": null,
+        "NOTES": []
+    },
+    "snx": {
+        "name": null,
+        "NOTES": []
+    },
+    "sny": {
+        "name": null,
+        "NOTES": []
+    },
+    "snz": {
+        "name": null,
+        "NOTES": []
+    },
+    "soa": {
+        "name": null,
+        "NOTES": []
+    },
+    "sob": {
+        "name": null,
+        "NOTES": []
+    },
+    "soc": {
+        "name": null,
+        "NOTES": []
+    },
+    "sod": {
+        "name": null,
+        "NOTES": []
+    },
+    "soe": {
+        "name": null,
+        "NOTES": []
+    },
+    "sog": {
+        "name": null,
+        "NOTES": []
+    },
+    "soh": {
+        "name": null,
+        "NOTES": []
+    },
+    "soi": {
+        "name": null,
+        "NOTES": []
+    },
+    "soj": {
+        "name": null,
+        "NOTES": []
+    },
+    "sok": {
+        "name": null,
+        "NOTES": []
+    },
+    "sol": {
+        "name": null,
+        "NOTES": []
+    },
+    "som": {
+        "name": "Somalo",
+        "NOTES": []
+    },
+    "soo": {
+        "name": null,
+        "NOTES": []
+    },
+    "sop": {
+        "name": null,
+        "NOTES": []
+    },
+    "soq": {
+        "name": null,
+        "NOTES": []
+    },
+    "sor": {
+        "name": null,
+        "NOTES": []
+    },
+    "sos": {
+        "name": null,
+        "NOTES": []
+    },
+    "sot": {
+        "name": "Sotho del sud",
+        "NOTES": []
+    },
+    "sou": {
+        "name": null,
+        "NOTES": []
+    },
+    "sov": {
+        "name": null,
+        "NOTES": []
+    },
+    "sow": {
+        "name": null,
+        "NOTES": []
+    },
+    "sox": {
+        "name": null,
+        "NOTES": []
+    },
+    "soy": {
+        "name": null,
+        "NOTES": []
+    },
+    "soz": {
+        "name": null,
+        "NOTES": []
+    },
+    "spa": {
+        "name": "Spagnolo",
+        "NOTES": []
+    },
+    "spb": {
+        "name": null,
+        "NOTES": []
+    },
+    "spc": {
+        "name": null,
+        "NOTES": []
+    },
+    "spd": {
+        "name": null,
+        "NOTES": []
+    },
+    "spe": {
+        "name": null,
+        "NOTES": []
+    },
+    "spg": {
+        "name": null,
+        "NOTES": []
+    },
+    "spi": {
+        "name": null,
+        "NOTES": []
+    },
+    "spk": {
+        "name": null,
+        "NOTES": []
+    },
+    "spl": {
+        "name": null,
+        "NOTES": []
+    },
+    "spm": {
+        "name": null,
+        "NOTES": []
+    },
+    "spn": {
+        "name": null,
+        "NOTES": []
+    },
+    "spo": {
+        "name": null,
+        "NOTES": []
+    },
+    "spp": {
+        "name": null,
+        "NOTES": []
+    },
+    "spq": {
+        "name": null,
+        "NOTES": []
+    },
+    "spr": {
+        "name": null,
+        "NOTES": []
+    },
+    "sps": {
+        "name": null,
+        "NOTES": []
+    },
+    "spt": {
+        "name": null,
+        "NOTES": []
+    },
+    "spu": {
+        "name": null,
+        "NOTES": []
+    },
+    "spv": {
+        "name": null,
+        "NOTES": []
+    },
+    "spx": {
+        "name": null,
+        "NOTES": []
+    },
+    "spy": {
+        "name": "Sabaot, Sebei",
+        "NOTES": [
+            "Direct reference not found"
+        ]
+    },
+    "sqa": {
+        "name": null,
+        "NOTES": []
+    },
+    "sqh": {
+        "name": null,
+        "NOTES": []
+    },
+    "sqi": {
+        "name": "Albanese",
+        "NOTES": []
+    },
+    "sqk": {
+        "name": null,
+        "NOTES": []
+    },
+    "sqm": {
+        "name": null,
+        "NOTES": []
+    },
+    "sqn": {
+        "name": null,
+        "NOTES": []
+    },
+    "sqo": {
+        "name": null,
+        "NOTES": []
+    },
+    "sqq": {
+        "name": null,
+        "NOTES": []
+    },
+    "sqr": {
+        "name": null,
+        "NOTES": []
+    },
+    "sqs": {
+        "name": null,
+        "NOTES": []
+    },
+    "sqt": {
+        "name": null,
+        "NOTES": []
+    },
+    "squ": {
+        "name": null,
+        "NOTES": []
+    },
+    "sqx": {
+        "name": null,
+        "NOTES": []
+    },
+    "sra": {
+        "name": null,
+        "NOTES": []
+    },
+    "srb": {
+        "name": null,
+        "NOTES": []
+    },
+    "src": {
+        "name": null,
+        "NOTES": []
+    },
+    "srd": {
+        "name": "Sardo",
+        "NOTES": []
+    },
+    "sre": {
+        "name": null,
+        "NOTES": []
+    },
+    "srf": {
+        "name": null,
+        "NOTES": []
+    },
+    "srg": {
+        "name": null,
+        "NOTES": []
+    },
+    "srh": {
+        "name": null,
+        "NOTES": []
+    },
+    "sri": {
+        "name": null,
+        "NOTES": []
+    },
+    "srk": {
+        "name": null,
+        "NOTES": []
+    },
+    "srl": {
+        "name": null,
+        "NOTES": []
+    },
+    "srm": {
+        "name": null,
+        "NOTES": []
+    },
+    "srn": {
+        "name": null,
+        "NOTES": []
+    },
+    "sro": {
+        "name": null,
+        "NOTES": []
+    },
+    "srp": {
+        "name": "Serbo",
+        "NOTES": []
+    },
+    "srq": {
+        "name": null,
+        "NOTES": []
+    },
+    "srr": {
+        "name": null,
+        "NOTES": []
+    },
+    "srs": {
+        "name": null,
+        "NOTES": []
+    },
+    "srt": {
+        "name": null,
+        "NOTES": []
+    },
+    "sru": {
+        "name": null,
+        "NOTES": []
+    },
+    "srv": {
+        "name": null,
+        "NOTES": []
+    },
+    "srw": {
+        "name": null,
+        "NOTES": []
+    },
+    "srx": {
+        "name": null,
+        "NOTES": []
+    },
+    "sry": {
+        "name": null,
+        "NOTES": []
+    },
+    "srz": {
+        "name": null,
+        "NOTES": []
+    },
+    "ssb": {
+        "name": null,
+        "NOTES": []
+    },
+    "ssc": {
+        "name": null,
+        "NOTES": []
+    },
+    "ssd": {
+        "name": null,
+        "NOTES": []
+    },
+    "sse": {
+        "name": null,
+        "NOTES": []
+    },
+    "ssf": {
+        "name": null,
+        "NOTES": []
+    },
+    "ssg": {
+        "name": null,
+        "NOTES": []
+    },
+    "ssh": {
+        "name": null,
+        "NOTES": []
+    },
+    "ssi": {
+        "name": null,
+        "NOTES": []
+    },
+    "ssj": {
+        "name": null,
+        "NOTES": []
+    },
+    "ssk": {
+        "name": null,
+        "NOTES": []
+    },
+    "ssl": {
+        "name": null,
+        "NOTES": []
+    },
+    "ssm": {
+        "name": null,
+        "NOTES": []
+    },
+    "ssn": {
+        "name": null,
+        "NOTES": []
+    },
+    "sso": {
+        "name": null,
+        "NOTES": []
+    },
+    "ssp": {
+        "name": null,
+        "NOTES": []
+    },
+    "ssq": {
+        "name": null,
+        "NOTES": []
+    },
+    "ssr": {
+        "name": null,
+        "NOTES": []
+    },
+    "sss": {
+        "name": null,
+        "NOTES": []
+    },
+    "sst": {
+        "name": null,
+        "NOTES": []
+    },
+    "ssu": {
+        "name": null,
+        "NOTES": []
+    },
+    "ssv": {
+        "name": null,
+        "NOTES": []
+    },
+    "ssw": {
+        "name": "Swazi",
+        "NOTES": []
+    },
+    "ssx": {
+        "name": null,
+        "NOTES": []
+    },
+    "ssy": {
+        "name": null,
+        "NOTES": []
+    },
+    "ssz": {
+        "name": null,
+        "NOTES": []
+    },
+    "sta": {
+        "name": null,
+        "NOTES": []
+    },
+    "stb": {
+        "name": null,
+        "NOTES": []
+    },
+    "std": {
+        "name": null,
+        "NOTES": []
+    },
+    "ste": {
+        "name": null,
+        "NOTES": []
+    },
+    "stf": {
+        "name": null,
+        "NOTES": []
+    },
+    "stg": {
+        "name": null,
+        "NOTES": []
+    },
+    "sth": {
+        "name": null,
+        "NOTES": []
+    },
+    "sti": {
+        "name": null,
+        "NOTES": []
+    },
+    "stj": {
+        "name": null,
+        "NOTES": []
+    },
+    "stk": {
+        "name": null,
+        "NOTES": []
+    },
+    "stl": {
+        "name": null,
+        "NOTES": []
+    },
+    "stm": {
+        "name": null,
+        "NOTES": []
+    },
+    "stn": {
+        "name": null,
+        "NOTES": []
+    },
+    "sto": {
+        "name": null,
+        "NOTES": []
+    },
+    "stp": {
+        "name": null,
+        "NOTES": []
+    },
+    "stq": {
+        "name": null,
+        "NOTES": []
+    },
+    "str": {
+        "name": null,
+        "NOTES": []
+    },
+    "sts": {
+        "name": null,
+        "NOTES": []
+    },
+    "stt": {
+        "name": null,
+        "NOTES": []
+    },
+    "stu": {
+        "name": null,
+        "NOTES": []
+    },
+    "stv": {
+        "name": null,
+        "NOTES": []
+    },
+    "stw": {
+        "name": null,
+        "NOTES": []
+    },
+    "sty": {
+        "name": null,
+        "NOTES": []
+    },
+    "sua": {
+        "name": null,
+        "NOTES": []
+    },
+    "sub": {
+        "name": null,
+        "NOTES": []
+    },
+    "suc": {
+        "name": null,
+        "NOTES": []
+    },
+    "sue": {
+        "name": null,
+        "NOTES": []
+    },
+    "sug": {
+        "name": null,
+        "NOTES": []
+    },
+    "sui": {
+        "name": null,
+        "NOTES": []
+    },
+    "suj": {
+        "name": null,
+        "NOTES": []
+    },
+    "suk": {
+        "name": null,
+        "NOTES": []
+    },
+    "sun": {
+        "name": "Sundanese",
+        "NOTES": []
+    },
+    "suo": {
+        "name": null,
+        "NOTES": []
+    },
+    "suq": {
+        "name": null,
+        "NOTES": []
+    },
+    "sur": {
+        "name": null,
+        "NOTES": []
+    },
+    "sus": {
+        "name": null,
+        "NOTES": []
+    },
+    "sut": {
+        "name": null,
+        "NOTES": []
+    },
+    "suv": {
+        "name": null,
+        "NOTES": []
+    },
+    "suw": {
+        "name": null,
+        "NOTES": []
+    },
+    "sux": {
+        "name": null,
+        "NOTES": []
+    },
+    "suy": {
+        "name": null,
+        "NOTES": []
+    },
+    "suz": {
+        "name": null,
+        "NOTES": []
+    },
+    "sva": {
+        "name": null,
+        "NOTES": []
+    },
+    "svb": {
+        "name": null,
+        "NOTES": []
+    },
+    "svc": {
+        "name": null,
+        "NOTES": []
+    },
+    "sve": {
+        "name": null,
+        "NOTES": []
+    },
+    "svk": {
+        "name": null,
+        "NOTES": []
+    },
+    "svm": {
+        "name": null,
+        "NOTES": []
+    },
+    "svs": {
+        "name": null,
+        "NOTES": []
+    },
+    "svx": {
+        "name": null,
+        "NOTES": []
+    },
+    "swa": {
+        "name": "Swahili",
+        "NOTES": []
+    },
+    "swb": {
+        "name": "Maorese",
+        "NOTES": []
+    },
+    "swc": {
+        "name": null,
+        "NOTES": []
+    },
+    "swe": {
+        "name": "Svedese",
+        "NOTES": []
+    },
+    "swf": {
+        "name": null,
+        "NOTES": []
+    },
+    "swg": {
+        "name": null,
+        "NOTES": []
+    },
+    "swh": {
+        "name": null,
+        "NOTES": []
+    },
+    "swi": {
+        "name": null,
+        "NOTES": []
+    },
+    "swj": {
+        "name": null,
+        "NOTES": []
+    },
+    "swk": {
+        "name": null,
+        "NOTES": []
+    },
+    "swl": {
+        "name": null,
+        "NOTES": []
+    },
+    "swm": {
+        "name": null,
+        "NOTES": []
+    },
+    "swn": {
+        "name": null,
+        "NOTES": []
+    },
+    "swo": {
+        "name": null,
+        "NOTES": []
+    },
+    "swp": {
+        "name": null,
+        "NOTES": []
+    },
+    "swq": {
+        "name": null,
+        "NOTES": []
+    },
+    "swr": {
+        "name": null,
+        "NOTES": []
+    },
+    "sws": {
+        "name": null,
+        "NOTES": []
+    },
+    "swt": {
+        "name": null,
+        "NOTES": []
+    },
+    "swu": {
+        "name": null,
+        "NOTES": []
+    },
+    "swv": {
+        "name": null,
+        "NOTES": []
+    },
+    "sww": {
+        "name": null,
+        "NOTES": []
+    },
+    "swx": {
+        "name": null,
+        "NOTES": []
+    },
+    "swy": {
+        "name": null,
+        "NOTES": []
+    },
+    "sxb": {
+        "name": null,
+        "NOTES": []
+    },
+    "sxc": {
+        "name": null,
+        "NOTES": []
+    },
+    "sxe": {
+        "name": null,
+        "NOTES": []
+    },
+    "sxg": {
+        "name": null,
+        "NOTES": []
+    },
+    "sxk": {
+        "name": null,
+        "NOTES": []
+    },
+    "sxl": {
+        "name": null,
+        "NOTES": []
+    },
+    "sxm": {
+        "name": null,
+        "NOTES": []
+    },
+    "sxn": {
+        "name": null,
+        "NOTES": []
+    },
+    "sxo": {
+        "name": null,
+        "NOTES": []
+    },
+    "sxr": {
+        "name": null,
+        "NOTES": []
+    },
+    "sxs": {
+        "name": null,
+        "NOTES": []
+    },
+    "sxu": {
+        "name": null,
+        "NOTES": []
+    },
+    "sxw": {
+        "name": null,
+        "NOTES": []
+    },
+    "sya": {
+        "name": null,
+        "NOTES": []
+    },
+    "syb": {
+        "name": null,
+        "NOTES": []
+    },
+    "syc": {
+        "name": null,
+        "NOTES": []
+    },
+    "syi": {
+        "name": null,
+        "NOTES": []
+    },
+    "syk": {
+        "name": null,
+        "NOTES": []
+    },
+    "syl": {
+        "name": null,
+        "NOTES": []
+    },
+    "sym": {
+        "name": null,
+        "NOTES": []
+    },
+    "syn": {
+        "name": null,
+        "NOTES": []
+    },
+    "syo": {
+        "name": null,
+        "NOTES": []
+    },
+    "syr": {
+        "name": null,
+        "NOTES": []
+    },
+    "sys": {
+        "name": null,
+        "NOTES": []
+    },
+    "syw": {
+        "name": null,
+        "NOTES": []
+    },
+    "syx": {
+        "name": null,
+        "NOTES": []
+    },
+    "syy": {
+        "name": null,
+        "NOTES": []
+    },
+    "sza": {
+        "name": null,
+        "NOTES": []
+    },
+    "szb": {
+        "name": null,
+        "NOTES": []
+    },
+    "szc": {
+        "name": null,
+        "NOTES": []
+    },
+    "sze": {
+        "name": null,
+        "NOTES": []
+    },
+    "szg": {
+        "name": null,
+        "NOTES": []
+    },
+    "szl": {
+        "name": null,
+        "NOTES": []
+    },
+    "szn": {
+        "name": null,
+        "NOTES": []
+    },
+    "szp": {
+        "name": null,
+        "NOTES": []
+    },
+    "szs": {
+        "name": null,
+        "NOTES": []
+    },
+    "szv": {
+        "name": null,
+        "NOTES": []
+    },
+    "szw": {
+        "name": null,
+        "NOTES": []
+    },
+    "szy": {
+        "name": null,
+        "NOTES": []
+    },
+    "taa": {
+        "name": null,
+        "NOTES": []
+    },
+    "tab": {
+        "name": null,
+        "NOTES": []
+    },
+    "tac": {
+        "name": null,
+        "NOTES": []
+    },
+    "tad": {
+        "name": null,
+        "NOTES": []
+    },
+    "tae": {
+        "name": null,
+        "NOTES": []
+    },
+    "taf": {
+        "name": null,
+        "NOTES": []
+    },
+    "tag": {
+        "name": null,
+        "NOTES": []
+    },
+    "tah": {
+        "name": "Tahitiano",
+        "NOTES": []
+    },
+    "taj": {
+        "name": null,
+        "NOTES": []
+    },
+    "tak": {
+        "name": null,
+        "NOTES": []
+    },
+    "tal": {
+        "name": null,
+        "NOTES": []
+    },
+    "tam": {
+        "name": "Tamil",
+        "NOTES": []
+    },
+    "tan": {
+        "name": null,
+        "NOTES": []
+    },
+    "tao": {
+        "name": null,
+        "NOTES": []
+    },
+    "tap": {
+        "name": null,
+        "NOTES": []
+    },
+    "taq": {
+        "name": null,
+        "NOTES": []
+    },
+    "tar": {
+        "name": null,
+        "NOTES": []
+    },
+    "tas": {
+        "name": null,
+        "NOTES": []
+    },
+    "tat": {
+        "name": "Tataro",
+        "NOTES": []
+    },
+    "tau": {
+        "name": null,
+        "NOTES": []
+    },
+    "tav": {
+        "name": null,
+        "NOTES": []
+    },
+    "taw": {
+        "name": null,
+        "NOTES": []
+    },
+    "tax": {
+        "name": null,
+        "NOTES": []
+    },
+    "tay": {
+        "name": null,
+        "NOTES": []
+    },
+    "taz": {
+        "name": null,
+        "NOTES": []
+    },
+    "tba": {
+        "name": null,
+        "NOTES": []
+    },
+    "tbc": {
+        "name": null,
+        "NOTES": []
+    },
+    "tbd": {
+        "name": null,
+        "NOTES": []
+    },
+    "tbe": {
+        "name": null,
+        "NOTES": []
+    },
+    "tbf": {
+        "name": null,
+        "NOTES": []
+    },
+    "tbg": {
+        "name": null,
+        "NOTES": []
+    },
+    "tbh": {
+        "name": null,
+        "NOTES": []
+    },
+    "tbi": {
+        "name": null,
+        "NOTES": []
+    },
+    "tbj": {
+        "name": null,
+        "NOTES": []
+    },
+    "tbk": {
+        "name": null,
+        "NOTES": []
+    },
+    "tbl": {
+        "name": null,
+        "NOTES": []
+    },
+    "tbm": {
+        "name": null,
+        "NOTES": []
+    },
+    "tbn": {
+        "name": null,
+        "NOTES": []
+    },
+    "tbo": {
+        "name": null,
+        "NOTES": []
+    },
+    "tbp": {
+        "name": null,
+        "NOTES": []
+    },
+    "tbr": {
+        "name": null,
+        "NOTES": []
+    },
+    "tbs": {
+        "name": null,
+        "NOTES": []
+    },
+    "tbt": {
+        "name": null,
+        "NOTES": []
+    },
+    "tbu": {
+        "name": null,
+        "NOTES": []
+    },
+    "tbv": {
+        "name": null,
+        "NOTES": []
+    },
+    "tbw": {
+        "name": null,
+        "NOTES": []
+    },
+    "tbx": {
+        "name": null,
+        "NOTES": []
+    },
+    "tby": {
+        "name": null,
+        "NOTES": []
+    },
+    "tbz": {
+        "name": null,
+        "NOTES": []
+    },
+    "tca": {
+        "name": null,
+        "NOTES": []
+    },
+    "tcb": {
+        "name": null,
+        "NOTES": []
+    },
+    "tcc": {
+        "name": null,
+        "NOTES": []
+    },
+    "tcd": {
+        "name": null,
+        "NOTES": []
+    },
+    "tce": {
+        "name": null,
+        "NOTES": []
+    },
+    "tcf": {
+        "name": null,
+        "NOTES": []
+    },
+    "tcg": {
+        "name": null,
+        "NOTES": []
+    },
+    "tch": {
+        "name": null,
+        "NOTES": []
+    },
+    "tci": {
+        "name": null,
+        "NOTES": []
+    },
+    "tck": {
+        "name": null,
+        "NOTES": []
+    },
+    "tcl": {
+        "name": null,
+        "NOTES": []
+    },
+    "tcm": {
+        "name": null,
+        "NOTES": []
+    },
+    "tcn": {
+        "name": null,
+        "NOTES": []
+    },
+    "tco": {
+        "name": null,
+        "NOTES": []
+    },
+    "tcp": {
+        "name": null,
+        "NOTES": []
+    },
+    "tcq": {
+        "name": null,
+        "NOTES": []
+    },
+    "tcs": {
+        "name": null,
+        "NOTES": []
+    },
+    "tct": {
+        "name": null,
+        "NOTES": []
+    },
+    "tcu": {
+        "name": null,
+        "NOTES": []
+    },
+    "tcw": {
+        "name": null,
+        "NOTES": []
+    },
+    "tcx": {
+        "name": null,
+        "NOTES": []
+    },
+    "tcy": {
+        "name": null,
+        "NOTES": []
+    },
+    "tcz": {
+        "name": null,
+        "NOTES": []
+    },
+    "tda": {
+        "name": null,
+        "NOTES": []
+    },
+    "tdb": {
+        "name": null,
+        "NOTES": []
+    },
+    "tdc": {
+        "name": null,
+        "NOTES": []
+    },
+    "tdd": {
+        "name": null,
+        "NOTES": []
+    },
+    "tde": {
+        "name": null,
+        "NOTES": []
+    },
+    "tdf": {
+        "name": null,
+        "NOTES": []
+    },
+    "tdg": {
+        "name": null,
+        "NOTES": []
+    },
+    "tdh": {
+        "name": null,
+        "NOTES": []
+    },
+    "tdi": {
+        "name": null,
+        "NOTES": []
+    },
+    "tdj": {
+        "name": null,
+        "NOTES": []
+    },
+    "tdk": {
+        "name": null,
+        "NOTES": []
+    },
+    "tdl": {
+        "name": null,
+        "NOTES": []
+    },
+    "tdm": {
+        "name": null,
+        "NOTES": []
+    },
+    "tdn": {
+        "name": null,
+        "NOTES": []
+    },
+    "tdo": {
+        "name": null,
+        "NOTES": []
+    },
+    "tdq": {
+        "name": null,
+        "NOTES": []
+    },
+    "tdr": {
+        "name": null,
+        "NOTES": []
+    },
+    "tds": {
+        "name": null,
+        "NOTES": []
+    },
+    "tdt": {
+        "name": null,
+        "NOTES": []
+    },
+    "tdv": {
+        "name": null,
+        "NOTES": []
+    },
+    "tdx": {
+        "name": "Malgascio degli Antandroy",
+        "NOTES": [
+            "https://www.treccani.it/vocabolario/malgascio/?search=malg%C3%A0scio%2F",
+            "https://it.wikipedia.org/wiki/Lingua_malgascia",
+            "https://it.wikipedia.org/wiki/Antandroy"
+        ]
+    },
+    "tdy": {
+        "name": null,
+        "NOTES": []
+    },
+    "tea": {
+        "name": null,
+        "NOTES": []
+    },
+    "teb": {
+        "name": null,
+        "NOTES": []
+    },
+    "tec": {
+        "name": "Terik, Nyang’ori",
+        "NOTES": [
+            "Direct reference not found"
+        ]
+    },
+    "ted": {
+        "name": null,
+        "NOTES": []
+    },
+    "tee": {
+        "name": null,
+        "NOTES": []
+    },
+    "tef": {
+        "name": null,
+        "NOTES": []
+    },
+    "teg": {
+        "name": null,
+        "NOTES": []
+    },
+    "teh": {
+        "name": null,
+        "NOTES": []
+    },
+    "tei": {
+        "name": null,
+        "NOTES": []
+    },
+    "tek": {
+        "name": null,
+        "NOTES": []
+    },
+    "tel": {
+        "name": "Telugu",
+        "NOTES": []
+    },
+    "tem": {
+        "name": null,
+        "NOTES": []
+    },
+    "ten": {
+        "name": null,
+        "NOTES": []
+    },
+    "teo": {
+        "name": "Teso",
+        "NOTES": []
+    },
+    "tep": {
+        "name": null,
+        "NOTES": []
+    },
+    "teq": {
+        "name": null,
+        "NOTES": []
+    },
+    "ter": {
+        "name": null,
+        "NOTES": []
+    },
+    "tes": {
+        "name": null,
+        "NOTES": []
+    },
+    "tet": {
+        "name": "Tetum",
+        "NOTES": []
+    },
+    "teu": {
+        "name": null,
+        "NOTES": []
+    },
+    "tev": {
+        "name": null,
+        "NOTES": []
+    },
+    "tew": {
+        "name": null,
+        "NOTES": []
+    },
+    "tex": {
+        "name": null,
+        "NOTES": []
+    },
+    "tey": {
+        "name": null,
+        "NOTES": []
+    },
+    "tez": {
+        "name": null,
+        "NOTES": []
+    },
+    "tfi": {
+        "name": null,
+        "NOTES": []
+    },
+    "tfn": {
+        "name": null,
+        "NOTES": []
+    },
+    "tfo": {
+        "name": null,
+        "NOTES": []
+    },
+    "tfr": {
+        "name": null,
+        "NOTES": []
+    },
+    "tft": {
+        "name": null,
+        "NOTES": []
+    },
+    "tga": {
+        "name": null,
+        "NOTES": []
+    },
+    "tgb": {
+        "name": null,
+        "NOTES": []
+    },
+    "tgc": {
+        "name": null,
+        "NOTES": []
+    },
+    "tgd": {
+        "name": null,
+        "NOTES": []
+    },
+    "tge": {
+        "name": null,
+        "NOTES": []
+    },
+    "tgf": {
+        "name": null,
+        "NOTES": []
+    },
+    "tgh": {
+        "name": null,
+        "NOTES": []
+    },
+    "tgi": {
+        "name": null,
+        "NOTES": []
+    },
+    "tgj": {
+        "name": null,
+        "NOTES": []
+    },
+    "tgk": {
+        "name": "Tagico",
+        "NOTES": []
+    },
+    "tgl": {
+        "name": "Filippino",
+        "NOTES": []
+    },
+    "tgn": {
+        "name": null,
+        "NOTES": []
+    },
+    "tgo": {
+        "name": null,
+        "NOTES": []
+    },
+    "tgp": {
+        "name": null,
+        "NOTES": []
+    },
+    "tgq": {
+        "name": null,
+        "NOTES": []
+    },
+    "tgr": {
+        "name": null,
+        "NOTES": []
+    },
+    "tgs": {
+        "name": null,
+        "NOTES": []
+    },
+    "tgt": {
+        "name": null,
+        "NOTES": []
+    },
+    "tgu": {
+        "name": null,
+        "NOTES": []
+    },
+    "tgv": {
+        "name": null,
+        "NOTES": []
+    },
+    "tgw": {
+        "name": null,
+        "NOTES": []
+    },
+    "tgx": {
+        "name": null,
+        "NOTES": []
+    },
+    "tgy": {
+        "name": null,
+        "NOTES": []
+    },
+    "tgz": {
+        "name": null,
+        "NOTES": []
+    },
+    "tha": {
+        "name": "Tailandese",
+        "NOTES": []
+    },
+    "thd": {
+        "name": null,
+        "NOTES": []
+    },
+    "the": {
+        "name": null,
+        "NOTES": []
+    },
+    "thf": {
+        "name": null,
+        "NOTES": []
+    },
+    "thh": {
+        "name": null,
+        "NOTES": []
+    },
+    "thi": {
+        "name": null,
+        "NOTES": []
+    },
+    "thk": {
+        "name": null,
+        "NOTES": []
+    },
+    "thl": {
+        "name": null,
+        "NOTES": []
+    },
+    "thm": {
+        "name": null,
+        "NOTES": []
+    },
+    "thn": {
+        "name": null,
+        "NOTES": []
+    },
+    "thp": {
+        "name": null,
+        "NOTES": []
+    },
+    "thq": {
+        "name": null,
+        "NOTES": []
+    },
+    "thr": {
+        "name": null,
+        "NOTES": []
+    },
+    "ths": {
+        "name": null,
+        "NOTES": []
+    },
+    "tht": {
+        "name": null,
+        "NOTES": []
+    },
+    "thu": {
+        "name": null,
+        "NOTES": []
+    },
+    "thv": {
+        "name": null,
+        "NOTES": []
+    },
+    "thy": {
+        "name": null,
+        "NOTES": []
+    },
+    "thz": {
+        "name": null,
+        "NOTES": []
+    },
+    "tia": {
+        "name": null,
+        "NOTES": []
+    },
+    "tic": {
+        "name": null,
+        "NOTES": []
+    },
+    "tif": {
+        "name": null,
+        "NOTES": []
+    },
+    "tig": {
+        "name": null,
+        "NOTES": []
+    },
+    "tih": {
+        "name": null,
+        "NOTES": []
+    },
+    "tii": {
+        "name": null,
+        "NOTES": []
+    },
+    "tij": {
+        "name": null,
+        "NOTES": []
+    },
+    "tik": {
+        "name": null,
+        "NOTES": []
+    },
+    "til": {
+        "name": null,
+        "NOTES": []
+    },
+    "tim": {
+        "name": null,
+        "NOTES": []
+    },
+    "tin": {
+        "name": null,
+        "NOTES": []
+    },
+    "tio": {
+        "name": null,
+        "NOTES": []
+    },
+    "tip": {
+        "name": null,
+        "NOTES": []
+    },
+    "tiq": {
+        "name": null,
+        "NOTES": []
+    },
+    "tir": {
+        "name": "Tigrinya",
+        "NOTES": []
+    },
+    "tis": {
+        "name": null,
+        "NOTES": []
+    },
+    "tit": {
+        "name": null,
+        "NOTES": []
+    },
+    "tiu": {
+        "name": null,
+        "NOTES": []
+    },
+    "tiv": {
+        "name": null,
+        "NOTES": []
+    },
+    "tiw": {
+        "name": null,
+        "NOTES": []
+    },
+    "tix": {
+        "name": null,
+        "NOTES": []
+    },
+    "tiy": {
+        "name": null,
+        "NOTES": []
+    },
+    "tiz": {
+        "name": null,
+        "NOTES": []
+    },
+    "tja": {
+        "name": null,
+        "NOTES": []
+    },
+    "tjg": {
+        "name": null,
+        "NOTES": []
+    },
+    "tji": {
+        "name": null,
+        "NOTES": []
+    },
+    "tjj": {
+        "name": null,
+        "NOTES": []
+    },
+    "tjl": {
+        "name": null,
+        "NOTES": []
+    },
+    "tjm": {
+        "name": null,
+        "NOTES": []
+    },
+    "tjn": {
+        "name": null,
+        "NOTES": []
+    },
+    "tjo": {
+        "name": null,
+        "NOTES": []
+    },
+    "tjp": {
+        "name": null,
+        "NOTES": []
+    },
+    "tjs": {
+        "name": null,
+        "NOTES": []
+    },
+    "tju": {
+        "name": null,
+        "NOTES": []
+    },
+    "tjw": {
+        "name": null,
+        "NOTES": []
+    },
+    "tka": {
+        "name": null,
+        "NOTES": []
+    },
+    "tkb": {
+        "name": null,
+        "NOTES": []
+    },
+    "tkd": {
+        "name": null,
+        "NOTES": []
+    },
+    "tke": {
+        "name": null,
+        "NOTES": []
+    },
+    "tkf": {
+        "name": null,
+        "NOTES": []
+    },
+    "tkg": {
+        "name": "Malgascio degli Antaisaka (Antesaka)",
+        "NOTES": [
+            "https://www.treccani.it/vocabolario/malgascio/?search=malg%C3%A0scio%2F",
+            "https://it.wikipedia.org/wiki/Lingua_malgascia",
+            "https://it.wikipedia.org/wiki/Antaisaka"
+        ]
+    },
+    "tkl": {
+        "name": "Tokelauano",
+        "NOTES": []
+    },
+    "tkm": {
+        "name": null,
+        "NOTES": []
+    },
+    "tkn": {
+        "name": null,
+        "NOTES": []
+    },
+    "tkp": {
+        "name": null,
+        "NOTES": []
+    },
+    "tkq": {
+        "name": null,
+        "NOTES": []
+    },
+    "tkr": {
+        "name": null,
+        "NOTES": []
+    },
+    "tks": {
+        "name": null,
+        "NOTES": []
+    },
+    "tkt": {
+        "name": null,
+        "NOTES": []
+    },
+    "tku": {
+        "name": null,
+        "NOTES": []
+    },
+    "tkv": {
+        "name": null,
+        "NOTES": []
+    },
+    "tkw": {
+        "name": null,
+        "NOTES": []
+    },
+    "tkx": {
+        "name": null,
+        "NOTES": []
+    },
+    "tkz": {
+        "name": null,
+        "NOTES": []
+    },
+    "tla": {
+        "name": null,
+        "NOTES": []
+    },
+    "tlb": {
+        "name": null,
+        "NOTES": []
+    },
+    "tlc": {
+        "name": null,
+        "NOTES": []
+    },
+    "tld": {
+        "name": null,
+        "NOTES": []
+    },
+    "tlf": {
+        "name": null,
+        "NOTES": []
+    },
+    "tlg": {
+        "name": null,
+        "NOTES": []
+    },
+    "tlh": {
+        "name": null,
+        "NOTES": []
+    },
+    "tli": {
+        "name": null,
+        "NOTES": []
+    },
+    "tlj": {
+        "name": null,
+        "NOTES": []
+    },
+    "tlk": {
+        "name": null,
+        "NOTES": []
+    },
+    "tll": {
+        "name": null,
+        "NOTES": []
+    },
+    "tlm": {
+        "name": null,
+        "NOTES": []
+    },
+    "tln": {
+        "name": null,
+        "NOTES": []
+    },
+    "tlo": {
+        "name": null,
+        "NOTES": []
+    },
+    "tlp": {
+        "name": null,
+        "NOTES": []
+    },
+    "tlq": {
+        "name": null,
+        "NOTES": []
+    },
+    "tlr": {
+        "name": null,
+        "NOTES": []
+    },
+    "tls": {
+        "name": null,
+        "NOTES": []
+    },
+    "tlt": {
+        "name": null,
+        "NOTES": []
+    },
+    "tlu": {
+        "name": null,
+        "NOTES": []
+    },
+    "tlv": {
+        "name": null,
+        "NOTES": []
+    },
+    "tlx": {
+        "name": null,
+        "NOTES": []
+    },
+    "tly": {
+        "name": null,
+        "NOTES": []
+    },
+    "tma": {
+        "name": null,
+        "NOTES": []
+    },
+    "tmb": {
+        "name": null,
+        "NOTES": []
+    },
+    "tmc": {
+        "name": null,
+        "NOTES": []
+    },
+    "tmd": {
+        "name": null,
+        "NOTES": []
+    },
+    "tme": {
+        "name": null,
+        "NOTES": []
+    },
+    "tmf": {
+        "name": null,
+        "NOTES": []
+    },
+    "tmg": {
+        "name": null,
+        "NOTES": []
+    },
+    "tmh": {
+        "name": null,
+        "NOTES": []
+    },
+    "tmi": {
+        "name": null,
+        "NOTES": []
+    },
+    "tmj": {
+        "name": null,
+        "NOTES": []
+    },
+    "tml": {
+        "name": null,
+        "NOTES": []
+    },
+    "tmm": {
+        "name": null,
+        "NOTES": []
+    },
+    "tmn": {
+        "name": null,
+        "NOTES": []
+    },
+    "tmo": {
+        "name": null,
+        "NOTES": []
+    },
+    "tmq": {
+        "name": null,
+        "NOTES": []
+    },
+    "tmr": {
+        "name": null,
+        "NOTES": []
+    },
+    "tms": {
+        "name": null,
+        "NOTES": []
+    },
+    "tmt": {
+        "name": null,
+        "NOTES": []
+    },
+    "tmu": {
+        "name": null,
+        "NOTES": []
+    },
+    "tmv": {
+        "name": null,
+        "NOTES": []
+    },
+    "tmw": {
+        "name": null,
+        "NOTES": []
+    },
+    "tmy": {
+        "name": null,
+        "NOTES": []
+    },
+    "tmz": {
+        "name": null,
+        "NOTES": []
+    },
+    "tna": {
+        "name": null,
+        "NOTES": []
+    },
+    "tnb": {
+        "name": null,
+        "NOTES": []
+    },
+    "tnc": {
+        "name": null,
+        "NOTES": []
+    },
+    "tnd": {
+        "name": null,
+        "NOTES": []
+    },
+    "tng": {
+        "name": null,
+        "NOTES": []
+    },
+    "tnh": {
+        "name": null,
+        "NOTES": []
+    },
+    "tni": {
+        "name": null,
+        "NOTES": []
+    },
+    "tnk": {
+        "name": null,
+        "NOTES": []
+    },
+    "tnl": {
+        "name": null,
+        "NOTES": []
+    },
+    "tnm": {
+        "name": null,
+        "NOTES": []
+    },
+    "tnn": {
+        "name": null,
+        "NOTES": []
+    },
+    "tno": {
+        "name": null,
+        "NOTES": []
+    },
+    "tnp": {
+        "name": null,
+        "NOTES": []
+    },
+    "tnq": {
+        "name": "Taíno",
+        "NOTES": []
+    },
+    "tnr": {
+        "name": null,
+        "NOTES": []
+    },
+    "tns": {
+        "name": null,
+        "NOTES": []
+    },
+    "tnt": {
+        "name": null,
+        "NOTES": []
+    },
+    "tnu": {
+        "name": null,
+        "NOTES": []
+    },
+    "tnv": {
+        "name": null,
+        "NOTES": []
+    },
+    "tnw": {
+        "name": null,
+        "NOTES": []
+    },
+    "tnx": {
+        "name": null,
+        "NOTES": []
+    },
+    "tny": {
+        "name": null,
+        "NOTES": []
+    },
+    "tnz": {
+        "name": null,
+        "NOTES": []
+    },
+    "tob": {
+        "name": null,
+        "NOTES": []
+    },
+    "toc": {
+        "name": null,
+        "NOTES": []
+    },
+    "tod": {
+        "name": null,
+        "NOTES": []
+    },
+    "tof": {
+        "name": null,
+        "NOTES": []
+    },
+    "tog": {
+        "name": null,
+        "NOTES": []
+    },
+    "toh": {
+        "name": null,
+        "NOTES": []
+    },
+    "toi": {
+        "name": "Tonga",
+        "NOTES": []
+    },
+    "toj": {
+        "name": null,
+        "NOTES": []
+    },
+    "tok": {
+        "name": null,
+        "NOTES": []
+    },
+    "tol": {
+        "name": null,
+        "NOTES": []
+    },
+    "tom": {
+        "name": null,
+        "NOTES": []
+    },
+    "ton": {
+        "name": "Tongano",
+        "NOTES": []
+    },
+    "too": {
+        "name": null,
+        "NOTES": []
+    },
+    "top": {
+        "name": null,
+        "NOTES": []
+    },
+    "toq": {
+        "name": null,
+        "NOTES": []
+    },
+    "tor": {
+        "name": null,
+        "NOTES": []
+    },
+    "tos": {
+        "name": null,
+        "NOTES": []
+    },
+    "tou": {
+        "name": null,
+        "NOTES": []
+    },
+    "tov": {
+        "name": null,
+        "NOTES": []
+    },
+    "tow": {
+        "name": null,
+        "NOTES": []
+    },
+    "tox": {
+        "name": null,
+        "NOTES": []
+    },
+    "toy": {
+        "name": null,
+        "NOTES": []
+    },
+    "toz": {
+        "name": null,
+        "NOTES": []
+    },
+    "tpa": {
+        "name": null,
+        "NOTES": []
+    },
+    "tpc": {
+        "name": null,
+        "NOTES": []
+    },
+    "tpe": {
+        "name": null,
+        "NOTES": []
+    },
+    "tpf": {
+        "name": null,
+        "NOTES": []
+    },
+    "tpg": {
+        "name": null,
+        "NOTES": []
+    },
+    "tpi": {
+        "name": null,
+        "NOTES": []
+    },
+    "tpj": {
+        "name": null,
+        "NOTES": []
+    },
+    "tpk": {
+        "name": null,
+        "NOTES": []
+    },
+    "tpl": {
+        "name": null,
+        "NOTES": []
+    },
+    "tpm": {
+        "name": null,
+        "NOTES": []
+    },
+    "tpn": {
+        "name": null,
+        "NOTES": []
+    },
+    "tpo": {
+        "name": null,
+        "NOTES": []
+    },
+    "tpp": {
+        "name": null,
+        "NOTES": []
+    },
+    "tpq": {
+        "name": null,
+        "NOTES": []
+    },
+    "tpr": {
+        "name": null,
+        "NOTES": []
+    },
+    "tpt": {
+        "name": null,
+        "NOTES": []
+    },
+    "tpu": {
+        "name": null,
+        "NOTES": []
+    },
+    "tpv": {
+        "name": null,
+        "NOTES": []
+    },
+    "tpx": {
+        "name": null,
+        "NOTES": []
+    },
+    "tpy": {
+        "name": null,
+        "NOTES": []
+    },
+    "tpz": {
+        "name": null,
+        "NOTES": []
+    },
+    "tqb": {
+        "name": null,
+        "NOTES": []
+    },
+    "tql": {
+        "name": null,
+        "NOTES": []
+    },
+    "tqm": {
+        "name": null,
+        "NOTES": []
+    },
+    "tqn": {
+        "name": null,
+        "NOTES": []
+    },
+    "tqo": {
+        "name": null,
+        "NOTES": []
+    },
+    "tqp": {
+        "name": null,
+        "NOTES": []
+    },
+    "tqq": {
+        "name": null,
+        "NOTES": []
+    },
+    "tqr": {
+        "name": null,
+        "NOTES": []
+    },
+    "tqt": {
+        "name": null,
+        "NOTES": []
+    },
+    "tqu": {
+        "name": null,
+        "NOTES": []
+    },
+    "tqw": {
+        "name": null,
+        "NOTES": []
+    },
+    "tra": {
+        "name": null,
+        "NOTES": []
+    },
+    "trb": {
+        "name": null,
+        "NOTES": []
+    },
+    "trc": {
+        "name": null,
+        "NOTES": []
+    },
+    "trd": {
+        "name": null,
+        "NOTES": []
+    },
+    "tre": {
+        "name": null,
+        "NOTES": []
+    },
+    "trf": {
+        "name": null,
+        "NOTES": []
+    },
+    "trg": {
+        "name": null,
+        "NOTES": []
+    },
+    "trh": {
+        "name": null,
+        "NOTES": []
+    },
+    "tri": {
+        "name": null,
+        "NOTES": []
+    },
+    "trj": {
+        "name": null,
+        "NOTES": []
+    },
+    "trl": {
+        "name": null,
+        "NOTES": []
+    },
+    "trm": {
+        "name": null,
+        "NOTES": []
+    },
+    "trn": {
+        "name": null,
+        "NOTES": []
+    },
+    "tro": {
+        "name": null,
+        "NOTES": []
+    },
+    "trp": {
+        "name": null,
+        "NOTES": []
+    },
+    "trq": {
+        "name": null,
+        "NOTES": []
+    },
+    "trr": {
+        "name": null,
+        "NOTES": []
+    },
+    "trs": {
+        "name": null,
+        "NOTES": []
+    },
+    "trt": {
+        "name": null,
+        "NOTES": []
+    },
+    "tru": {
+        "name": null,
+        "NOTES": []
+    },
+    "trv": {
+        "name": null,
+        "NOTES": []
+    },
+    "trw": {
+        "name": null,
+        "NOTES": []
+    },
+    "trx": {
+        "name": null,
+        "NOTES": []
+    },
+    "try": {
+        "name": null,
+        "NOTES": []
+    },
+    "trz": {
+        "name": null,
+        "NOTES": []
+    },
+    "tsa": {
+        "name": null,
+        "NOTES": []
+    },
+    "tsb": {
+        "name": null,
+        "NOTES": []
+    },
+    "tsc": {
+        "name": null,
+        "NOTES": []
+    },
+    "tsd": {
+        "name": null,
+        "NOTES": []
+    },
+    "tse": {
+        "name": null,
+        "NOTES": []
+    },
+    "tsg": {
+        "name": null,
+        "NOTES": []
+    },
+    "tsh": {
+        "name": null,
+        "NOTES": []
+    },
+    "tsi": {
+        "name": null,
+        "NOTES": []
+    },
+    "tsj": {
+        "name": null,
+        "NOTES": []
+    },
+    "tsk": {
+        "name": null,
+        "NOTES": []
+    },
+    "tsl": {
+        "name": null,
+        "NOTES": []
+    },
+    "tsm": {
+        "name": null,
+        "NOTES": []
+    },
+    "tsn": {
+        "name": "Tswana",
+        "NOTES": []
+    },
+    "tso": {
+        "name": "Tsonga",
+        "NOTES": []
+    },
+    "tsp": {
+        "name": null,
+        "NOTES": []
+    },
+    "tsq": {
+        "name": null,
+        "NOTES": []
+    },
+    "tsr": {
+        "name": null,
+        "NOTES": []
+    },
+    "tss": {
+        "name": null,
+        "NOTES": []
+    },
+    "tst": {
+        "name": null,
+        "NOTES": []
+    },
+    "tsu": {
+        "name": null,
+        "NOTES": []
+    },
+    "tsv": {
+        "name": null,
+        "NOTES": []
+    },
+    "tsw": {
+        "name": null,
+        "NOTES": []
+    },
+    "tsx": {
+        "name": null,
+        "NOTES": []
+    },
+    "tsy": {
+        "name": null,
+        "NOTES": []
+    },
+    "tsz": {
+        "name": null,
+        "NOTES": []
+    },
+    "tta": {
+        "name": null,
+        "NOTES": []
+    },
+    "ttb": {
+        "name": null,
+        "NOTES": []
+    },
+    "ttc": {
+        "name": null,
+        "NOTES": []
+    },
+    "ttd": {
+        "name": null,
+        "NOTES": []
+    },
+    "tte": {
+        "name": null,
+        "NOTES": []
+    },
+    "ttf": {
+        "name": null,
+        "NOTES": []
+    },
+    "ttg": {
+        "name": null,
+        "NOTES": []
+    },
+    "tth": {
+        "name": null,
+        "NOTES": []
+    },
+    "tti": {
+        "name": null,
+        "NOTES": []
+    },
+    "ttj": {
+        "name": null,
+        "NOTES": []
+    },
+    "ttk": {
+        "name": null,
+        "NOTES": []
+    },
+    "ttl": {
+        "name": null,
+        "NOTES": []
+    },
+    "ttm": {
+        "name": null,
+        "NOTES": []
+    },
+    "ttn": {
+        "name": null,
+        "NOTES": []
+    },
+    "tto": {
+        "name": null,
+        "NOTES": []
+    },
+    "ttp": {
+        "name": null,
+        "NOTES": []
+    },
+    "ttq": {
+        "name": null,
+        "NOTES": []
+    },
+    "ttr": {
+        "name": null,
+        "NOTES": []
+    },
+    "tts": {
+        "name": null,
+        "NOTES": []
+    },
+    "ttt": {
+        "name": null,
+        "NOTES": []
+    },
+    "ttu": {
+        "name": null,
+        "NOTES": []
+    },
+    "ttv": {
+        "name": null,
+        "NOTES": []
+    },
+    "ttw": {
+        "name": null,
+        "NOTES": []
+    },
+    "tty": {
+        "name": null,
+        "NOTES": []
+    },
+    "ttz": {
+        "name": null,
+        "NOTES": []
+    },
+    "tua": {
+        "name": null,
+        "NOTES": []
+    },
+    "tub": {
+        "name": null,
+        "NOTES": []
+    },
+    "tuc": {
+        "name": null,
+        "NOTES": []
+    },
+    "tud": {
+        "name": null,
+        "NOTES": []
+    },
+    "tue": {
+        "name": null,
+        "NOTES": []
+    },
+    "tuf": {
+        "name": null,
+        "NOTES": []
+    },
+    "tug": {
+        "name": null,
+        "NOTES": []
+    },
+    "tuh": {
+        "name": null,
+        "NOTES": []
+    },
+    "tui": {
+        "name": "Tugen",
+        "NOTES": []
+    },
+    "tuj": {
+        "name": null,
+        "NOTES": []
+    },
+    "tuk": {
+        "name": "Turkmeno",
+        "NOTES": []
+    },
+    "tul": {
+        "name": null,
+        "NOTES": []
+    },
+    "tum": {
+        "name": null,
+        "NOTES": []
+    },
+    "tun": {
+        "name": null,
+        "NOTES": []
+    },
+    "tuo": {
+        "name": null,
+        "NOTES": []
+    },
+    "tuq": {
+        "name": null,
+        "NOTES": []
+    },
+    "tur": {
+        "name": "Turco",
+        "NOTES": []
+    },
+    "tus": {
+        "name": null,
+        "NOTES": []
+    },
+    "tuu": {
+        "name": null,
+        "NOTES": []
+    },
+    "tuv": {
+        "name": "Tuvaluano",
+        "NOTES": []
+    },
+    "tux": {
+        "name": null,
+        "NOTES": []
+    },
+    "tuy": {
+        "name": "Tugen",
+        "NOTES": [
+            "Direct reference not found"
+        ]
+    },
+    "tuz": {
+        "name": null,
+        "NOTES": []
+    },
+    "tva": {
+        "name": null,
+        "NOTES": []
+    },
+    "tvd": {
+        "name": null,
+        "NOTES": []
+    },
+    "tve": {
+        "name": null,
+        "NOTES": []
+    },
+    "tvi": {
+        "name": null,
+        "NOTES": []
+    },
+    "tvk": {
+        "name": null,
+        "NOTES": []
+    },
+    "tvl": {
+        "name": null,
+        "NOTES": []
+    },
+    "tvm": {
+        "name": null,
+        "NOTES": []
+    },
+    "tvn": {
+        "name": null,
+        "NOTES": []
+    },
+    "tvo": {
+        "name": null,
+        "NOTES": []
+    },
+    "tvs": {
+        "name": null,
+        "NOTES": []
+    },
+    "tvt": {
+        "name": null,
+        "NOTES": []
+    },
+    "tvu": {
+        "name": null,
+        "NOTES": []
+    },
+    "tvw": {
+        "name": null,
+        "NOTES": []
+    },
+    "tvx": {
+        "name": null,
+        "NOTES": []
+    },
+    "tvy": {
+        "name": null,
+        "NOTES": []
+    },
+    "twa": {
+        "name": null,
+        "NOTES": []
+    },
+    "twb": {
+        "name": null,
+        "NOTES": []
+    },
+    "twc": {
+        "name": null,
+        "NOTES": []
+    },
+    "twd": {
+        "name": null,
+        "NOTES": []
+    },
+    "twe": {
+        "name": null,
+        "NOTES": []
+    },
+    "twf": {
+        "name": null,
+        "NOTES": []
+    },
+    "twg": {
+        "name": null,
+        "NOTES": []
+    },
+    "twh": {
+        "name": null,
+        "NOTES": []
+    },
+    "twi": {
+        "name": "Twi",
+        "NOTES": []
+    },
+    "twl": {
+        "name": null,
+        "NOTES": []
+    },
+    "twm": {
+        "name": null,
+        "NOTES": []
+    },
+    "twn": {
+        "name": null,
+        "NOTES": []
+    },
+    "two": {
+        "name": null,
+        "NOTES": []
+    },
+    "twp": {
+        "name": null,
+        "NOTES": []
+    },
+    "twq": {
+        "name": "Tasawaq",
+        "NOTES": []
+    },
+    "twr": {
+        "name": null,
+        "NOTES": []
+    },
+    "twt": {
+        "name": null,
+        "NOTES": []
+    },
+    "twu": {
+        "name": null,
+        "NOTES": []
+    },
+    "tww": {
+        "name": null,
+        "NOTES": []
+    },
+    "twx": {
+        "name": "Tewe",
+        "NOTES": [
+            "Direct reference not found",
+            "Refer to `mxc`"
+        ]
+    },
+    "twy": {
+        "name": null,
+        "NOTES": []
+    },
+    "txa": {
+        "name": null,
+        "NOTES": []
+    },
+    "txb": {
+        "name": null,
+        "NOTES": []
+    },
+    "txc": {
+        "name": null,
+        "NOTES": []
+    },
+    "txe": {
+        "name": null,
+        "NOTES": []
+    },
+    "txg": {
+        "name": null,
+        "NOTES": []
+    },
+    "txh": {
+        "name": null,
+        "NOTES": []
+    },
+    "txi": {
+        "name": null,
+        "NOTES": []
+    },
+    "txj": {
+        "name": null,
+        "NOTES": []
+    },
+    "txm": {
+        "name": null,
+        "NOTES": []
+    },
+    "txn": {
+        "name": null,
+        "NOTES": []
+    },
+    "txo": {
+        "name": null,
+        "NOTES": []
+    },
+    "txq": {
+        "name": null,
+        "NOTES": []
+    },
+    "txr": {
+        "name": null,
+        "NOTES": []
+    },
+    "txs": {
+        "name": null,
+        "NOTES": []
+    },
+    "txt": {
+        "name": null,
+        "NOTES": []
+    },
+    "txu": {
+        "name": null,
+        "NOTES": []
+    },
+    "txx": {
+        "name": null,
+        "NOTES": []
+    },
+    "txy": {
+        "name": "Malgascio degli Antanosy (Antanosi, Antenosy)",
+        "NOTES": [
+            "https://www.treccani.it/vocabolario/malgascio/?search=malg%C3%A0scio%2F",
+            "https://it.wikipedia.org/wiki/Lingua_malgascia",
+            "https://it.wikipedia.org/wiki/Antanosy"
+        ]
+    },
+    "tya": {
+        "name": null,
+        "NOTES": []
+    },
+    "tye": {
+        "name": null,
+        "NOTES": []
+    },
+    "tyh": {
+        "name": null,
+        "NOTES": []
+    },
+    "tyi": {
+        "name": null,
+        "NOTES": []
+    },
+    "tyj": {
+        "name": null,
+        "NOTES": []
+    },
+    "tyl": {
+        "name": null,
+        "NOTES": []
+    },
+    "tyn": {
+        "name": null,
+        "NOTES": []
+    },
+    "typ": {
+        "name": null,
+        "NOTES": []
+    },
+    "tyr": {
+        "name": null,
+        "NOTES": []
+    },
+    "tys": {
+        "name": null,
+        "NOTES": []
+    },
+    "tyt": {
+        "name": null,
+        "NOTES": []
+    },
+    "tyu": {
+        "name": null,
+        "NOTES": []
+    },
+    "tyv": {
+        "name": null,
+        "NOTES": []
+    },
+    "tyx": {
+        "name": null,
+        "NOTES": []
+    },
+    "tyy": {
+        "name": null,
+        "NOTES": []
+    },
+    "tyz": {
+        "name": null,
+        "NOTES": []
+    },
+    "tza": {
+        "name": null,
+        "NOTES": []
+    },
+    "tzh": {
+        "name": null,
+        "NOTES": []
+    },
+    "tzj": {
+        "name": null,
+        "NOTES": []
+    },
+    "tzl": {
+        "name": null,
+        "NOTES": []
+    },
+    "tzm": {
+        "name": "Tamazight del Marocco centrale",
+        "NOTES": []
+    },
+    "tzn": {
+        "name": null,
+        "NOTES": []
+    },
+    "tzo": {
+        "name": null,
+        "NOTES": []
+    },
+    "tzx": {
+        "name": null,
+        "NOTES": []
+    },
+    "uam": {
+        "name": null,
+        "NOTES": []
+    },
+    "uan": {
+        "name": null,
+        "NOTES": []
+    },
+    "uar": {
+        "name": null,
+        "NOTES": []
+    },
+    "uba": {
+        "name": null,
+        "NOTES": []
+    },
+    "ubi": {
+        "name": null,
+        "NOTES": []
+    },
+    "ubl": {
+        "name": null,
+        "NOTES": []
+    },
+    "ubr": {
+        "name": null,
+        "NOTES": []
+    },
+    "ubu": {
+        "name": null,
+        "NOTES": []
+    },
+    "uby": {
+        "name": null,
+        "NOTES": []
+    },
+    "uda": {
+        "name": null,
+        "NOTES": []
+    },
+    "ude": {
+        "name": null,
+        "NOTES": []
+    },
+    "udg": {
+        "name": null,
+        "NOTES": []
+    },
+    "udi": {
+        "name": null,
+        "NOTES": []
+    },
+    "udj": {
+        "name": null,
+        "NOTES": []
+    },
+    "udl": {
+        "name": null,
+        "NOTES": []
+    },
+    "udm": {
+        "name": null,
+        "NOTES": []
+    },
+    "udu": {
+        "name": null,
+        "NOTES": []
+    },
+    "ues": {
+        "name": null,
+        "NOTES": []
+    },
+    "ufi": {
+        "name": null,
+        "NOTES": []
+    },
+    "uga": {
+        "name": null,
+        "NOTES": []
+    },
+    "ugb": {
+        "name": null,
+        "NOTES": []
+    },
+    "uge": {
+        "name": null,
+        "NOTES": []
+    },
+    "ugh": {
+        "name": null,
+        "NOTES": []
+    },
+    "ugn": {
+        "name": null,
+        "NOTES": []
+    },
+    "ugo": {
+        "name": null,
+        "NOTES": []
+    },
+    "ugy": {
+        "name": null,
+        "NOTES": []
+    },
+    "uha": {
+        "name": null,
+        "NOTES": []
+    },
+    "uhn": {
+        "name": null,
+        "NOTES": []
+    },
+    "uig": {
+        "name": "Uiguro",
+        "NOTES": []
+    },
+    "uis": {
+        "name": null,
+        "NOTES": []
+    },
+    "uiv": {
+        "name": null,
+        "NOTES": []
+    },
+    "uji": {
+        "name": null,
+        "NOTES": []
+    },
+    "uka": {
+        "name": null,
+        "NOTES": []
+    },
+    "ukg": {
+        "name": null,
+        "NOTES": []
+    },
+    "ukh": {
+        "name": null,
+        "NOTES": []
+    },
+    "uki": {
+        "name": null,
+        "NOTES": []
+    },
+    "ukk": {
+        "name": null,
+        "NOTES": []
+    },
+    "ukl": {
+        "name": null,
+        "NOTES": []
+    },
+    "ukp": {
+        "name": null,
+        "NOTES": []
+    },
+    "ukq": {
+        "name": null,
+        "NOTES": []
+    },
+    "ukr": {
+        "name": "Ucraino",
+        "NOTES": []
+    },
+    "uks": {
+        "name": null,
+        "NOTES": []
+    },
+    "uku": {
+        "name": null,
+        "NOTES": []
+    },
+    "ukv": {
+        "name": null,
+        "NOTES": []
+    },
+    "ukw": {
+        "name": null,
+        "NOTES": []
+    },
+    "uky": {
+        "name": null,
+        "NOTES": []
+    },
+    "ula": {
+        "name": null,
+        "NOTES": []
+    },
+    "ulb": {
+        "name": null,
+        "NOTES": []
+    },
+    "ulc": {
+        "name": null,
+        "NOTES": []
+    },
+    "ule": {
+        "name": null,
+        "NOTES": []
+    },
+    "ulf": {
+        "name": null,
+        "NOTES": []
+    },
+    "uli": {
+        "name": null,
+        "NOTES": []
+    },
+    "ulk": {
+        "name": null,
+        "NOTES": []
+    },
+    "ull": {
+        "name": null,
+        "NOTES": []
+    },
+    "ulm": {
+        "name": null,
+        "NOTES": []
+    },
+    "uln": {
+        "name": null,
+        "NOTES": []
+    },
+    "ulu": {
+        "name": null,
+        "NOTES": []
+    },
+    "ulw": {
+        "name": null,
+        "NOTES": []
+    },
+    "uly": {
+        "name": null,
+        "NOTES": []
+    },
+    "uma": {
+        "name": null,
+        "NOTES": []
+    },
+    "umb": {
+        "name": null,
+        "NOTES": []
+    },
+    "umc": {
+        "name": null,
+        "NOTES": []
+    },
+    "umd": {
+        "name": null,
+        "NOTES": []
+    },
+    "umg": {
+        "name": null,
+        "NOTES": []
+    },
+    "umi": {
+        "name": null,
+        "NOTES": []
+    },
+    "umm": {
+        "name": null,
+        "NOTES": []
+    },
+    "umn": {
+        "name": null,
+        "NOTES": []
+    },
+    "umo": {
+        "name": null,
+        "NOTES": []
+    },
+    "ump": {
+        "name": null,
+        "NOTES": []
+    },
+    "umr": {
+        "name": null,
+        "NOTES": []
+    },
+    "ums": {
+        "name": null,
+        "NOTES": []
+    },
+    "umu": {
+        "name": null,
+        "NOTES": []
+    },
+    "una": {
+        "name": null,
+        "NOTES": []
+    },
+    "und": {
+        "name": null,
+        "NOTES": []
+    },
+    "une": {
+        "name": null,
+        "NOTES": []
+    },
+    "ung": {
+        "name": null,
+        "NOTES": []
+    },
+    "uni": {
+        "name": null,
+        "NOTES": []
+    },
+    "unk": {
+        "name": null,
+        "NOTES": []
+    },
+    "unm": {
+        "name": null,
+        "NOTES": []
+    },
+    "unn": {
+        "name": null,
+        "NOTES": []
+    },
+    "unr": {
+        "name": null,
+        "NOTES": []
+    },
+    "unu": {
+        "name": null,
+        "NOTES": []
+    },
+    "unx": {
+        "name": null,
+        "NOTES": []
+    },
+    "unz": {
+        "name": null,
+        "NOTES": []
+    },
+    "uon": {
+        "name": null,
+        "NOTES": []
+    },
+    "upi": {
+        "name": null,
+        "NOTES": []
+    },
+    "upv": {
+        "name": null,
+        "NOTES": []
+    },
+    "ura": {
+        "name": null,
+        "NOTES": []
+    },
+    "urb": {
+        "name": null,
+        "NOTES": []
+    },
+    "urc": {
+        "name": null,
+        "NOTES": []
+    },
+    "urd": {
+        "name": "Urdu",
+        "NOTES": []
+    },
+    "ure": {
+        "name": null,
+        "NOTES": []
+    },
+    "urf": {
+        "name": null,
+        "NOTES": []
+    },
+    "urg": {
+        "name": null,
+        "NOTES": []
+    },
+    "urh": {
+        "name": null,
+        "NOTES": []
+    },
+    "uri": {
+        "name": null,
+        "NOTES": []
+    },
+    "urk": {
+        "name": null,
+        "NOTES": []
+    },
+    "url": {
+        "name": null,
+        "NOTES": []
+    },
+    "urm": {
+        "name": null,
+        "NOTES": []
+    },
+    "urn": {
+        "name": null,
+        "NOTES": []
+    },
+    "uro": {
+        "name": null,
+        "NOTES": []
+    },
+    "urp": {
+        "name": null,
+        "NOTES": []
+    },
+    "urr": {
+        "name": null,
+        "NOTES": []
+    },
+    "urt": {
+        "name": null,
+        "NOTES": []
+    },
+    "uru": {
+        "name": null,
+        "NOTES": []
+    },
+    "urv": {
+        "name": null,
+        "NOTES": []
+    },
+    "urw": {
+        "name": null,
+        "NOTES": []
+    },
+    "urx": {
+        "name": null,
+        "NOTES": []
+    },
+    "ury": {
+        "name": null,
+        "NOTES": []
+    },
+    "urz": {
+        "name": null,
+        "NOTES": []
+    },
+    "usa": {
+        "name": null,
+        "NOTES": []
+    },
+    "ush": {
+        "name": null,
+        "NOTES": []
+    },
+    "usi": {
+        "name": null,
+        "NOTES": []
+    },
+    "usk": {
+        "name": null,
+        "NOTES": []
+    },
+    "usp": {
+        "name": null,
+        "NOTES": []
+    },
+    "uss": {
+        "name": null,
+        "NOTES": []
+    },
+    "usu": {
+        "name": null,
+        "NOTES": []
+    },
+    "uta": {
+        "name": null,
+        "NOTES": []
+    },
+    "ute": {
+        "name": null,
+        "NOTES": []
+    },
+    "uth": {
+        "name": null,
+        "NOTES": []
+    },
+    "utp": {
+        "name": null,
+        "NOTES": []
+    },
+    "utr": {
+        "name": null,
+        "NOTES": []
+    },
+    "utu": {
+        "name": null,
+        "NOTES": []
+    },
+    "uum": {
+        "name": null,
+        "NOTES": []
+    },
+    "uur": {
+        "name": null,
+        "NOTES": []
+    },
+    "uuu": {
+        "name": null,
+        "NOTES": []
+    },
+    "uve": {
+        "name": null,
+        "NOTES": []
+    },
+    "uvh": {
+        "name": null,
+        "NOTES": []
+    },
+    "uvl": {
+        "name": null,
+        "NOTES": []
+    },
+    "uwa": {
+        "name": null,
+        "NOTES": []
+    },
+    "uya": {
+        "name": null,
+        "NOTES": []
+    },
+    "uzb": {
+        "name": "Uzbeco",
+        "NOTES": []
+    },
+    "uzn": {
+        "name": null,
+        "NOTES": []
+    },
+    "uzs": {
+        "name": null,
+        "NOTES": []
+    },
+    "vaa": {
+        "name": null,
+        "NOTES": []
+    },
+    "vae": {
+        "name": null,
+        "NOTES": []
+    },
+    "vaf": {
+        "name": null,
+        "NOTES": []
+    },
+    "vag": {
+        "name": null,
+        "NOTES": []
+    },
+    "vah": {
+        "name": null,
+        "NOTES": []
+    },
+    "vai": {
+        "name": "Vai",
+        "NOTES": []
+    },
+    "vaj": {
+        "name": null,
+        "NOTES": []
+    },
+    "val": {
+        "name": null,
+        "NOTES": []
+    },
+    "vam": {
+        "name": null,
+        "NOTES": []
+    },
+    "van": {
+        "name": null,
+        "NOTES": []
+    },
+    "vao": {
+        "name": null,
+        "NOTES": []
+    },
+    "vap": {
+        "name": null,
+        "NOTES": []
+    },
+    "var": {
+        "name": null,
+        "NOTES": []
+    },
+    "vas": {
+        "name": null,
+        "NOTES": []
+    },
+    "vau": {
+        "name": null,
+        "NOTES": []
+    },
+    "vav": {
+        "name": null,
+        "NOTES": []
+    },
+    "vay": {
+        "name": null,
+        "NOTES": []
+    },
+    "vbb": {
+        "name": null,
+        "NOTES": []
+    },
+    "vbk": {
+        "name": null,
+        "NOTES": []
+    },
+    "vec": {
+        "name": null,
+        "NOTES": []
+    },
+    "ved": {
+        "name": null,
+        "NOTES": []
+    },
+    "vel": {
+        "name": null,
+        "NOTES": []
+    },
+    "vem": {
+        "name": null,
+        "NOTES": []
+    },
+    "ven": {
+        "name": "Venda",
+        "NOTES": []
+    },
+    "veo": {
+        "name": null,
+        "NOTES": []
+    },
+    "vep": {
+        "name": null,
+        "NOTES": []
+    },
+    "ver": {
+        "name": null,
+        "NOTES": []
+    },
+    "vgr": {
+        "name": null,
+        "NOTES": []
+    },
+    "vgt": {
+        "name": null,
+        "NOTES": []
+    },
+    "vic": {
+        "name": null,
+        "NOTES": []
+    },
+    "vid": {
+        "name": null,
+        "NOTES": []
+    },
+    "vie": {
+        "name": "Vietnamita",
+        "NOTES": []
+    },
+    "vif": {
+        "name": null,
+        "NOTES": []
+    },
+    "vig": {
+        "name": null,
+        "NOTES": []
+    },
+    "vil": {
+        "name": null,
+        "NOTES": []
+    },
+    "vin": {
+        "name": null,
+        "NOTES": []
+    },
+    "vis": {
+        "name": null,
+        "NOTES": []
+    },
+    "vit": {
+        "name": null,
+        "NOTES": []
+    },
+    "viv": {
+        "name": null,
+        "NOTES": []
+    },
+    "vjk": {
+        "name": null,
+        "NOTES": []
+    },
+    "vka": {
+        "name": null,
+        "NOTES": []
+    },
+    "vkj": {
+        "name": null,
+        "NOTES": []
+    },
+    "vkk": {
+        "name": null,
+        "NOTES": []
+    },
+    "vkl": {
+        "name": null,
+        "NOTES": []
+    },
+    "vkm": {
+        "name": null,
+        "NOTES": []
+    },
+    "vkn": {
+        "name": null,
+        "NOTES": []
+    },
+    "vko": {
+        "name": null,
+        "NOTES": []
+    },
+    "vkp": {
+        "name": null,
+        "NOTES": []
+    },
+    "vkt": {
+        "name": null,
+        "NOTES": []
+    },
+    "vku": {
+        "name": null,
+        "NOTES": []
+    },
+    "vkz": {
+        "name": null,
+        "NOTES": []
+    },
+    "vlp": {
+        "name": null,
+        "NOTES": []
+    },
+    "vls": {
+        "name": null,
+        "NOTES": []
+    },
+    "vma": {
+        "name": null,
+        "NOTES": []
+    },
+    "vmb": {
+        "name": null,
+        "NOTES": []
+    },
+    "vmc": {
+        "name": null,
+        "NOTES": []
+    },
+    "vmd": {
+        "name": null,
+        "NOTES": []
+    },
+    "vme": {
+        "name": null,
+        "NOTES": []
+    },
+    "vmf": {
+        "name": null,
+        "NOTES": []
+    },
+    "vmg": {
+        "name": null,
+        "NOTES": []
+    },
+    "vmh": {
+        "name": null,
+        "NOTES": []
+    },
+    "vmi": {
+        "name": null,
+        "NOTES": []
+    },
+    "vmj": {
+        "name": null,
+        "NOTES": []
+    },
+    "vmk": {
+        "name": null,
+        "NOTES": []
+    },
+    "vml": {
+        "name": null,
+        "NOTES": []
+    },
+    "vmm": {
+        "name": null,
+        "NOTES": []
+    },
+    "vmp": {
+        "name": null,
+        "NOTES": []
+    },
+    "vmq": {
+        "name": null,
+        "NOTES": []
+    },
+    "vmr": {
+        "name": null,
+        "NOTES": []
+    },
+    "vms": {
+        "name": null,
+        "NOTES": []
+    },
+    "vmu": {
+        "name": null,
+        "NOTES": []
+    },
+    "vmv": {
+        "name": null,
+        "NOTES": []
+    },
+    "vmw": {
+        "name": null,
+        "NOTES": []
+    },
+    "vmx": {
+        "name": null,
+        "NOTES": []
+    },
+    "vmy": {
+        "name": null,
+        "NOTES": []
+    },
+    "vmz": {
+        "name": null,
+        "NOTES": []
+    },
+    "vnk": {
+        "name": null,
+        "NOTES": []
+    },
+    "vnm": {
+        "name": null,
+        "NOTES": []
+    },
+    "vnp": {
+        "name": null,
+        "NOTES": []
+    },
+    "vol": {
+        "name": "Volapük",
+        "NOTES": []
+    },
+    "vor": {
+        "name": null,
+        "NOTES": []
+    },
+    "vot": {
+        "name": null,
+        "NOTES": []
+    },
+    "vra": {
+        "name": null,
+        "NOTES": []
+    },
+    "vro": {
+        "name": null,
+        "NOTES": []
+    },
+    "vrs": {
+        "name": null,
+        "NOTES": []
+    },
+    "vrt": {
+        "name": null,
+        "NOTES": []
+    },
+    "vsi": {
+        "name": null,
+        "NOTES": []
+    },
+    "vsl": {
+        "name": null,
+        "NOTES": []
+    },
+    "vsn": {
+        "name": null,
+        "NOTES": []
+    },
+    "vsv": {
+        "name": null,
+        "NOTES": []
+    },
+    "vto": {
+        "name": null,
+        "NOTES": []
+    },
+    "vum": {
+        "name": null,
+        "NOTES": []
+    },
+    "vun": {
+        "name": "Kilimanjaro del Centro, Chaga del Centro",
+        "NOTES": []
+    },
+    "vut": {
+        "name": null,
+        "NOTES": []
+    },
+    "vwa": {
+        "name": null,
+        "NOTES": []
+    },
+    "waa": {
+        "name": null,
+        "NOTES": []
+    },
+    "wab": {
+        "name": null,
+        "NOTES": []
+    },
+    "wac": {
+        "name": null,
+        "NOTES": []
+    },
+    "wad": {
+        "name": null,
+        "NOTES": []
+    },
+    "wae": {
+        "name": "Walser German",
+        "NOTES": []
+    },
+    "waf": {
+        "name": null,
+        "NOTES": []
+    },
+    "wag": {
+        "name": null,
+        "NOTES": []
+    },
+    "wah": {
+        "name": null,
+        "NOTES": []
+    },
+    "wai": {
+        "name": null,
+        "NOTES": []
+    },
+    "waj": {
+        "name": null,
+        "NOTES": []
+    },
+    "wal": {
+        "name": null,
+        "NOTES": []
+    },
+    "wam": {
+        "name": null,
+        "NOTES": []
+    },
+    "wan": {
+        "name": null,
+        "NOTES": []
+    },
+    "wao": {
+        "name": null,
+        "NOTES": []
+    },
+    "wap": {
+        "name": null,
+        "NOTES": []
+    },
+    "waq": {
+        "name": null,
+        "NOTES": []
+    },
+    "war": {
+        "name": null,
+        "NOTES": []
+    },
+    "was": {
+        "name": null,
+        "NOTES": []
+    },
+    "wat": {
+        "name": null,
+        "NOTES": []
+    },
+    "wau": {
+        "name": null,
+        "NOTES": []
+    },
+    "wav": {
+        "name": null,
+        "NOTES": []
+    },
+    "waw": {
+        "name": null,
+        "NOTES": []
+    },
+    "wax": {
+        "name": null,
+        "NOTES": []
+    },
+    "way": {
+        "name": null,
+        "NOTES": []
+    },
+    "waz": {
+        "name": null,
+        "NOTES": []
+    },
+    "wba": {
+        "name": null,
+        "NOTES": []
+    },
+    "wbb": {
+        "name": null,
+        "NOTES": []
+    },
+    "wbe": {
+        "name": null,
+        "NOTES": []
+    },
+    "wbf": {
+        "name": null,
+        "NOTES": []
+    },
+    "wbh": {
+        "name": null,
+        "NOTES": []
+    },
+    "wbi": {
+        "name": null,
+        "NOTES": []
+    },
+    "wbj": {
+        "name": null,
+        "NOTES": []
+    },
+    "wbk": {
+        "name": null,
+        "NOTES": []
+    },
+    "wbl": {
+        "name": null,
+        "NOTES": []
+    },
+    "wbm": {
+        "name": null,
+        "NOTES": []
+    },
+    "wbp": {
+        "name": null,
+        "NOTES": []
+    },
+    "wbq": {
+        "name": null,
+        "NOTES": []
+    },
+    "wbr": {
+        "name": null,
+        "NOTES": []
+    },
+    "wbs": {
+        "name": null,
+        "NOTES": []
+    },
+    "wbt": {
+        "name": null,
+        "NOTES": []
+    },
+    "wbv": {
+        "name": null,
+        "NOTES": []
+    },
+    "wbw": {
+        "name": null,
+        "NOTES": []
+    },
+    "wca": {
+        "name": null,
+        "NOTES": []
+    },
+    "wci": {
+        "name": null,
+        "NOTES": []
+    },
+    "wdd": {
+        "name": null,
+        "NOTES": []
+    },
+    "wdg": {
+        "name": null,
+        "NOTES": []
+    },
+    "wdj": {
+        "name": null,
+        "NOTES": []
+    },
+    "wdk": {
+        "name": null,
+        "NOTES": []
+    },
+    "wdt": {
+        "name": null,
+        "NOTES": []
+    },
+    "wdu": {
+        "name": null,
+        "NOTES": []
+    },
+    "wdy": {
+        "name": null,
+        "NOTES": []
+    },
+    "wea": {
+        "name": null,
+        "NOTES": []
+    },
+    "wec": {
+        "name": null,
+        "NOTES": []
+    },
+    "wed": {
+        "name": null,
+        "NOTES": []
+    },
+    "weg": {
+        "name": null,
+        "NOTES": []
+    },
+    "weh": {
+        "name": null,
+        "NOTES": []
+    },
+    "wei": {
+        "name": null,
+        "NOTES": []
+    },
+    "wem": {
+        "name": null,
+        "NOTES": []
+    },
+    "weo": {
+        "name": null,
+        "NOTES": []
+    },
+    "wep": {
+        "name": null,
+        "NOTES": []
+    },
+    "wer": {
+        "name": null,
+        "NOTES": []
+    },
+    "wes": {
+        "name": null,
+        "NOTES": []
+    },
+    "wet": {
+        "name": null,
+        "NOTES": []
+    },
+    "weu": {
+        "name": null,
+        "NOTES": []
+    },
+    "wew": {
+        "name": null,
+        "NOTES": []
+    },
+    "wfg": {
+        "name": null,
+        "NOTES": []
+    },
+    "wga": {
+        "name": null,
+        "NOTES": []
+    },
+    "wgb": {
+        "name": null,
+        "NOTES": []
+    },
+    "wgg": {
+        "name": null,
+        "NOTES": []
+    },
+    "wgi": {
+        "name": null,
+        "NOTES": []
+    },
+    "wgo": {
+        "name": null,
+        "NOTES": []
+    },
+    "wgu": {
+        "name": null,
+        "NOTES": []
+    },
+    "wgy": {
+        "name": null,
+        "NOTES": []
+    },
+    "wha": {
+        "name": null,
+        "NOTES": []
+    },
+    "whg": {
+        "name": null,
+        "NOTES": []
+    },
+    "whk": {
+        "name": null,
+        "NOTES": []
+    },
+    "whu": {
+        "name": null,
+        "NOTES": []
+    },
+    "wib": {
+        "name": null,
+        "NOTES": []
+    },
+    "wic": {
+        "name": null,
+        "NOTES": []
+    },
+    "wie": {
+        "name": null,
+        "NOTES": []
+    },
+    "wif": {
+        "name": null,
+        "NOTES": []
+    },
+    "wig": {
+        "name": null,
+        "NOTES": []
+    },
+    "wih": {
+        "name": null,
+        "NOTES": []
+    },
+    "wii": {
+        "name": null,
+        "NOTES": []
+    },
+    "wij": {
+        "name": null,
+        "NOTES": []
+    },
+    "wik": {
+        "name": null,
+        "NOTES": []
+    },
+    "wil": {
+        "name": null,
+        "NOTES": []
+    },
+    "wim": {
+        "name": null,
+        "NOTES": []
+    },
+    "win": {
+        "name": null,
+        "NOTES": []
+    },
+    "wir": {
+        "name": null,
+        "NOTES": []
+    },
+    "wiu": {
+        "name": null,
+        "NOTES": []
+    },
+    "wiv": {
+        "name": null,
+        "NOTES": []
+    },
+    "wiy": {
+        "name": null,
+        "NOTES": []
+    },
+    "wja": {
+        "name": null,
+        "NOTES": []
+    },
+    "wji": {
+        "name": null,
+        "NOTES": []
+    },
+    "wka": {
+        "name": null,
+        "NOTES": []
+    },
+    "wkb": {
+        "name": null,
+        "NOTES": []
+    },
+    "wkd": {
+        "name": null,
+        "NOTES": []
+    },
+    "wkl": {
+        "name": null,
+        "NOTES": []
+    },
+    "wkr": {
+        "name": null,
+        "NOTES": []
+    },
+    "wku": {
+        "name": null,
+        "NOTES": []
+    },
+    "wkw": {
+        "name": null,
+        "NOTES": []
+    },
+    "wky": {
+        "name": null,
+        "NOTES": []
+    },
+    "wla": {
+        "name": null,
+        "NOTES": []
+    },
+    "wlc": {
+        "name": null,
+        "NOTES": []
+    },
+    "wle": {
+        "name": null,
+        "NOTES": []
+    },
+    "wlg": {
+        "name": null,
+        "NOTES": []
+    },
+    "wlh": {
+        "name": null,
+        "NOTES": []
+    },
+    "wli": {
+        "name": null,
+        "NOTES": []
+    },
+    "wlk": {
+        "name": null,
+        "NOTES": []
+    },
+    "wll": {
+        "name": null,
+        "NOTES": []
+    },
+    "wlm": {
+        "name": null,
+        "NOTES": []
+    },
+    "wln": {
+        "name": "Vallone",
+        "NOTES": []
+    },
+    "wlo": {
+        "name": null,
+        "NOTES": []
+    },
+    "wlr": {
+        "name": null,
+        "NOTES": []
+    },
+    "wls": {
+        "name": "Uveano",
+        "NOTES": []
+    },
+    "wlu": {
+        "name": null,
+        "NOTES": []
+    },
+    "wlv": {
+        "name": null,
+        "NOTES": []
+    },
+    "wlw": {
+        "name": null,
+        "NOTES": []
+    },
+    "wlx": {
+        "name": null,
+        "NOTES": []
+    },
+    "wly": {
+        "name": null,
+        "NOTES": []
+    },
+    "wma": {
+        "name": null,
+        "NOTES": []
+    },
+    "wmb": {
+        "name": null,
+        "NOTES": []
+    },
+    "wmc": {
+        "name": null,
+        "NOTES": []
+    },
+    "wmd": {
+        "name": null,
+        "NOTES": []
+    },
+    "wme": {
+        "name": null,
+        "NOTES": []
+    },
+    "wmg": {
+        "name": null,
+        "NOTES": []
+    },
+    "wmh": {
+        "name": null,
+        "NOTES": []
+    },
+    "wmi": {
+        "name": null,
+        "NOTES": []
+    },
+    "wmm": {
+        "name": null,
+        "NOTES": []
+    },
+    "wmn": {
+        "name": null,
+        "NOTES": []
+    },
+    "wmo": {
+        "name": null,
+        "NOTES": []
+    },
+    "wms": {
+        "name": null,
+        "NOTES": []
+    },
+    "wmt": {
+        "name": null,
+        "NOTES": []
+    },
+    "wmw": {
+        "name": null,
+        "NOTES": []
+    },
+    "wmx": {
+        "name": null,
+        "NOTES": []
+    },
+    "wnb": {
+        "name": null,
+        "NOTES": []
+    },
+    "wnc": {
+        "name": null,
+        "NOTES": []
+    },
+    "wnd": {
+        "name": null,
+        "NOTES": []
+    },
+    "wne": {
+        "name": null,
+        "NOTES": []
+    },
+    "wng": {
+        "name": null,
+        "NOTES": []
+    },
+    "wni": {
+        "name": null,
+        "NOTES": []
+    },
+    "wnk": {
+        "name": null,
+        "NOTES": []
+    },
+    "wnm": {
+        "name": null,
+        "NOTES": []
+    },
+    "wnn": {
+        "name": null,
+        "NOTES": []
+    },
+    "wno": {
+        "name": null,
+        "NOTES": []
+    },
+    "wnp": {
+        "name": null,
+        "NOTES": []
+    },
+    "wnu": {
+        "name": null,
+        "NOTES": []
+    },
+    "wnw": {
+        "name": null,
+        "NOTES": []
+    },
+    "wny": {
+        "name": null,
+        "NOTES": []
+    },
+    "woa": {
+        "name": null,
+        "NOTES": []
+    },
+    "wob": {
+        "name": null,
+        "NOTES": []
+    },
+    "woc": {
+        "name": null,
+        "NOTES": []
+    },
+    "wod": {
+        "name": null,
+        "NOTES": []
+    },
+    "woe": {
+        "name": null,
+        "NOTES": []
+    },
+    "wof": {
+        "name": null,
+        "NOTES": []
+    },
+    "wog": {
+        "name": null,
+        "NOTES": []
+    },
+    "woi": {
+        "name": null,
+        "NOTES": []
+    },
+    "wok": {
+        "name": null,
+        "NOTES": []
+    },
+    "wol": {
+        "name": "Wolof",
+        "NOTES": []
+    },
+    "wom": {
+        "name": null,
+        "NOTES": []
+    },
+    "won": {
+        "name": null,
+        "NOTES": []
+    },
+    "woo": {
+        "name": null,
+        "NOTES": []
+    },
+    "wor": {
+        "name": null,
+        "NOTES": []
+    },
+    "wos": {
+        "name": null,
+        "NOTES": []
+    },
+    "wow": {
+        "name": null,
+        "NOTES": []
+    },
+    "woy": {
+        "name": null,
+        "NOTES": []
+    },
+    "wpc": {
+        "name": null,
+        "NOTES": []
+    },
+    "wrb": {
+        "name": null,
+        "NOTES": []
+    },
+    "wrg": {
+        "name": null,
+        "NOTES": []
+    },
+    "wrh": {
+        "name": null,
+        "NOTES": []
+    },
+    "wri": {
+        "name": null,
+        "NOTES": []
+    },
+    "wrk": {
+        "name": null,
+        "NOTES": []
+    },
+    "wrl": {
+        "name": null,
+        "NOTES": []
+    },
+    "wrm": {
+        "name": null,
+        "NOTES": []
+    },
+    "wrn": {
+        "name": null,
+        "NOTES": []
+    },
+    "wro": {
+        "name": null,
+        "NOTES": []
+    },
+    "wrp": {
+        "name": null,
+        "NOTES": []
+    },
+    "wrr": {
+        "name": null,
+        "NOTES": []
+    },
+    "wrs": {
+        "name": null,
+        "NOTES": []
+    },
+    "wru": {
+        "name": null,
+        "NOTES": []
+    },
+    "wrv": {
+        "name": null,
+        "NOTES": []
+    },
+    "wrw": {
+        "name": null,
+        "NOTES": []
+    },
+    "wrx": {
+        "name": null,
+        "NOTES": []
+    },
+    "wry": {
+        "name": null,
+        "NOTES": []
+    },
+    "wrz": {
+        "name": null,
+        "NOTES": []
+    },
+    "wsa": {
+        "name": null,
+        "NOTES": []
+    },
+    "wsg": {
+        "name": null,
+        "NOTES": []
+    },
+    "wsi": {
+        "name": null,
+        "NOTES": []
+    },
+    "wsk": {
+        "name": null,
+        "NOTES": []
+    },
+    "wsr": {
+        "name": null,
+        "NOTES": []
+    },
+    "wss": {
+        "name": null,
+        "NOTES": []
+    },
+    "wsu": {
+        "name": null,
+        "NOTES": []
+    },
+    "wsv": {
+        "name": null,
+        "NOTES": []
+    },
+    "wtb": {
+        "name": null,
+        "NOTES": []
+    },
+    "wtf": {
+        "name": null,
+        "NOTES": []
+    },
+    "wth": {
+        "name": null,
+        "NOTES": []
+    },
+    "wti": {
+        "name": null,
+        "NOTES": []
+    },
+    "wtk": {
+        "name": null,
+        "NOTES": []
+    },
+    "wtm": {
+        "name": null,
+        "NOTES": []
+    },
+    "wtw": {
+        "name": null,
+        "NOTES": []
+    },
+    "wua": {
+        "name": null,
+        "NOTES": []
+    },
+    "wub": {
+        "name": null,
+        "NOTES": []
+    },
+    "wud": {
+        "name": null,
+        "NOTES": []
+    },
+    "wuh": {
+        "name": null,
+        "NOTES": []
+    },
+    "wul": {
+        "name": null,
+        "NOTES": []
+    },
+    "wum": {
+        "name": null,
+        "NOTES": []
+    },
+    "wun": {
+        "name": null,
+        "NOTES": []
+    },
+    "wur": {
+        "name": null,
+        "NOTES": []
+    },
+    "wut": {
+        "name": null,
+        "NOTES": []
+    },
+    "wuu": {
+        "name": null,
+        "NOTES": []
+    },
+    "wuv": {
+        "name": null,
+        "NOTES": []
+    },
+    "wux": {
+        "name": null,
+        "NOTES": []
+    },
+    "wuy": {
+        "name": null,
+        "NOTES": []
+    },
+    "wwa": {
+        "name": null,
+        "NOTES": []
+    },
+    "wwb": {
+        "name": null,
+        "NOTES": []
+    },
+    "wwo": {
+        "name": null,
+        "NOTES": []
+    },
+    "wwr": {
+        "name": null,
+        "NOTES": []
+    },
+    "www": {
+        "name": null,
+        "NOTES": []
+    },
+    "wxa": {
+        "name": null,
+        "NOTES": []
+    },
+    "wxw": {
+        "name": null,
+        "NOTES": []
+    },
+    "wyb": {
+        "name": null,
+        "NOTES": []
+    },
+    "wyi": {
+        "name": null,
+        "NOTES": []
+    },
+    "wym": {
+        "name": null,
+        "NOTES": []
+    },
+    "wyn": {
+        "name": null,
+        "NOTES": []
+    },
+    "wyr": {
+        "name": null,
+        "NOTES": []
+    },
+    "wyy": {
+        "name": null,
+        "NOTES": []
+    },
+    "xaa": {
+        "name": null,
+        "NOTES": []
+    },
+    "xab": {
+        "name": null,
+        "NOTES": []
+    },
+    "xac": {
+        "name": null,
+        "NOTES": []
+    },
+    "xad": {
+        "name": null,
+        "NOTES": []
+    },
+    "xae": {
+        "name": null,
+        "NOTES": []
+    },
+    "xag": {
+        "name": null,
+        "NOTES": []
+    },
+    "xai": {
+        "name": null,
+        "NOTES": []
+    },
+    "xaj": {
+        "name": null,
+        "NOTES": []
+    },
+    "xak": {
+        "name": null,
+        "NOTES": []
+    },
+    "xal": {
+        "name": null,
+        "NOTES": []
+    },
+    "xam": {
+        "name": "ǀXam",
+        "NOTES": []
+    },
+    "xan": {
+        "name": null,
+        "NOTES": []
+    },
+    "xao": {
+        "name": null,
+        "NOTES": []
+    },
+    "xap": {
+        "name": null,
+        "NOTES": []
+    },
+    "xaq": {
+        "name": null,
+        "NOTES": []
+    },
+    "xar": {
+        "name": null,
+        "NOTES": []
+    },
+    "xas": {
+        "name": null,
+        "NOTES": []
+    },
+    "xat": {
+        "name": null,
+        "NOTES": []
+    },
+    "xau": {
+        "name": null,
+        "NOTES": []
+    },
+    "xav": {
+        "name": null,
+        "NOTES": []
+    },
+    "xaw": {
+        "name": null,
+        "NOTES": []
+    },
+    "xay": {
+        "name": null,
+        "NOTES": []
+    },
+    "xbb": {
+        "name": null,
+        "NOTES": []
+    },
+    "xbc": {
+        "name": null,
+        "NOTES": []
+    },
+    "xbd": {
+        "name": null,
+        "NOTES": []
+    },
+    "xbe": {
+        "name": null,
+        "NOTES": []
+    },
+    "xbg": {
+        "name": null,
+        "NOTES": []
+    },
+    "xbi": {
+        "name": null,
+        "NOTES": []
+    },
+    "xbj": {
+        "name": null,
+        "NOTES": []
+    },
+    "xbm": {
+        "name": null,
+        "NOTES": []
+    },
+    "xbn": {
+        "name": null,
+        "NOTES": []
+    },
+    "xbo": {
+        "name": null,
+        "NOTES": []
+    },
+    "xbp": {
+        "name": null,
+        "NOTES": []
+    },
+    "xbr": {
+        "name": null,
+        "NOTES": []
+    },
+    "xbw": {
+        "name": null,
+        "NOTES": []
+    },
+    "xby": {
+        "name": null,
+        "NOTES": []
+    },
+    "xcb": {
+        "name": null,
+        "NOTES": []
+    },
+    "xcc": {
+        "name": null,
+        "NOTES": []
+    },
+    "xce": {
+        "name": null,
+        "NOTES": []
+    },
+    "xcg": {
+        "name": null,
+        "NOTES": []
+    },
+    "xch": {
+        "name": null,
+        "NOTES": []
+    },
+    "xcl": {
+        "name": null,
+        "NOTES": []
+    },
+    "xcm": {
+        "name": null,
+        "NOTES": []
+    },
+    "xcn": {
+        "name": null,
+        "NOTES": []
+    },
+    "xco": {
+        "name": null,
+        "NOTES": []
+    },
+    "xcr": {
+        "name": null,
+        "NOTES": []
+    },
+    "xct": {
+        "name": null,
+        "NOTES": []
+    },
+    "xcu": {
+        "name": null,
+        "NOTES": []
+    },
+    "xcv": {
+        "name": null,
+        "NOTES": []
+    },
+    "xcw": {
+        "name": null,
+        "NOTES": []
+    },
+    "xcy": {
+        "name": null,
+        "NOTES": []
+    },
+    "xda": {
+        "name": null,
+        "NOTES": []
+    },
+    "xdc": {
+        "name": null,
+        "NOTES": []
+    },
+    "xdk": {
+        "name": null,
+        "NOTES": []
+    },
+    "xdm": {
+        "name": null,
+        "NOTES": []
+    },
+    "xdo": {
+        "name": null,
+        "NOTES": []
+    },
+    "xdq": {
+        "name": null,
+        "NOTES": []
+    },
+    "xdy": {
+        "name": null,
+        "NOTES": []
+    },
+    "xeb": {
+        "name": null,
+        "NOTES": []
+    },
+    "xed": {
+        "name": null,
+        "NOTES": []
+    },
+    "xeg": {
+        "name": null,
+        "NOTES": []
+    },
+    "xel": {
+        "name": null,
+        "NOTES": []
+    },
+    "xem": {
+        "name": null,
+        "NOTES": []
+    },
+    "xep": {
+        "name": null,
+        "NOTES": []
+    },
+    "xer": {
+        "name": null,
+        "NOTES": []
+    },
+    "xes": {
+        "name": null,
+        "NOTES": []
+    },
+    "xet": {
+        "name": null,
+        "NOTES": []
+    },
+    "xeu": {
+        "name": null,
+        "NOTES": []
+    },
+    "xfa": {
+        "name": null,
+        "NOTES": []
+    },
+    "xga": {
+        "name": null,
+        "NOTES": []
+    },
+    "xgb": {
+        "name": null,
+        "NOTES": []
+    },
+    "xgd": {
+        "name": null,
+        "NOTES": []
+    },
+    "xgf": {
+        "name": null,
+        "NOTES": []
+    },
+    "xgg": {
+        "name": null,
+        "NOTES": []
+    },
+    "xgi": {
+        "name": null,
+        "NOTES": []
+    },
+    "xgl": {
+        "name": null,
+        "NOTES": []
+    },
+    "xgm": {
+        "name": null,
+        "NOTES": []
+    },
+    "xgr": {
+        "name": null,
+        "NOTES": []
+    },
+    "xgu": {
+        "name": null,
+        "NOTES": []
+    },
+    "xgw": {
+        "name": null,
+        "NOTES": []
+    },
+    "xha": {
+        "name": null,
+        "NOTES": []
+    },
+    "xhc": {
+        "name": null,
+        "NOTES": []
+    },
+    "xhd": {
+        "name": null,
+        "NOTES": []
+    },
+    "xhe": {
+        "name": null,
+        "NOTES": []
+    },
+    "xhm": {
+        "name": null,
+        "NOTES": []
+    },
+    "xho": {
+        "name": "Xhosa",
+        "NOTES": []
+    },
+    "xhr": {
+        "name": null,
+        "NOTES": []
+    },
+    "xht": {
+        "name": null,
+        "NOTES": []
+    },
+    "xhu": {
+        "name": null,
+        "NOTES": []
+    },
+    "xhv": {
+        "name": null,
+        "NOTES": []
+    },
+    "xib": {
+        "name": null,
+        "NOTES": []
+    },
+    "xii": {
+        "name": null,
+        "NOTES": []
+    },
+    "xil": {
+        "name": null,
+        "NOTES": []
+    },
+    "xin": {
+        "name": null,
+        "NOTES": []
+    },
+    "xir": {
+        "name": null,
+        "NOTES": []
+    },
+    "xis": {
+        "name": null,
+        "NOTES": []
+    },
+    "xiv": {
+        "name": null,
+        "NOTES": []
+    },
+    "xiy": {
+        "name": null,
+        "NOTES": []
+    },
+    "xjb": {
+        "name": null,
+        "NOTES": []
+    },
+    "xjt": {
+        "name": null,
+        "NOTES": []
+    },
+    "xka": {
+        "name": null,
+        "NOTES": []
+    },
+    "xkb": {
+        "name": null,
+        "NOTES": []
+    },
+    "xkc": {
+        "name": null,
+        "NOTES": []
+    },
+    "xkd": {
+        "name": null,
+        "NOTES": []
+    },
+    "xke": {
+        "name": null,
+        "NOTES": []
+    },
+    "xkf": {
+        "name": null,
+        "NOTES": []
+    },
+    "xkg": {
+        "name": null,
+        "NOTES": []
+    },
+    "xki": {
+        "name": null,
+        "NOTES": []
+    },
+    "xkj": {
+        "name": null,
+        "NOTES": []
+    },
+    "xkk": {
+        "name": null,
+        "NOTES": []
+    },
+    "xkl": {
+        "name": null,
+        "NOTES": []
+    },
+    "xkn": {
+        "name": null,
+        "NOTES": []
+    },
+    "xko": {
+        "name": null,
+        "NOTES": []
+    },
+    "xkp": {
+        "name": null,
+        "NOTES": []
+    },
+    "xkq": {
+        "name": null,
+        "NOTES": []
+    },
+    "xkr": {
+        "name": null,
+        "NOTES": []
+    },
+    "xks": {
+        "name": null,
+        "NOTES": []
+    },
+    "xkt": {
+        "name": null,
+        "NOTES": []
+    },
+    "xku": {
+        "name": null,
+        "NOTES": []
+    },
+    "xkv": {
+        "name": null,
+        "NOTES": []
+    },
+    "xkw": {
+        "name": null,
+        "NOTES": []
+    },
+    "xkx": {
+        "name": null,
+        "NOTES": []
+    },
+    "xky": {
+        "name": null,
+        "NOTES": []
+    },
+    "xkz": {
+        "name": null,
+        "NOTES": []
+    },
+    "xla": {
+        "name": null,
+        "NOTES": []
+    },
+    "xlb": {
+        "name": null,
+        "NOTES": []
+    },
+    "xlc": {
+        "name": null,
+        "NOTES": []
+    },
+    "xld": {
+        "name": null,
+        "NOTES": []
+    },
+    "xle": {
+        "name": null,
+        "NOTES": []
+    },
+    "xlg": {
+        "name": null,
+        "NOTES": []
+    },
+    "xli": {
+        "name": null,
+        "NOTES": []
+    },
+    "xln": {
+        "name": null,
+        "NOTES": []
+    },
+    "xlo": {
+        "name": null,
+        "NOTES": []
+    },
+    "xlp": {
+        "name": null,
+        "NOTES": []
+    },
+    "xls": {
+        "name": null,
+        "NOTES": []
+    },
+    "xlu": {
+        "name": null,
+        "NOTES": []
+    },
+    "xly": {
+        "name": null,
+        "NOTES": []
+    },
+    "xma": {
+        "name": null,
+        "NOTES": []
+    },
+    "xmb": {
+        "name": null,
+        "NOTES": []
+    },
+    "xmc": {
+        "name": null,
+        "NOTES": []
+    },
+    "xmd": {
+        "name": null,
+        "NOTES": []
+    },
+    "xme": {
+        "name": null,
+        "NOTES": []
+    },
+    "xmf": {
+        "name": null,
+        "NOTES": []
+    },
+    "xmg": {
+        "name": null,
+        "NOTES": []
+    },
+    "xmh": {
+        "name": null,
+        "NOTES": []
+    },
+    "xmj": {
+        "name": null,
+        "NOTES": []
+    },
+    "xmk": {
+        "name": null,
+        "NOTES": []
+    },
+    "xml": {
+        "name": null,
+        "NOTES": []
+    },
+    "xmm": {
+        "name": null,
+        "NOTES": []
+    },
+    "xmn": {
+        "name": null,
+        "NOTES": []
+    },
+    "xmo": {
+        "name": null,
+        "NOTES": []
+    },
+    "xmp": {
+        "name": null,
+        "NOTES": []
+    },
+    "xmq": {
+        "name": null,
+        "NOTES": []
+    },
+    "xmr": {
+        "name": null,
+        "NOTES": []
+    },
+    "xms": {
+        "name": null,
+        "NOTES": []
+    },
+    "xmt": {
+        "name": null,
+        "NOTES": []
+    },
+    "xmu": {
+        "name": null,
+        "NOTES": []
+    },
+    "xmv": {
+        "name": "Malgascio degli Antankarana (Antankaraña, Antakaragna, Tankarana)",
+        "NOTES": [
+            "https://www.treccani.it/vocabolario/malgascio/?search=malg%C3%A0scio%2F",
+            "https://it.wikipedia.org/wiki/Lingua_malgascia",
+            "https://it.wikipedia.org/wiki/Antankarana"
+        ]
+    },
+    "xmw": {
+        "name": "Malgascio dei Tsimihety",
+        "NOTES": [
+            "https://www.treccani.it/vocabolario/malgascio/?search=malg%C3%A0scio%2F",
+            "https://it.wikipedia.org/wiki/Lingua_malgascia",
+            "https://it.wikipedia.org/wiki/Tsimihety"
+        ]
+    },
+    "xmx": {
+        "name": null,
+        "NOTES": []
+    },
+    "xmy": {
+        "name": null,
+        "NOTES": []
+    },
+    "xmz": {
+        "name": null,
+        "NOTES": []
+    },
+    "xna": {
+        "name": null,
+        "NOTES": []
+    },
+    "xnb": {
+        "name": null,
+        "NOTES": []
+    },
+    "xng": {
+        "name": null,
+        "NOTES": []
+    },
+    "xnh": {
+        "name": null,
+        "NOTES": []
+    },
+    "xni": {
+        "name": null,
+        "NOTES": []
+    },
+    "xnj": {
+        "name": null,
+        "NOTES": []
+    },
+    "xnk": {
+        "name": null,
+        "NOTES": []
+    },
+    "xnm": {
+        "name": null,
+        "NOTES": []
+    },
+    "xnn": {
+        "name": null,
+        "NOTES": []
+    },
+    "xno": {
+        "name": null,
+        "NOTES": []
+    },
+    "xnq": {
+        "name": null,
+        "NOTES": []
+    },
+    "xnr": {
+        "name": null,
+        "NOTES": []
+    },
+    "xns": {
+        "name": null,
+        "NOTES": []
+    },
+    "xnt": {
+        "name": null,
+        "NOTES": []
+    },
+    "xnu": {
+        "name": null,
+        "NOTES": []
+    },
+    "xny": {
+        "name": null,
+        "NOTES": []
+    },
+    "xnz": {
+        "name": null,
+        "NOTES": []
+    },
+    "xoc": {
+        "name": null,
+        "NOTES": []
+    },
+    "xod": {
+        "name": null,
+        "NOTES": []
+    },
+    "xog": {
+        "name": "Soga, Lusoga",
+        "NOTES": []
+    },
+    "xoi": {
+        "name": null,
+        "NOTES": []
+    },
+    "xok": {
+        "name": null,
+        "NOTES": []
+    },
+    "xom": {
+        "name": null,
+        "NOTES": []
+    },
+    "xon": {
+        "name": null,
+        "NOTES": []
+    },
+    "xoo": {
+        "name": null,
+        "NOTES": []
+    },
+    "xop": {
+        "name": null,
+        "NOTES": []
+    },
+    "xor": {
+        "name": null,
+        "NOTES": []
+    },
+    "xow": {
+        "name": null,
+        "NOTES": []
+    },
+    "xpa": {
+        "name": null,
+        "NOTES": []
+    },
+    "xpb": {
+        "name": null,
+        "NOTES": []
+    },
+    "xpc": {
+        "name": null,
+        "NOTES": []
+    },
+    "xpd": {
+        "name": null,
+        "NOTES": []
+    },
+    "xpe": {
+        "name": null,
+        "NOTES": []
+    },
+    "xpf": {
+        "name": null,
+        "NOTES": []
+    },
+    "xpg": {
+        "name": null,
+        "NOTES": []
+    },
+    "xph": {
+        "name": null,
+        "NOTES": []
+    },
+    "xpi": {
+        "name": null,
+        "NOTES": []
+    },
+    "xpj": {
+        "name": null,
+        "NOTES": []
+    },
+    "xpk": {
+        "name": null,
+        "NOTES": []
+    },
+    "xpl": {
+        "name": null,
+        "NOTES": []
+    },
+    "xpm": {
+        "name": null,
+        "NOTES": []
+    },
+    "xpn": {
+        "name": null,
+        "NOTES": []
+    },
+    "xpo": {
+        "name": null,
+        "NOTES": []
+    },
+    "xpp": {
+        "name": null,
+        "NOTES": []
+    },
+    "xpq": {
+        "name": null,
+        "NOTES": []
+    },
+    "xpr": {
+        "name": null,
+        "NOTES": []
+    },
+    "xps": {
+        "name": null,
+        "NOTES": []
+    },
+    "xpt": {
+        "name": null,
+        "NOTES": []
+    },
+    "xpu": {
+        "name": null,
+        "NOTES": []
+    },
+    "xpv": {
+        "name": null,
+        "NOTES": []
+    },
+    "xpw": {
+        "name": null,
+        "NOTES": []
+    },
+    "xpx": {
+        "name": null,
+        "NOTES": []
+    },
+    "xpy": {
+        "name": null,
+        "NOTES": []
+    },
+    "xpz": {
+        "name": null,
+        "NOTES": []
+    },
+    "xqa": {
+        "name": null,
+        "NOTES": []
+    },
+    "xqt": {
+        "name": null,
+        "NOTES": []
+    },
+    "xra": {
+        "name": null,
+        "NOTES": []
+    },
+    "xrb": {
+        "name": null,
+        "NOTES": []
+    },
+    "xrd": {
+        "name": null,
+        "NOTES": []
+    },
+    "xre": {
+        "name": null,
+        "NOTES": []
+    },
+    "xrg": {
+        "name": null,
+        "NOTES": []
+    },
+    "xri": {
+        "name": null,
+        "NOTES": []
+    },
+    "xrm": {
+        "name": null,
+        "NOTES": []
+    },
+    "xrn": {
+        "name": null,
+        "NOTES": []
+    },
+    "xrr": {
+        "name": null,
+        "NOTES": []
+    },
+    "xrt": {
+        "name": null,
+        "NOTES": []
+    },
+    "xru": {
+        "name": null,
+        "NOTES": []
+    },
+    "xrw": {
+        "name": null,
+        "NOTES": []
+    },
+    "xsa": {
+        "name": null,
+        "NOTES": []
+    },
+    "xsb": {
+        "name": null,
+        "NOTES": []
+    },
+    "xsc": {
+        "name": null,
+        "NOTES": []
+    },
+    "xsd": {
+        "name": null,
+        "NOTES": []
+    },
+    "xse": {
+        "name": null,
+        "NOTES": []
+    },
+    "xsh": {
+        "name": null,
+        "NOTES": []
+    },
+    "xsi": {
+        "name": null,
+        "NOTES": []
+    },
+    "xsj": {
+        "name": null,
+        "NOTES": []
+    },
+    "xsl": {
+        "name": null,
+        "NOTES": []
+    },
+    "xsm": {
+        "name": null,
+        "NOTES": []
+    },
+    "xsn": {
+        "name": null,
+        "NOTES": []
+    },
+    "xso": {
+        "name": null,
+        "NOTES": []
+    },
+    "xsp": {
+        "name": null,
+        "NOTES": []
+    },
+    "xsq": {
+        "name": null,
+        "NOTES": []
+    },
+    "xsr": {
+        "name": null,
+        "NOTES": []
+    },
+    "xsu": {
+        "name": null,
+        "NOTES": []
+    },
+    "xsv": {
+        "name": null,
+        "NOTES": []
+    },
+    "xsy": {
+        "name": null,
+        "NOTES": []
+    },
+    "xta": {
+        "name": null,
+        "NOTES": []
+    },
+    "xtb": {
+        "name": null,
+        "NOTES": []
+    },
+    "xtc": {
+        "name": null,
+        "NOTES": []
+    },
+    "xtd": {
+        "name": null,
+        "NOTES": []
+    },
+    "xte": {
+        "name": null,
+        "NOTES": []
+    },
+    "xtg": {
+        "name": null,
+        "NOTES": []
+    },
+    "xth": {
+        "name": null,
+        "NOTES": []
+    },
+    "xti": {
+        "name": null,
+        "NOTES": []
+    },
+    "xtj": {
+        "name": null,
+        "NOTES": []
+    },
+    "xtl": {
+        "name": null,
+        "NOTES": []
+    },
+    "xtm": {
+        "name": null,
+        "NOTES": []
+    },
+    "xtn": {
+        "name": null,
+        "NOTES": []
+    },
+    "xto": {
+        "name": null,
+        "NOTES": []
+    },
+    "xtp": {
+        "name": null,
+        "NOTES": []
+    },
+    "xtq": {
+        "name": null,
+        "NOTES": []
+    },
+    "xtr": {
+        "name": null,
+        "NOTES": []
+    },
+    "xts": {
+        "name": null,
+        "NOTES": []
+    },
+    "xtt": {
+        "name": null,
+        "NOTES": []
+    },
+    "xtu": {
+        "name": null,
+        "NOTES": []
+    },
+    "xtv": {
+        "name": null,
+        "NOTES": []
+    },
+    "xtw": {
+        "name": null,
+        "NOTES": []
+    },
+    "xty": {
+        "name": null,
+        "NOTES": []
+    },
+    "xua": {
+        "name": null,
+        "NOTES": []
+    },
+    "xub": {
+        "name": null,
+        "NOTES": []
+    },
+    "xud": {
+        "name": null,
+        "NOTES": []
+    },
+    "xug": {
+        "name": null,
+        "NOTES": []
+    },
+    "xuj": {
+        "name": null,
+        "NOTES": []
+    },
+    "xul": {
+        "name": null,
+        "NOTES": []
+    },
+    "xum": {
+        "name": null,
+        "NOTES": []
+    },
+    "xun": {
+        "name": null,
+        "NOTES": []
+    },
+    "xuo": {
+        "name": null,
+        "NOTES": []
+    },
+    "xup": {
+        "name": null,
+        "NOTES": []
+    },
+    "xur": {
+        "name": null,
+        "NOTES": []
+    },
+    "xut": {
+        "name": null,
+        "NOTES": []
+    },
+    "xuu": {
+        "name": null,
+        "NOTES": []
+    },
+    "xve": {
+        "name": null,
+        "NOTES": []
+    },
+    "xvi": {
+        "name": null,
+        "NOTES": []
+    },
+    "xvn": {
+        "name": null,
+        "NOTES": []
+    },
+    "xvo": {
+        "name": null,
+        "NOTES": []
+    },
+    "xvs": {
+        "name": null,
+        "NOTES": []
+    },
+    "xwa": {
+        "name": null,
+        "NOTES": []
+    },
+    "xwc": {
+        "name": null,
+        "NOTES": []
+    },
+    "xwd": {
+        "name": null,
+        "NOTES": []
+    },
+    "xwe": {
+        "name": null,
+        "NOTES": []
+    },
+    "xwg": {
+        "name": null,
+        "NOTES": []
+    },
+    "xwj": {
+        "name": null,
+        "NOTES": []
+    },
+    "xwk": {
+        "name": null,
+        "NOTES": []
+    },
+    "xwl": {
+        "name": null,
+        "NOTES": []
+    },
+    "xwo": {
+        "name": null,
+        "NOTES": []
+    },
+    "xwr": {
+        "name": null,
+        "NOTES": []
+    },
+    "xwt": {
+        "name": null,
+        "NOTES": []
+    },
+    "xww": {
+        "name": null,
+        "NOTES": []
+    },
+    "xxb": {
+        "name": null,
+        "NOTES": []
+    },
+    "xxk": {
+        "name": null,
+        "NOTES": []
+    },
+    "xxm": {
+        "name": null,
+        "NOTES": []
+    },
+    "xxr": {
+        "name": null,
+        "NOTES": []
+    },
+    "xxt": {
+        "name": null,
+        "NOTES": []
+    },
+    "xya": {
+        "name": null,
+        "NOTES": []
+    },
+    "xyb": {
+        "name": null,
+        "NOTES": []
+    },
+    "xyj": {
+        "name": null,
+        "NOTES": []
+    },
+    "xyk": {
+        "name": null,
+        "NOTES": []
+    },
+    "xyl": {
+        "name": null,
+        "NOTES": []
+    },
+    "xyt": {
+        "name": null,
+        "NOTES": []
+    },
+    "xyy": {
+        "name": null,
+        "NOTES": []
+    },
+    "xzh": {
+        "name": null,
+        "NOTES": []
+    },
+    "xzm": {
+        "name": null,
+        "NOTES": []
+    },
+    "xzp": {
+        "name": null,
+        "NOTES": []
+    },
+    "yaa": {
+        "name": null,
+        "NOTES": []
+    },
+    "yab": {
+        "name": null,
+        "NOTES": []
+    },
+    "yac": {
+        "name": null,
+        "NOTES": []
+    },
+    "yad": {
+        "name": null,
+        "NOTES": []
+    },
+    "yae": {
+        "name": null,
+        "NOTES": []
+    },
+    "yaf": {
+        "name": null,
+        "NOTES": []
+    },
+    "yag": {
+        "name": null,
+        "NOTES": []
+    },
+    "yah": {
+        "name": null,
+        "NOTES": []
+    },
+    "yai": {
+        "name": null,
+        "NOTES": []
+    },
+    "yaj": {
+        "name": null,
+        "NOTES": []
+    },
+    "yak": {
+        "name": null,
+        "NOTES": []
+    },
+    "yal": {
+        "name": null,
+        "NOTES": []
+    },
+    "yam": {
+        "name": null,
+        "NOTES": []
+    },
+    "yan": {
+        "name": null,
+        "NOTES": []
+    },
+    "yao": {
+        "name": null,
+        "NOTES": []
+    },
+    "yap": {
+        "name": null,
+        "NOTES": []
+    },
+    "yaq": {
+        "name": null,
+        "NOTES": []
+    },
+    "yar": {
+        "name": null,
+        "NOTES": []
+    },
+    "yas": {
+        "name": null,
+        "NOTES": []
+    },
+    "yat": {
+        "name": null,
+        "NOTES": []
+    },
+    "yau": {
+        "name": null,
+        "NOTES": []
+    },
+    "yav": {
+        "name": "Yambasa",
+        "NOTES": []
+    },
+    "yaw": {
+        "name": null,
+        "NOTES": []
+    },
+    "yax": {
+        "name": null,
+        "NOTES": []
+    },
+    "yay": {
+        "name": null,
+        "NOTES": []
+    },
+    "yaz": {
+        "name": null,
+        "NOTES": []
+    },
+    "yba": {
+        "name": null,
+        "NOTES": []
+    },
+    "ybb": {
+        "name": null,
+        "NOTES": []
+    },
+    "ybe": {
+        "name": null,
+        "NOTES": []
+    },
+    "ybh": {
+        "name": null,
+        "NOTES": []
+    },
+    "ybi": {
+        "name": null,
+        "NOTES": []
+    },
+    "ybj": {
+        "name": null,
+        "NOTES": []
+    },
+    "ybk": {
+        "name": null,
+        "NOTES": []
+    },
+    "ybl": {
+        "name": null,
+        "NOTES": []
+    },
+    "ybm": {
+        "name": null,
+        "NOTES": []
+    },
+    "ybn": {
+        "name": null,
+        "NOTES": []
+    },
+    "ybo": {
+        "name": null,
+        "NOTES": []
+    },
+    "ybx": {
+        "name": null,
+        "NOTES": []
+    },
+    "yby": {
+        "name": null,
+        "NOTES": []
+    },
+    "ych": {
+        "name": null,
+        "NOTES": []
+    },
+    "ycl": {
+        "name": null,
+        "NOTES": []
+    },
+    "ycn": {
+        "name": null,
+        "NOTES": []
+    },
+    "ycp": {
+        "name": null,
+        "NOTES": []
+    },
+    "ycr": {
+        "name": null,
+        "NOTES": []
+    },
+    "yda": {
+        "name": null,
+        "NOTES": []
+    },
+    "ydd": {
+        "name": null,
+        "NOTES": []
+    },
+    "yde": {
+        "name": null,
+        "NOTES": []
+    },
+    "ydg": {
+        "name": null,
+        "NOTES": []
+    },
+    "ydk": {
+        "name": null,
+        "NOTES": []
+    },
+    "yea": {
+        "name": null,
+        "NOTES": []
+    },
+    "yec": {
+        "name": null,
+        "NOTES": []
+    },
+    "yee": {
+        "name": null,
+        "NOTES": []
+    },
+    "yei": {
+        "name": null,
+        "NOTES": []
+    },
+    "yej": {
+        "name": null,
+        "NOTES": []
+    },
+    "yel": {
+        "name": null,
+        "NOTES": []
+    },
+    "yer": {
+        "name": null,
+        "NOTES": []
+    },
+    "yes": {
+        "name": null,
+        "NOTES": []
+    },
+    "yet": {
+        "name": null,
+        "NOTES": []
+    },
+    "yeu": {
+        "name": null,
+        "NOTES": []
+    },
+    "yev": {
+        "name": null,
+        "NOTES": []
+    },
+    "yey": {
+        "name": null,
+        "NOTES": []
+    },
+    "yga": {
+        "name": null,
+        "NOTES": []
+    },
+    "ygi": {
+        "name": null,
+        "NOTES": []
+    },
+    "ygl": {
+        "name": null,
+        "NOTES": []
+    },
+    "ygm": {
+        "name": null,
+        "NOTES": []
+    },
+    "ygp": {
+        "name": null,
+        "NOTES": []
+    },
+    "ygr": {
+        "name": null,
+        "NOTES": []
+    },
+    "ygs": {
+        "name": null,
+        "NOTES": []
+    },
+    "ygu": {
+        "name": null,
+        "NOTES": []
+    },
+    "ygw": {
+        "name": null,
+        "NOTES": []
+    },
+    "yha": {
+        "name": null,
+        "NOTES": []
+    },
+    "yhd": {
+        "name": null,
+        "NOTES": []
+    },
+    "yhl": {
+        "name": null,
+        "NOTES": []
+    },
+    "yhs": {
+        "name": null,
+        "NOTES": []
+    },
+    "yia": {
+        "name": null,
+        "NOTES": []
+    },
+    "yid": {
+        "name": "Yiddish",
+        "NOTES": []
+    },
+    "yif": {
+        "name": null,
+        "NOTES": []
+    },
+    "yig": {
+        "name": null,
+        "NOTES": []
+    },
+    "yih": {
+        "name": null,
+        "NOTES": []
+    },
+    "yii": {
+        "name": null,
+        "NOTES": []
+    },
+    "yij": {
+        "name": null,
+        "NOTES": []
+    },
+    "yik": {
+        "name": null,
+        "NOTES": []
+    },
+    "yil": {
+        "name": null,
+        "NOTES": []
+    },
+    "yim": {
+        "name": null,
+        "NOTES": []
+    },
+    "yin": {
+        "name": null,
+        "NOTES": []
+    },
+    "yip": {
+        "name": null,
+        "NOTES": []
+    },
+    "yiq": {
+        "name": null,
+        "NOTES": []
+    },
+    "yir": {
+        "name": null,
+        "NOTES": []
+    },
+    "yis": {
+        "name": null,
+        "NOTES": []
+    },
+    "yit": {
+        "name": null,
+        "NOTES": []
+    },
+    "yiu": {
+        "name": null,
+        "NOTES": []
+    },
+    "yiv": {
+        "name": null,
+        "NOTES": []
+    },
+    "yix": {
+        "name": null,
+        "NOTES": []
+    },
+    "yiz": {
+        "name": null,
+        "NOTES": []
+    },
+    "yka": {
+        "name": null,
+        "NOTES": []
+    },
+    "ykg": {
+        "name": null,
+        "NOTES": []
+    },
+    "ykh": {
+        "name": null,
+        "NOTES": []
+    },
+    "yki": {
+        "name": null,
+        "NOTES": []
+    },
+    "ykk": {
+        "name": null,
+        "NOTES": []
+    },
+    "ykl": {
+        "name": null,
+        "NOTES": []
+    },
+    "ykm": {
+        "name": null,
+        "NOTES": []
+    },
+    "ykn": {
+        "name": null,
+        "NOTES": []
+    },
+    "yko": {
+        "name": null,
+        "NOTES": []
+    },
+    "ykr": {
+        "name": null,
+        "NOTES": []
+    },
+    "ykt": {
+        "name": null,
+        "NOTES": []
+    },
+    "yku": {
+        "name": null,
+        "NOTES": []
+    },
+    "yky": {
+        "name": null,
+        "NOTES": []
+    },
+    "yla": {
+        "name": null,
+        "NOTES": []
+    },
+    "ylb": {
+        "name": null,
+        "NOTES": []
+    },
+    "yle": {
+        "name": null,
+        "NOTES": []
+    },
+    "ylg": {
+        "name": null,
+        "NOTES": []
+    },
+    "yli": {
+        "name": null,
+        "NOTES": []
+    },
+    "yll": {
+        "name": null,
+        "NOTES": []
+    },
+    "ylm": {
+        "name": null,
+        "NOTES": []
+    },
+    "yln": {
+        "name": null,
+        "NOTES": []
+    },
+    "ylo": {
+        "name": null,
+        "NOTES": []
+    },
+    "ylr": {
+        "name": null,
+        "NOTES": []
+    },
+    "ylu": {
+        "name": null,
+        "NOTES": []
+    },
+    "yly": {
+        "name": null,
+        "NOTES": []
+    },
+    "ymb": {
+        "name": null,
+        "NOTES": []
+    },
+    "ymc": {
+        "name": null,
+        "NOTES": []
+    },
+    "ymd": {
+        "name": null,
+        "NOTES": []
+    },
+    "yme": {
+        "name": null,
+        "NOTES": []
+    },
+    "ymg": {
+        "name": null,
+        "NOTES": []
+    },
+    "ymh": {
+        "name": null,
+        "NOTES": []
+    },
+    "ymi": {
+        "name": null,
+        "NOTES": []
+    },
+    "ymk": {
+        "name": null,
+        "NOTES": []
+    },
+    "yml": {
+        "name": null,
+        "NOTES": []
+    },
+    "ymm": {
+        "name": null,
+        "NOTES": []
+    },
+    "ymn": {
+        "name": null,
+        "NOTES": []
+    },
+    "ymo": {
+        "name": null,
+        "NOTES": []
+    },
+    "ymp": {
+        "name": null,
+        "NOTES": []
+    },
+    "ymq": {
+        "name": null,
+        "NOTES": []
+    },
+    "ymr": {
+        "name": null,
+        "NOTES": []
+    },
+    "yms": {
+        "name": null,
+        "NOTES": []
+    },
+    "ymx": {
+        "name": null,
+        "NOTES": []
+    },
+    "ymz": {
+        "name": null,
+        "NOTES": []
+    },
+    "yna": {
+        "name": null,
+        "NOTES": []
+    },
+    "ynb": {
+        "name": null,
+        "NOTES": []
+    },
+    "ynd": {
+        "name": null,
+        "NOTES": []
+    },
+    "yne": {
+        "name": null,
+        "NOTES": []
+    },
+    "yng": {
+        "name": null,
+        "NOTES": []
+    },
+    "ynk": {
+        "name": null,
+        "NOTES": []
+    },
+    "ynl": {
+        "name": null,
+        "NOTES": []
+    },
+    "ynn": {
+        "name": null,
+        "NOTES": []
+    },
+    "yno": {
+        "name": null,
+        "NOTES": []
+    },
+    "ynq": {
+        "name": null,
+        "NOTES": []
+    },
+    "yns": {
+        "name": null,
+        "NOTES": []
+    },
+    "ynu": {
+        "name": null,
+        "NOTES": []
+    },
+    "yob": {
+        "name": null,
+        "NOTES": []
+    },
+    "yog": {
+        "name": null,
+        "NOTES": []
+    },
+    "yoi": {
+        "name": null,
+        "NOTES": []
+    },
+    "yok": {
+        "name": null,
+        "NOTES": []
+    },
+    "yol": {
+        "name": null,
+        "NOTES": []
+    },
+    "yom": {
+        "name": null,
+        "NOTES": []
+    },
+    "yon": {
+        "name": null,
+        "NOTES": []
+    },
+    "yor": {
+        "name": "Yoruba",
+        "NOTES": []
+    },
+    "yot": {
+        "name": null,
+        "NOTES": []
+    },
+    "yox": {
+        "name": null,
+        "NOTES": []
+    },
+    "yoy": {
+        "name": null,
+        "NOTES": []
+    },
+    "ypa": {
+        "name": null,
+        "NOTES": []
+    },
+    "ypb": {
+        "name": null,
+        "NOTES": []
+    },
+    "ypg": {
+        "name": null,
+        "NOTES": []
+    },
+    "yph": {
+        "name": null,
+        "NOTES": []
+    },
+    "ypm": {
+        "name": null,
+        "NOTES": []
+    },
+    "ypn": {
+        "name": null,
+        "NOTES": []
+    },
+    "ypo": {
+        "name": null,
+        "NOTES": []
+    },
+    "ypp": {
+        "name": null,
+        "NOTES": []
+    },
+    "ypz": {
+        "name": null,
+        "NOTES": []
+    },
+    "yra": {
+        "name": null,
+        "NOTES": []
+    },
+    "yrb": {
+        "name": null,
+        "NOTES": []
+    },
+    "yre": {
+        "name": null,
+        "NOTES": []
+    },
+    "yrk": {
+        "name": null,
+        "NOTES": []
+    },
+    "yrl": {
+        "name": null,
+        "NOTES": []
+    },
+    "yrm": {
+        "name": null,
+        "NOTES": []
+    },
+    "yrn": {
+        "name": null,
+        "NOTES": []
+    },
+    "yro": {
+        "name": null,
+        "NOTES": []
+    },
+    "yrs": {
+        "name": null,
+        "NOTES": []
+    },
+    "yrw": {
+        "name": null,
+        "NOTES": []
+    },
+    "yry": {
+        "name": null,
+        "NOTES": []
+    },
+    "ysc": {
+        "name": null,
+        "NOTES": []
+    },
+    "ysd": {
+        "name": null,
+        "NOTES": []
+    },
+    "ysg": {
+        "name": null,
+        "NOTES": []
+    },
+    "ysl": {
+        "name": null,
+        "NOTES": []
+    },
+    "ysm": {
+        "name": null,
+        "NOTES": []
+    },
+    "ysn": {
+        "name": null,
+        "NOTES": []
+    },
+    "yso": {
+        "name": null,
+        "NOTES": []
+    },
+    "ysp": {
+        "name": null,
+        "NOTES": []
+    },
+    "ysr": {
+        "name": null,
+        "NOTES": []
+    },
+    "yss": {
+        "name": null,
+        "NOTES": []
+    },
+    "ysy": {
+        "name": null,
+        "NOTES": []
+    },
+    "yta": {
+        "name": null,
+        "NOTES": []
+    },
+    "ytl": {
+        "name": null,
+        "NOTES": []
+    },
+    "ytp": {
+        "name": null,
+        "NOTES": []
+    },
+    "ytw": {
+        "name": null,
+        "NOTES": []
+    },
+    "yty": {
+        "name": null,
+        "NOTES": []
+    },
+    "yua": {
+        "name": null,
+        "NOTES": []
+    },
+    "yub": {
+        "name": null,
+        "NOTES": []
+    },
+    "yuc": {
+        "name": null,
+        "NOTES": []
+    },
+    "yud": {
+        "name": null,
+        "NOTES": []
+    },
+    "yue": {
+        "name": "Cantonese",
+        "NOTES": []
+    },
+    "yuf": {
+        "name": null,
+        "NOTES": []
+    },
+    "yug": {
+        "name": null,
+        "NOTES": []
+    },
+    "yui": {
+        "name": null,
+        "NOTES": []
+    },
+    "yuj": {
+        "name": null,
+        "NOTES": []
+    },
+    "yuk": {
+        "name": null,
+        "NOTES": []
+    },
+    "yul": {
+        "name": null,
+        "NOTES": []
+    },
+    "yum": {
+        "name": null,
+        "NOTES": []
+    },
+    "yun": {
+        "name": null,
+        "NOTES": []
+    },
+    "yup": {
+        "name": null,
+        "NOTES": []
+    },
+    "yuq": {
+        "name": null,
+        "NOTES": []
+    },
+    "yur": {
+        "name": null,
+        "NOTES": []
+    },
+    "yut": {
+        "name": null,
+        "NOTES": []
+    },
+    "yuw": {
+        "name": null,
+        "NOTES": []
+    },
+    "yux": {
+        "name": null,
+        "NOTES": []
+    },
+    "yuy": {
+        "name": null,
+        "NOTES": []
+    },
+    "yuz": {
+        "name": null,
+        "NOTES": []
+    },
+    "yva": {
+        "name": null,
+        "NOTES": []
+    },
+    "yvt": {
+        "name": null,
+        "NOTES": []
+    },
+    "ywa": {
+        "name": null,
+        "NOTES": []
+    },
+    "ywg": {
+        "name": null,
+        "NOTES": []
+    },
+    "ywl": {
+        "name": null,
+        "NOTES": []
+    },
+    "ywn": {
+        "name": null,
+        "NOTES": []
+    },
+    "ywq": {
+        "name": null,
+        "NOTES": []
+    },
+    "ywr": {
+        "name": null,
+        "NOTES": []
+    },
+    "ywt": {
+        "name": null,
+        "NOTES": []
+    },
+    "ywu": {
+        "name": null,
+        "NOTES": []
+    },
+    "yww": {
+        "name": null,
+        "NOTES": []
+    },
+    "yxa": {
+        "name": null,
+        "NOTES": []
+    },
+    "yxg": {
+        "name": null,
+        "NOTES": []
+    },
+    "yxl": {
+        "name": null,
+        "NOTES": []
+    },
+    "yxm": {
+        "name": null,
+        "NOTES": []
+    },
+    "yxu": {
+        "name": null,
+        "NOTES": []
+    },
+    "yxy": {
+        "name": null,
+        "NOTES": []
+    },
+    "yyr": {
+        "name": null,
+        "NOTES": []
+    },
+    "yyu": {
+        "name": null,
+        "NOTES": []
+    },
+    "yyz": {
+        "name": null,
+        "NOTES": []
+    },
+    "yzg": {
+        "name": null,
+        "NOTES": []
+    },
+    "yzk": {
+        "name": null,
+        "NOTES": []
+    },
+    "zaa": {
+        "name": null,
+        "NOTES": []
+    },
+    "zab": {
+        "name": null,
+        "NOTES": []
+    },
+    "zac": {
+        "name": null,
+        "NOTES": []
+    },
+    "zad": {
+        "name": null,
+        "NOTES": []
+    },
+    "zae": {
+        "name": null,
+        "NOTES": []
+    },
+    "zaf": {
+        "name": null,
+        "NOTES": []
+    },
+    "zag": {
+        "name": null,
+        "NOTES": []
+    },
+    "zah": {
+        "name": null,
+        "NOTES": []
+    },
+    "zai": {
+        "name": null,
+        "NOTES": []
+    },
+    "zaj": {
+        "name": null,
+        "NOTES": []
+    },
+    "zak": {
+        "name": null,
+        "NOTES": []
+    },
+    "zal": {
+        "name": null,
+        "NOTES": []
+    },
+    "zam": {
+        "name": null,
+        "NOTES": []
+    },
+    "zao": {
+        "name": null,
+        "NOTES": []
+    },
+    "zap": {
+        "name": null,
+        "NOTES": []
+    },
+    "zaq": {
+        "name": null,
+        "NOTES": []
+    },
+    "zar": {
+        "name": null,
+        "NOTES": []
+    },
+    "zas": {
+        "name": null,
+        "NOTES": []
+    },
+    "zat": {
+        "name": null,
+        "NOTES": []
+    },
+    "zau": {
+        "name": null,
+        "NOTES": []
+    },
+    "zav": {
+        "name": null,
+        "NOTES": []
+    },
+    "zaw": {
+        "name": null,
+        "NOTES": []
+    },
+    "zax": {
+        "name": null,
+        "NOTES": []
+    },
+    "zay": {
+        "name": null,
+        "NOTES": []
+    },
+    "zaz": {
+        "name": null,
+        "NOTES": []
+    },
+    "zba": {
+        "name": null,
+        "NOTES": []
+    },
+    "zbc": {
+        "name": null,
+        "NOTES": []
+    },
+    "zbe": {
+        "name": null,
+        "NOTES": []
+    },
+    "zbl": {
+        "name": null,
+        "NOTES": []
+    },
+    "zbt": {
+        "name": null,
+        "NOTES": []
+    },
+    "zbu": {
+        "name": null,
+        "NOTES": []
+    },
+    "zbw": {
+        "name": null,
+        "NOTES": []
+    },
+    "zca": {
+        "name": null,
+        "NOTES": []
+    },
+    "zcd": {
+        "name": null,
+        "NOTES": []
+    },
+    "zch": {
+        "name": null,
+        "NOTES": []
+    },
+    "zdj": {
+        "name": null,
+        "NOTES": []
+    },
+    "zea": {
+        "name": null,
+        "NOTES": []
+    },
+    "zeg": {
+        "name": null,
+        "NOTES": []
+    },
+    "zeh": {
+        "name": null,
+        "NOTES": []
+    },
+    "zem": {
+        "name": null,
+        "NOTES": []
+    },
+    "zen": {
+        "name": null,
+        "NOTES": []
+    },
+    "zga": {
+        "name": null,
+        "NOTES": []
+    },
+    "zgb": {
+        "name": null,
+        "NOTES": []
+    },
+    "zgh": {
+        "name": "Tamazight standard del Marocco",
+        "NOTES": []
+    },
+    "zgm": {
+        "name": null,
+        "NOTES": []
+    },
+    "zgn": {
+        "name": null,
+        "NOTES": []
+    },
+    "zgr": {
+        "name": null,
+        "NOTES": []
+    },
+    "zha": {
+        "name": "Zhuang",
+        "NOTES": []
+    },
+    "zhb": {
+        "name": null,
+        "NOTES": []
+    },
+    "zhd": {
+        "name": null,
+        "NOTES": []
+    },
+    "zhi": {
+        "name": null,
+        "NOTES": []
+    },
+    "zhn": {
+        "name": null,
+        "NOTES": []
+    },
+    "zho": {
+        "name": "Cinese",
+        "NOTES": []
+    },
+    "zhw": {
+        "name": null,
+        "NOTES": []
+    },
+    "zia": {
+        "name": null,
+        "NOTES": []
+    },
+    "zib": {
+        "name": null,
+        "NOTES": []
+    },
+    "zik": {
+        "name": null,
+        "NOTES": []
+    },
+    "zil": {
+        "name": null,
+        "NOTES": []
+    },
+    "zim": {
+        "name": null,
+        "NOTES": []
+    },
+    "zin": {
+        "name": null,
+        "NOTES": []
+    },
+    "ziw": {
+        "name": null,
+        "NOTES": []
+    },
+    "ziz": {
+        "name": null,
+        "NOTES": []
+    },
+    "zka": {
+        "name": null,
+        "NOTES": []
+    },
+    "zkd": {
+        "name": null,
+        "NOTES": []
+    },
+    "zkg": {
+        "name": null,
+        "NOTES": []
+    },
+    "zkh": {
+        "name": null,
+        "NOTES": []
+    },
+    "zkk": {
+        "name": null,
+        "NOTES": []
+    },
+    "zkn": {
+        "name": null,
+        "NOTES": []
+    },
+    "zko": {
+        "name": null,
+        "NOTES": []
+    },
+    "zkp": {
+        "name": null,
+        "NOTES": []
+    },
+    "zkr": {
+        "name": null,
+        "NOTES": []
+    },
+    "zkt": {
+        "name": null,
+        "NOTES": []
+    },
+    "zku": {
+        "name": null,
+        "NOTES": []
+    },
+    "zkv": {
+        "name": null,
+        "NOTES": []
+    },
+    "zkz": {
+        "name": null,
+        "NOTES": []
+    },
+    "zla": {
+        "name": null,
+        "NOTES": []
+    },
+    "zlj": {
+        "name": null,
+        "NOTES": []
+    },
+    "zlm": {
+        "name": null,
+        "NOTES": []
+    },
+    "zln": {
+        "name": null,
+        "NOTES": []
+    },
+    "zlq": {
+        "name": null,
+        "NOTES": []
+    },
+    "zlu": {
+        "name": null,
+        "NOTES": []
+    },
+    "zma": {
+        "name": null,
+        "NOTES": []
+    },
+    "zmb": {
+        "name": null,
+        "NOTES": []
+    },
+    "zmc": {
+        "name": null,
+        "NOTES": []
+    },
+    "zmd": {
+        "name": null,
+        "NOTES": []
+    },
+    "zme": {
+        "name": null,
+        "NOTES": []
+    },
+    "zmf": {
+        "name": null,
+        "NOTES": []
+    },
+    "zmg": {
+        "name": null,
+        "NOTES": []
+    },
+    "zmh": {
+        "name": null,
+        "NOTES": []
+    },
+    "zmi": {
+        "name": null,
+        "NOTES": []
+    },
+    "zmj": {
+        "name": null,
+        "NOTES": []
+    },
+    "zmk": {
+        "name": null,
+        "NOTES": []
+    },
+    "zml": {
+        "name": null,
+        "NOTES": []
+    },
+    "zmm": {
+        "name": null,
+        "NOTES": []
+    },
+    "zmn": {
+        "name": null,
+        "NOTES": []
+    },
+    "zmo": {
+        "name": null,
+        "NOTES": []
+    },
+    "zmp": {
+        "name": null,
+        "NOTES": []
+    },
+    "zmq": {
+        "name": null,
+        "NOTES": []
+    },
+    "zmr": {
+        "name": null,
+        "NOTES": []
+    },
+    "zms": {
+        "name": null,
+        "NOTES": []
+    },
+    "zmt": {
+        "name": null,
+        "NOTES": []
+    },
+    "zmu": {
+        "name": null,
+        "NOTES": []
+    },
+    "zmv": {
+        "name": null,
+        "NOTES": []
+    },
+    "zmw": {
+        "name": null,
+        "NOTES": []
+    },
+    "zmx": {
+        "name": null,
+        "NOTES": []
+    },
+    "zmy": {
+        "name": null,
+        "NOTES": []
+    },
+    "zmz": {
+        "name": null,
+        "NOTES": []
+    },
+    "zna": {
+        "name": null,
+        "NOTES": []
+    },
+    "zne": {
+        "name": null,
+        "NOTES": []
+    },
+    "zng": {
+        "name": null,
+        "NOTES": []
+    },
+    "znk": {
+        "name": null,
+        "NOTES": []
+    },
+    "zns": {
+        "name": null,
+        "NOTES": []
+    },
+    "zoc": {
+        "name": null,
+        "NOTES": []
+    },
+    "zoh": {
+        "name": null,
+        "NOTES": []
+    },
+    "zom": {
+        "name": null,
+        "NOTES": []
+    },
+    "zoo": {
+        "name": null,
+        "NOTES": []
+    },
+    "zoq": {
+        "name": null,
+        "NOTES": []
+    },
+    "zor": {
+        "name": null,
+        "NOTES": []
+    },
+    "zos": {
+        "name": null,
+        "NOTES": []
+    },
+    "zpa": {
+        "name": null,
+        "NOTES": []
+    },
+    "zpb": {
+        "name": null,
+        "NOTES": []
+    },
+    "zpc": {
+        "name": null,
+        "NOTES": []
+    },
+    "zpd": {
+        "name": null,
+        "NOTES": []
+    },
+    "zpe": {
+        "name": null,
+        "NOTES": []
+    },
+    "zpf": {
+        "name": null,
+        "NOTES": []
+    },
+    "zpg": {
+        "name": null,
+        "NOTES": []
+    },
+    "zph": {
+        "name": null,
+        "NOTES": []
+    },
+    "zpi": {
+        "name": null,
+        "NOTES": []
+    },
+    "zpj": {
+        "name": null,
+        "NOTES": []
+    },
+    "zpk": {
+        "name": null,
+        "NOTES": []
+    },
+    "zpl": {
+        "name": null,
+        "NOTES": []
+    },
+    "zpm": {
+        "name": null,
+        "NOTES": []
+    },
+    "zpn": {
+        "name": null,
+        "NOTES": []
+    },
+    "zpo": {
+        "name": null,
+        "NOTES": []
+    },
+    "zpp": {
+        "name": null,
+        "NOTES": []
+    },
+    "zpq": {
+        "name": null,
+        "NOTES": []
+    },
+    "zpr": {
+        "name": null,
+        "NOTES": []
+    },
+    "zps": {
+        "name": null,
+        "NOTES": []
+    },
+    "zpt": {
+        "name": null,
+        "NOTES": []
+    },
+    "zpu": {
+        "name": null,
+        "NOTES": []
+    },
+    "zpv": {
+        "name": null,
+        "NOTES": []
+    },
+    "zpw": {
+        "name": null,
+        "NOTES": []
+    },
+    "zpx": {
+        "name": null,
+        "NOTES": []
+    },
+    "zpy": {
+        "name": null,
+        "NOTES": []
+    },
+    "zpz": {
+        "name": null,
+        "NOTES": []
+    },
+    "zqe": {
+        "name": null,
+        "NOTES": []
+    },
+    "zra": {
+        "name": null,
+        "NOTES": []
+    },
+    "zrg": {
+        "name": null,
+        "NOTES": []
+    },
+    "zrn": {
+        "name": null,
+        "NOTES": []
+    },
+    "zro": {
+        "name": null,
+        "NOTES": []
+    },
+    "zrp": {
+        "name": null,
+        "NOTES": []
+    },
+    "zrs": {
+        "name": null,
+        "NOTES": []
+    },
+    "zsa": {
+        "name": null,
+        "NOTES": []
+    },
+    "zsk": {
+        "name": null,
+        "NOTES": []
+    },
+    "zsl": {
+        "name": null,
+        "NOTES": []
+    },
+    "zsm": {
+        "name": null,
+        "NOTES": []
+    },
+    "zsr": {
+        "name": null,
+        "NOTES": []
+    },
+    "zsu": {
+        "name": null,
+        "NOTES": []
+    },
+    "zte": {
+        "name": null,
+        "NOTES": []
+    },
+    "ztg": {
+        "name": null,
+        "NOTES": []
+    },
+    "ztl": {
+        "name": null,
+        "NOTES": []
+    },
+    "ztm": {
+        "name": null,
+        "NOTES": []
+    },
+    "ztn": {
+        "name": null,
+        "NOTES": []
+    },
+    "ztp": {
+        "name": null,
+        "NOTES": []
+    },
+    "ztq": {
+        "name": null,
+        "NOTES": []
+    },
+    "zts": {
+        "name": null,
+        "NOTES": []
+    },
+    "ztt": {
+        "name": null,
+        "NOTES": []
+    },
+    "ztu": {
+        "name": null,
+        "NOTES": []
+    },
+    "ztx": {
+        "name": null,
+        "NOTES": []
+    },
+    "zty": {
+        "name": null,
+        "NOTES": []
+    },
+    "zuh": {
+        "name": null,
+        "NOTES": []
+    },
+    "zul": {
+        "name": "Zulu",
+        "NOTES": []
+    },
+    "zum": {
+        "name": null,
+        "NOTES": []
+    },
+    "zun": {
+        "name": null,
+        "NOTES": []
+    },
+    "zuy": {
+        "name": null,
+        "NOTES": []
+    },
+    "zwa": {
+        "name": null,
+        "NOTES": []
+    },
+    "zxx": {
+        "name": null,
+        "NOTES": []
+    },
+    "zyb": {
+        "name": null,
+        "NOTES": []
+    },
+    "zyg": {
+        "name": null,
+        "NOTES": []
+    },
+    "zyj": {
+        "name": null,
+        "NOTES": []
+    },
+    "zyn": {
+        "name": null,
+        "NOTES": []
+    },
+    "zyp": {
+        "name": null,
+        "NOTES": []
+    },
+    "zza": {
+        "name": null,
+        "NOTES": []
+    },
+    "zzj": {
+        "name": null,
+        "NOTES": []
+    }
 }`
