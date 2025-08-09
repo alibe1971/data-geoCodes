@@ -1,10 +1,10 @@
 {
-    "Scope": {
+    "scope": {
         "I": "Individual",
         "M": "Macrolanguage",
         "S": "Special"
     },
-    "Type": {
+    "type": {
         "A": "Ancient",
         "C": "Constructed",
         "E": "Extinct",

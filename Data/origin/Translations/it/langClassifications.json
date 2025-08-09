@@ -1,10 +1,10 @@
 {
-    "Scope": {
+    "scope": {
         "I": "Individuale",
         "M": "Macrolingua",
         "S": "Speciale"
     },
-    "Type": {
+    "type": {
         "A": "Antica",
         "C": "Costruita (inventata)",
         "E": "Estinta",
