@@ -709,7 +709,7 @@ export const countriesFunctions = {
                     )))
                         .filter(word => ![].concat(
                             slug(Translations[lang][cc].name).split(' '),
-                            slug(Translations[lang][cc].completeName).split(' '),
+                            slug(Translations[lang][cc].fullName).split(' '),
                             ...Translations[lang][cc].demonyms.map(d => slug(d).split(' '))
                         ).includes(word)
                         );
