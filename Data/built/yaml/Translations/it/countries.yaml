@@ -248,7 +248,6 @@ BA:
     - bosniache
     - erzegovese
     - erzegovino
-    - erzegovina
     - erzegovine
     - bosniacoerzegovese
     - bosniacoerzegovino
@@ -459,8 +458,6 @@ BT:
   demonyms:
     - Bhutanési
   keywords:
-    - regno
-    - del
     - drago
     - tonante
     - di
@@ -550,7 +547,6 @@ CD:
     - Congolési
   keywords:
     - kinshasa
-    - repubblica
     - rdc
     - belga
     - ex
@@ -576,7 +572,6 @@ CG:
     - Congolési
   keywords:
     - brazzaville
-    - repubblica
     - francese
     - ex
     - congolese
@@ -640,8 +635,7 @@ CN:
   fullName: Repubblica Popolare Cinese
   demonyms:
     - Cinési
-  keywords:
-    - cinese
+  keywords: []
 CO:
   name: Colombia
   fullName: Repubblica della Colombia
@@ -901,7 +895,6 @@ EH:
     - Sahariani
     - Sahariani occidentali
   keywords:
-    - sahrawi
     - sahariano
     - sahariana
     - sahariane
@@ -997,9 +990,6 @@ FM:
     - Microneṡiani
   keywords:
     - com
-    - stati
-    - federati
-    - di
     - microneiano
     - microneiana
     - microneiane
@@ -1012,8 +1002,6 @@ FO:
     - Faroesi
     - Faroensi
   keywords:
-    - faroe
-    - feringie
     - faringio
     - faringia
     - faringie
@@ -1026,7 +1014,6 @@ FR:
   demonyms:
     - Francéṡi
   keywords:
-    - repubblica
     - transalpina
     - francee
     - transalpino
@@ -1037,8 +1024,7 @@ GA:
   fullName: Repubblica Gabonese
   demonyms:
     - Gabonési
-  keywords:
-    - gabonese
+  keywords: []
 GB:
   name: Regno Unito
   fullName: Regno Unito di Gran Bretagna ed Irlanda del Nord
@@ -1072,7 +1058,6 @@ GB:
     - albione
     - scozia
     - galles
-    - irlanda
     - settentrionale
     - alba
     - cymru
@@ -1148,7 +1133,6 @@ GF:
     - dom
     - guianese
     - guyanese
-    - della
     - francesi
 GG:
   name: Guernsey
@@ -1231,7 +1215,6 @@ GP:
     - dom
     - guadalupe
     - isola
-    - di
     - guadalupense
     - guadalupiano
     - guadalupiana
@@ -1265,8 +1248,6 @@ GR:
     - Grèci
     - Ellènici
   keywords:
-    - repubblica
-    - ellenica
     - greco
     - greca
     - greche
@@ -1325,9 +1306,6 @@ GY:
     - Guianési
     - Guyanési
   keywords:
-    - cooperativa
-    - repubblica
-    - di
     - guianese
     - guyanese
 HK:
@@ -1510,7 +1488,6 @@ IT:
   keywords:
     - penisola
     - italiano
-    - italiana
     - italiane
 JE:
   name: Jersey
@@ -1548,9 +1525,6 @@ JO:
     - Giordani
     - Giordaniani
   keywords:
-    - regno
-    - hascemita
-    - di
     - giordano
     - giordana
     - giordane
@@ -1745,7 +1719,6 @@ LB:
   demonyms:
     - Libanési
   keywords:
-    - libanese
     - del
 LC:
   name: Santa Lucia
@@ -2439,7 +2412,6 @@ PT:
     - Portoghési
     - Lusitani
   keywords:
-    - portoghese
     - lusitano
     - lusitana
     - lusitane
@@ -2546,7 +2518,6 @@ RU:
     - Russi
   keywords:
     - russo
-    - russa
     - russe
 RW:
   name: Ruanda
@@ -2649,7 +2620,6 @@ SK:
     - Slovàcchi
   keywords:
     - slovacco
-    - slovacca
     - slovacche
 SL:
   name: Sierra Leone
@@ -2666,8 +2636,6 @@ SM:
     - Sanmarinési
   keywords:
     - serenissima
-    - repubblica
-    - di
     - sammarinese
     - sanmarinese
 SN:
@@ -2814,8 +2782,7 @@ TG:
   fullName: Repubblica togolese
   demonyms:
     - Togolési
-  keywords:
-    - togolese
+  keywords: []
 TH:
   name: Tailandia
   fullName: Regno di Thailandia
@@ -2848,7 +2815,6 @@ TK:
   demonyms:
     - Tokelauani
   keywords:
-    - isole
     - dellunione
     - tokelauano
     - tokelauana

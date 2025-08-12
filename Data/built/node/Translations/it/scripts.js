@@ -21,967 +21,681 @@
  
 export const scripts = {
     Adlm: {
-        name: "Adlam",
-        NOTES: []
+        name: "Adlam"
     },
     Afak: {
-        name: "Afaka",
-        NOTES: []
+        name: "Afaka"
     },
     Aghb: {
-        name: "Albanese caucasico",
-        NOTES: [
-            "https://it.wikipedia.org/wiki/Albania_caucasica"
-        ]
+        name: "Albanese caucasico"
     },
     Ahom: {
-        name: "Ahom, Tai Ahom",
-        NOTES: []
+        name: "Ahom, Tai Ahom"
     },
     Arab: {
-        name: "Arabo",
-        NOTES: []
+        name: "Arabo"
     },
     Aran: {
-        name: "Arabo (nasta'liq)",
-        NOTES: []
+        name: "Arabo (nasta'liq)"
     },
     Armi: {
-        name: "Aramaico biblico",
-        NOTES: []
+        name: "Aramaico biblico"
     },
     Armn: {
-        name: "Armeno",
-        NOTES: []
+        name: "Armeno"
     },
     Avst: {
-        name: "Avestico",
-        NOTES: [
-            "https://it.wikipedia.org/wiki/Lingua_avestica"
-        ]
+        name: "Avestico"
     },
     Bali: {
-        name: "Balinese",
-        NOTES: []
+        name: "Balinese"
     },
     Bamu: {
-        name: "Bamum",
-        NOTES: []
+        name: "Bamum"
     },
     Bass: {
-        name: "Bassa Vah",
-        NOTES: []
+        name: "Bassa Vah"
     },
     Batk: {
-        name: "Batak",
-        NOTES: []
+        name: "Batak"
     },
     Beng: {
-        name: "Bengalese (Bangla)",
-        NOTES: []
+        name: "Bengalese (Bangla)"
     },
     Berf: {
-        name: "Beria Erfe",
-        NOTES: []
+        name: "Beria Erfe"
     },
     Bhks: {
-        name: "Bhaiksuki",
-        NOTES: []
+        name: "Bhaiksuki"
     },
     Blis: {
-        name: "Blissymbol",
-        NOTES: []
+        name: "Blissymbol"
     },
     Bopo: {
-        name: "Bopomofo",
-        NOTES: [
-            "https://it.wikipedia.org/wiki/Bopomofo"
-        ]
+        name: "Bopomofo"
     },
     Brah: {
-        name: "Brahmi",
-        NOTES: []
+        name: "Brahmi"
     },
     Brai: {
-        name: "Braille",
-        NOTES: []
+        name: "Braille"
     },
     Bugi: {
-        name: "Buginese",
-        NOTES: [
-            "https://it.wikipedia.org/wiki/Lingua_buginese"
-        ]
+        name: "Buginese"
     },
     Buhd: {
-        name: "Buhid",
-        NOTES: []
+        name: "Buhid"
     },
     Cakm: {
-        name: "Chakma",
-        NOTES: []
+        name: "Chakma"
     },
     Cans: {
-        name: "Sillabario Aborigeno Canadese Unificato",
-        NOTES: [
-            "https://it.wikipedia.org/wiki/Sillabario_aborigeno_canadese"
-        ]
+        name: "Sillabario Aborigeno Canadese Unificato"
     },
     Cari: {
-        name: "Carian",
-        NOTES: []
+        name: "Carian"
     },
     Cham: {
-        name: "Cham",
-        NOTES: []
+        name: "Cham"
     },
     Cher: {
-        name: "Cherokee",
-        NOTES: []
+        name: "Cherokee"
     },
     Chis: {
-        name: "Chisoi",
-        NOTES: []
+        name: "Chisoi"
     },
     Chrs: {
-        name: "Corasmiano",
-        NOTES: [
-            "https://it.wikipedia.org/wiki/Lingua_corasmia"
-        ]
+        name: "Corasmiano"
     },
     Cirt: {
-        name: "Cirth",
-        NOTES: []
+        name: "Cirth"
     },
     Copt: {
-        name: "Copto",
-        NOTES: []
+        name: "Copto"
     },
     Cpmn: {
-        name: "Cipro-Minoico",
-        NOTES: []
+        name: "Cipro-Minoico"
     },
     Cprt: {
-        name: "Cipriota",
-        NOTES: []
+        name: "Cipriota"
     },
     Cyrl: {
-        name: "Cirillico",
-        NOTES: []
+        name: "Cirillico"
     },
     Cyrs: {
-        name: "Cirillico (slavo ecclesiastico antico)",
-        NOTES: []
+        name: "Cirillico (slavo ecclesiastico antico)"
     },
     Deva: {
-        name: "Devanagari (Nagari)",
-        NOTES: [
-            "https://it.wikipedia.org/wiki/Alfabeto_devanagari"
-        ]
+        name: "Devanagari (Nagari)"
     },
     Diak: {
-        name: "Akuru dives",
-        NOTES: []
+        name: "Akuru dives"
     },
     Dogr: {
-        name: "Dogra",
-        NOTES: []
+        name: "Dogra"
     },
     Dsrt: {
-        name: "Deseret",
-        NOTES: []
+        name: "Deseret"
     },
     Dupl: {
-        name: "Stenografia duployan",
-        NOTES: []
+        name: "Stenografia duployan"
     },
     Egyd: {
-        name: "Egizio demotico",
-        NOTES: []
+        name: "Egizio demotico"
     },
     Egyh: {
-        name: "Egizio ieratico",
-        NOTES: []
+        name: "Egizio ieratico"
     },
     Egyp: {
-        name: "Egizio geroglifico",
-        NOTES: []
+        name: "Egizio geroglifico"
     },
     Elba: {
-        name: "Elbasan",
-        NOTES: []
+        name: "Elbasan"
     },
     Elym: {
-        name: "Elimaico",
-        NOTES: []
+        name: "Elimaico"
     },
     Ethi: {
-        name: "Etiope (Geʻez)",
-        NOTES: []
+        name: "Etiope (Geʻez)"
     },
     Gara: {
-        name: "Garay",
-        NOTES: []
+        name: "Garay"
     },
     Geok: {
-        name: "Khutsuri (Asomtavruli e Nuskhuri)",
-        NOTES: []
+        name: "Khutsuri (Asomtavruli e Nuskhuri)"
     },
     Geor: {
-        name: "Georgiano (Mkhedruli e Mtavruli)",
-        NOTES: []
+        name: "Georgiano (Mkhedruli e Mtavruli)"
     },
     Glag: {
-        name: "Glagolitico",
-        NOTES: []
+        name: "Glagolitico"
     },
     Gong: {
-        name: "Gunjala gondi",
-        NOTES: []
+        name: "Gunjala gondi"
     },
     Gonm: {
-        name: "Masaram gondi",
-        NOTES: []
+        name: "Masaram gondi"
     },
     Goth: {
-        name: "Gotico",
-        NOTES: []
+        name: "Gotico"
     },
     Gran: {
-        name: "Grantha",
-        NOTES: []
+        name: "Grantha"
     },
     Grek: {
-        name: "Greco",
-        NOTES: []
+        name: "Greco"
     },
     Gujr: {
-        name: "Gugiarati (Gujarati)",
-        NOTES: [
-            "https://it.wikipedia.org/wiki/Lingua_gujar%C4%81t%C4%AB"
-        ]
+        name: "Gugiarati (Gujarati)"
     },
     Gukh: {
-        name: "Gurung Khema",
-        NOTES: []
+        name: "Gurung Khema"
     },
     Guru: {
-        name: "Gurmukhi",
-        NOTES: []
+        name: "Gurmukhi"
     },
     Hanb: {
-        name: "Han con Bopomofo (alias per Han + Bopomofo)",
-        NOTES: []
+        name: "Han con Bopomofo (alias per Han + Bopomofo)"
     },
     Hang: {
-        name: "Hangul (Hang' l, Hangeul)",
-        NOTES: []
+        name: "Hangul (Hang' l, Hangeul)"
     },
     Hani: {
-        name: "Han (Hanzi, Kanji, Hanja)",
-        NOTES: []
+        name: "Han (Hanzi, Kanji, Hanja)"
     },
     Hano: {
-        name: "Hanunoo (Hanunóo)",
-        NOTES: []
+        name: "Hanunoo (Hanunóo)"
     },
     Hans: {
-        name: "Han (variante semplificata)",
-        NOTES: []
+        name: "Han (variante semplificata)"
     },
     Hant: {
-        name: "Han (variante tradizionale)",
-        NOTES: []
+        name: "Han (variante tradizionale)"
     },
     Hatr: {
-        name: "Hatrena (Aramaico di Hatra)",
-        NOTES: []
+        name: "Hatrena (Aramaico di Hatra)"
     },
     Hebr: {
-        name: "Ebraico",
-        NOTES: []
+        name: "Ebraico"
     },
     Hira: {
-        name: "Hiragana",
-        NOTES: []
+        name: "Hiragana"
     },
     Hluw: {
-        name: "Geroglifici anatolici (Geroglifici luvi, Geroglifici ittiti)",
-        NOTES: []
+        name: "Geroglifici anatolici (Geroglifici luvi, Geroglifici ittiti)"
     },
     Hmng: {
-        name: "Pahawh Hmong",
-        NOTES: []
+        name: "Pahawh Hmong"
     },
     Hmnp: {
-        name: "Nyiakeng Puachue Hmong",
-        NOTES: []
+        name: "Nyiakeng Puachue Hmong"
     },
     Hntl: {
-        name: "Han (variante tradizionale) con latino (alias per Hant + Latn)",
-        NOTES: []
+        name: "Han (variante tradizionale) con latino (alias per Hant + Latn)"
     },
     Hrkt: {
-        name: "Sillabari giapponesi (alias per Hiragana + Katakana)",
-        NOTES: []
+        name: "Sillabari giapponesi (alias per Hiragana + Katakana)"
     },
     Hung: {
-        name: "Ungherese antico (runico ungherese)",
-        NOTES: []
+        name: "Ungherese antico (runico ungherese)"
     },
     Inds: {
-        name: "Indo (Harappa)",
-        NOTES: []
+        name: "Indo (Harappa)"
     },
     Ital: {
-        name: "Italico antico (etrusco, osco, ecc...)",
-        NOTES: []
+        name: "Italico antico (etrusco, osco, ecc...)"
     },
     Jamo: {
-        name: "Jamo (alias per il sottoinsieme Jamo di Hangul)",
-        NOTES: []
+        name: "Jamo (alias per il sottoinsieme Jamo di Hangul)"
     },
     Java: {
-        name: "Giavanese",
-        NOTES: [
-            "https://it.wikipedia.org/wiki/Lingua_giavanese",
-            "https://www.treccani.it/vocabolario/giavanese/"
-        ]
+        name: "Giavanese"
     },
     Jpan: {
-        name: "Giapponese (alias per Han + Hiragana + Katakana)",
-        NOTES: []
+        name: "Giapponese (alias per Han + Hiragana + Katakana)"
     },
     Jurc: {
-        name: "Jurchen",
-        NOTES: []
+        name: "Jurchen"
     },
     Kali: {
-        name: "Kayah Li",
-        NOTES: []
+        name: "Kayah Li"
     },
     Kana: {
-        name: "Katakana",
-        NOTES: []
+        name: "Katakana"
     },
     Kawi: {
-        name: "Kawi",
-        NOTES: []
+        name: "Kawi"
     },
     Khar: {
-        name: "Kharoshthi",
-        NOTES: []
+        name: "Kharoshthi"
     },
     Khmr: {
-        name: "Cambogiano (Khmer)",
-        NOTES: []
+        name: "Cambogiano (Khmer)"
     },
     Khoj: {
-        name: "Khojki",
-        NOTES: []
+        name: "Khojki"
     },
     Kitl: {
-        name: "Alfabeto Kitai grande",
-        NOTES: []
+        name: "Alfabeto Kitai grande"
     },
     Kits: {
-        name: "Alfabeto Kitai piccolo",
-        NOTES: []
+        name: "Alfabeto Kitai piccolo"
     },
     Knda: {
-        name: "Canarese (Kannada, Cànara, Kànara)",
-        NOTES: [
-            "https://www.treccani.it/vocabolario/canarese/"
-        ]
+        name: "Canarese (Kannada, Cànara, Kànara)"
     },
     Kore: {
-        name: "Coreano (alias per Hangul + Han)",
-        NOTES: []
+        name: "Coreano (alias per Hangul + Han)"
     },
     Kpel: {
-        name: "Kpelle",
-        NOTES: []
+        name: "Kpelle"
     },
     Krai: {
-        name: "Kirat Rai",
-        NOTES: []
+        name: "Kirat Rai"
     },
     Kthi: {
-        name: "Kaithi",
-        NOTES: []
+        name: "Kaithi"
     },
     Lana: {
-        name: "Tai Tham (Lanna)",
-        NOTES: []
+        name: "Tai Tham (Lanna)"
     },
     Laoo: {
-        name: "Laotiano, Laosiano, Laoziano",
-        NOTES: [
-            "https://it.wikipedia.org/wiki/Alfabeto_laotiano",
-            "https://www.treccani.it/vocabolario/laotiano/"
-        ]
+        name: "Laotiano, Laosiano, Laoziano"
     },
     Latf: {
-        name: "Latino (scrittura Fraktur)",
-        NOTES: []
+        name: "Latino (scrittura Fraktur)"
     },
     Latg: {
-        name: "Latino (scrittura gaelica)",
-        NOTES: []
+        name: "Latino (scrittura gaelica)"
     },
     Latn: {
-        name: "Latino",
-        NOTES: []
+        name: "Latino"
     },
     Leke: {
-        name: "Leke",
-        NOTES: []
+        name: "Leke"
     },
     Lepc: {
-        name: "Lepcha (Róng)",
-        NOTES: []
+        name: "Lepcha (Róng)"
     },
     Limb: {
-        name: "Limbu",
-        NOTES: []
+        name: "Limbu"
     },
     Lina: {
-        name: "Lineare A",
-        NOTES: []
+        name: "Lineare A"
     },
     Linb: {
-        name: "Lineare B",
-        NOTES: []
+        name: "Lineare B"
     },
     Lisu: {
-        name: "Lisu (Fraser)",
-        NOTES: []
+        name: "Lisu (Fraser)"
     },
     Loma: {
-        name: "Loma",
-        NOTES: []
+        name: "Loma"
     },
     Lyci: {
-        name: "Licio",
-        NOTES: []
+        name: "Licio"
     },
     Lydi: {
-        name: "Lidio",
-        NOTES: []
+        name: "Lidio"
     },
     Mahj: {
-        name: "Mahajani",
-        NOTES: []
+        name: "Mahajani"
     },
     Maka: {
-        name: "Makasar",
-        NOTES: []
+        name: "Makasar"
     },
     Mand: {
-        name: "Mandaico, Mandei",
-        NOTES: [
-            "https://it.wikipedia.org/wiki/Lingua_mandaica",
-            "https://www.treccani.it/vocabolario/mandaico/"
-        ]
+        name: "Mandaico, Mandei"
     },
     Mani: {
-        name: "Manicheo",
-        NOTES: []
+        name: "Manicheo"
     },
     Marc: {
-        name: "Marchen",
-        NOTES: []
+        name: "Marchen"
     },
     Maya: {
-        name: "Geroglifici Maya",
-        NOTES: []
+        name: "Geroglifici Maya"
     },
     Medf: {
-        name: "Medefaidrin (Oberi Okaime)",
-        NOTES: []
+        name: "Medefaidrin (Oberi Okaime)"
     },
     Mend: {
-        name: "Mende Kikakui",
-        NOTES: []
+        name: "Mende Kikakui"
     },
     Merc: {
-        name: "Corsivo meroitico",
-        NOTES: [
-            "https://it.wikipedia.org/wiki/Alfabeto_meroitico",
-            "https://www.treccani.it/vocabolario/meroitico/"
-        ]
+        name: "Corsivo meroitico"
     },
     Mero: {
-        name: "Geroglifici meroitici",
-        NOTES: []
+        name: "Geroglifici meroitici"
     },
     Mlym: {
-        name: "Malayalam",
-        NOTES: [
-            "https://it.wikipedia.org/wiki/Lingua_malay%C4%81la%E1%B9%83"
-        ]
+        name: "Malayalam"
     },
     Modi: {
-        name: "Modi",
-        NOTES: []
+        name: "Modi"
     },
     Mong: {
-        name: "Mongolo",
-        NOTES: []
+        name: "Mongolo"
     },
     Moon: {
-        name: "Moon (codice Moon, scrittura Moon, tipo Moon)",
-        NOTES: []
+        name: "Moon (codice Moon, scrittura Moon, tipo Moon)"
     },
     Mroo: {
-        name: "Mro, Mru",
-        NOTES: []
+        name: "Mro, Mru"
     },
     Mtei: {
-        name: "Meitei Mayek (Meithei, Meetei)",
-        NOTES: []
+        name: "Meitei Mayek (Meithei, Meetei)"
     },
     Mult: {
-        name: "Multani",
-        NOTES: []
+        name: "Multani"
     },
     Mymr: {
-        name: "Birmano (Myanmar)",
-        NOTES: []
+        name: "Birmano (Myanmar)"
     },
     Nagm: {
-        name: "Nag Mundari",
-        NOTES: []
+        name: "Nag Mundari"
     },
     Nand: {
-        name: "Nandinagari",
-        NOTES: []
+        name: "Nandinagari"
     },
     Narb: {
-        name: "Arabo Settentrionale Antico",
-        NOTES: []
+        name: "Arabo Settentrionale Antico"
     },
     Nbat: {
-        name: "Nabateo",
-        NOTES: [
-            "https://www.treccani.it/vocabolario/nabateo/",
-            "https://it.wikipedia.org/wiki/Lingua_nabatea"
-        ]
+        name: "Nabateo"
     },
     Newa: {
-        name: "Newa, Newari, Newar, Nevar, Lipi nepalese",
-        NOTES: []
+        name: "Newa, Newari, Newar, Nevar, Lipi nepalese"
     },
     Nkdb: {
-        name: "Naxi Dongba (Nakhi Tomba)",
-        NOTES: []
+        name: "Naxi Dongba (Nakhi Tomba)"
     },
     Nkgb: {
-        name: "Naxi Geba (Nakhi Geba)",
-        NOTES: []
+        name: "Naxi Geba (Nakhi Geba)"
     },
     Nkoo: {
-        name: "N’Ko",
-        NOTES: []
+        name: "N’Ko"
     },
     Nshu: {
-        name: "Nü shu",
-        NOTES: []
+        name: "Nü shu"
     },
     Ogam: {
-        name: "Ogham",
-        NOTES: []
+        name: "Ogham"
     },
     Olck: {
-        name: "Ol Chiki (Ol Chemet’, Ol, Santali)",
-        NOTES: []
+        name: "Ol Chiki (Ol Chemet’, Ol, Santali)"
     },
     Onao: {
-        name: "Ol Onal",
-        NOTES: []
+        name: "Ol Onal"
     },
     Orkh: {
-        name: "Turco antico, Orkhon runico",
-        NOTES: []
+        name: "Turco antico, Orkhon runico"
     },
     Orya: {
-        name: "Odia (Oriya)",
-        NOTES: []
+        name: "Odia (Oriya)"
     },
     Osge: {
-        name: "Osage",
-        NOTES: []
+        name: "Osage"
     },
     Osma: {
-        name: "Osmanya, Somalo",
-        NOTES: []
+        name: "Osmanya, Somalo"
     },
     Ougr: {
-        name: "Uiguro antico",
-        NOTES: [
-            "https://www.treccani.it/enciclopedia/uiguri_(Dizionario-di-Storia)/"
-        ]
+        name: "Uiguro antico"
     },
     Palm: {
-        name: "Palmireno",
-        NOTES: [
-            "https://www.treccani.it/vocabolario/palmireno/"
-        ]
+        name: "Palmireno"
     },
     Pauc: {
-        name: "Pau Cin Hau",
-        NOTES: []
+        name: "Pau Cin Hau"
     },
     Pcun: {
-        name: "Protocuneiforme",
-        NOTES: []
+        name: "Protocuneiforme"
     },
     Pelm: {
-        name: "Protoelamico",
-        NOTES: []
+        name: "Protoelamico"
     },
     Perm: {
-        name: "Permico antico (Permiano antico)",
-        NOTES: [
-            "https://it.wikipedia.org/wiki/Lingue_permiche"
-        ]
+        name: "Permico antico (Permiano antico)"
     },
     Phag: {
-        name: "'Phags-pa",
-        NOTES: []
+        name: "'Phags-pa"
     },
     Phli: {
-        name: "Pahlavi, Pahlevi (iscrizioni)",
-        NOTES: [
-            "https://it.wikipedia.org/wiki/Lingua_pahlavi",
-            "https://www.treccani.it/enciclopedia/pahlavi_(Dizionario-di-Storia)/"
-        ]
+        name: "Pahlavi, Pahlevi (iscrizioni)"
     },
     Phlp: {
-        name: "Pahlavi, Pahlevi (salterio)",
-        NOTES: []
+        name: "Pahlavi, Pahlevi (salterio)"
     },
     Phlv: {
-        name: "Pahlavi, Pahlevi (libro)",
-        NOTES: []
+        name: "Pahlavi, Pahlevi (libro)"
     },
     Phnx: {
-        name: "Fenicio",
-        NOTES: []
-    },
-    Plrd: {
-        name: "Pollard (Miao Pollard)",
-        NOTES: []
+        name: "Fenicio"
     },
     Piqd: {
-        name: "Klingon (pIqaD)",
-        NOTES: []
+        name: "Klingon (pIqaD)"
+    },
+    Plrd: {
+        name: "Pollard (Miao Pollard)"
     },
     Prti: {
-        name: "Parto (iscrizioni)",
-        NOTES: []
+        name: "Parto (iscrizioni)"
     },
     Psin: {
-        name: "Proto-Sinaitico",
-        NOTES: []
+        name: "Proto-Sinaitico"
     },
     Qaaa: {
-        name: "Riservato per uso privato (start)",
-        NOTES: []
+        name: "Riservato per uso privato (start)"
     },
     Qabx: {
-        name: "Riservato per uso privato (end)",
-        NOTES: []
+        name: "Riservato per uso privato (end)"
     },
     Ranj: {
-        name: "Ranjana",
-        NOTES: []
+        name: "Ranjana"
     },
     Rjng: {
-        name: "Rejang (Redjang, Kaganga)",
-        NOTES: []
+        name: "Rejang (Redjang, Kaganga)"
     },
     Rohg: {
-        name: "Rohingya hanifi",
-        NOTES: []
+        name: "Rohingya hanifi"
     },
     Roro: {
-        name: "Rongorongo",
-        NOTES: []
+        name: "Rongorongo"
     },
     Runr: {
-        name: "Runico",
-        NOTES: []
+        name: "Runico"
     },
     Samr: {
-        name: "Samaritano",
-        NOTES: []
+        name: "Samaritano"
     },
     Sara: {
-        name: "Sarati",
-        NOTES: []
+        name: "Sarati"
     },
     Sarb: {
-        name: "Arabo meridionale antico",
-        NOTES: []
+        name: "Arabo meridionale antico"
     },
     Saur: {
-        name: "Saurashtra",
-        NOTES: []
+        name: "Saurashtra"
     },
     Seal: {
-        name: "Sigillario",
-        NOTES: []
+        name: "Sigillario"
     },
     Sgnw: {
-        name: "Sutton SignWriting, SignWriting, Scrittura dei segni",
-        NOTES: []
+        name: "Sutton SignWriting, SignWriting, Scrittura dei segni"
     },
     Shaw: {
-        name: "Shaviano",
-        NOTES: [
-            "https://it.wikipedia.org/wiki/Alfabeto_shaviano"
-        ]
+        name: "Shaviano"
     },
     Shrd: {
-        name: "Sharada, Śāradā, Charada",
-        NOTES: []
+        name: "Sharada, Śāradā, Charada"
     },
     Shui: {
-        name: "Shuishu, Sui",
-        NOTES: []
+        name: "Shuishu, Sui"
     },
     Sidd: {
-        name: "Siddham, Siddhaṃ, Siddhamātṛkā",
-        NOTES: []
+        name: "Siddham, Siddhaṃ, Siddhamātṛkā"
     },
     Sidt: {
-        name: "Sidetico",
-        NOTES: [
-            "https://it.wikipedia.org/wiki/Lingua_sidetica"
-        ]
+        name: "Sidetico"
     },
     Sind: {
-        name: "Khudawadi, Sindhi",
-        NOTES: []
+        name: "Khudawadi, Sindhi"
     },
     Sinh: {
-        name: "Singalese, Cingalese, Ceylonese, Silonense, Sinhala",
-        NOTES: [
-            "https://it.wikipedia.org/wiki/Lingua_singalese",
-            "https://www.treccani.it/vocabolario/singalese/",
-            "https://www.treccani.it/vocabolario/ceylonense/"
-        ]
+        name: "Singalese, Cingalese, Ceylonese, Silonense, Sinhala"
     },
     Sogd: {
-        name: "Sogdian",
-        NOTES: []
+        name: "Sogdian"
     },
     Sogo: {
-        name: "Sogdiano antico",
-        NOTES: [
-            "https://it.wikipedia.org/wiki/Alfabeto_sogdiano"
-        ]
+        name: "Sogdiano antico"
     },
     Sora: {
-        name: "Sora Sompeng",
-        NOTES: []
+        name: "Sora Sompeng"
     },
     Soyo: {
-        name: "Soyombo",
-        NOTES: []
+        name: "Soyombo"
     },
     Sund: {
-        name: "Sundanese, Sondanese",
-        NOTES: [
-            "https://www.treccani.it/vocabolario/sundanese/",
-            "https://it.wikipedia.org/wiki/Lingua_sundanese"
-        ]
+        name: "Sundanese, Sondanese"
     },
     Sunu: {
-        name: "Sunuwar",
-        NOTES: []
+        name: "Sunuwar"
     },
     Sylo: {
-        name: "Sylheti, Sileṭ Nagri",
-        NOTES: []
+        name: "Sylheti, Sileṭ Nagri"
     },
     Syrc: {
-        name: "Siriaco",
-        NOTES: []
+        name: "Siriaco"
     },
     Syre: {
-        name: "Siriaco (variante ʾEsṭrangēlā)",
-        NOTES: []
+        name: "Siriaco (variante ʾEsṭrangēlā)"
     },
     Syrj: {
-        name: "Siriaco (variante occidentale)",
-        NOTES: []
+        name: "Siriaco (variante occidentale)"
     },
     Syrn: {
-        name: "Siriaco (variante orientale)",
-        NOTES: []
+        name: "Siriaco (variante orientale)"
     },
     Tagb: {
-        name: "Tagbanwa, Aborlan Tagbanwa, Apurawnon",
-        NOTES: []
+        name: "Tagbanwa, Aborlan Tagbanwa, Apurawnon"
     },
     Takr: {
-        name: "Takri",
-        NOTES: []
+        name: "Takri"
     },
     Tale: {
-        name: "Tai Le",
-        NOTES: []
+        name: "Tai Le"
     },
     Talu: {
-        name: "Nuovo Tai lue, Tai lue semplificato",
-        NOTES: []
+        name: "Nuovo Tai lue, Tai lue semplificato"
     },
     Taml: {
-        name: "Tàmil, Tàmul",
-        NOTES: []
+        name: "Tàmil, Tàmul"
     },
     Tang: {
-        name: "Tangut",
-        NOTES: []
+        name: "Tangut"
     },
     Tavt: {
-        name: "Tai Viet",
-        NOTES: []
+        name: "Tai Viet"
     },
     Tayo: {
-        name: "Tai Yo",
-        NOTES: []
+        name: "Tai Yo"
     },
     Telu: {
-        name: "Tèlugu",
-        NOTES: []
+        name: "Tèlugu"
     },
     Teng: {
-        name: "Tengwar",
-        NOTES: []
+        name: "Tengwar"
     },
     Tfng: {
-        name: "Tifinagh (Berbero)",
-        NOTES: []
+        name: "Tifinagh (Berbero)"
     },
     Tglg: {
-        name: "Tagalog, Tagalo",
-        NOTES: []
+        name: "Tagalog, Tagalo"
     },
     Thaa: {
-        name: "Thaana, Taana, Tāna",
-        NOTES: []
+        name: "Thaana, Taana, Tāna"
     },
     Thai: {
-        name: "Tailandese",
-        NOTES: []
+        name: "Tailandese"
     },
     Tibt: {
-        name: "Tibetano",
-        NOTES: []
+        name: "Tibetano"
     },
     Tirh: {
-        name: "Tirhuta",
-        NOTES: []
+        name: "Tirhuta"
     },
     Tnsa: {
-        name: "Tangsa",
-        NOTES: []
+        name: "Tangsa"
     },
     Todr: {
-        name: "Todhri",
-        NOTES: []
+        name: "Todhri"
     },
     Tols: {
-        name: "Tolong Siki",
-        NOTES: []
+        name: "Tolong Siki"
     },
     Toto: {
-        name: "Toto",
-        NOTES: []
+        name: "Toto"
     },
     Tutg: {
-        name: "Tigalari, Tulu",
-        NOTES: []
+        name: "Tigalari, Tulu"
     },
     Ugar: {
-        name: "Ugaritico",
-        NOTES: [
-            "https://it.wikipedia.org/wiki/Alfabeto_ugaritico",
-            "https://www.treccani.it/vocabolario/ugaritico/"
-        ]
+        name: "Ugaritico"
     },
     Vaii: {
-        name: "Vai",
-        NOTES: []
+        name: "Vai"
     },
     Visp: {
-        name: "Discorso visibile",
-        NOTES: []
+        name: "Discorso visibile"
     },
     Vith: {
-        name: "Vithkuqi, Büthakukye, Beitha Kukju",
-        NOTES: []
+        name: "Vithkuqi, Büthakukye, Beitha Kukju"
     },
     Wara: {
-        name: "Warang Chiti (Varang Kshiti)",
-        NOTES: []
+        name: "Warang Chiti (Varang Kshiti)"
     },
     Wcho: {
-        name: "Wancho",
-        NOTES: []
+        name: "Wancho"
     },
     Wole: {
-        name: "Woleai",
-        NOTES: []
+        name: "Woleai"
     },
     Xpeo: {
-        name: "Persiano antico",
-        NOTES: []
+        name: "Persiano antico"
     },
     Xsux: {
-        name: "Cuneiforme, Sumero-Accadico",
-        NOTES: []
+        name: "Cuneiforme, Sumero-Accadico"
     },
     Yezi: {
-        name: "Yezidi",
-        NOTES: []
+        name: "Yezidi"
     },
     Yiii: {
-        name: "Yi",
-        NOTES: []
+        name: "Yi"
     },
     Zanb: {
-        name: "Zanabazar quadrato (Scrittura Orizontale Quadrata)",
-        NOTES: []
+        name: "Zanabazar quadrato (Scrittura Orizontale Quadrata)"
     },
     Zinh: {
-        name: "Codice per script ereditato",
-        NOTES: []
+        name: "Codice per script ereditato"
     },
     Zmth: {
-        name: "Notazione matematica",
-        NOTES: []
+        name: "Notazione matematica"
     },
     Zsye: {
-        name: "Simboli (variante Emoji)",
-        NOTES: []
+        name: "Simboli (variante Emoji)"
     },
     Zsym: {
-        name: "Simboli",
-        NOTES: []
+        name: "Simboli"
     },
     Zxxx: {
-        name: "Codice per documenti non scritti",
-        NOTES: []
+        name: "Codice per documenti non scritti"
     },
     Zyyy: {
-        name: "Codice per script indeterminato",
-        NOTES: []
+        name: "Codice per script indeterminato"
     },
     Zzzz: {
-        name: "Codice per script non codificato",
-        NOTES: []
+        name: "Codice per script non codificato"
     }
 };

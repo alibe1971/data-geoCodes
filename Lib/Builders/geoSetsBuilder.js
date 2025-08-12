@@ -1,5 +1,10 @@
 import chalk from 'chalk';
-import {checkForTranslationString, errorMessage, requirements, sortList} from '../utils.js';
+import {
+    errorMessage,
+    getTranslationMandatoryString,
+    requirements,
+    sortList
+} from '../utils.js';
 import {configBuild} from "../configBuild.js";
 
 const mainKey = 'internalCode';
@@ -115,24 +120,27 @@ export const geoSetsFunctions = {
     },
 
     DataTranslations: async (data, defaultLanguage = 'en') => {
-        let cc;
+        let gs;
+
         for (const [lang, langObjs] of Object.entries(data)) {
+
             Translations[lang] = {};
-            for (const country of Object.values(GeoSets)) {
-                cc = country[mainKey];
-                Translations[lang][cc] = {};
+
+            for (const geoSet of Object.values(GeoSets)) {
+                gs = geoSet[mainKey];
+                Translations[lang][gs] = {};
 
                 /** `name`: the source must be a string (required for the default language) **/
-                Translations[lang][cc].name =
-                    (checkForTranslationString(
+                Translations[lang][gs].name =
+                    (getTranslationMandatoryString(
                         collection,
                         collectionItem,
-                        cc,
-                        langObjs.name,
+                        gs,
+                        langObjs[gs],
                         lang,
                         defaultLanguage,
                         'name'
-                    )) ? langObjs.name[cc] : '';
+                    )) ?? '';
             }
             console.log(
                 chalk.cyan('         - Translation language `' + lang + '` data for `' + collection +'` parsed')

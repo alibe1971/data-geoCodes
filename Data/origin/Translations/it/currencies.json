@@ -1,182 +1,902 @@
 {
-    "AED": "Dirham degli Emirati Arabi Uniti",
-    "AFN": "Afghani",
-    "ALL": "Lek",
-    "AMD": "Dram Armeno",
-    "ANG": "Fiorino delle Antille Olandesi",
-    "AOA": "Kwanza",
-    "ARS": "Peso Argentino",
-    "AUD": "Dollaro Australiano",
-    "AWG": "Fiorino di Aruba",
-    "AZN": "Manat Azero",
-    "BAM": "Marco Convertibile",
-    "BBD": "Dollaro di Barbados",
-    "BDT": "Taka",
-    "BGN": "Lev Bulgaro",
-    "BHD": "Dinaro del Bahrain",
-    "BIF": "Franco del Burundi",
-    "BMD": "Dollaro delle Bermuda",
-    "BND": "Dollaro del Brunei",
-    "BOB": "Boliviano",
-    "BOV": "Mvdol",
-    "BRL": "Real Brasiliano",
-    "BSD": "Dollaro delle Bahamas",
-    "BTN": "Ngultrum",
-    "BWP": "Pula",
-    "BYN": "Rublo Bielorusso",
-    "BZD": "Dollaro del Belize",
-    "CAD": "Dollaro Canadese",
-    "CDF": "Franco Congolese",
-    "CHE": "Euro WIR",
-    "CHF": "Franco Svizzero",
-    "CHW": "Franco WIR",
-    "CLF": "Unidad de Fomento",
-    "CLP": "Peso Cileno",
-    "CNY": "Renminbi Cinese",
-    "COP": "Peso Colombiano",
-    "COU": "Unidad de Valor Real",
-    "CRC": "Colón Costaricano",
-    "CUC": "Peso Cubano Convertible",
-    "CUP": "Peso Cubano",
-    "CVE": "Escudo di Capo Verde",
-    "CZK": "Corona Ceca",
-    "DJF": "Franco di Gibuti",
-    "DKK": "Corona Danese",
-    "DOP": "Peso Dominicano",
-    "DZD": "Dinaro Algerino",
-    "EGP": "Sterlina Egiziana",
-    "ERN": "Nakfa",
-    "ETB": "Birr Etiope",
-    "EUR": "Euro",
-    "FJD": "Dollaro delle Figi",
-    "FKP": "Sterlina delle Falkland",
-    "GBP": "Sterlina Britannica",
-    "GEL": "Lari Georgiano",
-    "GHS": "Cedi del Ghana",
-    "GIP": "Sterlina di Gibilterra",
-    "GMD": "Dalasi",
-    "GNF": "Franco della Guinea",
-    "GTQ": "Quetzal",
-    "GYD": "Dollaro della Guyana",
-    "HKD": "Dollaro di Hong Kong",
-    "HNL": "Lempira",
-    "HTG": "Gourde",
-    "HUF": "Fiorino Ungherese",
-    "IDR": "Rupia Indonesiana",
-    "ILS": "Nuovo Sheqel Israeliano",
-    "INR": "Rupia Indiana",
-    "IQD": "Dinaro Iracheno",
-    "IRR": "Rial Iraniano",
-    "ISK": "Corona Islandese",
-    "JMD": "Dollaro Giamaicano",
-    "JOD": "Dinaro Giordano",
-    "JPY": "Yen Giapponese",
-    "KES": "Scellino Keniota",
-    "KGS": "Som Kirghiso",
-    "KHR": "Riel Cambogiano",
-    "KMF": "Franco Comoriano",
-    "KPW": "Won Nordcoreano",
-    "KRW": "Won Sudcoreano",
-    "KWD": "Dinaro Kuwaitiano",
-    "KYD": "Dollaro delle Isole Cayman",
-    "KZT": "Tenge Kazako",
-    "LAK": "Kip del Laos",
-    "LBP": "Sterlina Libanese",
-    "LKR": "Rupia dello Sri Lanka",
-    "LRD": "Dollaro Liberiano",
-    "LSL": "Loti",
-    "LYD": "Dinaro Libico",
-    "MAD": "Dirham Marocchino",
-    "MDL": "Leu Moldavo",
-    "MGA": "Ariary Malgascio",
-    "MKD": "Dinaro Macedone",
-    "MMK": "Kyat Birmano",
-    "MNT": "Tugrik Mongolo",
-    "MOP": "Pataca",
-    "MRU": "Ouguiya",
-    "MUR": "Rupia Mauriziana",
-    "MVR": "Rufiyaa",
-    "MWK": "Kwacha Malawiano",
-    "MXN": "Peso Messicano",
-    "MXV": "Unidad de Inversion (UDI) Messicana",
-    "MYR": "Ringgit Malese",
-    "MZN": "Metical Mozambicano",
-    "NAD": "Dollaro Namibiano",
-    "NGN": "Naira Nigeriana",
-    "NIO": "Cordoba Oro",
-    "NOK": "Corona Norvegese",
-    "NPR": "Rupia Nepalese",
-    "NZD": "Dollaro Neozelandese",
-    "OMR": "Rial Omanita",
-    "PAB": "Balboa",
-    "PEN": "Sol Peruviano",
-    "PGK": "Kina della Papua Nuova Guinea",
-    "PHP": "Peso Filippino",
-    "PKR": "Rupia Pakistana",
-    "PLN": "Zloty Polacco",
-    "PYG": "Guarani",
-    "QAR": "Rial Qatariota",
-    "RON": "Leu Rumeno",
-    "RSD": "Dinaro Serbo",
-    "RUB": "Rublo Russo",
-    "RWF": "Franco Ruandese",
-    "SAR": "Riyal Saudita",
-    "SBD": "Dollaro delle Isole Salomone",
-    "SCR": "Rupia delle Seychelles",
-    "SDG": "Sterlina Sudanese",
-    "SEK": "Corona Svedese",
-    "SGD": "Dollaro di Singapore",
-    "SHP": "Sterlina di Sant'Elena",
-    "SLE": "Leone",
-    "SLL": "Leone (dismesso)",
-    "SOS": "Scellino Somalo",
-    "SRD": "Dollaro del Suriname",
-    "SSP": "Sterlina Sudsudanese",
-    "STN": "Dobra",
-    "SVC": "Colón Salvadoregno",
-    "SYP": "Sterlina Siriana",
-    "SZL": "Lilangeni",
-    "THB": "Baht Tailandese",
-    "TJS": "Somoni Tagiko",
-    "TMT": "Manat Turkmeno",
-    "TND": "Dinaro Tunisino",
-    "TOP": "Pa'anga",
-    "TRY": "Lira Turca",
-    "TTD": "Dollaro di Trinidad e Tobago",
-    "TWD": "Nuovo Dollaro di Taiwan",
-    "TZS": "Scellino della Tanzania",
-    "UAH": "Grivnia Ucraina",
-    "UGX": "Scellino Ugandese",
-    "USD": "Dollaro Statunitense",
-    "USN": "Dollaro Statunitense (giorno successivo)",
-    "UYI": "Peso Uruguayo in Unidades Indexadas (UI)",
-    "UYU": "Peso Uruguayo",
-    "UYW": "Unidad Previsional",
-    "UZS": "Sum Uzbeko",
-    "VED": "Bolívar Venezuelano Digitale",
-    "VES": "Bolívar Venezuelano",
-    "VND": "Dong Vietnamita",
-    "VUV": "Vatu",
-    "WST": "Tala",
-    "XAF": "Franco CFA BEAC",
-    "XAG": "Argento",
-    "XAU": "Oro",
-    "XBA": "Unità composita europea dei mercati obbligazionari (EURCO)",
-    "XBB": "Unità monetaria europea dei mercati obbligazionari (EMU-6)",
-    "XBC": "Unità di conto europea 9 (EUA-9)",
-    "XBD": "Unità di conto europea 17 (EUA-17)",
-    "XCD": "Dollaro dei Caraibi Orientali",
-    "XDR": "Diritti Speciali di Prelievo (SDR)",
-    "XOF": "Franco CFA BCEAO",
-    "XPD": "Palladio",
-    "XPF": "Franco CFP",
-    "XPT": "Platino",
-    "XSU": "Sucre",
-    "XTS": "Codici riservati specificamente per scopi di prova",
-    "XUA": "Unità di conto ADB",
-    "XXX": "Codici assegnati per transazioni senza valuta",
-    "YER": "Rial dello Yemen",
-    "ZAR": "Rand Sudafricano",
-    "ZMW": "Kwacha dello Zambia",
-    "ZWL": "Dollaro dello Zimbabwe"
+    "AED": {
+        "LABEL": "UAE Dirham",
+        "name": "Dirham degli Emirati Arabi Uniti",
+        "NOTES": []
+    },
+    "AFN": {
+        "LABEL": "Afghani",
+        "name": "Afghani",
+        "NOTES": []
+    },
+    "ALL": {
+        "LABEL": "Lek",
+        "name": "Lek",
+        "NOTES": []
+    },
+    "AMD": {
+        "LABEL": "Armenian Dram",
+        "name": "Dram Armeno",
+        "NOTES": []
+    },
+    "ANG": {
+        "LABEL": "Netherlands Antillean Guilder",
+        "name": "Fiorino delle Antille Olandesi",
+        "NOTES": []
+    },
+    "AOA": {
+        "LABEL": "Kwanza",
+        "name": "Kwanza",
+        "NOTES": []
+    },
+    "ARS": {
+        "LABEL": "Argentine Peso",
+        "name": "Peso Argentino",
+        "NOTES": []
+    },
+    "AUD": {
+        "LABEL": "Australian Dollar",
+        "name": "Dollaro Australiano",
+        "NOTES": []
+    },
+    "AWG": {
+        "LABEL": "Aruban Guilder",
+        "name": "Fiorino di Aruba",
+        "NOTES": []
+    },
+    "AZN": {
+        "LABEL": "Azerbaijan Manat",
+        "name": "Manat Azero",
+        "NOTES": []
+    },
+    "BAM": {
+        "LABEL": "Convertible Mark",
+        "name": "Marco Convertibile",
+        "NOTES": []
+    },
+    "BBD": {
+        "LABEL": "Barbados Dollar",
+        "name": "Dollaro di Barbados",
+        "NOTES": []
+    },
+    "BDT": {
+        "LABEL": "Taka",
+        "name": "Taka",
+        "NOTES": []
+    },
+    "BGN": {
+        "LABEL": "Bulgarian Lev",
+        "name": "Lev Bulgaro",
+        "NOTES": []
+    },
+    "BHD": {
+        "LABEL": "Bahraini Dinar",
+        "name": "Dinaro del Bahrain",
+        "NOTES": []
+    },
+    "BIF": {
+        "LABEL": "Burundi Franc",
+        "name": "Franco del Burundi",
+        "NOTES": []
+    },
+    "BMD": {
+        "LABEL": "Bermudian Dollar",
+        "name": "Dollaro delle Bermuda",
+        "NOTES": []
+    },
+    "BND": {
+        "LABEL": "Brunei Dollar",
+        "name": "Dollaro del Brunei",
+        "NOTES": []
+    },
+    "BOB": {
+        "LABEL": "Boliviano",
+        "name": "Boliviano",
+        "NOTES": []
+    },
+    "BOV": {
+        "LABEL": "Mvdol",
+        "name": "Mvdol",
+        "NOTES": []
+    },
+    "BRL": {
+        "LABEL": "Brazilian Real",
+        "name": "Real Brasiliano",
+        "NOTES": []
+    },
+    "BSD": {
+        "LABEL": "Bahamian Dollar",
+        "name": "Dollaro delle Bahamas",
+        "NOTES": []
+    },
+    "BTN": {
+        "LABEL": "Ngultrum",
+        "name": "Ngultrum",
+        "NOTES": []
+    },
+    "BWP": {
+        "LABEL": "Pula",
+        "name": "Pula",
+        "NOTES": []
+    },
+    "BYN": {
+        "LABEL": "Belarusian Ruble",
+        "name": "Rublo Bielorusso",
+        "NOTES": []
+    },
+    "BZD": {
+        "LABEL": "Belize Dollar",
+        "name": "Dollaro del Belize",
+        "NOTES": []
+    },
+    "CAD": {
+        "LABEL": "Canadian Dollar",
+        "name": "Dollaro Canadese",
+        "NOTES": []
+    },
+    "CDF": {
+        "LABEL": "Congolese Franc",
+        "name": "Franco Congolese",
+        "NOTES": []
+    },
+    "CHE": {
+        "LABEL": "WIR Euro",
+        "name": "Euro WIR",
+        "NOTES": []
+    },
+    "CHF": {
+        "LABEL": "Swiss Franc",
+        "name": "Franco Svizzero",
+        "NOTES": []
+    },
+    "CHW": {
+        "LABEL": "WIR Franc",
+        "name": "Franco WIR",
+        "NOTES": []
+    },
+    "CLF": {
+        "LABEL": "Unidad de Fomento",
+        "name": "Unidad de Fomento",
+        "NOTES": []
+    },
+    "CLP": {
+        "LABEL": "Chilean Peso",
+        "name": "Peso Cileno",
+        "NOTES": []
+    },
+    "CNY": {
+        "LABEL": "Yuan Renminbi",
+        "name": "Renminbi Cinese",
+        "NOTES": []
+    },
+    "COP": {
+        "LABEL": "Colombian Peso",
+        "name": "Peso Colombiano",
+        "NOTES": []
+    },
+    "COU": {
+        "LABEL": "Unidad de Valor Real",
+        "name": "Unidad de Valor Real",
+        "NOTES": []
+    },
+    "CRC": {
+        "LABEL": "Costa Rican Colon",
+        "name": "Colón Costaricano",
+        "NOTES": []
+    },
+    "CUC": {
+        "LABEL": "Peso Convertible",
+        "name": "Peso Cubano Convertible",
+        "NOTES": []
+    },
+    "CUP": {
+        "LABEL": "Cuban Peso",
+        "name": "Peso Cubano",
+        "NOTES": []
+    },
+    "CVE": {
+        "LABEL": "Cabo Verde Escudo",
+        "name": "Escudo di Capo Verde",
+        "NOTES": []
+    },
+    "CZK": {
+        "LABEL": "Czech Koruna",
+        "name": "Corona Ceca",
+        "NOTES": []
+    },
+    "DJF": {
+        "LABEL": "Djibouti Franc",
+        "name": "Franco di Gibuti",
+        "NOTES": []
+    },
+    "DKK": {
+        "LABEL": "Danish Krone",
+        "name": "Corona Danese",
+        "NOTES": []
+    },
+    "DOP": {
+        "LABEL": "Dominican Peso",
+        "name": "Peso Dominicano",
+        "NOTES": []
+    },
+    "DZD": {
+        "LABEL": "Algerian Dinar",
+        "name": "Dinaro Algerino",
+        "NOTES": []
+    },
+    "EGP": {
+        "LABEL": "Egyptian Pound",
+        "name": "Sterlina Egiziana",
+        "NOTES": []
+    },
+    "ERN": {
+        "LABEL": "Nakfa",
+        "name": "Nakfa",
+        "NOTES": []
+    },
+    "ETB": {
+        "LABEL": "Ethiopian Birr",
+        "name": "Birr Etiope",
+        "NOTES": []
+    },
+    "EUR": {
+        "LABEL": "Euro",
+        "name": "Euro",
+        "NOTES": []
+    },
+    "FJD": {
+        "LABEL": "Fiji Dollar",
+        "name": "Dollaro delle Figi",
+        "NOTES": []
+    },
+    "FKP": {
+        "LABEL": "Falkland Islands Pound",
+        "name": "Sterlina delle Falkland",
+        "NOTES": []
+    },
+    "GBP": {
+        "LABEL": "Pound Sterling",
+        "name": "Sterlina Britannica",
+        "NOTES": []
+    },
+    "GEL": {
+        "LABEL": "Lari",
+        "name": "Lari Georgiano",
+        "NOTES": []
+    },
+    "GHS": {
+        "LABEL": "Ghana Cedi",
+        "name": "Cedi del Ghana",
+        "NOTES": []
+    },
+    "GIP": {
+        "LABEL": "Gibraltar Pound",
+        "name": "Sterlina di Gibilterra",
+        "NOTES": []
+    },
+    "GMD": {
+        "LABEL": "Dalasi",
+        "name": "Dalasi",
+        "NOTES": []
+    },
+    "GNF": {
+        "LABEL": "Guinean Franc",
+        "name": "Franco della Guinea",
+        "NOTES": []
+    },
+    "GTQ": {
+        "LABEL": "Quetzal",
+        "name": "Quetzal",
+        "NOTES": []
+    },
+    "GYD": {
+        "LABEL": "Guyana Dollar",
+        "name": "Dollaro della Guyana",
+        "NOTES": []
+    },
+    "HKD": {
+        "LABEL": "Hong Kong Dollar",
+        "name": "Dollaro di Hong Kong",
+        "NOTES": []
+    },
+    "HNL": {
+        "LABEL": "Lempira",
+        "name": "Lempira",
+        "NOTES": []
+    },
+    "HTG": {
+        "LABEL": "Gourde",
+        "name": "Gourde",
+        "NOTES": []
+    },
+    "HUF": {
+        "LABEL": "Forint",
+        "name": "Fiorino Ungherese",
+        "NOTES": []
+    },
+    "IDR": {
+        "LABEL": "Rupiah",
+        "name": "Rupia Indonesiana",
+        "NOTES": []
+    },
+    "ILS": {
+        "LABEL": "New Israeli Sheqel",
+        "name": "Nuovo Sheqel Israeliano",
+        "NOTES": []
+    },
+    "INR": {
+        "LABEL": "Indian Rupee",
+        "name": "Rupia Indiana",
+        "NOTES": []
+    },
+    "IQD": {
+        "LABEL": "Iraqi Dinar",
+        "name": "Dinaro Iracheno",
+        "NOTES": []
+    },
+    "IRR": {
+        "LABEL": "Iranian Rial",
+        "name": "Rial Iraniano",
+        "NOTES": []
+    },
+    "ISK": {
+        "LABEL": "Iceland Krona",
+        "name": "Corona Islandese",
+        "NOTES": []
+    },
+    "JMD": {
+        "LABEL": "Jamaican Dollar",
+        "name": "Dollaro Giamaicano",
+        "NOTES": []
+    },
+    "JOD": {
+        "LABEL": "Jordanian Dinar",
+        "name": "Dinaro Giordano",
+        "NOTES": []
+    },
+    "JPY": {
+        "LABEL": "Yen",
+        "name": "Yen Giapponese",
+        "NOTES": []
+    },
+    "KES": {
+        "LABEL": "Kenyan Shilling",
+        "name": "Scellino Keniota",
+        "NOTES": []
+    },
+    "KGS": {
+        "LABEL": "Som",
+        "name": "Som Kirghiso",
+        "NOTES": []
+    },
+    "KHR": {
+        "LABEL": "Riel",
+        "name": "Riel Cambogiano",
+        "NOTES": []
+    },
+    "KMF": {
+        "LABEL": "Comorian Franc ",
+        "name": "Franco Comoriano",
+        "NOTES": []
+    },
+    "KPW": {
+        "LABEL": "North Korean Won",
+        "name": "Won Nordcoreano",
+        "NOTES": []
+    },
+    "KRW": {
+        "LABEL": "Won",
+        "name": "Won Sudcoreano",
+        "NOTES": []
+    },
+    "KWD": {
+        "LABEL": "Kuwaiti Dinar",
+        "name": "Dinaro Kuwaitiano",
+        "NOTES": []
+    },
+    "KYD": {
+        "LABEL": "Cayman Islands Dollar",
+        "name": "Dollaro delle Isole Cayman",
+        "NOTES": []
+    },
+    "KZT": {
+        "LABEL": "Tenge",
+        "name": "Tenge Kazako",
+        "NOTES": []
+    },
+    "LAK": {
+        "LABEL": "Lao Kip",
+        "name": "Kip del Laos",
+        "NOTES": []
+    },
+    "LBP": {
+        "LABEL": "Lebanese Pound",
+        "name": "Sterlina Libanese",
+        "NOTES": []
+    },
+    "LKR": {
+        "LABEL": "Sri Lanka Rupee",
+        "name": "Rupia dello Sri Lanka",
+        "NOTES": []
+    },
+    "LRD": {
+        "LABEL": "Liberian Dollar",
+        "name": "Dollaro Liberiano",
+        "NOTES": []
+    },
+    "LSL": {
+        "LABEL": "Loti",
+        "name": "Loti",
+        "NOTES": []
+    },
+    "LYD": {
+        "LABEL": "Libyan Dinar",
+        "name": "Dinaro Libico",
+        "NOTES": []
+    },
+    "MAD": {
+        "LABEL": "Moroccan Dirham",
+        "name": "Dirham Marocchino",
+        "NOTES": []
+    },
+    "MDL": {
+        "LABEL": "Moldovan Leu",
+        "name": "Leu Moldavo",
+        "NOTES": []
+    },
+    "MGA": {
+        "LABEL": "Malagasy Ariary",
+        "name": "Ariary Malgascio",
+        "NOTES": []
+    },
+    "MKD": {
+        "LABEL": "Denar",
+        "name": "Dinaro Macedone",
+        "NOTES": []
+    },
+    "MMK": {
+        "LABEL": "Kyat",
+        "name": "Kyat Birmano",
+        "NOTES": []
+    },
+    "MNT": {
+        "LABEL": "Tugrik",
+        "name": "Tugrik Mongolo",
+        "NOTES": []
+    },
+    "MOP": {
+        "LABEL": "Pataca",
+        "name": "Pataca",
+        "NOTES": []
+    },
+    "MRU": {
+        "LABEL": "Ouguiya",
+        "name": "Ouguiya",
+        "NOTES": []
+    },
+    "MUR": {
+        "LABEL": "Mauritius Rupee",
+        "name": "Rupia Mauriziana",
+        "NOTES": []
+    },
+    "MVR": {
+        "LABEL": "Rufiyaa",
+        "name": "Rufiyaa",
+        "NOTES": []
+    },
+    "MWK": {
+        "LABEL": "Malawi Kwacha",
+        "name": "Kwacha Malawiano",
+        "NOTES": []
+    },
+    "MXN": {
+        "LABEL": "Mexican Peso",
+        "name": "Peso Messicano",
+        "NOTES": []
+    },
+    "MXV": {
+        "LABEL": "Mexican Unidad de Inversion (UDI)",
+        "name": "Unidad de Inversion (UDI) Messicana",
+        "NOTES": []
+    },
+    "MYR": {
+        "LABEL": "Malaysian Ringgit",
+        "name": "Ringgit Malese",
+        "NOTES": []
+    },
+    "MZN": {
+        "LABEL": "Mozambique Metical",
+        "name": "Metical Mozambicano",
+        "NOTES": []
+    },
+    "NAD": {
+        "LABEL": "Namibia Dollar",
+        "name": "Dollaro Namibiano",
+        "NOTES": []
+    },
+    "NGN": {
+        "LABEL": "Naira",
+        "name": "Naira Nigeriana",
+        "NOTES": []
+    },
+    "NIO": {
+        "LABEL": "Cordoba Oro",
+        "name": "Cordoba Oro",
+        "NOTES": []
+    },
+    "NOK": {
+        "LABEL": "Norwegian Krone",
+        "name": "Corona Norvegese",
+        "NOTES": []
+    },
+    "NPR": {
+        "LABEL": "Nepalese Rupee",
+        "name": "Rupia Nepalese",
+        "NOTES": []
+    },
+    "NZD": {
+        "LABEL": "New Zealand Dollar",
+        "name": "Dollaro Neozelandese",
+        "NOTES": []
+    },
+    "OMR": {
+        "LABEL": "Rial Omani",
+        "name": "Rial Omanita",
+        "NOTES": []
+    },
+    "PAB": {
+        "LABEL": "Balboa",
+        "name": "Balboa",
+        "NOTES": []
+    },
+    "PEN": {
+        "LABEL": "Sol",
+        "name": "Sol Peruviano",
+        "NOTES": []
+    },
+    "PGK": {
+        "LABEL": "Kina",
+        "name": "Kina della Papua Nuova Guinea",
+        "NOTES": []
+    },
+    "PHP": {
+        "LABEL": "Philippine Peso",
+        "name": "Peso Filippino",
+        "NOTES": []
+    },
+    "PKR": {
+        "LABEL": "Pakistan Rupee",
+        "name": "Rupia Pakistana",
+        "NOTES": []
+    },
+    "PLN": {
+        "LABEL": "Zloty",
+        "name": "Zloty Polacco",
+        "NOTES": []
+    },
+    "PYG": {
+        "LABEL": "Guarani",
+        "name": "Guarani",
+        "NOTES": []
+    },
+    "QAR": {
+        "LABEL": "Qatari Rial",
+        "name": "Rial Qatariota",
+        "NOTES": []
+    },
+    "RON": {
+        "LABEL": "Romanian Leu",
+        "name": "Leu Rumeno",
+        "NOTES": []
+    },
+    "RSD": {
+        "LABEL": "Serbian Dinar",
+        "name": "Dinaro Serbo",
+        "NOTES": []
+    },
+    "RUB": {
+        "LABEL": "Russian Ruble",
+        "name": "Rublo Russo",
+        "NOTES": []
+    },
+    "RWF": {
+        "LABEL": "Rwanda Franc",
+        "name": "Franco Ruandese",
+        "NOTES": []
+    },
+    "SAR": {
+        "LABEL": "Saudi Riyal",
+        "name": "Riyal Saudita",
+        "NOTES": []
+    },
+    "SBD": {
+        "LABEL": "Solomon Islands Dollar",
+        "name": "Dollaro delle Isole Salomone",
+        "NOTES": []
+    },
+    "SCR": {
+        "LABEL": "Seychelles Rupee",
+        "name": "Rupia delle Seychelles",
+        "NOTES": []
+    },
+    "SDG": {
+        "LABEL": "Sudanese Pound",
+        "name": "Sterlina Sudanese",
+        "NOTES": []
+    },
+    "SEK": {
+        "LABEL": "Swedish Krona",
+        "name": "Corona Svedese",
+        "NOTES": []
+    },
+    "SGD": {
+        "LABEL": "Singapore Dollar",
+        "name": "Dollaro di Singapore",
+        "NOTES": []
+    },
+    "SHP": {
+        "LABEL": "Saint Helena Pound",
+        "name": "Sterlina di Sant'Elena",
+        "NOTES": []
+    },
+    "SLE": {
+        "LABEL": "Leone",
+        "name": "Leone",
+        "NOTES": []
+    },
+    "SLL": {
+        "LABEL": "Leone",
+        "name": "Leone (dismesso)",
+        "NOTES": []
+    },
+    "SOS": {
+        "LABEL": "Somali Shilling",
+        "name": "Scellino Somalo",
+        "NOTES": []
+    },
+    "SRD": {
+        "LABEL": "Surinam Dollar",
+        "name": "Dollaro del Suriname",
+        "NOTES": []
+    },
+    "SSP": {
+        "LABEL": "South Sudanese Pound",
+        "name": "Sterlina Sudsudanese",
+        "NOTES": []
+    },
+    "STN": {
+        "LABEL": "Dobra",
+        "name": "Dobra",
+        "NOTES": []
+    },
+    "SVC": {
+        "LABEL": "El Salvador Colon",
+        "name": "Colón Salvadoregno",
+        "NOTES": []
+    },
+    "SYP": {
+        "LABEL": "Syrian Pound",
+        "name": "Sterlina Siriana",
+        "NOTES": []
+    },
+    "SZL": {
+        "LABEL": "Lilangeni",
+        "name": "Lilangeni",
+        "NOTES": []
+    },
+    "THB": {
+        "LABEL": "Baht",
+        "name": "Baht Tailandese",
+        "NOTES": []
+    },
+    "TJS": {
+        "LABEL": "Somoni",
+        "name": "Somoni Tagiko",
+        "NOTES": []
+    },
+    "TMT": {
+        "LABEL": "Turkmenistan New Manat",
+        "name": "Manat Turkmeno",
+        "NOTES": []
+    },
+    "TND": {
+        "LABEL": "Tunisian Dinar",
+        "name": "Dinaro Tunisino",
+        "NOTES": []
+    },
+    "TOP": {
+        "LABEL": "Pa’anga",
+        "name": "Pa'anga",
+        "NOTES": []
+    },
+    "TRY": {
+        "LABEL": "Turkish Lira",
+        "name": "Lira Turca",
+        "NOTES": []
+    },
+    "TTD": {
+        "LABEL": "Trinidad and Tobago Dollar",
+        "name": "Dollaro di Trinidad e Tobago",
+        "NOTES": []
+    },
+    "TWD": {
+        "LABEL": "New Taiwan Dollar",
+        "name": "Nuovo Dollaro di Taiwan",
+        "NOTES": []
+    },
+    "TZS": {
+        "LABEL": "Tanzanian Shilling",
+        "name": "Scellino della Tanzania",
+        "NOTES": []
+    },
+    "UAH": {
+        "LABEL": "Hryvnia",
+        "name": "Grivnia Ucraina",
+        "NOTES": []
+    },
+    "UGX": {
+        "LABEL": "Uganda Shilling",
+        "name": "Scellino Ugandese",
+        "NOTES": []
+    },
+    "USD": {
+        "LABEL": "US Dollar",
+        "name": "Dollaro Statunitense",
+        "NOTES": []
+    },
+    "USN": {
+        "LABEL": "US Dollar (Next day)",
+        "name": "Dollaro Statunitense (giorno successivo)",
+        "NOTES": []
+    },
+    "UYI": {
+        "LABEL": "Uruguay Peso en Unidades Indexadas (UI)",
+        "name": "Peso Uruguayo in Unidades Indexadas (UI)",
+        "NOTES": []
+    },
+    "UYU": {
+        "LABEL": "Peso Uruguayo",
+        "name": "Peso Uruguayo",
+        "NOTES": []
+    },
+    "UYW": {
+        "LABEL": "Unidad Previsional",
+        "name": "Unidad Previsional",
+        "NOTES": []
+    },
+    "UZS": {
+        "LABEL": "Uzbekistan Sum",
+        "name": "Sum Uzbeko",
+        "NOTES": []
+    },
+    "VED": {
+        "LABEL": "Bolívar Soberano",
+        "name": "Bolívar Venezuelano Digitale",
+        "NOTES": []
+    },
+    "VES": {
+        "LABEL": "Bolívar Soberano",
+        "name": "Bolívar Venezuelano",
+        "NOTES": []
+    },
+    "VND": {
+        "LABEL": "Dong",
+        "name": "Dong Vietnamita",
+        "NOTES": []
+    },
+    "VUV": {
+        "LABEL": "Vatu",
+        "name": "Vatu",
+        "NOTES": []
+    },
+    "WST": {
+        "LABEL": "Tala",
+        "name": "Tala",
+        "NOTES": []
+    },
+    "XAF": {
+        "LABEL": "CFA Franc BEAC",
+        "name": "Franco CFA BEAC",
+        "NOTES": []
+    },
+    "XAG": {
+        "LABEL": "Silver",
+        "name": "Argento",
+        "NOTES": []
+    },
+    "XAU": {
+        "LABEL": "Gold",
+        "name": "Oro",
+        "NOTES": []
+    },
+    "XBA": {
+        "LABEL": "Bond Markets Unit European Composite Unit (EURCO)",
+        "name": "Unità composita europea dei mercati obbligazionari (EURCO)",
+        "NOTES": []
+    },
+    "XBB": {
+        "LABEL": "Bond Markets Unit European Monetary Unit (E.M.U.-6)",
+        "name": "Unità monetaria europea dei mercati obbligazionari (EMU-6)",
+        "NOTES": []
+    },
+    "XBC": {
+        "LABEL": "Bond Markets Unit European Unit of Account 9 (E.U.A.-9)",
+        "name": "Unità di conto europea 9 (EUA-9)",
+        "NOTES": []
+    },
+    "XBD": {
+        "LABEL": "Bond Markets Unit European Unit of Account 17 (E.U.A.-17)",
+        "name": "Unità di conto europea 17 (EUA-17)",
+        "NOTES": []
+    },
+    "XCD": {
+        "LABEL": "East Caribbean Dollar",
+        "name": "Dollaro dei Caraibi Orientali",
+        "NOTES": []
+    },
+    "XDR": {
+        "LABEL": "SDR (Special Drawing Right)",
+        "name": "Diritti Speciali di Prelievo (SDR)",
+        "NOTES": []
+    },
+    "XOF": {
+        "LABEL": "CFA Franc BCEAO",
+        "name": "Franco CFA BCEAO",
+        "NOTES": []
+    },
+    "XPD": {
+        "LABEL": "Palladium",
+        "name": "Palladio",
+        "NOTES": []
+    },
+    "XPF": {
+        "LABEL": "CFP Franc",
+        "name": "Franco CFP",
+        "NOTES": []
+    },
+    "XPT": {
+        "LABEL": "Platinum",
+        "name": "Platino",
+        "NOTES": []
+    },
+    "XSU": {
+        "LABEL": "Sucre",
+        "name": "Sucre",
+        "NOTES": []
+    },
+    "XTS": {
+        "LABEL": "Codes specifically reserved for testing purposes",
+        "name": "Codici riservati specificamente per scopi di prova",
+        "NOTES": []
+    },
+    "XUA": {
+        "LABEL": "ADB Unit of Account",
+        "name": "Unità di conto ADB",
+        "NOTES": []
+    },
+    "XXX": {
+        "LABEL": "The codes assigned for transactions where no currency is involved",
+        "name": "Codici assegnati per transazioni senza valuta",
+        "NOTES": []
+    },
+    "YER": {
+        "LABEL": "Yemeni Rial",
+        "name": "Rial dello Yemen",
+        "NOTES": []
+    },
+    "ZAR": {
+        "LABEL": "Rand",
+        "name": "Rand Sudafricano",
+        "NOTES": []
+    },
+    "ZMW": {
+        "LABEL": "Zambian Kwacha",
+        "name": "Kwacha dello Zambia",
+        "NOTES": []
+    },
+    "ZWL": {
+        "LABEL": "Zimbabwe Dollar",
+        "name": "Dollaro dello Zimbabwe",
+        "NOTES": []
+    }
 }

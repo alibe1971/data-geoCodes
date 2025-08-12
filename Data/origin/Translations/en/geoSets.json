@@ -1,64 +1,312 @@
 {
-  "CONV-G20": "Group of Twenty (G20)",
-  "CONV-G7": "Group of Seven (G7)",
-  "CONV-SCHENGEN": "Schengen Area",
-  "CONV-UNCAC": "United Nations Convention Against Corruption (UNCAC)",
-  "GEOG-AF": "Africa",
-  "GEOG-AF-NO": "Northern Africa",
-  "GEOG-AF-SS": "Sub-Saharan Africa",
-  "GEOG-AF-SS-EA": "Eastern Africa",
-  "GEOG-AF-SS-MD": "Middle Africa",
-  "GEOG-AF-SS-SO": "Southern Africa",
-  "GEOG-AF-SS-WE": "Western Africa",
-  "GEOG-AM": "Americas",
-  "GEOG-AM-LA": "Latin America and the Caribbean",
-  "GEOG-AM-LA-CA": "Caribbean",
-  "GEOG-AM-LA-CT": "Central America",
-  "GEOG-AM-LA-SO": "South America",
-  "GEOG-AM-NO": "Northern America",
-  "GEOG-AQ": "Antartica",
-  "GEOG-AS": "Asia",
-  "GEOG-AS-CT": "Central Asia",
-  "GEOG-AS-EA": "Eastern Asia",
-  "GEOG-AS-SE": "South-eastern Asia",
-  "GEOG-AS-SO": "Southern Asia",
-  "GEOG-AS-WE": "Western Asia",
-  "GEOG-EU": "Europe",
-  "GEOG-EU-EA": "Eastern Europe",
-  "GEOG-EU-NO": "Northern Europe",
-  "GEOG-EU-NO-CH": "Channel Islands",
-  "GEOG-EU-SO": "Southern Europe",
-  "GEOG-EU-WE": "Western Europe",
-  "GEOG-OC": "Oceania",
-  "GEOG-OC-AN": "Australia and New Zealand",
-  "GEOG-OC-ME": "Melanesia",
-  "GEOG-OC-MI": "Micronesia",
-  "GEOG-OC-PO": "Polynesia",
-  "ORGS-ACTO": "Amazon Cooperation Treaty Organization (ACTO)",
-  "ORGS-ASEAN": "Association of Southeast Asian Nations (ASEAN)",
-  "ORGS-AU": "African Union (AU)",
-  "ORGS-BRICS": "BRICS",
-  "ORGS-CIS": "Commonwealth of Independent States (CIS)",
-  "ORGS-COE": "Council of Europe (CoE)",
-  "ORGS-CSTO": "Collective Security Treaty Organization (CSTO)",
-  "ORGS-CWNAT": "Commonwealth of the Nations",
-  "ORGS-CWRLM": "Commonwealth realm",
-  "ORGS-EU": "European Union (EU)",
-  "ORGS-IBRD": "International Bank for Reconstruction and Development (IBRD)",
-  "ORGS-ICC": "International Criminal Court (ICC)",
-  "ORGS-ICSID": "International Centre for Settlement of Investment Disputes (ICSID)",
-  "ORGS-IDA": "International Development Association (IDA)",
-  "ORGS-IFC": "International Finance Corporation (IFC)",
-  "ORGS-IPOL": "International Criminal Police Organization (Interpol)",
-  "ORGS-MIGA": "Multilateral Investment Guarantee Agency (MIGA)",
-  "ORGS-NATO": "North Atlantic Treaty Organization (NATO)",
-  "ORGS-OAS": "Organization of American States (OAS)",
-  "ORGS-OECD": "Organisation for Economic Co-operation and Development (OECD)",
-  "ORGS-OPEC": "Organization of the Petroleum Exporting Countries (OPEC)",
-  "ORGS-OSCE": "Organization for Security and Co-operation in Europe (OSCE)",
-  "ORGS-SCO": "Shanghai Cooperation Organisation (SCO)",
-  "ORGS-UN": "United Nations (UN)",
-  "ORGS-WCO": "World Customs Organization (WCO)",
-  "ORGS-WTO": "World Trade Organization (WTO)",
-  "CONV-EZ": "Eurozone (EZ)"
+    "CONV-G20": {
+        "LABEL": "Group of Twenty (G20)",
+        "name": "Group of Twenty (G20)",
+        "NOTES": []
+    },
+    "CONV-G7": {
+        "LABEL": "Group of Seven (G7)",
+        "name": "Group of Seven (G7)",
+        "NOTES": []
+    },
+    "CONV-SCHENGEN": {
+        "LABEL": "Schengen Area",
+        "name": "Schengen Area",
+        "NOTES": []
+    },
+    "CONV-UNCAC": {
+        "LABEL": "United Nations Convention Against Corruption (UNCAC)",
+        "name": "United Nations Convention Against Corruption (UNCAC)",
+        "NOTES": []
+    },
+    "GEOG-AF": {
+        "LABEL": "Africa",
+        "name": "Africa",
+        "NOTES": []
+    },
+    "GEOG-AF-NO": {
+        "LABEL": "Northern Africa",
+        "name": "Northern Africa",
+        "NOTES": []
+    },
+    "GEOG-AF-SS": {
+        "LABEL": "Sub-Saharan Africa",
+        "name": "Sub-Saharan Africa",
+        "NOTES": []
+    },
+    "GEOG-AF-SS-EA": {
+        "LABEL": "Eastern Africa",
+        "name": "Eastern Africa",
+        "NOTES": []
+    },
+    "GEOG-AF-SS-MD": {
+        "LABEL": "Middle Africa",
+        "name": "Middle Africa",
+        "NOTES": []
+    },
+    "GEOG-AF-SS-SO": {
+        "LABEL": "Southern Africa",
+        "name": "Southern Africa",
+        "NOTES": []
+    },
+    "GEOG-AF-SS-WE": {
+        "LABEL": "Western Africa",
+        "name": "Western Africa",
+        "NOTES": []
+    },
+    "GEOG-AM": {
+        "LABEL": "Americas",
+        "name": "Americas",
+        "NOTES": []
+    },
+    "GEOG-AM-LA": {
+        "LABEL": "Latin America and the Caribbean",
+        "name": "Latin America and the Caribbean",
+        "NOTES": []
+    },
+    "GEOG-AM-LA-CA": {
+        "LABEL": "Caribbean",
+        "name": "Caribbean",
+        "NOTES": []
+    },
+    "GEOG-AM-LA-CT": {
+        "LABEL": "Central America",
+        "name": "Central America",
+        "NOTES": []
+    },
+    "GEOG-AM-LA-SO": {
+        "LABEL": "South America",
+        "name": "South America",
+        "NOTES": []
+    },
+    "GEOG-AM-NO": {
+        "LABEL": "Northern America",
+        "name": "Northern America",
+        "NOTES": []
+    },
+    "GEOG-AQ": {
+        "LABEL": "Antarctica",
+        "name": "Antartica",
+        "NOTES": []
+    },
+    "GEOG-AS": {
+        "LABEL": "Asia",
+        "name": "Asia",
+        "NOTES": []
+    },
+    "GEOG-AS-CT": {
+        "LABEL": "Central Asia",
+        "name": "Central Asia",
+        "NOTES": []
+    },
+    "GEOG-AS-EA": {
+        "LABEL": "Eastern Asia",
+        "name": "Eastern Asia",
+        "NOTES": []
+    },
+    "GEOG-AS-SE": {
+        "LABEL": "South-eastern Asia",
+        "name": "South-eastern Asia",
+        "NOTES": []
+    },
+    "GEOG-AS-SO": {
+        "LABEL": "Southern Asia",
+        "name": "Southern Asia",
+        "NOTES": []
+    },
+    "GEOG-AS-WE": {
+        "LABEL": "Western Asia",
+        "name": "Western Asia",
+        "NOTES": []
+    },
+    "GEOG-EU": {
+        "LABEL": "Europe",
+        "name": "Europe",
+        "NOTES": []
+    },
+    "GEOG-EU-EA": {
+        "LABEL": "Eastern Europe",
+        "name": "Eastern Europe",
+        "NOTES": []
+    },
+    "GEOG-EU-NO": {
+        "LABEL": "Northern Europe",
+        "name": "Northern Europe",
+        "NOTES": []
+    },
+    "GEOG-EU-NO-CH": {
+        "LABEL": "Channel Islands",
+        "name": "Channel Islands",
+        "NOTES": []
+    },
+    "GEOG-EU-SO": {
+        "LABEL": "Southern Europe",
+        "name": "Southern Europe",
+        "NOTES": []
+    },
+    "GEOG-EU-WE": {
+        "LABEL": "Western Europe",
+        "name": "Western Europe",
+        "NOTES": []
+    },
+    "GEOG-OC": {
+        "LABEL": "Oceania",
+        "name": "Oceania",
+        "NOTES": []
+    },
+    "GEOG-OC-AN": {
+        "LABEL": "Australia and New Zealand",
+        "name": "Australia and New Zealand",
+        "NOTES": []
+    },
+    "GEOG-OC-ME": {
+        "LABEL": "Melanesia",
+        "name": "Melanesia",
+        "NOTES": []
+    },
+    "GEOG-OC-MI": {
+        "LABEL": "Micronesia",
+        "name": "Micronesia",
+        "NOTES": []
+    },
+    "GEOG-OC-PO": {
+        "LABEL": "Polynesia",
+        "name": "Polynesia",
+        "NOTES": []
+    },
+    "ORGS-ACTO": {
+        "LABEL": "Amazon Cooperation Treaty Organization (ACTO)",
+        "name": "Amazon Cooperation Treaty Organization (ACTO)",
+        "NOTES": []
+    },
+    "ORGS-ASEAN": {
+        "LABEL": "Association of Southeast Asian Nations (ASEAN)",
+        "name": "Association of Southeast Asian Nations (ASEAN)",
+        "NOTES": []
+    },
+    "ORGS-AU": {
+        "LABEL": "African Union (AU)",
+        "name": "African Union (AU)",
+        "NOTES": []
+    },
+    "ORGS-BRICS": {
+        "LABEL": "BRICS",
+        "name": "BRICS",
+        "NOTES": []
+    },
+    "ORGS-CIS": {
+        "LABEL": "Commonwealth of Independent States (CIS)",
+        "name": "Commonwealth of Independent States (CIS)",
+        "NOTES": []
+    },
+    "ORGS-COE": {
+        "LABEL": "Council of Europe (CoE)",
+        "name": "Council of Europe (CoE)",
+        "NOTES": []
+    },
+    "ORGS-CSTO": {
+        "LABEL": "Collective Security Treaty Organization (CSTO)",
+        "name": "Collective Security Treaty Organization (CSTO)",
+        "NOTES": []
+    },
+    "ORGS-CWNAT": {
+        "LABEL": "Commonwealth of the Nations",
+        "name": "Commonwealth of the Nations",
+        "NOTES": []
+    },
+    "ORGS-CWRLM": {
+        "LABEL": "Commonwealth realm",
+        "name": "Commonwealth realm",
+        "NOTES": []
+    },
+    "ORGS-EU": {
+        "LABEL": "European Union (EU)",
+        "name": "European Union (EU)",
+        "NOTES": []
+    },
+    "ORGS-IBRD": {
+        "LABEL": "International Bank for Reconstruction and Development (IBRD)",
+        "name": "International Bank for Reconstruction and Development (IBRD)",
+        "NOTES": []
+    },
+    "ORGS-ICC": {
+        "LABEL": "International Criminal Court (ICC)",
+        "name": "International Criminal Court (ICC)",
+        "NOTES": []
+    },
+    "ORGS-ICSID": {
+        "LABEL": "International Centre for Settlement of Investment Disputes (ICSID)",
+        "name": "International Centre for Settlement of Investment Disputes (ICSID)",
+        "NOTES": []
+    },
+    "ORGS-IDA": {
+        "LABEL": "International Development Association (IDA)",
+        "name": "International Development Association (IDA)",
+        "NOTES": []
+    },
+    "ORGS-IFC": {
+        "LABEL": "International Finance Corporation (IFC)",
+        "name": "International Finance Corporation (IFC)",
+        "NOTES": []
+    },
+    "ORGS-IPOL": {
+        "LABEL": "The International Criminal Police Organization (Interpol)",
+        "name": "International Criminal Police Organization (Interpol)",
+        "NOTES": []
+    },
+    "ORGS-MIGA": {
+        "LABEL": "Multilateral Investment Guarantee Agency (MIGA)",
+        "name": "Multilateral Investment Guarantee Agency (MIGA)",
+        "NOTES": []
+    },
+    "ORGS-NATO": {
+        "LABEL": "North Atlantic Treaty Organization (NATO)",
+        "name": "North Atlantic Treaty Organization (NATO)",
+        "NOTES": []
+    },
+    "ORGS-OAS": {
+        "LABEL": "Organization of American States (OAS)",
+        "name": "Organization of American States (OAS)",
+        "NOTES": []
+    },
+    "ORGS-OECD": {
+        "LABEL": "Organisation for Economic Co-operation and Development (OECD)",
+        "name": "Organisation for Economic Co-operation and Development (OECD)",
+        "NOTES": []
+    },
+    "ORGS-OPEC": {
+        "LABEL": "Organization of the Petroleum Exporting Countries (OPEC)",
+        "name": "Organization of the Petroleum Exporting Countries (OPEC)",
+        "NOTES": []
+    },
+    "ORGS-OSCE": {
+        "LABEL": "Organization for Security and Co-operation in Europe (OSCE)",
+        "name": "Organization for Security and Co-operation in Europe (OSCE)",
+        "NOTES": []
+    },
+    "ORGS-SCO": {
+        "LABEL": "Shanghai Cooperation Organisation (SCO)",
+        "name": "Shanghai Cooperation Organisation (SCO)",
+        "NOTES": []
+    },
+    "ORGS-UN": {
+        "LABEL": "United Nations (UN)",
+        "name": "United Nations (UN)",
+        "NOTES": []
+    },
+    "ORGS-WCO": {
+        "LABEL": "World Customs Organization (WCO)",
+        "name": "World Customs Organization (WCO)",
+        "NOTES": []
+    },
+    "ORGS-WTO": {
+        "LABEL": "World Trade Organization (WTO)",
+        "name": "World Trade Organization (WTO)",
+        "NOTES": []
+    },
+    "CONV-EZ": {
+        "LABEL": "Eurozone (EZ)",
+        "name": "Eurozone (EZ)",
+        "NOTES": []
+    }
 }

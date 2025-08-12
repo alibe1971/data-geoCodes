@@ -298,7 +298,6 @@
             <keyword>bosniache</keyword>
             <keyword>erzegovese</keyword>
             <keyword>erzegovino</keyword>
-            <keyword>erzegovina</keyword>
             <keyword>erzegovine</keyword>
             <keyword>bosniacoerzegovese</keyword>
             <keyword>bosniacoerzegovino</keyword>
@@ -557,8 +556,6 @@
             <demonym>Bhutanési</demonym>
         </demonyms>
         <keywords>
-            <keyword>regno</keyword>
-            <keyword>del</keyword>
             <keyword>drago</keyword>
             <keyword>tonante</keyword>
             <keyword>di</keyword>
@@ -668,7 +665,6 @@
         </demonyms>
         <keywords>
             <keyword>kinshasa</keyword>
-            <keyword>repubblica</keyword>
             <keyword>rdc</keyword>
             <keyword>belga</keyword>
             <keyword>ex</keyword>
@@ -700,7 +696,6 @@
         </demonyms>
         <keywords>
             <keyword>brazzaville</keyword>
-            <keyword>repubblica</keyword>
             <keyword>francese</keyword>
             <keyword>ex</keyword>
             <keyword>congolese</keyword>
@@ -782,9 +777,7 @@
         <demonyms>
             <demonym>Cinési</demonym>
         </demonyms>
-        <keywords>
-            <keyword>cinese</keyword>
-        </keywords>
+        <keywords/>
     </country>
     <country key="CO">
         <name>Colombia</name>
@@ -1097,7 +1090,6 @@
             <demonym>Sahariani occidentali</demonym>
         </demonyms>
         <keywords>
-            <keyword>sahrawi</keyword>
             <keyword>sahariano</keyword>
             <keyword>sahariana</keyword>
             <keyword>sahariane</keyword>
@@ -1214,9 +1206,6 @@
         </demonyms>
         <keywords>
             <keyword>com</keyword>
-            <keyword>stati</keyword>
-            <keyword>federati</keyword>
-            <keyword>di</keyword>
             <keyword>microneiano</keyword>
             <keyword>microneiana</keyword>
             <keyword>microneiane</keyword>
@@ -1232,8 +1221,6 @@
             <demonym>Faroensi</demonym>
         </demonyms>
         <keywords>
-            <keyword>faroe</keyword>
-            <keyword>feringie</keyword>
             <keyword>faringio</keyword>
             <keyword>faringia</keyword>
             <keyword>faringie</keyword>
@@ -1249,7 +1236,6 @@
             <demonym>Francéṡi</demonym>
         </demonyms>
         <keywords>
-            <keyword>repubblica</keyword>
             <keyword>transalpina</keyword>
             <keyword>francee</keyword>
             <keyword>transalpino</keyword>
@@ -1263,9 +1249,7 @@
         <demonyms>
             <demonym>Gabonési</demonym>
         </demonyms>
-        <keywords>
-            <keyword>gabonese</keyword>
-        </keywords>
+        <keywords/>
     </country>
     <country key="GB">
         <name>Regno Unito</name>
@@ -1301,7 +1285,6 @@
             <keyword>albione</keyword>
             <keyword>scozia</keyword>
             <keyword>galles</keyword>
-            <keyword>irlanda</keyword>
             <keyword>settentrionale</keyword>
             <keyword>alba</keyword>
             <keyword>cymru</keyword>
@@ -1386,7 +1369,6 @@
             <keyword>dom</keyword>
             <keyword>guianese</keyword>
             <keyword>guyanese</keyword>
-            <keyword>della</keyword>
             <keyword>francesi</keyword>
         </keywords>
     </country>
@@ -1490,7 +1472,6 @@
             <keyword>dom</keyword>
             <keyword>guadalupe</keyword>
             <keyword>isola</keyword>
-            <keyword>di</keyword>
             <keyword>guadalupense</keyword>
             <keyword>guadalupiano</keyword>
             <keyword>guadalupiana</keyword>
@@ -1530,8 +1511,6 @@
             <demonym>Ellènici</demonym>
         </demonyms>
         <keywords>
-            <keyword>repubblica</keyword>
-            <keyword>ellenica</keyword>
             <keyword>greco</keyword>
             <keyword>greca</keyword>
             <keyword>greche</keyword>
@@ -1605,9 +1584,6 @@
             <demonym>Guyanési</demonym>
         </demonyms>
         <keywords>
-            <keyword>cooperativa</keyword>
-            <keyword>repubblica</keyword>
-            <keyword>di</keyword>
             <keyword>guianese</keyword>
             <keyword>guyanese</keyword>
         </keywords>
@@ -1833,7 +1809,6 @@
         <keywords>
             <keyword>penisola</keyword>
             <keyword>italiano</keyword>
-            <keyword>italiana</keyword>
             <keyword>italiane</keyword>
         </keywords>
     </country>
@@ -1880,9 +1855,6 @@
             <demonym>Giordaniani</demonym>
         </demonyms>
         <keywords>
-            <keyword>regno</keyword>
-            <keyword>hascemita</keyword>
-            <keyword>di</keyword>
             <keyword>giordano</keyword>
             <keyword>giordana</keyword>
             <keyword>giordane</keyword>
@@ -2119,7 +2091,6 @@
             <demonym>Libanési</demonym>
         </demonyms>
         <keywords>
-            <keyword>libanese</keyword>
             <keyword>del</keyword>
         </keywords>
     </country>
@@ -2984,7 +2955,6 @@
             <demonym>Lusitani</demonym>
         </demonyms>
         <keywords>
-            <keyword>portoghese</keyword>
             <keyword>lusitano</keyword>
             <keyword>lusitana</keyword>
             <keyword>lusitane</keyword>
@@ -3112,7 +3082,6 @@
         </demonyms>
         <keywords>
             <keyword>russo</keyword>
-            <keyword>russa</keyword>
             <keyword>russe</keyword>
         </keywords>
     </country>
@@ -3248,7 +3217,6 @@
         </demonyms>
         <keywords>
             <keyword>slovacco</keyword>
-            <keyword>slovacca</keyword>
             <keyword>slovacche</keyword>
         </keywords>
     </country>
@@ -3271,8 +3239,6 @@
         </demonyms>
         <keywords>
             <keyword>serenissima</keyword>
-            <keyword>repubblica</keyword>
-            <keyword>di</keyword>
             <keyword>sammarinese</keyword>
             <keyword>sanmarinese</keyword>
         </keywords>
@@ -3457,9 +3423,7 @@
         <demonyms>
             <demonym>Togolési</demonym>
         </demonyms>
-        <keywords>
-            <keyword>togolese</keyword>
-        </keywords>
+        <keywords/>
     </country>
     <country key="TH">
         <name>Tailandia</name>
@@ -3500,7 +3464,6 @@
             <demonym>Tokelauani</demonym>
         </demonyms>
         <keywords>
-            <keyword>isole</keyword>
             <keyword>dellunione</keyword>
             <keyword>tokelauano</keyword>
             <keyword>tokelauana</keyword>

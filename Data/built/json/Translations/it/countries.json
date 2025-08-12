@@ -297,7 +297,6 @@
             "bosniache",
             "erzegovese",
             "erzegovino",
-            "erzegovina",
             "erzegovine",
             "bosniacoerzegovese",
             "bosniacoerzegovino",
@@ -556,8 +555,6 @@
             "Bhutanési"
         ],
         "keywords": [
-            "regno",
-            "del",
             "drago",
             "tonante",
             "di",
@@ -667,7 +664,6 @@
         ],
         "keywords": [
             "kinshasa",
-            "repubblica",
             "rdc",
             "belga",
             "ex",
@@ -699,7 +695,6 @@
         ],
         "keywords": [
             "brazzaville",
-            "repubblica",
             "francese",
             "ex",
             "congolese"
@@ -781,9 +776,7 @@
         "demonyms": [
             "Cinési"
         ],
-        "keywords": [
-            "cinese"
-        ]
+        "keywords": []
     },
     "CO": {
         "name": "Colombia",
@@ -1096,7 +1089,6 @@
             "Sahariani occidentali"
         ],
         "keywords": [
-            "sahrawi",
             "sahariano",
             "sahariana",
             "sahariane",
@@ -1213,9 +1205,6 @@
         ],
         "keywords": [
             "com",
-            "stati",
-            "federati",
-            "di",
             "microneiano",
             "microneiana",
             "microneiane"
@@ -1231,8 +1220,6 @@
             "Faroensi"
         ],
         "keywords": [
-            "faroe",
-            "feringie",
             "faringio",
             "faringia",
             "faringie",
@@ -1248,7 +1235,6 @@
             "Francéṡi"
         ],
         "keywords": [
-            "repubblica",
             "transalpina",
             "francee",
             "transalpino",
@@ -1262,9 +1248,7 @@
         "demonyms": [
             "Gabonési"
         ],
-        "keywords": [
-            "gabonese"
-        ]
+        "keywords": []
     },
     "GB": {
         "name": "Regno Unito",
@@ -1300,7 +1284,6 @@
             "albione",
             "scozia",
             "galles",
-            "irlanda",
             "settentrionale",
             "alba",
             "cymru",
@@ -1385,7 +1368,6 @@
             "dom",
             "guianese",
             "guyanese",
-            "della",
             "francesi"
         ]
     },
@@ -1489,7 +1471,6 @@
             "dom",
             "guadalupe",
             "isola",
-            "di",
             "guadalupense",
             "guadalupiano",
             "guadalupiana",
@@ -1529,8 +1510,6 @@
             "Ellènici"
         ],
         "keywords": [
-            "repubblica",
-            "ellenica",
             "greco",
             "greca",
             "greche",
@@ -1604,9 +1583,6 @@
             "Guyanési"
         ],
         "keywords": [
-            "cooperativa",
-            "repubblica",
-            "di",
             "guianese",
             "guyanese"
         ]
@@ -1832,7 +1808,6 @@
         "keywords": [
             "penisola",
             "italiano",
-            "italiana",
             "italiane"
         ]
     },
@@ -1879,9 +1854,6 @@
             "Giordaniani"
         ],
         "keywords": [
-            "regno",
-            "hascemita",
-            "di",
             "giordano",
             "giordana",
             "giordane",
@@ -2118,7 +2090,6 @@
             "Libanési"
         ],
         "keywords": [
-            "libanese",
             "del"
         ]
     },
@@ -2983,7 +2954,6 @@
             "Lusitani"
         ],
         "keywords": [
-            "portoghese",
             "lusitano",
             "lusitana",
             "lusitane"
@@ -3111,7 +3081,6 @@
         ],
         "keywords": [
             "russo",
-            "russa",
             "russe"
         ]
     },
@@ -3247,7 +3216,6 @@
         ],
         "keywords": [
             "slovacco",
-            "slovacca",
             "slovacche"
         ]
     },
@@ -3270,8 +3238,6 @@
         ],
         "keywords": [
             "serenissima",
-            "repubblica",
-            "di",
             "sammarinese",
             "sanmarinese"
         ]
@@ -3456,9 +3422,7 @@
         "demonyms": [
             "Togolési"
         ],
-        "keywords": [
-            "togolese"
-        ]
+        "keywords": []
     },
     "TH": {
         "name": "Tailandia",
@@ -3499,7 +3463,6 @@
             "Tokelauani"
         ],
         "keywords": [
-            "isole",
             "dellunione",
             "tokelauano",
             "tokelauana",

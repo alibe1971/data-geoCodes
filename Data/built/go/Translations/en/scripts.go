@@ -20,907 +20,681 @@ package geoCodes
 
 const Scripts = `{
     "Adlm": {
-        "name": "Adlam",
-        "NOTES": []
+        "name": "Adlam"
     },
     "Afak": {
-        "name": "Afaka",
-        "NOTES": []
+        "name": "Afaka"
     },
     "Aghb": {
-        "name": "Caucasian Albanian",
-        "NOTES": []
+        "name": "Caucasian Albanian"
     },
     "Ahom": {
-        "name": "Ahom, Tai Ahom",
-        "NOTES": []
+        "name": "Ahom, Tai Ahom"
     },
     "Arab": {
-        "name": "Arabic",
-        "NOTES": []
+        "name": "Arabic"
     },
     "Aran": {
-        "name": "Arabic (Nastaliq variant)",
-        "NOTES": []
+        "name": "Arabic (Nastaliq variant)"
     },
     "Armi": {
-        "name": "Imperial Aramaic",
-        "NOTES": []
+        "name": "Imperial Aramaic"
     },
     "Armn": {
-        "name": "Armenian",
-        "NOTES": []
+        "name": "Armenian"
     },
     "Avst": {
-        "name": "Avestan",
-        "NOTES": []
+        "name": "Avestan"
     },
     "Bali": {
-        "name": "Balinese",
-        "NOTES": []
+        "name": "Balinese"
     },
     "Bamu": {
-        "name": "Bamum",
-        "NOTES": []
+        "name": "Bamum"
     },
     "Bass": {
-        "name": "Bassa Vah",
-        "NOTES": []
+        "name": "Bassa Vah"
     },
     "Batk": {
-        "name": "Batak",
-        "NOTES": []
+        "name": "Batak"
     },
     "Beng": {
-        "name": "Bengali (Bangla)",
-        "NOTES": []
+        "name": "Bengali (Bangla)"
     },
     "Berf": {
-        "name": "Beria Erfe",
-        "NOTES": []
+        "name": "Beria Erfe"
     },
     "Bhks": {
-        "name": "Bhaiksuki",
-        "NOTES": []
+        "name": "Bhaiksuki"
     },
     "Blis": {
-        "name": "Blissymbols",
-        "NOTES": []
+        "name": "Blissymbols"
     },
     "Bopo": {
-        "name": "Bopomofo",
-        "NOTES": []
+        "name": "Bopomofo"
     },
     "Brah": {
-        "name": "Brahmi",
-        "NOTES": []
+        "name": "Brahmi"
     },
     "Brai": {
-        "name": "Braille",
-        "NOTES": []
+        "name": "Braille"
     },
     "Bugi": {
-        "name": "Buginese",
-        "NOTES": []
+        "name": "Buginese"
     },
     "Buhd": {
-        "name": "Buhid",
-        "NOTES": []
+        "name": "Buhid"
     },
     "Cakm": {
-        "name": "Chakma",
-        "NOTES": []
+        "name": "Chakma"
     },
     "Cans": {
-        "name": "Unified Canadian Aboriginal Syllabics",
-        "NOTES": []
+        "name": "Unified Canadian Aboriginal Syllabics"
     },
     "Cari": {
-        "name": "Carian",
-        "NOTES": []
+        "name": "Carian"
     },
     "Cham": {
-        "name": "Cham",
-        "NOTES": []
+        "name": "Cham"
     },
     "Cher": {
-        "name": "Cherokee",
-        "NOTES": []
+        "name": "Cherokee"
     },
     "Chis": {
-        "name": "Chisoi",
-        "NOTES": []
+        "name": "Chisoi"
     },
     "Chrs": {
-        "name": "Chorasmian",
-        "NOTES": []
+        "name": "Chorasmian"
     },
     "Cirt": {
-        "name": "Cirth",
-        "NOTES": []
+        "name": "Cirth"
     },
     "Copt": {
-        "name": "Coptic",
-        "NOTES": []
+        "name": "Coptic"
     },
     "Cpmn": {
-        "name": "Cypro-Minoan",
-        "NOTES": []
+        "name": "Cypro-Minoan"
     },
     "Cprt": {
-        "name": "Cypriot syllabary",
-        "NOTES": []
+        "name": "Cypriot syllabary"
     },
     "Cyrl": {
-        "name": "Cyrillic",
-        "NOTES": []
+        "name": "Cyrillic"
     },
     "Cyrs": {
-        "name": "Cyrillic (Old Church Slavonic variant)",
-        "NOTES": []
+        "name": "Cyrillic (Old Church Slavonic variant)"
     },
     "Deva": {
-        "name": "Devanagari (Nagari)",
-        "NOTES": []
+        "name": "Devanagari (Nagari)"
     },
     "Diak": {
-        "name": "Dives Akuru",
-        "NOTES": []
+        "name": "Dives Akuru"
     },
     "Dogr": {
-        "name": "Dogra",
-        "NOTES": []
+        "name": "Dogra"
     },
     "Dsrt": {
-        "name": "Deseret (Mormon)",
-        "NOTES": []
+        "name": "Deseret (Mormon)"
     },
     "Dupl": {
-        "name": "Duployan shorthand, Duployan stenography",
-        "NOTES": []
+        "name": "Duployan shorthand, Duployan stenography"
     },
     "Egyd": {
-        "name": "Egyptian demotic",
-        "NOTES": []
+        "name": "Egyptian demotic"
     },
     "Egyh": {
-        "name": "Egyptian hieratic",
-        "NOTES": []
+        "name": "Egyptian hieratic"
     },
     "Egyp": {
-        "name": "Egyptian hieroglyphs",
-        "NOTES": []
+        "name": "Egyptian hieroglyphs"
     },
     "Elba": {
-        "name": "Elbasan",
-        "NOTES": []
+        "name": "Elbasan"
     },
     "Elym": {
-        "name": "Elymaic",
-        "NOTES": []
+        "name": "Elymaic"
     },
     "Ethi": {
-        "name": "Ethiopic (Geʻez)",
-        "NOTES": []
+        "name": "Ethiopic (Geʻez)"
     },
     "Gara": {
-        "name": "Garay",
-        "NOTES": []
+        "name": "Garay"
     },
     "Geok": {
-        "name": "Khutsuri (Asomtavruli and Nuskhuri)",
-        "NOTES": []
+        "name": "Khutsuri (Asomtavruli and Nuskhuri)"
     },
     "Geor": {
-        "name": "Georgian (Mkhedruli and Mtavruli)",
-        "NOTES": []
+        "name": "Georgian (Mkhedruli and Mtavruli)"
     },
     "Glag": {
-        "name": "Glagolitic",
-        "NOTES": []
+        "name": "Glagolitic"
     },
     "Gong": {
-        "name": "Gunjala Gondi",
-        "NOTES": []
+        "name": "Gunjala Gondi"
     },
     "Gonm": {
-        "name": "Masaram Gondi",
-        "NOTES": []
+        "name": "Masaram Gondi"
     },
     "Goth": {
-        "name": "Gothic",
-        "NOTES": []
+        "name": "Gothic"
     },
     "Gran": {
-        "name": "Grantha",
-        "NOTES": []
+        "name": "Grantha"
     },
     "Grek": {
-        "name": "Greek",
-        "NOTES": []
+        "name": "Greek"
     },
     "Gujr": {
-        "name": "Gujarati",
-        "NOTES": []
+        "name": "Gujarati"
     },
     "Gukh": {
-        "name": "Gurung Khema",
-        "NOTES": []
+        "name": "Gurung Khema"
     },
     "Guru": {
-        "name": "Gurmukhi",
-        "NOTES": []
+        "name": "Gurmukhi"
     },
     "Hanb": {
-        "name": "Han with Bopomofo (alias for Han + Bopomofo)",
-        "NOTES": []
+        "name": "Han with Bopomofo (alias for Han + Bopomofo)"
     },
     "Hang": {
-        "name": "Hangul (Hangŭl, Hangeul)",
-        "NOTES": []
+        "name": "Hangul (Hangŭl, Hangeul)"
     },
     "Hani": {
-        "name": "Han (Hanzi, Kanji, Hanja)",
-        "NOTES": []
+        "name": "Han (Hanzi, Kanji, Hanja)"
     },
     "Hano": {
-        "name": "Hanunoo (Hanunóo)",
-        "NOTES": []
+        "name": "Hanunoo (Hanunóo)"
     },
     "Hans": {
-        "name": "Han (Simplified variant)",
-        "NOTES": []
+        "name": "Han (Simplified variant)"
     },
     "Hant": {
-        "name": "Han (Traditional variant)",
-        "NOTES": []
+        "name": "Han (Traditional variant)"
     },
     "Hatr": {
-        "name": "Hatran",
-        "NOTES": []
+        "name": "Hatran"
     },
     "Hebr": {
-        "name": "Hebrew",
-        "NOTES": []
+        "name": "Hebrew"
     },
     "Hira": {
-        "name": "Hiragana",
-        "NOTES": []
+        "name": "Hiragana"
     },
     "Hluw": {
-        "name": "Anatolian Hieroglyphs (Luwian Hieroglyphs, Hittite Hieroglyphs)",
-        "NOTES": []
+        "name": "Anatolian Hieroglyphs (Luwian Hieroglyphs, Hittite Hieroglyphs)"
     },
     "Hmng": {
-        "name": "Pahawh Hmong",
-        "NOTES": []
+        "name": "Pahawh Hmong"
     },
     "Hmnp": {
-        "name": "Nyiakeng Puachue Hmong",
-        "NOTES": []
+        "name": "Nyiakeng Puachue Hmong"
     },
     "Hntl": {
-        "name": "Han (Traditional variant) with Latin (alias for Hant + Latn)",
-        "NOTES": []
+        "name": "Han (Traditional variant) with Latin (alias for Hant + Latn)"
     },
     "Hrkt": {
-        "name": "Japanese syllabaries (alias for Hiragana + Katakana)",
-        "NOTES": []
+        "name": "Japanese syllabaries (alias for Hiragana + Katakana)"
     },
     "Hung": {
-        "name": "Old Hungarian (Hungarian Runic)",
-        "NOTES": []
+        "name": "Old Hungarian (Hungarian Runic)"
     },
     "Inds": {
-        "name": "Indus (Harappan)",
-        "NOTES": []
+        "name": "Indus (Harappan)"
     },
     "Ital": {
-        "name": "Old Italic (Etruscan, Oscan, etc.)",
-        "NOTES": []
+        "name": "Old Italic (Etruscan, Oscan, etc.)"
     },
     "Jamo": {
-        "name": "Jamo (alias for Jamo subset of Hangul)",
-        "NOTES": []
+        "name": "Jamo (alias for Jamo subset of Hangul)"
     },
     "Java": {
-        "name": "Javanese",
-        "NOTES": []
+        "name": "Javanese"
     },
     "Jpan": {
-        "name": "Japanese (alias for Han + Hiragana + Katakana)",
-        "NOTES": []
+        "name": "Japanese (alias for Han + Hiragana + Katakana)"
     },
     "Jurc": {
-        "name": "Jurchen",
-        "NOTES": []
+        "name": "Jurchen"
     },
     "Kali": {
-        "name": "Kayah Li",
-        "NOTES": []
+        "name": "Kayah Li"
     },
     "Kana": {
-        "name": "Katakana",
-        "NOTES": []
+        "name": "Katakana"
     },
     "Kawi": {
-        "name": "Kawi",
-        "NOTES": []
+        "name": "Kawi"
     },
     "Khar": {
-        "name": "Kharoshthi",
-        "NOTES": []
+        "name": "Kharoshthi"
     },
     "Khmr": {
-        "name": "Khmer",
-        "NOTES": []
+        "name": "Khmer"
     },
     "Khoj": {
-        "name": "Khojki",
-        "NOTES": []
+        "name": "Khojki"
     },
     "Kitl": {
-        "name": "Khitan large script",
-        "NOTES": []
+        "name": "Khitan large script"
     },
     "Kits": {
-        "name": "Khitan small script",
-        "NOTES": []
+        "name": "Khitan small script"
     },
     "Knda": {
-        "name": "Kannada",
-        "NOTES": []
+        "name": "Kannada"
     },
     "Kore": {
-        "name": "Korean (alias for Hangul + Han)",
-        "NOTES": []
+        "name": "Korean (alias for Hangul + Han)"
     },
     "Kpel": {
-        "name": "Kpelle",
-        "NOTES": []
+        "name": "Kpelle"
     },
     "Krai": {
-        "name": "Kirat Rai",
-        "NOTES": []
+        "name": "Kirat Rai"
     },
     "Kthi": {
-        "name": "Kaithi",
-        "NOTES": []
+        "name": "Kaithi"
     },
     "Lana": {
-        "name": "Tai Tham (Lanna)",
-        "NOTES": []
+        "name": "Tai Tham (Lanna)"
     },
     "Laoo": {
-        "name": "Lao",
-        "NOTES": []
+        "name": "Lao"
     },
     "Latf": {
-        "name": "Latin (Fraktur variant)",
-        "NOTES": []
+        "name": "Latin (Fraktur variant)"
     },
     "Latg": {
-        "name": "Latin (Gaelic variant)",
-        "NOTES": []
+        "name": "Latin (Gaelic variant)"
     },
     "Latn": {
-        "name": "Latin",
-        "NOTES": []
+        "name": "Latin"
     },
     "Leke": {
-        "name": "Leke",
-        "NOTES": []
+        "name": "Leke"
     },
     "Lepc": {
-        "name": "Lepcha (Róng)",
-        "NOTES": []
+        "name": "Lepcha (Róng)"
     },
     "Limb": {
-        "name": "Limbu",
-        "NOTES": []
+        "name": "Limbu"
     },
     "Lina": {
-        "name": "Linear A",
-        "NOTES": []
+        "name": "Linear A"
     },
     "Linb": {
-        "name": "Linear B",
-        "NOTES": []
+        "name": "Linear B"
     },
     "Lisu": {
-        "name": "Lisu (Fraser)",
-        "NOTES": []
+        "name": "Lisu (Fraser)"
     },
     "Loma": {
-        "name": "Loma",
-        "NOTES": []
+        "name": "Loma"
     },
     "Lyci": {
-        "name": "Lycian",
-        "NOTES": []
+        "name": "Lycian"
     },
     "Lydi": {
-        "name": "Lydian",
-        "NOTES": []
+        "name": "Lydian"
     },
     "Mahj": {
-        "name": "Mahajani",
-        "NOTES": []
+        "name": "Mahajani"
     },
     "Maka": {
-        "name": "Makasar",
-        "NOTES": []
+        "name": "Makasar"
     },
     "Mand": {
-        "name": "Mandaic, Mandaean",
-        "NOTES": []
+        "name": "Mandaic, Mandaean"
     },
     "Mani": {
-        "name": "Manichaean",
-        "NOTES": []
+        "name": "Manichaean"
     },
     "Marc": {
-        "name": "Marchen",
-        "NOTES": []
+        "name": "Marchen"
     },
     "Maya": {
-        "name": "Mayan hieroglyphs",
-        "NOTES": []
+        "name": "Mayan hieroglyphs"
     },
     "Medf": {
-        "name": "Medefaidrin (Oberi Okaime, Oberi Ɔkaimɛ)",
-        "NOTES": []
+        "name": "Medefaidrin (Oberi Okaime, Oberi Ɔkaimɛ)"
     },
     "Mend": {
-        "name": "Mende Kikakui",
-        "NOTES": []
+        "name": "Mende Kikakui"
     },
     "Merc": {
-        "name": "Meroitic Cursive",
-        "NOTES": []
+        "name": "Meroitic Cursive"
     },
     "Mero": {
-        "name": "Meroitic Hieroglyphs",
-        "NOTES": []
+        "name": "Meroitic Hieroglyphs"
     },
     "Mlym": {
-        "name": "Malayalam",
-        "NOTES": []
+        "name": "Malayalam"
     },
     "Modi": {
-        "name": "Modi, Moḍī",
-        "NOTES": []
+        "name": "Modi, Moḍī"
     },
     "Mong": {
-        "name": "Mongolian",
-        "NOTES": []
+        "name": "Mongolian"
     },
     "Moon": {
-        "name": "Moon (Moon code, Moon script, Moon type)",
-        "NOTES": []
+        "name": "Moon (Moon code, Moon script, Moon type)"
     },
     "Mroo": {
-        "name": "Mro, Mru",
-        "NOTES": []
+        "name": "Mro, Mru"
     },
     "Mtei": {
-        "name": "Meitei Mayek (Meithei, Meetei)",
-        "NOTES": []
+        "name": "Meitei Mayek (Meithei, Meetei)"
     },
     "Mult": {
-        "name": "Multani",
-        "NOTES": []
+        "name": "Multani"
     },
     "Mymr": {
-        "name": "Myanmar (Burmese)",
-        "NOTES": []
+        "name": "Myanmar (Burmese)"
     },
     "Nagm": {
-        "name": "Nag Mundari",
-        "NOTES": []
+        "name": "Nag Mundari"
     },
     "Nand": {
-        "name": "Nandinagari",
-        "NOTES": []
+        "name": "Nandinagari"
     },
     "Narb": {
-        "name": "Old North Arabian (Ancient North Arabian)",
-        "NOTES": []
+        "name": "Old North Arabian (Ancient North Arabian)"
     },
     "Nbat": {
-        "name": "Nabataean",
-        "NOTES": []
+        "name": "Nabataean"
     },
     "Newa": {
-        "name": "Newa, Newar, Newari, Nepāla lipi",
-        "NOTES": []
+        "name": "Newa, Newar, Newari, Nepāla lipi"
     },
     "Nkdb": {
-        "name": "Naxi Dongba (Nakhi Tomba)",
-        "NOTES": []
+        "name": "Naxi Dongba (Nakhi Tomba)"
     },
     "Nkgb": {
-        "name": "Naxi Geba (Nakhi Geba)",
-        "NOTES": []
+        "name": "Naxi Geba (Nakhi Geba)"
     },
     "Nkoo": {
-        "name": "N’Ko",
-        "NOTES": []
+        "name": "N’Ko"
     },
     "Nshu": {
-        "name": "Nüshu",
-        "NOTES": []
+        "name": "Nüshu"
     },
     "Ogam": {
-        "name": "Ogham",
-        "NOTES": []
+        "name": "Ogham"
     },
     "Olck": {
-        "name": "Ol Chiki (Ol Cemet’, Ol, Santali)",
-        "NOTES": []
+        "name": "Ol Chiki (Ol Cemet’, Ol, Santali)"
     },
     "Onao": {
-        "name": "Ol Onal",
-        "NOTES": []
+        "name": "Ol Onal"
     },
     "Orkh": {
-        "name": "Old Turkic, Orkhon Runic",
-        "NOTES": []
+        "name": "Old Turkic, Orkhon Runic"
     },
     "Orya": {
-        "name": "Oriya (Odia)",
-        "NOTES": []
+        "name": "Oriya (Odia)"
     },
     "Osge": {
-        "name": "Osage",
-        "NOTES": []
+        "name": "Osage"
     },
     "Osma": {
-        "name": "Osmanya",
-        "NOTES": []
+        "name": "Osmanya"
     },
     "Ougr": {
-        "name": "Old Uyghur",
-        "NOTES": []
+        "name": "Old Uyghur"
     },
     "Palm": {
-        "name": "Palmyrene",
-        "NOTES": []
+        "name": "Palmyrene"
     },
     "Pauc": {
-        "name": "Pau Cin Hau",
-        "NOTES": []
+        "name": "Pau Cin Hau"
     },
     "Pcun": {
-        "name": "Proto-Cuneiform",
-        "NOTES": []
+        "name": "Proto-Cuneiform"
     },
     "Pelm": {
-        "name": "Proto-Elamite",
-        "NOTES": []
+        "name": "Proto-Elamite"
     },
     "Perm": {
-        "name": "Old Permic",
-        "NOTES": []
+        "name": "Old Permic"
     },
     "Phag": {
-        "name": "Phags-pa",
-        "NOTES": []
+        "name": "Phags-pa"
     },
     "Phli": {
-        "name": "Inscriptional Pahlavi",
-        "NOTES": []
+        "name": "Inscriptional Pahlavi"
     },
     "Phlp": {
-        "name": "Psalter Pahlavi",
-        "NOTES": []
+        "name": "Psalter Pahlavi"
     },
     "Phlv": {
-        "name": "Book Pahlavi",
-        "NOTES": []
+        "name": "Book Pahlavi"
     },
     "Phnx": {
-        "name": "Phoenician",
-        "NOTES": []
-    },
-    "Plrd": {
-        "name": "Miao (Pollard)",
-        "NOTES": []
+        "name": "Phoenician"
     },
     "Piqd": {
-        "name": "Klingon (KLI pIqaD)",
-        "NOTES": []
+        "name": "Klingon (KLI pIqaD)"
+    },
+    "Plrd": {
+        "name": "Miao (Pollard)"
     },
     "Prti": {
-        "name": "Inscriptional Parthian",
-        "NOTES": []
+        "name": "Inscriptional Parthian"
     },
     "Psin": {
-        "name": "Proto-Sinaitic",
-        "NOTES": []
+        "name": "Proto-Sinaitic"
     },
     "Qaaa": {
-        "name": "Reserved for private use (start)",
-        "NOTES": []
+        "name": "Reserved for private use (start)"
     },
     "Qabx": {
-        "name": "Reserved for private use (end)",
-        "NOTES": []
+        "name": "Reserved for private use (end)"
     },
     "Ranj": {
-        "name": "Ranjana",
-        "NOTES": []
+        "name": "Ranjana"
     },
     "Rjng": {
-        "name": "Rejang (Redjang, Kaganga)",
-        "NOTES": []
+        "name": "Rejang (Redjang, Kaganga)"
     },
     "Rohg": {
-        "name": "Hanifi Rohingya",
-        "NOTES": []
+        "name": "Hanifi Rohingya"
     },
     "Roro": {
-        "name": "Rongorongo",
-        "NOTES": []
+        "name": "Rongorongo"
     },
     "Runr": {
-        "name": "Runic",
-        "NOTES": []
+        "name": "Runic"
     },
     "Samr": {
-        "name": "Samaritan",
-        "NOTES": []
+        "name": "Samaritan"
     },
     "Sara": {
-        "name": "Sarati",
-        "NOTES": []
+        "name": "Sarati"
     },
     "Sarb": {
-        "name": "Old South Arabian",
-        "NOTES": []
+        "name": "Old South Arabian"
     },
     "Saur": {
-        "name": "Saurashtra",
-        "NOTES": []
+        "name": "Saurashtra"
     },
     "Seal": {
-        "name": "(Small) Seal",
-        "NOTES": []
+        "name": "(Small) Seal"
     },
     "Sgnw": {
-        "name": "SignWriting",
-        "NOTES": []
+        "name": "SignWriting"
     },
     "Shaw": {
-        "name": "Shavian (Shaw)",
-        "NOTES": []
+        "name": "Shavian (Shaw)"
     },
     "Shrd": {
-        "name": "Sharada, Śāradā",
-        "NOTES": []
+        "name": "Sharada, Śāradā"
     },
     "Shui": {
-        "name": "Shuishu",
-        "NOTES": []
+        "name": "Shuishu"
     },
     "Sidd": {
-        "name": "Siddham, Siddhaṃ, Siddhamātṛkā",
-        "NOTES": []
+        "name": "Siddham, Siddhaṃ, Siddhamātṛkā"
     },
     "Sidt": {
-        "name": "Sidetic",
-        "NOTES": []
+        "name": "Sidetic"
     },
     "Sind": {
-        "name": "Khudawadi, Sindhi",
-        "NOTES": []
+        "name": "Khudawadi, Sindhi"
     },
     "Sinh": {
-        "name": "Sinhala",
-        "NOTES": []
+        "name": "Sinhala"
     },
     "Sogd": {
-        "name": "Sogdian",
-        "NOTES": []
+        "name": "Sogdian"
     },
     "Sogo": {
-        "name": "Old Sogdian",
-        "NOTES": []
+        "name": "Old Sogdian"
     },
     "Sora": {
-        "name": "Sora Sompeng",
-        "NOTES": []
+        "name": "Sora Sompeng"
     },
     "Soyo": {
-        "name": "Soyombo",
-        "NOTES": []
+        "name": "Soyombo"
     },
     "Sund": {
-        "name": "Sundanese",
-        "NOTES": []
+        "name": "Sundanese"
     },
     "Sunu": {
-        "name": "Sunuwar",
-        "NOTES": []
+        "name": "Sunuwar"
     },
     "Sylo": {
-        "name": "Syloti Nagri",
-        "NOTES": []
+        "name": "Syloti Nagri"
     },
     "Syrc": {
-        "name": "Syriac",
-        "NOTES": []
+        "name": "Syriac"
     },
     "Syre": {
-        "name": "Syriac (Estrangelo variant)",
-        "NOTES": []
+        "name": "Syriac (Estrangelo variant)"
     },
     "Syrj": {
-        "name": "Syriac (Western variant)",
-        "NOTES": []
+        "name": "Syriac (Western variant)"
     },
     "Syrn": {
-        "name": "Syriac (Eastern variant)",
-        "NOTES": []
+        "name": "Syriac (Eastern variant)"
     },
     "Tagb": {
-        "name": "Tagbanwa",
-        "NOTES": []
+        "name": "Tagbanwa"
     },
     "Takr": {
-        "name": "Takri, Ṭākrī, Ṭāṅkrī",
-        "NOTES": []
+        "name": "Takri, Ṭākrī, Ṭāṅkrī"
     },
     "Tale": {
-        "name": "Tai Le",
-        "NOTES": []
+        "name": "Tai Le"
     },
     "Talu": {
-        "name": "New Tai Lue",
-        "NOTES": []
+        "name": "New Tai Lue"
     },
     "Taml": {
-        "name": "Tamil",
-        "NOTES": []
+        "name": "Tamil"
     },
     "Tang": {
-        "name": "Tangut",
-        "NOTES": []
+        "name": "Tangut"
     },
     "Tavt": {
-        "name": "Tai Viet",
-        "NOTES": []
+        "name": "Tai Viet"
     },
     "Tayo": {
-        "name": "Tai Yo",
-        "NOTES": []
+        "name": "Tai Yo"
     },
     "Telu": {
-        "name": "Telugu",
-        "NOTES": []
+        "name": "Telugu"
     },
     "Teng": {
-        "name": "Tengwar",
-        "NOTES": []
+        "name": "Tengwar"
     },
     "Tfng": {
-        "name": "Tifinagh (Berber)",
-        "NOTES": []
+        "name": "Tifinagh (Berber)"
     },
     "Tglg": {
-        "name": "Tagalog (Baybayin, Alibata)",
-        "NOTES": []
+        "name": "Tagalog (Baybayin, Alibata)"
     },
     "Thaa": {
-        "name": "Thaana",
-        "NOTES": []
+        "name": "Thaana"
     },
     "Thai": {
-        "name": "Thai",
-        "NOTES": []
+        "name": "Thai"
     },
     "Tibt": {
-        "name": "Tibetan",
-        "NOTES": []
+        "name": "Tibetan"
     },
     "Tirh": {
-        "name": "Tirhuta",
-        "NOTES": []
+        "name": "Tirhuta"
     },
     "Tnsa": {
-        "name": "Tangsa",
-        "NOTES": []
+        "name": "Tangsa"
     },
     "Todr": {
-        "name": "Todhri",
-        "NOTES": []
+        "name": "Todhri"
     },
     "Tols": {
-        "name": "Tolong Siki",
-        "NOTES": []
+        "name": "Tolong Siki"
     },
     "Toto": {
-        "name": "Toto",
-        "NOTES": []
+        "name": "Toto"
     },
     "Tutg": {
-        "name": "Tulu-Tigalari",
-        "NOTES": []
+        "name": "Tulu-Tigalari"
     },
     "Ugar": {
-        "name": "Ugaritic",
-        "NOTES": []
+        "name": "Ugaritic"
     },
     "Vaii": {
-        "name": "Vai",
-        "NOTES": []
+        "name": "Vai"
     },
     "Visp": {
-        "name": "Visible Speech",
-        "NOTES": []
+        "name": "Visible Speech"
     },
     "Vith": {
-        "name": "Vithkuqi",
-        "NOTES": []
+        "name": "Vithkuqi"
     },
     "Wara": {
-        "name": "Warang Citi (Varang Kshiti)",
-        "NOTES": []
+        "name": "Warang Citi (Varang Kshiti)"
     },
     "Wcho": {
-        "name": "Wancho",
-        "NOTES": []
+        "name": "Wancho"
     },
     "Wole": {
-        "name": "Woleai",
-        "NOTES": []
+        "name": "Woleai"
     },
     "Xpeo": {
-        "name": "Old Persian",
-        "NOTES": []
+        "name": "Old Persian"
     },
     "Xsux": {
-        "name": "Cuneiform, Sumero-Akkadian",
-        "NOTES": []
+        "name": "Cuneiform, Sumero-Akkadian"
     },
     "Yezi": {
-        "name": "Yezidi",
-        "NOTES": []
+        "name": "Yezidi"
     },
     "Yiii": {
-        "name": "Yi",
-        "NOTES": []
+        "name": "Yi"
     },
     "Zanb": {
-        "name": "Zanabazar Square (Zanabazarin Dörböljin Useg, Xewtee Dörböljin Bicig, Horizontal Square Script)",
-        "NOTES": []
+        "name": "Zanabazar Square (Zanabazarin Dörböljin Useg, Xewtee Dörböljin Bicig, Horizontal Square Script)"
     },
     "Zinh": {
-        "name": "Code for inherited script",
-        "NOTES": []
+        "name": "Code for inherited script"
     },
     "Zmth": {
-        "name": "Mathematical notation",
-        "NOTES": []
+        "name": "Mathematical notation"
     },
     "Zsye": {
-        "name": "Symbols (Emoji variant)",
-        "NOTES": []
+        "name": "Symbols (Emoji variant)"
     },
     "Zsym": {
-        "name": "Symbols",
-        "NOTES": []
+        "name": "Symbols"
     },
     "Zxxx": {
-        "name": "Code for unwritten documents",
-        "NOTES": []
+        "name": "Code for unwritten documents"
     },
     "Zyyy": {
-        "name": "Code for undetermined script",
-        "NOTES": []
+        "name": "Code for undetermined script"
     },
     "Zzzz": {
-        "name": "Code for uncoded script",
-        "NOTES": []
+        "name": "Code for uncoded script"
     }
 }`

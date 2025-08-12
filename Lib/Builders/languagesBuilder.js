@@ -1,5 +1,5 @@
 import chalk from 'chalk';
-import {errorMessage, requirements, sortList} from "../utils.js";
+import {errorMessage, getTranslationMandatoryString, requirements, sortList} from "../utils.js";
 import {configBuild} from "../configBuild.js";
 
 const mainKey = 'isoCode';
@@ -103,8 +103,8 @@ export const languagesFunctions = {
                 throwMex('scope', item[mainKey], 'Required property is missing');
             } else{
                 item.scope = item.scope.toUpperCase();
-                const scopePattern = new RegExp(`^(?:${configBuild.extra.languages.scope.join('|')})$`);
-                const scopeAvailable = '`' + configBuild.extra.languages.scope.join('`, `') + '`';
+                const scopePattern = new RegExp(`^(?:${configBuild.extra.languages.scopes.join('|')})$`);
+                const scopeAvailable = '`' + configBuild.extra.languages.scopes.join('`, `') + '`';
                 if(
                     !requirements(item.scope, 'mustBeString') ||
                     !requirements(item.scope, 'regex', scopePattern)
@@ -122,8 +122,8 @@ export const languagesFunctions = {
                 throwMex('type', item[mainKey], 'Required property is missing');
             } else{
                 item.type = item.type.toUpperCase();
-                const typePattern = new RegExp(`^(?:${configBuild.extra.languages.type.join('|')})$`);
-                const typeAvailable = '`' + configBuild.extra.languages.type.join('`, `') + '`';
+                const typePattern = new RegExp(`^(?:${configBuild.extra.languages.types.join('|')})$`);
+                const typeAvailable = '`' + configBuild.extra.languages.types.join('`, `') + '`';
                 if(
                     !requirements(item.type, 'mustBeString') ||
                     !requirements(item.type, 'regex', typePattern)
@@ -182,12 +182,72 @@ export const languagesFunctions = {
     },
 
     DataTranslations: async (data, defaultLanguage = 'en') => {
-        // eslint-disable-next-line no-unused-vars
-        const unused = defaultLanguage;
+        let ln;
+
+        function getTranslationStructure(structureName, langObjs, lang, items) {
+            let structure = {};
+            if (
+                !Object.prototype.hasOwnProperty.call(langObjs, structureName)
+            ) {
+                if (lang === defaultLanguage) {
+                    throw new Error( errorMessage('trans', collection, collectionItem, lang, structureName,
+                        'Missing mandatory property for language `' + lang + '` (default language)', lang));
+                }
+            }
+            for (const key of Object.values(items)) {
+                structure[key] =
+                    (getTranslationMandatoryString(
+                        collection,
+                        'Language Meta',
+                        structureName,
+                        langObjs[structureName],
+                        lang,
+                        defaultLanguage,
+                        key
+                    )) ?? '';
+
+            }
+            return structure;
+        }
 
         for (const [lang, langObjs] of Object.entries(data)) {
-            Translations[lang] = langObjs.name;
-            console.log(chalk.cyan('         - Translation language `' + lang + '` data for `languages` parsed'));
+
+            Translations[lang] = {
+                scopes: {},
+                types: {},
+                languages: {},
+            };
+
+            /** PART RELATED TO THE SCOPES **/
+            Translations[lang]['scopes'] = getTranslationStructure (
+                'scopes', langObjs, lang, configBuild.extra.languages.scopes
+            );
+
+            /** PART RELATED TO THE TYPES **/
+            Translations[lang]['types'] = getTranslationStructure (
+                'types', langObjs, lang, configBuild.extra.languages.types
+            );
+
+            /** PART RELATED TO THE LANGUAGES **/
+            for (const language of Object.values(Languages)) {
+                ln = language[mainKey];
+                Translations[lang]['languages'][ln] = {};
+
+                /** `name`: the source must be a string (required for the default language) **/
+                Translations[lang]['languages'][ln].name =
+                    (getTranslationMandatoryString(
+                        collection,
+                        collectionItem,
+                        ln,
+                        langObjs['languages'][ln],
+                        lang,
+                        defaultLanguage,
+                        'name'
+                    )) ?? '';
+            }
+            console.log(
+                chalk.cyan('         - Translation language `' + lang + '` data for `' + collection +'` parsed')
+            );
         }
         return Translations;
     }

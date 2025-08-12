@@ -71,7 +71,6 @@ AR:
   demonyms:
     - Argentinians
   keywords:
-    - argentine
     - argentines
 AS:
   name: American Samoa
@@ -254,7 +253,6 @@ BT:
   keywords:
     - thunder
     - dragon
-    - kingdom
     - druk
     - yul
 BV:
@@ -491,8 +489,7 @@ EH:
   demonyms:
     - Sahrawis
     - Western Saharans
-  keywords:
-    - sahrawi
+  keywords: []
 ER:
   name: Eritrea
   fullName: State of Eritrea
@@ -595,7 +592,6 @@ GB:
     - albion
     - scotland
     - wales
-    - ireland
     - alba
     - cymru
     - ulster
@@ -685,8 +681,6 @@ GR:
   demonyms:
     - Greeks
   keywords:
-    - hellenic
-    - republic
     - greek
     - el
 GS:
@@ -847,8 +841,7 @@ IT:
   fullName: Italian Republic
   demonyms:
     - Italians
-  keywords:
-    - italian
+  keywords: []
 JE:
   name: Jersey
   fullName: Bailiwick of Jersey
@@ -1174,8 +1167,7 @@ MX:
   fullName: United Mexican States
   demonyms:
     - Mexicans
-  keywords:
-    - mexican
+  keywords: []
 MY:
   name: Malaysia
   fullName: Malaysia
@@ -1491,8 +1483,7 @@ SK:
   fullName: Slovak Republic
   demonyms:
     - Slovaks
-  keywords:
-    - slovak
+  keywords: []
 SL:
   name: Sierra Leone
   fullName: Republic of Sierra Leone
@@ -1615,7 +1606,6 @@ TK:
     - Tokelauans
   keywords:
     - union
-    - islands
     - tokelauan
 TL:
   name: East Timor
@@ -1710,7 +1700,6 @@ US:
   keywords:
     - usa
     - us
-    - america
     - american
 UY:
   name: Uruguay

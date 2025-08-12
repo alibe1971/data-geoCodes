@@ -317,7 +317,6 @@ const Countries = `{
             "bosniache",
             "erzegovese",
             "erzegovino",
-            "erzegovina",
             "erzegovine",
             "bosniacoerzegovese",
             "bosniacoerzegovino",
@@ -576,8 +575,6 @@ const Countries = `{
             "Bhutanési"
         ],
         "keywords": [
-            "regno",
-            "del",
             "drago",
             "tonante",
             "di",
@@ -687,7 +684,6 @@ const Countries = `{
         ],
         "keywords": [
             "kinshasa",
-            "repubblica",
             "rdc",
             "belga",
             "ex",
@@ -719,7 +715,6 @@ const Countries = `{
         ],
         "keywords": [
             "brazzaville",
-            "repubblica",
             "francese",
             "ex",
             "congolese"
@@ -801,9 +796,7 @@ const Countries = `{
         "demonyms": [
             "Cinési"
         ],
-        "keywords": [
-            "cinese"
-        ]
+        "keywords": []
     },
     "CO": {
         "name": "Colombia",
@@ -1116,7 +1109,6 @@ const Countries = `{
             "Sahariani occidentali"
         ],
         "keywords": [
-            "sahrawi",
             "sahariano",
             "sahariana",
             "sahariane",
@@ -1233,9 +1225,6 @@ const Countries = `{
         ],
         "keywords": [
             "com",
-            "stati",
-            "federati",
-            "di",
             "microneiano",
             "microneiana",
             "microneiane"
@@ -1251,8 +1240,6 @@ const Countries = `{
             "Faroensi"
         ],
         "keywords": [
-            "faroe",
-            "feringie",
             "faringio",
             "faringia",
             "faringie",
@@ -1268,7 +1255,6 @@ const Countries = `{
             "Francéṡi"
         ],
         "keywords": [
-            "repubblica",
             "transalpina",
             "francee",
             "transalpino",
@@ -1282,9 +1268,7 @@ const Countries = `{
         "demonyms": [
             "Gabonési"
         ],
-        "keywords": [
-            "gabonese"
-        ]
+        "keywords": []
     },
     "GB": {
         "name": "Regno Unito",
@@ -1320,7 +1304,6 @@ const Countries = `{
             "albione",
             "scozia",
             "galles",
-            "irlanda",
             "settentrionale",
             "alba",
             "cymru",
@@ -1405,7 +1388,6 @@ const Countries = `{
             "dom",
             "guianese",
             "guyanese",
-            "della",
             "francesi"
         ]
     },
@@ -1509,7 +1491,6 @@ const Countries = `{
             "dom",
             "guadalupe",
             "isola",
-            "di",
             "guadalupense",
             "guadalupiano",
             "guadalupiana",
@@ -1549,8 +1530,6 @@ const Countries = `{
             "Ellènici"
         ],
         "keywords": [
-            "repubblica",
-            "ellenica",
             "greco",
             "greca",
             "greche",
@@ -1624,9 +1603,6 @@ const Countries = `{
             "Guyanési"
         ],
         "keywords": [
-            "cooperativa",
-            "repubblica",
-            "di",
             "guianese",
             "guyanese"
         ]
@@ -1852,7 +1828,6 @@ const Countries = `{
         "keywords": [
             "penisola",
             "italiano",
-            "italiana",
             "italiane"
         ]
     },
@@ -1899,9 +1874,6 @@ const Countries = `{
             "Giordaniani"
         ],
         "keywords": [
-            "regno",
-            "hascemita",
-            "di",
             "giordano",
             "giordana",
             "giordane",
@@ -2138,7 +2110,6 @@ const Countries = `{
             "Libanési"
         ],
         "keywords": [
-            "libanese",
             "del"
         ]
     },
@@ -3003,7 +2974,6 @@ const Countries = `{
             "Lusitani"
         ],
         "keywords": [
-            "portoghese",
             "lusitano",
             "lusitana",
             "lusitane"
@@ -3131,7 +3101,6 @@ const Countries = `{
         ],
         "keywords": [
             "russo",
-            "russa",
             "russe"
         ]
     },
@@ -3267,7 +3236,6 @@ const Countries = `{
         ],
         "keywords": [
             "slovacco",
-            "slovacca",
             "slovacche"
         ]
     },
@@ -3290,8 +3258,6 @@ const Countries = `{
         ],
         "keywords": [
             "serenissima",
-            "repubblica",
-            "di",
             "sammarinese",
             "sanmarinese"
         ]
@@ -3476,9 +3442,7 @@ const Countries = `{
         "demonyms": [
             "Togolési"
         ],
-        "keywords": [
-            "togolese"
-        ]
+        "keywords": []
     },
     "TH": {
         "name": "Tailandia",
@@ -3519,7 +3483,6 @@ const Countries = `{
             "Tokelauani"
         ],
         "keywords": [
-            "isole",
             "dellunione",
             "tokelauano",
             "tokelauana",

@@ -1,11 +1,10 @@
 import chalk from 'chalk';
 import {
     sortList,
-    checkForTranslationString,
     getMinimizedSvg,
     errorMessage,
     checkFile,
-    requirements, refactorLanguages
+    requirements, refactorLanguages, getTranslationMandatoryString
 } from '../utils.js';
 import slugify from 'slugify';
 import {configBuild} from "../configBuild.js";
@@ -33,7 +32,7 @@ export const countriesFunctions = {
             }
             let country = {};
 
-            /** officialName: it must be present and it must be an object not empty */
+            /** officialName: it must be present, and it must be an object not empty */
             if(!Object.prototype.hasOwnProperty.call(item, 'officialName')) {
                 item.officialName = {};
             }
@@ -627,78 +626,82 @@ export const countriesFunctions = {
     },
 
     DataTranslations: async (data, defaultLanguage = 'en') => {
-        let currentObj;
         let cc;
 
-        function checkIfIsArray(mainKey, lang, prop) {
+        function getTranslationArray(langObjs, mainKey, lang, prop) {
             if (
-                !Object.prototype.hasOwnProperty.call(currentObj, cc) ||
-                !Object.prototype.hasOwnProperty.call(currentObj[cc], prop)
+                !Object.prototype.hasOwnProperty.call(langObjs, mainKey) ||
+                !Object.prototype.hasOwnProperty.call(langObjs[mainKey], prop)
             ) {
-                return false;
+                return [];
             }
-            if (!Array.isArray(currentObj[cc][prop])) {
+            if (!requirements(langObjs[mainKey][prop], 'mustBeArray')) {
                 throw new Error( errorMessage('trans', collection, collectionItem, mainKey, prop,
                     'The property must be an array', lang));
             }
-            return true;
+            for (const [key,value] of Object.entries(langObjs[mainKey][prop])) {
+                if (
+                    !requirements(value, 'mustBeString') ||
+                    !requirements(value, 'cannotBeEmpty')
+                ) {
+                    throw new Error( errorMessage('trans', collection, collectionItem, mainKey,
+                        prop + '.' + key,
+                        'The property must be an array', lang));
+                }
+            }
+            return langObjs[mainKey][prop];
         }
         function slug(input) {
             if (input === null || input === undefined) return '';
             input = input.replace(/\./g, '');
             input = slugify(input, { replacement: ' ', lower: true, strict: true });
             input = input.replace(/\s+/g, ' ');
-            return input.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+            return input.normalize('NFD').replace(/[\u0300-\u036f]/g, "").toLowerCase();
         }
         function getWords(element) {
             return slug(element).split(' ');
         }
 
         for (const [lang, langObjs] of Object.entries(data)) {
+
             Translations[lang] = {};
+
             for (const country of Object.values(Countries)) {
                 cc = country[mainKey];
                 Translations[lang][cc] = {};
 
                 /** `name` (common name): the source must be a string (required for the default language) **/
                 Translations[lang][cc].name =
-                    (checkForTranslationString(
+                    (getTranslationMandatoryString(
                         collection,
                         collectionItem,
                         cc,
-                        langObjs.name,
+                        langObjs[cc],
                         lang,
                         defaultLanguage,
                         'name'
-                    )) ? langObjs.name[cc] : '';
+                    )) ?? '';
 
                 /** `fullName`: the source must be a string (required for the default language) **/
                 Translations[lang][cc].fullName =
-                    (checkForTranslationString(
+                    (getTranslationMandatoryString(
                         collection,
                         collectionItem,
                         cc,
-                        langObjs.name,
+                        langObjs[cc],
                         lang,
                         defaultLanguage,
-                        'name'
-                    )) ? langObjs.fullName[cc] : '';
+                        'fullName'
+                    )) ?? '';
 
                 /** `demonyms`: the source (if present) must be an array **/
-                currentObj = langObjs.demonyms;
-                Translations[lang][cc].demonyms = (checkIfIsArray(cc, lang, 'demonyms')) ?
-                    langObjs.demonyms[cc].demonyms : [];
-
+                Translations[lang][cc].demonyms = getTranslationArray(langObjs, cc, lang, 'demonyms');
+                
                 /** `keywords`: all the sources (if present) must be an array **/
-                currentObj = langObjs.acronymsAliasFormer;
-                let acronymsAliasFormer = (checkIfIsArray(cc, lang, 'acronymsAliasFormer')) ?
-                    langObjs.acronymsAliasFormer[cc].acronymsAliasFormer : [];
-                currentObj = langObjs.adjectives;
-                let adjectives = (checkIfIsArray(cc, lang, 'adjectives')) ? langObjs.adjectives[cc].adjectives : [];
-                currentObj = langObjs.others;
-                let others = (checkIfIsArray(cc, lang, 'others')) ? langObjs.others[cc].others : [];
-                currentObj = langObjs.typos;
-                let typos = (checkIfIsArray(cc, lang, 'typos')) ? langObjs.typos[cc].typos : [];
+                let acronymsAliasFormer = getTranslationArray(langObjs, cc, lang, 'acronymsAliasFormer');
+                let adjectives = getTranslationArray(langObjs, cc, lang, 'adjectives');
+                let others = getTranslationArray(langObjs, cc, lang, 'others');
+                let typos = getTranslationArray(langObjs, cc, lang, 'typos');
 
                 Translations[lang][cc].keywords =
                     Array.from(new Set([].concat(

@@ -1,5 +1,5 @@
 import chalk from 'chalk';
-import {errorMessage, requirements, sortList} from "../utils.js";
+import {errorMessage, getTranslationMandatoryString, requirements, sortList} from "../utils.js";
 import {configBuild} from "../configBuild.js";
 
 const mainKey = 'code';
@@ -57,12 +57,12 @@ export const scriptsFunctions = {
                     throwMex('writingDirection', item[mainKey],
                         'The property must be 3 char length string inside the fixed defined values ' +
                         '(' + directionAvailable + ')'
-                    )
+                    );
                 }
             }
             script.writingDirection = item.writingDirection;
 
-            /** unicode: it must be present and it must be an object not empty */
+            /** unicode: it must be present, and it must be an object not empty */
             if(!Object.prototype.hasOwnProperty.call(item, 'unicode')) {
                 throwMex('unicode', item[mainKey], 'Required property is missing');
             }
@@ -117,7 +117,7 @@ export const scriptsFunctions = {
                             'The property has an element that does not match with the unicode pattern'
                         );
                     }
-                    const intEntry = parseInt(entry, 16)
+                    const intEntry = parseInt(entry, 16);
                     if (idEntry === 0) {
                         checkOrder = intEntry;
                     } else {
@@ -144,12 +144,31 @@ export const scriptsFunctions = {
     },
 
     DataTranslations: async (data, defaultLanguage = 'en') => {
-        // eslint-disable-next-line no-unused-vars
-        const unused = defaultLanguage;
+        let sc;
 
         for (const [lang, langObjs] of Object.entries(data)) {
-            Translations[lang] = langObjs.name;
-            console.log(chalk.cyan('         - Translation language `' + lang + '` data for `languages` parsed'));
+
+            Translations[lang] = {};
+
+            for (const script of Object.values(Scripts)) {
+                sc = script[mainKey];
+                Translations[lang][sc] = {};
+
+                /** `name`: the source must be a string (required for the default language) **/
+                Translations[lang][sc].name =
+                    (getTranslationMandatoryString(
+                        collection,
+                        collectionItem,
+                        sc,
+                        langObjs[sc],
+                        lang,
+                        defaultLanguage,
+                        'name'
+                    )) ?? '';
+            }
+            console.log(
+                chalk.cyan('         - Translation language `' + lang + '` data for `' + collection +'` parsed')
+            );
         }
         return Translations;
     }

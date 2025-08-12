@@ -318,7 +318,6 @@ export const countries = {
             "bosniache",
             "erzegovese",
             "erzegovino",
-            "erzegovina",
             "erzegovine",
             "bosniacoerzegovese",
             "bosniacoerzegovino",
@@ -577,8 +576,6 @@ export const countries = {
             "Bhutanési"
         ],
         keywords: [
-            "regno",
-            "del",
             "drago",
             "tonante",
             "di",
@@ -688,7 +685,6 @@ export const countries = {
         ],
         keywords: [
             "kinshasa",
-            "repubblica",
             "rdc",
             "belga",
             "ex",
@@ -720,7 +716,6 @@ export const countries = {
         ],
         keywords: [
             "brazzaville",
-            "repubblica",
             "francese",
             "ex",
             "congolese"
@@ -802,9 +797,7 @@ export const countries = {
         demonyms: [
             "Cinési"
         ],
-        keywords: [
-            "cinese"
-        ]
+        keywords: []
     },
     CO: {
         name: "Colombia",
@@ -1117,7 +1110,6 @@ export const countries = {
             "Sahariani occidentali"
         ],
         keywords: [
-            "sahrawi",
             "sahariano",
             "sahariana",
             "sahariane",
@@ -1234,9 +1226,6 @@ export const countries = {
         ],
         keywords: [
             "com",
-            "stati",
-            "federati",
-            "di",
             "microneiano",
             "microneiana",
             "microneiane"
@@ -1252,8 +1241,6 @@ export const countries = {
             "Faroensi"
         ],
         keywords: [
-            "faroe",
-            "feringie",
             "faringio",
             "faringia",
             "faringie",
@@ -1269,7 +1256,6 @@ export const countries = {
             "Francéṡi"
         ],
         keywords: [
-            "repubblica",
             "transalpina",
             "francee",
             "transalpino",
@@ -1283,9 +1269,7 @@ export const countries = {
         demonyms: [
             "Gabonési"
         ],
-        keywords: [
-            "gabonese"
-        ]
+        keywords: []
     },
     GB: {
         name: "Regno Unito",
@@ -1321,7 +1305,6 @@ export const countries = {
             "albione",
             "scozia",
             "galles",
-            "irlanda",
             "settentrionale",
             "alba",
             "cymru",
@@ -1406,7 +1389,6 @@ export const countries = {
             "dom",
             "guianese",
             "guyanese",
-            "della",
             "francesi"
         ]
     },
@@ -1510,7 +1492,6 @@ export const countries = {
             "dom",
             "guadalupe",
             "isola",
-            "di",
             "guadalupense",
             "guadalupiano",
             "guadalupiana",
@@ -1550,8 +1531,6 @@ export const countries = {
             "Ellènici"
         ],
         keywords: [
-            "repubblica",
-            "ellenica",
             "greco",
             "greca",
             "greche",
@@ -1625,9 +1604,6 @@ export const countries = {
             "Guyanési"
         ],
         keywords: [
-            "cooperativa",
-            "repubblica",
-            "di",
             "guianese",
             "guyanese"
         ]
@@ -1853,7 +1829,6 @@ export const countries = {
         keywords: [
             "penisola",
             "italiano",
-            "italiana",
             "italiane"
         ]
     },
@@ -1900,9 +1875,6 @@ export const countries = {
             "Giordaniani"
         ],
         keywords: [
-            "regno",
-            "hascemita",
-            "di",
             "giordano",
             "giordana",
             "giordane",
@@ -2139,7 +2111,6 @@ export const countries = {
             "Libanési"
         ],
         keywords: [
-            "libanese",
             "del"
         ]
     },
@@ -3004,7 +2975,6 @@ export const countries = {
             "Lusitani"
         ],
         keywords: [
-            "portoghese",
             "lusitano",
             "lusitana",
             "lusitane"
@@ -3132,7 +3102,6 @@ export const countries = {
         ],
         keywords: [
             "russo",
-            "russa",
             "russe"
         ]
     },
@@ -3268,7 +3237,6 @@ export const countries = {
         ],
         keywords: [
             "slovacco",
-            "slovacca",
             "slovacche"
         ]
     },
@@ -3291,8 +3259,6 @@ export const countries = {
         ],
         keywords: [
             "serenissima",
-            "repubblica",
-            "di",
             "sammarinese",
             "sanmarinese"
         ]
@@ -3477,9 +3443,7 @@ export const countries = {
         demonyms: [
             "Togolési"
         ],
-        keywords: [
-            "togolese"
-        ]
+        keywords: []
     },
     TH: {
         name: "Tailandia",
@@ -3520,7 +3484,6 @@ export const countries = {
             "Tokelauani"
         ],
         keywords: [
-            "isole",
             "dellunione",
             "tokelauano",
             "tokelauana",

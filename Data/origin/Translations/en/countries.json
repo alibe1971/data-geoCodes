@@ -1,0 +1,4133 @@
+{
+    "AD": {
+        "LABEL": "Andorra",
+        "name": "Andorra",
+        "fullName": "Principality of Andorra",
+        "demonyms": [
+            "Andorrans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Andorran",
+            "Andorrans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "AE": {
+        "LABEL": "United Arab Emirates",
+        "name": "United Arab Emirates",
+        "fullName": "United Arab Emirates",
+        "demonyms": [
+            "Emiratis",
+            "Emaratians"
+        ],
+        "acronymsAliasFormer": [
+            "UAE",
+            "U.A.E."
+        ],
+        "adjectives": [
+            "Emirati",
+            "Emiratis"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "AF": {
+        "LABEL": "Afghanistan",
+        "name": "Afghanistan",
+        "fullName": "Islamic Emirate of Afghanistan",
+        "demonyms": [
+            "Afghans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Afghan",
+            "Afghans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "AG": {
+        "LABEL": "Antigua and Barbuda",
+        "name": "Antigua and Barbuda",
+        "fullName": "Antigua and Barbuda",
+        "demonyms": [
+            "Antiguans",
+            "Barbudans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Antiguan and Barbudan",
+            "Antiguan and Barbudans",
+            "Antiguan",
+            "Antiguans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "AI": {
+        "LABEL": "Anguilla",
+        "name": "Anguilla",
+        "fullName": "Anguilla",
+        "demonyms": [
+            "Anguillans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Anguillan",
+            "Anguillans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "AL": {
+        "LABEL": "Albania",
+        "name": "Albania",
+        "fullName": "Republic of Albania",
+        "demonyms": [
+            "Albanians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Albanian",
+            "Albanians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "AM": {
+        "LABEL": "Armenia",
+        "name": "Armenia",
+        "fullName": "Republic of Armenia",
+        "demonyms": [
+            "Armenians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Armenian",
+            "Armenians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "AO": {
+        "LABEL": "Angola",
+        "name": "Angola",
+        "fullName": "Republic of Angola",
+        "demonyms": [
+            "Angolans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Angolan",
+            "Angolans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "AQ": {
+        "LABEL": "Antarctica",
+        "name": "Antarctica",
+        "fullName": "Antarctica",
+        "demonyms": [],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Antarctics",
+            "Antarctic"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "AR": {
+        "LABEL": "Argentina",
+        "name": "Argentina",
+        "fullName": "Argentine Republic",
+        "demonyms": [
+            "Argentinians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Argentine",
+            "Argentines"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "AS": {
+        "LABEL": "American Samoa",
+        "name": "American Samoa",
+        "fullName": "American Samoa",
+        "demonyms": [
+            "Samoans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Samoan",
+            "Samoans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "AT": {
+        "LABEL": "Austria",
+        "name": "Austria",
+        "fullName": "Republic of Austria",
+        "demonyms": [
+            "Austrians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Austrian",
+            "Austrians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "AU": {
+        "LABEL": "Australia",
+        "name": "Australia",
+        "fullName": "Commonwealth of Australia",
+        "demonyms": [
+            "Australians"
+        ],
+        "acronymsAliasFormer": [
+            "aussie"
+        ],
+        "adjectives": [
+            "Australian",
+            "Australians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "AW": {
+        "LABEL": "Aruba",
+        "name": "Aruba",
+        "fullName": "Country of Aruba",
+        "demonyms": [
+            "Arubans"
+        ],
+        "acronymsAliasFormer": [
+            "ABC Islands",
+            "A.B.C. Islands"
+        ],
+        "adjectives": [
+            "Aruban",
+            "Arubans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "AX": {
+        "LABEL": "Åland Islands",
+        "name": "Åland Islands",
+        "fullName": "Region of Åland",
+        "demonyms": [
+            "Åland Islanders"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Ålandic",
+            "Ålandics"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "AZ": {
+        "LABEL": "Azerbaijan",
+        "name": "Azerbaijan",
+        "fullName": "Republic of Azerbaijan",
+        "demonyms": [
+            "Azerbaijanis"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Azerbaijani",
+            "Azerbaijanis"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "BA": {
+        "LABEL": "Bosnia and Herzegovina",
+        "name": "Bosnia and Herzegovina",
+        "fullName": "Bosnia and Herzegovina",
+        "demonyms": [
+            "Bosnians",
+            "Herzegovinians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Bosnian",
+            "Bosnians",
+            "Herzegovinian",
+            "Herzegovinians",
+            "Bosnian-Herzegovinian",
+            "Bosnian-Herzegovinians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "BB": {
+        "LABEL": "Barbados",
+        "name": "Barbados",
+        "fullName": "Barbados",
+        "demonyms": [
+            "Barbadians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Barbadian",
+            "Barbadians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "BD": {
+        "LABEL": "Bangladesh",
+        "name": "Bangladesh",
+        "fullName": "People's Republic of Bangladesh",
+        "demonyms": [
+            "Bangladeshis"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Bangladeshi",
+            "Bangladeshis"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "BE": {
+        "LABEL": "Belgium",
+        "name": "Belgium",
+        "fullName": "Kingdom of Belgium",
+        "demonyms": [
+            "Belgians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Belgian",
+            "Belgians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "BF": {
+        "LABEL": "Burkina Faso",
+        "name": "Burkina Faso",
+        "fullName": "Burkina Faso",
+        "demonyms": [
+            "Burkinabés"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Burkinabe",
+            "Burkinabes"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "BG": {
+        "LABEL": "Bulgaria",
+        "name": "Bulgaria",
+        "fullName": "Republic of Bulgaria",
+        "demonyms": [
+            "Bulgarians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Bulgarian",
+            "Bulgarians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "BH": {
+        "LABEL": "Bahrain",
+        "name": "Bahrain",
+        "fullName": "Kingdom of Bahrain",
+        "demonyms": [
+            "Bahrainis"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Bahraini",
+            "Bahrainis"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "BI": {
+        "LABEL": "Burundi",
+        "name": "Burundi",
+        "fullName": "Republic of Burundi",
+        "demonyms": [
+            "Burundians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Burundian",
+            "Burundians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "BJ": {
+        "LABEL": "Benin",
+        "name": "Benin",
+        "fullName": "Republic of Benin",
+        "demonyms": [
+            "Beninese"
+        ],
+        "acronymsAliasFormer": [
+            "Dahomey"
+        ],
+        "adjectives": [
+            "Beninese"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "BL": {
+        "LABEL": "Saint Barthélemy",
+        "name": "Saint Barthélemy",
+        "fullName": "Overseas Collectivity of Saint Barthélemy",
+        "demonyms": [
+            "Barthélemois",
+            "Saint Barthélemy Islanders"
+        ],
+        "acronymsAliasFormer": [
+            "COM",
+            "C.O.M."
+        ],
+        "adjectives": [
+            "Barthélemois"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "BM": {
+        "LABEL": "Bermuda",
+        "name": "Bermuda",
+        "fullName": "Bermuda",
+        "demonyms": [
+            "Bermudians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Bermudian",
+            "Bermudians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "BN": {
+        "LABEL": "Brunei Darussalam",
+        "name": "Brunei",
+        "fullName": "Brunei Darussalam",
+        "demonyms": [
+            "Bruneians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Bruneian",
+            "Bruneians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "BO": {
+        "LABEL": "Bolivia",
+        "name": "Bolivia",
+        "fullName": "Plurinational State of Bolivia",
+        "demonyms": [
+            "Bolivians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Bolivian",
+            "Bolivians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "BQ": {
+        "LABEL": "Bonaire, Sint Eustatius and Saba",
+        "name": "Bonaire, Sint Eustatius and Saba",
+        "fullName": "Caribbean Netherlands",
+        "demonyms": [
+            "Bonaireans",
+            "Saba Islanders",
+            "Sabans",
+            "Sint Eustatians"
+        ],
+        "acronymsAliasFormer": [
+            "ABC Islands",
+            "A.B.C. Islands",
+            "SSS Islands",
+            "S.S.S.",
+            " BES Islands",
+            "B.E.S."
+        ],
+        "adjectives": [
+            "Bonairian",
+            "Bonairians",
+            "Sint Eustatian",
+            "Sint Eustatians",
+            "Saban",
+            "Sabans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "BR": {
+        "LABEL": "Brazil",
+        "name": "Brazil",
+        "fullName": "Federative Republic of Brazil",
+        "demonyms": [
+            "Brazilians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Brazilian",
+            "Brazilians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "BS": {
+        "LABEL": "Bahamas",
+        "name": "Bahamas",
+        "fullName": "Commonwealth of The Bahamas",
+        "demonyms": [
+            "Bahamians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Bahamian",
+            "Bahamians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "BT": {
+        "LABEL": "Bhutan",
+        "name": "Bhutan",
+        "fullName": "Kingdom of Bhutan",
+        "demonyms": [
+            "Bhutanese"
+        ],
+        "acronymsAliasFormer": [
+            "Thunder Dragon Kingdom",
+            "Druk Yul"
+        ],
+        "adjectives": [
+            "Bhutanese"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "BV": {
+        "LABEL": "Bouvet Island",
+        "name": "Bouvet Island",
+        "fullName": "Bouvet Island",
+        "demonyms": [
+            "Bouvet Islanders"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Bouvet Island"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "BW": {
+        "LABEL": "Botswana",
+        "name": "Botswana",
+        "fullName": "Republic of Botswana",
+        "demonyms": [
+            "Batswana"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Botswanan",
+            "Batswana"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "BY": {
+        "LABEL": "Belarus",
+        "name": "Belarus",
+        "fullName": "Republic of Belarus",
+        "demonyms": [
+            "Belarusians"
+        ],
+        "acronymsAliasFormer": [
+            "White Russia",
+            "Belarus"
+        ],
+        "adjectives": [
+            "Belarusian",
+            "Belarusians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "BZ": {
+        "LABEL": "Belize",
+        "name": "Belize",
+        "fullName": "Belize",
+        "demonyms": [
+            "Belizeans"
+        ],
+        "acronymsAliasFormer": [
+            "British Honduras"
+        ],
+        "adjectives": [
+            "Belizean",
+            "Belizeans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "CA": {
+        "LABEL": "Canada",
+        "name": "Canada",
+        "fullName": "Canada",
+        "demonyms": [
+            "Canadians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Canadian",
+            "Canadians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "CC": {
+        "LABEL": "Cocos (Keeling) Islands",
+        "name": "Cocos (Keeling) Islands",
+        "fullName": "Cocos (Keeling) Islands",
+        "demonyms": [
+            "Cocosian",
+            "Cocos Islanders"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Cocosian"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "CD": {
+        "LABEL": "Congo (Democratic Republic of the)",
+        "name": "Congo (Democratic Republic of the)",
+        "fullName": "Democratic Republic of the Congo",
+        "demonyms": [
+            "Congolese"
+        ],
+        "acronymsAliasFormer": [
+            "Congo Kinshasa",
+            "Congo RDC",
+            "Congo R.D.C.",
+            "Belgian Congo",
+            "Zaire"
+        ],
+        "adjectives": [
+            "Congolese"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "CF": {
+        "LABEL": "Central African Republic",
+        "name": "Central African Republic",
+        "fullName": "Central African Republic",
+        "demonyms": [
+            "Central Africans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Central African",
+            "Central Africans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "CG": {
+        "LABEL": "Congo",
+        "name": "Congo",
+        "fullName": "Republic of the Congo",
+        "demonyms": [
+            "Congolese"
+        ],
+        "acronymsAliasFormer": [
+            "Congo Brazzaville",
+            "French Congo"
+        ],
+        "adjectives": [
+            "Congolese"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "CH": {
+        "LABEL": "Switzerland",
+        "name": "Switzerland",
+        "fullName": "Swiss Confederation",
+        "demonyms": [
+            "Swiss"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Swiss"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "CI": {
+        "LABEL": "Côte d'Ivoire",
+        "name": "Côte d'Ivoire",
+        "fullName": "Republic of Côte d'Ivoire",
+        "demonyms": [
+            "Ivorians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Ivorian",
+            "Ivorians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "CK": {
+        "LABEL": "Cook Islands",
+        "name": "Cook Islands",
+        "fullName": "Cook Islands",
+        "demonyms": [
+            "Cook Islanders"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Cook Island"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "CL": {
+        "LABEL": "Chile",
+        "name": "Chile",
+        "fullName": "Republic of Chile",
+        "demonyms": [
+            "Chileans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Chilean",
+            "Chileans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "CM": {
+        "LABEL": "Cameroon",
+        "name": "Cameroon",
+        "fullName": "Republic of Cameroon",
+        "demonyms": [
+            "Cameroonians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Cameroonian",
+            "Cameroonians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "CN": {
+        "LABEL": "China",
+        "name": "China",
+        "fullName": "People's Republic of China",
+        "demonyms": [
+            "Chinese"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Chinese"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "CO": {
+        "LABEL": "Colombia",
+        "name": "Colombia",
+        "fullName": "Republic of Colombia",
+        "demonyms": [
+            "Colombians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Colombian",
+            "Colombians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "CR": {
+        "LABEL": "Costa Rica",
+        "name": "Costa Rica",
+        "fullName": "Republic of Costa Rica",
+        "demonyms": [
+            "Costa Ricans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Costa Rican",
+            "Costa Ricans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "CU": {
+        "LABEL": "Cuba",
+        "name": "Cuba",
+        "fullName": "Republic of Cuba",
+        "demonyms": [
+            "Cubans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Cuban",
+            "Cubans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "CV": {
+        "LABEL": "Cabo Verde",
+        "name": "Cabo Verde",
+        "fullName": "Republic of Cabo Verde",
+        "demonyms": [
+            "Cape Verdeans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Cape Verdean",
+            "Cape Verdeans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "CW": {
+        "LABEL": "Curaçao",
+        "name": "Curaçao",
+        "fullName": "Country of Curaçao",
+        "demonyms": [
+            "Curaçaoans"
+        ],
+        "acronymsAliasFormer": [
+            "ABC Islands",
+            "A.B.C. Islands"
+        ],
+        "adjectives": [
+            "Curaçaoan",
+            "Curaçaoans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "CX": {
+        "LABEL": "Christmas Island",
+        "name": "Christmas Island",
+        "fullName": "Christmas Island",
+        "demonyms": [
+            "Christmas Islanders"
+        ],
+        "acronymsAliasFormer": [
+            "Kiritimati"
+        ],
+        "adjectives": [
+            "Christmas Island"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "CY": {
+        "LABEL": "Cyprus",
+        "name": "Cyprus",
+        "fullName": "Republic of Cyprus",
+        "demonyms": [
+            "Cypriots"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Cypriot",
+            "Cypriots"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "CZ": {
+        "LABEL": "Czechia",
+        "name": "Czech Republic",
+        "fullName": "Czech Republic",
+        "demonyms": [
+            "Czechs"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Czech",
+            "Czechs"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "DE": {
+        "LABEL": "Germany",
+        "name": "Germany",
+        "fullName": "Federal Republic of Germany",
+        "demonyms": [
+            "Germans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "German",
+            "Germans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "DJ": {
+        "LABEL": "Djibouti",
+        "name": "Djibouti",
+        "fullName": "Republic of Djibouti",
+        "demonyms": [
+            "Djiboutians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Djiboutian",
+            "Djiboutians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "DK": {
+        "LABEL": "Denmark",
+        "name": "Denmark",
+        "fullName": "Kingdom of Denmark",
+        "demonyms": [
+            "Danes"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Danish",
+            "Danes"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "DM": {
+        "LABEL": "Dominica",
+        "name": "Dominica",
+        "fullName": "Commonwealth of Dominica",
+        "demonyms": [
+            "Dominicans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Dominican",
+            "Dominicans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "DO": {
+        "LABEL": "Dominican Republic",
+        "name": "Dominican Republic",
+        "fullName": "Dominican Republic",
+        "demonyms": [
+            "Dominicans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Dominican",
+            "Dominicans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "DZ": {
+        "LABEL": "Algeria",
+        "name": "Algeria",
+        "fullName": "People's Democratic Republic of Algeria",
+        "demonyms": [
+            "Algerians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Algerian",
+            "Algerians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "EC": {
+        "LABEL": "Ecuador",
+        "name": "Ecuador",
+        "fullName": "Republic of Ecuador",
+        "demonyms": [
+            "Ecuadorians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Ecuadorian",
+            "Ecuadorians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "EE": {
+        "LABEL": "Estonia",
+        "name": "Estonia",
+        "fullName": "Republic of Estonia",
+        "demonyms": [
+            "Estonians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Estonian",
+            "Estonians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "EG": {
+        "LABEL": "Egypt",
+        "name": "Egypt",
+        "fullName": "Arab Republic of Egypt",
+        "demonyms": [
+            "Egyptians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Egyptian",
+            "Egyptians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "EH": {
+        "LABEL": "Western Sahara",
+        "name": "Western Sahara",
+        "fullName": "Sahrawi Arab Democratic Republic",
+        "demonyms": [
+            "Sahrawis",
+            "Western Saharans"
+        ],
+        "acronymsAliasFormer": [
+            "sahrawi"
+        ],
+        "adjectives": [
+            "Sahrawi",
+            "Sahrawis"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "ER": {
+        "LABEL": "Eritrea",
+        "name": "Eritrea",
+        "fullName": "State of Eritrea",
+        "demonyms": [
+            "Eritreans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Eritrean",
+            "Eritreans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "ES": {
+        "LABEL": "Spain",
+        "name": "Spain",
+        "fullName": "Kingdom of Spain",
+        "demonyms": [
+            "Spaniards"
+        ],
+        "acronymsAliasFormer": [
+            "Iberia",
+            "Iberian Peninsula"
+        ],
+        "adjectives": [
+            "Spanish",
+            "Spaniards"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "ET": {
+        "LABEL": "Ethiopia",
+        "name": "Ethiopia",
+        "fullName": "Federal Democratic Republic of Ethiopia",
+        "demonyms": [
+            "Ethiopians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Ethiopian",
+            "Ethiopians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "FI": {
+        "LABEL": "Finland",
+        "name": "Finland",
+        "fullName": "Republic of Finland",
+        "demonyms": [
+            "Finns"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Finnish",
+            "Finns"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "FJ": {
+        "LABEL": "Fiji",
+        "name": "Fiji",
+        "fullName": "Republic of Fiji",
+        "demonyms": [
+            "Fijians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Fijian",
+            "Fijians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "FK": {
+        "LABEL": "Falkland Islands (Malvinas)",
+        "name": "Falkland Islands",
+        "fullName": "Falkland Islands",
+        "demonyms": [
+            "Falkland Islanders"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Falklandian",
+            "Falklandic",
+            "Falklander",
+            "Falklandish"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "FM": {
+        "LABEL": "Micronesia (Federated States of)",
+        "name": "Micronesia (Federated States of)",
+        "fullName": "Federated States of Micronesia",
+        "demonyms": [
+            "Micronesians"
+        ],
+        "acronymsAliasFormer": [
+            "COM",
+            "C.O.M."
+        ],
+        "adjectives": [
+            "Micronesian",
+            "Micronesians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "FO": {
+        "LABEL": "Faroe Islands",
+        "name": "Faroe Islands",
+        "fullName": "Fær Øer",
+        "demonyms": [
+            "Faroese"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Faroese"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "FR": {
+        "LABEL": "France",
+        "name": "France",
+        "fullName": "French Republic",
+        "demonyms": [
+            "French"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "French"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "GA": {
+        "LABEL": "Gabon",
+        "name": "Gabon",
+        "fullName": "Gabonese Republic",
+        "demonyms": [
+            "Gabonese"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Gabonese"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "GB": {
+        "LABEL": "United Kingdom of Great Britain and Northern Ireland",
+        "name": "United Kingdom",
+        "fullName": "United Kingdom of Great Britain and Northern Ireland",
+        "demonyms": [
+            "British",
+            "English",
+            "Scottish",
+            "Welsh",
+            "Irish",
+            "Northern Irish"
+        ],
+        "acronymsAliasFormer": [
+            "UK",
+            "UK-GB",
+            "UKGB",
+            "GB-ENG",
+            "GB-NIR",
+            "GB-SCT",
+            "GB-WLS",
+            "GB-CYM",
+            "GB-EAW",
+            "GB-GBN",
+            "GB-UKM",
+            "United Kingdom",
+            "British Isles",
+            "Caledonia",
+            "England",
+            "Britannia",
+            "Albion",
+            "Scotland",
+            "Wales",
+            "Ireland",
+            "Northern Ireland",
+            "Alba",
+            "Cymru",
+            "Ulster"
+        ],
+        "adjectives": [
+            "British",
+            "Britons"
+        ],
+        "typos": [],
+        "others": [
+            "UK"
+        ],
+        "NOTES": []
+    },
+    "GD": {
+        "LABEL": "Grenada",
+        "name": "Grenada",
+        "fullName": "Grenada",
+        "demonyms": [
+            "Grenadians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Grenadian",
+            "Grenadians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "GE": {
+        "LABEL": "Georgia",
+        "name": "Georgia",
+        "fullName": "Republic of Georgia",
+        "demonyms": [
+            "Georgians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Georgian",
+            "Georgians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "GF": {
+        "LABEL": "French Guiana",
+        "name": "French Guiana",
+        "fullName": "Department of French Guiana",
+        "demonyms": [
+            "French Guianese"
+        ],
+        "acronymsAliasFormer": [
+            "French Guyana",
+            "DOM",
+            "D.O.M."
+        ],
+        "adjectives": [
+            "French Guianese"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[acronymsAliasFormer] Norman Islands"
+        ]
+    },
+    "GG": {
+        "LABEL": "Guernsey",
+        "name": "Guernsey",
+        "fullName": "Bailiwick of Guernsey",
+        "demonyms": [
+            "Channel Islanders",
+            "Guernsey Islanders"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "GH": {
+        "LABEL": "Ghana",
+        "name": "Ghana",
+        "fullName": "Republic of Ghana",
+        "demonyms": [
+            "Ghanaians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Ghanaian",
+            "Ghanaians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "GI": {
+        "LABEL": "Gibraltar",
+        "name": "Gibraltar",
+        "fullName": "Gibraltar",
+        "demonyms": [
+            "Gibraltarians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Gibraltar"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "GL": {
+        "LABEL": "Greenland",
+        "name": "Greenland",
+        "fullName": "Greenland",
+        "demonyms": [
+            "Greenlanders"
+        ],
+        "acronymsAliasFormer": [
+            "Inuit"
+        ],
+        "adjectives": [
+            "Greenlandic",
+            "Greenlanders"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "GM": {
+        "LABEL": "Gambia",
+        "name": "Gambia",
+        "fullName": "Republic of The Gambia",
+        "demonyms": [
+            "Gambians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Gambian",
+            "Gambians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "GN": {
+        "LABEL": "Guinea",
+        "name": "Guinea",
+        "fullName": "Republic of Guinea",
+        "demonyms": [
+            "Guineans"
+        ],
+        "acronymsAliasFormer": [
+            "Guinea Conakry"
+        ],
+        "adjectives": [
+            "Guinean",
+            "Guineans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "GP": {
+        "LABEL": "Guadeloupe",
+        "name": "Guadeloupe",
+        "fullName": "Department of Guadeloupe",
+        "demonyms": [
+            "Guadeloupeans"
+        ],
+        "acronymsAliasFormer": [
+            "DOM",
+            "D.O.M."
+        ],
+        "adjectives": [
+            "Guadeloupe"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "GQ": {
+        "LABEL": "Equatorial Guinea",
+        "name": "Equatorial Guinea",
+        "fullName": "Republic of Equatorial Guinea",
+        "demonyms": [
+            "Equatorial Guineans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Equatorial Guinean",
+            "Equatorial Guineans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "GR": {
+        "LABEL": "Greece",
+        "name": "Greece",
+        "fullName": "Hellenic Republic",
+        "demonyms": [
+            "Greeks"
+        ],
+        "acronymsAliasFormer": [
+            "Hellenic Republic"
+        ],
+        "adjectives": [
+            "Greek",
+            "Greeks"
+        ],
+        "typos": [],
+        "others": [
+            "EL"
+        ],
+        "NOTES": []
+    },
+    "GS": {
+        "LABEL": "South Georgia and the South Sandwich Islands",
+        "name": "South Georgia and the South Sandwich Islands",
+        "fullName": "South Georgia and the South Sandwich Islands",
+        "demonyms": [
+            "South Georgians",
+            "South Sandwich Islanders"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "South Georgian",
+            "South Georgians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "GT": {
+        "LABEL": "Guatemala",
+        "name": "Guatemala",
+        "fullName": "Republic of Guatemala",
+        "demonyms": [
+            "Guatemalans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Guatemalan",
+            "Guatemalans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "GU": {
+        "LABEL": "Guam",
+        "name": "Guam",
+        "fullName": "Guam",
+        "demonyms": [
+            "Guamanians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Guamanian",
+            "Guamanians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "GW": {
+        "LABEL": "Guinea-Bissau",
+        "name": "Guinea-Bissau",
+        "fullName": "Republic of Guinea-Bissau",
+        "demonyms": [
+            "Bissau-Guineans"
+        ],
+        "acronymsAliasFormer": [
+            "Portuguese Guinea"
+        ],
+        "adjectives": [
+            "Guinea-Bissauan",
+            "Guinea-Bissauans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "GY": {
+        "LABEL": "Guyana",
+        "name": "Guyana",
+        "fullName": "Co-operative Republic of Guyana",
+        "demonyms": [
+            "Guyanese"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Guyanese"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "HK": {
+        "LABEL": "Hong Kong",
+        "name": "Hong Kong",
+        "fullName": "Hong Kong Special Administrative Region of the People's Republic of China",
+        "demonyms": [
+            "Hong Kongers",
+            "Hongkongers"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Hong Kongese",
+            "Hongkongish"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "HM": {
+        "LABEL": "Heard Island and McDonald Islands",
+        "name": "Heard Island and McDonald Islands",
+        "fullName": "Territory of Heard Island and McDonald Islands",
+        "demonyms": [],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Heardian",
+            "Heardians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "HN": {
+        "LABEL": "Honduras",
+        "name": "Honduras",
+        "fullName": "Republic of Honduras",
+        "demonyms": [
+            "Hondurans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Honduran",
+            "Hondurans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "HR": {
+        "LABEL": "Croatia",
+        "name": "Croatia",
+        "fullName": "Republic of Croatia",
+        "demonyms": [
+            "Croatians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Croatian",
+            "Croatians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "HT": {
+        "LABEL": "Haiti",
+        "name": "Haiti",
+        "fullName": "Republic of Haiti",
+        "demonyms": [
+            "Haitians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Haitian",
+            "Haitians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "HU": {
+        "LABEL": "Hungary",
+        "name": "Hungary",
+        "fullName": "Hungary",
+        "demonyms": [
+            "Hungarians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Hungarian",
+            "Hungarians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "ID": {
+        "LABEL": "Indonesia",
+        "name": "Indonesia",
+        "fullName": "Republic of Indonesia",
+        "demonyms": [
+            "Indonesians"
+        ],
+        "acronymsAliasFormer": [
+            "Portuguese Timor"
+        ],
+        "adjectives": [
+            "Indonesian",
+            "Indonesians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "IE": {
+        "LABEL": "Ireland",
+        "name": "Ireland",
+        "fullName": "Republic of Ireland",
+        "demonyms": [
+            "Irish"
+        ],
+        "acronymsAliasFormer": [
+            "Éire",
+            "Eire"
+        ],
+        "adjectives": [
+            "Irish"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "IL": {
+        "LABEL": "Israel",
+        "name": "Israel",
+        "fullName": "State of Israel",
+        "demonyms": [
+            "Israelis"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Israeli",
+            "Israelis"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "IM": {
+        "LABEL": "Isle of Man",
+        "name": "Isle of Man",
+        "fullName": "British islands Isle of Man",
+        "demonyms": [
+            "Manx"
+        ],
+        "acronymsAliasFormer": [
+            "Mann"
+        ],
+        "adjectives": [
+            "Manx"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "IN": {
+        "LABEL": "India",
+        "name": "India",
+        "fullName": "Republic of India",
+        "demonyms": [
+            "Indians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Indian",
+            "Indians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "IO": {
+        "LABEL": "British Indian Ocean Territory",
+        "name": "British Indian Ocean Territory",
+        "fullName": "British Indian Ocean Territory",
+        "demonyms": [
+            "British Indians"
+        ],
+        "acronymsAliasFormer": [
+            "Chagos",
+            "BIOT",
+            "B.I.O.T."
+        ],
+        "adjectives": [
+            "British Indian Oceanic"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "IQ": {
+        "LABEL": "Iraq",
+        "name": "Iraq",
+        "fullName": "Republic of Iraq",
+        "demonyms": [
+            "Iraqis"
+        ],
+        "acronymsAliasFormer": [
+            "Mesopotamia"
+        ],
+        "adjectives": [
+            "Iraqi",
+            "Iraqis"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "IR": {
+        "LABEL": "Iran (Islamic Republic of)",
+        "name": "Iran",
+        "fullName": "Islamic Republic of Iran",
+        "demonyms": [
+            "Iranians"
+        ],
+        "acronymsAliasFormer": [
+            "Persia",
+            "Persian",
+            "Persians"
+        ],
+        "adjectives": [
+            "Iranian",
+            "Iranians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "IS": {
+        "LABEL": "Iceland",
+        "name": "Iceland",
+        "fullName": "Republic of Iceland",
+        "demonyms": [
+            "Icelanders"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Icelandic",
+            "Icelanders"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "IT": {
+        "LABEL": "Italy",
+        "name": "Italy",
+        "fullName": "Italian Republic",
+        "demonyms": [
+            "Italians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Italian",
+            "Italians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "JE": {
+        "LABEL": "Jersey",
+        "name": "Jersey",
+        "fullName": "Bailiwick of Jersey",
+        "demonyms": [
+            "Channel Islanders",
+            "Jersey Islanders"
+        ],
+        "acronymsAliasFormer": [
+            "Norman Islands"
+        ],
+        "adjectives": [],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "JM": {
+        "LABEL": "Jamaica",
+        "name": "Jamaica",
+        "fullName": "Jamaica",
+        "demonyms": [
+            "Jamaicans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Jamaican",
+            "Jamaicans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "JO": {
+        "LABEL": "Jordan",
+        "name": "Jordan",
+        "fullName": "Hashemite Kingdom of Jordan",
+        "demonyms": [
+            "Jordanians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Jordanian",
+            "Jordanians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "JP": {
+        "LABEL": "Japan",
+        "name": "Japan",
+        "fullName": "Japan",
+        "demonyms": [
+            "Japanese"
+        ],
+        "acronymsAliasFormer": [
+            "Nippon"
+        ],
+        "adjectives": [
+            "Japanese"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "KE": {
+        "LABEL": "Kenya",
+        "name": "Kenya",
+        "fullName": "Republic of Kenya",
+        "demonyms": [
+            "Kenyans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Kenyan",
+            "Kenyans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "KG": {
+        "LABEL": "Kyrgyzstan",
+        "name": "Kyrgyzstan",
+        "fullName": "Kyrgyz Republic",
+        "demonyms": [
+            "Kyrgyz"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Kyrgyzstani",
+            "Kyrgyzstanis"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "KH": {
+        "LABEL": "Cambodia",
+        "name": "Cambodia",
+        "fullName": "Kingdom of Cambodia",
+        "demonyms": [
+            "Cambodians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Cambodian",
+            "Cambodians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "KI": {
+        "LABEL": "Kiribati",
+        "name": "Kiribati",
+        "fullName": "Republic of Kiribati",
+        "demonyms": [
+            "I-Kiribati"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Kiribati",
+            "I-Kiribati"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "KM": {
+        "LABEL": "Comoros",
+        "name": "Comoros",
+        "fullName": "Union of the Comoros",
+        "demonyms": [
+            "Comorians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Comoran",
+            "Comorians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "KN": {
+        "LABEL": "Saint Kitts and Nevis",
+        "name": "Saint Kitts and Nevis",
+        "fullName": "Federation of Saint Kitts and Nevis",
+        "demonyms": [
+            "Kittitians",
+            "Nevisians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Kittitian",
+            "Kittitians",
+            "Nevisian",
+            "Nevisians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "KP": {
+        "LABEL": "Korea (Democratic People's Republic of)",
+        "name": "Korea (Democratic People's Republic of)",
+        "fullName": "Democratic People's Republic of Korea",
+        "demonyms": [
+            "North Koreans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "North Korean",
+            "North Koreans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "KR": {
+        "LABEL": "Korea (Republic of)",
+        "name": "Korea (Republic of)",
+        "fullName": "Republic of Korea",
+        "demonyms": [
+            "South Koreans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "South Korean",
+            "South Koreans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "KW": {
+        "LABEL": "Kuwait",
+        "name": "Kuwait",
+        "fullName": "State of Kuwait",
+        "demonyms": [
+            "Kuwaitis"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Kuwaiti",
+            "Kuwaitis"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "KY": {
+        "LABEL": "Cayman Islands",
+        "name": "Cayman Islands",
+        "fullName": "Cayman Islands",
+        "demonyms": [
+            "Caymanians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Caymanian",
+            "Caymanians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "KZ": {
+        "LABEL": "Kazakhstan",
+        "name": "Kazakhstan",
+        "fullName": "Republic of Kazakhstan",
+        "demonyms": [
+            "Kazakhs"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Kazakhstani",
+            "Kazakhs"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "LA": {
+        "LABEL": "Lao People's Democratic Republic",
+        "name": "Lao People's Democratic Republic",
+        "fullName": "Lao People's Democratic Republic",
+        "demonyms": [
+            "Laotians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Laotian",
+            "Laotians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "LB": {
+        "LABEL": "Lebanon",
+        "name": "Lebanon",
+        "fullName": "Lebanese Republic",
+        "demonyms": [
+            "Lebanese"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Lebanese"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "LC": {
+        "LABEL": "Saint Lucia",
+        "name": "Saint Lucia",
+        "fullName": "Saint Lucia",
+        "demonyms": [
+            "Saint Lucians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Saint Lucian",
+            "Saint Lucians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "LI": {
+        "LABEL": "Liechtenstein",
+        "name": "Liechtenstein",
+        "fullName": "Principality of Liechtenstein",
+        "demonyms": [
+            "Liechtensteiners"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Liechtenstein"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "LK": {
+        "LABEL": "Sri Lanka",
+        "name": "Sri Lanka",
+        "fullName": "Democratic Socialist Republic of Sri Lanka",
+        "demonyms": [
+            "Sri Lankans"
+        ],
+        "acronymsAliasFormer": [
+            "Ceylon"
+        ],
+        "adjectives": [
+            "Sri Lankan",
+            "Sri Lankans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "LR": {
+        "LABEL": "Liberia",
+        "name": "Liberia",
+        "fullName": "Republic of Liberia",
+        "demonyms": [
+            "Liberians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Liberian",
+            "Liberians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "LS": {
+        "LABEL": "Lesotho",
+        "name": "Lesotho",
+        "fullName": "Kingdom of Lesotho",
+        "demonyms": [
+            "Basotho"
+        ],
+        "acronymsAliasFormer": [
+            "Basotho"
+        ],
+        "adjectives": [
+            "Basotho"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "LT": {
+        "LABEL": "Lithuania",
+        "name": "Lithuania",
+        "fullName": "Republic of Lithuania",
+        "demonyms": [
+            "Lithuanians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Lithuanian",
+            "Lithuanians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "LU": {
+        "LABEL": "Luxembourg",
+        "name": "Luxembourg",
+        "fullName": "Grand Duchy of Luxembourg",
+        "demonyms": [
+            "Luxembourgers"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Luxembourg"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "LV": {
+        "LABEL": "Latvia",
+        "name": "Latvia",
+        "fullName": "Republic of Latvia",
+        "demonyms": [
+            "Latvians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Latvian",
+            "Latvians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "LY": {
+        "LABEL": "Libya",
+        "name": "Libya",
+        "fullName": "State of Libya",
+        "demonyms": [
+            "Libyans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Libyan",
+            "Libyans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "MA": {
+        "LABEL": "Morocco",
+        "name": "Morocco",
+        "fullName": "Kingdom of Morocco",
+        "demonyms": [
+            "Moroccans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Moroccan",
+            "Moroccans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "MC": {
+        "LABEL": "Monaco",
+        "name": "Monaco",
+        "fullName": "Principality of Monaco",
+        "demonyms": [
+            "Monégasque"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Monégasque",
+            "Monégasques"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "MD": {
+        "LABEL": "Moldova (Republic of)",
+        "name": "Moldova",
+        "fullName": "Republic of Moldova",
+        "demonyms": [
+            "Moldovans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Moldovan",
+            "Moldovans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "ME": {
+        "LABEL": "Montenegro",
+        "name": "Montenegro",
+        "fullName": "Montenegro",
+        "demonyms": [
+            "Montenegrins"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Montenegrin",
+            "Montenegrins"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "MF": {
+        "LABEL": "Saint Martin (French part)",
+        "name": "Saint Martin (French part)",
+        "fullName": "Overseas Collectivity of Saint Martin",
+        "demonyms": [
+            "Saint-Martinois"
+        ],
+        "acronymsAliasFormer": [
+            "COM",
+            "C.O.M."
+        ],
+        "adjectives": [
+            "Saint-Martinoise",
+            "Saint-Martinois"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "MG": {
+        "LABEL": "Madagascar",
+        "name": "Madagascar",
+        "fullName": "Republic of Madagascar",
+        "demonyms": [
+            "Malagasy"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Malagasy"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "MH": {
+        "LABEL": "Marshall Islands",
+        "name": "Marshall Islands",
+        "fullName": "Republic of the Marshall Islands",
+        "demonyms": [
+            "Marshallese"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Marshallese"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "MK": {
+        "LABEL": "North Macedonia",
+        "name": "North Macedonia",
+        "fullName": "Republic of North Macedonia",
+        "demonyms": [
+            "Macedonians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Macedonian",
+            "Macedonians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "ML": {
+        "LABEL": "Mali",
+        "name": "Mali",
+        "fullName": "Republic of Mali",
+        "demonyms": [
+            "Malians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Malian",
+            "Malians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "MM": {
+        "LABEL": "Myanmar",
+        "name": "Myanmar",
+        "fullName": "Republic of the Union of Myanmar",
+        "demonyms": [
+            "Burmese"
+        ],
+        "acronymsAliasFormer": [
+            "Burma"
+        ],
+        "adjectives": [
+            "Burmese"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "MN": {
+        "LABEL": "Mongolia",
+        "name": "Mongolia",
+        "fullName": "Mongolia",
+        "demonyms": [
+            "Mongolians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Mongolian",
+            "Mongolians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "MO": {
+        "LABEL": "Macao",
+        "name": "Macau",
+        "fullName": "Macau Special Administrative Region of the People's Republic of China",
+        "demonyms": [
+            "Macanese"
+        ],
+        "acronymsAliasFormer": [
+            "Macau"
+        ],
+        "adjectives": [
+            "Macanese"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "MP": {
+        "LABEL": "Northern Mariana Islands",
+        "name": "Northern Mariana Islands",
+        "fullName": "Commonwealth of the Northern Mariana Islands",
+        "demonyms": [
+            "Northern Mariana Islanders"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Northern Marianan",
+            "Northern Mariana Islanders"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "MQ": {
+        "LABEL": "Martinique",
+        "name": "Martinique",
+        "fullName": "Territorial Collectivity of Martinique",
+        "demonyms": [
+            "Martiniquais"
+        ],
+        "acronymsAliasFormer": [
+            "DOM",
+            "D.O.M."
+        ],
+        "adjectives": [
+            "Martiniquais"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "MR": {
+        "LABEL": "Mauritania",
+        "name": "Mauritania",
+        "fullName": "Islamic Republic of Mauritania",
+        "demonyms": [
+            "Mauritanians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Mauritanian",
+            "Mauritanians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "MS": {
+        "LABEL": "Montserrat",
+        "name": "Montserrat",
+        "fullName": "Colony of Montserrat",
+        "demonyms": [
+            "Montserratians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Montserratian",
+            "Montserratians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "MT": {
+        "LABEL": "Malta",
+        "name": "Malta",
+        "fullName": "Republic of Malta",
+        "demonyms": [
+            "Maltese"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Maltese"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "MU": {
+        "LABEL": "Mauritius",
+        "name": "Mauritius",
+        "fullName": "Republic of Mauritius",
+        "demonyms": [
+            "Mauritians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Mauritian",
+            "Mauritians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "MV": {
+        "LABEL": "Maldives",
+        "name": "Maldives",
+        "fullName": "Republic of Maldives",
+        "demonyms": [
+            "Maldivians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Maldivian",
+            "Maldivians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "MW": {
+        "LABEL": "Malawi",
+        "name": "Malawi",
+        "fullName": "Republic of Malawi",
+        "demonyms": [
+            "Malawians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Malawian",
+            "Malawians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "MX": {
+        "LABEL": "Mexico",
+        "name": "Mexico",
+        "fullName": "United Mexican States",
+        "demonyms": [
+            "Mexicans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Mexican",
+            "Mexicans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "MY": {
+        "LABEL": "Malaysia",
+        "name": "Malaysia",
+        "fullName": "Malaysia",
+        "demonyms": [
+            "Malaysians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Malaysian",
+            "Malaysians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "MZ": {
+        "LABEL": "Mozambique",
+        "name": "Mozambique",
+        "fullName": "Republic of Mozambique",
+        "demonyms": [
+            "Mozambicans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Mozambican",
+            "Mozambicans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "NA": {
+        "LABEL": "Namibia",
+        "name": "Namibia",
+        "fullName": "Republic of Namibia",
+        "demonyms": [
+            "Namibians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Namibian",
+            "Namibians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "NC": {
+        "LABEL": "New Caledonia",
+        "name": "New Caledonia",
+        "fullName": "Government of New Caledonia",
+        "demonyms": [
+            "New Caledonians"
+        ],
+        "acronymsAliasFormer": [
+            "COM",
+            "C.O.M."
+        ],
+        "adjectives": [
+            "New Caledonian",
+            "New Caledonians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "NE": {
+        "LABEL": "Niger",
+        "name": "Niger",
+        "fullName": "Republic of Niger",
+        "demonyms": [
+            "Nigeriens"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Nigerien",
+            "Nigeriens"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "NF": {
+        "LABEL": "Norfolk Island",
+        "name": "Norfolk Island",
+        "fullName": "Territory of Norfolk Island",
+        "demonyms": [
+            "Norfolk Islanders"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "NG": {
+        "LABEL": "Nigeria",
+        "name": "Nigeria",
+        "fullName": "Federal Republic of Nigeria",
+        "demonyms": [
+            "Nigerians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Nigerian",
+            "Nigerians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "NI": {
+        "LABEL": "Nicaragua",
+        "name": "Nicaragua",
+        "fullName": "Republic of Nicaragua",
+        "demonyms": [
+            "Nicaraguans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Nicaraguan",
+            "Nicaraguans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "NL": {
+        "LABEL": "Netherlands",
+        "name": "Netherlands",
+        "fullName": "Kingdom of the Netherlands",
+        "demonyms": [
+            "Dutch"
+        ],
+        "acronymsAliasFormer": [
+            "Holland"
+        ],
+        "adjectives": [
+            "Dutch"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "NO": {
+        "LABEL": "Norway",
+        "name": "Norway",
+        "fullName": "Kingdom of Norway",
+        "demonyms": [
+            "Norwegians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Norwegian",
+            "Norwegians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "NP": {
+        "LABEL": "Nepal",
+        "name": "Nepal",
+        "fullName": "Federal Democratic Republic of Nepal",
+        "demonyms": [
+            "Nepalis"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Nepali",
+            "Nepalis"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "NR": {
+        "LABEL": "Nauru",
+        "name": "Nauru",
+        "fullName": "Republic of Nauru",
+        "demonyms": [
+            "Nauruans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Nauruan",
+            "Nauruans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "NU": {
+        "LABEL": "Niue",
+        "name": "Niue",
+        "fullName": "Niue",
+        "demonyms": [
+            "Niueans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Niuean",
+            "Niueans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "NZ": {
+        "LABEL": "New Zealand",
+        "name": "New Zealand",
+        "fullName": "New Zealand",
+        "demonyms": [
+            "New Zealanders"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "New Zealandish",
+            "New Zealander",
+            "Kiwi"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "OM": {
+        "LABEL": "Oman",
+        "name": "Oman",
+        "fullName": "Sultanate of Oman",
+        "demonyms": [
+            "Omanis"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Omani",
+            "Omanis"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "PA": {
+        "LABEL": "Panama",
+        "name": "Panama",
+        "fullName": "Republic of Panama",
+        "demonyms": [
+            "Panamanians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Panamanian",
+            "Panamanians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "PE": {
+        "LABEL": "Peru",
+        "name": "Peru",
+        "fullName": "Republic of Peru",
+        "demonyms": [
+            "Peruvians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Peruvian",
+            "Peruvians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "PF": {
+        "LABEL": "French Polynesia",
+        "name": "French Polynesia",
+        "fullName": "Overseas Collectivity of French Polynesia",
+        "demonyms": [
+            "French Polynesians"
+        ],
+        "acronymsAliasFormer": [
+            "COM",
+            "C.O.M."
+        ],
+        "adjectives": [
+            "French Polynesian",
+            "French Polynesians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "PG": {
+        "LABEL": "Papua New Guinea",
+        "name": "Papua New Guinea",
+        "fullName": "Independent State of Papua New Guinea",
+        "demonyms": [
+            "Papua New Guineans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Papua New Guinean",
+            "Papua New Guineans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "PH": {
+        "LABEL": "Philippines",
+        "name": "Philippines",
+        "fullName": "Republic of the Philippines",
+        "demonyms": [
+            "Filipinos"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Filipino",
+            "Filipinos"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "PK": {
+        "LABEL": "Pakistan",
+        "name": "Pakistan",
+        "fullName": "Islamic Republic of Pakistan",
+        "demonyms": [
+            "Pakistanis"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Pakistani",
+            "Pakistanis"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "PL": {
+        "LABEL": "Poland",
+        "name": "Poland",
+        "fullName": "Republic of Poland",
+        "demonyms": [
+            "Poles"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Polish",
+            "Poles"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "PM": {
+        "LABEL": "Saint Pierre and Miquelon",
+        "name": "Saint Pierre and Miquelon",
+        "fullName": "Overseas Collectivity of Saint-Pierre and Miquelon",
+        "demonyms": [
+            "Saint-Pierrais",
+            "Miquelonnais"
+        ],
+        "acronymsAliasFormer": [
+            "COM",
+            "C.O.M."
+        ],
+        "adjectives": [
+            "Saint-Pierrais or Miquelonnais"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "PN": {
+        "LABEL": "Pitcairn",
+        "name": "Pitcairn",
+        "fullName": "Pitcairn, Henderson, Ducie and Oeno Islands",
+        "demonyms": [
+            "Pitcairn Islanders"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Pitcairn Island"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "PR": {
+        "LABEL": "Puerto Rico",
+        "name": "Puerto Rico",
+        "fullName": "Commonwealth of Puerto Rico",
+        "demonyms": [
+            "Puerto Ricans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Puerto Rican",
+            "Puerto Ricans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "PS": {
+        "LABEL": "Palestine",
+        "name": "Palestine",
+        "fullName": "State of Palestine",
+        "demonyms": [
+            "Palestinians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Palestinian",
+            "Palestinians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "PT": {
+        "LABEL": "Portugal",
+        "name": "Portugal",
+        "fullName": "Portuguese Republic",
+        "demonyms": [
+            "Portuguese"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Portuguese"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "PW": {
+        "LABEL": "Palau",
+        "name": "Palau",
+        "fullName": "Republic of Palau",
+        "demonyms": [
+            "Palauans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Palauan",
+            "Palauans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "PY": {
+        "LABEL": "Paraguay",
+        "name": "Paraguay",
+        "fullName": "Republic of Paraguay",
+        "demonyms": [
+            "Paraguayans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Paraguayan",
+            "Paraguayans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "QA": {
+        "LABEL": "Qatar",
+        "name": "Qatar",
+        "fullName": "State of Qatar",
+        "demonyms": [
+            "Qataris"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Qatari",
+            "Qataris"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "RE": {
+        "LABEL": "Réunion",
+        "name": "The Réunion",
+        "fullName": "Department of Réunion",
+        "demonyms": [
+            "Réunionnais"
+        ],
+        "acronymsAliasFormer": [
+            "DOM",
+            "D.O.M."
+        ],
+        "adjectives": [
+            "Réunionese"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "RO": {
+        "LABEL": "Romania",
+        "name": "Romania",
+        "fullName": "Romania",
+        "demonyms": [
+            "Romanians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Romanian",
+            "Romanians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "RS": {
+        "LABEL": "Serbia",
+        "name": "Serbia",
+        "fullName": "Republic of Serbia",
+        "demonyms": [
+            "Serbians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Serbian",
+            "Serbs"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "RU": {
+        "LABEL": "Russian Federation",
+        "name": "Russian Federation",
+        "fullName": "Russian Federation",
+        "demonyms": [
+            "Russians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Russian",
+            "Russians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "RW": {
+        "LABEL": "Rwanda",
+        "name": "Rwanda",
+        "fullName": "Republic of Rwanda",
+        "demonyms": [
+            "Rwandans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Rwandan",
+            "Rwandans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "SA": {
+        "LABEL": "Saudi Arabia",
+        "name": "Saudi Arabia",
+        "fullName": "Kingdom of Saudi Arabia",
+        "demonyms": [
+            "Saudi Arabians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Saudi Arabian",
+            "Saudi Arabians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "SB": {
+        "LABEL": "Solomon Islands",
+        "name": "Solomon Islands",
+        "fullName": "Solomon Islands",
+        "demonyms": [
+            "Solomon Islanders"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "SC": {
+        "LABEL": "Seychelles",
+        "name": "Seychelles",
+        "fullName": "Republic of Seychelles",
+        "demonyms": [
+            "Seychellois"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Seychellois"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "SD": {
+        "LABEL": "Sudan",
+        "name": "Sudan",
+        "fullName": "Republic of the Sudan",
+        "demonyms": [
+            "Sudanese"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Sudanese"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "SE": {
+        "LABEL": "Sweden",
+        "name": "Sweden",
+        "fullName": "Kingdom of Sweden",
+        "demonyms": [
+            "Swedes"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Swedish",
+            "Swedes"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "SG": {
+        "LABEL": "Singapore",
+        "name": "Singapore",
+        "fullName": "Republic of Singapore",
+        "demonyms": [
+            "Singaporeans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Singaporean",
+            "Singaporeans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "SH": {
+        "LABEL": "Saint Helena, Ascension and Tristan da Cunha",
+        "name": "Saint Helena, Ascension and Tristan da Cunha",
+        "fullName": "Saint Helena, Ascension and Tristan da Cunha",
+        "demonyms": [
+            "Saint Helenians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Saint Helenian",
+            "Saint Helenians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "SI": {
+        "LABEL": "Slovenia",
+        "name": "Slovenia",
+        "fullName": "Republic of Slovenia",
+        "demonyms": [
+            "Slovenes"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Slovenian",
+            "Slovenians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "SJ": {
+        "LABEL": "Svalbard and Jan Mayen",
+        "name": "Svalbard and Jan Mayen",
+        "fullName": "Svalbard and Jan Mayen Islands",
+        "demonyms": [
+            "Svalbard and Jan Mayen Islanders"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Svalbard"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "SK": {
+        "LABEL": "Slovakia",
+        "name": "Slovakia",
+        "fullName": "Slovak Republic",
+        "demonyms": [
+            "Slovaks"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Slovak",
+            "Slovaks"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "SL": {
+        "LABEL": "Sierra Leone",
+        "name": "Sierra Leone",
+        "fullName": "Republic of Sierra Leone",
+        "demonyms": [
+            "Sierra Leoneans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Sierra Leonean",
+            "Sierra Leoneans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "SM": {
+        "LABEL": "San Marino",
+        "name": "San Marino",
+        "fullName": "Republic of San Marino",
+        "demonyms": [
+            "Sammarinese"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Sanmarinese"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "SN": {
+        "LABEL": "Senegal",
+        "name": "Senegal",
+        "fullName": "Republic of Senegal",
+        "demonyms": [
+            "Senegalese"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Senegalese"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "SO": {
+        "LABEL": "Somalia",
+        "name": "Somalia",
+        "fullName": "Federal Republic of Somalia",
+        "demonyms": [
+            "Somalis"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Somali",
+            "Somalis"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "SR": {
+        "LABEL": "Suriname",
+        "name": "Suriname",
+        "fullName": "Republic of Suriname",
+        "demonyms": [
+            "Surinamese"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Surinamese"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "SS": {
+        "LABEL": "South Sudan",
+        "name": "South Sudan",
+        "fullName": "Republic of South Sudan",
+        "demonyms": [
+            "South Sudanese"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "South Sudanese"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "ST": {
+        "LABEL": "Sao Tome and Principe",
+        "name": "Sao Tome and Principe",
+        "fullName": "Democratic Republic of São Tomé and Príncipe",
+        "demonyms": [
+            "São Toméans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "São Toméan",
+            "São Toméans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "SV": {
+        "LABEL": "El Salvador",
+        "name": "El Salvador",
+        "fullName": "Republic of El Salvador",
+        "demonyms": [
+            "Salvadorans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Salvadoran",
+            "Salvadorans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "SX": {
+        "LABEL": "Sint Maarten (Dutch part)",
+        "name": "Sint Maarten",
+        "fullName": "Sint Maarten",
+        "demonyms": [
+            "Sint Maarteners"
+        ],
+        "acronymsAliasFormer": [
+            "SSS Islands",
+            "S.S.S."
+        ],
+        "adjectives": [
+            "Sint Maarten"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "SY": {
+        "LABEL": "Syrian Arab Republic",
+        "name": "Syrian Arab Republic",
+        "fullName": "Syrian Arab Republic",
+        "demonyms": [
+            "Syrians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Syrian",
+            "Syrians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "SZ": {
+        "LABEL": "Eswatini",
+        "name": "Eswatini",
+        "fullName": "Kingdom of Eswatini",
+        "demonyms": [
+            "Swazis"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Swazi",
+            "Swazis"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "TC": {
+        "LABEL": "Turks and Caicos Islands",
+        "name": "Turks and Caicos Islands",
+        "fullName": "Turks and Caicos Islands",
+        "demonyms": [
+            "Turks and Caicos Islanders"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Turks and Caicos Island"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "TD": {
+        "LABEL": "Chad",
+        "name": "Chad",
+        "fullName": "Republic of Chad",
+        "demonyms": [
+            "Chadians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Chadian",
+            "Chadians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "TF": {
+        "LABEL": "French Southern Territories",
+        "name": "French Southern Territories",
+        "fullName": "French Southern and Antarctic Lands",
+        "demonyms": [
+            "French Southern and Antarctic Lands"
+        ],
+        "acronymsAliasFormer": [
+            "TAAF",
+            "T.A.A.F."
+        ],
+        "adjectives": [
+            "French Southern and Antarctic"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "TG": {
+        "LABEL": "Togo",
+        "name": "Togo",
+        "fullName": "Togolese Republic",
+        "demonyms": [
+            "Togolese"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Togolese"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "TH": {
+        "LABEL": "Thailand",
+        "name": "Thailand",
+        "fullName": "Kingdom of Thailand",
+        "demonyms": [
+            "Thais"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Thai",
+            "Thais"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "TJ": {
+        "LABEL": "Tajikistan",
+        "name": "Tajikistan",
+        "fullName": "Republic of Tajikistan",
+        "demonyms": [
+            "Tajiks"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Tajikistani",
+            "Tajiks"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "TK": {
+        "LABEL": "Tokelau",
+        "name": "Tokelau",
+        "fullName": "Tokelau Islands",
+        "demonyms": [
+            "Tokelauans"
+        ],
+        "acronymsAliasFormer": [
+            "Union Islands"
+        ],
+        "adjectives": [
+            "Tokelauan",
+            "Tokelauans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "TL": {
+        "LABEL": "Timor-Leste",
+        "name": "East Timor",
+        "fullName": "Democratic Republic of Timor-Leste",
+        "demonyms": [
+            "East Timorese"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "East Timorese"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "TM": {
+        "LABEL": "Turkmenistan",
+        "name": "Turkmenistan",
+        "fullName": "Turkmenistan",
+        "demonyms": [
+            "Turkmen"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Turkmen",
+            "Turkmens"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "TN": {
+        "LABEL": "Tunisia",
+        "name": "Tunisia",
+        "fullName": "Republic of Tunisia",
+        "demonyms": [
+            "Tunisians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Tunisian",
+            "Tunisians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "TO": {
+        "LABEL": "Tonga",
+        "name": "Tonga",
+        "fullName": "Kingdom of Tonga",
+        "demonyms": [
+            "Tongans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Tongan",
+            "Tongans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "TR": {
+        "LABEL": "Turkey",
+        "name": "Turkey",
+        "fullName": "Republic of Turkey",
+        "demonyms": [
+            "Turks"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Turkish",
+            "Turks"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "TT": {
+        "LABEL": "Trinidad and Tobago",
+        "name": "Trinidad and Tobago",
+        "fullName": "Republic of Trinidad and Tobago",
+        "demonyms": [
+            "Trinidadians",
+            "Tobagonians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Trinidadian",
+            "Trinidadians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "TV": {
+        "LABEL": "Tuvalu",
+        "name": "Tuvalu",
+        "fullName": "Tuvalu",
+        "demonyms": [
+            "Tuvaluans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Tuvaluan",
+            "Tuvaluans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "TW": {
+        "LABEL": "Taiwan",
+        "name": "Taiwan",
+        "fullName": "Republic of China",
+        "demonyms": [
+            "Taiwanese"
+        ],
+        "acronymsAliasFormer": [
+            "Formosa"
+        ],
+        "adjectives": [
+            "Taiwanese"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "TZ": {
+        "LABEL": "Tanzania, United Republic of",
+        "name": "Tanzania, United Republic of",
+        "fullName": "United Republic of Tanzania",
+        "demonyms": [
+            "Tanzanians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Tanzanian",
+            "Tanzanians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "UA": {
+        "LABEL": "Ukraine",
+        "name": "Ukraine",
+        "fullName": "Ukraine",
+        "demonyms": [
+            "Ukrainians"
+        ],
+        "acronymsAliasFormer": [
+            "Little Russia"
+        ],
+        "adjectives": [
+            "Ukrainian",
+            "Ukrainians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "UG": {
+        "LABEL": "Uganda",
+        "name": "Uganda",
+        "fullName": "Republic of Uganda",
+        "demonyms": [
+            "Ugandans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Ugandan",
+            "Ugandans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "UM": {
+        "LABEL": "United States Minor Outlying Islands",
+        "name": "United States Minor Outlying Islands",
+        "fullName": "United States Minor Outlying Islands",
+        "demonyms": [],
+        "acronymsAliasFormer": [
+            "USMOI",
+            "U.S.M.O.I."
+        ],
+        "adjectives": [],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "US": {
+        "LABEL": "United States of America",
+        "name": "United States",
+        "fullName": "United States of America",
+        "demonyms": [
+            "Americans"
+        ],
+        "acronymsAliasFormer": [
+            "U.S.A.",
+            "U.S.",
+            "America"
+        ],
+        "adjectives": [
+            "American",
+            "Americans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "UY": {
+        "LABEL": "Uruguay",
+        "name": "Uruguay",
+        "fullName": "Oriental Republic of Uruguay",
+        "demonyms": [
+            "Uruguayans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Uruguayan",
+            "Uruguayans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "UZ": {
+        "LABEL": "Uzbekistan",
+        "name": "Uzbekistan",
+        "fullName": "Republic of Uzbekistan",
+        "demonyms": [
+            "Uzbeks"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Uzbekistani",
+            "Uzbeks"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "VA": {
+        "LABEL": "Holy See",
+        "name": "Holy See",
+        "fullName": "Vatican City State",
+        "demonyms": [
+            "Vatican Citizens"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Vatican"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "VC": {
+        "LABEL": "Saint Vincent and the Grenadines",
+        "name": "Saint Vincent and the Grenadines",
+        "fullName": "Saint Vincent and the Grenadines",
+        "demonyms": [
+            "Saint Vincentians",
+            "Grenadines"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Saint Vincentian",
+            "Saint Vincentians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "VE": {
+        "LABEL": "Venezuela",
+        "name": "Venezuela",
+        "fullName": "Bolivarian Republic of Venezuela",
+        "demonyms": [
+            "Venezuelans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Venezuelan",
+            "Venezuelans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "VG": {
+        "LABEL": "Virgin Islands (British)",
+        "name": "Virgin Islands (British)",
+        "fullName": "British Virgin Islands",
+        "demonyms": [
+            "British Virgin Islanders"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "VI": {
+        "LABEL": "Virgin Islands (U.S.)",
+        "name": "Virgin Islands (U.S.)",
+        "fullName": "United States Virgin Islands",
+        "demonyms": [
+            "United States Virgin Islanders"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "VN": {
+        "LABEL": "Viet Nam",
+        "name": "Viet Nam",
+        "fullName": "Socialist Republic of Vietnam",
+        "demonyms": [
+            "Vietnamese"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Vietnamese"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "VU": {
+        "LABEL": "Vanuatu",
+        "name": "Vanuatu",
+        "fullName": "Republic of Vanuatu",
+        "demonyms": [
+            "Ni-Vanuatu"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Vanuatuan",
+            "Vanuatuans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "WF": {
+        "LABEL": "Wallis and Futuna",
+        "name": "Wallis and Futuna",
+        "fullName": "Overseas Collectivity of the Wallis and Futuna Islands",
+        "demonyms": [
+            "Wallis and Futuna Islanders",
+            "Wallisian-Futunan"
+        ],
+        "acronymsAliasFormer": [
+            "Alofi",
+            "COM",
+            "C.O.M."
+        ],
+        "adjectives": [
+            "Wallisian-Futunan"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "WS": {
+        "LABEL": "Samoa",
+        "name": "Samoa",
+        "fullName": "Independent State of Samoa",
+        "demonyms": [
+            "Samoans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Samoan",
+            "Samoans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "XK": {
+        "LABEL": "Kossovo",
+        "name": "Kosovo",
+        "fullName": "Republic of Kosovo",
+        "demonyms": [
+            "Yemenis"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Kosovar",
+            "Kosovars",
+            "Kosovan",
+            "Kosovans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "YE": {
+        "LABEL": "Yemen",
+        "name": "Yemen",
+        "fullName": "Republic of Yemen",
+        "demonyms": [
+            "Yemenis"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Yemeni",
+            "Yemenis"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "YT": {
+        "LABEL": "Mayotte",
+        "name": "Mayotte",
+        "fullName": "Departmental Collectivity of Mayotte",
+        "demonyms": [
+            "Mahorais"
+        ],
+        "acronymsAliasFormer": [
+            "DOM",
+            "D.O.M."
+        ],
+        "adjectives": [
+            "Mahoran",
+            "Mahorans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "ZA": {
+        "LABEL": "South Africa",
+        "name": "South Africa",
+        "fullName": "Republic of South Africa",
+        "demonyms": [
+            "South Africans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "South African",
+            "South Africans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "ZM": {
+        "LABEL": "Zambia",
+        "name": "Zambia",
+        "fullName": "Republic of Zambia",
+        "demonyms": [
+            "Zambians"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Zambian",
+            "Zambians"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    },
+    "ZW": {
+        "LABEL": "Zimbabwe",
+        "name": "Zimbabwe",
+        "fullName": "Republic of Zimbabwe",
+        "demonyms": [
+            "Zimbabweans"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Zimbabwean",
+            "Zimbabweans"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": []
+    }
+}

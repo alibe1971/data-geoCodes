@@ -119,7 +119,6 @@ return [
             'Argentinians'
         ],
         'keywords' => [
-            'argentine',
             'argentines'
         ]
     ],
@@ -371,7 +370,6 @@ return [
         'keywords' => [
             'thunder',
             'dragon',
-            'kingdom',
             'druk',
             'yul'
         ]
@@ -700,9 +698,7 @@ return [
             'Sahrawis',
             'Western Saharans'
         ],
-        'keywords' => [
-            'sahrawi'
-        ]
+        'keywords' => []
     ],
     'ER' => [
         'name' => 'Eritrea',
@@ -834,7 +830,6 @@ return [
             'albion',
             'scotland',
             'wales',
-            'ireland',
             'alba',
             'cymru',
             'ulster',
@@ -958,8 +953,6 @@ return [
             'Greeks'
         ],
         'keywords' => [
-            'hellenic',
-            'republic',
             'greek',
             'el'
         ]
@@ -1181,9 +1174,7 @@ return [
         'demonyms' => [
             'Italians'
         ],
-        'keywords' => [
-            'italian'
-        ]
+        'keywords' => []
     ],
     'JE' => [
         'name' => 'Jersey',
@@ -1640,9 +1631,7 @@ return [
         'demonyms' => [
             'Mexicans'
         ],
-        'keywords' => [
-            'mexican'
-        ]
+        'keywords' => []
     ],
     'MY' => [
         'name' => 'Malaysia',
@@ -2085,9 +2074,7 @@ return [
         'demonyms' => [
             'Slovaks'
         ],
-        'keywords' => [
-            'slovak'
-        ]
+        'keywords' => []
     ],
     'SL' => [
         'name' => 'Sierra Leone',
@@ -2258,7 +2245,6 @@ return [
         ],
         'keywords' => [
             'union',
-            'islands',
             'tokelauan'
         ]
     ],
@@ -2390,7 +2376,6 @@ return [
         'keywords' => [
             'usa',
             'us',
-            'america',
             'american'
         ]
     ],

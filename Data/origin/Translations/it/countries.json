@@ -1,0 +1,6683 @@
+{
+    "AD": {
+        "LABEL": "Andorra",
+        "name": "Andorra",
+        "fullName": "Principato di Andorra",
+        "demonyms": [
+            "Andorrani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Andorrano",
+            "Andorrana",
+            "Andorrani",
+            "Andorrane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/andorrano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/andorrano"
+        ]
+    },
+    "AE": {
+        "LABEL": "United Arab Emirates",
+        "name": "Emirati Arabi Uniti",
+        "fullName": "Stato degli Emirati Arabi Uniti",
+        "demonyms": [
+            "Emiratènsi",
+            "Imaratènsi"
+        ],
+        "acronymsAliasFormer": [
+            "UAE",
+            "U.A.E.",
+            "EAU",
+            "E.A.U."
+        ],
+        "adjectives": [
+            "Emiratènse",
+            "Emiratènsi",
+            "Imaratènse",
+            "Imaratènsi"
+        ],
+        "typos": [
+            "emiratino",
+            "emiratina",
+            "emiratine",
+            "emiratini",
+            "emiratiano",
+            "emiratiana",
+            "emiratiane",
+            "emiratiani"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/emiratense",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/emiratense"
+        ]
+    },
+    "AF": {
+        "LABEL": "Afghanistan",
+        "name": "Afghanistan",
+        "fullName": "Emirato Islamico d'Afghanistan",
+        "demonyms": [
+            "Afgani",
+            "Afghani",
+            "Afgàn",
+            "Afghan"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Afgano",
+            "Afgana",
+            "Afgani",
+            "Afgane",
+            "Afghano",
+            "Afghana",
+            "Afghani",
+            "Afghane",
+            "Afgàn",
+            "Afghan"
+        ],
+        "typos": [
+            "afganistan"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/afgano",
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/afgan",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/afgano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/afgan"
+        ]
+    },
+    "AG": {
+        "LABEL": "Antigua and Barbuda",
+        "name": "Antigua e Barbuda",
+        "fullName": "Antigua and Barbuda",
+        "demonyms": [
+            "Antìguo-barbudani",
+            "Antiguani",
+            "Barbudani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Antìguo-barbudano",
+            "Antìguo-barbudana",
+            "Antìguo-barbudani",
+            "Antìguo-barbudane",
+            "Antiguano",
+            "Antiguana",
+            "Antiguani",
+            "Antiguane",
+            "Barbudano",
+            "Barbudana",
+            "Barbudani",
+            "Barbudane"
+        ],
+        "typos": [],
+        "others": [
+            "caraibi",
+            "piccole",
+            "antille",
+            "caraibico",
+            "caraibica",
+            "caraibici",
+            "caraibiche",
+            "antillano",
+            "antillana",
+            "antillani",
+            "antillane",
+            "indie",
+            "occidentali",
+            "isole",
+            "delle",
+            "leeward"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario//antiguo-barbudano",
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/antiguano",
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/barbudano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario//antiguo-barbudano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/antiguano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/barbudano"
+        ]
+    },
+    "AI": {
+        "LABEL": "Anguilla",
+        "name": "Anguilla",
+        "fullName": "Anguilla",
+        "demonyms": [
+            "Anguillani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Anguillano",
+            "Anguillana",
+            "Anguillani",
+            "Anguillane"
+        ],
+        "typos": [],
+        "others": [
+            "caraibi",
+            "piccole",
+            "antille",
+            "caraibico",
+            "caraibica",
+            "caraibici",
+            "caraibiche",
+            "antillano",
+            "antillana",
+            "antillani",
+            "antillane",
+            "territorio",
+            "britannico",
+            "d",
+            "oltremare",
+            "di"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/anguillano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/anguillano"
+        ]
+    },
+    "AL": {
+        "LABEL": "Albania",
+        "name": "Albania",
+        "fullName": "Repubblica di Albania",
+        "demonyms": [
+            "Albanési"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Albanése",
+            "Albanési"
+        ],
+        "typos": [],
+        "others": [
+            "balcani",
+            "balcanico",
+            "balcanica",
+            "balcanici",
+            "balcaniche"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/albanese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/albanese"
+        ]
+    },
+    "AM": {
+        "LABEL": "Armenia",
+        "name": "Armenia",
+        "fullName": "Repubblica di Armenia",
+        "demonyms": [
+            "Armèni"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Armèno",
+            "Armèna",
+            "Armèni",
+            "Armène"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/armeno",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/armeno"
+        ]
+    },
+    "AO": {
+        "LABEL": "Angola",
+        "name": "Angola",
+        "fullName": "Repubblica di Angola",
+        "demonyms": [
+            "Angolani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Angolano",
+            "Angolana",
+            "Angolani",
+            "Angolane"
+        ],
+        "typos": [],
+        "others": [
+            "dell",
+            "stato"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/angolano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/angolano"
+        ]
+    },
+    "AQ": {
+        "LABEL": "Antarctica",
+        "name": "Antartide",
+        "fullName": "Antartide",
+        "demonyms": [],
+        "acronymsAliasFormer": [
+            "Polo Sud",
+            "Terra Australis",
+            "Continente Australe",
+            "Continente Antartico"
+        ],
+        "adjectives": [
+            "antartico",
+            "antartica",
+            "antartici",
+            "antartiche"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] The Antartica has no permanent inhabitants. The demonym is not correct in Italian",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/antartico"
+        ]
+    },
+    "AR": {
+        "LABEL": "Argentina",
+        "name": "Argentina",
+        "fullName": "Repubblica Argentina",
+        "demonyms": [
+            "Argentini"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Argentino",
+            "Argentina",
+            "Argentini",
+            "Argentine"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/argentino2",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/argentino2"
+        ]
+    },
+    "AS": {
+        "LABEL": "American Samoa",
+        "name": "Samoa Americane",
+        "fullName": "Samoa Americane",
+        "demonyms": [
+            "Samoani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Samoano",
+            "Samoana",
+            "Samoani",
+            "Samoane"
+        ],
+        "typos": [],
+        "others": [
+            "territorio",
+            "delle",
+            "isole"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/samoano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/samoano"
+        ]
+    },
+    "AT": {
+        "LABEL": "Austria",
+        "name": "Austria",
+        "fullName": "Repubblica d'Austria",
+        "demonyms": [
+            "Austrìaci"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Austrìaco",
+            "Austrìaca",
+            "Austrìaci",
+            "Austrìache"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/austriaco",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/austriaco"
+        ]
+    },
+    "AU": {
+        "LABEL": "Australia",
+        "name": "Australia",
+        "fullName": "Commonwealth d'Australia",
+        "demonyms": [
+            "Australiani"
+        ],
+        "acronymsAliasFormer": [
+            "aussie"
+        ],
+        "adjectives": [
+            "Australiano",
+            "Australiana",
+            "Australiani",
+            "Australiane"
+        ],
+        "typos": [],
+        "others": [
+            "dell",
+            "autraliano",
+            "autraliana",
+            "autraliani",
+            "autraliane"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/australiano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/australiano"
+        ]
+    },
+    "AW": {
+        "LABEL": "Aruba",
+        "name": "Aruba",
+        "fullName": "Paese di Aruba",
+        "demonyms": [
+            "Arubani"
+        ],
+        "acronymsAliasFormer": [
+            "isole ABC",
+            "isole A.B.C."
+        ],
+        "adjectives": [
+            "Arubano",
+            "Arubana",
+            "Arubani",
+            "Arubane"
+        ],
+        "typos": [],
+        "others": [
+            "caraibi",
+            "olandesi",
+            "antille",
+            "sottovento",
+            "piccole",
+            "caraibico",
+            "caraibica",
+            "caraibici",
+            "caraibiche",
+            "antillano",
+            "antillana",
+            "antillani",
+            "antillane"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/arubano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/arubano"
+        ]
+    },
+    "AX": {
+        "LABEL": "Åland Islands",
+        "name": "Isole Åland",
+        "fullName": "Provincia delle Åland",
+        "demonyms": [
+            "Alandési"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Alandése",
+            "Alandési"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/alandese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/alandese"
+        ]
+    },
+    "AZ": {
+        "LABEL": "Azerbaijan",
+        "name": "Azerbaigian",
+        "fullName": "Repubblica d'Azerbaigian",
+        "demonyms": [
+            "Ażèri"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Ażèro",
+            "Ażèra",
+            "Ażèri",
+            "Ażère"
+        ],
+        "typos": [],
+        "others": [
+            "dell",
+            "baku"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/azero",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/azero"
+        ]
+    },
+    "BA": {
+        "LABEL": "Bosnia and Herzegovina",
+        "name": "Bosnia-Erzegovina",
+        "fullName": "Bosnia ed Erzegovina",
+        "demonyms": [
+            "Bosnìaci",
+            "Erzegovési",
+            "Erzegòvini",
+            "Bosnìaco-Erzegovési",
+            "Bosnìaco-Erzegòvini"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Bosnìaco",
+            "Bosnìaca",
+            "Bosnìaci",
+            "Bosnìache",
+            "Erzegovése",
+            "Erzegovési",
+            "Erzegòvino",
+            "Erzegòvina",
+            "Erzegòvini",
+            "Erzegòvine",
+            "Bosnìaco-Erzegovése",
+            "Bosnìaco-Erzegovési",
+            "Bosnìaco-Erzegòvino",
+            "Bosnìaco-Erzegòvina",
+            "Bosnìaco-Erzegòvini",
+            "Bosnìaco-Erzegòvine"
+        ],
+        "typos": [],
+        "others": [
+            "repubblica",
+            "di",
+            "balcani",
+            "balcanico",
+            "balcanica",
+            "balcanici",
+            "balcaniche"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/bosniaco",
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/bosniaco-erzegovese",
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/bosniaco-erzegovino",
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/erzegovese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/bosniaco",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/bosniaco-erzegovese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/bosniaco-erzegovino",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/erzegovese"
+        ]
+    },
+    "BB": {
+        "LABEL": "Barbados",
+        "name": "Barbados",
+        "fullName": "Barbados",
+        "demonyms": [
+            "Barbadiani",
+            "Barbadoregni"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Barbadiano",
+            "Barbadiana",
+            "Barbadiani",
+            "Barbadiane",
+            "Barbadoregno",
+            "Barbadoregna",
+            "Barbadoregni",
+            "Barbadoregne"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/barbadiano",
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/barbadoregno",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/barbadiano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/barbadoregno"
+        ]
+    },
+    "BD": {
+        "LABEL": "Bangladesh",
+        "name": "Bangladesh",
+        "fullName": "Repubblica Popolare del Bangladesh",
+        "demonyms": [
+            "Bangladési",
+            "Bengalési",
+            "Bengalini"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Bangladése",
+            "Bangladési",
+            "Bengalése",
+            "Bengalési",
+            "Bengalino",
+            "Bengalina",
+            "Bengalini",
+            "Bengaline"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/bangladese",
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/bengalese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/bangladese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/bengalese"
+        ]
+    },
+    "BE": {
+        "LABEL": "Belgium",
+        "name": "Belgio",
+        "fullName": "Regno del Belgio",
+        "demonyms": [
+            "Bèlgi"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Bèlga",
+            "Bèlgi",
+            "Bèlghe"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/belga",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/belga"
+        ]
+    },
+    "BF": {
+        "LABEL": "Burkina Faso",
+        "name": "Burkina Faso",
+        "fullName": "Burkina Faso",
+        "demonyms": [
+            "Burkinabé"
+        ],
+        "acronymsAliasFormer": [
+            "Alto Volta"
+        ],
+        "adjectives": [
+            "Burkinabé"
+        ],
+        "typos": [],
+        "others": [
+            "repubblica",
+            "del"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/burkinabe",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/burkinabe"
+        ]
+    },
+    "BG": {
+        "LABEL": "Bulgaria",
+        "name": "Bulgaria",
+        "fullName": "Repubblica di Bulgaria",
+        "demonyms": [
+            "Bùlgari"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Bùlgaro",
+            "Bùlgara",
+            "Bùlgari",
+            "Bùlgare"
+        ],
+        "typos": [],
+        "others": [
+            "balcani",
+            "balcanico",
+            "balcanica",
+            "balcanici",
+            "balcaniche"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/bulgaro",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/bulgaro"
+        ]
+    },
+    "BH": {
+        "LABEL": "Bahrain",
+        "name": "Bahrein",
+        "fullName": "Regno del Bahrein",
+        "demonyms": [
+            "Bahreiniti",
+            "Bahrainiti"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Bahreinita",
+            "Bahreiniti",
+            "Bahreinite",
+            "Bahrainita",
+            "Bahrainiti",
+            "Bahrainite"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/bahreinita",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/bahreinita"
+        ]
+    },
+    "BI": {
+        "LABEL": "Burundi",
+        "name": "Burundi",
+        "fullName": "Repubblica del Burundi",
+        "demonyms": [
+            "Burundési"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Burundése",
+            "Burundési"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/burundese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/burundese"
+        ]
+    },
+    "BJ": {
+        "LABEL": "Benin",
+        "name": "Benin",
+        "fullName": "Repubblica del Benin",
+        "demonyms": [
+            "Beninési",
+            "Beniniani"
+        ],
+        "acronymsAliasFormer": [
+            "Dahomey"
+        ],
+        "adjectives": [
+            "Beninése",
+            "Beninési",
+            "Beniniano",
+            "Beniniana",
+            "Beniniani",
+            "Beniniane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/beninese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/beninese"
+        ]
+    },
+    "BL": {
+        "LABEL": "Saint Barthélemy",
+        "name": "Saint Barthélemy",
+        "fullName": "Collettività d'oltremare di Saint Barthélemy",
+        "demonyms": [
+            "Barthélemesi",
+            "Santabarthesi"
+        ],
+        "acronymsAliasFormer": [
+            "COM",
+            "C.O.M."
+        ],
+        "adjectives": [],
+        "typos": [
+            "Barthélemese",
+            "Barthélemesi",
+            "Santabarthese",
+            "Santabarthesi"
+        ],
+        "others": [
+            "caraibi",
+            "piccole",
+            "antille",
+            "caraibico",
+            "caraibica",
+            "caraibici",
+            "caraibiche",
+            "antillano",
+            "antillana",
+            "antillani",
+            "antillane"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: Not Found",
+            "[adjectives] Treccani: Not Found"
+        ]
+    },
+    "BM": {
+        "LABEL": "Bermuda",
+        "name": "Bermuda",
+        "fullName": "Bermuda (o Bermude)",
+        "demonyms": [
+            "Bermudiani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Bermudiano",
+            "Bermudiana",
+            "Bermudiane",
+            "Bermudiani"
+        ],
+        "typos": [],
+        "others": [
+            "isole"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/bermudiano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/bermudiano"
+        ]
+    },
+    "BN": {
+        "LABEL": "Brunei Darussalam",
+        "name": "Brunei",
+        "fullName": "Stato del Brunei, Dimora della Pace",
+        "demonyms": [
+            "Bruneiani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Bruneiano",
+            "Bruneiana",
+            "Bruneiani",
+            "Bruneiane"
+        ],
+        "typos": [],
+        "others": [
+            "sultanato"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/bruneiano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/bruneiano"
+        ]
+    },
+    "BO": {
+        "LABEL": "Bolivia",
+        "name": "Bolivia",
+        "fullName": "Stato plurinazionale del Bolivia",
+        "demonyms": [
+            "Boliviani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Boliviano",
+            "Boliviana",
+            "Boliviani",
+            "Boliviane"
+        ],
+        "typos": [],
+        "others": [
+            "di"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/boliviano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/boliviano"
+        ]
+    },
+    "BQ": {
+        "LABEL": "Bonaire, Sint Eustatius and Saba",
+        "name": "Bonaire, Sint Eustatius e Saba",
+        "fullName": "Paesi Bassi caraibici",
+        "demonyms": [
+            "Boneriani",
+            "Statianesi",
+            "Sabani"
+        ],
+        "acronymsAliasFormer": [
+            "isole ABC",
+            "isole SSS",
+            "A.B.C.",
+            "S.S.S.",
+            "Isole BES",
+            "B.E.S."
+        ],
+        "adjectives": [],
+        "typos": [
+            "Boneriano",
+            "Boneriana",
+            "Boneriani",
+            "Boneriane",
+            "Statianese",
+            "Statianesi",
+            "Sabano",
+            "Sabana",
+            "Sabani",
+            "Sabane"
+        ],
+        "others": [
+            "caraibi",
+            "olandesi",
+            "antille",
+            "piccole",
+            "caraibico",
+            "caraibica",
+            "caraibiche",
+            "antillano",
+            "antillana",
+            "antillani",
+            "antillane",
+            "bonairiano",
+            "bonairiani",
+            "sabaiano",
+            "sabaiani",
+            "statiano",
+            "statiani"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: Not Found",
+            "[adjectives] Treccani: Not Found"
+        ]
+    },
+    "BR": {
+        "LABEL": "Brazil",
+        "name": "Brasile",
+        "fullName": "Repubblica Federale del Brasile",
+        "demonyms": [
+            "Braṡiliani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Braṡiliano",
+            "Braṡiliana",
+            "Braṡiliani",
+            "Braṡiliane"
+        ],
+        "typos": [],
+        "others": [
+            "federativa"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/brasiliano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/brasiliano"
+        ]
+    },
+    "BS": {
+        "LABEL": "Bahamas",
+        "name": "Bahamas",
+        "fullName": "Commonwealth delle Bahamas",
+        "demonyms": [
+            "Bahamènsi"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Bahamènse",
+            "Bahamènsi"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/bahamense",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/bahamense"
+        ]
+    },
+    "BT": {
+        "LABEL": "Bhutan",
+        "name": "Bhutan",
+        "fullName": "Regno del Bhutan",
+        "demonyms": [
+            "Bhutanési"
+        ],
+        "acronymsAliasFormer": [
+            "Regno del drago tonante",
+            "Regno del drago di tuono",
+            "Druk Yul"
+        ],
+        "adjectives": [
+            "Bhutanése",
+            "Bhutanési"
+        ],
+        "typos": [
+            "Butan"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/bhutanese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/bhutanese"
+        ]
+    },
+    "BV": {
+        "LABEL": "Bouvet Island",
+        "name": "Isola di Bouvet",
+        "fullName": "Isola di Bouvet",
+        "demonyms": [],
+        "acronymsAliasFormer": [],
+        "adjectives": [],
+        "typos": [
+            "buvet",
+            "buvè",
+            "bouvetiano",
+            "bouvetiana",
+            "bouvetiani",
+            "bouvetiane"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] The Bouvet Iland has no inhabitants. No demonym or adjective exists in Italian",
+            "[adjectives] The Bouvet Iland has no inhabitants. No demonym or adjective exists in Italian"
+        ]
+    },
+    "BW": {
+        "LABEL": "Botswana",
+        "name": "Botswana",
+        "fullName": "Republic of Botswana",
+        "demonyms": [
+            "Botswani",
+            "Bozzu̯àni"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Botswano",
+            "Botswana",
+            "Botswani",
+            "Botswane",
+            "Bozzu̯àno",
+            "Bozzu̯àna",
+            "Bozzu̯àni",
+            "Bozzu̯àne"
+        ],
+        "typos": [
+            "botswanesi",
+            "botswanese"
+        ],
+        "others": [
+            "repubblica",
+            "del"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/botswano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/botswano"
+        ]
+    },
+    "BY": {
+        "LABEL": "Belarus",
+        "name": "Bielorussia",
+        "fullName": "Repubblica di Bielorussia",
+        "demonyms": [
+            "Bielorussi",
+            "Belorussi"
+        ],
+        "acronymsAliasFormer": [
+            "Russia bianca",
+            "Belarus"
+        ],
+        "adjectives": [
+            "Bielorusso",
+            "Bielorussa",
+            "Bielorussi",
+            "Bielorusse",
+            "Belorusso",
+            "Belorussa",
+            "Belorussi",
+            "Belorusse"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/bielorusso",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/bielorusso"
+        ]
+    },
+    "BZ": {
+        "LABEL": "Belize",
+        "name": "Belize",
+        "fullName": "Belize",
+        "demonyms": [
+            "Beliżiani"
+        ],
+        "acronymsAliasFormer": [
+            "Honduras Britannico"
+        ],
+        "adjectives": [
+            "Beliżiano",
+            "Beliżiana",
+            "Beliżiani",
+            "Beliżiane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/beliziano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/beliziano"
+        ]
+    },
+    "CA": {
+        "LABEL": "Canada",
+        "name": "Canada",
+        "fullName": "Canada (o Canadà)",
+        "demonyms": [
+            "Canadési"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Canadése",
+            "Canadési"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/canadese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/canadese"
+        ]
+    },
+    "CC": {
+        "LABEL": "Cocos (Keeling) Islands",
+        "name": "Isole Cocos (Keeling)",
+        "fullName": "Territorio delle Isole Cocos (Keeling)",
+        "demonyms": [
+            "Cocosi",
+            "Cocosiani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [],
+        "typos": [
+            "Cocoso",
+            "Cocosa",
+            "Cocosi",
+            "Cocose",
+            "Cocosiano",
+            "Cocosiana",
+            "Cocosiani",
+            "Cocosiane"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: Not Found",
+            "[adjectives] Treccani: Not Found"
+        ]
+    },
+    "CD": {
+        "LABEL": "Congo (Democratic Republic of the)",
+        "name": "Congo (Rep. Dem.)",
+        "fullName": "Repubblica Democratica del Congo",
+        "demonyms": [
+            "Congolési"
+        ],
+        "acronymsAliasFormer": [
+            "Congo Kinshasa",
+            "Congo Kinshasa Repubblica",
+            "Congo RDC",
+            "Congo R.D.C.",
+            "Congo Belga",
+            "ex Congo Belga",
+            "Zaire"
+        ],
+        "adjectives": [
+            "Congolése",
+            "Congolési"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/congolese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/congolese"
+        ]
+    },
+    "CF": {
+        "LABEL": "Central African Republic",
+        "name": "Repubblica Centrafricana",
+        "fullName": "Repubblica Centrafricana",
+        "demonyms": [
+            "Centrafricani",
+            "Centroafricani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Centrafricano",
+            "Centrafricana",
+            "Centrafricani",
+            "Centrafricane",
+            "Centroafricano",
+            "Centroafricana",
+            "Centroafricani",
+            "Centroafricane"
+        ],
+        "typos": [],
+        "others": [
+            "centrafrica"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/centrafricano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/centrafricano"
+        ]
+    },
+    "CG": {
+        "LABEL": "Congo",
+        "name": "Congo",
+        "fullName": "Repubblica del Congo",
+        "demonyms": [
+            "Congolési"
+        ],
+        "acronymsAliasFormer": [
+            "Congo Brazzaville",
+            "Congo Repubblica",
+            "Congo francese",
+            "ex Congo francese",
+            "Congo Brazzaville Repubblica"
+        ],
+        "adjectives": [
+            "Congolése",
+            "Congolési"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/congolese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/congolese"
+        ]
+    },
+    "CH": {
+        "LABEL": "Switzerland",
+        "name": "Svizzera",
+        "fullName": "Confederazione svizzera",
+        "demonyms": [
+            "Svìzzeri",
+            "Elvètici"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Svìzzero",
+            "Svìzzera",
+            "Svìzzeri",
+            "Svìzzere",
+            "Elvètico",
+            "Elvètica",
+            "Elvètici",
+            "Elvètiche"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/svizzero",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/svizzero"
+        ]
+    },
+    "CI": {
+        "LABEL": "Côte d'Ivoire",
+        "name": "Costa d'Avorio",
+        "fullName": "Repubblica della Costa d'Avorio",
+        "demonyms": [
+            "Ivoriani",
+            "Avoriano"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Ivoriano",
+            "Ivoriana",
+            "Ivoriani",
+            "Ivoriane",
+            "Avoriano",
+            "Avoriana",
+            "Avoriani",
+            "Avoriane"
+        ],
+        "typos": [],
+        "others": [
+            "di"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/ivoriano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/ivoriano"
+        ]
+    },
+    "CK": {
+        "LABEL": "Cook Islands",
+        "name": "Isole Cook",
+        "fullName": "Isole Cook",
+        "demonyms": [
+            "Cookiani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [],
+        "typos": [
+            "Cookiano",
+            "Cookiana",
+            "Cookiani",
+            "Cookiane",
+            "cookese",
+            "cookesi"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: Not Found",
+            "[adjectives] Treccani: Not Found"
+        ]
+    },
+    "CL": {
+        "LABEL": "Chile",
+        "name": "Cile",
+        "fullName": "Repubblica del Cile",
+        "demonyms": [
+            "Cilèni"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Cilèno",
+            "Cilèna",
+            "Cilèni",
+            "Cilène"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/cileno",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/cileno"
+        ]
+    },
+    "CM": {
+        "LABEL": "Cameroon",
+        "name": "Camerun",
+        "fullName": "Repubblica del Camerun",
+        "demonyms": [
+            "Camerunési"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Camerunése",
+            "Camerunési"
+        ],
+        "typos": [
+            "camerunese",
+            "camerunesi"
+        ],
+        "others": [
+            "camerunense",
+            "camerunensi"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/camerunese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/camerunese"
+        ]
+    },
+    "CN": {
+        "LABEL": "China",
+        "name": "Cina",
+        "fullName": "Repubblica Popolare Cinese",
+        "demonyms": [
+            "Cinési"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Cinése",
+            "Cinési"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/cinese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/cinese"
+        ]
+    },
+    "CO": {
+        "LABEL": "Colombia",
+        "name": "Colombia",
+        "fullName": "Repubblica della Colombia",
+        "demonyms": [
+            "Colombiani",
+            "Columbiani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Colombiano",
+            "Colombiana",
+            "Colombiani",
+            "Colombiane",
+            "Columbiano",
+            "Columbiana",
+            "Columbiani",
+            "Columbiane"
+        ],
+        "typos": [],
+        "others": [
+            "di"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/colombiano1",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/colombiano1"
+        ]
+    },
+    "CR": {
+        "LABEL": "Costa Rica",
+        "name": "Costa Rica",
+        "fullName": "Repubblica di Costa Rica",
+        "demonyms": [
+            "Costaricani",
+            "Costaricènsi"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Costaricano",
+            "Costaricana",
+            "Costaricani",
+            "Costaricane",
+            "Costaricènsi",
+            "Costaricènse"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/costaricano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/costaricano"
+        ]
+    },
+    "CU": {
+        "LABEL": "Cuba",
+        "name": "Cuba",
+        "fullName": "Repubblica di Cuba",
+        "demonyms": [
+            "Cubani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Cubano",
+            "Cubana",
+            "Cubani",
+            "Cubane"
+        ],
+        "typos": [],
+        "others": [
+            "caraibi",
+            "grandi",
+            "antille",
+            "caraibico",
+            "caraibica",
+            "caraibici",
+            "caraibiche",
+            "antillano",
+            "antillana",
+            "antillani",
+            "antillane"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/cubano/",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/cubano/"
+        ]
+    },
+    "CV": {
+        "LABEL": "Cabo Verde",
+        "name": "Capo Verde",
+        "fullName": "Repubblica di Capo Verde",
+        "demonyms": [
+            "Capoverdiani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Capoverdiano",
+            "Capoverdiana",
+            "Capoverdiani",
+            "Capoverdiane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/capoverdiano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/capoverdiano"
+        ]
+    },
+    "CW": {
+        "LABEL": "Curaçao",
+        "name": "Curaçao",
+        "fullName": "Paese di Curaçao",
+        "demonyms": [
+            "Curasanesi",
+            "Curaçanesi"
+        ],
+        "acronymsAliasFormer": [
+            "isole ABC",
+            "A.B.C."
+        ],
+        "adjectives": [],
+        "typos": [
+            "Curasanese",
+            "Curasanesi",
+            "Curaçanese",
+            "Curaçanesi",
+            "curaçaoiano",
+            "curaçaoiane",
+            "curaçaoiana",
+            "curaçaoiani",
+            "curacaoano",
+            "curacaoana",
+            "curacaoane",
+            "curacaoani",
+            "curaziano",
+            "curaziane",
+            "curaziane",
+            "curaziani"
+        ],
+        "others": [
+            "caraibi",
+            "olandesi",
+            "antille",
+            "piccole",
+            "caraibico",
+            "caraibica",
+            "caraibici",
+            "caraibiche",
+            "antillano",
+            "antillana",
+            "antillani",
+            "antillane"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: Not Found",
+            "[adjectives] Treccani: Not Found"
+        ]
+    },
+    "CX": {
+        "LABEL": "Christmas Island",
+        "name": "Isola di Natale",
+        "fullName": "Isola di Natale",
+        "demonyms": [
+            "Natalensi",
+            "Natalini"
+        ],
+        "acronymsAliasFormer": [
+            "Kiritimati"
+        ],
+        "adjectives": [],
+        "typos": [
+            "Natalense",
+            "Natalensi",
+            "Natalino",
+            "Natalina",
+            "Natalini",
+            "Nataline"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: Not Found",
+            "[adjectives] Treccani: Not Found"
+        ]
+    },
+    "CY": {
+        "LABEL": "Cyprus",
+        "name": "Cipro",
+        "fullName": "Repubblica di Cipro",
+        "demonyms": [
+            "Ciprïòti"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Ciprïòta",
+            "Ciprïòti"
+        ],
+        "typos": [],
+        "others": [
+            "cipriote"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/cipriota",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/cipriota"
+        ]
+    },
+    "CZ": {
+        "LABEL": "Czechia",
+        "name": "Repubblica Ceca",
+        "fullName": "Repubblica Ceca",
+        "demonyms": [
+            "Cèchi",
+            "Cèki",
+            "Czèchi"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Cèco",
+            "Cèca",
+            "Cèchi",
+            "Cèche",
+            "Cèko",
+            "Cèka",
+            "Cèki",
+            "Cèke",
+            "Czèco",
+            "Czèca",
+            "Czèchi",
+            "Czèche"
+        ],
+        "typos": [],
+        "others": [
+            "cechia"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/ceco2",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/ceco2"
+        ]
+    },
+    "DE": {
+        "LABEL": "Germany",
+        "name": "Germania",
+        "fullName": "Repubblica Federale di Germania",
+        "demonyms": [
+            "Tedéschi"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Tedésco",
+            "Tedésca",
+            "Tedéschi",
+            "Tedésche",
+            "alemanno",
+            "alemanna",
+            "alemanne",
+            "alemanni",
+            "teutonico",
+            "teutonica",
+            "teutoniche",
+            "teutonici",
+            "teutone",
+            "teutoni"
+        ],
+        "typos": [],
+        "others": [
+            "teutonia"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/tedesco",
+            "[acronymsAliasFormer] Teutonia",
+            "[acronymsAliasFormer] Alemagna",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/tedesco"
+        ]
+    },
+    "DJ": {
+        "LABEL": "Djibouti",
+        "name": "Gibuti",
+        "fullName": "Repubblica di Gibuti",
+        "demonyms": [
+            "Gibutiani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Gibutiano",
+            "Gibutiana",
+            "Gibutiani",
+            "Gibutiane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/gibutiano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/gibutiano"
+        ]
+    },
+    "DK": {
+        "LABEL": "Denmark",
+        "name": "Danimarca",
+        "fullName": "Regno di Danimarca",
+        "demonyms": [
+            "Danési"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Danése",
+            "Danési"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/danese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/danese"
+        ]
+    },
+    "DM": {
+        "LABEL": "Dominica",
+        "name": "Dominica",
+        "fullName": "Commonwealth della Dominica",
+        "demonyms": [
+            "Dominicani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Dominicano",
+            "Dominicana",
+            "Dominicani",
+            "Dominicane"
+        ],
+        "typos": [
+            "dominicense",
+            "dominicensi"
+        ],
+        "others": [
+            "di",
+            "caraibi",
+            "piccole",
+            "antille",
+            "caraibico",
+            "caraibica",
+            "caraibici",
+            "caraibiche",
+            "antillano",
+            "antillana",
+            "antillani",
+            "antillane"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/dominicano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/dominicano"
+        ]
+    },
+    "DO": {
+        "LABEL": "Dominican Republic",
+        "name": "Repubblica Dominicana",
+        "fullName": "Repubblica Dominicana",
+        "demonyms": [
+            "Dominicani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Dominicano",
+            "Dominicana",
+            "Dominicani",
+            "Dominicane"
+        ],
+        "typos": [
+            "dominicense",
+            "dominicensi"
+        ],
+        "others": [
+            "caraibi",
+            "grandi",
+            "antille",
+            "caraibico",
+            "caraibica",
+            "caraibici",
+            "caraibiche",
+            "antillano",
+            "antillana",
+            "antillani",
+            "antillane",
+            "domenicano"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/dominicano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/dominicano"
+        ]
+    },
+    "DZ": {
+        "LABEL": "Algeria",
+        "name": "Algeria",
+        "fullName": "Repubblica Democratica Popolare di Algeria",
+        "demonyms": [
+            "Algerini"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Algerino",
+            "Algerina",
+            "Algerini",
+            "Algerine"
+        ],
+        "typos": [],
+        "others": [
+            "e"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/algerino",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/algerino"
+        ]
+    },
+    "EC": {
+        "LABEL": "Ecuador",
+        "name": "Ecuador",
+        "fullName": "Repubblica dell'Ecuador",
+        "demonyms": [
+            "Ecuadoriani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Ecuadoriano",
+            "Ecuadoriana",
+            "Ecuadoriani",
+            "Ecuadoriane"
+        ],
+        "typos": [
+            "ecuatoriano",
+            "ecuatoriana",
+            "ecuatoriane",
+            "ecuatoriani",
+            "equadoregno",
+            "equadoregna",
+            "equadoregne",
+            "ecuatoriani"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/ecuadoriano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/ecuadoriano"
+        ]
+    },
+    "EE": {
+        "LABEL": "Estonia",
+        "name": "Estonia",
+        "fullName": "Repubblica d'Estonia",
+        "demonyms": [
+            "Èstoni",
+            "Estóni"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Èstone",
+            "Èstoni",
+            "Estóne",
+            "Estóni"
+        ],
+        "typos": [],
+        "others": [
+            "di"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/estone",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/estone"
+        ]
+    },
+    "EG": {
+        "LABEL": "Egypt",
+        "name": "Egitto",
+        "fullName": "Repubblica Araba d'Egitto",
+        "demonyms": [
+            "Egiziani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Egiziano",
+            "Egiziana",
+            "Egiziani",
+            "Egiziane"
+        ],
+        "typos": [
+            "egizio",
+            "egizi"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/egiziano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/egiziano"
+        ]
+    },
+    "EH": {
+        "LABEL": "Western Sahara",
+        "name": "Sahara Occidentale",
+        "fullName": "Repubblica Democratica Araba Sahrawi",
+        "demonyms": [
+            "Sahariani",
+            "Sahariani occidentali"
+        ],
+        "acronymsAliasFormer": [
+            "sahrawi"
+        ],
+        "adjectives": [
+            "Sahariano",
+            "Sahariana",
+            "Sahariani",
+            "Sahariane",
+            "Sahariano occidentale",
+            "Sahariana occidentale",
+            "Sahariani occidentali",
+            "Sahariane occidentali"
+        ],
+        "typos": [],
+        "others": [
+            "del"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/sahariano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/sahariano"
+        ]
+    },
+    "ER": {
+        "LABEL": "Eritrea",
+        "name": "Eritrea",
+        "fullName": "Stato di Eritrea",
+        "demonyms": [
+            "Eritrèi"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Eritrèo",
+            "Eritrèa",
+            "Eritrèi",
+            "Eritrèe"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/eritreo",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/eritreo"
+        ]
+    },
+    "ES": {
+        "LABEL": "Spain",
+        "name": "Spagna",
+        "fullName": "Regno di Spagna",
+        "demonyms": [
+            "Spagnòli",
+            "Ispànici",
+            "Ispàni",
+            "Ibèrici",
+            "Spagnuòli"
+        ],
+        "acronymsAliasFormer": [
+            "Iberia",
+            "Penisola iberica"
+        ],
+        "adjectives": [
+            "Spagnòlo",
+            "Spagnòla",
+            "Spagnòli",
+            "Spagnòle",
+            "Ispànico",
+            "Ispànica",
+            "Ispànici",
+            "Ispàniche",
+            "Ispàno",
+            "Ispàna",
+            "Ispàni",
+            "Ispàne",
+            "Ibèrico",
+            "Ibèrica",
+            "Ibèrici",
+            "Ibèriche",
+            "Spagnuòlo",
+            "Spagnuòla",
+            "Spagnuòli",
+            "Spagnuòle"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/spagnolo and relatives",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/spagnolo and relatives"
+        ]
+    },
+    "ET": {
+        "LABEL": "Ethiopia",
+        "name": "Etiopia",
+        "fullName": "Repubblica Federale Democratica d'Etiopia",
+        "demonyms": [
+            "Etìopi",
+            "Etìopi",
+            "Etïòpi",
+            "Etïòpi"
+        ],
+        "acronymsAliasFormer": [
+            "Abissinia",
+            "abissino",
+            "abissini",
+            "abissine",
+            "abissina"
+        ],
+        "adjectives": [
+            "Etìope",
+            "Etìopi",
+            "Etìope",
+            "Etìopi",
+            "Etïòpe",
+            "Etïòpi",
+            "Etïòpe",
+            "Etïòpi"
+        ],
+        "typos": [],
+        "others": [
+            "etiopo"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/etiope",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/etiope"
+        ]
+    },
+    "FI": {
+        "LABEL": "Finland",
+        "name": "Finlandia",
+        "fullName": "Repubblica di Finlandia",
+        "demonyms": [
+            "Finlandési",
+            "Fìnnici"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Finlandése",
+            "Finlandési",
+            "Fìnnico",
+            "Fìnnica",
+            "Fìnnici",
+            "Fìnniche"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/finlandese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/finlandese"
+        ]
+    },
+    "FJ": {
+        "LABEL": "Fiji",
+        "name": "Figi",
+        "fullName": "Repubblica di Figi",
+        "demonyms": [
+            "Figiani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Figiano",
+            "Figiana",
+            "Figiani",
+            "Figiane"
+        ],
+        "typos": [],
+        "others": [
+            "delle",
+            "isola",
+            "isole"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/figiano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/figiano"
+        ]
+    },
+    "FK": {
+        "LABEL": "Falkland Islands (Malvinas)",
+        "name": "Isole Falkland",
+        "fullName": "Isole Falkland",
+        "demonyms": [
+            "Falklandési"
+        ],
+        "acronymsAliasFormer": [
+            "Malvine",
+            "malvinese",
+            "malvinesi"
+        ],
+        "adjectives": [
+            "Falklandése",
+            "Falklandési"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/falklandese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/falklandese"
+        ]
+    },
+    "FM": {
+        "LABEL": "Micronesia (Federated States of)",
+        "name": "Micronesia",
+        "fullName": "Stati Federati di Micronesia",
+        "demonyms": [
+            "Microneṡiani"
+        ],
+        "acronymsAliasFormer": [
+            "COM",
+            "C.O.M.",
+            "Stati Federati di Micronesia"
+        ],
+        "adjectives": [
+            "Microneṡiano",
+            "Microneṡiana",
+            "Microneṡiani",
+            "Microneṡiane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/micronesiano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/micronesiano"
+        ]
+    },
+    "FO": {
+        "LABEL": "Faroe Islands",
+        "name": "Isole Fær Øer",
+        "fullName": "Isole Faroe (Feringie)",
+        "demonyms": [
+            "Farìngi",
+            "Feroesi",
+            "Faroesi",
+            "Faroensi"
+        ],
+        "acronymsAliasFormer": [
+            "Isole Faroe",
+            "Fær Øer",
+            "Isole Feringie"
+        ],
+        "adjectives": [
+            "Farìngio",
+            "Farìngia",
+            "Farìngi",
+            "Farìngie",
+            "Feroese",
+            "Feroesi",
+            "Faroese",
+            "Faroesi",
+            "Faroense",
+            "Faroensi"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/faringio",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/faringio"
+        ]
+    },
+    "FR": {
+        "LABEL": "France",
+        "name": "Francia",
+        "fullName": "Repubblica francese",
+        "demonyms": [
+            "Francéṡi"
+        ],
+        "acronymsAliasFormer": [
+            "repubblica transalpina"
+        ],
+        "adjectives": [
+            "Francéṡe",
+            "Francéṡi",
+            "transalpino",
+            "transalpina",
+            "transalpini",
+            "transalpine"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/francese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/francese"
+        ]
+    },
+    "GA": {
+        "LABEL": "Gabon",
+        "name": "Gabon",
+        "fullName": "Repubblica Gabonese",
+        "demonyms": [
+            "Gabonési"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Gabonése",
+            "Gabonési"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/gabonese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/gabonese"
+        ]
+    },
+    "GB": {
+        "LABEL": "United Kingdom of Great Britain and Northern Ireland",
+        "name": "Regno Unito",
+        "fullName": "Regno Unito di Gran Bretagna ed Irlanda del Nord",
+        "demonyms": [
+            "Britànnici",
+            "Inglési",
+            "Scozzési",
+            "Gallési",
+            "Irlandési",
+            "Nordirlandési",
+            "Nòrd-Irlandési",
+            "Irlandési del Nòrd"
+        ],
+        "acronymsAliasFormer": [
+            "UK",
+            "UK-GB",
+            "UKGB",
+            "GB-ENG",
+            "GB-NIR",
+            "GB-SCT",
+            "GB-WLS",
+            "GB-CYM",
+            "GB-EAW",
+            "GB-GBN",
+            "GB-UKM",
+            "Regno Unito",
+            "Isola britannica",
+            "Isole britanniche",
+            "Caledonia",
+            "Inghilterra",
+            "Britannia",
+            "Albione",
+            "Scozia",
+            "Galles",
+            "Irlanda",
+            "Irlanda del Nord",
+            "Irlanda settentrionale",
+            "Alba",
+            "Cymru",
+            "Ulster"
+        ],
+        "adjectives": [
+            "Britànnico",
+            "Britànnica",
+            "Britànnici",
+            "Britànniche",
+            "Inglése",
+            "Inglési",
+            "Scozzése",
+            "Scozzési",
+            "Gallése",
+            "Gallési",
+            "Irlandése",
+            "Irlandési",
+            "Nordirlandése",
+            "Nordirlandési",
+            "Nòrd-Irlandése",
+            "Nòrd-Irlandési",
+            "Irlandése del Nòrd",
+            "Irlandési del Nòrd",
+            "anglo",
+            "angla",
+            "angli",
+            "angle",
+            "albionico",
+            "albionica",
+            "albionici",
+            "albioniche",
+            "anglico",
+            "anglica",
+            "anglici",
+            "angliche",
+            "britannico",
+            "britannica",
+            "britannici",
+            "britanniche",
+            "britanno",
+            "britanna",
+            "britanni",
+            "britanne",
+            "scoto",
+            "scota",
+            "scoti",
+            "scote"
+        ],
+        "typos": [],
+        "others": [
+            "UK"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/britannico",
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/inglese",
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/scozzese",
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/gallese",
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/nordirlandese",
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/irlandese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/britannico",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/inglese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/scozzese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/gallese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/nordirlandese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/irlandese"
+        ]
+    },
+    "GD": {
+        "LABEL": "Grenada",
+        "name": "Grenada",
+        "fullName": "Grenada",
+        "demonyms": [
+            "Grenadini",
+            "Grenadiani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Grenadino",
+            "Grenadina",
+            "Grenadini",
+            "Grenadine",
+            "Grenadiano",
+            "Grenadiana",
+            "Grenadiani",
+            "Grenadiane"
+        ],
+        "typos": [],
+        "others": [
+            "caraibi",
+            "piccole",
+            "antille",
+            "caraibico",
+            "caraibica",
+            "caraibici",
+            "caraibiche",
+            "antillano",
+            "antillana",
+            "antillani",
+            "antillane",
+            "isola",
+            "di"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/grenadino",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/grenadino"
+        ]
+    },
+    "GE": {
+        "LABEL": "Georgia",
+        "name": "Georgia",
+        "fullName": "Repubblica della Georgia",
+        "demonyms": [
+            "Georgiani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Georgiano",
+            "Georgiana",
+            "Georgiani",
+            "Georgiane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/georgiano1",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/georgiano1"
+        ]
+    },
+    "GF": {
+        "LABEL": "French Guiana",
+        "name": "Guyana Francese",
+        "fullName": "Dipartimento della Guyana francese",
+        "demonyms": [
+            "Guianési",
+            "Guyanési"
+        ],
+        "acronymsAliasFormer": [
+            "Guyana Francese",
+            "DOM",
+            "D.O.M."
+        ],
+        "adjectives": [
+            "Guianése",
+            "Guianési",
+            "Guyanése",
+            "Guyanési"
+        ],
+        "typos": [
+            "francese della Guyana",
+            "francesi della Guyana"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/guianese",
+            "[acronymsAliasFormer] Isole Normanne",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/guianese"
+        ]
+    },
+    "GG": {
+        "LABEL": "Guernsey",
+        "name": "Guernsey",
+        "fullName": "Baliato di Guernsey",
+        "demonyms": [
+            "Guernesiani",
+            "Guernesi"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [],
+        "typos": [
+            "Guernesiano",
+            "Guernesiana",
+            "Guernesiani",
+            "Guernesiane",
+            "Guernese",
+            "Guernesi"
+        ],
+        "others": [
+            "isole",
+            "normanne",
+            "guernseiano",
+            "guernseiana",
+            "guernseiane",
+            "guernseiani"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: Not Found",
+            "[adjectives] Treccani: Not Found"
+        ]
+    },
+    "GH": {
+        "LABEL": "Ghana",
+        "name": "Ghana",
+        "fullName": "Repubblica del Ghana",
+        "demonyms": [
+            "Ghanési",
+            "Ghanaési",
+            "Ganaési",
+            "Ghanaènsi",
+            "Ganaènsi"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Ghanése",
+            "Ghanési",
+            "Ghanaése",
+            "Ghanaési",
+            "Ganaése",
+            "Ganaési",
+            "Ghanaènse",
+            "Ghanaènsi",
+            "Ganaènse",
+            "Ganaènsi"
+        ],
+        "typos": [],
+        "others": [
+            "ganesi"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/ghanese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/ghanese"
+        ]
+    },
+    "GI": {
+        "LABEL": "Gibraltar",
+        "name": "Gibilterra",
+        "fullName": "Gibilterra",
+        "demonyms": [
+            "Gibilterriani"
+        ],
+        "acronymsAliasFormer": [
+            "colonia di Gibilterra"
+        ],
+        "adjectives": [
+            "Gibilterriano",
+            "Gibilterriana",
+            "Gibilterriani",
+            "Gibilterriane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/gibilterriano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/gibilterriano"
+        ]
+    },
+    "GL": {
+        "LABEL": "Greenland",
+        "name": "Groenlandia",
+        "fullName": "Groenlandia",
+        "demonyms": [
+            "Groenlandési"
+        ],
+        "acronymsAliasFormer": [
+            "Inuit"
+        ],
+        "adjectives": [
+            "Groenlandése",
+            "Groenlandési"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/groenlandese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/groenlandese"
+        ]
+    },
+    "GM": {
+        "LABEL": "Gambia",
+        "name": "Gambia",
+        "fullName": "Repubblica del Gambia (o della Gambia)",
+        "demonyms": [
+            "Gambiani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Gambiano",
+            "Gambiana",
+            "Gambiani",
+            "Gambiane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/gambiano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/gambiano"
+        ]
+    },
+    "GN": {
+        "LABEL": "Guinea",
+        "name": "Guinea",
+        "fullName": "Repubblica di Guinea",
+        "demonyms": [
+            "Guineani"
+        ],
+        "acronymsAliasFormer": [
+            "Guinea Conakry"
+        ],
+        "adjectives": [
+            "Guineano",
+            "Guineana",
+            "Guineani",
+            "Guineane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/guineano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/guineano"
+        ]
+    },
+    "GP": {
+        "LABEL": "Guadeloupe",
+        "name": "Guadalupa",
+        "fullName": "Dipartimento di Guadalupa",
+        "demonyms": [
+            "Guadalupensi",
+            "Guadalupiani"
+        ],
+        "acronymsAliasFormer": [
+            "DOM",
+            "D.O.M.",
+            "guadalupe",
+            "isola di Guadalupa"
+        ],
+        "adjectives": [
+            "Guadalupense",
+            "Guadalupensi",
+            "Guadalupiano",
+            "Guadalupiana",
+            "Guadalupiani",
+            "Guadalupiane"
+        ],
+        "typos": [],
+        "others": [
+            "antille",
+            "francesi",
+            "caraibi",
+            "piccole",
+            "caraibico",
+            "caraibica",
+            "caraibici",
+            "caraibiche",
+            "antillano",
+            "antillana",
+            "antillani",
+            "antillane"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: Not Found",
+            "[adjectives] Treccani: Not Found"
+        ]
+    },
+    "GQ": {
+        "LABEL": "Equatorial Guinea",
+        "name": "Guinea Equatoriale",
+        "fullName": "Repubblica della Guinea Equatoriale",
+        "demonyms": [
+            "Guineani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Guineano",
+            "Guineana",
+            "Guineani",
+            "Guineane"
+        ],
+        "typos": [],
+        "others": [
+            "di"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/guineano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/guineano"
+        ]
+    },
+    "GR": {
+        "LABEL": "Greece",
+        "name": "Grecia",
+        "fullName": "Repubblica ellenica",
+        "demonyms": [
+            "Grèci",
+            "Ellènici"
+        ],
+        "acronymsAliasFormer": [
+            "Repubblica Ellenica"
+        ],
+        "adjectives": [
+            "Grèco",
+            "Grèca",
+            "Grèci",
+            "Grèche",
+            "Ellènico",
+            "Ellènica",
+            "Ellènici",
+            "Ellèniche"
+        ],
+        "typos": [],
+        "others": [
+            "EL"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/greco",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/greco"
+        ]
+    },
+    "GS": {
+        "LABEL": "South Georgia and the South Sandwich Islands",
+        "name": "Georgia del Sud e Isole Sandwich Meridionali",
+        "fullName": "Georgia del Sud e Isole Sandwich Australi",
+        "demonyms": [
+            "Sudgeorgiani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [],
+        "typos": [
+            "Sudgeorgiano",
+            "Sudgeorgiana",
+            "Sudgeorgiani",
+            "Sudgeorgiane"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: Not Found",
+            "[adjectives] Treccani: Not Found"
+        ]
+    },
+    "GT": {
+        "LABEL": "Guatemala",
+        "name": "Guatemala",
+        "fullName": "Repubblica del Guatemala",
+        "demonyms": [
+            "Guatemaltèchi"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Guatemaltèco",
+            "Guatemaltèca",
+            "Guatemaltèchi",
+            "Guatemaltèche"
+        ],
+        "typos": [
+            "guatemalése",
+            "guatemalési"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/guatemalteco",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/guatemalteco"
+        ]
+    },
+    "GU": {
+        "LABEL": "Guam",
+        "name": "Guam",
+        "fullName": "Guam",
+        "demonyms": [
+            "Mariannènsi"
+        ],
+        "acronymsAliasFormer": [
+            "isola di Guam"
+        ],
+        "adjectives": [
+            "Mariannènse",
+            "Mariannènsi"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: Not found a specific term for Guam",
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/mariannense",
+            "[adjectives] Treccani: Not found a specific term for Guam",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/mariannense"
+        ]
+    },
+    "GW": {
+        "LABEL": "Guinea-Bissau",
+        "name": "Guinea-Bissau",
+        "fullName": "Repubblica della Guinea-Bissau",
+        "demonyms": [
+            "Guineani"
+        ],
+        "acronymsAliasFormer": [
+            "Guinea portoghese"
+        ],
+        "adjectives": [
+            "Guineano",
+            "Guineana",
+            "Guineani",
+            "Guineane"
+        ],
+        "typos": [
+            "guinea-bissauiano",
+            "guinea-bissauiana",
+            "bissauiano",
+            "bissauiana"
+        ],
+        "others": [
+            "di"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/guineano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/guineano"
+        ]
+    },
+    "GY": {
+        "LABEL": "Guyana",
+        "name": "Guyana",
+        "fullName": "Repubblica Cooperativa di Guyana",
+        "demonyms": [
+            "Guianési",
+            "Guyanési"
+        ],
+        "acronymsAliasFormer": [
+            "Cooperativa Repubblica di Guyana"
+        ],
+        "adjectives": [
+            "Guianése",
+            "Guianési",
+            "Guyanése",
+            "Guyanési"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/guianese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/guianese"
+        ]
+    },
+    "HK": {
+        "LABEL": "Hong Kong",
+        "name": "Hong Kong",
+        "fullName": "Regione amministrativa speciale di Hong Kong della Repubblica Popolare Cinese",
+        "demonyms": [
+            "Hongkonghesi"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Hongkonghese",
+            "Hongkonghesi"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/hongkonghese_(Neologismi)",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/hongkonghese_(Neologismi)"
+        ]
+    },
+    "HM": {
+        "LABEL": "Heard Island and McDonald Islands",
+        "name": "Isole Heard e McDonald",
+        "fullName": "Territorio delle Isole Heard e McDonald",
+        "demonyms": [],
+        "acronymsAliasFormer": [],
+        "adjectives": [],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] The Heard and McDonald Islands has no inhabitants. No demonym or adjective exists in Italian",
+            "[adjectives] The Heard and McDonald Islands has no inhabitants. No demonym or adjective exists in Italian"
+        ]
+    },
+    "HN": {
+        "LABEL": "Honduras",
+        "name": "Honduras",
+        "fullName": "Repubblica dell'Honduras",
+        "demonyms": [
+            "Hondurégni",
+            "Ondurégni"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Hondurégno",
+            "Hondurégna",
+            "Hondurégni",
+            "Hondurégne",
+            "Ondurégno",
+            "Ondurégna",
+            "Ondurégni",
+            "Ondurégne"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/honduregno",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/honduregno"
+        ]
+    },
+    "HR": {
+        "LABEL": "Croatia",
+        "name": "Croazia",
+        "fullName": "Repubblica di Croazia",
+        "demonyms": [
+            "Croati"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Croato",
+            "Croata",
+            "Croati",
+            "Croate"
+        ],
+        "typos": [],
+        "others": [
+            "balcani",
+            "balcanico",
+            "balcanica",
+            "balcanici",
+            "balcaniche"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/croato",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/croato"
+        ]
+    },
+    "HT": {
+        "LABEL": "Haiti",
+        "name": "Haiti",
+        "fullName": "Repubblica di Haiti",
+        "demonyms": [
+            "Haitiani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Haitiano",
+            "Haitiana",
+            "Haitiani",
+            "Haitiane"
+        ],
+        "typos": [],
+        "others": [
+            "caraibi",
+            "grandi",
+            "antille",
+            "caraibico",
+            "caraibica",
+            "caraibici",
+            "caraibiche",
+            "antillano",
+            "antillana",
+            "antillani",
+            "antillane"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/haitiano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/haitiano"
+        ]
+    },
+    "HU": {
+        "LABEL": "Hungary",
+        "name": "Ungheria",
+        "fullName": "Ungheria",
+        "demonyms": [
+            "Ungherési",
+            "Magiàri",
+            "Màgiari",
+            "Ùngari",
+            "Ungàrici"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Ungherése",
+            "Ungherési",
+            "Magiàro",
+            "Magiàra",
+            "Magiàri",
+            "Magiàre",
+            "Màgiaro",
+            "Màgiara",
+            "Màgiari",
+            "Màgiare",
+            "Ùngaro",
+            "Ùngara",
+            "Ùngari",
+            "Ùngare",
+            "Ungàrico",
+            "Ungàrica",
+            "Ungàrici",
+            "Ungàriche"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/ungherese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/ungherese"
+        ]
+    },
+    "ID": {
+        "LABEL": "Indonesia",
+        "name": "Indonesia",
+        "fullName": "Repubblica d'Indonesia",
+        "demonyms": [
+            "Indonesiani"
+        ],
+        "acronymsAliasFormer": [
+            "timor portoghese"
+        ],
+        "adjectives": [
+            "Indonesiano",
+            "Indonesiana",
+            "Indonesiani",
+            "Indonesiane"
+        ],
+        "typos": [],
+        "others": [
+            "di"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/indonesiano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/indonesiano"
+        ]
+    },
+    "IE": {
+        "LABEL": "Ireland",
+        "name": "Irlanda",
+        "fullName": "Repubblica d'Irlanda",
+        "demonyms": [
+            "Irlandési"
+        ],
+        "acronymsAliasFormer": [
+            "Éire",
+            "Eire"
+        ],
+        "adjectives": [
+            "Irlandése",
+            "Irlandési"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/irlandese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/irlandese"
+        ]
+    },
+    "IL": {
+        "LABEL": "Israel",
+        "name": "Israele",
+        "fullName": "Stato d'Israele",
+        "demonyms": [
+            "Israeliani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Israeliano",
+            "Israeliana",
+            "Israeliani",
+            "Israeliane"
+        ],
+        "typos": [
+            "israelita",
+            "israeliti"
+        ],
+        "others": [
+            "di"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/israeliano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/israeliano"
+        ]
+    },
+    "IM": {
+        "LABEL": "Isle of Man",
+        "name": "Isola di Man",
+        "fullName": "Isola di Man",
+        "demonyms": [
+            "Mannési"
+        ],
+        "acronymsAliasFormer": [
+            "Mann"
+        ],
+        "adjectives": [
+            "Mannése",
+            "Mannési"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/mannese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/mannese"
+        ]
+    },
+    "IN": {
+        "LABEL": "India",
+        "name": "India",
+        "fullName": "Repubblica dell'India",
+        "demonyms": [
+            "Indiani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Indiano",
+            "Indiana",
+            "Indiani",
+            "Indiane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/indiano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/indiano"
+        ]
+    },
+    "IO": {
+        "LABEL": "British Indian Ocean Territory",
+        "name": "Territorio britannico dell'oceano Indiano",
+        "fullName": "Territorio britannico dell'oceano Indiano",
+        "demonyms": [],
+        "acronymsAliasFormer": [
+            "Chagos",
+            "BIOT",
+            "B.I.O.T."
+        ],
+        "adjectives": [],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] The territory has no inhabitants.",
+            "[demonyms] The Chagos inabitants (in Italian 'Chagossiani' or 'Chagossianesi') were forced to leave the territory in the '60.",
+            "[adjectives] The territory has no inhabitants.",
+            "[adjectives] The Chagos inabitants (in Italian 'Chagossiani' or 'Chagossianesi') were forced to leave the territory in the '60."
+        ]
+    },
+    "IQ": {
+        "LABEL": "Iraq",
+        "name": "Iraq",
+        "fullName": "Repubblica d'Iraq",
+        "demonyms": [
+            "Irachèni",
+            "Irakèni"
+        ],
+        "acronymsAliasFormer": [
+            "Mesopotamia"
+        ],
+        "adjectives": [
+            "Irachèno",
+            "Irachèna",
+            "Irachèni",
+            "Irachène",
+            "Irakèno",
+            "Irakèna",
+            "Irakèni",
+            "Irakène"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/iracheno",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/iracheno"
+        ]
+    },
+    "IR": {
+        "LABEL": "Iran (Islamic Republic of)",
+        "name": "Iran",
+        "fullName": "Repubblica Islamica dell'Iran",
+        "demonyms": [
+            "Iraniani"
+        ],
+        "acronymsAliasFormer": [
+            "Persia",
+            "Persiano",
+            "Persiana",
+            "Persiane",
+            "Persiani"
+        ],
+        "adjectives": [
+            "Iraniano",
+            "Iraniana",
+            "Iraniani",
+            "Iraniane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/iraniano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/iraniano"
+        ]
+    },
+    "IS": {
+        "LABEL": "Iceland",
+        "name": "Islanda",
+        "fullName": "Repubblica d'Islanda",
+        "demonyms": [
+            "Islandési"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Islandése",
+            "Islandési"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/islandese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/islandese"
+        ]
+    },
+    "IT": {
+        "LABEL": "Italy",
+        "name": "Italia",
+        "fullName": "Repubblica Italiana",
+        "demonyms": [
+            "Italiani"
+        ],
+        "acronymsAliasFormer": [
+            "penisola"
+        ],
+        "adjectives": [
+            "Italiano",
+            "Italiana",
+            "Italiani",
+            "Italiane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/italiano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/italiano"
+        ]
+    },
+    "JE": {
+        "LABEL": "Jersey",
+        "name": "Jersey",
+        "fullName": "Baliato di Jersey",
+        "demonyms": [
+            "Jersesi"
+        ],
+        "acronymsAliasFormer": [
+            "Isole Normanne"
+        ],
+        "adjectives": [],
+        "typos": [
+            "Jersese",
+            "Jersesi"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: Not Found",
+            "[adjectives] Treccani: Not Found"
+        ]
+    },
+    "JM": {
+        "LABEL": "Jamaica",
+        "name": "Giamaica",
+        "fullName": "Giamaica",
+        "demonyms": [
+            "Giamaicani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Giamaicano",
+            "Giamaicana",
+            "Giamaicani",
+            "Giamaicane"
+        ],
+        "typos": [],
+        "others": [
+            "caraibi",
+            "grandi",
+            "antille",
+            "caraibico",
+            "caraibica",
+            "caraibici",
+            "caraibiche",
+            "antillano",
+            "antillana",
+            "antillani",
+            "antillane"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/giamaicano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/giamaicano"
+        ]
+    },
+    "JO": {
+        "LABEL": "Jordan",
+        "name": "Giordania",
+        "fullName": "Regno Hascemita di Giordania",
+        "demonyms": [
+            "Giordani",
+            "Giordaniani"
+        ],
+        "acronymsAliasFormer": [
+            "Regno Hascemita di Giordania"
+        ],
+        "adjectives": [
+            "Giordano",
+            "Giordana",
+            "Giordani",
+            "Giordane",
+            "Giordaniano",
+            "Giordaniana",
+            "Giordaniani",
+            "Giordaniane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/giordano",
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/giordaniano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/giordano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/giordaniano"
+        ]
+    },
+    "JP": {
+        "LABEL": "Japan",
+        "name": "Giappone",
+        "fullName": "Stato del Giappone",
+        "demonyms": [
+            "Giapponési",
+            "Nippònici"
+        ],
+        "acronymsAliasFormer": [
+            "Nippon"
+        ],
+        "adjectives": [
+            "Giapponése",
+            "Giapponési",
+            "Nippònico",
+            "Nippònica",
+            "Nippònici",
+            "Nippòniche"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/giapponese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/giapponese"
+        ]
+    },
+    "KE": {
+        "LABEL": "Kenya",
+        "name": "Kenya",
+        "fullName": "Repubblica del Kenya",
+        "demonyms": [
+            "Keniani",
+            "Kenioti"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Keniano",
+            "Keniana",
+            "Keniani",
+            "Keniane",
+            "Keniota",
+            "Kenioti"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/keniota_(Sinonimi-e-Contrari)",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/keniota_(Sinonimi-e-Contrari)"
+        ]
+    },
+    "KG": {
+        "LABEL": "Kyrgyzstan",
+        "name": "Kirghizistan",
+        "fullName": "Repubblica del Kirghizistan",
+        "demonyms": [
+            "Kirghiṡi",
+            "Kirghiżi",
+            "Chirghiṡi"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Kirghiṡo",
+            "Kirghiṡa",
+            "Kirghiṡi",
+            "Kirghiṡe",
+            "Kirghiżo",
+            "Kirghiża",
+            "Kirghiżi",
+            "Kirghiże",
+            "Chirghiṡo",
+            "Chirghiṡa",
+            "Chirghiṡi",
+            "Chirghiṡe"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/kirghiso",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/kirghiso"
+        ]
+    },
+    "KH": {
+        "LABEL": "Cambodia",
+        "name": "Cambogia",
+        "fullName": "Regno di Cambogia",
+        "demonyms": [
+            "Cambogiani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Cambogiano",
+            "Cambogiana",
+            "Cambogiani",
+            "Cambogiane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/cambogiano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/cambogiano"
+        ]
+    },
+    "KI": {
+        "LABEL": "Kiribati",
+        "name": "Kiribati",
+        "fullName": "Repubblica delle Kiribati",
+        "demonyms": [
+            "Kiribatési"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Kiribatése",
+            "Kiribatési"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/kiribatese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/kiribatese"
+        ]
+    },
+    "KM": {
+        "LABEL": "Comoros",
+        "name": "Comore",
+        "fullName": "Unione delle Comore",
+        "demonyms": [
+            "Comoriani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Comoriano",
+            "Comoriana",
+            "Comoriani",
+            "Comoriane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/comoriano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/comoriano"
+        ]
+    },
+    "KN": {
+        "LABEL": "Saint Kitts and Nevis",
+        "name": "Saint Kitts e Nevis",
+        "fullName": "Federazione di Saint Kitts e Nevis",
+        "demonyms": [
+            "Nevisiani",
+            "Cristoforiani",
+            "Christopheriani",
+            "Christoforiani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [],
+        "typos": [
+            "Nevisiano",
+            "Nevisiana",
+            "Nevisiani",
+            "Nevisiane",
+            "Cristoforiano",
+            "Cristoforiana",
+            "Cristoforiani",
+            "Cristoforiane",
+            "Christopheriano",
+            "Christopheriana",
+            "Christopheriani",
+            "Christopheriane",
+            "Christoforiano",
+            "Christoforiana",
+            "Christoforiani",
+            "Christoforiane"
+        ],
+        "others": [
+            "caraibi",
+            "christopher",
+            "piccole",
+            "antille",
+            "caraibico",
+            "caraibica",
+            "caraibici",
+            "caraibiche",
+            "antillano",
+            "antillana",
+            "antillani",
+            "antillane"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: Not Found",
+            "[adjectives] Treccani: Not Found"
+        ]
+    },
+    "KP": {
+        "LABEL": "Korea (Democratic People's Republic of)",
+        "name": "Corea del Nord",
+        "fullName": "Repubblica Popolare Democratica di Corea",
+        "demonyms": [
+            "Coreani",
+            "Nordcoreani",
+            "Coreani del Nord",
+            "Nòrd-Coreani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Coreano",
+            "Coreana",
+            "Coreani",
+            "Coreane",
+            "Nordcoreano",
+            "Nordcoreana",
+            "Nordcoreani",
+            "Nordcoreane",
+            "Coreano del Nord",
+            "Coreana del Nord",
+            "Coreani del Nord",
+            "Coreane del Nord",
+            "Nòrd-Coreano",
+            "Nòrd-Coreana",
+            "Nòrd-Coreani",
+            "Nòrd-Coreane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/coreano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/coreano"
+        ]
+    },
+    "KR": {
+        "LABEL": "Korea (Republic of)",
+        "name": "Corea del Sud",
+        "fullName": "Repubblica di Corea",
+        "demonyms": [
+            "Coreani",
+            "Sudcoreani",
+            "Coreani del Sud",
+            "Sud-Coreani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Coreano",
+            "Coreana",
+            "Coreani",
+            "Coreane",
+            "Sudcoreano",
+            "Sudcoreana",
+            "Sudcoreani",
+            "Sudcoreane",
+            "Coreano del Sud",
+            "Coreana del Sud",
+            "Coreani del Sud",
+            "Coreane del Sud",
+            "Sud-Coreano",
+            "Sud-Coreana",
+            "Sud-Coreani",
+            "Sud-Coreane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/coreano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/coreano"
+        ]
+    },
+    "KW": {
+        "LABEL": "Kuwait",
+        "name": "Kuwait",
+        "fullName": "Stato del Kuwait",
+        "demonyms": [
+            "Kuwaitiani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Kuwaitiano",
+            "Kuwaitiana",
+            "Kuwaitiani",
+            "Kuwaitiane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/kuwaitiano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/kuwaitiano"
+        ]
+    },
+    "KY": {
+        "LABEL": "Cayman Islands",
+        "name": "Isole Cayman",
+        "fullName": "Isole Cayman",
+        "demonyms": [
+            "Caymaniani",
+            "Caymanesi"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [],
+        "typos": [
+            "Caymaniano",
+            "Caymaniana",
+            "Caymaniani",
+            "Caymaniane",
+            "Caymanese",
+            "Caymanesi",
+            "Caimaniano",
+            "Caimaniana",
+            "Caimaniani",
+            "Caimaniane",
+            "Caimanese",
+            "Caimanesi"
+        ],
+        "others": [
+            "collettivita",
+            "delle"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: Not Found",
+            "[adjectives] Treccani: Not Found"
+        ]
+    },
+    "KZ": {
+        "LABEL": "Kazakhstan",
+        "name": "Kazakistan",
+        "fullName": "Repubblica del Kazakistan",
+        "demonyms": [
+            "Każachi",
+            "Każaki"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Każaco",
+            "Każaca",
+            "Każachi",
+            "Każache",
+            "Każako",
+            "Każaka",
+            "Każaki",
+            "Każake"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/kazako",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/kazako"
+        ]
+    },
+    "LA": {
+        "LABEL": "Lao People's Democratic Republic",
+        "name": "Laos",
+        "fullName": "Repubblica Popolare Democratica del Laos",
+        "demonyms": [
+            "Laotiani",
+            "Laosiani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Laotiano",
+            "Laotiana",
+            "Laotiani",
+            "Laotiane",
+            "Laosiano",
+            "Laosiana",
+            "Laosiani",
+            "Laosiane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/laotiano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/laotiano"
+        ]
+    },
+    "LB": {
+        "LABEL": "Lebanon",
+        "name": "Libano",
+        "fullName": "Repubblica Libanese",
+        "demonyms": [
+            "Libanési"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Libanése",
+            "Libanési"
+        ],
+        "typos": [],
+        "others": [
+            "del"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/libanese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/libanese"
+        ]
+    },
+    "LC": {
+        "LABEL": "Saint Lucia",
+        "name": "Santa Lucia",
+        "fullName": "Saint Lucia",
+        "demonyms": [
+            "Santaluciani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [],
+        "typos": [
+            "Santaluciano",
+            "Santaluciana",
+            "Santaluciani",
+            "Santaluciane"
+        ],
+        "others": [
+            "caraibi",
+            "piccole",
+            "antille",
+            "caraibico",
+            "caraibica",
+            "caraibici",
+            "caraibiche",
+            "antillano",
+            "antillana",
+            "antillani",
+            "antillane"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: Not Found",
+            "[adjectives] Treccani: Not Found"
+        ]
+    },
+    "LI": {
+        "LABEL": "Liechtenstein",
+        "name": "Liechtenstein",
+        "fullName": "Principato del Liechtenstein",
+        "demonyms": [
+            "Liechtensteiniani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Liechtensteiniano",
+            "Liechtensteiniana",
+            "Liechtensteiniani",
+            "Liechtensteiniane"
+        ],
+        "typos": [
+            "liechtensteinese",
+            "liechtensteinesi",
+            "licchenstain",
+            "licchestain"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/liechtensteiniano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/liechtensteiniano"
+        ]
+    },
+    "LK": {
+        "LABEL": "Sri Lanka",
+        "name": "Sri Lanka",
+        "fullName": "Repubblica Democratica Socialista dello Sri Lanka",
+        "demonyms": [
+            "Srilankési",
+            "Singalési",
+            "Cingalési"
+        ],
+        "acronymsAliasFormer": [
+            "Ceylon"
+        ],
+        "adjectives": [
+            "Srilankése",
+            "Srilankési",
+            "Singalése",
+            "Singalési",
+            "Cingalése",
+            "Cingalési"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/srilankese and relatives",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/srilankese and relatives"
+        ]
+    },
+    "LR": {
+        "LABEL": "Liberia",
+        "name": "Liberia",
+        "fullName": "Repubblica della Liberia",
+        "demonyms": [
+            "Liberiani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Liberiano",
+            "Liberiana",
+            "Liberiani",
+            "Liberiane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/liberiano2",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/liberiano2"
+        ]
+    },
+    "LS": {
+        "LABEL": "Lesotho",
+        "name": "Lesotho",
+        "fullName": "Regno del Lesotho",
+        "demonyms": [
+            "Lesothiani"
+        ],
+        "acronymsAliasFormer": [
+            "Basotho"
+        ],
+        "adjectives": [
+            "Lesothiano",
+            "Lesothiana",
+            "Lesothiani",
+            "Lesothiane"
+        ],
+        "typos": [
+            "Lesoto",
+            "Basoto",
+            "Lesotiano",
+            "Lesotiana",
+            "Lesotiani",
+            "Lesotiane"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: Not Found",
+            "[adjectives] Treccani: Not Found"
+        ]
+    },
+    "LT": {
+        "LABEL": "Lithuania",
+        "name": "Lituania",
+        "fullName": "Repubblica di Lituania",
+        "demonyms": [
+            "Litüani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Litüano",
+            "Litüana",
+            "Litüani",
+            "Litüane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/lituano/",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/lituano/"
+        ]
+    },
+    "LU": {
+        "LABEL": "Luxembourg",
+        "name": "Lussemburgo",
+        "fullName": "Granducato di Lussemburgo",
+        "demonyms": [
+            "Lussemburghési"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Lussemburghése",
+            "Lussemburghési"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/lussemburghese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/lussemburghese"
+        ]
+    },
+    "LV": {
+        "LABEL": "Latvia",
+        "name": "Lettonia",
+        "fullName": "Repubblica di Lettonia",
+        "demonyms": [
+            "Lèttoni",
+            "Lettóni"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Lèttone",
+            "Lèttoni",
+            "Lettóne",
+            "Lettóni"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/lettone",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/lettone"
+        ]
+    },
+    "LY": {
+        "LABEL": "Libya",
+        "name": "Libia",
+        "fullName": "Stato della Libia",
+        "demonyms": [
+            "Lìbici"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Lìbico",
+            "Lìbica",
+            "Lìbici",
+            "Lìbiche"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/libico",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/libico"
+        ]
+    },
+    "MA": {
+        "LABEL": "Morocco",
+        "name": "Marocco",
+        "fullName": "Regno del Marocco",
+        "demonyms": [
+            "Marocchini",
+            "Marrocchini"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Marocchino",
+            "Marocchina",
+            "Marocchini",
+            "Marocchine",
+            "Marrocchino",
+            "Marrocchina",
+            "Marrocchini",
+            "Marrocchine"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/marocchino1",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/marocchino1"
+        ]
+    },
+    "MC": {
+        "LABEL": "Monaco",
+        "name": "Monaco",
+        "fullName": "Principato di Monaco",
+        "demonyms": [
+            "Monegaschi"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Monegasco",
+            "Monegasca",
+            "Monegaschi",
+            "Monegasche"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/monegasco",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/monegasco"
+        ]
+    },
+    "MD": {
+        "LABEL": "Moldova (Republic of)",
+        "name": "Moldavia",
+        "fullName": "Repubblica di Moldavia",
+        "demonyms": [
+            "Moldavi"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Moldavo",
+            "Moldava",
+            "Moldavi",
+            "Moldave"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/moldavo",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/moldavo"
+        ]
+    },
+    "ME": {
+        "LABEL": "Montenegro",
+        "name": "Montenegro",
+        "fullName": "Montenegro",
+        "demonyms": [
+            "Montenegrini"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Montenegrino",
+            "Montenegrina",
+            "Montenegrini",
+            "Montenegrine"
+        ],
+        "typos": [],
+        "others": [
+            "repubblica",
+            "del",
+            "balcani",
+            "balcanico",
+            "balcanica",
+            "balcanici",
+            "balcaniche"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/montenegrino",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/montenegrino"
+        ]
+    },
+    "MF": {
+        "LABEL": "Saint Martin (French part)",
+        "name": "Saint Martin",
+        "fullName": "Collettività d'oltremare di Saint Martin",
+        "demonyms": [
+            "Sanmartinesi",
+            "Sammartinesi"
+        ],
+        "acronymsAliasFormer": [
+            "COM",
+            "C.O.M."
+        ],
+        "adjectives": [],
+        "typos": [
+            "Sanmartinese",
+            "Sanmartinesi",
+            "Sammartinese",
+            "Sammartinesi"
+        ],
+        "others": [
+            "caraibi",
+            "piccole",
+            "antille",
+            "caraibico",
+            "caraibica",
+            "caraibici",
+            "caraibiche",
+            "antillano",
+            "antillana",
+            "antillani",
+            "antillane"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: Not Found",
+            "[adjectives] Treccani: Not Found"
+        ]
+    },
+    "MG": {
+        "LABEL": "Madagascar",
+        "name": "Madagascar",
+        "fullName": "Repubblica del Madagascar",
+        "demonyms": [
+            "Malgasci"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Malgascio",
+            "Malgascia",
+            "Malgasci",
+            "Malgascie"
+        ],
+        "typos": [],
+        "others": [
+            "malgasce"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/malgascio",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/malgascio"
+        ]
+    },
+    "MH": {
+        "LABEL": "Marshall Islands",
+        "name": "Isole Marshall",
+        "fullName": "Repubblica delle Isole Marshall",
+        "demonyms": [
+            "Marshallési"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Marshallése",
+            "Marshallési"
+        ],
+        "typos": [
+            "marciallese",
+            "marciallesi"
+        ],
+        "others": [
+            "marshalliano"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/marshallese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/marshallese"
+        ]
+    },
+    "MK": {
+        "LABEL": "North Macedonia",
+        "name": "Macedonia del Nord",
+        "fullName": "Repubblica della Macedonia del Nord",
+        "demonyms": [
+            "Macèdoni",
+            "Macèdoni del Nord"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Macèdone",
+            "Macèdoni",
+            "Macèdone del Nord",
+            "Macèdoni del Nord"
+        ],
+        "typos": [],
+        "others": [
+            "balcani",
+            "balcanico",
+            "balcanica",
+            "balcanici",
+            "balcaniche"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/macedone",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/macedone"
+        ]
+    },
+    "ML": {
+        "LABEL": "Mali",
+        "name": "Mali",
+        "fullName": "Repubblica del Mali",
+        "demonyms": [
+            "Maliani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Maliano",
+            "Maliana",
+            "Maliani",
+            "Maliane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/enciclopedia/ricerca/maliano",
+            "[adjectives] Treccani: https://www.treccani.it/enciclopedia/ricerca/maliano"
+        ]
+    },
+    "MM": {
+        "LABEL": "Myanmar",
+        "name": "Myanmar",
+        "fullName": "Repubblica dell'Unione del Myanmar",
+        "demonyms": [
+            "Birmani"
+        ],
+        "acronymsAliasFormer": [
+            "Birmania"
+        ],
+        "adjectives": [
+            "Birmano",
+            "Birmana",
+            "Birmani",
+            "Birmane"
+        ],
+        "typos": [
+            "Mianmar",
+            "Mianmmar",
+            "Myanmmar"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: Not Found a specific demonym for Myanmar",
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/birmano",
+            "[adjectives] Treccani: Not Found a specific demonym for Myanmar",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/birmano"
+        ]
+    },
+    "MN": {
+        "LABEL": "Mongolia",
+        "name": "Mongolia",
+        "fullName": "Mongolia",
+        "demonyms": [
+            "Mòngoli"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Mòngolo",
+            "Mòngola",
+            "Mòngoli",
+            "Mòngole"
+        ],
+        "typos": [],
+        "others": [
+            "repubblica",
+            "di"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/mongolo",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/mongolo"
+        ]
+    },
+    "MO": {
+        "LABEL": "Macao",
+        "name": "Macao",
+        "fullName": "Regione Amministrativa Speciale di Macao della Repubblica Popolare Cinese",
+        "demonyms": [
+            "Macaensi"
+        ],
+        "acronymsAliasFormer": [
+            "Macau"
+        ],
+        "adjectives": [],
+        "typos": [
+            "Macaense",
+            "Macaensi"
+        ],
+        "others": [
+            "macaonese",
+            "macaonesi"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: Not Found",
+            "[adjectives] Treccani: Not Found"
+        ]
+    },
+    "MP": {
+        "LABEL": "Northern Mariana Islands",
+        "name": "Isole Marianne Settentrionali",
+        "fullName": "Commonwealth delle Isole Marianne Settentrionali",
+        "demonyms": [
+            "Mariannènsi"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Mariannènse",
+            "Mariannènsi"
+        ],
+        "typos": [],
+        "others": [
+            "marianense"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/mariannense",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/mariannense"
+        ]
+    },
+    "MQ": {
+        "LABEL": "Martinique",
+        "name": "Martinica",
+        "fullName": "Collettività territoriale della Martinica",
+        "demonyms": [
+            "Martinicani"
+        ],
+        "acronymsAliasFormer": [
+            "DOM",
+            "D.O.M."
+        ],
+        "adjectives": [
+            "Martinicano",
+            "Martinicana",
+            "Martinicani",
+            "Martinicane"
+        ],
+        "typos": [],
+        "others": [
+            "caraibi",
+            "piccole",
+            "antille",
+            "caraibico",
+            "caraibica",
+            "caraibici",
+            "caraibiche",
+            "antillano",
+            "antillana",
+            "antillani",
+            "antillane"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/martinicano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/martinicano"
+        ]
+    },
+    "MR": {
+        "LABEL": "Mauritania",
+        "name": "Mauritania",
+        "fullName": "Repubblica Islamica della Mauritania",
+        "demonyms": [
+            "Mauritaniani",
+            "Mauritani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Mauritaniano",
+            "Mauritaniana",
+            "Mauritaniani",
+            "Mauritaniane",
+            "Mauritano",
+            "Mauritana",
+            "Mauritani",
+            "Mauritane"
+        ],
+        "typos": [],
+        "others": [
+            "mauretania",
+            "di"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/mauritaniano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/mauritaniano"
+        ]
+    },
+    "MS": {
+        "LABEL": "Montserrat",
+        "name": "Montserrat",
+        "fullName": "Colonia di Montserrat",
+        "demonyms": [
+            "Montserratiani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [],
+        "typos": [
+            "Montserratiano",
+            "Montserratiana",
+            "Montserratiani",
+            "Montserratiane"
+        ],
+        "others": [
+            "caraibi",
+            "piccole",
+            "antille",
+            "caraibico",
+            "caraibica",
+            "caraibici",
+            "caraibiche",
+            "antillano",
+            "antillana",
+            "antillani",
+            "antillane"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: Not Found",
+            "[adjectives] Treccani: Not Found"
+        ]
+    },
+    "MT": {
+        "LABEL": "Malta",
+        "name": "Malta",
+        "fullName": "Repubblica di Malta",
+        "demonyms": [
+            "Maltési"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Maltése",
+            "Maltési"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/maltese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/maltese"
+        ]
+    },
+    "MU": {
+        "LABEL": "Mauritius",
+        "name": "Mauritius",
+        "fullName": "Repubblica di Mauritius",
+        "demonyms": [
+            "Mauriziani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Mauriziano",
+            "Mauriziana",
+            "Mauriziani",
+            "Mauriziane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/mauriziano2",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/mauriziano2"
+        ]
+    },
+    "MV": {
+        "LABEL": "Maldives",
+        "name": "Maldive",
+        "fullName": "Repubblica delle Maldive",
+        "demonyms": [
+            "Maldiviani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Maldiviano",
+            "Maldiviana",
+            "Maldiviani",
+            "Maldiviane"
+        ],
+        "typos": [
+            "maldivano",
+            "maldivana",
+            "maldivane",
+            "maldivani"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/maldiviano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/maldiviano"
+        ]
+    },
+    "MW": {
+        "LABEL": "Malawi",
+        "name": "Malawi",
+        "fullName": "Repubblica di Malawi",
+        "demonyms": [
+            "Malawènsi",
+            "Malau̯ènsi",
+            "Malawi",
+            "Malaui",
+            "Malawiani",
+            "Malau̯iani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Malawènse",
+            "Malawènsi",
+            "Malau̯ènse",
+            "Malau̯ènsi",
+            "Malawi",
+            "Malaui",
+            "Malawiano",
+            "Malawiana",
+            "Malawiani",
+            "Malawiane",
+            "Malau̯iano",
+            "Malau̯iana",
+            "Malau̯iani",
+            "Malau̯iane"
+        ],
+        "typos": [],
+        "others": [
+            "del"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/ricerca/malawense",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/ricerca/malawense"
+        ]
+    },
+    "MX": {
+        "LABEL": "Mexico",
+        "name": "Messico",
+        "fullName": "Stati Uniti Messicani",
+        "demonyms": [
+            "Messicani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Messicano",
+            "Messicana",
+            "Messicani",
+            "Messicane"
+        ],
+        "typos": [],
+        "others": [
+            "del"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/messicano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/messicano"
+        ]
+    },
+    "MY": {
+        "LABEL": "Malaysia",
+        "name": "Malesia",
+        "fullName": "Malaysia",
+        "demonyms": [
+            "Malayṡiani",
+            "Malési"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Malayṡiano",
+            "Malayṡiana",
+            "Malayṡiani",
+            "Malayṡiane",
+            "Malése",
+            "Malési"
+        ],
+        "typos": [
+            "Malaisia",
+            "malaiṡiano",
+            "malaiṡiana",
+            "malaiṡiane",
+            "malaiṡiani"
+        ],
+        "others": [
+            "grande",
+            "federazione",
+            "della"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/malaysiano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/malaysiano"
+        ]
+    },
+    "MZ": {
+        "LABEL": "Mozambique",
+        "name": "Mozambico",
+        "fullName": "Repubblica del Mozambico",
+        "demonyms": [
+            "Możambicani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Możambicano",
+            "Możambicana",
+            "Możambicani",
+            "Możambicane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/mozambicano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/mozambicano"
+        ]
+    },
+    "NA": {
+        "LABEL": "Namibia",
+        "name": "Namibia",
+        "fullName": "Repubblica della Namibia",
+        "demonyms": [
+            "Namibiani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Namibiano",
+            "Namibiana",
+            "Namibiani",
+            "Namibiane"
+        ],
+        "typos": [],
+        "others": [
+            "di"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/namibiano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/namibiano"
+        ]
+    },
+    "NC": {
+        "LABEL": "New Caledonia",
+        "name": "Nuova Caledonia",
+        "fullName": "Governo della Nuova Caledonia",
+        "demonyms": [
+            "Neocaledoni",
+            "Neocaledoniani"
+        ],
+        "acronymsAliasFormer": [
+            "isola COM",
+            "C.O.M."
+        ],
+        "adjectives": [
+            "Neocaledone",
+            "Neocaledoni",
+            "Neocaledoniano",
+            "Neocaledoniana",
+            "Neocaledoniani",
+            "Neocaledoniane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/neocaledone",
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/neocaledoniano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/neocaledone",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/neocaledoniano"
+        ]
+    },
+    "NE": {
+        "LABEL": "Niger",
+        "name": "Niger",
+        "fullName": "Repubblica del Niger",
+        "demonyms": [
+            "Nigerini"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Nigerino",
+            "Nigerina",
+            "Nigerini",
+            "Nigerine"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/nigerino",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/nigerino"
+        ]
+    },
+    "NF": {
+        "LABEL": "Norfolk Island",
+        "name": "Isola Norfolk",
+        "fullName": "Territorio dell'isola Norfolk",
+        "demonyms": [
+            "Norfolcani",
+            "Norfolkiani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [],
+        "typos": [
+            "Norfolcano",
+            "Norfolcana",
+            "Norfolcani",
+            "Norfolcane",
+            "Norfolkiano",
+            "Norfolkiana",
+            "Norfolkiani",
+            "Norfolkiane"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: Not Found",
+            "[adjectives] Treccani: Not Found"
+        ]
+    },
+    "NG": {
+        "LABEL": "Nigeria",
+        "name": "Nigeria",
+        "fullName": "Repubblica Federale della Nigeria",
+        "demonyms": [
+            "Nigeriani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Nigeriano",
+            "Nigeriana",
+            "Nigeriani",
+            "Nigeriane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/nigeriano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/nigeriano"
+        ]
+    },
+    "NI": {
+        "LABEL": "Nicaragua",
+        "name": "Nicaragua",
+        "fullName": "Repubblica del Nicaragua",
+        "demonyms": [
+            "Nicaraguènsi",
+            "Nicaraguési",
+            "Nicaraguégni"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Nicaraguènse",
+            "Nicaraguènsi",
+            "Nicaraguése",
+            "Nicaraguési",
+            "Nicaraguégno",
+            "Nicaraguégna",
+            "Nicaraguégni",
+            "Nicaraguégne"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/nicaraguense",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/nicaraguense"
+        ]
+    },
+    "NL": {
+        "LABEL": "Netherlands",
+        "name": "Paesi Bassi",
+        "fullName": "Regno dei Paesi Bassi",
+        "demonyms": [
+            "Olandési",
+            "Neerlandési",
+            "Nederlandési"
+        ],
+        "acronymsAliasFormer": [
+            "Olanda"
+        ],
+        "adjectives": [
+            "Olandése",
+            "Olandési",
+            "Neerlandése",
+            "Neerlandési",
+            "Nederlandése",
+            "Nederlandési"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/olandese",
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/neerlandese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/olandese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/neerlandese"
+        ]
+    },
+    "NO": {
+        "LABEL": "Norway",
+        "name": "Norvegia",
+        "fullName": "Regno di Norvegia",
+        "demonyms": [
+            "Norvegési"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Norvegése",
+            "Norvegési"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/norvegese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/norvegese"
+        ]
+    },
+    "NP": {
+        "LABEL": "Nepal",
+        "name": "Nepal",
+        "fullName": "Repubblica Federale Democratica del Nepal",
+        "demonyms": [
+            "Nepalési"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Nepalése",
+            "Nepalési"
+        ],
+        "typos": [
+            "nepaliano",
+            "nepaliana",
+            "nepaliani",
+            "nepaliane"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/nepalese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/nepalese"
+        ]
+    },
+    "NR": {
+        "LABEL": "Nauru",
+        "name": "Nauru",
+        "fullName": "Repubblica di Nauru",
+        "demonyms": [
+            "Nauruani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Nauruano",
+            "Nauruana",
+            "Nauruani",
+            "Nauruane"
+        ],
+        "typos": [
+            "Naruano",
+            "Naruana",
+            "Naruani",
+            "Naruane",
+            "nauruese",
+            "nauruesi",
+            "naruese",
+            "naruesi"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/nauruano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/nauruano"
+        ]
+    },
+    "NU": {
+        "LABEL": "Niue",
+        "name": "Niue",
+        "fullName": "Niue",
+        "demonyms": [
+            "Niueani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Niueano",
+            "Niueana",
+            "Niueani",
+            "Niueane"
+        ],
+        "typos": [
+            "Nueano",
+            "Nueana",
+            "Nueani",
+            "Nueane",
+            "Nuese",
+            "Nuesi"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/niueano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/niueano"
+        ]
+    },
+    "NZ": {
+        "LABEL": "New Zealand",
+        "name": "Nuova Zelanda",
+        "fullName": "Nuova Zelanda",
+        "demonyms": [
+            "Neożelandési"
+        ],
+        "acronymsAliasFormer": [
+            "Kiwi"
+        ],
+        "adjectives": [
+            "Neożelandése",
+            "Neożelandési"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/neozelandese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/neozelandese"
+        ]
+    },
+    "OM": {
+        "LABEL": "Oman",
+        "name": "Oman",
+        "fullName": "Sultanato dell'Oman",
+        "demonyms": [
+            "Omaniti"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Omanita",
+            "Omaniti"
+        ],
+        "typos": [
+            "Omanese",
+            "Omanesi"
+        ],
+        "others": [
+            "sultanto",
+            "di"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/omanita",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/omanita"
+        ]
+    },
+    "PA": {
+        "LABEL": "Panama",
+        "name": "Panama",
+        "fullName": "Repubblica di Panama",
+        "demonyms": [
+            "Panamènsi"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Panamènse",
+            "Panamènsi"
+        ],
+        "typos": [
+            "panamèse",
+            "panamèsi"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/panamense",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/panamense"
+        ]
+    },
+    "PE": {
+        "LABEL": "Peru",
+        "name": "Perù",
+        "fullName": "Repubblica del Perù",
+        "demonyms": [
+            "Peruviani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Peruviano",
+            "Peruviana",
+            "Peruviani",
+            "Peruviane"
+        ],
+        "typos": [],
+        "others": [
+            "andino",
+            "andina",
+            "andine",
+            "andini"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/peruviano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/peruviano"
+        ]
+    },
+    "PF": {
+        "LABEL": "French Polynesia",
+        "name": "Polinesia Francese",
+        "fullName": "Collettività d'oltremare della Polinesia Francese",
+        "demonyms": [
+            "Polineṡiani"
+        ],
+        "acronymsAliasFormer": [
+            "COM",
+            "C.O.M."
+        ],
+        "adjectives": [
+            "Polineṡiano",
+            "Polineṡiana",
+            "Polineṡiani",
+            "Polineṡiane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/polinesiano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/polinesiano"
+        ]
+    },
+    "PG": {
+        "LABEL": "Papua New Guinea",
+        "name": "Papua Nuova Guinea",
+        "fullName": "Stato Indipendente della Papua Nuova Guinea",
+        "demonyms": [
+            "Papüani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Papüano",
+            "Papüana",
+            "Papüani",
+            "Papüane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/papuano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/papuano"
+        ]
+    },
+    "PH": {
+        "LABEL": "Philippines",
+        "name": "Filippine",
+        "fullName": "Repubblica delle Filippine",
+        "demonyms": [
+            "Filippini"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Filippino",
+            "Filippina",
+            "Filippini",
+            "Filippine"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/filippino1",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/filippino1"
+        ]
+    },
+    "PK": {
+        "LABEL": "Pakistan",
+        "name": "Pakistan",
+        "fullName": "Repubblica Islamica del Pakistan",
+        "demonyms": [
+            "Pachistani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Pachistano",
+            "Pachistana",
+            "Pachistani",
+            "Pachistane"
+        ],
+        "typos": [
+            "pachistan",
+            "pakistano",
+            "pakistana",
+            "pakistane",
+            "pakistani"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/pachistano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/pachistano"
+        ]
+    },
+    "PL": {
+        "LABEL": "Poland",
+        "name": "Polonia",
+        "fullName": "Repubblica di Polonia",
+        "demonyms": [
+            "Polacchi",
+            "Pollacchi"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Polacco",
+            "Polacca",
+            "Polacchi",
+            "Polacche",
+            "Pollacco",
+            "Pollacca",
+            "Pollacchi",
+            "Pollacche"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/polacco",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/polacco"
+        ]
+    },
+    "PM": {
+        "LABEL": "Saint Pierre and Miquelon",
+        "name": "Saint Pierre e Miquelon",
+        "fullName": "Collettività d'oltremare di Saint-Pierre and Miquelon",
+        "demonyms": [
+            "Miqueloniani",
+            "Miquelonesi",
+            "Sanpierresi"
+        ],
+        "acronymsAliasFormer": [
+            "COM",
+            "C.O.M."
+        ],
+        "adjectives": [],
+        "typos": [
+            "Miqueloniano",
+            "Miqueloniana",
+            "Miqueloniani",
+            "Miqueloniane",
+            "Miquelonese",
+            "Miquelonesi",
+            "Sanpierrese",
+            "Sanpierresi"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: Not Found",
+            "[adjectives] Treccani: Not Found"
+        ]
+    },
+    "PN": {
+        "LABEL": "Pitcairn",
+        "name": "Pitcairn",
+        "fullName": "Isole Pitcairn, Henderson, Ducie e Oeno",
+        "demonyms": [
+            "Pitcairnesi"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [],
+        "typos": [
+            "Pitcairnese",
+            "Pitcairnesi"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: Not Found",
+            "[adjectives] Treccani: Not Found"
+        ]
+    },
+    "PR": {
+        "LABEL": "Puerto Rico",
+        "name": "Portorico",
+        "fullName": "Stato libero associato di Porto Rico",
+        "demonyms": [
+            "Portoricani"
+        ],
+        "acronymsAliasFormer": [
+            "Portoricco"
+        ],
+        "adjectives": [
+            "Portoricano",
+            "Portoricana",
+            "Portoricani",
+            "Portoricane"
+        ],
+        "typos": [
+            "portoriccano",
+            "portoriccana",
+            "portoriccane",
+            "portoriccani",
+            "portorichese",
+            "portorichesi",
+            "portoricchese",
+            "portoricchesi"
+        ],
+        "others": [
+            "caraibi",
+            "isole",
+            "vergini",
+            "grandi",
+            "antille",
+            "caraibico",
+            "caraibica",
+            "caraibici",
+            "caraibiche",
+            "antillano",
+            "antillana",
+            "antillani",
+            "antillane"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/portoricano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/portoricano"
+        ]
+    },
+    "PS": {
+        "LABEL": "Palestine",
+        "name": "Palestina",
+        "fullName": "Stato di Palestina",
+        "demonyms": [
+            "Palestinési"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Palestinése",
+            "Palestinési"
+        ],
+        "typos": [
+            "palestiniano",
+            "palestiniana",
+            "palestiniani",
+            "palestiniane"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/palestinese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/palestinese"
+        ]
+    },
+    "PT": {
+        "LABEL": "Portugal",
+        "name": "Portogallo",
+        "fullName": "Repubblica Portoghese",
+        "demonyms": [
+            "Portoghési",
+            "Lusitani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Portoghése",
+            "Portoghési",
+            "Lusitano",
+            "Lusitana",
+            "Lusitani",
+            "Lusitane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/portoghese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/portoghese"
+        ]
+    },
+    "PW": {
+        "LABEL": "Palau",
+        "name": "Palau",
+        "fullName": "Repubblica di Palau",
+        "demonyms": [
+            "Palaulani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Palaulano",
+            "Palaulana",
+            "Palaulani",
+            "Palaulane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/palaulano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/palaulano"
+        ]
+    },
+    "PY": {
+        "LABEL": "Paraguay",
+        "name": "Paraguay",
+        "fullName": "Repubblica del Paraguay",
+        "demonyms": [
+            "Paraguaiani",
+            "Paraguayani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Paraguaiano",
+            "Paraguaiana",
+            "Paraguaiani",
+            "Paraguaiane",
+            "Paraguayano",
+            "Paraguayana",
+            "Paraguayani",
+            "Paraguayane"
+        ],
+        "typos": [
+            "Paraguagio",
+            "Paraguagia",
+            "Paraguagi",
+            "Paraguagie"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/paraguaiano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/paraguaiano"
+        ]
+    },
+    "QA": {
+        "LABEL": "Qatar",
+        "name": "Qatar",
+        "fullName": "Stato del Qatar",
+        "demonyms": [
+            "Qatariani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Qatariano",
+            "Qatariana",
+            "Qatariani",
+            "Qatariane"
+        ],
+        "typos": [
+            "qatariota",
+            "qatarioti",
+            "qatarini",
+            "qatarina",
+            "qatarine",
+            "qatarino",
+            "katariota",
+            "katarioti",
+            "katarini",
+            "katarina",
+            "katarine",
+            "katarino",
+            "katariano",
+            "katariana",
+            "katariane",
+            "katariani",
+            "catariota",
+            "catarioti",
+            "catarini",
+            "catarina",
+            "catarine",
+            "catarino",
+            "catariano",
+            "catariana",
+            "catariane",
+            "catariani"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/qatariano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/qatariano"
+        ]
+    },
+    "RE": {
+        "LABEL": "Réunion",
+        "name": "La Riunione",
+        "fullName": "Dipartimento della Réunion",
+        "demonyms": [
+            "Reunionési"
+        ],
+        "acronymsAliasFormer": [
+            "DOM",
+            "D.O.M."
+        ],
+        "adjectives": [],
+        "typos": [
+            "Reunionése",
+            "Reunionési"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: Not Found",
+            "[demonyms] Wikipedia: https://it.wikipedia.org/wiki/La_Riunione   suggests 'réunionnais/e'",
+            "[adjectives] Treccani: Not Found",
+            "[adjectives] Wikipedia: https://it.wikipedia.org/wiki/La_Riunione   suggests 'réunionnais/e'"
+        ]
+    },
+    "RO": {
+        "LABEL": "Romania",
+        "name": "Romania",
+        "fullName": "Romania",
+        "demonyms": [
+            "Romèni",
+            "Rumèni"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Romèno",
+            "Romèna",
+            "Romèni",
+            "Romène",
+            "Rumèno",
+            "Rumèna",
+            "Rumèni",
+            "Rumène"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/romeno",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/romeno"
+        ]
+    },
+    "RS": {
+        "LABEL": "Serbia",
+        "name": "Serbia",
+        "fullName": "Repubblica di Serbia",
+        "demonyms": [
+            "Sèrbi"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Sèrbo",
+            "Sèrba",
+            "Sèrbi",
+            "Sèrbe"
+        ],
+        "typos": [],
+        "others": [
+            "balcani",
+            "balcanico",
+            "balcanica",
+            "balcanici",
+            "balcaniche"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/serbo1",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/serbo1"
+        ]
+    },
+    "RU": {
+        "LABEL": "Russian Federation",
+        "name": "Russia",
+        "fullName": "Federazione Russa",
+        "demonyms": [
+            "Russi"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Russo",
+            "Russa",
+            "Russi",
+            "Russe"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/russo",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/russo"
+        ]
+    },
+    "RW": {
+        "LABEL": "Rwanda",
+        "name": "Ruanda",
+        "fullName": "Repubblica del Ruanda",
+        "demonyms": [
+            "Ruandési"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Ruandése",
+            "Ruandési"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/ruandese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/ruandese"
+        ]
+    },
+    "SA": {
+        "LABEL": "Saudi Arabia",
+        "name": "Arabia Saudita",
+        "fullName": "Regno dell'Arabia Saudita",
+        "demonyms": [
+            "Sauditi"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Saudita",
+            "Sauditi"
+        ],
+        "typos": [
+            "saudiano",
+            "saudiana",
+            "saudiani",
+            "saudiane"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/saudita",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/saudita"
+        ]
+    },
+    "SB": {
+        "LABEL": "Solomon Islands",
+        "name": "Isole Salomone",
+        "fullName": "Isole Salomone",
+        "demonyms": [
+            "Salomonesi"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [],
+        "typos": [
+            "Salomonese",
+            "Salomonesi"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: Not Found",
+            "[adjectives] Treccani: Not Found"
+        ]
+    },
+    "SC": {
+        "LABEL": "Seychelles",
+        "name": "Seychelles",
+        "fullName": "Repubblica delle Seychelles",
+        "demonyms": [
+            "Seychellesi",
+            "Seicellesi"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [],
+        "typos": [
+            "Seychellese",
+            "Seychellesi",
+            "Seicellese",
+            "Seicellesi"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: Not Found",
+            "[adjectives] Treccani: Not Found"
+        ]
+    },
+    "SD": {
+        "LABEL": "Sudan",
+        "name": "Sudan",
+        "fullName": "Repubblica del Sudan",
+        "demonyms": [
+            "Sudanési"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Sudanése",
+            "Sudanési"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/sudanese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/sudanese"
+        ]
+    },
+    "SE": {
+        "LABEL": "Sweden",
+        "name": "Svezia",
+        "fullName": "Regno di Svezia",
+        "demonyms": [
+            "Svedési",
+            "Svezzési"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Svedése",
+            "Svedési",
+            "Svezzése",
+            "Svezzési"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/svedese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/svedese"
+        ]
+    },
+    "SG": {
+        "LABEL": "Singapore",
+        "name": "Singapore",
+        "fullName": "Repubblica di Singapore",
+        "demonyms": [
+            "Singaporiani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Singaporiano",
+            "Singaporiana",
+            "Singaporiani",
+            "Singaporiane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/singaporiano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/singaporiano"
+        ]
+    },
+    "SH": {
+        "LABEL": "Saint Helena, Ascension and Tristan da Cunha",
+        "name": "Sant'Elena",
+        "fullName": "Isole di Sant'Elena, Ascensione e Tristan da Cunha",
+        "demonyms": [
+            "Tristaniani",
+            "Ascensionesi",
+            "Santeleniani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [],
+        "typos": [
+            "Tristaniano",
+            "Tristaniana",
+            "Tristaniani",
+            "Tristaniane",
+            "Ascensionese",
+            "Ascensionesi",
+            "Santeleniano",
+            "Santeleniana",
+            "Santeleniani",
+            "Santeleniane"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: Not Found",
+            "[adjectives] Treccani: Not Found"
+        ]
+    },
+    "SI": {
+        "LABEL": "Slovenia",
+        "name": "Slovenia",
+        "fullName": "Repubblica di Slovenia",
+        "demonyms": [
+            "Slovèni"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Slovèno",
+            "Slovèna",
+            "Slovèni",
+            "Slovène"
+        ],
+        "typos": [],
+        "others": [
+            "balcani",
+            "balcanico",
+            "balcanica",
+            "balcanici",
+            "balcaniche"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/sloveno",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/sloveno"
+        ]
+    },
+    "SJ": {
+        "LABEL": "Svalbard and Jan Mayen",
+        "name": "Svalbard e Jan Mayen",
+        "fullName": "Isole Svalbard e Jan Mayen",
+        "demonyms": [
+            "Svalbardesi"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [],
+        "typos": [
+            "Svalbardese",
+            "Svalbardesi"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: Not Found",
+            "[adjectives] Treccani: Not Found"
+        ]
+    },
+    "SK": {
+        "LABEL": "Slovakia",
+        "name": "Slovacchia",
+        "fullName": "Repubblica Slovacca",
+        "demonyms": [
+            "Slovàcchi"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Slovàcco",
+            "Slovàcca",
+            "Slovàcchi",
+            "Slovàcche"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/slovacco",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/slovacco"
+        ]
+    },
+    "SL": {
+        "LABEL": "Sierra Leone",
+        "name": "Sierra Leone",
+        "fullName": "Repubblica della Sierra Leone",
+        "demonyms": [
+            "Sierraleonési"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Sierraleonése",
+            "Sierraleonési"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/sierraleonese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/sierraleonese"
+        ]
+    },
+    "SM": {
+        "LABEL": "San Marino",
+        "name": "San Marino",
+        "fullName": "Repubblica di San Marino",
+        "demonyms": [
+            "Sammarinési",
+            "Sanmarinési"
+        ],
+        "acronymsAliasFormer": [
+            "Serenissima Repubblica di San Marino"
+        ],
+        "adjectives": [
+            "Sammarinése",
+            "Sammarinési",
+            "Sanmarinése",
+            "Sanmarinési"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/sammarinese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/sammarinese"
+        ]
+    },
+    "SN": {
+        "LABEL": "Senegal",
+        "name": "Senegal",
+        "fullName": "Repubblica del Senegal",
+        "demonyms": [
+            "Senegalési"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Senegalése",
+            "Senegalési"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/senegalese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/senegalese"
+        ]
+    },
+    "SO": {
+        "LABEL": "Somalia",
+        "name": "Somalia",
+        "fullName": "Repubblica Federale di Somalia",
+        "demonyms": [
+            "Sòmali",
+            "Somàli"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Sòmalo",
+            "Sòmala",
+            "Sòmali",
+            "Sòmale",
+            "Somàlo",
+            "Somàla",
+            "Somàli",
+            "Somàle"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/somalo",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/somalo"
+        ]
+    },
+    "SR": {
+        "LABEL": "Suriname",
+        "name": "Suriname",
+        "fullName": "Repubblica del Suriname",
+        "demonyms": [
+            "Surinamensi"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Surinamense",
+            "Surinamensi"
+        ],
+        "typos": [
+            "Surinamese",
+            "Surinamesi"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/enciclopedia/ricerca/surinamense",
+            "[adjectives] Treccani: https://www.treccani.it/enciclopedia/ricerca/surinamense"
+        ]
+    },
+    "SS": {
+        "LABEL": "South Sudan",
+        "name": "Sud Sudan",
+        "fullName": "Repubblica del Sudan del Sud",
+        "demonyms": [
+            "Sudanési del sud",
+            "Sudsudanési"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Sudanése",
+            "Sudanési",
+            "Sudanése del sud",
+            "Sudanési del sud",
+            "Sudsudanése",
+            "Sudsudanési"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/sudanese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/sudanese"
+        ]
+    },
+    "ST": {
+        "LABEL": "Sao Tome and Principe",
+        "name": "São Tomé e Príncipe",
+        "fullName": "Repubblica Democratica di São Tomé e Príncipe",
+        "demonyms": [
+            "Saotomensi"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [],
+        "typos": [
+            "Saotomense",
+            "Saotomensi",
+            "Saotomese",
+            "Saotomesi"
+        ],
+        "others": [
+            "santomense",
+            "santomensi"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: Not Found",
+            "[adjectives] Treccani: Not Found"
+        ]
+    },
+    "SV": {
+        "LABEL": "El Salvador",
+        "name": "El Salvador",
+        "fullName": "Repubblica di El Salvador",
+        "demonyms": [
+            "Salvadorégni"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Salvadorégno",
+            "Salvadorégna",
+            "Salvadorégni",
+            "Salvadorégne"
+        ],
+        "typos": [
+            "Salvadoriano",
+            "Salvadoriana",
+            "Salvadoriani",
+            "Salvadoriane"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/salvadoregno",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/salvadoregno"
+        ]
+    },
+    "SX": {
+        "LABEL": "Sint Maarten (Dutch part)",
+        "name": "Sint Maarten",
+        "fullName": "Sint Maarten",
+        "demonyms": [
+            "Sanmartinesi",
+            "Sammartinesi"
+        ],
+        "acronymsAliasFormer": [
+            "SSS",
+            "S.S.S"
+        ],
+        "adjectives": [],
+        "typos": [
+            "Sanmartinese",
+            "Sanmartinesi",
+            "Sammartinese",
+            "Sammartinesi"
+        ],
+        "others": [
+            "caraibi",
+            "isole",
+            "piccole",
+            "antille",
+            "caraibico",
+            "caraibica",
+            "caraibici",
+            "caraibiche",
+            "antillano",
+            "antillana",
+            "antillani",
+            "antillane",
+            "olandesi"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: Not Found",
+            "[adjectives] Treccani: Not Found"
+        ]
+    },
+    "SY": {
+        "LABEL": "Syrian Arab Republic",
+        "name": "Siria",
+        "fullName": "Repubblica Araba di Siria",
+        "demonyms": [
+            "Siriani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Siriano",
+            "Siriana",
+            "Siriani",
+            "Siriane"
+        ],
+        "typos": [],
+        "others": [
+            "siriaco",
+            "siriaca",
+            "siriache",
+            "siriaci"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/siriano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/siriano"
+        ]
+    },
+    "SZ": {
+        "LABEL": "Eswatini",
+        "name": "eSwatini",
+        "fullName": "Regno di eSwatini",
+        "demonyms": [
+            "Swati",
+            "Swazi"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [],
+        "typos": [
+            "Swato",
+            "Swata",
+            "Swati",
+            "Swate",
+            "Swazo",
+            "Swaza",
+            "Swazi",
+            "Swaze"
+        ],
+        "others": [
+            "swaziland"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: Not Found",
+            "[adjectives] Treccani: Not Found"
+        ]
+    },
+    "TC": {
+        "LABEL": "Turks and Caicos Islands",
+        "name": "Isole Turks e Caicos",
+        "fullName": "Isole di Turks and Caicos",
+        "demonyms": [
+            "Turks",
+            "Caicosiani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [],
+        "typos": [
+            "Caicosiano",
+            "Caicosiana",
+            "Caicosiani",
+            "Caicosiane"
+        ],
+        "others": [
+            "caraibico",
+            "caraibica",
+            "caraibici",
+            "caraibiche"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: Not Found",
+            "[adjectives] Treccani: Not Found"
+        ]
+    },
+    "TD": {
+        "LABEL": "Chad",
+        "name": "Ciad",
+        "fullName": "Repubblica del Ciad",
+        "demonyms": [
+            "Ciadiani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Ciadiano",
+            "Ciadiana",
+            "Ciadiani",
+            "Ciadiane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/ciadiano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/ciadiano"
+        ]
+    },
+    "TF": {
+        "LABEL": "French Southern Territories",
+        "name": "Terre Australi e Antartiche Francesi",
+        "fullName": "Territorio delle Terre Australi e Antartiche Francesi",
+        "demonyms": [],
+        "acronymsAliasFormer": [
+            "TAAF",
+            "T.A.A.F."
+        ],
+        "adjectives": [],
+        "typos": [
+            "Adélien"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] The TAAF has no permanent inhabitants. No demonym or adjective exists in Italian",
+            "[demonyms] Adélien is a term not used in Italian.",
+            "[adjectives] The TAAF has no permanent inhabitants. No demonym or adjective exists in Italian",
+            "[adjectives] Adélien is a term not used in Italian."
+        ]
+    },
+    "TG": {
+        "LABEL": "Togo",
+        "name": "Togo",
+        "fullName": "Repubblica togolese",
+        "demonyms": [
+            "Togolési"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Togolése",
+            "Togolési"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/togolese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/togolese"
+        ]
+    },
+    "TH": {
+        "LABEL": "Thailand",
+        "name": "Tailandia",
+        "fullName": "Regno di Thailandia",
+        "demonyms": [
+            "Thailandési",
+            "Tailandési"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Thailandése",
+            "Thailandési",
+            "Tailandése",
+            "Tailandési"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/thailandese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/thailandese"
+        ]
+    },
+    "TJ": {
+        "LABEL": "Tajikistan",
+        "name": "Tagikistan",
+        "fullName": "Repubblica del Tagikistan",
+        "demonyms": [
+            "Tagiki",
+            "Tagichi",
+            "Tagicchi"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Tagiko",
+            "Tagika",
+            "Tagiki",
+            "Tagike",
+            "Tagico",
+            "Tagica",
+            "Tagichi",
+            "Tagiche",
+            "Tagicco",
+            "Tagicca",
+            "Tagicchi",
+            "Tagicche"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/tagiko",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/tagiko"
+        ]
+    },
+    "TK": {
+        "LABEL": "Tokelau",
+        "name": "Tokelau",
+        "fullName": "Isole Tokelau",
+        "demonyms": [
+            "Tokelauani"
+        ],
+        "acronymsAliasFormer": [
+            "Isole dell'Unione"
+        ],
+        "adjectives": [
+            "Tokelauano",
+            "Tokelauana",
+            "Tokelauani",
+            "Tokelauane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: Not Found",
+            "[adjectives] Treccani: Not Found"
+        ]
+    },
+    "TL": {
+        "LABEL": "Timor-Leste",
+        "name": "Timor Est",
+        "fullName": "Repubblica Democratica di Timor Est",
+        "demonyms": [
+            "Timorési"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Timorése",
+            "Timorési"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/timorese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/timorese"
+        ]
+    },
+    "TM": {
+        "LABEL": "Turkmenistan",
+        "name": "Turkmenistan",
+        "fullName": "Repubblica del Turkmenistan",
+        "demonyms": [
+            "Turkmèni"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Turkmèno",
+            "Turkmèna",
+            "Turkmèni",
+            "Turkmène"
+        ],
+        "typos": [
+            "turcmèno",
+            "turcmèna",
+            "turcmène",
+            "turcmèni"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/turkmeno",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/turkmeno"
+        ]
+    },
+    "TN": {
+        "LABEL": "Tunisia",
+        "name": "Tunisia",
+        "fullName": "Repubblica di Tunisia",
+        "demonyms": [
+            "Tuniṡini"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Tuniṡino",
+            "Tuniṡina",
+            "Tuniṡini",
+            "Tuniṡine"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/tunisino",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/tunisino"
+        ]
+    },
+    "TO": {
+        "LABEL": "Tonga",
+        "name": "Tonga",
+        "fullName": "Regno di Tonga",
+        "demonyms": [
+            "Tongani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Tongano",
+            "Tongana",
+            "Tongani",
+            "Tongane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/tongano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/tongano"
+        ]
+    },
+    "TR": {
+        "LABEL": "Turkey",
+        "name": "Turchia",
+        "fullName": "Repubblica di Turchia",
+        "demonyms": [
+            "Turchi"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Turco",
+            "Turca",
+            "Turchi",
+            "Turche"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/turco1",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/turco1"
+        ]
+    },
+    "TT": {
+        "LABEL": "Trinidad and Tobago",
+        "name": "Trinidad e Tobago",
+        "fullName": "Repubblica di Trinidad e Tobago",
+        "demonyms": [
+            "Trinidadiani",
+            "Tobagani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [],
+        "typos": [
+            "Trinidadiano",
+            "Trinidadiana",
+            "Trinidadiani",
+            "Trinidadiane",
+            "Tobagano",
+            "Tobagana",
+            "Tobagani",
+            "Tobagane"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: Not Found",
+            "[adjectives] Treccani: Not Found"
+        ]
+    },
+    "TV": {
+        "LABEL": "Tuvalu",
+        "name": "Tuvalu",
+        "fullName": "Tuvalu",
+        "demonyms": [
+            "Tuvalüani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Tuvalüano",
+            "Tuvalüana",
+            "Tuvalüani",
+            "Tuvalüane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/tuvaluano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/tuvaluano"
+        ]
+    },
+    "TW": {
+        "LABEL": "Taiwan",
+        "name": "Taiwan",
+        "fullName": "Repubblica di Cina",
+        "demonyms": [
+            "Taiwanési"
+        ],
+        "acronymsAliasFormer": [
+            "Formosa"
+        ],
+        "adjectives": [
+            "Taiwanése",
+            "Taiwanési",
+            "Cinese",
+            "Cinesi"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/taiwanese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/taiwanese"
+        ]
+    },
+    "TZ": {
+        "LABEL": "Tanzania, United Republic of",
+        "name": "Tanzania",
+        "fullName": "Repubblica Unita di Tanzania",
+        "demonyms": [
+            "Tanżaniani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Tanżaniano",
+            "Tanżaniana",
+            "Tanżaniani",
+            "Tanżaniane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/tanzaniano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/tanzaniano"
+        ]
+    },
+    "UA": {
+        "LABEL": "Ukraine",
+        "name": "Ucraina",
+        "fullName": "Ucraina",
+        "demonyms": [
+            "Ucràini"
+        ],
+        "acronymsAliasFormer": [
+            "Piccola Russia"
+        ],
+        "adjectives": [
+            "Ucràino",
+            "Ucràina",
+            "Ucràini",
+            "Ucràine"
+        ],
+        "typos": [],
+        "others": [
+            "ukraina",
+            "ukraino"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/ucraino",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/ucraino"
+        ]
+    },
+    "UG": {
+        "LABEL": "Uganda",
+        "name": "Uganda",
+        "fullName": "Repubblica dell'Uganda",
+        "demonyms": [
+            "Ugandési"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Ugandése",
+            "Ugandési"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/ugandese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/ugandese"
+        ]
+    },
+    "UM": {
+        "LABEL": "United States Minor Outlying Islands",
+        "name": "Isole minori esterne degli Stati Uniti",
+        "fullName": "Isole minori esterne degli Stati Uniti",
+        "demonyms": [
+            "Statunitènsi"
+        ],
+        "acronymsAliasFormer": [
+            "USMOI",
+            "U.S.M.O.I."
+        ],
+        "adjectives": [
+            "Statunitènse",
+            "Statunitènsi"
+        ],
+        "typos": [],
+        "others": [
+            "isolano",
+            "isolana",
+            "isolani",
+            "isolane",
+            "isola",
+            "di",
+            "wake",
+            "atollo",
+            "johnston",
+            "midway",
+            "kingman",
+            "reef",
+            "palmyra",
+            "jarvis",
+            "baker",
+            "howland",
+            "navassa",
+            "caraibi",
+            "pacifico"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: Not Found",
+            "[adjectives] Treccani: Not Found"
+        ]
+    },
+    "US": {
+        "LABEL": "United States of America",
+        "name": "Stati Uniti",
+        "fullName": "Stati Uniti d'America",
+        "demonyms": [
+            "Statunitènsi",
+            "Americani",
+            "Nordamericani"
+        ],
+        "acronymsAliasFormer": [
+            "U.S.A.",
+            "U.S.",
+            "America"
+        ],
+        "adjectives": [
+            "Statunitènse",
+            "Statunitènsi",
+            "Americano",
+            "Americana",
+            "Americani",
+            "Americane",
+            "Nordamericano",
+            "Nordamericana",
+            "Nordamericani",
+            "Nordamericane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/statunitense",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/statunitense"
+        ]
+    },
+    "UY": {
+        "LABEL": "Uruguay",
+        "name": "Uruguay",
+        "fullName": "Repubblica Orientale dell'Uruguay",
+        "demonyms": [
+            "Uruguaiani",
+            "Uruguayani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Uruguaiano",
+            "Uruguaiana",
+            "Uruguaiani",
+            "Uruguaiane",
+            "Uruguayano",
+            "Uruguayana",
+            "Uruguayani",
+            "Uruguayane"
+        ],
+        "typos": [
+            "uruguagio",
+            "uruguagia",
+            "uruguagi",
+            "uruguagie"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/uruguaiano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/uruguaiano"
+        ]
+    },
+    "UZ": {
+        "LABEL": "Uzbekistan",
+        "name": "Uzbekistan",
+        "fullName": "Repubblica dell'Uzbekistan",
+        "demonyms": [
+            "Użbèki",
+            "Usbèki",
+            "Usbèchi",
+            "Użbèchi",
+            "Usbècchi"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Użbèko",
+            "Użbèka",
+            "Użbèki",
+            "Użbèke",
+            "Usbèko",
+            "Usbèka",
+            "Usbèki",
+            "Usbèke",
+            "Usbèco",
+            "Usbèca",
+            "Usbèchi",
+            "Usbèche",
+            "Użbèco",
+            "Użbèca",
+            "Użbèchi",
+            "Użbèche",
+            "Usbècco",
+            "Usbècca",
+            "Usbècchi",
+            "Usbècche"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/uzbeko",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/uzbeko"
+        ]
+    },
+    "VA": {
+        "LABEL": "Holy See",
+        "name": "Città del Vaticano",
+        "fullName": "Vatican City State",
+        "demonyms": [
+            "Vaticani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Vaticano",
+            "Vaticana",
+            "Vaticani",
+            "Vaticane",
+            "Pontificio",
+            "Pontificia",
+            "Pontifici",
+            "Pontificie"
+        ],
+        "typos": [],
+        "others": [
+            "stato",
+            "della",
+            "santa",
+            "sede",
+            "apostolica"
+        ],
+        "NOTES": [
+            "[demonyms] Left even if improper and not used for the inhabitants",
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/vaticano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/vaticano"
+        ]
+    },
+    "VC": {
+        "LABEL": "Saint Vincent and the Grenadines",
+        "name": "Saint Vincent e Grenadine",
+        "fullName": "Saint Vincent e Grenadine",
+        "demonyms": [
+            "Sanvincentini"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [],
+        "typos": [
+            "Sanvincentino",
+            "Sanvincentina",
+            "Sanvincentini",
+            "Sanvincentine"
+        ],
+        "others": [
+            "caraibi",
+            "piccole",
+            "antille",
+            "caraibico",
+            "caraibica",
+            "caraibici",
+            "caraibiche",
+            "antillano",
+            "antillana",
+            "antillani",
+            "antillane"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: Not Found",
+            "[adjectives] Treccani: Not Found"
+        ]
+    },
+    "VE": {
+        "LABEL": "Venezuela",
+        "name": "Venezuela",
+        "fullName": "Repubblica Bolivariana del Venezuela",
+        "demonyms": [
+            "Venezuelani",
+            "Veneżuelani",
+            "Venezolani",
+            "Veneżolani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Venezuelano",
+            "Venezuelana",
+            "Venezuelani",
+            "Venezuelane",
+            "Veneżuelano",
+            "Veneżuelana",
+            "Veneżuelani",
+            "Veneżuelane",
+            "Venezolano",
+            "Venezolana",
+            "Venezolani",
+            "Venezolane",
+            "Veneżolano",
+            "Veneżolana",
+            "Veneżolani",
+            "Veneżolane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/venezuelano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/venezuelano"
+        ]
+    },
+    "VG": {
+        "LABEL": "Virgin Islands (British)",
+        "name": "Isole Vergini Britanniche",
+        "fullName": "Isole Vergini Britanniche",
+        "demonyms": [
+            "Verginiani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [],
+        "typos": [
+            "Verginiano",
+            "Verginiana",
+            "Verginiani",
+            "Verginiane"
+        ],
+        "others": [
+            "caraibi",
+            "anglo",
+            "piccole",
+            "antille",
+            "caraibico",
+            "caraibica",
+            "caraibici",
+            "caraibiche",
+            "antillano",
+            "antillana",
+            "antillani",
+            "antillane"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: Not Found",
+            "[adjectives] Treccani: Not Found"
+        ]
+    },
+    "VI": {
+        "LABEL": "Virgin Islands (U.S.)",
+        "name": "Isole Vergini Americane",
+        "fullName": "Isole Vergini degli Stati Uniti",
+        "demonyms": [
+            "Verginiani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [],
+        "typos": [
+            "Verginiano",
+            "Verginiana",
+            "Verginiani",
+            "Verginiane"
+        ],
+        "others": [
+            "caraibi",
+            "americo",
+            "piccole",
+            "antille",
+            "caraibico",
+            "caraibica",
+            "caraibici",
+            "caraibiche",
+            "antillano",
+            "antillana",
+            "antillani",
+            "antillane"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: Not Found",
+            "[adjectives] Treccani: Not Found"
+        ]
+    },
+    "VN": {
+        "LABEL": "Viet Nam",
+        "name": "Vietnam",
+        "fullName": "Repubblica Socialista del Vietnam",
+        "demonyms": [
+            "Vietnamiti"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Vietnamita",
+            "Vietnamiti"
+        ],
+        "typos": [],
+        "others": [
+            "viet",
+            "nam",
+            "vietnamite"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/vietnamita",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/vietnamita"
+        ]
+    },
+    "VU": {
+        "LABEL": "Vanuatu",
+        "name": "Vanuatu",
+        "fullName": "Repubblica di Vanuatu",
+        "demonyms": [
+            "Vanuatiani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [],
+        "typos": [
+            "Vanuatiano",
+            "Vanuatiana",
+            "Vanuatiani",
+            "Vanuatiane"
+        ],
+        "others": [
+            "vanuatuane",
+            "vanuatuano",
+            "vanuatuana"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: Not Found",
+            "[adjectives] Treccani: Not Found"
+        ]
+    },
+    "WF": {
+        "LABEL": "Wallis and Futuna",
+        "name": "Wallis e Futuna",
+        "fullName": "Collettività d'oltremare delle isole Wallis e Futuna",
+        "demonyms": [
+            "Wallisiani",
+            "Futuniani",
+            "Uveani"
+        ],
+        "acronymsAliasFormer": [
+            "Alofi",
+            "COM",
+            "C.O.M."
+        ],
+        "adjectives": [],
+        "typos": [
+            "Wallisiano",
+            "Wallisiana",
+            "Wallisiani",
+            "Wallisiane",
+            "Futuniano",
+            "Futuniana",
+            "Futuniani",
+            "Futuniane",
+            "Uveano",
+            "Uveana",
+            "Uveani",
+            "Uveane"
+        ],
+        "others": [
+            "futunese",
+            "futunesi"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: Not Found",
+            "[adjectives] Treccani: Not Found"
+        ]
+    },
+    "WS": {
+        "LABEL": "Samoa",
+        "name": "Samoa",
+        "fullName": "Stato indipendente di Samoa",
+        "demonyms": [
+            "Samoani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Samoano",
+            "Samoana",
+            "Samoani",
+            "Samoane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/samoano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/samoano"
+        ]
+    },
+    "XK": {
+        "LABEL": "Kossovo",
+        "name": "Kosovo",
+        "fullName": "Repubblica del Kosovo",
+        "demonyms": [
+            "Kosovari",
+            "Kossovari",
+            "Cossovari"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [],
+        "typos": [
+            "cosovo"
+        ],
+        "others": [
+            "Kossovo",
+            "Cossovo"
+        ],
+        "NOTES": [
+            "[demonyms] Internazionale: https://dizionario.internazionale.it/parola/cossovaro",
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/kosovaro"
+        ]
+    },
+    "YE": {
+        "LABEL": "Yemen",
+        "name": "Yemen",
+        "fullName": "Repubblica dello Yemen",
+        "demonyms": [
+            "Yemeniti"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Yemenita",
+            "Yemeniti"
+        ],
+        "typos": [
+            "iemenita",
+            "iemeniti"
+        ],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/yemenita",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/yemenita"
+        ]
+    },
+    "YT": {
+        "LABEL": "Mayotte",
+        "name": "Mayotte",
+        "fullName": "Collettività dipartimentale di Mayotte",
+        "demonyms": [
+            "Maoresi"
+        ],
+        "acronymsAliasFormer": [
+            "DOM",
+            "D.O.M."
+        ],
+        "adjectives": [
+            "Maorese",
+            "Maoresi",
+            "Comoriano",
+            "Comoriana",
+            "Comoriani",
+            "Comoriane"
+        ],
+        "typos": [],
+        "others": [
+            "mahorais",
+            "maore",
+            "mahoriano",
+            "mahoriana",
+            "mahoriane",
+            "mahoriani"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: Not found a specific term for Mayotte demoyms",
+            "[demonyms] Set Maoresi because I found the related language on wikipedia",
+            "[demonyms] The french used name is Mahorais",
+            "[demonyms] https://it.wikipedia.org/wiki/Comoriano_maorese",
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/comoriano",
+            "[adjectives] Treccani: Not found a specific term for Mayotte demoyms",
+            "[adjectives] Added Maorese because I found the related language on wikipedia",
+            "[adjectives] https://it.wikipedia.org/wiki/Comoriano_maorese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/comoriano"
+        ]
+    },
+    "ZA": {
+        "LABEL": "South Africa",
+        "name": "Sud Africa",
+        "fullName": "Repubblica del Sudafrica",
+        "demonyms": [
+            "Sud-Africani",
+            "Sudafricani"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Sud-Africano",
+            "Sud-Africana",
+            "Sud-Africani",
+            "Sud-Africane",
+            "Sudafricano",
+            "Sudafricana",
+            "Sudafricani",
+            "Sudafricane"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/sudafricano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/sudafricano"
+        ]
+    },
+    "ZM": {
+        "LABEL": "Zambia",
+        "name": "Zambia",
+        "fullName": "Repubblica dello Zambia",
+        "demonyms": [
+            "Zambiano"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Zambiano",
+            "Zambiana",
+            "Zambiani",
+            "Zambiane"
+        ],
+        "typos": [],
+        "others": [
+            "di"
+        ],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/zambiano",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/zambiano"
+        ]
+    },
+    "ZW": {
+        "LABEL": "Zimbabwe",
+        "name": "Zimbabwe",
+        "fullName": "Repubblica dello Zimbabwe",
+        "demonyms": [
+            "Zimbabwesi"
+        ],
+        "acronymsAliasFormer": [],
+        "adjectives": [
+            "Zimbabwese",
+            "Zimbabwesi"
+        ],
+        "typos": [],
+        "others": [],
+        "NOTES": [
+            "[demonyms] Treccani: https://www.treccani.it/vocabolario/zimbabwese",
+            "[adjectives] Treccani: https://www.treccani.it/vocabolario/zimbabwese"
+        ]
+    }
+}

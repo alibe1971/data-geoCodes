@@ -61,11 +61,9 @@ let APP = {
         let translationData = {};
         for (const lang of APP['config'].settings.languages.inPackage) {
             translationData[lang] = {};
-            for (const [transKey, transObj] of Object.entries(configBuild.TranslationData[key])) {
-                translationData[lang][transKey] = await readJsonFile(
-                    configBuild.readPaths.origin + configBuild.TranslationDir + lang + '/' + transObj + '.json'
-                );
-            }
+            translationData[lang] = await readJsonFile(
+                configBuild.readPaths.origin + configBuild.TranslationDir + lang + '/' + key + '.json'
+            );
         }
         APP.translations[key] = await functions.DataTranslations(
             translationData,

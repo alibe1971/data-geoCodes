@@ -120,7 +120,6 @@ export const countries = {
             "Argentinians"
         ],
         keywords: [
-            "argentine",
             "argentines"
         ]
     },
@@ -372,7 +371,6 @@ export const countries = {
         keywords: [
             "thunder",
             "dragon",
-            "kingdom",
             "druk",
             "yul"
         ]
@@ -701,9 +699,7 @@ export const countries = {
             "Sahrawis",
             "Western Saharans"
         ],
-        keywords: [
-            "sahrawi"
-        ]
+        keywords: []
     },
     ER: {
         name: "Eritrea",
@@ -835,7 +831,6 @@ export const countries = {
             "albion",
             "scotland",
             "wales",
-            "ireland",
             "alba",
             "cymru",
             "ulster",
@@ -959,8 +954,6 @@ export const countries = {
             "Greeks"
         ],
         keywords: [
-            "hellenic",
-            "republic",
             "greek",
             "el"
         ]
@@ -1182,9 +1175,7 @@ export const countries = {
         demonyms: [
             "Italians"
         ],
-        keywords: [
-            "italian"
-        ]
+        keywords: []
     },
     JE: {
         name: "Jersey",
@@ -1641,9 +1632,7 @@ export const countries = {
         demonyms: [
             "Mexicans"
         ],
-        keywords: [
-            "mexican"
-        ]
+        keywords: []
     },
     MY: {
         name: "Malaysia",
@@ -2086,9 +2075,7 @@ export const countries = {
         demonyms: [
             "Slovaks"
         ],
-        keywords: [
-            "slovak"
-        ]
+        keywords: []
     },
     SL: {
         name: "Sierra Leone",
@@ -2259,7 +2246,6 @@ export const countries = {
         ],
         keywords: [
             "union",
-            "islands",
             "tokelauan"
         ]
     },
@@ -2391,7 +2377,6 @@ export const countries = {
         keywords: [
             "usa",
             "us",
-            "america",
             "american"
         ]
     },

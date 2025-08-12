@@ -100,7 +100,6 @@
             <demonym>Argentinians</demonym>
         </demonyms>
         <keywords>
-            <keyword>argentine</keyword>
             <keyword>argentines</keyword>
         </keywords>
     </country>
@@ -352,7 +351,6 @@
         <keywords>
             <keyword>thunder</keyword>
             <keyword>dragon</keyword>
-            <keyword>kingdom</keyword>
             <keyword>druk</keyword>
             <keyword>yul</keyword>
         </keywords>
@@ -681,9 +679,7 @@
             <demonym>Sahrawis</demonym>
             <demonym>Western Saharans</demonym>
         </demonyms>
-        <keywords>
-            <keyword>sahrawi</keyword>
-        </keywords>
+        <keywords/>
     </country>
     <country key="ER">
         <name>Eritrea</name>
@@ -815,7 +811,6 @@
             <keyword>albion</keyword>
             <keyword>scotland</keyword>
             <keyword>wales</keyword>
-            <keyword>ireland</keyword>
             <keyword>alba</keyword>
             <keyword>cymru</keyword>
             <keyword>ulster</keyword>
@@ -939,8 +934,6 @@
             <demonym>Greeks</demonym>
         </demonyms>
         <keywords>
-            <keyword>hellenic</keyword>
-            <keyword>republic</keyword>
             <keyword>greek</keyword>
             <keyword>el</keyword>
         </keywords>
@@ -1162,9 +1155,7 @@
         <demonyms>
             <demonym>Italians</demonym>
         </demonyms>
-        <keywords>
-            <keyword>italian</keyword>
-        </keywords>
+        <keywords/>
     </country>
     <country key="JE">
         <name>Jersey</name>
@@ -1621,9 +1612,7 @@
         <demonyms>
             <demonym>Mexicans</demonym>
         </demonyms>
-        <keywords>
-            <keyword>mexican</keyword>
-        </keywords>
+        <keywords/>
     </country>
     <country key="MY">
         <name>Malaysia</name>
@@ -2066,9 +2055,7 @@
         <demonyms>
             <demonym>Slovaks</demonym>
         </demonyms>
-        <keywords>
-            <keyword>slovak</keyword>
-        </keywords>
+        <keywords/>
     </country>
     <country key="SL">
         <name>Sierra Leone</name>
@@ -2239,7 +2226,6 @@
         </demonyms>
         <keywords>
             <keyword>union</keyword>
-            <keyword>islands</keyword>
             <keyword>tokelauan</keyword>
         </keywords>
     </country>
@@ -2371,7 +2357,6 @@
         <keywords>
             <keyword>usa</keyword>
             <keyword>us</keyword>
-            <keyword>america</keyword>
             <keyword>american</keyword>
         </keywords>
     </country>

@@ -1,325 +1,402 @@
 {
     "Adlm": {
+        "LABEL": "Adlam",
         "name": "Adlam",
         "NOTES": []
     },
     "Afak": {
+        "LABEL": "Afaka",
         "name": "Afaka",
         "NOTES": []
     },
     "Aghb": {
+        "LABEL": "Caucasian Albanian",
         "name": "Albanese caucasico",
         "NOTES": [
             "https://it.wikipedia.org/wiki/Albania_caucasica"
         ]
     },
     "Ahom": {
+        "LABEL": "Ahom, Tai Ahom",
         "name": "Ahom, Tai Ahom",
         "NOTES": []
     },
     "Arab": {
+        "LABEL": "Arabic",
         "name": "Arabo",
         "NOTES": []
     },
     "Aran": {
+        "LABEL": "Arabic (Nastaliq variant)",
         "name": "Arabo (nasta'liq)",
         "NOTES": []
     },
     "Armi": {
+        "LABEL": "Imperial Aramaic",
         "name": "Aramaico biblico",
         "NOTES": []
     },
     "Armn": {
+        "LABEL": "Armenian",
         "name": "Armeno",
         "NOTES": []
     },
     "Avst": {
+        "LABEL": "Avestan",
         "name": "Avestico",
         "NOTES": [
             "https://it.wikipedia.org/wiki/Lingua_avestica"
         ]
     },
     "Bali": {
+        "LABEL": "Balinese",
         "name": "Balinese",
         "NOTES": []
     },
     "Bamu": {
+        "LABEL": "Bamum",
         "name": "Bamum",
         "NOTES": []
     },
     "Bass": {
+        "LABEL": "Bassa Vah",
         "name": "Bassa Vah",
         "NOTES": []
     },
     "Batk": {
+        "LABEL": "Batak",
         "name": "Batak",
         "NOTES": []
     },
     "Beng": {
+        "LABEL": "Bengali (Bangla)",
         "name": "Bengalese (Bangla)",
         "NOTES": []
     },
     "Berf": {
+        "LABEL": "Beria Erfe",
         "name": "Beria Erfe",
         "NOTES": []
     },
     "Bhks": {
+        "LABEL": "Bhaiksuki",
         "name": "Bhaiksuki",
         "NOTES": []
     },
     "Blis": {
+        "LABEL": "Blissymbols",
         "name": "Blissymbol",
         "NOTES": []
     },
     "Bopo": {
+        "LABEL": "Bopomofo",
         "name": "Bopomofo",
         "NOTES": [
             "https://it.wikipedia.org/wiki/Bopomofo"
         ]
     },
     "Brah": {
+        "LABEL": "Brahmi",
         "name": "Brahmi",
         "NOTES": []
     },
     "Brai": {
+        "LABEL": "Braille",
         "name": "Braille",
         "NOTES": []
     },
     "Bugi": {
+        "LABEL": "Buginese",
         "name": "Buginese",
         "NOTES": [
             "https://it.wikipedia.org/wiki/Lingua_buginese"
         ]
     },
     "Buhd": {
+        "LABEL": "Buhid",
         "name": "Buhid",
         "NOTES": []
     },
     "Cakm": {
+        "LABEL": "Chakma",
         "name": "Chakma",
         "NOTES": []
     },
     "Cans": {
+        "LABEL": "Unified Canadian Aboriginal Syllabics",
         "name": "Sillabario Aborigeno Canadese Unificato",
         "NOTES": [
             "https://it.wikipedia.org/wiki/Sillabario_aborigeno_canadese"
         ]
     },
     "Cari": {
+        "LABEL": "Carian",
         "name": "Carian",
         "NOTES": []
     },
     "Cham": {
+        "LABEL": "Cham",
         "name": "Cham",
         "NOTES": []
     },
     "Cher": {
+        "LABEL": "Cherokee",
         "name": "Cherokee",
         "NOTES": []
     },
     "Chis": {
+        "LABEL": "Chisoi",
         "name": "Chisoi",
         "NOTES": []
     },
     "Chrs": {
+        "LABEL": "Chorasmian",
         "name": "Corasmiano",
         "NOTES": [
             "https://it.wikipedia.org/wiki/Lingua_corasmia"
         ]
     },
     "Cirt": {
+        "LABEL": "Cirth",
         "name": "Cirth",
         "NOTES": []
     },
     "Copt": {
+        "LABEL": "Coptic",
         "name": "Copto",
         "NOTES": []
     },
     "Cpmn": {
+        "LABEL": "Cypro-Minoan",
         "name": "Cipro-Minoico",
         "NOTES": []
     },
     "Cprt": {
+        "LABEL": "Cypriot syllabary",
         "name": "Cipriota",
         "NOTES": []
     },
     "Cyrl": {
+        "LABEL": "Cyrillic",
         "name": "Cirillico",
         "NOTES": []
     },
     "Cyrs": {
+        "LABEL": "Cyrillic (Old Church Slavonic variant)",
         "name": "Cirillico (slavo ecclesiastico antico)",
         "NOTES": []
     },
     "Deva": {
+        "LABEL": "Devanagari (Nagari)",
         "name": "Devanagari (Nagari)",
         "NOTES": [
             "https://it.wikipedia.org/wiki/Alfabeto_devanagari"
         ]
     },
     "Diak": {
+        "LABEL": "Dives Akuru",
         "name": "Akuru dives",
         "NOTES": []
     },
     "Dogr": {
+        "LABEL": "Dogra",
         "name": "Dogra",
         "NOTES": []
     },
     "Dsrt": {
+        "LABEL": "Deseret (Mormon)",
         "name": "Deseret",
         "NOTES": []
     },
     "Dupl": {
+        "LABEL": "Duployan shorthand, Duployan stenography",
         "name": "Stenografia duployan",
         "NOTES": []
     },
     "Egyd": {
+        "LABEL": "Egyptian demotic",
         "name": "Egizio demotico",
         "NOTES": []
     },
     "Egyh": {
+        "LABEL": "Egyptian hieratic",
         "name": "Egizio ieratico",
         "NOTES": []
     },
     "Egyp": {
+        "LABEL": "Egyptian hieroglyphs",
         "name": "Egizio geroglifico",
         "NOTES": []
     },
     "Elba": {
+        "LABEL": "Elbasan",
         "name": "Elbasan",
         "NOTES": []
     },
     "Elym": {
+        "LABEL": "Elymaic",
         "name": "Elimaico",
         "NOTES": []
     },
     "Ethi": {
+        "LABEL": "Ethiopic (Geʻez)",
         "name": "Etiope (Geʻez)",
         "NOTES": []
     },
     "Gara": {
+        "LABEL": "Garay",
         "name": "Garay",
         "NOTES": []
     },
     "Geok": {
+        "LABEL": "Khutsuri (Asomtavruli and Nuskhuri)",
         "name": "Khutsuri (Asomtavruli e Nuskhuri)",
         "NOTES": []
     },
     "Geor": {
+        "LABEL": "Georgian (Mkhedruli and Mtavruli)",
         "name": "Georgiano (Mkhedruli e Mtavruli)",
         "NOTES": []
     },
     "Glag": {
+        "LABEL": "Glagolitic",
         "name": "Glagolitico",
         "NOTES": []
     },
     "Gong": {
+        "LABEL": "Gunjala Gondi",
         "name": "Gunjala gondi",
         "NOTES": []
     },
     "Gonm": {
+        "LABEL": "Masaram Gondi",
         "name": "Masaram gondi",
         "NOTES": []
     },
     "Goth": {
+        "LABEL": "Gothic",
         "name": "Gotico",
         "NOTES": []
     },
     "Gran": {
+        "LABEL": "Grantha",
         "name": "Grantha",
         "NOTES": []
     },
     "Grek": {
+        "LABEL": "Greek",
         "name": "Greco",
         "NOTES": []
     },
     "Gujr": {
+        "LABEL": "Gujarati",
         "name": "Gugiarati (Gujarati)",
         "NOTES": [
             "https://it.wikipedia.org/wiki/Lingua_gujar%C4%81t%C4%AB"
         ]
     },
     "Gukh": {
+        "LABEL": "Gurung Khema",
         "name": "Gurung Khema",
         "NOTES": []
     },
     "Guru": {
+        "LABEL": "Gurmukhi",
         "name": "Gurmukhi",
         "NOTES": []
     },
     "Hanb": {
+        "LABEL": "Han with Bopomofo (alias for Han + Bopomofo)",
         "name": "Han con Bopomofo (alias per Han + Bopomofo)",
         "NOTES": []
     },
     "Hang": {
+        "LABEL": "Hangul (Hangŭl, Hangeul)",
         "name": "Hangul (Hang' l, Hangeul)",
         "NOTES": []
     },
     "Hani": {
+        "LABEL": "Han (Hanzi, Kanji, Hanja)",
         "name": "Han (Hanzi, Kanji, Hanja)",
         "NOTES": []
     },
     "Hano": {
+        "LABEL": "Hanunoo (Hanunóo)",
         "name": "Hanunoo (Hanunóo)",
         "NOTES": []
     },
     "Hans": {
+        "LABEL": "Han (Simplified variant)",
         "name": "Han (variante semplificata)",
         "NOTES": []
     },
     "Hant": {
+        "LABEL": "Han (Traditional variant)",
         "name": "Han (variante tradizionale)",
         "NOTES": []
     },
     "Hatr": {
+        "LABEL": "Hatran",
         "name": "Hatrena (Aramaico di Hatra)",
         "NOTES": []
     },
     "Hebr": {
+        "LABEL": "Hebrew",
         "name": "Ebraico",
         "NOTES": []
     },
     "Hira": {
+        "LABEL": "Hiragana",
         "name": "Hiragana",
         "NOTES": []
     },
     "Hluw": {
+        "LABEL": "Anatolian Hieroglyphs (Luwian Hieroglyphs, Hittite Hieroglyphs)",
         "name": "Geroglifici anatolici (Geroglifici luvi, Geroglifici ittiti)",
         "NOTES": []
     },
     "Hmng": {
+        "LABEL": "Pahawh Hmong",
         "name": "Pahawh Hmong",
         "NOTES": []
     },
     "Hmnp": {
+        "LABEL": "Nyiakeng Puachue Hmong",
         "name": "Nyiakeng Puachue Hmong",
         "NOTES": []
     },
     "Hntl": {
+        "LABEL": "Han (Traditional variant) with Latin (alias for Hant + Latn)",
         "name": "Han (variante tradizionale) con latino (alias per Hant + Latn)",
         "NOTES": []
     },
     "Hrkt": {
+        "LABEL": "Japanese syllabaries (alias for Hiragana + Katakana)",
         "name": "Sillabari giapponesi (alias per Hiragana + Katakana)",
         "NOTES": []
     },
     "Hung": {
+        "LABEL": "Old Hungarian (Hungarian Runic)",
         "name": "Ungherese antico (runico ungherese)",
         "NOTES": []
     },
     "Inds": {
+        "LABEL": "Indus (Harappan)",
         "name": "Indo (Harappa)",
         "NOTES": []
     },
     "Ital": {
+        "LABEL": "Old Italic (Etruscan, Oscan, etc.)",
         "name": "Italico antico (etrusco, osco, ecc...)",
         "NOTES": []
     },
     "Jamo": {
+        "LABEL": "Jamo (alias for Jamo subset of Hangul)",
         "name": "Jamo (alias per il sottoinsieme Jamo di Hangul)",
         "NOTES": []
     },
     "Java": {
+        "LABEL": "Javanese",
         "name": "Giavanese",
         "NOTES": [
             "https://it.wikipedia.org/wiki/Lingua_giavanese",
@@ -327,72 +404,89 @@
         ]
     },
     "Jpan": {
+        "LABEL": "Japanese (alias for Han + Hiragana + Katakana)",
         "name": "Giapponese (alias per Han + Hiragana + Katakana)",
         "NOTES": []
     },
     "Jurc": {
+        "LABEL": "Jurchen",
         "name": "Jurchen",
         "NOTES": []
     },
     "Kali": {
+        "LABEL": "Kayah Li",
         "name": "Kayah Li",
         "NOTES": []
     },
     "Kana": {
+        "LABEL": "Katakana",
         "name": "Katakana",
         "NOTES": []
     },
     "Kawi": {
+        "LABEL": "Kawi",
         "name": "Kawi",
         "NOTES": []
     },
     "Khar": {
+        "LABEL": "Kharoshthi",
         "name": "Kharoshthi",
         "NOTES": []
     },
     "Khmr": {
+        "LABEL": "Khmer",
         "name": "Cambogiano (Khmer)",
         "NOTES": []
     },
     "Khoj": {
+        "LABEL": "Khojki",
         "name": "Khojki",
         "NOTES": []
     },
     "Kitl": {
+        "LABEL": "Khitan large script",
         "name": "Alfabeto Kitai grande",
         "NOTES": []
     },
     "Kits": {
+        "LABEL": "Khitan small script",
         "name": "Alfabeto Kitai piccolo",
         "NOTES": []
     },
     "Knda": {
+        "LABEL": "Kannada",
         "name": "Canarese (Kannada, Cànara, Kànara)",
         "NOTES": [
             "https://www.treccani.it/vocabolario/canarese/"
         ]
     },
     "Kore": {
+        "LABEL": "Korean (alias for Hangul + Han)",
         "name": "Coreano (alias per Hangul + Han)",
         "NOTES": []
     },
     "Kpel": {
+        "LABEL": "Kpelle",
         "name": "Kpelle",
         "NOTES": []
     },
     "Krai": {
+        "LABEL": "Kirat Rai",
         "name": "Kirat Rai",
         "NOTES": []
     },
     "Kthi": {
+        "LABEL": "Kaithi",
         "name": "Kaithi",
         "NOTES": []
     },
     "Lana": {
+        "LABEL": "Tai Tham (Lanna)",
         "name": "Tai Tham (Lanna)",
         "NOTES": []
     },
     "Laoo": {
+        "LABEL": "Lao",
         "name": "Laotiano, Laosiano, Laoziano",
         "NOTES": [
             "https://it.wikipedia.org/wiki/Alfabeto_laotiano",
@@ -400,62 +494,77 @@
         ]
     },
     "Latf": {
+        "LABEL": "Latin (Fraktur variant)",
         "name": "Latino (scrittura Fraktur)",
         "NOTES": []
     },
     "Latg": {
+        "LABEL": "Latin (Gaelic variant)",
         "name": "Latino (scrittura gaelica)",
         "NOTES": []
     },
     "Latn": {
+        "LABEL": "Latin",
         "name": "Latino",
         "NOTES": []
     },
     "Leke": {
+        "LABEL": "Leke",
         "name": "Leke",
         "NOTES": []
     },
     "Lepc": {
+        "LABEL": "Lepcha (Róng)",
         "name": "Lepcha (Róng)",
         "NOTES": []
     },
     "Limb": {
+        "LABEL": "Limbu",
         "name": "Limbu",
         "NOTES": []
     },
     "Lina": {
+        "LABEL": "Linear A",
         "name": "Lineare A",
         "NOTES": []
     },
     "Linb": {
+        "LABEL": "Linear B",
         "name": "Lineare B",
         "NOTES": []
     },
     "Lisu": {
+        "LABEL": "Lisu (Fraser)",
         "name": "Lisu (Fraser)",
         "NOTES": []
     },
     "Loma": {
+        "LABEL": "Loma",
         "name": "Loma",
         "NOTES": []
     },
     "Lyci": {
+        "LABEL": "Lycian",
         "name": "Licio",
         "NOTES": []
     },
     "Lydi": {
+        "LABEL": "Lydian",
         "name": "Lidio",
         "NOTES": []
     },
     "Mahj": {
+        "LABEL": "Mahajani",
         "name": "Mahajani",
         "NOTES": []
     },
     "Maka": {
+        "LABEL": "Makasar",
         "name": "Makasar",
         "NOTES": []
     },
     "Mand": {
+        "LABEL": "Mandaic, Mandaean",
         "name": "Mandaico, Mandei",
         "NOTES": [
             "https://it.wikipedia.org/wiki/Lingua_mandaica",
@@ -463,26 +572,32 @@
         ]
     },
     "Mani": {
+        "LABEL": "Manichaean",
         "name": "Manicheo",
         "NOTES": []
     },
     "Marc": {
+        "LABEL": "Marchen",
         "name": "Marchen",
         "NOTES": []
     },
     "Maya": {
+        "LABEL": "Mayan hieroglyphs",
         "name": "Geroglifici Maya",
         "NOTES": []
     },
     "Medf": {
+        "LABEL": "Medefaidrin (Oberi Okaime, Oberi Ɔkaimɛ)",
         "name": "Medefaidrin (Oberi Okaime)",
         "NOTES": []
     },
     "Mend": {
+        "LABEL": "Mende Kikakui",
         "name": "Mende Kikakui",
         "NOTES": []
     },
     "Merc": {
+        "LABEL": "Meroitic Cursive",
         "name": "Corsivo meroitico",
         "NOTES": [
             "https://it.wikipedia.org/wiki/Alfabeto_meroitico",
@@ -490,56 +605,69 @@
         ]
     },
     "Mero": {
+        "LABEL": "Meroitic Hieroglyphs",
         "name": "Geroglifici meroitici",
         "NOTES": []
     },
     "Mlym": {
+        "LABEL": "Malayalam",
         "name": "Malayalam",
         "NOTES": [
             "https://it.wikipedia.org/wiki/Lingua_malay%C4%81la%E1%B9%83"
         ]
     },
     "Modi": {
+        "LABEL": "Modi, Moḍī",
         "name": "Modi",
         "NOTES": []
     },
     "Mong": {
+        "LABEL": "Mongolian",
         "name": "Mongolo",
         "NOTES": []
     },
     "Moon": {
+        "LABEL": "Moon (Moon code, Moon script, Moon type)",
         "name": "Moon (codice Moon, scrittura Moon, tipo Moon)",
         "NOTES": []
     },
     "Mroo": {
+        "LABEL": "Mro, Mru",
         "name": "Mro, Mru",
         "NOTES": []
     },
     "Mtei": {
+        "LABEL": "Meitei Mayek (Meithei, Meetei)",
         "name": "Meitei Mayek (Meithei, Meetei)",
         "NOTES": []
     },
     "Mult": {
+        "LABEL": "Multani",
         "name": "Multani",
         "NOTES": []
     },
     "Mymr": {
+        "LABEL": "Myanmar (Burmese)",
         "name": "Birmano (Myanmar)",
         "NOTES": []
     },
     "Nagm": {
+        "LABEL": "Nag Mundari",
         "name": "Nag Mundari",
         "NOTES": []
     },
     "Nand": {
+        "LABEL": "Nandinagari",
         "name": "Nandinagari",
         "NOTES": []
     },
     "Narb": {
+        "LABEL": "Old North Arabian (Ancient North Arabian)",
         "name": "Arabo Settentrionale Antico",
         "NOTES": []
     },
     "Nbat": {
+        "LABEL": "Nabataean",
         "name": "Nabateo",
         "NOTES": [
             "https://www.treccani.it/vocabolario/nabateo/",
@@ -547,88 +675,108 @@
         ]
     },
     "Newa": {
+        "LABEL": "Newa, Newar, Newari, Nepāla lipi",
         "name": "Newa, Newari, Newar, Nevar, Lipi nepalese",
         "NOTES": []
     },
     "Nkdb": {
+        "LABEL": "Naxi Dongba (na²¹ɕi³³ to³³ba²¹, Nakhi Tomba)",
         "name": "Naxi Dongba (Nakhi Tomba)",
         "NOTES": []
     },
     "Nkgb": {
+        "LABEL": "Naxi Geba (na²¹ɕi³³ gʌ²¹ba²¹, 'Na-'Khi ²Ggŏ-¹baw, Nakhi Geba)",
         "name": "Naxi Geba (Nakhi Geba)",
         "NOTES": []
     },
     "Nkoo": {
+        "LABEL": "N’Ko",
         "name": "N’Ko",
         "NOTES": []
     },
     "Nshu": {
+        "LABEL": "Nüshu",
         "name": "Nü shu",
         "NOTES": []
     },
     "Ogam": {
+        "LABEL": "Ogham",
         "name": "Ogham",
         "NOTES": []
     },
     "Olck": {
+        "LABEL": "Ol Chiki (Ol Cemet’, Ol, Santali)",
         "name": "Ol Chiki (Ol Chemet’, Ol, Santali)",
         "NOTES": []
     },
     "Onao": {
+        "LABEL": "Ol Onal",
         "name": "Ol Onal",
         "NOTES": []
     },
     "Orkh": {
+        "LABEL": "Old Turkic, Orkhon Runic",
         "name": "Turco antico, Orkhon runico",
         "NOTES": []
     },
     "Orya": {
+        "LABEL": "Oriya (Odia)",
         "name": "Odia (Oriya)",
         "NOTES": []
     },
     "Osge": {
+        "LABEL": "Osage",
         "name": "Osage",
         "NOTES": []
     },
     "Osma": {
+        "LABEL": "Osmanya",
         "name": "Osmanya, Somalo",
         "NOTES": []
     },
     "Ougr": {
+        "LABEL": "Old Uyghur",
         "name": "Uiguro antico",
         "NOTES": [
             "https://www.treccani.it/enciclopedia/uiguri_(Dizionario-di-Storia)/"
         ]
     },
     "Palm": {
+        "LABEL": "Palmyrene",
         "name": "Palmireno",
         "NOTES": [
             "https://www.treccani.it/vocabolario/palmireno/"
         ]
     },
     "Pauc": {
+        "LABEL": "Pau Cin Hau",
         "name": "Pau Cin Hau",
         "NOTES": []
     },
     "Pcun": {
+        "LABEL": "Proto-Cuneiform",
         "name": "Protocuneiforme",
         "NOTES": []
     },
     "Pelm": {
+        "LABEL": "Proto-Elamite",
         "name": "Protoelamico",
         "NOTES": []
     },
     "Perm": {
+        "LABEL": "Old Permic",
         "name": "Permico antico (Permiano antico)",
         "NOTES": [
             "https://it.wikipedia.org/wiki/Lingue_permiche"
         ]
     },
     "Phag": {
+        "LABEL": "Phags-pa",
         "name": "'Phags-pa",
         "NOTES": []
     },
     "Phli": {
+        "LABEL": "Inscriptional Pahlavi",
         "name": "Pahlavi, Pahlevi (iscrizioni)",
         "NOTES": [
             "https://it.wikipedia.org/wiki/Lingua_pahlavi",
@@ -636,141 +784,172 @@
         ]
     },
     "Phlp": {
+        "LABEL": "Psalter Pahlavi",
         "name": "Pahlavi, Pahlevi (salterio)",
         "NOTES": []
     },
     "Phlv": {
+        "LABEL": "Book Pahlavi",
         "name": "Pahlavi, Pahlevi (libro)",
         "NOTES": []
     },
     "Phnx": {
+        "LABEL": "Phoenician",
         "name": "Fenicio",
         "NOTES": []
     },
     "Plrd": {
+        "LABEL": "Miao (Pollard)",
         "name": "Pollard (Miao Pollard)",
         "NOTES": []
     },
     "Piqd": {
+        "LABEL": "Klingon (KLI pIqaD)",
         "name": "Klingon (pIqaD)",
         "NOTES": []
     },
     "Prti": {
+        "LABEL": "Inscriptional Parthian",
         "name": "Parto (iscrizioni)",
         "NOTES": []
     },
     "Psin": {
+        "LABEL": "Proto-Sinaitic",
         "name": "Proto-Sinaitico",
         "NOTES": []
     },
     "Qaaa": {
+        "LABEL": "Reserved for private use (start)",
         "name": "Riservato per uso privato (start)",
         "NOTES": []
     },
     "Qabx": {
+        "LABEL": "Reserved for private use (end)",
         "name": "Riservato per uso privato (end)",
         "NOTES": []
     },
     "Ranj": {
+        "LABEL": "Ranjana",
         "name": "Ranjana",
         "NOTES": []
     },
     "Rjng": {
+        "LABEL": "Rejang (Redjang, Kaganga)",
         "name": "Rejang (Redjang, Kaganga)",
         "NOTES": []
     },
     "Rohg": {
+        "LABEL": "Hanifi Rohingya",
         "name": "Rohingya hanifi",
         "NOTES": []
     },
     "Roro": {
+        "LABEL": "Rongorongo",
         "name": "Rongorongo",
         "NOTES": []
     },
     "Runr": {
+        "LABEL": "Runic",
         "name": "Runico",
         "NOTES": []
     },
     "Samr": {
+        "LABEL": "Samaritan",
         "name": "Samaritano",
         "NOTES": []
     },
     "Sara": {
+        "LABEL": "Sarati",
         "name": "Sarati",
         "NOTES": []
     },
     "Sarb": {
+        "LABEL": "Old South Arabian",
         "name": "Arabo meridionale antico",
         "NOTES": []
     },
     "Saur": {
+        "LABEL": "Saurashtra",
         "name": "Saurashtra",
         "NOTES": []
     },
     "Seal": {
+        "LABEL": "(Small) Seal",
         "name": "Sigillario",
         "NOTES": []
     },
     "Sgnw": {
+        "LABEL": "SignWriting",
         "name": "Sutton SignWriting, SignWriting, Scrittura dei segni",
         "NOTES": []
     },
     "Shaw": {
+        "LABEL": "Shavian (Shaw)",
         "name": "Shaviano",
         "NOTES": [
             "https://it.wikipedia.org/wiki/Alfabeto_shaviano"
         ]
     },
     "Shrd": {
+        "LABEL": "Sharada, Śāradā",
         "name": "Sharada, Śāradā, Charada",
         "NOTES": []
     },
     "Shui": {
+        "LABEL": "Shuishu",
         "name": "Shuishu, Sui",
         "NOTES": []
     },
     "Sidd": {
+        "LABEL": "Siddham, Siddhaṃ, Siddhamātṛkā",
         "name": "Siddham, Siddhaṃ, Siddhamātṛkā",
         "NOTES": []
     },
     "Sidt": {
+        "LABEL": "Sidetic",
         "name": "Sidetico",
         "NOTES": [
             "https://it.wikipedia.org/wiki/Lingua_sidetica"
         ]
     },
     "Sind": {
+        "LABEL": "Khudawadi, Sindhi",
         "name": "Khudawadi, Sindhi",
         "NOTES": []
     },
     "Sinh": {
+        "LABEL": "Sinhala",
         "name": "Singalese, Cingalese, Ceylonese, Silonense, Sinhala",
         "NOTES": [
             "https://it.wikipedia.org/wiki/Lingua_singalese",
             "https://www.treccani.it/vocabolario/singalese/",
             "https://www.treccani.it/vocabolario/ceylonense/"
-
         ]
     },
     "Sogd": {
+        "LABEL": "Sogdian",
         "name": "Sogdian",
         "NOTES": []
     },
     "Sogo": {
+        "LABEL": "Old Sogdian",
         "name": "Sogdiano antico",
         "NOTES": [
             "https://it.wikipedia.org/wiki/Alfabeto_sogdiano"
         ]
     },
     "Sora": {
+        "LABEL": "Sora Sompeng",
         "name": "Sora Sompeng",
         "NOTES": []
     },
     "Soyo": {
+        "LABEL": "Soyombo",
         "name": "Soyombo",
         "NOTES": []
     },
     "Sund": {
+        "LABEL": "Sundanese",
         "name": "Sundanese, Sondanese",
         "NOTES": [
             "https://www.treccani.it/vocabolario/sundanese/",
@@ -778,114 +957,142 @@
         ]
     },
     "Sunu": {
+        "LABEL": "Sunuwar",
         "name": "Sunuwar",
         "NOTES": []
     },
     "Sylo": {
+        "LABEL": "Syloti Nagri",
         "name": "Sylheti, Sileṭ Nagri",
         "NOTES": []
     },
     "Syrc": {
+        "LABEL": "Syriac",
         "name": "Siriaco",
         "NOTES": []
     },
     "Syre": {
+        "LABEL": "Syriac (Estrangelo variant)",
         "name": "Siriaco (variante ʾEsṭrangēlā)",
         "NOTES": []
     },
     "Syrj": {
+        "LABEL": "Syriac (Western variant)",
         "name": "Siriaco (variante occidentale)",
         "NOTES": []
     },
     "Syrn": {
+        "LABEL": "Syriac (Eastern variant)",
         "name": "Siriaco (variante orientale)",
         "NOTES": []
     },
     "Tagb": {
+        "LABEL": "Tagbanwa",
         "name": "Tagbanwa, Aborlan Tagbanwa, Apurawnon",
         "NOTES": []
     },
     "Takr": {
+        "LABEL": "Takri, Ṭākrī, Ṭāṅkrī",
         "name": "Takri",
         "NOTES": []
     },
     "Tale": {
+        "LABEL": "Tai Le",
         "name": "Tai Le",
         "NOTES": []
     },
     "Talu": {
+        "LABEL": "New Tai Lue",
         "name": "Nuovo Tai lue, Tai lue semplificato",
         "NOTES": []
     },
     "Taml": {
+        "LABEL": "Tamil",
         "name": "Tàmil, Tàmul",
         "NOTES": []
     },
     "Tang": {
+        "LABEL": "Tangut",
         "name": "Tangut",
         "NOTES": []
     },
     "Tavt": {
+        "LABEL": "Tai Viet",
         "name": "Tai Viet",
         "NOTES": []
     },
     "Tayo": {
+        "LABEL": "Tai Yo",
         "name": "Tai Yo",
         "NOTES": []
     },
     "Telu": {
+        "LABEL": "Telugu",
         "name": "Tèlugu",
         "NOTES": []
     },
     "Teng": {
+        "LABEL": "Tengwar",
         "name": "Tengwar",
         "NOTES": []
     },
     "Tfng": {
+        "LABEL": "Tifinagh (Berber)",
         "name": "Tifinagh (Berbero)",
         "NOTES": []
     },
     "Tglg": {
+        "LABEL": "Tagalog (Baybayin, Alibata)",
         "name": "Tagalog, Tagalo",
         "NOTES": []
     },
     "Thaa": {
+        "LABEL": "Thaana",
         "name": "Thaana, Taana, Tāna",
         "NOTES": []
     },
     "Thai": {
+        "LABEL": "Thai",
         "name": "Tailandese",
         "NOTES": []
     },
     "Tibt": {
+        "LABEL": "Tibetan",
         "name": "Tibetano",
         "NOTES": []
     },
     "Tirh": {
+        "LABEL": "Tirhuta",
         "name": "Tirhuta",
         "NOTES": []
     },
     "Tnsa": {
+        "LABEL": "Tangsa",
         "name": "Tangsa",
         "NOTES": []
     },
     "Todr": {
+        "LABEL": "Todhri",
         "name": "Todhri",
         "NOTES": []
     },
     "Tols": {
+        "LABEL": "Tolong Siki",
         "name": "Tolong Siki",
         "NOTES": []
     },
     "Toto": {
+        "LABEL": "Toto",
         "name": "Toto",
         "NOTES": []
     },
     "Tutg": {
+        "LABEL": "Tulu-Tigalari",
         "name": "Tigalari, Tulu",
         "NOTES": []
     },
     "Ugar": {
+        "LABEL": "Ugaritic",
         "name": "Ugaritico",
         "NOTES": [
             "https://it.wikipedia.org/wiki/Alfabeto_ugaritico",
@@ -893,74 +1100,92 @@
         ]
     },
     "Vaii": {
+        "LABEL": "Vai",
         "name": "Vai",
         "NOTES": []
     },
     "Visp": {
+        "LABEL": "Visible Speech",
         "name": "Discorso visibile",
         "NOTES": []
     },
     "Vith": {
+        "LABEL": "Vithkuqi",
         "name": "Vithkuqi, Büthakukye, Beitha Kukju",
         "NOTES": []
     },
     "Wara": {
+        "LABEL": "Warang Citi (Varang Kshiti)",
         "name": "Warang Chiti (Varang Kshiti)",
         "NOTES": []
     },
     "Wcho": {
+        "LABEL": "Wancho",
         "name": "Wancho",
         "NOTES": []
     },
     "Wole": {
+        "LABEL": "Woleai",
         "name": "Woleai",
         "NOTES": []
     },
     "Xpeo": {
+        "LABEL": "Old Persian",
         "name": "Persiano antico",
         "NOTES": []
     },
     "Xsux": {
+        "LABEL": "Cuneiform, Sumero-Akkadian",
         "name": "Cuneiforme, Sumero-Accadico",
         "NOTES": []
     },
     "Yezi": {
+        "LABEL": "Yezidi",
         "name": "Yezidi",
         "NOTES": []
     },
     "Yiii": {
+        "LABEL": "Yi",
         "name": "Yi",
         "NOTES": []
     },
     "Zanb": {
+        "LABEL": "Zanabazar Square (Zanabazarin Dörböljin Useg, Xewtee Dörböljin Bicig, Horizontal Square Script)",
         "name": "Zanabazar quadrato (Scrittura Orizontale Quadrata)",
         "NOTES": []
     },
     "Zinh": {
+        "LABEL": "Code for inherited script",
         "name": "Codice per script ereditato",
         "NOTES": []
     },
     "Zmth": {
+        "LABEL": "Mathematical notation",
         "name": "Notazione matematica",
         "NOTES": []
     },
     "Zsye": {
+        "LABEL": "Symbols (Emoji variant)",
         "name": "Simboli (variante Emoji)",
         "NOTES": []
     },
     "Zsym": {
+        "LABEL": "Symbols",
         "name": "Simboli",
         "NOTES": []
     },
     "Zxxx": {
+        "LABEL": "Code for unwritten documents",
         "name": "Codice per documenti non scritti",
         "NOTES": []
     },
     "Zyyy": {
+        "LABEL": "Code for undetermined script",
         "name": "Codice per script indeterminato",
         "NOTES": []
     },
     "Zzzz": {
+        "LABEL": "Code for uncoded script",
         "name": "Codice per script non codificato",
         "NOTES": []
     }

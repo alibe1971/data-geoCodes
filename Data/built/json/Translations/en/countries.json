@@ -99,7 +99,6 @@
             "Argentinians"
         ],
         "keywords": [
-            "argentine",
             "argentines"
         ]
     },
@@ -351,7 +350,6 @@
         "keywords": [
             "thunder",
             "dragon",
-            "kingdom",
             "druk",
             "yul"
         ]
@@ -680,9 +678,7 @@
             "Sahrawis",
             "Western Saharans"
         ],
-        "keywords": [
-            "sahrawi"
-        ]
+        "keywords": []
     },
     "ER": {
         "name": "Eritrea",
@@ -814,7 +810,6 @@
             "albion",
             "scotland",
             "wales",
-            "ireland",
             "alba",
             "cymru",
             "ulster",
@@ -938,8 +933,6 @@
             "Greeks"
         ],
         "keywords": [
-            "hellenic",
-            "republic",
             "greek",
             "el"
         ]
@@ -1161,9 +1154,7 @@
         "demonyms": [
             "Italians"
         ],
-        "keywords": [
-            "italian"
-        ]
+        "keywords": []
     },
     "JE": {
         "name": "Jersey",
@@ -1620,9 +1611,7 @@
         "demonyms": [
             "Mexicans"
         ],
-        "keywords": [
-            "mexican"
-        ]
+        "keywords": []
     },
     "MY": {
         "name": "Malaysia",
@@ -2065,9 +2054,7 @@
         "demonyms": [
             "Slovaks"
         ],
-        "keywords": [
-            "slovak"
-        ]
+        "keywords": []
     },
     "SL": {
         "name": "Sierra Leone",
@@ -2238,7 +2225,6 @@
         ],
         "keywords": [
             "union",
-            "islands",
             "tokelauan"
         ]
     },
@@ -2370,7 +2356,6 @@
         "keywords": [
             "usa",
             "us",
-            "america",
             "american"
         ]
     },

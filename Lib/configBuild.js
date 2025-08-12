@@ -27,29 +27,6 @@ export const configBuild = {
         xml: saveDataForXml,
     },
     TranslationDir: 'Translations/',
-    TranslationData: {
-        countries: {
-            name: 'ccNameCommon',
-            fullName: 'ccNameFull',
-            demonyms: 'ccDemonyms',
-            acronymsAliasFormer: 'ccAcronymsAliasFormer',
-            adjectives: 'ccAdjectives',
-            others: 'ccOthers',
-            typos: 'ccTypos'
-        },
-        geoSets: {
-            name: 'geoSets'
-        },
-        currencies: {
-            name: 'currencies'
-        },
-        languages: {
-            name: 'langNames'
-        },
-        scripts: {
-            name: 'scripts'
-        }
-    },
     appConfig: 'config.json',
     configFunctions: configFunctions,
     appData: {
@@ -140,12 +117,12 @@ export const configBuild = {
             ]
         },
         languages: {
-            scope: [
+            scopes: [
                 'I',
                 'M',
                 'S'
             ],
-            type:[
+            types:[
                 'A',
                 'C',
                 'E',

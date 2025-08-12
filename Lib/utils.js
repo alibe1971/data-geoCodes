@@ -111,7 +111,7 @@ export function errorMessage(type, collection, item, mainKey, prop, message, lan
     throw new Error(throwMessage);
 }
 
-export function checkForTranslationString(
+export function getTranslationMandatoryString(
     collection,
     collectionItem,
     mainKey,
@@ -120,55 +120,33 @@ export function checkForTranslationString(
     defaultLanguage,
     prop
 ) {
-    if (!Object.prototype.hasOwnProperty.call(currentObj, mainKey)) {
+    if(!Object.prototype.hasOwnProperty.call(currentObj, prop)) {
         if (lang === defaultLanguage) {
             throw new Error(
-                errorMessage(
-                    'trans',
-                    collection,
-                    collectionItem,
-                    mainKey,
-                    prop,
-                    ' Missing mandatory property for language `' + lang + '` (default language)',
+                errorMessage('trans', collection, collectionItem, mainKey, prop,
+                    'Missing mandatory property for language `' + lang + '` (default language)',
+                    lang
+                )
+            );
+        } else {
+            currentObj[prop] = null;
+        }
+    }
+    if (currentObj[prop] !== null) {
+        if (
+            !requirements(currentObj[prop], 'mustBeString') ||
+            !requirements(currentObj[prop], 'cannotBeEmpty')
+        ) {
+            throw new Error(
+                errorMessage( 'trans', collection, collectionItem, mainKey, prop,
+                    'The property must be a not empty string',
                     lang
                 )
             );
         }
-        return false;
     }
 
-    if (typeof currentObj[mainKey] !== 'string') {
-        throw new Error(
-            errorMessage(
-                'trans',
-                collection,
-                collectionItem,
-                mainKey,
-                prop,
-                ' Property must be a string',
-                lang
-            )
-        );
-    }
-
-    if (currentObj[mainKey].length === 0) {
-        if (lang === defaultLanguage) {
-            throw new Error(
-                errorMessage(
-                    'trans',
-                    collection,
-                    collectionItem,
-                    mainKey,
-                    prop,
-                    ' Property cannot be empty for language `' + lang + '` (default language)',
-                    lang
-                )
-            );
-        }
-        return false;
-    }
-
-    return true;
+    return currentObj[prop];
 }
 
 export function getMinimizedSvg(filePath) {
