@@ -36,6 +36,15 @@ const xmlMap = {
             }
         }
     },
+    languages: {
+        "@tag": "language",
+        "@attribute": "index",
+        language: {
+            scripts: {
+                "@tag": "script"
+            }
+        }
+    },
     countries: {
         "@tag": "country",
         "@attribute": "index",
@@ -186,7 +195,7 @@ const xmlMap = {
     },
     translationsLanguages: {
         "@tag": "language"
-    },
+    }
 };
 
 export const saveDataForXml = {

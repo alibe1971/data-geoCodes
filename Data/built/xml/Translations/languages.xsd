@@ -5,11 +5,10 @@
             <xs:sequence>
                 <xs:element name="language" maxOccurs="unbounded" minOccurs="0">
                     <xs:complexType>
-                        <xs:simpleContent>
-                            <xs:extension base="xs:string">
-                                <xs:attribute type="xs:string" name="key" use="required"/>
-                            </xs:extension>
-                        </xs:simpleContent>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="name" minOccurs="0"/>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="key" use="required"/>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>

@@ -184,62 +184,20 @@ export const languagesFunctions = {
     DataTranslations: async (data, defaultLanguage = 'en') => {
         let ln;
 
-        function getTranslationStructure(structureName, langObjs, lang, items) {
-            let structure = {};
-            if (
-                !Object.prototype.hasOwnProperty.call(langObjs, structureName)
-            ) {
-                if (lang === defaultLanguage) {
-                    throw new Error( errorMessage('trans', collection, collectionItem, lang, structureName,
-                        'Missing mandatory property for language `' + lang + '` (default language)', lang));
-                }
-            }
-            for (const key of Object.values(items)) {
-                structure[key] =
-                    (getTranslationMandatoryString(
-                        collection,
-                        'Language Meta',
-                        structureName,
-                        langObjs[structureName],
-                        lang,
-                        defaultLanguage,
-                        key
-                    )) ?? '';
-
-            }
-            return structure;
-        }
-
         for (const [lang, langObjs] of Object.entries(data)) {
+            Translations[lang] = {};
 
-            Translations[lang] = {
-                scopes: {},
-                types: {},
-                languages: {},
-            };
-
-            /** PART RELATED TO THE SCOPES **/
-            Translations[lang]['scopes'] = getTranslationStructure (
-                'scopes', langObjs, lang, configBuild.extra.languages.scopes
-            );
-
-            /** PART RELATED TO THE TYPES **/
-            Translations[lang]['types'] = getTranslationStructure (
-                'types', langObjs, lang, configBuild.extra.languages.types
-            );
-
-            /** PART RELATED TO THE LANGUAGES **/
             for (const language of Object.values(Languages)) {
                 ln = language[mainKey];
-                Translations[lang]['languages'][ln] = {};
+                Translations[lang][ln] = {};
 
                 /** `name`: the source must be a string (required for the default language) **/
-                Translations[lang]['languages'][ln].name =
+                Translations[lang][ln].name =
                     (getTranslationMandatoryString(
                         collection,
                         collectionItem,
                         ln,
-                        langObjs['languages'][ln],
+                        langObjs[ln],
                         lang,
                         defaultLanguage,
                         'name'
