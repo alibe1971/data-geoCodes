@@ -6,11 +6,38 @@
                 <xs:element name="language" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="isoAlpha" type="xs:string" minOccurs="0"/>
-                            <xs:element name="isoNumber" type="xs:string" minOccurs="0"/>
-                            <xs:element name="name" type="xs:string" minOccurs="0"/>
-                            <xs:element name="symbol" type="xs:string" minOccurs="0" nillable="true"/>
-                            <xs:element name="decimal" type="xs:int" minOccurs="0" nillable="true"/>
+                            <!-- main node <code> -->
+                            <xs:element name="code" type="xs:string" minOccurs="0"/>
+
+                            <!-- main node <numeric> -->
+                            <xs:element name="numeric" type="xs:string" minOccurs="0"/>
+
+                            <!-- main node <writingDirection> -->
+                            <xs:element name="writingDirection" type="xs:string" minOccurs="0" nillable="true"/>
+
+                            <!-- main node <unicode> -->
+                            <xs:element name="unicode">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="version" type="xs:string"/>
+                                        <xs:element name="ranges">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="range" maxOccurs="unbounded" minOccurs="0">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="edge" maxOccurs="2" minOccurs="1"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="totalCodePoints" type="xs:int"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
                         </xs:sequence>
                         <xs:attribute name="index" type="xs:int" use="optional"/>
                     </xs:complexType>

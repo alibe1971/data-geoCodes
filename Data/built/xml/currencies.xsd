@@ -7,9 +7,16 @@
                 <xs:element name="currency" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
+                            <!-- main node <isoAlpha> -->
                             <xs:element name="isoAlpha" type="xs:string"/>
+
+                            <!-- main node <isoNumber> -->
                             <xs:element name="isoNumber" type="xs:string"/>
+
+                            <!-- main node <symbol> -->
                             <xs:element name="symbol" type="xs:string" nillable="true"/>
+
+                            <!-- main node <decimal> -->
                             <xs:element name="decimal" type="xs:int" nillable="true"/>
                         </xs:sequence>
 
