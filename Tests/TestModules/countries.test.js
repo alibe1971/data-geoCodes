@@ -31,7 +31,7 @@ describe('Tests Countries Structure', () => {
             !Array.isArray(defTranslation)
         ).toBe(true);
     });
-    test(`Test that Countries entries number is correct`, () => {
+    test(`Test that Countries default translation entries number is correct`, () => {
         expect(Object.keys(defTranslation).length).toEqual(global.APP.testConstants.countries.count);
     });
 });

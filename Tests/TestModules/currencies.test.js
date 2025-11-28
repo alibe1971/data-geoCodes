@@ -111,7 +111,7 @@ for (const currency of Object.values(currencies)) {
                 typeof defTranslation[currency.isoAlpha].name === 'string' && defTranslation[currency.isoAlpha].name !== ''
             ).toBe(true);
         });
-        test(`Test that for the country '${currency.isoAlpha}', default translation 'name' is unique`, () => {
+        test(`Test that for the currency '${currency.isoAlpha}', default translation 'name' is unique`, () => {
             expect(
                 uniqueKeysControl.has(`trans_${defLang}_name_${defTranslation[currency.isoAlpha].name}`) === false
             ).toBe(true);

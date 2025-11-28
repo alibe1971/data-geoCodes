@@ -29,7 +29,7 @@ describe('Tests geoSets Structure', () => {
             !Array.isArray(defTranslation)
         ).toBe(true);
     });
-    test(`Test that geoSets entries number is correct`, () => {
+    test(`Test that geoSets default translation entries number is correct`, () => {
         expect(Object.keys(defTranslation).length).toEqual(global.APP.testConstants.geoSets.count);
     });
 });
