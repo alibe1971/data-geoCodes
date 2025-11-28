@@ -132,7 +132,6 @@ export const scriptsFunctions = {
 
             script.unicode = item.unicode;
             script.unicode.ranges = ranges;
-            script.unicode.totalCodePoints = ranges.length;
 
             /** ---- **/
             Scripts.push(script);

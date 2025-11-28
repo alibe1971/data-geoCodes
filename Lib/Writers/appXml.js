@@ -45,6 +45,16 @@ const xmlMap = {
             }
         }
     },
+    scripts: {
+        "@tag": "script",
+        "@attribute": "index",
+        script: {
+            ranges: {
+                "@tag": "range",
+                "@childtag": "edge"
+            }
+        }
+    },
     countries: {
         "@tag": "country",
         "@attribute": "index",
@@ -195,7 +205,10 @@ const xmlMap = {
     },
     translationsLanguages: {
         "@tag": "language"
-    }
+    },
+    translationsScripts: {
+        "@tag": "script"
+    },
 };
 
 export const saveDataForXml = {
@@ -308,6 +321,30 @@ const createXmlFromMap = (data, rootElement, map) => {
             map = map[tagKey];
         }
     }
+
+    if (Array.isArray(data) && map && map['@childtag']) {
+        const childTag = map['@childtag'];
+        const parentTag = tagKey || rootElement;
+
+        const xmlObject = {};
+        xmlObject[parentTag] = data.map(item => {
+            const rangeObj = {};
+
+            if (Array.isArray(item)) {
+                rangeObj[childTag] = item.map(val => ({ _text: val }));
+            } else if (typeof item === 'object' && item !== null) {
+                rangeObj[childTag] = Object.values(item).map(val => (
+                    typeof val === 'object' ? val : { _text: val }
+                ));
+            } else {
+                rangeObj[childTag] = [{ _text: item }];
+            }
+            return rangeObj;
+        });
+
+        return xmlObject;
+    }
+
 
     if (typeof data === 'object' && data !== null) {
         for (let key in data) {
