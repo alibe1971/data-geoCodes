@@ -1,5 +1,5 @@
 import chalk from 'chalk';
-import {errorMessage, getTranslationMandatoryString, requirements, sortList} from "../utils.js";
+import {errorMessage, getTranslationMandatoryString, requirements, sortList, checkRangesAndTotal} from "../utils.js";
 import {configBuild} from "../configBuild.js";
 
 const mainKey = 'code';
@@ -94,9 +94,10 @@ export const scriptsFunctions = {
                 throwMex('unicode.ranges', item[mainKey],'The property must be an array');
             }
             let ranges = [];
+            let normalizedRanges = [];
             for (let [idx, range] of item.unicode.ranges.entries()) {
                 if(
-                    !requirements(range, 'mustBeArray') &&
+                    !requirements(range, 'mustBeArray') ||
                     !requirements(range, 'cannotBeEmpty')
                 ) {
                     throwMex('unicode.ranges.' + idx, item[mainKey],
@@ -107,6 +108,8 @@ export const scriptsFunctions = {
                         'The property must have 1 or 2 elements');
                 }
                 let checkOrder;
+                let intStart = null;
+                let intEnd = null;
                 for (let [idEntry, entry] of range.entries()) {
                     entry = entry.toUpperCase();
                     if(
@@ -120,14 +123,46 @@ export const scriptsFunctions = {
                     const intEntry = parseInt(entry, 16);
                     if (idEntry === 0) {
                         checkOrder = intEntry;
+                        intStart = intEntry;
                     } else {
                         if( intEntry < checkOrder) {
                             throwMex('unicode.ranges.' + idx, item[mainKey],
                                 'The property has not correctly ordered elements');
+                        } else {
+                            intEnd = intEntry;
                         }
                     }
+                    range[idEntry] = entry;
                 }
+                if (intEnd === null) {
+                    intEnd = intStart;
+                }
+                normalizedRanges.push({ start: intStart, end: intEnd });
                 ranges.push(range);
+            }
+            const { overlaps, totalCodePoints } = checkRangesAndTotal(normalizedRanges);
+            if (overlaps.length > 0) {
+                throwMex(
+                    'unicode.ranges',
+                    item[mainKey],
+                    'The property has overlapping ranges'
+                );
+            }
+            if( !requirements(item.unicode.totalCodePoints, 'mustBePositiveIntegerOrZero') ) {
+                throwMex(
+                    'unicode.totalCodePoints',
+                    item[mainKey],
+                    'The property must be null or a positive integer greater then zero'
+                );
+            }
+            if( totalCodePoints != item.unicode.totalCodePoints ) {
+                throwMex(
+                    'unicode.totalCodePoints',
+                    item[mainKey],
+                    'The property value (' +
+                    item.unicode.totalCodePoints + ') mismatch with the calculated point from the ranges (' +
+                    totalCodePoints + ').'
+                );
             }
 
             script.unicode = item.unicode;

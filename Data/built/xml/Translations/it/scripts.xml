@@ -1,681 +1,681 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <translationsScripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" language="it">
-    <0 key="Adlm">
+    <script key="Adlm">
         <name>Adlam</name>
-    </0>
-    <1 key="Afak">
+    </script>
+    <script key="Afak">
         <name>Afaka</name>
-    </1>
-    <2 key="Aghb">
+    </script>
+    <script key="Aghb">
         <name>Albanese caucasico</name>
-    </2>
-    <3 key="Ahom">
+    </script>
+    <script key="Ahom">
         <name>Ahom, Tai Ahom</name>
-    </3>
-    <4 key="Arab">
+    </script>
+    <script key="Arab">
         <name>Arabo</name>
-    </4>
-    <5 key="Aran">
+    </script>
+    <script key="Aran">
         <name>Arabo (nasta'liq)</name>
-    </5>
-    <6 key="Armi">
+    </script>
+    <script key="Armi">
         <name>Aramaico biblico</name>
-    </6>
-    <7 key="Armn">
+    </script>
+    <script key="Armn">
         <name>Armeno</name>
-    </7>
-    <8 key="Avst">
+    </script>
+    <script key="Avst">
         <name>Avestico</name>
-    </8>
-    <9 key="Bali">
+    </script>
+    <script key="Bali">
         <name>Balinese</name>
-    </9>
-    <10 key="Bamu">
+    </script>
+    <script key="Bamu">
         <name>Bamum</name>
-    </10>
-    <11 key="Bass">
+    </script>
+    <script key="Bass">
         <name>Bassa Vah</name>
-    </11>
-    <12 key="Batk">
+    </script>
+    <script key="Batk">
         <name>Batak</name>
-    </12>
-    <13 key="Beng">
+    </script>
+    <script key="Beng">
         <name>Bengalese (Bangla)</name>
-    </13>
-    <14 key="Berf">
+    </script>
+    <script key="Berf">
         <name>Beria Erfe</name>
-    </14>
-    <15 key="Bhks">
+    </script>
+    <script key="Bhks">
         <name>Bhaiksuki</name>
-    </15>
-    <16 key="Blis">
+    </script>
+    <script key="Blis">
         <name>Blissymbol</name>
-    </16>
-    <17 key="Bopo">
+    </script>
+    <script key="Bopo">
         <name>Bopomofo</name>
-    </17>
-    <18 key="Brah">
+    </script>
+    <script key="Brah">
         <name>Brahmi</name>
-    </18>
-    <19 key="Brai">
+    </script>
+    <script key="Brai">
         <name>Braille</name>
-    </19>
-    <20 key="Bugi">
+    </script>
+    <script key="Bugi">
         <name>Buginese</name>
-    </20>
-    <21 key="Buhd">
+    </script>
+    <script key="Buhd">
         <name>Buhid</name>
-    </21>
-    <22 key="Cakm">
+    </script>
+    <script key="Cakm">
         <name>Chakma</name>
-    </22>
-    <23 key="Cans">
+    </script>
+    <script key="Cans">
         <name>Sillabario Aborigeno Canadese Unificato</name>
-    </23>
-    <24 key="Cari">
+    </script>
+    <script key="Cari">
         <name>Carian</name>
-    </24>
-    <25 key="Cham">
+    </script>
+    <script key="Cham">
         <name>Cham</name>
-    </25>
-    <26 key="Cher">
+    </script>
+    <script key="Cher">
         <name>Cherokee</name>
-    </26>
-    <27 key="Chis">
+    </script>
+    <script key="Chis">
         <name>Chisoi</name>
-    </27>
-    <28 key="Chrs">
+    </script>
+    <script key="Chrs">
         <name>Corasmiano</name>
-    </28>
-    <29 key="Cirt">
+    </script>
+    <script key="Cirt">
         <name>Cirth</name>
-    </29>
-    <30 key="Copt">
+    </script>
+    <script key="Copt">
         <name>Copto</name>
-    </30>
-    <31 key="Cpmn">
+    </script>
+    <script key="Cpmn">
         <name>Cipro-Minoico</name>
-    </31>
-    <32 key="Cprt">
+    </script>
+    <script key="Cprt">
         <name>Cipriota</name>
-    </32>
-    <33 key="Cyrl">
+    </script>
+    <script key="Cyrl">
         <name>Cirillico</name>
-    </33>
-    <34 key="Cyrs">
+    </script>
+    <script key="Cyrs">
         <name>Cirillico (slavo ecclesiastico antico)</name>
-    </34>
-    <35 key="Deva">
+    </script>
+    <script key="Deva">
         <name>Devanagari (Nagari)</name>
-    </35>
-    <36 key="Diak">
+    </script>
+    <script key="Diak">
         <name>Akuru dives</name>
-    </36>
-    <37 key="Dogr">
+    </script>
+    <script key="Dogr">
         <name>Dogra</name>
-    </37>
-    <38 key="Dsrt">
+    </script>
+    <script key="Dsrt">
         <name>Deseret</name>
-    </38>
-    <39 key="Dupl">
+    </script>
+    <script key="Dupl">
         <name>Stenografia duployan</name>
-    </39>
-    <40 key="Egyd">
+    </script>
+    <script key="Egyd">
         <name>Egizio demotico</name>
-    </40>
-    <41 key="Egyh">
+    </script>
+    <script key="Egyh">
         <name>Egizio ieratico</name>
-    </41>
-    <42 key="Egyp">
+    </script>
+    <script key="Egyp">
         <name>Egizio geroglifico</name>
-    </42>
-    <43 key="Elba">
+    </script>
+    <script key="Elba">
         <name>Elbasan</name>
-    </43>
-    <44 key="Elym">
+    </script>
+    <script key="Elym">
         <name>Elimaico</name>
-    </44>
-    <45 key="Ethi">
+    </script>
+    <script key="Ethi">
         <name>Etiope (Geʻez)</name>
-    </45>
-    <46 key="Gara">
+    </script>
+    <script key="Gara">
         <name>Garay</name>
-    </46>
-    <47 key="Geok">
+    </script>
+    <script key="Geok">
         <name>Khutsuri (Asomtavruli e Nuskhuri)</name>
-    </47>
-    <48 key="Geor">
+    </script>
+    <script key="Geor">
         <name>Georgiano (Mkhedruli e Mtavruli)</name>
-    </48>
-    <49 key="Glag">
+    </script>
+    <script key="Glag">
         <name>Glagolitico</name>
-    </49>
-    <50 key="Gong">
+    </script>
+    <script key="Gong">
         <name>Gunjala gondi</name>
-    </50>
-    <51 key="Gonm">
+    </script>
+    <script key="Gonm">
         <name>Masaram gondi</name>
-    </51>
-    <52 key="Goth">
+    </script>
+    <script key="Goth">
         <name>Gotico</name>
-    </52>
-    <53 key="Gran">
+    </script>
+    <script key="Gran">
         <name>Grantha</name>
-    </53>
-    <54 key="Grek">
+    </script>
+    <script key="Grek">
         <name>Greco</name>
-    </54>
-    <55 key="Gujr">
+    </script>
+    <script key="Gujr">
         <name>Gugiarati (Gujarati)</name>
-    </55>
-    <56 key="Gukh">
+    </script>
+    <script key="Gukh">
         <name>Gurung Khema</name>
-    </56>
-    <57 key="Guru">
+    </script>
+    <script key="Guru">
         <name>Gurmukhi</name>
-    </57>
-    <58 key="Hanb">
+    </script>
+    <script key="Hanb">
         <name>Han con Bopomofo (alias per Han + Bopomofo)</name>
-    </58>
-    <59 key="Hang">
+    </script>
+    <script key="Hang">
         <name>Hangul (Hang' l, Hangeul)</name>
-    </59>
-    <60 key="Hani">
+    </script>
+    <script key="Hani">
         <name>Han (Hanzi, Kanji, Hanja)</name>
-    </60>
-    <61 key="Hano">
+    </script>
+    <script key="Hano">
         <name>Hanunoo (Hanunóo)</name>
-    </61>
-    <62 key="Hans">
+    </script>
+    <script key="Hans">
         <name>Han (variante semplificata)</name>
-    </62>
-    <63 key="Hant">
+    </script>
+    <script key="Hant">
         <name>Han (variante tradizionale)</name>
-    </63>
-    <64 key="Hatr">
+    </script>
+    <script key="Hatr">
         <name>Hatrena (Aramaico di Hatra)</name>
-    </64>
-    <65 key="Hebr">
+    </script>
+    <script key="Hebr">
         <name>Ebraico</name>
-    </65>
-    <66 key="Hira">
+    </script>
+    <script key="Hira">
         <name>Hiragana</name>
-    </66>
-    <67 key="Hluw">
+    </script>
+    <script key="Hluw">
         <name>Geroglifici anatolici (Geroglifici luvi, Geroglifici ittiti)</name>
-    </67>
-    <68 key="Hmng">
+    </script>
+    <script key="Hmng">
         <name>Pahawh Hmong</name>
-    </68>
-    <69 key="Hmnp">
+    </script>
+    <script key="Hmnp">
         <name>Nyiakeng Puachue Hmong</name>
-    </69>
-    <70 key="Hntl">
+    </script>
+    <script key="Hntl">
         <name>Han (variante tradizionale) con latino (alias per Hant + Latn)</name>
-    </70>
-    <71 key="Hrkt">
+    </script>
+    <script key="Hrkt">
         <name>Sillabari giapponesi (alias per Hiragana + Katakana)</name>
-    </71>
-    <72 key="Hung">
+    </script>
+    <script key="Hung">
         <name>Ungherese antico (runico ungherese)</name>
-    </72>
-    <73 key="Inds">
+    </script>
+    <script key="Inds">
         <name>Indo (Harappa)</name>
-    </73>
-    <74 key="Ital">
+    </script>
+    <script key="Ital">
         <name>Italico antico (etrusco, osco, ecc...)</name>
-    </74>
-    <75 key="Jamo">
+    </script>
+    <script key="Jamo">
         <name>Jamo (alias per il sottoinsieme Jamo di Hangul)</name>
-    </75>
-    <76 key="Java">
+    </script>
+    <script key="Java">
         <name>Giavanese</name>
-    </76>
-    <77 key="Jpan">
+    </script>
+    <script key="Jpan">
         <name>Giapponese (alias per Han + Hiragana + Katakana)</name>
-    </77>
-    <78 key="Jurc">
+    </script>
+    <script key="Jurc">
         <name>Jurchen</name>
-    </78>
-    <79 key="Kali">
+    </script>
+    <script key="Kali">
         <name>Kayah Li</name>
-    </79>
-    <80 key="Kana">
+    </script>
+    <script key="Kana">
         <name>Katakana</name>
-    </80>
-    <81 key="Kawi">
+    </script>
+    <script key="Kawi">
         <name>Kawi</name>
-    </81>
-    <82 key="Khar">
+    </script>
+    <script key="Khar">
         <name>Kharoshthi</name>
-    </82>
-    <83 key="Khmr">
+    </script>
+    <script key="Khmr">
         <name>Cambogiano (Khmer)</name>
-    </83>
-    <84 key="Khoj">
+    </script>
+    <script key="Khoj">
         <name>Khojki</name>
-    </84>
-    <85 key="Kitl">
+    </script>
+    <script key="Kitl">
         <name>Alfabeto Kitai grande</name>
-    </85>
-    <86 key="Kits">
+    </script>
+    <script key="Kits">
         <name>Alfabeto Kitai piccolo</name>
-    </86>
-    <87 key="Knda">
+    </script>
+    <script key="Knda">
         <name>Canarese (Kannada, Cànara, Kànara)</name>
-    </87>
-    <88 key="Kore">
+    </script>
+    <script key="Kore">
         <name>Coreano (alias per Hangul + Han)</name>
-    </88>
-    <89 key="Kpel">
+    </script>
+    <script key="Kpel">
         <name>Kpelle</name>
-    </89>
-    <90 key="Krai">
+    </script>
+    <script key="Krai">
         <name>Kirat Rai</name>
-    </90>
-    <91 key="Kthi">
+    </script>
+    <script key="Kthi">
         <name>Kaithi</name>
-    </91>
-    <92 key="Lana">
+    </script>
+    <script key="Lana">
         <name>Tai Tham (Lanna)</name>
-    </92>
-    <93 key="Laoo">
+    </script>
+    <script key="Laoo">
         <name>Laotiano, Laosiano, Laoziano</name>
-    </93>
-    <94 key="Latf">
+    </script>
+    <script key="Latf">
         <name>Latino (scrittura Fraktur)</name>
-    </94>
-    <95 key="Latg">
+    </script>
+    <script key="Latg">
         <name>Latino (scrittura gaelica)</name>
-    </95>
-    <96 key="Latn">
+    </script>
+    <script key="Latn">
         <name>Latino</name>
-    </96>
-    <97 key="Leke">
+    </script>
+    <script key="Leke">
         <name>Leke</name>
-    </97>
-    <98 key="Lepc">
+    </script>
+    <script key="Lepc">
         <name>Lepcha (Róng)</name>
-    </98>
-    <99 key="Limb">
+    </script>
+    <script key="Limb">
         <name>Limbu</name>
-    </99>
-    <100 key="Lina">
+    </script>
+    <script key="Lina">
         <name>Lineare A</name>
-    </100>
-    <101 key="Linb">
+    </script>
+    <script key="Linb">
         <name>Lineare B</name>
-    </101>
-    <102 key="Lisu">
+    </script>
+    <script key="Lisu">
         <name>Lisu (Fraser)</name>
-    </102>
-    <103 key="Loma">
+    </script>
+    <script key="Loma">
         <name>Loma</name>
-    </103>
-    <104 key="Lyci">
+    </script>
+    <script key="Lyci">
         <name>Licio</name>
-    </104>
-    <105 key="Lydi">
+    </script>
+    <script key="Lydi">
         <name>Lidio</name>
-    </105>
-    <106 key="Mahj">
+    </script>
+    <script key="Mahj">
         <name>Mahajani</name>
-    </106>
-    <107 key="Maka">
+    </script>
+    <script key="Maka">
         <name>Makasar</name>
-    </107>
-    <108 key="Mand">
+    </script>
+    <script key="Mand">
         <name>Mandaico, Mandei</name>
-    </108>
-    <109 key="Mani">
+    </script>
+    <script key="Mani">
         <name>Manicheo</name>
-    </109>
-    <110 key="Marc">
+    </script>
+    <script key="Marc">
         <name>Marchen</name>
-    </110>
-    <111 key="Maya">
+    </script>
+    <script key="Maya">
         <name>Geroglifici Maya</name>
-    </111>
-    <112 key="Medf">
+    </script>
+    <script key="Medf">
         <name>Medefaidrin (Oberi Okaime)</name>
-    </112>
-    <113 key="Mend">
+    </script>
+    <script key="Mend">
         <name>Mende Kikakui</name>
-    </113>
-    <114 key="Merc">
+    </script>
+    <script key="Merc">
         <name>Corsivo meroitico</name>
-    </114>
-    <115 key="Mero">
+    </script>
+    <script key="Mero">
         <name>Geroglifici meroitici</name>
-    </115>
-    <116 key="Mlym">
+    </script>
+    <script key="Mlym">
         <name>Malayalam</name>
-    </116>
-    <117 key="Modi">
+    </script>
+    <script key="Modi">
         <name>Modi</name>
-    </117>
-    <118 key="Mong">
+    </script>
+    <script key="Mong">
         <name>Mongolo</name>
-    </118>
-    <119 key="Moon">
+    </script>
+    <script key="Moon">
         <name>Moon (codice Moon, scrittura Moon, tipo Moon)</name>
-    </119>
-    <120 key="Mroo">
+    </script>
+    <script key="Mroo">
         <name>Mro, Mru</name>
-    </120>
-    <121 key="Mtei">
+    </script>
+    <script key="Mtei">
         <name>Meitei Mayek (Meithei, Meetei)</name>
-    </121>
-    <122 key="Mult">
+    </script>
+    <script key="Mult">
         <name>Multani</name>
-    </122>
-    <123 key="Mymr">
+    </script>
+    <script key="Mymr">
         <name>Birmano (Myanmar)</name>
-    </123>
-    <124 key="Nagm">
+    </script>
+    <script key="Nagm">
         <name>Nag Mundari</name>
-    </124>
-    <125 key="Nand">
+    </script>
+    <script key="Nand">
         <name>Nandinagari</name>
-    </125>
-    <126 key="Narb">
+    </script>
+    <script key="Narb">
         <name>Arabo Settentrionale Antico</name>
-    </126>
-    <127 key="Nbat">
+    </script>
+    <script key="Nbat">
         <name>Nabateo</name>
-    </127>
-    <128 key="Newa">
+    </script>
+    <script key="Newa">
         <name>Newa, Newari, Newar, Nevar, Lipi nepalese</name>
-    </128>
-    <129 key="Nkdb">
+    </script>
+    <script key="Nkdb">
         <name>Naxi Dongba (Nakhi Tomba)</name>
-    </129>
-    <130 key="Nkgb">
+    </script>
+    <script key="Nkgb">
         <name>Naxi Geba (Nakhi Geba)</name>
-    </130>
-    <131 key="Nkoo">
+    </script>
+    <script key="Nkoo">
         <name>N’Ko</name>
-    </131>
-    <132 key="Nshu">
+    </script>
+    <script key="Nshu">
         <name>Nü shu</name>
-    </132>
-    <133 key="Ogam">
+    </script>
+    <script key="Ogam">
         <name>Ogham</name>
-    </133>
-    <134 key="Olck">
+    </script>
+    <script key="Olck">
         <name>Ol Chiki (Ol Chemet’, Ol, Santali)</name>
-    </134>
-    <135 key="Onao">
+    </script>
+    <script key="Onao">
         <name>Ol Onal</name>
-    </135>
-    <136 key="Orkh">
+    </script>
+    <script key="Orkh">
         <name>Turco antico, Orkhon runico</name>
-    </136>
-    <137 key="Orya">
+    </script>
+    <script key="Orya">
         <name>Odia (Oriya)</name>
-    </137>
-    <138 key="Osge">
+    </script>
+    <script key="Osge">
         <name>Osage</name>
-    </138>
-    <139 key="Osma">
+    </script>
+    <script key="Osma">
         <name>Osmanya, Somalo</name>
-    </139>
-    <140 key="Ougr">
+    </script>
+    <script key="Ougr">
         <name>Uiguro antico</name>
-    </140>
-    <141 key="Palm">
+    </script>
+    <script key="Palm">
         <name>Palmireno</name>
-    </141>
-    <142 key="Pauc">
+    </script>
+    <script key="Pauc">
         <name>Pau Cin Hau</name>
-    </142>
-    <143 key="Pcun">
+    </script>
+    <script key="Pcun">
         <name>Protocuneiforme</name>
-    </143>
-    <144 key="Pelm">
+    </script>
+    <script key="Pelm">
         <name>Protoelamico</name>
-    </144>
-    <145 key="Perm">
+    </script>
+    <script key="Perm">
         <name>Permico antico (Permiano antico)</name>
-    </145>
-    <146 key="Phag">
+    </script>
+    <script key="Phag">
         <name>'Phags-pa</name>
-    </146>
-    <147 key="Phli">
+    </script>
+    <script key="Phli">
         <name>Pahlavi, Pahlevi (iscrizioni)</name>
-    </147>
-    <148 key="Phlp">
+    </script>
+    <script key="Phlp">
         <name>Pahlavi, Pahlevi (salterio)</name>
-    </148>
-    <149 key="Phlv">
+    </script>
+    <script key="Phlv">
         <name>Pahlavi, Pahlevi (libro)</name>
-    </149>
-    <150 key="Phnx">
+    </script>
+    <script key="Phnx">
         <name>Fenicio</name>
-    </150>
-    <151 key="Piqd">
+    </script>
+    <script key="Piqd">
         <name>Klingon (pIqaD)</name>
-    </151>
-    <152 key="Plrd">
+    </script>
+    <script key="Plrd">
         <name>Pollard (Miao Pollard)</name>
-    </152>
-    <153 key="Prti">
+    </script>
+    <script key="Prti">
         <name>Parto (iscrizioni)</name>
-    </153>
-    <154 key="Psin">
+    </script>
+    <script key="Psin">
         <name>Proto-Sinaitico</name>
-    </154>
-    <155 key="Qaaa">
+    </script>
+    <script key="Qaaa">
         <name>Riservato per uso privato (start)</name>
-    </155>
-    <156 key="Qabx">
+    </script>
+    <script key="Qabx">
         <name>Riservato per uso privato (end)</name>
-    </156>
-    <157 key="Ranj">
+    </script>
+    <script key="Ranj">
         <name>Ranjana</name>
-    </157>
-    <158 key="Rjng">
+    </script>
+    <script key="Rjng">
         <name>Rejang (Redjang, Kaganga)</name>
-    </158>
-    <159 key="Rohg">
+    </script>
+    <script key="Rohg">
         <name>Rohingya hanifi</name>
-    </159>
-    <160 key="Roro">
+    </script>
+    <script key="Roro">
         <name>Rongorongo</name>
-    </160>
-    <161 key="Runr">
+    </script>
+    <script key="Runr">
         <name>Runico</name>
-    </161>
-    <162 key="Samr">
+    </script>
+    <script key="Samr">
         <name>Samaritano</name>
-    </162>
-    <163 key="Sara">
+    </script>
+    <script key="Sara">
         <name>Sarati</name>
-    </163>
-    <164 key="Sarb">
+    </script>
+    <script key="Sarb">
         <name>Arabo meridionale antico</name>
-    </164>
-    <165 key="Saur">
+    </script>
+    <script key="Saur">
         <name>Saurashtra</name>
-    </165>
-    <166 key="Seal">
+    </script>
+    <script key="Seal">
         <name>Sigillario</name>
-    </166>
-    <167 key="Sgnw">
+    </script>
+    <script key="Sgnw">
         <name>Sutton SignWriting, SignWriting, Scrittura dei segni</name>
-    </167>
-    <168 key="Shaw">
+    </script>
+    <script key="Shaw">
         <name>Shaviano</name>
-    </168>
-    <169 key="Shrd">
+    </script>
+    <script key="Shrd">
         <name>Sharada, Śāradā, Charada</name>
-    </169>
-    <170 key="Shui">
+    </script>
+    <script key="Shui">
         <name>Shuishu, Sui</name>
-    </170>
-    <171 key="Sidd">
+    </script>
+    <script key="Sidd">
         <name>Siddham, Siddhaṃ, Siddhamātṛkā</name>
-    </171>
-    <172 key="Sidt">
+    </script>
+    <script key="Sidt">
         <name>Sidetico</name>
-    </172>
-    <173 key="Sind">
+    </script>
+    <script key="Sind">
         <name>Khudawadi, Sindhi</name>
-    </173>
-    <174 key="Sinh">
+    </script>
+    <script key="Sinh">
         <name>Singalese, Cingalese, Ceylonese, Silonense, Sinhala</name>
-    </174>
-    <175 key="Sogd">
+    </script>
+    <script key="Sogd">
         <name>Sogdian</name>
-    </175>
-    <176 key="Sogo">
+    </script>
+    <script key="Sogo">
         <name>Sogdiano antico</name>
-    </176>
-    <177 key="Sora">
+    </script>
+    <script key="Sora">
         <name>Sora Sompeng</name>
-    </177>
-    <178 key="Soyo">
+    </script>
+    <script key="Soyo">
         <name>Soyombo</name>
-    </178>
-    <179 key="Sund">
+    </script>
+    <script key="Sund">
         <name>Sundanese, Sondanese</name>
-    </179>
-    <180 key="Sunu">
+    </script>
+    <script key="Sunu">
         <name>Sunuwar</name>
-    </180>
-    <181 key="Sylo">
+    </script>
+    <script key="Sylo">
         <name>Sylheti, Sileṭ Nagri</name>
-    </181>
-    <182 key="Syrc">
+    </script>
+    <script key="Syrc">
         <name>Siriaco</name>
-    </182>
-    <183 key="Syre">
+    </script>
+    <script key="Syre">
         <name>Siriaco (variante ʾEsṭrangēlā)</name>
-    </183>
-    <184 key="Syrj">
+    </script>
+    <script key="Syrj">
         <name>Siriaco (variante occidentale)</name>
-    </184>
-    <185 key="Syrn">
+    </script>
+    <script key="Syrn">
         <name>Siriaco (variante orientale)</name>
-    </185>
-    <186 key="Tagb">
+    </script>
+    <script key="Tagb">
         <name>Tagbanwa, Aborlan Tagbanwa, Apurawnon</name>
-    </186>
-    <187 key="Takr">
+    </script>
+    <script key="Takr">
         <name>Takri</name>
-    </187>
-    <188 key="Tale">
+    </script>
+    <script key="Tale">
         <name>Tai Le</name>
-    </188>
-    <189 key="Talu">
+    </script>
+    <script key="Talu">
         <name>Nuovo Tai lue, Tai lue semplificato</name>
-    </189>
-    <190 key="Taml">
+    </script>
+    <script key="Taml">
         <name>Tàmil, Tàmul</name>
-    </190>
-    <191 key="Tang">
+    </script>
+    <script key="Tang">
         <name>Tangut</name>
-    </191>
-    <192 key="Tavt">
+    </script>
+    <script key="Tavt">
         <name>Tai Viet</name>
-    </192>
-    <193 key="Tayo">
+    </script>
+    <script key="Tayo">
         <name>Tai Yo</name>
-    </193>
-    <194 key="Telu">
+    </script>
+    <script key="Telu">
         <name>Tèlugu</name>
-    </194>
-    <195 key="Teng">
+    </script>
+    <script key="Teng">
         <name>Tengwar</name>
-    </195>
-    <196 key="Tfng">
+    </script>
+    <script key="Tfng">
         <name>Tifinagh (Berbero)</name>
-    </196>
-    <197 key="Tglg">
+    </script>
+    <script key="Tglg">
         <name>Tagalog, Tagalo</name>
-    </197>
-    <198 key="Thaa">
+    </script>
+    <script key="Thaa">
         <name>Thaana, Taana, Tāna</name>
-    </198>
-    <199 key="Thai">
+    </script>
+    <script key="Thai">
         <name>Tailandese</name>
-    </199>
-    <200 key="Tibt">
+    </script>
+    <script key="Tibt">
         <name>Tibetano</name>
-    </200>
-    <201 key="Tirh">
+    </script>
+    <script key="Tirh">
         <name>Tirhuta</name>
-    </201>
-    <202 key="Tnsa">
+    </script>
+    <script key="Tnsa">
         <name>Tangsa</name>
-    </202>
-    <203 key="Todr">
+    </script>
+    <script key="Todr">
         <name>Todhri</name>
-    </203>
-    <204 key="Tols">
+    </script>
+    <script key="Tols">
         <name>Tolong Siki</name>
-    </204>
-    <205 key="Toto">
+    </script>
+    <script key="Toto">
         <name>Toto</name>
-    </205>
-    <206 key="Tutg">
+    </script>
+    <script key="Tutg">
         <name>Tigalari, Tulu</name>
-    </206>
-    <207 key="Ugar">
+    </script>
+    <script key="Ugar">
         <name>Ugaritico</name>
-    </207>
-    <208 key="Vaii">
+    </script>
+    <script key="Vaii">
         <name>Vai</name>
-    </208>
-    <209 key="Visp">
+    </script>
+    <script key="Visp">
         <name>Discorso visibile</name>
-    </209>
-    <210 key="Vith">
+    </script>
+    <script key="Vith">
         <name>Vithkuqi, Büthakukye, Beitha Kukju</name>
-    </210>
-    <211 key="Wara">
+    </script>
+    <script key="Wara">
         <name>Warang Chiti (Varang Kshiti)</name>
-    </211>
-    <212 key="Wcho">
+    </script>
+    <script key="Wcho">
         <name>Wancho</name>
-    </212>
-    <213 key="Wole">
+    </script>
+    <script key="Wole">
         <name>Woleai</name>
-    </213>
-    <214 key="Xpeo">
+    </script>
+    <script key="Xpeo">
         <name>Persiano antico</name>
-    </214>
-    <215 key="Xsux">
+    </script>
+    <script key="Xsux">
         <name>Cuneiforme, Sumero-Accadico</name>
-    </215>
-    <216 key="Yezi">
+    </script>
+    <script key="Yezi">
         <name>Yezidi</name>
-    </216>
-    <217 key="Yiii">
+    </script>
+    <script key="Yiii">
         <name>Yi</name>
-    </217>
-    <218 key="Zanb">
+    </script>
+    <script key="Zanb">
         <name>Zanabazar quadrato (Scrittura Orizontale Quadrata)</name>
-    </218>
-    <219 key="Zinh">
+    </script>
+    <script key="Zinh">
         <name>Codice per script ereditato</name>
-    </219>
-    <220 key="Zmth">
+    </script>
+    <script key="Zmth">
         <name>Notazione matematica</name>
-    </220>
-    <221 key="Zsye">
+    </script>
+    <script key="Zsye">
         <name>Simboli (variante Emoji)</name>
-    </221>
-    <222 key="Zsym">
+    </script>
+    <script key="Zsym">
         <name>Simboli</name>
-    </222>
-    <223 key="Zxxx">
+    </script>
+    <script key="Zxxx">
         <name>Codice per documenti non scritti</name>
-    </223>
-    <224 key="Zyyy">
+    </script>
+    <script key="Zyyy">
         <name>Codice per script indeterminato</name>
-    </224>
-    <225 key="Zzzz">
+    </script>
+    <script key="Zzzz">
         <name>Codice per script non codificato</name>
-    </225>
+    </script>
 </translationsScripts>

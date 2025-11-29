@@ -47,7 +47,7 @@ export const scripts = [
                     "1E95F"
                 ]
             ],
-            totalCodePoints: 5
+            totalCodePoints: 88
         }
     },
     {
@@ -75,7 +75,7 @@ export const scripts = [
                     "1056F"
                 ]
             ],
-            totalCodePoints: 2
+            totalCodePoints: 53
         }
     },
     {
@@ -133,7 +133,7 @@ export const scripts = [
                     "11746"
                 ]
             ],
-            totalCodePoints: 13
+            totalCodePoints: 65
         }
     },
     {
@@ -472,7 +472,7 @@ export const scripts = [
                     "1EEF1"
                 ]
             ],
-            totalCodePoints: 89
+            totalCodePoints: 1373
         }
     },
     {
@@ -504,7 +504,7 @@ export const scripts = [
                     "1085F"
                 ]
             ],
-            totalCodePoints: 3
+            totalCodePoints: 31
         }
     },
     {
@@ -547,7 +547,7 @@ export const scripts = [
                     "FB17"
                 ]
             ],
-            totalCodePoints: 9
+            totalCodePoints: 96
         }
     },
     {
@@ -566,7 +566,7 @@ export const scripts = [
                     "10B3F"
                 ]
             ],
-            totalCodePoints: 2
+            totalCodePoints: 61
         }
     },
     {
@@ -647,7 +647,7 @@ export const scripts = [
                     "1B7F"
                 ]
             ],
-            totalCodePoints: 19
+            totalCodePoints: 127
         }
     },
     {
@@ -678,7 +678,7 @@ export const scripts = [
                     "16A38"
                 ]
             ],
-            totalCodePoints: 5
+            totalCodePoints: 657
         }
     },
     {
@@ -700,7 +700,7 @@ export const scripts = [
                     "16AF5"
                 ]
             ],
-            totalCodePoints: 3
+            totalCodePoints: 36
         }
     },
     {
@@ -747,7 +747,7 @@ export const scripts = [
                     "1BFF"
                 ]
             ],
-            totalCodePoints: 10
+            totalCodePoints: 56
         }
     },
     {
@@ -865,7 +865,7 @@ export const scripts = [
                     "09FE"
                 ]
             ],
-            totalCodePoints: 30
+            totalCodePoints: 96
         }
     },
     {
@@ -926,7 +926,7 @@ export const scripts = [
                     "11C6C"
                 ]
             ],
-            totalCodePoints: 11
+            totalCodePoints: 97
         }
     },
     {
@@ -959,7 +959,7 @@ export const scripts = [
                     "31BF"
                 ]
             ],
-            totalCodePoints: 3
+            totalCodePoints: 77
         }
     },
     {
@@ -1016,7 +1016,7 @@ export const scripts = [
                     "1107F"
                 ]
             ],
-            totalCodePoints: 13
+            totalCodePoints: 115
         }
     },
     {
@@ -1031,7 +1031,7 @@ export const scripts = [
                     "28FF"
                 ]
             ],
-            totalCodePoints: 1
+            totalCodePoints: 256
         }
     },
     {
@@ -1061,7 +1061,7 @@ export const scripts = [
                     "1A1F"
                 ]
             ],
-            totalCodePoints: 5
+            totalCodePoints: 30
         }
     },
     {
@@ -1080,7 +1080,7 @@ export const scripts = [
                     "1753"
                 ]
             ],
-            totalCodePoints: 2
+            totalCodePoints: 20
         }
     },
     {
@@ -1128,7 +1128,7 @@ export const scripts = [
                     "11147"
                 ]
             ],
-            totalCodePoints: 10
+            totalCodePoints: 71
         }
     },
     {
@@ -1164,7 +1164,7 @@ export const scripts = [
                     "11ABF"
                 ]
             ],
-            totalCodePoints: 7
+            totalCodePoints: 726
         }
     },
     {
@@ -1179,7 +1179,7 @@ export const scripts = [
                     "102D0"
                 ]
             ],
-            totalCodePoints: 1
+            totalCodePoints: 49
         }
     },
     {
@@ -1239,7 +1239,7 @@ export const scripts = [
                     "AA5F"
                 ]
             ],
-            totalCodePoints: 13
+            totalCodePoints: 83
         }
     },
     {
@@ -1262,7 +1262,7 @@ export const scripts = [
                     "ABBF"
                 ]
             ],
-            totalCodePoints: 3
+            totalCodePoints: 172
         }
     },
     {
@@ -1291,7 +1291,7 @@ export const scripts = [
                     "10FCB"
                 ]
             ],
-            totalCodePoints: 2
+            totalCodePoints: 28
         }
     },
     {
@@ -1347,7 +1347,7 @@ export const scripts = [
                     "2CFF"
                 ]
             ],
-            totalCodePoints: 9
+            totalCodePoints: 137
         }
     },
     {
@@ -1366,7 +1366,7 @@ export const scripts = [
                     "12FF2"
                 ]
             ],
-            totalCodePoints: 2
+            totalCodePoints: 99
         }
     },
     {
@@ -1398,7 +1398,7 @@ export const scripts = [
                     "1083F"
                 ]
             ],
-            totalCodePoints: 6
+            totalCodePoints: 55
         }
     },
     {
@@ -1495,7 +1495,7 @@ export const scripts = [
                     "1E08F"
                 ]
             ],
-            totalCodePoints: 24
+            totalCodePoints: 508
         }
     },
     {
@@ -1616,7 +1616,7 @@ export const scripts = [
                     "11B09"
                 ]
             ],
-            totalCodePoints: 28
+            totalCodePoints: 164
         }
     },
     {
@@ -1687,7 +1687,7 @@ export const scripts = [
                     "11959"
                 ]
             ],
-            totalCodePoints: 17
+            totalCodePoints: 72
         }
     },
     {
@@ -1720,7 +1720,7 @@ export const scripts = [
                     "1183B"
                 ]
             ],
-            totalCodePoints: 6
+            totalCodePoints: 60
         }
     },
     {
@@ -1735,7 +1735,7 @@ export const scripts = [
                     "1044F"
                 ]
             ],
-            totalCodePoints: 1
+            totalCodePoints: 80
         }
     },
     {
@@ -1772,7 +1772,7 @@ export const scripts = [
                     "1BC9F"
                 ]
             ],
-            totalCodePoints: 7
+            totalCodePoints: 143
         }
     },
     {
@@ -1826,7 +1826,7 @@ export const scripts = [
                     "143FA"
                 ]
             ],
-            totalCodePoints: 6
+            totalCodePoints: 5105
         }
     },
     {
@@ -1841,7 +1841,7 @@ export const scripts = [
                     "10527"
                 ]
             ],
-            totalCodePoints: 1
+            totalCodePoints: 40
         }
     },
     {
@@ -1856,7 +1856,7 @@ export const scripts = [
                     "10FF6"
                 ]
             ],
-            totalCodePoints: 1
+            totalCodePoints: 23
         }
     },
     {
@@ -2021,7 +2021,7 @@ export const scripts = [
                     "1E7FE"
                 ]
             ],
-            totalCodePoints: 39
+            totalCodePoints: 523
         }
     },
     {
@@ -2068,7 +2068,7 @@ export const scripts = [
                     "10D8F"
                 ]
             ],
-            totalCodePoints: 10
+            totalCodePoints: 69
         }
     },
     {
@@ -2118,7 +2118,7 @@ export const scripts = [
                     "2D2D"
                 ]
             ],
-            totalCodePoints: 11
+            totalCodePoints: 173
         }
     },
     {
@@ -2168,7 +2168,7 @@ export const scripts = [
                     "2D2D"
                 ]
             ],
-            totalCodePoints: 11
+            totalCodePoints: 173
         }
     },
     {
@@ -2203,7 +2203,7 @@ export const scripts = [
                     "1E02A"
                 ]
             ],
-            totalCodePoints: 6
+            totalCodePoints: 134
         }
     },
     {
@@ -2254,7 +2254,7 @@ export const scripts = [
                     "11DA9"
                 ]
             ],
-            totalCodePoints: 11
+            totalCodePoints: 63
         }
     },
     {
@@ -2302,7 +2302,7 @@ export const scripts = [
                     "11D59"
                 ]
             ],
-            totalCodePoints: 10
+            totalCodePoints: 75
         }
     },
     {
@@ -2327,7 +2327,7 @@ export const scripts = [
                     "1034A"
                 ]
             ],
-            totalCodePoints: 4
+            totalCodePoints: 27
         }
     },
     {
@@ -2417,7 +2417,7 @@ export const scripts = [
                     "11374"
                 ]
             ],
-            totalCodePoints: 21
+            totalCodePoints: 85
         }
     },
     {
@@ -2631,7 +2631,7 @@ export const scripts = [
                     "1D245"
                 ]
             ],
-            totalCodePoints: 55
+            totalCodePoints: 518
         }
     },
     {
@@ -2729,7 +2729,7 @@ export const scripts = [
                     "0AFF"
                 ]
             ],
-            totalCodePoints: 24
+            totalCodePoints: 91
         }
     },
     {
@@ -2760,7 +2760,7 @@ export const scripts = [
                     "16139"
                 ]
             ],
-            totalCodePoints: 5
+            totalCodePoints: 58
         }
     },
     {
@@ -2853,7 +2853,7 @@ export const scripts = [
                     "0A76"
                 ]
             ],
-            totalCodePoints: 22
+            totalCodePoints: 80
         }
     },
     {
@@ -2930,7 +2930,7 @@ export const scripts = [
                     "FFDC"
                 ]
             ],
-            totalCodePoints: 14
+            totalCodePoints: 11739
         }
     },
     {
@@ -3032,7 +3032,7 @@ export const scripts = [
                     "323AF"
                 ]
             ],
-            totalCodePoints: 24
+            totalCodePoints: 99030
         }
     },
     {
@@ -3054,7 +3054,7 @@ export const scripts = [
                     "1734"
                 ]
             ],
-            totalCodePoints: 3
+            totalCodePoints: 21
         }
     },
     {
@@ -3097,7 +3097,7 @@ export const scripts = [
                     "108FF"
                 ]
             ],
-            totalCodePoints: 3
+            totalCodePoints: 26
         }
     },
     {
@@ -3186,7 +3186,7 @@ export const scripts = [
                     "FB4F"
                 ]
             ],
-            totalCodePoints: 22
+            totalCodePoints: 134
         }
     },
     {
@@ -3222,7 +3222,7 @@ export const scripts = [
                     "1F200"
                 ]
             ],
-            totalCodePoints: 7
+            totalCodePoints: 381
         }
     },
     {
@@ -3237,7 +3237,7 @@ export const scripts = [
                     "14646"
                 ]
             ],
-            totalCodePoints: 1
+            totalCodePoints: 583
         }
     },
     {
@@ -3290,7 +3290,7 @@ export const scripts = [
                     "16B8F"
                 ]
             ],
-            totalCodePoints: 11
+            totalCodePoints: 127
         }
     },
     {
@@ -3323,7 +3323,7 @@ export const scripts = [
                     "1E14F"
                 ]
             ],
-            totalCodePoints: 6
+            totalCodePoints: 71
         }
     },
     {
@@ -3366,7 +3366,7 @@ export const scripts = [
                     "10CFF"
                 ]
             ],
-            totalCodePoints: 3
+            totalCodePoints: 108
         }
     },
     {
@@ -3399,7 +3399,7 @@ export const scripts = [
                     "1032F"
                 ]
             ],
-            totalCodePoints: 3
+            totalCodePoints: 39
         }
     },
     {
@@ -3466,7 +3466,7 @@ export const scripts = [
                     "A9DF"
                 ]
             ],
-            totalCodePoints: 12
+            totalCodePoints: 90
         }
     },
     {
@@ -3512,7 +3512,7 @@ export const scripts = [
                     "A92F"
                 ]
             ],
-            totalCodePoints: 4
+            totalCodePoints: 47
         }
     },
     {
@@ -3580,7 +3580,7 @@ export const scripts = [
                     "1B167"
                 ]
             ],
-            totalCodePoints: 15
+            totalCodePoints: 321
         }
     },
     {
@@ -3641,7 +3641,7 @@ export const scripts = [
                     "11F5A"
                 ]
             ],
-            totalCodePoints: 14
+            totalCodePoints: 87
         }
     },
     {
@@ -3694,7 +3694,7 @@ export const scripts = [
                     "10A58"
                 ]
             ],
-            totalCodePoints: 11
+            totalCodePoints: 68
         }
     },
     {
@@ -3767,7 +3767,7 @@ export const scripts = [
                     "19FF"
                 ]
             ],
-            totalCodePoints: 17
+            totalCodePoints: 146
         }
     },
     {
@@ -3822,7 +3822,7 @@ export const scripts = [
                     "11241"
                 ]
             ],
-            totalCodePoints: 12
+            totalCodePoints: 65
         }
     },
     {
@@ -3853,7 +3853,7 @@ export const scripts = [
                     "18CFF"
                 ]
             ],
-            totalCodePoints: 3
+            totalCodePoints: 472
         }
     },
     {
@@ -3955,7 +3955,7 @@ export const scripts = [
                     "0CF3"
                 ]
             ],
-            totalCodePoints: 25
+            totalCodePoints: 91
         }
     },
     {
@@ -4006,7 +4006,7 @@ export const scripts = [
                     "16D79"
                 ]
             ],
-            totalCodePoints: 5
+            totalCodePoints: 58
         }
     },
     {
@@ -4061,7 +4061,7 @@ export const scripts = [
                     "110CD"
                 ]
             ],
-            totalCodePoints: 12
+            totalCodePoints: 68
         }
     },
     {
@@ -4136,7 +4136,7 @@ export const scripts = [
                     "1AAD"
                 ]
             ],
-            totalCodePoints: 18
+            totalCodePoints: 127
         }
     },
     {
@@ -4202,7 +4202,7 @@ export const scripts = [
                     "0EDF"
                 ]
             ],
-            totalCodePoints: 15
+            totalCodePoints: 83
         }
     },
     {
@@ -4474,7 +4474,7 @@ export const scripts = [
                     "1DF2A"
                 ]
             ],
-            totalCodePoints: 64
+            totalCodePoints: 1487
         }
     },
     {
@@ -4527,7 +4527,7 @@ export const scripts = [
                     "1C4F"
                 ]
             ],
-            totalCodePoints: 8
+            totalCodePoints: 74
         }
     },
     {
@@ -4584,7 +4584,7 @@ export const scripts = [
                     "194F"
                 ]
             ],
-            totalCodePoints: 12
+            totalCodePoints: 68
         }
     },
     {
@@ -4607,7 +4607,7 @@ export const scripts = [
                     "10767"
                 ]
             ],
-            totalCodePoints: 3
+            totalCodePoints: 341
         }
     },
     {
@@ -4646,7 +4646,7 @@ export const scripts = [
                     "100FA"
                 ]
             ],
-            totalCodePoints: 7
+            totalCodePoints: 211
         }
     },
     {
@@ -4672,7 +4672,7 @@ export const scripts = [
                     "11FB0"
                 ]
             ],
-            totalCodePoints: 4
+            totalCodePoints: 49
         }
     },
     {
@@ -4697,7 +4697,7 @@ export const scripts = [
                     "1029C"
                 ]
             ],
-            totalCodePoints: 1
+            totalCodePoints: 29
         }
     },
     {
@@ -4715,7 +4715,7 @@ export const scripts = [
                     "1093F"
                 ]
             ],
-            totalCodePoints: 2
+            totalCodePoints: 27
         }
     },
     {
@@ -4740,7 +4740,7 @@ export const scripts = [
                     "11176"
                 ]
             ],
-            totalCodePoints: 4
+            totalCodePoints: 39
         }
     },
     {
@@ -4767,7 +4767,7 @@ export const scripts = [
                     "11EF8"
                 ]
             ],
-            totalCodePoints: 4
+            totalCodePoints: 25
         }
     },
     {
@@ -4789,7 +4789,7 @@ export const scripts = [
                     "085E"
                 ]
             ],
-            totalCodePoints: 3
+            totalCodePoints: 29
         }
     },
     {
@@ -4823,7 +4823,7 @@ export const scripts = [
                     "10AF6"
                 ]
             ],
-            totalCodePoints: 6
+            totalCodePoints: 51
         }
     },
     {
@@ -4867,7 +4867,7 @@ export const scripts = [
                     "11CB6"
                 ]
             ],
-            totalCodePoints: 9
+            totalCodePoints: 68
         }
     },
     {
@@ -4900,7 +4900,7 @@ export const scripts = [
                     "16E9A"
                 ]
             ],
-            totalCodePoints: 3
+            totalCodePoints: 91
         }
     },
     {
@@ -4923,7 +4923,7 @@ export const scripts = [
                     "1E8D6"
                 ]
             ],
-            totalCodePoints: 3
+            totalCodePoints: 213
         }
     },
     {
@@ -4954,7 +4954,7 @@ export const scripts = [
                     "109FF"
                 ]
             ],
-            totalCodePoints: 5
+            totalCodePoints: 90
         }
     },
     {
@@ -4969,7 +4969,7 @@ export const scripts = [
                     "1099F"
                 ]
             ],
-            totalCodePoints: 1
+            totalCodePoints: 32
         }
     },
     {
@@ -5066,7 +5066,7 @@ export const scripts = [
                     "0D7F"
                 ]
             ],
-            totalCodePoints: 23
+            totalCodePoints: 118
         }
     },
     {
@@ -5114,7 +5114,7 @@ export const scripts = [
                     "11659"
                 ]
             ],
-            totalCodePoints: 10
+            totalCodePoints: 79
         }
     },
     {
@@ -5186,7 +5186,7 @@ export const scripts = [
                     "1166C"
                 ]
             ],
-            totalCodePoints: 17
+            totalCodePoints: 168
         }
     },
     {
@@ -5219,7 +5219,7 @@ export const scripts = [
                     "16A6F"
                 ]
             ],
-            totalCodePoints: 3
+            totalCodePoints: 43
         }
     },
     {
@@ -5297,7 +5297,7 @@ export const scripts = [
                     "ABF9"
                 ]
             ],
-            totalCodePoints: 19
+            totalCodePoints: 79
         }
     },
     {
@@ -5330,7 +5330,7 @@ export const scripts = [
                     "112A9"
                 ]
             ],
-            totalCodePoints: 6
+            totalCodePoints: 38
         }
     },
     {
@@ -5529,7 +5529,7 @@ export const scripts = [
                     "116E3"
                 ]
             ],
-            totalCodePoints: 51
+            totalCodePoints: 243
         }
     },
     {
@@ -5555,7 +5555,7 @@ export const scripts = [
                     "1E4F9"
                 ]
             ],
-            totalCodePoints: 4
+            totalCodePoints: 42
         }
     },
     {
@@ -5605,7 +5605,7 @@ export const scripts = [
                     "119E4"
                 ]
             ],
-            totalCodePoints: 11
+            totalCodePoints: 65
         }
     },
     {
@@ -5624,7 +5624,7 @@ export const scripts = [
                     "10A9F"
                 ]
             ],
-            totalCodePoints: 2
+            totalCodePoints: 32
         }
     },
     {
@@ -5643,7 +5643,7 @@ export const scripts = [
                     "108AF"
                 ]
             ],
-            totalCodePoints: 2
+            totalCodePoints: 40
         }
     },
     {
@@ -5706,7 +5706,7 @@ export const scripts = [
                     "11461"
                 ]
             ],
-            totalCodePoints: 14
+            totalCodePoints: 97
         }
     },
     {
@@ -5770,7 +5770,7 @@ export const scripts = [
                     "07FF"
                 ]
             ],
-            totalCodePoints: 9
+            totalCodePoints: 62
         }
     },
     {
@@ -5788,7 +5788,7 @@ export const scripts = [
                     "1B2FB"
                 ]
             ],
-            totalCodePoints: 2
+            totalCodePoints: 397
         }
     },
     {
@@ -5812,7 +5812,7 @@ export const scripts = [
                     "169C"
                 ]
             ],
-            totalCodePoints: 4
+            totalCodePoints: 29
         }
     },
     {
@@ -5839,7 +5839,7 @@ export const scripts = [
                     "1C7F"
                 ]
             ],
-            totalCodePoints: 4
+            totalCodePoints: 48
         }
     },
     {
@@ -5868,7 +5868,7 @@ export const scripts = [
                     "1E5FF"
                 ]
             ],
-            totalCodePoints: 5
+            totalCodePoints: 44
         }
     },
     {
@@ -5883,7 +5883,7 @@ export const scripts = [
                     "10C48"
                 ]
             ],
-            totalCodePoints: 1
+            totalCodePoints: 73
         }
     },
     {
@@ -5988,7 +5988,7 @@ export const scripts = [
                     "0B77"
                 ]
             ],
-            totalCodePoints: 26
+            totalCodePoints: 91
         }
     },
     {
@@ -6007,7 +6007,7 @@ export const scripts = [
                     "104FB"
                 ]
             ],
-            totalCodePoints: 2
+            totalCodePoints: 72
         }
     },
     {
@@ -6026,7 +6026,7 @@ export const scripts = [
                     "104A9"
                 ]
             ],
-            totalCodePoints: 2
+            totalCodePoints: 40
         }
     },
     {
@@ -6049,7 +6049,7 @@ export const scripts = [
                     "10F89"
                 ]
             ],
-            totalCodePoints: 3
+            totalCodePoints: 26
         }
     },
     {
@@ -6072,7 +6072,7 @@ export const scripts = [
                     "1087F"
                 ]
             ],
-            totalCodePoints: 3
+            totalCodePoints: 32
         }
     },
     {
@@ -6087,7 +6087,7 @@ export const scripts = [
                     "11AF8"
                 ]
             ],
-            totalCodePoints: 1
+            totalCodePoints: 57
         }
     },
     {
@@ -6126,7 +6126,7 @@ export const scripts = [
                     "1037A"
                 ]
             ],
-            totalCodePoints: 2
+            totalCodePoints: 43
         }
     },
     {
@@ -6145,7 +6145,7 @@ export const scripts = [
                     "A877"
                 ]
             ],
-            totalCodePoints: 2
+            totalCodePoints: 56
         }
     },
     {
@@ -6164,7 +6164,7 @@ export const scripts = [
                     "10B7F"
                 ]
             ],
-            totalCodePoints: 2
+            totalCodePoints: 27
         }
     },
     {
@@ -6187,7 +6187,7 @@ export const scripts = [
                     "10BAF"
                 ]
             ],
-            totalCodePoints: 3
+            totalCodePoints: 29
         }
     },
     {
@@ -6219,7 +6219,7 @@ export const scripts = [
                     "1091F"
                 ]
             ],
-            totalCodePoints: 3
+            totalCodePoints: 29
         }
     },
     {
@@ -6262,7 +6262,7 @@ export const scripts = [
                     "16F9F"
                 ]
             ],
-            totalCodePoints: 6
+            totalCodePoints: 149
         }
     },
     {
@@ -6281,7 +6281,7 @@ export const scripts = [
                     "10B5F"
                 ]
             ],
-            totalCodePoints: 2
+            totalCodePoints: 30
         }
     },
     {
@@ -6347,7 +6347,7 @@ export const scripts = [
                     "A95F"
                 ]
             ],
-            totalCodePoints: 4
+            totalCodePoints: 37
         }
     },
     {
@@ -6370,7 +6370,7 @@ export const scripts = [
                     "10D39"
                 ]
             ],
-            totalCodePoints: 3
+            totalCodePoints: 50
         }
     },
     {
@@ -6403,7 +6403,7 @@ export const scripts = [
                     "16F8"
                 ]
             ],
-            totalCodePoints: 3
+            totalCodePoints: 86
         }
     },
     {
@@ -6447,7 +6447,7 @@ export const scripts = [
                     "083E"
                 ]
             ],
-            totalCodePoints: 9
+            totalCodePoints: 61
         }
     },
     {
@@ -6479,7 +6479,7 @@ export const scripts = [
                     "10A7F"
                 ]
             ],
-            totalCodePoints: 3
+            totalCodePoints: 32
         }
     },
     {
@@ -6514,7 +6514,7 @@ export const scripts = [
                     "A8D9"
                 ]
             ],
-            totalCodePoints: 6
+            totalCodePoints: 82
         }
     },
     {
@@ -6581,7 +6581,7 @@ export const scripts = [
                     "1DAAF"
                 ]
             ],
-            totalCodePoints: 12
+            totalCodePoints: 672
         }
     },
     {
@@ -6596,7 +6596,7 @@ export const scripts = [
                     "1047F"
                 ]
             ],
-            totalCodePoints: 1
+            totalCodePoints: 48
         }
     },
     {
@@ -6668,7 +6668,7 @@ export const scripts = [
                     "111DF"
                 ]
             ],
-            totalCodePoints: 17
+            totalCodePoints: 96
         }
     },
     {
@@ -6728,7 +6728,7 @@ export const scripts = [
                     "115DD"
                 ]
             ],
-            totalCodePoints: 10
+            totalCodePoints: 92
         }
     },
     {
@@ -6768,7 +6768,7 @@ export const scripts = [
                     "112F9"
                 ]
             ],
-            totalCodePoints: 5
+            totalCodePoints: 69
         }
     },
     {
@@ -6838,7 +6838,7 @@ export const scripts = [
                     "111F4"
                 ]
             ],
-            totalCodePoints: 16
+            totalCodePoints: 111
         }
     },
     {
@@ -6865,7 +6865,7 @@ export const scripts = [
                     "10F59"
                 ]
             ],
-            totalCodePoints: 4
+            totalCodePoints: 42
         }
     },
     {
@@ -6887,7 +6887,7 @@ export const scripts = [
                     "10F27"
                 ]
             ],
-            totalCodePoints: 3
+            totalCodePoints: 40
         }
     },
     {
@@ -6906,7 +6906,7 @@ export const scripts = [
                     "110F9"
                 ]
             ],
-            totalCodePoints: 2
+            totalCodePoints: 35
         }
     },
     {
@@ -6958,7 +6958,7 @@ export const scripts = [
                     "11AA2"
                 ]
             ],
-            totalCodePoints: 11
+            totalCodePoints: 83
         }
     },
     {
@@ -7018,7 +7018,7 @@ export const scripts = [
                     "1CC7"
                 ]
             ],
-            totalCodePoints: 13
+            totalCodePoints: 72
         }
     },
     {
@@ -7040,7 +7040,7 @@ export const scripts = [
                     "11BF9"
                 ]
             ],
-            totalCodePoints: 3
+            totalCodePoints: 44
         }
     },
     {
@@ -7094,7 +7094,7 @@ export const scripts = [
                     "A82C"
                 ]
             ],
-            totalCodePoints: 12
+            totalCodePoints: 45
         }
     },
     {
@@ -7134,7 +7134,7 @@ export const scripts = [
                     "086A"
                 ]
             ],
-            totalCodePoints: 8
+            totalCodePoints: 88
         }
     },
     {
@@ -7187,7 +7187,7 @@ export const scripts = [
                     "1773"
                 ]
             ],
-            totalCodePoints: 3
+            totalCodePoints: 18
         }
     },
     {
@@ -7235,7 +7235,7 @@ export const scripts = [
                     "116C9"
                 ]
             ],
-            totalCodePoints: 11
+            totalCodePoints: 68
         }
     },
     {
@@ -7254,7 +7254,7 @@ export const scripts = [
                     "1974"
                 ]
             ],
-            totalCodePoints: 2
+            totalCodePoints: 35
         }
     },
     {
@@ -7284,7 +7284,7 @@ export const scripts = [
                     "19DF"
                 ]
             ],
-            totalCodePoints: 5
+            totalCodePoints: 83
         }
     },
     {
@@ -7401,7 +7401,7 @@ export const scripts = [
                     "11FFF"
                 ]
             ],
-            totalCodePoints: 29
+            totalCodePoints: 123
         }
     },
     {
@@ -7427,7 +7427,7 @@ export const scripts = [
                     "18D08"
                 ]
             ],
-            totalCodePoints: 4
+            totalCodePoints: 6914
         }
     },
     {
@@ -7488,7 +7488,7 @@ export const scripts = [
                     "AADF"
                 ]
             ],
-            totalCodePoints: 14
+            totalCodePoints: 72
         }
     },
     {
@@ -7590,7 +7590,7 @@ export const scripts = [
                     "0C7F"
                 ]
             ],
-            totalCodePoints: 22
+            totalCodePoints: 100
         }
     },
     {
@@ -7624,7 +7624,7 @@ export const scripts = [
                     "2D7F"
                 ]
             ],
-            totalCodePoints: 4
+            totalCodePoints: 59
         }
     },
     {
@@ -7649,7 +7649,7 @@ export const scripts = [
                     "171F"
                 ]
             ],
-            totalCodePoints: 4
+            totalCodePoints: 23
         }
     },
     {
@@ -7671,7 +7671,7 @@ export const scripts = [
                     "07B1"
                 ]
             ],
-            totalCodePoints: 3
+            totalCodePoints: 50
         }
     },
     {
@@ -7719,7 +7719,7 @@ export const scripts = [
                     "0E5B"
                 ]
             ],
-            totalCodePoints: 10
+            totalCodePoints: 86
         }
     },
     {
@@ -7862,7 +7862,7 @@ export const scripts = [
                     "0FDA"
                 ]
             ],
-            totalCodePoints: 37
+            totalCodePoints: 207
         }
     },
     {
@@ -7920,7 +7920,7 @@ export const scripts = [
                     "114D9"
                 ]
             ],
-            totalCodePoints: 13
+            totalCodePoints: 82
         }
     },
     {
@@ -7939,7 +7939,7 @@ export const scripts = [
                     "16AC9"
                 ]
             ],
-            totalCodePoints: 2
+            totalCodePoints: 89
         }
     },
     {
@@ -7954,7 +7954,7 @@ export const scripts = [
                     "105F3"
                 ]
             ],
-            totalCodePoints: 1
+            totalCodePoints: 52
         }
     },
     {
@@ -7982,7 +7982,7 @@ export const scripts = [
                     "1E2AE"
                 ]
             ],
-            totalCodePoints: 2
+            totalCodePoints: 31
         }
     },
     {
@@ -8062,7 +8062,7 @@ export const scripts = [
                     "113E2"
                 ]
             ],
-            totalCodePoints: 20
+            totalCodePoints: 80
         }
     },
     {
@@ -8080,7 +8080,7 @@ export const scripts = [
                     "1039F"
                 ]
             ],
-            totalCodePoints: 2
+            totalCodePoints: 31
         }
     },
     {
@@ -8114,7 +8114,7 @@ export const scripts = [
                     "A62B"
                 ]
             ],
-            totalCodePoints: 6
+            totalCodePoints: 300
         }
     },
     {
@@ -8167,7 +8167,7 @@ export const scripts = [
                     "105BC"
                 ]
             ],
-            totalCodePoints: 8
+            totalCodePoints: 70
         }
     },
     {
@@ -8193,7 +8193,7 @@ export const scripts = [
                     "118FF"
                 ]
             ],
-            totalCodePoints: 4
+            totalCodePoints: 84
         }
     },
     {
@@ -8219,7 +8219,7 @@ export const scripts = [
                     "1E2FF"
                 ]
             ],
-            totalCodePoints: 4
+            totalCodePoints: 59
         }
     },
     {
@@ -8255,7 +8255,7 @@ export const scripts = [
                     "103D5"
                 ]
             ],
-            totalCodePoints: 4
+            totalCodePoints: 50
         }
     },
     {
@@ -8282,7 +8282,7 @@ export const scripts = [
                     "12543"
                 ]
             ],
-            totalCodePoints: 4
+            totalCodePoints: 1234
         }
     },
     {
@@ -8308,7 +8308,7 @@ export const scripts = [
                     "10EB1"
                 ]
             ],
-            totalCodePoints: 4
+            totalCodePoints: 47
         }
     },
     {
@@ -8334,7 +8334,7 @@ export const scripts = [
                     "A4C6"
                 ]
             ],
-            totalCodePoints: 4
+            totalCodePoints: 1220
         }
     },
     {
@@ -8377,7 +8377,7 @@ export const scripts = [
                     "11A47"
                 ]
             ],
-            totalCodePoints: 9
+            totalCodePoints: 72
         }
     },
     {
@@ -8520,7 +8520,7 @@ export const scripts = [
                     "E01EF"
                 ]
             ],
-            totalCodePoints: 35
+            totalCodePoints: 657
         }
     },
     {
@@ -10674,7 +10674,7 @@ export const scripts = [
                     "E007F"
                 ]
             ],
-            totalCodePoints: 608
+            totalCodePoints: 9053
         }
     },
     {

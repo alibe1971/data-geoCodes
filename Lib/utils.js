@@ -254,3 +254,34 @@ export function requirements(prop, rule, regex=null) {
         //nothing
     }
 }
+
+/**
+ * Check that the ranges do not overlap and calculate the total number of code points covered (inclusive ranges).
+ *
+ * @param {Array<{ start: number, end: number }>} normalizedRanges
+ * @returns {{ overlaps: Array<object>, totalCodePoints: number }}
+ */
+export function checkRangesAndTotal(normalizedRanges) {
+    const ranges = [...normalizedRanges].sort((a, b) => a.start - b.start);
+    let lastEnd = null;
+    let overlaps = [];
+    let totalCodePoints = 0;
+
+    for (let i = 0; i < ranges.length; i++) {
+        const { start, end } = ranges[i];
+
+        if (lastEnd !== null && start <= lastEnd) {
+            overlaps.push({
+                index: i,
+                current: { start, end },
+                previous: { end: lastEnd }
+            });
+        }
+
+        totalCodePoints += (end - start + 1);
+
+        lastEnd = Math.max(lastEnd ?? end, end);
+    }
+
+    return { overlaps, totalCodePoints };
+}

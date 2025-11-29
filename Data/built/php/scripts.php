@@ -46,7 +46,7 @@ return [
                     '1E95F'
                 ]
             ],
-            'totalCodePoints' => 5
+            'totalCodePoints' => 88
         ]
     ],
     [
@@ -74,7 +74,7 @@ return [
                     '1056F'
                 ]
             ],
-            'totalCodePoints' => 2
+            'totalCodePoints' => 53
         ]
     ],
     [
@@ -132,7 +132,7 @@ return [
                     '11746'
                 ]
             ],
-            'totalCodePoints' => 13
+            'totalCodePoints' => 65
         ]
     ],
     [
@@ -471,7 +471,7 @@ return [
                     '1EEF1'
                 ]
             ],
-            'totalCodePoints' => 89
+            'totalCodePoints' => 1373
         ]
     ],
     [
@@ -503,7 +503,7 @@ return [
                     '1085F'
                 ]
             ],
-            'totalCodePoints' => 3
+            'totalCodePoints' => 31
         ]
     ],
     [
@@ -546,7 +546,7 @@ return [
                     'FB17'
                 ]
             ],
-            'totalCodePoints' => 9
+            'totalCodePoints' => 96
         ]
     ],
     [
@@ -565,7 +565,7 @@ return [
                     '10B3F'
                 ]
             ],
-            'totalCodePoints' => 2
+            'totalCodePoints' => 61
         ]
     ],
     [
@@ -646,7 +646,7 @@ return [
                     '1B7F'
                 ]
             ],
-            'totalCodePoints' => 19
+            'totalCodePoints' => 127
         ]
     ],
     [
@@ -677,7 +677,7 @@ return [
                     '16A38'
                 ]
             ],
-            'totalCodePoints' => 5
+            'totalCodePoints' => 657
         ]
     ],
     [
@@ -699,7 +699,7 @@ return [
                     '16AF5'
                 ]
             ],
-            'totalCodePoints' => 3
+            'totalCodePoints' => 36
         ]
     ],
     [
@@ -746,7 +746,7 @@ return [
                     '1BFF'
                 ]
             ],
-            'totalCodePoints' => 10
+            'totalCodePoints' => 56
         ]
     ],
     [
@@ -864,7 +864,7 @@ return [
                     '09FE'
                 ]
             ],
-            'totalCodePoints' => 30
+            'totalCodePoints' => 96
         ]
     ],
     [
@@ -925,7 +925,7 @@ return [
                     '11C6C'
                 ]
             ],
-            'totalCodePoints' => 11
+            'totalCodePoints' => 97
         ]
     ],
     [
@@ -958,7 +958,7 @@ return [
                     '31BF'
                 ]
             ],
-            'totalCodePoints' => 3
+            'totalCodePoints' => 77
         ]
     ],
     [
@@ -1015,7 +1015,7 @@ return [
                     '1107F'
                 ]
             ],
-            'totalCodePoints' => 13
+            'totalCodePoints' => 115
         ]
     ],
     [
@@ -1030,7 +1030,7 @@ return [
                     '28FF'
                 ]
             ],
-            'totalCodePoints' => 1
+            'totalCodePoints' => 256
         ]
     ],
     [
@@ -1060,7 +1060,7 @@ return [
                     '1A1F'
                 ]
             ],
-            'totalCodePoints' => 5
+            'totalCodePoints' => 30
         ]
     ],
     [
@@ -1079,7 +1079,7 @@ return [
                     '1753'
                 ]
             ],
-            'totalCodePoints' => 2
+            'totalCodePoints' => 20
         ]
     ],
     [
@@ -1127,7 +1127,7 @@ return [
                     '11147'
                 ]
             ],
-            'totalCodePoints' => 10
+            'totalCodePoints' => 71
         ]
     ],
     [
@@ -1163,7 +1163,7 @@ return [
                     '11ABF'
                 ]
             ],
-            'totalCodePoints' => 7
+            'totalCodePoints' => 726
         ]
     ],
     [
@@ -1178,7 +1178,7 @@ return [
                     '102D0'
                 ]
             ],
-            'totalCodePoints' => 1
+            'totalCodePoints' => 49
         ]
     ],
     [
@@ -1238,7 +1238,7 @@ return [
                     'AA5F'
                 ]
             ],
-            'totalCodePoints' => 13
+            'totalCodePoints' => 83
         ]
     ],
     [
@@ -1261,7 +1261,7 @@ return [
                     'ABBF'
                 ]
             ],
-            'totalCodePoints' => 3
+            'totalCodePoints' => 172
         ]
     ],
     [
@@ -1290,7 +1290,7 @@ return [
                     '10FCB'
                 ]
             ],
-            'totalCodePoints' => 2
+            'totalCodePoints' => 28
         ]
     ],
     [
@@ -1346,7 +1346,7 @@ return [
                     '2CFF'
                 ]
             ],
-            'totalCodePoints' => 9
+            'totalCodePoints' => 137
         ]
     ],
     [
@@ -1365,7 +1365,7 @@ return [
                     '12FF2'
                 ]
             ],
-            'totalCodePoints' => 2
+            'totalCodePoints' => 99
         ]
     ],
     [
@@ -1397,7 +1397,7 @@ return [
                     '1083F'
                 ]
             ],
-            'totalCodePoints' => 6
+            'totalCodePoints' => 55
         ]
     ],
     [
@@ -1494,7 +1494,7 @@ return [
                     '1E08F'
                 ]
             ],
-            'totalCodePoints' => 24
+            'totalCodePoints' => 508
         ]
     ],
     [
@@ -1615,7 +1615,7 @@ return [
                     '11B09'
                 ]
             ],
-            'totalCodePoints' => 28
+            'totalCodePoints' => 164
         ]
     ],
     [
@@ -1686,7 +1686,7 @@ return [
                     '11959'
                 ]
             ],
-            'totalCodePoints' => 17
+            'totalCodePoints' => 72
         ]
     ],
     [
@@ -1719,7 +1719,7 @@ return [
                     '1183B'
                 ]
             ],
-            'totalCodePoints' => 6
+            'totalCodePoints' => 60
         ]
     ],
     [
@@ -1734,7 +1734,7 @@ return [
                     '1044F'
                 ]
             ],
-            'totalCodePoints' => 1
+            'totalCodePoints' => 80
         ]
     ],
     [
@@ -1771,7 +1771,7 @@ return [
                     '1BC9F'
                 ]
             ],
-            'totalCodePoints' => 7
+            'totalCodePoints' => 143
         ]
     ],
     [
@@ -1825,7 +1825,7 @@ return [
                     '143FA'
                 ]
             ],
-            'totalCodePoints' => 6
+            'totalCodePoints' => 5105
         ]
     ],
     [
@@ -1840,7 +1840,7 @@ return [
                     '10527'
                 ]
             ],
-            'totalCodePoints' => 1
+            'totalCodePoints' => 40
         ]
     ],
     [
@@ -1855,7 +1855,7 @@ return [
                     '10FF6'
                 ]
             ],
-            'totalCodePoints' => 1
+            'totalCodePoints' => 23
         ]
     ],
     [
@@ -2020,7 +2020,7 @@ return [
                     '1E7FE'
                 ]
             ],
-            'totalCodePoints' => 39
+            'totalCodePoints' => 523
         ]
     ],
     [
@@ -2067,7 +2067,7 @@ return [
                     '10D8F'
                 ]
             ],
-            'totalCodePoints' => 10
+            'totalCodePoints' => 69
         ]
     ],
     [
@@ -2117,7 +2117,7 @@ return [
                     '2D2D'
                 ]
             ],
-            'totalCodePoints' => 11
+            'totalCodePoints' => 173
         ]
     ],
     [
@@ -2167,7 +2167,7 @@ return [
                     '2D2D'
                 ]
             ],
-            'totalCodePoints' => 11
+            'totalCodePoints' => 173
         ]
     ],
     [
@@ -2202,7 +2202,7 @@ return [
                     '1E02A'
                 ]
             ],
-            'totalCodePoints' => 6
+            'totalCodePoints' => 134
         ]
     ],
     [
@@ -2253,7 +2253,7 @@ return [
                     '11DA9'
                 ]
             ],
-            'totalCodePoints' => 11
+            'totalCodePoints' => 63
         ]
     ],
     [
@@ -2301,7 +2301,7 @@ return [
                     '11D59'
                 ]
             ],
-            'totalCodePoints' => 10
+            'totalCodePoints' => 75
         ]
     ],
     [
@@ -2326,7 +2326,7 @@ return [
                     '1034A'
                 ]
             ],
-            'totalCodePoints' => 4
+            'totalCodePoints' => 27
         ]
     ],
     [
@@ -2416,7 +2416,7 @@ return [
                     '11374'
                 ]
             ],
-            'totalCodePoints' => 21
+            'totalCodePoints' => 85
         ]
     ],
     [
@@ -2630,7 +2630,7 @@ return [
                     '1D245'
                 ]
             ],
-            'totalCodePoints' => 55
+            'totalCodePoints' => 518
         ]
     ],
     [
@@ -2728,7 +2728,7 @@ return [
                     '0AFF'
                 ]
             ],
-            'totalCodePoints' => 24
+            'totalCodePoints' => 91
         ]
     ],
     [
@@ -2759,7 +2759,7 @@ return [
                     '16139'
                 ]
             ],
-            'totalCodePoints' => 5
+            'totalCodePoints' => 58
         ]
     ],
     [
@@ -2852,7 +2852,7 @@ return [
                     '0A76'
                 ]
             ],
-            'totalCodePoints' => 22
+            'totalCodePoints' => 80
         ]
     ],
     [
@@ -2929,7 +2929,7 @@ return [
                     'FFDC'
                 ]
             ],
-            'totalCodePoints' => 14
+            'totalCodePoints' => 11739
         ]
     ],
     [
@@ -3031,7 +3031,7 @@ return [
                     '323AF'
                 ]
             ],
-            'totalCodePoints' => 24
+            'totalCodePoints' => 99030
         ]
     ],
     [
@@ -3053,7 +3053,7 @@ return [
                     '1734'
                 ]
             ],
-            'totalCodePoints' => 3
+            'totalCodePoints' => 21
         ]
     ],
     [
@@ -3096,7 +3096,7 @@ return [
                     '108FF'
                 ]
             ],
-            'totalCodePoints' => 3
+            'totalCodePoints' => 26
         ]
     ],
     [
@@ -3185,7 +3185,7 @@ return [
                     'FB4F'
                 ]
             ],
-            'totalCodePoints' => 22
+            'totalCodePoints' => 134
         ]
     ],
     [
@@ -3221,7 +3221,7 @@ return [
                     '1F200'
                 ]
             ],
-            'totalCodePoints' => 7
+            'totalCodePoints' => 381
         ]
     ],
     [
@@ -3236,7 +3236,7 @@ return [
                     '14646'
                 ]
             ],
-            'totalCodePoints' => 1
+            'totalCodePoints' => 583
         ]
     ],
     [
@@ -3289,7 +3289,7 @@ return [
                     '16B8F'
                 ]
             ],
-            'totalCodePoints' => 11
+            'totalCodePoints' => 127
         ]
     ],
     [
@@ -3322,7 +3322,7 @@ return [
                     '1E14F'
                 ]
             ],
-            'totalCodePoints' => 6
+            'totalCodePoints' => 71
         ]
     ],
     [
@@ -3365,7 +3365,7 @@ return [
                     '10CFF'
                 ]
             ],
-            'totalCodePoints' => 3
+            'totalCodePoints' => 108
         ]
     ],
     [
@@ -3398,7 +3398,7 @@ return [
                     '1032F'
                 ]
             ],
-            'totalCodePoints' => 3
+            'totalCodePoints' => 39
         ]
     ],
     [
@@ -3465,7 +3465,7 @@ return [
                     'A9DF'
                 ]
             ],
-            'totalCodePoints' => 12
+            'totalCodePoints' => 90
         ]
     ],
     [
@@ -3511,7 +3511,7 @@ return [
                     'A92F'
                 ]
             ],
-            'totalCodePoints' => 4
+            'totalCodePoints' => 47
         ]
     ],
     [
@@ -3579,7 +3579,7 @@ return [
                     '1B167'
                 ]
             ],
-            'totalCodePoints' => 15
+            'totalCodePoints' => 321
         ]
     ],
     [
@@ -3640,7 +3640,7 @@ return [
                     '11F5A'
                 ]
             ],
-            'totalCodePoints' => 14
+            'totalCodePoints' => 87
         ]
     ],
     [
@@ -3693,7 +3693,7 @@ return [
                     '10A58'
                 ]
             ],
-            'totalCodePoints' => 11
+            'totalCodePoints' => 68
         ]
     ],
     [
@@ -3766,7 +3766,7 @@ return [
                     '19FF'
                 ]
             ],
-            'totalCodePoints' => 17
+            'totalCodePoints' => 146
         ]
     ],
     [
@@ -3821,7 +3821,7 @@ return [
                     '11241'
                 ]
             ],
-            'totalCodePoints' => 12
+            'totalCodePoints' => 65
         ]
     ],
     [
@@ -3852,7 +3852,7 @@ return [
                     '18CFF'
                 ]
             ],
-            'totalCodePoints' => 3
+            'totalCodePoints' => 472
         ]
     ],
     [
@@ -3954,7 +3954,7 @@ return [
                     '0CF3'
                 ]
             ],
-            'totalCodePoints' => 25
+            'totalCodePoints' => 91
         ]
     ],
     [
@@ -4005,7 +4005,7 @@ return [
                     '16D79'
                 ]
             ],
-            'totalCodePoints' => 5
+            'totalCodePoints' => 58
         ]
     ],
     [
@@ -4060,7 +4060,7 @@ return [
                     '110CD'
                 ]
             ],
-            'totalCodePoints' => 12
+            'totalCodePoints' => 68
         ]
     ],
     [
@@ -4135,7 +4135,7 @@ return [
                     '1AAD'
                 ]
             ],
-            'totalCodePoints' => 18
+            'totalCodePoints' => 127
         ]
     ],
     [
@@ -4201,7 +4201,7 @@ return [
                     '0EDF'
                 ]
             ],
-            'totalCodePoints' => 15
+            'totalCodePoints' => 83
         ]
     ],
     [
@@ -4473,7 +4473,7 @@ return [
                     '1DF2A'
                 ]
             ],
-            'totalCodePoints' => 64
+            'totalCodePoints' => 1487
         ]
     ],
     [
@@ -4526,7 +4526,7 @@ return [
                     '1C4F'
                 ]
             ],
-            'totalCodePoints' => 8
+            'totalCodePoints' => 74
         ]
     ],
     [
@@ -4583,7 +4583,7 @@ return [
                     '194F'
                 ]
             ],
-            'totalCodePoints' => 12
+            'totalCodePoints' => 68
         ]
     ],
     [
@@ -4606,7 +4606,7 @@ return [
                     '10767'
                 ]
             ],
-            'totalCodePoints' => 3
+            'totalCodePoints' => 341
         ]
     ],
     [
@@ -4645,7 +4645,7 @@ return [
                     '100FA'
                 ]
             ],
-            'totalCodePoints' => 7
+            'totalCodePoints' => 211
         ]
     ],
     [
@@ -4671,7 +4671,7 @@ return [
                     '11FB0'
                 ]
             ],
-            'totalCodePoints' => 4
+            'totalCodePoints' => 49
         ]
     ],
     [
@@ -4696,7 +4696,7 @@ return [
                     '1029C'
                 ]
             ],
-            'totalCodePoints' => 1
+            'totalCodePoints' => 29
         ]
     ],
     [
@@ -4714,7 +4714,7 @@ return [
                     '1093F'
                 ]
             ],
-            'totalCodePoints' => 2
+            'totalCodePoints' => 27
         ]
     ],
     [
@@ -4739,7 +4739,7 @@ return [
                     '11176'
                 ]
             ],
-            'totalCodePoints' => 4
+            'totalCodePoints' => 39
         ]
     ],
     [
@@ -4766,7 +4766,7 @@ return [
                     '11EF8'
                 ]
             ],
-            'totalCodePoints' => 4
+            'totalCodePoints' => 25
         ]
     ],
     [
@@ -4788,7 +4788,7 @@ return [
                     '085E'
                 ]
             ],
-            'totalCodePoints' => 3
+            'totalCodePoints' => 29
         ]
     ],
     [
@@ -4822,7 +4822,7 @@ return [
                     '10AF6'
                 ]
             ],
-            'totalCodePoints' => 6
+            'totalCodePoints' => 51
         ]
     ],
     [
@@ -4866,7 +4866,7 @@ return [
                     '11CB6'
                 ]
             ],
-            'totalCodePoints' => 9
+            'totalCodePoints' => 68
         ]
     ],
     [
@@ -4899,7 +4899,7 @@ return [
                     '16E9A'
                 ]
             ],
-            'totalCodePoints' => 3
+            'totalCodePoints' => 91
         ]
     ],
     [
@@ -4922,7 +4922,7 @@ return [
                     '1E8D6'
                 ]
             ],
-            'totalCodePoints' => 3
+            'totalCodePoints' => 213
         ]
     ],
     [
@@ -4953,7 +4953,7 @@ return [
                     '109FF'
                 ]
             ],
-            'totalCodePoints' => 5
+            'totalCodePoints' => 90
         ]
     ],
     [
@@ -4968,7 +4968,7 @@ return [
                     '1099F'
                 ]
             ],
-            'totalCodePoints' => 1
+            'totalCodePoints' => 32
         ]
     ],
     [
@@ -5065,7 +5065,7 @@ return [
                     '0D7F'
                 ]
             ],
-            'totalCodePoints' => 23
+            'totalCodePoints' => 118
         ]
     ],
     [
@@ -5113,7 +5113,7 @@ return [
                     '11659'
                 ]
             ],
-            'totalCodePoints' => 10
+            'totalCodePoints' => 79
         ]
     ],
     [
@@ -5185,7 +5185,7 @@ return [
                     '1166C'
                 ]
             ],
-            'totalCodePoints' => 17
+            'totalCodePoints' => 168
         ]
     ],
     [
@@ -5218,7 +5218,7 @@ return [
                     '16A6F'
                 ]
             ],
-            'totalCodePoints' => 3
+            'totalCodePoints' => 43
         ]
     ],
     [
@@ -5296,7 +5296,7 @@ return [
                     'ABF9'
                 ]
             ],
-            'totalCodePoints' => 19
+            'totalCodePoints' => 79
         ]
     ],
     [
@@ -5329,7 +5329,7 @@ return [
                     '112A9'
                 ]
             ],
-            'totalCodePoints' => 6
+            'totalCodePoints' => 38
         ]
     ],
     [
@@ -5528,7 +5528,7 @@ return [
                     '116E3'
                 ]
             ],
-            'totalCodePoints' => 51
+            'totalCodePoints' => 243
         ]
     ],
     [
@@ -5554,7 +5554,7 @@ return [
                     '1E4F9'
                 ]
             ],
-            'totalCodePoints' => 4
+            'totalCodePoints' => 42
         ]
     ],
     [
@@ -5604,7 +5604,7 @@ return [
                     '119E4'
                 ]
             ],
-            'totalCodePoints' => 11
+            'totalCodePoints' => 65
         ]
     ],
     [
@@ -5623,7 +5623,7 @@ return [
                     '10A9F'
                 ]
             ],
-            'totalCodePoints' => 2
+            'totalCodePoints' => 32
         ]
     ],
     [
@@ -5642,7 +5642,7 @@ return [
                     '108AF'
                 ]
             ],
-            'totalCodePoints' => 2
+            'totalCodePoints' => 40
         ]
     ],
     [
@@ -5705,7 +5705,7 @@ return [
                     '11461'
                 ]
             ],
-            'totalCodePoints' => 14
+            'totalCodePoints' => 97
         ]
     ],
     [
@@ -5769,7 +5769,7 @@ return [
                     '07FF'
                 ]
             ],
-            'totalCodePoints' => 9
+            'totalCodePoints' => 62
         ]
     ],
     [
@@ -5787,7 +5787,7 @@ return [
                     '1B2FB'
                 ]
             ],
-            'totalCodePoints' => 2
+            'totalCodePoints' => 397
         ]
     ],
     [
@@ -5811,7 +5811,7 @@ return [
                     '169C'
                 ]
             ],
-            'totalCodePoints' => 4
+            'totalCodePoints' => 29
         ]
     ],
     [
@@ -5838,7 +5838,7 @@ return [
                     '1C7F'
                 ]
             ],
-            'totalCodePoints' => 4
+            'totalCodePoints' => 48
         ]
     ],
     [
@@ -5867,7 +5867,7 @@ return [
                     '1E5FF'
                 ]
             ],
-            'totalCodePoints' => 5
+            'totalCodePoints' => 44
         ]
     ],
     [
@@ -5882,7 +5882,7 @@ return [
                     '10C48'
                 ]
             ],
-            'totalCodePoints' => 1
+            'totalCodePoints' => 73
         ]
     ],
     [
@@ -5987,7 +5987,7 @@ return [
                     '0B77'
                 ]
             ],
-            'totalCodePoints' => 26
+            'totalCodePoints' => 91
         ]
     ],
     [
@@ -6006,7 +6006,7 @@ return [
                     '104FB'
                 ]
             ],
-            'totalCodePoints' => 2
+            'totalCodePoints' => 72
         ]
     ],
     [
@@ -6025,7 +6025,7 @@ return [
                     '104A9'
                 ]
             ],
-            'totalCodePoints' => 2
+            'totalCodePoints' => 40
         ]
     ],
     [
@@ -6048,7 +6048,7 @@ return [
                     '10F89'
                 ]
             ],
-            'totalCodePoints' => 3
+            'totalCodePoints' => 26
         ]
     ],
     [
@@ -6071,7 +6071,7 @@ return [
                     '1087F'
                 ]
             ],
-            'totalCodePoints' => 3
+            'totalCodePoints' => 32
         ]
     ],
     [
@@ -6086,7 +6086,7 @@ return [
                     '11AF8'
                 ]
             ],
-            'totalCodePoints' => 1
+            'totalCodePoints' => 57
         ]
     ],
     [
@@ -6125,7 +6125,7 @@ return [
                     '1037A'
                 ]
             ],
-            'totalCodePoints' => 2
+            'totalCodePoints' => 43
         ]
     ],
     [
@@ -6144,7 +6144,7 @@ return [
                     'A877'
                 ]
             ],
-            'totalCodePoints' => 2
+            'totalCodePoints' => 56
         ]
     ],
     [
@@ -6163,7 +6163,7 @@ return [
                     '10B7F'
                 ]
             ],
-            'totalCodePoints' => 2
+            'totalCodePoints' => 27
         ]
     ],
     [
@@ -6186,7 +6186,7 @@ return [
                     '10BAF'
                 ]
             ],
-            'totalCodePoints' => 3
+            'totalCodePoints' => 29
         ]
     ],
     [
@@ -6218,7 +6218,7 @@ return [
                     '1091F'
                 ]
             ],
-            'totalCodePoints' => 3
+            'totalCodePoints' => 29
         ]
     ],
     [
@@ -6261,7 +6261,7 @@ return [
                     '16F9F'
                 ]
             ],
-            'totalCodePoints' => 6
+            'totalCodePoints' => 149
         ]
     ],
     [
@@ -6280,7 +6280,7 @@ return [
                     '10B5F'
                 ]
             ],
-            'totalCodePoints' => 2
+            'totalCodePoints' => 30
         ]
     ],
     [
@@ -6346,7 +6346,7 @@ return [
                     'A95F'
                 ]
             ],
-            'totalCodePoints' => 4
+            'totalCodePoints' => 37
         ]
     ],
     [
@@ -6369,7 +6369,7 @@ return [
                     '10D39'
                 ]
             ],
-            'totalCodePoints' => 3
+            'totalCodePoints' => 50
         ]
     ],
     [
@@ -6402,7 +6402,7 @@ return [
                     '16F8'
                 ]
             ],
-            'totalCodePoints' => 3
+            'totalCodePoints' => 86
         ]
     ],
     [
@@ -6446,7 +6446,7 @@ return [
                     '083E'
                 ]
             ],
-            'totalCodePoints' => 9
+            'totalCodePoints' => 61
         ]
     ],
     [
@@ -6478,7 +6478,7 @@ return [
                     '10A7F'
                 ]
             ],
-            'totalCodePoints' => 3
+            'totalCodePoints' => 32
         ]
     ],
     [
@@ -6513,7 +6513,7 @@ return [
                     'A8D9'
                 ]
             ],
-            'totalCodePoints' => 6
+            'totalCodePoints' => 82
         ]
     ],
     [
@@ -6580,7 +6580,7 @@ return [
                     '1DAAF'
                 ]
             ],
-            'totalCodePoints' => 12
+            'totalCodePoints' => 672
         ]
     ],
     [
@@ -6595,7 +6595,7 @@ return [
                     '1047F'
                 ]
             ],
-            'totalCodePoints' => 1
+            'totalCodePoints' => 48
         ]
     ],
     [
@@ -6667,7 +6667,7 @@ return [
                     '111DF'
                 ]
             ],
-            'totalCodePoints' => 17
+            'totalCodePoints' => 96
         ]
     ],
     [
@@ -6727,7 +6727,7 @@ return [
                     '115DD'
                 ]
             ],
-            'totalCodePoints' => 10
+            'totalCodePoints' => 92
         ]
     ],
     [
@@ -6767,7 +6767,7 @@ return [
                     '112F9'
                 ]
             ],
-            'totalCodePoints' => 5
+            'totalCodePoints' => 69
         ]
     ],
     [
@@ -6837,7 +6837,7 @@ return [
                     '111F4'
                 ]
             ],
-            'totalCodePoints' => 16
+            'totalCodePoints' => 111
         ]
     ],
     [
@@ -6864,7 +6864,7 @@ return [
                     '10F59'
                 ]
             ],
-            'totalCodePoints' => 4
+            'totalCodePoints' => 42
         ]
     ],
     [
@@ -6886,7 +6886,7 @@ return [
                     '10F27'
                 ]
             ],
-            'totalCodePoints' => 3
+            'totalCodePoints' => 40
         ]
     ],
     [
@@ -6905,7 +6905,7 @@ return [
                     '110F9'
                 ]
             ],
-            'totalCodePoints' => 2
+            'totalCodePoints' => 35
         ]
     ],
     [
@@ -6957,7 +6957,7 @@ return [
                     '11AA2'
                 ]
             ],
-            'totalCodePoints' => 11
+            'totalCodePoints' => 83
         ]
     ],
     [
@@ -7017,7 +7017,7 @@ return [
                     '1CC7'
                 ]
             ],
-            'totalCodePoints' => 13
+            'totalCodePoints' => 72
         ]
     ],
     [
@@ -7039,7 +7039,7 @@ return [
                     '11BF9'
                 ]
             ],
-            'totalCodePoints' => 3
+            'totalCodePoints' => 44
         ]
     ],
     [
@@ -7093,7 +7093,7 @@ return [
                     'A82C'
                 ]
             ],
-            'totalCodePoints' => 12
+            'totalCodePoints' => 45
         ]
     ],
     [
@@ -7133,7 +7133,7 @@ return [
                     '086A'
                 ]
             ],
-            'totalCodePoints' => 8
+            'totalCodePoints' => 88
         ]
     ],
     [
@@ -7186,7 +7186,7 @@ return [
                     '1773'
                 ]
             ],
-            'totalCodePoints' => 3
+            'totalCodePoints' => 18
         ]
     ],
     [
@@ -7234,7 +7234,7 @@ return [
                     '116C9'
                 ]
             ],
-            'totalCodePoints' => 11
+            'totalCodePoints' => 68
         ]
     ],
     [
@@ -7253,7 +7253,7 @@ return [
                     '1974'
                 ]
             ],
-            'totalCodePoints' => 2
+            'totalCodePoints' => 35
         ]
     ],
     [
@@ -7283,7 +7283,7 @@ return [
                     '19DF'
                 ]
             ],
-            'totalCodePoints' => 5
+            'totalCodePoints' => 83
         ]
     ],
     [
@@ -7400,7 +7400,7 @@ return [
                     '11FFF'
                 ]
             ],
-            'totalCodePoints' => 29
+            'totalCodePoints' => 123
         ]
     ],
     [
@@ -7426,7 +7426,7 @@ return [
                     '18D08'
                 ]
             ],
-            'totalCodePoints' => 4
+            'totalCodePoints' => 6914
         ]
     ],
     [
@@ -7487,7 +7487,7 @@ return [
                     'AADF'
                 ]
             ],
-            'totalCodePoints' => 14
+            'totalCodePoints' => 72
         ]
     ],
     [
@@ -7589,7 +7589,7 @@ return [
                     '0C7F'
                 ]
             ],
-            'totalCodePoints' => 22
+            'totalCodePoints' => 100
         ]
     ],
     [
@@ -7623,7 +7623,7 @@ return [
                     '2D7F'
                 ]
             ],
-            'totalCodePoints' => 4
+            'totalCodePoints' => 59
         ]
     ],
     [
@@ -7648,7 +7648,7 @@ return [
                     '171F'
                 ]
             ],
-            'totalCodePoints' => 4
+            'totalCodePoints' => 23
         ]
     ],
     [
@@ -7670,7 +7670,7 @@ return [
                     '07B1'
                 ]
             ],
-            'totalCodePoints' => 3
+            'totalCodePoints' => 50
         ]
     ],
     [
@@ -7718,7 +7718,7 @@ return [
                     '0E5B'
                 ]
             ],
-            'totalCodePoints' => 10
+            'totalCodePoints' => 86
         ]
     ],
     [
@@ -7861,7 +7861,7 @@ return [
                     '0FDA'
                 ]
             ],
-            'totalCodePoints' => 37
+            'totalCodePoints' => 207
         ]
     ],
     [
@@ -7919,7 +7919,7 @@ return [
                     '114D9'
                 ]
             ],
-            'totalCodePoints' => 13
+            'totalCodePoints' => 82
         ]
     ],
     [
@@ -7938,7 +7938,7 @@ return [
                     '16AC9'
                 ]
             ],
-            'totalCodePoints' => 2
+            'totalCodePoints' => 89
         ]
     ],
     [
@@ -7953,7 +7953,7 @@ return [
                     '105F3'
                 ]
             ],
-            'totalCodePoints' => 1
+            'totalCodePoints' => 52
         ]
     ],
     [
@@ -7981,7 +7981,7 @@ return [
                     '1E2AE'
                 ]
             ],
-            'totalCodePoints' => 2
+            'totalCodePoints' => 31
         ]
     ],
     [
@@ -8061,7 +8061,7 @@ return [
                     '113E2'
                 ]
             ],
-            'totalCodePoints' => 20
+            'totalCodePoints' => 80
         ]
     ],
     [
@@ -8079,7 +8079,7 @@ return [
                     '1039F'
                 ]
             ],
-            'totalCodePoints' => 2
+            'totalCodePoints' => 31
         ]
     ],
     [
@@ -8113,7 +8113,7 @@ return [
                     'A62B'
                 ]
             ],
-            'totalCodePoints' => 6
+            'totalCodePoints' => 300
         ]
     ],
     [
@@ -8166,7 +8166,7 @@ return [
                     '105BC'
                 ]
             ],
-            'totalCodePoints' => 8
+            'totalCodePoints' => 70
         ]
     ],
     [
@@ -8192,7 +8192,7 @@ return [
                     '118FF'
                 ]
             ],
-            'totalCodePoints' => 4
+            'totalCodePoints' => 84
         ]
     ],
     [
@@ -8218,7 +8218,7 @@ return [
                     '1E2FF'
                 ]
             ],
-            'totalCodePoints' => 4
+            'totalCodePoints' => 59
         ]
     ],
     [
@@ -8254,7 +8254,7 @@ return [
                     '103D5'
                 ]
             ],
-            'totalCodePoints' => 4
+            'totalCodePoints' => 50
         ]
     ],
     [
@@ -8281,7 +8281,7 @@ return [
                     '12543'
                 ]
             ],
-            'totalCodePoints' => 4
+            'totalCodePoints' => 1234
         ]
     ],
     [
@@ -8307,7 +8307,7 @@ return [
                     '10EB1'
                 ]
             ],
-            'totalCodePoints' => 4
+            'totalCodePoints' => 47
         ]
     ],
     [
@@ -8333,7 +8333,7 @@ return [
                     'A4C6'
                 ]
             ],
-            'totalCodePoints' => 4
+            'totalCodePoints' => 1220
         ]
     ],
     [
@@ -8376,7 +8376,7 @@ return [
                     '11A47'
                 ]
             ],
-            'totalCodePoints' => 9
+            'totalCodePoints' => 72
         ]
     ],
     [
@@ -8519,7 +8519,7 @@ return [
                     'E01EF'
                 ]
             ],
-            'totalCodePoints' => 35
+            'totalCodePoints' => 657
         ]
     ],
     [
@@ -10673,7 +10673,7 @@ return [
                     'E007F'
                 ]
             ],
-            'totalCodePoints' => 608
+            'totalCodePoints' => 9053
         ]
     ],
     [

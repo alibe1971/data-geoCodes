@@ -13,7 +13,7 @@
         - '1E959'
       - - 1E95E
         - 1E95F
-    totalCodePoints: 5
+    totalCodePoints: 88
 - code: Afak
   numeric: '439'
   writingDirection: null
@@ -30,7 +30,7 @@
       - - '10530'
         - '10563'
       - - 1056F
-    totalCodePoints: 2
+    totalCodePoints: 53
 - code: Ahom
   numeric: '338'
   writingDirection: ltr
@@ -58,7 +58,7 @@
       - - 1173F
       - - '11740'
         - '11746'
-    totalCodePoints: 13
+    totalCodePoints: 65
 - code: Arab
   numeric: '160'
   writingDirection: rtl
@@ -215,7 +215,7 @@
         - 1EEBB
       - - 1EEF0
         - 1EEF1
-    totalCodePoints: 89
+    totalCodePoints: 1373
 - code: Aran
   numeric: '161'
   writingDirection: null
@@ -234,7 +234,7 @@
       - - '10857'
       - - '10858'
         - 1085F
-    totalCodePoints: 3
+    totalCodePoints: 31
 - code: Armn
   numeric: '230'
   writingDirection: ltr
@@ -255,7 +255,7 @@
       - - 058F
       - - FB13
         - FB17
-    totalCodePoints: 9
+    totalCodePoints: 96
 - code: Avst
   numeric: '134'
   writingDirection: rtl
@@ -266,7 +266,7 @@
         - 10B35
       - - 10B39
         - 10B3F
-    totalCodePoints: 2
+    totalCodePoints: 61
 - code: Bali
   numeric: '360'
   writingDirection: ltr
@@ -305,7 +305,7 @@
         - 1B7C
       - - 1B7D
         - 1B7F
-    totalCodePoints: 19
+    totalCodePoints: 127
 - code: Bamu
   numeric: '435'
   writingDirection: ltr
@@ -322,7 +322,7 @@
         - A6F7
       - - '16800'
         - 16A38
-    totalCodePoints: 5
+    totalCodePoints: 657
 - code: Bass
   numeric: '259'
   writingDirection: ltr
@@ -334,7 +334,7 @@
       - - 16AF0
         - 16AF4
       - - 16AF5
-    totalCodePoints: 3
+    totalCodePoints: 36
 - code: Batk
   numeric: '365'
   writingDirection: ltr
@@ -357,7 +357,7 @@
         - 1BF3
       - - 1BFC
         - 1BFF
-    totalCodePoints: 10
+    totalCodePoints: 56
 - code: Beng
   numeric: '325'
   writingDirection: ltr
@@ -411,7 +411,7 @@
       - - 09FC
       - - 09FD
       - - 09FE
-    totalCodePoints: 30
+    totalCodePoints: 96
 - code: Berf
   numeric: '258'
   writingDirection: ltr
@@ -443,7 +443,7 @@
         - 11C59
       - - 11C5A
         - 11C6C
-    totalCodePoints: 11
+    totalCodePoints: 97
 - code: Blis
   numeric: '550'
   writingDirection: null
@@ -463,7 +463,7 @@
         - 312F
       - - 31A0
         - 31BF
-    totalCodePoints: 3
+    totalCodePoints: 77
 - code: Brah
   numeric: '300'
   writingDirection: ltr
@@ -490,7 +490,7 @@
         - '11074'
       - - '11075'
       - - 1107F
-    totalCodePoints: 13
+    totalCodePoints: 115
 - code: Brai
   numeric: '570'
   writingDirection: null
@@ -499,7 +499,7 @@
     ranges:
       - - '2800'
         - 28FF
-    totalCodePoints: 1
+    totalCodePoints: 256
 - code: Bugi
   numeric: '367'
   writingDirection: ltr
@@ -515,7 +515,7 @@
       - - 1A1B
       - - 1A1E
         - 1A1F
-    totalCodePoints: 5
+    totalCodePoints: 30
 - code: Buhd
   numeric: '372'
   writingDirection: ltr
@@ -526,7 +526,7 @@
         - '1751'
       - - '1752'
         - '1753'
-    totalCodePoints: 2
+    totalCodePoints: 20
 - code: Cakm
   numeric: '349'
   writingDirection: ltr
@@ -550,7 +550,7 @@
       - - '11145'
         - '11146'
       - - '11147'
-    totalCodePoints: 10
+    totalCodePoints: 71
 - code: Cans
   numeric: '440'
   writingDirection: ltr
@@ -568,7 +568,7 @@
         - 18F5
       - - 11AB0
         - 11ABF
-    totalCodePoints: 7
+    totalCodePoints: 726
 - code: Cari
   numeric: '201'
   writingDirection: ltr
@@ -577,7 +577,7 @@
     ranges:
       - - 102A0
         - 102D0
-    totalCodePoints: 1
+    totalCodePoints: 49
 - code: Cham
   numeric: '358'
   writingDirection: ltr
@@ -607,7 +607,7 @@
         - AA59
       - - AA5C
         - AA5F
-    totalCodePoints: 13
+    totalCodePoints: 83
 - code: Cher
   numeric: '445'
   writingDirection: ltr
@@ -620,7 +620,7 @@
         - 13FD
       - - AB70
         - ABBF
-    totalCodePoints: 3
+    totalCodePoints: 172
 - code: Chis
   numeric: '298'
   writingDirection: ltr
@@ -638,7 +638,7 @@
         - 10FC4
       - - 10FC5
         - 10FCB
-    totalCodePoints: 2
+    totalCodePoints: 28
 - code: Cirt
   numeric: '291'
   writingDirection: null
@@ -669,7 +669,7 @@
       - - 2CFD
       - - 2CFE
         - 2CFF
-    totalCodePoints: 9
+    totalCodePoints: 137
 - code: Cpmn
   numeric: '402'
   writingDirection: ltr
@@ -680,7 +680,7 @@
         - 12FF0
       - - 12FF1
         - 12FF2
-    totalCodePoints: 2
+    totalCodePoints: 99
 - code: Cprt
   numeric: '403'
   writingDirection: rtl
@@ -696,7 +696,7 @@
         - '10838'
       - - 1083C
       - - 1083F
-    totalCodePoints: 6
+    totalCodePoints: 55
 - code: Cyrl
   numeric: '220'
   writingDirection: ltr
@@ -741,7 +741,7 @@
       - - '1E030'
         - 1E06D
       - - 1E08F
-    totalCodePoints: 24
+    totalCodePoints: 508
 - code: Cyrs
   numeric: '221'
   writingDirection: null
@@ -799,7 +799,7 @@
       - - A8FF
       - - 11B00
         - 11B09
-    totalCodePoints: 28
+    totalCodePoints: 164
 - code: Diak
   numeric: '342'
   writingDirection: ltr
@@ -832,7 +832,7 @@
         - '11946'
       - - '11950'
         - '11959'
-    totalCodePoints: 17
+    totalCodePoints: 72
 - code: Dogr
   numeric: '328'
   writingDirection: ltr
@@ -849,7 +849,7 @@
       - - '11839'
         - 1183A
       - - 1183B
-    totalCodePoints: 6
+    totalCodePoints: 60
 - code: Dsrt
   numeric: '250'
   writingDirection: ltr
@@ -858,7 +858,7 @@
     ranges:
       - - '10400'
         - 1044F
-    totalCodePoints: 1
+    totalCodePoints: 80
 - code: Dupl
   numeric: '755'
   writingDirection: ltr
@@ -877,7 +877,7 @@
       - - 1BC9D
         - 1BC9E
       - - 1BC9F
-    totalCodePoints: 7
+    totalCodePoints: 143
 - code: Egyd
   numeric: '070'
   writingDirection: null
@@ -909,7 +909,7 @@
         - '13455'
       - - '13460'
         - 143FA
-    totalCodePoints: 6
+    totalCodePoints: 5105
 - code: Elba
   numeric: '226'
   writingDirection: ltr
@@ -918,7 +918,7 @@
     ranges:
       - - '10500'
         - '10527'
-    totalCodePoints: 1
+    totalCodePoints: 40
 - code: Elym
   numeric: '128'
   writingDirection: rtl
@@ -927,7 +927,7 @@
     ranges:
       - - 10FE0
         - 10FF6
-    totalCodePoints: 1
+    totalCodePoints: 23
 - code: Ethi
   numeric: '430'
   writingDirection: ltr
@@ -1010,7 +1010,7 @@
         - 1E7EE
       - - 1E7F0
         - 1E7FE
-    totalCodePoints: 39
+    totalCodePoints: 523
 - code: Gara
   numeric: '164'
   writingDirection: rtl
@@ -1033,7 +1033,7 @@
         - 10D85
       - - 10D8E
         - 10D8F
-    totalCodePoints: 10
+    totalCodePoints: 69
 - code: Geok
   numeric: '241'
   writingDirection: null
@@ -1057,7 +1057,7 @@
         - 2D25
       - - 2D27
       - - 2D2D
-    totalCodePoints: 11
+    totalCodePoints: 173
 - code: Geor
   numeric: '240'
   writingDirection: ltr
@@ -1081,7 +1081,7 @@
         - 2D25
       - - 2D27
       - - 2D2D
-    totalCodePoints: 11
+    totalCodePoints: 173
 - code: Glag
   numeric: '225'
   writingDirection: ltr
@@ -1100,7 +1100,7 @@
         - '1E024'
       - - '1E026'
         - 1E02A
-    totalCodePoints: 6
+    totalCodePoints: 134
 - code: Gong
   numeric: '312'
   writingDirection: ltr
@@ -1125,7 +1125,7 @@
       - - 11D98
       - - 11DA0
         - 11DA9
-    totalCodePoints: 11
+    totalCodePoints: 63
 - code: Gonm
   numeric: '313'
   writingDirection: ltr
@@ -1149,7 +1149,7 @@
       - - 11D47
       - - 11D50
         - 11D59
-    totalCodePoints: 10
+    totalCodePoints: 75
 - code: Goth
   numeric: '206'
   writingDirection: ltr
@@ -1162,7 +1162,7 @@
       - - '10342'
         - '10349'
       - - 1034A
-    totalCodePoints: 4
+    totalCodePoints: 27
 - code: Gran
   numeric: '343'
   writingDirection: ltr
@@ -1206,7 +1206,7 @@
         - 1136C
       - - '11370'
         - '11374'
-    totalCodePoints: 21
+    totalCodePoints: 85
 - code: Grek
   numeric: '200'
   writingDirection: ltr
@@ -1306,7 +1306,7 @@
       - - 1D242
         - 1D244
       - - 1D245
-    totalCodePoints: 55
+    totalCodePoints: 518
 - code: Gujr
   numeric: '320'
   writingDirection: ltr
@@ -1352,7 +1352,7 @@
       - - 0AF9
       - - 0AFA
         - 0AFF
-    totalCodePoints: 24
+    totalCodePoints: 91
 - code: Gukh
   numeric: '397'
   writingDirection: ltr
@@ -1369,7 +1369,7 @@
         - 1612F
       - - '16130'
         - '16139'
-    totalCodePoints: 5
+    totalCodePoints: 58
 - code: Guru
   numeric: '310'
   writingDirection: ltr
@@ -1414,7 +1414,7 @@
         - 0A74
       - - 0A75
       - - 0A76
-    totalCodePoints: 22
+    totalCodePoints: 80
 - code: Hanb
   numeric: '503'
   writingDirection: ltr
@@ -1456,7 +1456,7 @@
         - FFD7
       - - FFDA
         - FFDC
-    totalCodePoints: 14
+    totalCodePoints: 11739
 - code: Hani
   numeric: '500'
   writingDirection: ltr
@@ -1506,7 +1506,7 @@
         - 3134A
       - - '31350'
         - 323AF
-    totalCodePoints: 24
+    totalCodePoints: 99030
 - code: Hano
   numeric: '371'
   writingDirection: ltr
@@ -1518,7 +1518,7 @@
       - - '1732'
         - '1733'
       - - '1734'
-    totalCodePoints: 3
+    totalCodePoints: 21
 - code: Hans
   numeric: '501'
   writingDirection: ltr
@@ -1545,7 +1545,7 @@
         - 108F5
       - - 108FB
         - 108FF
-    totalCodePoints: 3
+    totalCodePoints: 26
 - code: Hebr
   numeric: '125'
   writingDirection: rtl
@@ -1586,7 +1586,7 @@
         - FB44
       - - FB46
         - FB4F
-    totalCodePoints: 22
+    totalCodePoints: 134
 - code: Hira
   numeric: '410'
   writingDirection: ltr
@@ -1604,7 +1604,7 @@
       - - 1B150
         - 1B152
       - - 1F200
-    totalCodePoints: 7
+    totalCodePoints: 381
 - code: Hluw
   numeric: '080'
   writingDirection: ltr
@@ -1613,7 +1613,7 @@
     ranges:
       - - '14400'
         - '14646'
-    totalCodePoints: 1
+    totalCodePoints: 583
 - code: Hmng
   numeric: '450'
   writingDirection: ltr
@@ -1640,7 +1640,7 @@
         - 16B77
       - - 16B7D
         - 16B8F
-    totalCodePoints: 11
+    totalCodePoints: 127
 - code: Hmnp
   numeric: '451'
   writingDirection: ltr
@@ -1657,7 +1657,7 @@
         - '1E149'
       - - 1E14E
       - - 1E14F
-    totalCodePoints: 6
+    totalCodePoints: 71
 - code: Hntl
   numeric: '504'
   writingDirection: null
@@ -1684,7 +1684,7 @@
         - 10CF2
       - - 10CFA
         - 10CFF
-    totalCodePoints: 3
+    totalCodePoints: 108
 - code: Inds
   numeric: '610'
   writingDirection: null
@@ -1704,7 +1704,7 @@
         - '10323'
       - - 1032D
         - 1032F
-    totalCodePoints: 3
+    totalCodePoints: 39
 - code: Jamo
   numeric: '284'
   writingDirection: ltr
@@ -1740,7 +1740,7 @@
         - A9D9
       - - A9DE
         - A9DF
-    totalCodePoints: 12
+    totalCodePoints: 90
 - code: Jpan
   numeric: '413'
   writingDirection: ltr
@@ -1768,7 +1768,7 @@
       - - A926
         - A92D
       - - A92F
-    totalCodePoints: 4
+    totalCodePoints: 47
 - code: Kana
   numeric: '411'
   writingDirection: ltr
@@ -1802,7 +1802,7 @@
       - - 1B155
       - - 1B164
         - 1B167
-    totalCodePoints: 15
+    totalCodePoints: 321
 - code: Kawi
   numeric: '368'
   writingDirection: ltr
@@ -1831,7 +1831,7 @@
       - - 11F50
         - 11F59
       - - 11F5A
-    totalCodePoints: 14
+    totalCodePoints: 87
 - code: Khar
   numeric: '305'
   writingDirection: rtl
@@ -1858,7 +1858,7 @@
         - 10A48
       - - 10A50
         - 10A58
-    totalCodePoints: 11
+    totalCodePoints: 68
 - code: Khmr
   numeric: '355'
   writingDirection: ltr
@@ -1893,7 +1893,7 @@
         - 17F9
       - - '19E0'
         - 19FF
-    totalCodePoints: 17
+    totalCodePoints: 146
 - code: Khoj
   numeric: '322'
   writingDirection: ltr
@@ -1920,7 +1920,7 @@
       - - 1123F
         - '11240'
       - - '11241'
-    totalCodePoints: 12
+    totalCodePoints: 65
 - code: Kitl
   numeric: '505'
   writingDirection: null
@@ -1938,7 +1938,7 @@
       - - 18B00
         - 18CD5
       - - 18CFF
-    totalCodePoints: 3
+    totalCodePoints: 472
 - code: Knda
   numeric: '345'
   writingDirection: ltr
@@ -1986,7 +1986,7 @@
       - - 0CF1
         - 0CF2
       - - 0CF3
-    totalCodePoints: 25
+    totalCodePoints: 91
 - code: Kore
   numeric: '287'
   writingDirection: ltr
@@ -2017,7 +2017,7 @@
         - 16D6F
       - - 16D70
         - 16D79
-    totalCodePoints: 5
+    totalCodePoints: 58
 - code: Kthi
   numeric: '317'
   writingDirection: ltr
@@ -2044,7 +2044,7 @@
         - 110C1
       - - 110C2
       - - 110CD
-    totalCodePoints: 12
+    totalCodePoints: 68
 - code: Lana
   numeric: '351'
   writingDirection: ltr
@@ -2079,7 +2079,7 @@
       - - 1AA7
       - - 1AA8
         - 1AAD
-    totalCodePoints: 18
+    totalCodePoints: 127
 - code: Laoo
   numeric: '356'
   writingDirection: ltr
@@ -2111,7 +2111,7 @@
         - 0ED9
       - - 0EDC
         - 0EDF
-    totalCodePoints: 15
+    totalCodePoints: 83
 - code: Latf
   numeric: '217'
   writingDirection: null
@@ -2245,7 +2245,7 @@
         - 1DF1E
       - - 1DF25
         - 1DF2A
-    totalCodePoints: 64
+    totalCodePoints: 1487
 - code: Leke
   numeric: '364'
   writingDirection: null
@@ -2275,7 +2275,7 @@
         - 1C49
       - - 1C4D
         - 1C4F
-    totalCodePoints: 8
+    totalCodePoints: 74
 - code: Limb
   numeric: '336'
   writingDirection: ltr
@@ -2304,7 +2304,7 @@
         - '1945'
       - - '1946'
         - 194F
-    totalCodePoints: 12
+    totalCodePoints: 68
 - code: Lina
   numeric: '400'
   writingDirection: ltr
@@ -2317,7 +2317,7 @@
         - '10755'
       - - '10760'
         - '10767'
-    totalCodePoints: 3
+    totalCodePoints: 341
 - code: Linb
   numeric: '401'
   writingDirection: ltr
@@ -2338,7 +2338,7 @@
         - 1005D
       - - '10080'
         - 100FA
-    totalCodePoints: 7
+    totalCodePoints: 211
 - code: Lisu
   numeric: '399'
   writingDirection: ltr
@@ -2352,7 +2352,7 @@
       - - A4FE
         - A4FF
       - - 11FB0
-    totalCodePoints: 4
+    totalCodePoints: 49
 - code: Loma
   numeric: '437'
   writingDirection: null
@@ -2368,7 +2368,7 @@
     ranges:
       - - '10280'
         - 1029C
-    totalCodePoints: 1
+    totalCodePoints: 29
 - code: Lydi
   numeric: '116'
   writingDirection: rtl
@@ -2378,7 +2378,7 @@
       - - '10920'
         - '10939'
       - - 1093F
-    totalCodePoints: 2
+    totalCodePoints: 27
 - code: Mahj
   numeric: '314'
   writingDirection: ltr
@@ -2391,7 +2391,7 @@
       - - '11174'
         - '11175'
       - - '11176'
-    totalCodePoints: 4
+    totalCodePoints: 39
 - code: Maka
   numeric: '366'
   writingDirection: ltr
@@ -2406,7 +2406,7 @@
         - 11EF6
       - - 11EF7
         - 11EF8
-    totalCodePoints: 4
+    totalCodePoints: 25
 - code: Mand
   numeric: '140'
   writingDirection: rtl
@@ -2418,7 +2418,7 @@
       - - '0859'
         - 085B
       - - 085E
-    totalCodePoints: 3
+    totalCodePoints: 29
 - code: Mani
   numeric: '139'
   writingDirection: rtl
@@ -2436,7 +2436,7 @@
         - 10AEF
       - - 10AF0
         - 10AF6
-    totalCodePoints: 6
+    totalCodePoints: 51
 - code: Marc
   numeric: '332'
   writingDirection: ltr
@@ -2458,7 +2458,7 @@
       - - 11CB4
       - - 11CB5
         - 11CB6
-    totalCodePoints: 9
+    totalCodePoints: 68
 - code: Maya
   numeric: '090'
   writingDirection: null
@@ -2478,7 +2478,7 @@
         - '16E96'
       - - '16E97'
         - 16E9A
-    totalCodePoints: 3
+    totalCodePoints: 91
 - code: Mend
   numeric: '438'
   writingDirection: rtl
@@ -2491,7 +2491,7 @@
         - 1E8CF
       - - 1E8D0
         - 1E8D6
-    totalCodePoints: 3
+    totalCodePoints: 213
 - code: Merc
   numeric: '101'
   writingDirection: rtl
@@ -2508,7 +2508,7 @@
         - 109CF
       - - 109D2
         - 109FF
-    totalCodePoints: 5
+    totalCodePoints: 90
 - code: Mero
   numeric: '100'
   writingDirection: rtl
@@ -2517,7 +2517,7 @@
     ranges:
       - - '10980'
         - 1099F
-    totalCodePoints: 1
+    totalCodePoints: 32
 - code: Mlym
   numeric: '347'
   writingDirection: ltr
@@ -2564,7 +2564,7 @@
       - - 0D79
       - - 0D7A
         - 0D7F
-    totalCodePoints: 23
+    totalCodePoints: 118
 - code: Modi
   numeric: '324'
   writingDirection: ltr
@@ -2588,7 +2588,7 @@
       - - '11644'
       - - '11650'
         - '11659'
-    totalCodePoints: 10
+    totalCodePoints: 79
 - code: Mong
   numeric: '145'
   writingDirection: ltr
@@ -2622,7 +2622,7 @@
       - - 18AA
       - - '11660'
         - 1166C
-    totalCodePoints: 17
+    totalCodePoints: 168
 - code: Moon
   numeric: '218'
   writingDirection: null
@@ -2642,7 +2642,7 @@
         - 16A69
       - - 16A6E
         - 16A6F
-    totalCodePoints: 3
+    totalCodePoints: 43
 - code: Mtei
   numeric: '337'
   writingDirection: ltr
@@ -2678,7 +2678,7 @@
       - - ABED
       - - ABF0
         - ABF9
-    totalCodePoints: 19
+    totalCodePoints: 79
 - code: Mult
   numeric: '323'
   writingDirection: ltr
@@ -2695,7 +2695,7 @@
       - - 1129F
         - 112A8
       - - 112A9
-    totalCodePoints: 6
+    totalCodePoints: 38
 - code: Mymr
   numeric: '350'
   writingDirection: ltr
@@ -2788,7 +2788,7 @@
         - AA7F
       - - 116D0
         - '116E3'
-    totalCodePoints: 51
+    totalCodePoints: 243
 - code: Nagm
   numeric: '295'
   writingDirection: ltr
@@ -2802,7 +2802,7 @@
         - 1E4EF
       - - 1E4F0
         - 1E4F9
-    totalCodePoints: 4
+    totalCodePoints: 42
 - code: Nand
   numeric: '311'
   writingDirection: ltr
@@ -2826,7 +2826,7 @@
       - - '119E2'
       - - '119E3'
       - - '119E4'
-    totalCodePoints: 11
+    totalCodePoints: 65
 - code: Narb
   numeric: '106'
   writingDirection: rtl
@@ -2837,7 +2837,7 @@
         - 10A9C
       - - 10A9D
         - 10A9F
-    totalCodePoints: 2
+    totalCodePoints: 32
 - code: Nbat
   numeric: '159'
   writingDirection: rtl
@@ -2848,7 +2848,7 @@
         - 1089E
       - - 108A7
         - 108AF
-    totalCodePoints: 2
+    totalCodePoints: 40
 - code: Newa
   numeric: '333'
   writingDirection: ltr
@@ -2879,7 +2879,7 @@
       - - 1145E
       - - 1145F
         - '11461'
-    totalCodePoints: 14
+    totalCodePoints: 97
 - code: Nkdb
   numeric: '085'
   writingDirection: null
@@ -2915,7 +2915,7 @@
       - - 07FD
       - - 07FE
         - 07FF
-    totalCodePoints: 9
+    totalCodePoints: 62
 - code: Nshu
   numeric: '499'
   writingDirection: ltr
@@ -2925,7 +2925,7 @@
       - - 16FE1
       - - 1B170
         - 1B2FB
-    totalCodePoints: 2
+    totalCodePoints: 397
 - code: Ogam
   numeric: '212'
   writingDirection: ltr
@@ -2937,7 +2937,7 @@
         - 169A
       - - 169B
       - - 169C
-    totalCodePoints: 4
+    totalCodePoints: 29
 - code: Olck
   numeric: '261'
   writingDirection: ltr
@@ -2952,7 +2952,7 @@
         - 1C7D
       - - 1C7E
         - 1C7F
-    totalCodePoints: 4
+    totalCodePoints: 48
 - code: Onao
   numeric: '296'
   writingDirection: ltr
@@ -2967,7 +2967,7 @@
       - - 1E5F1
         - 1E5FA
       - - 1E5FF
-    totalCodePoints: 5
+    totalCodePoints: 44
 - code: Orkh
   numeric: '175'
   writingDirection: rtl
@@ -2976,7 +2976,7 @@
     ranges:
       - - 10C00
         - 10C48
-    totalCodePoints: 1
+    totalCodePoints: 73
 - code: Orya
   numeric: '327'
   writingDirection: ltr
@@ -3025,7 +3025,7 @@
       - - 0B71
       - - 0B72
         - 0B77
-    totalCodePoints: 26
+    totalCodePoints: 91
 - code: Osge
   numeric: '219'
   writingDirection: ltr
@@ -3036,7 +3036,7 @@
         - 104D3
       - - 104D8
         - 104FB
-    totalCodePoints: 2
+    totalCodePoints: 72
 - code: Osma
   numeric: '260'
   writingDirection: ltr
@@ -3047,7 +3047,7 @@
         - 1049D
       - - 104A0
         - 104A9
-    totalCodePoints: 2
+    totalCodePoints: 40
 - code: Ougr
   numeric: '143'
   writingDirection: rtl
@@ -3060,7 +3060,7 @@
         - 10F85
       - - 10F86
         - 10F89
-    totalCodePoints: 3
+    totalCodePoints: 26
 - code: Palm
   numeric: '126'
   writingDirection: rtl
@@ -3073,7 +3073,7 @@
         - '10878'
       - - '10879'
         - 1087F
-    totalCodePoints: 3
+    totalCodePoints: 32
 - code: Pauc
   numeric: '263'
   writingDirection: ltr
@@ -3082,7 +3082,7 @@
     ranges:
       - - 11AC0
         - 11AF8
-    totalCodePoints: 1
+    totalCodePoints: 57
 - code: Pcun
   numeric: '015'
   writingDirection: null
@@ -3107,7 +3107,7 @@
         - '10375'
       - - '10376'
         - 1037A
-    totalCodePoints: 2
+    totalCodePoints: 43
 - code: Phag
   numeric: '331'
   writingDirection: ltr
@@ -3118,7 +3118,7 @@
         - A873
       - - A874
         - A877
-    totalCodePoints: 2
+    totalCodePoints: 56
 - code: Phli
   numeric: '131'
   writingDirection: rtl
@@ -3129,7 +3129,7 @@
         - 10B72
       - - 10B78
         - 10B7F
-    totalCodePoints: 2
+    totalCodePoints: 27
 - code: Phlp
   numeric: '132'
   writingDirection: rtl
@@ -3142,7 +3142,7 @@
         - 10B9C
       - - 10BA9
         - 10BAF
-    totalCodePoints: 3
+    totalCodePoints: 29
 - code: Phlv
   numeric: '133'
   writingDirection: null
@@ -3161,7 +3161,7 @@
       - - '10916'
         - 1091B
       - - 1091F
-    totalCodePoints: 3
+    totalCodePoints: 29
 - code: Piqd
   numeric: '293'
   writingDirection: null
@@ -3185,7 +3185,7 @@
         - 16F92
       - - 16F93
         - 16F9F
-    totalCodePoints: 6
+    totalCodePoints: 149
 - code: Prti
   numeric: '130'
   writingDirection: rtl
@@ -3196,7 +3196,7 @@
         - 10B55
       - - 10B58
         - 10B5F
-    totalCodePoints: 2
+    totalCodePoints: 30
 - code: Psin
   numeric: '103'
   writingDirection: null
@@ -3238,7 +3238,7 @@
       - - A952
         - A953
       - - A95F
-    totalCodePoints: 4
+    totalCodePoints: 37
 - code: Rohg
   numeric: '167'
   writingDirection: rtl
@@ -3251,7 +3251,7 @@
         - 10D27
       - - 10D30
         - 10D39
-    totalCodePoints: 3
+    totalCodePoints: 50
 - code: Roro
   numeric: '620'
   writingDirection: null
@@ -3271,7 +3271,7 @@
         - 16F0
       - - 16F1
         - 16F8
-    totalCodePoints: 3
+    totalCodePoints: 86
 - code: Samr
   numeric: '123'
   writingDirection: rtl
@@ -3293,7 +3293,7 @@
         - 082D
       - - '0830'
         - 083E
-    totalCodePoints: 9
+    totalCodePoints: 61
 - code: Sara
   numeric: '292'
   writingDirection: null
@@ -3312,7 +3312,7 @@
       - - 10A7D
         - 10A7E
       - - 10A7F
-    totalCodePoints: 3
+    totalCodePoints: 32
 - code: Saur
   numeric: '344'
   writingDirection: ltr
@@ -3331,7 +3331,7 @@
         - A8CF
       - - A8D0
         - A8D9
-    totalCodePoints: 6
+    totalCodePoints: 82
 - code: Seal
   numeric: '590'
   writingDirection: null
@@ -3367,7 +3367,7 @@
         - 1DA9F
       - - 1DAA1
         - 1DAAF
-    totalCodePoints: 12
+    totalCodePoints: 672
 - code: Shaw
   numeric: '281'
   writingDirection: ltr
@@ -3376,7 +3376,7 @@
     ranges:
       - - '10450'
         - 1047F
-    totalCodePoints: 1
+    totalCodePoints: 48
 - code: Shrd
   numeric: '319'
   writingDirection: ltr
@@ -3410,7 +3410,7 @@
       - - 111DC
       - - 111DD
         - 111DF
-    totalCodePoints: 17
+    totalCodePoints: 96
 - code: Shui
   numeric: '530'
   writingDirection: null
@@ -3443,7 +3443,7 @@
         - 115DB
       - - 115DC
         - 115DD
-    totalCodePoints: 10
+    totalCodePoints: 92
 - code: Sidt
   numeric: '180'
   writingDirection: rtl
@@ -3466,7 +3466,7 @@
         - 112EA
       - - 112F0
         - 112F9
-    totalCodePoints: 5
+    totalCodePoints: 69
 - code: Sinh
   numeric: '348'
   writingDirection: ltr
@@ -3500,7 +3500,7 @@
       - - 0DF4
       - - '111E1'
         - 111F4
-    totalCodePoints: 16
+    totalCodePoints: 111
 - code: Sogd
   numeric: '141'
   writingDirection: rtl
@@ -3515,7 +3515,7 @@
         - 10F54
       - - 10F55
         - 10F59
-    totalCodePoints: 4
+    totalCodePoints: 42
 - code: Sogo
   numeric: '142'
   writingDirection: rtl
@@ -3527,7 +3527,7 @@
       - - 10F1D
         - 10F26
       - - 10F27
-    totalCodePoints: 3
+    totalCodePoints: 40
 - code: Sora
   numeric: '398'
   writingDirection: ltr
@@ -3538,7 +3538,7 @@
         - '110E8'
       - - 110F0
         - 110F9
-    totalCodePoints: 2
+    totalCodePoints: 35
 - code: Soyo
   numeric: '329'
   writingDirection: ltr
@@ -3564,7 +3564,7 @@
       - - 11A9D
       - - 11A9E
         - 11AA2
-    totalCodePoints: 11
+    totalCodePoints: 83
 - code: Sund
   numeric: '362'
   writingDirection: ltr
@@ -3594,7 +3594,7 @@
         - 1BBF
       - - 1CC0
         - 1CC7
-    totalCodePoints: 13
+    totalCodePoints: 72
 - code: Sunu
   numeric: '274'
   writingDirection: ltr
@@ -3606,7 +3606,7 @@
       - - 11BE1
       - - 11BF0
         - 11BF9
-    totalCodePoints: 3
+    totalCodePoints: 44
 - code: Sylo
   numeric: '316'
   writingDirection: ltr
@@ -3632,7 +3632,7 @@
       - - A828
         - A82B
       - - A82C
-    totalCodePoints: 12
+    totalCodePoints: 45
 - code: Syrc
   numeric: '135'
   writingDirection: rtl
@@ -3652,7 +3652,7 @@
         - 074F
       - - '0860'
         - 086A
-    totalCodePoints: 8
+    totalCodePoints: 88
 - code: Syre
   numeric: '138'
   writingDirection: null
@@ -3686,7 +3686,7 @@
         - '1770'
       - - '1772'
         - '1773'
-    totalCodePoints: 3
+    totalCodePoints: 18
 - code: Takr
   numeric: '321'
   writingDirection: ltr
@@ -3708,7 +3708,7 @@
       - - 116B9
       - - 116C0
         - 116C9
-    totalCodePoints: 11
+    totalCodePoints: 68
 - code: Tale
   numeric: '353'
   writingDirection: ltr
@@ -3719,7 +3719,7 @@
         - 196D
       - - '1970'
         - '1974'
-    totalCodePoints: 2
+    totalCodePoints: 35
 - code: Talu
   numeric: '354'
   writingDirection: ltr
@@ -3735,7 +3735,7 @@
       - - 19DA
       - - 19DE
         - 19DF
-    totalCodePoints: 5
+    totalCodePoints: 83
 - code: Taml
   numeric: '346'
   writingDirection: ltr
@@ -3790,7 +3790,7 @@
       - - 11FE1
         - 11FF1
       - - 11FFF
-    totalCodePoints: 29
+    totalCodePoints: 123
 - code: Tang
   numeric: '520'
   writingDirection: ltr
@@ -3804,7 +3804,7 @@
         - 18AFF
       - - 18D00
         - 18D08
-    totalCodePoints: 4
+    totalCodePoints: 6914
 - code: Tavt
   numeric: '359'
   writingDirection: ltr
@@ -3833,7 +3833,7 @@
       - - AADD
       - - AADE
         - AADF
-    totalCodePoints: 14
+    totalCodePoints: 72
 - code: Tayo
   numeric: '380'
   writingDirection: ltr
@@ -3884,7 +3884,7 @@
       - - 0C78
         - 0C7E
       - - 0C7F
-    totalCodePoints: 22
+    totalCodePoints: 100
 - code: Teng
   numeric: '290'
   writingDirection: null
@@ -3903,7 +3903,7 @@
       - - 2D6F
       - - 2D70
       - - 2D7F
-    totalCodePoints: 4
+    totalCodePoints: 59
 - code: Tglg
   numeric: '370'
   writingDirection: ltr
@@ -3916,7 +3916,7 @@
         - '1714'
       - - '1715'
       - - 171F
-    totalCodePoints: 4
+    totalCodePoints: 23
 - code: Thaa
   numeric: '170'
   writingDirection: rtl
@@ -3928,7 +3928,7 @@
       - - 07A6
         - 07B0
       - - 07B1
-    totalCodePoints: 3
+    totalCodePoints: 50
 - code: Thai
   numeric: '352'
   writingDirection: ltr
@@ -3952,7 +3952,7 @@
         - '0E59'
       - - 0E5A
         - 0E5B
-    totalCodePoints: 10
+    totalCodePoints: 86
 - code: Tibt
   numeric: '330'
   writingDirection: ltr
@@ -4017,7 +4017,7 @@
         - 0FD4
       - - 0FD9
         - 0FDA
-    totalCodePoints: 37
+    totalCodePoints: 207
 - code: Tirh
   numeric: '326'
   writingDirection: ltr
@@ -4045,7 +4045,7 @@
       - - 114C7
       - - 114D0
         - 114D9
-    totalCodePoints: 13
+    totalCodePoints: 82
 - code: Tnsa
   numeric: '275'
   writingDirection: ltr
@@ -4056,7 +4056,7 @@
         - 16ABE
       - - 16AC0
         - 16AC9
-    totalCodePoints: 2
+    totalCodePoints: 89
 - code: Todr
   numeric: '229'
   writingDirection: ltr
@@ -4065,7 +4065,7 @@
     ranges:
       - - 105C0
         - 105F3
-    totalCodePoints: 1
+    totalCodePoints: 52
 - code: Tols
   numeric: '299'
   writingDirection: ltr
@@ -4082,7 +4082,7 @@
       - - '1E290'
         - 1E2AD
       - - 1E2AE
-    totalCodePoints: 2
+    totalCodePoints: 31
 - code: Tutg
   numeric: '341'
   writingDirection: ltr
@@ -4118,7 +4118,7 @@
         - 113D8
       - - '113E1'
         - '113E2'
-    totalCodePoints: 20
+    totalCodePoints: 80
 - code: Ugar
   numeric: '040'
   writingDirection: ltr
@@ -4128,7 +4128,7 @@
       - - '10380'
         - 1039D
       - - 1039F
-    totalCodePoints: 2
+    totalCodePoints: 31
 - code: Vaii
   numeric: '470'
   writingDirection: ltr
@@ -4146,7 +4146,7 @@
         - A629
       - - A62A
         - A62B
-    totalCodePoints: 6
+    totalCodePoints: 300
 - code: Visp
   numeric: '280'
   writingDirection: null
@@ -4176,7 +4176,7 @@
         - 105B9
       - - 105BB
         - 105BC
-    totalCodePoints: 8
+    totalCodePoints: 70
 - code: Wara
   numeric: '262'
   writingDirection: ltr
@@ -4190,7 +4190,7 @@
       - - 118EA
         - 118F2
       - - 118FF
-    totalCodePoints: 4
+    totalCodePoints: 84
 - code: Wcho
   numeric: '283'
   writingDirection: ltr
@@ -4204,7 +4204,7 @@
       - - 1E2F0
         - 1E2F9
       - - 1E2FF
-    totalCodePoints: 4
+    totalCodePoints: 59
 - code: Wole
   numeric: '480'
   writingDirection: null
@@ -4225,7 +4225,7 @@
       - - 103D0
       - - 103D1
         - 103D5
-    totalCodePoints: 4
+    totalCodePoints: 50
 - code: Xsux
   numeric: '020'
   writingDirection: ltr
@@ -4240,7 +4240,7 @@
         - '12474'
       - - '12480'
         - '12543'
-    totalCodePoints: 4
+    totalCodePoints: 1234
 - code: Yezi
   numeric: '192'
   writingDirection: rtl
@@ -4254,7 +4254,7 @@
       - - 10EAD
       - - 10EB0
         - 10EB1
-    totalCodePoints: 4
+    totalCodePoints: 47
 - code: Yiii
   numeric: '460'
   writingDirection: ltr
@@ -4268,7 +4268,7 @@
         - A48C
       - - A490
         - A4C6
-    totalCodePoints: 4
+    totalCodePoints: 1220
 - code: Zanb
   numeric: '339'
   writingDirection: ltr
@@ -4289,7 +4289,7 @@
       - - 11A3F
         - 11A46
       - - 11A47
-    totalCodePoints: 9
+    totalCodePoints: 72
 - code: Zinh
   numeric: '994'
   writingDirection: null
@@ -4358,7 +4358,7 @@
         - 1D1AD
       - - E0100
         - E01EF
-    totalCodePoints: 35
+    totalCodePoints: 657
 - code: Zmth
   numeric: '995'
   writingDirection: null
@@ -5280,7 +5280,7 @@
       - - E0001
       - - E0020
         - E007F
-    totalCodePoints: 608
+    totalCodePoints: 9053
 - code: Zzzz
   numeric: '999'
   writingDirection: null
