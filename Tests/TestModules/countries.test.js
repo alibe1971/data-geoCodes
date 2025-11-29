@@ -1,7 +1,5 @@
 import { setupApp } from '../setupTests';
 import {countries} from "../../Data/built/node/countries";
-// import {requirements} from "../../Lib/utils";
-// import {configBuild} from "../../Lib/configBuild";
 
 let defTranslation;
 let defLang;
