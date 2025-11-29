@@ -21,18 +21,28 @@ global.APP = {
         },
         geoSets: {
             count: 62
+        },
+        languages: {
+            count: 7923
+        },
+        scripts: {
+            count: 226
         }
     },
     config: {},
     data: {
         countries: {},
         currencies: {},
-        geoSets: {}
+        geoSets: {},
+        languages: {},
+        scripts: {}
     },
     translations: {
         countries: {},
         currencies: {},
-        geoSets: {}
+        geoSets: {},
+        languages: {},
+        scripts: {}
     },
     extra: {
         countries: {
