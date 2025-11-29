@@ -1,6 +1,5 @@
 import { setupApp } from '../setupTests';
 import {languages} from "../../Data/built/node/languages";
-import {countries} from "../../Data/built/node/countries.js";
 
 let defTranslation;
 let defLang;
