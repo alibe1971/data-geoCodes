@@ -1978,7 +1978,7 @@ const Countries = `[
         },
         "currencies": {
             "legalTenders": [
-                "BGN"
+                "EUR"
             ],
             "widelyAccepted": []
         },

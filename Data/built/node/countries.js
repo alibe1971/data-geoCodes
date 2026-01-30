@@ -1979,7 +1979,7 @@ export const countries = [
         },
         currencies: {
             legalTenders: [
-                "BGN"
+                "EUR"
             ],
             widelyAccepted: []
         },

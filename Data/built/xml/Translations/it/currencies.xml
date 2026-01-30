@@ -39,9 +39,6 @@
     <currency key="BDT">
         <name>Taka</name>
     </currency>
-    <currency key="BGN">
-        <name>Lev Bulgaro</name>
-    </currency>
     <currency key="BHD">
         <name>Dinaro del Bahrain</name>
     </currency>

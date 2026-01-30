@@ -1624,7 +1624,7 @@
             "historical": []
         },
         "currencies": {
-            "legalTenders": ["BGN"],
+            "legalTenders": ["EUR"],
             "widelyAccepted": []
         },
         "dialCodes": {

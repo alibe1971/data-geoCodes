@@ -17,7 +17,7 @@ global.APP = {
             count: 250
         },
         currencies: {
-            count: 180
+            count: 179
         },
         geoSets: {
             count: 62

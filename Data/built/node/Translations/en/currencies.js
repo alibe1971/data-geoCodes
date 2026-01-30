@@ -59,9 +59,6 @@ export const currencies = {
     BDT: {
         name: "Taka"
     },
-    BGN: {
-        name: "Bulgarian Lev"
-    },
     BHD: {
         name: "Bahraini Dinar"
     },

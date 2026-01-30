@@ -58,9 +58,6 @@ const Currencies = `{
     "BDT": {
         "name": "Taka"
     },
-    "BGN": {
-        "name": "Bulgarian Lev"
-    },
     "BHD": {
         "name": "Bahraini Dinar"
     },

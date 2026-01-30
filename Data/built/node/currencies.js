@@ -99,12 +99,6 @@ export const currencies = [
         decimal: 2
     },
     {
-        isoAlpha: "BGN",
-        isoNumber: "975",
-        symbol: "лв",
-        decimal: 2
-    },
-    {
         isoAlpha: "BHD",
         isoNumber: "048",
         symbol: null,

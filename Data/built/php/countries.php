@@ -1978,7 +1978,7 @@ return [
         ],
         'currencies' => [
             'legalTenders' => [
-                'BGN'
+                'EUR'
             ],
             'widelyAccepted' => []
         ],

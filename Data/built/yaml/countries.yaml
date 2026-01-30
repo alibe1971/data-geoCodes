@@ -3183,7 +3183,7 @@
     historical: []
   currencies:
     legalTenders:
-      - BGN
+      - EUR
     widelyAccepted: []
   dialCodes:
     deJure:

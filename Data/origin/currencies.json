@@ -104,14 +104,6 @@
         "NOTES": []
     },
     {
-        "LABEL": "Bulgarian Lev",
-        "isoAlpha": "BGN",
-        "isoNumber": "975",
-        "symbol": "лв",
-        "decimal": 2,
-        "NOTES": []
-    },
-    {
         "LABEL": "Bahraini Dinar",
         "isoAlpha": "BHD",
         "isoNumber": "048",
