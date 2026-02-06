@@ -309,7 +309,7 @@
     <currency index="51">
         <isoAlpha>GEL</isoAlpha>
         <isoNumber>981</isoNumber>
-        <symbol/>
+        <symbol>₾</symbol>
         <decimal>2</decimal>
     </currency>
     <currency index="52">
@@ -435,7 +435,7 @@
     <currency index="72">
         <isoAlpha>KGS</isoAlpha>
         <isoNumber>417</isoNumber>
-        <symbol>лв</symbol>
+        <symbol/>
         <decimal>2</decimal>
     </currency>
     <currency index="73">
@@ -477,13 +477,13 @@
     <currency index="79">
         <isoAlpha>KZT</isoAlpha>
         <isoNumber>398</isoNumber>
-        <symbol>лв</symbol>
+        <symbol>₸</symbol>
         <decimal>2</decimal>
     </currency>
     <currency index="80">
         <isoAlpha>LAK</isoAlpha>
         <isoNumber>418</isoNumber>
-        <symbol>LAK</symbol>
+        <symbol>₭</symbol>
         <decimal>2</decimal>
     </currency>
     <currency index="81">
@@ -915,7 +915,7 @@
     <currency index="152">
         <isoAlpha>UZS</isoAlpha>
         <isoNumber>860</isoNumber>
-        <symbol>лв</symbol>
+        <symbol/>
         <decimal>2</decimal>
     </currency>
     <currency index="153">

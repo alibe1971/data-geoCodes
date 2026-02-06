@@ -204,7 +204,7 @@
   decimal: 2
 - isoAlpha: GEL
   isoNumber: '981'
-  symbol: null
+  symbol: ₾
   decimal: 2
 - isoAlpha: GHS
   isoNumber: '936'
@@ -288,7 +288,7 @@
   decimal: 2
 - isoAlpha: KGS
   isoNumber: '417'
-  symbol: лв
+  symbol: null
   decimal: 2
 - isoAlpha: KHR
   isoNumber: '116'
@@ -316,11 +316,11 @@
   decimal: 2
 - isoAlpha: KZT
   isoNumber: '398'
-  symbol: лв
+  symbol: ₸
   decimal: 2
 - isoAlpha: LAK
   isoNumber: '418'
-  symbol: LAK
+  symbol: ₭
   decimal: 2
 - isoAlpha: LBP
   isoNumber: '422'
@@ -608,7 +608,7 @@
   decimal: 4
 - isoAlpha: UZS
   isoNumber: '860'
-  symbol: лв
+  symbol: null
   decimal: 2
 - isoAlpha: VED
   isoNumber: '926'
