@@ -2811,7 +2811,6 @@
             </widelySpoken>
             <localCommunities>
                 <language>gub</language>
-                <language>yrl</language>
                 <language>gun</language>
                 <language>kai</language>
                 <language>xav</language>
@@ -3319,7 +3318,6 @@
                 <language>inb</language>
                 <language>pln</language>
                 <language>gym</language>
-                <language>yua</language>
                 <language>tzj</language>
             </localCommunities>
             <extraTerritorialCommunities/>
@@ -6351,9 +6349,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official>
-                    <language>fij</language>
-                </official>
+                <official/>
                 <recognized/>
                 <used/>
             </signs>
@@ -7289,7 +7285,6 @@
                 <language>aka</language>
                 <language>twi</language>
                 <language>ewe</language>
-                <language>dag</language>
                 <language>gaa</language>
                 <language>gon</language>
                 <language>kpe</language>
@@ -7467,9 +7462,7 @@
             <regional>
                 <language>dan</language>
             </regional>
-            <widelySpoken>
-                <language>dan</language>
-            </widelySpoken>
+            <widelySpoken/>
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
@@ -7892,7 +7885,6 @@
                 <language>ara</language>
                 <language>eng</language>
                 <language>rus</language>
-                <language>sqi</language>
                 <language>kur</language>
             </extraTerritorialCommunities>
             <signs>
@@ -11004,9 +10996,7 @@
                 </deFacto>
             </official>
             <regional/>
-            <widelySpoken>
-                <language>rus</language>
-            </widelySpoken>
+            <widelySpoken/>
             <localCommunities>
                 <language>uig</language>
                 <language>uzb</language>
@@ -14746,18 +14736,14 @@
                 <language>ton</language>
                 <language>ckb</language>
             </widelySpoken>
-            <localCommunities>
-                <language>mri</language>
-            </localCommunities>
+            <localCommunities/>
             <extraTerritorialCommunities>
                 <language>zho</language>
                 <language>hin</language>
                 <language>tgn</language>
             </extraTerritorialCommunities>
             <signs>
-                <official>
-                    <language>nzs</language>
-                </official>
+                <official/>
                 <recognized/>
                 <used/>
             </signs>

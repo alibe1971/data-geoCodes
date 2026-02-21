@@ -2831,7 +2831,6 @@ export const countries = [
             ],
             localCommunities: [
                 "gub",
-                "yrl",
                 "gun",
                 "kai",
                 "xav",
@@ -3339,7 +3338,6 @@ export const countries = [
                 "inb",
                 "pln",
                 "gym",
-                "yua",
                 "tzj"
             ],
             extraTerritorialCommunities: [],
@@ -6371,9 +6369,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [
-                    "fij"
-                ],
+                official: [],
                 recognized: [],
                 used: []
             },
@@ -7309,7 +7305,6 @@ export const countries = [
                 "aka",
                 "twi",
                 "ewe",
-                "dag",
                 "gaa",
                 "gon",
                 "kpe",
@@ -7487,9 +7482,7 @@ export const countries = [
             regional: [
                 "dan"
             ],
-            widelySpoken: [
-                "dan"
-            ],
+            widelySpoken: [],
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
@@ -7912,7 +7905,6 @@ export const countries = [
                 "ara",
                 "eng",
                 "rus",
-                "sqi",
                 "kur"
             ],
             signs: {
@@ -10974,9 +10966,7 @@ export const countries = [
                 ]
             },
             regional: [],
-            widelySpoken: [
-                "rus"
-            ],
+            widelySpoken: [],
             localCommunities: [
                 "uig",
                 "uzb",
@@ -14716,18 +14706,14 @@ export const countries = [
                 "ton",
                 "ckb"
             ],
-            localCommunities: [
-                "mri"
-            ],
+            localCommunities: [],
             extraTerritorialCommunities: [
                 "zho",
                 "hin",
                 "tgn"
             ],
             signs: {
-                official: [
-                    "nzs"
-                ],
+                official: [],
                 recognized: [],
                 used: []
             },

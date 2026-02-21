@@ -2830,7 +2830,6 @@ return [
             ],
             'localCommunities' => [
                 'gub',
-                'yrl',
                 'gun',
                 'kai',
                 'xav',
@@ -3338,7 +3337,6 @@ return [
                 'inb',
                 'pln',
                 'gym',
-                'yua',
                 'tzj'
             ],
             'extraTerritorialCommunities' => [],
@@ -6370,9 +6368,7 @@ return [
             ],
             'extraTerritorialCommunities' => [],
             'signs' => [
-                'official' => [
-                    'fij'
-                ],
+                'official' => [],
                 'recognized' => [],
                 'used' => []
             ],
@@ -7308,7 +7304,6 @@ return [
                 'aka',
                 'twi',
                 'ewe',
-                'dag',
                 'gaa',
                 'gon',
                 'kpe',
@@ -7486,9 +7481,7 @@ return [
             'regional' => [
                 'dan'
             ],
-            'widelySpoken' => [
-                'dan'
-            ],
+            'widelySpoken' => [],
             'localCommunities' => [],
             'extraTerritorialCommunities' => [],
             'signs' => [
@@ -7911,7 +7904,6 @@ return [
                 'ara',
                 'eng',
                 'rus',
-                'sqi',
                 'kur'
             ],
             'signs' => [
@@ -10973,9 +10965,7 @@ return [
                 ]
             ],
             'regional' => [],
-            'widelySpoken' => [
-                'rus'
-            ],
+            'widelySpoken' => [],
             'localCommunities' => [
                 'uig',
                 'uzb',
@@ -14715,18 +14705,14 @@ return [
                 'ton',
                 'ckb'
             ],
-            'localCommunities' => [
-                'mri'
-            ],
+            'localCommunities' => [],
             'extraTerritorialCommunities' => [
                 'zho',
                 'hin',
                 'tgn'
             ],
             'signs' => [
-                'official' => [
-                    'nzs'
-                ],
+                'official' => [],
                 'recognized' => [],
                 'used' => []
             ],

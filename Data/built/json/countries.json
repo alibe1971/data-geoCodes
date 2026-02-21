@@ -2810,7 +2810,6 @@
             ],
             "localCommunities": [
                 "gub",
-                "yrl",
                 "gun",
                 "kai",
                 "xav",
@@ -3318,7 +3317,6 @@
                 "inb",
                 "pln",
                 "gym",
-                "yua",
                 "tzj"
             ],
             "extraTerritorialCommunities": [],
@@ -6350,9 +6348,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [
-                    "fij"
-                ],
+                "official": [],
                 "recognized": [],
                 "used": []
             },
@@ -7288,7 +7284,6 @@
                 "aka",
                 "twi",
                 "ewe",
-                "dag",
                 "gaa",
                 "gon",
                 "kpe",
@@ -7466,9 +7461,7 @@
             "regional": [
                 "dan"
             ],
-            "widelySpoken": [
-                "dan"
-            ],
+            "widelySpoken": [],
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
@@ -7891,7 +7884,6 @@
                 "ara",
                 "eng",
                 "rus",
-                "sqi",
                 "kur"
             ],
             "signs": {
@@ -10953,9 +10945,7 @@
                 ]
             },
             "regional": [],
-            "widelySpoken": [
-                "rus"
-            ],
+            "widelySpoken": [],
             "localCommunities": [
                 "uig",
                 "uzb",
@@ -14695,18 +14685,14 @@
                 "ton",
                 "ckb"
             ],
-            "localCommunities": [
-                "mri"
-            ],
+            "localCommunities": [],
             "extraTerritorialCommunities": [
                 "zho",
                 "hin",
                 "tgn"
             ],
             "signs": {
-                "official": [
-                    "nzs"
-                ],
+                "official": [],
                 "recognized": [],
                 "used": []
             },

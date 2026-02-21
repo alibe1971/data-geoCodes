@@ -2283,7 +2283,7 @@
                 "deFacto": []
             },
             "widelySpoken": ["pov", "yrl"],
-            "localCommunities": ["gub", "yrl", "gun", "kai", "xav", "kra", "apn", "mbo", "apu", "ter", "ban", "tik", "yan", "trr"],
+            "localCommunities": ["gub", "gun", "kai", "xav", "kra", "apn", "mbo", "apu", "ter", "ban", "tik", "yan", "trr"],
             "extraTerritorialCommunities": ["jpn", "ita", "deu", "cmn", "yue"],
             "signs": {
                 "official": ["bzs"],
@@ -2701,7 +2701,7 @@
             },
             "regional": [],
             "widelySpoken": ["spn", "bzd", "mop", "yua"],
-            "localCommunities": ["mnf", "inb", "pln", "gym", "yua", "tzj"],
+            "localCommunities": ["mnf", "inb", "pln", "gym", "tzj"],
             "signs": {
                 "official": [],
                 "recognized": ["bzs"],
@@ -5288,7 +5288,7 @@
             "localCommunities": ["gil", "ton", "bau"],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": ["fij"],
+                "official": [],
                 "recognized": [],
                 "used": []
             },
@@ -6114,7 +6114,7 @@
                 "deFacto": []
             },
             "regional": [],
-            "widelySpoken": ["aka", "twi", "ewe", "dag", "gaa", "gon", "kpe", "kus", "nzi"],
+            "widelySpoken": ["aka", "twi", "ewe", "gaa", "gon", "kpe", "kus", "nzi"],
             "localCommunities": ["abr", "bim", "sef", "kas", "mzw", "dag", "gur", "mam", "ckl"],
             "extraTerritorialCommunities": [],
             "signs": {
@@ -6270,7 +6270,7 @@
                 "deFacto": []
             },
             "regional": ["dan"],
-            "widelySpoken": ["dan"],
+            "widelySpoken": [],
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
@@ -6636,7 +6636,7 @@
             "regional": ["tur"],
             "widelySpoken": [],
             "localCommunities": ["sqi", "pnt", "rmn", "rup", "bgk", "mkd"],
-            "extraTerritorialCommunities": ["ara", "eng", "rus", "sqi", "kur"],
+            "extraTerritorialCommunities": ["ara", "eng", "rus", "kur"],
             "signs": {
                 "official": [],
                 "recognized": ["gss"],
@@ -9345,7 +9345,7 @@
                 "deFacto": ["rus"]
             },
             "regional": [],
-            "widelySpoken": ["rus"],
+            "widelySpoken": [],
             "localCommunities": ["uig", "uzb", "tat", "ukr", "kor", "deu"],
             "extraTerritorialCommunities": [],
             "signs": {
@@ -12669,10 +12669,10 @@
             },
             "regional": [],
             "widelySpoken": ["smo", "ton", "ckb"],
-            "localCommunities": ["mri"],
+            "localCommunities": [],
             "extraTerritorialCommunities": ["zho", "hin", "tgn"],
             "signs": {
-                "official": ["nzs"],
+                "official": [],
                 "recognized": [],
                 "used": []
             },

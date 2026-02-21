@@ -7931,7 +7931,6 @@
       - yrl
     localCommunities:
       - gub
-      - yrl
       - gun
       - kai
       - xav
@@ -9856,7 +9855,6 @@
       - inb
       - pln
       - gym
-      - yua
       - tzj
     extraTerritorialCommunities: []
     signs:
@@ -20912,8 +20910,7 @@
       - bau
     extraTerritorialCommunities: []
     signs:
-      official:
-        - fij
+      official: []
       recognized: []
       used: []
     dialects: []
@@ -22244,7 +22241,6 @@
       - aka
       - twi
       - ewe
-      - dag
       - gaa
       - gon
       - kpe
@@ -22447,8 +22443,7 @@
       deFacto: []
     regional:
       - dan
-    widelySpoken:
-      - dan
+    widelySpoken: []
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
@@ -22875,7 +22870,6 @@
       - ara
       - eng
       - rus
-      - sqi
       - kur
     signs:
       official: []
@@ -29322,8 +29316,7 @@
       deFacto:
         - rus
     regional: []
-    widelySpoken:
-      - rus
+    widelySpoken: []
     localCommunities:
       - uig
       - uzb
@@ -37807,15 +37800,13 @@
       - smo
       - ton
       - ckb
-    localCommunities:
-      - mri
+    localCommunities: []
     extraTerritorialCommunities:
       - zho
       - hin
       - tgn
     signs:
-      official:
-        - nzs
+      official: []
       recognized: []
       used: []
     dialects: []
