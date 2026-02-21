@@ -31,7 +31,7 @@ export const geoSetsFunctions = {
             /** internalCode: must be present and must be a string with alphabetical and dashes  */
             if(
                 !requirements(item.internalCode, 'mustBeString') ||
-                !requirements(item.internalCode, 'regex', /^(?=.*[a-z0-9])[^-]+(?:-[^-]+){1,3}$/i)
+                !requirements(item.internalCode, 'regex', /^[A-Z]{4}(?:-[A-Z0-9]{2,8})+$/)
             ) {
                 throwMex('internalCode', item[mainKey],
                     'The property must be a string, having from 2 to 4 alphanumeric sequences separated by an hyphen.');

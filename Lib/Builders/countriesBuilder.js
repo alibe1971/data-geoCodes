@@ -462,7 +462,7 @@ export const countriesFunctions = {
             for (const [index, tz] of item.timeZones.entries()) {
                 if(
                     !requirements(tz, 'mustBeString') ||
-                    !requirements(tz, 'regex', /^[^/]+(\/[^/]+){1,2}$/i)
+                    !requirements(tz, 'regex', /^[A-Za-z][A-Za-z0-9._+-]*(?:\/[A-Za-z0-9][A-Za-z0-9._+-]*)+$/i)
                 ) {
                     throwMex('timeZones.' + index, item[mainKey],
                         'The value for the property (' + tz + ') has not the correct format');

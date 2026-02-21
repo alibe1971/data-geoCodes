@@ -49,7 +49,7 @@ for (const geoSet of Object.values(geoSets)) {
         test(`Test that for the geoSet '${geoSet.internalCode}', 'internalCode' is a string rightly formed`, () => {
             expect(
                 typeof geoSet.internalCode === 'string' &&
-                /^(?=.*[a-zA-Z0-9])[^-]+(-[^-]+){1,4}$/.test(geoSet.internalCode)
+                /^[A-Z]{4}(?:-[A-Z0-9]{2,8})+$/.test(geoSet.internalCode)
             ).toBe(true);
         });
         test(`Test that for the geoSet '${geoSet.internalCode}', 'internalCode' is unique`, () => {
