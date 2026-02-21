@@ -2364,7 +2364,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3578476</geoNamesOrg>
-            <wikiData>Q25305</wikiData>
+            <wikiData>Q25362</wikiData>
             <openStreetMapRelation>1265297</openStreetMapRelation>
         </otherAppsIds>
     </country>
@@ -2728,7 +2728,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>7626844</geoNamesOrg>
-            <wikiData>Q25279</wikiData>
+            <wikiData>Q27561</wikiData>
             <openStreetMapRelation>1216720</openStreetMapRelation>
         </otherAppsIds>
     </country>
@@ -3075,7 +3075,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3371123</geoNamesOrg>
-            <wikiData>Q244</wikiData>
+            <wikiData>Q23408</wikiData>
             <openStreetMapRelation>1749828</openStreetMapRelation>
         </otherAppsIds>
     </country>
@@ -3572,7 +3572,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>1547376</geoNamesOrg>
-            <wikiData>Q26988</wikiData>
+            <wikiData>Q36004</wikiData>
             <openStreetMapRelation>82610</openStreetMapRelation>
         </otherAppsIds>
     </country>
@@ -12330,7 +12330,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>3578421</geoNamesOrg>
-            <wikiData>Q34617</wikiData>
+            <wikiData>Q126125</wikiData>
             <openStreetMapRelation>307828</openStreetMapRelation>
         </otherAppsIds>
     </country>
@@ -12963,7 +12963,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>4041468</geoNamesOrg>
-            <wikiData>Q16641</wikiData>
+            <wikiData>Q16644</wikiData>
             <openStreetMapRelation>306004</openStreetMapRelation>
         </otherAppsIds>
     </country>
@@ -13440,7 +13440,7 @@
         <localesIcu/>
         <otherAppsIds>
             <geoNamesOrg>1282028</geoNamesOrg>
-            <wikiData>Q912</wikiData>
+            <wikiData>Q826</wikiData>
             <openStreetMapRelation>536765</openStreetMapRelation>
         </otherAppsIds>
     </country>
@@ -19893,7 +19893,7 @@
         </localesIcu>
         <otherAppsIds>
             <geoNamesOrg>5854968</geoNamesOrg>
-            <wikiData>Q16644</wikiData>
+            <wikiData>Q16645</wikiData>
             <openStreetMapRelation>306001</openStreetMapRelation>
         </otherAppsIds>
     </country>

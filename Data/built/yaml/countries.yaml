@@ -3518,7 +3518,7 @@
     - fr-BL
   otherAppsIds:
     geoNamesOrg: 3578476
-    wikiData: Q25305
+    wikiData: Q25362
     openStreetMapRelation: 1265297
 - officialName:
     eng: Bermuda
@@ -7801,7 +7801,7 @@
     - nl-BQ
   otherAppsIds:
     geoNamesOrg: 7626844
-    wikiData: Q25279
+    wikiData: Q27561
     openStreetMapRelation: 1216720
 - officialName:
     por: República Federativa do Brasil
@@ -8750,7 +8750,7 @@
     - se-NO
   otherAppsIds:
     geoNamesOrg: 3371123
-    wikiData: Q244
+    wikiData: Q23408
     openStreetMapRelation: 1749828
 - officialName:
     tsn: Lefatshe la Botswana
@@ -10145,7 +10145,7 @@
     - en-CC
   otherAppsIds:
     geoNamesOrg: 1547376
-    wikiData: Q26988
+    wikiData: Q36004
     openStreetMapRelation: 82610
 - officialName:
     fra: République démocratique du Congo
@@ -32249,7 +32249,7 @@
     - fr-MF
   otherAppsIds:
     geoNamesOrg: 3578421
-    wikiData: Q34617
+    wikiData: Q126125
     openStreetMapRelation: 307828
 - officialName:
     mlg: Repoblikan'i Madagasikara
@@ -33276,7 +33276,7 @@
     - en-MP
   otherAppsIds:
     geoNamesOrg: 4041468
-    wikiData: Q16641
+    wikiData: Q16644
     openStreetMapRelation: 306004
 - officialName:
     fra: Collectivité territoriale de Martinique
@@ -34017,7 +34017,7 @@
   localesIcu: []
   otherAppsIds:
     geoNamesOrg: 1282028
-    wikiData: Q912
+    wikiData: Q826
     openStreetMapRelation: 536765
 - officialName:
     nya: Dziko la Malaŵi
@@ -52590,7 +52590,7 @@
     - en-UM
   otherAppsIds:
     geoNamesOrg: 5854968
-    wikiData: Q16644
+    wikiData: Q16645
     openStreetMapRelation: 306001
 - officialName:
     eng: United States of America

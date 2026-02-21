@@ -2383,7 +2383,7 @@ return [
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 3578476,
-            'wikiData' => 'Q25305',
+            'wikiData' => 'Q25362',
             'openStreetMapRelation' => 1265297
         ]
     ],
@@ -2747,7 +2747,7 @@ return [
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 7626844,
-            'wikiData' => 'Q25279',
+            'wikiData' => 'Q27561',
             'openStreetMapRelation' => 1216720
         ]
     ],
@@ -3094,7 +3094,7 @@ return [
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 3371123,
-            'wikiData' => 'Q244',
+            'wikiData' => 'Q23408',
             'openStreetMapRelation' => 1749828
         ]
     ],
@@ -3591,7 +3591,7 @@ return [
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 1547376,
-            'wikiData' => 'Q26988',
+            'wikiData' => 'Q36004',
             'openStreetMapRelation' => 82610
         ]
     ],
@@ -12299,7 +12299,7 @@ return [
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 3578421,
-            'wikiData' => 'Q34617',
+            'wikiData' => 'Q126125',
             'openStreetMapRelation' => 307828
         ]
     ],
@@ -12932,7 +12932,7 @@ return [
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 4041468,
-            'wikiData' => 'Q16641',
+            'wikiData' => 'Q16644',
             'openStreetMapRelation' => 306004
         ]
     ],
@@ -13409,7 +13409,7 @@ return [
         'localesIcu' => [],
         'otherAppsIds' => [
             'geoNamesOrg' => 1282028,
-            'wikiData' => 'Q912',
+            'wikiData' => 'Q826',
             'openStreetMapRelation' => 536765
         ]
     ],
@@ -19862,7 +19862,7 @@ return [
         ],
         'otherAppsIds' => [
             'geoNamesOrg' => 5854968,
-            'wikiData' => 'Q16644',
+            'wikiData' => 'Q16645',
             'openStreetMapRelation' => 306001
         ]
     ],
