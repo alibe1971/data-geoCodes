@@ -484,7 +484,7 @@ const Countries = `[
                 "mkd",
                 "srp",
                 "rom",
-                "vlj"
+                "rup"
             ],
             "extraTerritorialCommunities": [],
             "signs": {
@@ -962,16 +962,20 @@ const Countries = `[
             "widelySpoken": [],
             "localCommunities": [
                 "gnc",
+                "mby",
                 "quh",
-                "mzf",
-                "map",
-                "aym",
-                "wca",
                 "qvw",
-                "chr",
-                "bjo"
+                "arn",
+                "aym",
+                "wca"
             ],
-            "extraTerritorialCommunities": [],
+            "extraTerritorialCommunities": [
+                "ita",
+                "deu",
+                "arb",
+                "por",
+                "ydd"
+            ],
             "signs": {
                 "official": [],
                 "recognized": [],
@@ -1242,7 +1246,7 @@ const Countries = `[
                 "official": [],
                 "recognized": [],
                 "used": [
-                    "aus"
+                    "asf"
                 ]
             },
             "dialects": []
@@ -1468,7 +1472,7 @@ const Countries = `[
                 "avk",
                 "xal",
                 "diq",
-                "arm"
+                "hye"
             ],
             "extraTerritorialCommunities": [],
             "signs": {
@@ -1830,7 +1834,7 @@ const Countries = `[
             "extraTerritorialCommunities": [
                 "ara",
                 "tur",
-                "ber"
+                "zgh"
             ],
             "signs": {
                 "official": [
@@ -1925,7 +1929,6 @@ const Countries = `[
                 "smp",
                 "lob",
                 "dag",
-                "daf",
                 "san",
                 "mnk",
                 "bwq",
@@ -2018,9 +2021,6 @@ const Countries = `[
                 "rmy",
                 "rup",
                 "mkd",
-                "srm",
-                "buj",
-                "trk",
                 "aln",
                 "ell"
             ],
@@ -2829,23 +2829,20 @@ const Countries = `[
                 "yrl"
             ],
             "localCommunities": [
-                "tup",
-                "kau",
                 "gub",
+                "yrl",
+                "gun",
+                "kai",
                 "xav",
-                "myn",
-                "mvp",
-                "mzc",
-                "tub",
-                "ter",
-                "kek",
+                "kra",
+                "apn",
+                "mbo",
                 "apu",
-                "kam",
-                "kqn",
-                "mpd",
-                "bdn",
-                "knt",
-                "kpy"
+                "ter",
+                "ban",
+                "tik",
+                "yan",
+                "trr"
             ],
             "extraTerritorialCommunities": [
                 "jpn",
@@ -3155,18 +3152,17 @@ const Countries = `[
             "regional": [],
             "widelySpoken": [],
             "localCommunities": [
-                "kal",
+                "naq",
                 "nmn",
-                "her",
-                "mhw",
                 "xuu",
-                "guc",
                 "huc",
-                "seh",
-                "khi",
-                "nmg",
-                "dik",
-                "naq"
+                "ktz",
+                "her",
+                "loz",
+                "mbu",
+                "kck",
+                "shy",
+                "mhw"
             ],
             "extraTerritorialCommunities": [],
             "signs": {
@@ -3466,12 +3462,9 @@ const Countries = `[
                 "dgr",
                 "hur",
                 "kut",
-                "myn",
                 "nnh",
                 "nsr",
                 "ood",
-                "sal",
-                "sca",
                 "srs",
                 "sqt",
                 "taa",
@@ -3487,7 +3480,7 @@ const Countries = `[
                 "zho",
                 "ita",
                 "deu",
-                "pun",
+                "puu",
                 "ara",
                 "ukr"
             ],
@@ -3580,7 +3573,7 @@ const Countries = `[
                 "official": [],
                 "recognized": [],
                 "used": [
-                    "aus"
+                    "asf"
                 ]
             },
             "dialects": []
@@ -3656,7 +3649,6 @@ const Countries = `[
             ],
             "widelySpoken": [],
             "localCommunities": [
-                "bnt",
                 "umb",
                 "nyk",
                 "tkw",
@@ -3755,7 +3747,6 @@ const Countries = `[
                 "mnh",
                 "bxp",
                 "bkg",
-                "nzc",
                 "lnl",
                 "bjo",
                 "kwy",
@@ -3943,7 +3934,7 @@ const Countries = `[
                 "slv",
                 "por",
                 "srp",
-                "alb",
+                "sqi",
                 "tur"
             ],
             "extraTerritorialCommunities": [],
@@ -4032,8 +4023,7 @@ const Countries = `[
             "widelySpoken": [
                 "dyu",
                 "aka",
-                "baq",
-                "kro",
+                "eus",
                 "sju"
             ],
             "localCommunities": [
@@ -4045,7 +4035,6 @@ const Countries = `[
                 "bqa",
                 "mkw",
                 "acl",
-                "djg",
                 "bfb",
                 "agv",
                 "kpe",
@@ -4205,7 +4194,6 @@ const Countries = `[
             "widelySpoken": [],
             "localCommunities": [
                 "arn",
-                "cba",
                 "aym",
                 "que",
                 "rap"
@@ -4902,7 +4890,7 @@ const Countries = `[
                 "official": [],
                 "recognized": [],
                 "used": [
-                    "aus"
+                    "asf"
                 ]
             },
             "dialects": []
@@ -5837,8 +5825,8 @@ const Countries = `[
                 "cop",
                 "nob",
                 "bej",
-                "grc",
-                "arm"
+                "ell",
+                "hye"
             ],
             "extraTerritorialCommunities": [],
             "signs": {
@@ -5917,7 +5905,7 @@ const Countries = `[
             "widelySpoken": [],
             "localCommunities": [
                 "mey",
-                "ber"
+                "zgh"
             ],
             "extraTerritorialCommunities": [],
             "signs": {
@@ -5999,7 +5987,6 @@ const Countries = `[
                 "nrb",
                 "ssy",
                 "kun",
-                "blu",
                 "amh",
                 "orm"
             ],
@@ -6384,7 +6371,7 @@ const Countries = `[
             "extraTerritorialCommunities": [],
             "signs": {
                 "official": [
-                    "fji"
+                    "fij"
                 ],
                 "recognized": [],
                 "used": []
@@ -6701,12 +6688,11 @@ const Countries = `[
                 "arp",
                 "kmr",
                 "kab",
-                "ber",
+                "zgh",
                 "zho",
                 "tam",
                 "tur",
                 "ful",
-                "son",
                 "wol"
             ],
             "extraTerritorialCommunities": [
@@ -6796,7 +6782,7 @@ const Countries = `[
             ],
             "localCommunities": [
                 "mye",
-                "pun",
+                "puu",
                 "nzb",
                 "tte",
                 "bap",
@@ -7070,7 +7056,7 @@ const Countries = `[
             "widelySpoken": [
                 "rus",
                 "azj",
-                "arm"
+                "hye"
             ],
             "localCommunities": [
                 "ava",
@@ -7157,11 +7143,11 @@ const Countries = `[
                 "car",
                 "way",
                 "mpy",
-                "tup",
+                "tpn",
                 "tir",
                 "poi",
                 "njo",
-                "dut",
+                "nld",
                 "srn",
                 "tem"
             ],
@@ -7669,8 +7655,7 @@ const Countries = `[
                 "fuf",
                 "sus",
                 "man",
-                "knf",
-                "djz"
+                "knf"
             ],
             "localCommunities": [
                 "bsc",
@@ -7926,7 +7911,7 @@ const Countries = `[
                 "ara",
                 "eng",
                 "rus",
-                "alb",
+                "sqi",
                 "kur"
             ],
             "signs": {
@@ -8082,7 +8067,6 @@ const Countries = `[
                 "poc",
                 "kjb",
                 "itz",
-                "qut",
                 "tzj",
                 "usp",
                 "kek",
@@ -8825,7 +8809,7 @@ const Countries = `[
                 "hrv",
                 "ukr",
                 "slk",
-                "rum"
+                "ron"
             ],
             "widelySpoken": [
                 "deu"
@@ -8923,7 +8907,6 @@ const Countries = `[
             ],
             "localCommunities": [
                 "ace",
-                "btk",
                 "rej",
                 "tor",
                 "sas",
@@ -9094,7 +9077,7 @@ const Countries = `[
                 "jdt",
                 "lad",
                 "kaa",
-                "grc",
+                "ell",
                 "arc"
             ],
             "extraTerritorialCommunities": [],
@@ -9473,9 +9456,7 @@ const Countries = `[
             ],
             "widelySpoken": [],
             "localCommunities": [
-                "cka",
                 "bhd",
-                "ahy",
                 "aii",
                 "tmr",
                 "hne"
@@ -9734,13 +9715,11 @@ const Countries = `[
                 "vec",
                 "lij",
                 "lmo",
-                "eml",
                 "pms"
             ],
             "localCommunities": [
                 "arb",
-                "grc",
-                "mol"
+                "ell"
             ],
             "extraTerritorialCommunities": [],
             "signs": {
@@ -10000,7 +9979,7 @@ const Countries = `[
             "localCommunities": [
                 "ckb",
                 "aze",
-                "arm",
+                "hye",
                 "syc",
                 "arc",
                 "che",
@@ -10261,7 +10240,6 @@ const Countries = `[
                 "tat",
                 "tuk",
                 "kas",
-                "tjk",
                 "tur",
                 "haz",
                 "tgk"
@@ -11164,7 +11142,7 @@ const Countries = `[
                 "eng"
             ],
             "localCommunities": [
-                "arm",
+                "hye",
                 "syc",
                 "kaa"
             ],
@@ -11481,7 +11459,6 @@ const Countries = `[
             "localCommunities": [
                 "vai",
                 "kpe",
-                "bai",
                 "dee",
                 "klu",
                 "lnw",
@@ -12205,7 +12182,7 @@ const Countries = `[
                 "srp",
                 "bos",
                 "hrv",
-                "alb"
+                "sqi"
             ],
             "localCommunities": [],
             "extraTerritorialCommunities": [],
@@ -12508,9 +12485,8 @@ const Countries = `[
             "widelySpoken": [],
             "localCommunities": [
                 "rom",
-                "trk",
+                "tur",
                 "srb",
-                "vlm",
                 "bos"
             ],
             "extraTerritorialCommunities": [],
@@ -12592,7 +12568,6 @@ const Countries = `[
                 "fuf"
             ],
             "localCommunities": [
-                "son",
                 "ses",
                 "tmh",
                 "ful",
@@ -12670,7 +12645,6 @@ const Countries = `[
             "localCommunities": [
                 "shn",
                 "kac",
-                "kar",
                 "cak",
                 "mnw",
                 "rar"
@@ -13068,7 +13042,6 @@ const Countries = `[
                 "zen"
             ],
             "localCommunities": [
-                "son",
                 "fuc",
                 "snq",
                 "bwj"
@@ -13554,16 +13527,13 @@ const Countries = `[
                 "deFacto": []
             },
             "regional": [
-                "nah",
                 "mxc",
                 "mix",
                 "tzm",
                 "zap",
-                "myn",
                 "tar",
                 "cmi",
-                "tzo",
-                "yoa"
+                "tzo"
             ],
             "widelySpoken": [],
             "localCommunities": [],
@@ -13814,17 +13784,18 @@ const Countries = `[
                 "afr",
                 "deu",
                 "naq",
-                "hgm",
-                "kwn",
-                "loz",
-                "her"
+                "kua",
+                "ndo",
+                "her",
+                "loz"
             ],
             "localCommunities": [
                 "tsn",
                 "ven",
-                "khi",
                 "ktz",
-                "bwc"
+                "hgm",
+                "xuu",
+                "nmn"
             ],
             "extraTerritorialCommunities": [],
             "signs": {
@@ -14334,7 +14305,7 @@ const Countries = `[
                 "ind",
                 "por",
                 "pol",
-                "rum",
+                "ron",
                 "bul"
             ],
             "signs": {
@@ -14515,7 +14486,6 @@ const Countries = `[
             "localCommunities": [
                 "dty",
                 "thl",
-                "ltr",
                 "san",
                 "che",
                 "sun",
@@ -16283,7 +16253,7 @@ const Countries = `[
                 "ukr",
                 "bul",
                 "rue",
-                "rum",
+                "ron",
                 "aln"
             ],
             "widelySpoken": [],
@@ -16418,7 +16388,7 @@ const Countries = `[
                 "deu",
                 "aze",
                 "kor",
-                "arm"
+                "hye"
             ],
             "signs": {
                 "official": [],
@@ -16915,7 +16885,7 @@ const Countries = `[
                 "fit"
             ],
             "localCommunities": [
-                "fiq",
+                "fkv",
                 "rmf"
             ],
             "extraTerritorialCommunities": [
@@ -19659,7 +19629,7 @@ const Countries = `[
                 "pol"
             ],
             "extraTerritorialCommunities": [
-                "arm",
+                "hye",
                 "aze",
                 "heb",
                 "tat"
@@ -19974,8 +19944,8 @@ const Countries = `[
                 "rus",
                 "fra",
                 "deu",
-                "it",
-                "pt"
+                "ita",
+                "por"
             ],
             "signs": {
                 "official": [],
@@ -20066,7 +20036,7 @@ const Countries = `[
                 "official": [],
                 "recognized": [],
                 "used": [
-                    "uls"
+                    "ugy"
                 ]
             },
             "dialects": []
@@ -21286,14 +21256,12 @@ const Countries = `[
                 "toi",
                 "loz",
                 "lun",
-                "kqn",
-                "kdo"
+                "kqn"
             ],
             "localCommunities": [
                 "lch",
                 "cce",
-                "xuj",
-                "bmy"
+                "xuj"
             ],
             "extraTerritorialCommunities": [],
             "signs": {

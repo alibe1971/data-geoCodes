@@ -1546,7 +1546,7 @@
       - mkd
       - srp
       - rom
-      - vlj
+      - rup
     extraTerritorialCommunities: []
     signs:
       official: []
@@ -2111,15 +2111,18 @@
     widelySpoken: []
     localCommunities:
       - gnc
+      - mby
       - quh
-      - mzf
-      - map
+      - qvw
+      - arn
       - aym
       - wca
-      - qvw
-      - chr
-      - bjo
-    extraTerritorialCommunities: []
+    extraTerritorialCommunities:
+      - ita
+      - deu
+      - arb
+      - por
+      - ydd
     signs:
       official: []
       recognized: []
@@ -2552,7 +2555,7 @@
       official: []
       recognized: []
       used:
-        - aus
+        - asf
     dialects: []
   localesIcu:
     - en
@@ -2750,7 +2753,7 @@
       - avk
       - xal
       - diq
-      - arm
+      - hye
     extraTerritorialCommunities: []
     signs:
       official: []
@@ -3058,7 +3061,7 @@
     extraTerritorialCommunities:
       - ara
       - tur
-      - ber
+      - zgh
     signs:
       official:
         - vgt
@@ -3139,7 +3142,6 @@
       - smp
       - lob
       - dag
-      - daf
       - san
       - mnk
       - bwq
@@ -3212,9 +3214,6 @@
       - rmy
       - rup
       - mkd
-      - srm
-      - buj
-      - trk
       - aln
       - ell
     extraTerritorialCommunities: []
@@ -7931,23 +7930,20 @@
       - pov
       - yrl
     localCommunities:
-      - tup
-      - kau
       - gub
+      - yrl
+      - gun
+      - kai
       - xav
-      - myn
-      - mvp
-      - mzc
-      - tub
-      - ter
-      - kek
+      - kra
+      - apn
+      - mbo
       - apu
-      - kam
-      - kqn
-      - mpd
-      - bdn
-      - knt
-      - kpy
+      - ter
+      - ban
+      - tik
+      - yan
+      - trr
     extraTerritorialCommunities:
       - jpn
       - ita
@@ -8799,18 +8795,17 @@
     regional: []
     widelySpoken: []
     localCommunities:
-      - kal
-      - nmn
-      - her
-      - mhw
-      - xuu
-      - guc
-      - huc
-      - seh
-      - khi
-      - nmg
-      - dik
       - naq
+      - nmn
+      - xuu
+      - huc
+      - ktz
+      - her
+      - loz
+      - mbu
+      - kck
+      - shy
+      - mhw
     extraTerritorialCommunities: []
     signs:
       official: []
@@ -9979,12 +9974,9 @@
       - dgr
       - hur
       - kut
-      - myn
       - nnh
       - nsr
       - ood
-      - sal
-      - sca
       - srs
       - sqt
       - taa
@@ -9999,7 +9991,7 @@
       - zho
       - ita
       - deu
-      - pun
+      - puu
       - ara
       - ukr
     signs:
@@ -10138,7 +10130,7 @@
       official: []
       recognized: []
       used:
-        - aus
+        - asf
     dialects: []
   localesIcu:
     - en
@@ -10200,7 +10192,6 @@
       - swa
     widelySpoken: []
     localCommunities:
-      - bnt
       - umb
       - nyk
       - tkw
@@ -10290,7 +10281,6 @@
       - mnh
       - bxp
       - bkg
-      - nzc
       - lnl
       - bjo
       - kwy
@@ -10442,7 +10432,7 @@
       - slv
       - por
       - srp
-      - alb
+      - sqi
       - tur
     extraTerritorialCommunities: []
     signs:
@@ -10516,8 +10506,7 @@
     widelySpoken:
       - dyu
       - aka
-      - baq
-      - kro
+      - eus
       - sju
     localCommunities:
       - sef
@@ -10528,7 +10517,6 @@
       - bqa
       - mkw
       - acl
-      - djg
       - bfb
       - agv
       - kpe
@@ -10695,7 +10683,6 @@
     widelySpoken: []
     localCommunities:
       - arn
-      - cba
       - aym
       - que
       - rap
@@ -12371,7 +12358,7 @@
       official: []
       recognized: []
       used:
-        - aus
+        - asf
     dialects: []
   localesIcu:
     - en
@@ -17974,8 +17961,8 @@
       - cop
       - nob
       - bej
-      - grc
-      - arm
+      - ell
+      - hye
     extraTerritorialCommunities: []
     signs:
       official: []
@@ -18045,7 +18032,7 @@
     widelySpoken: []
     localCommunities:
       - mey
-      - ber
+      - zgh
     extraTerritorialCommunities: []
     signs:
       official: []
@@ -18182,7 +18169,6 @@
       - nrb
       - ssy
       - kun
-      - blu
       - amh
       - orm
     extraTerritorialCommunities: []
@@ -20927,7 +20913,7 @@
     extraTerritorialCommunities: []
     signs:
       official:
-        - fji
+        - fij
       recognized: []
       used: []
     dialects: []
@@ -21713,12 +21699,11 @@
       - arp
       - kmr
       - kab
-      - ber
+      - zgh
       - zho
       - tam
       - tur
       - ful
-      - son
       - wol
     extraTerritorialCommunities:
       - ara
@@ -21791,7 +21776,7 @@
       - fan
     localCommunities:
       - mye
-      - pun
+      - puu
       - nzb
       - tte
       - bap
@@ -22048,7 +22033,7 @@
     widelySpoken:
       - rus
       - azj
-      - arm
+      - hye
     localCommunities:
       - ava
       - kbd
@@ -22119,11 +22104,11 @@
       - car
       - way
       - mpy
-      - tup
+      - tpn
       - tir
       - poi
       - njo
-      - dut
+      - nld
       - srn
       - tem
     extraTerritorialCommunities: []
@@ -22600,7 +22585,6 @@
       - sus
       - man
       - knf
-      - djz
     localCommunities:
       - bsc
       - bgu
@@ -22891,7 +22875,7 @@
       - ara
       - eng
       - rus
-      - alb
+      - sqi
       - kur
     signs:
       official: []
@@ -24043,7 +24027,6 @@
       - poc
       - kjb
       - itz
-      - qut
       - tzj
       - usp
       - kek
@@ -25916,7 +25899,7 @@
       - hrv
       - ukr
       - slk
-      - rum
+      - ron
     widelySpoken:
       - deu
     localCommunities:
@@ -25992,7 +25975,6 @@
       - bjn
     localCommunities:
       - ace
-      - btk
       - rej
       - tor
       - sas
@@ -26142,7 +26124,7 @@
       - jdt
       - lad
       - kaa
-      - grc
+      - ell
       - arc
     extraTerritorialCommunities: []
     signs:
@@ -27062,9 +27044,7 @@
       - hye
     widelySpoken: []
     localCommunities:
-      - cka
       - bhd
-      - ahy
       - aii
       - tmr
       - hne
@@ -27296,12 +27276,10 @@
       - vec
       - lij
       - lmo
-      - eml
       - pms
     localCommunities:
       - arb
-      - grc
-      - mol
+      - ell
     extraTerritorialCommunities: []
     signs:
       official: []
@@ -27581,7 +27559,7 @@
     localCommunities:
       - ckb
       - aze
-      - arm
+      - hye
       - syc
       - arc
       - che
@@ -27819,7 +27797,6 @@
       - tat
       - tuk
       - kas
-      - tjk
       - tur
       - haz
       - tgk
@@ -29564,7 +29541,7 @@
       - fra
       - eng
     localCommunities:
-      - arm
+      - hye
       - syc
       - kaa
     extraTerritorialCommunities: []
@@ -30297,7 +30274,6 @@
     localCommunities:
       - vai
       - kpe
-      - bai
       - dee
       - klu
       - lnw
@@ -32171,7 +32147,7 @@
       - srp
       - bos
       - hrv
-      - alb
+      - sqi
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
@@ -32434,9 +32410,8 @@
     widelySpoken: []
     localCommunities:
       - rom
-      - trk
+      - tur
       - srb
-      - vlm
       - bos
     extraTerritorialCommunities: []
     signs:
@@ -32503,7 +32478,6 @@
       - bam
       - fuf
     localCommunities:
-      - son
       - ses
       - tmh
       - ful
@@ -32575,7 +32549,6 @@
     localCommunities:
       - shn
       - kac
-      - kar
       - cak
       - mnw
       - rar
@@ -33408,7 +33381,6 @@
       - mey
       - zen
     localCommunities:
-      - son
       - fuc
       - snq
       - bwj
@@ -36082,16 +36054,13 @@
         - spa
       deFacto: []
     regional:
-      - nah
       - mxc
       - mix
       - tzm
       - zap
-      - myn
       - tar
       - cmi
       - tzo
-      - yoa
     widelySpoken: []
     localCommunities: []
     extraTerritorialCommunities: []
@@ -36375,16 +36344,17 @@
       - afr
       - deu
       - naq
-      - hgm
-      - kwn
-      - loz
+      - kua
+      - ndo
       - her
+      - loz
     localCommunities:
       - tsn
       - ven
-      - khi
       - ktz
-      - bwc
+      - hgm
+      - xuu
+      - nmn
     extraTerritorialCommunities: []
     signs:
       official: []
@@ -37431,7 +37401,7 @@
       - ind
       - por
       - pol
-      - rum
+      - ron
       - bul
     signs:
       official:
@@ -37598,7 +37568,6 @@
     localCommunities:
       - dty
       - thl
-      - ltr
       - san
       - che
       - sun
@@ -44198,7 +44167,7 @@
       - ukr
       - bul
       - rue
-      - rum
+      - ron
       - aln
     widelySpoken: []
     localCommunities:
@@ -44315,7 +44284,7 @@
       - deu
       - aze
       - kor
-      - arm
+      - hye
     signs:
       official: []
       recognized: []
@@ -45009,7 +44978,7 @@
     widelySpoken:
       - fit
     localCommunities:
-      - fiq
+      - fkv
       - rmf
     extraTerritorialCommunities:
       - ara
@@ -52360,7 +52329,7 @@
       - hun
       - pol
     extraTerritorialCommunities:
-      - arm
+      - hye
       - aze
       - heb
       - tat
@@ -52699,8 +52668,8 @@
       - rus
       - fra
       - deu
-      - it
-      - pt
+      - ita
+      - por
     signs:
       official: []
       recognized: []
@@ -52792,7 +52761,7 @@
       official: []
       recognized: []
       used:
-        - uls
+        - ugy
     dialects: []
   localesIcu:
     - es
@@ -55303,12 +55272,10 @@
       - loz
       - lun
       - kqn
-      - kdo
     localCommunities:
       - lch
       - cce
       - xuj
-      - bmy
     extraTerritorialCommunities: []
     signs:
       official: []

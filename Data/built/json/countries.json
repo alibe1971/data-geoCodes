@@ -464,7 +464,7 @@
                 "mkd",
                 "srp",
                 "rom",
-                "vlj"
+                "rup"
             ],
             "extraTerritorialCommunities": [],
             "signs": {
@@ -942,16 +942,20 @@
             "widelySpoken": [],
             "localCommunities": [
                 "gnc",
+                "mby",
                 "quh",
-                "mzf",
-                "map",
-                "aym",
-                "wca",
                 "qvw",
-                "chr",
-                "bjo"
+                "arn",
+                "aym",
+                "wca"
             ],
-            "extraTerritorialCommunities": [],
+            "extraTerritorialCommunities": [
+                "ita",
+                "deu",
+                "arb",
+                "por",
+                "ydd"
+            ],
             "signs": {
                 "official": [],
                 "recognized": [],
@@ -1222,7 +1226,7 @@
                 "official": [],
                 "recognized": [],
                 "used": [
-                    "aus"
+                    "asf"
                 ]
             },
             "dialects": []
@@ -1448,7 +1452,7 @@
                 "avk",
                 "xal",
                 "diq",
-                "arm"
+                "hye"
             ],
             "extraTerritorialCommunities": [],
             "signs": {
@@ -1810,7 +1814,7 @@
             "extraTerritorialCommunities": [
                 "ara",
                 "tur",
-                "ber"
+                "zgh"
             ],
             "signs": {
                 "official": [
@@ -1905,7 +1909,6 @@
                 "smp",
                 "lob",
                 "dag",
-                "daf",
                 "san",
                 "mnk",
                 "bwq",
@@ -1998,9 +2001,6 @@
                 "rmy",
                 "rup",
                 "mkd",
-                "srm",
-                "buj",
-                "trk",
                 "aln",
                 "ell"
             ],
@@ -2809,23 +2809,20 @@
                 "yrl"
             ],
             "localCommunities": [
-                "tup",
-                "kau",
                 "gub",
+                "yrl",
+                "gun",
+                "kai",
                 "xav",
-                "myn",
-                "mvp",
-                "mzc",
-                "tub",
-                "ter",
-                "kek",
+                "kra",
+                "apn",
+                "mbo",
                 "apu",
-                "kam",
-                "kqn",
-                "mpd",
-                "bdn",
-                "knt",
-                "kpy"
+                "ter",
+                "ban",
+                "tik",
+                "yan",
+                "trr"
             ],
             "extraTerritorialCommunities": [
                 "jpn",
@@ -3135,18 +3132,17 @@
             "regional": [],
             "widelySpoken": [],
             "localCommunities": [
-                "kal",
+                "naq",
                 "nmn",
-                "her",
-                "mhw",
                 "xuu",
-                "guc",
                 "huc",
-                "seh",
-                "khi",
-                "nmg",
-                "dik",
-                "naq"
+                "ktz",
+                "her",
+                "loz",
+                "mbu",
+                "kck",
+                "shy",
+                "mhw"
             ],
             "extraTerritorialCommunities": [],
             "signs": {
@@ -3446,12 +3442,9 @@
                 "dgr",
                 "hur",
                 "kut",
-                "myn",
                 "nnh",
                 "nsr",
                 "ood",
-                "sal",
-                "sca",
                 "srs",
                 "sqt",
                 "taa",
@@ -3467,7 +3460,7 @@
                 "zho",
                 "ita",
                 "deu",
-                "pun",
+                "puu",
                 "ara",
                 "ukr"
             ],
@@ -3560,7 +3553,7 @@
                 "official": [],
                 "recognized": [],
                 "used": [
-                    "aus"
+                    "asf"
                 ]
             },
             "dialects": []
@@ -3636,7 +3629,6 @@
             ],
             "widelySpoken": [],
             "localCommunities": [
-                "bnt",
                 "umb",
                 "nyk",
                 "tkw",
@@ -3735,7 +3727,6 @@
                 "mnh",
                 "bxp",
                 "bkg",
-                "nzc",
                 "lnl",
                 "bjo",
                 "kwy",
@@ -3923,7 +3914,7 @@
                 "slv",
                 "por",
                 "srp",
-                "alb",
+                "sqi",
                 "tur"
             ],
             "extraTerritorialCommunities": [],
@@ -4012,8 +4003,7 @@
             "widelySpoken": [
                 "dyu",
                 "aka",
-                "baq",
-                "kro",
+                "eus",
                 "sju"
             ],
             "localCommunities": [
@@ -4025,7 +4015,6 @@
                 "bqa",
                 "mkw",
                 "acl",
-                "djg",
                 "bfb",
                 "agv",
                 "kpe",
@@ -4185,7 +4174,6 @@
             "widelySpoken": [],
             "localCommunities": [
                 "arn",
-                "cba",
                 "aym",
                 "que",
                 "rap"
@@ -4882,7 +4870,7 @@
                 "official": [],
                 "recognized": [],
                 "used": [
-                    "aus"
+                    "asf"
                 ]
             },
             "dialects": []
@@ -5817,8 +5805,8 @@
                 "cop",
                 "nob",
                 "bej",
-                "grc",
-                "arm"
+                "ell",
+                "hye"
             ],
             "extraTerritorialCommunities": [],
             "signs": {
@@ -5897,7 +5885,7 @@
             "widelySpoken": [],
             "localCommunities": [
                 "mey",
-                "ber"
+                "zgh"
             ],
             "extraTerritorialCommunities": [],
             "signs": {
@@ -5979,7 +5967,6 @@
                 "nrb",
                 "ssy",
                 "kun",
-                "blu",
                 "amh",
                 "orm"
             ],
@@ -6364,7 +6351,7 @@
             "extraTerritorialCommunities": [],
             "signs": {
                 "official": [
-                    "fji"
+                    "fij"
                 ],
                 "recognized": [],
                 "used": []
@@ -6681,12 +6668,11 @@
                 "arp",
                 "kmr",
                 "kab",
-                "ber",
+                "zgh",
                 "zho",
                 "tam",
                 "tur",
                 "ful",
-                "son",
                 "wol"
             ],
             "extraTerritorialCommunities": [
@@ -6776,7 +6762,7 @@
             ],
             "localCommunities": [
                 "mye",
-                "pun",
+                "puu",
                 "nzb",
                 "tte",
                 "bap",
@@ -7050,7 +7036,7 @@
             "widelySpoken": [
                 "rus",
                 "azj",
-                "arm"
+                "hye"
             ],
             "localCommunities": [
                 "ava",
@@ -7137,11 +7123,11 @@
                 "car",
                 "way",
                 "mpy",
-                "tup",
+                "tpn",
                 "tir",
                 "poi",
                 "njo",
-                "dut",
+                "nld",
                 "srn",
                 "tem"
             ],
@@ -7649,8 +7635,7 @@
                 "fuf",
                 "sus",
                 "man",
-                "knf",
-                "djz"
+                "knf"
             ],
             "localCommunities": [
                 "bsc",
@@ -7906,7 +7891,7 @@
                 "ara",
                 "eng",
                 "rus",
-                "alb",
+                "sqi",
                 "kur"
             ],
             "signs": {
@@ -8062,7 +8047,6 @@
                 "poc",
                 "kjb",
                 "itz",
-                "qut",
                 "tzj",
                 "usp",
                 "kek",
@@ -8805,7 +8789,7 @@
                 "hrv",
                 "ukr",
                 "slk",
-                "rum"
+                "ron"
             ],
             "widelySpoken": [
                 "deu"
@@ -8903,7 +8887,6 @@
             ],
             "localCommunities": [
                 "ace",
-                "btk",
                 "rej",
                 "tor",
                 "sas",
@@ -9074,7 +9057,7 @@
                 "jdt",
                 "lad",
                 "kaa",
-                "grc",
+                "ell",
                 "arc"
             ],
             "extraTerritorialCommunities": [],
@@ -9453,9 +9436,7 @@
             ],
             "widelySpoken": [],
             "localCommunities": [
-                "cka",
                 "bhd",
-                "ahy",
                 "aii",
                 "tmr",
                 "hne"
@@ -9714,13 +9695,11 @@
                 "vec",
                 "lij",
                 "lmo",
-                "eml",
                 "pms"
             ],
             "localCommunities": [
                 "arb",
-                "grc",
-                "mol"
+                "ell"
             ],
             "extraTerritorialCommunities": [],
             "signs": {
@@ -9980,7 +9959,7 @@
             "localCommunities": [
                 "ckb",
                 "aze",
-                "arm",
+                "hye",
                 "syc",
                 "arc",
                 "che",
@@ -10241,7 +10220,6 @@
                 "tat",
                 "tuk",
                 "kas",
-                "tjk",
                 "tur",
                 "haz",
                 "tgk"
@@ -11144,7 +11122,7 @@
                 "eng"
             ],
             "localCommunities": [
-                "arm",
+                "hye",
                 "syc",
                 "kaa"
             ],
@@ -11461,7 +11439,6 @@
             "localCommunities": [
                 "vai",
                 "kpe",
-                "bai",
                 "dee",
                 "klu",
                 "lnw",
@@ -12185,7 +12162,7 @@
                 "srp",
                 "bos",
                 "hrv",
-                "alb"
+                "sqi"
             ],
             "localCommunities": [],
             "extraTerritorialCommunities": [],
@@ -12488,9 +12465,8 @@
             "widelySpoken": [],
             "localCommunities": [
                 "rom",
-                "trk",
+                "tur",
                 "srb",
-                "vlm",
                 "bos"
             ],
             "extraTerritorialCommunities": [],
@@ -12572,7 +12548,6 @@
                 "fuf"
             ],
             "localCommunities": [
-                "son",
                 "ses",
                 "tmh",
                 "ful",
@@ -12650,7 +12625,6 @@
             "localCommunities": [
                 "shn",
                 "kac",
-                "kar",
                 "cak",
                 "mnw",
                 "rar"
@@ -13048,7 +13022,6 @@
                 "zen"
             ],
             "localCommunities": [
-                "son",
                 "fuc",
                 "snq",
                 "bwj"
@@ -13534,16 +13507,13 @@
                 "deFacto": []
             },
             "regional": [
-                "nah",
                 "mxc",
                 "mix",
                 "tzm",
                 "zap",
-                "myn",
                 "tar",
                 "cmi",
-                "tzo",
-                "yoa"
+                "tzo"
             ],
             "widelySpoken": [],
             "localCommunities": [],
@@ -13794,17 +13764,18 @@
                 "afr",
                 "deu",
                 "naq",
-                "hgm",
-                "kwn",
-                "loz",
-                "her"
+                "kua",
+                "ndo",
+                "her",
+                "loz"
             ],
             "localCommunities": [
                 "tsn",
                 "ven",
-                "khi",
                 "ktz",
-                "bwc"
+                "hgm",
+                "xuu",
+                "nmn"
             ],
             "extraTerritorialCommunities": [],
             "signs": {
@@ -14314,7 +14285,7 @@
                 "ind",
                 "por",
                 "pol",
-                "rum",
+                "ron",
                 "bul"
             ],
             "signs": {
@@ -14495,7 +14466,6 @@
             "localCommunities": [
                 "dty",
                 "thl",
-                "ltr",
                 "san",
                 "che",
                 "sun",
@@ -16263,7 +16233,7 @@
                 "ukr",
                 "bul",
                 "rue",
-                "rum",
+                "ron",
                 "aln"
             ],
             "widelySpoken": [],
@@ -16398,7 +16368,7 @@
                 "deu",
                 "aze",
                 "kor",
-                "arm"
+                "hye"
             ],
             "signs": {
                 "official": [],
@@ -16895,7 +16865,7 @@
                 "fit"
             ],
             "localCommunities": [
-                "fiq",
+                "fkv",
                 "rmf"
             ],
             "extraTerritorialCommunities": [
@@ -19639,7 +19609,7 @@
                 "pol"
             ],
             "extraTerritorialCommunities": [
-                "arm",
+                "hye",
                 "aze",
                 "heb",
                 "tat"
@@ -19954,8 +19924,8 @@
                 "rus",
                 "fra",
                 "deu",
-                "it",
-                "pt"
+                "ita",
+                "por"
             ],
             "signs": {
                 "official": [],
@@ -20046,7 +20016,7 @@
                 "official": [],
                 "recognized": [],
                 "used": [
-                    "uls"
+                    "ugy"
                 ]
             },
             "dialects": []
@@ -21266,14 +21236,12 @@
                 "toi",
                 "loz",
                 "lun",
-                "kqn",
-                "kdo"
+                "kqn"
             ],
             "localCommunities": [
                 "lch",
                 "cce",
-                "xuj",
-                "bmy"
+                "xuj"
             ],
             "extraTerritorialCommunities": [],
             "signs": {

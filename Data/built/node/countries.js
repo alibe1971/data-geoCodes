@@ -485,7 +485,7 @@ export const countries = [
                 "mkd",
                 "srp",
                 "rom",
-                "vlj"
+                "rup"
             ],
             extraTerritorialCommunities: [],
             signs: {
@@ -963,16 +963,20 @@ export const countries = [
             widelySpoken: [],
             localCommunities: [
                 "gnc",
+                "mby",
                 "quh",
-                "mzf",
-                "map",
-                "aym",
-                "wca",
                 "qvw",
-                "chr",
-                "bjo"
+                "arn",
+                "aym",
+                "wca"
             ],
-            extraTerritorialCommunities: [],
+            extraTerritorialCommunities: [
+                "ita",
+                "deu",
+                "arb",
+                "por",
+                "ydd"
+            ],
             signs: {
                 official: [],
                 recognized: [],
@@ -1243,7 +1247,7 @@ export const countries = [
                 official: [],
                 recognized: [],
                 used: [
-                    "aus"
+                    "asf"
                 ]
             },
             dialects: []
@@ -1469,7 +1473,7 @@ export const countries = [
                 "avk",
                 "xal",
                 "diq",
-                "arm"
+                "hye"
             ],
             extraTerritorialCommunities: [],
             signs: {
@@ -1831,7 +1835,7 @@ export const countries = [
             extraTerritorialCommunities: [
                 "ara",
                 "tur",
-                "ber"
+                "zgh"
             ],
             signs: {
                 official: [
@@ -1926,7 +1930,6 @@ export const countries = [
                 "smp",
                 "lob",
                 "dag",
-                "daf",
                 "san",
                 "mnk",
                 "bwq",
@@ -2019,9 +2022,6 @@ export const countries = [
                 "rmy",
                 "rup",
                 "mkd",
-                "srm",
-                "buj",
-                "trk",
                 "aln",
                 "ell"
             ],
@@ -2830,23 +2830,20 @@ export const countries = [
                 "yrl"
             ],
             localCommunities: [
-                "tup",
-                "kau",
                 "gub",
+                "yrl",
+                "gun",
+                "kai",
                 "xav",
-                "myn",
-                "mvp",
-                "mzc",
-                "tub",
-                "ter",
-                "kek",
+                "kra",
+                "apn",
+                "mbo",
                 "apu",
-                "kam",
-                "kqn",
-                "mpd",
-                "bdn",
-                "knt",
-                "kpy"
+                "ter",
+                "ban",
+                "tik",
+                "yan",
+                "trr"
             ],
             extraTerritorialCommunities: [
                 "jpn",
@@ -3156,18 +3153,17 @@ export const countries = [
             regional: [],
             widelySpoken: [],
             localCommunities: [
-                "kal",
+                "naq",
                 "nmn",
-                "her",
-                "mhw",
                 "xuu",
-                "guc",
                 "huc",
-                "seh",
-                "khi",
-                "nmg",
-                "dik",
-                "naq"
+                "ktz",
+                "her",
+                "loz",
+                "mbu",
+                "kck",
+                "shy",
+                "mhw"
             ],
             extraTerritorialCommunities: [],
             signs: {
@@ -3467,12 +3463,9 @@ export const countries = [
                 "dgr",
                 "hur",
                 "kut",
-                "myn",
                 "nnh",
                 "nsr",
                 "ood",
-                "sal",
-                "sca",
                 "srs",
                 "sqt",
                 "taa",
@@ -3488,7 +3481,7 @@ export const countries = [
                 "zho",
                 "ita",
                 "deu",
-                "pun",
+                "puu",
                 "ara",
                 "ukr"
             ],
@@ -3581,7 +3574,7 @@ export const countries = [
                 official: [],
                 recognized: [],
                 used: [
-                    "aus"
+                    "asf"
                 ]
             },
             dialects: []
@@ -3657,7 +3650,6 @@ export const countries = [
             ],
             widelySpoken: [],
             localCommunities: [
-                "bnt",
                 "umb",
                 "nyk",
                 "tkw",
@@ -3756,7 +3748,6 @@ export const countries = [
                 "mnh",
                 "bxp",
                 "bkg",
-                "nzc",
                 "lnl",
                 "bjo",
                 "kwy",
@@ -3944,7 +3935,7 @@ export const countries = [
                 "slv",
                 "por",
                 "srp",
-                "alb",
+                "sqi",
                 "tur"
             ],
             extraTerritorialCommunities: [],
@@ -4033,8 +4024,7 @@ export const countries = [
             widelySpoken: [
                 "dyu",
                 "aka",
-                "baq",
-                "kro",
+                "eus",
                 "sju"
             ],
             localCommunities: [
@@ -4046,7 +4036,6 @@ export const countries = [
                 "bqa",
                 "mkw",
                 "acl",
-                "djg",
                 "bfb",
                 "agv",
                 "kpe",
@@ -4206,7 +4195,6 @@ export const countries = [
             widelySpoken: [],
             localCommunities: [
                 "arn",
-                "cba",
                 "aym",
                 "que",
                 "rap"
@@ -4903,7 +4891,7 @@ export const countries = [
                 official: [],
                 recognized: [],
                 used: [
-                    "aus"
+                    "asf"
                 ]
             },
             dialects: []
@@ -5838,8 +5826,8 @@ export const countries = [
                 "cop",
                 "nob",
                 "bej",
-                "grc",
-                "arm"
+                "ell",
+                "hye"
             ],
             extraTerritorialCommunities: [],
             signs: {
@@ -5918,7 +5906,7 @@ export const countries = [
             widelySpoken: [],
             localCommunities: [
                 "mey",
-                "ber"
+                "zgh"
             ],
             extraTerritorialCommunities: [],
             signs: {
@@ -6000,7 +5988,6 @@ export const countries = [
                 "nrb",
                 "ssy",
                 "kun",
-                "blu",
                 "amh",
                 "orm"
             ],
@@ -6385,7 +6372,7 @@ export const countries = [
             extraTerritorialCommunities: [],
             signs: {
                 official: [
-                    "fji"
+                    "fij"
                 ],
                 recognized: [],
                 used: []
@@ -6702,12 +6689,11 @@ export const countries = [
                 "arp",
                 "kmr",
                 "kab",
-                "ber",
+                "zgh",
                 "zho",
                 "tam",
                 "tur",
                 "ful",
-                "son",
                 "wol"
             ],
             extraTerritorialCommunities: [
@@ -6797,7 +6783,7 @@ export const countries = [
             ],
             localCommunities: [
                 "mye",
-                "pun",
+                "puu",
                 "nzb",
                 "tte",
                 "bap",
@@ -7071,7 +7057,7 @@ export const countries = [
             widelySpoken: [
                 "rus",
                 "azj",
-                "arm"
+                "hye"
             ],
             localCommunities: [
                 "ava",
@@ -7158,11 +7144,11 @@ export const countries = [
                 "car",
                 "way",
                 "mpy",
-                "tup",
+                "tpn",
                 "tir",
                 "poi",
                 "njo",
-                "dut",
+                "nld",
                 "srn",
                 "tem"
             ],
@@ -7670,8 +7656,7 @@ export const countries = [
                 "fuf",
                 "sus",
                 "man",
-                "knf",
-                "djz"
+                "knf"
             ],
             localCommunities: [
                 "bsc",
@@ -7927,7 +7912,7 @@ export const countries = [
                 "ara",
                 "eng",
                 "rus",
-                "alb",
+                "sqi",
                 "kur"
             ],
             signs: {
@@ -8083,7 +8068,6 @@ export const countries = [
                 "poc",
                 "kjb",
                 "itz",
-                "qut",
                 "tzj",
                 "usp",
                 "kek",
@@ -8826,7 +8810,7 @@ export const countries = [
                 "hrv",
                 "ukr",
                 "slk",
-                "rum"
+                "ron"
             ],
             widelySpoken: [
                 "deu"
@@ -8924,7 +8908,6 @@ export const countries = [
             ],
             localCommunities: [
                 "ace",
-                "btk",
                 "rej",
                 "tor",
                 "sas",
@@ -9095,7 +9078,7 @@ export const countries = [
                 "jdt",
                 "lad",
                 "kaa",
-                "grc",
+                "ell",
                 "arc"
             ],
             extraTerritorialCommunities: [],
@@ -9474,9 +9457,7 @@ export const countries = [
             ],
             widelySpoken: [],
             localCommunities: [
-                "cka",
                 "bhd",
-                "ahy",
                 "aii",
                 "tmr",
                 "hne"
@@ -9735,13 +9716,11 @@ export const countries = [
                 "vec",
                 "lij",
                 "lmo",
-                "eml",
                 "pms"
             ],
             localCommunities: [
                 "arb",
-                "grc",
-                "mol"
+                "ell"
             ],
             extraTerritorialCommunities: [],
             signs: {
@@ -10001,7 +9980,7 @@ export const countries = [
             localCommunities: [
                 "ckb",
                 "aze",
-                "arm",
+                "hye",
                 "syc",
                 "arc",
                 "che",
@@ -10262,7 +10241,6 @@ export const countries = [
                 "tat",
                 "tuk",
                 "kas",
-                "tjk",
                 "tur",
                 "haz",
                 "tgk"
@@ -11165,7 +11143,7 @@ export const countries = [
                 "eng"
             ],
             localCommunities: [
-                "arm",
+                "hye",
                 "syc",
                 "kaa"
             ],
@@ -11482,7 +11460,6 @@ export const countries = [
             localCommunities: [
                 "vai",
                 "kpe",
-                "bai",
                 "dee",
                 "klu",
                 "lnw",
@@ -12206,7 +12183,7 @@ export const countries = [
                 "srp",
                 "bos",
                 "hrv",
-                "alb"
+                "sqi"
             ],
             localCommunities: [],
             extraTerritorialCommunities: [],
@@ -12509,9 +12486,8 @@ export const countries = [
             widelySpoken: [],
             localCommunities: [
                 "rom",
-                "trk",
+                "tur",
                 "srb",
-                "vlm",
                 "bos"
             ],
             extraTerritorialCommunities: [],
@@ -12593,7 +12569,6 @@ export const countries = [
                 "fuf"
             ],
             localCommunities: [
-                "son",
                 "ses",
                 "tmh",
                 "ful",
@@ -12671,7 +12646,6 @@ export const countries = [
             localCommunities: [
                 "shn",
                 "kac",
-                "kar",
                 "cak",
                 "mnw",
                 "rar"
@@ -13069,7 +13043,6 @@ export const countries = [
                 "zen"
             ],
             localCommunities: [
-                "son",
                 "fuc",
                 "snq",
                 "bwj"
@@ -13555,16 +13528,13 @@ export const countries = [
                 deFacto: []
             },
             regional: [
-                "nah",
                 "mxc",
                 "mix",
                 "tzm",
                 "zap",
-                "myn",
                 "tar",
                 "cmi",
-                "tzo",
-                "yoa"
+                "tzo"
             ],
             widelySpoken: [],
             localCommunities: [],
@@ -13815,17 +13785,18 @@ export const countries = [
                 "afr",
                 "deu",
                 "naq",
-                "hgm",
-                "kwn",
-                "loz",
-                "her"
+                "kua",
+                "ndo",
+                "her",
+                "loz"
             ],
             localCommunities: [
                 "tsn",
                 "ven",
-                "khi",
                 "ktz",
-                "bwc"
+                "hgm",
+                "xuu",
+                "nmn"
             ],
             extraTerritorialCommunities: [],
             signs: {
@@ -14335,7 +14306,7 @@ export const countries = [
                 "ind",
                 "por",
                 "pol",
-                "rum",
+                "ron",
                 "bul"
             ],
             signs: {
@@ -14516,7 +14487,6 @@ export const countries = [
             localCommunities: [
                 "dty",
                 "thl",
-                "ltr",
                 "san",
                 "che",
                 "sun",
@@ -16284,7 +16254,7 @@ export const countries = [
                 "ukr",
                 "bul",
                 "rue",
-                "rum",
+                "ron",
                 "aln"
             ],
             widelySpoken: [],
@@ -16419,7 +16389,7 @@ export const countries = [
                 "deu",
                 "aze",
                 "kor",
-                "arm"
+                "hye"
             ],
             signs: {
                 official: [],
@@ -16916,7 +16886,7 @@ export const countries = [
                 "fit"
             ],
             localCommunities: [
-                "fiq",
+                "fkv",
                 "rmf"
             ],
             extraTerritorialCommunities: [
@@ -19660,7 +19630,7 @@ export const countries = [
                 "pol"
             ],
             extraTerritorialCommunities: [
-                "arm",
+                "hye",
                 "aze",
                 "heb",
                 "tat"
@@ -19975,8 +19945,8 @@ export const countries = [
                 "rus",
                 "fra",
                 "deu",
-                "it",
-                "pt"
+                "ita",
+                "por"
             ],
             signs: {
                 official: [],
@@ -20067,7 +20037,7 @@ export const countries = [
                 official: [],
                 recognized: [],
                 used: [
-                    "uls"
+                    "ugy"
                 ]
             },
             dialects: []
@@ -21287,14 +21257,12 @@ export const countries = [
                 "toi",
                 "loz",
                 "lun",
-                "kqn",
-                "kdo"
+                "kqn"
             ],
             localCommunities: [
                 "lch",
                 "cce",
-                "xuj",
-                "bmy"
+                "xuj"
             ],
             extraTerritorialCommunities: [],
             signs: {

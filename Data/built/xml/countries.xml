@@ -465,7 +465,7 @@
                 <language>mkd</language>
                 <language>srp</language>
                 <language>rom</language>
-                <language>vlj</language>
+                <language>rup</language>
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
@@ -943,16 +943,20 @@
             <widelySpoken/>
             <localCommunities>
                 <language>gnc</language>
+                <language>mby</language>
                 <language>quh</language>
-                <language>mzf</language>
-                <language>map</language>
+                <language>qvw</language>
+                <language>arn</language>
                 <language>aym</language>
                 <language>wca</language>
-                <language>qvw</language>
-                <language>chr</language>
-                <language>bjo</language>
             </localCommunities>
-            <extraTerritorialCommunities/>
+            <extraTerritorialCommunities>
+                <language>ita</language>
+                <language>deu</language>
+                <language>arb</language>
+                <language>por</language>
+                <language>ydd</language>
+            </extraTerritorialCommunities>
             <signs>
                 <official/>
                 <recognized/>
@@ -1223,7 +1227,7 @@
                 <official/>
                 <recognized/>
                 <used>
-                    <language>aus</language>
+                    <language>asf</language>
                 </used>
             </signs>
             <dialects/>
@@ -1449,7 +1453,7 @@
                 <language>avk</language>
                 <language>xal</language>
                 <language>diq</language>
-                <language>arm</language>
+                <language>hye</language>
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
@@ -1811,7 +1815,7 @@
             <extraTerritorialCommunities>
                 <language>ara</language>
                 <language>tur</language>
-                <language>ber</language>
+                <language>zgh</language>
             </extraTerritorialCommunities>
             <signs>
                 <official>
@@ -1906,7 +1910,6 @@
                 <language>smp</language>
                 <language>lob</language>
                 <language>dag</language>
-                <language>daf</language>
                 <language>san</language>
                 <language>mnk</language>
                 <language>bwq</language>
@@ -1999,9 +2002,6 @@
                 <language>rmy</language>
                 <language>rup</language>
                 <language>mkd</language>
-                <language>srm</language>
-                <language>buj</language>
-                <language>trk</language>
                 <language>aln</language>
                 <language>ell</language>
             </localCommunities>
@@ -2810,23 +2810,20 @@
                 <language>yrl</language>
             </widelySpoken>
             <localCommunities>
-                <language>tup</language>
-                <language>kau</language>
                 <language>gub</language>
+                <language>yrl</language>
+                <language>gun</language>
+                <language>kai</language>
                 <language>xav</language>
-                <language>myn</language>
-                <language>mvp</language>
-                <language>mzc</language>
-                <language>tub</language>
-                <language>ter</language>
-                <language>kek</language>
+                <language>kra</language>
+                <language>apn</language>
+                <language>mbo</language>
                 <language>apu</language>
-                <language>kam</language>
-                <language>kqn</language>
-                <language>mpd</language>
-                <language>bdn</language>
-                <language>knt</language>
-                <language>kpy</language>
+                <language>ter</language>
+                <language>ban</language>
+                <language>tik</language>
+                <language>yan</language>
+                <language>trr</language>
             </localCommunities>
             <extraTerritorialCommunities>
                 <language>jpn</language>
@@ -3136,18 +3133,17 @@
             <regional/>
             <widelySpoken/>
             <localCommunities>
-                <language>kal</language>
-                <language>nmn</language>
-                <language>her</language>
-                <language>mhw</language>
-                <language>xuu</language>
-                <language>guc</language>
-                <language>huc</language>
-                <language>seh</language>
-                <language>khi</language>
-                <language>nmg</language>
-                <language>dik</language>
                 <language>naq</language>
+                <language>nmn</language>
+                <language>xuu</language>
+                <language>huc</language>
+                <language>ktz</language>
+                <language>her</language>
+                <language>loz</language>
+                <language>mbu</language>
+                <language>kck</language>
+                <language>shy</language>
+                <language>mhw</language>
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
@@ -3447,12 +3443,9 @@
                 <language>dgr</language>
                 <language>hur</language>
                 <language>kut</language>
-                <language>myn</language>
                 <language>nnh</language>
                 <language>nsr</language>
                 <language>ood</language>
-                <language>sal</language>
-                <language>sca</language>
                 <language>srs</language>
                 <language>sqt</language>
                 <language>taa</language>
@@ -3468,7 +3461,7 @@
                 <language>zho</language>
                 <language>ita</language>
                 <language>deu</language>
-                <language>pun</language>
+                <language>puu</language>
                 <language>ara</language>
                 <language>ukr</language>
             </extraTerritorialCommunities>
@@ -3561,7 +3554,7 @@
                 <official/>
                 <recognized/>
                 <used>
-                    <language>aus</language>
+                    <language>asf</language>
                 </used>
             </signs>
             <dialects/>
@@ -3637,7 +3630,6 @@
             </regional>
             <widelySpoken/>
             <localCommunities>
-                <language>bnt</language>
                 <language>umb</language>
                 <language>nyk</language>
                 <language>tkw</language>
@@ -3736,7 +3728,6 @@
                 <language>mnh</language>
                 <language>bxp</language>
                 <language>bkg</language>
-                <language>nzc</language>
                 <language>lnl</language>
                 <language>bjo</language>
                 <language>kwy</language>
@@ -3924,7 +3915,7 @@
                 <language>slv</language>
                 <language>por</language>
                 <language>srp</language>
-                <language>alb</language>
+                <language>sqi</language>
                 <language>tur</language>
             </localCommunities>
             <extraTerritorialCommunities/>
@@ -4013,8 +4004,7 @@
             <widelySpoken>
                 <language>dyu</language>
                 <language>aka</language>
-                <language>baq</language>
-                <language>kro</language>
+                <language>eus</language>
                 <language>sju</language>
             </widelySpoken>
             <localCommunities>
@@ -4026,7 +4016,6 @@
                 <language>bqa</language>
                 <language>mkw</language>
                 <language>acl</language>
-                <language>djg</language>
                 <language>bfb</language>
                 <language>agv</language>
                 <language>kpe</language>
@@ -4186,7 +4175,6 @@
             <widelySpoken/>
             <localCommunities>
                 <language>arn</language>
-                <language>cba</language>
                 <language>aym</language>
                 <language>que</language>
                 <language>rap</language>
@@ -4883,7 +4871,7 @@
                 <official/>
                 <recognized/>
                 <used>
-                    <language>aus</language>
+                    <language>asf</language>
                 </used>
             </signs>
             <dialects/>
@@ -5818,8 +5806,8 @@
                 <language>cop</language>
                 <language>nob</language>
                 <language>bej</language>
-                <language>grc</language>
-                <language>arm</language>
+                <language>ell</language>
+                <language>hye</language>
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
@@ -5898,7 +5886,7 @@
             <widelySpoken/>
             <localCommunities>
                 <language>mey</language>
-                <language>ber</language>
+                <language>zgh</language>
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
@@ -5980,7 +5968,6 @@
                 <language>nrb</language>
                 <language>ssy</language>
                 <language>kun</language>
-                <language>blu</language>
                 <language>amh</language>
                 <language>orm</language>
             </localCommunities>
@@ -6365,7 +6352,7 @@
             <extraTerritorialCommunities/>
             <signs>
                 <official>
-                    <language>fji</language>
+                    <language>fij</language>
                 </official>
                 <recognized/>
                 <used/>
@@ -6682,12 +6669,11 @@
                 <language>arp</language>
                 <language>kmr</language>
                 <language>kab</language>
-                <language>ber</language>
+                <language>zgh</language>
                 <language>zho</language>
                 <language>tam</language>
                 <language>tur</language>
                 <language>ful</language>
-                <language>son</language>
                 <language>wol</language>
             </localCommunities>
             <extraTerritorialCommunities>
@@ -6777,7 +6763,7 @@
             </widelySpoken>
             <localCommunities>
                 <language>mye</language>
-                <language>pun</language>
+                <language>puu</language>
                 <language>nzb</language>
                 <language>tte</language>
                 <language>bap</language>
@@ -7051,7 +7037,7 @@
             <widelySpoken>
                 <language>rus</language>
                 <language>azj</language>
-                <language>arm</language>
+                <language>hye</language>
             </widelySpoken>
             <localCommunities>
                 <language>ava</language>
@@ -7138,11 +7124,11 @@
                 <language>car</language>
                 <language>way</language>
                 <language>mpy</language>
-                <language>tup</language>
+                <language>tpn</language>
                 <language>tir</language>
                 <language>poi</language>
                 <language>njo</language>
-                <language>dut</language>
+                <language>nld</language>
                 <language>srn</language>
                 <language>tem</language>
             </localCommunities>
@@ -7651,7 +7637,6 @@
                 <language>sus</language>
                 <language>man</language>
                 <language>knf</language>
-                <language>djz</language>
             </widelySpoken>
             <localCommunities>
                 <language>bsc</language>
@@ -7907,7 +7892,7 @@
                 <language>ara</language>
                 <language>eng</language>
                 <language>rus</language>
-                <language>alb</language>
+                <language>sqi</language>
                 <language>kur</language>
             </extraTerritorialCommunities>
             <signs>
@@ -8113,7 +8098,6 @@
                 <language>poc</language>
                 <language>kjb</language>
                 <language>itz</language>
-                <language>qut</language>
                 <language>tzj</language>
                 <language>usp</language>
                 <language>kek</language>
@@ -8856,7 +8840,7 @@
                 <language>hrv</language>
                 <language>ukr</language>
                 <language>slk</language>
-                <language>rum</language>
+                <language>ron</language>
             </regional>
             <widelySpoken>
                 <language>deu</language>
@@ -8954,7 +8938,6 @@
             </widelySpoken>
             <localCommunities>
                 <language>ace</language>
-                <language>btk</language>
                 <language>rej</language>
                 <language>tor</language>
                 <language>sas</language>
@@ -9125,7 +9108,7 @@
                 <language>jdt</language>
                 <language>lad</language>
                 <language>kaa</language>
-                <language>grc</language>
+                <language>ell</language>
                 <language>arc</language>
             </localCommunities>
             <extraTerritorialCommunities/>
@@ -9504,9 +9487,7 @@
             </regional>
             <widelySpoken/>
             <localCommunities>
-                <language>cka</language>
                 <language>bhd</language>
-                <language>ahy</language>
                 <language>aii</language>
                 <language>tmr</language>
                 <language>hne</language>
@@ -9765,13 +9746,11 @@
                 <language>vec</language>
                 <language>lij</language>
                 <language>lmo</language>
-                <language>eml</language>
                 <language>pms</language>
             </widelySpoken>
             <localCommunities>
                 <language>arb</language>
-                <language>grc</language>
-                <language>mol</language>
+                <language>ell</language>
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
@@ -10031,7 +10010,7 @@
             <localCommunities>
                 <language>ckb</language>
                 <language>aze</language>
-                <language>arm</language>
+                <language>hye</language>
                 <language>syc</language>
                 <language>arc</language>
                 <language>che</language>
@@ -10292,7 +10271,6 @@
                 <language>tat</language>
                 <language>tuk</language>
                 <language>kas</language>
-                <language>tjk</language>
                 <language>tur</language>
                 <language>haz</language>
                 <language>tgk</language>
@@ -11195,7 +11173,7 @@
                 <language>eng</language>
             </widelySpoken>
             <localCommunities>
-                <language>arm</language>
+                <language>hye</language>
                 <language>syc</language>
                 <language>kaa</language>
             </localCommunities>
@@ -11512,7 +11490,6 @@
             <localCommunities>
                 <language>vai</language>
                 <language>kpe</language>
-                <language>bai</language>
                 <language>dee</language>
                 <language>klu</language>
                 <language>lnw</language>
@@ -12236,7 +12213,7 @@
                 <language>srp</language>
                 <language>bos</language>
                 <language>hrv</language>
-                <language>alb</language>
+                <language>sqi</language>
             </widelySpoken>
             <localCommunities/>
             <extraTerritorialCommunities/>
@@ -12539,9 +12516,8 @@
             <widelySpoken/>
             <localCommunities>
                 <language>rom</language>
-                <language>trk</language>
+                <language>tur</language>
                 <language>srb</language>
-                <language>vlm</language>
                 <language>bos</language>
             </localCommunities>
             <extraTerritorialCommunities/>
@@ -12623,7 +12599,6 @@
                 <language>fuf</language>
             </widelySpoken>
             <localCommunities>
-                <language>son</language>
                 <language>ses</language>
                 <language>tmh</language>
                 <language>ful</language>
@@ -12701,7 +12676,6 @@
             <localCommunities>
                 <language>shn</language>
                 <language>kac</language>
-                <language>kar</language>
                 <language>cak</language>
                 <language>mnw</language>
                 <language>rar</language>
@@ -13099,7 +13073,6 @@
                 <language>zen</language>
             </widelySpoken>
             <localCommunities>
-                <language>son</language>
                 <language>fuc</language>
                 <language>snq</language>
                 <language>bwj</language>
@@ -13585,16 +13558,13 @@
                 <deFacto/>
             </official>
             <regional>
-                <language>nah</language>
                 <language>mxc</language>
                 <language>mix</language>
                 <language>tzm</language>
                 <language>zap</language>
-                <language>myn</language>
                 <language>tar</language>
                 <language>cmi</language>
                 <language>tzo</language>
-                <language>yoa</language>
             </regional>
             <widelySpoken/>
             <localCommunities/>
@@ -13845,17 +13815,18 @@
                 <language>afr</language>
                 <language>deu</language>
                 <language>naq</language>
-                <language>hgm</language>
-                <language>kwn</language>
-                <language>loz</language>
+                <language>kua</language>
+                <language>ndo</language>
                 <language>her</language>
+                <language>loz</language>
             </widelySpoken>
             <localCommunities>
                 <language>tsn</language>
                 <language>ven</language>
-                <language>khi</language>
                 <language>ktz</language>
-                <language>bwc</language>
+                <language>hgm</language>
+                <language>xuu</language>
+                <language>nmn</language>
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
@@ -14365,7 +14336,7 @@
                 <language>ind</language>
                 <language>por</language>
                 <language>pol</language>
-                <language>rum</language>
+                <language>ron</language>
                 <language>bul</language>
             </extraTerritorialCommunities>
             <signs>
@@ -14546,7 +14517,6 @@
             <localCommunities>
                 <language>dty</language>
                 <language>thl</language>
-                <language>ltr</language>
                 <language>san</language>
                 <language>che</language>
                 <language>sun</language>
@@ -16314,7 +16284,7 @@
                 <language>ukr</language>
                 <language>bul</language>
                 <language>rue</language>
-                <language>rum</language>
+                <language>ron</language>
                 <language>aln</language>
             </regional>
             <widelySpoken/>
@@ -16449,7 +16419,7 @@
                 <language>deu</language>
                 <language>aze</language>
                 <language>kor</language>
-                <language>arm</language>
+                <language>hye</language>
             </extraTerritorialCommunities>
             <signs>
                 <official/>
@@ -16946,7 +16916,7 @@
                 <language>fit</language>
             </widelySpoken>
             <localCommunities>
-                <language>fiq</language>
+                <language>fkv</language>
                 <language>rmf</language>
             </localCommunities>
             <extraTerritorialCommunities>
@@ -19690,7 +19660,7 @@
                 <language>pol</language>
             </localCommunities>
             <extraTerritorialCommunities>
-                <language>arm</language>
+                <language>hye</language>
                 <language>aze</language>
                 <language>heb</language>
                 <language>tat</language>
@@ -20005,8 +19975,8 @@
                 <language>rus</language>
                 <language>fra</language>
                 <language>deu</language>
-                <language>it</language>
-                <language>pt</language>
+                <language>ita</language>
+                <language>por</language>
             </extraTerritorialCommunities>
             <signs>
                 <official/>
@@ -20097,7 +20067,7 @@
                 <official/>
                 <recognized/>
                 <used>
-                    <language>uls</language>
+                    <language>ugy</language>
                 </used>
             </signs>
             <dialects/>
@@ -21318,13 +21288,11 @@
                 <language>loz</language>
                 <language>lun</language>
                 <language>kqn</language>
-                <language>kdo</language>
             </widelySpoken>
             <localCommunities>
                 <language>lch</language>
                 <language>cce</language>
                 <language>xuj</language>
-                <language>bmy</language>
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>

@@ -414,7 +414,7 @@
             },
             "regional": [],
             "widelySpoken": [],
-            "localCommunities": ["ell", "mkd", "srp", "rom", "vlj"],
+            "localCommunities": ["ell", "mkd", "srp", "rom", "rup"],
             "extraTerritorialCommunities": [],
             "signs": {
                 "official": [],
@@ -844,8 +844,8 @@
             },
             "regional": [],
             "widelySpoken": [],
-            "localCommunities": ["gnc", "quh", "mzf", "map", "aym", "wca", "qvw", "chr", "bjo"],
-            "extraTerritorialCommunities": [],
+            "localCommunities": ["gnc", "mby", "quh", "qvw", "arn", "aym", "wca"],
+            "extraTerritorialCommunities": ["ita", "deu", "arb", "por", "ydd"],
             "signs": {
                 "official": [],
                 "recognized": [],
@@ -1061,7 +1061,7 @@
             "signs": {
                 "official": [],
                 "recognized": [],
-                "used": ["aus"]
+                "used": ["asf"]
             },
             "dialects": []
         },
@@ -1234,7 +1234,7 @@
             },
             "regional": [],
             "widelySpoken": ["rus", "tur"],
-            "localCommunities": ["lez", "tkr", "tat", "udi", "kur", "avk", "xal", "diq", "arm"],
+            "localCommunities": ["lez", "tkr", "tat", "udi", "kur", "avk", "xal", "diq", "hye"],
             "extraTerritorialCommunities": [],
             "signs": {
                 "official": [],
@@ -1517,7 +1517,7 @@
             "regional": [],
             "widelySpoken": [],
             "localCommunities": ["wae", "vls", "wln", "lim", "yid"],
-            "extraTerritorialCommunities": ["ara", "tur", "ber"],
+            "extraTerritorialCommunities": ["ara", "tur", "zgh"],
             "signs": {
                 "official": ["vgt"],
                 "recognized": ["sfb"],
@@ -1579,7 +1579,7 @@
             },
             "regional": [],
             "widelySpoken": ["mos"],
-            "localCommunities": ["dyu", "ful", "bbo", "bba", "smp", "lob", "dag", "daf", "san", "mnk", "bwq", "noc"],
+            "localCommunities": ["dyu", "ful", "bbo", "bba", "smp", "lob", "dag", "san", "mnk", "bwq", "noc"],
             "extraTerritorialCommunities": [],
             "signs": {
                 "official": [],
@@ -1650,7 +1650,7 @@
             "regional": [],
             "widelySpoken": [],
             "localCommunities": [
-                "tur", "rom", "rmy", "rup", "mkd", "srm", "buj", "trk", "aln", "ell"
+                "tur", "rom", "rmy", "rup", "mkd", "aln", "ell"
             ],
             "extraTerritorialCommunities": [],
             "signs": {
@@ -2283,7 +2283,7 @@
                 "deFacto": []
             },
             "widelySpoken": ["pov", "yrl"],
-            "localCommunities": ["tup", "kau", "gub", "xav", "tup", "myn", "mvp", "mzc", "tub", "ter", "kek", "apu", "kam", "kqn", "mpd", "xav", "bdn", "knt", "kpy"],
+            "localCommunities": ["gub", "yrl", "gun", "kai", "xav", "kra", "apn", "mbo", "apu", "ter", "ban", "tik", "yan", "trr"],
             "extraTerritorialCommunities": ["jpn", "ita", "deu", "cmn", "yue"],
             "signs": {
                 "official": ["bzs"],
@@ -2555,7 +2555,7 @@
             },
             "regional": [],
             "widelySpoken": [],
-            "localCommunities": ["kal", "nmn", "her", "mhw", "xuu", "guc", "huc", "seh", "khi", "nmg", "dik", "naq"],
+            "localCommunities": ["naq", "nmn", "xuu", "huc", "ktz", "her", "loz", "mbu", "kck", "shy", "mhw"],
             "extraTerritorialCommunities": [],
             "signs": {
                 "official": [],
@@ -2804,12 +2804,12 @@
             "regional": [],
             "widelySpoken": ["ike", "moh", "oji", "crj"],
             "localCommunities": [
-                "ikt", "bev", "chp", "cwd", "den", "dgr", "hur", "kut", "myn",
-                "nnh", "nsr", "ood", "sal", "sca", "srs", "sqt", "taa",
+                "ikt", "bev", "chp", "cwd", "den", "dgr", "hur", "kut",
+                "nnh", "nsr", "ood", "srs", "sqt", "taa",
                 "tce", "tht", "tli", "tnl", "wuu"
             ],
             "extraTerritorialCommunities": [
-                "pan", "tam", "zho", "ita", "deu", "pun", "ara", "ukr"
+                "pan", "tam", "zho", "ita", "deu", "puu", "ara", "ukr"
             ],
             "signs": {
                 "official": [],
@@ -2892,7 +2892,7 @@
             "signs": {
                 "official": [],
                 "recognized": [],
-                "used": ["aus"]
+                "used": ["asf"]
             },
             "extraTerritorialCommunities": [],
             "dialects": []
@@ -2909,7 +2909,7 @@
         "NOTES": [
             "[languages] 'zlm' refers to the local variant of colloquial Malay spoken by the Cocos Malay community,",
             "known as 'Basa Pulu Kokos'.",
-            "[languages] 'aus' (Australian Sign Language) added as 'used' based on regional linguistic influence from",
+            "[languages] 'asf' (Australian Sign Language) added as 'used' based on regional linguistic influence from",
             "mainland Australia."
         ]
     },
@@ -2964,7 +2964,7 @@
             },
             "regional": ["lin", "kon", "lua", "swa"],
             "widelySpoken": [],
-            "localCommunities": ["bnt", "umb", "nyk", "tkw", "cng", "yaf", "ndo", "bku", "luo", "ngc", "bmb", "blz"],
+            "localCommunities": ["umb", "nyk", "tkw", "cng", "yaf", "ndo", "bku", "luo", "ngc", "bmb", "blz"],
             "signs": {
                 "official": [],
                 "recognized": [],
@@ -3043,7 +3043,7 @@
             },
             "regional": [],
             "widelySpoken": [],
-            "localCommunities": ["gya", "mbb", "mnh", "bxp", "bkg", "nzc", "lnl", "bjo", "kwy", "bfl"],
+            "localCommunities": ["gya", "mbb", "mnh", "bxp", "bkg", "lnl", "bjo", "kwy", "bfl"],
             "signs": {
                 "official": [],
                 "recognized": [],
@@ -3205,7 +3205,7 @@
             },
             "regional": [],
             "widelySpoken": [],
-            "localCommunities": ["gsw", "lld", "slv", "por", "srp", "alb", "tur"],
+            "localCommunities": ["gsw", "lld", "slv", "por", "srp", "sqi", "tur"],
             "signs": {
                 "official": [],
                 "recognized": [],
@@ -3288,8 +3288,8 @@
                 "deFacto": []
             },
             "regional": [],
-            "widelySpoken": ["dyu", "aka", "baq", "kro", "sju"],
-            "localCommunities": ["sef", "kfo", "bci", "biv", "mxx", "bqa", "mkw", "acl", "djg", "bfb", "agv", "kpe", "loo"],
+            "widelySpoken": ["dyu", "aka", "eus", "sju"],
+            "localCommunities": ["sef", "kfo", "bci", "biv", "mxx", "bqa", "mkw", "acl", "bfb", "agv", "kpe", "loo"],
             "signs": {
                 "official": [],
                 "recognized": [],
@@ -3309,7 +3309,7 @@
         },
         "NOTES": [
             "[languages] 'fra' is the only official language recognized by the Constitution (Art. 1).",
-            "[languages] Languages like 'dyu', 'aka', and 'kro' are widely spoken across regions and serve as lingua francas.",
+            "[languages] Languages like 'dyu' and 'aka' are widely spoken across regions and serve as lingua francas.",
             "[languages] 'fcs' (Langue des signes française) is used without legal status.",
             "[languages] 'nqo' refers to a writing system, not a spoken language; its inclusion should be qualified.",
             "[languages] No documented 'extraTerritorialCommunities' currently apply."
@@ -3440,7 +3440,7 @@
             },
             "regional": [],
             "widelySpoken": [],
-            "localCommunities": ["arn", "cba", "aym", "que", "rap"],
+            "localCommunities": ["arn", "aym", "que", "rap"],
             "signs": {
                 "official": [],
                 "recognized": [],
@@ -4073,7 +4073,7 @@
             "signs": {
                 "official": [],
                 "recognized": [],
-                "used": ["aus"]
+                "used": ["asf"]
             },
             "dialects": []
         },
@@ -4089,7 +4089,7 @@
         "NOTES": [
             "[languages] English is the only official language under Australian jurisdiction.",
             "[languages] Mandarin Chinese and Malay are widely spoken due to community composition.",
-            "[signs] 'aus' (Australian Sign Language) is used without formal recognition.",
+            "[signs] 'asf' (Australian Sign Language) is used without formal recognition.",
             "[dialCodes] +61891 is assigned under Australian jurisdiction and used de facto in Christmas Island.",
             "Calls are routed via Australian infrastructure.",
             "[mottos] No official or historical motto is currently designated for the territory."
@@ -4657,7 +4657,7 @@
         "NOTES": [
             "[languages] Tamazight is officially recognized as a national and official language.",
             "It includes varieties such as Kabyle (kab), Mozabite (mzb), Tamasheq (tmh), and Tamahaq (taq),",
-            "all part of the broader Berber (ber) language family.",
+            "all part of the broader Berber (zgh) language family.",
             "[languages] No regional languages are legally defined despite strong local usage of Berber varieties.",
             "[languages] No immigrant languages meet the threshold or public visibility for inclusion as",
             "extraTerritorialCommunities."
@@ -4843,7 +4843,7 @@
             },
             "regional": [],
             "widelySpoken": ["arz", "enb"],
-            "localCommunities": ["cop", "nob", "bej", "grc", "arm"],
+            "localCommunities": ["cop", "nob", "bej", "ell", "hye"],
             "extraTerritorialCommunities": [],
             "signs": {
                 "official": [],
@@ -4861,8 +4861,8 @@
         "NOTES": [
             "[languages] Modern Standard Arabic (arb) is the sole official language by law.",
             "[languages] Egyptian Arabic (arz) and Sa'idi Arabic (enb) are widely spoken regional varieties.",
-            "[languages] Coptic (cop) has liturgical use, while Nubian (nob), Beja (bej), Greek (grc), and Armenian",
-            "(arm) reflect historical communities.",
+            "[languages] Coptic (cop) has liturgical use, while Nubian (nob), Beja (bej), Greek (ell), and Armenian",
+            "(hye) reflect historical communities.",
             "[languages] No regional languages are formally recognized; all minority languages lack legal status.",
             "[languages] Despite hosting migrant and refugee populations from the Horn of Africa and beyond, Egypt ",
             "has no immigrant language community that meets visibility or population thresholds for inclusion."
@@ -4913,7 +4913,7 @@
             },
             "regional": [],
             "widelySpoken": [],
-            "localCommunities": ["mey", "ber"],
+            "localCommunities": ["mey", "zgh"],
             "extraTerritorialCommunities": [],
             "signs": {
                 "official": [],
@@ -4932,7 +4932,6 @@
             "[languages] Arabic (arb) and Spanish (spa) are declared official by the Sahrawi Arab Democratic Republic,",
             "but only Arabic has de facto use in administration and daily life.",
             "[languages] Hassaniya Arabic (mey) is the primary spoken variety.",
-            "[languages] Berber (ber) presence is historical but not widespread; no legal status is conferred.",
             "[languages] Due to the political status of Western Sahara, language policy and recognition remain disputed",
             "and vary across territories administered by Morocco and the SADR.",
             "[dialCodes] The country code +212 is officially assigned to Morocco and used de facto in Western Sahara.",
@@ -4987,7 +4986,7 @@
             },
             "regional": [],
             "widelySpoken": ["tir", "ara", "tig"],
-            "localCommunities": ["byn", "nrb", "ssy", "kun", "blu", "amh", "orm"],
+            "localCommunities": ["byn", "nrb", "ssy", "kun", "amh", "orm"],
             "extraTerritorialCommunities": [],
             "signs": {
                 "official": [],
@@ -5007,7 +5006,7 @@
             "all used in administration, though only Tigrinya and Arabic have strong community roots.",
             "[languages] Tigre (tig) is widely spoken, especially in the western and northern regions.",
             "[languages] Local communities use several other native languages, including Bilen (byn), Nara (nrb),",
-            "Saho (ssy), Kunama (kun), and Blin (blu), as well as immigrant or border languages such as Amharic (amh)",
+            "Saho (ssy), Kunama (kun) as well as immigrant or border languages such as Amharic (amh)",
             "and Oromo (orm).",
             "[languages] The multiplicity of languages is recognized in practice but not formalized legally.",
             "[languages] English is used in education and government but lacks strong community roots.",
@@ -5289,7 +5288,7 @@
             "localCommunities": ["gil", "ton", "bau"],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": ["fji"],
+                "official": ["fij"],
                 "recognized": [],
                 "used": []
             },
@@ -5577,7 +5576,7 @@
             },
             "regional": ["oci", "bre", "cor", "gsw", "cat", "eus", "glg"],
             "widelySpoken": [],
-            "localCommunities": ["arp", "kmr", "kab", "ber", "zho", "tam", "tur", "ful", "son", "wol"],
+            "localCommunities": ["arp", "kmr", "kab", "zgh", "zho", "tam", "tur", "ful", "wol"],
             "extraTerritorialCommunities": ["ara", "por", "ita", "cmn"],
             "signs": {
                 "official": ["fsl"],
@@ -5655,7 +5654,7 @@
             },
             "regional": [],
             "widelySpoken": ["fan"],
-            "localCommunities": ["mye", "pun", "nzb", "tte", "bap", "ebu", "mvb", "bko"],
+            "localCommunities": ["mye", "puu", "nzb", "tte", "bap", "ebu", "mvb", "bko"],
             "extraTerritorialCommunities": [],
             "signs": {
                 "official": [],
@@ -5679,7 +5678,7 @@
             "status, they remain essential to community identity.",
             "[languages] Fang (fan) is the most widely spoken indigenous language and functions as a lingua franca,",
             "especially in northern regions and Libreville.",
-            "[languages] Other languages like Myene (mye), Punu (pun), Nzebi (nzb), Teke (tte), Kota, and Baka are",
+            "[languages] Other languages like Myene (mye), Punu (puu), Nzebi (nzb), Teke (tte), Kota, and Baka are",
             "spoken by specific ethnic groups and are at various stages of vitality or endangerment.",
             "[languages] French remains dominant in public life; many indigenous languages face decline as younger",
             "generations adopt French."
@@ -5887,7 +5886,7 @@
                 "deFacto": []
             },
             "regional": ["abk"],
-            "widelySpoken": ["rus", "azj", "arm"],
+            "widelySpoken": ["rus", "azj", "hye"],
             "localCommunities": ["ava", "kbd", "lez", "che", "udm"],
             "extraTerritorialCommunities": [],
             "signs": {
@@ -5909,7 +5908,7 @@
         "NOTES": [
             "[languages] Georgian (kat) is the sole official language de jure.",
             "[languages] Abkhaz (abk) has official status in the Autonomous Republic of Abkhazia.",
-            "[languages] Russian (rus), Azerbaijani (azj), and Armenian (arm) are widely spoken in specific regions.",
+            "[languages] Russian (rus), Azerbaijani (azj), and Armenian (hye) are widely spoken in specific regions.",
             "[languages] Minority communities speak Avar (ava), Kabardian (kbd), Lezgi (lez), Chechen (che),",
             "and Udmurt (udm)."
         ]
@@ -5962,7 +5961,7 @@
             },
             "regional": [],
             "widelySpoken": ["gcr"],
-            "localCommunities": ["car", "way", "mpy", "tup", "tir", "poi", "njo", "dut", "srn", "tem"],
+            "localCommunities": ["car", "way", "mpy", "tpn", "tir", "poi", "njo", "nld", "srn", "tem"],
             "extraTerritorialCommunities": [],
             "signs": {
                 "official": [],
@@ -5984,7 +5983,7 @@
             "[languages] French (fra) is the sole official language de jure.",
             "[languages] French Guianese Creole (gcr) is widely spoken among the population.",
             "[languages] Indigenous and immigrant communities speak Carib (car), Wayampi (way), Lokono (mpy),",
-            "Tupinambá (tup), Tiriyó (tir), Palikur (poi), Ndyuka (njo), Dutch (dut), Sranan Tongo (srn), and Tem (tem)."
+            "Tupinambá (tpn), Tiriyó (tir), Palikur (poi), Ndyuka (njo), Dutch (nld), Sranan Tongo (srn), and Tem (tem)."
         ]
     },
     {
@@ -6417,7 +6416,7 @@
                 "deFacto": []
             },
             "regional": [],
-            "widelySpoken": ["fuf", "sus", "man", "knf", "djz"],
+            "widelySpoken": ["fuf", "sus", "man", "knf"],
             "localCommunities": ["bsc", "bgu", "nqo", "kqs", "kqy", "khq"],
             "extraTerritorialCommunities": [],
             "signs": {
@@ -6441,7 +6440,7 @@
         "NOTES": [
             "[languages] French is the official language of Guinea by constitutional mandate.",
             "[languages] Widely spoken indigenous languages include Fula (fuf), Susu (sus), and Mandinka (man).",
-            "[languages] Local community languages reflect ethnic diversity, including Djallonké (djz), N'Ko (nqo),",
+            "[languages] Local community languages reflect ethnic diversity, including N'Ko (nqo),",
             "and others."
         ]
     },
@@ -6637,7 +6636,7 @@
             "regional": ["tur"],
             "widelySpoken": [],
             "localCommunities": ["sqi", "pnt", "rmn", "rup", "bgk", "mkd"],
-            "extraTerritorialCommunities": ["ara", "eng", "rus", "alb", "kur"],
+            "extraTerritorialCommunities": ["ara", "eng", "rus", "sqi", "kur"],
             "signs": {
                 "official": [],
                 "recognized": ["gss"],
@@ -6788,7 +6787,7 @@
                 "deFacto": []
             },
             "regional": [
-                "quc", "mam", "cak", "poc", "kjb", "itz", "qut", "tzj", "usp",
+                "quc", "mam", "cak", "poc", "kjb", "itz", "tzj", "usp",
                 "kek", "ixl", "qum", "ach", "acr", "apf", "ckz", "emp", "mpm",
                 "pap", "pbi", "pov", "pqu", "ttc", "tzl"
             ],
@@ -7399,7 +7398,7 @@
                 "deJure": ["hun"],
                 "deFacto": []
             },
-            "regional": ["srp", "hrv", "ukr", "slk", "rum"],
+            "regional": ["srp", "hrv", "ukr", "slk", "ron"],
             "widelySpoken": ["deu"],
             "localCommunities": ["rue"],
             "extraTerritorialCommunities": ["rom"],
@@ -7483,7 +7482,7 @@
             },
             "regional": [],
             "widelySpoken": ["jav", "sun", "min", "bug", "ban", "mad", "bjn"],
-            "localCommunities": ["ace", "btk", "rej", "tor", "sas", "gor", "bcl", "kge", "tdr", "kqr"],
+            "localCommunities": ["ace", "rej", "tor", "sas", "gor", "bcl", "kge", "tdr", "kqr"],
             "extraTerritorialCommunities": ["hak", "nan", "cmn"],
             "signs": {
                 "official": [],
@@ -7631,7 +7630,7 @@
             },
             "regional": [],
             "widelySpoken": ["ara", "rus", "eng", "amh", "yid"],
-            "localCommunities": ["jpa", "jdt", "lad", "kaa", "grc", "arc"],
+            "localCommunities": ["jpa", "jdt", "lad", "kaa", "ell", "arc"],
             "extraTerritorialCommunities": [],
             "signs": {
                 "official": [],
@@ -7964,7 +7963,7 @@
             },
             "regional": ["tur", "syr", "hye"],
             "widelySpoken": [],
-            "localCommunities": ["cka", "bhd", "ahy", "aii", "tmr", "hne"],
+            "localCommunities": ["bhd", "aii", "tmr", "hne"],
             "extraTerritorialCommunities": [],
             "signs": {
                 "official": [],
@@ -8185,8 +8184,8 @@
                 "deFacto": []
             },
             "regional": ["deu", "fra", "slv", "hrv", "cat", "gsw", "lld", "fur", "srd"],
-            "widelySpoken": ["nap", "scn", "vec", "lij", "lmo", "eml", "pms"],
-            "localCommunities": ["arb", "grc", "mol"],
+            "widelySpoken": ["nap", "scn", "vec", "lij", "lmo", "pms"],
+            "localCommunities": ["arb", "ell"],
             "extraTerritorialCommunities": [],
             "signs": {
                 "official": [],
@@ -8439,7 +8438,7 @@
             },
             "regional": [],
             "widelySpoken": ["eng"],
-            "localCommunities": ["ckb", "aze", "arm", "syc", "arc", "che", "cnu"],
+            "localCommunities": ["ckb", "aze", "hye", "syc", "arc", "che", "cnu"],
             "extraTerritorialCommunities": [],
             "signs": {
                 "official": [],
@@ -8671,7 +8670,7 @@
             },
             "regional": [],
             "widelySpoken": ["uzb"],
-            "localCommunities": ["uig", "tat", "tuk", "kas", "tjk", "tur", "haz", "tgk"],
+            "localCommunities": ["uig", "tat", "tuk", "kas", "tur", "haz", "tgk"],
             "extraTerritorialCommunities": [],
             "signs": {
                 "official": [],
@@ -9489,7 +9488,7 @@
             },
             "regional": [],
             "widelySpoken": ["fra", "eng"],
-            "localCommunities": ["arm", "syc", "kaa"],
+            "localCommunities": ["hye", "syc", "kaa"],
             "extraTerritorialCommunities": [],
             "signs": {
                 "official": [],
@@ -9765,7 +9764,7 @@
             },
             "regional": [],
             "widelySpoken": ["lir"],
-            "localCommunities": ["vai", "kpe", "bai", "dee", "klu", "lnw", "men", "dnj", "bes"],
+            "localCommunities": ["vai", "kpe", "dee", "klu", "lnw", "men", "dnj", "bes"],
             "extraTerritorialCommunities": [],
             "signs": {
                 "official": [],
@@ -10392,7 +10391,7 @@
                 "deFacto": []
             },
             "regional": [],
-            "widelySpoken": ["srp", "bos", "hrv", "alb"],
+            "widelySpoken": ["srp", "bos", "hrv", "sqi"],
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
@@ -10690,7 +10689,7 @@
             },
             "regional": [],
             "widelySpoken": [],
-            "localCommunities": ["rom", "trk", "srb", "vlm", "bos"],
+            "localCommunities": ["rom", "tur", "srb", "bos"],
             "extraTerritorialCommunities": [],
             "signs": {
                 "official": [],
@@ -10767,7 +10766,7 @@
             },
             "regional": [],
             "widelySpoken": ["bam", "fuf"],
-            "localCommunities": ["son", "ses", "tmh", "ful", "dyu", "bci", "snq"],
+            "localCommunities": ["ses", "tmh", "ful", "dyu", "bci", "snq"],
             "extraTerritorialCommunities": [],
             "signs": {
                 "official": [],
@@ -10836,7 +10835,7 @@
             },
             "regional": [],
             "widelySpoken": [],
-            "localCommunities": ["shn", "kac", "kar", "cak", "mnw", "rar"],
+            "localCommunities": ["shn", "kac", "cak", "mnw", "rar"],
             "extraTerritorialCommunities": ["cmn", "tam"],
             "signs": {
                 "official": [],
@@ -11194,7 +11193,7 @@
             },
             "regional": [],
             "widelySpoken": ["fra", "mey", "zen"],
-            "localCommunities": ["son", "fuc", "snq", "bwj"],
+            "localCommunities": ["fuc", "snq", "bwj"],
             "extraTerritorialCommunities": [],
             "signs": {
                 "official": [],
@@ -11637,9 +11636,7 @@
                 "deJure": ["spa"],
                 "deFacto": []
             },
-            "regional": [
-                "nah", "mxc", "mix", "tzm", "zap", "myn", "tar", "cmi", "tzo", "yoa"
-            ],
+            "regional": ["mxc", "mix", "tzm", "zap", "tar", "cmi", "tzo"],
             "widelySpoken": [],
             "localCommunities": [],
             "extraTerritorialCommunities": [],
@@ -11859,8 +11856,8 @@
                 "deFacto": []
             },
             "regional": [],
-            "widelySpoken": ["afr", "deu", "naq", "hgm", "kwn", "loz", "her"],
-            "localCommunities": ["tsn", "ven", "khi", "ktz", "bwc"],
+            "widelySpoken": ["afr", "deu", "naq", "kua", "ndo", "her", "loz"],
+            "localCommunities": ["tsn", "ven", "ktz", "hgm", "xuu", "nmn"],
             "extraTerritorialCommunities": [],
             "signs": {
                 "official": [],
@@ -12301,7 +12298,7 @@
             "regional": [],
             "widelySpoken": ["eng"],
             "localCommunities": ["zea"],
-            "extraTerritorialCommunities": ["tur", "ara", "tam", "hin", "ind", "por", "pol", "rum", "bul"],
+            "extraTerritorialCommunities": ["tur", "ara", "tam", "hin", "ind", "por", "pol", "ron", "bul"],
             "signs": {
                 "official": ["dse"],
                 "recognized": [],
@@ -12456,7 +12453,7 @@
             },
             "regional": [],
             "widelySpoken": ["mai", "bho", "new", "tam", "mag", "awa", "thf"],
-            "localCommunities": ["dty", "thl", "ltr", "san", "che", "sun", "byn"],
+            "localCommunities": ["dty", "thl", "san", "che", "sun", "byn"],
             "extraTerritorialCommunities": [],
             "signs": {
                 "official": [],
@@ -14085,7 +14082,7 @@
                 "deJure": ["srp"],
                 "deFacto": []
             },
-            "regional": ["hun", "slk", "hrv", "ukr", "bul", "rue", "rum", "aln"],
+            "regional": ["hun", "slk", "hrv", "ukr", "bul", "rue", "ron", "aln"],
             "widelySpoken": [],
             "localCommunities": ["rom"],
             "extraTerritorialCommunities": [],
@@ -14169,7 +14166,7 @@
             "regional": ["tat", "che", "chv", "ava", "ady", "kbd", "sah", "udm", "kom", "bua", "lez", "mdf", "myv", "inh"],
             "widelySpoken": [],
             "localCommunities": [],
-            "extraTerritorialCommunities": ["ukr", "deu", "aze", "kor", "arm"],
+            "extraTerritorialCommunities": ["ukr", "deu", "aze", "kor", "hye"],
             "signs": {
                 "official": [],
                 "recognized": [],
@@ -14587,7 +14584,7 @@
             },
             "regional": ["sme", "sma", "sju"],
             "widelySpoken": ["fit"],
-            "localCommunities": ["fiq", "rmf"],
+            "localCommunities": ["fkv", "rmf"],
             "extraTerritorialCommunities": ["ara", "pes", "kur", "som", "tir", "amh"],
             "signs": {
                 "official": [],
@@ -14605,7 +14602,7 @@
         "NOTES": [
             "[languages] Swedish (swe) is the only official language. Sámi languages (sme, sma, sju) are protected and",
             "regionally recognized.",
-            "[languages] Meänkieli (fit) and Kven Finnish (fiq) are recognized under the Framework Convention for the",
+            "[languages] Meänkieli (fit) and Kven Finnish (fkv) are recognized under the Framework Convention for the",
             "Protection of National Minorities.",
             "[languages] Swedish Sign Language (swl) is recognized but not official.",
             "[languages] Extra-territorial communities include speakers of Arabic (ara), Persian (pes), Kurdish (kur),",
@@ -17007,7 +17004,7 @@
             "regional": [],
             "widelySpoken": ["rus"],
             "localCommunities": ["crh", "ron", "hun", "pol"],
-            "extraTerritorialCommunities": ["arm", "aze", "heb", "tat"],
+            "extraTerritorialCommunities": ["hye", "aze", "heb", "tat"],
             "signs": {
                 "official": [],
                 "recognized": [],
@@ -17287,9 +17284,7 @@
             "regional": [],
             "widelySpoken": ["spa", "cmn", "yue", "tgl", "vie"],
             "localCommunities": ["nav", "dak", "chr", "esu"],
-            "extraTerritorialCommunities": [
-                "ara", "hin", "ben", "kor", "rus", "fra", "deu", "it", "pt"
-            ],
+            "extraTerritorialCommunities": ["ara", "hin", "ben", "kor", "rus", "fra", "deu", "ita", "por"],
             "signs": {
                 "official": [],
                 "recognized": [],
@@ -17377,7 +17372,7 @@
             "signs": {
                 "official": [],
                 "recognized": [],
-                "used": ["uls"]
+                "used": ["ugy"]
             },
             "dialects": []
         },
@@ -17393,7 +17388,7 @@
         "NOTES": [
             "[languages] Spanish is the only official language of Uruguay by law.",
             "[languages] Portuguese (por) is spoken in border communities with Brazil (Frontera).",
-            "[signs] Uruguayan Sign Language (uls) is used but lacks legal recognition."
+            "[signs] Uruguayan Sign Language (ugy) is used but lacks legal recognition."
         ]
     },
     {
@@ -18444,8 +18439,8 @@
                 "deFacto": []
             },
             "regional": [],
-            "widelySpoken": ["bem", "nya", "toi", "loz", "lun", "kqn", "kdo"],
-            "localCommunities": ["lch", "cce", "xuj", "bmy"],
+            "widelySpoken": ["bem", "nya", "toi", "loz", "lun", "kqn"],
+            "localCommunities": ["lch", "cce", "xuj"],
             "extraTerritorialCommunities": [],
             "signs": {
                 "official": [],
