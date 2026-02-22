@@ -3485,8 +3485,7 @@ const Countries = `[
             "signs": {
                 "official": [],
                 "recognized": [
-                    "asl",
-                    "lsq"
+                    "asl"
                 ],
                 "used": []
             },

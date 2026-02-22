@@ -3485,8 +3485,7 @@ return [
             'signs' => [
                 'official' => [],
                 'recognized' => [
-                    'asl',
-                    'lsq'
+                    'asl'
                 ],
                 'used' => []
             ],

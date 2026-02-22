@@ -3486,8 +3486,7 @@ export const countries = [
             signs: {
                 official: [],
                 recognized: [
-                    "asl",
-                    "lsq"
+                    "asl"
                 ],
                 used: []
             },

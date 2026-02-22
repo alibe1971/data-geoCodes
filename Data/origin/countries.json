@@ -2813,7 +2813,7 @@
             ],
             "signs": {
                 "official": [],
-                "recognized": ["asl", "lsq"],
+                "recognized": ["asl"],
                 "used": []
             },
             "dialects": []

@@ -9996,7 +9996,6 @@
       official: []
       recognized:
         - asl
-        - lsq
       used: []
     dialects: []
   localesIcu:
