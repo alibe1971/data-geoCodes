@@ -2106,14 +2106,14 @@
         ],
         "languages": {
             "official": {
-                "deJure": ["spa", "aym", "quh", "gnr", "bba", "cni", "itc", "mhm", "mbb", "qvo", "qvw", "qvz", "qwh", "qxa", "qxr", "qxh", "tna", "trp", "yuz", "guo", "cab", "mzo", "kna", "gob", "qvc", "tnc", "puq", "tns", "caj", "cas", "cco", "cya", "gce", "nnk", "bvl"],
+                "deJure": ["spa", "aym", "quh", "gnr", "bba", "cni", "mhm", "mbb", "qvo", "qvw", "qvz", "qwh", "qxa", "qxr", "qxh", "tna", "trp", "yuz", "guo", "cab", "mzo", "kna", "gob", "qvc", "tnc", "puq", "tns", "caj", "cas", "cco", "cya", "gce", "nnk", "bvl"],
                 "deFacto": []
             },
             "widelySpoken": [],
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": ["bvl"],
+                "official": [],
                 "recognized": [],
                 "used": []
             },
@@ -6789,7 +6789,7 @@
             "regional": [
                 "quc", "mam", "cak", "poc", "kjb", "itz", "tzj", "usp",
                 "kek", "ixl", "qum", "ach", "acr", "apf", "ckz", "emp", "mpm",
-                "pap", "pbi", "pov", "pqu", "ttc", "tzl"
+                "pap", "pbi", "pov", "ttc", "tzl"
             ],
             "widelySpoken": [],
             "localCommunities": [],

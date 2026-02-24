@@ -19046,7 +19046,7 @@ const Languages = `{
         "name": "Tagico"
     },
     "tgl": {
-        "name": "Filippino"
+        "name": "Tagalog"
     },
     "tgn": {
         "name": ""
@@ -19928,7 +19928,7 @@ const Languages = `{
         "name": ""
     },
     "tui": {
-        "name": "Tugen"
+        "name": "Tupuri"
     },
     "tuj": {
         "name": ""

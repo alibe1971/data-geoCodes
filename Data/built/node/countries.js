@@ -2610,7 +2610,6 @@ export const countries = [
                     "gnr",
                     "bba",
                     "cni",
-                    "itc",
                     "mhm",
                     "mbb",
                     "qvo",
@@ -2647,9 +2646,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [
-                    "bvl"
-                ],
+                official: [],
                 recognized: [],
                 used: []
             },
@@ -8073,7 +8070,6 @@ export const countries = [
                 "pap",
                 "pbi",
                 "pov",
-                "pqu",
                 "ttc",
                 "tzl"
             ],

@@ -2609,7 +2609,6 @@ return [
                     'gnr',
                     'bba',
                     'cni',
-                    'itc',
                     'mhm',
                     'mbb',
                     'qvo',
@@ -2646,9 +2645,7 @@ return [
             'localCommunities' => [],
             'extraTerritorialCommunities' => [],
             'signs' => [
-                'official' => [
-                    'bvl'
-                ],
+                'official' => [],
                 'recognized' => [],
                 'used' => []
             ],
@@ -8072,7 +8069,6 @@ return [
                 'pap',
                 'pbi',
                 'pov',
-                'pqu',
                 'ttc',
                 'tzl'
             ],

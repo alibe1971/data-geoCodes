@@ -2589,7 +2589,6 @@
                     "gnr",
                     "bba",
                     "cni",
-                    "itc",
                     "mhm",
                     "mbb",
                     "qvo",
@@ -2626,9 +2625,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [
-                    "bvl"
-                ],
+                "official": [],
                 "recognized": [],
                 "used": []
             },
@@ -8052,7 +8049,6 @@
                 "pap",
                 "pbi",
                 "pov",
-                "pqu",
                 "ttc",
                 "tzl"
             ],

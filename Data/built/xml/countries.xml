@@ -2590,7 +2590,6 @@
                     <language>gnr</language>
                     <language>bba</language>
                     <language>cni</language>
-                    <language>itc</language>
                     <language>mhm</language>
                     <language>mbb</language>
                     <language>qvo</language>
@@ -2627,9 +2626,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official>
-                    <language>bvl</language>
-                </official>
+                <official/>
                 <recognized/>
                 <used/>
             </signs>
@@ -8103,7 +8100,6 @@
                 <language>pap</language>
                 <language>pbi</language>
                 <language>pov</language>
-                <language>pqu</language>
                 <language>ttc</language>
                 <language>tzl</language>
             </regional>

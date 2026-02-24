@@ -2609,7 +2609,6 @@ const Countries = `[
                     "gnr",
                     "bba",
                     "cni",
-                    "itc",
                     "mhm",
                     "mbb",
                     "qvo",
@@ -2646,9 +2645,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [
-                    "bvl"
-                ],
+                "official": [],
                 "recognized": [],
                 "used": []
             },
@@ -8072,7 +8069,6 @@ const Countries = `[
                 "pap",
                 "pbi",
                 "pov",
-                "pqu",
                 "ttc",
                 "tzl"
             ],

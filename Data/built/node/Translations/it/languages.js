@@ -19047,7 +19047,7 @@ export const languages = {
         name: "Tagico"
     },
     tgl: {
-        name: "Filippino"
+        name: "Tagalog"
     },
     tgn: {
         name: ""
@@ -19929,7 +19929,7 @@ export const languages = {
         name: ""
     },
     tui: {
-        name: "Tugen"
+        name: "Tupuri"
     },
     tuj: {
         name: ""
