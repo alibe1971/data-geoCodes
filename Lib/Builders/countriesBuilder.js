@@ -18,6 +18,8 @@ const collectionItem = 'Country';
 let Countries = [];
 let Translations = {};
 
+const timeZoneVersion = moment.tz.dataVersion;
+
 export const countriesFunctions = {
 
     DataParse: async data => {
@@ -467,9 +469,10 @@ export const countriesFunctions = {
                     throwMex('timeZones.' + index, item[mainKey],
                         'The value for the property (' + tz + ') has not the correct format');
                 }
-                if( !(moment.tz.zone(tz) != null) ) {
+                if( !(moment.tz.names().includes(tz)) ) {
                     throwMex('timeZones.' + index, item[mainKey],
-                        'The value for the property (' + tz + ') is not in the database');
+                        'The value for the property (' + tz + ') '
+                        + 'is not in the database (TimeZone Version = ' + timeZoneVersion + ')');
                 }
             }
             country.timeZones = item.timeZones;
