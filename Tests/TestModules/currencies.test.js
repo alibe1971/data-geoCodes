@@ -92,6 +92,25 @@ for (const currency of Object.values(currencies)) {
             ).toBe(true);
         });
 
+        /** scope **/
+        test(`Test that the currency '${currency.isoCode}' has the property 'scope' as not empty object`, () => {
+            expect(
+                currency.hasOwnProperty('scope') &&
+                typeof currency.scope === 'object' && currency.scope !== null &&
+                Object.entries(currency.scope).length !== 0
+            ).toBe(true);
+        });
+        test(
+            `Test that for the currency '${currency.isoCode}', 'scope.code' is ` +
+            `1 uppercase chars length string, and it is inside the list of the available scopes`, () => {
+                expect(
+                    currency.scope.hasOwnProperty('code') &&
+                    typeof currency.scope.code === 'string' &&
+                    /^[A-Z]{1}$/.test(currency.scope.code) &&
+                    global.APP.extra.currencies.scopes.includes(currency.scope.code)
+                ).toBe(true);
+            });
+
         /**
          * DEFAULT TRANSLATION DATA
          */
@@ -118,6 +137,21 @@ for (const currency of Object.values(currencies)) {
             uniqueKeysControl.add(`trans_${defLang}_name_${defTranslation[currency.isoAlpha].name}`);
         });
     });
-
 }
 
+/**
+ * DEFAULT TRANSLATION CATEGORIES
+ */
+describe('Tests `currencies` Categories (scope) description translation', () => {
+    for (const scope of Object.values(global.APP.extra.currencies.scopes)) {
+        test(
+            `Test that the currencies scope '${scope}' is present in the default translation structure as not empty string`,
+            () => {
+                expect(
+                    global.APP.translationsCategories.currencies[defLang].scope.hasOwnProperty(scope) &&
+                    typeof global.APP.translationsCategories.currencies[defLang].scope[scope] === 'string' &&
+                    global.APP.translationsCategories.currencies[defLang].scope[scope] !== ''
+                ).toBe(true);
+            });
+    }
+});

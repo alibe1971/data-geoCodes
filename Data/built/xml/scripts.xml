@@ -3,7 +3,9 @@
     <script index="0">
         <code>Adlm</code>
         <numeric>166</numeric>
-        <writingDirection>rtl</writingDirection>
+        <writingDirection>
+            <code>rtl</code>
+        </writingDirection>
         <unicode>
             <version>9.0</version>
             <ranges>
@@ -33,7 +35,9 @@
     <script index="1">
         <code>Afak</code>
         <numeric>439</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>
@@ -44,7 +48,9 @@
     <script index="2">
         <code>Aghb</code>
         <numeric>239</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>7.0</version>
             <ranges>
@@ -62,7 +68,9 @@
     <script index="3">
         <code>Ahom</code>
         <numeric>338</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>8.0</version>
             <ranges>
@@ -120,7 +128,9 @@
     <script index="4">
         <code>Arab</code>
         <numeric>160</numeric>
-        <writingDirection>rtl</writingDirection>
+        <writingDirection>
+            <code>rtl</code>
+        </writingDirection>
         <unicode>
             <version>1.1</version>
             <ranges>
@@ -459,7 +469,9 @@
     <script index="5">
         <code>Aran</code>
         <numeric>161</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version>1.1</version>
             <ranges>
@@ -470,7 +482,9 @@
     <script index="6">
         <code>Armi</code>
         <numeric>124</numeric>
-        <writingDirection>rtl</writingDirection>
+        <writingDirection>
+            <code>rtl</code>
+        </writingDirection>
         <unicode>
             <version>5.2</version>
             <ranges>
@@ -492,7 +506,9 @@
     <script index="7">
         <code>Armn</code>
         <numeric>230</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>1.1</version>
             <ranges>
@@ -535,7 +551,9 @@
     <script index="8">
         <code>Avst</code>
         <numeric>134</numeric>
-        <writingDirection>rtl</writingDirection>
+        <writingDirection>
+            <code>rtl</code>
+        </writingDirection>
         <unicode>
             <version>5.2</version>
             <ranges>
@@ -554,7 +572,9 @@
     <script index="9">
         <code>Bali</code>
         <numeric>360</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>5.0</version>
             <ranges>
@@ -635,7 +655,9 @@
     <script index="10">
         <code>Bamu</code>
         <numeric>435</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>5.2</version>
             <ranges>
@@ -666,7 +688,9 @@
     <script index="11">
         <code>Bass</code>
         <numeric>259</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>7.0</version>
             <ranges>
@@ -688,7 +712,9 @@
     <script index="12">
         <code>Batk</code>
         <numeric>365</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>6.0</version>
             <ranges>
@@ -735,7 +761,9 @@
     <script index="13">
         <code>Beng</code>
         <numeric>325</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>1.1</version>
             <ranges>
@@ -853,7 +881,9 @@
     <script index="14">
         <code>Berf</code>
         <numeric>258</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>
@@ -864,7 +894,9 @@
     <script index="15">
         <code>Bhks</code>
         <numeric>334</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>9.0</version>
             <ranges>
@@ -915,7 +947,9 @@
     <script index="16">
         <code>Blis</code>
         <numeric>550</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>
@@ -926,7 +960,9 @@
     <script index="17">
         <code>Bopo</code>
         <numeric>285</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>1.1</version>
             <ranges>
@@ -949,7 +985,9 @@
     <script index="18">
         <code>Brah</code>
         <numeric>300</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>6.0</version>
             <ranges>
@@ -1006,7 +1044,9 @@
     <script index="19">
         <code>Brai</code>
         <numeric>570</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version>3.0</version>
             <ranges>
@@ -1021,7 +1061,9 @@
     <script index="20">
         <code>Bugi</code>
         <numeric>367</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>4.1</version>
             <ranges>
@@ -1051,7 +1093,9 @@
     <script index="21">
         <code>Buhd</code>
         <numeric>372</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>3.2</version>
             <ranges>
@@ -1070,7 +1114,9 @@
     <script index="22">
         <code>Cakm</code>
         <numeric>349</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>6.1</version>
             <ranges>
@@ -1118,7 +1164,9 @@
     <script index="23">
         <code>Cans</code>
         <numeric>440</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>3.0</version>
             <ranges>
@@ -1154,7 +1202,9 @@
     <script index="24">
         <code>Cari</code>
         <numeric>201</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>5.1</version>
             <ranges>
@@ -1169,7 +1219,9 @@
     <script index="25">
         <code>Cham</code>
         <numeric>358</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>5.1</version>
             <ranges>
@@ -1229,7 +1281,9 @@
     <script index="26">
         <code>Cher</code>
         <numeric>445</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>3.0</version>
             <ranges>
@@ -1252,7 +1306,9 @@
     <script index="27">
         <code>Chis</code>
         <numeric>298</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>
@@ -1263,7 +1319,9 @@
     <script index="28">
         <code>Chrs</code>
         <numeric>109</numeric>
-        <writingDirection>rtl</writingDirection>
+        <writingDirection>
+            <code>rtl</code>
+        </writingDirection>
         <unicode>
             <version>13.0</version>
             <ranges>
@@ -1282,7 +1340,9 @@
     <script index="29">
         <code>Cirt</code>
         <numeric>291</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>
@@ -1293,7 +1353,9 @@
     <script index="30">
         <code>Copt</code>
         <numeric>204</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>4.1</version>
             <ranges>
@@ -1339,7 +1401,9 @@
     <script index="31">
         <code>Cpmn</code>
         <numeric>402</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>14.0</version>
             <ranges>
@@ -1358,7 +1422,9 @@
     <script index="32">
         <code>Cprt</code>
         <numeric>403</numeric>
-        <writingDirection>rtl</writingDirection>
+        <writingDirection>
+            <code>rtl</code>
+        </writingDirection>
         <unicode>
             <version>4.0</version>
             <ranges>
@@ -1390,7 +1456,9 @@
     <script index="33">
         <code>Cyrl</code>
         <numeric>220</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>1.1</version>
             <ranges>
@@ -1487,7 +1555,9 @@
     <script index="34">
         <code>Cyrs</code>
         <numeric>221</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version>1.1</version>
             <ranges>
@@ -1498,7 +1568,9 @@
     <script index="35">
         <code>Deva</code>
         <numeric>315</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>1.1</version>
             <ranges>
@@ -1609,7 +1681,9 @@
     <script index="36">
         <code>Diak</code>
         <numeric>342</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>13.0</version>
             <ranges>
@@ -1680,7 +1754,9 @@
     <script index="37">
         <code>Dogr</code>
         <numeric>328</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>11.0</version>
             <ranges>
@@ -1713,7 +1789,9 @@
     <script index="38">
         <code>Dsrt</code>
         <numeric>250</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>3.1</version>
             <ranges>
@@ -1728,7 +1806,9 @@
     <script index="39">
         <code>Dupl</code>
         <numeric>755</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>7.0</version>
             <ranges>
@@ -1765,7 +1845,9 @@
     <script index="40">
         <code>Egyd</code>
         <numeric>070</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>
@@ -1776,7 +1858,9 @@
     <script index="41">
         <code>Egyh</code>
         <numeric>060</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version>5.2</version>
             <ranges>
@@ -1787,7 +1871,9 @@
     <script index="42">
         <code>Egyp</code>
         <numeric>050</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>5.2</version>
             <ranges>
@@ -1821,7 +1907,9 @@
     <script index="43">
         <code>Elba</code>
         <numeric>226</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>7.0</version>
             <ranges>
@@ -1836,7 +1924,9 @@
     <script index="44">
         <code>Elym</code>
         <numeric>128</numeric>
-        <writingDirection>rtl</writingDirection>
+        <writingDirection>
+            <code>rtl</code>
+        </writingDirection>
         <unicode>
             <version>12.0</version>
             <ranges>
@@ -1851,7 +1941,9 @@
     <script index="45">
         <code>Ethi</code>
         <numeric>430</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>3.0</version>
             <ranges>
@@ -2016,7 +2108,9 @@
     <script index="46">
         <code>Gara</code>
         <numeric>164</numeric>
-        <writingDirection>rtl</writingDirection>
+        <writingDirection>
+            <code>rtl</code>
+        </writingDirection>
         <unicode>
             <version>16.0</version>
             <ranges>
@@ -2063,7 +2157,9 @@
     <script index="47">
         <code>Geok</code>
         <numeric>241</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version>1.1</version>
             <ranges>
@@ -2113,7 +2209,9 @@
     <script index="48">
         <code>Geor</code>
         <numeric>240</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>1.1</version>
             <ranges>
@@ -2163,7 +2261,9 @@
     <script index="49">
         <code>Glag</code>
         <numeric>225</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>4.1</version>
             <ranges>
@@ -2198,7 +2298,9 @@
     <script index="50">
         <code>Gong</code>
         <numeric>312</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>11.0</version>
             <ranges>
@@ -2249,7 +2351,9 @@
     <script index="51">
         <code>Gonm</code>
         <numeric>313</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>10.0</version>
             <ranges>
@@ -2297,7 +2401,9 @@
     <script index="52">
         <code>Goth</code>
         <numeric>206</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>3.1</version>
             <ranges>
@@ -2322,7 +2428,9 @@
     <script index="53">
         <code>Gran</code>
         <numeric>343</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>7.0</version>
             <ranges>
@@ -2412,7 +2520,9 @@
     <script index="54">
         <code>Grek</code>
         <numeric>200</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>1.1</version>
             <ranges>
@@ -2626,7 +2736,9 @@
     <script index="55">
         <code>Gujr</code>
         <numeric>320</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>1.1</version>
             <ranges>
@@ -2724,7 +2836,9 @@
     <script index="56">
         <code>Gukh</code>
         <numeric>397</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>16.0</version>
             <ranges>
@@ -2755,7 +2869,9 @@
     <script index="57">
         <code>Guru</code>
         <numeric>310</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>1.1</version>
             <ranges>
@@ -2848,7 +2964,9 @@
     <script index="58">
         <code>Hanb</code>
         <numeric>503</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>1.1</version>
             <ranges>
@@ -2859,7 +2977,9 @@
     <script index="59">
         <code>Hang</code>
         <numeric>286</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>1.1</version>
             <ranges>
@@ -2926,7 +3046,9 @@
     <script index="60">
         <code>Hani</code>
         <numeric>500</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>1.1</version>
             <ranges>
@@ -3028,7 +3150,9 @@
     <script index="61">
         <code>Hano</code>
         <numeric>371</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>3.2</version>
             <ranges>
@@ -3050,7 +3174,9 @@
     <script index="62">
         <code>Hans</code>
         <numeric>501</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>1.1</version>
             <ranges>
@@ -3061,7 +3187,9 @@
     <script index="63">
         <code>Hant</code>
         <numeric>502</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>1.1</version>
             <ranges>
@@ -3072,7 +3200,9 @@
     <script index="64">
         <code>Hatr</code>
         <numeric>127</numeric>
-        <writingDirection>rtl</writingDirection>
+        <writingDirection>
+            <code>rtl</code>
+        </writingDirection>
         <unicode>
             <version>8.0</version>
             <ranges>
@@ -3095,7 +3225,9 @@
     <script index="65">
         <code>Hebr</code>
         <numeric>125</numeric>
-        <writingDirection>rtl</writingDirection>
+        <writingDirection>
+            <code>rtl</code>
+        </writingDirection>
         <unicode>
             <version>1.1</version>
             <ranges>
@@ -3184,7 +3316,9 @@
     <script index="66">
         <code>Hira</code>
         <numeric>410</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>1.1</version>
             <ranges>
@@ -3220,7 +3354,9 @@
     <script index="67">
         <code>Hluw</code>
         <numeric>080</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>8.0</version>
             <ranges>
@@ -3235,7 +3371,9 @@
     <script index="68">
         <code>Hmng</code>
         <numeric>450</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>7.0</version>
             <ranges>
@@ -3288,7 +3426,9 @@
     <script index="69">
         <code>Hmnp</code>
         <numeric>451</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>12.0</version>
             <ranges>
@@ -3321,7 +3461,9 @@
     <script index="70">
         <code>Hntl</code>
         <numeric>504</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>
@@ -3332,7 +3474,9 @@
     <script index="71">
         <code>Hrkt</code>
         <numeric>412</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version>1.1</version>
             <ranges>
@@ -3343,7 +3487,9 @@
     <script index="72">
         <code>Hung</code>
         <numeric>176</numeric>
-        <writingDirection>rtl</writingDirection>
+        <writingDirection>
+            <code>rtl</code>
+        </writingDirection>
         <unicode>
             <version>8.0</version>
             <ranges>
@@ -3366,7 +3512,9 @@
     <script index="73">
         <code>Inds</code>
         <numeric>610</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>
@@ -3377,7 +3525,9 @@
     <script index="74">
         <code>Ital</code>
         <numeric>210</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>3.1</version>
             <ranges>
@@ -3400,7 +3550,9 @@
     <script index="75">
         <code>Jamo</code>
         <numeric>284</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>1.1</version>
             <ranges>
@@ -3411,7 +3563,9 @@
     <script index="76">
         <code>Java</code>
         <numeric>361</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>5.2</version>
             <ranges>
@@ -3468,7 +3622,9 @@
     <script index="77">
         <code>Jpan</code>
         <numeric>413</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>1.1</version>
             <ranges>
@@ -3479,7 +3635,9 @@
     <script index="78">
         <code>Jurc</code>
         <numeric>510</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>
@@ -3490,7 +3648,9 @@
     <script index="79">
         <code>Kali</code>
         <numeric>357</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>5.1</version>
             <ranges>
@@ -3516,7 +3676,9 @@
     <script index="80">
         <code>Kana</code>
         <numeric>411</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>1.1</version>
             <ranges>
@@ -3584,7 +3746,9 @@
     <script index="81">
         <code>Kawi</code>
         <numeric>368</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>15.0</version>
             <ranges>
@@ -3645,7 +3809,9 @@
     <script index="82">
         <code>Khar</code>
         <numeric>305</numeric>
-        <writingDirection>rtl</writingDirection>
+        <writingDirection>
+            <code>rtl</code>
+        </writingDirection>
         <unicode>
             <version>4.1</version>
             <ranges>
@@ -3698,7 +3864,9 @@
     <script index="83">
         <code>Khmr</code>
         <numeric>355</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>3.0</version>
             <ranges>
@@ -3771,7 +3939,9 @@
     <script index="84">
         <code>Khoj</code>
         <numeric>322</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>7.0</version>
             <ranges>
@@ -3826,7 +3996,9 @@
     <script index="85">
         <code>Kitl</code>
         <numeric>505</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>
@@ -3837,7 +4009,9 @@
     <script index="86">
         <code>Kits</code>
         <numeric>288</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>13.0</version>
             <ranges>
@@ -3858,7 +4032,9 @@
     <script index="87">
         <code>Knda</code>
         <numeric>345</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>1.1</version>
             <ranges>
@@ -3960,7 +4136,9 @@
     <script index="88">
         <code>Kore</code>
         <numeric>287</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>1.1</version>
             <ranges>
@@ -3971,7 +4149,9 @@
     <script index="89">
         <code>Kpel</code>
         <numeric>436</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>
@@ -3982,7 +4162,9 @@
     <script index="90">
         <code>Krai</code>
         <numeric>396</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>16.0</version>
             <ranges>
@@ -4013,7 +4195,9 @@
     <script index="91">
         <code>Kthi</code>
         <numeric>317</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>5.2</version>
             <ranges>
@@ -4068,7 +4252,9 @@
     <script index="92">
         <code>Lana</code>
         <numeric>351</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>5.2</version>
             <ranges>
@@ -4143,7 +4329,9 @@
     <script index="93">
         <code>Laoo</code>
         <numeric>356</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>1.1</version>
             <ranges>
@@ -4209,7 +4397,9 @@
     <script index="94">
         <code>Latf</code>
         <numeric>217</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version>1.1</version>
             <ranges>
@@ -4220,7 +4410,9 @@
     <script index="95">
         <code>Latg</code>
         <numeric>216</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version>1.1</version>
             <ranges>
@@ -4231,7 +4423,9 @@
     <script index="96">
         <code>Latn</code>
         <numeric>215</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>1.1</version>
             <ranges>
@@ -4483,7 +4677,9 @@
     <script index="97">
         <code>Leke</code>
         <numeric>364</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>
@@ -4494,7 +4690,9 @@
     <script index="98">
         <code>Lepc</code>
         <numeric>335</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>5.1</version>
             <ranges>
@@ -4537,7 +4735,9 @@
     <script index="99">
         <code>Limb</code>
         <numeric>336</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>4.0</version>
             <ranges>
@@ -4594,7 +4794,9 @@
     <script index="100">
         <code>Lina</code>
         <numeric>400</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>7.0</version>
             <ranges>
@@ -4617,7 +4819,9 @@
     <script index="101">
         <code>Linb</code>
         <numeric>401</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>4.0</version>
             <ranges>
@@ -4656,7 +4860,9 @@
     <script index="102">
         <code>Lisu</code>
         <numeric>399</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>5.2</version>
             <ranges>
@@ -4682,7 +4888,9 @@
     <script index="103">
         <code>Loma</code>
         <numeric>437</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>
@@ -4693,7 +4901,9 @@
     <script index="104">
         <code>Lyci</code>
         <numeric>202</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>5.1</version>
             <ranges>
@@ -4708,7 +4918,9 @@
     <script index="105">
         <code>Lydi</code>
         <numeric>116</numeric>
-        <writingDirection>rtl</writingDirection>
+        <writingDirection>
+            <code>rtl</code>
+        </writingDirection>
         <unicode>
             <version>5.1</version>
             <ranges>
@@ -4726,7 +4938,9 @@
     <script index="106">
         <code>Mahj</code>
         <numeric>314</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>7.0</version>
             <ranges>
@@ -4751,7 +4965,9 @@
     <script index="107">
         <code>Maka</code>
         <numeric>366</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>11.0</version>
             <ranges>
@@ -4778,7 +4994,9 @@
     <script index="108">
         <code>Mand</code>
         <numeric>140</numeric>
-        <writingDirection>rtl</writingDirection>
+        <writingDirection>
+            <code>rtl</code>
+        </writingDirection>
         <unicode>
             <version>6.0</version>
             <ranges>
@@ -4800,7 +5018,9 @@
     <script index="109">
         <code>Mani</code>
         <numeric>139</numeric>
-        <writingDirection>rtl</writingDirection>
+        <writingDirection>
+            <code>rtl</code>
+        </writingDirection>
         <unicode>
             <version>7.0</version>
             <ranges>
@@ -4834,7 +5054,9 @@
     <script index="110">
         <code>Marc</code>
         <numeric>332</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>9.0</version>
             <ranges>
@@ -4878,7 +5100,9 @@
     <script index="111">
         <code>Maya</code>
         <numeric>090</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>
@@ -4889,7 +5113,9 @@
     <script index="112">
         <code>Medf</code>
         <numeric>265</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>11.0</version>
             <ranges>
@@ -4912,7 +5138,9 @@
     <script index="113">
         <code>Mend</code>
         <numeric>438</numeric>
-        <writingDirection>rtl</writingDirection>
+        <writingDirection>
+            <code>rtl</code>
+        </writingDirection>
         <unicode>
             <version>7.0</version>
             <ranges>
@@ -4935,7 +5163,9 @@
     <script index="114">
         <code>Merc</code>
         <numeric>101</numeric>
-        <writingDirection>rtl</writingDirection>
+        <writingDirection>
+            <code>rtl</code>
+        </writingDirection>
         <unicode>
             <version>6.1</version>
             <ranges>
@@ -4966,7 +5196,9 @@
     <script index="115">
         <code>Mero</code>
         <numeric>100</numeric>
-        <writingDirection>rtl</writingDirection>
+        <writingDirection>
+            <code>rtl</code>
+        </writingDirection>
         <unicode>
             <version>6.1</version>
             <ranges>
@@ -4981,7 +5213,9 @@
     <script index="116">
         <code>Mlym</code>
         <numeric>347</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>1.1</version>
             <ranges>
@@ -5078,7 +5312,9 @@
     <script index="117">
         <code>Modi</code>
         <numeric>324</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>7.0</version>
             <ranges>
@@ -5126,7 +5362,9 @@
     <script index="118">
         <code>Mong</code>
         <numeric>145</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>3.0</version>
             <ranges>
@@ -5198,7 +5436,9 @@
     <script index="119">
         <code>Moon</code>
         <numeric>218</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>
@@ -5209,7 +5449,9 @@
     <script index="120">
         <code>Mroo</code>
         <numeric>264</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>7.0</version>
             <ranges>
@@ -5232,7 +5474,9 @@
     <script index="121">
         <code>Mtei</code>
         <numeric>337</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>5.2</version>
             <ranges>
@@ -5310,7 +5554,9 @@
     <script index="122">
         <code>Mult</code>
         <numeric>323</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>8.0</version>
             <ranges>
@@ -5343,7 +5589,9 @@
     <script index="123">
         <code>Mymr</code>
         <numeric>350</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>3.0</version>
             <ranges>
@@ -5542,7 +5790,9 @@
     <script index="124">
         <code>Nagm</code>
         <numeric>295</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>15.0</version>
             <ranges>
@@ -5568,7 +5818,9 @@
     <script index="125">
         <code>Nand</code>
         <numeric>311</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>12.0</version>
             <ranges>
@@ -5618,7 +5870,9 @@
     <script index="126">
         <code>Narb</code>
         <numeric>106</numeric>
-        <writingDirection>rtl</writingDirection>
+        <writingDirection>
+            <code>rtl</code>
+        </writingDirection>
         <unicode>
             <version>7.0</version>
             <ranges>
@@ -5637,7 +5891,9 @@
     <script index="127">
         <code>Nbat</code>
         <numeric>159</numeric>
-        <writingDirection>rtl</writingDirection>
+        <writingDirection>
+            <code>rtl</code>
+        </writingDirection>
         <unicode>
             <version>7.0</version>
             <ranges>
@@ -5656,7 +5912,9 @@
     <script index="128">
         <code>Newa</code>
         <numeric>333</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>9.0</version>
             <ranges>
@@ -5719,7 +5977,9 @@
     <script index="129">
         <code>Nkdb</code>
         <numeric>085</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>
@@ -5730,7 +5990,9 @@
     <script index="130">
         <code>Nkgb</code>
         <numeric>420</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>
@@ -5741,7 +6003,9 @@
     <script index="131">
         <code>Nkoo</code>
         <numeric>165</numeric>
-        <writingDirection>rtl</writingDirection>
+        <writingDirection>
+            <code>rtl</code>
+        </writingDirection>
         <unicode>
             <version>5.0</version>
             <ranges>
@@ -5785,7 +6049,9 @@
     <script index="132">
         <code>Nshu</code>
         <numeric>499</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>10.0</version>
             <ranges>
@@ -5803,7 +6069,9 @@
     <script index="133">
         <code>Ogam</code>
         <numeric>212</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>3.0</version>
             <ranges>
@@ -5827,7 +6095,9 @@
     <script index="134">
         <code>Olck</code>
         <numeric>261</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>5.1</version>
             <ranges>
@@ -5854,7 +6124,9 @@
     <script index="135">
         <code>Onao</code>
         <numeric>296</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>16.0</version>
             <ranges>
@@ -5883,7 +6155,9 @@
     <script index="136">
         <code>Orkh</code>
         <numeric>175</numeric>
-        <writingDirection>rtl</writingDirection>
+        <writingDirection>
+            <code>rtl</code>
+        </writingDirection>
         <unicode>
             <version>5.2</version>
             <ranges>
@@ -5898,7 +6172,9 @@
     <script index="137">
         <code>Orya</code>
         <numeric>327</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>1.1</version>
             <ranges>
@@ -6003,7 +6279,9 @@
     <script index="138">
         <code>Osge</code>
         <numeric>219</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>9.0</version>
             <ranges>
@@ -6022,7 +6300,9 @@
     <script index="139">
         <code>Osma</code>
         <numeric>260</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>4.0</version>
             <ranges>
@@ -6041,7 +6321,9 @@
     <script index="140">
         <code>Ougr</code>
         <numeric>143</numeric>
-        <writingDirection>rtl</writingDirection>
+        <writingDirection>
+            <code>rtl</code>
+        </writingDirection>
         <unicode>
             <version>14.0</version>
             <ranges>
@@ -6064,7 +6346,9 @@
     <script index="141">
         <code>Palm</code>
         <numeric>126</numeric>
-        <writingDirection>rtl</writingDirection>
+        <writingDirection>
+            <code>rtl</code>
+        </writingDirection>
         <unicode>
             <version>7.0</version>
             <ranges>
@@ -6087,7 +6371,9 @@
     <script index="142">
         <code>Pauc</code>
         <numeric>263</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>7.0</version>
             <ranges>
@@ -6102,7 +6388,9 @@
     <script index="143">
         <code>Pcun</code>
         <numeric>015</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>
@@ -6113,7 +6401,9 @@
     <script index="144">
         <code>Pelm</code>
         <numeric>016</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>
@@ -6124,7 +6414,9 @@
     <script index="145">
         <code>Perm</code>
         <numeric>227</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>7.0</version>
             <ranges>
@@ -6143,7 +6435,9 @@
     <script index="146">
         <code>Phag</code>
         <numeric>331</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>5.0</version>
             <ranges>
@@ -6162,7 +6456,9 @@
     <script index="147">
         <code>Phli</code>
         <numeric>131</numeric>
-        <writingDirection>rtl</writingDirection>
+        <writingDirection>
+            <code>rtl</code>
+        </writingDirection>
         <unicode>
             <version>5.2</version>
             <ranges>
@@ -6181,7 +6477,9 @@
     <script index="148">
         <code>Phlp</code>
         <numeric>132</numeric>
-        <writingDirection>rtl</writingDirection>
+        <writingDirection>
+            <code>rtl</code>
+        </writingDirection>
         <unicode>
             <version>7.0</version>
             <ranges>
@@ -6204,7 +6502,9 @@
     <script index="149">
         <code>Phlv</code>
         <numeric>133</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>
@@ -6215,7 +6515,9 @@
     <script index="150">
         <code>Phnx</code>
         <numeric>115</numeric>
-        <writingDirection>rtl</writingDirection>
+        <writingDirection>
+            <code>rtl</code>
+        </writingDirection>
         <unicode>
             <version>5.0</version>
             <ranges>
@@ -6237,7 +6539,9 @@
     <script index="151">
         <code>Piqd</code>
         <numeric>293</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>
@@ -6248,7 +6552,9 @@
     <script index="152">
         <code>Plrd</code>
         <numeric>282</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>6.1</version>
             <ranges>
@@ -6281,7 +6587,9 @@
     <script index="153">
         <code>Prti</code>
         <numeric>130</numeric>
-        <writingDirection>rtl</writingDirection>
+        <writingDirection>
+            <code>rtl</code>
+        </writingDirection>
         <unicode>
             <version>5.2</version>
             <ranges>
@@ -6300,7 +6608,9 @@
     <script index="154">
         <code>Psin</code>
         <numeric>103</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>
@@ -6311,7 +6621,9 @@
     <script index="155">
         <code>Qaaa</code>
         <numeric>900</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>
@@ -6322,7 +6634,9 @@
     <script index="156">
         <code>Qabx</code>
         <numeric>949</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>
@@ -6333,7 +6647,9 @@
     <script index="157">
         <code>Ranj</code>
         <numeric>303</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>
@@ -6344,7 +6660,9 @@
     <script index="158">
         <code>Rjng</code>
         <numeric>363</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>5.1</version>
             <ranges>
@@ -6370,7 +6688,9 @@
     <script index="159">
         <code>Rohg</code>
         <numeric>167</numeric>
-        <writingDirection>rtl</writingDirection>
+        <writingDirection>
+            <code>rtl</code>
+        </writingDirection>
         <unicode>
             <version>11.0</version>
             <ranges>
@@ -6393,7 +6713,9 @@
     <script index="160">
         <code>Roro</code>
         <numeric>620</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>
@@ -6404,7 +6726,9 @@
     <script index="161">
         <code>Runr</code>
         <numeric>211</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>3.0</version>
             <ranges>
@@ -6427,7 +6751,9 @@
     <script index="162">
         <code>Samr</code>
         <numeric>123</numeric>
-        <writingDirection>rtl</writingDirection>
+        <writingDirection>
+            <code>rtl</code>
+        </writingDirection>
         <unicode>
             <version>5.2</version>
             <ranges>
@@ -6471,7 +6797,9 @@
     <script index="163">
         <code>Sara</code>
         <numeric>292</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>
@@ -6482,7 +6810,9 @@
     <script index="164">
         <code>Sarb</code>
         <numeric>105</numeric>
-        <writingDirection>rtl</writingDirection>
+        <writingDirection>
+            <code>rtl</code>
+        </writingDirection>
         <unicode>
             <version>5.2</version>
             <ranges>
@@ -6504,7 +6834,9 @@
     <script index="165">
         <code>Saur</code>
         <numeric>344</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>5.1</version>
             <ranges>
@@ -6539,7 +6871,9 @@
     <script index="166">
         <code>Seal</code>
         <numeric>590</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>
@@ -6550,7 +6884,9 @@
     <script index="167">
         <code>Sgnw</code>
         <numeric>095</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>8.0</version>
             <ranges>
@@ -6607,7 +6943,9 @@
     <script index="168">
         <code>Shaw</code>
         <numeric>281</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>4.0</version>
             <ranges>
@@ -6622,7 +6960,9 @@
     <script index="169">
         <code>Shrd</code>
         <numeric>319</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>6.1</version>
             <ranges>
@@ -6694,7 +7034,9 @@
     <script index="170">
         <code>Shui</code>
         <numeric>530</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>
@@ -6705,7 +7047,9 @@
     <script index="171">
         <code>Sidd</code>
         <numeric>302</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>7.0</version>
             <ranges>
@@ -6755,7 +7099,9 @@
     <script index="172">
         <code>Sidt</code>
         <numeric>180</numeric>
-        <writingDirection>rtl</writingDirection>
+        <writingDirection>
+            <code>rtl</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>
@@ -6766,7 +7112,9 @@
     <script index="173">
         <code>Sind</code>
         <numeric>318</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>7.0</version>
             <ranges>
@@ -6796,7 +7144,9 @@
     <script index="174">
         <code>Sinh</code>
         <numeric>348</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>3.0</version>
             <ranges>
@@ -6866,7 +7216,9 @@
     <script index="175">
         <code>Sogd</code>
         <numeric>141</numeric>
-        <writingDirection>rtl</writingDirection>
+        <writingDirection>
+            <code>rtl</code>
+        </writingDirection>
         <unicode>
             <version>11.0</version>
             <ranges>
@@ -6893,7 +7245,9 @@
     <script index="176">
         <code>Sogo</code>
         <numeric>142</numeric>
-        <writingDirection>rtl</writingDirection>
+        <writingDirection>
+            <code>rtl</code>
+        </writingDirection>
         <unicode>
             <version>11.0</version>
             <ranges>
@@ -6915,7 +7269,9 @@
     <script index="177">
         <code>Sora</code>
         <numeric>398</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>6.1</version>
             <ranges>
@@ -6934,7 +7290,9 @@
     <script index="178">
         <code>Soyo</code>
         <numeric>329</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>10.0</version>
             <ranges>
@@ -6986,7 +7344,9 @@
     <script index="179">
         <code>Sund</code>
         <numeric>362</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>5.1</version>
             <ranges>
@@ -7046,7 +7406,9 @@
     <script index="180">
         <code>Sunu</code>
         <numeric>274</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>16.0</version>
             <ranges>
@@ -7068,7 +7430,9 @@
     <script index="181">
         <code>Sylo</code>
         <numeric>316</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>4.1</version>
             <ranges>
@@ -7122,7 +7486,9 @@
     <script index="182">
         <code>Syrc</code>
         <numeric>135</numeric>
-        <writingDirection>rtl</writingDirection>
+        <writingDirection>
+            <code>rtl</code>
+        </writingDirection>
         <unicode>
             <version>3.0</version>
             <ranges>
@@ -7162,7 +7528,9 @@
     <script index="183">
         <code>Syre</code>
         <numeric>138</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version>3.0</version>
             <ranges>
@@ -7173,7 +7541,9 @@
     <script index="184">
         <code>Syrj</code>
         <numeric>137</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version>3.0</version>
             <ranges>
@@ -7184,7 +7554,9 @@
     <script index="185">
         <code>Syrn</code>
         <numeric>136</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version>3.0</version>
             <ranges>
@@ -7195,7 +7567,9 @@
     <script index="186">
         <code>Tagb</code>
         <numeric>373</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>3.2</version>
             <ranges>
@@ -7218,7 +7592,9 @@
     <script index="187">
         <code>Takr</code>
         <numeric>321</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>6.1</version>
             <ranges>
@@ -7266,7 +7642,9 @@
     <script index="188">
         <code>Tale</code>
         <numeric>353</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>4.0</version>
             <ranges>
@@ -7285,7 +7663,9 @@
     <script index="189">
         <code>Talu</code>
         <numeric>354</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>4.1</version>
             <ranges>
@@ -7315,7 +7695,9 @@
     <script index="190">
         <code>Taml</code>
         <numeric>346</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>1.1</version>
             <ranges>
@@ -7432,7 +7814,9 @@
     <script index="191">
         <code>Tang</code>
         <numeric>520</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>9.0</version>
             <ranges>
@@ -7458,7 +7842,9 @@
     <script index="192">
         <code>Tavt</code>
         <numeric>359</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>5.2</version>
             <ranges>
@@ -7519,7 +7905,9 @@
     <script index="193">
         <code>Tayo</code>
         <numeric>380</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>
@@ -7530,7 +7918,9 @@
     <script index="194">
         <code>Telu</code>
         <numeric>340</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>1.1</version>
             <ranges>
@@ -7622,7 +8012,9 @@
     <script index="195">
         <code>Teng</code>
         <numeric>290</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>
@@ -7633,7 +8025,9 @@
     <script index="196">
         <code>Tfng</code>
         <numeric>120</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>4.1</version>
             <ranges>
@@ -7657,7 +8051,9 @@
     <script index="197">
         <code>Tglg</code>
         <numeric>370</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>3.2</version>
             <ranges>
@@ -7682,7 +8078,9 @@
     <script index="198">
         <code>Thaa</code>
         <numeric>170</numeric>
-        <writingDirection>rtl</writingDirection>
+        <writingDirection>
+            <code>rtl</code>
+        </writingDirection>
         <unicode>
             <version>3.0</version>
             <ranges>
@@ -7704,7 +8102,9 @@
     <script index="199">
         <code>Thai</code>
         <numeric>352</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>1.1</version>
             <ranges>
@@ -7752,7 +8152,9 @@
     <script index="200">
         <code>Tibt</code>
         <numeric>330</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>2.0</version>
             <ranges>
@@ -7895,7 +8297,9 @@
     <script index="201">
         <code>Tirh</code>
         <numeric>326</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>7.0</version>
             <ranges>
@@ -7953,7 +8357,9 @@
     <script index="202">
         <code>Tnsa</code>
         <numeric>275</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>14.0</version>
             <ranges>
@@ -7972,7 +8378,9 @@
     <script index="203">
         <code>Todr</code>
         <numeric>229</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>16.0</version>
             <ranges>
@@ -7987,7 +8395,9 @@
     <script index="204">
         <code>Tols</code>
         <numeric>299</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>
@@ -7998,7 +8408,9 @@
     <script index="205">
         <code>Toto</code>
         <numeric>294</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>14.0</version>
             <ranges>
@@ -8016,7 +8428,9 @@
     <script index="206">
         <code>Tutg</code>
         <numeric>341</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>16.0</version>
             <ranges>
@@ -8096,7 +8510,9 @@
     <script index="207">
         <code>Ugar</code>
         <numeric>040</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>4.0</version>
             <ranges>
@@ -8114,7 +8530,9 @@
     <script index="208">
         <code>Vaii</code>
         <numeric>470</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>5.1</version>
             <ranges>
@@ -8148,7 +8566,9 @@
     <script index="209">
         <code>Visp</code>
         <numeric>280</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>
@@ -8159,7 +8579,9 @@
     <script index="210">
         <code>Vith</code>
         <numeric>228</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>14.0</version>
             <ranges>
@@ -8202,7 +8624,9 @@
     <script index="211">
         <code>Wara</code>
         <numeric>262</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>7.0</version>
             <ranges>
@@ -8228,7 +8652,9 @@
     <script index="212">
         <code>Wcho</code>
         <numeric>283</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>12.0</version>
             <ranges>
@@ -8254,7 +8680,9 @@
     <script index="213">
         <code>Wole</code>
         <numeric>480</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>
@@ -8265,7 +8693,9 @@
     <script index="214">
         <code>Xpeo</code>
         <numeric>030</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>4.1</version>
             <ranges>
@@ -8291,7 +8721,9 @@
     <script index="215">
         <code>Xsux</code>
         <numeric>020</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>5.0</version>
             <ranges>
@@ -8318,7 +8750,9 @@
     <script index="216">
         <code>Yezi</code>
         <numeric>192</numeric>
-        <writingDirection>rtl</writingDirection>
+        <writingDirection>
+            <code>rtl</code>
+        </writingDirection>
         <unicode>
             <version>13.0</version>
             <ranges>
@@ -8344,7 +8778,9 @@
     <script index="217">
         <code>Yiii</code>
         <numeric>460</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>3.0</version>
             <ranges>
@@ -8370,7 +8806,9 @@
     <script index="218">
         <code>Zanb</code>
         <numeric>339</numeric>
-        <writingDirection>ltr</writingDirection>
+        <writingDirection>
+            <code>ltr</code>
+        </writingDirection>
         <unicode>
             <version>10.0</version>
             <ranges>
@@ -8413,7 +8851,9 @@
     <script index="219">
         <code>Zinh</code>
         <numeric>994</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>
@@ -8556,7 +8996,9 @@
     <script index="220">
         <code>Zmth</code>
         <numeric>995</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version>3.2</version>
             <ranges>
@@ -8567,7 +9009,9 @@
     <script index="221">
         <code>Zsye</code>
         <numeric>993</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version>6.0</version>
             <ranges>
@@ -8578,7 +9022,9 @@
     <script index="222">
         <code>Zsym</code>
         <numeric>996</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version>1.1</version>
             <ranges>
@@ -8589,7 +9035,9 @@
     <script index="223">
         <code>Zxxx</code>
         <numeric>997</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>
@@ -8600,7 +9048,9 @@
     <script index="224">
         <code>Zyyy</code>
         <numeric>998</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>
@@ -10714,7 +11164,9 @@
     <script index="225">
         <code>Zzzz</code>
         <numeric>999</numeric>
-        <writingDirection/>
+        <writingDirection>
+            <code>nla</code>
+        </writingDirection>
         <unicode>
             <version/>
             <ranges>

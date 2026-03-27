@@ -13,7 +13,6 @@ let uniqueKeysControl = new Set();
 
 describe('Tests Languages Structure', () => {
     test(`Test that Languages structure is an array`, () => {
-        console.info(Object.keys(global.APP.data.languages).length);
         expect(
             typeof global.APP.data.languages === 'object' &&
             global.APP.data.languages !== null &&
@@ -128,22 +127,42 @@ for (const language of Object.values(languages)) {
         });
 
         /** scope **/
-        test(`Test that for the language '${language.isoCode}', 'scope' is 1 uppercase chars length string`, () => {
+        test(`Test that the language '${language.isoCode}' has the property 'scope' as not empty object`, () => {
             expect(
                 language.hasOwnProperty('scope') &&
-                typeof language.scope === 'string' &&
-                /^[A-Z]{1}$/.test(language.scope)
+                typeof language.scope === 'object' && language.scope !== null &&
+                Object.entries(language.scope).length !== 0
             ).toBe(true);
         });
+        test(
+            `Test that for the language '${language.isoCode}', 'scope.code' is ` +
+            `1 uppercase chars length string, and it is inside the list of the available scopes`, () => {
+                expect(
+                    language.scope.hasOwnProperty('code') &&
+                    typeof language.scope.code === 'string' &&
+                    /^[A-Z]{1}$/.test(language.scope.code) &&
+                    global.APP.extra.languages.scopes.includes(language.scope.code)
+                ).toBe(true);
+            });
 
         /** type **/
-        test(`Test that for the language '${language.isoCode}', 'type' is 1 uppercase chars length string`, () => {
+        test(`Test that the language '${language.isoCode}' has the property 'type' as not empty object`, () => {
             expect(
                 language.hasOwnProperty('type') &&
-                typeof language.type === 'string' &&
-                /^[A-Z]{1}$/.test(language.type)
+                typeof language.type === 'object' && language.type !== null &&
+                Object.entries(language.type).length !== 0
             ).toBe(true);
         });
+        test(
+            `Test that for the language '${language.isoCode}', 'type.code' is ` +
+            `1 uppercase chars length string, and it is inside the list of the available types`, () => {
+                expect(
+                    language.type.hasOwnProperty('code') &&
+                    typeof language.type.code === 'string' &&
+                    /^[A-Z]{1}$/.test(language.type.code) &&
+                    global.APP.extra.languages.types.includes(language.type.code)
+                ).toBe(true);
+            });
 
         /** macroLanguageRef **/
         test(`Test that the language '${language.isoCode}' has the property 'macroLanguageRef' as null or 3 character string`, () => {
@@ -207,3 +226,30 @@ for (const language of Object.values(languages)) {
 
 }
 
+/**
+ * DEFAULT TRANSLATION CATEGORIES
+ */
+describe('Tests `languages` Categories (scope and type) description translation', () => {
+    for (const scope of Object.values(global.APP.extra.languages.scopes)) {
+        test(
+            `Test that the languages scope '${scope}' is present in the default translation structure as not empty string`,
+            () => {
+                expect(
+                    global.APP.translationsCategories.languages[defLang].scope.hasOwnProperty(scope) &&
+                    typeof global.APP.translationsCategories.languages[defLang].scope[scope] === 'string' &&
+                    global.APP.translationsCategories.languages[defLang].scope[scope] !== ''
+                ).toBe(true);
+            });
+    }
+    for (const type of Object.values(global.APP.extra.languages.types)) {
+        test(
+            `Test that the languages scope '${type}' is present in the default translation structure as not empty string`,
+            () => {
+                expect(
+                    global.APP.translationsCategories.languages[defLang].type.hasOwnProperty(type) &&
+                    typeof global.APP.translationsCategories.languages[defLang].type[type] === 'string' &&
+                    global.APP.translationsCategories.languages[defLang].type[type] !== ''
+                ).toBe(true);
+            });
+    }
+});

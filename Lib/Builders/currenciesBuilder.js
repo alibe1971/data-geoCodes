@@ -1,10 +1,11 @@
 import chalk from 'chalk';
 import {
-    errorMessage,
+    errorMessage, getTranslationMandatoryCategoryString,
     getTranslationMandatoryString,
     requirements,
     sortList
 } from '../utils.js';
+import {configBuild} from "../configBuild.js";
 
 const mainKey = 'isoAlpha';
 const collection = 'Currencies';
@@ -12,6 +13,7 @@ const collectionItem = 'Currency';
 
 let Currencies = [];
 let Translations = {};
+let TranslationsCategories = {};
 
 export const currenciesFunctions = {
     DataParse: async data => {
@@ -68,6 +70,27 @@ export const currenciesFunctions = {
             }
             currency.decimal = item.decimal;
 
+            /** scope: must be present and must be 1 char length string inside the fixed defined values  */
+            if(!Object.prototype.hasOwnProperty.call(item, 'scope')) {
+                throwMex('scope', item[mainKey], 'Required property is missing');
+            } else{
+                item.scope = item.scope.toUpperCase();
+                const typePattern = new RegExp(`^(?:${configBuild.extra.currencies.scopes.join('|')})$`);
+                const scopeAvailable = '`' + configBuild.extra.currencies.scopes.join('`, `') + '`';
+                if(
+                    !requirements(item.scope, 'mustBeString') ||
+                    !requirements(item.scope, 'regex', typePattern)
+                ) {
+                    throwMex('scope', item[mainKey],
+                        'The property must be 1 char length string inside the fixed defined values ' +
+                        '(' + scopeAvailable + ')'
+                    );
+                }
+            }
+            currency.scope = {
+                code: item.scope
+            };
+
             /** ---- **/
             Currencies.push(currency);
         }
@@ -105,6 +128,33 @@ export const currenciesFunctions = {
             );
         }
         return Translations;
+    },
+
+    DataTranslationsCategories: async (data, defaultLanguage = 'en') => {
+        for (const [lang, langObjs] of Object.entries(data)) {
+            TranslationsCategories[lang] = {
+                scope: {}
+            };
+            /** `scope`: the source properties must be a string (required for the default language) **/
+            for (const scope of Object.values(configBuild.extra.currencies.scopes)) {
+                TranslationsCategories[lang].scope[scope] =
+                    (getTranslationMandatoryCategoryString(
+                        collection,
+                        collectionItem,
+                        'scope',
+                        langObjs['scope'],
+                        lang,
+                        defaultLanguage,
+                        scope
+                    )) ?? '';
+            }
+            console.log(
+                chalk.cyan(
+                    '         - Translation language `' + lang + '` categories data for `' + collection +'` parsed'
+                )
+            );
+        }
+        return TranslationsCategories;
     }
 };
 

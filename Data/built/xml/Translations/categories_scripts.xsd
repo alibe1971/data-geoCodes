@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <!-- Root element -->
+    <xs:element name="translationsCategoriesScripts">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="writingDirection">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nla" type="xs:string" minOccurs="1"/>
+                            <xs:element name="ltr" type="xs:string" minOccurs="1"/>
+                            <xs:element name="rtl" type="xs:string" minOccurs="1"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+
+            <!-- Attribute -->
+            <xs:attribute name="language" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

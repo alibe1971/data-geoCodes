@@ -21,10 +21,7 @@ export const saveDataForGo = {
 
             /** Translations Data **/
             for (const [lang, dataTrans] of Object.entries(completeData.translations[key])) {
-                // langMap[lang] = lang.charAt(0).toUpperCase() + lang.slice(1);
                 langMap[lang] = lang;
-
-                // goData = saveDataForGo.build(keyCap, dataTrans, langMap[lang]);
                 goData = saveDataForGo.build(keyCap, dataTrans, langMap[lang]);
                 await writeFile(destination + completeData.TranslationDir + lang + '/' + key + '.go', goData );
                 console.log(
@@ -38,8 +35,22 @@ export const saveDataForGo = {
             goData = saveDataForGo.buildMap(langMap, dataMap);
             await writeFile(destination + completeData.TranslationDir + 'Translations.go', goData );
             console.log(chalk.cyan('         - Translations map for `go` app has been written'));
+
+            /** Translations Categories Data **/
+            if (Object.prototype.hasOwnProperty.call(completeData.translationsCategories, key)) {
+                for (const [lang, dataCatTrans] of Object.entries(completeData.translationsCategories[key])) {
+                    goData = saveDataForGo.build(keyCap, dataCatTrans, langMap[lang]);
+                    await writeFile(destination + completeData.TranslationDir + lang + '/'
+                        + completeData.TranslationCategoriesDir + key + '.go', goData );
+                    console.log(
+                        chalk.cyan(
+                            '         - Translations Categories language data `' + lang +'` for `go` app for `'
+                            + key + '` has been written'
+                        )
+                    );
+                }
+            }
         }
-        return;
     },
 
     disclaimer: () => {

@@ -1,5 +1,11 @@
 import chalk from 'chalk';
-import {errorMessage, getTranslationMandatoryString, requirements, sortList} from "../utils.js";
+import {
+    errorMessage,
+    getTranslationMandatoryCategoryString,
+    getTranslationMandatoryString,
+    requirements,
+    sortList
+} from "../utils.js";
 import {configBuild} from "../configBuild.js";
 
 const mainKey = 'isoCode';
@@ -8,6 +14,7 @@ const collectionItem = 'Language';
 
 let Languages = [];
 let Translations = {};
+let TranslationsCategories = {};
 
 export const languagesFunctions = {
 
@@ -115,7 +122,9 @@ export const languagesFunctions = {
                     );
                 }
             }
-            language.scope = item.scope;
+            language.scope = {
+                code: item.scope
+            };
 
             /** type: must be present and must be 1 char length string inside the fixed defined values */
             if(!Object.prototype.hasOwnProperty.call(item, 'type')) {
@@ -134,7 +143,9 @@ export const languagesFunctions = {
                     );
                 }
             }
-            language.type = item.type;
+            language.type = {
+                code: item.type
+            };
 
             /** macroLanguageRef: if present, it must be 3 chars length string */
             if(!Object.prototype.hasOwnProperty.call(item, 'macroLanguageRef')) {
@@ -208,6 +219,49 @@ export const languagesFunctions = {
             );
         }
         return Translations;
+    },
+
+    DataTranslationsCategories: async (data, defaultLanguage = 'en') => {
+        for (const [lang, langObjs] of Object.entries(data)) {
+            TranslationsCategories[lang] = {
+                scope: {},
+                type: {}
+            };
+            /** `scope`: the source properties must be a string (required for the default language) **/
+            for (const scope of Object.values(configBuild.extra.languages.scopes)) {
+                TranslationsCategories[lang].scope[scope] =
+                    (getTranslationMandatoryCategoryString(
+                        collection,
+                        collectionItem,
+                        'scope',
+                        langObjs['scope'],
+                        lang,
+                        defaultLanguage,
+                        scope
+                    )) ?? '';
+            }
+
+            /** `type`: the source properties must be a string (required for the default language) **/
+            for (const type of Object.values(configBuild.extra.languages.types)) {
+                TranslationsCategories[lang].type[type] =
+                    (getTranslationMandatoryCategoryString(
+                        collection,
+                        collectionItem,
+                        'type',
+                        langObjs['type'],
+                        lang,
+                        defaultLanguage,
+                        type
+                    )) ?? '';
+            }
+
+            console.log(
+                chalk.cyan(
+                    '         - Translation language `' + lang + '` categories data for `' + collection +'` parsed'
+                )
+            );
+        }
+        return TranslationsCategories;
     }
 };
 

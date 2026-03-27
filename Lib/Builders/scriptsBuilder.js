@@ -1,5 +1,8 @@
 import chalk from 'chalk';
-import {errorMessage, getTranslationMandatoryString, requirements, sortList, checkRangesAndTotal} from "../utils.js";
+import {
+    errorMessage, getTranslationMandatoryString, requirements, sortList, checkRangesAndTotal,
+    getTranslationMandatoryCategoryString
+} from "../utils.js";
 import {configBuild} from "../configBuild.js";
 
 const mainKey = 'code';
@@ -8,6 +11,7 @@ const collectionItem = 'Script';
 
 let Scripts = [];
 let Translations = {};
+let TranslationsCategories = {};
 
 export const scriptsFunctions = {
 
@@ -59,8 +63,12 @@ export const scriptsFunctions = {
                         '(' + directionAvailable + ')'
                     );
                 }
+            } else {
+                item.writingDirection = 'nla'; // not listed / available
             }
-            script.writingDirection = item.writingDirection;
+            script.writingDirection = {
+                code: item.writingDirection
+            };
 
             /** unicode: it must be present, and it must be an object not empty */
             if(!Object.prototype.hasOwnProperty.call(item, 'unicode')) {
@@ -205,6 +213,33 @@ export const scriptsFunctions = {
             );
         }
         return Translations;
+    },
+
+    DataTranslationsCategories: async (data, defaultLanguage = 'en') => {
+        for (const [lang, langObjs] of Object.entries(data)) {
+            TranslationsCategories[lang] = {
+                writingDirection: {}
+            };
+            /** `writingDirection`: the source properties must be a string (required for the default language) **/
+            for (const direction of Object.values(configBuild.extra.scripts.direction)) {
+                TranslationsCategories[lang].writingDirection[direction] =
+                    (getTranslationMandatoryCategoryString(
+                        collection,
+                        collectionItem,
+                        'writingDirection',
+                        langObjs['writingDirection'],
+                        lang,
+                        defaultLanguage,
+                        direction
+                    )) ?? '';
+            }
+            console.log(
+                chalk.cyan(
+                    '         - Translation language `' + lang + '` categories data for `' + collection +'` parsed'
+                )
+            );
+        }
+        return TranslationsCategories;
     }
 };
 

@@ -18,6 +18,15 @@
 
                             <!-- main node <decimal> -->
                             <xs:element name="decimal" type="xs:int" nillable="true"/>
+
+                            <!-- main node <scope> -->
+                            <xs:element name="scope">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="code" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
                         </xs:sequence>
 
                         <xs:attribute name="index" type="xs:int" use="optional"/>

@@ -1310,9 +1310,7 @@ GY:
     - guyanese
 HK:
   name: Hong Kong
-  fullName: >-
-    Regione amministrativa speciale di Hong Kong della Repubblica Popolare
-    Cinese
+  fullName: Regione amministrativa speciale di Hong Kong della Repubblica Popolare Cinese
   demonyms:
     - Hongkonghesi
   keywords:

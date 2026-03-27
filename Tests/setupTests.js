@@ -10,6 +10,7 @@ global.Applications = {
 };
 const dataPath = global.builtPath + 'node/';
 global.translationsDir = 'Translations/';
+global.translationsDirCategories = 'Categories';
 
 global.APP = {
     testConstants: {
@@ -43,6 +44,11 @@ global.APP = {
         geoSets: {},
         languages: {},
         scripts: {}
+    },
+    translationsCategories: {
+        currencies: {},
+        geoSets: {},
+        languages: {}
     },
     extra: {
         countries: {
@@ -90,7 +96,44 @@ global.APP = {
                     ]
                 }
             }
-        }
+        },
+        currencies: {
+            scopes: [
+                'M',
+                'F',
+                'P',
+                'S'
+            ]
+        },
+        geoSets: {
+            scopes: [
+                'GEOG',
+                'CONV',
+                'ORGS'
+            ]
+        },
+        languages: {
+            scopes: [
+                'I',
+                'M',
+                'S'
+            ],
+            types:[
+                'A',
+                'C',
+                'E',
+                'H',
+                'L',
+                'S'
+            ]
+        },
+        scripts: {
+            direction: [
+                'nla',
+                'ltr',
+                'rtl'
+            ]
+        },
     }
 };
 
@@ -106,6 +149,12 @@ export async function setupApp() {
             for (const lang of global.APP.config.settings.languages.inPackage) {
                 moduleLoad = await import(`${dataPath}${global.translationsDir}${lang}/${key}.js`);
                 global.APP.translations[key][lang] = moduleLoad[key];
+                if(Object.prototype.hasOwnProperty.call(global.APP.translationsCategories, key)) {
+                    moduleLoad = await import(
+                        `${dataPath}${global.translationsDir}${lang}/${global.translationsDirCategories}/${key}.js`
+                        );
+                    global.APP.translationsCategories[key][lang] = moduleLoad[key];
+                }
             }
         }
     } catch (error) {

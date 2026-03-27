@@ -27,6 +27,7 @@ export const configBuild = {
         xml: saveDataForXml,
     },
     TranslationDir: 'Translations/',
+    TranslationCategoriesDir: 'Categories/',
     appConfig: 'config.json',
     configFunctions: configFunctions,
     appData: {
@@ -38,6 +39,7 @@ export const configBuild = {
     },
     extra: {
         countries: {
+            hasCategories: false,
             flags: {
                 enumSvgFormat: [
                     '1x1',
@@ -110,13 +112,24 @@ export const configBuild = {
             }
         },
         geoSets: {
+            hasCategories: true,
             internalCode: [
                 'GEOG',
                 'CONV',
                 'ORGS'
             ]
         },
+        currencies: {
+            hasCategories: true,
+            scopes: [
+                'M',
+                'F',
+                'P',
+                'S'
+            ]
+        },
         languages: {
+            hasCategories: true,
             scopes: [
                 'I',
                 'M',
@@ -132,7 +145,9 @@ export const configBuild = {
             ]
         },
         scripts: {
+            hasCategories: true,
             direction: [
+                'nla',
                 'ltr',
                 'rtl'
             ]

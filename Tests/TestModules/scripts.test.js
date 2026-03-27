@@ -13,7 +13,6 @@ let uniqueKeysControl = new Set();
 
 describe('Tests Language Scripts Structure', () => {
     test(`Test that Language Scripts structure is an array`, () => {
-        console.info(Object.keys(global.APP.data.scripts).length);
         expect(
             typeof global.APP.data.scripts === 'object' &&
             global.APP.data.scripts !== null &&
@@ -75,13 +74,23 @@ for (const script of Object.values(scripts)) {
         });
 
         /** writingDirection **/
-        test(`Test that the language script '${script.code}' has the property 'writingDirection' as null or not empty string`, () => {
+        test(`Test that the language script '${script.code}' has the property 'writingDirection' as not empty object`, () => {
             expect(
                 script.hasOwnProperty('writingDirection') &&
-                script.writingDirection === null ||
-                (typeof script.writingDirection === 'string' && script.writingDirection.length !== 0)
+                typeof script.writingDirection === 'object' && script.writingDirection !== null &&
+                Object.entries(script.writingDirection).length !== 0
             ).toBe(true);
         });
+        test(
+            `Test that for the language script '${script.code}', 'writingDirection.code' ` + script.writingDirection.code + ` is ` +
+            `3 lowercase chars length string, and it is inside the list of the available writingDirections`, () => {
+                expect(
+                    script.writingDirection.hasOwnProperty('code') &&
+                    typeof script.writingDirection.code === 'string' &&
+                    /^[a-z]{3}$/.test(script.writingDirection.code) &&
+                    global.APP.extra.scripts.direction.includes(script.writingDirection.code)
+                ).toBe(true);
+            });
 
         /** unicode **/
         test(`Test that the language script '${script.code}' has the property 'unicode' as object`, () => {

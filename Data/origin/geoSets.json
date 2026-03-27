@@ -3,6 +3,7 @@
         "LABEL": "Group of Twenty (G20)",
         "internalCode": "CONV-G20",
         "unM49": null,
+        "scope": "CONV",
         "tags": [
             "convention",
             "geopolitics"
@@ -36,6 +37,7 @@
         "LABEL": "Group of Seven (G7)",
         "internalCode": "CONV-G7",
         "unM49": null,
+        "scope": "CONV",
         "tags": [
             "convention",
             "geopolitics"
@@ -58,6 +60,7 @@
         "LABEL": "Schengen Area",
         "internalCode": "CONV-SCHENGEN",
         "unM49": null,
+        "scope": "CONV",
         "tags": [
             "convention",
             "geopolitics"
@@ -97,6 +100,7 @@
         "LABEL": "United Nations Convention Against Corruption (UNCAC)",
         "internalCode": "CONV-UNCAC",
         "unM49": null,
+        "scope": "CONV",
         "tags": [
             "convention",
             "security"
@@ -299,6 +303,7 @@
         "LABEL": "Africa",
         "internalCode": "GEOG-AF",
         "unM49": "002",
+        "scope": "GEOG",
         "tags": [
             "geography",
             "region"
@@ -371,6 +376,7 @@
         "LABEL": "Northern Africa",
         "internalCode": "GEOG-AF-NO",
         "unM49": "015",
+        "scope": "GEOG",
         "tags": [
             "geography",
             "subregion"
@@ -390,6 +396,7 @@
         "LABEL": "Sub-Saharan Africa",
         "internalCode": "GEOG-AF-SS",
         "unM49": 202,
+        "scope": "GEOG",
         "tags": [
             "geography",
             "subregion"
@@ -455,6 +462,7 @@
         "LABEL": "Eastern Africa",
         "internalCode": "GEOG-AF-SS-EA",
         "unM49": "014",
+        "scope": "GEOG",
         "tags": [
             "geography",
             "subdivision"
@@ -489,6 +497,7 @@
         "LABEL": "Middle Africa",
         "internalCode": "GEOG-AF-SS-MD",
         "unM49": "017",
+        "scope": "GEOG",
         "tags": [
             "geography",
             "subdivision"
@@ -510,6 +519,7 @@
         "LABEL": "Southern Africa",
         "internalCode": "GEOG-AF-SS-SO",
         "unM49": "018",
+        "scope": "GEOG",
         "tags": [
             "geography",
             "subdivision"
@@ -527,6 +537,7 @@
         "LABEL": "Western Africa",
         "internalCode": "GEOG-AF-SS-WE",
         "unM49": "011",
+        "scope": "GEOG",
         "tags": [
             "geography",
             "subdivision"
@@ -556,6 +567,7 @@
         "LABEL": "Americas",
         "internalCode": "GEOG-AM",
         "unM49": "019",
+        "scope": "GEOG",
         "tags": [
             "geography",
             "region"
@@ -625,6 +637,7 @@
         "LABEL": "Latin America and the Caribbean",
         "internalCode": "GEOG-AM-LA",
         "unM49": 419,
+        "scope": "GEOG",
         "tags": [
             "geography",
             "subregion"
@@ -689,6 +702,7 @@
         "LABEL": "Caribbean",
         "internalCode": "GEOG-AM-LA-CA",
         "unM49": "029",
+        "scope": "GEOG",
         "tags": [
             "geography",
             "subdivision"
@@ -729,6 +743,7 @@
         "LABEL": "Central America",
         "internalCode": "GEOG-AM-LA-CT",
         "unM49": "013",
+        "scope": "GEOG",
         "tags": [
             "geography",
             "subdivision"
@@ -749,6 +764,7 @@
         "LABEL": "South America",
         "internalCode": "GEOG-AM-LA-SO",
         "unM49": "005",
+        "scope": "GEOG",
         "tags": [
             "geography",
             "subdivision"
@@ -777,6 +793,7 @@
         "LABEL": "Northern America",
         "internalCode": "GEOG-AM-NO",
         "unM49": "021",
+        "scope": "GEOG",
         "tags": [
             "geography",
             "subregion"
@@ -794,6 +811,7 @@
         "LABEL": "Antarctica",
         "internalCode": "GEOG-AQ",
         "unM49": "010",
+        "scope": "GEOG",
         "tags": [
             "geography",
             "region"
@@ -810,6 +828,7 @@
         "LABEL": "Asia",
         "internalCode": "GEOG-AS",
         "unM49": 142,
+        "scope": "GEOG",
         "tags": [
             "geography",
             "region"
@@ -873,6 +892,7 @@
         "LABEL": "Central Asia",
         "internalCode": "GEOG-AS-CT",
         "unM49": 143,
+        "scope": "GEOG",
         "tags": [
             "geography",
             "subregion"
@@ -890,6 +910,7 @@
         "LABEL": "Eastern Asia",
         "internalCode": "GEOG-AS-EA",
         "unM49": "030",
+        "scope": "GEOG",
         "tags": [
             "geography",
             "subregion"
@@ -910,6 +931,7 @@
         "LABEL": "South-eastern Asia",
         "internalCode": "GEOG-AS-SE",
         "unM49": "035",
+        "scope": "GEOG",
         "tags": [
             "geography",
             "subregion"
@@ -933,6 +955,7 @@
         "LABEL": "Southern Asia",
         "internalCode": "GEOG-AS-SO",
         "unM49": "034",
+        "scope": "GEOG",
         "tags": [
             "geography",
             "subregion"
@@ -954,6 +977,7 @@
         "LABEL": "Western Asia",
         "internalCode": "GEOG-AS-WE",
         "unM49": 145,
+        "scope": "GEOG",
         "tags": [
             "geography",
             "subregion"
@@ -984,6 +1008,7 @@
         "LABEL": "Europe",
         "internalCode": "GEOG-EU",
         "unM49": 150,
+        "scope": "GEOG",
         "tags": [
             "geography",
             "region"
@@ -1056,6 +1081,7 @@
         "LABEL": "Eastern Europe",
         "internalCode": "GEOG-EU-EA",
         "unM49": 151,
+        "scope": "GEOG",
         "tags": [
             "geography",
             "subregion"
@@ -1078,6 +1104,7 @@
         "LABEL": "Northern Europe",
         "internalCode": "GEOG-EU-NO",
         "unM49": 154,
+        "scope": "GEOG",
         "tags": [
             "geography",
             "subregion"
@@ -1108,6 +1135,7 @@
         "LABEL": "Channel Islands",
         "internalCode": "GEOG-EU-NO-CH",
         "unM49": 830,
+        "scope": "GEOG",
         "tags": [
             "geography",
             "subdivision"
@@ -1124,6 +1152,7 @@
         "LABEL": "Southern Europe",
         "internalCode": "GEOG-EU-SO",
         "unM49": "039",
+        "scope": "GEOG",
         "tags": [
             "geography",
             "subregion"
@@ -1153,6 +1182,7 @@
         "LABEL": "Western Europe",
         "internalCode": "GEOG-EU-WE",
         "unM49": 155,
+        "scope": "GEOG",
         "tags": [
             "geography",
             "subregion"
@@ -1174,6 +1204,7 @@
         "LABEL": "Oceania",
         "internalCode": "GEOG-OC",
         "unM49": "009",
+        "scope": "GEOG",
         "tags": [
             "geography",
             "region"
@@ -1215,6 +1246,7 @@
         "LABEL": "Australia and New Zealand",
         "internalCode": "GEOG-OC-AN",
         "unM49": "053",
+        "scope": "GEOG",
         "tags": [
             "geography",
             "subregion"
@@ -1233,6 +1265,7 @@
         "LABEL": "Melanesia",
         "internalCode": "GEOG-OC-ME",
         "unM49": "054",
+        "scope": "GEOG",
         "tags": [
             "geography",
             "subregion"
@@ -1250,6 +1283,7 @@
         "LABEL": "Micronesia",
         "internalCode": "GEOG-OC-MI",
         "unM49": "057",
+        "scope": "GEOG",
         "tags": [
             "geography",
             "subregion"
@@ -1270,6 +1304,7 @@
         "LABEL": "Polynesia",
         "internalCode": "GEOG-OC-PO",
         "unM49": "061",
+        "scope": "GEOG",
         "tags": [
             "geography",
             "subregion"
@@ -1292,6 +1327,7 @@
         "LABEL": "Amazon Cooperation Treaty Organization (ACTO)",
         "internalCode": "ORGS-ACTO",
         "unM49": null,
+        "scope": "ORGS",
         "tags": [
             "organization",
             "geopolitics"
@@ -1312,6 +1348,7 @@
         "LABEL": "Association of Southeast Asian Nations (ASEAN)",
         "internalCode": "ORGS-ASEAN",
         "unM49": null,
+        "scope": "ORGS",
         "tags": [
             "organization",
             "geopolitics",
@@ -1335,6 +1372,7 @@
         "LABEL": "African Union (AU)",
         "internalCode": "ORGS-AU",
         "unM49": null,
+        "scope": "ORGS",
         "tags": [
             "organization",
             "geopolitics"
@@ -1398,6 +1436,7 @@
         "LABEL": "BRICS",
         "internalCode": "ORGS-BRICS",
         "unM49": null,
+        "scope": "ORGS",
         "tags": [
             "organization",
             "economy"
@@ -1415,6 +1454,7 @@
         "LABEL": "Commonwealth of Independent States (CIS)",
         "internalCode": "ORGS-CIS",
         "unM49": null,
+        "scope": "ORGS",
         "tags": [
             "organization",
             "geopolitics"
@@ -1436,6 +1476,7 @@
         "LABEL": "Council of Europe (CoE)",
         "internalCode": "ORGS-COE",
         "unM49": null,
+        "scope": "ORGS",
         "tags": [
             "organization",
             "geopolitics"
@@ -1495,6 +1536,7 @@
         "LABEL": "Collective Security Treaty Organization (CSTO)",
         "internalCode": "ORGS-CSTO",
         "unM49": null,
+        "scope": "ORGS",
         "tags": [
             "organization",
             "military"
@@ -1513,6 +1555,7 @@
         "LABEL": "Commonwealth of the Nations",
         "internalCode": "ORGS-CWNAT",
         "unM49": null,
+        "scope": "ORGS",
         "tags": [
             "organization",
             "geopolitics"
@@ -1581,6 +1624,7 @@
         "LABEL": "Commonwealth realm",
         "internalCode": "ORGS-CWRLM",
         "unM49": null,
+        "scope": "ORGS",
         "tags": [
             "organization",
             "geopolitics"
@@ -1608,6 +1652,7 @@
         "LABEL": "European Union (EU)",
         "internalCode": "ORGS-EU",
         "unM49": null,
+        "scope": "ORGS",
         "tags": [
             "organization",
             "geopolitics"
@@ -1647,6 +1692,7 @@
         "LABEL": "International Bank for Reconstruction and Development (IBRD)",
         "internalCode": "ORGS-IBRD",
         "unM49": null,
+        "scope": "ORGS",
         "tags": [
             "organization",
             "finance"
@@ -1848,6 +1894,7 @@
         "LABEL": "International Criminal Court (ICC)",
         "internalCode": "ORGS-ICC",
         "unM49": null,
+        "scope": "ORGS",
         "tags": [
             "organization",
             "jurisprudence"
@@ -1984,6 +2031,7 @@
         "LABEL": "International Centre for Settlement of Investment Disputes (ICSID)",
         "internalCode": "ORGS-ICSID",
         "unM49": null,
+        "scope": "ORGS",
         "tags": [
             "organization",
             "finance"
@@ -2154,6 +2202,7 @@
         "LABEL": "International Development Association (IDA)",
         "internalCode": "ORGS-IDA",
         "unM49": null,
+        "scope": "ORGS",
         "tags": [
             "organization",
             "finance"
@@ -2340,6 +2389,7 @@
         "LABEL": "International Finance Corporation (IFC)",
         "internalCode": "ORGS-IFC",
         "unM49": null,
+        "scope": "ORGS",
         "tags": [
             "organization",
             "finance"
@@ -2538,6 +2588,7 @@
         "LABEL": "The International Criminal Police Organization (Interpol)",
         "internalCode": "ORGS-IPOL",
         "unM49": null,
+        "scope": "ORGS",
         "tags": [
             "organization",
             "security"
@@ -2745,6 +2796,7 @@
         "LABEL": "Multilateral Investment Guarantee Agency (MIGA)",
         "internalCode": "ORGS-MIGA",
         "unM49": null,
+        "scope": "ORGS",
         "tags": [
             "organization",
             "finance"
@@ -2939,6 +2991,7 @@
         "LABEL": "North Atlantic Treaty Organization (NATO)",
         "internalCode": "ORGS-NATO",
         "unM49": null,
+        "scope": "ORGS",
         "tags": [
             "organization",
             "military"
@@ -2981,6 +3034,7 @@
         "LABEL": "Organization of American States (OAS)",
         "internalCode": "ORGS-OAS",
         "unM49": null,
+        "scope": "ORGS",
         "tags": [
             "organization",
             "geopolitics"
@@ -3028,6 +3082,7 @@
         "LABEL": "Organisation for Economic Co-operation and Development (OECD)",
         "internalCode": "ORGS-OECD",
         "unM49": null,
+        "scope": "ORGS",
         "tags": [
             "organization",
             "geopolitics"
@@ -3078,6 +3133,7 @@
         "LABEL": "Organization of the Petroleum Exporting Countries (OPEC)",
         "internalCode": "ORGS-OPEC",
         "unM49": null,
+        "scope": "ORGS",
         "tags": [
             "organization",
             "economy"
@@ -3103,6 +3159,7 @@
         "LABEL": "Organization for Security and Co-operation in Europe (OSCE)",
         "internalCode": "ORGS-OSCE",
         "unM49": null,
+        "scope": "ORGS",
         "tags": [
             "organization",
             "geopolitics"
@@ -3172,6 +3229,7 @@
         "LABEL": "Shanghai Cooperation Organisation (SCO)",
         "internalCode": "ORGS-SCO",
         "unM49": null,
+        "scope": "ORGS",
         "tags": [
             "geopolitics",
             "economy",
@@ -3193,6 +3251,7 @@
         "LABEL": "United Nations (UN)",
         "internalCode": "ORGS-UN",
         "unM49": null,
+        "scope": "ORGS",
         "tags": [
             "organization",
             "geopolitics"
@@ -3398,6 +3457,7 @@
         "LABEL": "World Customs Organization (WCO)",
         "internalCode": "ORGS-WCO",
         "unM49": null,
+        "scope": "ORGS",
         "tags": [
             "organization",
             "economy"
@@ -3597,6 +3657,7 @@
         "LABEL": "World Trade Organization (WTO)",
         "internalCode": "ORGS-WTO",
         "unM49": null,
+        "scope": "ORGS",
         "tags": [
             "organization",
             "economy"
@@ -3774,6 +3835,7 @@
         "LABEL": "Eurozone (EZ)",
         "internalCode": "CONV-EZ",
         "unM49": null,
+        "scope": "CONV",
         "tags": [
             "convention",
             "zone",

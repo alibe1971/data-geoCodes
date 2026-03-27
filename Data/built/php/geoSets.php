@@ -22,6 +22,9 @@ return [
     [
         'internalCode' => 'CONV-EZ',
         'unM49' => null,
+        'scope' => [
+            'code' => 'CONV'
+        ],
         'tags' => [
             'convention',
             'zone',
@@ -55,6 +58,9 @@ return [
     [
         'internalCode' => 'CONV-G20',
         'unM49' => null,
+        'scope' => [
+            'code' => 'CONV'
+        ],
         'tags' => [
             'convention',
             'geopolitics'
@@ -84,6 +90,9 @@ return [
     [
         'internalCode' => 'CONV-G7',
         'unM49' => null,
+        'scope' => [
+            'code' => 'CONV'
+        ],
         'tags' => [
             'convention',
             'geopolitics'
@@ -101,6 +110,9 @@ return [
     [
         'internalCode' => 'CONV-SCHENGEN',
         'unM49' => null,
+        'scope' => [
+            'code' => 'CONV'
+        ],
         'tags' => [
             'convention',
             'geopolitics'
@@ -138,6 +150,9 @@ return [
     [
         'internalCode' => 'CONV-UNCAC',
         'unM49' => null,
+        'scope' => [
+            'code' => 'CONV'
+        ],
         'tags' => [
             'convention',
             'security'
@@ -338,6 +353,9 @@ return [
     [
         'internalCode' => 'GEOG-AF',
         'unM49' => '002',
+        'scope' => [
+            'code' => 'GEOG'
+        ],
         'tags' => [
             'geography',
             'region'
@@ -408,6 +426,9 @@ return [
     [
         'internalCode' => 'GEOG-AF-NO',
         'unM49' => '015',
+        'scope' => [
+            'code' => 'GEOG'
+        ],
         'tags' => [
             'geography',
             'subregion'
@@ -425,6 +446,9 @@ return [
     [
         'internalCode' => 'GEOG-AF-SS',
         'unM49' => '202',
+        'scope' => [
+            'code' => 'GEOG'
+        ],
         'tags' => [
             'geography',
             'subregion'
@@ -488,6 +512,9 @@ return [
     [
         'internalCode' => 'GEOG-AF-SS-EA',
         'unM49' => '014',
+        'scope' => [
+            'code' => 'GEOG'
+        ],
         'tags' => [
             'geography',
             'subdivision'
@@ -520,6 +547,9 @@ return [
     [
         'internalCode' => 'GEOG-AF-SS-MD',
         'unM49' => '017',
+        'scope' => [
+            'code' => 'GEOG'
+        ],
         'tags' => [
             'geography',
             'subdivision'
@@ -539,6 +569,9 @@ return [
     [
         'internalCode' => 'GEOG-AF-SS-SO',
         'unM49' => '018',
+        'scope' => [
+            'code' => 'GEOG'
+        ],
         'tags' => [
             'geography',
             'subdivision'
@@ -554,6 +587,9 @@ return [
     [
         'internalCode' => 'GEOG-AF-SS-WE',
         'unM49' => '011',
+        'scope' => [
+            'code' => 'GEOG'
+        ],
         'tags' => [
             'geography',
             'subdivision'
@@ -581,6 +617,9 @@ return [
     [
         'internalCode' => 'GEOG-AM',
         'unM49' => '019',
+        'scope' => [
+            'code' => 'GEOG'
+        ],
         'tags' => [
             'geography',
             'region'
@@ -648,6 +687,9 @@ return [
     [
         'internalCode' => 'GEOG-AM-LA',
         'unM49' => '419',
+        'scope' => [
+            'code' => 'GEOG'
+        ],
         'tags' => [
             'geography',
             'subregion'
@@ -710,6 +752,9 @@ return [
     [
         'internalCode' => 'GEOG-AM-LA-CA',
         'unM49' => '029',
+        'scope' => [
+            'code' => 'GEOG'
+        ],
         'tags' => [
             'geography',
             'subdivision'
@@ -748,6 +793,9 @@ return [
     [
         'internalCode' => 'GEOG-AM-LA-CT',
         'unM49' => '013',
+        'scope' => [
+            'code' => 'GEOG'
+        ],
         'tags' => [
             'geography',
             'subdivision'
@@ -766,6 +814,9 @@ return [
     [
         'internalCode' => 'GEOG-AM-LA-SO',
         'unM49' => '005',
+        'scope' => [
+            'code' => 'GEOG'
+        ],
         'tags' => [
             'geography',
             'subdivision'
@@ -792,6 +843,9 @@ return [
     [
         'internalCode' => 'GEOG-AM-NO',
         'unM49' => '021',
+        'scope' => [
+            'code' => 'GEOG'
+        ],
         'tags' => [
             'geography',
             'subregion'
@@ -807,6 +861,9 @@ return [
     [
         'internalCode' => 'GEOG-AQ',
         'unM49' => '010',
+        'scope' => [
+            'code' => 'GEOG'
+        ],
         'tags' => [
             'geography',
             'region'
@@ -818,6 +875,9 @@ return [
     [
         'internalCode' => 'GEOG-AS',
         'unM49' => '142',
+        'scope' => [
+            'code' => 'GEOG'
+        ],
         'tags' => [
             'geography',
             'region'
@@ -879,6 +939,9 @@ return [
     [
         'internalCode' => 'GEOG-AS-CT',
         'unM49' => '143',
+        'scope' => [
+            'code' => 'GEOG'
+        ],
         'tags' => [
             'geography',
             'subregion'
@@ -894,6 +957,9 @@ return [
     [
         'internalCode' => 'GEOG-AS-EA',
         'unM49' => '030',
+        'scope' => [
+            'code' => 'GEOG'
+        ],
         'tags' => [
             'geography',
             'subregion'
@@ -912,6 +978,9 @@ return [
     [
         'internalCode' => 'GEOG-AS-SE',
         'unM49' => '035',
+        'scope' => [
+            'code' => 'GEOG'
+        ],
         'tags' => [
             'geography',
             'subregion'
@@ -933,6 +1002,9 @@ return [
     [
         'internalCode' => 'GEOG-AS-SO',
         'unM49' => '034',
+        'scope' => [
+            'code' => 'GEOG'
+        ],
         'tags' => [
             'geography',
             'subregion'
@@ -952,6 +1024,9 @@ return [
     [
         'internalCode' => 'GEOG-AS-WE',
         'unM49' => '145',
+        'scope' => [
+            'code' => 'GEOG'
+        ],
         'tags' => [
             'geography',
             'subregion'
@@ -980,6 +1055,9 @@ return [
     [
         'internalCode' => 'GEOG-EU',
         'unM49' => '150',
+        'scope' => [
+            'code' => 'GEOG'
+        ],
         'tags' => [
             'geography',
             'region'
@@ -1042,6 +1120,9 @@ return [
     [
         'internalCode' => 'GEOG-EU-EA',
         'unM49' => '151',
+        'scope' => [
+            'code' => 'GEOG'
+        ],
         'tags' => [
             'geography',
             'subregion'
@@ -1062,6 +1143,9 @@ return [
     [
         'internalCode' => 'GEOG-EU-NO',
         'unM49' => '154',
+        'scope' => [
+            'code' => 'GEOG'
+        ],
         'tags' => [
             'geography',
             'subregion'
@@ -1088,6 +1172,9 @@ return [
     [
         'internalCode' => 'GEOG-EU-NO-CH',
         'unM49' => '830',
+        'scope' => [
+            'code' => 'GEOG'
+        ],
         'tags' => [
             'geography',
             'subdivision'
@@ -1100,6 +1187,9 @@ return [
     [
         'internalCode' => 'GEOG-EU-SO',
         'unM49' => '039',
+        'scope' => [
+            'code' => 'GEOG'
+        ],
         'tags' => [
             'geography',
             'subregion'
@@ -1127,6 +1217,9 @@ return [
     [
         'internalCode' => 'GEOG-EU-WE',
         'unM49' => '155',
+        'scope' => [
+            'code' => 'GEOG'
+        ],
         'tags' => [
             'geography',
             'subregion'
@@ -1146,6 +1239,9 @@ return [
     [
         'internalCode' => 'GEOG-OC',
         'unM49' => '009',
+        'scope' => [
+            'code' => 'GEOG'
+        ],
         'tags' => [
             'geography',
             'region'
@@ -1185,6 +1281,9 @@ return [
     [
         'internalCode' => 'GEOG-OC-AN',
         'unM49' => '053',
+        'scope' => [
+            'code' => 'GEOG'
+        ],
         'tags' => [
             'geography',
             'subregion'
@@ -1201,6 +1300,9 @@ return [
     [
         'internalCode' => 'GEOG-OC-ME',
         'unM49' => '054',
+        'scope' => [
+            'code' => 'GEOG'
+        ],
         'tags' => [
             'geography',
             'subregion'
@@ -1216,6 +1318,9 @@ return [
     [
         'internalCode' => 'GEOG-OC-MI',
         'unM49' => '057',
+        'scope' => [
+            'code' => 'GEOG'
+        ],
         'tags' => [
             'geography',
             'subregion'
@@ -1234,6 +1339,9 @@ return [
     [
         'internalCode' => 'GEOG-OC-PO',
         'unM49' => '061',
+        'scope' => [
+            'code' => 'GEOG'
+        ],
         'tags' => [
             'geography',
             'subregion'
@@ -1254,6 +1362,9 @@ return [
     [
         'internalCode' => 'ORGS-ACTO',
         'unM49' => null,
+        'scope' => [
+            'code' => 'ORGS'
+        ],
         'tags' => [
             'organization',
             'geopolitics'
@@ -1272,6 +1383,9 @@ return [
     [
         'internalCode' => 'ORGS-ASEAN',
         'unM49' => null,
+        'scope' => [
+            'code' => 'ORGS'
+        ],
         'tags' => [
             'organization',
             'geopolitics',
@@ -1293,6 +1407,9 @@ return [
     [
         'internalCode' => 'ORGS-AU',
         'unM49' => null,
+        'scope' => [
+            'code' => 'ORGS'
+        ],
         'tags' => [
             'organization',
             'geopolitics'
@@ -1354,6 +1471,9 @@ return [
     [
         'internalCode' => 'ORGS-BRICS',
         'unM49' => null,
+        'scope' => [
+            'code' => 'ORGS'
+        ],
         'tags' => [
             'organization',
             'economy'
@@ -1369,6 +1489,9 @@ return [
     [
         'internalCode' => 'ORGS-CIS',
         'unM49' => null,
+        'scope' => [
+            'code' => 'ORGS'
+        ],
         'tags' => [
             'organization',
             'geopolitics'
@@ -1388,6 +1511,9 @@ return [
     [
         'internalCode' => 'ORGS-COE',
         'unM49' => null,
+        'scope' => [
+            'code' => 'ORGS'
+        ],
         'tags' => [
             'organization',
             'geopolitics'
@@ -1445,6 +1571,9 @@ return [
     [
         'internalCode' => 'ORGS-CSTO',
         'unM49' => null,
+        'scope' => [
+            'code' => 'ORGS'
+        ],
         'tags' => [
             'organization',
             'military'
@@ -1461,6 +1590,9 @@ return [
     [
         'internalCode' => 'ORGS-CWNAT',
         'unM49' => null,
+        'scope' => [
+            'code' => 'ORGS'
+        ],
         'tags' => [
             'organization',
             'geopolitics'
@@ -1527,6 +1659,9 @@ return [
     [
         'internalCode' => 'ORGS-CWRLM',
         'unM49' => null,
+        'scope' => [
+            'code' => 'ORGS'
+        ],
         'tags' => [
             'organization',
             'geopolitics'
@@ -1552,6 +1687,9 @@ return [
     [
         'internalCode' => 'ORGS-EU',
         'unM49' => null,
+        'scope' => [
+            'code' => 'ORGS'
+        ],
         'tags' => [
             'organization',
             'geopolitics'
@@ -1589,6 +1727,9 @@ return [
     [
         'internalCode' => 'ORGS-IBRD',
         'unM49' => null,
+        'scope' => [
+            'code' => 'ORGS'
+        ],
         'tags' => [
             'organization',
             'finance'
@@ -1788,6 +1929,9 @@ return [
     [
         'internalCode' => 'ORGS-ICC',
         'unM49' => null,
+        'scope' => [
+            'code' => 'ORGS'
+        ],
         'tags' => [
             'organization',
             'jurisprudence'
@@ -1922,6 +2066,9 @@ return [
     [
         'internalCode' => 'ORGS-ICSID',
         'unM49' => null,
+        'scope' => [
+            'code' => 'ORGS'
+        ],
         'tags' => [
             'organization',
             'finance'
@@ -2090,6 +2237,9 @@ return [
     [
         'internalCode' => 'ORGS-IDA',
         'unM49' => null,
+        'scope' => [
+            'code' => 'ORGS'
+        ],
         'tags' => [
             'organization',
             'finance'
@@ -2274,6 +2424,9 @@ return [
     [
         'internalCode' => 'ORGS-IFC',
         'unM49' => null,
+        'scope' => [
+            'code' => 'ORGS'
+        ],
         'tags' => [
             'organization',
             'finance'
@@ -2470,6 +2623,9 @@ return [
     [
         'internalCode' => 'ORGS-IPOL',
         'unM49' => null,
+        'scope' => [
+            'code' => 'ORGS'
+        ],
         'tags' => [
             'organization',
             'security'
@@ -2674,6 +2830,9 @@ return [
     [
         'internalCode' => 'ORGS-MIGA',
         'unM49' => null,
+        'scope' => [
+            'code' => 'ORGS'
+        ],
         'tags' => [
             'organization',
             'finance'
@@ -2866,6 +3025,9 @@ return [
     [
         'internalCode' => 'ORGS-NATO',
         'unM49' => null,
+        'scope' => [
+            'code' => 'ORGS'
+        ],
         'tags' => [
             'organization',
             'military'
@@ -2906,6 +3068,9 @@ return [
     [
         'internalCode' => 'ORGS-OAS',
         'unM49' => null,
+        'scope' => [
+            'code' => 'ORGS'
+        ],
         'tags' => [
             'organization',
             'geopolitics'
@@ -2951,6 +3116,9 @@ return [
     [
         'internalCode' => 'ORGS-OECD',
         'unM49' => null,
+        'scope' => [
+            'code' => 'ORGS'
+        ],
         'tags' => [
             'organization',
             'geopolitics'
@@ -2999,6 +3167,9 @@ return [
     [
         'internalCode' => 'ORGS-OPEC',
         'unM49' => null,
+        'scope' => [
+            'code' => 'ORGS'
+        ],
         'tags' => [
             'organization',
             'economy'
@@ -3022,6 +3193,9 @@ return [
     [
         'internalCode' => 'ORGS-OSCE',
         'unM49' => null,
+        'scope' => [
+            'code' => 'ORGS'
+        ],
         'tags' => [
             'organization',
             'geopolitics'
@@ -3089,6 +3263,9 @@ return [
     [
         'internalCode' => 'ORGS-SCO',
         'unM49' => null,
+        'scope' => [
+            'code' => 'ORGS'
+        ],
         'tags' => [
             'geopolitics',
             'economy',
@@ -3108,6 +3285,9 @@ return [
     [
         'internalCode' => 'ORGS-UN',
         'unM49' => null,
+        'scope' => [
+            'code' => 'ORGS'
+        ],
         'tags' => [
             'organization',
             'geopolitics'
@@ -3311,6 +3491,9 @@ return [
     [
         'internalCode' => 'ORGS-WCO',
         'unM49' => null,
+        'scope' => [
+            'code' => 'ORGS'
+        ],
         'tags' => [
             'organization',
             'economy'
@@ -3506,6 +3689,9 @@ return [
     [
         'internalCode' => 'ORGS-WTO',
         'unM49' => null,
+        'scope' => [
+            'code' => 'ORGS'
+        ],
         'tags' => [
             'organization',
             'economy'

@@ -4,6 +4,7 @@ import { writeFile } from '../utils.js';
 
 export const saveDataForJson = {
     save: async (destination, completeData) => {
+        console.log(completeData.translationsCategories);
         /** Configuration **/
         let jsonData = JSON.stringify(completeData.config, null, 4);
         let jsonMinData = JSON.stringify(completeData.config);
@@ -33,8 +34,26 @@ export const saveDataForJson = {
                     )
                 );
             }
+
+            /** Translations Categories Data **/
+            if (Object.prototype.hasOwnProperty.call(completeData.translationsCategories, key)) {
+                for (const [lang, dataCatTrans] of Object.entries(completeData.translationsCategories[key])) {
+                    jsonData = JSON.stringify(dataCatTrans, null, 4);
+                    jsonMinData = JSON.stringify(dataCatTrans);
+                    await writeFile(destination + completeData.TranslationDir + lang + '/'
+                        + completeData.TranslationCategoriesDir + key + '.json', jsonData );
+                    await writeFile(destination + completeData.TranslationDir + lang + '/'
+                        + completeData.TranslationCategoriesDir + key + '.min.json', jsonMinData );
+                    console.log(
+                        chalk.cyan(
+                            '         - Translations Categories language data `' + lang +'` for `json` app for `'
+                                + key + '` has been written'
+                        )
+                    );
+                }
+            }
+
         }
-        return;
     }
 };
 

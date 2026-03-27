@@ -17,6 +17,7 @@ const collectionItem = 'Country';
 
 let Countries = [];
 let Translations = {};
+let TranslationsCategories = {};
 
 const timeZoneVersion = moment.tz.dataVersion;
 
@@ -725,6 +726,11 @@ export const countriesFunctions = {
             );
         }
         return Translations;
+    },
+
+    // eslint-disable-next-line no-unused-vars
+    DataTranslationsCategories: async (_data, _defaultLanguage = 'en') => {
+        return TranslationsCategories;
     }
 };
 

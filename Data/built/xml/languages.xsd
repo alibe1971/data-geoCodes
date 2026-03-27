@@ -23,10 +23,22 @@
                             <xs:element name="glottoCode" type="xs:string" minOccurs="0" nillable="true"/>
 
                             <!-- main node <scope> -->
-                            <xs:element name="scope" type="xs:string" minOccurs="0"/>
+                            <xs:element name="scope">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="code" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
 
                             <!-- main node <type> -->
-                            <xs:element name="type" type="xs:string" minOccurs="0"/>
+                            <xs:element name="type">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="code" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
 
                             <!-- main node <macroLanguageRef> -->
                             <xs:element name="macroLanguageRef" type="xs:string" minOccurs="0" nillable="true"/>

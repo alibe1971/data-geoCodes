@@ -1,5 +1,5 @@
 {
-  "cat": {
+  "scope": {
     "M": "Monetary (cash / legal tender)",
     "F": "Financial only (accounting units / instruments)",
     "P": "Precious metals / commodity",

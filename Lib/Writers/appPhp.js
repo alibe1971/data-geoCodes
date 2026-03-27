@@ -25,8 +25,22 @@ export const saveDataForPhp = {
                     )
                 );
             }
+
+            /** Translations Categories Data **/
+            if (Object.prototype.hasOwnProperty.call(completeData.translationsCategories, key)) {
+                for (const [lang, dataCatTrans] of Object.entries(completeData.translationsCategories[key])) {
+                    phpData = saveDataForPhp.build(key, dataCatTrans);
+                    await writeFile(destination + completeData.TranslationDir + lang + '/'
+                        + completeData.TranslationCategoriesDir + key + '.php', phpData );
+                    console.log(
+                        chalk.cyan(
+                            '         - Translations Categories language data `' + lang +'` for `php` app for `'
+                            + key + '` has been written'
+                        )
+                    );
+                }
+            }
         }
-        return;
     },
 
 
@@ -60,7 +74,7 @@ export const saveDataForPhp = {
             .replace(/: /g, ' => ')
             .replace(/\{/g, '[')
             .replace(/"/g, "'")
-            .replace(/\}/g, ']')
+            .replace(/}/g, ']')
             .replace(/__ESCAPED_DOUBLE_QUOTE__/g, '"') + ';' + "\n";
 
         return buildData;

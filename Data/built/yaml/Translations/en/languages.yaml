@@ -2485,9 +2485,7 @@ chr:
 cht:
   name: Cholón
 chu:
-  name: >-
-    Church Slavic, Church Slavonic, Old Bulgarian, Old Church Slavonic, Old
-    Slavonic
+  name: Church Slavic, Church Slavonic, Old Bulgarian, Old Church Slavonic, Old Slavonic
 chv:
   name: Chuvash
 chw:
@@ -3933,9 +3931,7 @@ fse:
 fsl:
   name: French Sign Language
 fss:
-  name: >-
-    finlandssvenskt teckenspråk, Finland-Swedish Sign Language,
-    suomenruotsalainen viittomakieli
+  name: finlandssvenskt teckenspråk, Finland-Swedish Sign Language, suomenruotsalainen viittomakieli
 fub:
   name: Adamawa Fulfulde
 fuc:
@@ -7535,9 +7531,7 @@ lst:
 lsv:
   name: Sivia Sign Language
 lsw:
-  name: >-
-    Lalang Siny Seselwa, Langue des Signes Seychelloise, Seychelles Sign
-    Language
+  name: Lalang Siny Seselwa, Langue des Signes Seychelloise, Seychelles Sign Language
 lsy:
   name: Mauritian Sign Language
 ltc:
@@ -15847,8 +15841,6 @@ zyn:
 zyp:
   name: Zyphe Chin
 zza:
-  name: >-
-    Dimili, Dimli (macrolanguage), Kirdki, Kirmanjki (macrolanguage), Zaza,
-    Zazaki
+  name: Dimili, Dimli (macrolanguage), Kirdki, Kirmanjki (macrolanguage), Zaza, Zazaki
 zzj:
   name: Zuojiang Zhuang

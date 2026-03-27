@@ -22,7 +22,9 @@ return [
     [
         'code' => 'Adlm',
         'numeric' => '166',
-        'writingDirection' => 'rtl',
+        'writingDirection' => [
+            'code' => 'rtl'
+        ],
         'unicode' => [
             'version' => '9.0',
             'ranges' => [
@@ -52,7 +54,9 @@ return [
     [
         'code' => 'Afak',
         'numeric' => '439',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [],
@@ -62,7 +66,9 @@ return [
     [
         'code' => 'Aghb',
         'numeric' => '239',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '7.0',
             'ranges' => [
@@ -80,7 +86,9 @@ return [
     [
         'code' => 'Ahom',
         'numeric' => '338',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '8.0',
             'ranges' => [
@@ -138,7 +146,9 @@ return [
     [
         'code' => 'Arab',
         'numeric' => '160',
-        'writingDirection' => 'rtl',
+        'writingDirection' => [
+            'code' => 'rtl'
+        ],
         'unicode' => [
             'version' => '1.1',
             'ranges' => [
@@ -477,7 +487,9 @@ return [
     [
         'code' => 'Aran',
         'numeric' => '161',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => '1.1',
             'ranges' => [],
@@ -487,7 +499,9 @@ return [
     [
         'code' => 'Armi',
         'numeric' => '124',
-        'writingDirection' => 'rtl',
+        'writingDirection' => [
+            'code' => 'rtl'
+        ],
         'unicode' => [
             'version' => '5.2',
             'ranges' => [
@@ -509,7 +523,9 @@ return [
     [
         'code' => 'Armn',
         'numeric' => '230',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '1.1',
             'ranges' => [
@@ -552,7 +568,9 @@ return [
     [
         'code' => 'Avst',
         'numeric' => '134',
-        'writingDirection' => 'rtl',
+        'writingDirection' => [
+            'code' => 'rtl'
+        ],
         'unicode' => [
             'version' => '5.2',
             'ranges' => [
@@ -571,7 +589,9 @@ return [
     [
         'code' => 'Bali',
         'numeric' => '360',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '5.0',
             'ranges' => [
@@ -652,7 +672,9 @@ return [
     [
         'code' => 'Bamu',
         'numeric' => '435',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '5.2',
             'ranges' => [
@@ -683,7 +705,9 @@ return [
     [
         'code' => 'Bass',
         'numeric' => '259',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '7.0',
             'ranges' => [
@@ -705,7 +729,9 @@ return [
     [
         'code' => 'Batk',
         'numeric' => '365',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '6.0',
             'ranges' => [
@@ -752,7 +778,9 @@ return [
     [
         'code' => 'Beng',
         'numeric' => '325',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '1.1',
             'ranges' => [
@@ -870,7 +898,9 @@ return [
     [
         'code' => 'Berf',
         'numeric' => '258',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [],
@@ -880,7 +910,9 @@ return [
     [
         'code' => 'Bhks',
         'numeric' => '334',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '9.0',
             'ranges' => [
@@ -931,7 +963,9 @@ return [
     [
         'code' => 'Blis',
         'numeric' => '550',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [],
@@ -941,7 +975,9 @@ return [
     [
         'code' => 'Bopo',
         'numeric' => '285',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '1.1',
             'ranges' => [
@@ -964,7 +1000,9 @@ return [
     [
         'code' => 'Brah',
         'numeric' => '300',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '6.0',
             'ranges' => [
@@ -1021,7 +1059,9 @@ return [
     [
         'code' => 'Brai',
         'numeric' => '570',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => '3.0',
             'ranges' => [
@@ -1036,7 +1076,9 @@ return [
     [
         'code' => 'Bugi',
         'numeric' => '367',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '4.1',
             'ranges' => [
@@ -1066,7 +1108,9 @@ return [
     [
         'code' => 'Buhd',
         'numeric' => '372',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '3.2',
             'ranges' => [
@@ -1085,7 +1129,9 @@ return [
     [
         'code' => 'Cakm',
         'numeric' => '349',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '6.1',
             'ranges' => [
@@ -1133,7 +1179,9 @@ return [
     [
         'code' => 'Cans',
         'numeric' => '440',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '3.0',
             'ranges' => [
@@ -1169,7 +1217,9 @@ return [
     [
         'code' => 'Cari',
         'numeric' => '201',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '5.1',
             'ranges' => [
@@ -1184,7 +1234,9 @@ return [
     [
         'code' => 'Cham',
         'numeric' => '358',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '5.1',
             'ranges' => [
@@ -1244,7 +1296,9 @@ return [
     [
         'code' => 'Cher',
         'numeric' => '445',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '3.0',
             'ranges' => [
@@ -1267,7 +1321,9 @@ return [
     [
         'code' => 'Chis',
         'numeric' => '298',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [],
@@ -1277,7 +1333,9 @@ return [
     [
         'code' => 'Chrs',
         'numeric' => '109',
-        'writingDirection' => 'rtl',
+        'writingDirection' => [
+            'code' => 'rtl'
+        ],
         'unicode' => [
             'version' => '13.0',
             'ranges' => [
@@ -1296,7 +1354,9 @@ return [
     [
         'code' => 'Cirt',
         'numeric' => '291',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [],
@@ -1306,7 +1366,9 @@ return [
     [
         'code' => 'Copt',
         'numeric' => '204',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '4.1',
             'ranges' => [
@@ -1352,7 +1414,9 @@ return [
     [
         'code' => 'Cpmn',
         'numeric' => '402',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '14.0',
             'ranges' => [
@@ -1371,7 +1435,9 @@ return [
     [
         'code' => 'Cprt',
         'numeric' => '403',
-        'writingDirection' => 'rtl',
+        'writingDirection' => [
+            'code' => 'rtl'
+        ],
         'unicode' => [
             'version' => '4.0',
             'ranges' => [
@@ -1403,7 +1469,9 @@ return [
     [
         'code' => 'Cyrl',
         'numeric' => '220',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '1.1',
             'ranges' => [
@@ -1500,7 +1568,9 @@ return [
     [
         'code' => 'Cyrs',
         'numeric' => '221',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => '1.1',
             'ranges' => [],
@@ -1510,7 +1580,9 @@ return [
     [
         'code' => 'Deva',
         'numeric' => '315',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '1.1',
             'ranges' => [
@@ -1621,7 +1693,9 @@ return [
     [
         'code' => 'Diak',
         'numeric' => '342',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '13.0',
             'ranges' => [
@@ -1692,7 +1766,9 @@ return [
     [
         'code' => 'Dogr',
         'numeric' => '328',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '11.0',
             'ranges' => [
@@ -1725,7 +1801,9 @@ return [
     [
         'code' => 'Dsrt',
         'numeric' => '250',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '3.1',
             'ranges' => [
@@ -1740,7 +1818,9 @@ return [
     [
         'code' => 'Dupl',
         'numeric' => '755',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '7.0',
             'ranges' => [
@@ -1777,7 +1857,9 @@ return [
     [
         'code' => 'Egyd',
         'numeric' => '070',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [],
@@ -1787,7 +1869,9 @@ return [
     [
         'code' => 'Egyh',
         'numeric' => '060',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => '5.2',
             'ranges' => [],
@@ -1797,7 +1881,9 @@ return [
     [
         'code' => 'Egyp',
         'numeric' => '050',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '5.2',
             'ranges' => [
@@ -1831,7 +1917,9 @@ return [
     [
         'code' => 'Elba',
         'numeric' => '226',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '7.0',
             'ranges' => [
@@ -1846,7 +1934,9 @@ return [
     [
         'code' => 'Elym',
         'numeric' => '128',
-        'writingDirection' => 'rtl',
+        'writingDirection' => [
+            'code' => 'rtl'
+        ],
         'unicode' => [
             'version' => '12.0',
             'ranges' => [
@@ -1861,7 +1951,9 @@ return [
     [
         'code' => 'Ethi',
         'numeric' => '430',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '3.0',
             'ranges' => [
@@ -2026,7 +2118,9 @@ return [
     [
         'code' => 'Gara',
         'numeric' => '164',
-        'writingDirection' => 'rtl',
+        'writingDirection' => [
+            'code' => 'rtl'
+        ],
         'unicode' => [
             'version' => '16.0',
             'ranges' => [
@@ -2073,7 +2167,9 @@ return [
     [
         'code' => 'Geok',
         'numeric' => '241',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => '1.1',
             'ranges' => [
@@ -2123,7 +2219,9 @@ return [
     [
         'code' => 'Geor',
         'numeric' => '240',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '1.1',
             'ranges' => [
@@ -2173,7 +2271,9 @@ return [
     [
         'code' => 'Glag',
         'numeric' => '225',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '4.1',
             'ranges' => [
@@ -2208,7 +2308,9 @@ return [
     [
         'code' => 'Gong',
         'numeric' => '312',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '11.0',
             'ranges' => [
@@ -2259,7 +2361,9 @@ return [
     [
         'code' => 'Gonm',
         'numeric' => '313',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '10.0',
             'ranges' => [
@@ -2307,7 +2411,9 @@ return [
     [
         'code' => 'Goth',
         'numeric' => '206',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '3.1',
             'ranges' => [
@@ -2332,7 +2438,9 @@ return [
     [
         'code' => 'Gran',
         'numeric' => '343',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '7.0',
             'ranges' => [
@@ -2422,7 +2530,9 @@ return [
     [
         'code' => 'Grek',
         'numeric' => '200',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '1.1',
             'ranges' => [
@@ -2636,7 +2746,9 @@ return [
     [
         'code' => 'Gujr',
         'numeric' => '320',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '1.1',
             'ranges' => [
@@ -2734,7 +2846,9 @@ return [
     [
         'code' => 'Gukh',
         'numeric' => '397',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '16.0',
             'ranges' => [
@@ -2765,7 +2879,9 @@ return [
     [
         'code' => 'Guru',
         'numeric' => '310',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '1.1',
             'ranges' => [
@@ -2858,7 +2974,9 @@ return [
     [
         'code' => 'Hanb',
         'numeric' => '503',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '1.1',
             'ranges' => [],
@@ -2868,7 +2986,9 @@ return [
     [
         'code' => 'Hang',
         'numeric' => '286',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '1.1',
             'ranges' => [
@@ -2935,7 +3055,9 @@ return [
     [
         'code' => 'Hani',
         'numeric' => '500',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '1.1',
             'ranges' => [
@@ -3037,7 +3159,9 @@ return [
     [
         'code' => 'Hano',
         'numeric' => '371',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '3.2',
             'ranges' => [
@@ -3059,7 +3183,9 @@ return [
     [
         'code' => 'Hans',
         'numeric' => '501',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '1.1',
             'ranges' => [],
@@ -3069,7 +3195,9 @@ return [
     [
         'code' => 'Hant',
         'numeric' => '502',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '1.1',
             'ranges' => [],
@@ -3079,7 +3207,9 @@ return [
     [
         'code' => 'Hatr',
         'numeric' => '127',
-        'writingDirection' => 'rtl',
+        'writingDirection' => [
+            'code' => 'rtl'
+        ],
         'unicode' => [
             'version' => '8.0',
             'ranges' => [
@@ -3102,7 +3232,9 @@ return [
     [
         'code' => 'Hebr',
         'numeric' => '125',
-        'writingDirection' => 'rtl',
+        'writingDirection' => [
+            'code' => 'rtl'
+        ],
         'unicode' => [
             'version' => '1.1',
             'ranges' => [
@@ -3191,7 +3323,9 @@ return [
     [
         'code' => 'Hira',
         'numeric' => '410',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '1.1',
             'ranges' => [
@@ -3227,7 +3361,9 @@ return [
     [
         'code' => 'Hluw',
         'numeric' => '080',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '8.0',
             'ranges' => [
@@ -3242,7 +3378,9 @@ return [
     [
         'code' => 'Hmng',
         'numeric' => '450',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '7.0',
             'ranges' => [
@@ -3295,7 +3433,9 @@ return [
     [
         'code' => 'Hmnp',
         'numeric' => '451',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '12.0',
             'ranges' => [
@@ -3328,7 +3468,9 @@ return [
     [
         'code' => 'Hntl',
         'numeric' => '504',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [],
@@ -3338,7 +3480,9 @@ return [
     [
         'code' => 'Hrkt',
         'numeric' => '412',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => '1.1',
             'ranges' => [],
@@ -3348,7 +3492,9 @@ return [
     [
         'code' => 'Hung',
         'numeric' => '176',
-        'writingDirection' => 'rtl',
+        'writingDirection' => [
+            'code' => 'rtl'
+        ],
         'unicode' => [
             'version' => '8.0',
             'ranges' => [
@@ -3371,7 +3517,9 @@ return [
     [
         'code' => 'Inds',
         'numeric' => '610',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [],
@@ -3381,7 +3529,9 @@ return [
     [
         'code' => 'Ital',
         'numeric' => '210',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '3.1',
             'ranges' => [
@@ -3404,7 +3554,9 @@ return [
     [
         'code' => 'Jamo',
         'numeric' => '284',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '1.1',
             'ranges' => [],
@@ -3414,7 +3566,9 @@ return [
     [
         'code' => 'Java',
         'numeric' => '361',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '5.2',
             'ranges' => [
@@ -3471,7 +3625,9 @@ return [
     [
         'code' => 'Jpan',
         'numeric' => '413',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '1.1',
             'ranges' => [],
@@ -3481,7 +3637,9 @@ return [
     [
         'code' => 'Jurc',
         'numeric' => '510',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [],
@@ -3491,7 +3649,9 @@ return [
     [
         'code' => 'Kali',
         'numeric' => '357',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '5.1',
             'ranges' => [
@@ -3517,7 +3677,9 @@ return [
     [
         'code' => 'Kana',
         'numeric' => '411',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '1.1',
             'ranges' => [
@@ -3585,7 +3747,9 @@ return [
     [
         'code' => 'Kawi',
         'numeric' => '368',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '15.0',
             'ranges' => [
@@ -3646,7 +3810,9 @@ return [
     [
         'code' => 'Khar',
         'numeric' => '305',
-        'writingDirection' => 'rtl',
+        'writingDirection' => [
+            'code' => 'rtl'
+        ],
         'unicode' => [
             'version' => '4.1',
             'ranges' => [
@@ -3699,7 +3865,9 @@ return [
     [
         'code' => 'Khmr',
         'numeric' => '355',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '3.0',
             'ranges' => [
@@ -3772,7 +3940,9 @@ return [
     [
         'code' => 'Khoj',
         'numeric' => '322',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '7.0',
             'ranges' => [
@@ -3827,7 +3997,9 @@ return [
     [
         'code' => 'Kitl',
         'numeric' => '505',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [],
@@ -3837,7 +4009,9 @@ return [
     [
         'code' => 'Kits',
         'numeric' => '288',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '13.0',
             'ranges' => [
@@ -3858,7 +4032,9 @@ return [
     [
         'code' => 'Knda',
         'numeric' => '345',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '1.1',
             'ranges' => [
@@ -3960,7 +4136,9 @@ return [
     [
         'code' => 'Kore',
         'numeric' => '287',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '1.1',
             'ranges' => [],
@@ -3970,7 +4148,9 @@ return [
     [
         'code' => 'Kpel',
         'numeric' => '436',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [],
@@ -3980,7 +4160,9 @@ return [
     [
         'code' => 'Krai',
         'numeric' => '396',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '16.0',
             'ranges' => [
@@ -4011,7 +4193,9 @@ return [
     [
         'code' => 'Kthi',
         'numeric' => '317',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '5.2',
             'ranges' => [
@@ -4066,7 +4250,9 @@ return [
     [
         'code' => 'Lana',
         'numeric' => '351',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '5.2',
             'ranges' => [
@@ -4141,7 +4327,9 @@ return [
     [
         'code' => 'Laoo',
         'numeric' => '356',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '1.1',
             'ranges' => [
@@ -4207,7 +4395,9 @@ return [
     [
         'code' => 'Latf',
         'numeric' => '217',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => '1.1',
             'ranges' => [],
@@ -4217,7 +4407,9 @@ return [
     [
         'code' => 'Latg',
         'numeric' => '216',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => '1.1',
             'ranges' => [],
@@ -4227,7 +4419,9 @@ return [
     [
         'code' => 'Latn',
         'numeric' => '215',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '1.1',
             'ranges' => [
@@ -4479,7 +4673,9 @@ return [
     [
         'code' => 'Leke',
         'numeric' => '364',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [],
@@ -4489,7 +4685,9 @@ return [
     [
         'code' => 'Lepc',
         'numeric' => '335',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '5.1',
             'ranges' => [
@@ -4532,7 +4730,9 @@ return [
     [
         'code' => 'Limb',
         'numeric' => '336',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '4.0',
             'ranges' => [
@@ -4589,7 +4789,9 @@ return [
     [
         'code' => 'Lina',
         'numeric' => '400',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '7.0',
             'ranges' => [
@@ -4612,7 +4814,9 @@ return [
     [
         'code' => 'Linb',
         'numeric' => '401',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '4.0',
             'ranges' => [
@@ -4651,7 +4855,9 @@ return [
     [
         'code' => 'Lisu',
         'numeric' => '399',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '5.2',
             'ranges' => [
@@ -4677,7 +4883,9 @@ return [
     [
         'code' => 'Loma',
         'numeric' => '437',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [],
@@ -4687,7 +4895,9 @@ return [
     [
         'code' => 'Lyci',
         'numeric' => '202',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '5.1',
             'ranges' => [
@@ -4702,7 +4912,9 @@ return [
     [
         'code' => 'Lydi',
         'numeric' => '116',
-        'writingDirection' => 'rtl',
+        'writingDirection' => [
+            'code' => 'rtl'
+        ],
         'unicode' => [
             'version' => '5.1',
             'ranges' => [
@@ -4720,7 +4932,9 @@ return [
     [
         'code' => 'Mahj',
         'numeric' => '314',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '7.0',
             'ranges' => [
@@ -4745,7 +4959,9 @@ return [
     [
         'code' => 'Maka',
         'numeric' => '366',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '11.0',
             'ranges' => [
@@ -4772,7 +4988,9 @@ return [
     [
         'code' => 'Mand',
         'numeric' => '140',
-        'writingDirection' => 'rtl',
+        'writingDirection' => [
+            'code' => 'rtl'
+        ],
         'unicode' => [
             'version' => '6.0',
             'ranges' => [
@@ -4794,7 +5012,9 @@ return [
     [
         'code' => 'Mani',
         'numeric' => '139',
-        'writingDirection' => 'rtl',
+        'writingDirection' => [
+            'code' => 'rtl'
+        ],
         'unicode' => [
             'version' => '7.0',
             'ranges' => [
@@ -4828,7 +5048,9 @@ return [
     [
         'code' => 'Marc',
         'numeric' => '332',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '9.0',
             'ranges' => [
@@ -4872,7 +5094,9 @@ return [
     [
         'code' => 'Maya',
         'numeric' => '090',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [],
@@ -4882,7 +5106,9 @@ return [
     [
         'code' => 'Medf',
         'numeric' => '265',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '11.0',
             'ranges' => [
@@ -4905,7 +5131,9 @@ return [
     [
         'code' => 'Mend',
         'numeric' => '438',
-        'writingDirection' => 'rtl',
+        'writingDirection' => [
+            'code' => 'rtl'
+        ],
         'unicode' => [
             'version' => '7.0',
             'ranges' => [
@@ -4928,7 +5156,9 @@ return [
     [
         'code' => 'Merc',
         'numeric' => '101',
-        'writingDirection' => 'rtl',
+        'writingDirection' => [
+            'code' => 'rtl'
+        ],
         'unicode' => [
             'version' => '6.1',
             'ranges' => [
@@ -4959,7 +5189,9 @@ return [
     [
         'code' => 'Mero',
         'numeric' => '100',
-        'writingDirection' => 'rtl',
+        'writingDirection' => [
+            'code' => 'rtl'
+        ],
         'unicode' => [
             'version' => '6.1',
             'ranges' => [
@@ -4974,7 +5206,9 @@ return [
     [
         'code' => 'Mlym',
         'numeric' => '347',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '1.1',
             'ranges' => [
@@ -5071,7 +5305,9 @@ return [
     [
         'code' => 'Modi',
         'numeric' => '324',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '7.0',
             'ranges' => [
@@ -5119,7 +5355,9 @@ return [
     [
         'code' => 'Mong',
         'numeric' => '145',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '3.0',
             'ranges' => [
@@ -5191,7 +5429,9 @@ return [
     [
         'code' => 'Moon',
         'numeric' => '218',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [],
@@ -5201,7 +5441,9 @@ return [
     [
         'code' => 'Mroo',
         'numeric' => '264',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '7.0',
             'ranges' => [
@@ -5224,7 +5466,9 @@ return [
     [
         'code' => 'Mtei',
         'numeric' => '337',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '5.2',
             'ranges' => [
@@ -5302,7 +5546,9 @@ return [
     [
         'code' => 'Mult',
         'numeric' => '323',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '8.0',
             'ranges' => [
@@ -5335,7 +5581,9 @@ return [
     [
         'code' => 'Mymr',
         'numeric' => '350',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '3.0',
             'ranges' => [
@@ -5534,7 +5782,9 @@ return [
     [
         'code' => 'Nagm',
         'numeric' => '295',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '15.0',
             'ranges' => [
@@ -5560,7 +5810,9 @@ return [
     [
         'code' => 'Nand',
         'numeric' => '311',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '12.0',
             'ranges' => [
@@ -5610,7 +5862,9 @@ return [
     [
         'code' => 'Narb',
         'numeric' => '106',
-        'writingDirection' => 'rtl',
+        'writingDirection' => [
+            'code' => 'rtl'
+        ],
         'unicode' => [
             'version' => '7.0',
             'ranges' => [
@@ -5629,7 +5883,9 @@ return [
     [
         'code' => 'Nbat',
         'numeric' => '159',
-        'writingDirection' => 'rtl',
+        'writingDirection' => [
+            'code' => 'rtl'
+        ],
         'unicode' => [
             'version' => '7.0',
             'ranges' => [
@@ -5648,7 +5904,9 @@ return [
     [
         'code' => 'Newa',
         'numeric' => '333',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '9.0',
             'ranges' => [
@@ -5711,7 +5969,9 @@ return [
     [
         'code' => 'Nkdb',
         'numeric' => '085',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [],
@@ -5721,7 +5981,9 @@ return [
     [
         'code' => 'Nkgb',
         'numeric' => '420',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [],
@@ -5731,7 +5993,9 @@ return [
     [
         'code' => 'Nkoo',
         'numeric' => '165',
-        'writingDirection' => 'rtl',
+        'writingDirection' => [
+            'code' => 'rtl'
+        ],
         'unicode' => [
             'version' => '5.0',
             'ranges' => [
@@ -5775,7 +6039,9 @@ return [
     [
         'code' => 'Nshu',
         'numeric' => '499',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '10.0',
             'ranges' => [
@@ -5793,7 +6059,9 @@ return [
     [
         'code' => 'Ogam',
         'numeric' => '212',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '3.0',
             'ranges' => [
@@ -5817,7 +6085,9 @@ return [
     [
         'code' => 'Olck',
         'numeric' => '261',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '5.1',
             'ranges' => [
@@ -5844,7 +6114,9 @@ return [
     [
         'code' => 'Onao',
         'numeric' => '296',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '16.0',
             'ranges' => [
@@ -5873,7 +6145,9 @@ return [
     [
         'code' => 'Orkh',
         'numeric' => '175',
-        'writingDirection' => 'rtl',
+        'writingDirection' => [
+            'code' => 'rtl'
+        ],
         'unicode' => [
             'version' => '5.2',
             'ranges' => [
@@ -5888,7 +6162,9 @@ return [
     [
         'code' => 'Orya',
         'numeric' => '327',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '1.1',
             'ranges' => [
@@ -5993,7 +6269,9 @@ return [
     [
         'code' => 'Osge',
         'numeric' => '219',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '9.0',
             'ranges' => [
@@ -6012,7 +6290,9 @@ return [
     [
         'code' => 'Osma',
         'numeric' => '260',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '4.0',
             'ranges' => [
@@ -6031,7 +6311,9 @@ return [
     [
         'code' => 'Ougr',
         'numeric' => '143',
-        'writingDirection' => 'rtl',
+        'writingDirection' => [
+            'code' => 'rtl'
+        ],
         'unicode' => [
             'version' => '14.0',
             'ranges' => [
@@ -6054,7 +6336,9 @@ return [
     [
         'code' => 'Palm',
         'numeric' => '126',
-        'writingDirection' => 'rtl',
+        'writingDirection' => [
+            'code' => 'rtl'
+        ],
         'unicode' => [
             'version' => '7.0',
             'ranges' => [
@@ -6077,7 +6361,9 @@ return [
     [
         'code' => 'Pauc',
         'numeric' => '263',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '7.0',
             'ranges' => [
@@ -6092,7 +6378,9 @@ return [
     [
         'code' => 'Pcun',
         'numeric' => '015',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [],
@@ -6102,7 +6390,9 @@ return [
     [
         'code' => 'Pelm',
         'numeric' => '016',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [],
@@ -6112,7 +6402,9 @@ return [
     [
         'code' => 'Perm',
         'numeric' => '227',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '7.0',
             'ranges' => [
@@ -6131,7 +6423,9 @@ return [
     [
         'code' => 'Phag',
         'numeric' => '331',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '5.0',
             'ranges' => [
@@ -6150,7 +6444,9 @@ return [
     [
         'code' => 'Phli',
         'numeric' => '131',
-        'writingDirection' => 'rtl',
+        'writingDirection' => [
+            'code' => 'rtl'
+        ],
         'unicode' => [
             'version' => '5.2',
             'ranges' => [
@@ -6169,7 +6465,9 @@ return [
     [
         'code' => 'Phlp',
         'numeric' => '132',
-        'writingDirection' => 'rtl',
+        'writingDirection' => [
+            'code' => 'rtl'
+        ],
         'unicode' => [
             'version' => '7.0',
             'ranges' => [
@@ -6192,7 +6490,9 @@ return [
     [
         'code' => 'Phlv',
         'numeric' => '133',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [],
@@ -6202,7 +6502,9 @@ return [
     [
         'code' => 'Phnx',
         'numeric' => '115',
-        'writingDirection' => 'rtl',
+        'writingDirection' => [
+            'code' => 'rtl'
+        ],
         'unicode' => [
             'version' => '5.0',
             'ranges' => [
@@ -6224,7 +6526,9 @@ return [
     [
         'code' => 'Piqd',
         'numeric' => '293',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [],
@@ -6234,7 +6538,9 @@ return [
     [
         'code' => 'Plrd',
         'numeric' => '282',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '6.1',
             'ranges' => [
@@ -6267,7 +6573,9 @@ return [
     [
         'code' => 'Prti',
         'numeric' => '130',
-        'writingDirection' => 'rtl',
+        'writingDirection' => [
+            'code' => 'rtl'
+        ],
         'unicode' => [
             'version' => '5.2',
             'ranges' => [
@@ -6286,7 +6594,9 @@ return [
     [
         'code' => 'Psin',
         'numeric' => '103',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [],
@@ -6296,7 +6606,9 @@ return [
     [
         'code' => 'Qaaa',
         'numeric' => '900',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [],
@@ -6306,7 +6618,9 @@ return [
     [
         'code' => 'Qabx',
         'numeric' => '949',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [],
@@ -6316,7 +6630,9 @@ return [
     [
         'code' => 'Ranj',
         'numeric' => '303',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [],
@@ -6326,7 +6642,9 @@ return [
     [
         'code' => 'Rjng',
         'numeric' => '363',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '5.1',
             'ranges' => [
@@ -6352,7 +6670,9 @@ return [
     [
         'code' => 'Rohg',
         'numeric' => '167',
-        'writingDirection' => 'rtl',
+        'writingDirection' => [
+            'code' => 'rtl'
+        ],
         'unicode' => [
             'version' => '11.0',
             'ranges' => [
@@ -6375,7 +6695,9 @@ return [
     [
         'code' => 'Roro',
         'numeric' => '620',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [],
@@ -6385,7 +6707,9 @@ return [
     [
         'code' => 'Runr',
         'numeric' => '211',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '3.0',
             'ranges' => [
@@ -6408,7 +6732,9 @@ return [
     [
         'code' => 'Samr',
         'numeric' => '123',
-        'writingDirection' => 'rtl',
+        'writingDirection' => [
+            'code' => 'rtl'
+        ],
         'unicode' => [
             'version' => '5.2',
             'ranges' => [
@@ -6452,7 +6778,9 @@ return [
     [
         'code' => 'Sara',
         'numeric' => '292',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [],
@@ -6462,7 +6790,9 @@ return [
     [
         'code' => 'Sarb',
         'numeric' => '105',
-        'writingDirection' => 'rtl',
+        'writingDirection' => [
+            'code' => 'rtl'
+        ],
         'unicode' => [
             'version' => '5.2',
             'ranges' => [
@@ -6484,7 +6814,9 @@ return [
     [
         'code' => 'Saur',
         'numeric' => '344',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '5.1',
             'ranges' => [
@@ -6519,7 +6851,9 @@ return [
     [
         'code' => 'Seal',
         'numeric' => '590',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [],
@@ -6529,7 +6863,9 @@ return [
     [
         'code' => 'Sgnw',
         'numeric' => '095',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '8.0',
             'ranges' => [
@@ -6586,7 +6922,9 @@ return [
     [
         'code' => 'Shaw',
         'numeric' => '281',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '4.0',
             'ranges' => [
@@ -6601,7 +6939,9 @@ return [
     [
         'code' => 'Shrd',
         'numeric' => '319',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '6.1',
             'ranges' => [
@@ -6673,7 +7013,9 @@ return [
     [
         'code' => 'Shui',
         'numeric' => '530',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [],
@@ -6683,7 +7025,9 @@ return [
     [
         'code' => 'Sidd',
         'numeric' => '302',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '7.0',
             'ranges' => [
@@ -6733,7 +7077,9 @@ return [
     [
         'code' => 'Sidt',
         'numeric' => '180',
-        'writingDirection' => 'rtl',
+        'writingDirection' => [
+            'code' => 'rtl'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [],
@@ -6743,7 +7089,9 @@ return [
     [
         'code' => 'Sind',
         'numeric' => '318',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '7.0',
             'ranges' => [
@@ -6773,7 +7121,9 @@ return [
     [
         'code' => 'Sinh',
         'numeric' => '348',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '3.0',
             'ranges' => [
@@ -6843,7 +7193,9 @@ return [
     [
         'code' => 'Sogd',
         'numeric' => '141',
-        'writingDirection' => 'rtl',
+        'writingDirection' => [
+            'code' => 'rtl'
+        ],
         'unicode' => [
             'version' => '11.0',
             'ranges' => [
@@ -6870,7 +7222,9 @@ return [
     [
         'code' => 'Sogo',
         'numeric' => '142',
-        'writingDirection' => 'rtl',
+        'writingDirection' => [
+            'code' => 'rtl'
+        ],
         'unicode' => [
             'version' => '11.0',
             'ranges' => [
@@ -6892,7 +7246,9 @@ return [
     [
         'code' => 'Sora',
         'numeric' => '398',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '6.1',
             'ranges' => [
@@ -6911,7 +7267,9 @@ return [
     [
         'code' => 'Soyo',
         'numeric' => '329',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '10.0',
             'ranges' => [
@@ -6963,7 +7321,9 @@ return [
     [
         'code' => 'Sund',
         'numeric' => '362',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '5.1',
             'ranges' => [
@@ -7023,7 +7383,9 @@ return [
     [
         'code' => 'Sunu',
         'numeric' => '274',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '16.0',
             'ranges' => [
@@ -7045,7 +7407,9 @@ return [
     [
         'code' => 'Sylo',
         'numeric' => '316',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '4.1',
             'ranges' => [
@@ -7099,7 +7463,9 @@ return [
     [
         'code' => 'Syrc',
         'numeric' => '135',
-        'writingDirection' => 'rtl',
+        'writingDirection' => [
+            'code' => 'rtl'
+        ],
         'unicode' => [
             'version' => '3.0',
             'ranges' => [
@@ -7139,7 +7505,9 @@ return [
     [
         'code' => 'Syre',
         'numeric' => '138',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => '3.0',
             'ranges' => [],
@@ -7149,7 +7517,9 @@ return [
     [
         'code' => 'Syrj',
         'numeric' => '137',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => '3.0',
             'ranges' => [],
@@ -7159,7 +7529,9 @@ return [
     [
         'code' => 'Syrn',
         'numeric' => '136',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => '3.0',
             'ranges' => [],
@@ -7169,7 +7541,9 @@ return [
     [
         'code' => 'Tagb',
         'numeric' => '373',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '3.2',
             'ranges' => [
@@ -7192,7 +7566,9 @@ return [
     [
         'code' => 'Takr',
         'numeric' => '321',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '6.1',
             'ranges' => [
@@ -7240,7 +7616,9 @@ return [
     [
         'code' => 'Tale',
         'numeric' => '353',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '4.0',
             'ranges' => [
@@ -7259,7 +7637,9 @@ return [
     [
         'code' => 'Talu',
         'numeric' => '354',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '4.1',
             'ranges' => [
@@ -7289,7 +7669,9 @@ return [
     [
         'code' => 'Taml',
         'numeric' => '346',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '1.1',
             'ranges' => [
@@ -7406,7 +7788,9 @@ return [
     [
         'code' => 'Tang',
         'numeric' => '520',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '9.0',
             'ranges' => [
@@ -7432,7 +7816,9 @@ return [
     [
         'code' => 'Tavt',
         'numeric' => '359',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '5.2',
             'ranges' => [
@@ -7493,7 +7879,9 @@ return [
     [
         'code' => 'Tayo',
         'numeric' => '380',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [],
@@ -7503,7 +7891,9 @@ return [
     [
         'code' => 'Telu',
         'numeric' => '340',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '1.1',
             'ranges' => [
@@ -7595,7 +7985,9 @@ return [
     [
         'code' => 'Teng',
         'numeric' => '290',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [],
@@ -7605,7 +7997,9 @@ return [
     [
         'code' => 'Tfng',
         'numeric' => '120',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '4.1',
             'ranges' => [
@@ -7629,7 +8023,9 @@ return [
     [
         'code' => 'Tglg',
         'numeric' => '370',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '3.2',
             'ranges' => [
@@ -7654,7 +8050,9 @@ return [
     [
         'code' => 'Thaa',
         'numeric' => '170',
-        'writingDirection' => 'rtl',
+        'writingDirection' => [
+            'code' => 'rtl'
+        ],
         'unicode' => [
             'version' => '3.0',
             'ranges' => [
@@ -7676,7 +8074,9 @@ return [
     [
         'code' => 'Thai',
         'numeric' => '352',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '1.1',
             'ranges' => [
@@ -7724,7 +8124,9 @@ return [
     [
         'code' => 'Tibt',
         'numeric' => '330',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '2.0',
             'ranges' => [
@@ -7867,7 +8269,9 @@ return [
     [
         'code' => 'Tirh',
         'numeric' => '326',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '7.0',
             'ranges' => [
@@ -7925,7 +8329,9 @@ return [
     [
         'code' => 'Tnsa',
         'numeric' => '275',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '14.0',
             'ranges' => [
@@ -7944,7 +8350,9 @@ return [
     [
         'code' => 'Todr',
         'numeric' => '229',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '16.0',
             'ranges' => [
@@ -7959,7 +8367,9 @@ return [
     [
         'code' => 'Tols',
         'numeric' => '299',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [],
@@ -7969,7 +8379,9 @@ return [
     [
         'code' => 'Toto',
         'numeric' => '294',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '14.0',
             'ranges' => [
@@ -7987,7 +8399,9 @@ return [
     [
         'code' => 'Tutg',
         'numeric' => '341',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '16.0',
             'ranges' => [
@@ -8067,7 +8481,9 @@ return [
     [
         'code' => 'Ugar',
         'numeric' => '040',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '4.0',
             'ranges' => [
@@ -8085,7 +8501,9 @@ return [
     [
         'code' => 'Vaii',
         'numeric' => '470',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '5.1',
             'ranges' => [
@@ -8119,7 +8537,9 @@ return [
     [
         'code' => 'Visp',
         'numeric' => '280',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [],
@@ -8129,7 +8549,9 @@ return [
     [
         'code' => 'Vith',
         'numeric' => '228',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '14.0',
             'ranges' => [
@@ -8172,7 +8594,9 @@ return [
     [
         'code' => 'Wara',
         'numeric' => '262',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '7.0',
             'ranges' => [
@@ -8198,7 +8622,9 @@ return [
     [
         'code' => 'Wcho',
         'numeric' => '283',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '12.0',
             'ranges' => [
@@ -8224,7 +8650,9 @@ return [
     [
         'code' => 'Wole',
         'numeric' => '480',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [],
@@ -8234,7 +8662,9 @@ return [
     [
         'code' => 'Xpeo',
         'numeric' => '030',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '4.1',
             'ranges' => [
@@ -8260,7 +8690,9 @@ return [
     [
         'code' => 'Xsux',
         'numeric' => '020',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '5.0',
             'ranges' => [
@@ -8287,7 +8719,9 @@ return [
     [
         'code' => 'Yezi',
         'numeric' => '192',
-        'writingDirection' => 'rtl',
+        'writingDirection' => [
+            'code' => 'rtl'
+        ],
         'unicode' => [
             'version' => '13.0',
             'ranges' => [
@@ -8313,7 +8747,9 @@ return [
     [
         'code' => 'Yiii',
         'numeric' => '460',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '3.0',
             'ranges' => [
@@ -8339,7 +8775,9 @@ return [
     [
         'code' => 'Zanb',
         'numeric' => '339',
-        'writingDirection' => 'ltr',
+        'writingDirection' => [
+            'code' => 'ltr'
+        ],
         'unicode' => [
             'version' => '10.0',
             'ranges' => [
@@ -8382,7 +8820,9 @@ return [
     [
         'code' => 'Zinh',
         'numeric' => '994',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [
@@ -8525,7 +8965,9 @@ return [
     [
         'code' => 'Zmth',
         'numeric' => '995',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => '3.2',
             'ranges' => [],
@@ -8535,7 +8977,9 @@ return [
     [
         'code' => 'Zsye',
         'numeric' => '993',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => '6.0',
             'ranges' => [],
@@ -8545,7 +8989,9 @@ return [
     [
         'code' => 'Zsym',
         'numeric' => '996',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => '1.1',
             'ranges' => [],
@@ -8555,7 +9001,9 @@ return [
     [
         'code' => 'Zxxx',
         'numeric' => '997',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [],
@@ -8565,7 +9013,9 @@ return [
     [
         'code' => 'Zyyy',
         'numeric' => '998',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [
@@ -10679,7 +11129,9 @@ return [
     [
         'code' => 'Zzzz',
         'numeric' => '999',
-        'writingDirection' => null,
+        'writingDirection' => [
+            'code' => 'nla'
+        ],
         'unicode' => [
             'version' => null,
             'ranges' => [],

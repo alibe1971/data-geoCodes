@@ -23,7 +23,9 @@ export const scripts = [
     {
         code: "Adlm",
         numeric: "166",
-        writingDirection: "rtl",
+        writingDirection: {
+            code: "rtl"
+        },
         unicode: {
             version: "9.0",
             ranges: [
@@ -53,7 +55,9 @@ export const scripts = [
     {
         code: "Afak",
         numeric: "439",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: null,
             ranges: [],
@@ -63,7 +67,9 @@ export const scripts = [
     {
         code: "Aghb",
         numeric: "239",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "7.0",
             ranges: [
@@ -81,7 +87,9 @@ export const scripts = [
     {
         code: "Ahom",
         numeric: "338",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "8.0",
             ranges: [
@@ -139,7 +147,9 @@ export const scripts = [
     {
         code: "Arab",
         numeric: "160",
-        writingDirection: "rtl",
+        writingDirection: {
+            code: "rtl"
+        },
         unicode: {
             version: "1.1",
             ranges: [
@@ -478,7 +488,9 @@ export const scripts = [
     {
         code: "Aran",
         numeric: "161",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: "1.1",
             ranges: [],
@@ -488,7 +500,9 @@ export const scripts = [
     {
         code: "Armi",
         numeric: "124",
-        writingDirection: "rtl",
+        writingDirection: {
+            code: "rtl"
+        },
         unicode: {
             version: "5.2",
             ranges: [
@@ -510,7 +524,9 @@ export const scripts = [
     {
         code: "Armn",
         numeric: "230",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "1.1",
             ranges: [
@@ -553,7 +569,9 @@ export const scripts = [
     {
         code: "Avst",
         numeric: "134",
-        writingDirection: "rtl",
+        writingDirection: {
+            code: "rtl"
+        },
         unicode: {
             version: "5.2",
             ranges: [
@@ -572,7 +590,9 @@ export const scripts = [
     {
         code: "Bali",
         numeric: "360",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "5.0",
             ranges: [
@@ -653,7 +673,9 @@ export const scripts = [
     {
         code: "Bamu",
         numeric: "435",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "5.2",
             ranges: [
@@ -684,7 +706,9 @@ export const scripts = [
     {
         code: "Bass",
         numeric: "259",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "7.0",
             ranges: [
@@ -706,7 +730,9 @@ export const scripts = [
     {
         code: "Batk",
         numeric: "365",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "6.0",
             ranges: [
@@ -753,7 +779,9 @@ export const scripts = [
     {
         code: "Beng",
         numeric: "325",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "1.1",
             ranges: [
@@ -871,7 +899,9 @@ export const scripts = [
     {
         code: "Berf",
         numeric: "258",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: null,
             ranges: [],
@@ -881,7 +911,9 @@ export const scripts = [
     {
         code: "Bhks",
         numeric: "334",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "9.0",
             ranges: [
@@ -932,7 +964,9 @@ export const scripts = [
     {
         code: "Blis",
         numeric: "550",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: null,
             ranges: [],
@@ -942,7 +976,9 @@ export const scripts = [
     {
         code: "Bopo",
         numeric: "285",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "1.1",
             ranges: [
@@ -965,7 +1001,9 @@ export const scripts = [
     {
         code: "Brah",
         numeric: "300",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "6.0",
             ranges: [
@@ -1022,7 +1060,9 @@ export const scripts = [
     {
         code: "Brai",
         numeric: "570",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: "3.0",
             ranges: [
@@ -1037,7 +1077,9 @@ export const scripts = [
     {
         code: "Bugi",
         numeric: "367",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "4.1",
             ranges: [
@@ -1067,7 +1109,9 @@ export const scripts = [
     {
         code: "Buhd",
         numeric: "372",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "3.2",
             ranges: [
@@ -1086,7 +1130,9 @@ export const scripts = [
     {
         code: "Cakm",
         numeric: "349",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "6.1",
             ranges: [
@@ -1134,7 +1180,9 @@ export const scripts = [
     {
         code: "Cans",
         numeric: "440",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "3.0",
             ranges: [
@@ -1170,7 +1218,9 @@ export const scripts = [
     {
         code: "Cari",
         numeric: "201",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "5.1",
             ranges: [
@@ -1185,7 +1235,9 @@ export const scripts = [
     {
         code: "Cham",
         numeric: "358",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "5.1",
             ranges: [
@@ -1245,7 +1297,9 @@ export const scripts = [
     {
         code: "Cher",
         numeric: "445",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "3.0",
             ranges: [
@@ -1268,7 +1322,9 @@ export const scripts = [
     {
         code: "Chis",
         numeric: "298",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: null,
             ranges: [],
@@ -1278,7 +1334,9 @@ export const scripts = [
     {
         code: "Chrs",
         numeric: "109",
-        writingDirection: "rtl",
+        writingDirection: {
+            code: "rtl"
+        },
         unicode: {
             version: "13.0",
             ranges: [
@@ -1297,7 +1355,9 @@ export const scripts = [
     {
         code: "Cirt",
         numeric: "291",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: null,
             ranges: [],
@@ -1307,7 +1367,9 @@ export const scripts = [
     {
         code: "Copt",
         numeric: "204",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "4.1",
             ranges: [
@@ -1353,7 +1415,9 @@ export const scripts = [
     {
         code: "Cpmn",
         numeric: "402",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "14.0",
             ranges: [
@@ -1372,7 +1436,9 @@ export const scripts = [
     {
         code: "Cprt",
         numeric: "403",
-        writingDirection: "rtl",
+        writingDirection: {
+            code: "rtl"
+        },
         unicode: {
             version: "4.0",
             ranges: [
@@ -1404,7 +1470,9 @@ export const scripts = [
     {
         code: "Cyrl",
         numeric: "220",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "1.1",
             ranges: [
@@ -1501,7 +1569,9 @@ export const scripts = [
     {
         code: "Cyrs",
         numeric: "221",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: "1.1",
             ranges: [],
@@ -1511,7 +1581,9 @@ export const scripts = [
     {
         code: "Deva",
         numeric: "315",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "1.1",
             ranges: [
@@ -1622,7 +1694,9 @@ export const scripts = [
     {
         code: "Diak",
         numeric: "342",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "13.0",
             ranges: [
@@ -1693,7 +1767,9 @@ export const scripts = [
     {
         code: "Dogr",
         numeric: "328",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "11.0",
             ranges: [
@@ -1726,7 +1802,9 @@ export const scripts = [
     {
         code: "Dsrt",
         numeric: "250",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "3.1",
             ranges: [
@@ -1741,7 +1819,9 @@ export const scripts = [
     {
         code: "Dupl",
         numeric: "755",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "7.0",
             ranges: [
@@ -1778,7 +1858,9 @@ export const scripts = [
     {
         code: "Egyd",
         numeric: "070",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: null,
             ranges: [],
@@ -1788,7 +1870,9 @@ export const scripts = [
     {
         code: "Egyh",
         numeric: "060",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: "5.2",
             ranges: [],
@@ -1798,7 +1882,9 @@ export const scripts = [
     {
         code: "Egyp",
         numeric: "050",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "5.2",
             ranges: [
@@ -1832,7 +1918,9 @@ export const scripts = [
     {
         code: "Elba",
         numeric: "226",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "7.0",
             ranges: [
@@ -1847,7 +1935,9 @@ export const scripts = [
     {
         code: "Elym",
         numeric: "128",
-        writingDirection: "rtl",
+        writingDirection: {
+            code: "rtl"
+        },
         unicode: {
             version: "12.0",
             ranges: [
@@ -1862,7 +1952,9 @@ export const scripts = [
     {
         code: "Ethi",
         numeric: "430",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "3.0",
             ranges: [
@@ -2027,7 +2119,9 @@ export const scripts = [
     {
         code: "Gara",
         numeric: "164",
-        writingDirection: "rtl",
+        writingDirection: {
+            code: "rtl"
+        },
         unicode: {
             version: "16.0",
             ranges: [
@@ -2074,7 +2168,9 @@ export const scripts = [
     {
         code: "Geok",
         numeric: "241",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: "1.1",
             ranges: [
@@ -2124,7 +2220,9 @@ export const scripts = [
     {
         code: "Geor",
         numeric: "240",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "1.1",
             ranges: [
@@ -2174,7 +2272,9 @@ export const scripts = [
     {
         code: "Glag",
         numeric: "225",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "4.1",
             ranges: [
@@ -2209,7 +2309,9 @@ export const scripts = [
     {
         code: "Gong",
         numeric: "312",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "11.0",
             ranges: [
@@ -2260,7 +2362,9 @@ export const scripts = [
     {
         code: "Gonm",
         numeric: "313",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "10.0",
             ranges: [
@@ -2308,7 +2412,9 @@ export const scripts = [
     {
         code: "Goth",
         numeric: "206",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "3.1",
             ranges: [
@@ -2333,7 +2439,9 @@ export const scripts = [
     {
         code: "Gran",
         numeric: "343",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "7.0",
             ranges: [
@@ -2423,7 +2531,9 @@ export const scripts = [
     {
         code: "Grek",
         numeric: "200",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "1.1",
             ranges: [
@@ -2637,7 +2747,9 @@ export const scripts = [
     {
         code: "Gujr",
         numeric: "320",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "1.1",
             ranges: [
@@ -2735,7 +2847,9 @@ export const scripts = [
     {
         code: "Gukh",
         numeric: "397",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "16.0",
             ranges: [
@@ -2766,7 +2880,9 @@ export const scripts = [
     {
         code: "Guru",
         numeric: "310",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "1.1",
             ranges: [
@@ -2859,7 +2975,9 @@ export const scripts = [
     {
         code: "Hanb",
         numeric: "503",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "1.1",
             ranges: [],
@@ -2869,7 +2987,9 @@ export const scripts = [
     {
         code: "Hang",
         numeric: "286",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "1.1",
             ranges: [
@@ -2936,7 +3056,9 @@ export const scripts = [
     {
         code: "Hani",
         numeric: "500",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "1.1",
             ranges: [
@@ -3038,7 +3160,9 @@ export const scripts = [
     {
         code: "Hano",
         numeric: "371",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "3.2",
             ranges: [
@@ -3060,7 +3184,9 @@ export const scripts = [
     {
         code: "Hans",
         numeric: "501",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "1.1",
             ranges: [],
@@ -3070,7 +3196,9 @@ export const scripts = [
     {
         code: "Hant",
         numeric: "502",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "1.1",
             ranges: [],
@@ -3080,7 +3208,9 @@ export const scripts = [
     {
         code: "Hatr",
         numeric: "127",
-        writingDirection: "rtl",
+        writingDirection: {
+            code: "rtl"
+        },
         unicode: {
             version: "8.0",
             ranges: [
@@ -3103,7 +3233,9 @@ export const scripts = [
     {
         code: "Hebr",
         numeric: "125",
-        writingDirection: "rtl",
+        writingDirection: {
+            code: "rtl"
+        },
         unicode: {
             version: "1.1",
             ranges: [
@@ -3192,7 +3324,9 @@ export const scripts = [
     {
         code: "Hira",
         numeric: "410",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "1.1",
             ranges: [
@@ -3228,7 +3362,9 @@ export const scripts = [
     {
         code: "Hluw",
         numeric: "080",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "8.0",
             ranges: [
@@ -3243,7 +3379,9 @@ export const scripts = [
     {
         code: "Hmng",
         numeric: "450",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "7.0",
             ranges: [
@@ -3296,7 +3434,9 @@ export const scripts = [
     {
         code: "Hmnp",
         numeric: "451",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "12.0",
             ranges: [
@@ -3329,7 +3469,9 @@ export const scripts = [
     {
         code: "Hntl",
         numeric: "504",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: null,
             ranges: [],
@@ -3339,7 +3481,9 @@ export const scripts = [
     {
         code: "Hrkt",
         numeric: "412",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: "1.1",
             ranges: [],
@@ -3349,7 +3493,9 @@ export const scripts = [
     {
         code: "Hung",
         numeric: "176",
-        writingDirection: "rtl",
+        writingDirection: {
+            code: "rtl"
+        },
         unicode: {
             version: "8.0",
             ranges: [
@@ -3372,7 +3518,9 @@ export const scripts = [
     {
         code: "Inds",
         numeric: "610",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: null,
             ranges: [],
@@ -3382,7 +3530,9 @@ export const scripts = [
     {
         code: "Ital",
         numeric: "210",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "3.1",
             ranges: [
@@ -3405,7 +3555,9 @@ export const scripts = [
     {
         code: "Jamo",
         numeric: "284",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "1.1",
             ranges: [],
@@ -3415,7 +3567,9 @@ export const scripts = [
     {
         code: "Java",
         numeric: "361",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "5.2",
             ranges: [
@@ -3472,7 +3626,9 @@ export const scripts = [
     {
         code: "Jpan",
         numeric: "413",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "1.1",
             ranges: [],
@@ -3482,7 +3638,9 @@ export const scripts = [
     {
         code: "Jurc",
         numeric: "510",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: null,
             ranges: [],
@@ -3492,7 +3650,9 @@ export const scripts = [
     {
         code: "Kali",
         numeric: "357",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "5.1",
             ranges: [
@@ -3518,7 +3678,9 @@ export const scripts = [
     {
         code: "Kana",
         numeric: "411",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "1.1",
             ranges: [
@@ -3586,7 +3748,9 @@ export const scripts = [
     {
         code: "Kawi",
         numeric: "368",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "15.0",
             ranges: [
@@ -3647,7 +3811,9 @@ export const scripts = [
     {
         code: "Khar",
         numeric: "305",
-        writingDirection: "rtl",
+        writingDirection: {
+            code: "rtl"
+        },
         unicode: {
             version: "4.1",
             ranges: [
@@ -3700,7 +3866,9 @@ export const scripts = [
     {
         code: "Khmr",
         numeric: "355",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "3.0",
             ranges: [
@@ -3773,7 +3941,9 @@ export const scripts = [
     {
         code: "Khoj",
         numeric: "322",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "7.0",
             ranges: [
@@ -3828,7 +3998,9 @@ export const scripts = [
     {
         code: "Kitl",
         numeric: "505",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: null,
             ranges: [],
@@ -3838,7 +4010,9 @@ export const scripts = [
     {
         code: "Kits",
         numeric: "288",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "13.0",
             ranges: [
@@ -3859,7 +4033,9 @@ export const scripts = [
     {
         code: "Knda",
         numeric: "345",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "1.1",
             ranges: [
@@ -3961,7 +4137,9 @@ export const scripts = [
     {
         code: "Kore",
         numeric: "287",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "1.1",
             ranges: [],
@@ -3971,7 +4149,9 @@ export const scripts = [
     {
         code: "Kpel",
         numeric: "436",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: null,
             ranges: [],
@@ -3981,7 +4161,9 @@ export const scripts = [
     {
         code: "Krai",
         numeric: "396",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "16.0",
             ranges: [
@@ -4012,7 +4194,9 @@ export const scripts = [
     {
         code: "Kthi",
         numeric: "317",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "5.2",
             ranges: [
@@ -4067,7 +4251,9 @@ export const scripts = [
     {
         code: "Lana",
         numeric: "351",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "5.2",
             ranges: [
@@ -4142,7 +4328,9 @@ export const scripts = [
     {
         code: "Laoo",
         numeric: "356",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "1.1",
             ranges: [
@@ -4208,7 +4396,9 @@ export const scripts = [
     {
         code: "Latf",
         numeric: "217",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: "1.1",
             ranges: [],
@@ -4218,7 +4408,9 @@ export const scripts = [
     {
         code: "Latg",
         numeric: "216",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: "1.1",
             ranges: [],
@@ -4228,7 +4420,9 @@ export const scripts = [
     {
         code: "Latn",
         numeric: "215",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "1.1",
             ranges: [
@@ -4480,7 +4674,9 @@ export const scripts = [
     {
         code: "Leke",
         numeric: "364",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: null,
             ranges: [],
@@ -4490,7 +4686,9 @@ export const scripts = [
     {
         code: "Lepc",
         numeric: "335",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "5.1",
             ranges: [
@@ -4533,7 +4731,9 @@ export const scripts = [
     {
         code: "Limb",
         numeric: "336",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "4.0",
             ranges: [
@@ -4590,7 +4790,9 @@ export const scripts = [
     {
         code: "Lina",
         numeric: "400",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "7.0",
             ranges: [
@@ -4613,7 +4815,9 @@ export const scripts = [
     {
         code: "Linb",
         numeric: "401",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "4.0",
             ranges: [
@@ -4652,7 +4856,9 @@ export const scripts = [
     {
         code: "Lisu",
         numeric: "399",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "5.2",
             ranges: [
@@ -4678,7 +4884,9 @@ export const scripts = [
     {
         code: "Loma",
         numeric: "437",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: null,
             ranges: [],
@@ -4688,7 +4896,9 @@ export const scripts = [
     {
         code: "Lyci",
         numeric: "202",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "5.1",
             ranges: [
@@ -4703,7 +4913,9 @@ export const scripts = [
     {
         code: "Lydi",
         numeric: "116",
-        writingDirection: "rtl",
+        writingDirection: {
+            code: "rtl"
+        },
         unicode: {
             version: "5.1",
             ranges: [
@@ -4721,7 +4933,9 @@ export const scripts = [
     {
         code: "Mahj",
         numeric: "314",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "7.0",
             ranges: [
@@ -4746,7 +4960,9 @@ export const scripts = [
     {
         code: "Maka",
         numeric: "366",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "11.0",
             ranges: [
@@ -4773,7 +4989,9 @@ export const scripts = [
     {
         code: "Mand",
         numeric: "140",
-        writingDirection: "rtl",
+        writingDirection: {
+            code: "rtl"
+        },
         unicode: {
             version: "6.0",
             ranges: [
@@ -4795,7 +5013,9 @@ export const scripts = [
     {
         code: "Mani",
         numeric: "139",
-        writingDirection: "rtl",
+        writingDirection: {
+            code: "rtl"
+        },
         unicode: {
             version: "7.0",
             ranges: [
@@ -4829,7 +5049,9 @@ export const scripts = [
     {
         code: "Marc",
         numeric: "332",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "9.0",
             ranges: [
@@ -4873,7 +5095,9 @@ export const scripts = [
     {
         code: "Maya",
         numeric: "090",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: null,
             ranges: [],
@@ -4883,7 +5107,9 @@ export const scripts = [
     {
         code: "Medf",
         numeric: "265",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "11.0",
             ranges: [
@@ -4906,7 +5132,9 @@ export const scripts = [
     {
         code: "Mend",
         numeric: "438",
-        writingDirection: "rtl",
+        writingDirection: {
+            code: "rtl"
+        },
         unicode: {
             version: "7.0",
             ranges: [
@@ -4929,7 +5157,9 @@ export const scripts = [
     {
         code: "Merc",
         numeric: "101",
-        writingDirection: "rtl",
+        writingDirection: {
+            code: "rtl"
+        },
         unicode: {
             version: "6.1",
             ranges: [
@@ -4960,7 +5190,9 @@ export const scripts = [
     {
         code: "Mero",
         numeric: "100",
-        writingDirection: "rtl",
+        writingDirection: {
+            code: "rtl"
+        },
         unicode: {
             version: "6.1",
             ranges: [
@@ -4975,7 +5207,9 @@ export const scripts = [
     {
         code: "Mlym",
         numeric: "347",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "1.1",
             ranges: [
@@ -5072,7 +5306,9 @@ export const scripts = [
     {
         code: "Modi",
         numeric: "324",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "7.0",
             ranges: [
@@ -5120,7 +5356,9 @@ export const scripts = [
     {
         code: "Mong",
         numeric: "145",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "3.0",
             ranges: [
@@ -5192,7 +5430,9 @@ export const scripts = [
     {
         code: "Moon",
         numeric: "218",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: null,
             ranges: [],
@@ -5202,7 +5442,9 @@ export const scripts = [
     {
         code: "Mroo",
         numeric: "264",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "7.0",
             ranges: [
@@ -5225,7 +5467,9 @@ export const scripts = [
     {
         code: "Mtei",
         numeric: "337",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "5.2",
             ranges: [
@@ -5303,7 +5547,9 @@ export const scripts = [
     {
         code: "Mult",
         numeric: "323",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "8.0",
             ranges: [
@@ -5336,7 +5582,9 @@ export const scripts = [
     {
         code: "Mymr",
         numeric: "350",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "3.0",
             ranges: [
@@ -5535,7 +5783,9 @@ export const scripts = [
     {
         code: "Nagm",
         numeric: "295",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "15.0",
             ranges: [
@@ -5561,7 +5811,9 @@ export const scripts = [
     {
         code: "Nand",
         numeric: "311",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "12.0",
             ranges: [
@@ -5611,7 +5863,9 @@ export const scripts = [
     {
         code: "Narb",
         numeric: "106",
-        writingDirection: "rtl",
+        writingDirection: {
+            code: "rtl"
+        },
         unicode: {
             version: "7.0",
             ranges: [
@@ -5630,7 +5884,9 @@ export const scripts = [
     {
         code: "Nbat",
         numeric: "159",
-        writingDirection: "rtl",
+        writingDirection: {
+            code: "rtl"
+        },
         unicode: {
             version: "7.0",
             ranges: [
@@ -5649,7 +5905,9 @@ export const scripts = [
     {
         code: "Newa",
         numeric: "333",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "9.0",
             ranges: [
@@ -5712,7 +5970,9 @@ export const scripts = [
     {
         code: "Nkdb",
         numeric: "085",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: null,
             ranges: [],
@@ -5722,7 +5982,9 @@ export const scripts = [
     {
         code: "Nkgb",
         numeric: "420",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: null,
             ranges: [],
@@ -5732,7 +5994,9 @@ export const scripts = [
     {
         code: "Nkoo",
         numeric: "165",
-        writingDirection: "rtl",
+        writingDirection: {
+            code: "rtl"
+        },
         unicode: {
             version: "5.0",
             ranges: [
@@ -5776,7 +6040,9 @@ export const scripts = [
     {
         code: "Nshu",
         numeric: "499",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "10.0",
             ranges: [
@@ -5794,7 +6060,9 @@ export const scripts = [
     {
         code: "Ogam",
         numeric: "212",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "3.0",
             ranges: [
@@ -5818,7 +6086,9 @@ export const scripts = [
     {
         code: "Olck",
         numeric: "261",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "5.1",
             ranges: [
@@ -5845,7 +6115,9 @@ export const scripts = [
     {
         code: "Onao",
         numeric: "296",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "16.0",
             ranges: [
@@ -5874,7 +6146,9 @@ export const scripts = [
     {
         code: "Orkh",
         numeric: "175",
-        writingDirection: "rtl",
+        writingDirection: {
+            code: "rtl"
+        },
         unicode: {
             version: "5.2",
             ranges: [
@@ -5889,7 +6163,9 @@ export const scripts = [
     {
         code: "Orya",
         numeric: "327",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "1.1",
             ranges: [
@@ -5994,7 +6270,9 @@ export const scripts = [
     {
         code: "Osge",
         numeric: "219",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "9.0",
             ranges: [
@@ -6013,7 +6291,9 @@ export const scripts = [
     {
         code: "Osma",
         numeric: "260",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "4.0",
             ranges: [
@@ -6032,7 +6312,9 @@ export const scripts = [
     {
         code: "Ougr",
         numeric: "143",
-        writingDirection: "rtl",
+        writingDirection: {
+            code: "rtl"
+        },
         unicode: {
             version: "14.0",
             ranges: [
@@ -6055,7 +6337,9 @@ export const scripts = [
     {
         code: "Palm",
         numeric: "126",
-        writingDirection: "rtl",
+        writingDirection: {
+            code: "rtl"
+        },
         unicode: {
             version: "7.0",
             ranges: [
@@ -6078,7 +6362,9 @@ export const scripts = [
     {
         code: "Pauc",
         numeric: "263",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "7.0",
             ranges: [
@@ -6093,7 +6379,9 @@ export const scripts = [
     {
         code: "Pcun",
         numeric: "015",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: null,
             ranges: [],
@@ -6103,7 +6391,9 @@ export const scripts = [
     {
         code: "Pelm",
         numeric: "016",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: null,
             ranges: [],
@@ -6113,7 +6403,9 @@ export const scripts = [
     {
         code: "Perm",
         numeric: "227",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "7.0",
             ranges: [
@@ -6132,7 +6424,9 @@ export const scripts = [
     {
         code: "Phag",
         numeric: "331",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "5.0",
             ranges: [
@@ -6151,7 +6445,9 @@ export const scripts = [
     {
         code: "Phli",
         numeric: "131",
-        writingDirection: "rtl",
+        writingDirection: {
+            code: "rtl"
+        },
         unicode: {
             version: "5.2",
             ranges: [
@@ -6170,7 +6466,9 @@ export const scripts = [
     {
         code: "Phlp",
         numeric: "132",
-        writingDirection: "rtl",
+        writingDirection: {
+            code: "rtl"
+        },
         unicode: {
             version: "7.0",
             ranges: [
@@ -6193,7 +6491,9 @@ export const scripts = [
     {
         code: "Phlv",
         numeric: "133",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: null,
             ranges: [],
@@ -6203,7 +6503,9 @@ export const scripts = [
     {
         code: "Phnx",
         numeric: "115",
-        writingDirection: "rtl",
+        writingDirection: {
+            code: "rtl"
+        },
         unicode: {
             version: "5.0",
             ranges: [
@@ -6225,7 +6527,9 @@ export const scripts = [
     {
         code: "Piqd",
         numeric: "293",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: null,
             ranges: [],
@@ -6235,7 +6539,9 @@ export const scripts = [
     {
         code: "Plrd",
         numeric: "282",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "6.1",
             ranges: [
@@ -6268,7 +6574,9 @@ export const scripts = [
     {
         code: "Prti",
         numeric: "130",
-        writingDirection: "rtl",
+        writingDirection: {
+            code: "rtl"
+        },
         unicode: {
             version: "5.2",
             ranges: [
@@ -6287,7 +6595,9 @@ export const scripts = [
     {
         code: "Psin",
         numeric: "103",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: null,
             ranges: [],
@@ -6297,7 +6607,9 @@ export const scripts = [
     {
         code: "Qaaa",
         numeric: "900",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: null,
             ranges: [],
@@ -6307,7 +6619,9 @@ export const scripts = [
     {
         code: "Qabx",
         numeric: "949",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: null,
             ranges: [],
@@ -6317,7 +6631,9 @@ export const scripts = [
     {
         code: "Ranj",
         numeric: "303",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: null,
             ranges: [],
@@ -6327,7 +6643,9 @@ export const scripts = [
     {
         code: "Rjng",
         numeric: "363",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "5.1",
             ranges: [
@@ -6353,7 +6671,9 @@ export const scripts = [
     {
         code: "Rohg",
         numeric: "167",
-        writingDirection: "rtl",
+        writingDirection: {
+            code: "rtl"
+        },
         unicode: {
             version: "11.0",
             ranges: [
@@ -6376,7 +6696,9 @@ export const scripts = [
     {
         code: "Roro",
         numeric: "620",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: null,
             ranges: [],
@@ -6386,7 +6708,9 @@ export const scripts = [
     {
         code: "Runr",
         numeric: "211",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "3.0",
             ranges: [
@@ -6409,7 +6733,9 @@ export const scripts = [
     {
         code: "Samr",
         numeric: "123",
-        writingDirection: "rtl",
+        writingDirection: {
+            code: "rtl"
+        },
         unicode: {
             version: "5.2",
             ranges: [
@@ -6453,7 +6779,9 @@ export const scripts = [
     {
         code: "Sara",
         numeric: "292",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: null,
             ranges: [],
@@ -6463,7 +6791,9 @@ export const scripts = [
     {
         code: "Sarb",
         numeric: "105",
-        writingDirection: "rtl",
+        writingDirection: {
+            code: "rtl"
+        },
         unicode: {
             version: "5.2",
             ranges: [
@@ -6485,7 +6815,9 @@ export const scripts = [
     {
         code: "Saur",
         numeric: "344",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "5.1",
             ranges: [
@@ -6520,7 +6852,9 @@ export const scripts = [
     {
         code: "Seal",
         numeric: "590",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: null,
             ranges: [],
@@ -6530,7 +6864,9 @@ export const scripts = [
     {
         code: "Sgnw",
         numeric: "095",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "8.0",
             ranges: [
@@ -6587,7 +6923,9 @@ export const scripts = [
     {
         code: "Shaw",
         numeric: "281",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "4.0",
             ranges: [
@@ -6602,7 +6940,9 @@ export const scripts = [
     {
         code: "Shrd",
         numeric: "319",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "6.1",
             ranges: [
@@ -6674,7 +7014,9 @@ export const scripts = [
     {
         code: "Shui",
         numeric: "530",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: null,
             ranges: [],
@@ -6684,7 +7026,9 @@ export const scripts = [
     {
         code: "Sidd",
         numeric: "302",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "7.0",
             ranges: [
@@ -6734,7 +7078,9 @@ export const scripts = [
     {
         code: "Sidt",
         numeric: "180",
-        writingDirection: "rtl",
+        writingDirection: {
+            code: "rtl"
+        },
         unicode: {
             version: null,
             ranges: [],
@@ -6744,7 +7090,9 @@ export const scripts = [
     {
         code: "Sind",
         numeric: "318",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "7.0",
             ranges: [
@@ -6774,7 +7122,9 @@ export const scripts = [
     {
         code: "Sinh",
         numeric: "348",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "3.0",
             ranges: [
@@ -6844,7 +7194,9 @@ export const scripts = [
     {
         code: "Sogd",
         numeric: "141",
-        writingDirection: "rtl",
+        writingDirection: {
+            code: "rtl"
+        },
         unicode: {
             version: "11.0",
             ranges: [
@@ -6871,7 +7223,9 @@ export const scripts = [
     {
         code: "Sogo",
         numeric: "142",
-        writingDirection: "rtl",
+        writingDirection: {
+            code: "rtl"
+        },
         unicode: {
             version: "11.0",
             ranges: [
@@ -6893,7 +7247,9 @@ export const scripts = [
     {
         code: "Sora",
         numeric: "398",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "6.1",
             ranges: [
@@ -6912,7 +7268,9 @@ export const scripts = [
     {
         code: "Soyo",
         numeric: "329",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "10.0",
             ranges: [
@@ -6964,7 +7322,9 @@ export const scripts = [
     {
         code: "Sund",
         numeric: "362",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "5.1",
             ranges: [
@@ -7024,7 +7384,9 @@ export const scripts = [
     {
         code: "Sunu",
         numeric: "274",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "16.0",
             ranges: [
@@ -7046,7 +7408,9 @@ export const scripts = [
     {
         code: "Sylo",
         numeric: "316",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "4.1",
             ranges: [
@@ -7100,7 +7464,9 @@ export const scripts = [
     {
         code: "Syrc",
         numeric: "135",
-        writingDirection: "rtl",
+        writingDirection: {
+            code: "rtl"
+        },
         unicode: {
             version: "3.0",
             ranges: [
@@ -7140,7 +7506,9 @@ export const scripts = [
     {
         code: "Syre",
         numeric: "138",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: "3.0",
             ranges: [],
@@ -7150,7 +7518,9 @@ export const scripts = [
     {
         code: "Syrj",
         numeric: "137",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: "3.0",
             ranges: [],
@@ -7160,7 +7530,9 @@ export const scripts = [
     {
         code: "Syrn",
         numeric: "136",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: "3.0",
             ranges: [],
@@ -7170,7 +7542,9 @@ export const scripts = [
     {
         code: "Tagb",
         numeric: "373",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "3.2",
             ranges: [
@@ -7193,7 +7567,9 @@ export const scripts = [
     {
         code: "Takr",
         numeric: "321",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "6.1",
             ranges: [
@@ -7241,7 +7617,9 @@ export const scripts = [
     {
         code: "Tale",
         numeric: "353",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "4.0",
             ranges: [
@@ -7260,7 +7638,9 @@ export const scripts = [
     {
         code: "Talu",
         numeric: "354",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "4.1",
             ranges: [
@@ -7290,7 +7670,9 @@ export const scripts = [
     {
         code: "Taml",
         numeric: "346",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "1.1",
             ranges: [
@@ -7407,7 +7789,9 @@ export const scripts = [
     {
         code: "Tang",
         numeric: "520",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "9.0",
             ranges: [
@@ -7433,7 +7817,9 @@ export const scripts = [
     {
         code: "Tavt",
         numeric: "359",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "5.2",
             ranges: [
@@ -7494,7 +7880,9 @@ export const scripts = [
     {
         code: "Tayo",
         numeric: "380",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: null,
             ranges: [],
@@ -7504,7 +7892,9 @@ export const scripts = [
     {
         code: "Telu",
         numeric: "340",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "1.1",
             ranges: [
@@ -7596,7 +7986,9 @@ export const scripts = [
     {
         code: "Teng",
         numeric: "290",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: null,
             ranges: [],
@@ -7606,7 +7998,9 @@ export const scripts = [
     {
         code: "Tfng",
         numeric: "120",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "4.1",
             ranges: [
@@ -7630,7 +8024,9 @@ export const scripts = [
     {
         code: "Tglg",
         numeric: "370",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "3.2",
             ranges: [
@@ -7655,7 +8051,9 @@ export const scripts = [
     {
         code: "Thaa",
         numeric: "170",
-        writingDirection: "rtl",
+        writingDirection: {
+            code: "rtl"
+        },
         unicode: {
             version: "3.0",
             ranges: [
@@ -7677,7 +8075,9 @@ export const scripts = [
     {
         code: "Thai",
         numeric: "352",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "1.1",
             ranges: [
@@ -7725,7 +8125,9 @@ export const scripts = [
     {
         code: "Tibt",
         numeric: "330",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "2.0",
             ranges: [
@@ -7868,7 +8270,9 @@ export const scripts = [
     {
         code: "Tirh",
         numeric: "326",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "7.0",
             ranges: [
@@ -7926,7 +8330,9 @@ export const scripts = [
     {
         code: "Tnsa",
         numeric: "275",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "14.0",
             ranges: [
@@ -7945,7 +8351,9 @@ export const scripts = [
     {
         code: "Todr",
         numeric: "229",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "16.0",
             ranges: [
@@ -7960,7 +8368,9 @@ export const scripts = [
     {
         code: "Tols",
         numeric: "299",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: null,
             ranges: [],
@@ -7970,7 +8380,9 @@ export const scripts = [
     {
         code: "Toto",
         numeric: "294",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "14.0",
             ranges: [
@@ -7988,7 +8400,9 @@ export const scripts = [
     {
         code: "Tutg",
         numeric: "341",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "16.0",
             ranges: [
@@ -8068,7 +8482,9 @@ export const scripts = [
     {
         code: "Ugar",
         numeric: "040",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "4.0",
             ranges: [
@@ -8086,7 +8502,9 @@ export const scripts = [
     {
         code: "Vaii",
         numeric: "470",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "5.1",
             ranges: [
@@ -8120,7 +8538,9 @@ export const scripts = [
     {
         code: "Visp",
         numeric: "280",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: null,
             ranges: [],
@@ -8130,7 +8550,9 @@ export const scripts = [
     {
         code: "Vith",
         numeric: "228",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "14.0",
             ranges: [
@@ -8173,7 +8595,9 @@ export const scripts = [
     {
         code: "Wara",
         numeric: "262",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "7.0",
             ranges: [
@@ -8199,7 +8623,9 @@ export const scripts = [
     {
         code: "Wcho",
         numeric: "283",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "12.0",
             ranges: [
@@ -8225,7 +8651,9 @@ export const scripts = [
     {
         code: "Wole",
         numeric: "480",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: null,
             ranges: [],
@@ -8235,7 +8663,9 @@ export const scripts = [
     {
         code: "Xpeo",
         numeric: "030",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "4.1",
             ranges: [
@@ -8261,7 +8691,9 @@ export const scripts = [
     {
         code: "Xsux",
         numeric: "020",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "5.0",
             ranges: [
@@ -8288,7 +8720,9 @@ export const scripts = [
     {
         code: "Yezi",
         numeric: "192",
-        writingDirection: "rtl",
+        writingDirection: {
+            code: "rtl"
+        },
         unicode: {
             version: "13.0",
             ranges: [
@@ -8314,7 +8748,9 @@ export const scripts = [
     {
         code: "Yiii",
         numeric: "460",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "3.0",
             ranges: [
@@ -8340,7 +8776,9 @@ export const scripts = [
     {
         code: "Zanb",
         numeric: "339",
-        writingDirection: "ltr",
+        writingDirection: {
+            code: "ltr"
+        },
         unicode: {
             version: "10.0",
             ranges: [
@@ -8383,7 +8821,9 @@ export const scripts = [
     {
         code: "Zinh",
         numeric: "994",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: null,
             ranges: [
@@ -8526,7 +8966,9 @@ export const scripts = [
     {
         code: "Zmth",
         numeric: "995",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: "3.2",
             ranges: [],
@@ -8536,7 +8978,9 @@ export const scripts = [
     {
         code: "Zsye",
         numeric: "993",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: "6.0",
             ranges: [],
@@ -8546,7 +8990,9 @@ export const scripts = [
     {
         code: "Zsym",
         numeric: "996",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: "1.1",
             ranges: [],
@@ -8556,7 +9002,9 @@ export const scripts = [
     {
         code: "Zxxx",
         numeric: "997",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: null,
             ranges: [],
@@ -8566,7 +9014,9 @@ export const scripts = [
     {
         code: "Zyyy",
         numeric: "998",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: null,
             ranges: [
@@ -10680,7 +11130,9 @@ export const scripts = [
     {
         code: "Zzzz",
         numeric: "999",
-        writingDirection: null,
+        writingDirection: {
+            code: "nla"
+        },
         unicode: {
             version: null,
             ranges: [],

@@ -14,6 +14,15 @@
                             <!-- main node <unM49> -->
                             <xs:element name="unM49" type="xs:string" nillable="true"/>
 
+                            <!-- main node <scope> -->
+                            <xs:element name="scope">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="code" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
                             <!-- main node <tags> -->
                             <xs:element name="tags">
                                 <xs:complexType>

@@ -22,7 +22,9 @@ const Scripts = `[
     {
         "code": "Adlm",
         "numeric": "166",
-        "writingDirection": "rtl",
+        "writingDirection": {
+            "code": "rtl"
+        },
         "unicode": {
             "version": "9.0",
             "ranges": [
@@ -52,7 +54,9 @@ const Scripts = `[
     {
         "code": "Afak",
         "numeric": "439",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": null,
             "ranges": [],
@@ -62,7 +66,9 @@ const Scripts = `[
     {
         "code": "Aghb",
         "numeric": "239",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "7.0",
             "ranges": [
@@ -80,7 +86,9 @@ const Scripts = `[
     {
         "code": "Ahom",
         "numeric": "338",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "8.0",
             "ranges": [
@@ -138,7 +146,9 @@ const Scripts = `[
     {
         "code": "Arab",
         "numeric": "160",
-        "writingDirection": "rtl",
+        "writingDirection": {
+            "code": "rtl"
+        },
         "unicode": {
             "version": "1.1",
             "ranges": [
@@ -477,7 +487,9 @@ const Scripts = `[
     {
         "code": "Aran",
         "numeric": "161",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": "1.1",
             "ranges": [],
@@ -487,7 +499,9 @@ const Scripts = `[
     {
         "code": "Armi",
         "numeric": "124",
-        "writingDirection": "rtl",
+        "writingDirection": {
+            "code": "rtl"
+        },
         "unicode": {
             "version": "5.2",
             "ranges": [
@@ -509,7 +523,9 @@ const Scripts = `[
     {
         "code": "Armn",
         "numeric": "230",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "1.1",
             "ranges": [
@@ -552,7 +568,9 @@ const Scripts = `[
     {
         "code": "Avst",
         "numeric": "134",
-        "writingDirection": "rtl",
+        "writingDirection": {
+            "code": "rtl"
+        },
         "unicode": {
             "version": "5.2",
             "ranges": [
@@ -571,7 +589,9 @@ const Scripts = `[
     {
         "code": "Bali",
         "numeric": "360",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "5.0",
             "ranges": [
@@ -652,7 +672,9 @@ const Scripts = `[
     {
         "code": "Bamu",
         "numeric": "435",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "5.2",
             "ranges": [
@@ -683,7 +705,9 @@ const Scripts = `[
     {
         "code": "Bass",
         "numeric": "259",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "7.0",
             "ranges": [
@@ -705,7 +729,9 @@ const Scripts = `[
     {
         "code": "Batk",
         "numeric": "365",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "6.0",
             "ranges": [
@@ -752,7 +778,9 @@ const Scripts = `[
     {
         "code": "Beng",
         "numeric": "325",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "1.1",
             "ranges": [
@@ -870,7 +898,9 @@ const Scripts = `[
     {
         "code": "Berf",
         "numeric": "258",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": null,
             "ranges": [],
@@ -880,7 +910,9 @@ const Scripts = `[
     {
         "code": "Bhks",
         "numeric": "334",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "9.0",
             "ranges": [
@@ -931,7 +963,9 @@ const Scripts = `[
     {
         "code": "Blis",
         "numeric": "550",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": null,
             "ranges": [],
@@ -941,7 +975,9 @@ const Scripts = `[
     {
         "code": "Bopo",
         "numeric": "285",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "1.1",
             "ranges": [
@@ -964,7 +1000,9 @@ const Scripts = `[
     {
         "code": "Brah",
         "numeric": "300",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "6.0",
             "ranges": [
@@ -1021,7 +1059,9 @@ const Scripts = `[
     {
         "code": "Brai",
         "numeric": "570",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": "3.0",
             "ranges": [
@@ -1036,7 +1076,9 @@ const Scripts = `[
     {
         "code": "Bugi",
         "numeric": "367",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "4.1",
             "ranges": [
@@ -1066,7 +1108,9 @@ const Scripts = `[
     {
         "code": "Buhd",
         "numeric": "372",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "3.2",
             "ranges": [
@@ -1085,7 +1129,9 @@ const Scripts = `[
     {
         "code": "Cakm",
         "numeric": "349",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "6.1",
             "ranges": [
@@ -1133,7 +1179,9 @@ const Scripts = `[
     {
         "code": "Cans",
         "numeric": "440",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "3.0",
             "ranges": [
@@ -1169,7 +1217,9 @@ const Scripts = `[
     {
         "code": "Cari",
         "numeric": "201",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "5.1",
             "ranges": [
@@ -1184,7 +1234,9 @@ const Scripts = `[
     {
         "code": "Cham",
         "numeric": "358",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "5.1",
             "ranges": [
@@ -1244,7 +1296,9 @@ const Scripts = `[
     {
         "code": "Cher",
         "numeric": "445",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "3.0",
             "ranges": [
@@ -1267,7 +1321,9 @@ const Scripts = `[
     {
         "code": "Chis",
         "numeric": "298",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": null,
             "ranges": [],
@@ -1277,7 +1333,9 @@ const Scripts = `[
     {
         "code": "Chrs",
         "numeric": "109",
-        "writingDirection": "rtl",
+        "writingDirection": {
+            "code": "rtl"
+        },
         "unicode": {
             "version": "13.0",
             "ranges": [
@@ -1296,7 +1354,9 @@ const Scripts = `[
     {
         "code": "Cirt",
         "numeric": "291",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": null,
             "ranges": [],
@@ -1306,7 +1366,9 @@ const Scripts = `[
     {
         "code": "Copt",
         "numeric": "204",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "4.1",
             "ranges": [
@@ -1352,7 +1414,9 @@ const Scripts = `[
     {
         "code": "Cpmn",
         "numeric": "402",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "14.0",
             "ranges": [
@@ -1371,7 +1435,9 @@ const Scripts = `[
     {
         "code": "Cprt",
         "numeric": "403",
-        "writingDirection": "rtl",
+        "writingDirection": {
+            "code": "rtl"
+        },
         "unicode": {
             "version": "4.0",
             "ranges": [
@@ -1403,7 +1469,9 @@ const Scripts = `[
     {
         "code": "Cyrl",
         "numeric": "220",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "1.1",
             "ranges": [
@@ -1500,7 +1568,9 @@ const Scripts = `[
     {
         "code": "Cyrs",
         "numeric": "221",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": "1.1",
             "ranges": [],
@@ -1510,7 +1580,9 @@ const Scripts = `[
     {
         "code": "Deva",
         "numeric": "315",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "1.1",
             "ranges": [
@@ -1621,7 +1693,9 @@ const Scripts = `[
     {
         "code": "Diak",
         "numeric": "342",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "13.0",
             "ranges": [
@@ -1692,7 +1766,9 @@ const Scripts = `[
     {
         "code": "Dogr",
         "numeric": "328",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "11.0",
             "ranges": [
@@ -1725,7 +1801,9 @@ const Scripts = `[
     {
         "code": "Dsrt",
         "numeric": "250",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "3.1",
             "ranges": [
@@ -1740,7 +1818,9 @@ const Scripts = `[
     {
         "code": "Dupl",
         "numeric": "755",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "7.0",
             "ranges": [
@@ -1777,7 +1857,9 @@ const Scripts = `[
     {
         "code": "Egyd",
         "numeric": "070",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": null,
             "ranges": [],
@@ -1787,7 +1869,9 @@ const Scripts = `[
     {
         "code": "Egyh",
         "numeric": "060",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": "5.2",
             "ranges": [],
@@ -1797,7 +1881,9 @@ const Scripts = `[
     {
         "code": "Egyp",
         "numeric": "050",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "5.2",
             "ranges": [
@@ -1831,7 +1917,9 @@ const Scripts = `[
     {
         "code": "Elba",
         "numeric": "226",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "7.0",
             "ranges": [
@@ -1846,7 +1934,9 @@ const Scripts = `[
     {
         "code": "Elym",
         "numeric": "128",
-        "writingDirection": "rtl",
+        "writingDirection": {
+            "code": "rtl"
+        },
         "unicode": {
             "version": "12.0",
             "ranges": [
@@ -1861,7 +1951,9 @@ const Scripts = `[
     {
         "code": "Ethi",
         "numeric": "430",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "3.0",
             "ranges": [
@@ -2026,7 +2118,9 @@ const Scripts = `[
     {
         "code": "Gara",
         "numeric": "164",
-        "writingDirection": "rtl",
+        "writingDirection": {
+            "code": "rtl"
+        },
         "unicode": {
             "version": "16.0",
             "ranges": [
@@ -2073,7 +2167,9 @@ const Scripts = `[
     {
         "code": "Geok",
         "numeric": "241",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": "1.1",
             "ranges": [
@@ -2123,7 +2219,9 @@ const Scripts = `[
     {
         "code": "Geor",
         "numeric": "240",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "1.1",
             "ranges": [
@@ -2173,7 +2271,9 @@ const Scripts = `[
     {
         "code": "Glag",
         "numeric": "225",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "4.1",
             "ranges": [
@@ -2208,7 +2308,9 @@ const Scripts = `[
     {
         "code": "Gong",
         "numeric": "312",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "11.0",
             "ranges": [
@@ -2259,7 +2361,9 @@ const Scripts = `[
     {
         "code": "Gonm",
         "numeric": "313",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "10.0",
             "ranges": [
@@ -2307,7 +2411,9 @@ const Scripts = `[
     {
         "code": "Goth",
         "numeric": "206",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "3.1",
             "ranges": [
@@ -2332,7 +2438,9 @@ const Scripts = `[
     {
         "code": "Gran",
         "numeric": "343",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "7.0",
             "ranges": [
@@ -2422,7 +2530,9 @@ const Scripts = `[
     {
         "code": "Grek",
         "numeric": "200",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "1.1",
             "ranges": [
@@ -2636,7 +2746,9 @@ const Scripts = `[
     {
         "code": "Gujr",
         "numeric": "320",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "1.1",
             "ranges": [
@@ -2734,7 +2846,9 @@ const Scripts = `[
     {
         "code": "Gukh",
         "numeric": "397",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "16.0",
             "ranges": [
@@ -2765,7 +2879,9 @@ const Scripts = `[
     {
         "code": "Guru",
         "numeric": "310",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "1.1",
             "ranges": [
@@ -2858,7 +2974,9 @@ const Scripts = `[
     {
         "code": "Hanb",
         "numeric": "503",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "1.1",
             "ranges": [],
@@ -2868,7 +2986,9 @@ const Scripts = `[
     {
         "code": "Hang",
         "numeric": "286",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "1.1",
             "ranges": [
@@ -2935,7 +3055,9 @@ const Scripts = `[
     {
         "code": "Hani",
         "numeric": "500",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "1.1",
             "ranges": [
@@ -3037,7 +3159,9 @@ const Scripts = `[
     {
         "code": "Hano",
         "numeric": "371",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "3.2",
             "ranges": [
@@ -3059,7 +3183,9 @@ const Scripts = `[
     {
         "code": "Hans",
         "numeric": "501",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "1.1",
             "ranges": [],
@@ -3069,7 +3195,9 @@ const Scripts = `[
     {
         "code": "Hant",
         "numeric": "502",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "1.1",
             "ranges": [],
@@ -3079,7 +3207,9 @@ const Scripts = `[
     {
         "code": "Hatr",
         "numeric": "127",
-        "writingDirection": "rtl",
+        "writingDirection": {
+            "code": "rtl"
+        },
         "unicode": {
             "version": "8.0",
             "ranges": [
@@ -3102,7 +3232,9 @@ const Scripts = `[
     {
         "code": "Hebr",
         "numeric": "125",
-        "writingDirection": "rtl",
+        "writingDirection": {
+            "code": "rtl"
+        },
         "unicode": {
             "version": "1.1",
             "ranges": [
@@ -3191,7 +3323,9 @@ const Scripts = `[
     {
         "code": "Hira",
         "numeric": "410",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "1.1",
             "ranges": [
@@ -3227,7 +3361,9 @@ const Scripts = `[
     {
         "code": "Hluw",
         "numeric": "080",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "8.0",
             "ranges": [
@@ -3242,7 +3378,9 @@ const Scripts = `[
     {
         "code": "Hmng",
         "numeric": "450",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "7.0",
             "ranges": [
@@ -3295,7 +3433,9 @@ const Scripts = `[
     {
         "code": "Hmnp",
         "numeric": "451",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "12.0",
             "ranges": [
@@ -3328,7 +3468,9 @@ const Scripts = `[
     {
         "code": "Hntl",
         "numeric": "504",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": null,
             "ranges": [],
@@ -3338,7 +3480,9 @@ const Scripts = `[
     {
         "code": "Hrkt",
         "numeric": "412",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": "1.1",
             "ranges": [],
@@ -3348,7 +3492,9 @@ const Scripts = `[
     {
         "code": "Hung",
         "numeric": "176",
-        "writingDirection": "rtl",
+        "writingDirection": {
+            "code": "rtl"
+        },
         "unicode": {
             "version": "8.0",
             "ranges": [
@@ -3371,7 +3517,9 @@ const Scripts = `[
     {
         "code": "Inds",
         "numeric": "610",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": null,
             "ranges": [],
@@ -3381,7 +3529,9 @@ const Scripts = `[
     {
         "code": "Ital",
         "numeric": "210",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "3.1",
             "ranges": [
@@ -3404,7 +3554,9 @@ const Scripts = `[
     {
         "code": "Jamo",
         "numeric": "284",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "1.1",
             "ranges": [],
@@ -3414,7 +3566,9 @@ const Scripts = `[
     {
         "code": "Java",
         "numeric": "361",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "5.2",
             "ranges": [
@@ -3471,7 +3625,9 @@ const Scripts = `[
     {
         "code": "Jpan",
         "numeric": "413",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "1.1",
             "ranges": [],
@@ -3481,7 +3637,9 @@ const Scripts = `[
     {
         "code": "Jurc",
         "numeric": "510",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": null,
             "ranges": [],
@@ -3491,7 +3649,9 @@ const Scripts = `[
     {
         "code": "Kali",
         "numeric": "357",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "5.1",
             "ranges": [
@@ -3517,7 +3677,9 @@ const Scripts = `[
     {
         "code": "Kana",
         "numeric": "411",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "1.1",
             "ranges": [
@@ -3585,7 +3747,9 @@ const Scripts = `[
     {
         "code": "Kawi",
         "numeric": "368",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "15.0",
             "ranges": [
@@ -3646,7 +3810,9 @@ const Scripts = `[
     {
         "code": "Khar",
         "numeric": "305",
-        "writingDirection": "rtl",
+        "writingDirection": {
+            "code": "rtl"
+        },
         "unicode": {
             "version": "4.1",
             "ranges": [
@@ -3699,7 +3865,9 @@ const Scripts = `[
     {
         "code": "Khmr",
         "numeric": "355",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "3.0",
             "ranges": [
@@ -3772,7 +3940,9 @@ const Scripts = `[
     {
         "code": "Khoj",
         "numeric": "322",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "7.0",
             "ranges": [
@@ -3827,7 +3997,9 @@ const Scripts = `[
     {
         "code": "Kitl",
         "numeric": "505",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": null,
             "ranges": [],
@@ -3837,7 +4009,9 @@ const Scripts = `[
     {
         "code": "Kits",
         "numeric": "288",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "13.0",
             "ranges": [
@@ -3858,7 +4032,9 @@ const Scripts = `[
     {
         "code": "Knda",
         "numeric": "345",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "1.1",
             "ranges": [
@@ -3960,7 +4136,9 @@ const Scripts = `[
     {
         "code": "Kore",
         "numeric": "287",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "1.1",
             "ranges": [],
@@ -3970,7 +4148,9 @@ const Scripts = `[
     {
         "code": "Kpel",
         "numeric": "436",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": null,
             "ranges": [],
@@ -3980,7 +4160,9 @@ const Scripts = `[
     {
         "code": "Krai",
         "numeric": "396",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "16.0",
             "ranges": [
@@ -4011,7 +4193,9 @@ const Scripts = `[
     {
         "code": "Kthi",
         "numeric": "317",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "5.2",
             "ranges": [
@@ -4066,7 +4250,9 @@ const Scripts = `[
     {
         "code": "Lana",
         "numeric": "351",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "5.2",
             "ranges": [
@@ -4141,7 +4327,9 @@ const Scripts = `[
     {
         "code": "Laoo",
         "numeric": "356",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "1.1",
             "ranges": [
@@ -4207,7 +4395,9 @@ const Scripts = `[
     {
         "code": "Latf",
         "numeric": "217",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": "1.1",
             "ranges": [],
@@ -4217,7 +4407,9 @@ const Scripts = `[
     {
         "code": "Latg",
         "numeric": "216",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": "1.1",
             "ranges": [],
@@ -4227,7 +4419,9 @@ const Scripts = `[
     {
         "code": "Latn",
         "numeric": "215",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "1.1",
             "ranges": [
@@ -4479,7 +4673,9 @@ const Scripts = `[
     {
         "code": "Leke",
         "numeric": "364",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": null,
             "ranges": [],
@@ -4489,7 +4685,9 @@ const Scripts = `[
     {
         "code": "Lepc",
         "numeric": "335",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "5.1",
             "ranges": [
@@ -4532,7 +4730,9 @@ const Scripts = `[
     {
         "code": "Limb",
         "numeric": "336",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "4.0",
             "ranges": [
@@ -4589,7 +4789,9 @@ const Scripts = `[
     {
         "code": "Lina",
         "numeric": "400",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "7.0",
             "ranges": [
@@ -4612,7 +4814,9 @@ const Scripts = `[
     {
         "code": "Linb",
         "numeric": "401",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "4.0",
             "ranges": [
@@ -4651,7 +4855,9 @@ const Scripts = `[
     {
         "code": "Lisu",
         "numeric": "399",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "5.2",
             "ranges": [
@@ -4677,7 +4883,9 @@ const Scripts = `[
     {
         "code": "Loma",
         "numeric": "437",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": null,
             "ranges": [],
@@ -4687,7 +4895,9 @@ const Scripts = `[
     {
         "code": "Lyci",
         "numeric": "202",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "5.1",
             "ranges": [
@@ -4702,7 +4912,9 @@ const Scripts = `[
     {
         "code": "Lydi",
         "numeric": "116",
-        "writingDirection": "rtl",
+        "writingDirection": {
+            "code": "rtl"
+        },
         "unicode": {
             "version": "5.1",
             "ranges": [
@@ -4720,7 +4932,9 @@ const Scripts = `[
     {
         "code": "Mahj",
         "numeric": "314",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "7.0",
             "ranges": [
@@ -4745,7 +4959,9 @@ const Scripts = `[
     {
         "code": "Maka",
         "numeric": "366",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "11.0",
             "ranges": [
@@ -4772,7 +4988,9 @@ const Scripts = `[
     {
         "code": "Mand",
         "numeric": "140",
-        "writingDirection": "rtl",
+        "writingDirection": {
+            "code": "rtl"
+        },
         "unicode": {
             "version": "6.0",
             "ranges": [
@@ -4794,7 +5012,9 @@ const Scripts = `[
     {
         "code": "Mani",
         "numeric": "139",
-        "writingDirection": "rtl",
+        "writingDirection": {
+            "code": "rtl"
+        },
         "unicode": {
             "version": "7.0",
             "ranges": [
@@ -4828,7 +5048,9 @@ const Scripts = `[
     {
         "code": "Marc",
         "numeric": "332",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "9.0",
             "ranges": [
@@ -4872,7 +5094,9 @@ const Scripts = `[
     {
         "code": "Maya",
         "numeric": "090",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": null,
             "ranges": [],
@@ -4882,7 +5106,9 @@ const Scripts = `[
     {
         "code": "Medf",
         "numeric": "265",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "11.0",
             "ranges": [
@@ -4905,7 +5131,9 @@ const Scripts = `[
     {
         "code": "Mend",
         "numeric": "438",
-        "writingDirection": "rtl",
+        "writingDirection": {
+            "code": "rtl"
+        },
         "unicode": {
             "version": "7.0",
             "ranges": [
@@ -4928,7 +5156,9 @@ const Scripts = `[
     {
         "code": "Merc",
         "numeric": "101",
-        "writingDirection": "rtl",
+        "writingDirection": {
+            "code": "rtl"
+        },
         "unicode": {
             "version": "6.1",
             "ranges": [
@@ -4959,7 +5189,9 @@ const Scripts = `[
     {
         "code": "Mero",
         "numeric": "100",
-        "writingDirection": "rtl",
+        "writingDirection": {
+            "code": "rtl"
+        },
         "unicode": {
             "version": "6.1",
             "ranges": [
@@ -4974,7 +5206,9 @@ const Scripts = `[
     {
         "code": "Mlym",
         "numeric": "347",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "1.1",
             "ranges": [
@@ -5071,7 +5305,9 @@ const Scripts = `[
     {
         "code": "Modi",
         "numeric": "324",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "7.0",
             "ranges": [
@@ -5119,7 +5355,9 @@ const Scripts = `[
     {
         "code": "Mong",
         "numeric": "145",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "3.0",
             "ranges": [
@@ -5191,7 +5429,9 @@ const Scripts = `[
     {
         "code": "Moon",
         "numeric": "218",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": null,
             "ranges": [],
@@ -5201,7 +5441,9 @@ const Scripts = `[
     {
         "code": "Mroo",
         "numeric": "264",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "7.0",
             "ranges": [
@@ -5224,7 +5466,9 @@ const Scripts = `[
     {
         "code": "Mtei",
         "numeric": "337",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "5.2",
             "ranges": [
@@ -5302,7 +5546,9 @@ const Scripts = `[
     {
         "code": "Mult",
         "numeric": "323",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "8.0",
             "ranges": [
@@ -5335,7 +5581,9 @@ const Scripts = `[
     {
         "code": "Mymr",
         "numeric": "350",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "3.0",
             "ranges": [
@@ -5534,7 +5782,9 @@ const Scripts = `[
     {
         "code": "Nagm",
         "numeric": "295",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "15.0",
             "ranges": [
@@ -5560,7 +5810,9 @@ const Scripts = `[
     {
         "code": "Nand",
         "numeric": "311",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "12.0",
             "ranges": [
@@ -5610,7 +5862,9 @@ const Scripts = `[
     {
         "code": "Narb",
         "numeric": "106",
-        "writingDirection": "rtl",
+        "writingDirection": {
+            "code": "rtl"
+        },
         "unicode": {
             "version": "7.0",
             "ranges": [
@@ -5629,7 +5883,9 @@ const Scripts = `[
     {
         "code": "Nbat",
         "numeric": "159",
-        "writingDirection": "rtl",
+        "writingDirection": {
+            "code": "rtl"
+        },
         "unicode": {
             "version": "7.0",
             "ranges": [
@@ -5648,7 +5904,9 @@ const Scripts = `[
     {
         "code": "Newa",
         "numeric": "333",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "9.0",
             "ranges": [
@@ -5711,7 +5969,9 @@ const Scripts = `[
     {
         "code": "Nkdb",
         "numeric": "085",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": null,
             "ranges": [],
@@ -5721,7 +5981,9 @@ const Scripts = `[
     {
         "code": "Nkgb",
         "numeric": "420",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": null,
             "ranges": [],
@@ -5731,7 +5993,9 @@ const Scripts = `[
     {
         "code": "Nkoo",
         "numeric": "165",
-        "writingDirection": "rtl",
+        "writingDirection": {
+            "code": "rtl"
+        },
         "unicode": {
             "version": "5.0",
             "ranges": [
@@ -5775,7 +6039,9 @@ const Scripts = `[
     {
         "code": "Nshu",
         "numeric": "499",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "10.0",
             "ranges": [
@@ -5793,7 +6059,9 @@ const Scripts = `[
     {
         "code": "Ogam",
         "numeric": "212",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "3.0",
             "ranges": [
@@ -5817,7 +6085,9 @@ const Scripts = `[
     {
         "code": "Olck",
         "numeric": "261",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "5.1",
             "ranges": [
@@ -5844,7 +6114,9 @@ const Scripts = `[
     {
         "code": "Onao",
         "numeric": "296",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "16.0",
             "ranges": [
@@ -5873,7 +6145,9 @@ const Scripts = `[
     {
         "code": "Orkh",
         "numeric": "175",
-        "writingDirection": "rtl",
+        "writingDirection": {
+            "code": "rtl"
+        },
         "unicode": {
             "version": "5.2",
             "ranges": [
@@ -5888,7 +6162,9 @@ const Scripts = `[
     {
         "code": "Orya",
         "numeric": "327",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "1.1",
             "ranges": [
@@ -5993,7 +6269,9 @@ const Scripts = `[
     {
         "code": "Osge",
         "numeric": "219",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "9.0",
             "ranges": [
@@ -6012,7 +6290,9 @@ const Scripts = `[
     {
         "code": "Osma",
         "numeric": "260",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "4.0",
             "ranges": [
@@ -6031,7 +6311,9 @@ const Scripts = `[
     {
         "code": "Ougr",
         "numeric": "143",
-        "writingDirection": "rtl",
+        "writingDirection": {
+            "code": "rtl"
+        },
         "unicode": {
             "version": "14.0",
             "ranges": [
@@ -6054,7 +6336,9 @@ const Scripts = `[
     {
         "code": "Palm",
         "numeric": "126",
-        "writingDirection": "rtl",
+        "writingDirection": {
+            "code": "rtl"
+        },
         "unicode": {
             "version": "7.0",
             "ranges": [
@@ -6077,7 +6361,9 @@ const Scripts = `[
     {
         "code": "Pauc",
         "numeric": "263",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "7.0",
             "ranges": [
@@ -6092,7 +6378,9 @@ const Scripts = `[
     {
         "code": "Pcun",
         "numeric": "015",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": null,
             "ranges": [],
@@ -6102,7 +6390,9 @@ const Scripts = `[
     {
         "code": "Pelm",
         "numeric": "016",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": null,
             "ranges": [],
@@ -6112,7 +6402,9 @@ const Scripts = `[
     {
         "code": "Perm",
         "numeric": "227",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "7.0",
             "ranges": [
@@ -6131,7 +6423,9 @@ const Scripts = `[
     {
         "code": "Phag",
         "numeric": "331",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "5.0",
             "ranges": [
@@ -6150,7 +6444,9 @@ const Scripts = `[
     {
         "code": "Phli",
         "numeric": "131",
-        "writingDirection": "rtl",
+        "writingDirection": {
+            "code": "rtl"
+        },
         "unicode": {
             "version": "5.2",
             "ranges": [
@@ -6169,7 +6465,9 @@ const Scripts = `[
     {
         "code": "Phlp",
         "numeric": "132",
-        "writingDirection": "rtl",
+        "writingDirection": {
+            "code": "rtl"
+        },
         "unicode": {
             "version": "7.0",
             "ranges": [
@@ -6192,7 +6490,9 @@ const Scripts = `[
     {
         "code": "Phlv",
         "numeric": "133",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": null,
             "ranges": [],
@@ -6202,7 +6502,9 @@ const Scripts = `[
     {
         "code": "Phnx",
         "numeric": "115",
-        "writingDirection": "rtl",
+        "writingDirection": {
+            "code": "rtl"
+        },
         "unicode": {
             "version": "5.0",
             "ranges": [
@@ -6224,7 +6526,9 @@ const Scripts = `[
     {
         "code": "Piqd",
         "numeric": "293",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": null,
             "ranges": [],
@@ -6234,7 +6538,9 @@ const Scripts = `[
     {
         "code": "Plrd",
         "numeric": "282",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "6.1",
             "ranges": [
@@ -6267,7 +6573,9 @@ const Scripts = `[
     {
         "code": "Prti",
         "numeric": "130",
-        "writingDirection": "rtl",
+        "writingDirection": {
+            "code": "rtl"
+        },
         "unicode": {
             "version": "5.2",
             "ranges": [
@@ -6286,7 +6594,9 @@ const Scripts = `[
     {
         "code": "Psin",
         "numeric": "103",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": null,
             "ranges": [],
@@ -6296,7 +6606,9 @@ const Scripts = `[
     {
         "code": "Qaaa",
         "numeric": "900",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": null,
             "ranges": [],
@@ -6306,7 +6618,9 @@ const Scripts = `[
     {
         "code": "Qabx",
         "numeric": "949",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": null,
             "ranges": [],
@@ -6316,7 +6630,9 @@ const Scripts = `[
     {
         "code": "Ranj",
         "numeric": "303",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": null,
             "ranges": [],
@@ -6326,7 +6642,9 @@ const Scripts = `[
     {
         "code": "Rjng",
         "numeric": "363",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "5.1",
             "ranges": [
@@ -6352,7 +6670,9 @@ const Scripts = `[
     {
         "code": "Rohg",
         "numeric": "167",
-        "writingDirection": "rtl",
+        "writingDirection": {
+            "code": "rtl"
+        },
         "unicode": {
             "version": "11.0",
             "ranges": [
@@ -6375,7 +6695,9 @@ const Scripts = `[
     {
         "code": "Roro",
         "numeric": "620",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": null,
             "ranges": [],
@@ -6385,7 +6707,9 @@ const Scripts = `[
     {
         "code": "Runr",
         "numeric": "211",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "3.0",
             "ranges": [
@@ -6408,7 +6732,9 @@ const Scripts = `[
     {
         "code": "Samr",
         "numeric": "123",
-        "writingDirection": "rtl",
+        "writingDirection": {
+            "code": "rtl"
+        },
         "unicode": {
             "version": "5.2",
             "ranges": [
@@ -6452,7 +6778,9 @@ const Scripts = `[
     {
         "code": "Sara",
         "numeric": "292",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": null,
             "ranges": [],
@@ -6462,7 +6790,9 @@ const Scripts = `[
     {
         "code": "Sarb",
         "numeric": "105",
-        "writingDirection": "rtl",
+        "writingDirection": {
+            "code": "rtl"
+        },
         "unicode": {
             "version": "5.2",
             "ranges": [
@@ -6484,7 +6814,9 @@ const Scripts = `[
     {
         "code": "Saur",
         "numeric": "344",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "5.1",
             "ranges": [
@@ -6519,7 +6851,9 @@ const Scripts = `[
     {
         "code": "Seal",
         "numeric": "590",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": null,
             "ranges": [],
@@ -6529,7 +6863,9 @@ const Scripts = `[
     {
         "code": "Sgnw",
         "numeric": "095",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "8.0",
             "ranges": [
@@ -6586,7 +6922,9 @@ const Scripts = `[
     {
         "code": "Shaw",
         "numeric": "281",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "4.0",
             "ranges": [
@@ -6601,7 +6939,9 @@ const Scripts = `[
     {
         "code": "Shrd",
         "numeric": "319",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "6.1",
             "ranges": [
@@ -6673,7 +7013,9 @@ const Scripts = `[
     {
         "code": "Shui",
         "numeric": "530",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": null,
             "ranges": [],
@@ -6683,7 +7025,9 @@ const Scripts = `[
     {
         "code": "Sidd",
         "numeric": "302",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "7.0",
             "ranges": [
@@ -6733,7 +7077,9 @@ const Scripts = `[
     {
         "code": "Sidt",
         "numeric": "180",
-        "writingDirection": "rtl",
+        "writingDirection": {
+            "code": "rtl"
+        },
         "unicode": {
             "version": null,
             "ranges": [],
@@ -6743,7 +7089,9 @@ const Scripts = `[
     {
         "code": "Sind",
         "numeric": "318",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "7.0",
             "ranges": [
@@ -6773,7 +7121,9 @@ const Scripts = `[
     {
         "code": "Sinh",
         "numeric": "348",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "3.0",
             "ranges": [
@@ -6843,7 +7193,9 @@ const Scripts = `[
     {
         "code": "Sogd",
         "numeric": "141",
-        "writingDirection": "rtl",
+        "writingDirection": {
+            "code": "rtl"
+        },
         "unicode": {
             "version": "11.0",
             "ranges": [
@@ -6870,7 +7222,9 @@ const Scripts = `[
     {
         "code": "Sogo",
         "numeric": "142",
-        "writingDirection": "rtl",
+        "writingDirection": {
+            "code": "rtl"
+        },
         "unicode": {
             "version": "11.0",
             "ranges": [
@@ -6892,7 +7246,9 @@ const Scripts = `[
     {
         "code": "Sora",
         "numeric": "398",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "6.1",
             "ranges": [
@@ -6911,7 +7267,9 @@ const Scripts = `[
     {
         "code": "Soyo",
         "numeric": "329",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "10.0",
             "ranges": [
@@ -6963,7 +7321,9 @@ const Scripts = `[
     {
         "code": "Sund",
         "numeric": "362",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "5.1",
             "ranges": [
@@ -7023,7 +7383,9 @@ const Scripts = `[
     {
         "code": "Sunu",
         "numeric": "274",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "16.0",
             "ranges": [
@@ -7045,7 +7407,9 @@ const Scripts = `[
     {
         "code": "Sylo",
         "numeric": "316",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "4.1",
             "ranges": [
@@ -7099,7 +7463,9 @@ const Scripts = `[
     {
         "code": "Syrc",
         "numeric": "135",
-        "writingDirection": "rtl",
+        "writingDirection": {
+            "code": "rtl"
+        },
         "unicode": {
             "version": "3.0",
             "ranges": [
@@ -7139,7 +7505,9 @@ const Scripts = `[
     {
         "code": "Syre",
         "numeric": "138",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": "3.0",
             "ranges": [],
@@ -7149,7 +7517,9 @@ const Scripts = `[
     {
         "code": "Syrj",
         "numeric": "137",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": "3.0",
             "ranges": [],
@@ -7159,7 +7529,9 @@ const Scripts = `[
     {
         "code": "Syrn",
         "numeric": "136",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": "3.0",
             "ranges": [],
@@ -7169,7 +7541,9 @@ const Scripts = `[
     {
         "code": "Tagb",
         "numeric": "373",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "3.2",
             "ranges": [
@@ -7192,7 +7566,9 @@ const Scripts = `[
     {
         "code": "Takr",
         "numeric": "321",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "6.1",
             "ranges": [
@@ -7240,7 +7616,9 @@ const Scripts = `[
     {
         "code": "Tale",
         "numeric": "353",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "4.0",
             "ranges": [
@@ -7259,7 +7637,9 @@ const Scripts = `[
     {
         "code": "Talu",
         "numeric": "354",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "4.1",
             "ranges": [
@@ -7289,7 +7669,9 @@ const Scripts = `[
     {
         "code": "Taml",
         "numeric": "346",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "1.1",
             "ranges": [
@@ -7406,7 +7788,9 @@ const Scripts = `[
     {
         "code": "Tang",
         "numeric": "520",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "9.0",
             "ranges": [
@@ -7432,7 +7816,9 @@ const Scripts = `[
     {
         "code": "Tavt",
         "numeric": "359",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "5.2",
             "ranges": [
@@ -7493,7 +7879,9 @@ const Scripts = `[
     {
         "code": "Tayo",
         "numeric": "380",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": null,
             "ranges": [],
@@ -7503,7 +7891,9 @@ const Scripts = `[
     {
         "code": "Telu",
         "numeric": "340",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "1.1",
             "ranges": [
@@ -7595,7 +7985,9 @@ const Scripts = `[
     {
         "code": "Teng",
         "numeric": "290",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": null,
             "ranges": [],
@@ -7605,7 +7997,9 @@ const Scripts = `[
     {
         "code": "Tfng",
         "numeric": "120",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "4.1",
             "ranges": [
@@ -7629,7 +8023,9 @@ const Scripts = `[
     {
         "code": "Tglg",
         "numeric": "370",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "3.2",
             "ranges": [
@@ -7654,7 +8050,9 @@ const Scripts = `[
     {
         "code": "Thaa",
         "numeric": "170",
-        "writingDirection": "rtl",
+        "writingDirection": {
+            "code": "rtl"
+        },
         "unicode": {
             "version": "3.0",
             "ranges": [
@@ -7676,7 +8074,9 @@ const Scripts = `[
     {
         "code": "Thai",
         "numeric": "352",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "1.1",
             "ranges": [
@@ -7724,7 +8124,9 @@ const Scripts = `[
     {
         "code": "Tibt",
         "numeric": "330",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "2.0",
             "ranges": [
@@ -7867,7 +8269,9 @@ const Scripts = `[
     {
         "code": "Tirh",
         "numeric": "326",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "7.0",
             "ranges": [
@@ -7925,7 +8329,9 @@ const Scripts = `[
     {
         "code": "Tnsa",
         "numeric": "275",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "14.0",
             "ranges": [
@@ -7944,7 +8350,9 @@ const Scripts = `[
     {
         "code": "Todr",
         "numeric": "229",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "16.0",
             "ranges": [
@@ -7959,7 +8367,9 @@ const Scripts = `[
     {
         "code": "Tols",
         "numeric": "299",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": null,
             "ranges": [],
@@ -7969,7 +8379,9 @@ const Scripts = `[
     {
         "code": "Toto",
         "numeric": "294",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "14.0",
             "ranges": [
@@ -7987,7 +8399,9 @@ const Scripts = `[
     {
         "code": "Tutg",
         "numeric": "341",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "16.0",
             "ranges": [
@@ -8067,7 +8481,9 @@ const Scripts = `[
     {
         "code": "Ugar",
         "numeric": "040",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "4.0",
             "ranges": [
@@ -8085,7 +8501,9 @@ const Scripts = `[
     {
         "code": "Vaii",
         "numeric": "470",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "5.1",
             "ranges": [
@@ -8119,7 +8537,9 @@ const Scripts = `[
     {
         "code": "Visp",
         "numeric": "280",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": null,
             "ranges": [],
@@ -8129,7 +8549,9 @@ const Scripts = `[
     {
         "code": "Vith",
         "numeric": "228",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "14.0",
             "ranges": [
@@ -8172,7 +8594,9 @@ const Scripts = `[
     {
         "code": "Wara",
         "numeric": "262",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "7.0",
             "ranges": [
@@ -8198,7 +8622,9 @@ const Scripts = `[
     {
         "code": "Wcho",
         "numeric": "283",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "12.0",
             "ranges": [
@@ -8224,7 +8650,9 @@ const Scripts = `[
     {
         "code": "Wole",
         "numeric": "480",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": null,
             "ranges": [],
@@ -8234,7 +8662,9 @@ const Scripts = `[
     {
         "code": "Xpeo",
         "numeric": "030",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "4.1",
             "ranges": [
@@ -8260,7 +8690,9 @@ const Scripts = `[
     {
         "code": "Xsux",
         "numeric": "020",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "5.0",
             "ranges": [
@@ -8287,7 +8719,9 @@ const Scripts = `[
     {
         "code": "Yezi",
         "numeric": "192",
-        "writingDirection": "rtl",
+        "writingDirection": {
+            "code": "rtl"
+        },
         "unicode": {
             "version": "13.0",
             "ranges": [
@@ -8313,7 +8747,9 @@ const Scripts = `[
     {
         "code": "Yiii",
         "numeric": "460",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "3.0",
             "ranges": [
@@ -8339,7 +8775,9 @@ const Scripts = `[
     {
         "code": "Zanb",
         "numeric": "339",
-        "writingDirection": "ltr",
+        "writingDirection": {
+            "code": "ltr"
+        },
         "unicode": {
             "version": "10.0",
             "ranges": [
@@ -8382,7 +8820,9 @@ const Scripts = `[
     {
         "code": "Zinh",
         "numeric": "994",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": null,
             "ranges": [
@@ -8525,7 +8965,9 @@ const Scripts = `[
     {
         "code": "Zmth",
         "numeric": "995",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": "3.2",
             "ranges": [],
@@ -8535,7 +8977,9 @@ const Scripts = `[
     {
         "code": "Zsye",
         "numeric": "993",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": "6.0",
             "ranges": [],
@@ -8545,7 +8989,9 @@ const Scripts = `[
     {
         "code": "Zsym",
         "numeric": "996",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": "1.1",
             "ranges": [],
@@ -8555,7 +9001,9 @@ const Scripts = `[
     {
         "code": "Zxxx",
         "numeric": "997",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": null,
             "ranges": [],
@@ -8565,7 +9013,9 @@ const Scripts = `[
     {
         "code": "Zyyy",
         "numeric": "998",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": null,
             "ranges": [
@@ -10679,7 +11129,9 @@ const Scripts = `[
     {
         "code": "Zzzz",
         "numeric": "999",
-        "writingDirection": null,
+        "writingDirection": {
+            "code": "nla"
+        },
         "unicode": {
             "version": null,
             "ranges": [],

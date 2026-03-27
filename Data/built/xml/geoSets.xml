@@ -3,6 +3,9 @@
     <geoSet index="0">
         <internalCode>CONV-EZ</internalCode>
         <unM49/>
+        <scope>
+            <code>CONV</code>
+        </scope>
         <tags>
             <tag>convention</tag>
             <tag>zone</tag>
@@ -36,6 +39,9 @@
     <geoSet index="1">
         <internalCode>CONV-G20</internalCode>
         <unM49/>
+        <scope>
+            <code>CONV</code>
+        </scope>
         <tags>
             <tag>convention</tag>
             <tag>geopolitics</tag>
@@ -65,6 +71,9 @@
     <geoSet index="2">
         <internalCode>CONV-G7</internalCode>
         <unM49/>
+        <scope>
+            <code>CONV</code>
+        </scope>
         <tags>
             <tag>convention</tag>
             <tag>geopolitics</tag>
@@ -82,6 +91,9 @@
     <geoSet index="3">
         <internalCode>CONV-SCHENGEN</internalCode>
         <unM49/>
+        <scope>
+            <code>CONV</code>
+        </scope>
         <tags>
             <tag>convention</tag>
             <tag>geopolitics</tag>
@@ -119,6 +131,9 @@
     <geoSet index="4">
         <internalCode>CONV-UNCAC</internalCode>
         <unM49/>
+        <scope>
+            <code>CONV</code>
+        </scope>
         <tags>
             <tag>convention</tag>
             <tag>security</tag>
@@ -319,6 +334,9 @@
     <geoSet index="5">
         <internalCode>GEOG-AF</internalCode>
         <unM49>002</unM49>
+        <scope>
+            <code>GEOG</code>
+        </scope>
         <tags>
             <tag>geography</tag>
             <tag>region</tag>
@@ -389,6 +407,9 @@
     <geoSet index="6">
         <internalCode>GEOG-AF-NO</internalCode>
         <unM49>015</unM49>
+        <scope>
+            <code>GEOG</code>
+        </scope>
         <tags>
             <tag>geography</tag>
             <tag>subregion</tag>
@@ -406,6 +427,9 @@
     <geoSet index="7">
         <internalCode>GEOG-AF-SS</internalCode>
         <unM49>202</unM49>
+        <scope>
+            <code>GEOG</code>
+        </scope>
         <tags>
             <tag>geography</tag>
             <tag>subregion</tag>
@@ -469,6 +493,9 @@
     <geoSet index="8">
         <internalCode>GEOG-AF-SS-EA</internalCode>
         <unM49>014</unM49>
+        <scope>
+            <code>GEOG</code>
+        </scope>
         <tags>
             <tag>geography</tag>
             <tag>subdivision</tag>
@@ -501,6 +528,9 @@
     <geoSet index="9">
         <internalCode>GEOG-AF-SS-MD</internalCode>
         <unM49>017</unM49>
+        <scope>
+            <code>GEOG</code>
+        </scope>
         <tags>
             <tag>geography</tag>
             <tag>subdivision</tag>
@@ -520,6 +550,9 @@
     <geoSet index="10">
         <internalCode>GEOG-AF-SS-SO</internalCode>
         <unM49>018</unM49>
+        <scope>
+            <code>GEOG</code>
+        </scope>
         <tags>
             <tag>geography</tag>
             <tag>subdivision</tag>
@@ -535,6 +568,9 @@
     <geoSet index="11">
         <internalCode>GEOG-AF-SS-WE</internalCode>
         <unM49>011</unM49>
+        <scope>
+            <code>GEOG</code>
+        </scope>
         <tags>
             <tag>geography</tag>
             <tag>subdivision</tag>
@@ -562,6 +598,9 @@
     <geoSet index="12">
         <internalCode>GEOG-AM</internalCode>
         <unM49>019</unM49>
+        <scope>
+            <code>GEOG</code>
+        </scope>
         <tags>
             <tag>geography</tag>
             <tag>region</tag>
@@ -629,6 +668,9 @@
     <geoSet index="13">
         <internalCode>GEOG-AM-LA</internalCode>
         <unM49>419</unM49>
+        <scope>
+            <code>GEOG</code>
+        </scope>
         <tags>
             <tag>geography</tag>
             <tag>subregion</tag>
@@ -691,6 +733,9 @@
     <geoSet index="14">
         <internalCode>GEOG-AM-LA-CA</internalCode>
         <unM49>029</unM49>
+        <scope>
+            <code>GEOG</code>
+        </scope>
         <tags>
             <tag>geography</tag>
             <tag>subdivision</tag>
@@ -729,6 +774,9 @@
     <geoSet index="15">
         <internalCode>GEOG-AM-LA-CT</internalCode>
         <unM49>013</unM49>
+        <scope>
+            <code>GEOG</code>
+        </scope>
         <tags>
             <tag>geography</tag>
             <tag>subdivision</tag>
@@ -747,6 +795,9 @@
     <geoSet index="16">
         <internalCode>GEOG-AM-LA-SO</internalCode>
         <unM49>005</unM49>
+        <scope>
+            <code>GEOG</code>
+        </scope>
         <tags>
             <tag>geography</tag>
             <tag>subdivision</tag>
@@ -773,6 +824,9 @@
     <geoSet index="17">
         <internalCode>GEOG-AM-NO</internalCode>
         <unM49>021</unM49>
+        <scope>
+            <code>GEOG</code>
+        </scope>
         <tags>
             <tag>geography</tag>
             <tag>subregion</tag>
@@ -788,6 +842,9 @@
     <geoSet index="18">
         <internalCode>GEOG-AQ</internalCode>
         <unM49>010</unM49>
+        <scope>
+            <code>GEOG</code>
+        </scope>
         <tags>
             <tag>geography</tag>
             <tag>region</tag>
@@ -799,6 +856,9 @@
     <geoSet index="19">
         <internalCode>GEOG-AS</internalCode>
         <unM49>142</unM49>
+        <scope>
+            <code>GEOG</code>
+        </scope>
         <tags>
             <tag>geography</tag>
             <tag>region</tag>
@@ -860,6 +920,9 @@
     <geoSet index="20">
         <internalCode>GEOG-AS-CT</internalCode>
         <unM49>143</unM49>
+        <scope>
+            <code>GEOG</code>
+        </scope>
         <tags>
             <tag>geography</tag>
             <tag>subregion</tag>
@@ -875,6 +938,9 @@
     <geoSet index="21">
         <internalCode>GEOG-AS-EA</internalCode>
         <unM49>030</unM49>
+        <scope>
+            <code>GEOG</code>
+        </scope>
         <tags>
             <tag>geography</tag>
             <tag>subregion</tag>
@@ -893,6 +959,9 @@
     <geoSet index="22">
         <internalCode>GEOG-AS-SE</internalCode>
         <unM49>035</unM49>
+        <scope>
+            <code>GEOG</code>
+        </scope>
         <tags>
             <tag>geography</tag>
             <tag>subregion</tag>
@@ -914,6 +983,9 @@
     <geoSet index="23">
         <internalCode>GEOG-AS-SO</internalCode>
         <unM49>034</unM49>
+        <scope>
+            <code>GEOG</code>
+        </scope>
         <tags>
             <tag>geography</tag>
             <tag>subregion</tag>
@@ -933,6 +1005,9 @@
     <geoSet index="24">
         <internalCode>GEOG-AS-WE</internalCode>
         <unM49>145</unM49>
+        <scope>
+            <code>GEOG</code>
+        </scope>
         <tags>
             <tag>geography</tag>
             <tag>subregion</tag>
@@ -961,6 +1036,9 @@
     <geoSet index="25">
         <internalCode>GEOG-EU</internalCode>
         <unM49>150</unM49>
+        <scope>
+            <code>GEOG</code>
+        </scope>
         <tags>
             <tag>geography</tag>
             <tag>region</tag>
@@ -1023,6 +1101,9 @@
     <geoSet index="26">
         <internalCode>GEOG-EU-EA</internalCode>
         <unM49>151</unM49>
+        <scope>
+            <code>GEOG</code>
+        </scope>
         <tags>
             <tag>geography</tag>
             <tag>subregion</tag>
@@ -1043,6 +1124,9 @@
     <geoSet index="27">
         <internalCode>GEOG-EU-NO</internalCode>
         <unM49>154</unM49>
+        <scope>
+            <code>GEOG</code>
+        </scope>
         <tags>
             <tag>geography</tag>
             <tag>subregion</tag>
@@ -1069,6 +1153,9 @@
     <geoSet index="28">
         <internalCode>GEOG-EU-NO-CH</internalCode>
         <unM49>830</unM49>
+        <scope>
+            <code>GEOG</code>
+        </scope>
         <tags>
             <tag>geography</tag>
             <tag>subdivision</tag>
@@ -1081,6 +1168,9 @@
     <geoSet index="29">
         <internalCode>GEOG-EU-SO</internalCode>
         <unM49>039</unM49>
+        <scope>
+            <code>GEOG</code>
+        </scope>
         <tags>
             <tag>geography</tag>
             <tag>subregion</tag>
@@ -1108,6 +1198,9 @@
     <geoSet index="30">
         <internalCode>GEOG-EU-WE</internalCode>
         <unM49>155</unM49>
+        <scope>
+            <code>GEOG</code>
+        </scope>
         <tags>
             <tag>geography</tag>
             <tag>subregion</tag>
@@ -1127,6 +1220,9 @@
     <geoSet index="31">
         <internalCode>GEOG-OC</internalCode>
         <unM49>009</unM49>
+        <scope>
+            <code>GEOG</code>
+        </scope>
         <tags>
             <tag>geography</tag>
             <tag>region</tag>
@@ -1166,6 +1262,9 @@
     <geoSet index="32">
         <internalCode>GEOG-OC-AN</internalCode>
         <unM49>053</unM49>
+        <scope>
+            <code>GEOG</code>
+        </scope>
         <tags>
             <tag>geography</tag>
             <tag>subregion</tag>
@@ -1182,6 +1281,9 @@
     <geoSet index="33">
         <internalCode>GEOG-OC-ME</internalCode>
         <unM49>054</unM49>
+        <scope>
+            <code>GEOG</code>
+        </scope>
         <tags>
             <tag>geography</tag>
             <tag>subregion</tag>
@@ -1197,6 +1299,9 @@
     <geoSet index="34">
         <internalCode>GEOG-OC-MI</internalCode>
         <unM49>057</unM49>
+        <scope>
+            <code>GEOG</code>
+        </scope>
         <tags>
             <tag>geography</tag>
             <tag>subregion</tag>
@@ -1215,6 +1320,9 @@
     <geoSet index="35">
         <internalCode>GEOG-OC-PO</internalCode>
         <unM49>061</unM49>
+        <scope>
+            <code>GEOG</code>
+        </scope>
         <tags>
             <tag>geography</tag>
             <tag>subregion</tag>
@@ -1235,6 +1343,9 @@
     <geoSet index="36">
         <internalCode>ORGS-ACTO</internalCode>
         <unM49/>
+        <scope>
+            <code>ORGS</code>
+        </scope>
         <tags>
             <tag>organization</tag>
             <tag>geopolitics</tag>
@@ -1253,6 +1364,9 @@
     <geoSet index="37">
         <internalCode>ORGS-ASEAN</internalCode>
         <unM49/>
+        <scope>
+            <code>ORGS</code>
+        </scope>
         <tags>
             <tag>organization</tag>
             <tag>geopolitics</tag>
@@ -1274,6 +1388,9 @@
     <geoSet index="38">
         <internalCode>ORGS-AU</internalCode>
         <unM49/>
+        <scope>
+            <code>ORGS</code>
+        </scope>
         <tags>
             <tag>organization</tag>
             <tag>geopolitics</tag>
@@ -1335,6 +1452,9 @@
     <geoSet index="39">
         <internalCode>ORGS-BRICS</internalCode>
         <unM49/>
+        <scope>
+            <code>ORGS</code>
+        </scope>
         <tags>
             <tag>organization</tag>
             <tag>economy</tag>
@@ -1350,6 +1470,9 @@
     <geoSet index="40">
         <internalCode>ORGS-CIS</internalCode>
         <unM49/>
+        <scope>
+            <code>ORGS</code>
+        </scope>
         <tags>
             <tag>organization</tag>
             <tag>geopolitics</tag>
@@ -1369,6 +1492,9 @@
     <geoSet index="41">
         <internalCode>ORGS-COE</internalCode>
         <unM49/>
+        <scope>
+            <code>ORGS</code>
+        </scope>
         <tags>
             <tag>organization</tag>
             <tag>geopolitics</tag>
@@ -1426,6 +1552,9 @@
     <geoSet index="42">
         <internalCode>ORGS-CSTO</internalCode>
         <unM49/>
+        <scope>
+            <code>ORGS</code>
+        </scope>
         <tags>
             <tag>organization</tag>
             <tag>military</tag>
@@ -1442,6 +1571,9 @@
     <geoSet index="43">
         <internalCode>ORGS-CWNAT</internalCode>
         <unM49/>
+        <scope>
+            <code>ORGS</code>
+        </scope>
         <tags>
             <tag>organization</tag>
             <tag>geopolitics</tag>
@@ -1508,6 +1640,9 @@
     <geoSet index="44">
         <internalCode>ORGS-CWRLM</internalCode>
         <unM49/>
+        <scope>
+            <code>ORGS</code>
+        </scope>
         <tags>
             <tag>organization</tag>
             <tag>geopolitics</tag>
@@ -1533,6 +1668,9 @@
     <geoSet index="45">
         <internalCode>ORGS-EU</internalCode>
         <unM49/>
+        <scope>
+            <code>ORGS</code>
+        </scope>
         <tags>
             <tag>organization</tag>
             <tag>geopolitics</tag>
@@ -1570,6 +1708,9 @@
     <geoSet index="46">
         <internalCode>ORGS-IBRD</internalCode>
         <unM49/>
+        <scope>
+            <code>ORGS</code>
+        </scope>
         <tags>
             <tag>organization</tag>
             <tag>finance</tag>
@@ -1769,6 +1910,9 @@
     <geoSet index="47">
         <internalCode>ORGS-ICC</internalCode>
         <unM49/>
+        <scope>
+            <code>ORGS</code>
+        </scope>
         <tags>
             <tag>organization</tag>
             <tag>jurisprudence</tag>
@@ -1903,6 +2047,9 @@
     <geoSet index="48">
         <internalCode>ORGS-ICSID</internalCode>
         <unM49/>
+        <scope>
+            <code>ORGS</code>
+        </scope>
         <tags>
             <tag>organization</tag>
             <tag>finance</tag>
@@ -2071,6 +2218,9 @@
     <geoSet index="49">
         <internalCode>ORGS-IDA</internalCode>
         <unM49/>
+        <scope>
+            <code>ORGS</code>
+        </scope>
         <tags>
             <tag>organization</tag>
             <tag>finance</tag>
@@ -2255,6 +2405,9 @@
     <geoSet index="50">
         <internalCode>ORGS-IFC</internalCode>
         <unM49/>
+        <scope>
+            <code>ORGS</code>
+        </scope>
         <tags>
             <tag>organization</tag>
             <tag>finance</tag>
@@ -2451,6 +2604,9 @@
     <geoSet index="51">
         <internalCode>ORGS-IPOL</internalCode>
         <unM49/>
+        <scope>
+            <code>ORGS</code>
+        </scope>
         <tags>
             <tag>organization</tag>
             <tag>security</tag>
@@ -2655,6 +2811,9 @@
     <geoSet index="52">
         <internalCode>ORGS-MIGA</internalCode>
         <unM49/>
+        <scope>
+            <code>ORGS</code>
+        </scope>
         <tags>
             <tag>organization</tag>
             <tag>finance</tag>
@@ -2847,6 +3006,9 @@
     <geoSet index="53">
         <internalCode>ORGS-NATO</internalCode>
         <unM49/>
+        <scope>
+            <code>ORGS</code>
+        </scope>
         <tags>
             <tag>organization</tag>
             <tag>military</tag>
@@ -2887,6 +3049,9 @@
     <geoSet index="54">
         <internalCode>ORGS-OAS</internalCode>
         <unM49/>
+        <scope>
+            <code>ORGS</code>
+        </scope>
         <tags>
             <tag>organization</tag>
             <tag>geopolitics</tag>
@@ -2932,6 +3097,9 @@
     <geoSet index="55">
         <internalCode>ORGS-OECD</internalCode>
         <unM49/>
+        <scope>
+            <code>ORGS</code>
+        </scope>
         <tags>
             <tag>organization</tag>
             <tag>geopolitics</tag>
@@ -2980,6 +3148,9 @@
     <geoSet index="56">
         <internalCode>ORGS-OPEC</internalCode>
         <unM49/>
+        <scope>
+            <code>ORGS</code>
+        </scope>
         <tags>
             <tag>organization</tag>
             <tag>economy</tag>
@@ -3003,6 +3174,9 @@
     <geoSet index="57">
         <internalCode>ORGS-OSCE</internalCode>
         <unM49/>
+        <scope>
+            <code>ORGS</code>
+        </scope>
         <tags>
             <tag>organization</tag>
             <tag>geopolitics</tag>
@@ -3070,6 +3244,9 @@
     <geoSet index="58">
         <internalCode>ORGS-SCO</internalCode>
         <unM49/>
+        <scope>
+            <code>ORGS</code>
+        </scope>
         <tags>
             <tag>geopolitics</tag>
             <tag>economy</tag>
@@ -3089,6 +3266,9 @@
     <geoSet index="59">
         <internalCode>ORGS-UN</internalCode>
         <unM49/>
+        <scope>
+            <code>ORGS</code>
+        </scope>
         <tags>
             <tag>organization</tag>
             <tag>geopolitics</tag>
@@ -3292,6 +3472,9 @@
     <geoSet index="60">
         <internalCode>ORGS-WCO</internalCode>
         <unM49/>
+        <scope>
+            <code>ORGS</code>
+        </scope>
         <tags>
             <tag>organization</tag>
             <tag>economy</tag>
@@ -3487,6 +3670,9 @@
     <geoSet index="61">
         <internalCode>ORGS-WTO</internalCode>
         <unM49/>
+        <scope>
+            <code>ORGS</code>
+        </scope>
         <tags>
             <tag>organization</tag>
             <tag>economy</tag>

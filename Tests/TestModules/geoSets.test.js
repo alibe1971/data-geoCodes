@@ -58,6 +58,7 @@ for (const geoSet of Object.values(geoSets)) {
             ).toBe(true);
             uniqueKeysControl.add(`internalCode_${geoSet.internalCode}`);
         });
+        let macroSet = geoSet.internalCode.split('-')[0];
 
         /** unM49 **/
         test(`Test that the geoSet '${geoSet.internalCode}' has the property 'unM49' as a 3 chars numeric string`, () => {
@@ -74,6 +75,27 @@ for (const geoSet of Object.values(geoSets)) {
             if (geoSet.unM49 !== null) {
                 uniqueKeysControl.add(`unM49_${geoSet.unM49}`);
             }
+        });
+
+        /** scope **/
+        test(`Test that the geoSet '${geoSet.internalCode}' has the property 'scope' as not empty object`, () => {
+            expect(
+                geoSet.hasOwnProperty('scope') &&
+                typeof geoSet.scope === 'object' && geoSet.scope !== null &&
+                Object.entries(geoSet.scope).length !== 0
+            ).toBe(true);
+        });
+        test(
+            `Test that for the geoSet '${geoSet.internalCode}', 'scope.code' is ` +
+                `4 uppercase chars length string, matches with the beginning part of the 'internalCode' ` +
+                `and it is inside the list of the available scopes`, () => {
+            expect(
+                geoSet.scope.hasOwnProperty('code') &&
+                typeof geoSet.scope.code === 'string' &&
+                /^[A-Z]{4}$/.test(geoSet.scope.code) &&
+                macroSet === geoSet.scope.code &&
+                global.APP.extra.geoSets.scopes.includes(geoSet.scope.code)
+            ).toBe(true);
         });
 
         /** tags **/
@@ -130,3 +152,19 @@ for (const geoSet of Object.values(geoSets)) {
 
 }
 
+/**
+ * DEFAULT TRANSLATION CATEGORIES
+ */
+describe('Tests `geoSets` Categories (scope) description translation', () => {
+    for (const scope of Object.values(global.APP.extra.geoSets.scopes)) {
+        test(
+            `Test that the geoSets scope '${scope}' is present in the default translation structure as not empty string`,
+            () => {
+            expect(
+                global.APP.translationsCategories.geoSets[defLang].scope.hasOwnProperty(scope) &&
+                typeof global.APP.translationsCategories.geoSets[defLang].scope[scope] === 'string' &&
+                global.APP.translationsCategories.geoSets[defLang].scope[scope] !== ''
+            ).toBe(true);
+        });
+    }
+});

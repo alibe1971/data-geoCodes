@@ -11,6 +11,8 @@ let APP = {
     data: {},
     TranslationDir: configBuild.TranslationDir,
     translations: {},
+    TranslationCategoriesDir: configBuild.TranslationCategoriesDir,
+    translationsCategories: {},
     extra: {}
 };
 
@@ -59,16 +61,31 @@ let APP = {
         );
 
         let translationData = {};
+        let translationCategoriesData = {};
         for (const lang of APP['config'].settings.languages.inPackage) {
             translationData[lang] = {};
             translationData[lang] = await readJsonFile(
                 configBuild.readPaths.origin + configBuild.TranslationDir + lang + '/' + key + '.json'
             );
+            if (configBuild.extra[key].hasCategories === true) {
+                translationCategoriesData[lang] = {};
+                translationCategoriesData[lang] = await readJsonFile(
+                    configBuild.readPaths.origin + configBuild.TranslationDir + lang + '/'
+                    + configBuild.TranslationCategoriesDir + key + '.json'
+                );
+            }
         }
         APP.translations[key] = await functions.DataTranslations(
             translationData,
             APP['config'].settings.languages.default
         );
+        if (configBuild.extra[key].hasCategories === true) {
+            APP.translationsCategories[key] = await functions.DataTranslationsCategories(
+                translationCategoriesData,
+                APP['config'].settings.languages.default
+            );
+        }
+
         console.log(chalk.green('      - Data `' + key + '` parsing completed with success'));
     }
     console.log(chalk.green('   - DATA PARSING SUCCEDED'));
@@ -79,6 +96,7 @@ let APP = {
         await cleanDir(
             configBuild.readPaths.destin + app,
             '/' + configBuild.TranslationDir + '/',
+            '/' +configBuild.TranslationCategoriesDir,
             APP['config'].settings.languages.inPackage
         );
         console.log(chalk.cyan('         - The `' + app + '` directory has now been cleaned'));
@@ -87,14 +105,14 @@ let APP = {
     }
     console.log(chalk.green('   - DATA FILE WRITTEN SUCCESSFULLY'));
 
-    if ( !requirements(Object.keys(APP['extra'].exportDataDirs, 'cannotBeEmpty'))) {
+    if ( requirements(Object.keys(APP['extra'].exportDataDirs), 'cannotBeEmpty')) {
         console.log(chalk.green('   - BEGIN DATA EXPORT'));
         for (const [app, paths] of Object.entries(APP['extra'].exportDataDirs)) {
             if (!Object.prototype.hasOwnProperty.call(configBuild.Apps, app)) {
                 console.log(chalk.red('         - The `' + app + '` is not part in this project. Skipping ...'));
                 continue;
             }
-            if (paths.length == 0) {
+            if (paths.length === 0) {
                 console.log(chalk.red('         - The `' + app + '` has no path where execute the export. ' +
                     'Skipping ...'));
                 continue;
@@ -103,7 +121,7 @@ let APP = {
             for(const path of paths) {
                 if (
                     typeof path !== "string" ||
-                    path.length == 0 ||
+                    path.length === 0 ||
                     !await checkDir(path)
                 ) {
                     console.log(chalk.red('            - The directory `' + path +

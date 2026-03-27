@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translationsCategoriesGeoSets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" language="it">
+    <scope>
+        <GEOG>Geografico</GEOG>
+        <CONV>Convenzione</CONV>
+        <ORGS>Organizzazione geopolitica</ORGS>
+    </scope>
+</translationsCategoriesGeoSets>

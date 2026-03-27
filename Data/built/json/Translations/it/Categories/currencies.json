@@ -1,0 +1,8 @@
+{
+    "scope": {
+        "M": "Monetario (corso legale)",
+        "F": "Uso finanziario (unità contabili / strumenti)",
+        "P": "Metalli preziosi / Materie prime",
+        "S": "Uso speciale"
+    }
+}

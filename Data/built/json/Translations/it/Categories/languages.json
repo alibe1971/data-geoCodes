@@ -1,0 +1,15 @@
+{
+    "scope": {
+        "I": "Individuale",
+        "M": "Macrolingua",
+        "S": "Speciale"
+    },
+    "type": {
+        "A": "Antica",
+        "C": "Costruita (inventata)",
+        "E": "Estinta",
+        "H": "Storica",
+        "L": "Viva",
+        "S": "Speciale"
+    }
+}

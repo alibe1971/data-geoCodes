@@ -25,8 +25,22 @@ export const saveDataForNode = {
                     )
                 );
             }
+
+            /** Translations Categories Data **/
+            if (Object.prototype.hasOwnProperty.call(completeData.translationsCategories, key)) {
+                for (const [lang, dataCatTrans] of Object.entries(completeData.translationsCategories[key])) {
+                    nodeData = saveDataForNode.build(key, dataCatTrans);
+                    await writeFile(destination + completeData.TranslationDir + lang + '/'
+                        + completeData.TranslationCategoriesDir + key + '.js', nodeData );
+                    console.log(
+                        chalk.cyan(
+                            '         - Translations Categories language data `' + lang +'` for `node` app for `'
+                            + key + '` has been written'
+                        )
+                    );
+                }
+            }
         }
-        return;
     },
 
 

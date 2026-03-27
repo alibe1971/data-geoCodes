@@ -1,0 +1,7 @@
+{
+    "scope": {
+        "GEOG": "Geographic",
+        "CONV": "Convention",
+        "ORGS": "Geopolitical Organization"
+    }
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translationsCategoriesLanguages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" language="it">
+    <scope>
+        <I>Individuale</I>
+        <M>Macrolingua</M>
+        <S>Speciale</S>
+    </scope>
+    <type>
+        <A>Antica</A>
+        <C>Costruita (inventata)</C>
+        <E>Estinta</E>
+        <H>Storica</H>
+        <L>Viva</L>
+        <S>Speciale</S>
+    </type>
+</translationsCategoriesLanguages>

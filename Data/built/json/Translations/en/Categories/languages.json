@@ -1,0 +1,15 @@
+{
+    "scope": {
+        "I": "Individual",
+        "M": "Macro language",
+        "S": "Special"
+    },
+    "type": {
+        "A": "Ancient",
+        "C": "Constructed (Invented)",
+        "E": "Extinct",
+        "H": "Historical",
+        "L": "Living",
+        "S": "Special"
+    }
+}

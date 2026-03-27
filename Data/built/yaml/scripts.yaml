@@ -1,6 +1,7 @@
 - code: Adlm
   numeric: '166'
-  writingDirection: rtl
+  writingDirection:
+    code: rtl
   unicode:
     version: '9.0'
     ranges:
@@ -16,14 +17,16 @@
     totalCodePoints: 88
 - code: Afak
   numeric: '439'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: null
     ranges: []
     totalCodePoints: 0
 - code: Aghb
   numeric: '239'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '7.0'
     ranges:
@@ -33,7 +36,8 @@
     totalCodePoints: 53
 - code: Ahom
   numeric: '338'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '8.0'
     ranges:
@@ -61,7 +65,8 @@
     totalCodePoints: 65
 - code: Arab
   numeric: '160'
-  writingDirection: rtl
+  writingDirection:
+    code: rtl
   unicode:
     version: '1.1'
     ranges:
@@ -218,14 +223,16 @@
     totalCodePoints: 1373
 - code: Aran
   numeric: '161'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: '1.1'
     ranges: []
     totalCodePoints: 0
 - code: Armi
   numeric: '124'
-  writingDirection: rtl
+  writingDirection:
+    code: rtl
   unicode:
     version: '5.2'
     ranges:
@@ -237,7 +244,8 @@
     totalCodePoints: 31
 - code: Armn
   numeric: '230'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '1.1'
     ranges:
@@ -258,7 +266,8 @@
     totalCodePoints: 96
 - code: Avst
   numeric: '134'
-  writingDirection: rtl
+  writingDirection:
+    code: rtl
   unicode:
     version: '5.2'
     ranges:
@@ -269,7 +278,8 @@
     totalCodePoints: 61
 - code: Bali
   numeric: '360'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '5.0'
     ranges:
@@ -308,7 +318,8 @@
     totalCodePoints: 127
 - code: Bamu
   numeric: '435'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '5.2'
     ranges:
@@ -325,7 +336,8 @@
     totalCodePoints: 657
 - code: Bass
   numeric: '259'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '7.0'
     ranges:
@@ -337,7 +349,8 @@
     totalCodePoints: 36
 - code: Batk
   numeric: '365'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '6.0'
     ranges:
@@ -360,7 +373,8 @@
     totalCodePoints: 56
 - code: Beng
   numeric: '325'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '1.1'
     ranges:
@@ -414,14 +428,16 @@
     totalCodePoints: 96
 - code: Berf
   numeric: '258'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: null
     ranges: []
     totalCodePoints: 0
 - code: Bhks
   numeric: '334'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '9.0'
     ranges:
@@ -446,14 +462,16 @@
     totalCodePoints: 97
 - code: Blis
   numeric: '550'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: null
     ranges: []
     totalCodePoints: 0
 - code: Bopo
   numeric: '285'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '1.1'
     ranges:
@@ -466,7 +484,8 @@
     totalCodePoints: 77
 - code: Brah
   numeric: '300'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '6.0'
     ranges:
@@ -493,7 +512,8 @@
     totalCodePoints: 115
 - code: Brai
   numeric: '570'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: '3.0'
     ranges:
@@ -502,7 +522,8 @@
     totalCodePoints: 256
 - code: Bugi
   numeric: '367'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '4.1'
     ranges:
@@ -518,7 +539,8 @@
     totalCodePoints: 30
 - code: Buhd
   numeric: '372'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '3.2'
     ranges:
@@ -529,7 +551,8 @@
     totalCodePoints: 20
 - code: Cakm
   numeric: '349'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '6.1'
     ranges:
@@ -553,7 +576,8 @@
     totalCodePoints: 71
 - code: Cans
   numeric: '440'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '3.0'
     ranges:
@@ -571,7 +595,8 @@
     totalCodePoints: 726
 - code: Cari
   numeric: '201'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '5.1'
     ranges:
@@ -580,7 +605,8 @@
     totalCodePoints: 49
 - code: Cham
   numeric: '358'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '5.1'
     ranges:
@@ -610,7 +636,8 @@
     totalCodePoints: 83
 - code: Cher
   numeric: '445'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '3.0'
     ranges:
@@ -623,14 +650,16 @@
     totalCodePoints: 172
 - code: Chis
   numeric: '298'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: null
     ranges: []
     totalCodePoints: 0
 - code: Chrs
   numeric: '109'
-  writingDirection: rtl
+  writingDirection:
+    code: rtl
   unicode:
     version: '13.0'
     ranges:
@@ -641,14 +670,16 @@
     totalCodePoints: 28
 - code: Cirt
   numeric: '291'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: null
     ranges: []
     totalCodePoints: 0
 - code: Copt
   numeric: '204'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '4.1'
     ranges:
@@ -672,7 +703,8 @@
     totalCodePoints: 137
 - code: Cpmn
   numeric: '402'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '14.0'
     ranges:
@@ -683,7 +715,8 @@
     totalCodePoints: 99
 - code: Cprt
   numeric: '403'
-  writingDirection: rtl
+  writingDirection:
+    code: rtl
   unicode:
     version: '4.0'
     ranges:
@@ -699,7 +732,8 @@
     totalCodePoints: 55
 - code: Cyrl
   numeric: '220'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '1.1'
     ranges:
@@ -744,14 +778,16 @@
     totalCodePoints: 508
 - code: Cyrs
   numeric: '221'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: '1.1'
     ranges: []
     totalCodePoints: 0
 - code: Deva
   numeric: '315'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '1.1'
     ranges:
@@ -802,7 +838,8 @@
     totalCodePoints: 164
 - code: Diak
   numeric: '342'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '13.0'
     ranges:
@@ -835,7 +872,8 @@
     totalCodePoints: 72
 - code: Dogr
   numeric: '328'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '11.0'
     ranges:
@@ -852,7 +890,8 @@
     totalCodePoints: 60
 - code: Dsrt
   numeric: '250'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '3.1'
     ranges:
@@ -861,7 +900,8 @@
     totalCodePoints: 80
 - code: Dupl
   numeric: '755'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '7.0'
     ranges:
@@ -880,21 +920,24 @@
     totalCodePoints: 143
 - code: Egyd
   numeric: '070'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: null
     ranges: []
     totalCodePoints: 0
 - code: Egyh
   numeric: '060'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: '5.2'
     ranges: []
     totalCodePoints: 0
 - code: Egyp
   numeric: '050'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '5.2'
     ranges:
@@ -912,7 +955,8 @@
     totalCodePoints: 5105
 - code: Elba
   numeric: '226'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '7.0'
     ranges:
@@ -921,7 +965,8 @@
     totalCodePoints: 40
 - code: Elym
   numeric: '128'
-  writingDirection: rtl
+  writingDirection:
+    code: rtl
   unicode:
     version: '12.0'
     ranges:
@@ -930,7 +975,8 @@
     totalCodePoints: 23
 - code: Ethi
   numeric: '430'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '3.0'
     ranges:
@@ -1013,7 +1059,8 @@
     totalCodePoints: 523
 - code: Gara
   numeric: '164'
-  writingDirection: rtl
+  writingDirection:
+    code: rtl
   unicode:
     version: '16.0'
     ranges:
@@ -1036,7 +1083,8 @@
     totalCodePoints: 69
 - code: Geok
   numeric: '241'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: '1.1'
     ranges:
@@ -1060,7 +1108,8 @@
     totalCodePoints: 173
 - code: Geor
   numeric: '240'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '1.1'
     ranges:
@@ -1084,7 +1133,8 @@
     totalCodePoints: 173
 - code: Glag
   numeric: '225'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '4.1'
     ranges:
@@ -1103,7 +1153,8 @@
     totalCodePoints: 134
 - code: Gong
   numeric: '312'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '11.0'
     ranges:
@@ -1128,7 +1179,8 @@
     totalCodePoints: 63
 - code: Gonm
   numeric: '313'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '10.0'
     ranges:
@@ -1152,7 +1204,8 @@
     totalCodePoints: 75
 - code: Goth
   numeric: '206'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '3.1'
     ranges:
@@ -1165,7 +1218,8 @@
     totalCodePoints: 27
 - code: Gran
   numeric: '343'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '7.0'
     ranges:
@@ -1209,7 +1263,8 @@
     totalCodePoints: 85
 - code: Grek
   numeric: '200'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '1.1'
     ranges:
@@ -1309,7 +1364,8 @@
     totalCodePoints: 518
 - code: Gujr
   numeric: '320'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '1.1'
     ranges:
@@ -1355,7 +1411,8 @@
     totalCodePoints: 91
 - code: Gukh
   numeric: '397'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '16.0'
     ranges:
@@ -1372,7 +1429,8 @@
     totalCodePoints: 58
 - code: Guru
   numeric: '310'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '1.1'
     ranges:
@@ -1417,14 +1475,16 @@
     totalCodePoints: 80
 - code: Hanb
   numeric: '503'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '1.1'
     ranges: []
     totalCodePoints: 0
 - code: Hang
   numeric: '286'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '1.1'
     ranges:
@@ -1459,7 +1519,8 @@
     totalCodePoints: 11739
 - code: Hani
   numeric: '500'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '1.1'
     ranges:
@@ -1509,7 +1570,8 @@
     totalCodePoints: 99030
 - code: Hano
   numeric: '371'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '3.2'
     ranges:
@@ -1521,21 +1583,24 @@
     totalCodePoints: 21
 - code: Hans
   numeric: '501'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '1.1'
     ranges: []
     totalCodePoints: 0
 - code: Hant
   numeric: '502'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '1.1'
     ranges: []
     totalCodePoints: 0
 - code: Hatr
   numeric: '127'
-  writingDirection: rtl
+  writingDirection:
+    code: rtl
   unicode:
     version: '8.0'
     ranges:
@@ -1548,7 +1613,8 @@
     totalCodePoints: 26
 - code: Hebr
   numeric: '125'
-  writingDirection: rtl
+  writingDirection:
+    code: rtl
   unicode:
     version: '1.1'
     ranges:
@@ -1589,7 +1655,8 @@
     totalCodePoints: 134
 - code: Hira
   numeric: '410'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '1.1'
     ranges:
@@ -1607,7 +1674,8 @@
     totalCodePoints: 381
 - code: Hluw
   numeric: '080'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '8.0'
     ranges:
@@ -1616,7 +1684,8 @@
     totalCodePoints: 583
 - code: Hmng
   numeric: '450'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '7.0'
     ranges:
@@ -1643,7 +1712,8 @@
     totalCodePoints: 127
 - code: Hmnp
   numeric: '451'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '12.0'
     ranges:
@@ -1660,21 +1730,24 @@
     totalCodePoints: 71
 - code: Hntl
   numeric: '504'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: null
     ranges: []
     totalCodePoints: 0
 - code: Hrkt
   numeric: '412'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: '1.1'
     ranges: []
     totalCodePoints: 0
 - code: Hung
   numeric: '176'
-  writingDirection: rtl
+  writingDirection:
+    code: rtl
   unicode:
     version: '8.0'
     ranges:
@@ -1687,14 +1760,16 @@
     totalCodePoints: 108
 - code: Inds
   numeric: '610'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: null
     ranges: []
     totalCodePoints: 0
 - code: Ital
   numeric: '210'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '3.1'
     ranges:
@@ -1707,14 +1782,16 @@
     totalCodePoints: 39
 - code: Jamo
   numeric: '284'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '1.1'
     ranges: []
     totalCodePoints: 0
 - code: Java
   numeric: '361'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '5.2'
     ranges:
@@ -1743,21 +1820,24 @@
     totalCodePoints: 90
 - code: Jpan
   numeric: '413'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '1.1'
     ranges: []
     totalCodePoints: 0
 - code: Jurc
   numeric: '510'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: null
     ranges: []
     totalCodePoints: 0
 - code: Kali
   numeric: '357'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '5.1'
     ranges:
@@ -1771,7 +1851,8 @@
     totalCodePoints: 47
 - code: Kana
   numeric: '411'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '1.1'
     ranges:
@@ -1805,7 +1886,8 @@
     totalCodePoints: 321
 - code: Kawi
   numeric: '368'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '15.0'
     ranges:
@@ -1834,7 +1916,8 @@
     totalCodePoints: 87
 - code: Khar
   numeric: '305'
-  writingDirection: rtl
+  writingDirection:
+    code: rtl
   unicode:
     version: '4.1'
     ranges:
@@ -1861,7 +1944,8 @@
     totalCodePoints: 68
 - code: Khmr
   numeric: '355'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '3.0'
     ranges:
@@ -1896,7 +1980,8 @@
     totalCodePoints: 146
 - code: Khoj
   numeric: '322'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '7.0'
     ranges:
@@ -1923,14 +2008,16 @@
     totalCodePoints: 65
 - code: Kitl
   numeric: '505'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: null
     ranges: []
     totalCodePoints: 0
 - code: Kits
   numeric: '288'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '13.0'
     ranges:
@@ -1941,7 +2028,8 @@
     totalCodePoints: 472
 - code: Knda
   numeric: '345'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '1.1'
     ranges:
@@ -1989,21 +2077,24 @@
     totalCodePoints: 91
 - code: Kore
   numeric: '287'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '1.1'
     ranges: []
     totalCodePoints: 0
 - code: Kpel
   numeric: '436'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: null
     ranges: []
     totalCodePoints: 0
 - code: Krai
   numeric: '396'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '16.0'
     ranges:
@@ -2020,7 +2111,8 @@
     totalCodePoints: 58
 - code: Kthi
   numeric: '317'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '5.2'
     ranges:
@@ -2047,7 +2139,8 @@
     totalCodePoints: 68
 - code: Lana
   numeric: '351'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '5.2'
     ranges:
@@ -2082,7 +2175,8 @@
     totalCodePoints: 127
 - code: Laoo
   numeric: '356'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '1.1'
     ranges:
@@ -2114,21 +2208,24 @@
     totalCodePoints: 83
 - code: Latf
   numeric: '217'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: '1.1'
     ranges: []
     totalCodePoints: 0
 - code: Latg
   numeric: '216'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: '1.1'
     ranges: []
     totalCodePoints: 0
 - code: Latn
   numeric: '215'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '1.1'
     ranges:
@@ -2248,14 +2345,16 @@
     totalCodePoints: 1487
 - code: Leke
   numeric: '364'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: null
     ranges: []
     totalCodePoints: 0
 - code: Lepc
   numeric: '335'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '5.1'
     ranges:
@@ -2278,7 +2377,8 @@
     totalCodePoints: 74
 - code: Limb
   numeric: '336'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '4.0'
     ranges:
@@ -2307,7 +2407,8 @@
     totalCodePoints: 68
 - code: Lina
   numeric: '400'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '7.0'
     ranges:
@@ -2320,7 +2421,8 @@
     totalCodePoints: 341
 - code: Linb
   numeric: '401'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '4.0'
     ranges:
@@ -2341,7 +2443,8 @@
     totalCodePoints: 211
 - code: Lisu
   numeric: '399'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '5.2'
     ranges:
@@ -2355,14 +2458,16 @@
     totalCodePoints: 49
 - code: Loma
   numeric: '437'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: null
     ranges: []
     totalCodePoints: 0
 - code: Lyci
   numeric: '202'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '5.1'
     ranges:
@@ -2371,7 +2476,8 @@
     totalCodePoints: 29
 - code: Lydi
   numeric: '116'
-  writingDirection: rtl
+  writingDirection:
+    code: rtl
   unicode:
     version: '5.1'
     ranges:
@@ -2381,7 +2487,8 @@
     totalCodePoints: 27
 - code: Mahj
   numeric: '314'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '7.0'
     ranges:
@@ -2394,7 +2501,8 @@
     totalCodePoints: 39
 - code: Maka
   numeric: '366'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '11.0'
     ranges:
@@ -2409,7 +2517,8 @@
     totalCodePoints: 25
 - code: Mand
   numeric: '140'
-  writingDirection: rtl
+  writingDirection:
+    code: rtl
   unicode:
     version: '6.0'
     ranges:
@@ -2421,7 +2530,8 @@
     totalCodePoints: 29
 - code: Mani
   numeric: '139'
-  writingDirection: rtl
+  writingDirection:
+    code: rtl
   unicode:
     version: '7.0'
     ranges:
@@ -2439,7 +2549,8 @@
     totalCodePoints: 51
 - code: Marc
   numeric: '332'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '9.0'
     ranges:
@@ -2461,14 +2572,16 @@
     totalCodePoints: 68
 - code: Maya
   numeric: '090'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: null
     ranges: []
     totalCodePoints: 0
 - code: Medf
   numeric: '265'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '11.0'
     ranges:
@@ -2481,7 +2594,8 @@
     totalCodePoints: 91
 - code: Mend
   numeric: '438'
-  writingDirection: rtl
+  writingDirection:
+    code: rtl
   unicode:
     version: '7.0'
     ranges:
@@ -2494,7 +2608,8 @@
     totalCodePoints: 213
 - code: Merc
   numeric: '101'
-  writingDirection: rtl
+  writingDirection:
+    code: rtl
   unicode:
     version: '6.1'
     ranges:
@@ -2511,7 +2626,8 @@
     totalCodePoints: 90
 - code: Mero
   numeric: '100'
-  writingDirection: rtl
+  writingDirection:
+    code: rtl
   unicode:
     version: '6.1'
     ranges:
@@ -2520,7 +2636,8 @@
     totalCodePoints: 32
 - code: Mlym
   numeric: '347'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '1.1'
     ranges:
@@ -2567,7 +2684,8 @@
     totalCodePoints: 118
 - code: Modi
   numeric: '324'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '7.0'
     ranges:
@@ -2591,7 +2709,8 @@
     totalCodePoints: 79
 - code: Mong
   numeric: '145'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '3.0'
     ranges:
@@ -2625,14 +2744,16 @@
     totalCodePoints: 168
 - code: Moon
   numeric: '218'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: null
     ranges: []
     totalCodePoints: 0
 - code: Mroo
   numeric: '264'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '7.0'
     ranges:
@@ -2645,7 +2766,8 @@
     totalCodePoints: 43
 - code: Mtei
   numeric: '337'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '5.2'
     ranges:
@@ -2681,7 +2803,8 @@
     totalCodePoints: 79
 - code: Mult
   numeric: '323'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '8.0'
     ranges:
@@ -2698,7 +2821,8 @@
     totalCodePoints: 38
 - code: Mymr
   numeric: '350'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '3.0'
     ranges:
@@ -2791,7 +2915,8 @@
     totalCodePoints: 243
 - code: Nagm
   numeric: '295'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '15.0'
     ranges:
@@ -2805,7 +2930,8 @@
     totalCodePoints: 42
 - code: Nand
   numeric: '311'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '12.0'
     ranges:
@@ -2829,7 +2955,8 @@
     totalCodePoints: 65
 - code: Narb
   numeric: '106'
-  writingDirection: rtl
+  writingDirection:
+    code: rtl
   unicode:
     version: '7.0'
     ranges:
@@ -2840,7 +2967,8 @@
     totalCodePoints: 32
 - code: Nbat
   numeric: '159'
-  writingDirection: rtl
+  writingDirection:
+    code: rtl
   unicode:
     version: '7.0'
     ranges:
@@ -2851,7 +2979,8 @@
     totalCodePoints: 40
 - code: Newa
   numeric: '333'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '9.0'
     ranges:
@@ -2882,21 +3011,24 @@
     totalCodePoints: 97
 - code: Nkdb
   numeric: '085'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: null
     ranges: []
     totalCodePoints: 0
 - code: Nkgb
   numeric: '420'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: null
     ranges: []
     totalCodePoints: 0
 - code: Nkoo
   numeric: '165'
-  writingDirection: rtl
+  writingDirection:
+    code: rtl
   unicode:
     version: '5.0'
     ranges:
@@ -2918,7 +3050,8 @@
     totalCodePoints: 62
 - code: Nshu
   numeric: '499'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '10.0'
     ranges:
@@ -2928,7 +3061,8 @@
     totalCodePoints: 397
 - code: Ogam
   numeric: '212'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '3.0'
     ranges:
@@ -2940,7 +3074,8 @@
     totalCodePoints: 29
 - code: Olck
   numeric: '261'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '5.1'
     ranges:
@@ -2955,7 +3090,8 @@
     totalCodePoints: 48
 - code: Onao
   numeric: '296'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '16.0'
     ranges:
@@ -2970,7 +3106,8 @@
     totalCodePoints: 44
 - code: Orkh
   numeric: '175'
-  writingDirection: rtl
+  writingDirection:
+    code: rtl
   unicode:
     version: '5.2'
     ranges:
@@ -2979,7 +3116,8 @@
     totalCodePoints: 73
 - code: Orya
   numeric: '327'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '1.1'
     ranges:
@@ -3028,7 +3166,8 @@
     totalCodePoints: 91
 - code: Osge
   numeric: '219'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '9.0'
     ranges:
@@ -3039,7 +3178,8 @@
     totalCodePoints: 72
 - code: Osma
   numeric: '260'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '4.0'
     ranges:
@@ -3050,7 +3190,8 @@
     totalCodePoints: 40
 - code: Ougr
   numeric: '143'
-  writingDirection: rtl
+  writingDirection:
+    code: rtl
   unicode:
     version: '14.0'
     ranges:
@@ -3063,7 +3204,8 @@
     totalCodePoints: 26
 - code: Palm
   numeric: '126'
-  writingDirection: rtl
+  writingDirection:
+    code: rtl
   unicode:
     version: '7.0'
     ranges:
@@ -3076,7 +3218,8 @@
     totalCodePoints: 32
 - code: Pauc
   numeric: '263'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '7.0'
     ranges:
@@ -3085,21 +3228,24 @@
     totalCodePoints: 57
 - code: Pcun
   numeric: '015'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: null
     ranges: []
     totalCodePoints: 0
 - code: Pelm
   numeric: '016'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: null
     ranges: []
     totalCodePoints: 0
 - code: Perm
   numeric: '227'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '7.0'
     ranges:
@@ -3110,7 +3256,8 @@
     totalCodePoints: 43
 - code: Phag
   numeric: '331'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '5.0'
     ranges:
@@ -3121,7 +3268,8 @@
     totalCodePoints: 56
 - code: Phli
   numeric: '131'
-  writingDirection: rtl
+  writingDirection:
+    code: rtl
   unicode:
     version: '5.2'
     ranges:
@@ -3132,7 +3280,8 @@
     totalCodePoints: 27
 - code: Phlp
   numeric: '132'
-  writingDirection: rtl
+  writingDirection:
+    code: rtl
   unicode:
     version: '7.0'
     ranges:
@@ -3145,14 +3294,16 @@
     totalCodePoints: 29
 - code: Phlv
   numeric: '133'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: null
     ranges: []
     totalCodePoints: 0
 - code: Phnx
   numeric: '115'
-  writingDirection: rtl
+  writingDirection:
+    code: rtl
   unicode:
     version: '5.0'
     ranges:
@@ -3164,14 +3315,16 @@
     totalCodePoints: 29
 - code: Piqd
   numeric: '293'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: null
     ranges: []
     totalCodePoints: 0
 - code: Plrd
   numeric: '282'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '6.1'
     ranges:
@@ -3188,7 +3341,8 @@
     totalCodePoints: 149
 - code: Prti
   numeric: '130'
-  writingDirection: rtl
+  writingDirection:
+    code: rtl
   unicode:
     version: '5.2'
     ranges:
@@ -3199,35 +3353,40 @@
     totalCodePoints: 30
 - code: Psin
   numeric: '103'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: null
     ranges: []
     totalCodePoints: 0
 - code: Qaaa
   numeric: '900'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: null
     ranges: []
     totalCodePoints: 0
 - code: Qabx
   numeric: '949'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: null
     ranges: []
     totalCodePoints: 0
 - code: Ranj
   numeric: '303'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: null
     ranges: []
     totalCodePoints: 0
 - code: Rjng
   numeric: '363'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '5.1'
     ranges:
@@ -3241,7 +3400,8 @@
     totalCodePoints: 37
 - code: Rohg
   numeric: '167'
-  writingDirection: rtl
+  writingDirection:
+    code: rtl
   unicode:
     version: '11.0'
     ranges:
@@ -3254,14 +3414,16 @@
     totalCodePoints: 50
 - code: Roro
   numeric: '620'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: null
     ranges: []
     totalCodePoints: 0
 - code: Runr
   numeric: '211'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '3.0'
     ranges:
@@ -3274,7 +3436,8 @@
     totalCodePoints: 86
 - code: Samr
   numeric: '123'
-  writingDirection: rtl
+  writingDirection:
+    code: rtl
   unicode:
     version: '5.2'
     ranges:
@@ -3296,14 +3459,16 @@
     totalCodePoints: 61
 - code: Sara
   numeric: '292'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: null
     ranges: []
     totalCodePoints: 0
 - code: Sarb
   numeric: '105'
-  writingDirection: rtl
+  writingDirection:
+    code: rtl
   unicode:
     version: '5.2'
     ranges:
@@ -3315,7 +3480,8 @@
     totalCodePoints: 32
 - code: Saur
   numeric: '344'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '5.1'
     ranges:
@@ -3334,14 +3500,16 @@
     totalCodePoints: 82
 - code: Seal
   numeric: '590'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: null
     ranges: []
     totalCodePoints: 0
 - code: Sgnw
   numeric: '095'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '8.0'
     ranges:
@@ -3370,7 +3538,8 @@
     totalCodePoints: 672
 - code: Shaw
   numeric: '281'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '4.0'
     ranges:
@@ -3379,7 +3548,8 @@
     totalCodePoints: 48
 - code: Shrd
   numeric: '319'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '6.1'
     ranges:
@@ -3413,14 +3583,16 @@
     totalCodePoints: 96
 - code: Shui
   numeric: '530'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: null
     ranges: []
     totalCodePoints: 0
 - code: Sidd
   numeric: '302'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '7.0'
     ranges:
@@ -3446,14 +3618,16 @@
     totalCodePoints: 92
 - code: Sidt
   numeric: '180'
-  writingDirection: rtl
+  writingDirection:
+    code: rtl
   unicode:
     version: null
     ranges: []
     totalCodePoints: 0
 - code: Sind
   numeric: '318'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '7.0'
     ranges:
@@ -3469,7 +3643,8 @@
     totalCodePoints: 69
 - code: Sinh
   numeric: '348'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '3.0'
     ranges:
@@ -3503,7 +3678,8 @@
     totalCodePoints: 111
 - code: Sogd
   numeric: '141'
-  writingDirection: rtl
+  writingDirection:
+    code: rtl
   unicode:
     version: '11.0'
     ranges:
@@ -3518,7 +3694,8 @@
     totalCodePoints: 42
 - code: Sogo
   numeric: '142'
-  writingDirection: rtl
+  writingDirection:
+    code: rtl
   unicode:
     version: '11.0'
     ranges:
@@ -3530,7 +3707,8 @@
     totalCodePoints: 40
 - code: Sora
   numeric: '398'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '6.1'
     ranges:
@@ -3541,7 +3719,8 @@
     totalCodePoints: 35
 - code: Soyo
   numeric: '329'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '10.0'
     ranges:
@@ -3567,7 +3746,8 @@
     totalCodePoints: 83
 - code: Sund
   numeric: '362'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '5.1'
     ranges:
@@ -3597,7 +3777,8 @@
     totalCodePoints: 72
 - code: Sunu
   numeric: '274'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '16.0'
     ranges:
@@ -3609,7 +3790,8 @@
     totalCodePoints: 44
 - code: Sylo
   numeric: '316'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '4.1'
     ranges:
@@ -3635,7 +3817,8 @@
     totalCodePoints: 45
 - code: Syrc
   numeric: '135'
-  writingDirection: rtl
+  writingDirection:
+    code: rtl
   unicode:
     version: '3.0'
     ranges:
@@ -3655,28 +3838,32 @@
     totalCodePoints: 88
 - code: Syre
   numeric: '138'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: '3.0'
     ranges: []
     totalCodePoints: 0
 - code: Syrj
   numeric: '137'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: '3.0'
     ranges: []
     totalCodePoints: 0
 - code: Syrn
   numeric: '136'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: '3.0'
     ranges: []
     totalCodePoints: 0
 - code: Tagb
   numeric: '373'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '3.2'
     ranges:
@@ -3689,7 +3876,8 @@
     totalCodePoints: 18
 - code: Takr
   numeric: '321'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '6.1'
     ranges:
@@ -3711,7 +3899,8 @@
     totalCodePoints: 68
 - code: Tale
   numeric: '353'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '4.0'
     ranges:
@@ -3722,7 +3911,8 @@
     totalCodePoints: 35
 - code: Talu
   numeric: '354'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '4.1'
     ranges:
@@ -3738,7 +3928,8 @@
     totalCodePoints: 83
 - code: Taml
   numeric: '346'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '1.1'
     ranges:
@@ -3793,7 +3984,8 @@
     totalCodePoints: 123
 - code: Tang
   numeric: '520'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '9.0'
     ranges:
@@ -3807,7 +3999,8 @@
     totalCodePoints: 6914
 - code: Tavt
   numeric: '359'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '5.2'
     ranges:
@@ -3836,14 +4029,16 @@
     totalCodePoints: 72
 - code: Tayo
   numeric: '380'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: null
     ranges: []
     totalCodePoints: 0
 - code: Telu
   numeric: '340'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '1.1'
     ranges:
@@ -3887,14 +4082,16 @@
     totalCodePoints: 100
 - code: Teng
   numeric: '290'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: null
     ranges: []
     totalCodePoints: 0
 - code: Tfng
   numeric: '120'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '4.1'
     ranges:
@@ -3906,7 +4103,8 @@
     totalCodePoints: 59
 - code: Tglg
   numeric: '370'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '3.2'
     ranges:
@@ -3919,7 +4117,8 @@
     totalCodePoints: 23
 - code: Thaa
   numeric: '170'
-  writingDirection: rtl
+  writingDirection:
+    code: rtl
   unicode:
     version: '3.0'
     ranges:
@@ -3931,7 +4130,8 @@
     totalCodePoints: 50
 - code: Thai
   numeric: '352'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '1.1'
     ranges:
@@ -3955,7 +4155,8 @@
     totalCodePoints: 86
 - code: Tibt
   numeric: '330'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '2.0'
     ranges:
@@ -4020,7 +4221,8 @@
     totalCodePoints: 207
 - code: Tirh
   numeric: '326'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '7.0'
     ranges:
@@ -4048,7 +4250,8 @@
     totalCodePoints: 82
 - code: Tnsa
   numeric: '275'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '14.0'
     ranges:
@@ -4059,7 +4262,8 @@
     totalCodePoints: 89
 - code: Todr
   numeric: '229'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '16.0'
     ranges:
@@ -4068,14 +4272,16 @@
     totalCodePoints: 52
 - code: Tols
   numeric: '299'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: null
     ranges: []
     totalCodePoints: 0
 - code: Toto
   numeric: '294'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '14.0'
     ranges:
@@ -4085,7 +4291,8 @@
     totalCodePoints: 31
 - code: Tutg
   numeric: '341'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '16.0'
     ranges:
@@ -4121,7 +4328,8 @@
     totalCodePoints: 80
 - code: Ugar
   numeric: '040'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '4.0'
     ranges:
@@ -4131,7 +4339,8 @@
     totalCodePoints: 31
 - code: Vaii
   numeric: '470'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '5.1'
     ranges:
@@ -4149,14 +4358,16 @@
     totalCodePoints: 300
 - code: Visp
   numeric: '280'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: null
     ranges: []
     totalCodePoints: 0
 - code: Vith
   numeric: '228'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '14.0'
     ranges:
@@ -4179,7 +4390,8 @@
     totalCodePoints: 70
 - code: Wara
   numeric: '262'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '7.0'
     ranges:
@@ -4193,7 +4405,8 @@
     totalCodePoints: 84
 - code: Wcho
   numeric: '283'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '12.0'
     ranges:
@@ -4207,14 +4420,16 @@
     totalCodePoints: 59
 - code: Wole
   numeric: '480'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: null
     ranges: []
     totalCodePoints: 0
 - code: Xpeo
   numeric: '030'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '4.1'
     ranges:
@@ -4228,7 +4443,8 @@
     totalCodePoints: 50
 - code: Xsux
   numeric: '020'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '5.0'
     ranges:
@@ -4243,7 +4459,8 @@
     totalCodePoints: 1234
 - code: Yezi
   numeric: '192'
-  writingDirection: rtl
+  writingDirection:
+    code: rtl
   unicode:
     version: '13.0'
     ranges:
@@ -4257,7 +4474,8 @@
     totalCodePoints: 47
 - code: Yiii
   numeric: '460'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '3.0'
     ranges:
@@ -4271,7 +4489,8 @@
     totalCodePoints: 1220
 - code: Zanb
   numeric: '339'
-  writingDirection: ltr
+  writingDirection:
+    code: ltr
   unicode:
     version: '10.0'
     ranges:
@@ -4292,7 +4511,8 @@
     totalCodePoints: 72
 - code: Zinh
   numeric: '994'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: null
     ranges:
@@ -4361,35 +4581,40 @@
     totalCodePoints: 657
 - code: Zmth
   numeric: '995'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: '3.2'
     ranges: []
     totalCodePoints: 0
 - code: Zsye
   numeric: '993'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: '6.0'
     ranges: []
     totalCodePoints: 0
 - code: Zsym
   numeric: '996'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: '1.1'
     ranges: []
     totalCodePoints: 0
 - code: Zxxx
   numeric: '997'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: null
     ranges: []
     totalCodePoints: 0
 - code: Zyyy
   numeric: '998'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: null
     ranges:
@@ -5283,7 +5508,8 @@
     totalCodePoints: 9053
 - code: Zzzz
   numeric: '999'
-  writingDirection: null
+  writingDirection:
+    code: nla
   unicode:
     version: null
     ranges: []

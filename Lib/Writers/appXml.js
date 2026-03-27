@@ -250,7 +250,7 @@ export const saveDataForXml = {
 
             xmlData = js2xml(dataBuilt, { compact: true, spaces: 4 });
             xmlMinData = js2xml(dataBuilt, { compact: true, spaces: 0 })
-                .replace(/<!\[CDATA\[(.*?)\]\]>/gs, (match, cdataContent) => {
+                .replace(/<!\[CDATA\[(.*?)]]>/gs, (match, cdataContent) => {
                     const minimizedContent = cdataContent.replace(/\n/g, '').replace(/\s+/g, ' ').trim();
                     return `<![CDATA[${minimizedContent}]]>`;
                 });
@@ -287,12 +287,44 @@ export const saveDataForXml = {
                     )
                 );
             }
+
+            /** Translations Categories Data **/
+            if (Object.prototype.hasOwnProperty.call(completeData.translationsCategories, key)) {
+                for (const [lang, dataCatTrans] of Object.entries(completeData.translationsCategories[key] || {})) {
+                    dataBuilt = {
+                        ...declaration,
+                        ['translationsCategories'+keyCap]: {
+                            "_attributes": {
+                                "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                "language": lang
+                            },
+                            ...createXmlFromMap(dataCatTrans,  'translationsCategories'+keyCap, xmlMap)
+                        }
+                    };
+                    xmlData = js2xml(dataBuilt, { compact: true, spaces: 4 });
+                    xmlMinData = js2xml(dataBuilt, { compact: true, spaces: 0 });
+                    await writeFile(destination + completeData.TranslationDir + lang + '/'
+                        + completeData.TranslationCategoriesDir + key + '.xml', xmlData );
+                    await writeFile(destination + completeData.TranslationDir + lang + '/'
+                        + completeData.TranslationCategoriesDir + key + '.min.xml', xmlMinData );
+                    await cloneFile(
+                        XsdPath + 'Translations/categories_' + key + '.xsd',
+                        destination + 'Translations/categories_' + key + '.xsd')
+                    ;
+                    console.log(
+                        chalk.cyan(
+                            '         - Translations Categories language data `' + lang +'` for `xml` app for `'
+                            + key + '` has been written'
+                        )
+                    );
+                }
+            }
         }
     }
 };
 
 /**
- * Creation of the json for the xml transformation
+ * Creation of the JSON for the XML transformation
  */
 const createXmlFromMap = (data, rootElement, map) => {
     let tagKey = null;
@@ -414,7 +446,7 @@ const createXmlFromMap = (data, rootElement, map) => {
 };
 
 /**
- * Refactoring of the Translation object for the xml mapping
+ * Refactoring of the Translation object for the XML mapping
  */
 const refactorTranslationObj = (data) => {
     let refactored = [];

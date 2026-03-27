@@ -23,6 +23,9 @@ export const geoSets = [
     {
         internalCode: "CONV-EZ",
         unM49: null,
+        scope: {
+            code: "CONV"
+        },
         tags: [
             "convention",
             "zone",
@@ -56,6 +59,9 @@ export const geoSets = [
     {
         internalCode: "CONV-G20",
         unM49: null,
+        scope: {
+            code: "CONV"
+        },
         tags: [
             "convention",
             "geopolitics"
@@ -85,6 +91,9 @@ export const geoSets = [
     {
         internalCode: "CONV-G7",
         unM49: null,
+        scope: {
+            code: "CONV"
+        },
         tags: [
             "convention",
             "geopolitics"
@@ -102,6 +111,9 @@ export const geoSets = [
     {
         internalCode: "CONV-SCHENGEN",
         unM49: null,
+        scope: {
+            code: "CONV"
+        },
         tags: [
             "convention",
             "geopolitics"
@@ -139,6 +151,9 @@ export const geoSets = [
     {
         internalCode: "CONV-UNCAC",
         unM49: null,
+        scope: {
+            code: "CONV"
+        },
         tags: [
             "convention",
             "security"
@@ -339,6 +354,9 @@ export const geoSets = [
     {
         internalCode: "GEOG-AF",
         unM49: "002",
+        scope: {
+            code: "GEOG"
+        },
         tags: [
             "geography",
             "region"
@@ -409,6 +427,9 @@ export const geoSets = [
     {
         internalCode: "GEOG-AF-NO",
         unM49: "015",
+        scope: {
+            code: "GEOG"
+        },
         tags: [
             "geography",
             "subregion"
@@ -426,6 +447,9 @@ export const geoSets = [
     {
         internalCode: "GEOG-AF-SS",
         unM49: "202",
+        scope: {
+            code: "GEOG"
+        },
         tags: [
             "geography",
             "subregion"
@@ -489,6 +513,9 @@ export const geoSets = [
     {
         internalCode: "GEOG-AF-SS-EA",
         unM49: "014",
+        scope: {
+            code: "GEOG"
+        },
         tags: [
             "geography",
             "subdivision"
@@ -521,6 +548,9 @@ export const geoSets = [
     {
         internalCode: "GEOG-AF-SS-MD",
         unM49: "017",
+        scope: {
+            code: "GEOG"
+        },
         tags: [
             "geography",
             "subdivision"
@@ -540,6 +570,9 @@ export const geoSets = [
     {
         internalCode: "GEOG-AF-SS-SO",
         unM49: "018",
+        scope: {
+            code: "GEOG"
+        },
         tags: [
             "geography",
             "subdivision"
@@ -555,6 +588,9 @@ export const geoSets = [
     {
         internalCode: "GEOG-AF-SS-WE",
         unM49: "011",
+        scope: {
+            code: "GEOG"
+        },
         tags: [
             "geography",
             "subdivision"
@@ -582,6 +618,9 @@ export const geoSets = [
     {
         internalCode: "GEOG-AM",
         unM49: "019",
+        scope: {
+            code: "GEOG"
+        },
         tags: [
             "geography",
             "region"
@@ -649,6 +688,9 @@ export const geoSets = [
     {
         internalCode: "GEOG-AM-LA",
         unM49: "419",
+        scope: {
+            code: "GEOG"
+        },
         tags: [
             "geography",
             "subregion"
@@ -711,6 +753,9 @@ export const geoSets = [
     {
         internalCode: "GEOG-AM-LA-CA",
         unM49: "029",
+        scope: {
+            code: "GEOG"
+        },
         tags: [
             "geography",
             "subdivision"
@@ -749,6 +794,9 @@ export const geoSets = [
     {
         internalCode: "GEOG-AM-LA-CT",
         unM49: "013",
+        scope: {
+            code: "GEOG"
+        },
         tags: [
             "geography",
             "subdivision"
@@ -767,6 +815,9 @@ export const geoSets = [
     {
         internalCode: "GEOG-AM-LA-SO",
         unM49: "005",
+        scope: {
+            code: "GEOG"
+        },
         tags: [
             "geography",
             "subdivision"
@@ -793,6 +844,9 @@ export const geoSets = [
     {
         internalCode: "GEOG-AM-NO",
         unM49: "021",
+        scope: {
+            code: "GEOG"
+        },
         tags: [
             "geography",
             "subregion"
@@ -808,6 +862,9 @@ export const geoSets = [
     {
         internalCode: "GEOG-AQ",
         unM49: "010",
+        scope: {
+            code: "GEOG"
+        },
         tags: [
             "geography",
             "region"
@@ -819,6 +876,9 @@ export const geoSets = [
     {
         internalCode: "GEOG-AS",
         unM49: "142",
+        scope: {
+            code: "GEOG"
+        },
         tags: [
             "geography",
             "region"
@@ -880,6 +940,9 @@ export const geoSets = [
     {
         internalCode: "GEOG-AS-CT",
         unM49: "143",
+        scope: {
+            code: "GEOG"
+        },
         tags: [
             "geography",
             "subregion"
@@ -895,6 +958,9 @@ export const geoSets = [
     {
         internalCode: "GEOG-AS-EA",
         unM49: "030",
+        scope: {
+            code: "GEOG"
+        },
         tags: [
             "geography",
             "subregion"
@@ -913,6 +979,9 @@ export const geoSets = [
     {
         internalCode: "GEOG-AS-SE",
         unM49: "035",
+        scope: {
+            code: "GEOG"
+        },
         tags: [
             "geography",
             "subregion"
@@ -934,6 +1003,9 @@ export const geoSets = [
     {
         internalCode: "GEOG-AS-SO",
         unM49: "034",
+        scope: {
+            code: "GEOG"
+        },
         tags: [
             "geography",
             "subregion"
@@ -953,6 +1025,9 @@ export const geoSets = [
     {
         internalCode: "GEOG-AS-WE",
         unM49: "145",
+        scope: {
+            code: "GEOG"
+        },
         tags: [
             "geography",
             "subregion"
@@ -981,6 +1056,9 @@ export const geoSets = [
     {
         internalCode: "GEOG-EU",
         unM49: "150",
+        scope: {
+            code: "GEOG"
+        },
         tags: [
             "geography",
             "region"
@@ -1043,6 +1121,9 @@ export const geoSets = [
     {
         internalCode: "GEOG-EU-EA",
         unM49: "151",
+        scope: {
+            code: "GEOG"
+        },
         tags: [
             "geography",
             "subregion"
@@ -1063,6 +1144,9 @@ export const geoSets = [
     {
         internalCode: "GEOG-EU-NO",
         unM49: "154",
+        scope: {
+            code: "GEOG"
+        },
         tags: [
             "geography",
             "subregion"
@@ -1089,6 +1173,9 @@ export const geoSets = [
     {
         internalCode: "GEOG-EU-NO-CH",
         unM49: "830",
+        scope: {
+            code: "GEOG"
+        },
         tags: [
             "geography",
             "subdivision"
@@ -1101,6 +1188,9 @@ export const geoSets = [
     {
         internalCode: "GEOG-EU-SO",
         unM49: "039",
+        scope: {
+            code: "GEOG"
+        },
         tags: [
             "geography",
             "subregion"
@@ -1128,6 +1218,9 @@ export const geoSets = [
     {
         internalCode: "GEOG-EU-WE",
         unM49: "155",
+        scope: {
+            code: "GEOG"
+        },
         tags: [
             "geography",
             "subregion"
@@ -1147,6 +1240,9 @@ export const geoSets = [
     {
         internalCode: "GEOG-OC",
         unM49: "009",
+        scope: {
+            code: "GEOG"
+        },
         tags: [
             "geography",
             "region"
@@ -1186,6 +1282,9 @@ export const geoSets = [
     {
         internalCode: "GEOG-OC-AN",
         unM49: "053",
+        scope: {
+            code: "GEOG"
+        },
         tags: [
             "geography",
             "subregion"
@@ -1202,6 +1301,9 @@ export const geoSets = [
     {
         internalCode: "GEOG-OC-ME",
         unM49: "054",
+        scope: {
+            code: "GEOG"
+        },
         tags: [
             "geography",
             "subregion"
@@ -1217,6 +1319,9 @@ export const geoSets = [
     {
         internalCode: "GEOG-OC-MI",
         unM49: "057",
+        scope: {
+            code: "GEOG"
+        },
         tags: [
             "geography",
             "subregion"
@@ -1235,6 +1340,9 @@ export const geoSets = [
     {
         internalCode: "GEOG-OC-PO",
         unM49: "061",
+        scope: {
+            code: "GEOG"
+        },
         tags: [
             "geography",
             "subregion"
@@ -1255,6 +1363,9 @@ export const geoSets = [
     {
         internalCode: "ORGS-ACTO",
         unM49: null,
+        scope: {
+            code: "ORGS"
+        },
         tags: [
             "organization",
             "geopolitics"
@@ -1273,6 +1384,9 @@ export const geoSets = [
     {
         internalCode: "ORGS-ASEAN",
         unM49: null,
+        scope: {
+            code: "ORGS"
+        },
         tags: [
             "organization",
             "geopolitics",
@@ -1294,6 +1408,9 @@ export const geoSets = [
     {
         internalCode: "ORGS-AU",
         unM49: null,
+        scope: {
+            code: "ORGS"
+        },
         tags: [
             "organization",
             "geopolitics"
@@ -1355,6 +1472,9 @@ export const geoSets = [
     {
         internalCode: "ORGS-BRICS",
         unM49: null,
+        scope: {
+            code: "ORGS"
+        },
         tags: [
             "organization",
             "economy"
@@ -1370,6 +1490,9 @@ export const geoSets = [
     {
         internalCode: "ORGS-CIS",
         unM49: null,
+        scope: {
+            code: "ORGS"
+        },
         tags: [
             "organization",
             "geopolitics"
@@ -1389,6 +1512,9 @@ export const geoSets = [
     {
         internalCode: "ORGS-COE",
         unM49: null,
+        scope: {
+            code: "ORGS"
+        },
         tags: [
             "organization",
             "geopolitics"
@@ -1446,6 +1572,9 @@ export const geoSets = [
     {
         internalCode: "ORGS-CSTO",
         unM49: null,
+        scope: {
+            code: "ORGS"
+        },
         tags: [
             "organization",
             "military"
@@ -1462,6 +1591,9 @@ export const geoSets = [
     {
         internalCode: "ORGS-CWNAT",
         unM49: null,
+        scope: {
+            code: "ORGS"
+        },
         tags: [
             "organization",
             "geopolitics"
@@ -1528,6 +1660,9 @@ export const geoSets = [
     {
         internalCode: "ORGS-CWRLM",
         unM49: null,
+        scope: {
+            code: "ORGS"
+        },
         tags: [
             "organization",
             "geopolitics"
@@ -1553,6 +1688,9 @@ export const geoSets = [
     {
         internalCode: "ORGS-EU",
         unM49: null,
+        scope: {
+            code: "ORGS"
+        },
         tags: [
             "organization",
             "geopolitics"
@@ -1590,6 +1728,9 @@ export const geoSets = [
     {
         internalCode: "ORGS-IBRD",
         unM49: null,
+        scope: {
+            code: "ORGS"
+        },
         tags: [
             "organization",
             "finance"
@@ -1789,6 +1930,9 @@ export const geoSets = [
     {
         internalCode: "ORGS-ICC",
         unM49: null,
+        scope: {
+            code: "ORGS"
+        },
         tags: [
             "organization",
             "jurisprudence"
@@ -1923,6 +2067,9 @@ export const geoSets = [
     {
         internalCode: "ORGS-ICSID",
         unM49: null,
+        scope: {
+            code: "ORGS"
+        },
         tags: [
             "organization",
             "finance"
@@ -2091,6 +2238,9 @@ export const geoSets = [
     {
         internalCode: "ORGS-IDA",
         unM49: null,
+        scope: {
+            code: "ORGS"
+        },
         tags: [
             "organization",
             "finance"
@@ -2275,6 +2425,9 @@ export const geoSets = [
     {
         internalCode: "ORGS-IFC",
         unM49: null,
+        scope: {
+            code: "ORGS"
+        },
         tags: [
             "organization",
             "finance"
@@ -2471,6 +2624,9 @@ export const geoSets = [
     {
         internalCode: "ORGS-IPOL",
         unM49: null,
+        scope: {
+            code: "ORGS"
+        },
         tags: [
             "organization",
             "security"
@@ -2675,6 +2831,9 @@ export const geoSets = [
     {
         internalCode: "ORGS-MIGA",
         unM49: null,
+        scope: {
+            code: "ORGS"
+        },
         tags: [
             "organization",
             "finance"
@@ -2867,6 +3026,9 @@ export const geoSets = [
     {
         internalCode: "ORGS-NATO",
         unM49: null,
+        scope: {
+            code: "ORGS"
+        },
         tags: [
             "organization",
             "military"
@@ -2907,6 +3069,9 @@ export const geoSets = [
     {
         internalCode: "ORGS-OAS",
         unM49: null,
+        scope: {
+            code: "ORGS"
+        },
         tags: [
             "organization",
             "geopolitics"
@@ -2952,6 +3117,9 @@ export const geoSets = [
     {
         internalCode: "ORGS-OECD",
         unM49: null,
+        scope: {
+            code: "ORGS"
+        },
         tags: [
             "organization",
             "geopolitics"
@@ -3000,6 +3168,9 @@ export const geoSets = [
     {
         internalCode: "ORGS-OPEC",
         unM49: null,
+        scope: {
+            code: "ORGS"
+        },
         tags: [
             "organization",
             "economy"
@@ -3023,6 +3194,9 @@ export const geoSets = [
     {
         internalCode: "ORGS-OSCE",
         unM49: null,
+        scope: {
+            code: "ORGS"
+        },
         tags: [
             "organization",
             "geopolitics"
@@ -3090,6 +3264,9 @@ export const geoSets = [
     {
         internalCode: "ORGS-SCO",
         unM49: null,
+        scope: {
+            code: "ORGS"
+        },
         tags: [
             "geopolitics",
             "economy",
@@ -3109,6 +3286,9 @@ export const geoSets = [
     {
         internalCode: "ORGS-UN",
         unM49: null,
+        scope: {
+            code: "ORGS"
+        },
         tags: [
             "organization",
             "geopolitics"
@@ -3312,6 +3492,9 @@ export const geoSets = [
     {
         internalCode: "ORGS-WCO",
         unM49: null,
+        scope: {
+            code: "ORGS"
+        },
         tags: [
             "organization",
             "economy"
@@ -3507,6 +3690,9 @@ export const geoSets = [
     {
         internalCode: "ORGS-WTO",
         unM49: null,
+        scope: {
+            code: "ORGS"
+        },
         tags: [
             "organization",
             "economy"

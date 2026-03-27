@@ -22,6 +22,12 @@ describe('Files configuration for the applications', () => {
                 for (const lang of global.APP.config.settings.languages.inPackage) {
                     const langFile = `${path}${global.translationsDir}${lang}/${data}${global.Applications[app]}`;
                     expect(fs.existsSync(langFile)).toBe(true);
+
+                    if ( Object.prototype.hasOwnProperty.call(global.APP.translationsCategories, data) ) {
+                        const langCatFile =
+                            `${path}${global.translationsDir}${lang}/${global.translationsDirCategories}/${data}${global.Applications[app]}`;
+                        expect(fs.existsSync(langCatFile)).toBe(true);
+                    }
                 }
             });
         }

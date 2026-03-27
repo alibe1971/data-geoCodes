@@ -61,12 +61,13 @@ export function checkDir(directoryPath) {
     });
 }
 
-export async function cleanDir(directoryPath, translationsDir, languages) {
+export async function cleanDir(directoryPath, translationsDir, categoriesDir, languages) {
     await deleteDir(directoryPath);
     await createDir(directoryPath);
     await createDir(path.join(directoryPath, translationsDir));
     for (const lang of languages) {
         await createDir(path.join(directoryPath, translationsDir, lang));
+        await createDir(path.join(directoryPath, translationsDir, lang, categoriesDir));
     }
 }
 
@@ -100,7 +101,8 @@ export async function createDir(directoryPath) {
 export function errorMessage(type, collection, item, mainKey, prop, message, lang= null) {
     const typeObj =  {
         main: 'Main data: ',
-        trans: 'Translation language: `' + lang + '`. '
+        trans: 'Translation language: `' + lang + '`. ',
+        transCat: 'Translation Category language: `' + lang + '`. '
     };
     let throwMessage = typeObj[type] + message + "\n"
         + ' - Collection: `' +  collection + '`' + "\n";
@@ -140,6 +142,62 @@ export function getTranslationMandatoryString(
             throw new Error(
                 errorMessage( 'trans', collection, collectionItem, mainKey, prop,
                     'The property must be a not empty string',
+                    lang
+                )
+            );
+        }
+    } else {
+        if (lang === defaultLanguage) {
+            throw new Error(
+                errorMessage('trans', collection, collectionItem, mainKey, prop,
+                    'Mandatory as null property for language `' + lang + '` (default language)',
+                    lang
+                )
+            );
+        }
+    }
+
+    return currentObj[prop];
+}
+
+export function getTranslationMandatoryCategoryString(
+    collection,
+    collectionItem,
+    mainKey,
+    currentObj,
+    lang,
+    defaultLanguage,
+    prop
+) {
+    if(!Object.prototype.hasOwnProperty.call(currentObj, prop)) {
+        if (lang === defaultLanguage) {
+            throw new Error(
+                errorMessage('transCat', collection, collectionItem, mainKey, prop,
+                    'Missing mandatory property for language `' + lang + '` (default language)',
+                    lang
+                )
+            );
+        } else {
+            currentObj[prop] = null;
+        }
+    }
+    if (currentObj[prop] !== null) {
+        if (
+            !requirements(currentObj[prop], 'mustBeString') ||
+            !requirements(currentObj[prop], 'cannotBeEmpty')
+        ) {
+            throw new Error(
+                errorMessage( 'transCat', collection, collectionItem, mainKey, prop,
+                    'The property must be a not empty string',
+                    lang
+                )
+            );
+        }
+    } else {
+        if (lang === defaultLanguage) {
+            throw new Error(
+                errorMessage('transCat', collection, collectionItem, mainKey, prop,
+                    'Mandatory as null property for language `' + lang + '` (default language)',
                     lang
                 )
             );
@@ -239,8 +297,8 @@ export function requirements(prop, rule, regex=null) {
         if (!tags.check(prop)) return false;
         if (!tags.language(ast.language)) return false;
         if (ast.script && !tags.type(ast.script, 'script')) return false;
-        if (ast.region && !tags.region(ast.region)) return false;
-        return true;
+        return !(ast.region && !tags.region(ast.region));
+
     }
     case 'validDomain': {
         const tld = prop.startsWith('.') ? prop.slice(1) : prop;

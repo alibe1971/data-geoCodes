@@ -1,6 +1,6 @@
 import chalk from 'chalk';
 import {
-    errorMessage,
+    errorMessage, getTranslationMandatoryCategoryString,
     getTranslationMandatoryString,
     requirements,
     sortList
@@ -13,6 +13,8 @@ const collectionItem = 'GeoSet';
 
 let GeoSets = [];
 let Translations = {};
+let TranslationsCategories = {};
+
 
 export const geoSetsFunctions = {
     DataParse: async data => {
@@ -62,6 +64,33 @@ export const geoSetsFunctions = {
                 }
             }
             geoSet.unM49 = item.unM49;
+
+            /** scope: must be present and must be 1 char length string inside the fixed defined values  */
+            if(!Object.prototype.hasOwnProperty.call(item, 'scope')) {
+                throwMex('scope', item[mainKey], 'Required property is missing');
+            } else{
+                item.scope = item.scope.toUpperCase();
+                const typePattern = new RegExp(`^(?:${configBuild.extra.geoSets.internalCode.join('|')})$`);
+                const scopeAvailable = '`' + configBuild.extra.geoSets.internalCode.join('`, `') + '`';
+                if(
+                    !requirements(item.scope, 'mustBeString') ||
+                    !requirements(item.scope, 'regex', typePattern)
+                ) {
+                    throwMex('scope', item[mainKey],
+                        'The property must be 1 char length string inside the fixed defined values ' +
+                        '(' + scopeAvailable + ')'
+                    );
+                }
+
+                if (macroSet != item.scope) {
+                    throwMex('scope', item[mainKey],
+                        'The property value must match with the first element of the internalCode'
+                    );
+                }
+            }
+            geoSet.scope = {
+                code: item.scope
+            };
 
             /** tags: must be present and must be an array of strings*/
             if(!Object.prototype.hasOwnProperty.call(item, 'tags')) {
@@ -147,6 +176,33 @@ export const geoSetsFunctions = {
             );
         }
         return Translations;
+    },
+
+    DataTranslationsCategories: async (data, defaultLanguage = 'en') => {
+        for (const [lang, langObjs] of Object.entries(data)) {
+            TranslationsCategories[lang] = {
+                scope: {}
+            };
+            /** `scope`: the source properties must be a string (required for the default language) **/
+            for (const scope of Object.values(configBuild.extra.geoSets.internalCode)) {
+                TranslationsCategories[lang].scope[scope] =
+                    (getTranslationMandatoryCategoryString(
+                        collection,
+                        collectionItem,
+                        'scope',
+                        langObjs['scope'],
+                        lang,
+                        defaultLanguage,
+                        scope
+                    )) ?? '';
+            }
+            console.log(
+                chalk.cyan(
+                    '         - Translation language `' + lang + '` categories data for `' + collection +'` parsed'
+                )
+            );
+        }
+        return TranslationsCategories;
     }
 };
 
