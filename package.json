@@ -1,5 +1,5 @@
 {
-  "name": "@alibe/data-geocodes",
+  "name": "@alibe/geocodes-data",
   "version": "1.0.0",
   "description": "Data builder for the data utilized by the geoCodes apps",
   "main": "build.js",
@@ -24,12 +24,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibe1971/data-geocodes.git"
+    "url": "https://github.com/alibe1971/geocodes-data.git"
   },
   "bugs": {
-    "url": "https://github.com/alibe1971/data-geocodes/issues"
+    "url": "https://github.com/alibe1971/geocodes-data/issues"
   },
-  "homepage": "https://github.com/alibe1971/data-geocodes#readme",
+  "homepage": "https://github.com/alibe1971/geocodes-data#readme",
   "documentation": [
     {
       "type": "Alibe Docs",
