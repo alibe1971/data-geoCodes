@@ -595,7 +595,7 @@
       - por
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized:
         - csc
       used: []
@@ -659,7 +659,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects:
@@ -878,7 +878,7 @@
       - brh
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -944,7 +944,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - ase
@@ -1036,7 +1036,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - ase
@@ -1144,7 +1144,7 @@
       - rup
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - sqk
@@ -1215,7 +1215,7 @@
       - kbd
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - aen
@@ -1298,7 +1298,7 @@
       - mnh
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - lbs
@@ -1403,7 +1403,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -1656,7 +1656,7 @@
       - por
       - ydd
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - aed
@@ -1829,7 +1829,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - ase
@@ -1894,7 +1894,7 @@
       - pol
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - asq
@@ -2005,7 +2005,7 @@
       - hin
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - asf
@@ -2067,7 +2067,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - ase
@@ -2126,7 +2126,7 @@
       - fin
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - fse
@@ -2198,7 +2198,7 @@
       - hye
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - azj
@@ -2273,7 +2273,7 @@
       - rom
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - bzs
@@ -2342,7 +2342,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - bzs
@@ -2419,7 +2419,7 @@
       - khk
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - bds
@@ -2491,7 +2491,7 @@
       - tur
       - zgh
     signs:
-      official:
+      deJure:
         - vgt
       recognized:
         - sfb
@@ -2572,7 +2572,7 @@
       - noc
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -2641,7 +2641,7 @@
       - ell
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized:
         - bqn
       used: []
@@ -2713,7 +2713,7 @@
       - bal
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized:
         - ads
       used: []
@@ -2787,7 +2787,7 @@
       - swh
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -2857,7 +2857,7 @@
       - wci
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -2918,7 +2918,7 @@
       - gcf
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - fsl
@@ -3426,7 +3426,7 @@
       - por
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - ase
@@ -3711,7 +3711,7 @@
       - yue
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects:
@@ -5694,7 +5694,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -5758,7 +5758,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official:
+      deJure:
         - ase
       recognized: []
       used: []
@@ -5892,7 +5892,7 @@
       - cmn
       - yue
     signs:
-      official:
+      deJure:
         - bzs
       recognized: []
       used: []
@@ -5952,7 +5952,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized:
         - ase
       used: []
@@ -6394,7 +6394,7 @@
       - kao
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -6448,7 +6448,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -6521,7 +6521,7 @@
       - mhw
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -6603,7 +6603,7 @@
       - lav
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized:
         - rsl
       used: []
@@ -7238,7 +7238,7 @@
       - tzj
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized:
         - bzs
       used: []
@@ -7367,7 +7367,7 @@
       - ara
       - ukr
     signs:
-      official: []
+      deJure: []
       recognized:
         - asl
       used: []
@@ -7472,7 +7472,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - asf
@@ -7547,7 +7547,7 @@
       - blz
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - fsl
@@ -7623,7 +7623,7 @@
       - bfl
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - csf
@@ -7694,7 +7694,7 @@
       - ymg
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - fcs
@@ -7769,7 +7769,7 @@
       - tur
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - sgg
@@ -7853,7 +7853,7 @@
       - loo
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - fcs
@@ -7931,7 +7931,7 @@
       - tah
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -8000,7 +8000,7 @@
       - rap
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - csg
@@ -8081,7 +8081,7 @@
       - bss
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - csn
@@ -8172,7 +8172,7 @@
       - khk
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - csl
@@ -8245,7 +8245,7 @@
       - bmr
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - csn
@@ -8973,7 +8973,7 @@
       - emp
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - csr
@@ -9034,7 +9034,7 @@
       - yua
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - csl
@@ -9098,7 +9098,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -9161,7 +9161,7 @@
       - spa
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -9250,7 +9250,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - asf
@@ -9413,7 +9413,7 @@
       - ita
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - csg
@@ -9483,7 +9483,7 @@
       - ukr
       - vie
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - cse
@@ -9552,7 +9552,7 @@
       - ukr
       - vie
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - gsg
@@ -9624,7 +9624,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -9692,7 +9692,7 @@
       - ara
       - swe
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - dsl
@@ -9855,7 +9855,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -11036,7 +11036,7 @@
       - fra
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -11101,7 +11101,7 @@
       - mzb
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - ads
@@ -12893,7 +12893,7 @@
       - trn
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - ecs
@@ -12956,7 +12956,7 @@
       - rom
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - eso
@@ -13178,7 +13178,7 @@
       - hye
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - esl
@@ -13244,7 +13244,7 @@
       - zgh
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -13355,7 +13355,7 @@
       - orm
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -14591,7 +14591,7 @@
       - urd
       - zho
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - ssp
@@ -14669,7 +14669,7 @@
       - mtc
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - eth
@@ -14742,7 +14742,7 @@
       - fao
       - tir
     signs:
-      official: []
+      deJure: []
       recognized:
         - fss
       used:
@@ -15216,7 +15216,7 @@
       - bau
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -15600,7 +15600,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -15676,7 +15676,7 @@
       - poh
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -15734,7 +15734,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -15811,7 +15811,7 @@
       - ita
       - cmn
     signs:
-      official:
+      deJure:
         - fsl
       recognized: []
       used: []
@@ -15882,7 +15882,7 @@
       - bko
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -15966,7 +15966,7 @@
       - zho
       - ita
     signs:
-      official:
+      deJure:
         - bfi
       recognized: []
       used: []
@@ -16040,7 +16040,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - bzs
@@ -16117,7 +16117,7 @@
       - udm
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -16185,7 +16185,7 @@
       - tem
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -16250,7 +16250,7 @@
       - nrf
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -16325,7 +16325,7 @@
       - ckl
     extraTerritorialCommunities: []
     signs:
-      official:
+      deJure:
         - gse
       recognized: []
       used: []
@@ -16429,7 +16429,7 @@
       - lld
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -16488,7 +16488,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects:
@@ -16560,7 +16560,7 @@
       - mlq
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -16627,7 +16627,7 @@
       - khq
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -16685,7 +16685,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -16801,7 +16801,7 @@
       - gym
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -16873,7 +16873,7 @@
       - rus
       - kur
     signs:
-      official: []
+      deJure: []
       recognized:
         - gss
       used: []
@@ -17190,7 +17190,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -17698,7 +17698,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -17814,7 +17814,7 @@
       - zho
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized:
         - asl
       used: []
@@ -17889,7 +17889,7 @@
       - pap
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -17957,7 +17957,7 @@
       - mpx
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -18031,7 +18031,7 @@
       - ind
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized:
         - hks
       used: []
@@ -18105,7 +18105,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -18178,7 +18178,7 @@
       - tow
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized:
         - hds
       used: []
@@ -19020,7 +19020,7 @@
       - rue
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized:
         - hsh
       used: []
@@ -19079,7 +19079,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized:
         - hsl
       used: []
@@ -19143,7 +19143,7 @@
     extraTerritorialCommunities:
       - rom
     signs:
-      official: []
+      deJure: []
       recognized:
         - hsh
       used: []
@@ -19223,7 +19223,7 @@
       - nan
       - cmn
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - inl
@@ -19284,7 +19284,7 @@
     extraTerritorialCommunities:
       - pol
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - isg
@@ -19357,7 +19357,7 @@
       - arc
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - isr
@@ -19593,7 +19593,7 @@
       - glv
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - bfi
@@ -19689,7 +19689,7 @@
       - njo
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - ins
@@ -19973,7 +19973,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -20060,7 +20060,7 @@
       - hne
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -20147,7 +20147,7 @@
       - bqi
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -20205,7 +20205,7 @@
       - pol
       - lit
     signs:
-      official: []
+      deJure: []
       recognized:
         - icl
       used: []
@@ -20278,7 +20278,7 @@
       - ell
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - ise
@@ -20404,7 +20404,7 @@
       - nrf
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -20462,7 +20462,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -20535,7 +20535,7 @@
       - cnu
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -20594,7 +20594,7 @@
       - zho
       - eng
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - jsl
@@ -20677,7 +20677,7 @@
       - guj
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - ksl
@@ -20755,7 +20755,7 @@
       - tgk
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -20927,7 +20927,7 @@
       - bkm
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - csn
@@ -21015,7 +21015,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -21081,7 +21081,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -21145,7 +21145,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -21208,7 +21208,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -21279,7 +21279,7 @@
       - mon
       - tha
     signs:
-      official:
+      deJure:
         - kvk
       recognized: []
       used: []
@@ -21345,7 +21345,7 @@
     extraTerritorialCommunities:
       - urd
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects:
@@ -21747,7 +21747,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -21915,7 +21915,7 @@
       - deu
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -21980,7 +21980,7 @@
       - blr
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -22095,7 +22095,7 @@
       - kaa
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects:
@@ -22153,7 +22153,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -22330,7 +22330,7 @@
       - wae
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects:
@@ -22574,7 +22574,7 @@
       - urd
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -22648,7 +22648,7 @@
       - bes
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -22721,7 +22721,7 @@
       - xho
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -22783,7 +22783,7 @@
       - rom
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -22849,7 +22849,7 @@
       - ita
       - eng
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -22914,7 +22914,7 @@
       - rom
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -22976,7 +22976,7 @@
       - itk
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects:
@@ -23042,7 +23042,7 @@
     extraTerritorialCommunities:
       - spa
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects:
@@ -23105,7 +23105,7 @@
       - lij
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects:
@@ -23426,7 +23426,7 @@
       - gag
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -24053,7 +24053,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -24115,7 +24115,7 @@
     extraTerritorialCommunities:
       - spa
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -24174,7 +24174,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -24241,7 +24241,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -24303,7 +24303,7 @@
       - bos
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -24371,7 +24371,7 @@
       - snq
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -24437,7 +24437,7 @@
       - cmn
       - tam
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -24523,7 +24523,7 @@
       - mvf
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -24599,7 +24599,7 @@
       - eng
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -24931,7 +24931,7 @@
     extraTerritorialCommunities:
       - cmn
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -24999,7 +24999,7 @@
       - car
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -25065,7 +25065,7 @@
       - bwj
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects:
@@ -25224,7 +25224,7 @@
       - acf
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -25412,7 +25412,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -25482,7 +25482,7 @@
     extraTerritorialCommunities:
       - yue
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -25543,7 +25543,7 @@
       - tam
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -25610,7 +25610,7 @@
       - seh
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -26932,7 +26932,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official:
+      deJure:
         - mfs
       recognized: []
       used: []
@@ -27015,7 +27015,7 @@
       - tem
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects:
@@ -27115,7 +27115,7 @@
       - tsc
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -27189,7 +27189,7 @@
       - nmn
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -27266,7 +27266,7 @@
       - hnj
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -27333,7 +27333,7 @@
       - srr
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -27542,7 +27542,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -27612,7 +27612,7 @@
       - bba
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -27930,7 +27930,7 @@
       - ulw
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized:
         - ncs
       used: []
@@ -28005,7 +28005,7 @@
       - ron
       - bul
     signs:
-      official:
+      deJure:
         - dse
       recognized: []
       used: []
@@ -28081,7 +28081,7 @@
       - urd
       - ara
     signs:
-      official: []
+      deJure: []
       recognized:
         - nsl
       used: []
@@ -28164,7 +28164,7 @@
       - byn
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -28225,7 +28225,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -28293,7 +28293,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -28377,7 +28377,7 @@
       - hin
       - tgn
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -28603,7 +28603,7 @@
       - eng
       - hnd
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects:
@@ -28672,7 +28672,7 @@
       - ebr
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -29805,7 +29805,7 @@
       - ash
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -29926,7 +29926,7 @@
       - nrf
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -30011,7 +30011,7 @@
       - kag
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -30092,7 +30092,7 @@
       - bku
       - msb
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -30170,7 +30170,7 @@
       - hnd
       - bra
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -30238,7 +30238,7 @@
       - rus
       - ces
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -30295,7 +30295,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -30511,7 +30511,7 @@
       - pih
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -30574,7 +30574,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -30632,7 +30632,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -30797,7 +30797,7 @@
       - hin
       - rus
     signs:
-      official:
+      deJure:
         - psr
       recognized: []
       used: []
@@ -30859,7 +30859,7 @@
     extraTerritorialCommunities:
       - fil
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -31211,7 +31211,7 @@
       - ayc
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -31276,7 +31276,7 @@
       - tgl
       - nep
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects:
@@ -31335,7 +31335,7 @@
       - rcf
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -31398,7 +31398,7 @@
       - trp
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -32837,7 +32837,7 @@
       - rom
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -32948,7 +32948,7 @@
       - kor
       - hye
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -33016,7 +33016,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -33262,7 +33262,7 @@
       - hin
       - tam
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects:
@@ -33330,7 +33330,7 @@
       - alu
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -33393,7 +33393,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -33463,7 +33463,7 @@
       - mmd
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -33533,7 +33533,7 @@
       - tir
       - amh
     signs:
-      official: []
+      deJure: []
       recognized:
         - swl
       used: []
@@ -33623,7 +33623,7 @@
       - tel
       - hin
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -34376,7 +34376,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -34448,7 +34448,7 @@
       - srp
       - hrv
     signs:
-      official:
+      deJure:
         - jhs
       recognized: []
       used: []
@@ -34511,7 +34511,7 @@
       - rus
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -34585,7 +34585,7 @@
       - bos
       - hrv
     signs:
-      official:
+      deJure:
         - svk
       recognized: []
       used: []
@@ -34650,7 +34650,7 @@
       - sus
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -35455,7 +35455,7 @@
       - rgn
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -35522,7 +35522,7 @@
       - snk
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -35587,7 +35587,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -35651,7 +35651,7 @@
       - tri
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -35716,7 +35716,7 @@
       - toq
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -35784,7 +35784,7 @@
       - pre
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -36855,7 +36855,7 @@
       - ppl
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - esn
@@ -37106,7 +37106,7 @@
       - pap
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -37177,7 +37177,7 @@
       - aii
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -37298,7 +37298,7 @@
       - zul
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -37514,7 +37514,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -37581,7 +37581,7 @@
       - hau
       - ful
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -37645,7 +37645,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -37716,7 +37716,7 @@
       - kpo
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -37787,7 +37787,7 @@
       - hmn
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - tsq
@@ -37864,7 +37864,7 @@
       - tuk
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - rsl
@@ -37932,7 +37932,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -38000,7 +38000,7 @@
       - gal
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -38437,7 +38437,7 @@
       - hye
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -38496,7 +38496,7 @@
       - aeb
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -38559,7 +38559,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -38632,7 +38632,7 @@
       - uzb
       - kaz
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - tsm
@@ -38696,7 +38696,7 @@
       - urd
       - zhd
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -38772,7 +38772,7 @@
       - gil
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -38852,7 +38852,7 @@
       - eng
       - fil
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - tss
@@ -38924,7 +38924,7 @@
       - hin
       - ara
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - tza
@@ -38997,7 +38997,7 @@
       - heb
       - tat
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - ukl
@@ -39109,7 +39109,7 @@
       - urd
       - ara
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - ugn
@@ -39181,7 +39181,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -39294,7 +39294,7 @@
       - ita
       - por
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - ase
@@ -39372,7 +39372,7 @@
       - por
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - ugy
@@ -39447,7 +39447,7 @@
       - tat
       - kaz
     signs:
-      official: []
+      deJure: []
       recognized: []
       used:
         - uzs
@@ -39872,7 +39872,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -39931,7 +39931,7 @@
       - svc
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -39999,7 +39999,7 @@
       - guu
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -40204,7 +40204,7 @@
       - vic
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -40446,7 +40446,7 @@
       - vic
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -40509,7 +40509,7 @@
       - tyv
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -40597,7 +40597,7 @@
       - aty
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -40658,7 +40658,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -40723,7 +40723,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -40945,7 +40945,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -41014,7 +41014,7 @@
       - soc
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects:
@@ -41077,7 +41077,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -41172,7 +41172,7 @@
       - urd
       - ben
     signs:
-      official:
+      deJure:
         - sfs
       recognized: []
       used: []
@@ -41315,7 +41315,7 @@
       - xuj
     extraTerritorialCommunities: []
     signs:
-      official: []
+      deJure: []
       recognized: []
       used: []
     dialects: []
@@ -41423,7 +41423,7 @@
     localCommunities: []
     extraTerritorialCommunities: []
     signs:
-      official:
+      deJure:
         - zib
       recognized: []
       used: []

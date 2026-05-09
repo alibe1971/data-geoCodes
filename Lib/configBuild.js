@@ -104,7 +104,7 @@ export const configBuild = {
                         'deFacto'
                     ],
                     signs: [
-                        'official',
+                        'deJure',
                         'recognized',
                         'used'
                     ]

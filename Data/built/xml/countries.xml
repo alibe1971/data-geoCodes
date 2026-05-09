@@ -62,7 +62,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized>
                     <language>csc</language>
                 </recognized>
@@ -144,7 +144,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -231,7 +231,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -311,7 +311,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>ase</language>
@@ -388,7 +388,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>ase</language>
@@ -469,7 +469,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>sqk</language>
@@ -563,7 +563,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>aen</language>
@@ -655,7 +655,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>lbs</language>
@@ -730,7 +730,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -958,7 +958,7 @@
                 <language>ydd</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>aed</language>
@@ -1035,7 +1035,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>ase</language>
@@ -1115,7 +1115,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>asq</language>
@@ -1224,7 +1224,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>asf</language>
@@ -1304,7 +1304,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>ase</language>
@@ -1375,7 +1375,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>fse</language>
@@ -1457,7 +1457,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>azj</language>
@@ -1544,7 +1544,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>bzs</language>
@@ -1627,7 +1627,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>bzs</language>
@@ -1727,7 +1727,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>bds</language>
@@ -1818,9 +1818,9 @@
                 <language>zgh</language>
             </extraTerritorialCommunities>
             <signs>
-                <official>
-                    <language>vgt</language>
-                </official>
+                <deJure>
+                    <0>vgt</0>
+                </deJure>
                 <recognized>
                     <language>sfb</language>
                 </recognized>
@@ -1917,7 +1917,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -2007,7 +2007,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized>
                     <language>bqn</language>
                 </recognized>
@@ -2098,7 +2098,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized>
                     <language>ads</language>
                 </recognized>
@@ -2183,7 +2183,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -2271,7 +2271,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -2350,7 +2350,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>fsl</language>
@@ -2427,7 +2427,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>ase</language>
@@ -2515,7 +2515,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -2626,7 +2626,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -2711,9 +2711,9 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official>
-                    <language>ase</language>
-                </official>
+                <deJure>
+                    <0>ase</0>
+                </deJure>
                 <recognized/>
                 <used/>
             </signs>
@@ -2829,9 +2829,9 @@
                 <language>yue</language>
             </extraTerritorialCommunities>
             <signs>
-                <official>
-                    <language>bzs</language>
-                </official>
+                <deJure>
+                    <0>bzs</0>
+                </deJure>
                 <recognized/>
                 <used/>
             </signs>
@@ -2906,7 +2906,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized>
                     <language>ase</language>
                 </recognized>
@@ -2989,7 +2989,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -3052,7 +3052,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -3143,7 +3143,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -3231,7 +3231,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized>
                     <language>rsl</language>
                 </recognized>
@@ -3319,7 +3319,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized>
                     <language>bzs</language>
                 </recognized>
@@ -3461,7 +3461,7 @@
                 <language>ukr</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized>
                     <language>asl</language>
                 </recognized>
@@ -3545,7 +3545,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>asf</language>
@@ -3638,7 +3638,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>fsl</language>
@@ -3729,7 +3729,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>csf</language>
@@ -3819,7 +3819,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>fcs</language>
@@ -3914,7 +3914,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>sgg</language>
@@ -4017,7 +4017,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>fcs</language>
@@ -4093,7 +4093,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -4175,7 +4175,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>csg</language>
@@ -4272,7 +4272,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>csn</language>
@@ -4382,7 +4382,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>csl</language>
@@ -4473,7 +4473,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>csn</language>
@@ -4554,7 +4554,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>csr</language>
@@ -4632,7 +4632,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>csl</language>
@@ -4709,7 +4709,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -4787,7 +4787,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -4862,7 +4862,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>asf</language>
@@ -4944,7 +4944,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>csg</language>
@@ -5035,7 +5035,7 @@
                 <language>vie</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>cse</language>
@@ -5121,7 +5121,7 @@
                 <language>vie</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>gsg</language>
@@ -5210,7 +5210,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -5298,7 +5298,7 @@
                 <language>swe</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>dsl</language>
@@ -5379,7 +5379,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -5458,7 +5458,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -5541,7 +5541,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>ads</language>
@@ -5634,7 +5634,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>ecs</language>
@@ -5712,7 +5712,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>eso</language>
@@ -5805,7 +5805,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>esl</language>
@@ -5884,7 +5884,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -5967,7 +5967,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -6070,7 +6070,7 @@
                 <language>zho</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>ssp</language>
@@ -6163,7 +6163,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>eth</language>
@@ -6252,7 +6252,7 @@
                 <language>tir</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized>
                     <language>fss</language>
                 </recognized>
@@ -6345,7 +6345,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -6418,7 +6418,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -6509,7 +6509,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -6579,7 +6579,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -6675,9 +6675,9 @@
                 <language>cmn</language>
             </extraTerritorialCommunities>
             <signs>
-                <official>
-                    <language>fsl</language>
-                </official>
+                <deJure>
+                    <0>fsl</0>
+                </deJure>
                 <recognized/>
                 <used/>
             </signs>
@@ -6765,7 +6765,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -6865,9 +6865,9 @@
                 <language>ita</language>
             </extraTerritorialCommunities>
             <signs>
-                <official>
-                    <language>bfi</language>
-                </official>
+                <deJure>
+                    <0>bfi</0>
+                </deJure>
                 <recognized/>
                 <used/>
             </signs>
@@ -6944,7 +6944,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>bzs</language>
@@ -7040,7 +7040,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -7126,7 +7126,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -7208,7 +7208,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -7300,9 +7300,9 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official>
-                    <language>gse</language>
-                </official>
+                <deJure>
+                    <0>gse</0>
+                </deJure>
                 <recognized/>
                 <used/>
             </signs>
@@ -7389,7 +7389,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -7462,7 +7462,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -7552,7 +7552,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -7637,7 +7637,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -7708,7 +7708,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -7793,7 +7793,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -7884,7 +7884,7 @@
                 <language>kur</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized>
                     <language>gss</language>
                 </recognized>
@@ -8009,7 +8009,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -8107,7 +8107,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -8189,7 +8189,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized>
                     <language>asl</language>
                 </recognized>
@@ -8280,7 +8280,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -8364,7 +8364,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -8451,7 +8451,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized>
                     <language>hks</language>
                 </recognized>
@@ -8520,7 +8520,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -8603,7 +8603,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized>
                     <language>hds</language>
                 </recognized>
@@ -8681,7 +8681,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized>
                     <language>hsh</language>
                 </recognized>
@@ -8758,7 +8758,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized>
                     <language>hsl</language>
                 </recognized>
@@ -8839,7 +8839,7 @@
                 <language>rom</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized>
                     <language>hsh</language>
                 </recognized>
@@ -8940,7 +8940,7 @@
                 <language>cmn</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>inl</language>
@@ -9014,7 +9014,7 @@
                 <language>pol</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>isg</language>
@@ -9100,7 +9100,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>isr</language>
@@ -9195,7 +9195,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>bfi</language>
@@ -9303,7 +9303,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>ins</language>
@@ -9403,7 +9403,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -9481,7 +9481,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -9580,7 +9580,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -9652,7 +9652,7 @@
                 <language>lit</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized>
                     <language>icl</language>
                 </recognized>
@@ -9741,7 +9741,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>ise</language>
@@ -9837,7 +9837,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -9913,7 +9913,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -10005,7 +10005,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -10079,7 +10079,7 @@
                 <language>eng</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>jsl</language>
@@ -10178,7 +10178,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>ksl</language>
@@ -10264,7 +10264,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -10353,7 +10353,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>csn</language>
@@ -10432,7 +10432,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -10509,7 +10509,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -10586,7 +10586,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -10659,7 +10659,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -10751,9 +10751,9 @@
                 <language>tha</language>
             </extraTerritorialCommunities>
             <signs>
-                <official>
-                    <language>kvk</language>
-                </official>
+                <deJure>
+                    <0>kvk</0>
+                </deJure>
                 <recognized/>
                 <used/>
             </signs>
@@ -10833,7 +10833,7 @@
                 <language>urd</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -10908,7 +10908,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -11002,7 +11002,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -11084,7 +11084,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -11164,7 +11164,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -11241,7 +11241,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -11316,7 +11316,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -11398,7 +11398,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -11484,7 +11484,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -11562,7 +11562,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -11642,7 +11642,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -11725,7 +11725,7 @@
                 <language>eng</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -11805,7 +11805,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -11877,7 +11877,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -11963,7 +11963,7 @@
                 <language>spa</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -12046,7 +12046,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -12122,7 +12122,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -12203,7 +12203,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -12280,7 +12280,7 @@
                 <language>spa</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -12355,7 +12355,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -12433,7 +12433,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -12507,7 +12507,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -12593,7 +12593,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -12670,7 +12670,7 @@
                 <language>tam</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -12756,7 +12756,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -12831,7 +12831,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -12910,7 +12910,7 @@
                 <language>cmn</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -12982,7 +12982,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -13064,7 +13064,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -13146,7 +13146,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -13221,7 +13221,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -13309,7 +13309,7 @@
                 <language>yue</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -13389,7 +13389,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -13469,7 +13469,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -13555,9 +13555,9 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official>
-                    <language>mfs</language>
-                </official>
+                <deJure>
+                    <0>mfs</0>
+                </deJure>
                 <recognized/>
                 <used/>
             </signs>
@@ -13644,7 +13644,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -13727,7 +13727,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -13815,7 +13815,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -13891,7 +13891,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -13976,7 +13976,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -14051,7 +14051,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -14140,7 +14140,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -14226,7 +14226,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized>
                     <language>ncs</language>
                 </recognized>
@@ -14325,9 +14325,9 @@
                 <language>bul</language>
             </extraTerritorialCommunities>
             <signs>
-                <official>
-                    <language>dse</language>
-                </official>
+                <deJure>
+                    <0>dse</0>
+                </deJure>
                 <recognized/>
                 <used/>
             </signs>
@@ -14415,7 +14415,7 @@
                 <language>ara</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized>
                     <language>nsl</language>
                 </recognized>
@@ -14509,7 +14509,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -14584,7 +14584,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -14659,7 +14659,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -14738,7 +14738,7 @@
                 <language>tgn</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -14811,7 +14811,7 @@
                 <language>hnd</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -14893,7 +14893,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -14977,7 +14977,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -15063,7 +15063,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -15144,7 +15144,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -15234,7 +15234,7 @@
                 <language>msb</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -15334,7 +15334,7 @@
                 <language>bra</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -15418,7 +15418,7 @@
                 <language>ces</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -15491,7 +15491,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -15566,7 +15566,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -15642,7 +15642,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -15712,7 +15712,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -15787,9 +15787,9 @@
                 <language>rus</language>
             </extraTerritorialCommunities>
             <signs>
-                <official>
-                    <language>psr</language>
-                </official>
+                <deJure>
+                    <0>psr</0>
+                </deJure>
                 <recognized/>
                 <used/>
             </signs>
@@ -15870,7 +15870,7 @@
                 <language>fil</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -15948,7 +15948,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -16035,7 +16035,7 @@
                 <language>nep</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -16112,7 +16112,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -16189,7 +16189,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -16274,7 +16274,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -16403,7 +16403,7 @@
                 <language>hye</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -16482,7 +16482,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -16574,7 +16574,7 @@
                 <language>tam</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -16654,7 +16654,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -16731,7 +16731,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -16818,7 +16818,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -16909,7 +16909,7 @@
                 <language>amh</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized>
                     <language>swl</language>
                 </recognized>
@@ -17021,7 +17021,7 @@
                 <language>hin</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -17102,7 +17102,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -17176,9 +17176,9 @@
                 <language>hrv</language>
             </extraTerritorialCommunities>
             <signs>
-                <official>
-                    <language>jhs</language>
-                </official>
+                <deJure>
+                    <0>jhs</0>
+                </deJure>
                 <recognized/>
                 <used/>
             </signs>
@@ -17256,7 +17256,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -17333,9 +17333,9 @@
                 <language>hrv</language>
             </extraTerritorialCommunities>
             <signs>
-                <official>
-                    <language>svk</language>
-                </official>
+                <deJure>
+                    <0>svk</0>
+                </deJure>
                 <recognized/>
                 <used/>
             </signs>
@@ -17417,7 +17417,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -17492,7 +17492,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -17573,7 +17573,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -17649,7 +17649,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -17731,7 +17731,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -17812,7 +17812,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -17892,7 +17892,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -17967,7 +17967,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>esn</language>
@@ -18052,7 +18052,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -18141,7 +18141,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -18220,7 +18220,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -18293,7 +18293,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -18379,7 +18379,7 @@
                 <language>ful</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -18454,7 +18454,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -18538,7 +18538,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -18631,7 +18631,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>tsq</language>
@@ -18712,7 +18712,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>rsl</language>
@@ -18788,7 +18788,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -18871,7 +18871,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -18952,7 +18952,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -19029,7 +19029,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -19107,7 +19107,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -19199,7 +19199,7 @@
                 <language>kaz</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>tsm</language>
@@ -19283,7 +19283,7 @@
                 <language>zhd</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -19361,7 +19361,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -19460,7 +19460,7 @@
                 <language>fil</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>tss</language>
@@ -19553,7 +19553,7 @@
                 <language>ara</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>tza</language>
@@ -19647,7 +19647,7 @@
                 <language>tat</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>ukl</language>
@@ -19747,7 +19747,7 @@
                 <language>ara</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>ugn</language>
@@ -19832,7 +19832,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -19960,7 +19960,7 @@
                 <language>por</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>ase</language>
@@ -20045,7 +20045,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>ugy</language>
@@ -20125,7 +20125,7 @@
                 <language>kaz</language>
             </extraTerritorialCommunities>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used>
                     <language>uzs</language>
@@ -20207,7 +20207,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -20282,7 +20282,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -20360,7 +20360,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -20435,7 +20435,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -20512,7 +20512,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -20591,7 +20591,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -20675,7 +20675,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -20753,7 +20753,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -20829,7 +20829,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -20905,7 +20905,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -20995,7 +20995,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -21080,7 +21080,7 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -21185,9 +21185,9 @@
                 <language>ben</language>
             </extraTerritorialCommunities>
             <signs>
-                <official>
-                    <language>sfs</language>
-                </official>
+                <deJure>
+                    <0>sfs</0>
+                </deJure>
                 <recognized/>
                 <used/>
             </signs>
@@ -21277,7 +21277,7 @@
             </localCommunities>
             <extraTerritorialCommunities/>
             <signs>
-                <official/>
+                <deJure/>
                 <recognized/>
                 <used/>
             </signs>
@@ -21376,9 +21376,9 @@
             <localCommunities/>
             <extraTerritorialCommunities/>
             <signs>
-                <official>
-                    <language>zib</language>
-                </official>
+                <deJure>
+                    <0>zib</0>
+                </deJure>
                 <recognized/>
                 <used/>
             </signs>

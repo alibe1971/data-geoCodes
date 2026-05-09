@@ -20,7 +20,7 @@
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-                            
+
                             <!-- main node <unicode> -->
                             <xs:element name="unicode">
                                 <xs:complexType>

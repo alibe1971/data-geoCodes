@@ -90,7 +90,7 @@ global.APP = {
                         'deFacto'
                     ],
                     signs: [
-                        'official',
+                        'deJure',
                         'recognized',
                         'used'
                     ]

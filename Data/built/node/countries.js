@@ -82,7 +82,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [
                     "csc"
                 ],
@@ -164,7 +164,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -251,7 +251,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -331,7 +331,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "ase"
@@ -408,7 +408,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "ase"
@@ -489,7 +489,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "sqk"
@@ -583,7 +583,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "aen"
@@ -675,7 +675,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "lbs"
@@ -750,7 +750,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -978,7 +978,7 @@ export const countries = [
                 "ydd"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "aed"
@@ -1055,7 +1055,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "ase"
@@ -1135,7 +1135,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "asq"
@@ -1244,7 +1244,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "asf"
@@ -1324,7 +1324,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "ase"
@@ -1395,7 +1395,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "fse"
@@ -1477,7 +1477,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "azj",
@@ -1564,7 +1564,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "bzs"
@@ -1647,7 +1647,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "bzs",
@@ -1747,7 +1747,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "bds"
@@ -1838,7 +1838,7 @@ export const countries = [
                 "zgh"
             ],
             signs: {
-                official: [
+                deJure: [
                     "vgt"
                 ],
                 recognized: [
@@ -1937,7 +1937,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -2027,7 +2027,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [
                     "bqn"
                 ],
@@ -2118,7 +2118,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [
                     "ads"
                 ],
@@ -2203,7 +2203,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -2291,7 +2291,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -2370,7 +2370,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "fsl"
@@ -2447,7 +2447,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "ase"
@@ -2535,7 +2535,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -2646,7 +2646,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -2731,7 +2731,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [
+                deJure: [
                     "ase"
                 ],
                 recognized: [],
@@ -2849,7 +2849,7 @@ export const countries = [
                 "yue"
             ],
             signs: {
-                official: [
+                deJure: [
                     "bzs"
                 ],
                 recognized: [],
@@ -2926,7 +2926,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [
                     "ase"
                 ],
@@ -3009,7 +3009,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -3072,7 +3072,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -3163,7 +3163,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -3251,7 +3251,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [
                     "rsl"
                 ],
@@ -3339,7 +3339,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [
                     "bzs"
                 ],
@@ -3481,7 +3481,7 @@ export const countries = [
                 "ukr"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [
                     "asl"
                 ],
@@ -3565,7 +3565,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "asf"
@@ -3658,7 +3658,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "fsl"
@@ -3749,7 +3749,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "csf"
@@ -3839,7 +3839,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "fcs"
@@ -3934,7 +3934,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "sgg"
@@ -4037,7 +4037,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "fcs"
@@ -4113,7 +4113,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -4195,7 +4195,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "csg"
@@ -4292,7 +4292,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "csn"
@@ -4402,7 +4402,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "csl"
@@ -4493,7 +4493,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "csn"
@@ -4574,7 +4574,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "csr"
@@ -4652,7 +4652,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "csl"
@@ -4729,7 +4729,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -4807,7 +4807,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -4882,7 +4882,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "asf"
@@ -4964,7 +4964,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "csg"
@@ -5055,7 +5055,7 @@ export const countries = [
                 "vie"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "cse"
@@ -5141,7 +5141,7 @@ export const countries = [
                 "vie"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "gsg"
@@ -5230,7 +5230,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -5318,7 +5318,7 @@ export const countries = [
                 "swe"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "dsl"
@@ -5399,7 +5399,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -5478,7 +5478,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -5561,7 +5561,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "ads"
@@ -5654,7 +5654,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "ecs"
@@ -5732,7 +5732,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "eso"
@@ -5825,7 +5825,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "esl"
@@ -5904,7 +5904,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -5987,7 +5987,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -6090,7 +6090,7 @@ export const countries = [
                 "zho"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "ssp"
@@ -6183,7 +6183,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "eth"
@@ -6272,7 +6272,7 @@ export const countries = [
                 "tir"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [
                     "fss"
                 ],
@@ -6365,7 +6365,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -6438,7 +6438,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -6529,7 +6529,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -6599,7 +6599,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -6695,7 +6695,7 @@ export const countries = [
                 "cmn"
             ],
             signs: {
-                official: [
+                deJure: [
                     "fsl"
                 ],
                 recognized: [],
@@ -6785,7 +6785,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -6885,7 +6885,7 @@ export const countries = [
                 "ita"
             ],
             signs: {
-                official: [
+                deJure: [
                     "bfi"
                 ],
                 recognized: [],
@@ -6964,7 +6964,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "bzs"
@@ -7060,7 +7060,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -7146,7 +7146,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -7228,7 +7228,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -7320,7 +7320,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [
+                deJure: [
                     "gse"
                 ],
                 recognized: [],
@@ -7409,7 +7409,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -7482,7 +7482,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -7572,7 +7572,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -7657,7 +7657,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -7728,7 +7728,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -7813,7 +7813,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -7904,7 +7904,7 @@ export const countries = [
                 "kur"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [
                     "gss"
                 ],
@@ -7979,7 +7979,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -8077,7 +8077,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -8159,7 +8159,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [
                     "asl"
                 ],
@@ -8250,7 +8250,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -8334,7 +8334,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -8421,7 +8421,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [
                     "hks"
                 ],
@@ -8490,7 +8490,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -8573,7 +8573,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [
                     "hds"
                 ],
@@ -8651,7 +8651,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [
                     "hsh"
                 ],
@@ -8728,7 +8728,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [
                     "hsl"
                 ],
@@ -8809,7 +8809,7 @@ export const countries = [
                 "rom"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [
                     "hsh"
                 ],
@@ -8910,7 +8910,7 @@ export const countries = [
                 "cmn"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "inl"
@@ -8984,7 +8984,7 @@ export const countries = [
                 "pol"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "isg"
@@ -9070,7 +9070,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "isr"
@@ -9165,7 +9165,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "bfi"
@@ -9273,7 +9273,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "ins"
@@ -9373,7 +9373,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -9451,7 +9451,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -9550,7 +9550,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -9622,7 +9622,7 @@ export const countries = [
                 "lit"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [
                     "icl"
                 ],
@@ -9711,7 +9711,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "ise"
@@ -9807,7 +9807,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -9883,7 +9883,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -9975,7 +9975,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -10049,7 +10049,7 @@ export const countries = [
                 "eng"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "jsl"
@@ -10148,7 +10148,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "ksl"
@@ -10234,7 +10234,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -10323,7 +10323,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "csn"
@@ -10402,7 +10402,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -10479,7 +10479,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -10556,7 +10556,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -10629,7 +10629,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -10721,7 +10721,7 @@ export const countries = [
                 "tha"
             ],
             signs: {
-                official: [
+                deJure: [
                     "kvk"
                 ],
                 recognized: [],
@@ -10803,7 +10803,7 @@ export const countries = [
                 "urd"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -10878,7 +10878,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -10972,7 +10972,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -11054,7 +11054,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -11134,7 +11134,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -11211,7 +11211,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -11286,7 +11286,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -11368,7 +11368,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -11454,7 +11454,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -11532,7 +11532,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -11612,7 +11612,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -11695,7 +11695,7 @@ export const countries = [
                 "eng"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -11775,7 +11775,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -11847,7 +11847,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -11933,7 +11933,7 @@ export const countries = [
                 "spa"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -12016,7 +12016,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -12092,7 +12092,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -12173,7 +12173,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -12250,7 +12250,7 @@ export const countries = [
                 "spa"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -12325,7 +12325,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -12403,7 +12403,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -12477,7 +12477,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -12563,7 +12563,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -12640,7 +12640,7 @@ export const countries = [
                 "tam"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -12726,7 +12726,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -12801,7 +12801,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -12880,7 +12880,7 @@ export const countries = [
                 "cmn"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -12952,7 +12952,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -13034,7 +13034,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -13116,7 +13116,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -13191,7 +13191,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -13279,7 +13279,7 @@ export const countries = [
                 "yue"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -13359,7 +13359,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -13439,7 +13439,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -13525,7 +13525,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [
+                deJure: [
                     "mfs"
                 ],
                 recognized: [],
@@ -13614,7 +13614,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -13697,7 +13697,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -13785,7 +13785,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -13861,7 +13861,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -13946,7 +13946,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -14021,7 +14021,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -14110,7 +14110,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -14196,7 +14196,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [
                     "ncs"
                 ],
@@ -14295,7 +14295,7 @@ export const countries = [
                 "bul"
             ],
             signs: {
-                official: [
+                deJure: [
                     "dse"
                 ],
                 recognized: [],
@@ -14385,7 +14385,7 @@ export const countries = [
                 "ara"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [
                     "nsl"
                 ],
@@ -14479,7 +14479,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -14554,7 +14554,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -14629,7 +14629,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -14708,7 +14708,7 @@ export const countries = [
                 "tgn"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -14781,7 +14781,7 @@ export const countries = [
                 "hnd"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -14863,7 +14863,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -14947,7 +14947,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -15033,7 +15033,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -15114,7 +15114,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -15204,7 +15204,7 @@ export const countries = [
                 "msb"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -15304,7 +15304,7 @@ export const countries = [
                 "bra"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -15388,7 +15388,7 @@ export const countries = [
                 "ces"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -15461,7 +15461,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -15536,7 +15536,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -15612,7 +15612,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -15682,7 +15682,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -15757,7 +15757,7 @@ export const countries = [
                 "rus"
             ],
             signs: {
-                official: [
+                deJure: [
                     "psr"
                 ],
                 recognized: [],
@@ -15840,7 +15840,7 @@ export const countries = [
                 "fil"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -15918,7 +15918,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -16005,7 +16005,7 @@ export const countries = [
                 "nep"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -16082,7 +16082,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -16159,7 +16159,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -16244,7 +16244,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -16373,7 +16373,7 @@ export const countries = [
                 "hye"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -16452,7 +16452,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -16544,7 +16544,7 @@ export const countries = [
                 "tam"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -16624,7 +16624,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -16701,7 +16701,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -16788,7 +16788,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -16879,7 +16879,7 @@ export const countries = [
                 "amh"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [
                     "swl"
                 ],
@@ -16991,7 +16991,7 @@ export const countries = [
                 "hin"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -17072,7 +17072,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -17146,7 +17146,7 @@ export const countries = [
                 "hrv"
             ],
             signs: {
-                official: [
+                deJure: [
                     "jhs"
                 ],
                 recognized: [],
@@ -17226,7 +17226,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -17303,7 +17303,7 @@ export const countries = [
                 "hrv"
             ],
             signs: {
-                official: [
+                deJure: [
                     "svk"
                 ],
                 recognized: [],
@@ -17387,7 +17387,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -17462,7 +17462,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -17543,7 +17543,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -17619,7 +17619,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -17701,7 +17701,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -17782,7 +17782,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -17862,7 +17862,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -17937,7 +17937,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "esn"
@@ -18022,7 +18022,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -18111,7 +18111,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -18190,7 +18190,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -18263,7 +18263,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -18349,7 +18349,7 @@ export const countries = [
                 "ful"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -18424,7 +18424,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -18508,7 +18508,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -18601,7 +18601,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "tsq"
@@ -18682,7 +18682,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "rsl"
@@ -18758,7 +18758,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -18841,7 +18841,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -18922,7 +18922,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -18999,7 +18999,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -19077,7 +19077,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -19169,7 +19169,7 @@ export const countries = [
                 "kaz"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "tsm"
@@ -19253,7 +19253,7 @@ export const countries = [
                 "zhd"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -19331,7 +19331,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -19430,7 +19430,7 @@ export const countries = [
                 "fil"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "tss"
@@ -19523,7 +19523,7 @@ export const countries = [
                 "ara"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "tza"
@@ -19617,7 +19617,7 @@ export const countries = [
                 "tat"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "ukl"
@@ -19717,7 +19717,7 @@ export const countries = [
                 "ara"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "ugn"
@@ -19802,7 +19802,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -19930,7 +19930,7 @@ export const countries = [
                 "por"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "ase"
@@ -20015,7 +20015,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "ugy"
@@ -20095,7 +20095,7 @@ export const countries = [
                 "kaz"
             ],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: [
                     "uzs"
@@ -20177,7 +20177,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -20252,7 +20252,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -20330,7 +20330,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -20405,7 +20405,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -20482,7 +20482,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -20561,7 +20561,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -20645,7 +20645,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -20723,7 +20723,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -20799,7 +20799,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -20875,7 +20875,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -20965,7 +20965,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -21050,7 +21050,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -21155,7 +21155,7 @@ export const countries = [
                 "ben"
             ],
             signs: {
-                official: [
+                deJure: [
                     "sfs"
                 ],
                 recognized: [],
@@ -21247,7 +21247,7 @@ export const countries = [
             ],
             extraTerritorialCommunities: [],
             signs: {
-                official: [],
+                deJure: [],
                 recognized: [],
                 used: []
             },
@@ -21346,7 +21346,7 @@ export const countries = [
             localCommunities: [],
             extraTerritorialCommunities: [],
             signs: {
-                official: [
+                deJure: [
                     "zib"
                 ],
                 recognized: [],

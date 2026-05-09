@@ -61,7 +61,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [
                     "csc"
                 ],
@@ -143,7 +143,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -230,7 +230,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -310,7 +310,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "ase"
@@ -387,7 +387,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "ase"
@@ -468,7 +468,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "sqk"
@@ -562,7 +562,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "aen"
@@ -654,7 +654,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "lbs"
@@ -729,7 +729,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -957,7 +957,7 @@
                 "ydd"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "aed"
@@ -1034,7 +1034,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "ase"
@@ -1114,7 +1114,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "asq"
@@ -1223,7 +1223,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "asf"
@@ -1303,7 +1303,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "ase"
@@ -1374,7 +1374,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "fse"
@@ -1456,7 +1456,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "azj",
@@ -1543,7 +1543,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "bzs"
@@ -1626,7 +1626,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "bzs",
@@ -1726,7 +1726,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "bds"
@@ -1817,7 +1817,7 @@
                 "zgh"
             ],
             "signs": {
-                "official": [
+                "deJure": [
                     "vgt"
                 ],
                 "recognized": [
@@ -1916,7 +1916,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -2006,7 +2006,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [
                     "bqn"
                 ],
@@ -2097,7 +2097,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [
                     "ads"
                 ],
@@ -2182,7 +2182,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -2270,7 +2270,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -2349,7 +2349,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "fsl"
@@ -2426,7 +2426,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "ase"
@@ -2514,7 +2514,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -2625,7 +2625,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -2710,7 +2710,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [
+                "deJure": [
                     "ase"
                 ],
                 "recognized": [],
@@ -2828,7 +2828,7 @@
                 "yue"
             ],
             "signs": {
-                "official": [
+                "deJure": [
                     "bzs"
                 ],
                 "recognized": [],
@@ -2905,7 +2905,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [
                     "ase"
                 ],
@@ -2988,7 +2988,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -3051,7 +3051,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -3142,7 +3142,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -3230,7 +3230,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [
                     "rsl"
                 ],
@@ -3318,7 +3318,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [
                     "bzs"
                 ],
@@ -3460,7 +3460,7 @@
                 "ukr"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [
                     "asl"
                 ],
@@ -3544,7 +3544,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "asf"
@@ -3637,7 +3637,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "fsl"
@@ -3728,7 +3728,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "csf"
@@ -3818,7 +3818,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "fcs"
@@ -3913,7 +3913,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "sgg"
@@ -4016,7 +4016,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "fcs"
@@ -4092,7 +4092,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -4174,7 +4174,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "csg"
@@ -4271,7 +4271,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "csn"
@@ -4381,7 +4381,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "csl"
@@ -4472,7 +4472,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "csn"
@@ -4553,7 +4553,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "csr"
@@ -4631,7 +4631,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "csl"
@@ -4708,7 +4708,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -4786,7 +4786,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -4861,7 +4861,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "asf"
@@ -4943,7 +4943,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "csg"
@@ -5034,7 +5034,7 @@
                 "vie"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "cse"
@@ -5120,7 +5120,7 @@
                 "vie"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "gsg"
@@ -5209,7 +5209,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -5297,7 +5297,7 @@
                 "swe"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "dsl"
@@ -5378,7 +5378,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -5457,7 +5457,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -5540,7 +5540,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "ads"
@@ -5633,7 +5633,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "ecs"
@@ -5711,7 +5711,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "eso"
@@ -5804,7 +5804,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "esl"
@@ -5883,7 +5883,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -5966,7 +5966,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -6069,7 +6069,7 @@
                 "zho"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "ssp"
@@ -6162,7 +6162,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "eth"
@@ -6251,7 +6251,7 @@
                 "tir"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [
                     "fss"
                 ],
@@ -6344,7 +6344,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -6417,7 +6417,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -6508,7 +6508,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -6578,7 +6578,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -6674,7 +6674,7 @@
                 "cmn"
             ],
             "signs": {
-                "official": [
+                "deJure": [
                     "fsl"
                 ],
                 "recognized": [],
@@ -6764,7 +6764,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -6864,7 +6864,7 @@
                 "ita"
             ],
             "signs": {
-                "official": [
+                "deJure": [
                     "bfi"
                 ],
                 "recognized": [],
@@ -6943,7 +6943,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "bzs"
@@ -7039,7 +7039,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -7125,7 +7125,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -7207,7 +7207,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -7299,7 +7299,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [
+                "deJure": [
                     "gse"
                 ],
                 "recognized": [],
@@ -7388,7 +7388,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -7461,7 +7461,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -7551,7 +7551,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -7636,7 +7636,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -7707,7 +7707,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -7792,7 +7792,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -7883,7 +7883,7 @@
                 "kur"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [
                     "gss"
                 ],
@@ -7958,7 +7958,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -8056,7 +8056,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -8138,7 +8138,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [
                     "asl"
                 ],
@@ -8229,7 +8229,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -8313,7 +8313,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -8400,7 +8400,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [
                     "hks"
                 ],
@@ -8469,7 +8469,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -8552,7 +8552,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [
                     "hds"
                 ],
@@ -8630,7 +8630,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [
                     "hsh"
                 ],
@@ -8707,7 +8707,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [
                     "hsl"
                 ],
@@ -8788,7 +8788,7 @@
                 "rom"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [
                     "hsh"
                 ],
@@ -8889,7 +8889,7 @@
                 "cmn"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "inl"
@@ -8963,7 +8963,7 @@
                 "pol"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "isg"
@@ -9049,7 +9049,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "isr"
@@ -9144,7 +9144,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "bfi"
@@ -9252,7 +9252,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "ins"
@@ -9352,7 +9352,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -9430,7 +9430,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -9529,7 +9529,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -9601,7 +9601,7 @@
                 "lit"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [
                     "icl"
                 ],
@@ -9690,7 +9690,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "ise"
@@ -9786,7 +9786,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -9862,7 +9862,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -9954,7 +9954,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -10028,7 +10028,7 @@
                 "eng"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "jsl"
@@ -10127,7 +10127,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "ksl"
@@ -10213,7 +10213,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -10302,7 +10302,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "csn"
@@ -10381,7 +10381,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -10458,7 +10458,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -10535,7 +10535,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -10608,7 +10608,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -10700,7 +10700,7 @@
                 "tha"
             ],
             "signs": {
-                "official": [
+                "deJure": [
                     "kvk"
                 ],
                 "recognized": [],
@@ -10782,7 +10782,7 @@
                 "urd"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -10857,7 +10857,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -10951,7 +10951,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -11033,7 +11033,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -11113,7 +11113,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -11190,7 +11190,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -11265,7 +11265,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -11347,7 +11347,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -11433,7 +11433,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -11511,7 +11511,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -11591,7 +11591,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -11674,7 +11674,7 @@
                 "eng"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -11754,7 +11754,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -11826,7 +11826,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -11912,7 +11912,7 @@
                 "spa"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -11995,7 +11995,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -12071,7 +12071,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -12152,7 +12152,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -12229,7 +12229,7 @@
                 "spa"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -12304,7 +12304,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -12382,7 +12382,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -12456,7 +12456,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -12542,7 +12542,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -12619,7 +12619,7 @@
                 "tam"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -12705,7 +12705,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -12780,7 +12780,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -12859,7 +12859,7 @@
                 "cmn"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -12931,7 +12931,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -13013,7 +13013,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -13095,7 +13095,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -13170,7 +13170,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -13258,7 +13258,7 @@
                 "yue"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -13338,7 +13338,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -13418,7 +13418,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -13504,7 +13504,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [
+                "deJure": [
                     "mfs"
                 ],
                 "recognized": [],
@@ -13593,7 +13593,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -13676,7 +13676,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -13764,7 +13764,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -13840,7 +13840,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -13925,7 +13925,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -14000,7 +14000,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -14089,7 +14089,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -14175,7 +14175,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [
                     "ncs"
                 ],
@@ -14274,7 +14274,7 @@
                 "bul"
             ],
             "signs": {
-                "official": [
+                "deJure": [
                     "dse"
                 ],
                 "recognized": [],
@@ -14364,7 +14364,7 @@
                 "ara"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [
                     "nsl"
                 ],
@@ -14458,7 +14458,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -14533,7 +14533,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -14608,7 +14608,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -14687,7 +14687,7 @@
                 "tgn"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -14760,7 +14760,7 @@
                 "hnd"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -14842,7 +14842,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -14926,7 +14926,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -15012,7 +15012,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -15093,7 +15093,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -15183,7 +15183,7 @@
                 "msb"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -15283,7 +15283,7 @@
                 "bra"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -15367,7 +15367,7 @@
                 "ces"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -15440,7 +15440,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -15515,7 +15515,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -15591,7 +15591,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -15661,7 +15661,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -15736,7 +15736,7 @@
                 "rus"
             ],
             "signs": {
-                "official": [
+                "deJure": [
                     "psr"
                 ],
                 "recognized": [],
@@ -15819,7 +15819,7 @@
                 "fil"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -15897,7 +15897,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -15984,7 +15984,7 @@
                 "nep"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -16061,7 +16061,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -16138,7 +16138,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -16223,7 +16223,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -16352,7 +16352,7 @@
                 "hye"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -16431,7 +16431,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -16523,7 +16523,7 @@
                 "tam"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -16603,7 +16603,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -16680,7 +16680,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -16767,7 +16767,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -16858,7 +16858,7 @@
                 "amh"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [
                     "swl"
                 ],
@@ -16970,7 +16970,7 @@
                 "hin"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -17051,7 +17051,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -17125,7 +17125,7 @@
                 "hrv"
             ],
             "signs": {
-                "official": [
+                "deJure": [
                     "jhs"
                 ],
                 "recognized": [],
@@ -17205,7 +17205,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -17282,7 +17282,7 @@
                 "hrv"
             ],
             "signs": {
-                "official": [
+                "deJure": [
                     "svk"
                 ],
                 "recognized": [],
@@ -17366,7 +17366,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -17441,7 +17441,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -17522,7 +17522,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -17598,7 +17598,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -17680,7 +17680,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -17761,7 +17761,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -17841,7 +17841,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -17916,7 +17916,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "esn"
@@ -18001,7 +18001,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -18090,7 +18090,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -18169,7 +18169,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -18242,7 +18242,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -18328,7 +18328,7 @@
                 "ful"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -18403,7 +18403,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -18487,7 +18487,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -18580,7 +18580,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "tsq"
@@ -18661,7 +18661,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "rsl"
@@ -18737,7 +18737,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -18820,7 +18820,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -18901,7 +18901,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -18978,7 +18978,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -19056,7 +19056,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -19148,7 +19148,7 @@
                 "kaz"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "tsm"
@@ -19232,7 +19232,7 @@
                 "zhd"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -19310,7 +19310,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -19409,7 +19409,7 @@
                 "fil"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "tss"
@@ -19502,7 +19502,7 @@
                 "ara"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "tza"
@@ -19596,7 +19596,7 @@
                 "tat"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "ukl"
@@ -19696,7 +19696,7 @@
                 "ara"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "ugn"
@@ -19781,7 +19781,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -19909,7 +19909,7 @@
                 "por"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "ase"
@@ -19994,7 +19994,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "ugy"
@@ -20074,7 +20074,7 @@
                 "kaz"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "uzs"
@@ -20156,7 +20156,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -20231,7 +20231,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -20309,7 +20309,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -20384,7 +20384,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -20461,7 +20461,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -20540,7 +20540,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -20624,7 +20624,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -20702,7 +20702,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -20778,7 +20778,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -20854,7 +20854,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -20944,7 +20944,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -21029,7 +21029,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -21134,7 +21134,7 @@
                 "ben"
             ],
             "signs": {
-                "official": [
+                "deJure": [
                     "sfs"
                 ],
                 "recognized": [],
@@ -21226,7 +21226,7 @@
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -21325,7 +21325,7 @@
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [
+                "deJure": [
                     "zib"
                 ],
                 "recognized": [],

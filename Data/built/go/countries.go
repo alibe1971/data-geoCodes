@@ -81,7 +81,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [
                     "csc"
                 ],
@@ -163,7 +163,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -250,7 +250,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -330,7 +330,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "ase"
@@ -407,7 +407,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "ase"
@@ -488,7 +488,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "sqk"
@@ -582,7 +582,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "aen"
@@ -674,7 +674,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "lbs"
@@ -749,7 +749,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -977,7 +977,7 @@ const Countries = `[
                 "ydd"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "aed"
@@ -1054,7 +1054,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "ase"
@@ -1134,7 +1134,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "asq"
@@ -1243,7 +1243,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "asf"
@@ -1323,7 +1323,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "ase"
@@ -1394,7 +1394,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "fse"
@@ -1476,7 +1476,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "azj",
@@ -1563,7 +1563,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "bzs"
@@ -1646,7 +1646,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "bzs",
@@ -1746,7 +1746,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "bds"
@@ -1837,7 +1837,7 @@ const Countries = `[
                 "zgh"
             ],
             "signs": {
-                "official": [
+                "deJure": [
                     "vgt"
                 ],
                 "recognized": [
@@ -1936,7 +1936,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -2026,7 +2026,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [
                     "bqn"
                 ],
@@ -2117,7 +2117,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [
                     "ads"
                 ],
@@ -2202,7 +2202,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -2290,7 +2290,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -2369,7 +2369,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "fsl"
@@ -2446,7 +2446,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "ase"
@@ -2534,7 +2534,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -2645,7 +2645,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -2730,7 +2730,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [
+                "deJure": [
                     "ase"
                 ],
                 "recognized": [],
@@ -2848,7 +2848,7 @@ const Countries = `[
                 "yue"
             ],
             "signs": {
-                "official": [
+                "deJure": [
                     "bzs"
                 ],
                 "recognized": [],
@@ -2925,7 +2925,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [
                     "ase"
                 ],
@@ -3008,7 +3008,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -3071,7 +3071,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -3162,7 +3162,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -3250,7 +3250,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [
                     "rsl"
                 ],
@@ -3338,7 +3338,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [
                     "bzs"
                 ],
@@ -3480,7 +3480,7 @@ const Countries = `[
                 "ukr"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [
                     "asl"
                 ],
@@ -3564,7 +3564,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "asf"
@@ -3657,7 +3657,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "fsl"
@@ -3748,7 +3748,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "csf"
@@ -3838,7 +3838,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "fcs"
@@ -3933,7 +3933,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "sgg"
@@ -4036,7 +4036,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "fcs"
@@ -4112,7 +4112,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -4194,7 +4194,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "csg"
@@ -4291,7 +4291,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "csn"
@@ -4401,7 +4401,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "csl"
@@ -4492,7 +4492,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "csn"
@@ -4573,7 +4573,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "csr"
@@ -4651,7 +4651,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "csl"
@@ -4728,7 +4728,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -4806,7 +4806,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -4881,7 +4881,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "asf"
@@ -4963,7 +4963,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "csg"
@@ -5054,7 +5054,7 @@ const Countries = `[
                 "vie"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "cse"
@@ -5140,7 +5140,7 @@ const Countries = `[
                 "vie"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "gsg"
@@ -5229,7 +5229,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -5317,7 +5317,7 @@ const Countries = `[
                 "swe"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "dsl"
@@ -5398,7 +5398,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -5477,7 +5477,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -5560,7 +5560,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "ads"
@@ -5653,7 +5653,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "ecs"
@@ -5731,7 +5731,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "eso"
@@ -5824,7 +5824,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "esl"
@@ -5903,7 +5903,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -5986,7 +5986,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -6089,7 +6089,7 @@ const Countries = `[
                 "zho"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "ssp"
@@ -6182,7 +6182,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "eth"
@@ -6271,7 +6271,7 @@ const Countries = `[
                 "tir"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [
                     "fss"
                 ],
@@ -6364,7 +6364,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -6437,7 +6437,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -6528,7 +6528,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -6598,7 +6598,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -6694,7 +6694,7 @@ const Countries = `[
                 "cmn"
             ],
             "signs": {
-                "official": [
+                "deJure": [
                     "fsl"
                 ],
                 "recognized": [],
@@ -6784,7 +6784,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -6884,7 +6884,7 @@ const Countries = `[
                 "ita"
             ],
             "signs": {
-                "official": [
+                "deJure": [
                     "bfi"
                 ],
                 "recognized": [],
@@ -6963,7 +6963,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "bzs"
@@ -7059,7 +7059,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -7145,7 +7145,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -7227,7 +7227,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -7319,7 +7319,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [
+                "deJure": [
                     "gse"
                 ],
                 "recognized": [],
@@ -7408,7 +7408,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -7481,7 +7481,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -7571,7 +7571,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -7656,7 +7656,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -7727,7 +7727,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -7812,7 +7812,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -7903,7 +7903,7 @@ const Countries = `[
                 "kur"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [
                     "gss"
                 ],
@@ -7978,7 +7978,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -8076,7 +8076,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -8158,7 +8158,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [
                     "asl"
                 ],
@@ -8249,7 +8249,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -8333,7 +8333,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -8420,7 +8420,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [
                     "hks"
                 ],
@@ -8489,7 +8489,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -8572,7 +8572,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [
                     "hds"
                 ],
@@ -8650,7 +8650,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [
                     "hsh"
                 ],
@@ -8727,7 +8727,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [
                     "hsl"
                 ],
@@ -8808,7 +8808,7 @@ const Countries = `[
                 "rom"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [
                     "hsh"
                 ],
@@ -8909,7 +8909,7 @@ const Countries = `[
                 "cmn"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "inl"
@@ -8983,7 +8983,7 @@ const Countries = `[
                 "pol"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "isg"
@@ -9069,7 +9069,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "isr"
@@ -9164,7 +9164,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "bfi"
@@ -9272,7 +9272,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "ins"
@@ -9372,7 +9372,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -9450,7 +9450,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -9549,7 +9549,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -9621,7 +9621,7 @@ const Countries = `[
                 "lit"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [
                     "icl"
                 ],
@@ -9710,7 +9710,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "ise"
@@ -9806,7 +9806,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -9882,7 +9882,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -9974,7 +9974,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -10048,7 +10048,7 @@ const Countries = `[
                 "eng"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "jsl"
@@ -10147,7 +10147,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "ksl"
@@ -10233,7 +10233,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -10322,7 +10322,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "csn"
@@ -10401,7 +10401,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -10478,7 +10478,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -10555,7 +10555,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -10628,7 +10628,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -10720,7 +10720,7 @@ const Countries = `[
                 "tha"
             ],
             "signs": {
-                "official": [
+                "deJure": [
                     "kvk"
                 ],
                 "recognized": [],
@@ -10802,7 +10802,7 @@ const Countries = `[
                 "urd"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -10877,7 +10877,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -10971,7 +10971,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -11053,7 +11053,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -11133,7 +11133,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -11210,7 +11210,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -11285,7 +11285,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -11367,7 +11367,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -11453,7 +11453,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -11531,7 +11531,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -11611,7 +11611,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -11694,7 +11694,7 @@ const Countries = `[
                 "eng"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -11774,7 +11774,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -11846,7 +11846,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -11932,7 +11932,7 @@ const Countries = `[
                 "spa"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -12015,7 +12015,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -12091,7 +12091,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -12172,7 +12172,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -12249,7 +12249,7 @@ const Countries = `[
                 "spa"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -12324,7 +12324,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -12402,7 +12402,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -12476,7 +12476,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -12562,7 +12562,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -12639,7 +12639,7 @@ const Countries = `[
                 "tam"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -12725,7 +12725,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -12800,7 +12800,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -12879,7 +12879,7 @@ const Countries = `[
                 "cmn"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -12951,7 +12951,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -13033,7 +13033,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -13115,7 +13115,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -13190,7 +13190,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -13278,7 +13278,7 @@ const Countries = `[
                 "yue"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -13358,7 +13358,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -13438,7 +13438,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -13524,7 +13524,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [
+                "deJure": [
                     "mfs"
                 ],
                 "recognized": [],
@@ -13613,7 +13613,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -13696,7 +13696,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -13784,7 +13784,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -13860,7 +13860,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -13945,7 +13945,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -14020,7 +14020,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -14109,7 +14109,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -14195,7 +14195,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [
                     "ncs"
                 ],
@@ -14294,7 +14294,7 @@ const Countries = `[
                 "bul"
             ],
             "signs": {
-                "official": [
+                "deJure": [
                     "dse"
                 ],
                 "recognized": [],
@@ -14384,7 +14384,7 @@ const Countries = `[
                 "ara"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [
                     "nsl"
                 ],
@@ -14478,7 +14478,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -14553,7 +14553,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -14628,7 +14628,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -14707,7 +14707,7 @@ const Countries = `[
                 "tgn"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -14780,7 +14780,7 @@ const Countries = `[
                 "hnd"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -14862,7 +14862,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -14946,7 +14946,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -15032,7 +15032,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -15113,7 +15113,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -15203,7 +15203,7 @@ const Countries = `[
                 "msb"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -15303,7 +15303,7 @@ const Countries = `[
                 "bra"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -15387,7 +15387,7 @@ const Countries = `[
                 "ces"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -15460,7 +15460,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -15535,7 +15535,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -15611,7 +15611,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -15681,7 +15681,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -15756,7 +15756,7 @@ const Countries = `[
                 "rus"
             ],
             "signs": {
-                "official": [
+                "deJure": [
                     "psr"
                 ],
                 "recognized": [],
@@ -15839,7 +15839,7 @@ const Countries = `[
                 "fil"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -15917,7 +15917,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -16004,7 +16004,7 @@ const Countries = `[
                 "nep"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -16081,7 +16081,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -16158,7 +16158,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -16243,7 +16243,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -16372,7 +16372,7 @@ const Countries = `[
                 "hye"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -16451,7 +16451,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -16543,7 +16543,7 @@ const Countries = `[
                 "tam"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -16623,7 +16623,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -16700,7 +16700,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -16787,7 +16787,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -16878,7 +16878,7 @@ const Countries = `[
                 "amh"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [
                     "swl"
                 ],
@@ -16990,7 +16990,7 @@ const Countries = `[
                 "hin"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -17071,7 +17071,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -17145,7 +17145,7 @@ const Countries = `[
                 "hrv"
             ],
             "signs": {
-                "official": [
+                "deJure": [
                     "jhs"
                 ],
                 "recognized": [],
@@ -17225,7 +17225,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -17302,7 +17302,7 @@ const Countries = `[
                 "hrv"
             ],
             "signs": {
-                "official": [
+                "deJure": [
                     "svk"
                 ],
                 "recognized": [],
@@ -17386,7 +17386,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -17461,7 +17461,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -17542,7 +17542,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -17618,7 +17618,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -17700,7 +17700,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -17781,7 +17781,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -17861,7 +17861,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -17936,7 +17936,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "esn"
@@ -18021,7 +18021,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -18110,7 +18110,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -18189,7 +18189,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -18262,7 +18262,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -18348,7 +18348,7 @@ const Countries = `[
                 "ful"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -18423,7 +18423,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -18507,7 +18507,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -18600,7 +18600,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "tsq"
@@ -18681,7 +18681,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "rsl"
@@ -18757,7 +18757,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -18840,7 +18840,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -18921,7 +18921,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -18998,7 +18998,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -19076,7 +19076,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -19168,7 +19168,7 @@ const Countries = `[
                 "kaz"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "tsm"
@@ -19252,7 +19252,7 @@ const Countries = `[
                 "zhd"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -19330,7 +19330,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -19429,7 +19429,7 @@ const Countries = `[
                 "fil"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "tss"
@@ -19522,7 +19522,7 @@ const Countries = `[
                 "ara"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "tza"
@@ -19616,7 +19616,7 @@ const Countries = `[
                 "tat"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "ukl"
@@ -19716,7 +19716,7 @@ const Countries = `[
                 "ara"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "ugn"
@@ -19801,7 +19801,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -19929,7 +19929,7 @@ const Countries = `[
                 "por"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "ase"
@@ -20014,7 +20014,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "ugy"
@@ -20094,7 +20094,7 @@ const Countries = `[
                 "kaz"
             ],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": [
                     "uzs"
@@ -20176,7 +20176,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -20251,7 +20251,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -20329,7 +20329,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -20404,7 +20404,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -20481,7 +20481,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -20560,7 +20560,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -20644,7 +20644,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -20722,7 +20722,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -20798,7 +20798,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -20874,7 +20874,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -20964,7 +20964,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -21049,7 +21049,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -21154,7 +21154,7 @@ const Countries = `[
                 "ben"
             ],
             "signs": {
-                "official": [
+                "deJure": [
                     "sfs"
                 ],
                 "recognized": [],
@@ -21246,7 +21246,7 @@ const Countries = `[
             ],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [],
+                "deJure": [],
                 "recognized": [],
                 "used": []
             },
@@ -21345,7 +21345,7 @@ const Countries = `[
             "localCommunities": [],
             "extraTerritorialCommunities": [],
             "signs": {
-                "official": [
+                "deJure": [
                     "zib"
                 ],
                 "recognized": [],
