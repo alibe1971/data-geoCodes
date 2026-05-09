@@ -1,8 +1,7 @@
 import chalk from 'chalk';
 import { cloneFile, createDir, writeFile } from '../utils.js';
 import { js2xml } from 'xml-js';
-import { dirname, join, resolve } from 'path';
-import { fileURLToPath } from 'url';
+import { join, resolve } from 'path';
 import { writeXsdSchemas } from './Xsd/generateXsd.js';
 import { configBuild } from '../configBuild.js';
 
@@ -238,13 +237,14 @@ export const saveDataForXml = {
                 }
             }
         };
-        const XsdPath = dirname(fileURLToPath(import.meta.url)) + '/Xsd/';
         const builtXsdPath = join(resolve(destination, '..'), 'xsd');
         const builtXsdOriginPath = join(builtXsdPath, 'origin');
         const builtXsdContractsPath = join(builtXsdPath, 'contracts');
         const builtXsdTranslationsPath = join(builtXsdOriginPath, 'Translations');
         const builtXsdTranslationsCategoriesPath = join(builtXsdTranslationsPath, 'Categories');
         const contractsPath = join(resolve(configBuild.readPaths.origin), 'XsdContracts') + '/';
+        const translationsXsdPath = join(resolve(configBuild.readPaths.origin), 'XsdTranslations');
+        const translationsCategoriesXsdPath = join(translationsXsdPath, 'Categories');
         await writeXsdSchemas(builtXsdOriginPath);
         await createDir(builtXsdContractsPath);
         await createDir(builtXsdTranslationsPath);
@@ -288,7 +288,7 @@ export const saveDataForXml = {
             await writeFile(destination + key + '.xml', xmlData);
             await writeFile(destination + key + '.min.xml', xmlMinData);
             await cloneFile(
-                XsdPath + 'Translations/' + key + '.xsd',
+                join(translationsXsdPath, key + '.xsd'),
                 builtXsdTranslationsPath + '/' + key + '.xsd'
             );
             console.log(chalk.cyan(`         - Main data for 'xml' app for '${key}' has been written`));
@@ -340,7 +340,7 @@ export const saveDataForXml = {
                     await writeFile(destination + completeData.TranslationDir + lang + '/'
                         + completeData.TranslationCategoriesDir + key + '.min.xml', xmlMinData );
                     await cloneFile(
-                        XsdPath + 'Translations/categories_' + key + '.xsd',
+                        join(translationsCategoriesXsdPath, key + '.xsd'),
                         builtXsdTranslationsCategoriesPath + '/' + key + '.xsd'
                     );
                     console.log(
