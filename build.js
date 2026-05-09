@@ -16,20 +16,72 @@ let APP = {
     extra: {}
 };
 
-const BUILD_CONFIG_CANDIDATES = [
-    'buildConfig.local.json',
-    'buildConfig.json',
-    'buildConfig.example.json'
-];
+const BUILD_CONFIG_BASE = 'buildConfig.example.json';
+const BUILD_CONFIG_FALLBACK = 'buildConfig.json';
+const BUILD_CONFIG_LOCAL = 'buildConfig.local.json';
+
+const isObject = value => value !== null && typeof value === 'object' && !Array.isArray(value);
+
+const deepMerge = (base, override) => {
+    if (!isObject(base) || !isObject(override)) {
+        return override;
+    }
+    const result = { ...base };
+    for (const [key, value] of Object.entries(override)) {
+        if (isObject(value) && isObject(base[key])) {
+            result[key] = deepMerge(base[key], value);
+            continue;
+        }
+        result[key] = value;
+    }
+    return result;
+};
+
+const collectUnknownKeys = (reference, candidate, prefix = '') => {
+    if (!isObject(reference) || !isObject(candidate)) {
+        return [];
+    }
+    let unknown = [];
+    for (const [key, value] of Object.entries(candidate)) {
+        const path = prefix.length ? `${prefix}.${key}` : key;
+        if (!Object.prototype.hasOwnProperty.call(reference, key)) {
+            unknown.push(path);
+            continue;
+        }
+        unknown = unknown.concat(collectUnknownKeys(reference[key], value, path));
+    }
+    return unknown;
+};
 
 const loadExtraConfig = async () => {
-    for (const configPath of BUILD_CONFIG_CANDIDATES) {
-        if (checkFile(configPath)) {
-            console.log(chalk.cyan('   - Loading build extra config from `' + configPath + '`'));
-            return await readJsonFile(configPath);
-        }
+    let config = {};
+
+    if (checkFile(BUILD_CONFIG_BASE)) {
+        console.log(chalk.cyan('   - Loading build base config from `' + BUILD_CONFIG_BASE + '`'));
+        config = await readJsonFile(BUILD_CONFIG_BASE);
     }
-    return {};
+
+    if (checkFile(BUILD_CONFIG_FALLBACK)) {
+        console.log(chalk.cyan('   - Applying build override from `' + BUILD_CONFIG_FALLBACK + '`'));
+        config = deepMerge(config, await readJsonFile(BUILD_CONFIG_FALLBACK));
+    }
+
+    if (checkFile(BUILD_CONFIG_LOCAL)) {
+        console.log(chalk.cyan('   - Applying local build override from `' + BUILD_CONFIG_LOCAL + '`'));
+        const localConfig = await readJsonFile(BUILD_CONFIG_LOCAL);
+        const unknownLocalKeys = collectUnknownKeys(config, localConfig);
+        if (unknownLocalKeys.length > 0) {
+            console.log(
+                chalk.yellow(
+                    '   - WARNING: unknown keys in `buildConfig.local.json`: '
+                    + unknownLocalKeys.join(', ')
+                )
+            );
+        }
+        config = deepMerge(config, localConfig);
+    }
+
+    return config;
 };
 
 
