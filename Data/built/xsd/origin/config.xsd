@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
     <xs:element name="settings">
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="languages">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="default" type="xs:string" minOccurs="1"/>
-                            <xs:element name="inPackage" minOccurs="1">
+                            <xs:element name="default" type="xs:string"/>
+                            <xs:element name="inPackage">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="language" type="xs:string" maxOccurs="unbounded" minOccurs="1"/>
+                                        <xs:element
+                                            name="language"
+                                            type="xs:string"
+                                            minOccurs="0"
+                                            maxOccurs="unbounded"
+                                        />
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>

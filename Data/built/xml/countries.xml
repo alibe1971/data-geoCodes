@@ -1819,7 +1819,7 @@
             </extraTerritorialCommunities>
             <signs>
                 <deJure>
-                    <0>vgt</0>
+                    <language>vgt</language>
                 </deJure>
                 <recognized>
                     <language>sfb</language>
@@ -2712,7 +2712,7 @@
             <extraTerritorialCommunities/>
             <signs>
                 <deJure>
-                    <0>ase</0>
+                    <language>ase</language>
                 </deJure>
                 <recognized/>
                 <used/>
@@ -2830,7 +2830,7 @@
             </extraTerritorialCommunities>
             <signs>
                 <deJure>
-                    <0>bzs</0>
+                    <language>bzs</language>
                 </deJure>
                 <recognized/>
                 <used/>
@@ -6676,7 +6676,7 @@
             </extraTerritorialCommunities>
             <signs>
                 <deJure>
-                    <0>fsl</0>
+                    <language>fsl</language>
                 </deJure>
                 <recognized/>
                 <used/>
@@ -6866,7 +6866,7 @@
             </extraTerritorialCommunities>
             <signs>
                 <deJure>
-                    <0>bfi</0>
+                    <language>bfi</language>
                 </deJure>
                 <recognized/>
                 <used/>
@@ -7301,7 +7301,7 @@
             <extraTerritorialCommunities/>
             <signs>
                 <deJure>
-                    <0>gse</0>
+                    <language>gse</language>
                 </deJure>
                 <recognized/>
                 <used/>
@@ -10752,7 +10752,7 @@
             </extraTerritorialCommunities>
             <signs>
                 <deJure>
-                    <0>kvk</0>
+                    <language>kvk</language>
                 </deJure>
                 <recognized/>
                 <used/>
@@ -13556,7 +13556,7 @@
             <extraTerritorialCommunities/>
             <signs>
                 <deJure>
-                    <0>mfs</0>
+                    <language>mfs</language>
                 </deJure>
                 <recognized/>
                 <used/>
@@ -14326,7 +14326,7 @@
             </extraTerritorialCommunities>
             <signs>
                 <deJure>
-                    <0>dse</0>
+                    <language>dse</language>
                 </deJure>
                 <recognized/>
                 <used/>
@@ -15788,7 +15788,7 @@
             </extraTerritorialCommunities>
             <signs>
                 <deJure>
-                    <0>psr</0>
+                    <language>psr</language>
                 </deJure>
                 <recognized/>
                 <used/>
@@ -17177,7 +17177,7 @@
             </extraTerritorialCommunities>
             <signs>
                 <deJure>
-                    <0>jhs</0>
+                    <language>jhs</language>
                 </deJure>
                 <recognized/>
                 <used/>
@@ -17334,7 +17334,7 @@
             </extraTerritorialCommunities>
             <signs>
                 <deJure>
-                    <0>svk</0>
+                    <language>svk</language>
                 </deJure>
                 <recognized/>
                 <used/>
@@ -21186,7 +21186,7 @@
             </extraTerritorialCommunities>
             <signs>
                 <deJure>
-                    <0>sfs</0>
+                    <language>sfs</language>
                 </deJure>
                 <recognized/>
                 <used/>
@@ -21377,7 +21377,7 @@
             <extraTerritorialCommunities/>
             <signs>
                 <deJure>
-                    <0>zib</0>
+                    <language>zib</language>
                 </deJure>
                 <recognized/>
                 <used/>

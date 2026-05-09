@@ -4,27 +4,31 @@
         <xs:complexType>
             <xs:sequence>
 
-                <xs:element name="geoSet" maxOccurs="unbounded">
+                <xs:element name="geoSet" minOccurs="0" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
 
                             <!-- main node <internalCode> -->
-                            <xs:element name="internalCode" type="xs:string"/>
+                            <xs:element name="internalCode" type="xs:string" minOccurs="0"/>
 
                             <!-- main node <unM49> -->
-                            <xs:element name="unM49" type="xs:string" nillable="true"/>
+                            <xs:element name="unM49" type="xs:string" minOccurs="0" nillable="true"/>
+
+                            <!-- main node <name> -->
+                            <xs:element name="name" type="xs:string" minOccurs="0"/>
 
                             <!-- main node <scope> -->
-                            <xs:element name="scope">
+                            <xs:element name="scope" minOccurs="0">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="code" type="xs:string"/>
+                                        <xs:element name="code" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="description" type="xs:string" minOccurs="0"/>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
 
                             <!-- main node <tags> -->
-                            <xs:element name="tags">
+                            <xs:element name="tags" minOccurs="0">
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="tag" type="xs:string" maxOccurs="unbounded"/>
@@ -33,7 +37,7 @@
                             </xs:element>
 
                             <!-- main node <countryCodes> -->
-                            <xs:element name="countryCodes">
+                            <xs:element name="countryCodes" minOccurs="0">
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="cc" type="xs:string" maxOccurs="unbounded"/>
@@ -41,9 +45,7 @@
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
-
                         <xs:attribute name="index" type="xs:string" use="optional"/>
-
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>

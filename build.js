@@ -174,7 +174,7 @@ const loadExtraConfig = async () => {
     if ( requirements(Object.keys(APP['extra'].exportDataDirs), 'cannotBeEmpty')) {
         console.log(chalk.green('   - BEGIN DATA EXPORT'));
         for (const [app, paths] of Object.entries(APP['extra'].exportDataDirs)) {
-            if (!Object.prototype.hasOwnProperty.call(configBuild.Apps, app)) {
+            if (app !== 'xsd' && !Object.prototype.hasOwnProperty.call(configBuild.Apps, app)) {
                 console.log(chalk.red('         - The `' + app + '` is not part in this project. Skipping ...'));
                 continue;
             }
@@ -184,6 +184,9 @@ const loadExtraConfig = async () => {
                 continue;
             }
             console.log(chalk.magenta('         - Exporting the `' + app + '` data ...'));
+            const sourcePath = app === 'xsd'
+                ? configBuild.readPaths.destin + 'xsd'
+                : configBuild.readPaths.destin + app;
             for(const path of paths) {
                 if (
                     typeof path !== "string" ||
@@ -195,7 +198,7 @@ const loadExtraConfig = async () => {
                     continue;
                 }
                 try {
-                    await cloneDir(configBuild.readPaths.destin + app, path);
+                    await cloneDir(sourcePath, path);
                     console.log(chalk.cyan('            - The `' + app + '` data successfully exported in `' +
                         path + '`'));
                 } catch (e) {

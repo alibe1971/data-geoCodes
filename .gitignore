@@ -2,6 +2,8 @@
 exportConfig.json
 ReleasesData
 buildConfig.local.json
+.DS_Store
+.idea/
 
 # Logs
 logs
@@ -137,5 +139,4 @@ dist
 
 # JUNIT
 junit.xml
-
 

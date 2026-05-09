@@ -1,8 +1,23 @@
 import chalk from 'chalk';
-import {cloneFile, writeFile} from '../utils.js';
+import { cloneFile, createDir, writeFile } from '../utils.js';
 import { js2xml } from 'xml-js';
-import { dirname } from 'path';
+import { dirname, join, resolve } from 'path';
 import { fileURLToPath } from 'url';
+import { writeXsdSchemas } from './Xsd/generateXsd.js';
+import { configBuild } from '../configBuild.js';
+
+const CONTRACT_XSD_FILES = [
+    'countries.xsd',
+    'country.xsd',
+    'currencies.xsd',
+    'currency.xsd',
+    'geoSets.xsd',
+    'geoSet.xsd',
+    'languages.xsd',
+    'language.xsd',
+    'scripts.xsd',
+    'script.xsd'
+];
 
 /**
  * Map for the XML creation
@@ -175,7 +190,7 @@ const xmlMap = {
                     "@tag": "language"
                 },
                 signs: {
-                    official: {
+                    deJure: {
                         "@tag": "language"
                     },
                     recognized: {
@@ -224,6 +239,22 @@ export const saveDataForXml = {
             }
         };
         const XsdPath = dirname(fileURLToPath(import.meta.url)) + '/Xsd/';
+        const builtXsdPath = join(resolve(destination, '..'), 'xsd');
+        const builtXsdOriginPath = join(builtXsdPath, 'origin');
+        const builtXsdContractsPath = join(builtXsdPath, 'contracts');
+        const builtXsdTranslationsPath = join(builtXsdOriginPath, 'Translations');
+        const builtXsdTranslationsCategoriesPath = join(builtXsdTranslationsPath, 'Categories');
+        const contractsPath = join(resolve(configBuild.readPaths.origin), 'XsdContracts') + '/';
+        await writeXsdSchemas(builtXsdOriginPath);
+        await createDir(builtXsdContractsPath);
+        await createDir(builtXsdTranslationsPath);
+        await createDir(builtXsdTranslationsCategoriesPath);
+        for (const contractXsdFile of CONTRACT_XSD_FILES) {
+            await cloneFile(
+                contractsPath + contractXsdFile,
+                builtXsdContractsPath + '/' + contractXsdFile
+            );
+        }
 
         /** Configuration **/
         completeData.config = {...declaration, ...completeData.config};
@@ -233,7 +264,6 @@ export const saveDataForXml = {
 
         await writeFile(destination + 'config.xml', xmlData);
         await writeFile(destination + 'config.min.xml', xmlMinData);
-        await cloneFile(XsdPath + 'config.xsd',  destination + 'config.xsd');
 
         /** Main Data **/
         for (let [key, data] of Object.entries(completeData.data)) {
@@ -257,8 +287,10 @@ export const saveDataForXml = {
 
             await writeFile(destination + key + '.xml', xmlData);
             await writeFile(destination + key + '.min.xml', xmlMinData);
-            await cloneFile(XsdPath + key + '.xsd',  destination + key + '.xsd');
-            await cloneFile(XsdPath + 'Translations/' + key + '.xsd',  destination + 'Translations/' + key + '.xsd');
+            await cloneFile(
+                XsdPath + 'Translations/' + key + '.xsd',
+                builtXsdTranslationsPath + '/' + key + '.xsd'
+            );
             console.log(chalk.cyan(`         - Main data for 'xml' app for '${key}' has been written`));
 
             /** Translations Data **/
@@ -309,8 +341,8 @@ export const saveDataForXml = {
                         + completeData.TranslationCategoriesDir + key + '.min.xml', xmlMinData );
                     await cloneFile(
                         XsdPath + 'Translations/categories_' + key + '.xsd',
-                        destination + 'Translations/categories_' + key + '.xsd')
-                    ;
+                        builtXsdTranslationsCategoriesPath + '/' + key + '.xsd'
+                    );
                     console.log(
                         chalk.cyan(
                             '         - Translations Categories language data `' + lang +'` for `xml` app for `'

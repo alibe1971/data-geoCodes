@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="scripts">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="script" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="code" type="xs:string" minOccurs="0"/>
+                            <xs:element name="numeric" type="xs:string" minOccurs="0"/>
+                            <xs:element name="writingDirection">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="code" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="unicode">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="version" type="xs:string"/>
+                                        <xs:element name="ranges">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="range" maxOccurs="unbounded" minOccurs="0">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="edge" maxOccurs="2" minOccurs="1"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="totalCodePoints" type="xs:int"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="index" type="xs:int" use="optional"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

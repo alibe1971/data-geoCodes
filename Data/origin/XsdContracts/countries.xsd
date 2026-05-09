@@ -4,15 +4,30 @@
         <xs:complexType>
             <xs:sequence>
 
-                <xs:element name="country" maxOccurs="unbounded">
+                <xs:element name="country" minOccurs="0" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
 
+                            <!-- main node <alpha2> -->
+                            <xs:element name="alpha2" type="xs:string" minOccurs="0"/>
+
+                            <!-- main node <alpha3> -->
+                            <xs:element name="alpha3" type="xs:string" minOccurs="0"/>
+
+                            <!-- main node <unM49> -->
+                            <xs:element name="unM49" type="xs:string" minOccurs="0"/>
+
+                            <!-- main node <name> -->
+                            <xs:element name="name" type="xs:string" minOccurs="0"/>
+
+                            <!-- main node <fullName> -->
+                            <xs:element name="fullName" type="xs:string" minOccurs="0"/>
+
                             <!-- main node <officialName> -->
-                            <xs:element name="officialName">
+                            <xs:element name="officialName" minOccurs="0">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="name" maxOccurs="unbounded" minOccurs="0">
+                                        <xs:element name="name" minOccurs="0" maxOccurs="unbounded">
                                             <xs:complexType>
                                                 <xs:simpleContent>
                                                     <xs:extension base="xs:string">
@@ -25,63 +40,54 @@
                                 </xs:complexType>
                             </xs:element>
 
-                            <!-- main node <alpha2> -->
-                            <xs:element name="alpha2" type="xs:string"/>
-
-                            <!-- main node <alpha3> -->
-                            <xs:element name="alpha3" type="xs:string"/>
-
-                            <!-- main node <unM49> -->
-                            <xs:element name="unM49" type="xs:string"/>
-
                             <!-- main node <flags> -->
-                            <xs:element name="flags">
+                            <xs:element name="flags" minOccurs="0">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="emoji" type="xs:string"/>
-                                        <xs:element name="svg" type="xs:string"/>
+                                        <xs:element name="emoji" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="svg" type="xs:string" minOccurs="0"/>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
 
                             <!-- main node <dependency> -->
-                            <xs:element name="dependency" type="xs:string" nillable="true"/>
+                            <xs:element name="dependency" type="xs:string" minOccurs="0" nillable="true"/>
 
                             <!-- main node <mottos> -->
-                            <xs:element name="mottos">
+                            <xs:element name="mottos" minOccurs="0">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="official">
+                                        <xs:element name="official" minOccurs="0">
                                             <xs:complexType>
                                                 <xs:group ref="MottoCategoryGroup"/>
                                             </xs:complexType>
                                         </xs:element>
-                                        <xs:element name="popular">
+                                        <xs:element name="popular" minOccurs="0">
                                             <xs:complexType>
                                                 <xs:group ref="MottoCategoryGroup"/>
                                             </xs:complexType>
                                         </xs:element>
-                                        <xs:element name="founding">
+                                        <xs:element name="founding" minOccurs="0">
                                             <xs:complexType>
                                                 <xs:group ref="MottoCategoryGroup"/>
                                             </xs:complexType>
                                         </xs:element>
-                                        <xs:element name="presidential">
+                                        <xs:element name="presidential" minOccurs="0">
                                             <xs:complexType>
                                                 <xs:group ref="MottoCategoryGroup"/>
                                             </xs:complexType>
                                         </xs:element>
-                                        <xs:element name="royal">
+                                        <xs:element name="royal" minOccurs="0">
                                             <xs:complexType>
                                                 <xs:group ref="MottoCategoryGroup"/>
                                             </xs:complexType>
                                         </xs:element>
-                                        <xs:element name="military">
+                                        <xs:element name="military" minOccurs="0">
                                             <xs:complexType>
                                                 <xs:group ref="MottoCategoryGroup"/>
                                             </xs:complexType>
                                         </xs:element>
-                                        <xs:element name="historical">
+                                        <xs:element name="historical" minOccurs="0">
                                             <xs:complexType>
                                                 <xs:group ref="MottoCategoryGroup"/>
                                             </xs:complexType>
@@ -91,20 +97,20 @@
                             </xs:element>
 
                             <!-- main node <currencies> -->
-                            <xs:element name="currencies">
+                            <xs:element name="currencies" minOccurs="0">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="legalTenders">
+                                        <xs:element name="legalTenders" minOccurs="0">
                                             <xs:complexType>
                                                 <xs:sequence>
-                                                    <xs:element name="currency" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+                                                    <xs:element name="currency" type="xs:string" maxOccurs="unbounded" minOccurs="0"/>
                                                 </xs:sequence>
                                             </xs:complexType>
                                         </xs:element>
-                                        <xs:element name="widelyAccepted">
+                                        <xs:element name="widelyAccepted" minOccurs="0">
                                             <xs:complexType>
                                                 <xs:sequence>
-                                                    <xs:element name="currency" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+                                                    <xs:element name="currency" type="xs:string" maxOccurs="unbounded" minOccurs="0"/>
                                                 </xs:sequence>
                                             </xs:complexType>
                                         </xs:element>
@@ -113,24 +119,24 @@
                             </xs:element>
 
                             <!-- main node <dialCodes> -->
-                            <xs:element name="dialCodes">
+                            <xs:element name="dialCodes" minOccurs="0">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="deJure">
+                                        <xs:element name="deJure" minOccurs="0">
                                             <xs:complexType>
                                                 <xs:sequence>
                                                     <xs:element name="dial" type="xs:string" maxOccurs="unbounded" minOccurs="0"/>
                                                 </xs:sequence>
                                             </xs:complexType>
                                         </xs:element>
-                                        <xs:element name="deFacto">
+                                        <xs:element name="deFacto" minOccurs="0">
                                             <xs:complexType>
                                                 <xs:sequence>
                                                     <xs:element name="dial" type="xs:string" maxOccurs="unbounded" minOccurs="0"/>
                                                 </xs:sequence>
                                             </xs:complexType>
                                         </xs:element>
-                                        <xs:element name="exceptions">
+                                        <xs:element name="exceptions" minOccurs="0">
                                             <xs:complexType>
                                                 <xs:sequence>
                                                     <xs:element name="dial" minOccurs="0" maxOccurs="unbounded">
@@ -149,19 +155,19 @@
                             </xs:element>
 
                             <!-- main node <ccTld> -->
-                            <xs:element name="ccTld" type="xs:string" nillable="true"/>
+                            <xs:element name="ccTld" type="xs:string" minOccurs="0" nillable="true"/>
 
                             <!-- main node <ccIdn> -->
-                            <xs:element name="ccIdn">
+                            <xs:element name="ccIdn" minOccurs="0">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="idn" maxOccurs="unbounded" minOccurs="0">
+                                        <xs:element name="idn" minOccurs="0" maxOccurs="unbounded">
                                             <xs:complexType>
                                                 <xs:sequence>
                                                     <xs:element name="unicode" type="xs:string"/>
                                                     <xs:element name="punycode" type="xs:string"/>
                                                     <xs:element name="language" type="xs:string"/>
-                                                    <xs:element name="regionsOfUse" minOccurs="0">
+                                                    <xs:element name="regionsOfUse">
                                                         <xs:complexType>
                                                             <xs:sequence>
                                                                 <xs:element name="region" type="xs:string" maxOccurs="unbounded"/>
@@ -176,7 +182,7 @@
                             </xs:element>
 
                             <!-- main node <timeZones> -->
-                            <xs:element name="timeZones">
+                            <xs:element name="timeZones" minOccurs="0">
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="tz" type="xs:string" maxOccurs="unbounded" minOccurs="0"/>
@@ -188,19 +194,19 @@
                             <xs:element name="languages">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="official" type="OfficialLanguages"/>
-                                        <xs:element name="regional" type="LanguageList"/>
-                                        <xs:element name="widelySpoken" type="LanguageList"/>
-                                        <xs:element name="localCommunities" type="LanguageList"/>
-                                        <xs:element name="extraTerritorialCommunities" type="LanguageList"/>
-                                        <xs:element name="signs" type="SignLanguages"/>
-                                        <xs:element name="dialects" type="LanguageList"/>
+                                        <xs:element name="official" type="OfficialLanguages" minOccurs="0"/>
+                                        <xs:element name="regional" type="LanguageList" minOccurs="0"/>
+                                        <xs:element name="widelySpoken" type="LanguageList" minOccurs="0"/>
+                                        <xs:element name="localCommunities" type="LanguageList" minOccurs="0"/>
+                                        <xs:element name="extraTerritorialCommunities" type="LanguageList" minOccurs="0"/>
+                                        <xs:element name="signs" type="SignLanguages" minOccurs="0"/>
+                                        <xs:element name="dialects" type="LanguageList" minOccurs="0"/>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
 
                             <!-- main node <localesIcu> -->
-                            <xs:element name="localesIcu">
+                            <xs:element name="localesIcu" minOccurs="0">
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="locale" type="xs:string" maxOccurs="unbounded" minOccurs="0"/>
@@ -208,20 +214,28 @@
                                 </xs:complexType>
                             </xs:element>
 
-                            <!-- main node <otherAppsIds> -->
-                            <xs:element name="otherAppsIds">
+                            <!-- main node <demonyms> -->
+                            <xs:element name="demonyms" minOccurs="0">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="geoNamesOrg" type="xs:int"/>
-                                        <xs:element name="wikiData" type="xs:string"/>
-                                        <xs:element name="openStreetMapRelation" type="xs:int"/>
+                                        <xs:element name="demonym" type="xs:string" maxOccurs="unbounded" minOccurs="0"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <!-- main node <otherAppsIds> -->
+                            <xs:element name="otherAppsIds" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="geoNamesOrg" type="xs:int" minOccurs="0"/>
+                                        <xs:element name="wikiData" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="openStreetMapRelation" type="xs:int" minOccurs="0"/>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
 
                         <xs:attribute name="index" type="xs:string" use="optional"/>
-
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
@@ -260,18 +274,17 @@
     </xs:complexType>
     <xs:complexType name="OfficialLanguages">
         <xs:sequence>
-            <xs:element name="deJure" type="LanguageList"/>
-            <xs:element name="deFacto" type="LanguageList"/>
+            <xs:element name="deJure" type="LanguageList" minOccurs="0"/>
+            <xs:element name="deFacto" type="LanguageList" minOccurs="0"/>
         </xs:sequence>
     </xs:complexType>
     <xs:complexType name="SignLanguages">
         <xs:sequence>
-            <xs:element name="deJure" type="LanguageList"/>
-            <xs:element name="recognized" type="LanguageList"/>
-            <xs:element name="used" type="LanguageList"/>
+            <xs:element name="deJure" type="LanguageList" minOccurs="0"/>
+            <xs:element name="recognized" type="LanguageList" minOccurs="0"/>
+            <xs:element name="used" type="LanguageList" minOccurs="0"/>
         </xs:sequence>
     </xs:complexType>
     <!-- END BLOCK <languages> -->
-
 
 </xs:schema>

@@ -3,12 +3,15 @@
     <xs:element name="languages">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="language" maxOccurs="unbounded">
+                <xs:element name="language"  minOccurs="0" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
 
                             <!-- main node <isoCode> -->
                             <xs:element name="isoCode" type="xs:string" minOccurs="0"/>
+
+                            <!-- main node <name> -->
+                            <xs:element name="name" type="xs:string" minOccurs="0"/>
 
                             <!-- main node <part2b> -->
                             <xs:element name="part2b" type="xs:string" minOccurs="0" nillable="true"/>
@@ -23,19 +26,21 @@
                             <xs:element name="glottoCode" type="xs:string" minOccurs="0" nillable="true"/>
 
                             <!-- main node <scope> -->
-                            <xs:element name="scope">
+                            <xs:element name="scope" minOccurs="0">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="code" type="xs:string"/>
+                                        <xs:element name="code" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="description" type="xs:string" minOccurs="0"/>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
 
                             <!-- main node <type> -->
-                            <xs:element name="type">
+                            <xs:element name="type" minOccurs="0">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="code" type="xs:string"/>
+                                        <xs:element name="code" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="description" type="xs:string" minOccurs="0"/>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
@@ -53,7 +58,7 @@
                             </xs:element>
 
                         </xs:sequence>
-                        <xs:attribute name="index" type="xs:int" use="optional"/>
+                        <xs:attribute name="index" type="xs:string" use="optional"/>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>

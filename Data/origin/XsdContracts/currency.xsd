@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="currency">
+        <xs:complexType>
+            <xs:sequence>
+
+                <!-- main node <isoAlpha> -->
+                <xs:element name="isoAlpha" type="xs:string" minOccurs="0"/>
+
+                <!-- main node <isoNumber> -->
+                <xs:element name="isoNumber" type="xs:string" minOccurs="0"/>
+
+                <!-- main node <name> -->
+                <xs:element name="name" type="xs:string" minOccurs="0"/>
+
+                <!-- main node <symbol> -->
+                <xs:element name="symbol" type="xs:string" minOccurs="0" nillable="true"/>
+
+                <!-- main node <decimal> -->
+                <xs:element name="decimal" type="xs:int" minOccurs="0" nillable="true"/>
+
+                <!-- main node <scope> -->
+                <xs:element name="scope" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="code" type="xs:string" minOccurs="0"/>
+                            <xs:element name="description" type="xs:string" minOccurs="0"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

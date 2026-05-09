@@ -3,20 +3,26 @@
     <xs:element name="scripts">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="script" maxOccurs="unbounded">
+
+                <xs:element name="script" minOccurs="0" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
+
                             <!-- main node <code> -->
                             <xs:element name="code" type="xs:string" minOccurs="0"/>
 
                             <!-- main node <numeric> -->
                             <xs:element name="numeric" type="xs:string" minOccurs="0"/>
 
+                            <!-- main node <name> -->
+                            <xs:element name="name" type="xs:string" minOccurs="0"/>
+
                             <!-- main node <writingDirection> -->
-                            <xs:element name="writingDirection">
+                            <xs:element name="writingDirection" minOccurs="0">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="code" type="xs:string"/>
+                                        <xs:element name="code" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="description" type="xs:string" minOccurs="0"/>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
@@ -25,27 +31,35 @@
                             <xs:element name="unicode">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="version" type="xs:string"/>
-                                        <xs:element name="ranges">
+
+                                        <!-- sub node <version> -->
+                                        <xs:element name="version" type="xs:string"  minOccurs="0" nillable="true"/>
+
+                                        <!-- sub node <ranges> -->
+                                        <xs:element name="ranges" minOccurs="0">
                                             <xs:complexType>
                                                 <xs:sequence>
                                                     <xs:element name="range" maxOccurs="unbounded" minOccurs="0">
                                                         <xs:complexType>
                                                             <xs:sequence>
-                                                                <xs:element name="edge" maxOccurs="2" minOccurs="1"/>
+                                                                <xs:element name="edge" maxOccurs="2"/>
                                                             </xs:sequence>
                                                         </xs:complexType>
                                                     </xs:element>
                                                 </xs:sequence>
                                             </xs:complexType>
                                         </xs:element>
+
+                                        <!-- sub node <totalCodePoints> -->
                                         <xs:element name="totalCodePoints" type="xs:int"/>
+
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
 
+
                         </xs:sequence>
-                        <xs:attribute name="index" type="xs:int" use="optional"/>
+                        <xs:attribute name="index" type="xs:string" use="optional"/>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>

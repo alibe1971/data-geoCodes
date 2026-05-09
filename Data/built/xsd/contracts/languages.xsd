@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="languages">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="language"  minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+
+                            <!-- main node <isoCode> -->
+                            <xs:element name="isoCode" type="xs:string" minOccurs="0"/>
+
+                            <!-- main node <name> -->
+                            <xs:element name="name" type="xs:string" minOccurs="0"/>
+
+                            <!-- main node <part2b> -->
+                            <xs:element name="part2b" type="xs:string" minOccurs="0" nillable="true"/>
+
+                            <!-- main node <part2t> -->
+                            <xs:element name="part2t" type="xs:string" minOccurs="0" nillable="true"/>
+
+                            <!-- main node <part1> -->
+                            <xs:element name="part1" type="xs:string" minOccurs="0" nillable="true"/>
+
+                            <!-- main node <glottoCode> -->
+                            <xs:element name="glottoCode" type="xs:string" minOccurs="0" nillable="true"/>
+
+                            <!-- main node <scope> -->
+                            <xs:element name="scope" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="code" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="description" type="xs:string" minOccurs="0"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <!-- main node <type> -->
+                            <xs:element name="type" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="code" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="description" type="xs:string" minOccurs="0"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <!-- main node <macroLanguageRef> -->
+                            <xs:element name="macroLanguageRef" type="xs:string" minOccurs="0" nillable="true"/>
+
+                            <!-- main node <scripts> -->
+                            <xs:element name="scripts">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="script" type="xs:string" maxOccurs="unbounded" minOccurs="0"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                        </xs:sequence>
+                        <xs:attribute name="index" type="xs:string" use="optional"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

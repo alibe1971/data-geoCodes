@@ -6,23 +6,11 @@
                 <xs:element name="language" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
-
-                            <!-- main node <isoCode> -->
                             <xs:element name="isoCode" type="xs:string" minOccurs="0"/>
-
-                            <!-- main node <part2b> -->
                             <xs:element name="part2b" type="xs:string" minOccurs="0" nillable="true"/>
-
-                            <!-- main node <part2t> -->
                             <xs:element name="part2t" type="xs:string" minOccurs="0" nillable="true"/>
-
-                            <!-- main node <part1> -->
                             <xs:element name="part1" type="xs:string" minOccurs="0" nillable="true"/>
-
-                            <!-- main node <glottoCode> -->
                             <xs:element name="glottoCode" type="xs:string" minOccurs="0" nillable="true"/>
-
-                            <!-- main node <scope> -->
                             <xs:element name="scope">
                                 <xs:complexType>
                                     <xs:sequence>
@@ -30,8 +18,6 @@
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-
-                            <!-- main node <type> -->
                             <xs:element name="type">
                                 <xs:complexType>
                                     <xs:sequence>
@@ -39,11 +25,7 @@
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-
-                            <!-- main node <macroLanguageRef> -->
                             <xs:element name="macroLanguageRef" type="xs:string" minOccurs="0" nillable="true"/>
-
-                            <!-- main node <scripts> -->
                             <xs:element name="scripts">
                                 <xs:complexType>
                                     <xs:sequence>
@@ -51,7 +33,6 @@
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-
                         </xs:sequence>
                         <xs:attribute name="index" type="xs:int" use="optional"/>
                     </xs:complexType>

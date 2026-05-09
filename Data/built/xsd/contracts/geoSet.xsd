@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+    <xs:element name="geoSet">
+        <xs:complexType>
+            <xs:sequence>
+
+                <!-- main node <internalCode> -->
+                <xs:element name="internalCode" type="xs:string" minOccurs="0"/>
+
+                <!-- main node <unM49> -->
+                <xs:element name="unM49" type="xs:string" minOccurs="0" nillable="true"/>
+
+                <!-- main node <name> -->
+                <xs:element name="name" type="xs:string" minOccurs="0"/>
+
+                <!-- main node <scope> -->
+                <xs:element name="scope" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="code" type="xs:string" minOccurs="0"/>
+                            <xs:element name="description" type="xs:string" minOccurs="0"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <!-- main node <tags> -->
+                <xs:element name="tags" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="tag" type="xs:string" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <!-- main node <countryCodes> -->
+                <xs:element name="countryCodes" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="cc" type="xs:string" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
