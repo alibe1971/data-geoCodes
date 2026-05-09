@@ -1,6 +1,7 @@
 # App Files
 exportConfig.json
 ReleasesData
+buildConfig.local.json
 
 # Logs
 logs
@@ -136,6 +137,5 @@ dist
 
 # JUNIT
 junit.xml
-
 
 

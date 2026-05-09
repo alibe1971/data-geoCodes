@@ -16,6 +16,22 @@ let APP = {
     extra: {}
 };
 
+const BUILD_CONFIG_CANDIDATES = [
+    'buildConfig.local.json',
+    'buildConfig.json',
+    'buildConfig.example.json'
+];
+
+const loadExtraConfig = async () => {
+    for (const configPath of BUILD_CONFIG_CANDIDATES) {
+        if (checkFile(configPath)) {
+            console.log(chalk.cyan('   - Loading build extra config from `' + configPath + '`'));
+            return await readJsonFile(configPath);
+        }
+    }
+    return {};
+};
+
 
 
 (async function build() {
@@ -24,9 +40,7 @@ let APP = {
     });
 
     await (async function extra() {
-        if (checkFile('buildConfig.json')) {
-            APP['extra'] = await readJsonFile('buildConfig.json');
-        }
+        APP['extra'] = await loadExtraConfig();
 
         /** extra.countries.flagsSvgFormat */
         if(
@@ -142,7 +156,7 @@ let APP = {
         console.log(chalk.green('   - DATA EXPORTATION TERMINATED'));
 
     } else {
-        console.log(chalk.yellow('   - DATA EXPORTATION JUMPED (no extra directories defined in `buildConfig.json`)'));
+        console.log(chalk.yellow('   - DATA EXPORTATION JUMPED (no extra directories defined in build config)'));
     }
 
     console.log(chalk.green('PROCESS COMPLETED WITH SUCCESS'));

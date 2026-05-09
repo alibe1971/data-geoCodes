@@ -1,0 +1,26 @@
+{
+    "_notes": {
+        "usage": "Copy this file to buildConfig.local.json and set only the paths you need.",
+        "emptyArrayMeaning": "Leave an empty array [] if you do not have a destination for that app."
+    },
+    "flagsSvgFormat": "10x7",
+    "exportDataDirs": {
+        "json": [
+            "/path/to/json/destination"
+        ],
+        "xml": [
+            "/path/to/xml/destination"
+        ],
+        "yaml": [
+            "/path/to/yaml/destination"
+        ],
+        "go": [
+            "/path/to/go/destination"
+        ],
+        "node": [],
+        "php": [
+            "/path/to/php/destination"
+        ],
+        "xsd": []
+    }
+}
