@@ -2,7 +2,7 @@ import chalk from 'chalk';
 import { cloneFile, createDir, writeFile } from '../utils.js';
 import { js2xml } from 'xml-js';
 import { join, resolve } from 'path';
-import { writeXsdSchemas } from './Xsd/generateXsd.js';
+import { writeOriginTranslationsXsdSchemas, writeXsdSchemas } from './Xsd/generateXsd.js';
 import { configBuild } from '../configBuild.js';
 
 const CONTRACT_XSD_FILES = [
@@ -240,15 +240,10 @@ export const saveDataForXml = {
         const builtXsdPath = join(resolve(destination, '..'), 'xsd');
         const builtXsdOriginPath = join(builtXsdPath, 'origin');
         const builtXsdContractsPath = join(builtXsdPath, 'contracts');
-        const builtXsdTranslationsPath = join(builtXsdOriginPath, 'Translations');
-        const builtXsdTranslationsCategoriesPath = join(builtXsdTranslationsPath, 'Categories');
         const contractsPath = join(resolve(configBuild.readPaths.origin), 'XsdContracts') + '/';
-        const translationsXsdPath = join(resolve(configBuild.readPaths.origin), 'XsdTranslations');
-        const translationsCategoriesXsdPath = join(translationsXsdPath, 'Categories');
         await writeXsdSchemas(builtXsdOriginPath);
+        await writeOriginTranslationsXsdSchemas(builtXsdOriginPath);
         await createDir(builtXsdContractsPath);
-        await createDir(builtXsdTranslationsPath);
-        await createDir(builtXsdTranslationsCategoriesPath);
         for (const contractXsdFile of CONTRACT_XSD_FILES) {
             await cloneFile(
                 contractsPath + contractXsdFile,
@@ -287,10 +282,6 @@ export const saveDataForXml = {
 
             await writeFile(destination + key + '.xml', xmlData);
             await writeFile(destination + key + '.min.xml', xmlMinData);
-            await cloneFile(
-                join(translationsXsdPath, key + '.xsd'),
-                builtXsdTranslationsPath + '/' + key + '.xsd'
-            );
             console.log(chalk.cyan(`         - Main data for 'xml' app for '${key}' has been written`));
 
             /** Translations Data **/
@@ -339,10 +330,6 @@ export const saveDataForXml = {
                         + completeData.TranslationCategoriesDir + key + '.xml', xmlData );
                     await writeFile(destination + completeData.TranslationDir + lang + '/'
                         + completeData.TranslationCategoriesDir + key + '.min.xml', xmlMinData );
-                    await cloneFile(
-                        join(translationsCategoriesXsdPath, key + '.xsd'),
-                        builtXsdTranslationsCategoriesPath + '/' + key + '.xsd'
-                    );
                     console.log(
                         chalk.cyan(
                             '         - Translations Categories language data `' + lang +'` for `xml` app for `'

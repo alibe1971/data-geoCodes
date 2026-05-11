@@ -5,22 +5,33 @@
     },
     "flagsSvgFormat": "10x7",
     "exportDataDirs": {
-        "json": [
-            "/path/to/json/destination"
+        "json":[
+            "/my/defined/path/for/json/files/",
+            "/my/other/defined/path/for/json/files"
         ],
-        "xml": [
-            "/path/to/xml/destination"
+
+        "go":[
+            "/my/defined/path/for/go/files"
         ],
-        "yaml": [
-            "/path/to/yaml/destination"
+
+        "node":[
+
         ],
-        "go": [
-            "/path/to/go/destination"
+
+        "php":[
+            "/my/defined/path/for/php/files"
         ],
-        "node": [],
-        "php": [
-            "/path/to/php/destination"
+
+        "xml":[
+            "/my/defined/path/for/xml/files"
         ],
-        "xsd": []
+
+        "yaml":[
+
+        ],
+
+        "xsd":[
+            "/my/defined/path/for/xsd/files"
+        ]
     }
 }

@@ -1,6 +1,10 @@
 import path from 'path';
 import { createDir, writeFile } from '../../utils.js';
-import { xsdSchemaConfig } from './schemaConfig.js';
+import {
+    xsdOriginTranslationsCategoriesSchemaConfig,
+    xsdOriginTranslationsSchemaConfig,
+    xsdSchemaConfig
+} from './schemaConfig.js';
 
 const LIST_KEYS = ['config', 'countries', 'currencies', 'geoSets', 'languages', 'scripts'];
 const SINGLE_KEYS = ['country', 'currency', 'geoSet', 'language', 'script'];
@@ -22,6 +26,23 @@ export async function writeXsdSchemas(basePath) {
     for (const [filename, xsd] of Object.entries(schemas)) {
         await writeFile(path.join(basePath, filename), xsd);
     }
+}
+
+async function writeSchemaMap(basePath, schemaConfig) {
+    await createDir(basePath);
+    for (const [filename, renderer] of Object.entries(schemaConfig)) {
+        if (typeof renderer !== 'function') {
+            continue;
+        }
+        await writeFile(path.join(basePath, filename), renderer());
+    }
+}
+
+export async function writeOriginTranslationsXsdSchemas(baseOriginPath) {
+    const translationsPath = path.join(baseOriginPath, 'Translations');
+    const categoriesPath = path.join(translationsPath, 'Categories');
+    await writeSchemaMap(translationsPath, xsdOriginTranslationsSchemaConfig);
+    await writeSchemaMap(categoriesPath, xsdOriginTranslationsCategoriesSchemaConfig);
 }
 
 export function getXmlAppXsdMap(schemas) {

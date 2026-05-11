@@ -399,3 +399,115 @@ export const xsdSchemaConfig = {
     'languages.xsd': () => renderCollectionSchema('languages', 'language', languagesBody, 'xs:int'),
     'scripts.xsd': () => renderCollectionSchema('scripts', 'script', scriptsBody, 'xs:int')
 };
+
+const renderSimpleTranslationsSchema = (datasetPlural, itemTag) => `<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="translations${datasetPlural}">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="${itemTag}" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="name" minOccurs="0"/>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="key" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="language"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>`;
+
+const renderCountriesTranslationsSchema = () => `<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="translationsCountries">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="country" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="name" minOccurs="0"/>
+                            <xs:element type="xs:string" name="fullName" minOccurs="0"/>
+                            <xs:element name="demonyms" minOccurs="0">
+                                <xs:complexType mixed="true">
+                                    <xs:sequence>
+                                        <xs:element
+                                            type="xs:string"
+                                            name="demonym"
+                                            maxOccurs="unbounded"
+                                            minOccurs="0"
+                                        />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="keywords" minOccurs="0">
+                                <xs:complexType mixed="true">
+                                    <xs:sequence>
+                                        <xs:element
+                                            type="xs:string"
+                                            name="keyword"
+                                            maxOccurs="unbounded"
+                                            minOccurs="0"
+                                        />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="key" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="language"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>`;
+
+const renderEnumNodeElements = entries => entries
+    .map(value => `                            <xs:element name="${value}" type="xs:string" minOccurs="0"/>`)
+    .join('\n');
+
+const renderTranslationsCategoriesSchema = (datasetPlural, sections) => {
+    const sectionsXml = sections.map(section => `                <xs:element name="${section.name}" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+${renderEnumNodeElements(section.values)}
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>`).join('\n');
+    return `<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="translationsCategories${datasetPlural}">
+        <xs:complexType>
+            <xs:sequence>
+${sectionsXml}
+            </xs:sequence>
+            <xs:attribute name="language" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>`;
+};
+
+export const xsdOriginTranslationsSchemaConfig = {
+    'countries.xsd': () => renderCountriesTranslationsSchema(),
+    'currencies.xsd': () => renderSimpleTranslationsSchema('Currencies', 'currency'),
+    'geoSets.xsd': () => renderSimpleTranslationsSchema('GeoSets', 'geoSet'),
+    'languages.xsd': () => renderSimpleTranslationsSchema('Languages', 'language'),
+    'scripts.xsd': () => renderSimpleTranslationsSchema('Scripts', 'script')
+};
+
+export const xsdOriginTranslationsCategoriesSchemaConfig = {
+    'currencies.xsd': () => renderTranslationsCategoriesSchema('Currencies', [
+        { name: 'scope', values: configBuild.extra.currencies.scopes }
+    ]),
+    'geoSets.xsd': () => renderTranslationsCategoriesSchema('GeoSets', [
+        { name: 'scope', values: configBuild.extra.geoSets.internalCode }
+    ]),
+    'languages.xsd': () => renderTranslationsCategoriesSchema('Languages', [
+        { name: 'scope', values: configBuild.extra.languages.scopes },
+        { name: 'type', values: configBuild.extra.languages.types }
+    ]),
+    'scripts.xsd': () => renderTranslationsCategoriesSchema('Scripts', [
+        { name: 'writingDirection', values: configBuild.extra.scripts.direction }
+    ])
+};

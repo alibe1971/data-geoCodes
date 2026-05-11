@@ -1,23 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:element name="translationsCountries">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="country" maxOccurs="unbounded" minOccurs="1">
+                <xs:element name="country" maxOccurs="unbounded" minOccurs="0">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element type="xs:string" name="name" minOccurs="1"/>
-                            <xs:element type="xs:string" name="fullName" minOccurs="1"/>
-                            <xs:element name="demonyms" minOccurs="1">
+                            <xs:element type="xs:string" name="name" minOccurs="0"/>
+                            <xs:element type="xs:string" name="fullName" minOccurs="0"/>
+                            <xs:element name="demonyms" minOccurs="0">
                                 <xs:complexType mixed="true">
                                     <xs:sequence>
-                                        <xs:element type="xs:string" name="demonym" maxOccurs="unbounded" minOccurs="0"/>
+                                        <xs:element
+                                            type="xs:string"
+                                            name="demonym"
+                                            maxOccurs="unbounded"
+                                            minOccurs="0"
+                                        />
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="keywords" minOccurs="1">
+                            <xs:element name="keywords" minOccurs="0">
                                 <xs:complexType mixed="true">
                                     <xs:sequence>
-                                        <xs:element type="xs:string" name="keyword" maxOccurs="unbounded" minOccurs="0"/>
+                                        <xs:element
+                                            type="xs:string"
+                                            name="keyword"
+                                            maxOccurs="unbounded"
+                                            minOccurs="0"
+                                        />
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>

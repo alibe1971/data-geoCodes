@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
-    <!-- Root element -->
     <xs:element name="translationsCategoriesGeoSets">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="scope">
+                <xs:element name="scope" minOccurs="0">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="GEOG" type="xs:string" minOccurs="1"/>
-                            <xs:element name="CONV" type="xs:string" minOccurs="1"/>
-                            <xs:element name="ORGS" type="xs:string" minOccurs="1"/>
+                            <xs:element name="GEOG" type="xs:string" minOccurs="0"/>
+                            <xs:element name="CONV" type="xs:string" minOccurs="0"/>
+                            <xs:element name="ORGS" type="xs:string" minOccurs="0"/>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
-
-            <!-- Attribute -->
             <xs:attribute name="language" type="xs:string" use="required"/>
         </xs:complexType>
     </xs:element>
