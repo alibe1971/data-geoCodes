@@ -20,6 +20,8 @@ const BUILD_CONFIG_BASE = 'buildConfig.example.json';
 const BUILD_CONFIG_FALLBACK = 'buildConfig.json';
 const BUILD_CONFIG_LOCAL = 'buildConfig.local.json';
 
+console.log(chalk.green('PROCESS BEGIN'));
+
 const isObject = value => value !== null && typeof value === 'object' && !Array.isArray(value);
 
 const deepMerge = (base, override) => {
@@ -115,13 +117,13 @@ const loadExtraConfig = async () => {
 
     console.log(chalk.yellow('   - DATA PARSING'));
 
-    console.log(chalk.magenta('      - Begin to parse `config` data'));
+    console.log(chalk.magenta('      - Parsing `config` data'));
     APP['config'] = await configBuild.configFunctions.DataParse(
         await readJsonFile(configBuild.readPaths.origin + 'config.json')
     );
-    console.log(chalk.green('      - Data `Config` parsing completed with success'));
+    console.log(chalk.green('      - Parsed `config` data'));
     for (const [key, functions] of Object.entries(configBuild.appData)) {
-        console.log(chalk.magenta('      - Begin to parse `' + key + '` data'));
+        console.log(chalk.magenta('      - Parsing `' + key + '` data'));
         APP.data[key] = await functions.DataParse(
             await readJsonFile(configBuild.readPaths.origin + key + '.json')
         );
@@ -152,38 +154,37 @@ const loadExtraConfig = async () => {
             );
         }
 
-        console.log(chalk.green('      - Data `' + key + '` parsing completed with success'));
+        console.log(chalk.green('      - Parsed `' + key + '` data'));
     }
-    console.log(chalk.green('   - DATA PARSING SUCCEDED'));
+    console.log(chalk.green('   - DATA PARSING SUCCEEDED'));
 
     console.log(chalk.yellow('   - DATA FILE WRITING'));
     for (const [app, functions] of Object.entries(configBuild.Apps)) {
-        console.log(chalk.magenta('      - Begin to write the `' + app + '` data'));
+        console.log(chalk.magenta('      - Writing `' + app + '` data'));
         await cleanDir(
             configBuild.readPaths.destin + app,
             '/' + configBuild.TranslationDir + '/',
             '/' +configBuild.TranslationCategoriesDir,
             APP['config'].settings.languages.inPackage
         );
-        console.log(chalk.cyan('         - The `' + app + '` directory has now been cleaned'));
+        console.log(chalk.cyan('         - Cleaned `' + app + '` output directory'));
         await functions.save(configBuild.readPaths.destin + app + '/', APP);
-        console.log(chalk.green('      - The writing of the `' + app + '` data has been successfully ended'));
+        console.log(chalk.green('      - Wrote `' + app + '` data'));
     }
-    console.log(chalk.green('   - DATA FILE WRITTEN SUCCESSFULLY'));
+    console.log(chalk.green('   - DATA FILE WRITING COMPLETED'));
 
     if ( requirements(Object.keys(APP['extra'].exportDataDirs), 'cannotBeEmpty')) {
-        console.log(chalk.green('   - BEGIN DATA EXPORT'));
+        console.log(chalk.yellow('   - DATA EXPORT'));
         for (const [app, paths] of Object.entries(APP['extra'].exportDataDirs)) {
             if (app !== 'xsd' && !Object.prototype.hasOwnProperty.call(configBuild.Apps, app)) {
-                console.log(chalk.red('         - The `' + app + '` is not part in this project. Skipping ...'));
+                console.log(chalk.red('      - `' + app + '` is not part of this project. Skipping.'));
                 continue;
             }
             if (paths.length === 0) {
-                console.log(chalk.red('         - The `' + app + '` has no path where execute the export. ' +
-                    'Skipping ...'));
+                console.log(chalk.red('      - `' + app + '` has no export paths. Skipping.'));
                 continue;
             }
-            console.log(chalk.magenta('         - Exporting the `' + app + '` data ...'));
+            console.log(chalk.magenta('      - Exporting `' + app + '` data'));
             const sourcePath = app === 'xsd'
                 ? configBuild.readPaths.destin + 'xsd'
                 : configBuild.readPaths.destin + app;
@@ -193,25 +194,24 @@ const loadExtraConfig = async () => {
                     path.length === 0 ||
                     !await checkDir(path)
                 ) {
-                    console.log(chalk.red('            - The directory `' + path +
-                        '` for the app `' + app + '` does not exist. Skipping ...'));
+                    console.log(chalk.red('         - Directory `' + path
+                        + '` for app `' + app + '` does not exist. Skipping.'));
                     continue;
                 }
                 try {
                     await cloneDir(sourcePath, path);
-                    console.log(chalk.cyan('            - The `' + app + '` data successfully exported in `' +
-                        path + '`'));
+                    console.log(chalk.cyan('         - Exported `' + app + '` data to `' + path + '`'));
                 } catch (e) {
-                    console.log(chalk.red('            - The cloning operation in the directory `' + path +
-                        '` for the app `' + app + '` returned with this error:`' + e + '`. Skipping ...'));
+                    console.log(chalk.red('         - Export to `' + path + '` for app `' + app
+                        + '` failed with error: `' + e + '`. Skipping.'));
                 }
             }
         }
 
-        console.log(chalk.green('   - DATA EXPORTATION TERMINATED'));
+        console.log(chalk.green('   - DATA EXPORT COMPLETED'));
 
     } else {
-        console.log(chalk.yellow('   - DATA EXPORTATION JUMPED (no extra directories defined in build config)'));
+        console.log(chalk.yellow('   - DATA EXPORT SKIPPED (no extra directories in build config)'));
     }
 
     console.log(chalk.green('PROCESS COMPLETED WITH SUCCESS'));
@@ -220,6 +220,3 @@ const loadExtraConfig = async () => {
     console.error(chalk.red(err));
     process.exit(1);
 });
-
-
-console.log(chalk.green('PROCESS BEGIN'));

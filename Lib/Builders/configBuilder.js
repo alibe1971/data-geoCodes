@@ -1,95 +1,89 @@
 import chalk from 'chalk';
-import {errorMessage, refactorLanguages, requirements} from '../utils.js';
+import { errorMessage, refactorLanguages, requirements } from '../utils.js';
+import { configSchemaConfig } from '../configConfigSchema.js';
 
 const collection = 'Config';
 
-let Config = {
-    settings: {
-        languages: {
-            default: null,
-            inPackage: {}
-        }
+function throwMex(prop, message) {
+    throw new Error(errorMessage('main', collection, null, null, prop, message));
+}
+
+function validateObjectField(parent, key, propPath, rule) {
+    if (rule.required && !Object.prototype.hasOwnProperty.call(parent, key)) {
+        throwMex(propPath, 'Required property is missing');
     }
-};
+    if (
+        !requirements(parent[key], 'mustBeObject') ||
+        (rule.cannotBeEmpty && !requirements(parent[key], 'cannotBeEmpty'))
+    ) {
+        throwMex(propPath, 'The property must be a not empty object');
+    }
+}
+
+function normalizeLanguageCode(lang, propPath) {
+    if (!requirements(lang, 'mustBeString')) {
+        throwMex(propPath, 'The property must be a string');
+    }
+    const normalized = refactorLanguages(lang);
+    if (normalized === 'error' || !requirements(normalized, 'bcp47')) {
+        throwMex(propPath, `The value for the property (${normalized}) non-compliant with BCP 47 format`);
+    }
+    if (!Intl.Collator.supportedLocalesOf([normalized]).length) {
+        throwMex(
+            propPath,
+            `The value for the property (${normalized}) is not supported by the International Components for Unicode`
+        );
+    }
+    return normalized;
+}
 
 export const configFunctions = {
 
     DataParse: async data => {
-
-        function throwMex(prop, message) {
-            throw new Error( errorMessage('main', collection, null, null, prop, message));
+        if (!requirements(data, 'mustBeObject')) {
+            throwMex('root', 'The property must be a not empty object');
         }
 
-        /** settings: must be present */
-        if(!Object.prototype.hasOwnProperty.call(data, 'settings')) {
-            throwMex('settings', 'Required property is missing');
-        }
-        /** settings: must be an object */
-        if(
-            !requirements(data.settings, 'mustBeObject') ||
-            !requirements(data.settings, 'cannotBeEmpty')
-        ) {
-            throwMex('settings', 'The property must be a not empty object');
-        }
+        validateObjectField(data, 'settings', 'settings', configSchemaConfig.settings);
+        validateObjectField(data.settings, 'languages', 'settings.languages', configSchemaConfig.languages);
 
-        /** settings.languages: must be present */
-        if(!Object.prototype.hasOwnProperty.call(data.settings, 'languages')) {
-            throwMex('settings.languages', 'Required property is missing');
-        }
-        /** settings.languages: must be a not empty object */
-        if(
-            !requirements(data.settings.languages, 'mustBeObject') ||
-            !requirements(data.settings.languages, 'cannotBeEmpty')
-        ) {
-            throwMex('settings.languages', 'The property must be a not empty object');
-        }
+        const fields = configSchemaConfig.fields;
+        const languages = data.settings.languages;
 
-        /** settings.languages.inPackage: must be present */
-        if(!Object.prototype.hasOwnProperty.call(data.settings.languages, 'inPackage')) {
+        if (fields.inPackage.required && !Object.prototype.hasOwnProperty.call(languages, 'inPackage')) {
             throwMex('settings.languages.inPackage', 'Required property is missing');
         }
-        let inPackage = [];
-        if(!requirements(data.settings.languages.inPackage, 'mustBeArray') ) {
-            throwMex('settings.languages.inPackage','The property must be an  array');
+        if (!requirements(languages.inPackage, 'mustBeArray')) {
+            throwMex('settings.languages.inPackage', 'The property must be an  array');
         }
-        for (let [index, lang] of data.settings.languages.inPackage.entries()) {
-            lang = refactorLanguages(lang);
-            if ( lang == 'error' || !requirements(lang, 'bcp47') ) {
-                throwMex('settings.languages.inPackage.' + index,
-                    'The value for the property (' + lang + ') ' +
-                    'non-compliant with BCP 47 format');
-            }
-            if (!Intl.Collator.supportedLocalesOf([lang]).length) {
-                throwMex('settings.languages.inPackage.' + index,
-                    'The value for the property (' + lang + ') is not supported by the International Components '
-                    + 'for Unicode');
-            }
-            inPackage.push(lang);
-        }
-        Config.settings.languages.inPackage = inPackage;
 
-        /** settings.languages.default: must be present */
-        if(!Object.prototype.hasOwnProperty.call(data.settings.languages, 'default')) {
+        const inPackage = [];
+        for (const [index, lang] of languages.inPackage.entries()) {
+            inPackage.push(normalizeLanguageCode(lang, `settings.languages.inPackage.${index}`));
+        }
+
+        if (fields.default.required && !Object.prototype.hasOwnProperty.call(languages, 'default')) {
             throwMex('settings.languages.default', 'Required property is missing');
         }
-        /** settings.languages.default: must have BCP 47 valid format */
-        data.settings.languages.default = refactorLanguages(data.settings.languages.default);
-        if ( data.settings.languages.default == 'error' || !requirements(data.settings.languages.default, 'bcp47') ) {
-            throwMex('data.settings.languages.default',
-                'The value for the property (' + data.settings.languages.default + ') ' +
-                'non-compliant with BCP 47 format');
-        }
-        /** settings.languages.default: must be present in the `inPackage` values  */
-        Config.settings.languages.default = data.settings.languages.default;
-        if(
-            !Config.settings.languages.inPackage.includes(Config.settings.languages.default)
-        ) {
-            throwMex('settings.languages.default',
-                'The property value must be present in the `settings.languages.inPackage` array');
+        const defaultLang = normalizeLanguageCode(languages.default, 'settings.languages.default');
+
+        if (fields.default.mustBeIn === 'inPackage' && !inPackage.includes(defaultLang)) {
+            throwMex(
+                'settings.languages.default',
+                'The property value must be present in the `settings.languages.inPackage` array'
+            );
         }
 
-        console.log(chalk.cyan('         - Main data for `' + collection +'` parsed'));
-        return Config;
+        const configOut = {
+            settings: {
+                languages: {
+                    default: defaultLang,
+                    inPackage
+                }
+            }
+        };
+
+        console.log(chalk.cyan(`         - Main data for \`${collection}\` parsed`));
+        return configOut;
     }
 };
-

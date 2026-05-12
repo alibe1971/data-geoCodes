@@ -4,7 +4,6 @@ import { writeFile } from '../utils.js';
 
 export const saveDataForJson = {
     save: async (destination, completeData) => {
-        console.log(completeData.translationsCategories);
         /** Configuration **/
         let jsonData = JSON.stringify(completeData.config, null, 4);
         let jsonMinData = JSON.stringify(completeData.config);
@@ -56,4 +55,3 @@ export const saveDataForJson = {
         }
     }
 };
-

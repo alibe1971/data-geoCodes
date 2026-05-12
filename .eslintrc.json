@@ -25,6 +25,9 @@
       "ignoreRegExpLiterals": false,
       "ignoreStrings": false,
       "ignoreTemplateLiterals": false
+    }],
+    "no-unused-vars": ["error", {
+      "argsIgnorePattern": "^_"
     }]
   }
 }
